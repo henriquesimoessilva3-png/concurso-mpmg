@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDouble
+.LSOverride
+*.icloud
+
+# Google Drive
+.tmp.driveupload
+.tmp.drivedownload
+.com.google.*
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backups
+*.bak
+*.backup
+*.orig

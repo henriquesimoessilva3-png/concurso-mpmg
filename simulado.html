@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulado · Concurso MPMG</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-exercicios">
+
+<header class="app-header">
+  <div class="container">
+    <div class="back-bar">
+      <a href="index.html">← Painel</a>
+      <span class="breadcrumb">Banco de questões · Simulado</span>
+    </div>
+    <h1 class="small">✍️ Simulado · Banco de questões</h1>
+    <p class="subtitle tight">Teste seu conhecimento de Processo Civil</p>
+  </div>
+</header>
+
+<main class="container-narrow">
+
+  <!-- TELA 1: SETUP -->
+  <div id="screen-setup" class="article-block">
+    <h1>Configurar simulado</h1>
+    <p>Escolha as opções e comece. As questões e seu desempenho ficam salvos no navegador.</p>
+
+    <div class="form-row">
+      <label>Tópico (filtrar):</label>
+      <select id="filter-topic"></select>
+    </div>
+
+    <div class="form-row cols-2">
+      <div>
+        <label>Quantidade de questões:</label>
+        <select id="qty">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="0">Todas disponíveis</option>
+        </select>
+      </div>
+      <div>
+        <label>Modo:</label>
+        <select id="mode">
+          <option value="study">Estudo (resposta após cada)</option>
+          <option value="exam">Prova (resposta no fim)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-row cols-2">
+      <div>
+        <label>Cronômetro:</label>
+        <select id="timer">
+          <option value="0">Sem cronômetro</option>
+          <option value="60">1 min/questão</option>
+          <option value="90" selected>1m30s/questão</option>
+          <option value="120">2 min/questão</option>
+        </select>
+      </div>
+      <div>
+        <label>Ordem:</label>
+        <select id="order">
+          <option value="random" selected>Aleatória</option>
+          <option value="sequential">Por tópico (sequencial)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="callout callout-info" id="info-count" style="margin-top:0.8rem;">
+      <span id="available-count">—</span>
+    </div>
+
+    <div class="btn-row" style="margin-top:1rem;">
+      <button class="btn btn-danger" id="btn-start">▶ Começar simulado</button>
+      <a class="btn btn-ghost" href="log.html#erros">Ver log de erros</a>
+    </div>
+
+    <h2 style="margin-top:2rem;">📊 Histórico de simulados</h2>
+    <div id="history"></div>
+  </div>
+
+  <!-- TELA 2: QUESTÕES -->
+  <div id="screen-quiz" style="display:none;">
+    <div class="block" style="margin-bottom:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
+        <span><strong>Questão <span id="q-current">1</span> de <span id="q-total">10</span></strong> · <span id="q-topic"></span></span>
+        <span class="timer-display" id="timer-display" style="display:none;">00:00</span>
+      </div>
+      <div class="progress-bar-container" style="margin-top:0.5rem; margin-bottom:0;">
+        <div class="progress-bar" id="quiz-progress"></div>
+      </div>
+    </div>
+
+    <div class="question-card" id="question-card"></div>
+
+    <div class="btn-row" style="justify-content:space-between; margin-top:1rem;">
+      <button class="btn btn-ghost" id="btn-skip">Pular</button>
+      <button class="btn btn-danger" id="btn-confirm">Confirmar resposta</button>
+    </div>
+  </div>
+
+  <!-- TELA 3: RESULTADO -->
+  <div id="screen-result" style="display:none;">
+    <div class="article-block">
+      <h1>📊 Resultado do simulado</h1>
+      <div class="flashcard-stats">
+        <span><strong id="r-acertos">0</strong><br>acertos</span>
+        <span><strong id="r-erros">0</strong><br>erros</span>
+        <span><strong id="r-pct">0%</strong><br>aproveitamento</span>
+        <span><strong id="r-tempo">0:00</strong><br>tempo total</span>
+      </div>
+      <div id="r-summary"></div>
+      <h2 style="margin-top:1.5rem;">Revisão das respostas</h2>
+      <div id="r-review"></div>
+      <div class="btn-row" style="margin-top:1.5rem;">
+        <button class="btn btn-danger" id="btn-restart">Novo simulado</button>
+        <a class="btn" href="log.html#erros">Ver log de erros</a>
+        <a class="btn btn-ghost" href="index.html">↑ Painel</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer><p>📚 Projeto Concurso MPMG · Errar é o melhor professor</p></footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  const allQuestions = APP_DATA.questions;
+  const filterTopic = document.getElementById('filter-topic');
+
+  // popula filtro
+  filterTopic.innerHTML = '<option value="">Todos os tópicos disponíveis</option>';
+  APP_DATA.topics.forEach(t => {
+    const cnt = allQuestions.filter(q => q.topic === t.num).length;
+    if (cnt > 0) {
+      const o = document.createElement('option');
+      o.value = t.num;
+      o.textContent = `${t.num}. ${t.title} (${cnt})`;
+      filterTopic.appendChild(o);
+    }
+  });
+
+  // tópico via URL
+  const pretopic = parseInt(App.getQueryParam('topic')) || null;
+  if (pretopic) filterTopic.value = String(pretopic);
+
+  function updateAvailable() {
+    const t = parseInt(filterTopic.value);
+    const arr = t ? allQuestions.filter(q => q.topic === t) : allQuestions;
+    const span = document.getElementById('available-count');
+    span.textContent = `${arr.length} questão(ões) disponível(eis) para esse filtro.`;
+  }
+  filterTopic.addEventListener('change', updateAvailable);
+  updateAvailable();
+
+  // historico
+  const HIST_KEY = 'simulado-history';
+  const ERR_KEY = 'log-erros';
+
+  function renderHistory() {
+    const hist = App.load(HIST_KEY, []);
+    const div = document.getElementById('history');
+    if (!hist.length) {
+      div.innerHTML = '<p style="color:var(--text-muted);">Nenhum simulado realizado ainda.</p>';
+      return;
+    }
+    let html = '<table><thead><tr><th>Data</th><th>Filtro</th><th>Acertos</th><th>%</th><th>Tempo</th></tr></thead><tbody>';
+    hist.slice().reverse().slice(0, 10).forEach(h => {
+      html += `<tr>
+        <td>${App.formatDateTime(h.date)}</td>
+        <td>${App.escape(h.filter || 'Geral')}</td>
+        <td>${h.right}/${h.total}</td>
+        <td><strong>${h.pct}%</strong></td>
+        <td>${h.time}</td>
+      </tr>`;
+    });
+    html += '</tbody></table>';
+    div.innerHTML = html;
+  }
+  renderHistory();
+
+  // ----- Simulado state -----
+  let session = null;
+
+  document.getElementById('btn-start').addEventListener('click', startQuiz);
+  document.getElementById('btn-confirm').addEventListener('click', confirmAnswer);
+  document.getElementById('btn-skip').addEventListener('click', skipQuestion);
+  document.getElementById('btn-restart').addEventListener('click', () => {
+    document.getElementById('screen-result').style.display = 'none';
+    document.getElementById('screen-setup').style.display = '';
+    renderHistory();
+  });
+
+  function startQuiz() {
+    const t = parseInt(filterTopic.value);
+    let pool = t ? allQuestions.filter(q => q.topic === t) : allQuestions.slice();
+    if (!pool.length) { alert('Sem questões para esse filtro.'); return; }
+
+    if (document.getElementById('order').value === 'random') {
+      pool.sort(() => Math.random() - 0.5);
+    } else {
+      pool.sort((a, b) => a.topic - b.topic);
+    }
+
+    let qty = parseInt(document.getElementById('qty').value);
+    if (qty > 0) pool = pool.slice(0, qty);
+
+    const timer = parseInt(document.getElementById('timer').value);
+    const mode = document.getElementById('mode').value;
+    const filterLabel = t ? (APP_DATA.topics.find(x => x.num === t).title) : 'Geral';
+
+    session = {
+      questions: pool, idx: 0, answers: [], startedAt: Date.now(),
+      timerSeconds: timer, mode, filterLabel, filter: t
+    };
+
+    document.getElementById('screen-setup').style.display = 'none';
+    document.getElementById('screen-quiz').style.display = '';
+    document.getElementById('q-total').textContent = pool.length;
+    showQuestion();
+  }
+
+  let timerHandle = null;
+  let questionStart = 0;
+
+  function showQuestion() {
+    if (timerHandle) clearInterval(timerHandle);
+    const q = session.questions[session.idx];
+    if (!q) return finish();
+
+    document.getElementById('q-current').textContent = session.idx + 1;
+    const tName = (APP_DATA.topics.find(t => t.num === q.topic) || {}).title || '';
+    document.getElementById('q-topic').innerHTML = `<span class="tag tag-foco">Tópico ${q.topic}</span> ${App.escape(tName)}`;
+    document.getElementById('quiz-progress').style.width = `${(session.idx / session.questions.length) * 100}%`;
+
+    const card = document.getElementById('question-card');
+    const altsHtml = q.alternatives.map((alt, i) => {
+      const letter = String.fromCharCode(65 + i);
+      return `<label class="alternative" data-letter="${letter}">
+        <input type="radio" name="ans" value="${letter}">
+        <div><span class="letter">${letter})</span> ${App.escape(alt)}</div>
+      </label>`;
+    }).join('');
+
+    card.innerHTML = `
+      <div class="question-meta">
+        <span>📋 ${App.escape(q.banca || 'Banca')}</span>
+        ${q.concurso ? `<span>· ${App.escape(q.concurso)}</span>` : ''}
+        <span>· Nível: ${App.escape(q.nivel || 'Médio')}</span>
+      </div>
+      <div class="question-statement">${App.escape(q.statement)}</div>
+      <div class="alternatives">${altsHtml}</div>
+      <div id="explain" style="display:none;"></div>
+    `;
+
+    questionStart = Date.now();
+
+    if (session.timerSeconds > 0) {
+      const tDisplay = document.getElementById('timer-display');
+      tDisplay.style.display = 'inline-block';
+      let remaining = session.timerSeconds;
+      const update = () => {
+        const m = Math.floor(remaining / 60), s = remaining % 60;
+        tDisplay.textContent = `${m}:${String(s).padStart(2,'0')}`;
+        if (remaining <= 10) tDisplay.style.color = 'var(--accent-3)';
+        else tDisplay.style.color = '';
+        if (remaining <= 0) {
+          clearInterval(timerHandle);
+          confirmAnswer(true);
+        }
+        remaining--;
+      };
+      update();
+      timerHandle = setInterval(update, 1000);
+    } else {
+      document.getElementById('timer-display').style.display = 'none';
+    }
+  }
+
+  function getSelected() {
+    const r = document.querySelector('input[name="ans"]:checked');
+    return r ? r.value : null;
+  }
+
+  function confirmAnswer(timedOut) {
+    const q = session.questions[session.idx];
+    const sel = getSelected();
+    if (!sel && !timedOut) {
+      alert('Selecione uma alternativa ou clique em Pular.');
+      return;
+    }
+    const correct = q.correct;
+    const right = sel === correct;
+    const elapsed = Math.round((Date.now() - questionStart) / 1000);
+    session.answers.push({ qid: q.id, given: sel, correct, right, elapsed, timedOut: !!timedOut });
+
+    // se errou, registra no log de erros
+    if (!right) {
+      const errLog = App.load(ERR_KEY, []);
+      errLog.push({
+        date: new Date().toISOString(),
+        questionId: q.id,
+        topic: q.topic,
+        statement: q.statement,
+        given: sel || '(não respondeu)',
+        correct: correct,
+        explanation: q.explanation
+      });
+      App.save(ERR_KEY, errLog);
+    }
+
+    if (session.mode === 'study') {
+      // mostrar gabarito
+      document.querySelectorAll('.alternative').forEach(el => {
+        const letter = el.dataset.letter;
+        if (letter === correct) el.classList.add('correct');
+        if (sel === letter && letter !== correct) el.classList.add('wrong');
+      });
+      const ex = document.getElementById('explain');
+      ex.style.display = '';
+      ex.className = 'question-explanation';
+      ex.innerHTML = `<strong>${right ? '✅ Correto.' : '❌ Errou. Gabarito: ' + correct}</strong><br>${App.escape(q.explanation)}`;
+      document.getElementById('btn-confirm').textContent = 'Próxima →';
+      document.getElementById('btn-confirm').onclick = nextQuestion;
+    } else {
+      nextQuestion();
+    }
+  }
+
+  function nextQuestion() {
+    session.idx++;
+    document.getElementById('btn-confirm').textContent = 'Confirmar resposta';
+    document.getElementById('btn-confirm').onclick = confirmAnswer;
+    if (session.idx >= session.questions.length) finish();
+    else showQuestion();
+  }
+
+  function skipQuestion() {
+    confirmAnswer(true);
+  }
+
+  function finish() {
+    if (timerHandle) clearInterval(timerHandle);
+    const total = session.questions.length;
+    const right = session.answers.filter(a => a.right).length;
+    const wrong = total - right;
+    const pct = total > 0 ? Math.round((right / total) * 100) : 0;
+    const totalSec = Math.round((Date.now() - session.startedAt) / 1000);
+    const m = Math.floor(totalSec / 60), s = totalSec % 60;
+    const timeStr = `${m}:${String(s).padStart(2,'0')}`;
+
+    document.getElementById('r-acertos').textContent = right;
+    document.getElementById('r-erros').textContent = wrong;
+    document.getElementById('r-pct').textContent = pct + '%';
+    document.getElementById('r-tempo').textContent = timeStr;
+
+    let summary = '';
+    if (pct >= 70) summary = '<div class="callout callout-tip"><strong>🎯 Excelente!</strong> Aproveitamento dentro/acima da meta de prova. Continue assim.</div>';
+    else if (pct >= 50) summary = '<div class="callout callout-info"><strong>👍 Bom.</strong> Aproveitamento intermediário. Foque nas erradas — virar flashcard.</div>';
+    else summary = '<div class="callout callout-warn"><strong>⚠️ Aproveitamento baixo.</strong> Não tem problema — ainda no início. Reveja os tópicos das questões erradas e refaça em D+7.</div>';
+    document.getElementById('r-summary').innerHTML = summary;
+
+    // review detalhado
+    let reviewHtml = '';
+    session.answers.forEach((a, i) => {
+      const q = session.questions[i];
+      const tName = (APP_DATA.topics.find(t => t.num === q.topic) || {}).title || '';
+      reviewHtml += `<details ${!a.right ? 'open' : ''}>
+        <summary>${a.right ? '✅' : '❌'} Questão ${i+1} · Tópico ${q.topic}: ${App.escape(tName)}</summary>
+        <p><strong>Enunciado:</strong> ${App.escape(q.statement)}</p>
+        <p><strong>Sua resposta:</strong> ${a.given || '(nenhuma)'} · <strong>Gabarito:</strong> ${q.correct}</p>
+        <p><strong>Explicação:</strong> ${App.escape(q.explanation)}</p>
+      </details>`;
+    });
+    document.getElementById('r-review').innerHTML = reviewHtml;
+
+    // salva histórico
+    const hist = App.load(HIST_KEY, []);
+    hist.push({
+      date: new Date().toISOString(),
+      filter: session.filterLabel,
+      total, right, wrong, pct, time: timeStr
+    });
+    App.save(HIST_KEY, hist);
+
+    document.getElementById('screen-quiz').style.display = 'none';
+    document.getElementById('screen-result').style.display = '';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+})();
+</script>
+
+</body>
+</html>

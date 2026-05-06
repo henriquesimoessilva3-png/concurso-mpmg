@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Referência · Concurso MPMG</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-fontes">
+
+<header class="app-header">
+  <div class="container">
+    <div class="back-bar">
+      <a href="index.html">← Painel</a>
+      <span class="breadcrumb">Referência · Súmulas, doutrina, edital</span>
+    </div>
+    <h1 class="small">📚 Referência</h1>
+    <p class="subtitle tight">Súmulas · Doutrina · Análise do edital</p>
+  </div>
+</header>
+
+<main class="container-narrow">
+
+  <div class="tabs">
+    <button class="tab active" data-tab="sumulas">⚖️ Súmulas</button>
+    <button class="tab" data-tab="doutrina">📖 Doutrina</button>
+    <button class="tab" data-tab="leis">📜 Leis correlatas</button>
+    <button class="tab" data-tab="edital">🎯 Análise do edital</button>
+    <button class="tab" data-tab="metodo">🧠 Metodologia</button>
+  </div>
+
+  <!-- SÚMULAS -->
+  <div class="tab-content active" id="tab-sumulas">
+    <div class="article-block">
+      <h1>Súmulas e Súmulas Vinculantes (Processo Civil)</h1>
+      <p>Curadoria das súmulas mais relevantes para o edital. Filtre por tribunal ou tópico.</p>
+
+      <div class="form-row" style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+        <label style="margin:0;">Tribunal:</label>
+        <select id="f-tribunal" style="max-width:140px;">
+          <option value="">Todos</option>
+          <option value="STF">STF</option>
+          <option value="STJ">STJ</option>
+        </select>
+        <label style="margin:0;">Tópico:</label>
+        <select id="f-topic" style="max-width:300px;"></select>
+        <input type="text" id="f-text" placeholder="Buscar no texto…" style="flex:1; min-width:200px;">
+      </div>
+
+      <div id="sumulas-list" style="margin-top:1rem;"></div>
+    </div>
+  </div>
+
+  <!-- DOUTRINA -->
+  <div class="tab-content" id="tab-doutrina">
+    <div class="article-block">
+      <h1>📖 Doutrina recomendada</h1>
+      <div class="callout callout-info">
+        <strong>Princípio:</strong> 1 doutrina principal por matéria. Não acumular livros. Trocar só se claramente não funcionar.
+      </div>
+      <div id="doutrina-list"></div>
+
+      <h2>Como escolher uma doutrina</h2>
+      <ul>
+        <li><strong>Para 1h/dia:</strong> Sinopse Juspodivm (condensada, foco em concurso)</li>
+        <li><strong>Para 2h+/dia:</strong> Daniel Amorim (manual completo) é melhor relação custo-benefício</li>
+        <li><strong>Para consulta pontual:</strong> Fredie Didier (3 volumes) é referência doutrinária</li>
+      </ul>
+
+      <h2>Outros suportes</h2>
+      <ul>
+        <li><strong>Lei seca:</strong> CPC.pdf já está na pasta. Verificar atualização até 2025/26 (alterações Leis 14.230/21, 14.344/22, 14.532/23)</li>
+        <li><strong>Jurisprudência:</strong> dedicar 30 min/semana para informativos novos (use a aba Súmulas como base)</li>
+        <li><strong>Cursos preparatórios:</strong> avaliar só após 2 meses de estudo orgânico — saber primeiro o que está funcionando</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- LEIS -->
+  <div class="tab-content" id="tab-leis">
+    <div class="article-block">
+      <h1>📜 Leis correlatas (Processo Civil)</h1>
+      <p>Índice das ~30 leis citadas no edital, ordenadas por tema.</p>
+
+      <h2>Lei principal</h2>
+      <ul>
+        <li><strong>Lei 13.105/2015 — CPC</strong> · está em <code>02-MATERIAS/G3-direito-processual-civil/02-leis-secas/CPC.pdf</code></li>
+      </ul>
+
+      <h2>Leis específicas (Fase 1 · Itens 1-20)</h2>
+      <table>
+        <thead><tr><th>Lei</th><th>Tema</th><th>Item edital</th></tr></thead>
+        <tbody>
+          <tr><td>Lei 1.060/1950</td><td>Assistência judiciária (revogada parcialmente pelo CPC)</td><td>17</td></tr>
+          <tr><td>Lei 4.717/1965</td><td>Ação Popular</td><td>20</td></tr>
+          <tr><td>Lei 7.347/1985</td><td>Ação Civil Pública</td><td>20</td></tr>
+          <tr><td>Lei 8.078/1990</td><td>CDC (coisa julgada coletiva, art. 103)</td><td>11, 20</td></tr>
+          <tr><td>Lei 8.429/1992</td><td>Improbidade (alterada pela Lei 14.230/21)</td><td>20</td></tr>
+          <tr><td>Lei 9.099/1995</td><td>Juizados Especiais Cíveis</td><td>18</td></tr>
+          <tr><td>Lei 9.507/1997</td><td>Habeas Data</td><td>20</td></tr>
+          <tr><td>Lei 10.259/2001</td><td>Juizados Especiais Federais</td><td>18</td></tr>
+          <tr><td>Lei 11.419/2006</td><td>Processo Eletrônico</td><td>21 (Fase 2)</td></tr>
+          <tr><td>Lei 12.016/2009</td><td>Mandado de Segurança</td><td>19</td></tr>
+          <tr><td>Lei 12.153/2009</td><td>Juizados Especiais da Fazenda Pública</td><td>18</td></tr>
+          <tr><td>Lei 12.846/2013</td><td>Anticorrupção (compliance)</td><td>20</td></tr>
+          <tr><td>Lei 13.300/2016</td><td>Mandado de Injunção</td><td>19</td></tr>
+          <tr><td>Lei 13.655/2018</td><td>LINDB (consequencialismo, arts. 20-30)</td><td>11</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Atos normativos relevantes para o MP</h2>
+      <ul>
+        <li><strong>Resolução CNMP 23/2007</strong> — Inquérito Civil (essencial para ACP)</li>
+        <li><strong>Resolução CNMP 179/2017</strong> — TAC</li>
+        <li><strong>Resolução CNMP 174/2017</strong> — Recomendações</li>
+        <li><strong>Resolução CNJ 65/2017</strong> — Provimento sobre processo estrutural</li>
+        <li><strong>Resolução TJMG 780/2014</strong> — Processo eletrônico no TJMG</li>
+        <li><strong>LC 34/94 (MP/MG)</strong> — Lei orgânica do MPMG</li>
+      </ul>
+
+      <h2>Sugestão de impressão (se quiser ter à mão)</h2>
+      <ol>
+        <li>CPC (essencial)</li>
+        <li>Lei 7.347/85 (ACP) — curta</li>
+        <li>Lei 8.429/92 com Lei 14.230/21 (improbidade)</li>
+        <li>Lei 12.016/09 (MS) — curta</li>
+        <li>Lei 9.099/95 (JEC) — curta</li>
+        <li>LC 34/94 (MP/MG)</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- EDITAL -->
+  <div class="tab-content" id="tab-edital">
+    <div class="article-block">
+      <h1>🎯 Análise do edital LXI · Referência</h1>
+
+      <div class="callout callout-warn">
+        <strong>Status:</strong> O LXI Concurso já foi homologado em out/2025. Este edital é nossa <strong>referência mais recente</strong>; ainda não há LXII publicado. O conteúdo programático costuma ser estável entre concursos.
+      </div>
+
+      <h2>Dados do concurso de referência</h2>
+      <table>
+        <tbody>
+          <tr><td><strong>Concurso</strong></td><td>LXI MPMG (Promotor de Justiça Substituto)</td></tr>
+          <tr><td><strong>Banca</strong></td><td>IBGP — Instituto Brasileiro de Gestão e Pesquisa</td></tr>
+          <tr><td><strong>Vagas (à época)</strong></td><td>70</td></tr>
+          <tr><td><strong>Subsídio inicial</strong></td><td>R$ 35.877,27</td></tr>
+          <tr><td><strong>Status</strong></td><td>Concluído out/2025</td></tr>
+          <tr><td><strong>Próximo (estimado)</strong></td><td>LXII em 2027-2028</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Estrutura do conteúdo (4 Grupos Temáticos)</h2>
+
+      <h3>Grupo Temático I — Direito Público</h3>
+      <ul>
+        <li><strong>1.1 Direito Constitucional</strong> — teoria do Estado, controle de constitucionalidade, direitos e garantias fundamentais, organização do Estado, ordem econômica/social</li>
+        <li><strong>1.2 Direito Administrativo</strong> — princípios, atos, contratos (Lei 14.133/21), licitações, improbidade, responsabilidade civil do Estado, LGPD adm., LINDB</li>
+        <li><strong>1.3 Direito Eleitoral</strong> — partidos, processo eleitoral, crimes eleitorais</li>
+        <li><strong>1.4 Direito Tributário e Financeiro</strong> — competência tributária, tributos, processo tributário, EC 132/23 (reforma), LRF</li>
+        <li><strong>1.5 Teoria Geral do Ministério Público</strong> — MP nas constituições, LC 75/93, LC 34/94 (MP/MG), CNMP</li>
+      </ul>
+
+      <h3>Grupo Temático II — Penal</h3>
+      <ul>
+        <li><strong>2.1 Direito Penal e Criminologia</strong> — escolas, princípios, parte geral, parte especial (CP), legislação extravagante</li>
+        <li><strong>2.2 Direito Processual Penal</strong> — princípios, inquérito, ação penal, prisão, provas, recursos, execução</li>
+      </ul>
+
+      <h3>Grupo Temático III — Civil ⭐ FOCO ATUAL</h3>
+      <ul>
+        <li><strong>3.1 Direito Civil</strong> — parte geral, obrigações, contratos, responsabilidade, empresa, coisas, família, sucessões</li>
+        <li><strong>3.2 Direito Processual Civil</strong> — 30 itens, do "lei processual" até "Resoluções CNJ/CNMP"</li>
+      </ul>
+
+      <h3>Grupo Temático IV — Coletivo</h3>
+      <ul>
+        <li><strong>4.1 Direito Material Coletivo</strong> — direitos humanos, ECA, idoso, PCD, educação, saúde, consumidor, meio ambiente, urbanismo, improbidade</li>
+        <li><strong>4.2 Direito Processual Coletivo</strong> — tutela coletiva, ACP, ação popular, MS coletivo, sistema interamericano</li>
+      </ul>
+
+      <h2>Observações estratégicas</h2>
+      <ul>
+        <li><strong>Conteúdo absurdamente extenso.</strong> Não há como cobrir 100% com profundidade — priorizar o núcleo recorrente + jurisprudência atualizada</li>
+        <li><strong>Banca IBGP gosta de:</strong> literalidade da lei, jurisprudência STF/STJ recente, especificidades de Minas Gerais</li>
+        <li><strong>Vantagem da candidata</strong> (Analista MP/MG): conhecimento institucional dá ganho em 1.5, 4.1, 4.2 e partes de 3.2</li>
+        <li><strong>Pontos críticos prováveis:</strong> Direito Tributário, Financeiro, Eleitoral, Empresarial</li>
+      </ul>
+
+      <h2>Fases típicas de concurso de Promotor</h2>
+      <ol>
+        <li>Prova preambular objetiva (múltipla escolha, todas as matérias)</li>
+        <li>Prova escrita específica (dissertativas e/ou peças)</li>
+        <li>Prova oral (arguição em público pela banca)</li>
+        <li>Títulos</li>
+      </ol>
+      <p>Foco inicial: <strong>objetiva e escrita</strong>. Oral e peça vão para a reta final.</p>
+    </div>
+  </div>
+
+  <!-- METODOLOGIA -->
+  <div class="tab-content" id="tab-metodo">
+    <div class="article-block">
+      <h1>🧠 Metodologia (1h/dia)</h1>
+
+      <div class="callout callout-tip">
+        <strong>Princípio:</strong> com tempo limitado, <em>revisão</em> &gt; <em>volume</em>. Não dá pra ler tudo. Tem que ser estratégico.
+      </div>
+
+      <h2>Os 6 princípios</h2>
+      <ol>
+        <li><strong>Active recall:</strong> ler → fechar → tentar reproduzir. Nunca leia passivamente.</li>
+        <li><strong>Revisão espaçada:</strong> Anki ou planilha — 1d / 3d / 7d / 21d / 60d. Sem isso, em 30 dias você esquece quase tudo.</li>
+        <li><strong>Test-driven:</strong> comece pela questão. Erre. <em>Aí</em> estude.</li>
+        <li><strong>Material condensado:</strong> 1 doutrina + lei seca + jurisprudência. Sem dispersão.</li>
+        <li><strong>Use sua vantagem:</strong> ACP, Teoria do MP, tutelas e Direito Coletivo são sua casa — vá mais rápido nelas.</li>
+        <li><strong>Fim de semana é alavanca:</strong> 1h × 5 dias úteis + 4h × sáb + 4h × dom = 13h/semana.</li>
+      </ol>
+
+      <h2>Ciclo padrão de um tópico (3 dias úteis)</h2>
+      <ul class="list-clean">
+        <li><span class="bullet">Dia 1 (1h)</span> Lei seca + doutrina condensada → começar resumo no campo "notas pessoais" do tópico</li>
+        <li><span class="bullet">Dia 2 (1h)</span> Refinar resumo + 5-10 questões no simulado → erros caem no log automaticamente</li>
+        <li><span class="bullet">Dia 3 (1h)</span> Revisar erros + flashcards desse tópico</li>
+        <li><span class="bullet">Sábado (4h)</span> Revisão acumulada + aprofundar tópico atual + 10-15 questões</li>
+        <li><span class="bullet">Domingo (4h)</span> Mais revisão + mini-simulado cronometrado</li>
+      </ul>
+
+      <h2>Sinais de alerta</h2>
+      <ul>
+        <li>Mais de 3 dias sem registro no log → revisar rotina</li>
+        <li>Sentimento 😟 (ruim) mais de 2x na semana → simplificar</li>
+        <li>Acerto em questões caindo → revisar metodologia, não acelerar</li>
+        <li>Flashcards atrasados em mais de 50 → pausar matéria nova, recuperar revisão</li>
+      </ul>
+
+      <h2>O que NÃO fazer</h2>
+      <ul>
+        <li>❌ Tentar dominar 100% de cada tópico antes de seguir</li>
+        <li>❌ Pular questões "porque ainda não estudei"</li>
+        <li>❌ Comprar curso preparatório nos primeiros 2 meses</li>
+        <li>❌ Fazer simulado de tudo na Fase 1 (só Processo Civil)</li>
+      </ul>
+    </div>
+  </div>
+
+</main>
+
+<footer><p>📚 Projeto Concurso MPMG · Constância vence intensidade</p></footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  // tabs
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // hash deeplink
+  const validTabs = ['sumulas', 'doutrina', 'leis', 'edital', 'metodo'];
+  const hash = location.hash.replace('#','');
+  if (validTabs.includes(hash)) {
+    document.querySelector(`.tab[data-tab="${hash}"]`).click();
+  }
+
+  // ----- SÚMULAS -----
+  const fTribunal = document.getElementById('f-tribunal');
+  const fTopic = document.getElementById('f-topic');
+  const fText = document.getElementById('f-text');
+
+  fTopic.innerHTML = '<option value="">Todos os tópicos</option>';
+  APP_DATA.topics.forEach(t => {
+    const cnt = APP_DATA.sumulas.filter(s => s.topic === t.num).length;
+    if (cnt > 0) {
+      const o = document.createElement('option');
+      o.value = t.num; o.textContent = `${t.num}. ${t.title} (${cnt})`;
+      fTopic.appendChild(o);
+    }
+  });
+
+  // tópico via URL
+  const pretopic = parseInt(App.getQueryParam('topic')) || null;
+  if (pretopic) fTopic.value = String(pretopic);
+
+  function renderSumulas() {
+    const trib = fTribunal.value;
+    const t = parseInt(fTopic.value);
+    const text = (fText.value || '').toLowerCase().trim();
+    let list = APP_DATA.sumulas.slice();
+    if (trib) list = list.filter(s => s.tribunal === trib);
+    if (t) list = list.filter(s => s.topic === t);
+    if (text) list = list.filter(s => s.text.toLowerCase().includes(text));
+
+    const div = document.getElementById('sumulas-list');
+    if (!list.length) {
+      div.innerHTML = '<div class="empty-state"><span class="icon">🔍</span>Nenhuma súmula encontrada para esse filtro.</div>';
+      return;
+    }
+
+    let html = '';
+    list.forEach(s => {
+      const tName = (APP_DATA.topics.find(x => x.num === s.topic) || {}).title || '';
+      const badgeClass = s.tribunal === 'STF' ? 'tag-foco' : 'tag-vantagem';
+      html += `<div class="log-entry">
+        <div class="log-date">
+          <span class="tag ${badgeClass}">${s.tribunal} · ${s.tipo} ${s.num}</span>
+          ${tName ? `<span style="margin-left:0.4rem; text-transform:none; font-weight:normal;">Tópico ${s.topic}: ${App.escape(tName)}</span>` : ''}
+        </div>
+        <div class="log-content">${App.escape(s.text)}</div>
+      </div>`;
+    });
+    div.innerHTML = html;
+  }
+  fTribunal.addEventListener('change', renderSumulas);
+  fTopic.addEventListener('change', renderSumulas);
+  fText.addEventListener('input', renderSumulas);
+  renderSumulas();
+
+  // ----- DOUTRINA -----
+  const dDiv = document.getElementById('doutrina-list');
+  let dHtml = '';
+  APP_DATA.doutrina.forEach(grp => {
+    dHtml += `<h2>${App.escape(grp.materia)}</h2><table><thead><tr><th>Obra</th><th>Autor</th><th>Perfil</th><th>Quando usar</th></tr></thead><tbody>`;
+    grp.obras.forEach(o => {
+      dHtml += `<tr>
+        <td><strong>${App.escape(o.nome)}</strong></td>
+        <td>${App.escape(o.autor)}</td>
+        <td>${App.escape(o.perfil)}</td>
+        <td>${App.escape(o.recomendacao)}</td>
+      </tr>`;
+    });
+    dHtml += '</tbody></table>';
+  });
+  dDiv.innerHTML = dHtml;
+})();
+</script>
+
+</body>
+</html>

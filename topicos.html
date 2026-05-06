@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tópico · Concurso MPMG</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-resumos">
+
+<header class="app-header">
+  <div class="container">
+    <div class="back-bar">
+      <a href="index.html">← Painel</a>
+      <span class="breadcrumb">Resumos · Direito Processual Civil</span>
+    </div>
+    <h1 class="small" id="hdr-title">Carregando…</h1>
+    <p class="subtitle tight" id="hdr-subtitle"></p>
+  </div>
+</header>
+
+<main class="container-narrow">
+  <article class="article-block" id="article-content">
+    <div class="empty-state">
+      <span class="icon">⏳</span>
+      Carregando tópico…
+    </div>
+  </article>
+
+  <nav class="topic-nav" id="topic-nav">
+    <a href="index.html#bloco-2">↑ Voltar ao painel</a>
+  </nav>
+</main>
+
+<footer>
+  <p>📚 Projeto Concurso MPMG · Estudo é constância, não intensidade</p>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  const id = App.getQueryParam('id') || (APP_DATA.topics[0] && APP_DATA.topics[0].id);
+  const topic = App.getTopic(id);
+  const article = document.getElementById('article-content');
+
+  if (!topic) {
+    article.innerHTML = `
+      <div class="empty-state">
+        <span class="icon">❓</span>
+        Tópico não encontrado. <a href="index.html">Voltar ao painel</a>.
+      </div>`;
+    return;
+  }
+
+  // título e subtítulo
+  document.title = `Tópico ${topic.num} · ${topic.title}`;
+  document.getElementById('hdr-title').textContent = `Tópico ${topic.num} · ${topic.title}`;
+  document.getElementById('hdr-subtitle').textContent = `Edital ${topic.edital} · ${topic.size}`;
+
+  // monta artigo
+  const html = [];
+  html.push(`<h1>${App.escape(topic.title)}</h1>`);
+
+  // callout edital
+  html.push(`<div class="callout callout-edital"><strong>Texto do edital (${topic.edital}):</strong> ${App.escape(topic.editalText)}</div>`);
+
+  // meta bar
+  const metaItems = [];
+  metaItems.push(`<span class="meta-item">📋 <strong>Tamanho:</strong> ${App.escape(topic.size)}</span>`);
+  metaItems.push(`<span class="meta-item">📅 <strong>Cronograma:</strong> ${App.escape(topic.schedule)}</span>`);
+  if (topic.advantage) {
+    metaItems.push(`<span class="meta-item">⭐ <strong>Vantagem:</strong> ${App.escape(topic.advantage)}</span>`);
+  }
+  html.push(`<div class="meta-bar">${metaItems.join('')}</div>`);
+
+  // Status (controles persistentes)
+  html.push(`
+    <h2>Status</h2>
+    <div class="status-checks" id="status-checks">
+      <label class="status-check"><input type="checkbox" data-status="iniciado"><span>Iniciado</span></label>
+      <label class="status-check"><input type="checkbox" data-status="resumo"><span>Resumo concluído</span></label>
+      <label class="status-check"><input type="checkbox" data-status="questoes"><span>Questões feitas</span></label>
+      <label class="status-check"><input type="checkbox" data-status="flashcards"><span>Flashcards criados</span></label>
+      <label class="status-check"><input type="checkbox" data-status="revisao"><span>Em revisão espaçada</span></label>
+    </div>
+  `);
+
+  // Sections de conteúdo
+  topic.sections.forEach(sec => {
+    html.push(`<h2>${App.escape(sec.h)}</h2>`);
+    if (sec.items && sec.items.length) {
+      html.push('<ul>');
+      sec.items.forEach(item => html.push(`<li>${App.escape(item)}</li>`));
+      html.push('</ul>');
+    }
+  });
+
+  // Notas pessoais
+  html.push(`
+    <h2>📝 Suas notas pessoais</h2>
+    <p style="color:var(--text-muted); font-size:0.85rem;">Salvas automaticamente neste navegador. Use para anotar dúvidas, esquemas, mnemônicos.</p>
+    <textarea id="notes" placeholder="Anote aqui suas dúvidas, esquemas, conceitos que não fixou…"></textarea>
+    <p class="form-help">💾 Salva automaticamente · ✋ Não sincroniza entre dispositivos</p>
+  `);
+
+  // ações rápidas para outros recursos
+  html.push(`
+    <h2>🚀 Ações rápidas</h2>
+    <div class="btn-row" style="margin-top:0.5rem;">
+      <a class="btn btn-success btn-sm" href="flashcards.html?topic=${topic.num}">🃏 Flashcards deste tópico</a>
+      <a class="btn btn-danger btn-sm" href="simulado.html?topic=${topic.num}">✍️ Questões deste tópico</a>
+      <a class="btn btn-sm" href="log.html#novo">📝 Registrar estudo de hoje</a>
+      <a class="btn btn-sm" href="referencia.html?topic=${topic.num}">📚 Súmulas relacionadas</a>
+    </div>
+  `);
+
+  article.innerHTML = html.join('\n');
+
+  // ---- Status persistente ----
+  const statusKey = `topic-status-${topic.id}`;
+  const status = App.load(statusKey, {});
+  document.querySelectorAll('#status-checks input[type="checkbox"]').forEach(cb => {
+    const k = cb.dataset.status;
+    if (status[k]) {
+      cb.checked = true;
+      cb.closest('.status-check').classList.add('checked');
+    }
+    cb.addEventListener('change', () => {
+      status[k] = cb.checked;
+      App.save(statusKey, status);
+      cb.closest('.status-check').classList.toggle('checked', cb.checked);
+      // sincroniza checklist do index (Fase 1) — se "resumo" marcado, marca o item correspondente
+      const indexKey = 'checklist-fase1';
+      const idx = App.load(indexKey, {});
+      const indexId = `t${topic.num}`;
+      idx[indexId] = !!status.resumo;
+      App.save(indexKey, idx);
+    });
+  });
+
+  // ---- Notas persistentes ----
+  const notesKey = `topic-notes-${topic.id}`;
+  const ta = document.getElementById('notes');
+  ta.value = App.load(notesKey, '') || '';
+  let saveTimer;
+  ta.addEventListener('input', () => {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => {
+      App.save(notesKey, ta.value);
+      App.toast('Notas salvas');
+    }, 600);
+  });
+
+  // ---- Navegação prev/next ----
+  const adj = App.getAdjacentTopics(id);
+  const navEl = document.getElementById('topic-nav');
+  navEl.innerHTML = '';
+  if (adj.prev) {
+    navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.prev.id}` }, `← Tópico ${adj.prev.num}: ${adj.prev.title}`));
+  } else {
+    navEl.appendChild(App.el('a', { class: 'nav-disabled', href: '#' }, '← (primeiro)'));
+  }
+  navEl.appendChild(App.el('a', { href: 'index.html#bloco-2' }, '↑ Painel'));
+  if (adj.next) {
+    navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.next.id}` }, `Tópico ${adj.next.num}: ${adj.next.title} →`));
+  } else {
+    navEl.appendChild(App.el('a', { class: 'nav-disabled', href: '#' }, '(último) →'));
+  }
+})();
+</script>
+
+</body>
+</html>

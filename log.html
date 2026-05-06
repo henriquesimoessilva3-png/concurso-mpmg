@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log · Concurso MPMG</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-cronograma">
+
+<header class="app-header">
+  <div class="container">
+    <div class="back-bar">
+      <a href="index.html">← Painel</a>
+      <span class="breadcrumb">Log de estudos</span>
+    </div>
+    <h1 class="small">📝 Log de estudos</h1>
+    <p class="subtitle tight">Diário · Erros · Estatísticas</p>
+  </div>
+</header>
+
+<main class="container-narrow">
+
+  <div class="tabs">
+    <button class="tab active" data-tab="diario">📓 Diário</button>
+    <button class="tab" data-tab="erros">🔍 Log de erros</button>
+    <button class="tab" data-tab="stats">📊 Estatísticas</button>
+  </div>
+
+  <!-- DIÁRIO -->
+  <div class="tab-content active" id="tab-diario">
+    <div class="article-block" id="novo">
+      <h1>Novo registro de estudo</h1>
+      <p>Registre 1-2 linhas a cada dia que estudar. Manter o log é mais importante que escrever muito.</p>
+
+      <div class="form-row cols-2">
+        <div>
+          <label>Data:</label>
+          <input type="date" id="d-date">
+        </div>
+        <div>
+          <label>Tempo estudado (minutos):</label>
+          <input type="number" id="d-minutes" value="60" min="0" max="600">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>Tópico estudado:</label>
+        <select id="d-topic"></select>
+      </div>
+
+      <div class="form-row cols-2">
+        <div>
+          <label>Atividade principal:</label>
+          <select id="d-activity">
+            <option value="leitura">Leitura ativa</option>
+            <option value="resumo">Escrever resumo</option>
+            <option value="questoes">Resolver questões</option>
+            <option value="flashcards">Revisão Anki/flashcards</option>
+            <option value="revisao">Revisão de resumo</option>
+            <option value="simulado">Simulado</option>
+            <option value="aula">Aula em vídeo</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+        <div>
+          <label>Como rendeu? :</label>
+          <select id="d-feel">
+            <option value="otimo">😀 Ótimo</option>
+            <option value="bom">🙂 Bom</option>
+            <option value="ok">😐 Ok</option>
+            <option value="ruim">😟 Ruim</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label>O que estudou (resumo):</label>
+        <textarea id="d-content" placeholder="Ex.: Li CPC arts. 1-15. Resumo no notebook. Fiz 5 questões — 3 acertos."></textarea>
+      </div>
+
+      <div class="form-row">
+        <label>Próximo passo:</label>
+        <input type="text" id="d-next" placeholder="Ex.: Tópico 2 amanhã (princípios constitucionais)">
+      </div>
+
+      <div class="btn-row" style="margin-top:1rem;">
+        <button class="btn btn-primary" id="btn-save-diario">💾 Salvar registro</button>
+      </div>
+    </div>
+
+    <div class="article-block">
+      <h2>Histórico (mais recentes primeiro)</h2>
+      <div id="diario-list"></div>
+    </div>
+  </div>
+
+  <!-- ERROS -->
+  <div class="tab-content" id="tab-erros">
+    <div class="article-block">
+      <h1>Log de erros</h1>
+      <p>Questões erradas no simulado caem aqui automaticamente. <strong>Revisite cada erro em D+7 e D+21.</strong></p>
+
+      <div class="callout callout-warn">
+        <strong>Padrão recomendado:</strong> ler o erro → entender o porquê → criar flashcard imediatamente se errar de novo.
+      </div>
+
+      <div id="erros-stats" style="margin: 1rem 0;"></div>
+      <div id="erros-list"></div>
+
+      <div class="toolbar">
+        <button class="btn btn-reset" id="btn-clear-erros">Limpar log de erros</button>
+      </div>
+    </div>
+
+    <div class="article-block">
+      <h2>Adicionar erro manualmente</h2>
+      <p>Para questões fora do simulado integrado.</p>
+      <div class="form-row cols-2">
+        <div>
+          <label>Tópico:</label>
+          <select id="e-topic"></select>
+        </div>
+        <div>
+          <label>Banca/origem:</label>
+          <input type="text" id="e-source" placeholder="Ex.: IBGP MPMG LXI Q42">
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Resumo do enunciado:</label>
+        <textarea id="e-statement" placeholder="..."></textarea>
+      </div>
+      <div class="form-row cols-2">
+        <div>
+          <label>Sua resposta:</label>
+          <input type="text" id="e-given">
+        </div>
+        <div>
+          <label>Resposta correta:</label>
+          <input type="text" id="e-correct">
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Por que errou / aprendizado:</label>
+        <textarea id="e-explain" placeholder="Em 1 frase: o que aprendeu com esse erro."></textarea>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="btn-save-erro">💾 Adicionar erro</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="tab-content" id="tab-stats">
+    <div class="article-block">
+      <h1>Estatísticas</h1>
+      <div class="flashcard-stats" id="kpis">
+        <span><strong id="k-dias">0</strong><br>dias de estudo</span>
+        <span><strong id="k-horas">0h</strong><br>tempo total</span>
+        <span><strong id="k-streak">0</strong><br>sequência atual</span>
+        <span><strong id="k-erros">0</strong><br>erros registrados</span>
+      </div>
+
+      <h2>Estudo por tópico</h2>
+      <div id="topic-stats"></div>
+
+      <h2>Histórico semanal (últimas 8 semanas)</h2>
+      <div id="weekly-stats"></div>
+
+      <h2>Tópicos com mais erros</h2>
+      <div id="topic-errors"></div>
+    </div>
+  </div>
+
+</main>
+
+<footer><p>📚 Projeto Concurso MPMG · O log é mais importante que ser detalhado</p></footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  // popula selects
+  function populateTopics(sel) {
+    sel.innerHTML = '<option value="">— escolher —</option>';
+    APP_DATA.topics.forEach(t => {
+      const o = document.createElement('option');
+      o.value = t.num; o.textContent = `${t.num}. ${t.title}`;
+      sel.appendChild(o);
+    });
+  }
+  populateTopics(document.getElementById('d-topic'));
+  populateTopics(document.getElementById('e-topic'));
+
+  // data padrão = hoje
+  const today = new Date();
+  const yyyy = today.getFullYear();
+  const mm = String(today.getMonth() + 1).padStart(2, '0');
+  const dd = String(today.getDate()).padStart(2, '0');
+  document.getElementById('d-date').value = `${yyyy}-${mm}-${dd}`;
+
+  // tabs
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  // hash deeplink
+  const hash = location.hash.replace('#','');
+  if (hash === 'erros') document.querySelector('.tab[data-tab="erros"]').click();
+  if (hash === 'stats') document.querySelector('.tab[data-tab="stats"]').click();
+
+  // ----- DIÁRIO -----
+  const DIARIO_KEY = 'log-diario';
+
+  document.getElementById('btn-save-diario').addEventListener('click', () => {
+    const entry = {
+      date: document.getElementById('d-date').value,
+      minutes: parseInt(document.getElementById('d-minutes').value) || 0,
+      topic: document.getElementById('d-topic').value,
+      activity: document.getElementById('d-activity').value,
+      feel: document.getElementById('d-feel').value,
+      content: document.getElementById('d-content').value,
+      next: document.getElementById('d-next').value,
+      createdAt: new Date().toISOString()
+    };
+    if (!entry.date) { alert('Informe a data'); return; }
+    const log = App.load(DIARIO_KEY, []);
+    log.push(entry);
+    App.save(DIARIO_KEY, log);
+    App.toast('Registro salvo');
+    // limpa
+    document.getElementById('d-content').value = '';
+    document.getElementById('d-next').value = '';
+    renderDiario();
+    renderStats();
+  });
+
+  function renderDiario() {
+    const log = App.load(DIARIO_KEY, []);
+    const div = document.getElementById('diario-list');
+    if (!log.length) {
+      div.innerHTML = '<div class="empty-state"><span class="icon">📓</span>Sem registros ainda. Salve o primeiro acima.</div>';
+      return;
+    }
+    const sorted = log.slice().sort((a,b) => b.date.localeCompare(a.date) || b.createdAt.localeCompare(a.createdAt));
+    let html = '';
+    const feelEmoji = { otimo:'😀', bom:'🙂', ok:'😐', ruim:'😟' };
+    sorted.forEach((e, idx) => {
+      const tName = e.topic ? (APP_DATA.topics.find(t => t.num === parseInt(e.topic)) || {}).title : '';
+      html += `<div class="log-entry">
+        <div class="log-date">${App.formatDate(e.date)} · ${e.minutes} min · ${feelEmoji[e.feel] || ''} ${App.escape(e.activity)}</div>
+        ${tName ? `<div class="log-meta"><strong>Tópico ${e.topic}:</strong> ${App.escape(tName)}</div>` : ''}
+        <div class="log-content">${App.escape(e.content || '(sem detalhes)')}</div>
+        ${e.next ? `<div class="log-meta">→ ${App.escape(e.next)}</div>` : ''}
+        <div class="log-actions"><button class="btn btn-sm btn-reset" data-del="${idx}">Excluir</button></div>
+      </div>`;
+    });
+    div.innerHTML = html;
+    div.querySelectorAll('button[data-del]').forEach(b => {
+      b.addEventListener('click', () => {
+        if (!confirm('Excluir este registro?')) return;
+        const list = App.load(DIARIO_KEY, []);
+        const sortedAgain = list.slice().sort((a,b) => b.date.localeCompare(a.date) || b.createdAt.localeCompare(a.createdAt));
+        const target = sortedAgain[parseInt(b.dataset.del)];
+        const filtered = list.filter(x => x.createdAt !== target.createdAt);
+        App.save(DIARIO_KEY, filtered);
+        renderDiario();
+        renderStats();
+      });
+    });
+  }
+  renderDiario();
+
+  // ----- ERROS -----
+  const ERR_KEY = 'log-erros';
+
+  function renderErros() {
+    const errs = App.load(ERR_KEY, []);
+    const div = document.getElementById('erros-list');
+    const stats = document.getElementById('erros-stats');
+    if (!errs.length) {
+      div.innerHTML = '<div class="empty-state"><span class="icon">🔍</span>Nenhum erro registrado ainda.</div>';
+      stats.innerHTML = '';
+      return;
+    }
+    stats.innerHTML = `<div class="callout callout-info"><strong>Total: ${errs.length} erros registrados.</strong> Marque os mais frequentes como flashcard.</div>`;
+    let html = '';
+    const sorted = errs.slice().reverse();
+    sorted.forEach((e, idx) => {
+      const tName = e.topic ? (APP_DATA.topics.find(t => t.num === parseInt(e.topic)) || {}).title : '';
+      html += `<div class="log-entry">
+        <div class="log-date">${App.formatDate(e.date)} · Tópico ${e.topic || '?'}: ${App.escape(tName || '')} ${e.source ? '· ' + App.escape(e.source) : ''}</div>
+        <div class="log-content"><strong>Enunciado:</strong> ${App.escape(e.statement || '(do simulado)')}</div>
+        <div class="log-meta"><strong>Sua resposta:</strong> ${App.escape(e.given || '?')} · <strong>Correta:</strong> ${App.escape(e.correct || '?')}</div>
+        ${e.explanation ? `<div class="log-content" style="margin-top:0.4rem;"><em>${App.escape(e.explanation)}</em></div>` : ''}
+        <div class="log-actions"><button class="btn btn-sm btn-reset" data-del="${idx}">Excluir</button></div>
+      </div>`;
+    });
+    div.innerHTML = html;
+    div.querySelectorAll('button[data-del]').forEach(b => {
+      b.addEventListener('click', () => {
+        if (!confirm('Excluir este erro?')) return;
+        const list = App.load(ERR_KEY, []);
+        const reversed = list.slice().reverse();
+        const target = reversed[parseInt(b.dataset.del)];
+        const filtered = list.filter(x => x.date !== target.date || x.statement !== target.statement);
+        App.save(ERR_KEY, filtered);
+        renderErros();
+        renderStats();
+      });
+    });
+  }
+  renderErros();
+
+  document.getElementById('btn-save-erro').addEventListener('click', () => {
+    const e = {
+      date: new Date().toISOString(),
+      topic: document.getElementById('e-topic').value,
+      source: document.getElementById('e-source').value,
+      statement: document.getElementById('e-statement').value,
+      given: document.getElementById('e-given').value,
+      correct: document.getElementById('e-correct').value,
+      explanation: document.getElementById('e-explain').value
+    };
+    if (!e.statement) { alert('Adicione ao menos um resumo do enunciado'); return; }
+    const list = App.load(ERR_KEY, []);
+    list.push(e);
+    App.save(ERR_KEY, list);
+    App.toast('Erro adicionado');
+    document.getElementById('e-statement').value = '';
+    document.getElementById('e-given').value = '';
+    document.getElementById('e-correct').value = '';
+    document.getElementById('e-explain').value = '';
+    document.getElementById('e-source').value = '';
+    renderErros();
+    renderStats();
+  });
+
+  document.getElementById('btn-clear-erros').addEventListener('click', () => {
+    if (!confirm('Limpar TODO o log de erros? (não dá para desfazer)')) return;
+    App.remove(ERR_KEY);
+    renderErros();
+    renderStats();
+  });
+
+  // ----- STATS -----
+  function renderStats() {
+    const log = App.load(DIARIO_KEY, []);
+    const errs = App.load(ERR_KEY, []);
+
+    const dias = new Set(log.map(e => e.date)).size;
+    const horas = log.reduce((a, e) => a + (e.minutes || 0), 0) / 60;
+
+    // streak: dias consecutivos contando para trás de hoje
+    const days = new Set(log.map(e => e.date));
+    let streak = 0;
+    let cur = new Date();
+    while (true) {
+      const k = cur.toISOString().slice(0,10);
+      if (days.has(k)) { streak++; cur.setDate(cur.getDate() - 1); }
+      else break;
+      if (streak > 1000) break;
+    }
+
+    document.getElementById('k-dias').textContent = dias;
+    document.getElementById('k-horas').textContent = horas.toFixed(1) + 'h';
+    document.getElementById('k-streak').textContent = streak;
+    document.getElementById('k-erros').textContent = errs.length;
+
+    // por tópico
+    const byTopic = {};
+    log.forEach(e => {
+      if (!e.topic) return;
+      byTopic[e.topic] = (byTopic[e.topic] || 0) + (e.minutes || 0);
+    });
+    const tDiv = document.getElementById('topic-stats');
+    if (Object.keys(byTopic).length === 0) {
+      tDiv.innerHTML = '<p style="color:var(--text-muted);">Sem dados ainda.</p>';
+    } else {
+      let html = '<table><thead><tr><th>Tópico</th><th>Tempo (min)</th><th>%</th></tr></thead><tbody>';
+      const total = Object.values(byTopic).reduce((a,b) => a+b, 0);
+      Object.entries(byTopic).sort((a,b) => b[1]-a[1]).forEach(([t, mins]) => {
+        const tName = (APP_DATA.topics.find(x => x.num === parseInt(t)) || {}).title || '';
+        const pct = ((mins/total)*100).toFixed(1);
+        html += `<tr><td>${t}. ${App.escape(tName)}</td><td>${mins}</td><td>${pct}%</td></tr>`;
+      });
+      html += '</tbody></table>';
+      tDiv.innerHTML = html;
+    }
+
+    // semanal (últimas 8 semanas)
+    const weekly = {};
+    log.forEach(e => {
+      const d = new Date(e.date + 'T00:00:00');
+      const day = d.getDay();
+      const monday = new Date(d);
+      monday.setDate(d.getDate() - (day === 0 ? 6 : day - 1));
+      const key = monday.toISOString().slice(0,10);
+      weekly[key] = (weekly[key] || 0) + (e.minutes || 0);
+    });
+    const wDiv = document.getElementById('weekly-stats');
+    if (Object.keys(weekly).length === 0) {
+      wDiv.innerHTML = '<p style="color:var(--text-muted);">Sem dados ainda.</p>';
+    } else {
+      let html = '<table><thead><tr><th>Semana de</th><th>Minutos</th><th>Horas</th></tr></thead><tbody>';
+      Object.entries(weekly).sort((a,b) => b[0].localeCompare(a[0])).slice(0,8).forEach(([k, m]) => {
+        html += `<tr><td>${App.formatDate(k)}</td><td>${m}</td><td>${(m/60).toFixed(1)}h</td></tr>`;
+      });
+      html += '</tbody></table>';
+      wDiv.innerHTML = html;
+    }
+
+    // erros por tópico
+    const errByT = {};
+    errs.forEach(e => {
+      if (e.topic) errByT[e.topic] = (errByT[e.topic] || 0) + 1;
+    });
+    const eDiv = document.getElementById('topic-errors');
+    if (Object.keys(errByT).length === 0) {
+      eDiv.innerHTML = '<p style="color:var(--text-muted);">Sem erros registrados.</p>';
+    } else {
+      let html = '<table><thead><tr><th>Tópico</th><th>Erros</th></tr></thead><tbody>';
+      Object.entries(errByT).sort((a,b) => b[1]-a[1]).forEach(([t, n]) => {
+        const tName = (APP_DATA.topics.find(x => x.num === parseInt(t)) || {}).title || '';
+        html += `<tr><td>${t}. ${App.escape(tName)}</td><td>${n}</td></tr>`;
+      });
+      html += '</tbody></table>';
+      eDiv.innerHTML = html;
+    }
+  }
+  renderStats();
+})();
+</script>
+
+</body>
+</html>
