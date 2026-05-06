@@ -86,13 +86,75 @@
     </div>
   `);
 
+  // ----- inline markdown-mini: **bold**, *italic*, `code` -----
+  function inlineMd(text) {
+    return App.escape(text)
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s.,;:!?)]|$)/g, '$1<em>$2</em>');
+  }
+
+  // ----- render de um item (string legado OU objeto tipado) -----
+  function renderItem(item) {
+    if (typeof item === 'string') return `<li>${inlineMd(item)}</li>`;
+    if (!item || !item.type) return '';
+    switch (item.type) {
+      case 'p':
+        return `<p>${inlineMd(item.text || '')}</p>`;
+      case 'h':
+        return `<h3>${inlineMd(item.text || '')}</h3>`;
+      case 'list': {
+        const inner = (item.items || []).map(s => `<li>${inlineMd(s)}</li>`).join('');
+        return `<ul>${inner}</ul>`;
+      }
+      case 'table': {
+        const heads = (item.headers || []).map(h => `<th>${inlineMd(h)}</th>`).join('');
+        const rows = (item.rows || []).map(r =>
+          `<tr>${r.map(c => `<td>${inlineMd(c)}</td>`).join('')}</tr>`
+        ).join('');
+        return `<div class="table-wrap"><table class="content-table"><thead><tr>${heads}</tr></thead><tbody>${rows}</tbody></table></div>`;
+      }
+      case 'box': {
+        const kind = item.kind || 'info';
+        const labels = {
+          macete: '💡 Macete',
+          jurisprudencia: '📖 Jurisprudência',
+          atencao: '⚠️ Atenção',
+          info: 'ℹ️ Nota',
+          conexao: '🔗 Conexão'
+        };
+        const label = labels[kind] || labels.info;
+        return `<div class="content-box box-${App.escape(kind)}"><div class="box-label">${label}</div><div class="box-body">${inlineMd(item.text || '')}</div></div>`;
+      }
+      default:
+        return '';
+    }
+  }
+
   // Sections de conteúdo
   topic.sections.forEach(sec => {
     html.push(`<h2>${App.escape(sec.h)}</h2>`);
     if (sec.items && sec.items.length) {
-      html.push('<ul>');
-      sec.items.forEach(item => html.push(`<li>${App.escape(item)}</li>`));
-      html.push('</ul>');
+      // detecta se é lista de strings (legado) ou blocos tipados (novo)
+      const allStrings = sec.items.every(i => typeof i === 'string');
+      if (allStrings) {
+        html.push('<ul>');
+        sec.items.forEach(item => html.push(renderItem(item)));
+        html.push('</ul>');
+      } else {
+        // mistura ou só objetos: renderiza cada um livremente, agrupando strings em <li>
+        let openUl = false;
+        sec.items.forEach(item => {
+          if (typeof item === 'string') {
+            if (!openUl) { html.push('<ul>'); openUl = true; }
+            html.push(renderItem(item));
+          } else {
+            if (openUl) { html.push('</ul>'); openUl = false; }
+            html.push(renderItem(item));
+          }
+        });
+        if (openUl) html.push('</ul>');
+      }
     }
   });
 

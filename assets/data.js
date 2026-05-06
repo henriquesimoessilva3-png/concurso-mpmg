@@ -18,22 +18,97 @@ topics: [
     schedule: 'Mês 1, Semana 1',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Aplicação da lei processual no tempo (tempus regit actum) e no espaço',
-        'CPC arts. 1º a 15 — normas fundamentais',
-        'Princípio da inafastabilidade da jurisdição (CF art. 5º XXXV)',
-        'Métodos de interpretação: gramatical, sistemática, teleológica, histórica',
-        '"Diálogo das fontes" — Erik Jayme: aplicação simultânea de fontes (especialmente CDC e CC) para harmonização normativa'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 1º a 15 (normas fundamentais do processo)',
-        'LINDB (Decreto-Lei 4.657/42), arts. 1º a 6º (vigência) e 20-30 (interpretação no setor público)'
-      ]},
-      { h: 'Pontos críticos para prova', items: [
-        'O CPC adota o modelo constitucional de processo (art. 1º)',
-        'Princípio do isolamento dos atos processuais — nova lei aplica-se aos atos a praticar',
-        'Boa-fé objetiva como dever de todos os sujeitos do processo (art. 5º)'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **lei processual** disciplina a forma como o Estado exerce a jurisdição. Distingue-se da lei material por seu objeto: enquanto a norma material define direitos e obrigações (quem deve o quê), a norma processual regula como esses direitos podem ser exigidos em juízo. A distinção, embora clara em tese, exige cautela: existem **normas heterotópicas** — substanciais inseridas no CPC (ex.: regras de prescrição) e processuais inseridas no CC ou em leis extravagantes (ex.: art. 219 CC sobre interrupção da prescrição pela citação).' },
+          { type: 'p', text: '**Aplicação no tempo.** O CPC adota o **princípio do isolamento dos atos processuais** (art. 14): a lei processual nova aplica-se imediatamente aos processos em curso, respeitados os atos já praticados e as situações jurídicas consolidadas. Em outras palavras, *tempus regit actum* — cada ato processual é regido pela lei vigente ao tempo em que praticado. Não há ultratividade automática da lei revogada, salvo nas regras de transição (CPC arts. 1.045-1.057).' },
+          { type: 'p', text: '**Aplicação no espaço.** Vigora o princípio da territorialidade — *lex fori*: o juiz aplica a lei processual do foro onde o processo tramita (CPC art. 13), ainda que o direito material discutido seja regido por lei estrangeira. A jurisdição brasileira, por sua vez, define-se nos arts. 21-25 CPC (concorrente) e art. 23 CPC (exclusiva).' },
+          { type: 'p', text: '**Interpretação.** Os métodos clássicos (gramatical, sistemático, teleológico, histórico) convivem no CPC com diretivas específicas: ordem cronológica de julgamento (art. 12, com ressalvas), primazia do julgamento de mérito (arts. 4º, 6º, 139 IX, 488), boa-fé objetiva (art. 5º) e cooperação (art. 6º). A interpretação processual é **constitucional** — o art. 1º manda que normas processuais sejam ordenadas, disciplinadas e interpretadas conforme os valores e normas fundamentais da CF/88.' },
+          { type: 'p', text: '**Diálogo das fontes.** Concebido por Erik Jayme e adotado no Brasil sobretudo por Cláudia Lima Marques, o método propõe a aplicação **simultânea, coerente e coordenada** de fontes normativas distintas que regulem o mesmo conflito (CDC + CC + CPC, p. ex.), no lugar do critério clássico de antinomia (lex specialis, posterior, superior). É instrumento de coerência sistêmica — não de simples cumulação.' },
+          {
+            type: 'table',
+            headers: ['Critério', 'Lei material', 'Lei processual'],
+            rows: [
+              ['Objeto', 'Define direitos e obrigações', 'Regula o exercício do direito em juízo'],
+              ['Aplicação no tempo', 'Em regra irretroativa (ato jurídico perfeito)', 'Imediata aos atos a praticar (isolamento)'],
+              ['Aplicação no espaço', 'Pode aplicar lei estrangeira (DIPr — LINDB)', 'Lex fori (territorialidade absoluta)'],
+              ['Exemplo', 'CC art. 186 (responsabilidade civil)', 'CPC art. 319 (requisitos da inicial)']
+            ]
+          }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Normas fundamentais do CPC (arts. 1º-15)' },
+          { type: 'list', items: [
+            '**Art. 1º** — Modelo constitucional do processo (interpretação conforme a CF)',
+            '**Art. 2º** — Princípio dispositivo (instauração) + impulso oficial (desenvolvimento)',
+            '**Art. 3º** — Inafastabilidade da jurisdição + estímulo à autocomposição',
+            '**Art. 4º** — Razoável duração + primazia do julgamento integral do mérito',
+            '**Art. 5º** — Boa-fé objetiva (dever de todos os sujeitos)',
+            '**Art. 6º** — Cooperação processual',
+            '**Art. 7º** — Igualdade processual / paridade de armas',
+            '**Arts. 8º-9º** — Atendimento aos fins sociais + contraditório efetivo',
+            '**Art. 10** — Vedação à decisão-surpresa',
+            '**Arts. 11-12** — Publicidade, fundamentação, ordem cronológica',
+            '**Arts. 13-14** — Aplicação espacial e temporal da lei processual',
+            '**Art. 15** — Aplicação supletiva e subsidiária do CPC (eleitoral, trabalhista, administrativo)'
+          ]},
+          { type: 'h', text: 'Outros diplomas centrais' },
+          { type: 'list', items: [
+            '**LINDB (Decreto-Lei 4.657/42), arts. 1º-6º** — Vigência das normas',
+            '**LINDB arts. 20-30** (Lei 13.655/18) — Interpretação no direito público',
+            '**CF/88 art. 5º (XXXV, LIV, LV, LXXVIII)** — Garantias processuais constitucionais'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Modelo constitucional do processo' },
+          { type: 'p', text: 'O art. 1º CPC estabelece que o processo civil será **ordenado, disciplinado e interpretado** conforme os valores e normas fundamentais da CF. Trata-se de regra de interpretação que vincula a aplicação do CPC à axiologia constitucional — toda dúvida hermenêutica resolve-se em favor da máxima eficácia das garantias do art. 5º CF (devido processo, contraditório, ampla defesa, juiz natural, razoável duração).' },
+
+          { type: 'h', text: 'Boa-fé objetiva e cooperação' },
+          { type: 'p', text: 'São as duas grandes inovações principiológicas do CPC/15. A **boa-fé objetiva** (art. 5º) vincula todos os sujeitos processuais — partes, juiz, advogados, MP, terceiros — e desdobra-se em deveres anexos: lealdade, probidade, *non venire contra factum proprium*, *supressio*, *surrectio*, *tu quoque*. Sua violação gera litigância de má-fé (arts. 79-81), responsabilidade do juiz (art. 143) e do MP (art. 184).' },
+          { type: 'p', text: 'A **cooperação** (art. 6º) transforma o processo de uma estrutura adversarial-monológica em **modelo cooperativo trifásico**: juiz com partes (deveres de esclarecimento, prevenção, consulta e auxílio); partes entre si (lealdade); todos com a sociedade (boa-fé). Sua manifestação mais visível é a vedação à decisão-surpresa (art. 10): o juiz não pode decidir com base em fundamento sobre o qual as partes não tenham tido oportunidade de se manifestar — ainda que matéria de ordem pública.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Vedação à decisão-surpresa:** a violação ao art. 10 CPC ocorre quando o tribunal adota fundamento jurídico não submetido ao contraditório, mesmo se for matéria cognoscível de ofício (REsp 1.676.027/PR; REsp 1.755.266/SC). Exceção: questões puramente de direito que constituam desdobramento lógico do que já foi debatido.' },
+
+          { type: 'h', text: 'Razoável duração e primazia do julgamento de mérito' },
+          { type: 'p', text: 'O art. 4º consagra duas garantias relacionadas: tempo razoável e solução integral do mérito, **incluída a fase satisfativa**. A primazia do mérito reflete-se em diversos dispositivos: art. 6º (cooperação), art. 76 (sanar irregularidade da capacidade), art. 139 IX (suprir vícios), art. 282 §2º (não pronunciar nulidade quando puder decidir o mérito em favor da parte beneficiada), art. 317 (intimar para sanar antes de extinguir), art. 488 (decidir o mérito quando favorável à parte que aproveitaria a extinção).' },
+
+          { type: 'h', text: 'Diálogo das fontes — aplicação prática' },
+          { type: 'p', text: 'Cláudia Lima Marques sistematiza três modalidades: (i) **diálogo de coerência** — uma lei serve de base conceitual para a outra (CC + CDC para conceito de consumidor); (ii) **diálogo sistemático de complementaridade ou subsidiariedade** — CDC complementa CC em relação consumerista; (iii) **diálogo de coordenação ou influência** — princípios de uma lei influenciam a interpretação de outra. Resultado: superação do critério clássico de antinomia em favor da convivência harmônica.' },
+          { type: 'p', text: 'No processo civil os exemplos abundam: aplicação supletiva e subsidiária do CPC aos demais processos (art. 15 — eleitoral, trabalhista, administrativo); diálogo CDC × CPC em ações coletivas; CC × CPC nas regras de capacidade processual; LINDB (arts. 20-30) × CPC na motivação de decisões em matéria de direito público.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Aplicação supletiva ao processo do trabalho:** admitida quando há lacuna ou compatibilidade (art. 15 CPC + art. 769 CLT). Não há revogação tácita das regras especiais (REsp 1.697.575/PR). Mesma lógica vale para Juizados Especiais (art. 15 CPC + art. 1º Lei 9.099/95).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**4 deveres do juiz na cooperação (Mitidiero/Marinoni):** **E**sclarecer, **P**revenir, **C**onsultar, **A**uxiliar. Mnemônico **EPCA** — *é preciso cooperação ativa*.' },
+          { type: 'box', kind: 'macete', text: '**3 modalidades do diálogo das fontes (CLM):** **C**oerência (uma lei serve de base à outra), **C**omplementaridade/subsidiariedade (uma supre a outra), **C**oordenação/influência (princípios cruzados). Mnemônico **CCC**.' },
+          { type: 'box', kind: 'macete', text: '**Critérios clássicos de solução de antinomia (que o diálogo SUPERA):** **L**ex superior derrogat inferiori, **L**ex specialis derrogat generali, **L**ex posterior derrogat priori. Mnemônico **3L**.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Aplicação imediata ≠ retroatividade.** Lei processual nova é IMEDIATA, não retroativa. Atos já praticados sob a lei anterior são preservados (isolamento). *Errado:* "a lei nova retroage para alcançar o ato." *Certo:* "a lei nova aplica-se aos atos a praticar."' },
+          { type: 'box', kind: 'atencao', text: '**Decisão-surpresa × matéria de ordem pública:** o art. 10 CPC vale MESMO para matérias cognoscíveis de ofício (incompetência absoluta, prescrição, nulidade etc.). A banca cobra essa pegadinha sempre — STJ é firme: ouvir as partes antes de decidir, sob pena de nulidade.' },
+          { type: 'box', kind: 'atencao', text: '**Princípio dispositivo × impulso oficial:** o processo INICIA-SE por iniciativa da parte (art. 2º, primeira parte) mas SE DESENVOLVE por impulso oficial (segunda parte). Não confundir com "princípio inquisitivo" puro — o CPC adota um sistema misto.' },
+          { type: 'box', kind: 'atencao', text: '**Heterotopia normativa:** uma norma processual pode estar no CC (ex.: art. 219 CC — interrupção da prescrição pela citação) e uma norma material pode estar no CPC. Para identificar a natureza, olhe o objeto, não a localização.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 2 (princípios e DH):** o art. 1º CPC remete diretamente aos princípios constitucionais — devido processo legal, contraditório, ampla defesa, juiz natural, duração razoável. Estude os dois em conjunto.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência) e 8 (atos processuais):** as regras de aplicação no espaço (art. 13) ligam-se à competência internacional; o isolamento dos atos (art. 14) é base para o regime de prazos e nulidades.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** vedação à decisão-surpresa (art. 10) e cooperação (art. 6º) são especialmente cobradas no contexto de saneamento (art. 357) e julgamento conforme o estado do processo.' }
+        ]
+      }
     ]
   },
   {
@@ -46,22 +121,123 @@ topics: [
     schedule: 'Mês 1, Semana 1-2',
     advantage: 'Vantagem parcial — DH no MP é cotidiano',
     sections: [
-      { h: 'Foco central', items: [
-        'Princípios constitucionais do processo: devido processo legal, contraditório, ampla defesa, duração razoável (CF art. 5º LXXVIII), juiz natural',
-        'CPC art. 1º — modelo constitucional do processo',
-        'Convencionalidade: Convenção Americana de DH (Pacto de São José da Costa Rica) e impacto no processo civil',
-        'Sistema interamericano: Comissão e Corte IDH'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CF/88 art. 5º (LIV, LV, LXXVIII)',
-        'CPC arts. 1º a 12 (normas fundamentais)',
-        'Convenção Americana de DH (Decreto 678/92)'
-      ]},
-      { h: 'Jurisprudência relevante', items: [
-        'STF — supralegalidade dos tratados de DH não incorporados como EC',
-        'Casos da Corte IDH com impacto processual (Damião Ximenes Lopes, Gomes Lund, etc.)',
-        'Acompanhar via Buscador Dizer o Direito'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **princípios processuais** formam o alicerce normativo sobre o qual se constroem as regras do CPC e a interpretação da jurisdição. Distinguem-se em duas grandes vertentes: (i) **princípios constitucionais** — extraídos diretamente da CF/88, sobretudo do art. 5º; e (ii) **princípios infraconstitucionais** — cristalizados no CPC/15, especialmente nos arts. 1º-12 (normas fundamentais).' },
+          { type: 'p', text: 'A força normativa dos princípios não é meramente retórica. Após a virada pós-positivista (Alexy, Dworkin), princípios são normas jurídicas — diferentes das regras pela **estrutura** (mandados de otimização × mandados definitivos) e pela **forma de aplicação** (ponderação × subsunção). Servem tanto como diretriz interpretativa quanto como fundamento direto de decisão.' },
+          { type: 'p', text: '**Direito processual internacional dos direitos humanos** designa o conjunto de normas oriundas de tratados internacionais ratificados pelo Brasil — sobretudo a Convenção Americana de Direitos Humanos (Pacto de São José da Costa Rica, Decreto 678/92) — que impõem padrões mínimos ao processo civil brasileiro. A Comissão e a Corte Interamericana de Direitos Humanos integram o Sistema Interamericano (SIDH); decisões da Corte vinculam o Estado brasileiro.' },
+          { type: 'p', text: '**Direitos fundamentais e processo** refletem a dupla dimensão dos DF: (i) dimensão **subjetiva** — titularidade do indivíduo, gerando posições jurídicas exigíveis (direitos de defesa, prestação, participação); (ii) dimensão **objetiva** — vetor interpretativo de toda a ordem jurídica, impondo deveres de proteção ao Estado (*Schutzpflicht*). O processo civil é simultaneamente instrumento de proteção e arena de exercício de DF.' },
+          {
+            type: 'table',
+            headers: ['Princípio constitucional', 'Inciso (CF art. 5º)', 'Conteúdo essencial'],
+            rows: [
+              ['Devido processo legal', 'LIV', 'Procedimental (rito) + substantivo (proporcionalidade)'],
+              ['Contraditório e ampla defesa', 'LV', 'Informação + manifestação + influência (arts. 9º-10 CPC)'],
+              ['Inafastabilidade', 'XXXV', 'Acesso à justiça; direito de ação'],
+              ['Juiz natural', 'XXXVII e LIII', 'Vedação ao tribunal de exceção; competência prévia; imparcialidade'],
+              ['Vedação a provas ilícitas', 'LVI', 'Inadmissibilidade no processo'],
+              ['Razoável duração', 'LXXVIII (EC 45/04)', 'Tempo + meios para celeridade'],
+              ['Publicidade', 'LX', 'Regra; sigilo é exceção justificada'],
+              ['Fundamentação', 'art. 93 IX', 'Substancial (CPC art. 489 §1º)']
+            ]
+          }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Constituição da República' },
+          { type: 'list', items: [
+            '**Art. 5º LIV** — devido processo legal',
+            '**Art. 5º LV** — contraditório e ampla defesa',
+            '**Art. 5º XXXV** — inafastabilidade da jurisdição',
+            '**Art. 5º LIII e XXXVII** — juiz natural; vedação a tribunal de exceção',
+            '**Art. 5º LVI** — vedação às provas ilícitas',
+            '**Art. 5º LX** — publicidade dos atos processuais',
+            '**Art. 5º LXXVIII** (EC 45/04) — razoável duração + meios para celeridade',
+            '**Art. 93 IX** — fundamentação obrigatória das decisões',
+            '**Art. 5º §2º** — direitos decorrentes do regime e dos tratados',
+            '**Art. 5º §3º** — tratados de DH aprovados como EC equivalem a EC',
+            '**Art. 5º §4º** — submissão à jurisdição do TPI'
+          ]},
+          { type: 'h', text: 'CPC — princípios infraconstitucionais' },
+          { type: 'list', items: [
+            '**Arts. 1º-12** — normas fundamentais (estudo conjunto com Tópico 1)',
+            '**Arts. 9º-10** — contraditório efetivo + vedação à decisão-surpresa',
+            '**Art. 357** — saneamento cooperativo',
+            '**Art. 489 §1º (IV, V e VI)** — fundamentação substancial; precedentes'
+          ]},
+          { type: 'h', text: 'Tratados de DH e legislação correlata' },
+          { type: 'list', items: [
+            '**Convenção Americana de DH** (Pacto de São José) — Decreto 678/92',
+            '**Pacto Internacional de Direitos Civis e Políticos** — Decreto 592/92',
+            '**Convenção sobre os Direitos da Criança** — Decreto 99.710/90',
+            '**Convenção sobre Direitos das PCD** (Decreto 6.949/09 — primeiro tratado com status de EC, art. 5º §3º)',
+            '**Tratado de Marraqueche** (Decreto 9.522/18 — segundo com status de EC)',
+            '**Convenção Interamericana contra o Racismo** (Decreto 10.932/22 — terceiro com status de EC)'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Devido processo legal — dupla dimensão' },
+          { type: 'p', text: 'O *due process of law*, importado do direito anglo-saxão, possui no Brasil dimensão **procedimental** (procedural due process — observância do rito, contraditório, ampla defesa) e **substantiva** (substantive due process — exigência de razoabilidade e proporcionalidade do ato estatal, controle de mérito quanto ao excesso). É a cláusula-mãe da qual derivam todas as demais garantias processuais. A dimensão substantiva é o fundamento do controle de constitucionalidade material das leis processuais.' },
+
+          { type: 'h', text: 'Contraditório efetivo — superação da concepção formal' },
+          { type: 'p', text: 'O CPC/15 abandona o contraditório meramente formal (oportunidade de manifestação) e adota o **contraditório substancial ou efetivo**: direito de **influenciar** a decisão (art. 9º), com vedação à decisão-surpresa (art. 10). Não basta ouvir; é preciso considerar o argumento — daí a exigência de fundamentação substancial (art. 489 §1º IV: enfrentar todos os argumentos deduzidos no processo capazes, em tese, de infirmar a conclusão adotada pelo julgador).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 631.240 (2014, repercussão geral, Tema 350):** prévio requerimento administrativo é condição da ação previdenciária — interpretação do art. 5º XXXV à luz do interesse de agir. Mesma lógica em ADI 6.421 sobre serviços públicos.' },
+
+          { type: 'h', text: 'Inafastabilidade × condicionamentos legítimos' },
+          { type: 'p', text: 'A inafastabilidade (art. 5º XXXV CF) não é absoluta. O STF admite condicionamentos razoáveis ao acesso ao Judiciário — exigência de prévio requerimento administrativo em causas previdenciárias (RE 631.240), arbitragem como opção (Lei 9.307/96), interesse de agir (CPC art. 17). O **núcleo intangível** é a possibilidade de provocar o Estado-juiz quando há lesão ou ameaça a direito.' },
+
+          { type: 'h', text: 'Juiz natural e imparcialidade' },
+          { type: 'p', text: 'Garante (i) competência preestabelecida em lei (art. 5º LIII); (ii) vedação a juízos *ad hoc* criados após o fato (art. 5º XXXVII); (iii) imparcialidade. As regras de impedimento e suspeição (CPC arts. 144-148) são desdobramento. **Atenção:** a recusa do juiz natural por força de fato superveniente (impedimento, suspeição) não viola o princípio — pelo contrário, o reafirma.' },
+
+          { type: 'h', text: 'Status normativo dos tratados de DH no Brasil' },
+          { type: 'p', text: 'O STF, no leading case **RE 466.343/SP** (Cesar Peluso, 2008 — prisão civil do depositário infiel), fixou que tratados de DH não aprovados como EC têm **status supralegal** — acima da lei ordinária, abaixo da CF. Já os aprovados pelo rito do art. 5º §3º (3/5 em dois turnos em cada Casa, como EC) têm **status de emenda constitucional**. Atualmente apenas três tratados têm esse status: Convenção sobre Direitos das PCD, Tratado de Marraqueche e Convenção Interamericana contra o Racismo.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula Vinculante 25:** "É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito." Resultado direto do controle de convencionalidade (art. 7.7 CADH × Decreto-Lei 911/69 e art. 5º LXVII CF).' },
+
+          { type: 'h', text: 'Sistema Interamericano de DH (SIDH)' },
+          { type: 'p', text: 'Integra a OEA. Estrutura **dual**: a **Comissão IDH** (Washington, DC) recebe denúncias, faz recomendações, demanda perante a Corte; a **Corte IDH** (San José da Costa Rica) julga e profere sentenças vinculantes para Estados que reconheceram sua jurisdição contenciosa. O Brasil reconheceu a jurisdição da Corte pelo **Decreto 4.463/02**. Sentenças da Corte são **autoexecutáveis** quanto à indenização (art. 68.2 CADH); demais medidas dependem de cumprimento interno por meio das autoridades nacionais.' },
+
+          { type: 'h', text: 'Controle de convencionalidade' },
+          { type: 'p', text: 'Dever do juiz brasileiro de aferir a compatibilidade da lei interna com tratados de DH. Se a lei contraria o tratado supralegal, deixa de ser aplicada (controle **difuso**); se contraria tratado com status de EC, controle **concentrado** ou difuso. Inspiração: Corte IDH, **Caso Almonacid Arellano vs. Chile (2006)**, depois consolidado em Cabrera García y Montiel Flores vs. México (2010). No Brasil, o STF reconheceu o instituto sobretudo no julgamento da prisão civil (RE 466.343) e tem aplicado em várias matérias.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**Corte IDH × Brasil — casos paradigmáticos:** *Damião Ximenes Lopes* (2006) — 1ª condenação do Brasil; saúde mental e proteção a vulneráveis. *Gomes Lund e outros (Guerrilha do Araguaia)* (2010) — incompatibilidade da Lei de Anistia (Lei 6.683/79) com a CADH. *Garibaldi vs. Brasil* (2009) — devido processo e duração razoável (impunidade no homicídio de líder rural). *Favela Nova Brasília* (2017) — investigação criminal e tortura policial. *Vladimir Herzog* (2018) — imprescritibilidade dos crimes contra a humanidade.' },
+
+          { type: 'h', text: 'Direitos fundamentais e processo — eficácia horizontal' },
+          { type: 'p', text: 'DF aplicam-se também nas relações entre particulares (eficácia horizontal — *Drittwirkung*). No processo civil, isso significa que regras processuais infraconstitucionais devem ser interpretadas em conformidade com os DF do adversário, não apenas em face do Estado. Exemplos: privacidade na produção de provas (art. 5º X-XII), dignidade no comportamento processual (CPC art. 5º), proteção do consumidor litigante (art. 5º XXXII), assistência judiciária gratuita (art. 5º LXXIV).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Princípios do art. 5º CF aplicáveis ao processo — mnemônico CADIPRER:** **C**ontraditório, **A**mpla defesa, **D**evido processo, **I**nafastabilidade, **P**rovas (vedação às ilícitas), **R**azoável duração, **E**galité (igualdade), **R**azoável publicidade.' },
+          { type: 'box', kind: 'macete', text: '**Status dos tratados de DH no Brasil — "3 níveis":** (i) **EC** se aprovados pelo art. 5º §3º (3/5, dois turnos, cada Casa); (ii) **supralegal** se ratificados sem o rito (RE 466.343); (iii) **lei ordinária** apenas se NÃO forem de DH.' },
+          { type: 'box', kind: 'macete', text: '**Tratados de DH com status de EC (3 únicos):** PCD (2009), Marraqueche (2018), Racismo (2022). Ordem cronológica + temas progressivos = pão da prova.' },
+          { type: 'box', kind: 'macete', text: '**Casos da Corte IDH × Brasil — mnemônico DGGFH:** **D**amião Ximenes (saúde mental), **G**omes Lund (anistia), **G**aribaldi (impunidade), **F**avela Nova Brasília (tortura), **H**erzog (imprescritibilidade). Mais: Maria da Penha (Comissão IDH).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Status dos tratados de DH:** o STF NÃO acolheu a tese de que TODO tratado de DH tem status constitucional. Apenas os aprovados pelo art. 5º §3º. Os demais são **supralegais**. Cuidado com banca que afirma "status constitucional automático" — está errado.' },
+          { type: 'box', kind: 'atencao', text: '**ADPF 153 vs. Caso Gomes Lund:** o STF manteve a Lei de Anistia (ADPF 153, abril/2010) — DEPOIS a Corte IDH a declarou incompatível com a CADH (Caso Gomes Lund, novembro/2010). O Brasil está em descumprimento internacional, mas internamente a Lei segue válida — paradoxo cobrado em prova.' },
+          { type: 'box', kind: 'atencao', text: '**Contraditório formal × substancial:** ouvir a parte é o mínimo; o contraditório efetivo (art. 9º CPC) exige que a manifestação tenha **chance real de influenciar** a decisão, e que o juiz a considere expressamente (art. 489 §1º IV). Decisão que ignora argumento é nula por falta de fundamentação.' },
+          { type: 'box', kind: 'atencao', text: '**Inafastabilidade não é absoluta:** prévio requerimento administrativo (RE 631.240), arbitragem voluntária (Lei 9.307/96), interesse de agir (CPC art. 17), depósito recursal restrito — são condicionamentos compatíveis. O que o art. 5º XXXV veda é a EXCLUSÃO da apreciação judicial, não condicionamentos razoáveis.' },
+          { type: 'box', kind: 'atencao', text: '**Comissão IDH × Corte IDH:** a Comissão NÃO julga; faz recomendações e demanda perante a Corte. Apenas a Corte profere sentenças vinculantes. Banca confunde frequentemente esses papéis.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 1:** os princípios constitucionais aqui estudados são a base interpretativa do art. 1º CPC. Os arts. 1º-12 CPC os concretizam infraconstitucionalmente — estudar em conjunto.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** o MP atua como guardião dos DH e tem legitimidade para ACP em sua defesa (CF art. 129 III; LC 75/93). **Vivência institucional da candidata é vantagem direta** — explorar em prova oral.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum) e 16 (recursos):** fundamentação substancial (art. 489 §1º) e contraditório efetivo são cobrados na sentença e no acórdão; ausência gera nulidade absoluta.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** instrumento por excelência de defesa coletiva de DH — meio ambiente, consumidor, criança/adolescente, idoso, PCD, povos tradicionais. Pão com manteiga do MP.' }
+        ]
+      }
     ]
   },
   {
@@ -74,23 +250,136 @@ topics: [
     schedule: 'Mês 1, Semana 2',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Jurisdição: conceito, características (substitutividade, definitividade, inércia), teorias (Carnelutti, Chiovenda, Allorio)',
-        'Equivalentes jurisdicionais: autocomposição, mediação, arbitragem',
-        'Ação: direito autônomo, abstrato, instrumental — teorias (imanentista, concretista, abstrata)',
-        'Condições da ação no CPC: legitimidade e interesse (possibilidade jurídica deixou de ser autônoma)',
-        'Exceção: defesa em sentido amplo (toda resistência) e estrito (defesas processuais)',
-        'Processo: relação jurídica processual triangular; pressupostos processuais (existência, validade, eficácia)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 16-20, 175',
-        'CF/88 art. 5º XXXV (inafastabilidade)'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Teoria da asserção × condições in concreto: a maioria adota asserção (verifica condições à luz das alegações)',
-        'Arbitragem: jurisdição ou equivalente jurisdicional? Doutrina divide; STJ tende a tratar como jurisdicional',
-        'Pressupostos processuais × condições da ação — distinguir bem'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os quatro institutos — **jurisdição, ação, exceção e processo** — formam a "trilogia estrutural" da Teoria Geral do Processo (Carnelutti chamou de "trinômio"; a doutrina brasileira ampliou para quatro). São os pilares conceituais sobre os quais se ergue toda a disciplina processual. Domínio sólido aqui é pré-requisito para todos os demais tópicos.' },
+          { type: 'p', text: '**Jurisdição** é a função estatal de pacificar conflitos por meio do processo, com escopos jurídico (atuação da vontade concreta da lei), social (pacificação) e político (afirmação do poder estatal). Caracteriza-se por **substitutividade** (Estado decide no lugar das partes), **definitividade** (aptidão para coisa julgada), **inércia** (não age de ofício — *ne procedat iudex ex officio*) e **unidade** (jurisdição é uma só, embora dividida em competências).' },
+          { type: 'p', text: '**Ação** é o direito público subjetivo, autônomo e abstrato, de provocar a jurisdição. As teorias evoluíram da concepção imanentista (Savigny — ação como direito material em movimento) à abstrata (Degenkolb, Plósz) e à **eclética de Liebman**, esta adotada pelo CPC: a ação é direito à sentença de mérito (não necessariamente favorável), condicionado por requisitos próprios (condições da ação). Hoje, no CPC/15, restaram **duas condições**: legitimidade e interesse de agir (a possibilidade jurídica do pedido foi absorvida pelo interesse).' },
+          { type: 'p', text: '**Exceção** é o direito de defesa do réu — em sentido amplo, qualquer resistência à pretensão; em sentido estrito, as defesas processuais (peças autônomas no sistema antigo). No CPC/15, a estrutura foi simplificada: preliminares e mérito vão todos na **contestação** (art. 337); apenas o impedimento e a suspeição seguem peça apartada (arts. 146-148).' },
+          { type: 'p', text: '**Processo** é o instrumento da jurisdição — composto de relação jurídica processual (autor-juiz-réu, triangular ou angular) e procedimento (sequência de atos). Sua natureza jurídica foi objeto de longa controvérsia, hoje pacificada na **teoria da relação jurídica processual** (Bülow, 1868), com aprimoramentos da teoria do **procedimento em contraditório** de Fazzalari.' },
+          {
+            type: 'table',
+            headers: ['Instituto', 'Conceito-chave', 'Sujeito', 'Dispositivo CPC'],
+            rows: [
+              ['Jurisdição', 'Função estatal pacificadora', 'Estado-juiz', 'Arts. 16-20'],
+              ['Ação', 'Direito de provocar a jurisdição', 'Autor (e réu reconvinte)', 'Arts. 17, 485 VI, 337'],
+              ['Exceção', 'Direito de defesa', 'Réu (e autor em reconvenção)', 'Arts. 336-342, 146-148'],
+              ['Processo', 'Instrumento da jurisdição', 'Todos os sujeitos', 'Arts. 188-201, 318+']
+            ]
+          }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Jurisdição' },
+          { type: 'list', items: [
+            '**CPC arts. 16-20** — limites da jurisdição nacional; cooperação internacional',
+            '**CPC arts. 21-25** — competência internacional concorrente e exclusiva',
+            '**CF/88 art. 5º XXXV** — inafastabilidade',
+            '**Lei 9.307/96** — Lei de Arbitragem'
+          ]},
+          { type: 'h', text: 'Ação' },
+          { type: 'list', items: [
+            '**CPC art. 17** — "Para postular em juízo é necessário ter interesse e legitimidade"',
+            '**CPC art. 485 VI** — extinção sem mérito por ausência de legitimidade ou interesse',
+            '**CPC art. 330 II e III** — indeferimento da inicial por ilegitimidade ou falta de interesse',
+            '**CPC art. 18** — legitimação extraordinária (substituição processual)'
+          ]},
+          { type: 'h', text: 'Exceção (defesa)' },
+          { type: 'list', items: [
+            '**CPC arts. 336-342** — contestação (preliminares e mérito reunidos)',
+            '**CPC art. 337** — rol de preliminares (matérias da defesa processual)',
+            '**CPC arts. 146-148** — impedimento e suspeição (peça apartada)',
+            '**CPC arts. 343-346** — reconvenção (dentro da contestação)'
+          ]},
+          { type: 'h', text: 'Processo (pressupostos e procedimento)' },
+          { type: 'list', items: [
+            '**CPC arts. 188-201** — atos processuais (forma)',
+            '**CPC art. 318** — procedimento comum como regra; especiais por exceção',
+            '**CPC arts. 485, 487** — extinção sem e com resolução do mérito'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Jurisdição — características essenciais' },
+          { type: 'p', text: 'A doutrina majoritária (Cintra/Grinover/Dinamarco) lista quatro características: (i) **substitutividade** — o Estado decide no lugar das partes (excluído na jurisdição voluntária, segundo parte da doutrina); (ii) **definitividade** — aptidão para a coisa julgada material (atributo único da jurisdição, ausente em decisões administrativas); (iii) **inércia** — não age de ofício, depende de provocação (*ne procedat iudex ex officio*); (iv) **unidade** — jurisdição é uma só, distribuída em competências.' },
+          { type: 'p', text: 'Classificações tradicionais: (a) quanto à matéria — civil, penal, trabalhista, eleitoral, militar; (b) quanto ao órgão — comum (estadual e federal) e especial (eleitoral, militar, trabalhista); (c) quanto ao grau — superior e inferior; (d) quanto à natureza — voluntária (administração pública de interesses privados) e contenciosa (conflito).' },
+
+          { type: 'h', text: 'Equivalentes jurisdicionais' },
+          { type: 'p', text: 'Mecanismos de solução de conflito que **não passam pela jurisdição estatal**: (i) **autotutela** — solução pela própria força (excepcional: legítima defesa, desforço imediato da posse, greve); (ii) **autocomposição** — transação, conciliação, mediação (CPC art. 3º §§2º-3º privilegia); (iii) **arbitragem** — Lei 9.307/96. A natureza jurídica da arbitragem divide a doutrina: para Cândido Dinamarco e o STJ, é **jurisdição privada** (sentença arbitral é título executivo judicial — CPC art. 515 VII); para Cintra/Grinover, equivalente jurisdicional.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 485:** "A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição." Reforça a natureza jurisdicional do instituto.' },
+
+          { type: 'h', text: 'Ação — teorias e condições no CPC/15' },
+          { type: 'p', text: 'Evolução das teorias: (i) **imanentista** (Savigny) — ação = direito material em movimento; (ii) **concreta** (Wach, A. Wach) — direito à sentença favorável; (iii) **abstrata** (Degenkolb, Plósz) — direito autônomo, independente do mérito; (iv) **eclética** (Liebman) — direito à sentença de mérito, condicionado por **legitimidade**, **interesse** e (originalmente) **possibilidade jurídica**. A teoria eclética foi adotada pelo CPC/73 e MANTIDA no CPC/15, com a única ressalva de que a possibilidade jurídica do pedido foi absorvida pelo interesse de agir.' },
+          { type: 'p', text: 'Hoje, as **condições da ação** são: (a) **legitimidade** (art. 17) — pertinência subjetiva (legitimação ordinária = parte do conflito; extraordinária = substituto processual, art. 18); (b) **interesse de agir** — utilidade (provimento útil) + necessidade (provocação do Judiciário) + adequação (via correta). Ausência → extinção sem mérito (art. 485 VI).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 631.240 (Tema 350):** prévio requerimento administrativo é condição para o interesse de agir em ações previdenciárias. Não há "negativa ficta" automática.' },
+
+          { type: 'h', text: 'Teoria da asserção (in statu assertionis)' },
+          { type: 'p', text: 'Predominante na doutrina (Bedaque, Watanabe, Greco) e no STJ: as condições da ação devem ser verificadas **à luz das alegações do autor** (em estado de asserção, antes da instrução). Se a verificação exigir exame probatório aprofundado, o juízo desce ao **mérito** — e a decisão será de improcedência (sentença de mérito), não de carência (extinção sem mérito). Importância prática: improcedência faz coisa julgada material; carência não.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.395.875/PE e jurisprudência consolidada:** adoção da teoria da asserção. Se a aferição da legitimidade exigir dilação probatória, a questão é de mérito — improcedência, não carência.' },
+
+          { type: 'h', text: 'Exceção — estrutura no CPC/15' },
+          { type: 'p', text: 'O CPC/15 simplificou drasticamente o sistema antigo (que tinha "exceções" como peças autônomas — exceção de incompetência relativa, suspeição, impedimento). Hoje:' },
+          { type: 'list', items: [
+            '**Contestação (art. 336)** — única peça do réu para defesa, reunindo preliminares e mérito',
+            '**Art. 337** — rol exaustivo de preliminares (incompetência absoluta E relativa; inépcia; perempção; litispendência; coisa julgada; conexão; capacidade postulatória; convenção de arbitragem; ausência de legitimidade ou interesse — ROL TAXATIVO)',
+            '**Impedimento e suspeição (arts. 146-148)** — únicos casos em peça apartada, no prazo de 15 dias do conhecimento do fato',
+            '**Reconvenção (arts. 343-346)** — propositura na própria contestação (não mais peça apartada)'
+          ]},
+
+          { type: 'h', text: 'Processo — natureza jurídica e pressupostos' },
+          { type: 'p', text: 'Teorias sobre a natureza: (a) **contratualista** (Pothier, Aubry/Rau) — superada; (b) **quase-contrato** (Savigny) — superada; (c) **relação jurídica processual** (Bülow, 1868) — DOMINANTE; (d) **situação jurídica** (Goldschmidt) — minoritária; (e) **procedimento em contraditório** (Fazzalari, 1957) — moderna, complementar à de Bülow.' },
+          { type: 'p', text: 'A relação jurídica processual é **distinta da material** (Bülow), **autônoma**, **complexa** (vários direitos e deveres), **dinâmica** (evolui no tempo) e **trilateral ou triangular** (autor-juiz-réu, com vínculos recíprocos).' },
+          { type: 'p', text: 'Os **pressupostos processuais** dividem-se em:' },
+          {
+            type: 'table',
+            headers: ['Categoria', 'Subdivisão', 'Exemplos'],
+            rows: [
+              ['De existência', 'Subjetivos', 'Jurisdição; demanda; partes'],
+              ['De existência', 'Objetivo', 'Petição inicial (sem ela, não há processo)'],
+              ['De validade', 'Subjetivos (juiz)', 'Competência; imparcialidade'],
+              ['De validade', 'Subjetivos (partes)', 'Capacidade de ser parte; capacidade processual; capacidade postulatória'],
+              ['De validade — objetivos', 'Intrínsecos', 'Petição apta (art. 330); citação válida'],
+              ['De validade — objetivos', 'Extrínsecos (negativos)', 'Ausência de litispendência, coisa julgada, perempção, convenção de arbitragem']
+            ]
+          }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Características da jurisdição — SIDU:** **S**ubstitutividade, **I**nércia, **D**efinitividade, **U**nidade.' },
+          { type: 'box', kind: 'macete', text: '**Equivalentes jurisdicionais — "AAA":** **A**utotutela (excepcional), **A**utocomposição (transação/mediação/conciliação), **A**rbitragem.' },
+          { type: 'box', kind: 'macete', text: '**Teorias da ação — ICAE (cronológica):** **I**manentista (Savigny) → **C**oncreta (Wach) → **A**bstrata (Degenkolb) → **E**clética (Liebman, adotada).' },
+          { type: 'box', kind: 'macete', text: '**Condições da ação no CPC/15 — só LI:** **L**egitimidade e **I**nteresse de agir. A possibilidade jurídica do pedido foi absorvida pelo interesse.' },
+          { type: 'box', kind: 'macete', text: '**Interesse de agir — UNA:** **U**tilidade + **N**ecessidade + **A**dequação.' },
+          { type: 'box', kind: 'macete', text: '**Pressupostos processuais — JCP/PCC:** Existência: **J**urisdição, **C**apacidade postulatória mínima, **P**etição. Validade: **P**etição apta, **C**itação válida, **C**ompetência + ausência de óbices (litispendência, coisa julgada).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Carência da ação × improcedência:** carência (ausência de condição) → extinção SEM mérito (art. 485 VI), sem coisa julgada material. Improcedência → COM mérito (art. 487 I), com coisa julgada. A teoria da asserção é o que define a fronteira: se demandar prova, é mérito.' },
+          { type: 'box', kind: 'atencao', text: '**Possibilidade jurídica do pedido NÃO é mais condição autônoma** no CPC/15 — foi absorvida pelo interesse de agir. Banca cobra essa "armadilha" da transição CPC/73 → CPC/15.' },
+          { type: 'box', kind: 'atencao', text: '**Substituição processual ≠ sucessão processual:** substituição = legitimação extraordinária (parte em nome próprio defendendo direito alheio — art. 18); sucessão = troca da parte por morte ou ato inter vivos (art. 109).' },
+          { type: 'box', kind: 'atencao', text: '**Jurisdição voluntária — substitutividade?** Discussão clássica: parte da doutrina nega jurisdição (seria mera administração pública de interesses privados); o CPC trata como jurisdição (arts. 719-770). Para a maioria moderna, é jurisdição em sentido próprio, com peculiaridades.' },
+          { type: 'box', kind: 'atencao', text: '**Pressupostos processuais × condições da ação:** ambos são analisados antes do mérito, mas têm naturezas diversas. Pressupostos = relação processual; condições = exercício do direito de ação. A ausência de qualquer um leva a extinção sem mérito (art. 485).' },
+          { type: 'box', kind: 'atencao', text: '**Reconvenção no CPC/15** — apresentada NA própria contestação (art. 343), NÃO em peça apartada. Erro frequente em prova.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 4 (partes e intervenção):** capacidade processual e legitimidade ad causam são institutos distintos, frequentemente confundidos. Este tópico fundamenta a discussão.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** jurisdição é uma; competência é a medida em que cada órgão a exerce. A unidade da jurisdição é base lógica para o estudo da competência.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** as condições da ação são examinadas na petição inicial (indeferimento — art. 330) e podem reaparecer em qualquer fase (art. 485 §3º). A teoria da asserção orienta o juiz.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 14 (jurisdição voluntária):** a discussão sobre a natureza jurídica (jurisdição ou administração?) repete-se ali com nuances específicas.' }
+        ]
+      }
     ]
   },
   {
