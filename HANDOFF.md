@@ -174,21 +174,23 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #4** (950f2c0) — Reforço PC 21-30: +20 flashcards e +4 questões
 - **PR #5** (2ac267f) — Atualização HANDOFF
 - **PR #6** (92cf09b) — Compartilhamento: esqueletos das 9 áreas (+96 tópicos), filtro de matéria no hub, CONTRIBUTING.md, +15 súmulas, +20 cards, +10 questões, TOC interno
-- **PR #7** (este) — Segunda passada: +25 súmulas (Const./Adm./Penal/PP/Coletivo), +25 cards, +12 questões, filtro de matéria em `referencia.html`, ACP (colproc-02) preenchida como demo
+- **PR #7** (957c236) — Segunda passada: +25 súmulas (Const./Adm./Penal/PP/Coletivo), +25 cards, +12 questões, filtro de matéria em `referencia.html`, ACP (colproc-02) preenchida como demo
+- **PR #8** (este) — Vantagens da candidata: 6 esqueletos preenchidos (3 Teoria do MP + 3 Processual Coletivo), +27 cards e +6 questões. ColProc agora 4/8 preenchido; MP 3/8 preenchido.
 
 ## Stats atuais
 
-- **143 tópicos** (**48 com conteúdo** + 95 esqueletos com outline)
-- **318 flashcards**
-- **130 questões** com gabarito comentado
+- **143 tópicos** (**54 com conteúdo** + 89 esqueletos com outline)
+- **345 flashcards**
+- **136 questões** com gabarito comentado
 - **88 súmulas** STF/STJ mapeadas, distribuídas em 8 matérias via campo `materia`
-- ~8.300 linhas em `assets/data.js`
+- ~8.700 linhas em `assets/data.js`
 
-### Tópicos preenchidos (48)
+### Tópicos preenchidos (54)
 
 - **Processo Civil 1-30** (30) — Fase 1 e Fase 2 completas
 - **Direito Civil 1-17** (17) — Fase 3 completa
-- **Processual Coletivo 2** (1) — Ação Civil Pública (preenchido como demo de como contribuir; serve de exemplo concreto para outros candidatos atacarem outras matérias)
+- **Teoria do MP** (3): princípios institucionais (mp-02), garantias e vedações (mp-03), atribuições constitucionais (mp-07)
+- **Processual Coletivo** (4): microssistema (colproc-01), ACP (colproc-02), Ação Popular (colproc-03), TAC e atuação extrajudicial (colproc-06)
 
 ## Memória persistente do Claude Code
 

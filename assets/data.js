@@ -5895,12 +5895,268 @@ topics: [
 
   // ============ ESQUELETOS — TEORIA DO MP (8) ============
   { id: 'mp-01-historico-constituicoes', num: 1, materia: 'mp', title: 'Histórico do MP e MP nas Constituições', edital: '1.5.1', editalText: 'Origem do MP. MP nas Constituições brasileiras. CF/88 — refundação institucional.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Origens do MP (Egito, França, Portugal)', 'MP nas Constituições brasileiras (1824, 1891, 1934, 1937, 1946, 1967/69)', 'CF/88 — refundação institucional (arts. 127-130)', 'Evolução pós-1988'], sections: [] },
-  { id: 'mp-02-principios-institucionais', num: 2, materia: 'mp', title: 'Princípios institucionais do MP', edital: '1.5.2', editalText: 'Unidade, indivisibilidade, independência funcional. Promotor natural.', size: 'Médio', schedule: null, advantage: null, outline: ['Unidade institucional', 'Indivisibilidade', 'Independência funcional', 'Princípio do promotor natural', 'Princípio da obrigatoriedade × disponibilidade regrada', 'Devido processo legal e contraditório'], sections: [] },
-  { id: 'mp-03-garantias-vedacoes', num: 3, materia: 'mp', title: 'Garantias e vedações dos membros do MP', edital: '1.5.3', editalText: 'CF art. 128 §5º. Vitaliciedade, inamovibilidade, irredutibilidade. Vedações.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Vitaliciedade', 'Inamovibilidade', 'Irredutibilidade de subsídios', 'Vedações (CF art. 128 §5º II)', 'Subteto e regime de previdência'], sections: [] },
+  { id: 'mp-02-principios-institucionais', num: 2, materia: 'mp', title: 'Princípios institucionais do MP', edital: '1.5.2', editalText: 'Unidade, indivisibilidade, independência funcional. Promotor natural.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP).', outline: ['Unidade institucional', 'Indivisibilidade', 'Independência funcional', 'Princípio do promotor natural', 'Princípio da obrigatoriedade × disponibilidade regrada', 'Devido processo legal e contraditório'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A CF/88 (art. 127 §1º) consagra três **princípios institucionais** do Ministério Público: **UNIDADE**, **INDIVISIBILIDADE** e **INDEPENDÊNCIA FUNCIONAL**. A doutrina e a jurisprudência somam outros princípios implícitos — destacadamente o **PROMOTOR NATURAL**, derivado da independência funcional + juiz natural (art. 5º LIII e XXXVII).' },
+        { type: 'p', text: '**Unidade** e **indivisibilidade** referem-se à instituição como um todo: o MP é UM SÓ órgão, com membros que se substituem entre si sem que isso signifique troca de instituição. **Independência funcional** é o blindagem do membro contra interferências hierárquicas no exercício das suas atribuições — diferente da independência meramente administrativa.' },
+        { type: 'p', text: 'Esses princípios são **CLÁUSULAS PÉTREAS implícitas** (CF art. 60 §4º III por equiparação ao núcleo essencial do MP como função essencial à justiça). Limitam o poder reformador e estruturam a atuação cotidiana do membro — vivência direta para Analistas que acompanham a rotina.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Constituição Federal' },
+        { type: 'list', items: [
+          '**Art. 127** — caput: MP é instituição permanente, essencial à função jurisdicional do Estado. Incumbe-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis',
+          '**Art. 127 §1º** — princípios institucionais: UNIDADE, INDIVISIBILIDADE e INDEPENDÊNCIA FUNCIONAL',
+          '**Art. 127 §2º** — autonomia funcional, administrativa e financeira',
+          '**Art. 128 §5º I** — garantias dos membros: vitaliciedade, inamovibilidade, irredutibilidade'
+        ]},
+        { type: 'h', text: 'LC 75/93 (MPU) e LC 34/94 (MPMG)' },
+        { type: 'list', items: [
+          '**LC 75/93 art. 4º** — princípios: unidade, indivisibilidade, independência funcional + autonomia',
+          '**LC 75/93 art. 5º** — funções institucionais',
+          '**LC 34/94 art. 3º** — princípios institucionais do MPMG (replica a CF)',
+          '**LC 34/94 arts. 4º-6º** — autonomias e princípio do promotor natural (implícito na estrutura)'
+        ]},
+        { type: 'h', text: 'Resoluções CNMP relevantes' },
+        { type: 'list', items: [
+          '**Res. CNMP 13/2006** — disciplina o procedimento investigatório criminal (PIC); reflete independência funcional',
+          '**Res. CNMP 23/2007** — inquérito civil',
+          '**Res. CNMP 174/2017** — notícia de fato',
+          '**Res. CNMP 181/2017** — disciplina o PIC'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Unidade institucional' },
+        { type: 'p', text: 'O MP é uma SÓ instituição. Cada membro atua em NOME do MP — não em nome próprio. Decorrência prática: ato praticado por um membro vincula a instituição. Não significa, porém, hierarquia funcional entre os membros — eles têm INDEPENDÊNCIA. Unidade refere-se à existência de UMA SÓ vontade institucional, manifestada por meio dos seus membros.' },
+        { type: 'p', text: '**Limite da unidade:** existem MPs autônomos entre si (MPU vs. MPs estaduais). MP do Trabalho não é unidade com MP de MG. Mas DENTRO de cada MP, a unidade é absoluta.' },
+
+        { type: 'h', text: 'Indivisibilidade' },
+        { type: 'p', text: 'Membros do MP **podem se substituir uns pelos outros** sem que isso represente quebra da continuidade institucional. Promotor A inicia processo, Promotor B prossegue: é a mesma "parte". Não há "transferência" — há SUBSTITUIÇÃO indivisível. Isso permite, p. ex., férias, licenças, remoções sem prejuízo do andamento dos feitos.' },
+        { type: 'box', kind: 'atencao', text: '**Indivisibilidade NÃO autoriza designação arbitrária pelo PGJ.** O princípio do PROMOTOR NATURAL veda designações casuísticas (escolha do promotor para um caso específico). A indivisibilidade opera dentro de critérios PRÉVIOS e ABSTRATOS de organização.' },
+
+        { type: 'h', text: 'Independência funcional' },
+        { type: 'p', text: 'É a garantia mais ROBUSTA. Significa que o membro do MP, no exercício de suas funções, NÃO se submete a ordens hierárquicas — está sujeito apenas à Constituição, às leis e à própria consciência jurídica. Não pode ser orientado pelo PGJ, Corregedor ou superior a adotar tese A ou B no caso concreto.' },
+        { type: 'p', text: '**Distinção importante:** independência **FUNCIONAL** ≠ independência **ADMINISTRATIVA**. Na esfera administrativa (lotação, escala, expediente), há hierarquia. Mas no exercício da ATRIBUIÇÃO funcional (denunciar ou não, propor ACP ou não, opinar deste ou daquele modo), o membro decide soberanamente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 1.572:** independência funcional veda recomendações vinculantes do PGJ sobre teses jurídicas a serem adotadas em casos concretos. PGJ pode emitir orientações gerais (não vinculantes), mas não impor solução em processo específico.' },
+
+        { type: 'h', text: 'Promotor natural (implícito)' },
+        { type: 'p', text: 'Construção doutrinária + STF (HC 67.759/RJ, leading case) que extrai do art. 5º LIII CF (juiz natural) e da independência funcional do MP a vedação às designações casuísticas. Significa que o promotor competente para o caso deve ser determinado por critérios PRÉVIOS, IMPESSOAIS e ABSTRATOS (lei + atos normativos do PGJ de caráter geral). Vedado: designar X para o caso Y porque Z não é confiável.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 67.759/RJ (1991):** consagrou o princípio do promotor natural. Designação casuística do PGJ violou independência funcional + devido processo. Tese reiterada em diversos julgados posteriores.' },
+
+        { type: 'h', text: 'Obrigatoriedade × disponibilidade regrada' },
+        { type: 'p', text: 'A **OBRIGATORIEDADE** da ação penal pública (CPP art. 24) é regra clássica do sistema acusatório. Convivência com tendências modernas de **DISPONIBILIDADE REGRADA** (Acordo de Não Persecução Penal — CPP art. 28-A; transação penal no JECrim — Lei 9.099/95 art. 76; ANPC na improbidade — LIA art. 17-B). O MP pode dispor da pretensão em situações tipificadas.' },
+        { type: 'p', text: 'Princípio convive com a obrigatoriedade no inquérito civil: o MP NÃO é obrigado a propor ACP — pode arquivar, encaminhar para o CSMP. Diferente da ação penal, que sob a vigência clássica era obrigatória.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 princípios expressos do MP (CF 127 §1º): UNIDADE · INDIVISIBILIDADE · INDEPENDÊNCIA FUNCIONAL.** Mnemônico **UII**.' },
+        { type: 'box', kind: 'macete', text: '**Promotor natural** = juiz natural aplicado ao MP. Critérios PRÉVIOS · IMPESSOAIS · ABSTRATOS.' },
+        { type: 'box', kind: 'macete', text: '**Independência FUNCIONAL × ADMINISTRATIVA**: funcional protege a ATIVIDADE; administrativa segue HIERARQUIA. Não confundir.' },
+        { type: 'box', kind: 'macete', text: '**Disponibilidade regrada**: ANPP (CPP 28-A) · transação penal (9.099) · ANPC (LIA 17-B). Exceções tipificadas à obrigatoriedade clássica.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MPU e MP estadual NÃO são unidade entre si.** Unidade opera DENTRO de cada MP. Pegadinha: candidato marca alternativa que diz que MP é instituição única no Brasil. Errado — há vários MPs (MPF, MPT, MPM, MPDFT, MPs estaduais).' },
+        { type: 'box', kind: 'atencao', text: '**PGJ pode editar atos normativos GERAIS** sem violar independência funcional. O que viola é a interferência em CASO CONCRETO. Banca explora essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**Independência funcional não é prerrogativa pessoal — é da INSTITUIÇÃO.** O membro a exerce em razão do cargo. Ao deixar o MP, perde-a.' },
+        { type: 'box', kind: 'atencao', text: '**Promotor natural NÃO está expresso na CF**. É princípio IMPLÍCITO, construído pelo STF. Banca pode cobrar essa origem.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 3 (garantias e vedações):** vitaliciedade, inamovibilidade e irredutibilidade são instrumentos da independência funcional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** princípios institucionais são pressupostos para o exercício das funções do art. 129 CF.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** MP integra as funções essenciais à Justiça (CF 127-130-A).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACP usando independência funcional plena — escolhe se propõe ou arquiva (com revisão pelo CSMP).' }
+      ]
+    }
+  ] },
+  { id: 'mp-03-garantias-vedacoes', num: 3, materia: 'mp', title: 'Garantias e vedações dos membros do MP', edital: '1.5.3', editalText: 'CF art. 128 §5º. Vitaliciedade, inamovibilidade, irredutibilidade. Vedações.', size: 'Pequeno', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP).', outline: ['Vitaliciedade', 'Inamovibilidade', 'Irredutibilidade de subsídios', 'Vedações (CF art. 128 §5º II)', 'Subteto e regime de previdência'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O constituinte de 1988 dotou os membros do MP de **GARANTIAS** análogas às da magistratura, blindando o exercício independente da função (CF art. 128 §5º I). Em contrapartida, impôs **VEDAÇÕES** — limitações de natureza ética e funcional para preservar a imparcialidade institucional (CF art. 128 §5º II).' },
+        { type: 'p', text: 'As garantias são instrumentos da **INDEPENDÊNCIA FUNCIONAL** (tópico MP 2). Sem vitaliciedade, inamovibilidade e irredutibilidade, a independência seria letra morta — bastaria pressão para forçar atuação alinhada. As vedações, por sua vez, evitam conflitos de interesse e politização.' },
+        { type: 'p', text: 'Importante distinguir: garantias são **DO MEMBRO** (decorrem do cargo); vedações também atingem o membro mas têm natureza ÉTICA/FUNCIONAL. Ambas são REGRAS — não princípios — com aplicação direta.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 128 §5º — Garantias (inciso I)' },
+        { type: 'list', items: [
+          '**a) VITALICIEDADE** — após 2 anos de exercício, perda do cargo só por sentença judicial transitada em julgado',
+          '**b) INAMOVIBILIDADE** — só pode ser removido por interesse público, mediante decisão do colegiado competente do MP, por maioria absoluta, assegurada ampla defesa',
+          '**c) IRREDUTIBILIDADE DE SUBSÍDIOS** — observado o art. 37 X e XI, e art. 39 §4º (subsídio em parcela única)'
+        ]},
+        { type: 'h', text: 'CF art. 128 §5º — Vedações (inciso II)' },
+        { type: 'list', items: [
+          '**a)** receber, a qualquer título e sob qualquer pretexto, honorários, percentagens ou custas processuais',
+          '**b)** exercer a advocacia',
+          '**c)** participar de sociedade comercial, na forma da lei',
+          '**d)** exercer, ainda que em disponibilidade, qualquer outra função pública, salvo uma de magistério',
+          '**e)** exercer atividade político-partidária',
+          '**f)** receber, a qualquer título ou pretexto, auxílios ou contribuições de pessoas físicas, entidades públicas ou privadas, ressalvadas as exceções previstas em lei'
+        ]},
+        { type: 'h', text: 'Outras normas relevantes' },
+        { type: 'list', items: [
+          '**LC 75/93 art. 17** — vedações específicas dos membros do MPU',
+          '**LC 34/94 arts. 138-141** — vedações e responsabilidades do MPMG',
+          '**EC 45/04** — incluiu o subsídio em parcela única',
+          '**EC 103/19** — Reforma da Previdência alterou regime previdenciário dos membros'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Vitaliciedade — 2 anos e estágio probatório' },
+        { type: 'p', text: 'A vitaliciedade NÃO é automática. Conquista-se após **2 anos** de efetivo exercício (estágio probatório). Durante esse período o membro pode ser DEMITIDO por procedimento administrativo (não judicial). Após 2 anos, a perda do cargo só pode ocorrer por SENTENÇA JUDICIAL TRANSITADA EM JULGADO, em ação prevista em lei (na prática, a ação de perda do cargo é o instrumento — não cabe demissão administrativa após vitaliciado).' },
+        { type: 'box', kind: 'atencao', text: '**Vitaliciedade × estabilidade:** estabilidade (servidor comum) é após 3 anos e pode ter perda em PAD. Vitaliciedade (membro MP/magistratura) é após 2 anos e perda só em ação JUDICIAL. Diferença significativa.' },
+
+        { type: 'h', text: 'Inamovibilidade' },
+        { type: 'p', text: 'Garantia que protege o membro contra remoção arbitrária. Remoção só é possível: (a) **A PEDIDO** (movimento voluntário) ou (b) por **INTERESSE PÚBLICO** decidido por colegiado competente (CSMP) em **MAIORIA ABSOLUTA**, com ampla defesa. Aplica-se também à PROMOÇÃO COMPULSÓRIA — sim, promoção contra a vontade do membro depende de inamovibilidade respeitada.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — entendimento firmado:** inamovibilidade abrange não só a movimentação geográfica (mudança de comarca) mas também a SUBSTITUIÇÃO em órgão ou função. Promotor titular de comarca não pode ser removido para outra atribuição arbitrariamente.' },
+
+        { type: 'h', text: 'Irredutibilidade de subsídios' },
+        { type: 'p', text: 'Subsídio NOMINAL não pode ser reduzido (CF art. 37 XV). Não há, porém, garantia de irredutibilidade REAL — inflação corrói. STF firmou entendimento de que reajuste é matéria de iniciativa LEGISLATIVA específica (art. 96 II e art. 127 §2º), não cabendo correção monetária automática judicial. Limitada também pelo TETO constitucional (art. 37 XI — Min. STF).' },
+
+        { type: 'h', text: 'Vedações — análise em detalhe' },
+        { type: 'p', text: '**Advocacia** (alínea b): membro NÃO pode advogar — nem em causa própria, com algumas exceções (causa de cônjuge, próprio descendente). Antigos quadros que se aposentaram puderam advogar (regra de transição).' },
+        { type: 'p', text: '**Outra função pública** (alínea d): permitida apenas UMA função de MAGISTÉRIO (cumulação típica admitida — cargo público remunerado de docência em ensino superior). Vedados: cargos comissionados, ministros de estado, secretários, etc.' },
+        { type: 'p', text: '**Atividade político-partidária** (alínea e): vedação ABSOLUTA. Membro não pode ser filiado a partido. Exceção histórica antes da EC 45/04: era possível ser filiado em determinadas hipóteses; hoje, após a emenda, regra é absoluta com ressalva apenas para os membros que JÁ ERAM filiados antes da promulgação da CF/88.' },
+        { type: 'box', kind: 'atencao', text: '**Filiação partidária × atividade político-partidária:** vedações abrangem AMBAS. Membro do MP que pretende disputar cargo eletivo deve se afastar (licenciar) — mas com restrições temporais (Lei 8.625/93 art. 44 V).' },
+
+        { type: 'h', text: 'Subteto e regime previdenciário' },
+        { type: 'p', text: '**Subteto** (CF art. 37 XI): subsídio do PGR é o teto federal; ministros do TJ é o teto nos estados (90,25% do subsídio do Min. STF). **Regime previdenciário** após EC 103/19: idade mínima 65 anos (homem) / 62 (mulher), com regras de transição. Aposentadoria compulsória aos 75 anos.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 garantias (CF 128 §5º I): VITALICIEDADE · INAMOVIBILIDADE · IRREDUTIBILIDADE.** Mnemônico **3 V/I/I** — todos com sentido similar de "permanência".' },
+        { type: 'box', kind: 'macete', text: '**Vitaliciedade = 2 anos · Estabilidade = 3 anos.** Não confundir.' },
+        { type: 'box', kind: 'macete', text: '**6 vedações (CF 128 §5º II):** honorários · advocacia · soc. comercial · outra função (salvo magistério) · atividade político-partidária · auxílios.' },
+        { type: 'box', kind: 'macete', text: '**Magistério é a ÚNICA cumulação permitida.** Mais nada.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Vitaliciedade não é automática — depende de estágio probatório de 2 anos.** Pegadinha frequente: candidato pensa que vitalicia desde a posse.' },
+        { type: 'box', kind: 'atencao', text: '**Inamovibilidade: maioria ABSOLUTA do colegiado.** Não confundir com maioria simples.' },
+        { type: 'box', kind: 'atencao', text: '**Promoção contra vontade do membro VIOLA a inamovibilidade**, salvo decisão do CSMP por maioria absoluta com ampla defesa.' },
+        { type: 'box', kind: 'atencao', text: '**Magistério é a ÚNICA atividade pública cumulável.** Cuidado — mesmo cargos como conselheiro de tribunais administrativos, comissões de ética etc. são VEDADOS, em regra.' },
+        { type: 'box', kind: 'atencao', text: '**Vitaliciedade ≠ estabilidade.** Banca confunde. Estabilidade é para servidor concursado comum (3 anos, perda em PAD). Vitaliciedade é exclusiva de magistratura/MP/TCU (2 anos, perda só em ação JUDICIAL).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios):** garantias são instrumentos da independência funcional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** garantias do MP são análogas às da magistratura (CF 95).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (servidores):** subteto e regime previdenciário aplicáveis.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1 (direitos políticos):** vedação à atividade político-partidária impacta capacidade eleitoral passiva do membro.' }
+      ]
+    }
+  ] },
   { id: 'mp-04-cnmp', num: 4, materia: 'mp', title: 'CNMP — composição e atribuições', edital: '1.5.4', editalText: 'CF art. 130-A. Composição, competências, atos normativos.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Composição (CF art. 130-A)', 'Competências (controle administrativo, financeiro e disciplinar)', 'Resoluções e atos normativos do CNMP', 'Procedimentos disciplinares', 'Relação com tribunais e MPs estaduais'], sections: [] },
   { id: 'mp-05-lc-75-mpu', num: 5, materia: 'mp', title: 'LC 75/93 — Ministério Público da União', edital: '1.5.5', editalText: 'Estrutura do MPU. MPF, MPT, MPM, MPDFT. Atribuições.', size: 'Médio', schedule: null, advantage: null, outline: ['Estrutura do MPU', 'MPF — Procurador-Geral da República', 'MPT, MPM, MPDFT', 'Atribuições por ramo', 'Câmaras de Coordenação e Revisão', 'Conselho Superior do MPF'], sections: [] },
   { id: 'mp-06-lc-34-mpmg', num: 6, materia: 'mp', title: 'LC 34/94 — MP de Minas Gerais', edital: '1.5.6', editalText: 'Lei Orgânica do MPMG. Estrutura, órgãos, atribuições, carreira.', size: 'Médio', schedule: null, advantage: null, outline: ['Estrutura do MPMG', 'Órgãos da administração superior (PGJ, CSMP, Corregedoria)', 'Órgãos de execução (Procuradorias e Promotorias)', 'Carreira (Promotor Substituto → Procurador de Justiça)', 'Atribuições por nível', 'Resoluções PGJ relevantes'], sections: [] },
-  { id: 'mp-07-atribuicoes-constitucionais', num: 7, materia: 'mp', title: 'Atribuições constitucionais do MP', edital: '1.5.7', editalText: 'CF art. 129. Defesa do regime democrático, ordem jurídica, interesses sociais.', size: 'Médio', schedule: null, advantage: null, outline: ['Funções institucionais (CF art. 129)', 'Defesa do regime democrático e da ordem jurídica', 'Defesa dos interesses sociais e individuais indisponíveis', 'Promoção da ação penal pública', 'Defesa dos direitos difusos e coletivos', 'Controle externo da atividade policial', 'Requisição de diligências e inquéritos'], sections: [] },
+  { id: 'mp-07-atribuicoes-constitucionais', num: 7, materia: 'mp', title: 'Atribuições constitucionais do MP', edital: '1.5.7', editalText: 'CF art. 129. Defesa do regime democrático, ordem jurídica, interesses sociais.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — atribuições vivenciadas no dia a dia).', outline: ['Funções institucionais (CF art. 129)', 'Defesa do regime democrático e da ordem jurídica', 'Defesa dos interesses sociais e individuais indisponíveis', 'Promoção da ação penal pública', 'Defesa dos direitos difusos e coletivos', 'Controle externo da atividade policial', 'Requisição de diligências e inquéritos'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **art. 129 da CF/88** é a "carta de identidade funcional" do Ministério Público. Enumera, em **9 incisos**, as funções institucionais — algumas em rol exemplificativo (cláusula geral), outras com perfil exaustivo. Diferentemente de simples funções administrativas, são atribuições constitucionais cuja MUDANÇA exigiria emenda à CF.' },
+        { type: 'p', text: 'A leitura do art. 129 deve ser conjugada com o **art. 127** (definição da instituição), com a **LC 75/93** (MPU), com a **LC 34/94** (MPMG) e com **resoluções do CNMP** (especialmente Res. 23/2007 sobre IC, Res. 174/2017 sobre notícia de fato, Res. 181/2017 sobre PIC). Assim se monta o quadro completo das atribuições.' },
+        { type: 'p', text: 'Para o promotor (e para a Analista MP que vê isso na rotina), as atribuições mais visíveis são: ação penal pública, ACP, IC, controle externo da polícia, atuação em jurisdição voluntária e intervenção nos processos onde haja interesse público.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 129 — Funções institucionais (9 incisos)' },
+        { type: 'list', items: [
+          '**I** — promover, privativamente, a ação penal pública, na forma da lei',
+          '**II** — zelar pelo efetivo respeito dos Poderes Públicos e dos serviços de relevância pública aos direitos assegurados na CF, promovendo as medidas necessárias a sua garantia',
+          '**III** — promover o inquérito civil e a ação civil pública, para a proteção do patrimônio público e social, do meio ambiente e de outros interesses difusos e coletivos',
+          '**IV** — promover a ação de inconstitucionalidade ou representação para fins de intervenção da União e dos Estados, nos casos previstos nesta Constituição',
+          '**V** — defender judicialmente os direitos e interesses das populações indígenas',
+          '**VI** — expedir notificações nos procedimentos administrativos de sua competência, requisitando informações e documentos para instruí-los, na forma da LC respectiva',
+          '**VII** — exercer o controle externo da atividade policial, na forma da LC',
+          '**VIII** — requisitar diligências investigatórias e a instauração de inquérito policial, indicados os fundamentos jurídicos de suas manifestações processuais',
+          '**IX** — exercer outras funções que lhe forem conferidas, desde que compatíveis com sua finalidade, sendo-lhe vedada a representação judicial e a consultoria jurídica de entidades públicas'
+        ]},
+        { type: 'h', text: 'Funções correlatas em LC' },
+        { type: 'list', items: [
+          '**LC 75/93 art. 6º** — funções do MPF (rol mais amplo)',
+          '**LC 34/94 art. 67** — atribuições do MPMG',
+          '**Lei 8.625/93 art. 25** — Lei Orgânica Nacional do MP (LONMP) — funções gerais'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Privatividade da ação penal pública (inciso I)' },
+        { type: 'p', text: 'A ação penal pública é **PRIVATIVA** do MP. Não é privativa da pessoa jurídica de direito público — é privativa do MP, sem possibilidade de delegação. Decorrência: ninguém mais tem legitimidade para propô-la (salvo ação penal privada SUBSIDIÁRIA da pública — art. 5º LIX CF). Mesmo o Procurador-Geral da República não delega a Promotores — embora possa designá-los para atuar.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 593.727 (Tema 184, RG):** afirmou a possibilidade de o MP realizar diretamente investigação criminal (PIC), sem prejuízo da privatividade da ação penal pública.' },
+
+        { type: 'h', text: 'IC e ACP (inciso III)' },
+        { type: 'p', text: 'O **inquérito civil** é PROCEDIMENTO INVESTIGATÓRIO PRIVATIVO do MP — instrumento essencial para apurar fatos que possam ensejar ACP, TAC ou recomendação. Não há instituição que substitua o MP nessa função (Defensoria, p.ex., pode propor ACP — mas não conduz IC). A **ação civil pública** é competência CONCORRENTE (vários legitimados — LACP art. 5º), mas a forma típica de protagonismo do MP nessa esfera.' },
+
+        { type: 'h', text: 'Controle externo da atividade policial (inciso VII)' },
+        { type: 'p', text: 'Atribuição CONSTITUCIONAL e EXCLUSIVA do MP. Não é delegável. Compreende: fiscalização da regularidade da atividade policial (judiciária e administrativa), apuração de eventual abuso, requisição de diligências, recebimento de representações. Disciplinado pela LC 75/93 art. 9º (MPF) e leis estaduais (no caso de MG, LC 34/94).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 388:** confirmou que o controle externo é INDELEGÁVEL. Polícia Civil e PRF estão sujeitas ao controle do MP — atribuição que não pode ser repassada a outro órgão.' },
+
+        { type: 'h', text: 'Vedação à advocacia pública (inciso IX, parte final)' },
+        { type: 'p', text: 'O MP **NÃO pode representar judicialmente** entidades públicas nem prestar consultoria jurídica a elas. Essa atividade é da AGU (federal) e das procuradorias estaduais. Razão: separar acusador (MP) e advogado (Procuradoria) — sob pena de promiscuidade institucional. Exceção residual: defesa de "interesses indisponíveis" indiretos, mas com cuidado.' },
+
+        { type: 'h', text: 'Funções implícitas e cláusula aberta (inciso IX, primeira parte)' },
+        { type: 'p', text: '"Outras funções compatíveis com sua finalidade" — cláusula aberta que permite à lei ordinária ou às LCs atribuírem outras funções ao MP, desde que coerentes com a missão constitucional (defesa da ordem jurídica, regime democrático, interesses sociais e individuais indisponíveis). Exemplos: ANPP (CPP 28-A), Recomendação (Res. 164 CNMP), atuação em mediação extrajudicial (CNMP).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 4.027:** validou a possibilidade de o MP exercer funções não enumeradas no art. 129, desde que compatíveis com a finalidade institucional. Não é numerus clausus.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Funções do MP (CF 129) — 9 incisos.** Mnemônico: **AÇÃO PENAL · ZELAR · IC e ACP · ADI/Intervenção · ÍNDIOS · NOTIFICAÇÕES · CONTROLE POLICIAL · REQUISIÇÃO · OUTRAS COMPATÍVEIS**.' },
+        { type: 'box', kind: 'macete', text: '**Privativa: ação penal pública (I) e IC (III parte).** Concorrente: ACP. Indelegável: controle externo da polícia (VII).' },
+        { type: 'box', kind: 'macete', text: '**O que MP NÃO pode (IX final): representar entidade pública NEM consultoria a ela.** Domínio da AGU/Procuradorias.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Ação penal pública é privativa do MP, mas NÃO é exclusiva.** Existe ação penal privada SUBSIDIÁRIA da pública (CF art. 5º LIX), em caso de inércia do MP.' },
+        { type: 'box', kind: 'atencao', text: '**MP investiga? SIM — STF RE 593.727 (Tema 184).** Pegadinha clássica: candidato marca alternativa que diz que investigação criminal é exclusiva da polícia.' },
+        { type: 'box', kind: 'atencao', text: '**Funções "compatíveis com a finalidade" (IX) é cláusula ABERTA — não numerus clausus.** STF ADI 4.027.' },
+        { type: 'box', kind: 'atencao', text: '**Controle externo da polícia é INDELEGÁVEL.** Não pode ser exercido por outro órgão (Corregedoria interna, p. ex.) em substituição ao MP.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios):** atribuições são exercidas com unidade, indivisibilidade e independência funcional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (atuação extrajudicial):** IC, recomendação e TAC são instrumentos das funções do art. 129.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP concretiza os incisos II e III.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 2-3 (inquérito e ação penal):** inciso I + investigação direta pelo MP (RE 593.727).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** inciso IV (legitimidade do PGR para ADI/ADC).' }
+      ]
+    }
+  ] },
   { id: 'mp-08-atuacao-extrajudicial', num: 8, materia: 'mp', title: 'Atuação extrajudicial do MP', edital: '1.5.8', editalText: 'PIC, IC, recomendação, TAC, audiências públicas. Resoluções CNMP 23 e 174.', size: 'Médio', schedule: null, advantage: null, outline: ['Inquérito Civil (Resolução CNMP 23)', 'Procedimento Investigatório Criminal (PIC) — Resolução CNMP 181', 'Recomendação ministerial (Resolução CNMP 164)', 'Termo de Ajustamento de Conduta (TAC)', 'Audiências públicas e mediação', 'Notícia de fato (Resolução CNMP 174)'], sections: [] },
 
   // ============ ESQUELETOS — DIREITO PENAL E CRIMINOLOGIA (14) ============
@@ -5948,7 +6204,107 @@ topics: [
   { id: 'colmat-12-comunidades-tradicionais', num: 12, materia: 'colmat', title: 'Direitos das comunidades tradicionais', edital: '4.1.12', editalText: 'Indígenas, quilombolas, povos tradicionais. CF arts. 231-232. Convenção 169 OIT.', size: 'Médio', schedule: null, advantage: null, outline: ['CF arts. 231-232 — indígenas', 'Demarcação de terras indígenas', 'Marco temporal — STF Tema 1031', 'Convenção 169 OIT (consulta livre, prévia e informada)', 'Quilombolas (CF ADCT art. 68 + Decreto 4.887/03)', 'Comunidades tradicionais (povos extrativistas, ribeirinhos, etc.)', 'Atuação do MPF e MP estadual'], sections: [] },
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL COLETIVO (8) ============
-  { id: 'colproc-01-microssistema-tutela-coletiva', num: 1, materia: 'colproc', title: 'Microssistema da tutela coletiva', edital: '4.2.1', editalText: 'Diálogo entre LACP, CDC, ECA, Idoso, LIA, etc. Princípios. Direitos coletivos lato sensu.', size: 'Médio', schedule: null, advantage: 'Vantagem (atuação como Analista MP).', outline: ['Conceito de microssistema', 'Diálogo das fontes (LACP + CDC + ECA + Idoso + LIA + LBI + LMP)', 'Direitos transindividuais (difusos, coletivos stricto sensu, individuais homogêneos — CDC art. 81)', 'Princípios da tutela coletiva', 'Legitimidade (CF art. 129 + Lei 7.347/85)'], sections: [] },
+  { id: 'colproc-01-microssistema-tutela-coletiva', num: 1, materia: 'colproc', title: 'Microssistema da tutela coletiva', edital: '4.2.1', editalText: 'Diálogo entre LACP, CDC, ECA, Idoso, LIA, etc. Princípios. Direitos coletivos lato sensu.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — campo cotidiano de trabalho).', outline: ['Conceito de microssistema', 'Diálogo das fontes (LACP + CDC + ECA + Idoso + LIA + LBI + LMP)', 'Direitos transindividuais (difusos, coletivos stricto sensu, individuais homogêneos — CDC art. 81)', 'Princípios da tutela coletiva', 'Legitimidade (CF art. 129 + Lei 7.347/85)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **microssistema processual coletivo** é construção doutrinária + jurisprudencial que designa o **conjunto INTEGRADO** de normas processuais relativas à tutela de direitos transindividuais. Não há um Código de Processo Coletivo — o sistema brasileiro optou pela DESPENALIZAÇÃO (microssistema), com normas dispersas em vários diplomas que se aplicam reciprocamente.' },
+        { type: 'p', text: 'O eixo central é a **LACP (Lei 7.347/85)**, complementada pelo **CDC** (Lei 8.078/90, Título III — arts. 81 a 104), que se aplicam mutuamente por força de duas normas-chave: **LACP art. 21** ("aplicam-se à defesa dos direitos e interesses difusos, coletivos e individuais, no que for cabível, os dispositivos do Título III da Lei 8.078/90") e **CDC art. 90** (recíproco: aplicam-se ao CDC as normas da LACP).' },
+        { type: 'p', text: 'A esse núcleo se somam: **ECA** (8.069/90), **Estatuto da Pessoa Idosa** (10.741/03), **LBI** (13.146/15), **LIA** (8.429/92 alterada pela Lei 14.230/21), **Lei do MS Coletivo** (12.016/09), **Lei da Ação Popular** (4.717/65), **Estatuto do Torcedor** etc. Cada um traz regras processuais específicas para o seu campo, mas integradas ao microssistema geral.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Eixo central — LACP + CDC' },
+        { type: 'list', items: [
+          '**LACP art. 21** — aplicam-se ao processo coletivo as regras do Título III do CDC',
+          '**CDC art. 90** — aplicam-se às ações coletivas do CDC as normas do CPC e da LACP',
+          '**CDC art. 81** — definição de difusos · coletivos · individuais homogêneos',
+          '**CDC art. 82** — legitimados (similar ao art. 5º LACP, com nuances)',
+          '**CDC art. 103** — coisa julgada coletiva (erga omnes · ultra partes · secundum eventum)',
+          '**LACP art. 5º** — legitimados ativos (rol concorrente)'
+        ]},
+        { type: 'h', text: 'Diplomas integrantes do microssistema' },
+        { type: 'list', items: [
+          '**Lei 4.717/65** — Ação Popular (modelo histórico)',
+          '**Lei 7.347/85** — LACP (eixo)',
+          '**Lei 7.853/89** — PCD (parte coletiva)',
+          '**Lei 8.069/90** — ECA',
+          '**Lei 8.078/90** — CDC (Título III)',
+          '**Lei 8.429/92** — LIA (Lei 14.230/21)',
+          '**Lei 8.625/93** — LONMP',
+          '**Lei 10.741/03** — Estatuto da Pessoa Idosa',
+          '**Lei 12.016/09** — MS Coletivo',
+          '**Lei 13.146/15** — LBI',
+          '**LC 75/93 e LC 34/94** — leis orgânicas do MP'
+        ]},
+        { type: 'h', text: 'Resoluções CNMP relevantes' },
+        { type: 'list', items: [
+          '**Res. 23/2007** — IC e Procedimento Preparatório',
+          '**Res. 164/2017** — Recomendação',
+          '**Res. 174/2017** — Notícia de fato',
+          '**Res. 181/2017** — PIC'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Diálogo das fontes coletivo' },
+        { type: 'p', text: 'A teoria de Erik Jayme/Cláudia Lima Marques aplica-se com força particular no microssistema coletivo. As normas processuais coletivas dialogam de modo COERENTE, COMPLEMENTAR e INTEGRADO. Não se aplica o critério clássico de antinomia (lex specialis × generalis) — todas as normas convivem, complementando-se.' },
+        { type: 'p', text: 'Exemplo prático: ACP ambiental usa LACP (eixo) + CDC (procedimento) + Lei 6.938/81 (responsabilidade objetiva) + Lei 9.605/98 (crimes ambientais, complementar) + Resoluções CONAMA (técnicos) + LC 75/93 (atribuições MP).' },
+
+        { type: 'h', text: 'Direitos transindividuais (CDC art. 81)' },
+        { type: 'p', text: '**DIFUSOS** — INDIVISÍVEIS · titulares INDETERMINADOS ligados por circunstância de fato. Ex.: meio ambiente, propaganda enganosa coletiva, patrimônio histórico.' },
+        { type: 'p', text: '**COLETIVOS *stricto sensu*** — INDIVISÍVEIS · titulares DETERMINÁVEIS (grupo, categoria, classe) ligados entre si ou com o réu por relação jurídica BASE. Ex.: aumento abusivo de mensalidade escolar para alunos matriculados, estudantes reprovados em processo seletivo.' },
+        { type: 'p', text: '**INDIVIDUAIS HOMOGÊNEOS** — DIVISÍVEIS · titulares DETERMINADOS · origem comum. Coletivos APENAS no plano processual ("acidentalmente coletivos" — Barbosa Moreira). Ex.: defeito em série, expurgos inflacionários, recall de produto.' },
+        { type: 'box', kind: 'atencao', text: '**Distinção essencial para a prova:** difusos e coletivos são INDIVISÍVEIS — sentença favorece todos sem possibilidade de divisão. Individuais homogêneos são DIVISÍVEIS — exige LIQUIDAÇÃO INDIVIDUAL para cada beneficiário (CDC arts. 95-100).' },
+
+        { type: 'h', text: 'Princípios da tutela coletiva' },
+        { type: 'list', items: [
+          '**Indisponibilidade do interesse coletivo** — MP não pode dispor unilateralmente; arquivamento sujeito ao CSMP',
+          '**Acesso à justiça e instrumentalidade** — interpretação processual em favor da efetividade',
+          '**Adequada tutela coletiva** — evitar atomização desnecessária; tutelar coletivamente quando possível',
+          '**Coisa julgada secundum eventum litis** — não prejudica indivíduos em improcedência',
+          '**Não-onerosidade ao autor coletivo** — sucumbência só em má-fé (LACP 18 + CDC 87)',
+          '**Cooperação entre legitimados** — litisconsórcio facultativo · compartilhamento de provas'
+        ]},
+
+        { type: 'h', text: 'Legitimidade ativa' },
+        { type: 'p', text: 'CONCORRENTE e DISJUNTIVA (LACP art. 5º + CDC art. 82). Múltiplos legitimados podem propor independentemente. **MP** atua sempre como autor OU custos legis. **Defensoria** tem legitimidade ampla (STF ADI 3.943 reconheceu legitimidade da DP em ACP de individuais homogêneos). **Associações** precisam de constituição há 1 ano (dispensável pelo juiz — art. 5º §4º LACP). **Ente público** tem legitimidade quando o objeto for compatível com sua finalidade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 3.943:** Defensoria Pública tem legitimidade para ACP, inclusive em direitos individuais homogêneos, quando os beneficiários sejam predominantemente NECESSITADOS.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Eixo do microssistema: LACP + CDC** (arts. 21 LACP + 90 CDC = aplicação recíproca).' },
+        { type: 'box', kind: 'macete', text: '**Direitos transindividuais — DCI**: **D**ifusos (indivisíveis, indeterminados) · **C**oletivos *stricto sensu* (indivisíveis, determináveis) · **I**ndividuais homogêneos (divisíveis, determinados, origem comum).' },
+        { type: 'box', kind: 'macete', text: '**Indivisíveis** = difusos + coletivos. **Divisíveis** = individuais homogêneos.' },
+        { type: 'box', kind: 'macete', text: '**Legitimados públicos** podem celebrar TAC. **Privados** (associações) não.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Não há Código de Processo Coletivo no Brasil.** Estão as normas dispersas — daí o termo "microssistema". Banca pode cobrar essa origem.' },
+        { type: 'box', kind: 'atencao', text: '**Individuais homogêneos NÃO são direitos coletivos por natureza — são por opção processual.** Ficção do legislador para permitir tutela conjunta. Tema clássico de prova.' },
+        { type: 'box', kind: 'atencao', text: '**Defensoria tem legitimidade para ACP — STF ADI 3.943.** Pegadinha frequente: candidato marca que só MP tem.' },
+        { type: 'box', kind: 'atencao', text: '**Aplicação recíproca LACP/CDC é OBRIGATÓRIA, não facultativa.** Não cabe ao juiz escolher se aplica ou não.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP é o instrumento PROTAGONISTA do microssistema.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 7 (coisa julgada):** secundum eventum litis e probationis são princípios estruturantes.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (CDC):** CDC integra o microssistema processual e material.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7-8 (atribuições e atuação):** MP usa o microssistema todos os dias.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PC 1 (diálogo das fontes):** mesma base teórica de Erik Jayme aplicada à tutela coletiva.' }
+      ]
+    }
+  ] },
   { id: 'colproc-02-acao-civil-publica', num: 2, materia: 'colproc', title: 'Ação Civil Pública', edital: '4.2.2', editalText: 'Lei 7.347/85. Objeto. Legitimidade. Coisa julgada. Liquidação e execução.', size: 'Grande', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem (atuação como Analista MP — campo direto de atuação).', outline: ['Lei 7.347/85 — fundamentos', 'Objeto (interesses difusos, coletivos, individuais homogêneos)', 'Legitimidade ativa concorrente e disjuntiva', 'Inquérito Civil (preparatório)', 'TAC e Recomendação', 'Sentença, coisa julgada (secundum eventum probationis e litis)', 'Liquidação e execução coletiva', 'Custas e honorários'], sections: [
     {
       h: 'Foco central',
@@ -6074,10 +6430,206 @@ topics: [
       ]
     }
   ] },
-  { id: 'colproc-03-acao-popular', num: 3, materia: 'colproc', title: 'Ação Popular', edital: '4.2.3', editalText: 'Lei 4.717/65. CF art. 5º LXXIII. Objeto, legitimidade, MP.', size: 'Médio', schedule: null, advantage: null, outline: ['CF art. 5º LXXIII', 'Lei 4.717/65', 'Objeto (anular ato lesivo ao patrimônio público, moralidade, meio ambiente, patrimônio histórico)', 'Legitimidade ativa (cidadão)', 'Atuação do MP (custos legis, sucessor processual, execução)', 'Coisa julgada', 'Sentença, recursos, reexame necessário'], sections: [] },
+  { id: 'colproc-03-acao-popular', num: 3, materia: 'colproc', title: 'Ação Popular', edital: '4.2.3', editalText: 'Lei 4.717/65. CF art. 5º LXXIII. Objeto, legitimidade, MP.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem (Analista MP atua nessas ações como custos legis).', outline: ['CF art. 5º LXXIII', 'Lei 4.717/65', 'Objeto (anular ato lesivo ao patrimônio público, moralidade, meio ambiente, patrimônio histórico)', 'Legitimidade ativa (cidadão)', 'Atuação do MP (custos legis, sucessor processual, execução)', 'Coisa julgada', 'Sentença, recursos, reexame necessário'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Ação Popular** (CF art. 5º LXXIII; Lei 4.717/65) é a mais antiga ação coletiva brasileira — anterior à LACP. Permite que QUALQUER CIDADÃO (legitimação extraordinária = substituição processual) anule ato LESIVO ao patrimônio público (incluído o de entidades de que o Estado participe), à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural.' },
+        { type: 'p', text: 'É instrumento de **DEMOCRACIA PARTICIPATIVA** — exercício direto da soberania popular pelo controle dos atos da Administração. Distintamente da ACP, é movida pelo cidadão (não pelo MP), com base no DEVER CÍVICO de zelar pela coisa pública. O MP atua tipicamente como **CUSTOS LEGIS** e pode SUCEDER o autor desistente (Lei 4.717/65 art. 9º).' },
+        { type: 'p', text: 'Por ser ação POPULAR, não exige interesse próprio do autor — basta a condição de cidadão. Tem foro privilegiado em alguns casos especiais (autoridade com prerrogativa de função). Sentença gera coisa julgada **ERGA OMNES**, exceto se a improcedência for por insuficiência de provas (secundum eventum probationis — Lei 4.717/65 art. 18).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 5º LXXIII' },
+        { type: 'list', items: [
+          '"Qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao **patrimônio público** ou de entidade de que o Estado participe, à **moralidade administrativa**, ao **meio ambiente** e ao **patrimônio histórico e cultural**, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência."'
+        ]},
+        { type: 'h', text: 'Lei 4.717/65 — Lei da Ação Popular (LAP)' },
+        { type: 'list', items: [
+          '**Art. 1º** — qualquer cidadão é parte legítima',
+          '**Art. 1º §3º** — prova da cidadania: título de eleitor ou documento equivalente',
+          '**Art. 2º** — atos nulos (rol exemplificativo): incompetência, vício de forma, ilegalidade do objeto, inexistência de motivos, desvio de finalidade',
+          '**Art. 3º** — atos anuláveis (com vícios não enumerados no art. 2º)',
+          '**Art. 6º §3º** — qualquer cidadão pode habilitar-se como litisconsorte',
+          '**Art. 7º** — réus: pessoas jurídicas, autoridades, beneficiários do ato',
+          '**Art. 9º** — DESISTÊNCIA do autor: MP ou OUTRO CIDADÃO assume',
+          '**Art. 16** — reexame necessário (sentença de IMPROCEDÊNCIA ou de carência)',
+          '**Art. 17** — efeitos da sentença de procedência: declaração de invalidade + condenação',
+          '**Art. 18** — coisa julgada ERGA OMNES, exceto se improcedência por insuficiência de provas'
+        ]},
+        { type: 'h', text: 'Atuação do MP — Lei 4.717/65 + LACP' },
+        { type: 'list', items: [
+          '**Art. 6º §4º** — MP intervém OBRIGATORIAMENTE como custos legis · acompanha · pode produzir provas · arrazoar · recorrer',
+          '**Art. 9º** — em caso de desistência do autor ou decurso do prazo sem providência, MP assume a titularidade',
+          '**Art. 16** — MP promove a EXECUÇÃO da sentença em até 60 dias após o trânsito; se não promover, qualquer cidadão pode'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Cidadão como autor (legitimação extraordinária)' },
+        { type: 'p', text: 'O autor é SEMPRE pessoa física maior de 16 anos NO PLENO GOZO de direitos políticos (Lei 4.717/65 art. 1º §3º). Portanto: pessoa jurídica NÃO pode propor (Súmula 365 STF). Estrangeiro também não. Comprovação: título de eleitor.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 365:** "Pessoa jurídica não tem legitimidade para propor ação popular." Vale tanto para PJ de direito privado quanto público.' },
+        { type: 'p', text: 'O cidadão atua em **LEGITIMAÇÃO EXTRAORDINÁRIA** — substitui processualmente a coletividade. Não defende interesse próprio (embora possa ter um, indiretamente). Decorrência: a coisa julgada não vincula só ele — atinge ERGA OMNES.' },
+
+        { type: 'h', text: 'Objeto — atos lesivos' },
+        { type: 'p', text: 'O CONSTITUINTE ampliou o objeto histórico (que era apenas patrimônio público) para incluir: MORALIDADE, MEIO AMBIENTE e PATRIMÔNIO HISTÓRICO/CULTURAL. Hoje, qualquer ato administrativo (ou DA Administração indireta) pode ser questionado se for LESIVO a algum desses bens.' },
+        { type: 'p', text: '**Lesividade pode ser presumida** quando há vício formal grave (atos nulos do art. 2º LAP). Para os atos anuláveis, lesividade precisa ser comprovada pelo autor. Tese moderna (STF/STJ): basta lesividade POTENCIAL ou MORAL — não precisa ser dano material concreto.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.172.107:** lesão à moralidade administrativa, sem dano patrimonial específico, é suficiente para ação popular (caso de nepotismo).' },
+
+        { type: 'h', text: 'Atuação do MP' },
+        { type: 'p', text: '**Tripla atuação possível:** (a) **CUSTOS LEGIS** — sempre obrigatório; (b) **SUCESSOR processual** — em caso de desistência do autor (Lei 4.717/65 art. 9º), assume; (c) **EXECUTOR** — em até 60 dias após o trânsito (art. 16). Característica notável: MP **NÃO É AUTOR ORIGINÁRIO** — só assume se houver desistência. Não pode propor ação popular.' },
+        { type: 'box', kind: 'atencao', text: '**MP não tem legitimidade ATIVA originária para ação popular.** Para isso, há ACP (LACP) — tutela direitos coletivos por iniciativa do MP. Pegadinha clássica.' },
+
+        { type: 'h', text: 'Sucumbência e custas' },
+        { type: 'p', text: 'O autor da ação popular é **ISENTO de custas e honorários**, salvo MÁ-FÉ comprovada (CF art. 5º LXXIII + Lei 4.717/65 art. 13). Estímulo constitucional ao exercício do direito. Em caso de má-fé: condenação em multa decuplicada (10x as custas) — equivalente à do art. 17 LACP.' },
+
+        { type: 'h', text: 'Coisa julgada (Lei 4.717/65 art. 18)' },
+        { type: 'p', text: 'Sentença gera coisa julgada **ERGA OMNES**, com exceção: se a improcedência for por **INSUFICIÊNCIA DE PROVAS**, qualquer cidadão pode propor nova ação popular com novo fundamento probatório (secundum eventum probationis). Mesmo modelo da ACP.' },
+
+        { type: 'h', text: 'Reexame necessário (art. 16)' },
+        { type: 'p', text: 'Sentença que JULGA IMPROCEDENTE a ação popular ou que EXTINGUE-A SEM RESOLUÇÃO de mérito está sujeita a REEXAME NECESSÁRIO (duplo grau obrigatório). Decorrência: protege o interesse coletivo contra eventual conluio do autor com o réu. Súmula 11/STJ confirma.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 bens tutelados (CF 5º LXXIII): Patrimônio Público · Moralidade · Meio Ambiente · Patrimônio Histórico/Cultural.** Mnemônico **PMMP**.' },
+        { type: 'box', kind: 'macete', text: '**Autor: CIDADÃO (PF maior de 16 com direitos políticos).** PJ NÃO (Súmula 365 STF).' },
+        { type: 'box', kind: 'macete', text: '**MP NÃO propõe ação popular** (não é autor originário). MAS atua como custos legis · pode SUCEDER autor desistente · executa sentença.' },
+        { type: 'box', kind: 'macete', text: '**Reexame necessário: improcedência ou extinção sem mérito.** Procedência? NÃO há reexame.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MP não pode propor ação popular.** Pegadinha clássica e recorrente. MP atua como custos legis ou sucessor.' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa jurídica NÃO tem legitimidade** (Súmula 365 STF). Nem PJ de direito público.' },
+        { type: 'box', kind: 'atencao', text: '**Reexame necessário só em improcedência ou extinção SEM mérito.** Procedente não tem.' },
+        { type: 'box', kind: 'atencao', text: '**Cidadania = direitos políticos no pleno gozo.** Estrangeiros, mesmo com residência permanente, não podem propor.' },
+        { type: 'box', kind: 'atencao', text: '**Lesividade pode ser PRESUMIDA** em atos nulos do art. 2º LAP. Não precisa provar dano material em todos os casos.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** Ação Popular é o modelo histórico do microssistema, anterior à LACP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP é a alternativa do MP — quando MP quer agir, propõe ACP (não ação popular).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** Ação popular complementa o controle exercido pelo MP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 9 (improbidade):** ato improbo pode ser objeto de ação popular (lesão à moralidade).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (meio ambiente):** ação popular ambiental é instrumento individual; ACP é coletivo.' }
+      ]
+    }
+  ] },
   { id: 'colproc-04-mandado-seguranca-coletivo', num: 4, materia: 'colproc', title: 'Mandado de Segurança Coletivo', edital: '4.2.4', editalText: 'CF art. 5º LXX. Lei 12.016/09. Legitimados, prazo, coisa julgada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['CF art. 5º LXX', 'Lei 12.016/09', 'Legitimados (partido com representação, organização sindical, entidade de classe, associação)', 'Direito líquido e certo', 'Coisa julgada (Súmula 333 STJ)', 'Pertinência temática'], sections: [] },
   { id: 'colproc-05-mi-adpf', num: 5, materia: 'colproc', title: 'Mandado de Injunção e ADPF', edital: '4.2.5', editalText: 'Lei 13.300/16. Lei 9.882/99. Subsidiariedade. Legitimados.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Mandado de Injunção (CF art. 5º LXXI; Lei 13.300/16)', 'MI individual e coletivo', 'Eficácia da decisão (corrente concretista geral × intermediária)', 'ADPF — Lei 9.882/99', 'Subsidiariedade (CF art. 102 §1º)', 'Legitimados (CF art. 103)'], sections: [] },
-  { id: 'colproc-06-tac-extrajudicial', num: 6, materia: 'colproc', title: 'TAC e atuação extrajudicial', edital: '4.2.6', editalText: 'Termo de Ajustamento de Conduta. Inquérito Civil. Recomendação. Audiência pública.', size: 'Médio', schedule: null, advantage: 'Vantagem (atuação como Analista MP).', outline: ['Inquérito Civil (Resolução CNMP 23)', 'Notícia de fato (Resolução CNMP 174)', 'Procedimento Preparatório', 'Recomendação ministerial (Resolução CNMP 164)', 'Termo de Ajustamento de Conduta (TAC) — eficácia executiva', 'Audiência pública', 'Arquivamento e revisão pelo CSMP'], sections: [] },
+  { id: 'colproc-06-tac-extrajudicial', num: 6, materia: 'colproc', title: 'TAC e atuação extrajudicial', edital: '4.2.6', editalText: 'Termo de Ajustamento de Conduta. Inquérito Civil. Recomendação. Audiência pública.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — instrumentos do dia a dia institucional).', outline: ['Inquérito Civil (Resolução CNMP 23)', 'Notícia de fato (Resolução CNMP 174)', 'Procedimento Preparatório', 'Recomendação ministerial (Resolução CNMP 164)', 'Termo de Ajustamento de Conduta (TAC) — eficácia executiva', 'Audiência pública', 'Arquivamento e revisão pelo CSMP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **atuação extrajudicial** é o que melhor caracteriza o MP brasileiro contemporâneo. Antes da CF/88, o MP era visto como "promotor da ação penal" — quase exclusivamente. A Constituição cidadã ampliou drasticamente o campo de atuação, e o MP passou a operar com ferramentas EXTRAJUDICIAIS poderosas — algumas com eficácia executiva direta.' },
+        { type: 'p', text: 'O MP **resolve mais coisas extrajudicialmente** do que pelo Judiciário. Inquérito Civil, Recomendação, Termo de Ajustamento de Conduta, Audiência Pública, Notícia de Fato — formam um arsenal que evita litígios, encurta soluções e descongestiona o Judiciário. É **instrumento típico** do MP-resolutivo (Hugo Mazzilli).' },
+        { type: 'p', text: 'A regulamentação principal vem das **Resoluções do CNMP**: 23/2007 (IC), 164/2017 (Recomendação), 174/2017 (Notícia de fato), 181/2017 (PIC). Conhecer essas resoluções É VITAL para qualquer concurso de MP — caem com frequência alta. A Analista vivencia esses procedimentos no cotidiano da promotoria.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Inquérito Civil (Resolução CNMP 23/2007)' },
+        { type: 'list', items: [
+          '**Art. 1º** — IC é instrumento de investigação preparatório à ACP/TAC/recomendação',
+          '**Art. 2º** — instauração: por portaria do membro do MP · ofício · representação · designação superior',
+          '**Art. 4º** — publicidade (regra) · sigilo motivado',
+          '**Art. 9º** — prazo de duração: 1 ano (prorrogável fundamentadamente)',
+          '**Art. 10** — poderes: requisitar informações, perícias, expedir notificações, ouvir testemunhas, realizar inspeções',
+          '**Art. 13** — arquivamento: submetido ao CSMP em 3 dias',
+          '**Art. 16** — não vinculação: arquivamento NÃO impede a propositura de ACP por outro legitimado'
+        ]},
+        { type: 'h', text: 'Notícia de Fato (Res. CNMP 174/2017)' },
+        { type: 'list', items: [
+          'Procedimento de PRÉ-instauração — verifica se há justa causa para abrir IC',
+          'Prazo: 30 dias para apreciar (prorrogáveis 90)',
+          'Pode ser arquivado de plano se não houver indícios mínimos'
+        ]},
+        { type: 'h', text: 'Procedimento Preparatório (Res. CNMP 23 art. 2º §4º)' },
+        { type: 'list', items: [
+          'Quando há dúvida sobre a justa causa para o IC',
+          'Prazo: 90 dias prorrogáveis',
+          'Convertido em IC se houver elementos · arquivado se não'
+        ]},
+        { type: 'h', text: 'Recomendação Ministerial (Res. CNMP 164/2017)' },
+        { type: 'list', items: [
+          'Ato formal pelo qual o MP indica conduta a ser observada por ente público ou privado',
+          'NÃO TEM caráter coercitivo direto — é PERSUASÃO institucional',
+          'Pode ser direta (ofício) ou pública',
+          'Eficaz para evitar litígios e prevenir danos'
+        ]},
+        { type: 'h', text: 'TAC (LACP art. 5º §6º)' },
+        { type: 'list', items: [
+          'Compromisso firmado por órgão público legitimado com o investigado/causador do dano',
+          'Tem natureza de TÍTULO EXECUTIVO EXTRAJUDICIAL',
+          'Pode prever obrigações de fazer, não fazer, dar, pagar, reparar — com prazo e condições',
+          'Pode prever multa cominatória (astreintes)',
+          'Descumprimento → execução direta no juízo cível'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Inquérito Civil — procedimento administrativo investigatório' },
+        { type: 'p', text: 'IC é PRIVATIVO do MP (CF art. 129 III + LC 75/93). Não é "judicial" — é ADMINISTRATIVO, do MP. Não tem contraditório TÍPICO (ainda que se conceda manifestação ao investigado quando possível). Os elementos colhidos no IC têm força de PROVA DOCUMENTAL no eventual processo judicial.' },
+        { type: 'p', text: '**Arquivamento do IC**: submetido ao **CSMP** (Conselho Superior do MP) em 3 dias. CSMP pode: (a) homologar arquivamento; (b) determinar diligências; (c) NÃO HOMOLOGAR e designar OUTRO membro para prosseguir. Controle hierárquico que preserva indisponibilidade do interesse coletivo.' },
+        { type: 'box', kind: 'atencao', text: '**Arquivamento de IC NÃO faz coisa julgada.** Outro legitimado (Defensoria, associação, ente público) pode propor ACP mesmo após arquivamento do IC pelo MP — Res. 23 art. 16.' },
+
+        { type: 'h', text: 'Recomendação — instrumento PERSUASIVO' },
+        { type: 'p', text: 'Diferente do TAC (que VINCULA), a Recomendação é PERSUASÃO. O destinatário não está OBRIGADO a cumprir — mas o descumprimento é registrado e pode embasar futura ACP por inação. Util em casos onde há controvérsia jurídica e o MP quer alertar/orientar antes de litigar.' },
+        { type: 'p', text: 'Recomendação NÃO é título executivo. Sua eficácia é POLÍTICA e PROBATÓRIA — útil para demonstrar boa-fé do MP (tentou primeiro persuadir) e má-fé do destinatário (foi alertado e ignorou).' },
+
+        { type: 'h', text: 'TAC — eficácia executiva' },
+        { type: 'p', text: 'É o INSTRUMENTO MAIS PODEROSO do MP extrajudicial. Tem força de **TÍTULO EXECUTIVO EXTRAJUDICIAL** (LACP art. 5º §6º). Descumpriu? Execução direta no juízo cível, sem precisar de processo de conhecimento prévio.' },
+        { type: 'p', text: '**Características essenciais:** (a) celebrado por órgão PÚBLICO legitimado; (b) sobre forma de cumprimento de exigência LEGAL (não dispõe sobre o direito material); (c) deve respeitar a INDISPONIBILIDADE do interesse coletivo; (d) pode prever multa diária; (e) submete-se a controle do CSMP em alguns casos (revisão de TAC com cláusulas atípicas).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 467 (análoga):** atuação coletiva exige observância de prazos e formalidades. TAC celebrado sem observância dos requisitos pode ser ATACADO em ACP por outro legitimado.' },
+
+        { type: 'h', text: 'Audiência pública' },
+        { type: 'p', text: 'Instrumento DEMOCRÁTICO de coleta de informações e participação social. MP convoca a comunidade (ou setores específicos) para tratar de tema de interesse coletivo — meio ambiente, saúde, educação, etc. Não é deliberativa: é INFORMATIVA e DELIBERATIVA-CONSULTIVA. Resultado pode embasar ACP, recomendação ou TAC.' },
+        { type: 'p', text: 'Disciplinada pela LC 75/93 art. 6º XV e Resoluções do CNMP. Forma típica de acesso à informação e exercício de cidadania.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Arsenal extrajudicial do MP:** Notícia de Fato → Procedimento Preparatório → Inquérito Civil → (Recomendação · TAC · ACP).' },
+        { type: 'box', kind: 'macete', text: '**TAC: Título Executivo · Audiência Pública · Compromisso.** Mnemônico **TAC = TEC** (Título · Executivo · Compromisso).' },
+        { type: 'box', kind: 'macete', text: '**Recomendação: PERSUASÃO** (não vincula). **TAC: VINCULAÇÃO** (título executivo).' },
+        { type: 'box', kind: 'macete', text: '**Arquivamento de IC vai ao CSMP.** Não é decisão final do membro.' },
+        { type: 'box', kind: 'macete', text: '**Resoluções CNMP-chave: 23 (IC) · 164 (Recomendação) · 174 (Notícia de fato) · 181 (PIC).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Recomendação NÃO é título executivo.** Confunde com TAC. Recomendação persuade; TAC vincula.' },
+        { type: 'box', kind: 'atencao', text: '**Arquivamento de IC NÃO faz coisa julgada.** Outro legitimado pode propor ACP mesmo após.' },
+        { type: 'box', kind: 'atencao', text: '**TAC só pode ser firmado por órgão PÚBLICO** legitimado (MP, Defensoria, U/E/M, autarquias, EP, SEM, fundações). Associações privadas NÃO podem.' },
+        { type: 'box', kind: 'atencao', text: '**TAC NÃO transige sobre direito material indisponível.** Apenas ajusta a FORMA de cumprimento da exigência legal.' },
+        { type: 'box', kind: 'atencao', text: '**Investigação criminal pelo MP (PIC) ≠ Inquérito Civil.** PIC = penal (Res. 181). IC = cível (Res. 23).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** TAC e Recomendação são instrumentos preventivos da ACP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** instrumentos do art. 129 (notificação, requisição) materializam-se nesses procedimentos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (atuação extrajudicial):** este tópico complementa.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 9 (improbidade):** ANPC (Acordo de Não Persecução Cível, LIA art. 17-B) é instituto análogo ao TAC.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** TAC integra o microssistema processual coletivo.' }
+      ]
+    }
+  ] },
   { id: 'colproc-07-coisa-julgada-coletiva', num: 7, materia: 'colproc', title: 'Coisa julgada coletiva, liquidação e execução', edital: '4.2.7', editalText: 'Coisa julgada secundum eventum litis e probationis. Liquidação e execução individual.', size: 'Médio', schedule: null, advantage: null, outline: ['Coisa julgada secundum eventum litis (LACP + CDC art. 103)', 'Coisa julgada secundum eventum probationis', 'Limites territoriais (Tema 1075 STF — superação Súmula 401)', 'Liquidação coletiva e individual', 'Execução individual (CDC art. 97)', 'Fluid recovery (CDC art. 100)'], sections: [] },
   { id: 'colproc-08-sistema-interamericano', num: 8, materia: 'colproc', title: 'Sistema Interamericano de Direitos Humanos', edital: '4.2.8', editalText: 'CIDH. Corte IDH. Pacto de São José. Controle de convencionalidade.', size: 'Médio', schedule: null, advantage: null, outline: ['Estrutura do SIDH (OEA, CIDH, Corte IDH)', 'Pacto de São José (Decreto 678/92)', 'Petições individuais à CIDH', 'Casos contenciosos na Corte IDH', 'Casos brasileiros (Damião Ximenes, Maria da Penha, Gomes Lund)', 'Controle de convencionalidade (difuso e concentrado)', 'Corte IDH e dever de adequação interna'], sections: [] }
 ],
@@ -6507,7 +7059,47 @@ flashcards: [
   { id: 315, topic: 2, materia: 'colproc', q: 'STF Tema 1075 — o que decidiu sobre ACP?', a: 'STF declarou inconstitucional a parte do art. 16 LACP e superou a Súmula 401 STJ que limitavam a coisa julgada coletiva ao território do órgão prolator. HOJE: a coisa julgada coletiva projeta-se em todo o território nacional, conforme a competência. Decisão de 2022 redefiniu o microssistema.', tags: ['colproc', 'jurisprudencia', 'STF'] },
   { id: 316, topic: 2, materia: 'colproc', q: 'Quem pode celebrar TAC (Termo de Ajustamento de Conduta)?', a: 'APENAS legitimados PÚBLICOS: MP, Defensoria, União, Estados, Municípios, autarquias, EP, SEM, fundações. ASSOCIAÇÕES PRIVADAS não podem celebrar TAC. Razão: TAC dispõe sobre forma de cumprimento de interesse coletivo. É título executivo extrajudicial (LACP art. 5º §6º).', tags: ['colproc', 'TAC', 'MP'] },
   { id: 317, topic: 2, materia: 'colproc', q: 'Quando o MP atua como custos legis na ACP?', a: 'SEMPRE que NÃO é autor (LACP art. 5º §1º). Atuação dupla: como autor (legitimado) OU como fiscal da lei (intervindo obrigatoriamente). Nunca deixa de atuar. Recursos: pode recorrer mesmo se atuou só como custos legis (Súmula 99 STJ).', tags: ['colproc', 'MP', 'custos-legis'] },
-  { id: 318, topic: 2, materia: 'colproc', q: 'ACP pode tutelar tributos, FGTS ou contribuições previdenciárias?', a: 'NÃO (LACP art. 1º § único). Vedação expressa. Tutela apenas direitos COLETIVOS — esses são individualmente determináveis. Pegadinha clássica de banca.', tags: ['colproc', 'ACP', 'objeto'] }
+  { id: 318, topic: 2, materia: 'colproc', q: 'ACP pode tutelar tributos, FGTS ou contribuições previdenciárias?', a: 'NÃO (LACP art. 1º § único). Vedação expressa. Tutela apenas direitos COLETIVOS — esses são individualmente determináveis. Pegadinha clássica de banca.', tags: ['colproc', 'ACP', 'objeto'] },
+
+  // === Cards para os 6 esqueletos preenchidos nesta rodada ===
+  // mp-02 — Princípios institucionais
+  { id: 319, topic: 2, materia: 'mp', q: 'Quais os 3 princípios institucionais expressos do MP (CF 127 §1º)?', a: 'UNIDADE, INDIVISIBILIDADE e INDEPENDÊNCIA FUNCIONAL. Mnemônico UII. Adicionalmente, princípio implícito: PROMOTOR NATURAL.', tags: ['mp', 'principios'] },
+  { id: 320, topic: 2, materia: 'mp', q: 'Independência funcional é a mesma coisa que independência administrativa?', a: 'NÃO. Independência FUNCIONAL protege a atividade do membro (escolha de teses jurídicas em casos concretos). Independência ADMINISTRATIVA admite hierarquia (lotação, escala, expediente). Pegadinha frequente.', tags: ['mp', 'independencia'] },
+  { id: 321, topic: 2, materia: 'mp', q: 'Princípio do Promotor Natural — origem e conteúdo?', a: 'IMPLÍCITO na CF (art. 5º LIII + independência funcional). Construído pelo STF (HC 67.759/RJ, 1991). Veda designações casuísticas. Promotor competente deve ser determinado por critérios PRÉVIOS, IMPESSOAIS e ABSTRATOS.', tags: ['mp', 'promotor-natural', 'STF'] },
+  { id: 322, topic: 2, materia: 'mp', q: 'MPU e MP estadual formam unidade institucional?', a: 'NÃO. Unidade opera DENTRO de cada MP. MPU (MPF, MPT, MPM, MPDFT) e MPs estaduais são instituições autônomas entre si. Pegadinha clássica.', tags: ['mp', 'unidade'] },
+
+  // mp-03 — Garantias e vedações
+  { id: 323, topic: 3, materia: 'mp', q: 'Quais as 3 garantias do membro do MP (CF 128 §5º I)?', a: 'VITALICIEDADE (após 2 anos, perda só por sentença judicial transitada) · INAMOVIBILIDADE (remoção só por interesse público com maioria absoluta) · IRREDUTIBILIDADE de subsídios.', tags: ['mp', 'garantias'] },
+  { id: 324, topic: 3, materia: 'mp', q: 'Vitaliciedade × estabilidade — diferença essencial?', a: 'VITALICIEDADE (membro MP/magistratura): após 2 ANOS, perda só por SENTENÇA JUDICIAL transitada. ESTABILIDADE (servidor concursado comum): após 3 ANOS, perda em PAD. Pegadinha frequente.', tags: ['mp', 'vitaliciedade'] },
+  { id: 325, topic: 3, materia: 'mp', q: 'Inamovibilidade — quórum para remoção por interesse público?', a: 'MAIORIA ABSOLUTA do colegiado competente do MP (CSMP), com ampla defesa (CF art. 128 §5º I "b"). Não é maioria simples.', tags: ['mp', 'inamovibilidade'] },
+  { id: 326, topic: 3, materia: 'mp', q: 'Quais as 6 vedações dos membros do MP (CF 128 §5º II)?', a: '(a) honorários, percentagens, custas · (b) advocacia · (c) sociedade comercial · (d) outra função pública (salvo UMA de magistério) · (e) atividade político-partidária · (f) auxílios/contribuições.', tags: ['mp', 'vedacoes'] },
+  { id: 327, topic: 3, materia: 'mp', q: 'Membro do MP pode acumular cargo público?', a: 'APENAS UMA função de MAGISTÉRIO (CF 128 §5º II "d"). Mais nada. Cargos comissionados, secretarias, ministérios = vedados.', tags: ['mp', 'magisterio'] },
+
+  // mp-07 — Atribuições constitucionais
+  { id: 328, topic: 7, materia: 'mp', q: 'CF art. 129 — quantos incisos? Quais os mais relevantes?', a: '9 incisos. Mais cobrados: I (ação penal pública privativa) · III (IC e ACP) · VII (controle externo da polícia) · VIII (requisição de inquéritos) · IX (cláusula aberta + vedação à advocacia pública).', tags: ['mp', 'art-129'] },
+  { id: 329, topic: 7, materia: 'mp', q: 'MP pode investigar criminalmente diretamente?', a: 'SIM (STF RE 593.727 — Tema 184, RG, 2015). Investigação direta pelo MP é constitucional, sem prejuízo da privatividade da ação penal pública. Disciplinada por PIC (Res. CNMP 181/2017).', tags: ['mp', 'investigacao', 'PIC', 'STF'] },
+  { id: 330, topic: 7, materia: 'mp', q: 'Controle externo da polícia — natureza e disciplina?', a: 'Atribuição CONSTITUCIONAL (CF 129 VII), EXCLUSIVA do MP, INDELEGÁVEL (STF ADPF 388). Compreende fiscalização da regularidade da atividade policial, requisição de diligências, recebimento de representações.', tags: ['mp', 'controle-policia'] },
+  { id: 331, topic: 7, materia: 'mp', q: 'MP pode representar judicialmente entidade pública ou prestar consultoria?', a: 'NÃO (CF 129 IX final). Vedação expressa. Essas atividades são da AGU (federal) ou Procuradorias estaduais. Razão: separar acusador (MP) e advogado (Procuradoria).', tags: ['mp', 'vedacao', 'AGU'] },
+
+  // colproc-01 — Microssistema
+  { id: 332, topic: 1, materia: 'colproc', q: 'O que é o microssistema processual coletivo?', a: 'Conjunto INTEGRADO de normas processuais para tutela de direitos transindividuais. Não há Código de Processo Coletivo no Brasil — normas dispersas em LACP (eixo) + CDC + ECA + Idoso + LIA + LBI + Lei 4.717/65 (Ação Popular) + LMP + outras.', tags: ['colproc', 'microssistema'] },
+  { id: 333, topic: 1, materia: 'colproc', q: 'Quais as duas normas-chave que conectam LACP e CDC?', a: 'LACP art. 21 (aplicam-se à ACP as normas do Título III do CDC) + CDC art. 90 (recíproco — aplicam-se ao CDC as normas da LACP). Aplicação RECÍPROCA OBRIGATÓRIA, não facultativa.', tags: ['colproc', 'LACP', 'CDC'] },
+  { id: 334, topic: 1, materia: 'colproc', q: 'Defensoria Pública pode propor ACP?', a: 'SIM (STF ADI 3.943, 2015). Inclusive em direitos individuais homogêneos, quando os beneficiários sejam predominantemente NECESSITADOS. Decisão consolidada.', tags: ['colproc', 'defensoria', 'STF'] },
+  { id: 335, topic: 1, materia: 'colproc', q: 'Direitos indivisíveis × divisíveis no microssistema?', a: 'INDIVISÍVEIS = difusos + coletivos *stricto sensu* (sentença favorece todos). DIVISÍVEIS = individuais homogêneos (exigem liquidação individual — CDC arts. 95-100).', tags: ['colproc', 'transindividuais'] },
+
+  // colproc-03 — Ação Popular
+  { id: 336, topic: 3, materia: 'colproc', q: 'Ação popular — quem pode propor?', a: 'QUALQUER CIDADÃO (pessoa física maior de 16 com direitos políticos no pleno gozo). Comprovação por título de eleitor. PJ NÃO pode (Súmula 365 STF). Estrangeiros também não.', tags: ['colproc', 'acao-popular'] },
+  { id: 337, topic: 3, materia: 'colproc', q: 'Ação popular — quais bens são tutelados (CF 5º LXXIII)?', a: '4 bens: PATRIMÔNIO PÚBLICO · MORALIDADE administrativa · MEIO AMBIENTE · PATRIMÔNIO HISTÓRICO/CULTURAL. Mnemônico PMMP.', tags: ['colproc', 'acao-popular'] },
+  { id: 338, topic: 3, materia: 'colproc', q: 'MP pode propor ação popular?', a: 'NÃO. MP NÃO tem legitimidade ATIVA originária. Atua como CUSTOS LEGIS (obrigatório), pode SUCEDER autor desistente (Lei 4.717/65 art. 9º) e EXECUTAR sentença (art. 16). Pegadinha clássica.', tags: ['colproc', 'acao-popular', 'MP'] },
+  { id: 339, topic: 3, materia: 'colproc', q: 'Reexame necessário em ação popular — quando ocorre?', a: 'Em IMPROCEDÊNCIA ou EXTINÇÃO SEM MÉRITO (Lei 4.717/65 art. 19). Procedência NÃO tem reexame. Súmula 11/STJ confirma. Inversão da regra geral do CPC.', tags: ['colproc', 'acao-popular', 'reexame'] },
+
+  // colproc-06 — TAC e atuação extrajudicial
+  { id: 340, topic: 6, materia: 'colproc', q: 'TAC × Recomendação — diferença essencial?', a: 'TAC: VINCULA — título executivo extrajudicial (LACP 5º §6º). RECOMENDAÇÃO: PERSUADE — não vincula, sem força executiva. Usada quando MP quer alertar/orientar antes de litigar.', tags: ['colproc', 'TAC', 'recomendacao'] },
+  { id: 341, topic: 6, materia: 'colproc', q: 'Quem pode celebrar TAC?', a: 'APENAS legitimados PÚBLICOS: MP, Defensoria, U/E/M, autarquias, EP, SEM, fundações. ASSOCIAÇÕES PRIVADAS não podem. Razão: TAC dispõe sobre forma de cumprimento de interesse coletivo.', tags: ['colproc', 'TAC'] },
+  { id: 342, topic: 6, materia: 'colproc', q: 'Inquérito Civil — prazo de duração e quem arquiva?', a: '1 ANO (prorrogável fundamentadamente — Res. CNMP 23 art. 9º). Arquivamento submetido ao CSMP em 3 dias. CSMP pode homologar, determinar diligências, ou designar OUTRO membro.', tags: ['colproc', 'IC', 'CNMP'] },
+  { id: 343, topic: 6, materia: 'colproc', q: 'Arquivamento de IC faz coisa julgada?', a: 'NÃO. Outro legitimado (Defensoria, associação, ente público) pode propor ACP mesmo após arquivamento do IC pelo MP — Res. 23 art. 16.', tags: ['colproc', 'IC', 'arquivamento'] },
+  { id: 344, topic: 6, materia: 'colproc', q: 'Resoluções CNMP-chave para a atuação extrajudicial?', a: 'Res. 23/2007 (IC) · Res. 164/2017 (Recomendação) · Res. 174/2017 (Notícia de fato) · Res. 181/2017 (PIC). Cair em concurso é certo.', tags: ['colproc', 'CNMP'] },
+  { id: 345, topic: 6, materia: 'colproc', q: 'PIC × Inquérito Civil — diferença?', a: 'PIC = Procedimento Investigatório CRIMINAL (Res. CNMP 181/2017). IC = Inquérito CIVIL (Res. 23/2007). Mesmo nome do "Inquérito" mas natureza distinta — não confundir.', tags: ['colproc', 'PIC', 'IC'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -8365,6 +8957,86 @@ questions: [
     ],
     correct: 'B',
     explanation: 'LACP art. 5º: legitimidade concorrente e disjuntiva. MP, DP, U/E/M, autarquias, EP, SEM, fundações, associações (constituídas há ao menos 1 ANO — não 5) têm legitimidade. MP intervém como custos legis sempre que não é autor (§1º).'
+  },
+
+  // === Questões para os 6 esqueletos preenchidos nesta rodada ===
+  {
+    id: 131, topic: 2, materia: 'mp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios institucionais do MP, é correto afirmar:',
+    alternatives: [
+      'A unidade significa que MPU e MPs estaduais formam uma única instituição em âmbito nacional.',
+      'A independência funcional autoriza o membro a desconsiderar atos normativos do PGJ, ainda que de caráter geral.',
+      'O princípio do promotor natural está expressamente previsto no art. 127 da CF.',
+      'A indivisibilidade permite a substituição entre membros sem prejuízo da continuidade institucional, mas não autoriza designações casuísticas, que violariam o promotor natural.',
+      'Na esfera administrativa, o membro tem independência absoluta, não submetendo-se a hierarquia.'
+    ],
+    correct: 'D',
+    explanation: 'Indivisibilidade + promotor natural (STF HC 67.759/RJ). (A) Falso — MPU e MPs estaduais são autônomos. (B) Falso — atos normativos gerais do PGJ não violam independência funcional. (C) Falso — promotor natural é IMPLÍCITO. (E) Falso — independência funcional ≠ administrativa.'
+  },
+  {
+    id: 132, topic: 3, materia: 'mp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito das garantias e vedações dos membros do MP (CF 128 §5º):',
+    alternatives: [
+      'A vitaliciedade é adquirida desde a posse no cargo de Promotor de Justiça.',
+      'A inamovibilidade pode ser afastada por maioria simples do colegiado competente.',
+      'A vedação à atividade político-partidária é regra absoluta após a EC 45/04, ressalvados os membros que já eram filiados antes da CF/88.',
+      'O membro pode acumular o cargo do MP com até dois cargos de magistério.',
+      'A irredutibilidade de subsídios garante reajuste automático conforme inflação.'
+    ],
+    correct: 'C',
+    explanation: 'EC 45/04 + CF 128 §5º II "e". (A) Falso — vitaliciedade após 2 anos. (B) Falso — maioria ABSOLUTA. (D) Falso — apenas UMA função de magistério. (E) Falso — irredutibilidade é nominal, não real.'
+  },
+  {
+    id: 133, topic: 7, materia: 'mp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as funções institucionais do MP (CF art. 129):',
+    alternatives: [
+      'A ação penal pública é privativa e exclusiva do MP, não admitindo a ação penal privada subsidiária.',
+      'O MP não pode realizar investigação criminal direta, sob pena de invadir atribuição da polícia.',
+      'O MP exerce o controle externo da polícia, atribuição constitucional indelegável (STF ADPF 388).',
+      'O rol do art. 129 é taxativo, não admitindo ampliação por lei ordinária.',
+      'O MP pode prestar consultoria jurídica a entidades públicas em casos excepcionais.'
+    ],
+    correct: 'C',
+    explanation: 'CF 129 VII + ADPF 388. (A) Falso — há ação penal privada SUBSIDIÁRIA (CF 5º LIX). (B) Falso — STF RE 593.727 (Tema 184). (D) Falso — IX é cláusula aberta (STF ADI 4.027). (E) Falso — vedação expressa (IX final).'
+  },
+  {
+    id: 134, topic: 1, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o microssistema processual coletivo, assinale a correta:',
+    alternatives: [
+      'Há um Código de Processo Coletivo unificado, que disciplina todas as ações coletivas.',
+      'A LACP e o CDC se aplicam reciprocamente por força dos arts. 21 da LACP e 90 do CDC.',
+      'A Defensoria Pública não tem legitimidade para ACP, segundo jurisprudência consolidada do STF.',
+      'Direitos individuais homogêneos são intrinsecamente coletivos, sem natureza individual.',
+      'O microssistema é composto exclusivamente pela LACP e o CDC.'
+    ],
+    correct: 'B',
+    explanation: 'LACP art. 21 + CDC art. 90 — aplicação recíproca obrigatória. (A) Falso — não há código unificado, é microssistema. (C) Falso — STF ADI 3.943 reconhece legitimidade. (D) Falso — são "acidentalmente coletivos" (Barbosa Moreira). (E) Falso — ECA, Idoso, LBI, LIA, Lei 4.717/65 etc. integram.'
+  },
+  {
+    id: 135, topic: 3, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Em relação à ação popular (CF art. 5º LXXIII; Lei 4.717/65), é correto afirmar:',
+    alternatives: [
+      'O Ministério Público tem legitimidade ativa originária para propor a ação.',
+      'A pessoa jurídica de direito privado tem legitimidade desde que demonstre interesse social.',
+      'O autor cidadão é isento de custas e honorários, salvo comprovada má-fé, e o reexame necessário ocorre apenas em caso de improcedência ou extinção sem mérito.',
+      'A coisa julgada da ação popular é sempre erga omnes, sem exceções.',
+      'A ação popular tutela apenas o patrimônio público — não meio ambiente, moralidade ou patrimônio histórico.'
+    ],
+    correct: 'C',
+    explanation: 'CF 5º LXXIII + Lei 4.717/65 arts. 13 e 19. (A) Falso — MP é custos legis ou sucessor, não autor. (B) Falso — Súmula 365 STF (PJ não tem). (D) Falso — secundum eventum probationis (improcedência por insuficiência de provas não faz coisa julgada material). (E) Falso — CF amplia para 4 bens.'
+  },
+  {
+    id: 136, topic: 6, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os instrumentos de atuação extrajudicial do MP, é correto:',
+    alternatives: [
+      'O Inquérito Civil tem prazo máximo de 30 dias, improrrogável.',
+      'A Recomendação ministerial tem força de título executivo extrajudicial.',
+      'Associação privada legitimada à ACP pode celebrar TAC, desde que registrada há pelo menos 1 ano.',
+      'O TAC é título executivo extrajudicial (LACP art. 5º §6º), celebrado por órgãos públicos legitimados; descumprimento permite execução direta no juízo cível.',
+      'O arquivamento do Inquérito Civil pelo MP impede que outros legitimados proponham ACP sobre o mesmo fato.'
+    ],
+    correct: 'D',
+    explanation: 'LACP art. 5º §6º. (A) Falso — 1 ano prorrogável (Res. 23 art. 9º). (B) Falso — Recomendação persuade, não vincula. (C) Falso — TAC só é celebrado por órgãos PÚBLICOS. (E) Falso — Res. 23 art. 16: arquivamento não impede ACP por outro legitimado.'
   }
 ],
 
