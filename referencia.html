@@ -308,12 +308,17 @@
 
     let html = '';
     list.forEach(s => {
-      const tName = (APP_DATA.topics.find(x => x.num === s.topic) || {}).title || '';
+      const tObj = APP_DATA.topics.find(x => x.num === s.topic && (x.materia || 'pc') === 'pc');
+      const tName = (tObj || {}).title || '';
+      const tId = (tObj || {}).id || '';
       const badgeClass = s.tribunal === 'STF' ? 'tag-foco' : 'tag-vantagem';
+      const topicLink = tName && tId
+        ? `<a href="topicos.html?id=${encodeURIComponent(tId)}" style="margin-left:0.4rem; text-transform:none; font-weight:normal; color:var(--accent); text-decoration:none;">Tópico ${s.topic}: ${App.escape(tName)} →</a>`
+        : '';
       html += `<div class="log-entry">
         <div class="log-date">
           <span class="tag ${badgeClass}">${s.tribunal} · ${s.tipo} ${s.num}</span>
-          ${tName ? `<span style="margin-left:0.4rem; text-transform:none; font-weight:normal;">Tópico ${s.topic}: ${App.escape(tName)}</span>` : ''}
+          ${topicLink}
         </div>
         <div class="log-content">${App.escape(s.text)}</div>
       </div>`;

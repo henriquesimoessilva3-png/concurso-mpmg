@@ -28,3 +28,6 @@ Desktop.ini
 *.bak
 *.backup
 *.orig
+
+# Claude Code (local-only configs)
+.claude/

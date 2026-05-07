@@ -183,18 +183,21 @@
       <ul class="checklist" id="checklist-fase1"></ul>
     </div>
 
-    <div class="subsection">
-      <h3>Fase 2 · Itens 21 a 30 (depois)</h3>
-      <ul class="checklist">
-        <li class="checklist-item">
-          <div class="item-content">
-            <span class="item-title">21-30. Processo eletrônico, arbitragem, mediação, leis especiais, CNJ/CNMP</span>
-            <span class="item-desc">Lei 11.419/06, 9.307/96, 13.140/15, 14.195/21, 14.230/21, 14.181/21, 14.341/22 e mais ~25 leis. Será destrinchado quando entrarmos na Fase 2.</span>
-            <span class="item-tags"><span class="tag tag-fase2">Fase 2</span></span>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <details class="subsection" style="margin-top:1rem;">
+      <summary style="cursor:pointer; font-weight:600; padding:0.5rem 0; list-style:none;">
+        📋 Fase 2 · PC itens 21 a 30 <span style="color:var(--text-muted); font-weight:normal;">(em construção · clique para abrir)</span>
+      </summary>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin-top:0.5rem;">Esqueletos com sumário previsto. Conteúdo será preenchido ao iniciar a Fase 2 (out-nov/2026).</p>
+      <ul class="checklist" id="checklist-fase2"></ul>
+    </details>
+
+    <details class="subsection" style="margin-top:1rem;">
+      <summary style="cursor:pointer; font-weight:600; padding:0.5rem 0; list-style:none;">
+        📘 Fase 3 · Direito Civil <span style="color:var(--text-muted); font-weight:normal;">(em construção · clique para abrir)</span>
+      </summary>
+      <p style="color:var(--text-muted); font-size:0.85rem; margin-top:0.5rem;">17 tópicos esqueleto da LINDB às Sucessões. Cronograma: dez/2026 → mar/2027.</p>
+      <ul class="checklist" id="checklist-fase3"></ul>
+    </details>
 
     <div class="toolbar">
       <button class="btn btn-reset" onclick="resetChecklist()">Resetar checklist</button>
@@ -290,7 +293,7 @@
       <div class="cards-grid">
         <div class="card">
           <h4>⚖️ Súmulas relevantes</h4>
-          <p><strong>~25 súmulas curadas</strong> de STF e STJ aplicáveis a Processo Civil. Filtro por tribunal, tópico e busca em texto.</p>
+          <p><strong id="sumulas-count">48</strong> <span>súmulas curadas</span> de STF e STJ aplicáveis a Processo Civil. Filtro por tribunal, tópico e busca em texto.</p>
           <p style="margin-top:0.5rem;"><a href="referencia.html#sumulas">Abrir súmulas →</a></p>
         </div>
 
@@ -349,30 +352,76 @@
   // contadores
   document.getElementById('qstats-count').textContent = APP_DATA.questions.length;
   document.getElementById('fcstats-count').textContent = APP_DATA.flashcards.length;
+  const sumulasCountEl = document.getElementById('sumulas-count');
+  if (sumulasCountEl && APP_DATA.sumulas) sumulasCountEl.textContent = APP_DATA.sumulas.length;
 
-  // checklist Fase 1
+  // checklist Fase 1 — só PC 1-20 (com conteúdo)
   const ul = document.getElementById('checklist-fase1');
-  APP_DATA.topics.forEach(t => {
-    const tagsHtml = [];
-    if (t.advantage) tagsHtml.push('<span class="tag tag-vantagem">Vantagem</span>');
-    if (t.size && t.size.toLowerCase().includes('gigante')) tagsHtml.push('<span class="tag tag-gigante">⚠️ Gigante</span>');
+  APP_DATA.topics
+    .filter(t => (t.materia || 'pc') === 'pc' && t.num <= 20)
+    .forEach(t => {
+      const tagsHtml = [];
+      if (t.advantage) tagsHtml.push('<span class="tag tag-vantagem">Vantagem</span>');
+      if (t.size && t.size.toLowerCase().includes('gigante')) tagsHtml.push('<span class="tag tag-gigante">⚠️ Gigante</span>');
 
-    const li = document.createElement('li');
-    li.className = 'checklist-item';
-    li.dataset.id = `t${t.num}`;
-    li.innerHTML = `
-      <input type="checkbox" id="t${t.num}">
-      <div class="item-content">
-        <label for="t${t.num}">
-          <span class="item-title">${t.num}. ${App.escape(t.title)}</span>
-          <span class="item-desc">${App.escape(t.size)}${t.advantage ? ' · ' + App.escape(t.advantage) : ''}</span>
-          ${tagsHtml.length ? `<span class="item-tags">${tagsHtml.join('')}</span>` : ''}
-        </label>
-      </div>
-      <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
-    `;
-    ul.appendChild(li);
-  });
+      const li = document.createElement('li');
+      li.className = 'checklist-item';
+      li.dataset.id = `t${t.num}`;
+      li.innerHTML = `
+        <input type="checkbox" id="t${t.num}">
+        <div class="item-content">
+          <label for="t${t.num}">
+            <span class="item-title">${t.num}. ${App.escape(t.title)}</span>
+            <span class="item-desc">${App.escape(t.size)}${t.advantage ? ' · ' + App.escape(t.advantage) : ''}</span>
+            ${tagsHtml.length ? `<span class="item-tags">${tagsHtml.join('')}</span>` : ''}
+          </label>
+        </div>
+        <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
+      `;
+      ul.appendChild(li);
+    });
+
+  // checklist Fase 2 — PC 21-30 (esqueletos)
+  const ul2 = document.getElementById('checklist-fase2');
+  if (ul2) {
+    APP_DATA.topics
+      .filter(t => (t.materia || 'pc') === 'pc' && t.num >= 21 && t.num <= 30)
+      .forEach(t => {
+        const li = document.createElement('li');
+        li.className = 'checklist-item';
+        li.style.opacity = '0.85';
+        li.innerHTML = `
+          <div class="item-content" style="margin-left:0;">
+            <span class="item-title">${t.num}. ${App.escape(t.title)}</span>
+            <span class="item-desc">${App.escape(t.editalText || '')}</span>
+            <span class="item-tags"><span class="tag tag-fase2">🚧 stub</span></span>
+          </div>
+          <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
+        `;
+        ul2.appendChild(li);
+      });
+  }
+
+  // checklist Fase 3 — Direito Civil (esqueletos)
+  const ul3 = document.getElementById('checklist-fase3');
+  if (ul3) {
+    APP_DATA.topics
+      .filter(t => t.materia === 'civil')
+      .forEach(t => {
+        const li = document.createElement('li');
+        li.className = 'checklist-item';
+        li.style.opacity = '0.85';
+        li.innerHTML = `
+          <div class="item-content" style="margin-left:0;">
+            <span class="item-title">${t.num}. ${App.escape(t.title)}</span>
+            <span class="item-desc">${App.escape(t.editalText || '')}</span>
+            <span class="item-tags"><span class="tag tag-fase2">🚧 stub</span></span>
+          </div>
+          <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
+        `;
+        ul3.appendChild(li);
+      });
+  }
 
   // estado persistente
   const STORAGE_KEY = 'checklist-fase1';

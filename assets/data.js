@@ -2882,6 +2882,1399 @@ topics: [
         ]
       }
     ]
+  },
+
+  // ============================================================
+  // ESQUELETOS — Fase 2 (Processo Civil itens 21 a 30)
+  // sections: [] dispara empty-state no viewer; outline mostra o que entra.
+  // ============================================================
+  {
+    id: '21-mediacao-conciliacao',
+    num: 21, materia: 'pc',
+    title: 'Mediação, conciliação e autocomposição',
+    edital: '3.2.21',
+    editalText: 'Mediação, conciliação e autocomposição. Lei 13.140/15. Audiências do CPC art. 334. CEJUSC.',
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 2 (out/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A política de **autocomposição** ganhou centralidade no CPC/15 e foi consolidada na **Lei 13.140/15** (Lei de Mediação). O art. 3º §§ 2º e 3º do CPC estabelece o dever do juiz, advogados, defensores e MP de **estimular** a solução consensual. A audiência do art. 334 transformou a tentativa de autocomposição em **fase obrigatória** do procedimento comum — ato de abertura, salvo recusa bilateral expressa ou matéria que não admita autocomposição.' },
+          { type: 'p', text: '**Mediação × conciliação:** o critério legal (CPC art. 165 §§ 2º-3º) é o **vínculo prévio entre as partes**. Mediação para quem TINHA relação anterior (família, vizinhança, sócios) — o mediador apenas FACILITA o diálogo. Conciliação para quem NÃO tinha vínculo (acidente de trânsito, consumo) — o conciliador pode **propor** soluções. Ambas regem-se pelos mesmos princípios.' },
+          { type: 'p', text: 'A mediação opera em duas frentes: (a) **judicial** (anexo ao processo, dentro do CEJUSC) e (b) **extrajudicial** (Lei 13.140 capítulos III e IV — antes ou fora do processo, inclusive na Administração Pública). O resultado, quando exitoso, é homologado e vira **título executivo judicial** (CPC art. 515 III).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CPC arts. 165 a 175 — conciliadores e mediadores judiciais' },
+          { type: 'list', items: [
+            '**Art. 165** — criação dos centros judiciários (CEJUSCs) pelo tribunal',
+            '**§ 2º** — conciliador atua preferencialmente sem vínculo prévio; pode SUGERIR soluções, vedada coação ou intimidação',
+            '**§ 3º** — mediador atua preferencialmente com vínculo prévio; AUXILIA a entender questões e interesses, sem propor solução',
+            '**Art. 166** — princípios da conciliação/mediação: independência, imparcialidade, autonomia da vontade, confidencialidade, oralidade, informalidade, decisão informada',
+            '**Art. 167** — cadastro nacional e dos tribunais; capacitação obrigatória',
+            '**Art. 168 §1º** — partes podem escolher de comum acordo o conciliador/mediador',
+            '**Art. 173** — exclusão do cadastro: violação de princípios, inabilitação por 180 dias',
+            '**Art. 175** — ressalva às câmaras privadas'
+          ] },
+          { type: 'h', text: 'CPC art. 334 — audiência de conciliação/mediação' },
+          { type: 'list', items: [
+            '**Caput** — designada pelo juiz **se a petição inicial preencher os requisitos e não for caso de improcedência liminar**',
+            '**§ 4º I** — não realizada se AMBAS as partes manifestarem expressamente desinteresse (de comum acordo)',
+            '**§ 4º II** — não realizada se a causa não admitir autocomposição',
+            '**§ 5º** — desinteresse do autor: na PI; do réu: por petição, com 10 dias de antecedência',
+            '**§ 6º** — havendo litisconsórcio, o desinteresse só vale se TODOS manifestarem',
+            '**§ 8º** — ausência injustificada é **ato atentatório à dignidade da justiça**, multa de até **2%** sobre valor da causa ou vantagem econômica pretendida',
+            '**§ 9º** — partes devem estar acompanhadas de advogados/defensores',
+            '**§ 10º** — pode haver representação por preposto com procuração específica',
+            '**§ 11** — autocomposição obtida → reduzida a termo + homologação por sentença'
+          ] },
+          { type: 'h', text: 'Lei 13.140/15 — Lei de Mediação' },
+          { type: 'list', items: [
+            '**Art. 1º par. único** — mediação é **atividade técnica** exercida por terceiro imparcial sem poder decisório que auxilia partes a identificarem ou desenvolverem soluções consensuais',
+            '**Art. 2º** — princípios: imparcialidade do mediador, isonomia entre as partes, oralidade, informalidade, autonomia da vontade, busca do consenso, confidencialidade, boa-fé',
+            '**Art. 3º** — pode versar sobre direitos disponíveis ou indisponíveis que admitam transação. Direitos indisponíveis transigíveis exigem **homologação judicial** com participação do MP',
+            '**Art. 4º** — mediador conduzirá com pleno conhecimento das partes; não pode atuar como árbitro nem como testemunha em processos judiciais ou arbitrais relativos ao conflito por 1 ano após',
+            '**Arts. 11-13** — mediador judicial: graduação superior há pelo menos 2 anos + capacitação',
+            '**Arts. 22-23** — mediação extrajudicial: convite formal; ausência por 1 vez não importa em má-fé; nas partes signatárias de cláusula de mediação, ausência implica multa proporcional ao prejuízo',
+            '**Cap. II (arts. 32-40)** — câmaras de prevenção e resolução administrativa de conflitos no âmbito da Administração Pública',
+            '**Art. 30** — confidencialidade: estende-se a todas as informações, inclusive auxiliares e partes; EXCEÇÃO: informações relativas a CRIME DE AÇÃO PÚBLICA'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Quando a audiência do art. 334 é obrigatória?' },
+          { type: 'p', text: 'Regra: **toda PI que não receba improcedência liminar deve ter audiência**. Exceções (§ 4º): (i) desinteresse BILATERAL e expresso; (ii) causa que não admite autocomposição (tutela de urgência indeferida não é exceção; o que importa é a **disponibilidade material** do direito).' },
+          { type: 'box', kind: 'atencao', text: 'Se UMA das partes quer a audiência e a outra não, a audiência ACONTECE. Erro frequente: tomar como exceção a vontade unilateral.' },
+          { type: 'box', kind: 'atencao', text: 'Litisconsórcio (§ 6º) — só dispensa se TODOS os litisconsortes manifestarem desinteresse. Um único quer = audiência designada.' },
+          { type: 'h', text: 'Multa por ausência (§ 8º)' },
+          { type: 'p', text: 'A ausência injustificada é **ato atentatório à dignidade da justiça** (categoria do art. 77 §2º). Multa de **até 2%** sobre o valor da causa OU sobre a vantagem econômica pretendida, revertida em favor da União ou do Estado. A multa atinge a parte (ou seu preposto), NÃO o advogado.' },
+          { type: 'box', kind: 'macete', text: '**334 §8º — ausência = ato atentatório · até 2% · pra União/Estado**. Não é honorários nem custas, é punição processual.' },
+          { type: 'h', text: 'Mediação × conciliação — diferença prática' },
+          { type: 'table', headers: ['Critério', 'Mediação', 'Conciliação'],
+            rows: [
+              ['Vínculo prévio', 'Costuma haver (família, vizinhança)', 'Tipicamente ausente (acidente, consumo)'],
+              ['Postura do terceiro', 'FACILITA — não sugere solução', 'Pode SUGERIR a solução'],
+              ['Foco', 'Restaurar a relação + resolver conflito', 'Resolver o conflito pontual'],
+              ['Duração típica', 'Múltiplas sessões', 'Uma ou duas sessões'],
+              ['CPC', 'Art. 165 § 3º', 'Art. 165 § 2º']
+            ] },
+          { type: 'h', text: 'Confidencialidade (Lei 13.140 art. 30)' },
+          { type: 'p', text: 'Tudo que for produzido em mediação é **confidencial** — partes, mediador, auxiliares e terceiros que tenham contato. Não pode ser usado em juízo posterior. **EXCEÇÃO única importante: informação relativa a CRIME DE AÇÃO PÚBLICA** — o mediador deve denunciar.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.733.685:** descumprimento da confidencialidade pelo mediador gera responsabilidade civil. Refletida no rigor da exclusão do cadastro do art. 173 do CPC.' },
+          { type: 'h', text: 'Direitos indisponíveis transigíveis (art. 3º § 2º)' },
+          { type: 'p', text: '**Direito indisponível NEM SEMPRE é intransigível.** Alimentos, por exemplo, são indisponíveis quanto à existência (não se renuncia o direito) mas o **valor pode ser transigido**. Mediação cabe — exige homologação judicial e oitiva do MP.' },
+          { type: 'box', kind: 'atencao', text: 'Estado da técnica: a Lei 13.140 admite mediação em direitos indisponíveis transigíveis, com participação do MP. Erro: dizer que indisponíveis nunca cabem em mediação.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Mediação x Conciliação — VInculo + Sugestão:** Mediação tem **VÍ**nculo, **NÃO** sugere. Conciliação **SE**m vínculo, **PO**de sugerir.' },
+          { type: 'box', kind: 'macete', text: '**Princípios da Lei 13.140 (art. 2º) — IMÔNICO:** **I**mparcialidade · **I**sonomia · **O**ralidade · **I**nformalidade · **A**utonomia da vontade · **B**usca do consenso · **C**onfidencialidade · **B**oa-fé.' },
+          { type: 'box', kind: 'macete', text: '**Audiência 334 — recusa exige 4 condições simultâneas:** (1) **bilateral** + (2) **expressa** + (3) autor na PI + (4) réu até 10 dias antes.' },
+          { type: 'box', kind: 'macete', text: '**Confidencialidade quebra UMA vez:** crime de AÇÃO PÚBLICA. Não quebra para crime de ação privada.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Litisconsórcio — todos devem recusar.** Se 1 quer audiência, ela acontece. Banca pode dizer "se a maioria recusar, não há audiência" — FALSO.' },
+          { type: 'box', kind: 'atencao', text: '**Mediador é vedado a atuar como árbitro/testemunha pelo prazo de 1 ano após o término** (Lei 13.140 art. 7º). Esquecer esse prazo é erro frequente.' },
+          { type: 'box', kind: 'atencao', text: '**Direitos indisponíveis transigíveis CABEM** (art. 3º §§ 1º-2º) — alimentos, guarda em parte. Banca pode armar: "mediação só para direitos disponíveis" — errado.' },
+          { type: 'box', kind: 'atencao', text: '**Resultado da mediação NÃO precisa ser homologado quando extrajudicial e versa sobre direito disponível** (Lei 13.140 art. 20 par. único — vira título executivo extrajudicial). Em direitos indisponíveis transigíveis, exige homologação + MP.' },
+          { type: 'box', kind: 'atencao', text: '**Multa do § 8º vai para União/Estado**, NÃO para a outra parte. Erro frequente: confundir com indenização.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** a audiência do art. 334 é a **PRIMEIRA fase ordinária** do procedimento comum. Sem ela, nulidade relativa por cerceamento.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 22 (arbitragem):** arbitragem e mediação fazem parte do mesmo microssistema de ADR. Diferença essencial: árbitro DECIDE; mediador/conciliador NÃO decidem.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** mediação em direitos indisponíveis transigíveis exige participação do MP (Lei 13.140 art. 3º §2º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 29 (CNJ/CNMP):** Resolução CNJ 125/2010 instituiu a Política Judiciária Nacional de Tratamento de Conflitos — base normativa dos CEJUSCs.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '22-arbitragem',
+    num: 22, materia: 'pc',
+    title: 'Arbitragem (Lei 9.307/96)',
+    edital: '3.2.22',
+    editalText: 'Arbitragem. Lei 9.307/96 (com alterações da Lei 13.129/15). Cláusula compromissória, sentença arbitral, ação anulatória.',
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 2 (out/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Arbitragem é **método heterocompositivo privado** de solução de conflitos relativos a direitos patrimoniais disponíveis (Lei 9.307/96 art. 1º). O **STF** (ADI 7.123 e SE 5.206) afastou alegação de inconstitucionalidade e reconheceu sua natureza **jurisdicional** — a sentença arbitral tem força de título executivo judicial e não passa por homologação, salvo a estrangeira (que vai ao STJ).' },
+          { type: 'p', text: 'Diferentemente da mediação (consensual, terceiro não decide), na arbitragem o **árbitro DECIDE** o caso por sentença. As partes elegem voluntariamente esse caminho via **convenção de arbitragem** — gênero que abrange a **cláusula compromissória** (pacto prévio inserido em contrato) e o **compromisso arbitral** (pacto firmado depois do conflito).' },
+          { type: 'p', text: 'Lei 13.129/15 introduziu reformas relevantes: (a) ampliação para Administração Pública (art. 1º §§ 1º-2º), (b) tutela cautelar pré-arbitral pelo Judiciário (art. 22-A), (c) carta arbitral (art. 22-C) e (d) sentença arbitral parcial (art. 23 §1º).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Lei 9.307/96 — disposições estruturais' },
+          { type: 'list', items: [
+            '**Art. 1º caput** — pessoas capazes podem valer-se de arbitragem para dirimir litígios sobre **direitos patrimoniais disponíveis**',
+            '**Art. 1º § 1º** — Administração Pública direta e indireta poderá utilizar arbitragem (Lei 13.129/15)',
+            '**Art. 1º § 2º** — autoridade competente celebra convenção (mesma da que celebra acordos ou transações)',
+            '**Art. 2º** — arbitragem pode ser de **direito** (regra) ou de **equidade**, à escolha das partes; § 3º prevê **publicidade** quando envolver Administração Pública',
+            '**Art. 3º** — convenção de arbitragem = cláusula compromissória + compromisso arbitral',
+            '**Art. 4º** — cláusula compromissória: estipulação para submeter à arbitragem litígios futuros',
+            '**Art. 4º § 1º** — exigência de forma escrita (no contrato ou em documento apartado)',
+            '**Art. 4º § 2º** — em contrato de adesão: cláusula só vale se aderente tomar iniciativa OU concordar expressamente em destaque, com visto separado',
+            '**Art. 7º** — cláusula vazia → ação para suprir lacunas (especial; segue rito do art. 6º)',
+            '**Art. 8º par. único** — **Kompetenz-Kompetenz**: cabe ao árbitro decidir sobre sua própria competência e sobre validade da convenção'
+          ] },
+          { type: 'h', text: 'Procedimento arbitral e sentença' },
+          { type: 'list', items: [
+            '**Art. 13** — qualquer pessoa capaz e da confiança das partes pode ser árbitro; quando colegiado, número ímpar',
+            '**Art. 14** — impedimentos análogos aos do CPC (juiz)',
+            '**Art. 17** — árbitros equiparam-se a funcionários públicos para efeitos penais',
+            '**Art. 21 § 2º** — princípios obrigatórios: contraditório, igualdade das partes, imparcialidade do árbitro, livre convencimento',
+            '**Art. 22-A** — antes da instauração da arbitragem, partes podem pedir **medida cautelar** ao Judiciário; após instaurada, ao árbitro',
+            '**Art. 22-B** — instituída a arbitragem, cabe aos árbitros manter, modificar ou revogar a cautelar concedida pelo Judiciário',
+            '**Art. 22-C** — **carta arbitral** = árbitro requisita do Judiciário ato coercitivo (penhora, condução de testemunha)',
+            '**Art. 23 § 1º** — admite **sentença arbitral parcial**',
+            '**Art. 26** — requisitos formais da sentença arbitral (relatório, fundamentos, dispositivo, data, lugar)',
+            '**Art. 31** — sentença arbitral produz, entre as partes e seus sucessores, os mesmos efeitos da sentença judicial; é **título executivo judicial** (também CPC art. 515 VII)'
+          ] },
+          { type: 'h', text: 'Anulação da sentença arbitral' },
+          { type: 'list', items: [
+            '**Art. 32** — hipóteses TAXATIVAS de nulidade: (I) compromisso nulo, (II) sentença emanada por quem não podia ser árbitro, (III) ausência dos requisitos do art. 26, (IV) prolatada fora dos limites da convenção, (V) — REVOGADA pela Lei 13.129/15, (VI) comprovação de prevaricação/concussão/corrupção passiva, (VII) prolatada fora do prazo, (VIII) violados os princípios do art. 21 § 2º',
+            '**Art. 33** — ação anulatória na Justiça Comum, prazo **decadencial de 90 dias** após recebimento da sentença ou da decisão dos embargos',
+            '**Art. 33 § 3º** — sentença arbitral também pode ser desconstituída por **impugnação ao cumprimento de sentença** (art. 525 CPC) com fundamento no art. 32 da Lei 9.307'
+          ] },
+          { type: 'h', text: 'Sentença arbitral estrangeira' },
+          { type: 'list', items: [
+            '**Arts. 34-40** — homologação no STJ (CPC art. 105 I i CF); reconhece base na Convenção de Nova York',
+            '**Art. 39** — recusa só por: incapacidade das partes, convenção inválida, ofensa à ordem pública, falta de notificação, decisão fora dos limites da convenção, falta de obrigatoriedade no país de origem'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Cláusula cheia × vazia' },
+          { type: 'p', text: '**Cláusula cheia** = define todos os elementos essenciais para instaurar a arbitragem (regra de eleição do árbitro, instituição arbitral, regulamento). **Cláusula vazia** = remete à arbitragem mas não define como instaurá-la. Solução: art. 7º — qualquer parte ajuíza ação para o juiz suprir a lacuna e dar início ao procedimento.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 485:** "A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição." Reforça a natureza jurisdicional do instituto e a aplicação imediata.' },
+          { type: 'h', text: 'Cláusula em contrato de adesão (art. 4º § 2º)' },
+          { type: 'p', text: 'Para vincular o aderente, a cláusula compromissória em contrato de adesão exige **DUPLA proteção**: (i) iniciativa do aderente OU (ii) concordância expressa **em destaque + visto/assinatura específica**. Falta isso = cláusula INEFICAZ. Em CDC: STJ tem jurisprudência ampla flexibilizando para consumidor (REsp 1.169.841 e seguintes — em geral, NÃO obriga consumidor sem manifestação positiva).' },
+          { type: 'h', text: 'Kompetenz-Kompetenz (art. 8º par. único)' },
+          { type: 'p', text: 'Princípio originário do direito alemão. Significa que o **próprio árbitro** decide se tem competência para julgar, inclusive sobre a validade da cláusula arbitral. Consequência: parte que insiste em ajuizar perante o Judiciário, quando há cláusula arbitral válida, encontra extinção sem mérito do art. 485 VII do CPC (existência de convenção de arbitragem).' },
+          { type: 'box', kind: 'atencao', text: 'Convenção de arbitragem é **matéria que o juiz NÃO conhece de ofício** — só por arguição da parte (CPC art. 337 X + § 5º). Se o réu não alega na contestação, ocorre RENÚNCIA TÁCITA à arbitragem, e o processo prossegue na Justiça Comum.' },
+          { type: 'h', text: 'Sentença arbitral × homologação' },
+          { type: 'p', text: 'Sentença arbitral **NÃO precisa de homologação judicial** — é título executivo judicial direto (CPC art. 515 VII + Lei 9.307 art. 31). EXCEÇÃO: sentença arbitral **estrangeira** = homologação no **STJ** (CF art. 105 I i).' },
+          { type: 'box', kind: 'atencao', text: '**Recurso da sentença arbitral é IMPOSSÍVEL** internamente — só ação anulatória (90 dias) por hipóteses taxativas do art. 32. Banca tenta induzir cabimento de apelação ou agravo — falso.' },
+          { type: 'h', text: 'Arbitragem na Administração Pública' },
+          { type: 'p', text: 'Lei 13.129/15 (alterando o art. 1º §§ 1º-2º): **só para direitos patrimoniais disponíveis**. Princípios: legalidade, publicidade (art. 2º § 3º — sigilo é vedado), motivação. Não pode ter cláusula de equidade (art. 2º § 3º). Servidor responsável pela transação responde pessoalmente em caso de fraude/conluio.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Convenção = Cláusula + Compromisso.** Cláusula é PRÉVIA (no contrato). Compromisso é POSTERIOR (depois do conflito).' },
+          { type: 'box', kind: 'macete', text: '**Sentença arbitral é TEJ direto:** título executivo judicial sem homologação (CPC 515 VII). Exceção: estrangeira → STJ.' },
+          { type: 'box', kind: 'macete', text: '**Anulatória — 90 dias decadenciais.** Não é prescrição. Não admite suspensão.' },
+          { type: 'box', kind: 'macete', text: '**Carta arbitral = árbitro pede ao juiz** ato coercitivo (penhora etc). Carta de ordem é entre tribunais; carta precatória entre juízos; carta rogatória internacional. Carta arbitral é a 4ª.' },
+          { type: 'box', kind: 'macete', text: '**Adm Pública: equidade NÃO; publicidade SIM** (art. 2º § 3º). Erro: assumir sigilo automático.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Convenção de arbitragem NÃO é cognoscível de ofício** (CPC art. 337 § 5º). Erro frequente: dizer que juiz pode declarar de ofício e remeter o processo à arbitragem.' },
+          { type: 'box', kind: 'atencao', text: '**Cláusula arbitral em contrato de adesão exige destaque + visto.** Sem isso = ineficaz. Banca arma: "cláusula arbitral em contrato de adesão é sempre nula" (errado, depende dos requisitos do § 2º).' },
+          { type: 'box', kind: 'atencao', text: '**Sentença arbitral interna NÃO se homologa.** Banca tenta confundir com a estrangeira. Memorize: interna = TEJ direto; estrangeira = STJ.' },
+          { type: 'box', kind: 'atencao', text: '**Cautelar PRÉ-arbitral é com o Judiciário** (art. 22-A); pós-instalação é com o árbitro. Se o juiz concedeu antes da instauração, o árbitro pode mantê-la, modificá-la ou revogá-la (art. 22-B).' },
+          { type: 'box', kind: 'atencao', text: '**Equidade exige autorização EXPRESSA das partes** (art. 2º § 1º). Em arbitragem com Adm Pública, equidade é **vedada** (art. 2º § 3º).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 21 (mediação):** ambos métodos do microssistema de ADR. Diferença essencial: árbitro DECIDE; mediador FACILITA.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** convenção de arbitragem é exceção PROCESSUAL — réu deve alegá-la na contestação (CPC art. 337 X), sob pena de renúncia tácita.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento):** sentença arbitral é título executivo judicial (CPC art. 515 VII) — segue o procedimento de cumprimento de sentença, não execução de título extrajudicial.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** contra sentença arbitral interna NÃO cabe recurso — só ação anulatória (Lei 9.307 art. 33).' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '23-juizados-especiais-civeis',
+    num: 23, materia: 'pc',
+    title: 'Juizados Especiais Cíveis (Lei 9.099/95)',
+    edital: '3.2.23',
+    editalText: 'Juizados Especiais Cíveis. Lei 9.099/95. Princípios. Competência. Recursos. Súmulas STJ aplicáveis.',
+    size: 'Grande',
+    schedule: 'Mês 1 da Fase 2 (out/2026) — semana 3',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O **JEC** (Lei 9.099/95) é microssistema processual com **lógica própria**: criado para causas de menor complexidade, regido por princípios que pressionam a velocidade e a simplicidade. Não é apenas "rito mais rápido do CPC" — é REGIME paralelo, com critérios próprios de competência (absoluta), de capacidade postulatória, de contagem de prazos, de recursos e até de execução.' },
+          { type: 'p', text: 'Três pegadinhas estruturais que a banca cobra repetidamente: (a) **prazos NÃO são em dias úteis** (Súmula CJF 99 + FONAJE 165) — diferente do CPC 219; (b) **NÃO cabe REsp** (Súmula 203/STJ) — só RE com repercussão geral; (c) **NÃO cabe ação rescisória** (FONAJE 44).' },
+          { type: 'p', text: 'A "porta" do JEC é o **art. 3º** — define o que cabe lá, alternativamente: (i) por VALOR (causas até 40 SM — algumas até 20 SM sem advogado), (ii) por MATÉRIA (rol específico do § 1º), (iii) por execução de título extrajudicial até 40 SM.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Princípios e estrutura geral' },
+          { type: 'list', items: [
+            '**Art. 2º** — princípios: oralidade, simplicidade, informalidade, economia processual, celeridade; **conciliação ou transação** como objetivo permanente',
+            '**Art. 3º I** — causas de até **40 salários-mínimos** (cíveis em geral)',
+            '**Art. 3º II** — matérias do art. 275 II do CPC/73 (rito sumário): seguro, capitalização, rescisão de contrato de transporte, etc.',
+            '**Art. 3º III** — ação de despejo para uso próprio',
+            '**Art. 3º IV** — ações possessórias sobre imóveis até 40 SM',
+            '**Art. 3º § 1º** — execução de seus julgados + execução de títulos extrajudiciais até 40 SM',
+            '**Art. 3º § 2º** — EXCLUÍDAS: causas de natureza alimentar, falimentar, fiscal, contra Fazenda Pública (vai para Lei 12.153/09), ações sobre acidentes do trabalho, residuais e estado das pessoas',
+            '**Art. 8º** — partes admitidas: pessoa física (capaz), microempreendedor individual, ME, EPP, OSCIP, sociedade de crédito ao microempreendedor',
+            '**Art. 8º § 1º** — incapaz **NÃO** pode ser parte; PJ de grande porte tampouco; espólio também NÃO',
+            '**Art. 9º** — capacidade postulatória dispensável até 20 SM (jus postulandi); acima disso, advogado obrigatório'
+          ] },
+          { type: 'h', text: 'Procedimento' },
+          { type: 'list', items: [
+            '**Art. 14** — pedido pode ser ESCRITO ou ORAL (reduzido a termo)',
+            '**Art. 16** — comparecimento pessoal das partes; preposto da PJ com carta de preposição',
+            '**Art. 18** — citação por correspondência (regra), inclusive PJ; pode ser por mandado',
+            '**Art. 18 § 2º** — não admitida citação por edital',
+            '**Art. 27** — audiência **una** de conciliação, instrução e julgamento (princípio da concentração)',
+            '**Art. 31** — não há intervenção de terceiros nem assistência (admite-se litisconsórcio)',
+            '**Art. 38 par. único** — **NÃO admite sentença ilíquida** (mesmo se condenatória); deve ser sempre LÍQUIDA',
+            '**Art. 51** — extinção do processo: pelos motivos do art. 485 CPC + (II) inadmissibilidade do procedimento + (III) reconhecimento de incompetência territorial'
+          ] },
+          { type: 'h', text: 'Recursos no JEC' },
+          { type: 'list', items: [
+            '**Art. 41** — **recurso inominado** contra sentença, exceto a homologatória de transação ou laudo arbitral. Prazo: **10 dias**, contínuos (não se aplica art. 219 CPC). Necessita advogado (mesmo se causa < 20 SM)',
+            '**Art. 41 § 2º** — efeito apenas DEVOLUTIVO (regra); efeito suspensivo a critério do juiz, para evitar dano irreparável',
+            '**Art. 42** — preparo: **dobro do valor** das custas iniciais',
+            '**Arts. 48-50** — **embargos de declaração** (5 dias, suspendem prazo — Súmula 640/STJ)',
+            '**Art. 46** — julgamento pela **Turma Recursal** (juízes de 1º grau)',
+            '**RE no STF** — cabe com **repercussão geral**; STF entende possível em decisão das Turmas Recursais',
+            '**REsp** — **NÃO CABE** (Súmula 203/STJ)',
+            '**MS contra ato judicial** — TNU Súmula 8: cabe quando inviável outro recurso (decisão interlocutória teratológica, p. ex.)',
+            '**Ação rescisória — NÃO CABE** (FONAJE 44)'
+          ] },
+          { type: 'h', text: 'Execução' },
+          { type: 'list', items: [
+            '**Art. 52** — execução das sentenças do JEC processa-se ali mesmo',
+            '**Art. 53** — execução de título extrajudicial até 40 SM',
+            '**Art. 55** — sentença normalmente sem honorários sucumbenciais; SÓ devidos quando litigância de má-fé OU em sede de recurso (vencido)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Competência absoluta — opção do autor?' },
+          { type: 'p', text: 'A regra majoritária (FONAJE 1) e doutrinária é que a competência do JEC é **OPÇÃO do autor** quando a causa é por valor. Mas há divergência: parte da jurisprudência sustenta competência absoluta, mesmo concorrente. Em concurso: a banca tende a seguir o STJ — opção do autor para causas por valor (≤ 40 SM); para causas por matéria (rol do art. 3º), competência absoluta.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 203:** "Não cabe recurso especial contra decisão proferida por órgão de segundo grau dos Juizados Especiais." Tese clássica e cobrada em quase toda prova.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 640:** "O benefício da justiça gratuita pode ser requerido a qualquer tempo, considerando-se a situação econômica do interessado no momento da formulação do pedido." Aplica-se a todos os ritos, inclusive JEC.' },
+          { type: 'h', text: 'Pessoa jurídica como autora' },
+          { type: 'p', text: 'Apenas **microempresa, EPP, OSCIP, MEI e sociedade de crédito ao microempreendedor** (art. 8º § 1º + Lei 9.841/99 + LC 123/06). PJ comum (S.A., Ltda. de grande porte) **NÃO** pode ser autora — só ré. Espólio e incapaz NÃO podem ser parte (FONAJE 72).' },
+          { type: 'box', kind: 'atencao', text: '**Espólio NÃO pode ser parte no JEC** (FONAJE 72). Erro frequente: assumir que como o espólio sucede o falecido, poderia litigar onde ele litigaria.' },
+          { type: 'h', text: 'Prazos: dias contínuos × dias úteis' },
+          { type: 'p', text: 'Súmula CJF 99 + FONAJE 165: a contagem do CPC art. 219 (em dias úteis) **NÃO se aplica** ao JEC. Prazos no JEC são **CORRIDOS/CONTÍNUOS**. Erro grave de quem replica regra geral CPC.' },
+          { type: 'box', kind: 'atencao', text: '**Prazos no JEC são CONTÍNUOS, não em dias úteis.** Erro recorrente de candidato — banca adora cobrar.' },
+          { type: 'h', text: 'Recursos: o que cabe e o que não cabe' },
+          { type: 'table', headers: ['Recurso', 'Cabe?', 'Observação'],
+            rows: [
+              ['Recurso inominado (art. 41)', 'SIM', 'Contra sentença final; 10 dias contínuos'],
+              ['Embargos de declaração (arts. 48-50)', 'SIM', 'Prazo 5 dias; suspende (Súmula 640 indireta)'],
+              ['Recurso extraordinário', 'SIM', 'Contra acórdão da Turma Recursal, com repercussão geral'],
+              ['Recurso especial (REsp)', 'NÃO', 'Súmula 203/STJ'],
+              ['Agravo de instrumento', 'NÃO (regra)', 'Decisões interlocutórias só impugnáveis com a sentença'],
+              ['Apelação', 'NÃO', 'Não existe na 9.099 — equivalente é o inominado'],
+              ['Ação rescisória', 'NÃO', 'FONAJE 44'],
+              ['Mandado de segurança', 'EXCEPCIONAL', 'TNU Súmula 8 — só quando inviável outro recurso']
+            ] },
+          { type: 'h', text: 'Sentença ilíquida × líquida (art. 38 par. único)' },
+          { type: 'p', text: '**JEC NÃO admite sentença ilíquida.** Mesmo nas condenatórias, o juiz deve fixar o valor. Se não puder, o caso pode ser **inadmitido** (extinção art. 51 II). Diferença marcante para o procedimento comum, onde sentença ilíquida é regra.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.111 (recursos repetitivos):** A capacidade postulatória pelo próprio cidadão (art. 9º) NÃO se estende ao recurso inominado — há advogado obrigatório (FONAJE 36).' },
+          { type: 'h', text: 'Honorários sucumbenciais (art. 55)' },
+          { type: 'p', text: 'Em primeira instância no JEC: **NÃO há honorários sucumbenciais** (regra). Exceção: litigância de má-fé. **No recurso inominado**: o vencido paga honorários (art. 55 caput, in fine) + custas. Por isso muitos litigantes desistem do recurso.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Princípios do JEC — OSICE:** **O**ralidade · **S**implicidade · **I**nformalidade · **C**eleridade · **E**conomia (art. 2º).' },
+          { type: 'box', kind: 'macete', text: '**JEC: 40-20-10:** competência **40** SM; jus postulandi **20** SM; recurso inominado **10** dias.' },
+          { type: 'box', kind: 'macete', text: '**No JEC NÃO cabe RAR:** **R**escisória, **A**gravo de instrumento, **R**Esp.' },
+          { type: 'box', kind: 'macete', text: '**Sentença ilíquida JAMAIS** (art. 38 par. único). Memoriza: JEC só com sentença líquida.' },
+          { type: 'box', kind: 'macete', text: '**Prazos JEC = contínuos.** CPC art. 219 (dias úteis) NÃO se aplica. Súmula CJF 99 + FONAJE 165.' },
+          { type: 'box', kind: 'macete', text: '**Honorários só no recurso (vencido).** Em 1º grau, regra é não pagar.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**REsp NÃO CABE** (Súmula 203/STJ). Banca pode dizer "cabe REsp por divergência jurisprudencial entre Turmas" — falso, é Pedido de Uniformização, não REsp.' },
+          { type: 'box', kind: 'atencao', text: '**RE CABE** com repercussão geral (não confundir com REsp). Esse é o recurso de constitucionalidade no JEC.' },
+          { type: 'box', kind: 'atencao', text: '**Espólio e PJ comum NÃO podem ser autores** no JEC. Erro: dizer que PJ pode quando ré ≠ pode quando autora (só pode quando ré qualquer PJ).' },
+          { type: 'box', kind: 'atencao', text: '**No JEC NÃO há intervenção de terceiros** (art. 31). Litisconsórcio é admitido. Banca confunde os dois institutos.' },
+          { type: 'box', kind: 'atencao', text: '**Citação por edital é VEDADA** (art. 18 § 2º). Se réu não localizado, extinção do processo no JEC; reabertura no rito comum.' },
+          { type: 'box', kind: 'atencao', text: '**Conciliação é OBJETIVO permanente, não fase única.** Em qualquer estágio, juiz tenta. Diferente do CPC 334, onde é fase definida.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 8 (atos processuais):** prazos no JEC são CONTÍNUOS, não em dias úteis. CPC art. 219 não se aplica.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 24 (Juizados da Fazenda):** rito complementar à 9.099, mas com Fazenda Pública (Lei 12.153/09). Limite 60 SM (não 40).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 25 (JEF):** Lei 10.259/01 — Juizados Federais. Outro microssistema, com regras próprias.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** REsp e ação rescisória NÃO cabem do JEC. Súmula 203/STJ + FONAJE 44.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 26 (gratuidade):** Súmula 640/STJ aplica-se também ao JEC.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '24-juizados-fazenda-publica',
+    num: 24, materia: 'pc',
+    title: 'Juizados Especiais da Fazenda Pública (Lei 12.153/09)',
+    edital: '3.2.24',
+    editalText: 'Juizados Especiais da Fazenda Pública. Lei 12.153/09. Competência, procedimento, RPV.',
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **Lei 12.153/09** criou o **Juizado Especial da Fazenda Pública (JEFP)** para causas de menor complexidade contra **Estados, DF, Territórios e Municípios** (e suas autarquias, fundações, empresas públicas). O grande diferencial em relação ao JEC: aqui há **Fazenda no polo passivo**. Aplica-se subsidiariamente a Lei 9.099/95 (art. 27).' },
+          { type: 'p', text: 'Três marcas estruturais: (a) **competência absoluta** onde instalado o juizado (art. 2º § 4º — diferente do JEC, que parte da doutrina entende ser opção); (b) **valor até 60 SM** (não 40 como no JEC); (c) **cumprimento por RPV** quando obrigação de pagar até 60 SM, OU precatório acima desse limite.' },
+          { type: 'p', text: 'A Lei 12.153 ampliou a tutela do administrado em causas pequenas — antes, ele era obrigado a usar a vara da Fazenda comum (mais lenta). Atinge dispensa do reexame necessário, desnecessidade de manifestação prévia da Fazenda em decisões liminares (em parte), e flexibilização do precatório com a RPV.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Competência (arts. 2º e 5º)' },
+          { type: 'list', items: [
+            '**Art. 2º** — competência cível do JEFP: causas de até 60 SM em que figurem como rés Estados, DF, Territórios, Municípios + suas autarquias e fundações',
+            '**Art. 2º § 1º** — EXCLUÍDAS: ações de mandado de segurança, desapropriação, anulação ou cancelamento de ato administrativo (salvo de natureza previdenciária e de lançamento fiscal), execuções fiscais, demandas sobre direitos ou interesses difusos, coletivos e individuais homogêneos, ações sobre bens imóveis, causas de improbidade administrativa, ações que tenham por objeto a impugnação de lei',
+            '**Art. 2º § 4º** — competência do JEFP é **ABSOLUTA**, onde houver juizado instalado',
+            '**Art. 5º** — partes admitidas: como autoras, PF + ME e EPP; como rés, Estados, DF, Territórios, Municípios + autarquias e fundações + empresas públicas'
+          ] },
+          { type: 'h', text: 'Procedimento' },
+          { type: 'list', items: [
+            '**Art. 7º** — não há REEXAME NECESSÁRIO no JEFP, ainda que sentença contrária à Fazenda (regra excepcional ao CPC art. 496)',
+            '**Art. 8º** — citação por servidor judiciário ou correspondência (regra)',
+            '**Art. 9º** — entes públicos exibirão documentos requisitados em até 30 dias',
+            '**Art. 13** — sentença deve ser LÍQUIDA (subsidiariedade da Lei 9.099 art. 38 par. único)',
+            '**Art. 16** — decisões que tenham por objeto antecipação de tutela podem ser proferidas LIMINARMENTE, sem necessidade de prévia manifestação da Fazenda em todos os casos',
+            '**Art. 17 §§ 1º-2º** — turmas recursais compostas por juízes de 1º grau, com membros suplentes; pedido de uniformização regional/nacional'
+          ] },
+          { type: 'h', text: 'Cumprimento de sentença' },
+          { type: 'list', items: [
+            '**Art. 12** — pagamento de obrigação de pagar quantia certa: por **RPV** se até 60 SM; por **precatório** se acima',
+            '**Art. 13** — RPV: prazo de 60 dias após requisição',
+            '**Art. 13 § 4º** — descumprimento autoriza sequestro do valor, não bloqueio de outras verbas'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Competência absoluta (art. 2º § 4º)' },
+          { type: 'p', text: 'Diferente do JEC tradicional (onde há discussão se é opção do autor), no **JEFP a competência é ABSOLUTA** quando o juizado está instalado naquela comarca/foro. Significa: causas de até 60 SM contra ente público local **devem** ir para o JEFP.' },
+          { type: 'box', kind: 'atencao', text: '**Competência absoluta no JEFP** (art. 2º § 4º). Erro frequente: confundir com JEC, onde regra majoritária é opção do autor.' },
+          { type: 'h', text: 'Causas excluídas (art. 2º § 1º)' },
+          { type: 'p', text: 'O rol é **TAXATIVO**. Memorize as principais exclusões: MS, desapropriação, atos administrativos (com 2 exceções: previdenciário e lançamento fiscal), execuções fiscais, ações coletivas, imóveis, improbidade. Causas previdenciárias estaduais/municipais — CABEM. Causas tributárias estaduais/municipais sobre lançamento fiscal — CABEM.' },
+          { type: 'box', kind: 'atencao', text: '**MS NÃO cabe no JEFP** (art. 2º § 1º). Erro frequente: confundir com JEF (Lei 10.259), onde o art. 3º também exclui MS.' },
+          { type: 'h', text: 'Sem reexame necessário (art. 7º)' },
+          { type: 'p', text: 'Mesmo sentença contra a Fazenda **NÃO precisa de reexame necessário** no JEFP. O microssistema afastou a regra do CPC art. 496. Apenas o recurso inominado da Fazenda mantém o duplo grau, se for interposto.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 503 (RE 633.703):** prazos em dobro para Fazenda Pública (CPC art. 183) **APLICAM-SE** ao JEFP. Subsidiariedade do CPC.' },
+          { type: 'h', text: 'RPV × precatório no JEFP' },
+          { type: 'p', text: '**RPV (Requisição de Pequeno Valor):** até 60 SM, prazo de 60 dias para pagamento. **Precatório:** acima de 60 SM, sistema do art. 100 da CF (fila, ordem cronológica). O JEFP tem o limite máximo de 60 SM, então a regra prática é RPV.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**JEFP — Estados, DF, Municípios + autarquias e fundações + EP.** União NÃO entra (essa é Lei 10.259/01 — JEF).' },
+          { type: 'box', kind: 'macete', text: '**JEFP: 60 SM + competência ABSOLUTA + sem reexame.** Três marcas que diferenciam do JEC.' },
+          { type: 'box', kind: 'macete', text: '**Excluídos do JEFP — MS-DAi-EF-CO-IM:** **MS** · **D**esapropriação e **A**tos administrativos (não previdenciário/fiscal) · **E**xecução **F**iscal · **C**ole**O**tivas e individuais homogêneas · **IM**óveis e **IM**probidade.' },
+          { type: 'box', kind: 'macete', text: '**RPV no JEFP — 60-60:** até **60** SM, prazo **60** dias.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**JEFP NÃO julga União ou autarquias federais** (essas vão para o JEF — Lei 10.259/01). O art. 5º II é taxativo: Estados, DF, Territórios, Municípios + autarquias/fundações desses entes + empresas públicas.' },
+          { type: 'box', kind: 'atencao', text: '**Reexame necessário NÃO se aplica** (art. 7º). Banca pode dizer "sentença contra a Fazenda no JEFP exige reexame" — falso.' },
+          { type: 'box', kind: 'atencao', text: '**Causas tributárias podem caber** se forem sobre lançamento fiscal (não execução fiscal). Banca tenta induzir exclusão geral — confira o § 1º.' },
+          { type: 'box', kind: 'atencao', text: '**Prazos em dobro da Fazenda APLICAM-SE** ao JEFP** (STF Tema 503). Subsidiariedade do CPC.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 23 (JEC):** subsidiariedade da Lei 9.099/95 (art. 27 da Lei 12.153). Princípios OSICE valem; sentença líquida; embargos de declaração com 5 dias.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 25 (JEF):** outro microssistema federal — para União, autarquias e fundações federais (Lei 10.259/01).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento contra Fazenda):** RPV vs precatório (CF art. 100 + ADCT art. 87). RPV no JEFP até 60 SM; em juízo comum, segue limites estaduais (Estado fixa, mín. 30 SM se nada dispuser).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atuação como fiscal do ordenamento em causas com interesse público. No JEFP, a atuação do MP segue regra geral.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '25-juizados-federais',
+    num: 25, materia: 'pc',
+    title: 'Juizados Especiais Federais (Lei 10.259/01)',
+    edital: '3.2.25',
+    editalText: 'Juizados Especiais Federais. Lei 10.259/01. Competência, procedimento, recursos para a Turma Nacional.',
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **Lei 10.259/01** instituiu os **Juizados Especiais Federais (JEF)** para causas cíveis (e criminais) de menor complexidade na Justiça Federal. Diferencia-se do JEC (Lei 9.099/95) e do JEFP (Lei 12.153/09) pelo polo passivo: aqui a ré é a **União, suas autarquias, fundações e empresas públicas FEDERAIS** (art. 6º II).' },
+          { type: 'p', text: 'Limite de **60 SM** (cíveis), competência **ABSOLUTA** onde instalado (art. 3º § 3º). Causas previdenciárias federais (INSS) representam o grosso do trabalho dos JEFs. Procedimento e recursos seguem essencialmente a Lei 9.099/95 (subsidiária — art. 1º). O grande diferencial: **Pedido de Uniformização** (regional e nacional) para harmonizar jurisprudência, com a **TNU (Turma Nacional de Uniformização)**.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Competência (art. 3º)' },
+          { type: 'list', items: [
+            '**Caput** — JEF cível julga causas até **60 salários-mínimos** de competência da Justiça Federal',
+            '**§ 1º** — EXCLUÍDAS: causas relativas a direitos coletivos e difusos, ações da União, autarquias federais e fundações federais (em determinadas hipóteses), MS, desapropriação, divisão e demarcação, ações populares, execuções fiscais, ações sobre bens imóveis, anulação ou cancelamento de ato administrativo (salvo previdenciário e lançamento fiscal)',
+            '**§ 2º** — competência cível segue valor da causa',
+            '**§ 3º** — competência **ABSOLUTA** onde instalado o JEF'
+          ] },
+          { type: 'h', text: 'Procedimento e tutelas' },
+          { type: 'list', items: [
+            '**Art. 4º** — juiz pode, de ofício ou a requerimento, deferir medidas cautelares no curso do processo, para evitar dano irreparável à parte',
+            '**Art. 5º** — não há reexame necessário (recepciona Lei 9.099)',
+            '**Art. 9º** — não há prazos em dobro nem prazos diferenciados para a Fazenda Pública no JEF (regra excepcional!)',
+            '**Art. 11** — entes públicos cumprirão decisões liminares e antecipatórias em 5 dias',
+            '**Art. 12** — pagamento RPV até 60 SM (art. 17), em 60 dias'
+          ] },
+          { type: 'h', text: 'Recursos' },
+          { type: 'list', items: [
+            '**Art. 14** — Pedido de Uniformização: cabível quando houver divergência entre Turmas Recursais sobre questão de DIREITO MATERIAL, julgado pelas turmas regionais (mesma região) ou pela TNU (Turmas Recursais de regiões diferentes ou contrariedade a súmula/jurisprudência STJ)',
+            '**Art. 15** — TNU é integrada por 10 juízes federais (2 por região), presidida pelo CJF; pode estender efeito a outros casos (precedente)',
+            '**Art. 14 § 4º** — incidente cabível no STJ se a decisão da TNU contrariar súmula ou jurisprudência dominante do STJ',
+            '**RE no STF** — cabe (com repercussão geral) das decisões da Turma Recursal',
+            '**REsp no STJ** — NÃO CABE (Súmula 203/STJ)'
+          ] },
+          { type: 'h', text: 'JEF Criminal (arts. 20-26)' },
+          { type: 'list', items: [
+            'Competência para infrações penais de menor potencial ofensivo (até 2 anos de pena máxima)',
+            'Subsidiariedade da Lei 9.099/95 também na parte penal (transação penal, suspensão condicional, ANPP)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'NÃO há prazos diferenciados para a Fazenda no JEF (art. 9º)' },
+          { type: 'p', text: 'Esta é a peculiaridade marcante: **enquanto no JEFP estadual há prazo em dobro** (Tema 503/STF aplicando subsidiariamente o CPC), na **Lei 10.259 o art. 9º veda expressamente** prazos diferenciados. União/autarquias federais litigam no JEF como qualquer outra parte.' },
+          { type: 'box', kind: 'atencao', text: '**JEF não tem prazo em dobro para Fazenda** (art. 9º). Diferente do JEFP estadual, onde há (Tema 503/STF). Banca confunde os dois!' },
+          { type: 'h', text: 'Cumprimento de obrigação de pagar — 60 dias' },
+          { type: 'p', text: 'Pagamento por **RPV em 60 dias** após requisição (art. 17). Limite de 60 SM. Acima disso, segue precatório do art. 100 da CF. Descumprimento → sequestro do valor.' },
+          { type: 'h', text: 'Pedido de Uniformização (PU)' },
+          { type: 'table', headers: ['Hipótese', 'Competência', 'Base'],
+            rows: [
+              ['Divergência entre Turmas da MESMA região', 'Turma Regional de Uniformização (TRU)', 'Art. 14 § 1º'],
+              ['Divergência entre Turmas de regiões DIFERENTES', 'Turma Nacional de Uniformização (TNU)', 'Art. 14 § 2º'],
+              ['Decisão TNU contrariando súmula/jurisprudência STJ', 'STJ', 'Art. 14 § 4º']
+            ] },
+          { type: 'box', kind: 'atencao', text: '**PU é só sobre DIREITO MATERIAL.** Divergência sobre direito processual NÃO cabe pedido de uniformização. Erro recorrente.' },
+          { type: 'h', text: 'Causas excluídas (art. 3º § 1º)' },
+          { type: 'p', text: 'Memorize: MS, desapropriação, atos administrativos (com exceção de previdenciário e lançamento fiscal), execuções fiscais, coletivas/difusas, imóveis, ação popular. **MUITAS causas previdenciárias** vão para o JEF (revisões de benefício, restabelecimento, concessão).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**JEF = União + autarquias federais + fundações federais + EP federais.** Estados/Municípios = JEFP.' },
+          { type: 'box', kind: 'macete', text: '**JEF: 60 SM + competência ABSOLUTA + SEM prazo em dobro.** Diferente do JEFP que TEM prazo em dobro.' },
+          { type: 'box', kind: 'macete', text: '**TNU/TRU julgam DIREITO MATERIAL.** Processual não cabe PU.' },
+          { type: 'box', kind: 'macete', text: '**Hierarquia: TR → TRU → TNU → STJ.** Matéria sobe quando há divergência ou contrariedade a súmula superior.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**JEF NÃO TEM prazo em dobro para Fazenda** (art. 9º). Diferente do JEFP estadual.' },
+          { type: 'box', kind: 'atencao', text: '**Causas previdenciárias federais (INSS) tipicamente VÃO para o JEF**, especialmente concessão/revisão de benefício até 60 SM. É o "core" prático do JEF.' },
+          { type: 'box', kind: 'atencao', text: '**REsp NÃO cabe**, mas há mecanismo alternativo: art. 14 § 4º — incidente no STJ contra decisão da TNU contrária à súmula/jurisprudência STJ.' },
+          { type: 'box', kind: 'atencao', text: '**MS contra ato federal NÃO cabe no JEF** (art. 3º § 1º) — vai para vara federal comum (Lei 12.016/09).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 23 (JEC):** Lei 9.099/95 aplicável subsidiariamente. Princípios e procedimento gerais.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 24 (JEFP):** outro microssistema da Fazenda — estadual, com diferenças em prazos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento contra Fazenda):** RPV/precatório federal segue mesma lógica geral, com prazos próprios da 10.259.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 28 (precedentes):** TNU edita súmulas vinculantes de fato — força jurisprudencial relevante para concursos.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '26-justica-gratuita',
+    num: 26, materia: 'pc',
+    title: 'Assistência judiciária e justiça gratuita',
+    edital: '3.2.26',
+    editalText: 'Assistência judiciária integral. Justiça gratuita (Lei 1.060/50 e CPC arts. 98-102). Defensoria Pública. Honorários sucumbenciais e gratuidade.',
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O **acesso à justiça** (CF art. 5º LXXIV) tem três expressões complementares: (a) **assistência jurídica integral e gratuita** — prestação de serviço jurídico, função da Defensoria Pública (DPE/DPU/CF art. 134); (b) **assistência judiciária** — patrocínio em juízo (Defensoria, núcleo de prática, advogado dativo); (c) **gratuidade da justiça** — dispensa de pagamento de custas, despesas e honorários (CPC arts. 98-102 + Lei 1.060/50).' },
+          { type: 'p', text: 'O CPC/15 reformulou a matéria — derrogou a maior parte da Lei 1.060/50 (que regia a gratuidade desde 1950), trazendo regulamentação detalhada nos arts. 98-102. Pontos centrais: pedido pode ser formulado a qualquer tempo (Súmula 640/STJ); PF tem **presunção** de hipossuficiência (iuris tantum); PJ deve PROVAR (Súmula 481/STJ); honorários e custas, quando vencido o beneficiário, são **exigíveis sob condição** (art. 98 § 3º) — só pagam se nos 5 anos houver melhora econômica.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CPC arts. 98 a 102' },
+          { type: 'list', items: [
+            '**Art. 98** — pessoa NATURAL ou JURÍDICA, brasileira ou estrangeira, com insuficiência de recursos, tem direito à gratuidade',
+            '**Art. 98 § 1º** — abrangência: taxas, custas, selos postais, indenização à testemunha, depósitos prévios, honorários do advogado e do perito, etc.',
+            '**Art. 98 § 2º** — concessão NÃO afasta a responsabilidade do beneficiário pelos honorários e custas decorrentes de sua sucumbência',
+            '**Art. 98 § 3º** — verbas decorrentes da sucumbência ficam **sob condição suspensiva de exigibilidade** e somente são exigidas se, em até 5 anos, vier a ter capacidade financeira; passados 5 anos, **prescrita** a obrigação',
+            '**Art. 99** — pedido a qualquer tempo (PI, contestação, recurso); presume-se VERDADEIRA a alegação de PF (§ 3º)',
+            '**Art. 99 § 2º** — juiz somente indefere se houver elementos nos autos que evidenciem falta de pressupostos; antes, intima para comprovar (§ 2º final)',
+            '**Art. 99 § 4º** — o juiz não pode INDEFERIR DE OFÍCIO para aplicar a regra do § 2º — antes, intima',
+            '**Art. 100** — impugnação à gratuidade pela parte contrária: nos próprios autos, sem suspender o processo',
+            '**Art. 102** — sobrevindo melhora econômica, o beneficiário pode ser obrigado a pagar custas/despesas; havendo má-fé na declaração, multa de até 10x sobre as custas dispensadas'
+          ] },
+          { type: 'h', text: 'Súmulas relevantes' },
+          { type: 'list', items: [
+            '**Súmula 481/STJ** — Faz jus ao benefício a PJ (com ou sem fins lucrativos) que comprovar impossibilidade de arcar com encargos processuais',
+            '**Súmula 640/STJ** — Gratuidade pode ser requerida a QUALQUER TEMPO, considerando-se a situação no momento do pedido',
+            '**Súmula 178/STJ** — Beneficiário não está dispensado de pagar custas e honorários, em caso de derrota; suspensos sob condição (depois CPC § 3º)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'PF presume — PJ prova' },
+          { type: 'p', text: '**Pessoa Física:** declaração de hipossuficiência (mesmo no próprio corpo da PI) **PRESUME** verdade (art. 99 § 3º). Juiz só indefere se houver elementos contrários nos autos — e ainda assim deve INTIMAR a parte para comprovar antes (§ 2º).' },
+          { type: 'p', text: '**Pessoa Jurídica:** SEM presunção. Deve **PROVAR** a hipossuficiência financeira (Súmula 481/STJ). Pode ter fins lucrativos, sim — sociedade empresária em situação econômica adversa pode receber gratuidade.' },
+          { type: 'box', kind: 'macete', text: '**PF presume; PJ prova** (Súmula 481/STJ). É a frase-chave do tema.' },
+          { type: 'h', text: 'Honorários sucumbenciais e gratuidade (art. 98 § 3º)' },
+          { type: 'p', text: '**Beneficiário derrotado é condenado em honorários, sim** — apenas a EXIGIBILIDADE fica suspensa por 5 anos. Se nesse prazo houver melhora, paga; senão, prescreve. Erro frequente: imaginar que gratuidade dispensa condenação por sucumbência.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 178 + CPC art. 98 § 3º:** beneficiário derrotado é condenado, exigibilidade suspensa por 5 anos. Não há dispensa pura e simples.' },
+          { type: 'h', text: 'Pedido a qualquer tempo (Súmula 640/STJ)' },
+          { type: 'p', text: 'Pode ser feito na PI, contestação, recurso, cumprimento de sentença, em qualquer fase. O que importa é a situação econômica **no momento da formulação do pedido**. Não há preclusão.' },
+          { type: 'h', text: 'Indeferimento de ofício e contraditório prévio (art. 99 § 2º)' },
+          { type: 'p', text: 'O juiz **NÃO pode indeferir** sem antes INTIMAR a parte para apresentar comprovação. Esse é dever de cooperação processual + contraditório. Indeferimento direto, sem oportunidade de comprovação, gera nulidade.' },
+          { type: 'box', kind: 'atencao', text: '**Antes de indeferir gratuidade — INTIMAR para comprovar** (art. 99 § 2º). Banca pode armar: "juiz indefere de ofício quando inverossímil" — falso, exige contraditório prévio.' },
+          { type: 'h', text: 'Impugnação (art. 100)' },
+          { type: 'p', text: 'A parte contrária impugna **nos próprios autos**, sem suspensão do processo. Cabe agravo de instrumento da decisão (CPC art. 1.015 V — entendimento majoritário, ou recorrer ao final, controvertido).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Acesso à justiça — 3 expressões: jurídica integral · judiciária · gratuidade da justiça.** As 3 são distintas, podem coincidir mas não se confundem.' },
+          { type: 'box', kind: 'macete', text: '**98 § 3º: SUSPENDE 5 anos, depois PRESCREVE.** Não dispensa.' },
+          { type: 'box', kind: 'macete', text: '**A qualquer tempo · contraditório prévio · PF presume · PJ prova.** Quatro pilares.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**PJ pode ser beneficiária**, sim — mas DEVE PROVAR (Súmula 481/STJ). Erro frequente: dizer que apenas PF tem direito.' },
+          { type: 'box', kind: 'atencao', text: '**Estrangeiro também tem direito** (art. 98 caput). Não há restrição à nacionalidade.' },
+          { type: 'box', kind: 'atencao', text: '**Indeferimento de ofício SEM intimação prévia = nulidade** (art. 99 § 2º). Banca pode tentar dizer "juiz pode indeferir de plano se ostensivamente abastada" — falso, sempre intima primeiro.' },
+          { type: 'box', kind: 'atencao', text: '**Beneficiário derrotado É CONDENADO** em honorários — só fica suspenso (art. 98 § 3º). Não há dispensa.' },
+          { type: 'box', kind: 'atencao', text: '**A maior parte da Lei 1.060/50 foi REVOGADA pelo CPC/15** (art. 1.072 III). Apenas alguns dispositivos sobrevivem (sobre Defensoria). Não estudar a Lei 1.060 sem ler o CPC arts. 98-102.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 17 (gratuidade no JEC/JEFP/JEF):** mesma sistemática, aplicável subsidiariamente.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 30 (honorários):** beneficiário da gratuidade derrotado paga honorários sob condição (art. 98 § 3º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atuação obrigatória em causas com incapazes (art. 178 II) — frequentemente coincide com gratuidade.' },
+          { type: 'box', kind: 'conexao', text: '**Defensoria Pública (CF art. 134):** órgão constitucional independente; presta assistência jurídica integral e gratuita.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '27-cooperacao-internacional',
+    num: 27, materia: 'pc',
+    title: 'Cooperação jurídica internacional',
+    edital: '3.2.27',
+    editalText: 'Cooperação jurídica internacional. Auxílio direto. Carta rogatória. Homologação de sentença estrangeira (CPC arts. 26-41 e 960-965).',
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CPC/15 disciplinou pela primeira vez de modo sistemático a **cooperação jurídica internacional** (arts. 26-41) e a **homologação de sentença estrangeira** (arts. 960-965). Antes, a matéria era dispersa em tratados, regimentos do STJ e Lei 9.307/96 (arbitragem). Hoje há marco unificado.' },
+          { type: 'p', text: 'Três institutos centrais a distinguir: (1) **Auxílio direto** (CPC art. 28) — autoridade brasileira EXECUTA o ato pedido por estado estrangeiro sem juízo de delibação. (2) **Carta rogatória** (CPC art. 36) — pedido de ato com necessidade de juízo de delibação no STJ (concede-se exequatur). (3) **Homologação de sentença estrangeira** (CPC arts. 960-965) — STJ reconhece eficácia da decisão estrangeira para que produza efeitos no Brasil.' },
+          { type: 'p', text: 'A **autoridade central** brasileira é o Ministério da Justiça (Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional — DRCI). Princípios: respeito às garantias do devido processo (CPC art. 26 § 2º), publicidade dos procedimentos, espontaneidade e reciprocidade.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Disposições gerais (arts. 26-27)' },
+          { type: 'list', items: [
+            '**Art. 26** — cooperação reger-se-á por tratado de que o Brasil seja parte; na sua ausência, pelo princípio da reciprocidade',
+            '**Art. 26 § 1º** — princípios da cooperação: respeito às garantias do devido processo legal; igualdade de tratamento; publicidade processual (salvo sigilo legal); existência de autoridade central; espontaneidade na transmissão',
+            '**Art. 26 § 4º** — vedada a discriminação ao requerimento estrangeiro',
+            '**Art. 27** — objeto: citação, intimação, colheita de provas, informações, atos concertados, qualquer outro ato não vedado em lei brasileira'
+          ] },
+          { type: 'h', text: 'Auxílio direto (arts. 28-34)' },
+          { type: 'list', items: [
+            '**Art. 28** — auxílio direto = quando a medida solicitada não decorrer diretamente de decisão estrangeira; pode ser executada diretamente pelas autoridades brasileiras',
+            '**Art. 30** — atos de auxílio direto: obtenção e prestação de informações, colheita de provas (salvo as que precisem de cooperação direta entre autoridades centrais)',
+            '**Art. 33** — para auxílio direto que reclame medida judicial, competência da JUSTIÇA FEDERAL'
+          ] },
+          { type: 'h', text: 'Carta rogatória e exequatur (arts. 36-37)' },
+          { type: 'list', items: [
+            '**Art. 36** — carta rogatória passiva: respeitará as garantias do devido processo legal; será denegada se manifestamente ofensiva à ordem pública',
+            '**Art. 37** — pedido pode ser feito pela parte ou pela autoridade estrangeira; exequatur cabível ao STJ (CF art. 105 I i)'
+          ] },
+          { type: 'h', text: 'Sentença estrangeira (arts. 960-965)' },
+          { type: 'list', items: [
+            '**Art. 960** — homologação obrigatória para produção de efeitos da sentença estrangeira no Brasil',
+            '**Art. 961** — decisão estrangeira pode ser executada após homologação pelo STJ ou concessão de exequatur a carta rogatória, salvo em casos legais expressos (ex: divórcio consensual puro — § 5º)',
+            '**Art. 961 § 5º** — sentença estrangeira de DIVÓRCIO CONSENSUAL produz efeitos no Brasil INDEPENDENTEMENTE de homologação pelo STJ. Apenas registro civil',
+            '**Art. 963** — requisitos para homologação: sentença proferida por autoridade competente; cientificação ou revelia legalmente verificada; eficaz no país de origem; não ofender coisa julgada brasileira; estar em português autenticado/traduzido; atender requisitos legais',
+            '**Art. 964** — não há revisão de mérito (juízo de DELIBAÇÃO)',
+            '**Art. 965** — execução da sentença homologada na JUSTIÇA FEDERAL (CF art. 109 X)'
+          ] },
+          { type: 'h', text: 'Sentença arbitral estrangeira' },
+          { type: 'list', items: [
+            '**Lei 9.307 art. 35** — homologação no STJ (CF art. 105 I i)',
+            '**Lei 9.307 art. 39** — recusa só nos casos da Convenção de Nova York/1958 (incapacidade, convenção inválida, ofensa à ordem pública, falta de notificação, decisão fora dos limites, falta de obrigatoriedade na origem)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Auxílio direto × carta rogatória — qual a diferença?' },
+          { type: 'p', text: 'Critério legal (CPC art. 28): se a medida pedida decorre diretamente de decisão estrangeira, é **carta rogatória** (com exequatur do STJ). Se for ato administrativo/processual independente — coleta de prova, informação, citação — pode ser **auxílio direto** (sem juízo de delibação, executado diretamente).' },
+          { type: 'box', kind: 'macete', text: '**Decorre de DECISÃO estrangeira → ROGATÓRIA + STJ. Não decorre → AUXÍLIO DIRETO.**' },
+          { type: 'h', text: 'Divórcio consensual estrangeiro — efeito direto (art. 961 § 5º)' },
+          { type: 'p', text: 'Inovação importante do CPC/15: divórcio CONSENSUAL puro (sem partilha de bens controvertida ou guarda) produz efeitos **IMEDIATAMENTE** no Brasil, com simples averbação no registro civil. **NÃO precisa de homologação no STJ.**' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.787.345 e Tema 1.047:** divórcio consensual puro estrangeiro dispensa homologação. Se houver partilha de bens em discussão, exige homologação.' },
+          { type: 'h', text: 'STJ — competência única para homologação' },
+          { type: 'p', text: 'A EC 45/2004 transferiu a competência homologatória do STF para o STJ (CF art. 105 I i). O procedimento segue o **Regimento Interno do STJ** (RISTJ arts. 216-A a 216-N) + CPC.' },
+          { type: 'h', text: 'Juízo de delibação (art. 964)' },
+          { type: 'p', text: 'O STJ **NÃO revisa o mérito** da sentença estrangeira. Apenas verifica os requisitos formais e a não ofensa à ordem pública/soberania nacional/dignidade humana. É controle de admissibilidade, não de revisão substancial.' },
+          { type: 'box', kind: 'atencao', text: '**STJ NÃO revisa mérito** da sentença estrangeira (art. 964). Erro: dizer que é "duplo grau" ou que cabe rediscussão da causa.' },
+          { type: 'h', text: 'Execução de sentença homologada — JF' },
+          { type: 'p', text: 'Após homologação no STJ, a execução é na **Justiça Federal** (CF art. 109 X + CPC art. 965). Não vai para a Justiça Comum estadual, mesmo se a matéria for tipicamente estadual.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**3 institutos: Auxílio Direto · Carta Rogatória · Homologação.** Aux: direto, sem delibação. Rogatória: ato com delibação (STJ). Homologação: efeito de sentença (STJ).' },
+          { type: 'box', kind: 'macete', text: '**Divórcio consensual puro = efeito DIRETO** (art. 961 §5º). Sem partilha controvertida → dispensa STJ.' },
+          { type: 'box', kind: 'macete', text: '**Sempre que entrar STJ, vira JF na execução** (art. 965 + CF 109 X).' },
+          { type: 'box', kind: 'macete', text: '**4 cartas: precatória (juízos), de ordem (tribunal pra inferior), rogatória (internacional), arbitral (árbitro).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**STF NÃO homologa mais sentença estrangeira** (mudou em 2004 com a EC 45). É STJ. Banca pode tentar a antiga sistemática.' },
+          { type: 'box', kind: 'atencao', text: '**Não há revisão de mérito no juízo de delibação** (art. 964). STJ verifica requisitos, não rediscute causa.' },
+          { type: 'box', kind: 'atencao', text: '**Auxílio direto NÃO precisa de delibação do STJ** (art. 33 — competência da JF). Erro: confundir com carta rogatória.' },
+          { type: 'box', kind: 'atencao', text: '**Sentença arbitral estrangeira → STJ** (Lei 9.307 art. 35). Diferente da interna, que é TEJ direto.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 22 (arbitragem):** sentença arbitral ESTRANGEIRA — homologação no STJ + Convenção de Nova York.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** competência absoluta da Justiça Federal para execução da sentença estrangeira homologada (CF 109 X).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** decisão do STJ em homologação é irrecorrível para tribunal superior, salvo embargos no próprio STJ.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '28-precedentes-stare-decisis',
+    num: 28, materia: 'pc',
+    title: 'Sistema de precedentes — IRDR, IAC, repetitivos',
+    edital: '3.2.28',
+    editalText: 'Microssistema de precedentes vinculantes. CPC arts. 926-928, 976-987 (IRDR), 947 (IAC), 1.036-1.041 (repetitivos).',
+    size: 'Grande',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CPC/15 instituiu o **microssistema de precedentes vinculantes** (arts. 926-928 + 927 + 947 + 976-987 + 1.036-1.041), influenciado pelo *stare decisis* anglo-saxão. A finalidade é **uniformidade, integridade, estabilidade e coerência** da jurisprudência (art. 926 caput) — antídoto à "loteria judiciária".' },
+          { type: 'p', text: 'O **art. 927** lista os **6 precedentes obrigatórios**: (I) decisões em controle concentrado de constitucionalidade do STF; (II) súmulas vinculantes; (III) acórdãos em IRDR ou IAC; (IV) acórdãos em recursos repetitivos do STJ ou repercussão geral do STF; (V) súmulas do STF (matéria constitucional) e do STJ (matéria infraconstitucional); (VI) orientação do plenário/órgão especial a que estiverem vinculados (regimentos).' },
+          { type: 'p', text: 'A construção do precedente exige **fundamentação adequada** (art. 489 § 1º V e VI): juiz não pode invocar precedente sem demonstrar adequação do caso concreto à *ratio decidendi*; nem deixar de aplicar precedente sem demonstrar **distinguishing** (distinção) ou **overruling** (superação). Esses dois conceitos são pedra de toque das provas modernas.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Princípios gerais (arts. 926-927)' },
+          { type: 'list', items: [
+            '**Art. 926** — tribunais devem uniformizar sua jurisprudência e mantê-la **estável, íntegra e coerente**',
+            '**Art. 926 § 1º** — tribunais editarão enunciados de súmula da jurisprudência',
+            '**Art. 926 § 2º** — ao editar súmula, atenção às circunstâncias fáticas dos precedentes',
+            '**Art. 927** — juízes e tribunais OBSERVARÃO (vinculação): I (decisões STF controle concentrado); II (SV); III (acórdãos IRDR/IAC); IV (acórdãos repetitivos STJ + RG STF); V (súmulas STF/STJ); VI (orientação do plenário/órgão especial)',
+            '**Art. 927 § 1º** — observância do contraditório + dever de fundamentação adequada (art. 489 § 1º)',
+            '**Art. 927 § 4º** — modificação de enunciado: precedida de audiências públicas e participação de pessoas/instituições',
+            '**Art. 928** — julgamento de casos repetitivos = IRDR + recursos repetitivos'
+          ] },
+          { type: 'h', text: 'IRDR — Incidente de Resolução de Demandas Repetitivas (arts. 976-987)' },
+          { type: 'list', items: [
+            '**Art. 976** — pressupostos: (I) efetiva REPETIÇÃO de processos sobre **mesma questão exclusivamente de DIREITO**; (II) risco de OFENSA à ISONOMIA e à SEGURANÇA jurídica',
+            '**Art. 976 § 1º** — basta UMA causa pendente no tribunal para instauração',
+            '**Art. 977** — legitimados: relator/órgão julgador (de ofício); partes; MP; Defensoria Pública',
+            '**Art. 978** — IRDR julgado pelo órgão indicado no regimento (geralmente plenário/órgão especial)',
+            '**Art. 982 II** — suspensão dos processos pendentes na área de jurisdição do tribunal',
+            '**Art. 985** — tese aplicada a TODOS os processos da área de jurisdição (presentes e FUTUROS — efeito ultra partes)',
+            '**Art. 985 § 1º** — não observada a tese: cabe RECLAMAÇÃO',
+            '**Art. 987** — cabe RE/REsp do julgamento do IRDR (efeito suspensivo nacional automático)'
+          ] },
+          { type: 'h', text: 'IAC — Incidente de Assunção de Competência (art. 947)' },
+          { type: 'list', items: [
+            '**Caput** — admissível em julgamento de relevante questão de direito, com grande repercussão social, sem repetição em múltiplos processos',
+            '**§ 1º** — proposta pelo relator, partes ou MP; órgão indicado no regimento decide',
+            '**§ 3º** — acórdão do IAC vinculará todos os juízes e órgãos fracionários (efeito vinculante interno do tribunal)',
+            'Diferença IRDR × IAC: IRDR exige repetição; IAC pode ser usado com 1 caso de grande relevância (uniformização preventiva)'
+          ] },
+          { type: 'h', text: 'Recursos repetitivos (arts. 1.036-1.041)' },
+          { type: 'list', items: [
+            '**Art. 1.036** — quando houver multiplicidade de RE/REsp com mesma questão de direito, presidência seleciona DOIS ou mais "casos-piloto"',
+            '**Art. 1.037** — outros processos da mesma matéria ficam SUSPENSOS no país',
+            '**Art. 1.039 par. único** — recursos em que se aplicará a tese do paradigma e os pendentes serão decididos conforme tese fixada',
+            '**Art. 1.040** — implementação da tese: tribunal de origem aplica + processos suspensos retomam'
+          ] },
+          { type: 'h', text: 'Reclamação (arts. 988-993)' },
+          { type: 'list', items: [
+            '**Art. 988** — cabível para: (I) preservar competência do tribunal; (II) garantir autoridade de suas decisões; (III) garantir observância de decisão STF em controle concentrado; (IV) garantir observância de SV, acórdão repetitivo, IRDR, IAC, RG',
+            '**Art. 988 § 5º II** — reclamação contra acórdão recorrido EXIGE prévio esgotamento das instâncias ordinárias quando se tratar de inobservância de decisão em RG/repetitivo',
+            '**Não cabe reclamação para fazer cumprir SÚMULA não vinculante** — apenas vinculante (Súmula 734/STF)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Distinguishing × Overruling' },
+          { type: 'p', text: '**Distinguishing** = afastamento do precedente porque o caso concreto tem peculiaridades fáticas que justificam tratamento distinto. NÃO desconstrói o precedente; apenas diferencia. Pode ser feito por qualquer juiz, com fundamentação adequada (art. 489 § 1º VI).' },
+          { type: 'p', text: '**Overruling** = SUPERAÇÃO do precedente. Só pode ser feito pelo MESMO órgão que editou (ou superior). Exige procedimento específico — quórum, audiência pública etc. (art. 927 § 4º). Razões geralmente: mudança fática, social, jurídica.' },
+          { type: 'box', kind: 'macete', text: '**Distinguishing = DIFERENCIAR; Overruling = SUPERAR.** Distinguishing qualquer juiz; Overruling apenas o tribunal autor do precedente.' },
+          { type: 'h', text: 'Vinculação obrigatória do art. 927' },
+          { type: 'p', text: 'Apesar da redação "OBSERVARÃO" (art. 927), há discussão doutrinária sobre se gera vinculação real ou apenas dever de fundamentação. **Posição predominante (Didier, Marinoni):** sim, há eficácia vinculante, especialmente porque há **reclamação** (art. 988 IV) para garantir observância. Bancas tendem a adotar essa visão.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 510 (REsp 1.696.396):** observância de precedente do STJ em REsp repetitivo é OBRIGATÓRIA aos juízos inferiores; descumprimento autoriza reclamação após esgotamento das ordinárias.' },
+          { type: 'h', text: 'IRDR — pressupostos e efeitos' },
+          { type: 'p', text: '**Efetiva repetição** + **risco à isonomia/segurança jurídica** (art. 976). A tese vincula processos pendentes E FUTUROS na área do tribunal (art. 985 II) — efeito **ultra partes**. Apenas tribunal de 2º grau julga IRDR (relator no tribunal pode propor, ou propor por iniciativa).' },
+          { type: 'box', kind: 'atencao', text: '**IRDR exige questão exclusivamente de DIREITO** (art. 976 I). Matéria de fato/probatória NÃO. Banca pode armar.' },
+          { type: 'h', text: 'IRDR × IAC — diferenças' },
+          { type: 'table', headers: ['Critério', 'IRDR (976)', 'IAC (947)'],
+            rows: [
+              ['Repetição de processos', 'Necessária', 'Não'],
+              ['Foco', 'Resolver demandas em massa', 'Uniformização preventiva'],
+              ['Suspensão de processos', 'Sim, na área do tribunal', 'Não obrigatória'],
+              ['Vinculação', 'Casos pendentes + futuros (985 II)', 'Vinculante para juízes e órgãos do tribunal (947 §3º)']
+            ] },
+          { type: 'h', text: 'Reclamação para cumprir precedente — esgotamento (art. 988 § 5º II)' },
+          { type: 'p', text: 'Para acionar reclamação contra acórdão de tribunal local que descumpriu precedente repetitivo/RG, exige-se **esgotamento das instâncias ordinárias** (recurso especial/extraordinário deve ter sido tentado). Apenas para SV há reclamação direta.' },
+          { type: 'h', text: 'Modulação de efeitos (art. 927 § 3º)' },
+          { type: 'p', text: 'Quando houver alteração de jurisprudência consolidada, pode haver MODULAÇÃO dos efeitos (limitar retroatividade) por razão de interesse social e segurança jurídica. Tema clássico do STF (controle de constitucionalidade) trazido para a esfera dos precedentes.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Art. 927 — 6 precedentes obrigatórios:** I (controle concentrado STF) · II (SV) · III (IRDR/IAC) · IV (repetitivos STJ + RG STF) · V (súmulas STF/STJ) · VI (regimento — plenário/órgão especial).' },
+          { type: 'box', kind: 'macete', text: '**SEIQ: Segurança · Estabilidade · Integridade · Q (= coerência)** — 4 valores do art. 926.' },
+          { type: 'box', kind: 'macete', text: '**IRDR: Repetição + Direito + Risco isonomia.** Sem repetição, vai pra IAC.' },
+          { type: 'box', kind: 'macete', text: '**Reclamação (988 IV) — só pra inobservância de PRECEDENTE OBRIGATÓRIO.** Não cabe contra súmula simples (734/STF).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Súmula simples NÃO autoriza reclamação** (Súmula 734/STF). Só súmula VINCULANTE.' },
+          { type: 'box', kind: 'atencao', text: '**Reclamação contra descumprimento de RG/repetitivo: esgotamento ordinário** (art. 988 § 5º II). Pegadinha: dizer "cabe direto, sem esgotamento".' },
+          { type: 'box', kind: 'atencao', text: '**IRDR não é IAC.** Memoriza: IRDR exige repetição; IAC é preventivo (1 caso de grande relevância).' },
+          { type: 'box', kind: 'atencao', text: '**Distinguishing pode qualquer juiz; Overruling apenas o tribunal autor.** Erro frequente: dizer que qualquer instância pode superar precedente.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** improcedência liminar do art. 332 baseada em precedentes obrigatórios — tem ligação direta com o art. 927.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** RE/REsp repetitivos (1.036-1.041), RG (1.035), tudo se conversa com o microssistema de precedentes.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 19 (MS):** SV gera reclamação direta; outros precedentes exigem esgotamento.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 1 (lei processual):** dever de fundamentação (CPC art. 489 § 1º) é o "motor" do sistema — sem ele, precedente é decoração.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '29-cnj-cnmp-resolucoes',
+    num: 29, materia: 'pc',
+    title: 'CNJ, CNMP — resoluções aplicáveis',
+    edital: '3.2.29',
+    editalText: 'Resoluções do CNJ e CNMP relevantes ao processo civil e à atuação do MP.',
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: 'A candidata é Analista MPMG — atos do CNMP são parte do dia a dia',
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os atos normativos do **CNJ** (Conselho Nacional de Justiça — CF art. 103-B) e do **CNMP** (Conselho Nacional do Ministério Público — CF art. 130-A) são fontes regulatórias relevantes do processo civil e da atuação ministerial. Embora subordinados à Constituição e à lei, têm **força normativa interna**, vinculando juízes/membros do MP.' },
+          { type: 'p', text: 'Para o concurso do MPMG, há **3 grupos de atos** que merecem atenção: (i) **CNJ** — Resolução 125/2010 (política de tratamento de conflitos, base dos CEJUSCs); 65/2009 (gestão de processos estratégicos); (ii) **CNMP** — Resolução 23/2007 (inquérito civil), 174/2017 (recomendações), 179/2017 (TAC), 230/2021 (LGPD); (iii) **TJMG** — atos locais de processo eletrônico e organização (Lei Orgânica do MPMG — LC 34/94).' },
+          { type: 'p', text: 'A **Resolução CNMP 23/2007** é a mais cobrada — disciplina o **inquérito civil**, instrumento exclusivo do MP (CF art. 129 III). Seu conhecimento é essencial para qualquer concurso de Promotor.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CNJ — Conselho Nacional de Justiça' },
+          { type: 'list', items: [
+            '**CF art. 103-B** — composição, atribuições; controle administrativo do Judiciário',
+            '**Resolução CNJ 125/2010** — Política Judiciária Nacional de Tratamento Adequado dos Conflitos. Base normativa dos **CEJUSCs**',
+            '**Resolução CNJ 305/2019** (e aditivas) — PJe (Processo Eletrônico)',
+            '**Resolução CNJ 65/2009** — Plano Nacional de Gestão Documental',
+            'Decisões em PCA (Procedimento de Controle Administrativo) e em Reclamação Disciplinar têm efeitos disciplinares e administrativos sobre o Judiciário'
+          ] },
+          { type: 'h', text: 'CNMP — Conselho Nacional do Ministério Público' },
+          { type: 'list', items: [
+            '**CF art. 130-A** — composição, atribuições; controle administrativo do MP',
+            '**Resolução CNMP 23/2007** — Inquérito Civil: instauração, instrução, conclusão, arquivamento. Aplica-se também ao MPF/MPM. Disciplina prazos, formalidades, possibilidade de recomendação, audiência pública',
+            '**Resolução CNMP 174/2017** — Recomendações (instrumento extrajudicial de orientação a entes públicos/privados)',
+            '**Resolução CNMP 179/2017** — TAC (Termo de Ajustamento de Conduta) — disciplina, requisitos, efeitos',
+            '**Resolução CNMP 230/2021** — LGPD aplicada ao MP',
+            '**Resolução CNMP 181/2017** (criminal — ANPP) — Acordo de Não Persecução Penal'
+          ] },
+          { type: 'h', text: 'Inquérito Civil — Resolução CNMP 23/2007 (pontos cobrados)' },
+          { type: 'list', items: [
+            '**Art. 1º** — IC é instrumento INVESTIGATIVO, não-cogente, de natureza administrativa, exclusivo do MP',
+            '**Art. 2º** — instaurado para apurar fato que possa ensejar tutela de interesses ou direitos a cargo do MP (difusos, coletivos, individuais homogêneos)',
+            '**Art. 4º** — pode ser instaurado de OFÍCIO ou em razão de representação/notícia',
+            '**Art. 9º** — promoção de arquivamento submetida ao Conselho Superior do MP — o juiz NÃO homologa (diferente do IP penal); arquivamento administrativo',
+            '**Art. 10** — prazo para conclusão: 1 ano, prorrogável fundamentadamente',
+            '**Art. 14** — TAC pode encerrar o inquérito; valor de TÍTULO EXECUTIVO EXTRAJUDICIAL (Lei 7.347/85 art. 5º § 6º)',
+            '**Sigilo** — em regra, sigiloso (art. 7º), com possibilidade de divulgação ponderada'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Inquérito civil × inquérito policial' },
+          { type: 'table', headers: ['Critério', 'IC (CNMP 23/07)', 'IP (CPP)'],
+            rows: [
+              ['Titularidade', 'MP (exclusivo — CF 129 III)', 'Polícia Judiciária'],
+              ['Natureza', 'Administrativo, investigatório', 'Administrativo, investigatório'],
+              ['Arquivamento', 'CSMP (Conselho Superior); juiz NÃO interfere', 'Juiz HOMOLOGAVA até Pacote Anticrime; agora interno do MP'],
+              ['Resultado', 'ACP, TAC, recomendação ou arquivamento', 'Denúncia, ANPP, arquivamento'],
+              ['Sigilo', 'Em regra, sigiloso', 'Em regra, sigiloso']
+            ] },
+          { type: 'box', kind: 'atencao', text: '**IC — arquivamento NÃO passa pelo juiz.** Vai ao **Conselho Superior do MP** (CSMP). Diferente do IP. Erro frequente.' },
+          { type: 'h', text: 'TAC — Termo de Ajustamento de Conduta' },
+          { type: 'p', text: 'Instrumento extrajudicial pelo qual o investigado se obriga a adequar conduta à lei, sob cominação de multa. **Título executivo EXTRAJUDICIAL** (Lei 7.347 art. 5º § 6º). Pode ser celebrado por qualquer legitimado da ACP (incluindo MP, Adm Pública, Defensoria, associações, com requisitos próprios).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.612.931:** TAC celebrado em IC tem natureza de TEE (Lei 7.347 art. 5º § 6º). Cabe execução nos termos do CPC arts. 824 e seguintes.' },
+          { type: 'h', text: 'Recomendação (CNMP 174/2017)' },
+          { type: 'p', text: 'Instrumento de **orientação** (não-vinculante) a entes públicos ou privados. NÃO cria obrigação juridicamente exigível. Mas o destinatário deve responder fundamentadamente (sob pena de improbidade ou da ACP). É forma extrajudicial de evitar o Judiciário.' },
+          { type: 'h', text: 'Resolução CNMP 230/2021 — LGPD' },
+          { type: 'p', text: 'O MP é controlador de dados pessoais. Aplicação da LGPD com peculiaridades — atividades persecutórias têm regime próprio (Anteprojeto LGPD criminal). Tema novo, possível em concurso 2027/2028.' },
+          { type: 'h', text: 'Limites das resoluções do CNJ/CNMP' },
+          { type: 'p', text: 'Resoluções não podem inovar contra a lei nem usurpar competência legislativa. **STF (ADI 4.638):** a competência normativa do CNJ não é genérica nem abrange matéria reservada à lei. Concursos cobram esse limite — pegadinha de "resolução pode tudo".' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**IC = Instrumento exclusivo do MP. Arquivamento NO MP, não no juiz** (CSMP).' },
+          { type: 'box', kind: 'macete', text: '**TAC = TEE** (título executivo extrajudicial). Lei 7.347 art. 5º § 6º.' },
+          { type: 'box', kind: 'macete', text: '**Resoluções CNMP cobradas: 23 (IC) · 174 (Recomendação) · 179 (TAC) · 181 (ANPP) · 230 (LGPD).**' },
+          { type: 'box', kind: 'macete', text: '**Resolução CNJ 125 = CEJUSCs.** Base normativa dos centros de mediação/conciliação.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**IC arquivamento NÃO vai ao juiz** (vai ao CSMP — Conselho Superior). Diferente do IP penal pré-Pacote Anticrime.' },
+          { type: 'box', kind: 'atencao', text: '**Recomendação NÃO é juridicamente vinculante** — é orientação. Mas destinatário deve responder fundamentadamente.' },
+          { type: 'box', kind: 'atencao', text: '**Resoluções do CNJ/CNMP têm limites** (STF ADI 4.638). Não substituem lei nem invadem matéria legislativa.' },
+          { type: 'box', kind: 'atencao', text: '**TAC tem força de TEE** — passa direto à execução, não precisa de processo de conhecimento. Mas se houver inadimplemento, segue rito de execução por título extrajudicial.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atribuições constitucionais e legais do MP — IC é instrumento exclusivo (CF 129 III).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** TAC e IC são instrumentos pré-judiciais — frequentemente evitam ACP, ou a antecedem.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 21 (mediação):** Resolução CNJ 125/2010 é a base normativa do CEJUSC — política nacional de tratamento de conflitos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 28 (precedentes):** decisões do CNJ em PCA podem ter impacto disciplinar; STF tem revisado limites normativos.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: '30-honorarios-custas',
+    num: 30, materia: 'pc',
+    title: 'Honorários sucumbenciais, custas e multas',
+    edital: '3.2.30',
+    editalText: 'Honorários advocatícios sucumbenciais (CPC art. 85). Custas processuais. Multas processuais (litigância de má-fé, ato atentatório).',
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Honorários sucumbenciais (**CPC art. 85**) e custas processuais são os principais ÔNUS financeiros do processo. O CPC/15 inovou ao consolidar a **natureza alimentar** dos honorários (art. 85 § 14), garantindo prioridade na execução, e ao estabelecer **honorários recursais** (§ 11) — "majoração" dos honorários quando recurso for desprovido.' },
+          { type: 'p', text: 'Quanto à Fazenda Pública (§ 3º), há **sistema escalonado** de percentuais conforme valor da condenação ou da causa, com mínimos por faixa (1% a 20%). Quando há **sucumbência mínima** ou **recíproca** (§§ 14 e 86 par. único), há regras específicas.' },
+          { type: 'p', text: 'As **multas processuais** complementam o ônus: litigância de má-fé (arts. 80-81), atos atentatórios à dignidade da justiça (arts. 77 § 2º e 334 § 8º), execução (arts. 774 e 918), descumprimento de ordem judicial (multa diária — art. 537). Cada uma tem natureza, destinatário e regime próprios.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Honorários sucumbenciais (art. 85)' },
+          { type: 'list', items: [
+            '**Caput** — honorários fixados entre **10% e 20%** sobre valor da condenação, do proveito econômico ou, na ausência, do valor atualizado da causa',
+            '**§ 2º** — critérios para fixação: zelo, lugar, natureza/importância da causa, trabalho realizado, tempo exigido',
+            '**§ 3º** — Fazenda Pública (sistema ESCALONADO): 10-20% (até 200 SM); 8-10% (200 a 2.000 SM); 5-8% (2.000 a 20.000 SM); 3-5% (20.000 a 100.000 SM); 1-3% (acima 100.000 SM)',
+            '**§ 6º** — limites se aplicam ainda que ESTADO seja vencedor; honorários como verba SUI GENERIS, NÃO sujeita a sucumbência mínima',
+            '**§ 11** — honorários **RECURSAIS**: tribunal MAJORARÁ honorários, observando limites do § 2º; majoração somada não pode ultrapassar limites máximos do caput/§ 3º',
+            '**§ 14** — natureza ALIMENTAR; vedada compensação em caso de sucumbência parcial',
+            '**§ 18** — caput, § 2º e demais aplicam-se também à reconvenção, ao cumprimento de sentença, à execução resistida'
+          ] },
+          { type: 'h', text: 'Sucumbência recíproca e mínima' },
+          { type: 'list', items: [
+            '**Art. 85 § 14** — vedada COMPENSAÇÃO de honorários em sucumbência parcial',
+            '**Art. 86** — sucumbência recíproca: cada parte arca proporcionalmente. **Par. único:** sucumbência mínima (vencedor decai pequena parte) → o vencedor recebe TODOS os honorários',
+            '**Súmula 326/STJ:** dano moral fixado em valor inferior ao postulado NÃO importa sucumbência recíproca'
+          ] },
+          { type: 'h', text: 'Custas processuais' },
+          { type: 'list', items: [
+            'Fato gerador: distribuição da ação ou prática do ato',
+            '**Art. 82 § 2º** — sentença condenará vencido a pagar custas; salvo gratuidade ou outra disposição',
+            'Custas estaduais regidas por leis estaduais (no MG: Lei 14.939/03 e regulamento)',
+            'Sentenças contra a Fazenda: dispensa de custas em algumas hipóteses (lei estadual define)'
+          ] },
+          { type: 'h', text: 'Multas processuais' },
+          { type: 'list', items: [
+            '**Art. 77 § 2º** — atos atentatórios à dignidade da justiça (descumprir ordem, criar obstáculo): multa de até 20% do valor da causa, à União/Estado',
+            '**Arts. 80-81** — litigância de má-fé: hipóteses no art. 80; multa de 1% a 10% do valor corrigido da causa, à parte contrária + indenização',
+            '**Art. 334 § 8º** — ausência injustificada à audiência de conciliação: até 2% do valor da causa/vantagem econômica, à União/Estado',
+            '**Art. 537** — multa cominatória (astreintes) por descumprimento de obrigação de fazer/não fazer/entregar coisa',
+            '**Art. 774** — atos atentatórios à dignidade da justiça na execução: multa até 20% do valor atualizado do débito, ao exequente',
+            '**Art. 918** — execução manifestamente protelatória: multa de até 20% sobre valor da execução, ao exequente'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Honorários da Fazenda Pública — § 3º' },
+          { type: 'p', text: 'Sistema **ESCALONADO POR FAIXAS** — quanto maior o valor, menor o percentual. Vencedor da Fazenda **respeita o piso** da faixa correspondente. Lei 14.940/24 trouxe alterações para evitar honorários ínfimos em causas multimilionárias contra a União.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.105:** o §3º do art. 85 estabelece sistema cogente; juiz não pode fixar abaixo do mínimo da faixa, ainda que sob argumento de proporcionalidade.' },
+          { type: 'h', text: 'Honorários recursais (§ 11)' },
+          { type: 'p', text: 'Quando o recurso for **desprovido** (não conhecido OU julgado improcedente), o tribunal **MAJORA** os honorários como sanção pela atuação recursal infrutífera. Não é "novo honorário" — é majoração do existente. Limite: somatório não pode ultrapassar máximo legal (20% ou faixa do § 3º).' },
+          { type: 'box', kind: 'atencao', text: '**Honorários recursais incidem mesmo em causa que envolva Fazenda** (§ 11 + §3º). Erro frequente.' },
+          { type: 'h', text: 'Natureza alimentar (§ 14)' },
+          { type: 'p', text: 'Honorários têm natureza ALIMENTAR — beneficiário tem prioridade na fila de pagamento (art. 100 § 1º CF para precatórios, art. 833 IV CPC para impenhorabilidade). NÃO se sujeitam a compensação em sucumbência parcial.' },
+          { type: 'h', text: 'Sucumbência recíproca × mínima' },
+          { type: 'p', text: '**Recíproca:** cada parte ganha em parte; rateia honorários proporcionalmente, **vedada compensação** (§ 14). **Mínima:** vencedor decai em ponto irrelevante (ex: pediu 100, ganhou 95) → adversário paga TUDO. Súmula 326/STJ traz exemplo clássico (dano moral fixado abaixo do pedido NÃO é recíproca).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 326:** "Na ação de indenização por dano moral, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca."' },
+          { type: 'h', text: 'Multas — destinatários' },
+          { type: 'table', headers: ['Multa', 'Hipótese', 'Destinatário'],
+            rows: [
+              ['Art. 77 § 2º', 'Ato atentatório (descumprir ordem etc.)', 'União/Estado'],
+              ['Art. 81', 'Litigância de má-fé', 'Parte contrária + indenização'],
+              ['Art. 334 § 8º', 'Ausência audiência conciliação', 'União/Estado'],
+              ['Art. 537', 'Astreintes (descumprir tutela específica)', 'Exequente/credor'],
+              ['Art. 774', 'Ato atentatório execução', 'Exequente'],
+              ['Art. 918', 'Execução protelatória', 'Exequente']
+            ] },
+          { type: 'box', kind: 'macete', text: '**Atentatórios = União/Estado. Má-fé = parte contrária. Astreintes/protelação = exequente.**' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Honorários Fazenda — 5 faixas, do maior pro menor (10-20% até 1-3%).** Quanto maior o valor da causa, menor o %.' },
+          { type: 'box', kind: 'macete', text: '**Recursais (§11) = MAJORAÇÃO, não novo honorário.** Soma respeita limite máximo.' },
+          { type: 'box', kind: 'macete', text: '**Honorários = ALIMENTAR (§14). Vedada COMPENSAÇÃO.**' },
+          { type: 'box', kind: 'macete', text: '**Litigância má-fé: 1-10% + indenização. Atentatório: até 20%, à União.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Honorários recursais APLICAM-SE à Fazenda** (§ 11 c/c § 3º). Erro: assumir que Fazenda escapa.' },
+          { type: 'box', kind: 'atencao', text: '**§ 14 veda COMPENSAÇÃO** em sucumbência parcial. Antes do CPC/15, era comum compensar; hoje, não.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 326/STJ — dano moral fixado abaixo do pedido = SUCUMBÊNCIA NÃO RECÍPROCA.** Apenas o réu paga.' },
+          { type: 'box', kind: 'atencao', text: '**Astreintes do art. 537 vão para o EXEQUENTE**, não para a União. Diferente das multas atentatórias.' },
+          { type: 'box', kind: 'atencao', text: '**Honorários NA RECONVENÇÃO, NA EXECUÇÃO RESISTIDA, NO CUMPRIMENTO DE SENTENÇA — TODOS COBRADOS** (§ 18). Erro: pensar que só na sentença principal.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento contra Fazenda):** honorários do § 3º na fase de cumprimento — § 7º exclui honorários no cumprimento NÃO impugnado.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 17 (gratuidade):** beneficiário derrotado paga honorários, mas exigibilidade SUSPENSA por 5 anos (CPC art. 98 § 3º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** honorários recursais (§ 11) — todo recurso desprovido majora a verba.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 21 (mediação):** ausência à audiência do art. 334 = ato atentatório (multa § 8º à União/Estado).' }
+        ]
+      }
+    ]
+  },
+
+  // ============================================================
+  // ESQUELETOS — Fase 3 (Direito Civil)
+  // numeração própria 1-17 (não mistura com PC); materia: 'civil'
+  // ============================================================
+  {
+    id: 'civ-01-lindb',
+    num: 1, materia: 'civil',
+    title: 'LINDB e teoria geral do Direito Civil',
+    edital: '3.1.1',
+    editalText: 'Lei de Introdução às Normas do Direito Brasileiro. Vigência, aplicação, integração e interpretação. Teoria geral do Direito Civil.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Vigência e revogação da lei (art. 1º a 4º)',
+      'Antinomias e critérios de solução',
+      'Conflito de leis no tempo — direito adquirido, ato jurídico perfeito, coisa julgada',
+      'Conflito de leis no espaço (DIPr)',
+      'Integração — analogia, costumes, princípios (art. 4º)',
+      'Hermenêutica jurídica (art. 5º)',
+      'Arts. 20-30 (consequencialismo) — LINDB Lei 13.655/18'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-02-pessoas-naturais',
+    num: 2, materia: 'civil',
+    title: 'Pessoas naturais',
+    edital: '3.1.2',
+    editalText: 'Personalidade. Capacidade. Direitos da personalidade. Domicílio. Ausência. Estatuto da Pessoa com Deficiência.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Início e fim da personalidade — natimorto',
+      'Capacidade de direito × de fato',
+      'Incapacidade absoluta (art. 3º) e relativa (art. 4º) — após Lei 13.146/15',
+      'Direitos da personalidade — características',
+      'Nome, imagem, intimidade, honra, sepultura',
+      'Domicílio — fixo, profissional, contratual',
+      'Ausência — fases (curadoria, sucessão provisória, definitiva)',
+      'Tomada de decisão apoiada × curatela'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-03-pessoas-juridicas',
+    num: 3, materia: 'civil',
+    title: 'Pessoas jurídicas',
+    edital: '3.1.3',
+    editalText: 'Conceito. Espécies. Constituição, registro, extinção. Desconsideração da personalidade jurídica (CC art. 50).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Espécies — direito público (interno/externo) e privado',
+      'Constituição — registro como condição de existência',
+      'Atos constitutivos, denominação',
+      'Responsabilidade — patrimônio próprio',
+      'Desconsideração (art. 50) — teoria maior × menor',
+      'Lei 13.874/19 (Liberdade Econômica) e impactos',
+      'Desconsideração inversa',
+      'Grupos econômicos e sucessão empresarial'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-04-bens',
+    num: 4, materia: 'civil',
+    title: 'Bens',
+    edital: '3.1.4',
+    editalText: 'Conceito de bens. Classificação. Bens públicos. Bem de família legal e voluntário (Lei 8.009/90).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Classificação — corpóreos/incorpóreos, móveis/imóveis, fungíveis/infungíveis',
+      'Acessões e benfeitorias',
+      'Bens públicos — uso comum, uso especial, dominicais',
+      'Imprescritibilidade e impenhorabilidade dos bens públicos',
+      'Bem de família legal (Lei 8.009/90) — limites e exceções',
+      'Bem de família voluntário (CC arts. 1.711-1.722)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-05-fatos-juridicos',
+    num: 5, materia: 'civil',
+    title: 'Fatos jurídicos, prescrição e decadência',
+    edital: '3.1.5',
+    editalText: 'Fato, ato e negócio jurídico. Defeitos do negócio jurídico. Validade, eficácia, nulidade e anulabilidade. Prescrição e decadência.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Fato × ato × negócio jurídico — escala Pontes de Miranda',
+      'Plano da existência, validade e eficácia',
+      'Defeitos — erro, dolo, coação, lesão, estado de perigo, fraude',
+      'Simulação — nulidade absoluta',
+      'Nulidade × anulabilidade — diferenças e prazos',
+      'Prescrição (art. 189-206) — causas suspensivas e interruptivas',
+      'Decadência — convencional e legal',
+      'Diferenças prescrição × decadência'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-06-obrigacoes-geral',
+    num: 6, materia: 'civil',
+    title: 'Obrigações — parte geral',
+    edital: '3.1.6',
+    editalText: 'Conceito. Modalidades. Efeitos. Transmissão. Adimplemento. Extinção sem pagamento.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Estrutura da obrigação — sujeitos, vínculo, prestação',
+      'Obrigações de dar, fazer, não fazer',
+      'Obrigações alternativas e facultativas',
+      'Obrigações divisíveis × indivisíveis × solidárias',
+      'Cessão de crédito × assunção de dívida × cessão de contrato',
+      'Pagamento — quem paga, a quem, como, onde, quando',
+      'Pagamento em consignação, sub-rogação, imputação, dação',
+      'Compensação, confusão, remissão, novação'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-07-obrigacoes-inadimplemento',
+    num: 7, materia: 'civil',
+    title: 'Inadimplemento, mora e perdas e danos',
+    edital: '3.1.7',
+    editalText: 'Inadimplemento absoluto e relativo. Mora. Perdas e danos. Juros, cláusula penal, arras.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Inadimplemento absoluto × relativo (mora)',
+      'Mora do devedor × do credor',
+      'Constituição em mora — ex re × ex persona',
+      'Perdas e danos — danos emergentes e lucros cessantes',
+      'Juros — moratórios × compensatórios; legais × convencionais',
+      'Cláusula penal — moratória × compensatória; limite',
+      'Arras — confirmatórias × penitenciais',
+      'Teoria do adimplemento substancial'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-08-contratos-geral',
+    num: 8, materia: 'civil',
+    title: 'Contratos — parte geral',
+    edital: '3.1.8',
+    editalText: 'Princípios. Formação. Classificação. Vícios redibitórios. Evicção. Extinção. Função social. Boa-fé objetiva.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Princípios — autonomia, função social, boa-fé objetiva, equivalência',
+      'Formação — proposta, aceitação, retratação',
+      'Classificação dos contratos',
+      'Cláusulas implícitas — duty to mitigate, supressio, surrectio, venire contra factum proprium',
+      'Vícios redibitórios — prazos decadenciais',
+      'Evicção — requisitos e efeitos',
+      'Extinção — resolução, resilição, rescisão',
+      'Onerosidade excessiva (arts. 478-480)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-09-contratos-especie',
+    num: 9, materia: 'civil',
+    title: 'Contratos em espécie',
+    edital: '3.1.9',
+    editalText: 'Compra e venda, troca, doação, locação, comodato, mútuo, prestação de serviço, empreitada, mandato, fiança, transação.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Compra e venda — preço, coisa, consentimento; cláusulas especiais',
+      'Doação — modalidades, revogação por ingratidão',
+      'Locação — Lei 8.245/91 (resumo)',
+      'Comodato e mútuo',
+      'Prestação de serviço × empreitada',
+      'Mandato — formal × tácito; substabelecimento',
+      'Fiança — características; benefício de ordem',
+      'Transação como negócio jurídico'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-10-atos-unilaterais',
+    num: 10, materia: 'civil',
+    title: 'Atos unilaterais e enriquecimento sem causa',
+    edital: '3.1.10',
+    editalText: 'Promessa de recompensa. Gestão de negócios. Pagamento indevido. Enriquecimento sem causa.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Promessa de recompensa',
+      'Gestão de negócios',
+      'Pagamento indevido — repetição',
+      'Enriquecimento sem causa — pressupostos e subsidiariedade',
+      'Diferença com responsabilidade civil'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-11-responsabilidade-civil',
+    num: 11, materia: 'civil',
+    title: 'Responsabilidade civil',
+    edital: '3.1.11',
+    editalText: 'Subjetiva e objetiva. Atos ilícitos. Dano material e moral. Quantificação. Responsabilidade do Estado, do empregador, dos pais.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Pressupostos — conduta, dano, nexo causal, culpa (na subjetiva)',
+      'Responsabilidade subjetiva × objetiva',
+      'Cláusula geral de risco (art. 927 § único)',
+      'Excludentes — caso fortuito, força maior, fato exclusivo da vítima/terceiro',
+      'Dano material — emergente e lucros cessantes',
+      'Dano moral — quantificação, dano in re ipsa',
+      'Dano estético, dano existencial',
+      'Responsabilidade dos pais, empregador, empresário, do Estado',
+      'Súmulas STJ relevantes'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-12-empresa',
+    num: 12, materia: 'civil',
+    title: 'Direito de empresa',
+    edital: '3.1.12',
+    editalText: 'Empresário. Sociedade. Estabelecimento. Nome empresarial. EIRELI/SLU. Falência e recuperação (noções).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Empresário individual × sociedade empresária',
+      'Sociedades simples × empresárias',
+      'Tipos societários — Ltda, S.A. (parte geral)',
+      'Sociedade limitada unipessoal',
+      'Estabelecimento — trespasse',
+      'Nome empresarial — firma × denominação',
+      'Lei 11.101/05 — recuperação judicial e falência (linhas gerais)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-13-direitos-reais',
+    num: 13, materia: 'civil',
+    title: 'Direitos reais — posse e propriedade',
+    edital: '3.1.13',
+    editalText: 'Posse. Propriedade. Aquisição e perda. Função social. Usucapião. Direitos de vizinhança.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Posse — teorias (Savigny, Ihering); classificação',
+      'Efeitos da posse — proteção, frutos, benfeitorias, indenização',
+      'Ações possessórias — fungibilidade',
+      'Propriedade — atributos e função social',
+      'Aquisição da propriedade imóvel — registro, acessão, usucapião',
+      'Usucapião — espécies (extraordinária, ordinária, especial urbana, rural, familiar, coletiva)',
+      'Perda da propriedade',
+      'Direitos de vizinhança — uso anormal, passagem forçada, águas, limites'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-14-direitos-reais-garantia',
+    num: 14, materia: 'civil',
+    title: 'Direitos reais sobre coisa alheia e direitos reais de garantia',
+    edital: '3.1.14',
+    editalText: 'Superfície, servidões, usufruto, uso, habitação, concessão de uso. Penhor, hipoteca, anticrese. Alienação fiduciária.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Direitos reais sobre coisa alheia — superfície, servidões, usufruto, uso, habitação',
+      'Concessão de uso especial para fins de moradia',
+      'Direitos reais de garantia — penhor, hipoteca, anticrese',
+      'Alienação fiduciária em garantia — móvel (Lei 4.728/65) e imóvel (Lei 9.514/97)',
+      'Princípios — publicidade, especialidade'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-15-familia-geral',
+    num: 15, materia: 'civil',
+    title: 'Direito de família — casamento, união estável, regime de bens',
+    edital: '3.1.15',
+    editalText: 'Casamento — capacidade, impedimentos, formalidades, efeitos. União estável. Regime de bens.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Casamento — habilitação, celebração, prova',
+      'Capacidade núbil; impedimentos × causas suspensivas',
+      'Efeitos pessoais e patrimoniais',
+      'Regimes de bens — comunhão parcial, universal, separação, participação final',
+      'Pacto antenupcial',
+      'União estável — requisitos (CC art. 1.723) e efeitos',
+      'Casamento e união homoafetiva (ADI 4.277, RE 646.721)',
+      'Dissolução — divórcio direto (EC 66/2010)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-16-familia-especifico',
+    num: 16, materia: 'civil',
+    title: 'Família — alimentos, filiação, tutela e curatela',
+    edital: '3.1.16',
+    editalText: 'Filiação. Reconhecimento. Adoção. Poder familiar. Alimentos. Tutela, curatela, guarda.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Filiação — presunções (art. 1.597); socioafetividade; multiparentalidade (RE 898.060)',
+      'Reconhecimento de filhos',
+      'Adoção (Lei 12.010/09) — requisitos',
+      'Poder familiar — exercício, suspensão, destituição',
+      'Alimentos — pressupostos, espécies (provisionais, provisórios, definitivos)',
+      'Binômio necessidade × possibilidade × razoabilidade',
+      'Prisão civil do alimentante (Súmula 309/STJ)',
+      'Tutela × curatela × guarda',
+      'Tomada de decisão apoiada (Lei 13.146/15)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-17-sucessoes',
+    num: 17, materia: 'civil',
+    title: 'Sucessões',
+    edital: '3.1.17',
+    editalText: 'Sucessão legítima e testamentária. Inventário. Partilha. Colação. Sonegados. Petição de herança.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Abertura — saisine (CC art. 1.784)',
+      'Ordem de vocação hereditária',
+      'Direito do cônjuge × companheiro (RE 878.694)',
+      'Sucessão testamentária — formas (público, cerrado, particular)',
+      'Legítima × disponível; deserdação',
+      'Inventário judicial × extrajudicial (Lei 11.441/07)',
+      'Partilha amigável × judicial',
+      'Colação, sonegados, petição de herança',
+      'Cessão de direitos hereditários'
+    ],
+    sections: []
   }
 ],
 
@@ -3016,7 +4409,76 @@ flashcards: [
   { id: 114, topic: 20, q: 'Coisa julgada na Ação Popular?', a: 'Secundum eventum probationis: improcedência por insuficiência de provas NÃO faz coisa julgada material - pode ser reproposta com prova nova (Lei 4.717 art. 18).', tags: ['popular'] },
   { id: 115, topic: 20, q: 'Inquérito Civil - exclusivo de quem?', a: 'Do MP (CF art. 129 III + Resolução 23/2007 CNMP). Instrumento extrajudicial inquisitivo, sigiloso, sem contraditório obrigatório. Pode resultar em ACP, arquivamento ou TAC.', tags: ['inquerito-civil'] },
   { id: 116, topic: 18, q: 'Princípios do JEC (mnemônico OSICE)?', a: 'Oralidade, Simplicidade, Informalidade, Celeridade, Economia processual (Lei 9.099 art. 2º).', tags: ['juizados'] },
-  { id: 117, topic: 8, q: 'Calendário processual × NJP?', a: 'CALENDÁRIO (art. 191): específico (datas para atos). NJP (art. 190): amplo (regras procedimentais). Ambos exigem capacidade, livre disposição, contraditório.', tags: ['atos', 'NJP'] }
+  { id: 117, topic: 8, q: 'Calendário processual × NJP?', a: 'CALENDÁRIO (art. 191): específico (datas para atos). NJP (art. 190): amplo (regras procedimentais). Ambos exigem capacidade, livre disposição, contraditório.', tags: ['atos', 'NJP'] },
+
+  // ============ Bloco 8 — Fase 2 (PC 21-23) ============
+  // Tópico 21 — Mediação e conciliação
+  { id: 118, topic: 21, q: 'Mediação × conciliação — qual o critério legal de distinção (CPC art. 165 §§ 2º-3º)?', a: 'VÍNCULO PRÉVIO entre as partes. Mediação: TINHA relação anterior (família, vizinhança), mediador FACILITA sem sugerir. Conciliação: NÃO tinha vínculo, conciliador pode SUGERIR solução.', tags: ['fase2', 'mediacao'] },
+  { id: 119, topic: 21, q: 'Quando a audiência do CPC art. 334 NÃO é realizada?', a: 'Duas hipóteses: (i) ambas as partes manifestarem desinteresse expressamente — autor na PI, réu até 10 dias antes; (ii) causa não admitir autocomposição. Em litisconsórcio, todos devem manifestar desinteresse (§6º).', tags: ['fase2', 'audiencia-334'] },
+  { id: 120, topic: 21, q: 'Qual a sanção para ausência injustificada à audiência de conciliação/mediação?', a: 'Ato atentatório à dignidade da justiça (CPC art. 334 §8º): multa de até 2% sobre valor da causa ou vantagem econômica pretendida, revertida à União/Estado.', tags: ['fase2', 'mediacao', 'multa'] },
+  { id: 121, topic: 21, q: 'Mediação cabe em direitos indisponíveis?', a: 'Cabe quando indisponíveis MAS transigíveis (Lei 13.140 art. 3º §§1º-2º), exigindo homologação judicial e oitiva do MP. Ex: alimentos (existência indisponível, valor transigível).', tags: ['fase2', 'mediacao', 'indisponiveis'] },
+  { id: 122, topic: 21, q: 'Confidencialidade na mediação tem alguma exceção?', a: 'Sim — informação relativa a CRIME DE AÇÃO PÚBLICA (Lei 13.140 art. 30). Não se aplica a crime de ação privada. Mediador deve denunciar.', tags: ['fase2', 'mediacao', 'confidencialidade'] },
+  { id: 123, topic: 21, q: 'Por quanto tempo o mediador fica impedido de atuar como árbitro/testemunha relativa ao mesmo conflito?', a: '1 ano após o encerramento da última audiência (Lei 13.140 art. 7º). Esquecer esse prazo é erro frequente.', tags: ['fase2', 'mediacao'] },
+
+  // Tópico 22 — Arbitragem
+  { id: 124, topic: 22, q: 'O que é Kompetenz-Kompetenz na arbitragem?', a: 'Princípio (Lei 9.307 art. 8º par. único): cabe ao próprio árbitro decidir sobre sua competência, inclusive sobre validade da convenção arbitral. Importação do direito alemão.', tags: ['fase2', 'arbitragem'] },
+  { id: 125, topic: 22, q: 'Cláusula arbitral em contrato de adesão exige o quê?', a: 'Iniciativa do aderente OU concordância expressa em destaque + visto/assinatura específica (Lei 9.307 art. 4º §2º). Sem isso, ineficaz.', tags: ['fase2', 'arbitragem', 'adesao'] },
+  { id: 126, topic: 22, q: 'Sentença arbitral interna precisa de homologação judicial?', a: 'NÃO. É título executivo judicial direto (CPC art. 515 VII + Lei 9.307 art. 31). EXCEÇÃO: sentença arbitral ESTRANGEIRA — homologação no STJ (CF art. 105 I i).', tags: ['fase2', 'arbitragem', 'sentenca'] },
+  { id: 127, topic: 22, q: 'Qual o prazo da ação anulatória de sentença arbitral?', a: '90 dias DECADENCIAIS (Lei 9.307 art. 33 §1º), contados do recebimento da sentença ou da decisão dos embargos. Hipóteses taxativas no art. 32.', tags: ['fase2', 'arbitragem', 'anulatoria'] },
+  { id: 128, topic: 22, q: 'Convenção de arbitragem é matéria conhecível de ofício pelo juiz?', a: 'NÃO (CPC art. 337 X + §5º). Réu deve alegar na contestação, sob pena de RENÚNCIA TÁCITA. Sem alegação, processo prossegue na Justiça Comum.', tags: ['fase2', 'arbitragem', 'competencia'] },
+  { id: 129, topic: 22, q: 'Arbitragem com Adm Pública pode ser por equidade ou sigilosa?', a: 'NÃO. Lei 9.307 art. 2º §3º (alterado pela Lei 13.129/15): só DE DIREITO e com publicidade obrigatória. Sigilo é vedado.', tags: ['fase2', 'arbitragem', 'fazenda'] },
+
+  // Tópico 23 — JEC
+  { id: 130, topic: 23, q: 'Como contam os prazos no JEC?', a: 'CONTÍNUOS (corridos), não em dias úteis. Súmula CJF 99 + FONAJE 165. CPC art. 219 NÃO se aplica ao JEC.', tags: ['fase2', 'JEC', 'prazos'] },
+  { id: 131, topic: 23, q: 'Quem pode ser autor no JEC (art. 8º)?', a: 'PF capaz, MEI, ME, EPP, OSCIP, sociedade de crédito ao microempreendedor. NÃO podem: incapaz, espólio, PJ comum (S.A., Ltda. de grande porte).', tags: ['fase2', 'JEC', 'partes'] },
+  { id: 132, topic: 23, q: 'Sentença ilíquida cabe no JEC?', a: 'NÃO. Lei 9.099 art. 38 par. único — sentença DEVE ser sempre líquida. Se inviável, extinção art. 51 II.', tags: ['fase2', 'JEC', 'sentenca'] },
+  { id: 133, topic: 23, q: 'Cabe REsp contra acórdão da Turma Recursal?', a: 'NÃO (Súmula 203/STJ). Cabe apenas RE com repercussão geral. Para divergência entre Turmas, há Pedido de Uniformização (não REsp).', tags: ['fase2', 'JEC', 'recursos'] },
+  { id: 134, topic: 23, q: 'Cabe ação rescisória no JEC?', a: 'NÃO (FONAJE 44). Microssistema do JEC não admite rescisória — privilegia coisa julgada e celeridade.', tags: ['fase2', 'JEC', 'recursos'] },
+  { id: 135, topic: 23, q: 'Honorários sucumbenciais no JEC: cabem?', a: 'Em 1º grau: NÃO (regra). Exceção: litigância de má-fé. NO RECURSO INOMINADO: vencido paga honorários + custas (art. 55 caput, in fine).', tags: ['fase2', 'JEC', 'honorarios'] },
+
+  // ============ Bloco 9 — Fase 2 (PC 24-26) ============
+  // Tópico 24 — JEFP
+  { id: 136, topic: 24, q: 'Quem pode ser réu no JEFP (Lei 12.153/09)?', a: 'Estados, DF, Territórios, Municípios + suas autarquias, fundações e empresas públicas. NÃO inclui União/autarquias federais (essas vão para o JEF — Lei 10.259/01).', tags: ['fase2', 'JEFP'] },
+  { id: 137, topic: 24, q: 'Limite de valor e tipo de competência no JEFP?', a: 'Até 60 salários-mínimos. Competência ABSOLUTA onde houver juizado instalado (art. 2º §4º) — diferente do JEC, onde regra majoritária é opção do autor.', tags: ['fase2', 'JEFP'] },
+  { id: 138, topic: 24, q: 'Reexame necessário aplica-se no JEFP?', a: 'NÃO (art. 7º Lei 12.153). Sentença contra a Fazenda no JEFP NÃO depende de reexame necessário. Regra excepcional ao CPC art. 496.', tags: ['fase2', 'JEFP'] },
+  { id: 139, topic: 24, q: 'Causas excluídas do JEFP — cite 3?', a: 'Mandado de segurança, desapropriação, execuções fiscais, ações coletivas/difusas/individuais homogêneas, imóveis, improbidade, anulação/cancelamento de ato administrativo (salvo previdenciário e lançamento fiscal). Art. 2º §1º.', tags: ['fase2', 'JEFP'] },
+
+  // Tópico 25 — JEF
+  { id: 140, topic: 25, q: 'Há prazo em dobro para Fazenda no JEF (Lei 10.259)?', a: 'NÃO. Art. 9º veda expressamente prazos diferenciados para a Fazenda no JEF — regra excepcional. Diferente do JEFP estadual, onde HÁ prazo em dobro (Tema 503/STF).', tags: ['fase2', 'JEF'] },
+  { id: 141, topic: 25, q: 'Sobre o que é o Pedido de Uniformização (PU)?', a: 'Apenas DIREITO MATERIAL. Hipóteses: divergência entre Turmas Recursais da mesma região (TRU); de regiões diferentes (TNU); decisão TNU contrária a súmula/jurisprudência STJ (vai ao STJ — art. 14 §4º).', tags: ['fase2', 'JEF', 'PU'] },
+  { id: 142, topic: 25, q: 'Quem é parte no JEF (Lei 10.259, art. 6º)?', a: 'Como rés: União, autarquias, fundações e empresas públicas FEDERAIS. Como autoras: PF, ME e EPP. Causas previdenciárias federais (INSS) são o "core" prático.', tags: ['fase2', 'JEF'] },
+  { id: 143, topic: 25, q: 'RPV no JEF — limite e prazo?', a: 'Até 60 SM, prazo de pagamento de 60 dias após requisição (art. 17). Acima de 60 SM segue precatório (CF art. 100).', tags: ['fase2', 'JEF', 'RPV'] },
+
+  // Tópico 26 — Gratuidade
+  { id: 144, topic: 26, q: 'PF e PJ — quem precisa provar a hipossuficiência?', a: 'PF tem PRESUNÇÃO de hipossuficiência (art. 99 §3º). PJ deve PROVAR (Súmula 481/STJ). PJ pode ter fins lucrativos — basta demonstrar a impossibilidade.', tags: ['fase2', 'gratuidade'] },
+  { id: 145, topic: 26, q: 'Beneficiário da gratuidade derrotado é condenado em honorários?', a: 'SIM. Mas a exigibilidade fica SUSPENSA por 5 anos (CPC art. 98 §3º). Se nesse período houver melhora econômica, paga; senão, prescreve.', tags: ['fase2', 'gratuidade', 'honorarios'] },
+  { id: 146, topic: 26, q: 'Quando pode ser pedida a gratuidade da justiça?', a: 'A QUALQUER TEMPO (Súmula 640/STJ). Na PI, contestação, recurso, cumprimento. O critério é a situação econômica NO MOMENTO do pedido.', tags: ['fase2', 'gratuidade'] },
+  { id: 147, topic: 26, q: 'Juiz pode indeferir gratuidade de ofício?', a: 'Indeferimento exige CONTRADITÓRIO PRÉVIO. Mesmo se houver elementos que indiquem falta de pressupostos, deve INTIMAR a parte para comprovar (art. 99 §2º). Indeferimento direto = nulidade.', tags: ['fase2', 'gratuidade'] },
+
+  // ============ Bloco 10 — Fase 2 (PC 27-30) ============
+  // Tópico 27 — Cooperação internacional
+  { id: 148, topic: 27, q: 'Diferença entre auxílio direto e carta rogatória?', a: 'Critério (CPC art. 28): se a medida DECORRE de decisão estrangeira → carta rogatória (com exequatur do STJ). Se for ato administrativo/processual independente → auxílio direto (sem delibação, executado pela JF).', tags: ['fase2', 'cooperacao'] },
+  { id: 149, topic: 27, q: 'Divórcio consensual estrangeiro precisa de homologação no STJ?', a: 'NÃO (CPC art. 961 §5º). Divórcio consensual puro produz efeitos diretos no Brasil — basta averbação no registro civil. Se houver partilha de bens controvertida, exige homologação.', tags: ['fase2', 'cooperacao'] },
+  { id: 150, topic: 27, q: 'Quem homologa sentença estrangeira no Brasil?', a: 'STJ (CF art. 105 I i, após EC 45/2004). Antes era STF. Procedimento: juízo de DELIBAÇÃO (não revisa mérito — art. 964 CPC). Execução posterior: Justiça Federal (CF 109 X).', tags: ['fase2', 'cooperacao', 'STJ'] },
+  { id: 151, topic: 27, q: 'O STJ revisa o mérito da sentença estrangeira na homologação?', a: 'NÃO (CPC art. 964). Apenas verifica requisitos formais e ofensa à ordem pública/soberania. É juízo de DELIBAÇÃO — controle de admissibilidade, não revisão substancial.', tags: ['fase2', 'cooperacao'] },
+
+  // Tópico 28 — Precedentes
+  { id: 152, topic: 28, q: 'Quais os 6 precedentes obrigatórios do art. 927 do CPC?', a: 'I — controle concentrado STF; II — Súmula Vinculante; III — IRDR/IAC; IV — repetitivos STJ + RG STF; V — súmulas STF/STJ; VI — orientação plenário/órgão especial (regimento).', tags: ['fase2', 'precedentes'] },
+  { id: 153, topic: 28, q: 'Qual a diferença entre distinguishing e overruling?', a: 'DISTINGUISHING = afastar precedente porque caso concreto tem peculiaridades fáticas distintas; pode qualquer juiz, com fundamentação. OVERRULING = SUPERAR o precedente; só o tribunal autor (ou superior).', tags: ['fase2', 'precedentes'] },
+  { id: 154, topic: 28, q: 'IRDR vs IAC — diferença essencial?', a: 'IRDR (art. 976) exige REPETIÇÃO efetiva de processos sobre questão de direito + risco à isonomia/segurança. IAC (art. 947) é PREVENTIVO — basta uma causa de relevante questão jurídica com grande repercussão social, sem repetição.', tags: ['fase2', 'precedentes', 'IRDR'] },
+  { id: 155, topic: 28, q: 'Cabe reclamação contra inobservância de súmula simples (não vinculante)?', a: 'NÃO (Súmula 734/STF). Só cabe contra inobservância de PRECEDENTE OBRIGATÓRIO (art. 988 IV) — SV, controle concentrado, IRDR, IAC, repetitivos, RG. Para repetitivos/RG, exige esgotamento ordinário (§5º II).', tags: ['fase2', 'precedentes', 'reclamacao'] },
+
+  // Tópico 29 — CNJ/CNMP
+  { id: 156, topic: 29, q: 'Inquérito civil — quem arquiva?', a: 'Conselho Superior do MP (CSMP). NÃO vai ao juiz (diferente do IP penal). Resolução CNMP 23/2007 art. 9º. Se o MP arquiva, sobe ao CSMP para revisão administrativa.', tags: ['fase2', 'CNMP', 'IC'] },
+  { id: 157, topic: 29, q: 'TAC (Termo de Ajustamento de Conduta) — natureza?', a: 'Título executivo EXTRAJUDICIAL (Lei 7.347/85 art. 5º §6º). Pode ser celebrado por legitimados da ACP (MP, Adm Pública, Defensoria). Disciplinado pela Resolução CNMP 179/2017.', tags: ['fase2', 'CNMP', 'TAC'] },
+  { id: 158, topic: 29, q: 'Resolução CNJ 125/2010 — qual seu objeto?', a: 'Instituiu a POLÍTICA JUDICIÁRIA NACIONAL DE TRATAMENTO ADEQUADO DOS CONFLITOS. Base normativa dos CEJUSCs (Centros Judiciários de Solução de Conflitos e Cidadania).', tags: ['fase2', 'CNJ', 'CEJUSC'] },
+  { id: 159, topic: 29, q: 'Resoluções CNJ/CNMP podem inovar contra a lei?', a: 'NÃO. STF (ADI 4.638): competência normativa não é genérica; matéria reservada à lei é intocável. Resoluções regulam atividade administrativa, não criam direito material novo.', tags: ['fase2', 'CNJ', 'limites'] },
+
+  // Tópico 30 — Honorários e custas
+  { id: 160, topic: 30, q: 'Honorários Fazenda — sistema do art. 85 §3º?', a: 'ESCALONADO em 5 faixas: 10-20% (até 200 SM); 8-10% (200-2.000); 5-8% (2.000-20.000); 3-5% (20.000-100.000); 1-3% (>100.000). Quanto maior o valor, MENOR o percentual.', tags: ['fase2', 'honorarios', 'fazenda'] },
+  { id: 161, topic: 30, q: 'O que são honorários recursais (§11)?', a: 'MAJORAÇÃO dos honorários quando recurso é desprovido (não conhecido OU julgado improcedente). NÃO é novo honorário; é majoração do existente. Soma respeita limite máximo do caput/§3º. Aplica-se à Fazenda também.', tags: ['fase2', 'honorarios', 'recursos'] },
+  { id: 162, topic: 30, q: 'Dano moral fixado abaixo do pedido = sucumbência recíproca?', a: 'NÃO (Súmula 326/STJ). Apenas o réu paga honorários. A "redução" pelo juiz é exercício de proporcionalidade — não importa decadência do autor.', tags: ['fase2', 'honorarios', 'sucumbencia'] },
+  { id: 163, topic: 30, q: 'Multa por ato atentatório — destinatário?', a: 'União/Estado (CPC art. 77 §2º — até 20% do valor da causa). Diferente de: litigância de má-fé (parte contrária — art. 81); astreintes (exequente — art. 537); execução protelatória (exequente — art. 918).', tags: ['fase2', 'multas'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -3741,6 +5203,311 @@ questions: [
     ],
     correct: 'B',
     explanation: 'CPC art. 191: o calendário processual é fixado em comum acordo entre juiz e partes, com datas e prazos específicos para os atos processuais. É VINCULANTE - dispensa intimações específicas. Diferente do NJP do art. 190 (mais amplo, sobre regras procedimentais). Ambos exigem capacidade, livre disposição e contraditório.'
+  },
+
+  // ============ Bloco 8 — Fase 2 (PC 21-23) ============
+  {
+    id: 46, topic: 21, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a audiência de conciliação ou de mediação prevista no art. 334 do CPC, é correto afirmar:',
+    alternatives: [
+      'A audiência será sempre realizada, ainda que ambas as partes manifestem desinteresse, em razão do princípio do estímulo à autocomposição.',
+      'Havendo litisconsórcio, a audiência somente deixará de ser realizada se TODOS os litisconsortes manifestarem desinteresse na composição consensual.',
+      'O autor manifesta desinteresse na audiência por petição autônoma, no prazo de 10 dias da distribuição da inicial.',
+      'A ausência injustificada da parte gera apenas multa por litigância de má-fé, no patamar de 1% sobre o valor da causa.',
+      'A audiência é incompatível com causas que admitam autocomposição, sendo dispensada nesses casos.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 334 §6º: havendo litisconsórcio, o desinteresse na audiência só vale se TODOS manifestarem. Um único litisconsorte que queira a audiência impõe sua realização. (A) Se ambas recusarem expressamente, NÃO se realiza (§4º I). (C) Autor manifesta na própria PI (§5º). (D) Ausência é ato atentatório à dignidade da justiça, multa de até 2% (§8º). (E) Audiência é dispensada quando a causa NÃO admite autocomposição (§4º II), o oposto do enunciado.'
+  },
+  {
+    id: 47, topic: 21, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a Lei de Mediação (Lei 13.140/15) e a relação entre mediação e direitos indisponíveis, assinale a alternativa correta:',
+    alternatives: [
+      'A mediação é restrita a direitos patrimoniais disponíveis, sendo incompatível com direitos indisponíveis em qualquer hipótese.',
+      'Direitos indisponíveis transigíveis admitem mediação, dispensando-se nesse caso a homologação judicial e a participação do Ministério Público.',
+      'Direitos indisponíveis transigíveis admitem mediação, exigindo-se homologação judicial e oitiva do Ministério Público.',
+      'A confidencialidade da mediação é absoluta e cobre inclusive informações relativas a crimes de ação pública.',
+      'O acordo obtido em mediação extrajudicial sobre direitos disponíveis somente é eficaz após homologação judicial.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 13.140 art. 3º §§ 1º-2º: direitos indisponíveis MAS transigíveis (ex: valor de alimentos) admitem mediação, com homologação judicial + oitiva do MP. (A) Falso — mediação cabe em direitos indisponíveis transigíveis. (B) Falso — exige homologação e MP. (D) Falso — art. 30 da Lei 13.140 ressalva crime de ação pública (mediador deve denunciar). (E) Falso — acordo extrajudicial sobre direito disponível é título executivo extrajudicial, sem necessidade de homologação (art. 20 par. único).'
+  },
+  {
+    id: 48, topic: 22, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a sentença arbitral e os meios de impugnação, é correto afirmar:',
+    alternatives: [
+      'Cabe apelação contra a sentença arbitral, no prazo de 15 dias úteis, perante o Tribunal de Justiça.',
+      'A sentença arbitral interna depende de homologação pelo juiz togado para constituir título executivo judicial.',
+      'A sentença arbitral pode ser desconstituída por ação anulatória, no prazo decadencial de 90 dias após o recebimento, nas hipóteses taxativas do art. 32 da Lei 9.307/96.',
+      'A ação anulatória pode ser substituída por ação rescisória ajuizada no STJ, no prazo de 2 anos.',
+      'A sentença arbitral estrangeira é homologada pelo STF, na forma do art. 102, I, "h", da Constituição Federal.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.307 art. 33 c/c art. 32: ação anulatória é o meio de impugnação à sentença arbitral, prazo decadencial de 90 dias, hipóteses taxativas. (A) Falso — não cabe recurso, só ação anulatória. (B) Falso — sentença arbitral interna é TEJ direto (CPC art. 515 VII + Lei 9.307 art. 31), sem homologação. (D) Falso — não há rescisória da sentença arbitral; só anulatória. (E) Falso — sentença arbitral estrangeira é homologada pelo STJ (CF art. 105 I i, alterado pela EC 45/2004).'
+  },
+  {
+    id: 49, topic: 22, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'No tocante à arbitragem envolvendo a Administração Pública, conforme alterações da Lei 13.129/15, é INCORRETO afirmar:',
+    alternatives: [
+      'A arbitragem é admitida para dirimir conflitos relativos a direitos patrimoniais disponíveis envolvendo a Administração Pública direta e indireta.',
+      'Veda-se a arbitragem por equidade no âmbito da Administração Pública, sendo obrigatória a arbitragem de direito.',
+      'O princípio da publicidade impõe-se à arbitragem com a Administração, sendo proibido o sigilo tradicionalmente utilizado em arbitragens privadas.',
+      'A autoridade competente para celebrar a convenção de arbitragem é a mesma para a celebração de acordos ou transações.',
+      'A sentença arbitral em desfavor da Administração Pública depende de duplo grau de jurisdição (reexame necessário) para produzir efeitos.'
+    ],
+    correct: 'E',
+    explanation: 'NÃO há reexame necessário em sentença arbitral contra a Administração — a sentença arbitral é título executivo judicial direto. O reexame necessário do CPC art. 496 aplica-se a sentenças JUDICIAIS. As demais alternativas são corretas: (A) art. 1º §1º; (B) art. 2º §3º; (C) art. 2º §3º; (D) art. 1º §2º.'
+  },
+  {
+    id: 50, topic: 23, banca: 'Simulada', nivel: 'Médio',
+    statement: 'No procedimento dos Juizados Especiais Cíveis (Lei 9.099/95), é correto afirmar:',
+    alternatives: [
+      'Os prazos processuais contam-se em dias úteis, em razão da aplicação subsidiária do CPC art. 219.',
+      'Cabe recurso especial ao STJ contra acórdãos das Turmas Recursais quando houver violação à lei federal.',
+      'A sentença pode ser ilíquida nas causas condenatórias, remetendo-se a liquidação para fase posterior.',
+      'A capacidade postulatória da própria parte (jus postulandi) é admitida em causas até 20 salários-mínimos, mas o recurso inominado exige sempre advogado.',
+      'Cabe ação rescisória contra sentença transitada em julgado nos Juizados Especiais, observado o prazo de 2 anos.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 9.099 art. 9º + FONAJE 36 + STJ Tema 1.111: jus postulandi até 20 SM, mas recurso inominado exige advogado. (A) Falso — prazos no JEC são CONTÍNUOS, CPC 219 NÃO se aplica (Súmula CJF 99 + FONAJE 165). (B) Falso — Súmula 203/STJ veda REsp do JEC. (C) Falso — art. 38 par. único veda sentença ilíquida. (E) Falso — FONAJE 44 veda rescisória no JEC.'
+  },
+  {
+    id: 51, topic: 23, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as partes admitidas no Juizado Especial Cível (art. 8º da Lei 9.099/95), assinale a alternativa correta:',
+    alternatives: [
+      'O espólio pode ser parte autora, exercendo os direitos do falecido nos juizados.',
+      'A pessoa jurídica de grande porte pode ser autora desde que a causa não exceda 40 salários-mínimos.',
+      'O incapaz pode ser autor mediante representação ou assistência, conforme regra geral.',
+      'Microempresas, empresas de pequeno porte, OSCIP, MEI e sociedades de crédito ao microempreendedor podem ser autoras.',
+      'A massa falida pode propor ações no JEC para acelerar a recuperação de créditos.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 9.099 art. 8º §1º + Lei 9.841/99 + LC 123/06: ME, EPP, OSCIP, MEI e sociedade de crédito ao microempreendedor podem ser autoras. (A) Falso — espólio NÃO pode ser parte (FONAJE 72). (B) Falso — apenas ME, EPP, OSCIP, MEI etc. (C) Falso — incapaz não pode ser parte (art. 8º §1º). (E) Falso — causas falimentares são EXCLUÍDAS do JEC (art. 3º §2º).'
+  },
+  {
+    id: 52, topic: 23, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os recursos no JEC, considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'Cabe recurso especial nos casos em que houver divergência jurisprudencial entre Turmas Recursais de diferentes estados.',
+      'Cabe recurso extraordinário, com demonstração de repercussão geral, contra acórdão de Turma Recursal que decida questão constitucional.',
+      'O recurso inominado dispensa o pagamento de preparo, em razão do princípio da economia processual.',
+      'Os embargos de declaração no JEC têm prazo de 15 dias e não suspendem prazo para outros recursos.',
+      'Cabe agravo de instrumento contra todas as decisões interlocutórias proferidas pelo juiz togado do JEC.'
+    ],
+    correct: 'B',
+    explanation: 'É possível RE contra acórdãos de Turma Recursal, com repercussão geral. STF tem jurisprudência consolidada nesse sentido. (A) Falso — Súmula 203/STJ veda REsp; eventual divergência se resolve via Pedido de Uniformização. (C) Falso — art. 42: preparo é o DOBRO das custas iniciais. (D) Falso — ED têm prazo de 5 dias e SUSPENDEM o prazo para outros recursos (Súmula 640 indireta). (E) Falso — interlocutórias só impugnáveis com a sentença, salvo MS excepcional (TNU Súmula 8).'
+  },
+  {
+    id: 53, topic: 21, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Distingue mediação e conciliação, conforme o CPC e a Lei 13.140/15:',
+    alternatives: [
+      'Apenas o conciliador atua segundo princípios da imparcialidade e da informalidade; o mediador atua de forma diretiva.',
+      'Mediação aplica-se preferencialmente a casos sem vínculo prévio, com sugestão de soluções pelo mediador; conciliação a casos com vínculo prévio, sem proposição de saídas.',
+      'Mediação aplica-se preferencialmente a casos COM vínculo prévio, sem que o mediador sugira soluções; conciliação a casos SEM vínculo prévio, com possibilidade de o conciliador propor saídas.',
+      'Não há diferença normativa entre os institutos; a denominação varia conforme a tradição forense de cada Estado.',
+      'Apenas a mediação observa a confidencialidade; a conciliação é sempre pública.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 165 §§ 2º-3º: distinção legal pelo VÍNCULO PRÉVIO. Mediação = vínculo prévio, mediador FACILITA sem sugerir; conciliação = sem vínculo, conciliador pode SUGERIR. (A) Falso — ambos atuam com imparcialidade. (B) Inverte a regra. (D) Falso — diferença é normativa. (E) Falso — confidencialidade aplica-se a ambas.'
+  },
+  {
+    id: 54, topic: 22, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a cláusula compromissória no contrato de adesão, é correto afirmar:',
+    alternatives: [
+      'É sempre nula, em razão da hipossuficiência presumida do aderente.',
+      'Vincula automaticamente o aderente, em razão do princípio pacta sunt servanda.',
+      'Somente terá eficácia se o aderente tomar a iniciativa OU concordar expressamente em destaque, com visto ou assinatura específica.',
+      'Pode ser invocada de ofício pelo juiz para extinguir o processo sem mérito, em qualquer hipótese.',
+      'Submete-se à homologação do CADE para vincular o aderente.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.307 art. 4º §2º: dupla proteção do aderente — iniciativa OU concordância em destaque + visto. (A) Falso — não é sempre nula; é eficaz se cumpridos os requisitos. (B) Falso — exige proteção adicional ao aderente. (D) Falso — convenção arbitral não é cognoscível de ofício (CPC art. 337 X + §5º). (E) Falso — não há intervenção do CADE em arbitragem privada.'
+  },
+
+  // ============ Bloco 9 — Fase 2 (PC 24-26) ============
+  {
+    id: 55, topic: 24, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Juizado Especial da Fazenda Pública (Lei 12.153/09), assinale a alternativa correta:',
+    alternatives: [
+      'A competência é facultativa para o autor, podendo escolher entre o JEFP e a vara da Fazenda comum nas causas até 60 SM.',
+      'A competência é absoluta nas comarcas onde houver juizado instalado, abrangendo causas de até 60 salários-mínimos contra Estados, DF, Municípios e suas autarquias e fundações.',
+      'O reexame necessário do CPC art. 496 aplica-se integralmente ao JEFP, em razão do princípio da supremacia do interesse público.',
+      'Mandado de segurança e ações coletivas estão entre as causas inseridas na competência do JEFP.',
+      'Apenas pessoas físicas podem ser autoras no JEFP, sendo vedada a participação de microempresas ou empresas de pequeno porte.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 12.153/09 art. 2º: competência ABSOLUTA, até 60 SM, contra entes estaduais/municipais. (A) Falso — competência absoluta (§4º). (C) Falso — art. 7º veda reexame necessário no JEFP. (D) Falso — art. 2º §1º exclui MS e ações coletivas. (E) Falso — ME e EPP podem ser autoras (art. 5º I).'
+  },
+  {
+    id: 56, topic: 24, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito dos prazos processuais no Juizado Especial da Fazenda Pública (Lei 12.153/09), considere:',
+    alternatives: [
+      'Não se aplicam ao JEFP os prazos em dobro previstos no CPC art. 183, em razão do princípio da celeridade dos juizados.',
+      'Aplicam-se ao JEFP os prazos em dobro do CPC art. 183, conforme entendimento firmado pelo STF (Tema 503).',
+      'A Fazenda Pública goza de prazos em quádruplo no JEFP, conforme regra histórica do antigo CPC.',
+      'Os prazos no JEFP são em dias úteis, pela aplicação subsidiária do CPC art. 219.',
+      'Não existe contagem específica para Fazenda no JEFP, pois ela atua em igualdade com particulares.'
+    ],
+    correct: 'B',
+    explanation: 'STF Tema 503 (RE 633.703): prazos em dobro do CPC aplicam-se ao JEFP por subsidiariedade. (A) Inverso da realidade. (C) Falso — quádruplo foi extinto. (D) Falso — prazos no JEFP são contínuos (subsidiariedade da Lei 9.099). (E) Falso — Fazenda goza de prerrogativas (Tema 503).'
+  },
+  {
+    id: 57, topic: 25, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os Juizados Especiais Federais (Lei 10.259/01), é correto afirmar:',
+    alternatives: [
+      'Aplica-se à União, autarquias federais e fundações federais o prazo em dobro do CPC art. 183.',
+      'A competência é absoluta nas localidades onde houver vara federal especializada, abrangendo causas de até 60 salários-mínimos.',
+      'Cabe recurso especial ao STJ contra acórdão da Turma Recursal Federal, com base na Lei 10.259/01.',
+      'O Pedido de Uniformização cabe contra divergência entre Turmas Recursais sobre questões de DIREITO PROCESSUAL.',
+      'Mandado de segurança contra ato federal é da competência do JEF quando o valor da causa não exceder 60 SM.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 10.259 art. 3º §3º: competência absoluta nas comarcas com JEF instalado, até 60 SM. (A) Falso — art. 9º veda prazos diferenciados para Fazenda no JEF. (C) Falso — Súmula 203/STJ veda REsp do JEF. (D) Falso — PU é só sobre direito MATERIAL. (E) Falso — MS está excluído (art. 3º §1º).'
+  },
+  {
+    id: 58, topic: 25, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Em relação à Turma Nacional de Uniformização de Jurisprudência (TNU) e ao Pedido de Uniformização no JEF, considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'A TNU é integrada por desembargadores federais escolhidos pelos Tribunais Regionais Federais.',
+      'O pedido de uniformização cabe quando há divergência entre Turmas Recursais sobre matéria processual ou material, indistintamente.',
+      'Quando a decisão da TNU contrariar súmula ou jurisprudência dominante do STJ, cabe incidente perante o próprio STJ.',
+      'O pedido de uniformização tem efeito suspensivo automático sobre a execução do acórdão da Turma Recursal.',
+      'A TNU pode editar súmulas vinculantes para o Judiciário, equiparáveis às SVs do STF.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 10.259 art. 14 §4º: contra decisão da TNU contrária a súmula/jurisprudência STJ, cabe incidente no STJ. (A) Falso — TNU é integrada por JUÍZES FEDERAIS (10 juízes, 2 por região — art. 15). (B) Falso — PU só sobre direito MATERIAL. (D) Falso — não há efeito suspensivo automático. (E) Falso — súmulas da TNU não vinculam como SV do STF (CF art. 103-A).'
+  },
+  {
+    id: 59, topic: 26, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a justiça gratuita no CPC/15, é correto afirmar:',
+    alternatives: [
+      'A pessoa jurídica não pode obter o benefício da gratuidade, em razão da impossibilidade de presunção de hipossuficiência.',
+      'A gratuidade somente pode ser requerida na petição inicial, sob pena de preclusão temporal.',
+      'O beneficiário da gratuidade derrotado na demanda fica integralmente dispensado de pagar honorários sucumbenciais e custas.',
+      'O juiz pode indeferir o pedido de gratuidade sem prévia oportunidade de comprovação à parte, quando os autos evidenciarem capacidade financeira.',
+      'O beneficiário derrotado é condenado em honorários sucumbenciais e custas, mas a exigibilidade fica suspensa por até 5 anos.'
+    ],
+    correct: 'E',
+    explanation: 'CPC art. 98 §3º: beneficiário derrotado é CONDENADO em honorários, exigibilidade SUSPENSA por 5 anos. Se não houver melhora, prescreve. (A) Falso — Súmula 481/STJ permite à PJ que comprove. (B) Falso — Súmula 640/STJ: a qualquer tempo. (C) Falso — não há dispensa, há suspensão. (D) Falso — art. 99 §2º exige contraditório prévio.'
+  },
+  {
+    id: 60, topic: 26, banca: 'Simulada', nivel: 'Médio',
+    statement: 'No tocante ao pedido de gratuidade da justiça pela pessoa jurídica, é correto afirmar:',
+    alternatives: [
+      'É vedada à pessoa jurídica em qualquer hipótese, pelo princípio da personalidade.',
+      'Apenas pessoas jurídicas sem fins lucrativos têm direito ao benefício.',
+      'A pessoa jurídica, com ou sem fins lucrativos, pode obter a gratuidade desde que comprove a impossibilidade de arcar com os encargos processuais.',
+      'A pessoa jurídica goza da mesma presunção iuris tantum de hipossuficiência que a pessoa física.',
+      'A concessão à pessoa jurídica depende da prévia oitiva do Ministério Público em todos os casos.'
+    ],
+    correct: 'C',
+    explanation: 'Súmula 481/STJ: PJ com OU sem fins lucrativos pode obter, desde que COMPROVE a impossibilidade. (A) Falso — possível desde que comprovada. (B) Falso — também as com fins lucrativos. (D) Falso — só PF tem presunção (art. 99 §3º); PJ deve provar. (E) Falso — MP só intervém em casos do art. 178 (interesse público/incapaz).'
+  },
+
+  // ============ Bloco 10 — Fase 2 (PC 27-30) ============
+  {
+    id: 61, topic: 27, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Em relação à cooperação jurídica internacional regulada pelo CPC/15, é correto afirmar:',
+    alternatives: [
+      'A homologação de sentença estrangeira é da competência do Supremo Tribunal Federal, conforme regra constitucional vigente.',
+      'A sentença estrangeira de divórcio consensual produz efeitos no Brasil independentemente de homologação pelo STJ.',
+      'O auxílio direto exige sempre prévio juízo de delibação pelo STJ, equiparando-se à carta rogatória.',
+      'Na homologação de sentença estrangeira, o STJ examina o mérito da causa, podendo reformar a decisão proferida no exterior.',
+      'A execução de sentença estrangeira homologada é da Justiça Estadual do domicílio do devedor.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 961 §5º: divórcio CONSENSUAL puro produz efeitos diretos, dispensando homologação. (A) Falso — STJ desde EC 45/2004 (CF 105 I i). (C) Falso — auxílio direto NÃO precisa de delibação (CPC art. 33: competência da JF). (D) Falso — art. 964 veda revisão de mérito (juízo de delibação). (E) Falso — execução é JF (CF 109 X + CPC 965).'
+  },
+  {
+    id: 62, topic: 27, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o juízo de delibação na homologação de sentença estrangeira pelo STJ, é INCORRETO afirmar:',
+    alternatives: [
+      'Não comporta análise do mérito da decisão estrangeira, em razão da soberania jurisdicional do país de origem.',
+      'O STJ verifica requisitos formais como autoridade competente, citação ou revelia legalmente verificada e tradução.',
+      'A sentença estrangeira não pode ofender a coisa julgada brasileira nem a ordem pública nacional.',
+      'A homologação é dispensada quando a sentença estrangeira já houver sido objeto de exequatur em carta rogatória.',
+      'Em caso de divórcio consensual puro, o efeito da sentença é direto, dispensando-se a homologação.'
+    ],
+    correct: 'D',
+    explanation: 'O exequatur (carta rogatória) NÃO substitui a homologação — são institutos distintos. Carta rogatória = ato isolado; homologação = reconhecimento da decisão como um todo. (A) Correto — art. 964. (B) Correto — art. 963. (C) Correto — art. 963 par. único. (E) Correto — art. 961 §5º.'
+  },
+  {
+    id: 63, topic: 28, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o microssistema de precedentes vinculantes do CPC/15, assinale a alternativa correta:',
+    alternatives: [
+      'O art. 927 do CPC enumera precedentes meramente persuasivos, sem qualquer eficácia vinculante.',
+      'O distinguishing somente pode ser realizado pelo tribunal autor do precedente, vedado a juízos inferiores.',
+      'O IRDR exige a efetiva repetição de processos sobre questão de direito, com risco à isonomia e à segurança jurídica.',
+      'A reclamação cabe contra qualquer súmula do STJ, ainda que não vinculante, para garantir uniformidade.',
+      'O overruling pode ser realizado por qualquer juiz, com fundamentação adequada, em decisão singular.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 976 I-II: IRDR exige efetiva repetição + risco à isonomia/segurança. (A) Falso — art. 927 traz precedentes obrigatórios. (B) Falso — distinguishing pode QUALQUER juiz com fundamentação adequada (art. 489 §1º VI). (D) Falso — Súmula 734/STF: só súmulas vinculantes. (E) Falso — overruling só pelo tribunal autor (ou superior).'
+  },
+  {
+    id: 64, topic: 28, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Considerando o IRDR (incidente de resolução de demandas repetitivas) e o IAC (incidente de assunção de competência), assinale a alternativa correta:',
+    alternatives: [
+      'Tanto o IRDR quanto o IAC exigem a efetiva repetição de processos sobre a mesma questão.',
+      'O IRDR aplica-se a questão exclusivamente de direito; o IAC, a questões de fato e de direito conexas.',
+      'O IRDR vincula apenas as partes do caso paradigma; o IAC, todos os juízes da área de jurisdição.',
+      'A tese fixada no IRDR vincula os processos pendentes E os FUTUROS na área de jurisdição do tribunal.',
+      'O IAC requer a aprovação do plenário do STF para produzir efeitos vinculantes nacionais.'
+    ],
+    correct: 'D',
+    explanation: 'CPC art. 985 II: tese do IRDR aplica-se a casos pendentes E futuros (efeito ultra partes). (A) Falso — IAC NÃO exige repetição. (B) Falso — ambos sobre direito; IAC tem foco em "relevante questão de direito". (C) Inverte: IRDR vincula a área (947 §3º para IAC também). (E) Falso — IAC é interno do tribunal de 2º grau.'
+  },
+  {
+    id: 65, topic: 29, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o inquérito civil (Resolução CNMP 23/2007), é correto afirmar:',
+    alternatives: [
+      'É instrumento investigativo concorrente entre Ministério Público e Polícia Judiciária.',
+      'A promoção de arquivamento depende de homologação pelo juiz competente, sob pena de nulidade.',
+      'É instrumento investigativo exclusivo do Ministério Público (CF art. 129 III); o arquivamento submete-se ao Conselho Superior do MP.',
+      'O inquérito civil tem prazo improrrogável de 6 meses para conclusão, conforme regulamento.',
+      'O termo de ajustamento de conduta firmado em inquérito civil exige homologação judicial para constituir título executivo.'
+    ],
+    correct: 'C',
+    explanation: 'Res. CNMP 23/2007 + CF art. 129 III: IC é exclusivo do MP. (A) Falso — exclusivo do MP. (B) Falso — arquivamento vai ao CSMP, NÃO ao juiz. (D) Falso — prazo é 1 ano, prorrogável (art. 9º). (E) Falso — TAC é título executivo EXTRAJUDICIAL direto (Lei 7.347 art. 5º §6º).'
+  },
+  {
+    id: 66, topic: 29, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o limite do poder normativo do CNJ e do CNMP, é correto afirmar:',
+    alternatives: [
+      'As resoluções podem inovar sobre matéria reservada à lei, em razão da autonomia constitucional dos órgãos.',
+      'As resoluções têm força de emenda constitucional quando aprovadas por maioria qualificada.',
+      'Conforme decidido pelo STF (ADI 4.638), a competência normativa não é genérica nem alcança matéria reservada à lei.',
+      'As resoluções dispensam controle judicial em razão do princípio da autoadministração.',
+      'O Conselho pode revogar dispositivos legais por ato administrativo motivado.'
+    ],
+    correct: 'C',
+    explanation: 'STF ADI 4.638: competência normativa do CNJ/CNMP é limitada à atividade administrativa do Poder/órgão; não substitui lei em matéria reservada (proporcionalidade + reserva legal). (A), (B), (D), (E) violam separação de poderes e reserva de lei.'
+  },
+  {
+    id: 67, topic: 30, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os honorários sucumbenciais no CPC/15, é correto afirmar:',
+    alternatives: [
+      'O juiz pode compensar honorários quando há sucumbência recíproca, mantendo-se a regra do CPC/73.',
+      'Os honorários têm natureza indenizatória, não alimentar, em razão da sua titularidade pela parte vencedora.',
+      'Os honorários recursais (§11) não se aplicam a recursos contra a Fazenda Pública, em razão do interesse público.',
+      'A condenação em honorários abrange a fase de cumprimento de sentença, a reconvenção e a execução resistida.',
+      'O juiz pode fixar honorários abaixo do percentual mínimo legal quando entender excessivo o valor da condenação.'
+    ],
+    correct: 'D',
+    explanation: 'CPC art. 85 §18: caput, §2º e demais aplicam-se também à reconvenção, ao cumprimento de sentença e à execução resistida. (A) Falso — §14 VEDA compensação. (B) Falso — §14 estabelece natureza ALIMENTAR. (C) Falso — §11 aplica-se à Fazenda. (E) Falso — STJ Tema 1.105 veda fixação abaixo do mínimo da faixa.'
+  },
+  {
+    id: 68, topic: 30, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito das multas processuais no CPC/15, considerando os destinatários dos respectivos valores, é correto afirmar:',
+    alternatives: [
+      'A multa por litigância de má-fé (art. 81) reverte em favor da União ou do Estado, por sua natureza punitiva.',
+      'A multa cominatória (astreintes — art. 537) é destinada à União, em substituição à execução privada.',
+      'A multa por ato atentatório à dignidade da justiça (art. 77 §2º) reverte em favor da parte contrária prejudicada.',
+      'A multa por ausência injustificada à audiência de conciliação (art. 334 §8º) reverte em favor da União ou do Estado.',
+      'A multa por execução manifestamente protelatória (art. 918) é destinada ao juiz que conduz o processo.'
+    ],
+    correct: 'D',
+    explanation: 'CPC art. 334 §8º: ausência à audiência = ato atentatório, multa até 2% à União/Estado. (A) Falso — má-fé reverte à PARTE CONTRÁRIA + indenização (art. 81). (B) Falso — astreintes vão ao EXEQUENTE. (C) Falso — atentatório ao art. 77 §2º vai à União/Estado. (E) Falso — protelação execução = exequente.'
   }
 ],
 
@@ -3749,22 +5516,41 @@ sumulas: [
   // STF Súmulas Vinculantes
   { tribunal: 'STF', tipo: 'SV', num: 10, topic: 16, text: 'Viola a cláusula de reserva de plenário (CF, art. 97) a decisão de órgão fracionário de tribunal que, embora não declare expressamente a inconstitucionalidade de lei ou ato normativo do Poder Público, afasta sua incidência, no todo ou em parte.' },
   { tribunal: 'STF', tipo: 'SV', num: 17, topic: 12, text: 'Durante o período previsto no parágrafo 1º do art. 100 da Constituição Federal, não incidem juros de mora sobre os precatórios que nele sejam pagos.' },
+  { tribunal: 'STF', tipo: 'SV', num: 25, topic: 1, text: 'É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.' },
 
   // STF Súmulas
   { tribunal: 'STF', tipo: 'Súmula', num: 267, topic: 19, text: 'Não cabe mandado de segurança contra ato judicial passível de recurso ou correição.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 268, topic: 19, text: 'Não cabe mandado de segurança contra decisão judicial com trânsito em julgado.' },
   { tribunal: 'STF', tipo: 'Súmula', num: 269, topic: 19, text: 'O mandado de segurança não é substitutivo de ação de cobrança.' },
   { tribunal: 'STF', tipo: 'Súmula', num: 271, topic: 19, text: 'Concessão de mandado de segurança não produz efeitos patrimoniais em relação a período pretérito, os quais devem ser reclamados administrativamente ou pela via judicial própria.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 279, topic: 16, text: 'Para simples reexame de prova não cabe recurso extraordinário.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 280, topic: 16, text: 'Por ofensa a direito local não cabe recurso extraordinário.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 282, topic: 16, text: 'É inadmissível o recurso extraordinário, quando não ventilada, na decisão recorrida, a questão federal suscitada.' },
   { tribunal: 'STF', tipo: 'Súmula', num: 343, topic: 16, text: 'Não cabe ação rescisória por ofensa a literal disposição de lei, quando a decisão rescindenda se tiver baseado em texto legal de interpretação controvertida nos tribunais.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 356, topic: 16, text: 'O ponto omisso da decisão, sobre o qual não foram opostos embargos declaratórios, não pode ser objeto de recurso extraordinário, por faltar o requisito do prequestionamento.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 365, topic: 20, text: 'Pessoa jurídica não tem legitimidade para propor ação popular.' },
 
   // STJ Súmulas
+  { tribunal: 'STJ', tipo: 'Súmula', num: 2, topic: 19, text: 'Não cabe o habeas data (CF, art. 5º, LXXII, letra a) se não houve recusa de informações por parte da autoridade administrativa.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 7, topic: 16, text: 'A pretensão de simples reexame de prova não enseja recurso especial.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 33, topic: 6, text: 'A incompetência relativa não pode ser declarada de ofício.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 84, topic: 14, text: 'É admissível a oposição de embargos de terceiro fundados em alegação de posse advinda do compromisso de compra e venda de imóvel, ainda que desprovido do registro.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 99, topic: 5, text: 'O Ministério Público tem legitimidade para recorrer no processo em que oficiou como fiscal da lei, ainda que não haja recurso da parte.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 106, topic: 8, text: 'Proposta a ação no prazo fixado para o seu exercício, a demora na citação, por motivos inerentes ao mecanismo da Justiça, não justifica o acolhimento da arguição de prescrição ou decadência.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 150, topic: 16, text: 'Compete à Justiça Federal decidir sobre a existência de juízo arbitral. (Aplicação análoga: prescreve em cinco anos a ação rescisória.)' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 189, topic: 5, text: 'É desnecessária a intervenção do Ministério Público nas execuções fiscais.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 203, topic: 18, text: 'Não cabe recurso especial contra decisão proferida por órgão de segundo grau dos Juizados Especiais.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 211, topic: 16, text: 'Inadmissível recurso especial quanto à questão que, a despeito da oposição de embargos declaratórios, não foi apreciada pelo Tribunal a quo.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 226, topic: 5, text: 'O Ministério Público tem legitimidade para recorrer na ação de acidente do trabalho, ainda que o segurado esteja assistido por advogado.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 231, topic: 11, text: 'A incidência da revelia não implica a procedência do pedido.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 235, topic: 6, text: 'A conexão não determina a reunião dos processos, se um deles já foi julgado.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 240, topic: 10, text: 'A extinção do processo, por abandono da causa pelo autor, depende de requerimento do réu.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 259, topic: 14, text: 'A ação de prestação de contas pode ser proposta pelo titular de conta-corrente bancária.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 309, topic: 13, text: 'O débito alimentar que autoriza a prisão civil do alimentante é o que compreende as três prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 314, topic: 15, text: 'Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição quinquenal intercorrente.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 329, topic: 20, text: 'O Ministério Público tem legitimidade para propor ação civil pública em defesa do patrimônio público.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 339, topic: 13, text: 'É cabível ação monitória contra a Fazenda Pública.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 372, topic: 19, text: 'Na ação de exibição de documentos, não cabe a aplicação de multa cominatória.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 375, topic: 15, text: 'O reconhecimento da fraude à execução depende do registro da penhora do bem alienado ou da prova de má-fé do terceiro adquirente.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 384, topic: 13, text: 'Cabe ação monitória para haver saldo remanescente oriundo de venda extrajudicial de bem alienado fiduciariamente em garantia.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 393, topic: 15, text: 'A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que não demandem dilação probatória.' },
@@ -3773,8 +5559,12 @@ sumulas: [
   { tribunal: 'STJ', tipo: 'Súmula', num: 414, topic: 8, text: 'A citação por edital na execução fiscal é cabível quando frustradas as demais modalidades.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 460, topic: 19, text: 'É incabível o mandado de segurança para convalidar a compensação tributária realizada pelo contribuinte.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 481, topic: 17, text: 'Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 485, topic: 1, text: 'A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 489, topic: 6, text: 'Reconhecida a continência, devem ser reunidas na Justiça Federal as ações civis públicas propostas nesta e na Justiça estadual.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 503, topic: 6, text: 'O prazo para ajuizamento de ação monitória em face do emitente de cheque sem força executiva é quinquenal, a contar do dia seguinte à data de emissão estampada na cártula.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 556, topic: 6, text: 'É competente a Justiça Estadual para processar e julgar as causas em que é parte sociedade de economia mista federal.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 612, topic: 15, text: 'O direito à prestação dos serviços de assistência médico-hospitalar contratados originariamente com a operadora não pode ser obstado, mesmo após o inadimplemento, sem prévia notificação. (Tese análoga aplicada à exigência de memória discriminada em excesso de execução, art. 525, §4º).' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 637, topic: 14, text: 'O ente público tem legitimidade e interesse para intervir, como amicus curiae, em ação possessória entre particulares, podendo opinar sobre questões de ordem pública envolvidas.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 640, topic: 18, text: 'O benefício da justiça gratuita pode ser requerido a qualquer tempo, considerando-se a situação econômica do interessado no momento da formulação do pedido.' }
 ],
 
@@ -3807,6 +5597,16 @@ cronograma: {
     { mes: 'Mês 3 (jul-ago)', topicos: '10, 11', notas: '⚠️ Item 11 (procedimento comum) é o maior — quebrar em 4+ sub-resumos.' },
     { mes: 'Mês 4 (ago)', topicos: '12, 13, 14, 15, 16', notas: 'Cumprimento, especiais, voluntária, execução, recursos. Item 16 também grande.' },
     { mes: 'Mês 5 (set)', topicos: '17, 18, 19, 20 + revisão', notas: 'Item 20 (ACP) = vantagem. Última semana = simulado de 60 questões.' }
+  ],
+  fase2Meses: [
+    { mes: 'Mês 1 (out)', topicos: '21, 22, 23', notas: 'Mediação/conciliação, arbitragem, JEC. Eixo "modos alternativos + microssistema".' },
+    { mes: 'Mês 2 (nov)', topicos: '24, 25, 26, 27, 28, 29, 30', notas: 'Juizados Fazenda/Federal, gratuidade, cooperação internacional, precedentes, CNJ/CNMP, honorários. Bloco mais leve em volume; foco em jurisprudência consolidada.' }
+  ],
+  fase3Meses: [
+    { mes: 'Mês 1 (dez/26)', topicos: 'civ 1-5', notas: 'LINDB, pessoas naturais e jurídicas, bens, fatos jurídicos. Base que sustenta tudo o resto.' },
+    { mes: 'Mês 2 (jan/27)', topicos: 'civ 6-9', notas: 'Obrigações geral + inadimplemento, contratos geral + espécie. Volume alto — quebrar contratos em sub-resumos.' },
+    { mes: 'Mês 3 (fev/27)', topicos: 'civ 10-13', notas: 'Atos unilaterais, responsabilidade civil, empresa, posse e propriedade.' },
+    { mes: 'Mês 4 (mar/27)', topicos: 'civ 14-17 + revisão', notas: 'Garantias reais, família, sucessões. Última semana = simulado integrando Civil + PC.' }
   ]
 }
 

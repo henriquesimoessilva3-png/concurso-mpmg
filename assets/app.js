@@ -42,10 +42,14 @@
     },
 
     getAdjacentTopics(id) {
-      const idx = APP_DATA.topics.findIndex(t => t.id === id);
+      const cur = APP_DATA.topics.find(t => t.id === id);
+      if (!cur) return { prev: null, next: null };
+      const mat = cur.materia || 'pc';
+      const same = APP_DATA.topics.filter(t => (t.materia || 'pc') === mat);
+      const idx = same.findIndex(t => t.id === id);
       return {
-        prev: idx > 0 ? APP_DATA.topics[idx - 1] : null,
-        next: idx < APP_DATA.topics.length - 1 ? APP_DATA.topics[idx + 1] : null
+        prev: idx > 0 ? same[idx - 1] : null,
+        next: idx < same.length - 1 ? same[idx + 1] : null
       };
     },
 
