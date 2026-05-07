@@ -53,10 +53,21 @@
     return;
   }
 
+  // detecta esqueleto (sections vazias) — modo "🚧 Em construção"
+  const isStub = !topic.sections || topic.sections.length === 0;
+  const materiaLabel = (topic.materia === 'civil') ? 'Civil' : 'PC';
+  const numLabel = (topic.materia === 'civil') ? `Civ ${topic.num}` : `Tópico ${topic.num}`;
+
+  // pools para Quick check (visível tanto no markup, quanto no setup)
+  const topicCards = (window.APP_DATA.flashcards || []).filter(f => f.topic === topic.num && (topic.materia || 'pc') === 'pc');
+  const topicQs = (window.APP_DATA.questions || []).filter(q => q.topic === topic.num && (topic.materia || 'pc') === 'pc');
+
   // título e subtítulo
-  document.title = `Tópico ${topic.num} · ${topic.title}`;
-  document.getElementById('hdr-title').textContent = `Tópico ${topic.num} · ${topic.title}`;
-  document.getElementById('hdr-subtitle').textContent = `Edital ${topic.edital} · ${topic.size}`;
+  document.title = `${numLabel} · ${topic.title}`;
+  document.getElementById('hdr-title').textContent = `${numLabel} · ${topic.title}`;
+  document.getElementById('hdr-subtitle').textContent = isStub
+    ? `Edital ${topic.edital} · 🚧 Em construção`
+    : `Edital ${topic.edital} · ${topic.size}`;
 
   // monta artigo
   const html = [];
@@ -64,6 +75,14 @@
 
   // callout edital
   html.push(`<div class="callout callout-edital"><strong>Texto do edital (${topic.edital}):</strong> ${App.escape(topic.editalText)}</div>`);
+
+  if (isStub) {
+    html.push(`<div class="content-box box-info"><div class="box-label">🚧 Em construção</div><div class="box-body">Este tópico ainda não foi escrito. Voltaremos aqui quando esta fase começar — o sumário abaixo já indica o que vai entrar.</div></div>`);
+    if (topic.outline && topic.outline.length) {
+      html.push('<h2>Sumário previsto</h2>');
+      html.push('<ul>' + topic.outline.map(s => `<li>${App.escape(s)}</li>`).join('') + '</ul>');
+    }
+  } else {
 
   // meta bar
   const metaItems = [];
@@ -178,6 +197,33 @@
     }
   });
 
+  // ----- Quick check (inline runners) -----
+  // pools (topicCards / topicQs) já calculados no escopo principal
+  if (topicCards.length || topicQs.length) {
+    html.push('<h2>🎯 Quick check do tópico</h2>');
+    html.push('<p style="color:var(--text-muted); font-size:0.85rem;">Mini-prática inline — flashcard e questão sorteados deste tópico. SM-2 e log de erros são compartilhados com o modo completo.</p>');
+    if (topicCards.length) {
+      html.push(`
+        <div class="card" id="qc-flash" style="margin-top:0.6rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+            <strong>🃏 Mini-flashcard</strong>
+            <span style="color:var(--text-muted); font-size:0.85rem;">${topicCards.length} disponível(eis)</span>
+          </div>
+          <div id="qc-flash-body" style="margin-top:0.6rem;"></div>
+        </div>`);
+    }
+    if (topicQs.length) {
+      html.push(`
+        <div class="card" id="qc-q" style="margin-top:0.6rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+            <strong>✍️ Mini-questão</strong>
+            <span style="color:var(--text-muted); font-size:0.85rem;">${topicQs.length} disponível(eis)</span>
+          </div>
+          <div id="qc-q-body" style="margin-top:0.6rem;"></div>
+        </div>`);
+    }
+  }
+
   // Notas pessoais
   html.push(`
     <h2>📝 Suas notas pessoais</h2>
@@ -197,7 +243,11 @@
     </div>
   `);
 
+  } /* end if(!isStub) */
+
   article.innerHTML = html.join('\n');
+
+  if (!isStub) {
 
   // ---- Status persistente ----
   const statusKey = `topic-status-${topic.id}`;
@@ -233,6 +283,156 @@
       App.toast('Notas salvas');
     }, 600);
   });
+
+  // ---- QUICK CHECK (inline runners) ----
+  (function initQuickCheck() {
+    // Mini-flashcard com SM-2 (interopera com flashcards-state)
+    const flashBody = document.getElementById('qc-flash-body');
+    if (flashBody && topicCards.length) {
+      const SM_KEY = 'flashcards-state';
+      let curCard = null;
+
+      function pickCard() {
+        // prioriza vencidos, depois novos, depois aleatório
+        const today = App.today();
+        const sm = App.load(SM_KEY, {});
+        const due = topicCards.filter(c => sm[c.id] && sm[c.id].dueDate && new Date(sm[c.id].dueDate) <= today);
+        const fresh = topicCards.filter(c => !sm[c.id] || sm[c.id].reps === 0);
+        const pool = due.length ? due : (fresh.length ? fresh : topicCards);
+        curCard = pool[Math.floor(Math.random() * pool.length)];
+        renderQuestion();
+      }
+
+      function renderQuestion() {
+        flashBody.innerHTML = `
+          <div style="font-size:0.95rem; line-height:1.5;">${App.escape(curCard.q)}</div>
+          <div class="btn-row" style="margin-top:0.7rem;">
+            <button class="btn btn-sm btn-theme" data-act="show">Ver resposta</button>
+            <button class="btn btn-sm btn-ghost" data-act="skip">↻ Outro</button>
+          </div>`;
+        flashBody.querySelector('[data-act="show"]').addEventListener('click', renderAnswer);
+        flashBody.querySelector('[data-act="skip"]').addEventListener('click', pickCard);
+      }
+
+      function renderAnswer() {
+        flashBody.innerHTML = `
+          <div style="font-size:0.85rem; color:var(--text-muted); margin-bottom:0.4rem;">${App.escape(curCard.q)}</div>
+          <div style="font-size:0.95rem; line-height:1.5;"><strong>${App.escape(curCard.a)}</strong></div>
+          <div style="margin-top:0.4rem; font-size:0.78rem; color:var(--text-muted);">Como foi? Atualiza o SM-2 deste card.</div>
+          <div class="btn-row" style="margin-top:0.5rem; flex-wrap:wrap;">
+            <button class="btn btn-sm btn-danger" data-grade="0">De novo</button>
+            <button class="btn btn-sm" data-grade="2">Difícil</button>
+            <button class="btn btn-sm btn-success" data-grade="3">Bom</button>
+            <button class="btn btn-sm btn-primary" data-grade="4">Fácil</button>
+          </div>`;
+        flashBody.querySelectorAll('button[data-grade]').forEach(b => {
+          b.addEventListener('click', () => grade(parseInt(b.dataset.grade)));
+        });
+      }
+
+      function grade(g) {
+        const sm = App.load(SM_KEY, {});
+        const s = sm[curCard.id] || { ease: 2.5, interval: 0, dueDate: null, reps: 0, lapses: 0, learned: false };
+        s.reps = (s.reps || 0) + 1;
+        if (g === 0) {
+          s.lapses = (s.lapses || 0) + 1;
+          s.interval = 0;
+          s.ease = Math.max(1.3, s.ease - 0.2);
+          s.dueDate = App.today().toISOString();
+        } else {
+          if (g === 2) {
+            s.interval = s.interval === 0 ? 1 : Math.max(1, Math.round(s.interval * 1.2));
+            s.ease = Math.max(1.3, s.ease - 0.15);
+          } else if (g === 3) {
+            if (s.interval === 0) s.interval = 1;
+            else if (s.interval === 1) s.interval = 3;
+            else s.interval = Math.round(s.interval * s.ease);
+          } else if (g === 4) {
+            if (s.interval === 0) s.interval = 3;
+            else s.interval = Math.round(s.interval * s.ease * 1.3);
+            s.ease = s.ease + 0.1;
+          }
+          s.dueDate = App.addDays(App.today(), s.interval).toISOString();
+          if (s.reps >= 3 && s.interval >= 7) s.learned = true;
+        }
+        sm[curCard.id] = s;
+        App.save(SM_KEY, sm);
+        App.toast('SM-2 atualizado · próximo em ' + (s.interval || 0) + 'd');
+        pickCard();
+      }
+
+      pickCard();
+    }
+
+    // Mini-questão (interopera com log-erros)
+    const qBody = document.getElementById('qc-q-body');
+    if (qBody && topicQs.length) {
+      const ERR_KEY = 'log-erros';
+      let curQ = null;
+      let answered = false;
+
+      function pickQ() {
+        answered = false;
+        curQ = topicQs[Math.floor(Math.random() * topicQs.length)];
+        renderQ();
+      }
+
+      function renderQ() {
+        const altsHtml = curQ.alternatives.map((alt, i) => {
+          const letter = String.fromCharCode(65 + i);
+          return `<button class="alternative qc-alt" data-letter="${letter}" style="display:block; width:100%; text-align:left; margin-top:0.3rem; padding:0.55rem 0.7rem; border:1px solid var(--border); background:white; border-radius:6px; cursor:pointer; font-size:0.9rem;">
+            <span class="letter" style="font-weight:600;">${letter})</span> ${App.escape(alt)}
+          </button>`;
+        }).join('');
+        qBody.innerHTML = `
+          <div style="font-size:0.85rem; color:var(--text-muted);">${App.escape(curQ.banca || 'Banca')} · Nível ${App.escape(curQ.nivel || 'Médio')}</div>
+          <div style="font-size:0.93rem; line-height:1.5; margin-top:0.4rem;">${App.escape(curQ.statement)}</div>
+          <div style="margin-top:0.5rem;">${altsHtml}</div>
+          <div id="qc-q-explain" style="display:none; margin-top:0.6rem;"></div>
+          <div class="btn-row" style="margin-top:0.6rem;">
+            <button class="btn btn-sm btn-ghost" data-act="skip">↻ Outra</button>
+          </div>`;
+        qBody.querySelectorAll('.qc-alt').forEach(b => {
+          b.addEventListener('click', () => answer(b.dataset.letter));
+        });
+        qBody.querySelector('[data-act="skip"]').addEventListener('click', pickQ);
+      }
+
+      function answer(letter) {
+        if (answered) return;
+        answered = true;
+        const right = letter === curQ.correct;
+        qBody.querySelectorAll('.qc-alt').forEach(b => {
+          const l = b.dataset.letter;
+          b.disabled = true;
+          b.style.cursor = 'default';
+          if (l === curQ.correct) { b.style.background = '#d1fae5'; b.style.borderColor = '#10b981'; }
+          if (l === letter && !right) { b.style.background = '#fee2e2'; b.style.borderColor = '#ef4444'; }
+        });
+        const ex = document.getElementById('qc-q-explain');
+        ex.style.display = '';
+        ex.className = 'content-box ' + (right ? 'box-conexao' : 'box-atencao');
+        ex.innerHTML = `<div class="box-label">${right ? '✅ Correto' : '❌ Errou — gabarito: ' + curQ.correct}</div><div class="box-body">${App.escape(curQ.explanation)}</div>`;
+        if (!right) {
+          const errLog = App.load(ERR_KEY, []);
+          errLog.push({
+            date: new Date().toISOString(),
+            questionId: curQ.id,
+            topic: curQ.topic,
+            statement: curQ.statement,
+            given: letter,
+            correct: curQ.correct,
+            explanation: curQ.explanation,
+            inline: true
+          });
+          App.save(ERR_KEY, errLog);
+          App.toast('Erro registrado no log');
+        }
+      }
+
+      pickQ();
+    }
+  })();
 
   // ---- AUDIO MODE (TTS via SpeechSynthesis API) ----
   (function initAudio() {
@@ -272,7 +472,7 @@
 
     function getChunks() {
       const article = document.getElementById('article-content');
-      const skipH2 = new Set(['Status', '📝 Suas notas pessoais', '🚀 Ações rápidas']);
+      const skipH2 = new Set(['Status', '📝 Suas notas pessoais', '🚀 Ações rápidas', '🎯 Quick check do tópico', 'Sumário previsto']);
       const out = [];
       let inSkip = false;
       Array.from(article.children).forEach(el => {
@@ -374,18 +574,21 @@
     window.addEventListener('beforeunload', () => window.speechSynthesis.cancel());
   })();
 
+  } /* end if(!isStub) for setup */
+
   // ---- Navegação prev/next ----
   const adj = App.getAdjacentTopics(id);
   const navEl = document.getElementById('topic-nav');
+  const prefix = (topic.materia === 'civil') ? 'Civil ' : 'Tópico ';
   navEl.innerHTML = '';
   if (adj.prev) {
-    navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.prev.id}` }, `← Tópico ${adj.prev.num}: ${adj.prev.title}`));
+    navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.prev.id}` }, `← ${prefix}${adj.prev.num}: ${adj.prev.title}`));
   } else {
     navEl.appendChild(App.el('a', { class: 'nav-disabled', href: '#' }, '← (primeiro)'));
   }
   navEl.appendChild(App.el('a', { href: 'index.html#bloco-2' }, '↑ Painel'));
   if (adj.next) {
-    navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.next.id}` }, `Tópico ${adj.next.num}: ${adj.next.title} →`));
+    navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.next.id}` }, `${prefix}${adj.next.num}: ${adj.next.title} →`));
   } else {
     navEl.appendChild(App.el('a', { class: 'nav-disabled', href: '#' }, '(último) →'));
   }

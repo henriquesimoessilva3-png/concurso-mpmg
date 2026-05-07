@@ -1,6 +1,6 @@
 # HANDOFF — Projeto Concurso MPMG
 
-> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-06.
+> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-07.
 
 ## Como abrir o próximo chat
 
@@ -51,10 +51,13 @@ Projeto Concurso/
   - Estrutura por tópico: Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
   - Renderização suporta blocos tipados (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
   - 968 blocos tipados no total
-- **Flashcards** expandidos cobrindo armadilhas e jurisprudência consolidada de cada tópico
-- **Questões simuladas** com gabarito comentado, no estilo IBGP/MPMG
-- **Súmulas STF/STJ** mapeadas por tópico
-- **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 detalhada** (5 meses)
+- **+10 esqueletos PC 21-30** (Fase 2) — `materia: 'pc'`, `sections: []`, `outline[]` com sumário previsto
+- **+17 esqueletos Direito Civil** (Fase 3) — `materia: 'civil'`, numeração própria 1-17 (LINDB → Sucessões)
+- **Flashcards** (117) cobrindo armadilhas e jurisprudência consolidada
+- **Questões simuladas** (45) com gabarito comentado, no estilo IBGP/MPMG
+- **Súmulas STF/STJ** (48) mapeadas por tópico
+- **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
+- Campo `materia` opcional (default `'pc'` se ausente — backward-compat com os 20 PC originais)
 
 ## Renderer tipado em `topicos.html`
 
@@ -68,12 +71,28 @@ A função `renderItem(item)` (em `topicos.html:62-103`) detecta:
 
 CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`.
 
+## Inline runners (Quick check) em `topicos.html`
+
+- Cada tópico PC 1-20 ganha uma seção 🎯 Quick check do tópico no final
+- Mini-flashcard sorteado do `APP_DATA.flashcards.filter(f => f.topic === topic.num)`
+  - Botões SM-2 (De novo / Difícil / Bom / Fácil) gravam em `concurso-mpmg-flashcards-state` (mesma chave do modo completo)
+- Mini-questão sorteada do `APP_DATA.questions.filter(q => q.topic === topic.num)`
+  - Acertos/erros disparam feedback inline. Erros são gravados em `concurso-mpmg-log-erros` com flag `inline: true`
+- Excluído do TTS (`getChunks()` ignora "🎯 Quick check do tópico" e "Sumário previsto")
+
+## Empty-state para esqueletos
+
+- `topicos.html` detecta `sections.length === 0` e exibe banner "🚧 Em construção" + lista do `outline[]`
+- Status, Notas, Audio, Quick check e Ações rápidas ficam ocultos em stubs (não fazem sentido sem conteúdo)
+- Navegação prev/next filtra por matéria — não atravessa fronteira PC ↔ Civil
+
 ## Próximas tasks possíveis
 
-1. **Atualizar súmulas** — adicionar súmulas referenciadas nos novos boxes de jurisprudência (ex: 309, 339, 384, 393, 410, 414, 460, 481, 489, 556, 612, 637, 640)
-2. **Fase 2** do cronograma macro — Direito Civil (itens 4.x do edital). O viewer e a estrutura já estão prontos
-3. **Iniciar Fase 1 Mês 1 do estudo** — abrir tópico 1 no app, fazer flashcards, marcar status
-4. **Ajustes de UX** — reordenar seções no viewer, adicionar TOC interno por tópico, índice alfabético de termos
+1. **Conteúdo da Fase 2** — preencher PC 21-30 (mediação/arbitragem/juizados/precedentes) com mesma profundidade dos 20 atuais
+2. **Conteúdo da Fase 3** — preencher Direito Civil (LINDB → Sucessões) usando os outlines como guia
+3. **Mais súmulas** — chegar a 60+ adicionando STJ 2, 38, 41, 121, 153, 168, 211 (já), 380 etc; STF 282 (já), 631, 736
+4. **Iniciar Mês 1** — abrir tópico 1 no app, marcar status, fazer flashcards
+5. **TOC interno por tópico** — sumário lateral linkando para cada `<h2>` do tópico
 
 ## Como subir mudanças (auto-deploy via GitHub Pages)
 

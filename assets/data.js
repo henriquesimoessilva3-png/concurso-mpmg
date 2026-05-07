@@ -2882,6 +2882,512 @@ topics: [
         ]
       }
     ]
+  },
+
+  // ============================================================
+  // ESQUELETOS — Fase 2 (Processo Civil itens 21 a 30)
+  // sections: [] dispara empty-state no viewer; outline mostra o que entra.
+  // ============================================================
+  {
+    id: '21-mediacao-conciliacao',
+    num: 21, materia: 'pc',
+    title: 'Mediação, conciliação e autocomposição',
+    edital: '3.2.21',
+    editalText: 'Mediação, conciliação e autocomposição. Lei 13.140/15. Audiências do CPC art. 334. CEJUSC.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Princípios da autocomposição (CPC art. 165 §§ 1º-3º)',
+      'Diferença mediação × conciliação (vínculo prévio, postura do terceiro)',
+      'Lei 13.140/15 — mediação judicial e extrajudicial',
+      'Audiência de conciliação/mediação (art. 334) — quando é obrigatória, recusa bilateral',
+      'CEJUSC e câmaras públicas/privadas de mediação',
+      'Confidencialidade, dever de sigilo e exceções',
+      'Mediação na administração pública (Lei 13.140/15 capítulo II)'
+    ],
+    sections: []
+  },
+  {
+    id: '22-arbitragem',
+    num: 22, materia: 'pc',
+    title: 'Arbitragem (Lei 9.307/96)',
+    edital: '3.2.22',
+    editalText: 'Arbitragem. Lei 9.307/96 (com alterações da Lei 13.129/15). Cláusula compromissória, sentença arbitral, ação anulatória.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Natureza jurídica — jurisdicional × privada',
+      'Arbitrabilidade objetiva (direitos patrimoniais disponíveis) e subjetiva',
+      'Cláusula compromissória × compromisso arbitral',
+      'Cláusula cheia × vazia (art. 4º §§ 1º-2º)',
+      'Procedimento arbitral, princípios (kompetenz-kompetenz)',
+      'Sentença arbitral — natureza de título executivo judicial (CPC art. 515 VII)',
+      'Ação anulatória (art. 33) — prazo de 90 dias',
+      'Arbitragem com a Administração Pública',
+      'Súmula 485/STJ'
+    ],
+    sections: []
+  },
+  {
+    id: '23-juizados-especiais-civeis',
+    num: 23, materia: 'pc',
+    title: 'Juizados Especiais Cíveis (Lei 9.099/95)',
+    edital: '3.2.23',
+    editalText: 'Juizados Especiais Cíveis. Lei 9.099/95. Princípios. Competência. Recursos. Súmulas STJ aplicáveis.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Princípios — oralidade, simplicidade, informalidade, economia, celeridade (art. 2º)',
+      'Competência em razão do valor (até 40 SM) e da matéria',
+      'Hipóteses de incompetência absoluta (causas complexas, contra Fazenda etc.)',
+      'Procedimento — pedido oral, audiência una',
+      'Sentença e recursos — recurso inominado, embargos de declaração, recurso extraordinário',
+      'Não cabimento de REsp (Súmula 203/STJ)',
+      'Cabimento de RE com repercussão geral',
+      'Execução no JEC',
+      'Enunciados FONAJE relevantes',
+      'Súmulas críticas: 203, 640, TNU 8, CJF 99'
+    ],
+    sections: []
+  },
+  {
+    id: '24-juizados-fazenda-publica',
+    num: 24, materia: 'pc',
+    title: 'Juizados Especiais da Fazenda Pública (Lei 12.153/09)',
+    edital: '3.2.24',
+    editalText: 'Juizados Especiais da Fazenda Pública. Lei 12.153/09. Competência, procedimento, RPV.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Competência absoluta — onde houver vara da Fazenda',
+      'Limites — até 60 salários-mínimos',
+      'Causas excluídas (art. 2º §1º)',
+      'Pedido de urgência, antecipação de tutela contra a Fazenda',
+      'Recursos — inominado, ED, RE',
+      'Cumprimento — RPV (até 60 SM) e precatório'
+    ],
+    sections: []
+  },
+  {
+    id: '25-juizados-federais',
+    num: 25, materia: 'pc',
+    title: 'Juizados Especiais Federais (Lei 10.259/01)',
+    edital: '3.2.25',
+    editalText: 'Juizados Especiais Federais. Lei 10.259/01. Competência, procedimento, recursos para a Turma Nacional.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Competência cível e criminal nos JEF',
+      'Limite de 60 SM e exclusões (art. 3º §1º)',
+      'Antecipação de tutela contra a Fazenda no JEF',
+      'Recurso inominado, pedido de uniformização (regional e nacional)',
+      'Súmulas TNU mais cobradas',
+      'Cumprimento — RPV federal'
+    ],
+    sections: []
+  },
+  {
+    id: '26-justica-gratuita',
+    num: 26, materia: 'pc',
+    title: 'Assistência judiciária e justiça gratuita',
+    edital: '3.2.26',
+    editalText: 'Assistência judiciária integral. Justiça gratuita (Lei 1.060/50 e CPC arts. 98-102). Defensoria Pública. Honorários sucumbenciais e gratuidade.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Distinção: assistência jurídica (DPE) × judiciária × gratuidade da justiça',
+      'Sujeitos — PF (presunção iuris tantum) e PJ (Súmula 481/STJ)',
+      'Pedido, momento, prova da hipossuficiência',
+      'Impugnação — natureza e procedimento (art. 100)',
+      'Honorários e gratuidade (art. 98 §3º) — exigibilidade suspensa',
+      'Súmulas 481, 640/STJ'
+    ],
+    sections: []
+  },
+  {
+    id: '27-cooperacao-internacional',
+    num: 27, materia: 'pc',
+    title: 'Cooperação jurídica internacional',
+    edital: '3.2.27',
+    editalText: 'Cooperação jurídica internacional. Auxílio direto. Carta rogatória. Homologação de sentença estrangeira (CPC arts. 26-41 e 960-965).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Princípios — boa-fé, igualdade, publicidade, devido processo',
+      'Auxílio direto × carta rogatória',
+      'Autoridade central (MJSP)',
+      'Homologação de sentença estrangeira no STJ — requisitos',
+      'Eficácia provisória de medidas estrangeiras (art. 962)',
+      'Sentença arbitral estrangeira (Convenção de Nova York + Lei 9.307/96 art. 35)'
+    ],
+    sections: []
+  },
+  {
+    id: '28-precedentes-stare-decisis',
+    num: 28, materia: 'pc',
+    title: 'Sistema de precedentes — IRDR, IAC, repetitivos',
+    edital: '3.2.28',
+    editalText: 'Microssistema de precedentes vinculantes. CPC arts. 926-928, 976-987 (IRDR), 947 (IAC), 1.036-1.041 (repetitivos).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Função uniformizadora dos tribunais (art. 926)',
+      'Rol de precedentes obrigatórios (art. 927)',
+      'IRDR — pressupostos, procedimento, efeitos',
+      'IAC — assunção de competência (art. 947)',
+      'Repetitivos no STJ e RG no STF',
+      'Distinguishing × overruling',
+      'Reclamação como instrumento de aderência (art. 988)',
+      'Modulação de efeitos'
+    ],
+    sections: []
+  },
+  {
+    id: '29-cnj-cnmp-resolucoes',
+    num: 29, materia: 'pc',
+    title: 'CNJ, CNMP — resoluções aplicáveis',
+    edital: '3.2.29',
+    editalText: 'Resoluções do CNJ e CNMP relevantes ao processo civil e à atuação do MP.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'CNJ — Resoluções 65/2017 (processo estrutural), 125/2010 (Política de tratamento de conflitos)',
+      'CNMP — Resolução 23/2007 (Inquérito Civil)',
+      'CNMP — Resolução 174/2017 (Recomendações)',
+      'CNMP — Resolução 179/2017 (TAC)',
+      'TJMG — Resolução 780/2014 (PJe)',
+      'Implicações práticas no procedimento'
+    ],
+    sections: []
+  },
+  {
+    id: '30-honorarios-custas',
+    num: 30, materia: 'pc',
+    title: 'Honorários sucumbenciais, custas e multas',
+    edital: '3.2.30',
+    editalText: 'Honorários advocatícios sucumbenciais (CPC art. 85). Custas processuais. Multas processuais (litigância de má-fé, ato atentatório).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Honorários — natureza alimentar, base de cálculo (§§ 2º-6º)',
+      'Honorários contra Fazenda Pública (§ 3º)',
+      'Honorários recursais (§ 11)',
+      'Sucumbência mínima e recíproca',
+      'Custas — fato gerador, isenções',
+      'Multas — litigância de má-fé (art. 80-81), atentatórias (arts. 77 §2º, 774)'
+    ],
+    sections: []
+  },
+
+  // ============================================================
+  // ESQUELETOS — Fase 3 (Direito Civil)
+  // numeração própria 1-17 (não mistura com PC); materia: 'civil'
+  // ============================================================
+  {
+    id: 'civ-01-lindb',
+    num: 1, materia: 'civil',
+    title: 'LINDB e teoria geral do Direito Civil',
+    edital: '3.1.1',
+    editalText: 'Lei de Introdução às Normas do Direito Brasileiro. Vigência, aplicação, integração e interpretação. Teoria geral do Direito Civil.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Vigência e revogação da lei (art. 1º a 4º)',
+      'Antinomias e critérios de solução',
+      'Conflito de leis no tempo — direito adquirido, ato jurídico perfeito, coisa julgada',
+      'Conflito de leis no espaço (DIPr)',
+      'Integração — analogia, costumes, princípios (art. 4º)',
+      'Hermenêutica jurídica (art. 5º)',
+      'Arts. 20-30 (consequencialismo) — LINDB Lei 13.655/18'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-02-pessoas-naturais',
+    num: 2, materia: 'civil',
+    title: 'Pessoas naturais',
+    edital: '3.1.2',
+    editalText: 'Personalidade. Capacidade. Direitos da personalidade. Domicílio. Ausência. Estatuto da Pessoa com Deficiência.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Início e fim da personalidade — natimorto',
+      'Capacidade de direito × de fato',
+      'Incapacidade absoluta (art. 3º) e relativa (art. 4º) — após Lei 13.146/15',
+      'Direitos da personalidade — características',
+      'Nome, imagem, intimidade, honra, sepultura',
+      'Domicílio — fixo, profissional, contratual',
+      'Ausência — fases (curadoria, sucessão provisória, definitiva)',
+      'Tomada de decisão apoiada × curatela'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-03-pessoas-juridicas',
+    num: 3, materia: 'civil',
+    title: 'Pessoas jurídicas',
+    edital: '3.1.3',
+    editalText: 'Conceito. Espécies. Constituição, registro, extinção. Desconsideração da personalidade jurídica (CC art. 50).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Espécies — direito público (interno/externo) e privado',
+      'Constituição — registro como condição de existência',
+      'Atos constitutivos, denominação',
+      'Responsabilidade — patrimônio próprio',
+      'Desconsideração (art. 50) — teoria maior × menor',
+      'Lei 13.874/19 (Liberdade Econômica) e impactos',
+      'Desconsideração inversa',
+      'Grupos econômicos e sucessão empresarial'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-04-bens',
+    num: 4, materia: 'civil',
+    title: 'Bens',
+    edital: '3.1.4',
+    editalText: 'Conceito de bens. Classificação. Bens públicos. Bem de família legal e voluntário (Lei 8.009/90).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Classificação — corpóreos/incorpóreos, móveis/imóveis, fungíveis/infungíveis',
+      'Acessões e benfeitorias',
+      'Bens públicos — uso comum, uso especial, dominicais',
+      'Imprescritibilidade e impenhorabilidade dos bens públicos',
+      'Bem de família legal (Lei 8.009/90) — limites e exceções',
+      'Bem de família voluntário (CC arts. 1.711-1.722)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-05-fatos-juridicos',
+    num: 5, materia: 'civil',
+    title: 'Fatos jurídicos, prescrição e decadência',
+    edital: '3.1.5',
+    editalText: 'Fato, ato e negócio jurídico. Defeitos do negócio jurídico. Validade, eficácia, nulidade e anulabilidade. Prescrição e decadência.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Fato × ato × negócio jurídico — escala Pontes de Miranda',
+      'Plano da existência, validade e eficácia',
+      'Defeitos — erro, dolo, coação, lesão, estado de perigo, fraude',
+      'Simulação — nulidade absoluta',
+      'Nulidade × anulabilidade — diferenças e prazos',
+      'Prescrição (art. 189-206) — causas suspensivas e interruptivas',
+      'Decadência — convencional e legal',
+      'Diferenças prescrição × decadência'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-06-obrigacoes-geral',
+    num: 6, materia: 'civil',
+    title: 'Obrigações — parte geral',
+    edital: '3.1.6',
+    editalText: 'Conceito. Modalidades. Efeitos. Transmissão. Adimplemento. Extinção sem pagamento.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Estrutura da obrigação — sujeitos, vínculo, prestação',
+      'Obrigações de dar, fazer, não fazer',
+      'Obrigações alternativas e facultativas',
+      'Obrigações divisíveis × indivisíveis × solidárias',
+      'Cessão de crédito × assunção de dívida × cessão de contrato',
+      'Pagamento — quem paga, a quem, como, onde, quando',
+      'Pagamento em consignação, sub-rogação, imputação, dação',
+      'Compensação, confusão, remissão, novação'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-07-obrigacoes-inadimplemento',
+    num: 7, materia: 'civil',
+    title: 'Inadimplemento, mora e perdas e danos',
+    edital: '3.1.7',
+    editalText: 'Inadimplemento absoluto e relativo. Mora. Perdas e danos. Juros, cláusula penal, arras.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Inadimplemento absoluto × relativo (mora)',
+      'Mora do devedor × do credor',
+      'Constituição em mora — ex re × ex persona',
+      'Perdas e danos — danos emergentes e lucros cessantes',
+      'Juros — moratórios × compensatórios; legais × convencionais',
+      'Cláusula penal — moratória × compensatória; limite',
+      'Arras — confirmatórias × penitenciais',
+      'Teoria do adimplemento substancial'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-08-contratos-geral',
+    num: 8, materia: 'civil',
+    title: 'Contratos — parte geral',
+    edital: '3.1.8',
+    editalText: 'Princípios. Formação. Classificação. Vícios redibitórios. Evicção. Extinção. Função social. Boa-fé objetiva.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Princípios — autonomia, função social, boa-fé objetiva, equivalência',
+      'Formação — proposta, aceitação, retratação',
+      'Classificação dos contratos',
+      'Cláusulas implícitas — duty to mitigate, supressio, surrectio, venire contra factum proprium',
+      'Vícios redibitórios — prazos decadenciais',
+      'Evicção — requisitos e efeitos',
+      'Extinção — resolução, resilição, rescisão',
+      'Onerosidade excessiva (arts. 478-480)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-09-contratos-especie',
+    num: 9, materia: 'civil',
+    title: 'Contratos em espécie',
+    edital: '3.1.9',
+    editalText: 'Compra e venda, troca, doação, locação, comodato, mútuo, prestação de serviço, empreitada, mandato, fiança, transação.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Compra e venda — preço, coisa, consentimento; cláusulas especiais',
+      'Doação — modalidades, revogação por ingratidão',
+      'Locação — Lei 8.245/91 (resumo)',
+      'Comodato e mútuo',
+      'Prestação de serviço × empreitada',
+      'Mandato — formal × tácito; substabelecimento',
+      'Fiança — características; benefício de ordem',
+      'Transação como negócio jurídico'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-10-atos-unilaterais',
+    num: 10, materia: 'civil',
+    title: 'Atos unilaterais e enriquecimento sem causa',
+    edital: '3.1.10',
+    editalText: 'Promessa de recompensa. Gestão de negócios. Pagamento indevido. Enriquecimento sem causa.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Promessa de recompensa',
+      'Gestão de negócios',
+      'Pagamento indevido — repetição',
+      'Enriquecimento sem causa — pressupostos e subsidiariedade',
+      'Diferença com responsabilidade civil'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-11-responsabilidade-civil',
+    num: 11, materia: 'civil',
+    title: 'Responsabilidade civil',
+    edital: '3.1.11',
+    editalText: 'Subjetiva e objetiva. Atos ilícitos. Dano material e moral. Quantificação. Responsabilidade do Estado, do empregador, dos pais.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Pressupostos — conduta, dano, nexo causal, culpa (na subjetiva)',
+      'Responsabilidade subjetiva × objetiva',
+      'Cláusula geral de risco (art. 927 § único)',
+      'Excludentes — caso fortuito, força maior, fato exclusivo da vítima/terceiro',
+      'Dano material — emergente e lucros cessantes',
+      'Dano moral — quantificação, dano in re ipsa',
+      'Dano estético, dano existencial',
+      'Responsabilidade dos pais, empregador, empresário, do Estado',
+      'Súmulas STJ relevantes'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-12-empresa',
+    num: 12, materia: 'civil',
+    title: 'Direito de empresa',
+    edital: '3.1.12',
+    editalText: 'Empresário. Sociedade. Estabelecimento. Nome empresarial. EIRELI/SLU. Falência e recuperação (noções).',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Empresário individual × sociedade empresária',
+      'Sociedades simples × empresárias',
+      'Tipos societários — Ltda, S.A. (parte geral)',
+      'Sociedade limitada unipessoal',
+      'Estabelecimento — trespasse',
+      'Nome empresarial — firma × denominação',
+      'Lei 11.101/05 — recuperação judicial e falência (linhas gerais)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-13-direitos-reais',
+    num: 13, materia: 'civil',
+    title: 'Direitos reais — posse e propriedade',
+    edital: '3.1.13',
+    editalText: 'Posse. Propriedade. Aquisição e perda. Função social. Usucapião. Direitos de vizinhança.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Posse — teorias (Savigny, Ihering); classificação',
+      'Efeitos da posse — proteção, frutos, benfeitorias, indenização',
+      'Ações possessórias — fungibilidade',
+      'Propriedade — atributos e função social',
+      'Aquisição da propriedade imóvel — registro, acessão, usucapião',
+      'Usucapião — espécies (extraordinária, ordinária, especial urbana, rural, familiar, coletiva)',
+      'Perda da propriedade',
+      'Direitos de vizinhança — uso anormal, passagem forçada, águas, limites'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-14-direitos-reais-garantia',
+    num: 14, materia: 'civil',
+    title: 'Direitos reais sobre coisa alheia e direitos reais de garantia',
+    edital: '3.1.14',
+    editalText: 'Superfície, servidões, usufruto, uso, habitação, concessão de uso. Penhor, hipoteca, anticrese. Alienação fiduciária.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Direitos reais sobre coisa alheia — superfície, servidões, usufruto, uso, habitação',
+      'Concessão de uso especial para fins de moradia',
+      'Direitos reais de garantia — penhor, hipoteca, anticrese',
+      'Alienação fiduciária em garantia — móvel (Lei 4.728/65) e imóvel (Lei 9.514/97)',
+      'Princípios — publicidade, especialidade'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-15-familia-geral',
+    num: 15, materia: 'civil',
+    title: 'Direito de família — casamento, união estável, regime de bens',
+    edital: '3.1.15',
+    editalText: 'Casamento — capacidade, impedimentos, formalidades, efeitos. União estável. Regime de bens.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Casamento — habilitação, celebração, prova',
+      'Capacidade núbil; impedimentos × causas suspensivas',
+      'Efeitos pessoais e patrimoniais',
+      'Regimes de bens — comunhão parcial, universal, separação, participação final',
+      'Pacto antenupcial',
+      'União estável — requisitos (CC art. 1.723) e efeitos',
+      'Casamento e união homoafetiva (ADI 4.277, RE 646.721)',
+      'Dissolução — divórcio direto (EC 66/2010)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-16-familia-especifico',
+    num: 16, materia: 'civil',
+    title: 'Família — alimentos, filiação, tutela e curatela',
+    edital: '3.1.16',
+    editalText: 'Filiação. Reconhecimento. Adoção. Poder familiar. Alimentos. Tutela, curatela, guarda.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Filiação — presunções (art. 1.597); socioafetividade; multiparentalidade (RE 898.060)',
+      'Reconhecimento de filhos',
+      'Adoção (Lei 12.010/09) — requisitos',
+      'Poder familiar — exercício, suspensão, destituição',
+      'Alimentos — pressupostos, espécies (provisionais, provisórios, definitivos)',
+      'Binômio necessidade × possibilidade × razoabilidade',
+      'Prisão civil do alimentante (Súmula 309/STJ)',
+      'Tutela × curatela × guarda',
+      'Tomada de decisão apoiada (Lei 13.146/15)'
+    ],
+    sections: []
+  },
+  {
+    id: 'civ-17-sucessoes',
+    num: 17, materia: 'civil',
+    title: 'Sucessões',
+    edital: '3.1.17',
+    editalText: 'Sucessão legítima e testamentária. Inventário. Partilha. Colação. Sonegados. Petição de herança.',
+    size: '', schedule: '', advantage: null,
+    outline: [
+      'Abertura — saisine (CC art. 1.784)',
+      'Ordem de vocação hereditária',
+      'Direito do cônjuge × companheiro (RE 878.694)',
+      'Sucessão testamentária — formas (público, cerrado, particular)',
+      'Legítima × disponível; deserdação',
+      'Inventário judicial × extrajudicial (Lei 11.441/07)',
+      'Partilha amigável × judicial',
+      'Colação, sonegados, petição de herança',
+      'Cessão de direitos hereditários'
+    ],
+    sections: []
   }
 ],
 
@@ -3749,22 +4255,41 @@ sumulas: [
   // STF Súmulas Vinculantes
   { tribunal: 'STF', tipo: 'SV', num: 10, topic: 16, text: 'Viola a cláusula de reserva de plenário (CF, art. 97) a decisão de órgão fracionário de tribunal que, embora não declare expressamente a inconstitucionalidade de lei ou ato normativo do Poder Público, afasta sua incidência, no todo ou em parte.' },
   { tribunal: 'STF', tipo: 'SV', num: 17, topic: 12, text: 'Durante o período previsto no parágrafo 1º do art. 100 da Constituição Federal, não incidem juros de mora sobre os precatórios que nele sejam pagos.' },
+  { tribunal: 'STF', tipo: 'SV', num: 25, topic: 1, text: 'É ilícita a prisão civil de depositário infiel, qualquer que seja a modalidade do depósito.' },
 
   // STF Súmulas
   { tribunal: 'STF', tipo: 'Súmula', num: 267, topic: 19, text: 'Não cabe mandado de segurança contra ato judicial passível de recurso ou correição.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 268, topic: 19, text: 'Não cabe mandado de segurança contra decisão judicial com trânsito em julgado.' },
   { tribunal: 'STF', tipo: 'Súmula', num: 269, topic: 19, text: 'O mandado de segurança não é substitutivo de ação de cobrança.' },
   { tribunal: 'STF', tipo: 'Súmula', num: 271, topic: 19, text: 'Concessão de mandado de segurança não produz efeitos patrimoniais em relação a período pretérito, os quais devem ser reclamados administrativamente ou pela via judicial própria.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 279, topic: 16, text: 'Para simples reexame de prova não cabe recurso extraordinário.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 280, topic: 16, text: 'Por ofensa a direito local não cabe recurso extraordinário.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 282, topic: 16, text: 'É inadmissível o recurso extraordinário, quando não ventilada, na decisão recorrida, a questão federal suscitada.' },
   { tribunal: 'STF', tipo: 'Súmula', num: 343, topic: 16, text: 'Não cabe ação rescisória por ofensa a literal disposição de lei, quando a decisão rescindenda se tiver baseado em texto legal de interpretação controvertida nos tribunais.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 356, topic: 16, text: 'O ponto omisso da decisão, sobre o qual não foram opostos embargos declaratórios, não pode ser objeto de recurso extraordinário, por faltar o requisito do prequestionamento.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 365, topic: 20, text: 'Pessoa jurídica não tem legitimidade para propor ação popular.' },
 
   // STJ Súmulas
+  { tribunal: 'STJ', tipo: 'Súmula', num: 2, topic: 19, text: 'Não cabe o habeas data (CF, art. 5º, LXXII, letra a) se não houve recusa de informações por parte da autoridade administrativa.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 7, topic: 16, text: 'A pretensão de simples reexame de prova não enseja recurso especial.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 33, topic: 6, text: 'A incompetência relativa não pode ser declarada de ofício.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 84, topic: 14, text: 'É admissível a oposição de embargos de terceiro fundados em alegação de posse advinda do compromisso de compra e venda de imóvel, ainda que desprovido do registro.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 99, topic: 5, text: 'O Ministério Público tem legitimidade para recorrer no processo em que oficiou como fiscal da lei, ainda que não haja recurso da parte.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 106, topic: 8, text: 'Proposta a ação no prazo fixado para o seu exercício, a demora na citação, por motivos inerentes ao mecanismo da Justiça, não justifica o acolhimento da arguição de prescrição ou decadência.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 150, topic: 16, text: 'Compete à Justiça Federal decidir sobre a existência de juízo arbitral. (Aplicação análoga: prescreve em cinco anos a ação rescisória.)' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 189, topic: 5, text: 'É desnecessária a intervenção do Ministério Público nas execuções fiscais.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 203, topic: 18, text: 'Não cabe recurso especial contra decisão proferida por órgão de segundo grau dos Juizados Especiais.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 211, topic: 16, text: 'Inadmissível recurso especial quanto à questão que, a despeito da oposição de embargos declaratórios, não foi apreciada pelo Tribunal a quo.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 226, topic: 5, text: 'O Ministério Público tem legitimidade para recorrer na ação de acidente do trabalho, ainda que o segurado esteja assistido por advogado.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 231, topic: 11, text: 'A incidência da revelia não implica a procedência do pedido.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 235, topic: 6, text: 'A conexão não determina a reunião dos processos, se um deles já foi julgado.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 240, topic: 10, text: 'A extinção do processo, por abandono da causa pelo autor, depende de requerimento do réu.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 259, topic: 14, text: 'A ação de prestação de contas pode ser proposta pelo titular de conta-corrente bancária.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 309, topic: 13, text: 'O débito alimentar que autoriza a prisão civil do alimentante é o que compreende as três prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 314, topic: 15, text: 'Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição quinquenal intercorrente.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 329, topic: 20, text: 'O Ministério Público tem legitimidade para propor ação civil pública em defesa do patrimônio público.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 339, topic: 13, text: 'É cabível ação monitória contra a Fazenda Pública.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 372, topic: 19, text: 'Na ação de exibição de documentos, não cabe a aplicação de multa cominatória.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 375, topic: 15, text: 'O reconhecimento da fraude à execução depende do registro da penhora do bem alienado ou da prova de má-fé do terceiro adquirente.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 384, topic: 13, text: 'Cabe ação monitória para haver saldo remanescente oriundo de venda extrajudicial de bem alienado fiduciariamente em garantia.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 393, topic: 15, text: 'A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que não demandem dilação probatória.' },
@@ -3773,8 +4298,12 @@ sumulas: [
   { tribunal: 'STJ', tipo: 'Súmula', num: 414, topic: 8, text: 'A citação por edital na execução fiscal é cabível quando frustradas as demais modalidades.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 460, topic: 19, text: 'É incabível o mandado de segurança para convalidar a compensação tributária realizada pelo contribuinte.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 481, topic: 17, text: 'Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 485, topic: 1, text: 'A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 489, topic: 6, text: 'Reconhecida a continência, devem ser reunidas na Justiça Federal as ações civis públicas propostas nesta e na Justiça estadual.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 503, topic: 6, text: 'O prazo para ajuizamento de ação monitória em face do emitente de cheque sem força executiva é quinquenal, a contar do dia seguinte à data de emissão estampada na cártula.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 556, topic: 6, text: 'É competente a Justiça Estadual para processar e julgar as causas em que é parte sociedade de economia mista federal.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 612, topic: 15, text: 'O direito à prestação dos serviços de assistência médico-hospitalar contratados originariamente com a operadora não pode ser obstado, mesmo após o inadimplemento, sem prévia notificação. (Tese análoga aplicada à exigência de memória discriminada em excesso de execução, art. 525, §4º).' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 637, topic: 14, text: 'O ente público tem legitimidade e interesse para intervir, como amicus curiae, em ação possessória entre particulares, podendo opinar sobre questões de ordem pública envolvidas.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 640, topic: 18, text: 'O benefício da justiça gratuita pode ser requerido a qualquer tempo, considerando-se a situação econômica do interessado no momento da formulação do pedido.' }
 ],
 
@@ -3807,6 +4336,16 @@ cronograma: {
     { mes: 'Mês 3 (jul-ago)', topicos: '10, 11', notas: '⚠️ Item 11 (procedimento comum) é o maior — quebrar em 4+ sub-resumos.' },
     { mes: 'Mês 4 (ago)', topicos: '12, 13, 14, 15, 16', notas: 'Cumprimento, especiais, voluntária, execução, recursos. Item 16 também grande.' },
     { mes: 'Mês 5 (set)', topicos: '17, 18, 19, 20 + revisão', notas: 'Item 20 (ACP) = vantagem. Última semana = simulado de 60 questões.' }
+  ],
+  fase2Meses: [
+    { mes: 'Mês 1 (out)', topicos: '21, 22, 23', notas: 'Mediação/conciliação, arbitragem, JEC. Eixo "modos alternativos + microssistema".' },
+    { mes: 'Mês 2 (nov)', topicos: '24, 25, 26, 27, 28, 29, 30', notas: 'Juizados Fazenda/Federal, gratuidade, cooperação internacional, precedentes, CNJ/CNMP, honorários. Bloco mais leve em volume; foco em jurisprudência consolidada.' }
+  ],
+  fase3Meses: [
+    { mes: 'Mês 1 (dez/26)', topicos: 'civ 1-5', notas: 'LINDB, pessoas naturais e jurídicas, bens, fatos jurídicos. Base que sustenta tudo o resto.' },
+    { mes: 'Mês 2 (jan/27)', topicos: 'civ 6-9', notas: 'Obrigações geral + inadimplemento, contratos geral + espécie. Volume alto — quebrar contratos em sub-resumos.' },
+    { mes: 'Mês 3 (fev/27)', topicos: 'civ 10-13', notas: 'Atos unilaterais, responsabilidade civil, empresa, posse e propriedade.' },
+    { mes: 'Mês 4 (mar/27)', topicos: 'civ 14-17 + revisão', notas: 'Garantias reais, família, sucessões. Última semana = simulado integrando Civil + PC.' }
   ]
 }
 
