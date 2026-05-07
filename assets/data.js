@@ -661,29 +661,137 @@ topics: [
     schedule: 'Mês 2, Semana 1',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Critérios determinativos: matéria, pessoa, função, valor, território (mnemônico: MP-FVT)',
-        'Competência absoluta (matéria, pessoa, função): cognoscível de ofício, gera nulidade absoluta',
-        'Competência relativa (valor, território): só por arguição da parte (Súmula 33/STJ), prorroga-se',
-        'Conexão (CPC art. 55) e continência (art. 56) — modificam competência relativa',
-        'Foros especiais: consumidor (CDC art. 101), idoso (Estatuto), ACP (Lei 7.347 art. 2º)',
-        'Cooperação nacional (CPC arts. 67-69) — auxílio direto entre juízos, sem carta precatória'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 42-69 (competência)',
-        'CPC art. 337 II (incompetência como preliminar de contestação)',
-        'CF/88 arts. 102, 105, 108, 109'
-      ]},
-      { h: 'Súmulas e jurisprudência', items: [
-        'Súmula 33/STJ — incompetência relativa não pode ser declarada de ofício',
-        'Súmula 235/STJ — conexão não determina reunião dos processos se um já foi julgado',
-        'Súmula 489/STJ — competência da JF se ente federal manifesta interesse'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Translatio iudicii: aproveitamento dos atos do juízo incompetente',
-        'Cláusula de eleição de foro abusiva — CPC art. 63 §3º',
-        'Foro de contrato consumerista: domicílio do consumidor'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: '**Competência** é a medida em que cada órgão jurisdicional exerce a jurisdição (que é UNA — Tópico 3). Definir competência é responder à pergunta: "qual juiz, dentre todos os investidos de jurisdição, deve julgar este caso?". A resposta vem da Constituição (regras de competência originária dos tribunais e da Justiça Federal), das leis processuais (CPC, leis especiais) e das normas de organização judiciária estaduais.' },
+          { type: 'p', text: '**Critérios determinativos** (Carnelutti, adotados pela doutrina brasileira):' },
+          {
+            type: 'table',
+            headers: ['Critério', 'Natureza', 'Exemplo', 'Disciplina'],
+            rows: [
+              ['Matéria (ratione materiae)', 'Absoluta', 'Vara da Família × Vara Cível Comum', 'Lei de organização judiciária'],
+              ['Pessoa (ratione personae)', 'Absoluta', 'Justiça Federal (entes do art. 109 CF)', 'CF art. 109; CPC art. 45'],
+              ['Função (ratione functionis)', 'Absoluta', 'Competência originária × recursal; entre fases', 'CPC arts. 64+; CF arts. 102, 105'],
+              ['Valor (ratione valoris)', 'Relativa', 'JEC × Vara Comum (até 40 SM)', 'Lei 9.099/95 art. 3º'],
+              ['Território (ratione loci)', 'Relativa (regra)', 'Foro do domicílio do réu (art. 46)', 'CPC arts. 46-53']
+            ]
+          },
+          { type: 'p', text: '**Distinção fundamental** — competência **absoluta** × **relativa**:' },
+          { type: 'list', items: [
+            '**Absoluta** (matéria, pessoa, função) — cognoscível de OFÍCIO em qualquer fase; gera **nulidade absoluta**; não se prorroga; pode ser arguida em qualquer momento (não preclui antes do trânsito); decisões prolatadas por juízo absolutamente incompetente são nulas (mas atos NÃO decisórios podem ser aproveitados — *translatio iudicii*, art. 64 §4º)',
+            '**Relativa** (valor e território, em regra) — só por arguição da parte (Súmula 33/STJ); deve ser arguida na contestação como preliminar (art. 337 II + art. 65), sob pena de **prorrogação**; gera apenas nulidade RELATIVA (anulável); pode ser objeto de cláusula de eleição de foro (art. 63)'
+          ]},
+          { type: 'p', text: '**Modificações da competência** — apenas a relativa pode ser modificada por: (i) **conexão** (art. 55: causas com mesmo pedido ou causa de pedir); (ii) **continência** (art. 56: mesma causa de pedir e partes, com pedido de uma contendo o da outra); (iii) **eleição de foro** (art. 63); (iv) **prorrogação** pela ausência de arguição.' },
+          { type: 'p', text: '**Cooperação nacional** (arts. 67-69) — inovação do CPC/15 que permite auxílio DIRETO entre juízos, sem necessidade de carta precatória, para atos como prática de citação, intimação, audiência, produção de prova. Materializa o princípio cooperativo (art. 6º) entre os próprios órgãos do Judiciário.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Competência geral (CPC arts. 42-69)' },
+          { type: 'list', items: [
+            '**Arts. 42-44** — competência internacional (concorrente e exclusiva)',
+            '**Art. 45** — deslocamento à JF quando ente federal intervém',
+            '**Arts. 46-53** — competência territorial (foro)',
+            '**Art. 47** — foros de imóveis (real / mista)',
+            '**Art. 53 III** — foros de prerrogativa (consumidor, alimentos, idoso, etc.)',
+            '**Arts. 54-58** — modificações: conexão, continência, eleição de foro',
+            '**Art. 63** — cláusula de eleição de foro (limites: §3º — abusividade)',
+            '**Arts. 64-66** — declaração da incompetência; conflitos',
+            '**Arts. 67-69** — cooperação nacional'
+          ]},
+          { type: 'h', text: 'Constituição' },
+          { type: 'list', items: [
+            '**Art. 102** — competência originária e recursal do STF',
+            '**Art. 105** — STJ',
+            '**Art. 108** — TRFs',
+            '**Art. 109** — Justiça Federal (rol da competência da JF)',
+            '**Art. 109 §3º** — JE com competência federal delegada'
+          ]},
+          { type: 'h', text: 'Leis especiais' },
+          { type: 'list', items: [
+            '**CDC art. 101 I** — foro do consumidor (domicílio do consumidor)',
+            '**Estatuto do Idoso art. 80** — foro do domicílio do idoso',
+            '**Lei 7.347/85 art. 2º** — foro do local do dano (ACP)',
+            '**Lei 9.099/95 art. 4º** — foro JEC',
+            '**Lei 13.105/15 art. 337 II** — incompetência como preliminar'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Justiça Federal — competência (CF art. 109)' },
+          { type: 'p', text: 'Causas em que figurem como autoras, rés, assistentes ou opoentes: **União, autarquias federais ou empresas públicas federais** (não inclui sociedades de economia mista federais — Súmula 556/STJ). Excluem-se: falência, acidentes do trabalho e justiças especializadas. Causas entre Estado estrangeiro e pessoa física no Brasil; causas fundadas em tratado da União; etc.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 489:** "Reconhecida a continência, devem ser reunidas na Justiça Federal as ações civis públicas propostas nesta e na Justiça Estadual." Aplicação concreta da força atrativa da competência federal absoluta.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 556:** "É competente a Justiça Estadual para processar e julgar as causas em que é parte sociedade de economia mista federal." A SEM federal NÃO está no rol do art. 109 I CF.' },
+
+          { type: 'h', text: 'Foros especiais (privilégio relativo)' },
+          { type: 'p', text: 'Várias leis estabelecem foros de PRIVILÉGIO da parte vulnerável — todos relativos (renunciáveis pelo titular):' },
+          { type: 'list', items: [
+            '**Consumidor (CDC art. 101 I):** foro do domicílio do CONSUMIDOR. Dúvida clássica: o consumidor pode ajuizar em outro foro? SIM — é privilégio dele, não vinculação. Cláusula de eleição de foro abusiva é nula (CPC art. 63 §3º + CDC art. 51 IV)',
+            '**Idoso (art. 80 EI):** foro do domicílio do idoso',
+            '**Pessoa com deficiência (Lei 13.146/15):** mesmas garantias',
+            '**Alimentos (CPC art. 53 II):** foro do alimentando',
+            '**Divórcio/separação/anulação:** foro do guardião do filho incapaz (art. 53 I), depois último domicílio do casal'
+          ]},
+
+          { type: 'h', text: 'Conexão e continência' },
+          { type: 'p', text: '**Conexão** (art. 55): causas com mesmo pedido OU mesma causa de pedir → **reunião** se ainda não julgadas. Resultado: prevenção do juízo que primeiro registrou ou distribuiu (art. 59).' },
+          { type: 'p', text: '**Continência** (art. 56): identidade de partes e causa de pedir + pedido de uma é mais amplo, contendo o da outra → reunião idem.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 235:** "A conexão NÃO determina a reunião dos processos, se um deles já foi julgado." Consagra a economia do julgamento já realizado.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 33:** "A incompetência RELATIVA não pode ser declarada de ofício." Único contraponto: cláusula abusiva de eleição de foro em contrato de adesão (art. 63 §3º) é o CASO ÚNICO em que o juiz pode declarar de ofício, antes da citação.' },
+
+          { type: 'h', text: 'Translatio iudicii' },
+          { type: 'p', text: '**Princípio do CPC/15** (art. 64 §4º): declarada a incompetência (absoluta ou relativa), **conservam-se os efeitos** das decisões proferidas pelo juízo incompetente até que outras sejam proferidas pelo juízo competente. Apenas os atos decisórios são suscetíveis de revogação; os atos NÃO decisórios (citação válida, juntada de documentos, atos meramente ordinatórios) são plenamente aproveitados. Inovação enorme em relação ao regime anterior, em que a incompetência absoluta nulificava tudo.' },
+
+          { type: 'h', text: 'Cláusula de eleição de foro' },
+          { type: 'p', text: 'Permitida em causas patrimoniais e sobre direitos disponíveis (art. 63). Limites: cláusula abusiva em contrato de adesão pode ser declarada NULA de OFÍCIO pelo juiz, antes da citação (art. 63 §3º) — única exceção à Súmula 33/STJ. Após a citação, só pode ser arguida pelo réu como preliminar (sob pena de prorrogação).' },
+
+          { type: 'h', text: 'Cooperação nacional (CPC arts. 67-69) — auxílio direto entre juízos' },
+          { type: 'p', text: 'Inovação do CPC/15. Substitui a tradicional carta precatória em casos de auxílio simples. **Modalidades** (art. 69):' },
+          { type: 'list', items: [
+            'Prática de citação, intimação, notificação',
+            'Obtenção e apresentação de provas',
+            'Reunião ou apensamento de processos',
+            'Efetivação de tutela provisória',
+            'Solicitação de informações sobre o juízo prevento',
+            'Concentração de atos processuais (audiência una)'
+          ]},
+          { type: 'p', text: 'Pode ser solicitada DIRETAMENTE (sem hierarquia) entre juízos da mesma ou diferente jurisdições (federal, estadual). Forma livre, ágil, baseada na cooperação (art. 6º).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Critérios da competência — "MaPeFun-VaTe":** Absoluta (**Ma**téria, **Pe**ssoa, **Fun**ção); Relativa (**Va**lor, **Te**rritório).' },
+          { type: 'box', kind: 'macete', text: '**Modificações da competência (art. 54+) — só RELATIVA:** "**CCEP**" — **C**onexão, **C**ontinência, **E**leição de foro, **P**rorrogação (pela inércia do réu).' },
+          { type: 'box', kind: 'macete', text: '**Cooperação nacional — alternativa à carta precatória:** mais rápido, sem hierarquia, direto entre juízos (art. 69). Mnemônico: "**CARTA-PROCESSUAL** vai pra cooperação".' },
+          { type: 'box', kind: 'macete', text: '**Foros de privilégio em causas com vulneráveis — todos no DOMICÍLIO da parte mais fraca:** **C**onsumidor, **I**doso, **PCD**, **A**limentando.' },
+          { type: 'box', kind: 'macete', text: '**Causas que NÃO vão à JF mesmo com a União:** **F**alência, **A**cidentes do trabalho, **J**ustiças especializadas (eleitoral, trabalhista, militar).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Sociedade de economia mista federal NÃO atrai a JF** (Súmula 556/STJ). Apenas EP, autarquia, fundação e a própria União estão no art. 109 I CF.' },
+          { type: 'box', kind: 'atencao', text: '**Translatio iudicii — atos não decisórios SOBREVIVEM** mesmo na incompetência absoluta. Erro frequente em prova: afirmar que "tudo se anula".' },
+          { type: 'box', kind: 'atencao', text: '**Incompetência relativa — exceção à Súmula 33:** cláusula de eleição de foro ABUSIVA em contrato de adesão pode ser declarada de ofício pelo juiz, antes da citação (art. 63 §3º). Único caso.' },
+          { type: 'box', kind: 'atencao', text: '**Foro do consumidor é PRIVILÉGIO, não vinculação.** Consumidor pode ajuizar em outro foro (próprio domicílio é regra; outro foro é exceção a seu favor). Cuidado com a banca que apresenta a regra como obrigatória.' },
+          { type: 'box', kind: 'atencao', text: '**Cooperação nacional × carta precatória:** ambas servem ao auxílio entre juízos, mas a cooperação é mais ampla, ágil e dispensa hierarquia. NÃO substitui a carta em casos com formalidades específicas (ex.: oitiva de testemunha em outra comarca, em regra, ainda usa precatória).' },
+          { type: 'box', kind: 'atencao', text: '**Conexão entre ACP federal e estadual — VAI PARA A JF** (Súmula 489/STJ). A força atrativa da JF é absoluta, prevalece sobre a competência estadual.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 3 (jurisdição):** competência é a medida em que cada juízo exerce a jurisdição una. Ler em conjunto.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 7 (juiz):** as regras de impedimento e suspeição também afetam a competência (em sentido amplo); declarado o impedimento, há remessa a outro juízo.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** incompetência absoluta = preliminar de contestação (art. 337 II); incompetência relativa também (após o CPC/15, NÃO mais em peça apartada).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** competência em ações coletivas tem regras próprias (LACP art. 2º, foro do local do dano). Súmula 489/STJ é tema cobrado.' }
+        ]
+      }
     ]
   },
   {
@@ -696,23 +804,136 @@ topics: [
     schedule: 'Mês 2, Semana 2',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Poderes do juiz no CPC: impulso oficial, gestão da prova, conciliação, atipicidade dos meios executivos (art. 139 IV)',
-        'Deveres (CPC art. 139 — rol exemplificativo)',
-        'Responsabilidade civil do juiz (CPC art. 143): dolo ou fraude; recusa, omissão ou retardamento sem justo motivo',
-        'Impedimento (rol taxativo, CPC art. 144): ex parente, advogou, etc. — gera nulidade absoluta sem prazo',
-        'Suspeição (rol exemplificativo, CPC art. 145): amigo íntimo, inimigo, credor, recebeu presentes — arguida em 15 dias',
-        'Auxiliares da justiça: escrivão, oficial de justiça, perito, depositário, intérprete, conciliador, mediador'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 139-148 (juiz); 149-175 (auxiliares)',
-        'LOMAN (LC 35/79)'
-      ]},
-      { h: 'Pontos clássicos', items: [
-        'Impedimento: nulidade absoluta, atemporal — pode ensejar ação rescisória',
-        'Suspeição: prazo de 15 dias para arguir, sob pena de preclusão',
-        'Independência funcional × poder de gestão processual'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O juiz é o **sujeito imparcial** da relação processual — terceiro equidistante, investido de jurisdição pelo Estado. Sua atuação no CPC/15 vai muito além do "juiz boca-da-lei" do positivismo clássico: é gestor do processo, condutor da cooperação, garante da efetividade. Os poderes-deveres do art. 139 e o regime de impedimento e suspeição (arts. 144-148) materializam a garantia constitucional do **juiz natural** (CF art. 5º LIII e XXXVII).' },
+          { type: 'p', text: '**Poderes-deveres do juiz no CPC (art. 139)** — rol EXEMPLIFICATIVO, com destaque para o inciso **IV — atipicidade dos meios executivos** (medidas necessárias para assegurar o cumprimento de ordem judicial, inclusive em obrigações pecuniárias). Foi o dispositivo mais polêmico do CPC/15: legitimou medidas atípicas como bloqueio de CNH, passaporte, cartão de crédito (com limites na proporcionalidade — STJ Tema 1137).' },
+          {
+            type: 'table',
+            headers: ['Aspecto', 'Impedimento (art. 144)', 'Suspeição (art. 145)'],
+            rows: [
+              ['Natureza do rol', 'TAXATIVO', 'Exemplificativo (cláusula aberta de imparcialidade)'],
+              ['Vício gerado', 'Nulidade ABSOLUTA', 'Nulidade RELATIVA'],
+              ['Prazo para arguir', 'NÃO PRECLUI (qualquer tempo)', '15 dias do conhecimento do fato'],
+              ['Cabe ação rescisória?', 'SIM (art. 966 II)', 'NÃO'],
+              ['Exemplos', 'Cônjuge/parente; advogou; sócio; testemunha', 'Amigo íntimo/inimigo; credor/devedor; presentes']
+            ]
+          },
+          { type: 'p', text: '**Auxiliares da justiça** (CPC arts. 149-175): servidores e particulares que colaboram com o exercício da jurisdição — escrivão, chefe de secretaria, oficial de justiça, perito, depositário, administrador, intérprete, tradutor, mediador, conciliador, partidor, distribuidor, contabilista, regulador de avarias.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Juiz' },
+          { type: 'list', items: [
+            '**CPC art. 139** — poderes-deveres (12 incisos; rol exemplificativo)',
+            '**Art. 139 IV** — atipicidade dos meios executivos (medidas inominadas)',
+            '**CPC arts. 140-141** — vedação ao non liquet; congruência (decisão nos limites do pedido)',
+            '**CPC art. 142** — fraude ao processo (ilícito processual; juiz pode reprimir de ofício)',
+            '**CPC art. 143** — responsabilidade civil do juiz (dolo, fraude, recusa, omissão)',
+            '**CPC arts. 144-148** — impedimento e suspeição'
+          ]},
+          { type: 'h', text: 'Auxiliares da Justiça (CPC arts. 149-175)' },
+          { type: 'list', items: [
+            '**Arts. 152-155** — escrivão e chefe de secretaria',
+            '**Arts. 156-158** — oficial de justiça',
+            '**Arts. 156-158** — perito (escolha; deveres; impugnação)',
+            '**Arts. 159-161** — depositário e administrador',
+            '**Arts. 162-164** — intérprete e tradutor',
+            '**Arts. 165-175** — conciliadores e mediadores (CEJUSCs)'
+          ]},
+          { type: 'h', text: 'Estatutos' },
+          { type: 'list', items: [
+            '**LC 35/79 (LOMAN)** — Lei Orgânica da Magistratura Nacional',
+            '**Lei 13.140/15** — Lei de Mediação',
+            '**Resolução CNJ 125/2010** — Política Judiciária Nacional de tratamento adequado de conflitos'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Atipicidade dos meios executivos (art. 139 IV)' },
+          { type: 'p', text: 'O CPC/15 expressamente autoriza ao juiz determinar **todas as medidas indutivas, coercitivas, mandamentais ou sub-rogatórias necessárias** para assegurar o cumprimento de ordem judicial, inclusive nas ações que tenham por objeto prestação pecuniária (alteração relevante do regime anterior, restrito à obrigação de fazer/não fazer). Limites: respeito aos direitos fundamentais (dignidade, liberdade de locomoção), proporcionalidade, esgotamento de meios típicos, fundamentação concreta.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.137 (REsp 1.788.950):** as medidas atípicas do art. 139 IV são CABÍVEIS em execução de obrigação pecuniária (suspensão de CNH, passaporte, cartão de crédito), DESDE QUE: (i) esgotados os meios típicos; (ii) demonstrada a existência de patrimônio compatível; (iii) decisão fundamentada e proporcional; (iv) não viole núcleo essencial de direitos fundamentais.' },
+
+          { type: 'h', text: 'Vedação ao non liquet (art. 140)' },
+          { type: 'p', text: 'O juiz NÃO se exime de decidir alegando lacuna ou obscuridade do ordenamento. Deve decidir sempre, valendo-se de analogia, costumes, princípios gerais do direito (LINDB art. 4º) e, especialmente após o CPC/15, dos precedentes vinculantes (art. 489 §1º V e VI).' },
+
+          { type: 'h', text: 'Princípio da congruência (art. 141)' },
+          { type: 'p', text: 'O juiz decide o mérito **nos limites do que foi proposto pelas partes** — não pode julgar fora (extra petita), além (ultra petita) ou aquém (citra petita). Exceções: pedidos implícitos (juros legais, correção, honorários, custas), matérias de ordem pública (cognição ex officio), tutela coletiva (relativização da congruência em ações coletivas).' },
+
+          { type: 'h', text: 'Responsabilidade civil do juiz (art. 143)' },
+          { type: 'p', text: 'Hipóteses TAXATIVAS:' },
+          { type: 'list', items: [
+            '**I — dolo ou fraude** no exercício de suas funções',
+            '**II — recusa, omissão ou retardamento** sem justo motivo de providência que deva ordenar de ofício ou a requerimento'
+          ]},
+          { type: 'p', text: 'A responsabilização é PESSOAL e DIRETA do magistrado (não do Estado, que pode regredir). Mas o cidadão pode acionar o Estado pela teoria da responsabilidade objetiva (CF art. 37 §6º) por erros judiciários e prisões além do tempo (CF art. 5º LXXV) — independentemente de dolo/fraude do juiz.' },
+
+          { type: 'h', text: 'Impedimento — rol taxativo (art. 144)' },
+          { type: 'p', text: 'Hipóteses (memorize a lógica: relação anterior FORTE com o caso ou as partes):' },
+          { type: 'list', items: [
+            '**I** — interveio como mandatário, perito, MP, testemunha',
+            '**II** — conheceu em outro grau de jurisdição (proferiu decisão)',
+            '**III** — cônjuge, companheiro ou parente até 3º grau de algum advogado/parte',
+            '**IV** — cônjuge/companheiro/parente atua como advogado',
+            '**V** — sócio ou membro de direção de PJ parte no processo',
+            '**VI** — herdeiro presuntivo, donatário, empregador',
+            '**VII** — promove ação contra a parte ou seu advogado',
+            '**VIII** — ele próprio ou cônjuge/companheiro são parte ou interessados',
+            '**IX** — promotor de demanda futura ou de execução fiscal'
+          ]},
+          { type: 'p', text: '**Consequências do impedimento NÃO declarado:** nulidade absoluta da sentença; ação RESCISÓRIA cabível (CPC art. 966 II); pode ser arguido a qualquer tempo, em qualquer grau, NÃO PRECLUI antes do trânsito em julgado.' },
+
+          { type: 'h', text: 'Suspeição — rol exemplificativo (art. 145)' },
+          { type: 'p', text: 'Hipóteses:' },
+          { type: 'list', items: [
+            '**I** — amigo íntimo ou inimigo de qualquer das partes ou seus advogados',
+            '**II** — recebeu presentes; aconselhou parte; subministrou meios para custas',
+            '**III** — credor ou devedor de parte ou cônjuge/parente',
+            '**IV** — interessado no julgamento da causa em favor de qualquer das partes'
+          ]},
+          { type: 'p', text: '**Procedimento (arts. 146-148):** arguição em PEÇA APARTADA, no prazo de 15 dias do conhecimento do fato; suspende o processo; remetida ao tribunal; decisão pelo órgão competente. O juiz pode acolher (e remete autos a substituto) ou rejeitar (e prossegue). Recurso: agravo de instrumento (art. 1.015 III).' },
+
+          { type: 'h', text: 'Auxiliares da justiça — pontos cobrados' },
+          { type: 'p', text: '**Perito (arts. 156-158):** confiança técnica do juízo; pode ser substituído (art. 468); responde por dolo, culpa grave, omissão (CPC art. 158 c/c CC art. 186); honorários fixados pelo juiz; suas conclusões NÃO vinculam o juiz (sistema do livre convencimento motivado — art. 371).' },
+          { type: 'p', text: '**Conciliadores e mediadores (arts. 165-175):** órgãos auxiliares, com cadastro nos tribunais (Resolução CNJ 125/2010), atuação em CEJUSCs. **Conciliação:** atua quando NÃO há vínculo prévio, pode propor soluções; **Mediação:** atua quando HÁ vínculo prévio, restaura comunicação, NÃO propõe solução.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.832.733:** o juiz pode rejeitar fundamentadamente o laudo pericial quando este não esgotar a controvérsia ou divergir de outras provas. Sistema do livre convencimento motivado vigente (art. 371 CPC).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Impedimento × Suspeição — comparativo memorizável:** **IM**pedimento = **IM**parcialidade quebrada por fato OBJETIVO/PROCESSUAL (parente, advogou); **SUS**peição = imparcialidade quebrada por fato SUBJETIVO/PESSOAL (amizade, ódio, presente). Impedimento é **TAXATIVO**; suspeição é **EXEMPLIFICATIVA**.' },
+          { type: 'box', kind: 'macete', text: '**Hipóteses do impedimento — "PARENTE-ATUAÇÃO":** atuou no caso (mandatário, perito, MP, testemunha), juiz em outro grau, parente, sócio/herdeiro/empregador, ele mesmo é parte, promotor da execução.' },
+          { type: 'box', kind: 'macete', text: '**Hipóteses da suspeição — "AICRE":** **A**migo íntimo/inimigo, **I**nteressado, **C**redor/devedor, **R**eceptor de presentes, **E**xperiência aconselhada (aconselhou parte).' },
+          { type: 'box', kind: 'macete', text: '**Responsabilidade civil do juiz (art. 143) — "DRO":** **D**olo ou fraude, **R**ecusa, **O**missão ou retardamento sem justo motivo.' },
+          { type: 'box', kind: 'macete', text: '**Conciliação × Mediação — "Conhecimento prévio":** **C**onciliação (sem vínculo, propõe), **M**ediação (com vínculo, restaura).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Impedimento NÃO PRECLUI** — pode ser arguido a qualquer tempo. Suspeição precluí em 15 dias. Erro frequente: confundir os prazos.' },
+          { type: 'box', kind: 'atencao', text: '**Atipicidade dos meios executivos (art. 139 IV) tem LIMITES:** respeito a direitos fundamentais, proporcionalidade, esgotamento de meios típicos. Não é "carta branca". STJ Tema 1.137 fixou os critérios.' },
+          { type: 'box', kind: 'atencao', text: '**Laudo pericial NÃO vincula o juiz** (art. 479; livre convencimento motivado — art. 371). Mas a fundamentação para divergir deve ser robusta.' },
+          { type: 'box', kind: 'atencao', text: '**Princípio da congruência admite exceções:** pedidos implícitos (juros, correção, honorários, custas — art. 322 §1º), tutela coletiva, matérias de ordem pública.' },
+          { type: 'box', kind: 'atencao', text: '**Suspeição arguida em peça apartada — não na contestação.** Pegadinha clássica. Diferente das demais matérias preliminares (art. 337), que vão na contestação.' },
+          { type: 'box', kind: 'atencao', text: '**Conciliador NÃO é mediador.** Conciliador propõe solução; mediador facilita o diálogo. Aplicação típica: conciliação para causas sem vínculo (consumo); mediação para causas com vínculo (família, condomínio).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 1 (normas fundamentais):** os poderes do juiz materializam a cooperação (art. 6º) e a vedação à decisão-surpresa (art. 10).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 2 (princípios e DH):** juiz natural é princípio constitucional (art. 5º LIII e XXXVII); impedimento e suspeição são desdobramentos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** juiz impedido equipara-se a juiz incompetente — remessa ao substituto.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 15 (execução):** o art. 139 IV é aplicado massivamente em cumprimento de sentença e execução. Estudar o STJ Tema 1.137 com profundidade.' }
+        ]
+      }
     ]
   },
   {
@@ -725,29 +946,173 @@ topics: [
     schedule: 'Mês 2, Semana 3',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Forma livre × forma especial; instrumentalidade das formas (CPC art. 188)',
-        'Prazos: legais/judiciais; dilatórios/peremptórios; contagem em dias úteis (CPC art. 219); férias forenses (20/12 a 20/01)',
-        'Suspensão (não corre, retoma) × interrupção (zera, recomeça) de prazos',
-        'Comunicações: citação (postal regra geral, pessoal, edital, hora certa), intimação (eletrônica regra)',
-        'Nulidades: princípio do prejuízo (pas de nullité sans grief), instrumentalidade, sanabilidade',
-        'Distribuição: livre, dependência, prevenção (CPC art. 286)',
-        'Valor da causa: critérios legais (CPC art. 292), impugnação na contestação'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 188-275 (atos processuais)',
-        'Lei 11.419/06 (processo eletrônico)'
-      ]},
-      { h: 'Pegadinhas frequentes', items: [
-        'Citação em sábado/domingo/feriado: regra geral permite; execução proíbe (CPC art. 244)',
-        'Prazo MP/DP/AGU/PGM em dobro — não acumula (não é em "quádruplo")',
-        '"Vista" (oferecida) × "intimação" (atual)',
-        'Princípios das nulidades: causalidade (consequência), instrumentalidade (forma serve à substância), prejuízo'
-      ]},
-      { h: 'Súmulas relevantes', items: [
-        'Súmula 414/STJ — citação por edital após esgotadas tentativas',
-        'Súmula 240/STJ — extinção pela inércia depende de provocação do réu'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **atos processuais** são manifestações de vontade que produzem efeitos no processo. Praticam-se por todos os sujeitos: juiz, partes, MP, auxiliares, terceiros. O CPC disciplina forma, tempo, lugar, comunicações, prazos e nulidades nos arts. 188-275 — capítulo MASSIVO em conteúdo e absolutamente clássico em prova de concurso.' },
+          { type: 'p', text: '**Forma — instrumentalidade (CPC arts. 188-192):** os atos podem ser praticados por qualquer meio LÍCITO (regra da liberdade de forma); só quando a lei expressamente exigir, deve haver forma especial. Vigora o princípio da **instrumentalidade das formas**: ato que atinge a finalidade, ainda que sem a forma legal, é VÁLIDO se não houver prejuízo (art. 188 § único + art. 277).' },
+          { type: 'p', text: '**Tempo (CPC arts. 212-216):** atos praticam-se em dias úteis, das **6h às 20h**. Atos urgentes podem ser praticados em qualquer tempo. Citação e intimação podem ser feitas até as 21h (Lei 13.793/19). **Férias forenses (recesso)**: 20/12 a 20/01 — suspende prazos, mas não atos urgentes.' },
+          { type: 'p', text: '**Lugar (CPC art. 217):** atos praticam-se na sede do juízo, salvo: (i) deferência ou interesse da justiça; (ii) obstáculo arguido pelo interessado e acolhido pelo juiz; (iii) atos itinerantes (juízo viajante).' },
+          {
+            type: 'table',
+            headers: ['Categoria de prazo', 'Quem fixa', 'Pode ser alterado?', 'Consequência da inobservância'],
+            rows: [
+              ['Legal', 'A lei (CPC ou especial)', 'Não, em regra', 'Preclusão temporal'],
+              ['Judicial', 'O juiz', 'Sim (art. 139 VI)', 'Preclusão temporal'],
+              ['Dilatório', 'Pode ser ampliado por convenção das partes (art. 190)', 'Sim, por NJP', 'Preclusão se inerte'],
+              ['Peremptório', 'NÃO pode ser reduzido por acordo, mas pode ser ampliado pelo juiz (calamidade — art. 222)', 'Limitado', 'Preclusão']
+            ]
+          },
+          { type: 'p', text: '**Contagem dos prazos** — REGRA do CPC/15: **dias úteis** (art. 219), excluindo o dia do começo e incluindo o do vencimento (art. 224). Prazos em horas correm continuamente.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Atos processuais — geral' },
+          { type: 'list', items: [
+            '**CPC arts. 188-192** — forma, instrumentalidade',
+            '**Art. 190** — negócios jurídicos processuais (NJP) atípicos',
+            '**Art. 191** — calendário processual',
+            '**Arts. 193-199** — atos por meio eletrônico',
+            '**Arts. 200-203** — atos das partes; atos do juiz (despachos, decisões, sentenças, acórdãos)',
+            '**Arts. 206-211** — atos do escrivão/chefe de secretaria; numeração e registro'
+          ]},
+          { type: 'h', text: 'Tempo e lugar (arts. 212-218)' },
+          { type: 'list', items: [
+            '**Art. 212** — horário (6h-20h, dias úteis)',
+            '**Art. 213** — atos eletrônicos podem ser praticados a qualquer tempo (até 24h do último dia)',
+            '**Art. 214** — recesso forense (20/12 a 20/01)',
+            '**Arts. 215-216** — feriados, suspensão',
+            '**Art. 217** — lugar (sede do juízo, salvo exceções)'
+          ]},
+          { type: 'h', text: 'Prazos (arts. 218-235)' },
+          { type: 'list', items: [
+            '**Art. 219** — contagem em dias ÚTEIS',
+            '**Art. 220** — suspensão dos prazos no recesso forense',
+            '**Art. 221** — suspensão por motivo de força maior',
+            '**Art. 222** — ampliação por dificuldade de transporte (até 60 dias)',
+            '**Art. 224** — exclusão do dia do começo, inclusão do vencimento',
+            '**Art. 229** — prazo em dobro para litisconsortes com advogados de escritórios diferentes (apenas em autos físicos)',
+            '**Arts. 231-233** — termo inicial de prazos (citação, intimação)'
+          ]},
+          { type: 'h', text: 'Comunicações (arts. 238-275)' },
+          { type: 'list', items: [
+            '**Arts. 238-259** — citação',
+            '**Art. 246** — modalidades: postal (regra), eletrônica, por oficial, edital, hora certa',
+            '**Art. 252** — citação por hora certa (suspeita de ocultação)',
+            '**Arts. 256-259** — citação por edital',
+            '**Arts. 269-275** — intimação',
+            '**Art. 270** — intimação eletrônica como REGRA'
+          ]},
+          { type: 'h', text: 'Nulidades (arts. 276-283)' },
+          { type: 'list', items: [
+            '**Art. 277** — instrumentalidade das formas (forma atingida, ato válido)',
+            '**Art. 278** — nulidade declarada de ofício',
+            '**Art. 282** — princípio do prejuízo + aproveitamento',
+            '**Art. 283** — citação ou intimação inválida supridas pelo comparecimento espontâneo'
+          ]},
+          { type: 'h', text: 'Distribuição (arts. 284-290) e Valor da causa (arts. 291-293)' },
+          { type: 'list', items: [
+            '**Art. 285** — distribuição livre (regra)',
+            '**Art. 286** — distribuição por dependência (prevenção)',
+            '**Art. 292** — critérios legais para o valor da causa',
+            '**Art. 293** — impugnação ao valor (na contestação)'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Negócios jurídicos processuais (art. 190)' },
+          { type: 'p', text: 'Inovação revolucionária do CPC/15. As partes plenamente capazes podem, em causas que admitam autocomposição, **convencionar sobre seus ônus, poderes, faculdades e deveres processuais**, antes ou durante o processo. Ex.: cláusula de prazo dilatório, escolha consensual de perito, dispensa de fase probatória, calendário processual (art. 191). Limites: matérias indisponíveis, ausência de consentimento, abusividade.' },
+
+          { type: 'h', text: 'Contagem dos prazos em dias úteis (art. 219)' },
+          { type: 'p', text: '**Inovação polêmica do CPC/15** que reduziu drasticamente as armadilhas processuais. Aplica-se aos prazos PROCESSUAIS (não materiais). Exclui o dia do começo e inclui o do vencimento. **Não se aplica em:** Lei do JEC (Lei 9.099/95 — Súmula CJF 99 e enunciados FONAJE — prazos contínuos), processo do trabalho (CLT art. 775 — modificada pela Lei 13.467/17, agora também em dias úteis); processo eleitoral (CE art. 16 — contínuos).' },
+
+          { type: 'h', text: 'Prazo em dobro para litisconsortes (art. 229)' },
+          { type: 'p', text: 'Advogados de escritórios diferentes em mesma causa têm prazo em DOBRO — limite art. 229 §2º: NÃO se aplica em autos eletrônicos (já há cópia digital permanente). Importante: NÃO se acumula com a dobra do MP/DP/AP (art. 229 §2º).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.813.684 (Tema 1.024):** o prazo em dobro do art. 229 NÃO se aplica quando o processo tramita eletronicamente (mesmo que o réu tenha se manifestado em meio físico). Tese vinculante.' },
+
+          { type: 'h', text: 'Suspensão × Interrupção dos prazos' },
+          { type: 'p', text: 'Distinção fundamental — sempre cobrada:' },
+          {
+            type: 'table',
+            headers: ['Suspensão', 'Interrupção'],
+            rows: [
+              ['Para o curso do prazo', 'Zera o prazo já transcorrido'],
+              ['Retoma do ponto onde parou', 'Recomeça do zero'],
+              ['Ex.: férias forenses (art. 220)', 'Ex.: oposição de embargos de declaração (art. 1.026 CPC, na fase recursal — interrompe; mas, nas instâncias ordinárias após CPC/15, INTERROMPE para todas as partes)']
+            ]
+          },
+
+          { type: 'h', text: 'Citação — modalidades (art. 246)' },
+          { type: 'list', items: [
+            '**Postal (correios) — REGRA GERAL** desde o CPC/15 (art. 247). Exceções: ações de estado, citando incapaz, citando pessoa jurídica de direito público, processo de execução (art. 247 II — apenas pessoal), citando residente em local não atendido pelo correio',
+            '**Eletrônica (art. 246 V e §1º)** — entes públicos, empresas privadas e advogados devem se cadastrar; preferencial. Prazo: 5 dias para confirmação',
+            '**Por oficial de justiça** — quando não couber a postal/eletrônica',
+            '**Por edital (arts. 256-259)** — réu desconhecido, incerto, ou ignorado paradeiro (após esgotadas tentativas — Súmula 414/STJ)',
+            '**Por hora certa (art. 252)** — suspeita de ocultação após 2 tentativas de oficial em horários diversos'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 414:** "A citação por edital na execução fiscal é cabível APENAS quando esgotadas as demais modalidades de citação." Aplica-se por analogia ao processo civil em geral.' },
+
+          { type: 'h', text: 'Citação inválida — efeitos (art. 239 §1º + art. 283)' },
+          { type: 'p', text: 'A citação válida, ainda que ordenada por juízo incompetente: (i) induz LITISPENDÊNCIA; (ii) torna LITIGIOSA a coisa; (iii) constitui em MORA o devedor (CC art. 397 §único); (iv) interrompe a PRESCRIÇÃO (retroagindo à data da propositura — art. 240 §1º CPC + CC art. 202 I). **A citação inválida** é suprida pelo comparecimento espontâneo (art. 239 §1º + art. 283).' },
+
+          { type: 'h', text: 'Sistema de nulidades — 4 princípios fundamentais' },
+          { type: 'list', items: [
+            '**Causalidade (art. 281):** a nulidade de um ato contamina os subsequentes que dele dependam, mas não os independentes',
+            '**Instrumentalidade (art. 277):** ato que atinge a finalidade, ainda que sem forma legal, é VÁLIDO',
+            '**Prejuízo (art. 282 §1º):** *pas de nullité sans grief* — sem prejuízo concreto, não se decreta nulidade',
+            '**Aproveitamento (art. 282):** o juiz pode determinar repetição/suprimento; só se DECLARA nulidade quando insanável'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.857.731 e jurisprudência consolidada:** a nulidade do art. 178 (falta de intimação do MP) é ABSOLUTA, mas exige demonstração de prejuízo concreto à parte tutelada (incapaz, etc.). Princípio do prejuízo aplicado mesmo às nulidades absolutas.' },
+
+          { type: 'h', text: 'Valor da causa (art. 292)' },
+          { type: 'p', text: 'Critérios LEGAIS por matéria — sempre tem valor (art. 291), mesmo nas causas sem conteúdo econômico imediato:' },
+          { type: 'list', items: [
+            '**I — cobrança:** valor cobrado',
+            '**II — divisão/demarcação/reivindicação:** valor do imóvel',
+            '**III — alimentos:** soma de 12 prestações mensais',
+            '**IV — divórcio/separação/anulação:** valor dos bens',
+            '**V — indenização:** valor pretendido (mesmo dano moral)',
+            '**VI — casos não previstos:** estimação razoável'
+          ]},
+          { type: 'p', text: 'Impugnação ao valor da causa: PRELIMINAR de contestação (art. 293 + art. 337). NÃO é mais peça apartada (CPC/73 era).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**4 princípios das nulidades — "CIPA":** **C**ausalidade, **I**nstrumentalidade, **P**rejuízo, **A**proveitamento.' },
+          { type: 'box', kind: 'macete', text: '**Modalidades de citação — "PEHEEO" (em ordem de preferência):** **P**ostal (regra), **E**letrônica, **H**ora certa, **E**dital (último recurso), por **E**fetivo do juízo (oficial), também menos usada por **O**utro juízo (carta precatória).' },
+          { type: 'box', kind: 'macete', text: '**Suspensão × Interrupção — pneu:** **S**uspende = pausa (continua de onde parou); **I**nterrompe = "I" como zerar (recomeça do zero).' },
+          { type: 'box', kind: 'macete', text: '**Prazo em dobro do art. 229 (litisconsortes) — só em PAPEL.** Eletrônico não tem dobra. Mnemônico: "papel dobra, pixel não".' },
+          { type: 'box', kind: 'macete', text: '**Atos do juiz — "DDSA":** **D**espacho (mero impulso), **D**ecisão interlocutória (resolve questão sem pôr fim), **S**entença (resolve mérito ou extingue), **A**córdão (colegiado).' },
+          { type: 'box', kind: 'macete', text: '**Recesso forense — 20/12 a 20/01.** Mnemônico: "vinte/doze a vinte/um — vinte e UM dias úteis ganhos".' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Prazo em dias úteis — só PROCESSUAIS.** Prazos materiais (decadência, prescrição) seguem CC. Erro frequente: contar prescrição em dias úteis.' },
+          { type: 'box', kind: 'atencao', text: '**Prazo em dobro do art. 229 NÃO se aplica em autos ELETRÔNICOS.** STJ Tema 1.024 firmou. Banca cobra MUITO.' },
+          { type: 'box', kind: 'atencao', text: '**Citação inválida = suprida pelo comparecimento espontâneo** (art. 239 §1º + art. 283). Mas o réu pode arguir a nulidade na primeira oportunidade — se calar, convalida.' },
+          { type: 'box', kind: 'atencao', text: '**Citação em sábado/domingo/feriado:** regra geral PERMITE no processo civil; já no processo de EXECUÇÃO há regra restritiva (mas afastada na prática para citação ordinária em dia útil seguinte).' },
+          { type: 'box', kind: 'atencao', text: '**Embargos de declaração INTERROMPEM o prazo recursal (CPC art. 1.026)** — para todas as partes, na sistemática do CPC/15. Não é mais simples suspensão.' },
+          { type: 'box', kind: 'atencao', text: '**Princípio do prejuízo aplica-se ATÉ a nulidade absoluta** (CPC art. 282 §2º). Sem prejuízo concreto, não há nulidade. Princípio "*pas de nullité sans grief*" tem aplicação ampla.' },
+          { type: 'box', kind: 'atencao', text: '**Calendário processual (art. 191) ≠ negócio jurídico processual (art. 190).** Calendário é específico (datas para atos); NJP é amplo (regras procedimentais). Ambos exigem capacidade, livre disposição, contraditório.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 1 (lei processual no tempo):** o isolamento dos atos processuais (art. 14) é base lógica para o regime de prazos sob lei nova.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP/Adv. Pública/Defensoria):** prazos em dobro nas funções essenciais — não se acumulam com o do art. 229.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** os atos processuais são a "matéria-prima" de toda a marcha procedimental — petição, citação, contestação, audiência, sentença.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** prazos recursais (15 dias regra; 5 dias embargos) seguem o regime geral (úteis). Embargos de declaração interrompem.' }
+        ]
+      }
     ]
   },
   {
@@ -760,27 +1125,145 @@ topics: [
     schedule: 'Mês 2, Semana 4',
     advantage: 'Vantagem GRANDE — vê tutelas no MP',
     sections: [
-      { h: 'Foco central', items: [
-        'Gênero TUTELA PROVISÓRIA → espécies: URGÊNCIA (cautelar e antecipada) e EVIDÊNCIA',
-        'Tutela antecipada antecedente × incidental (CPC arts. 303-304)',
-        'Estabilização da tutela antecipada antecedente (CPC art. 304): se não impugnada por agravo, torna-se estável e o processo é extinto',
-        'Requisitos urgência: probabilidade do direito + perigo de dano OU risco ao resultado útil',
-        'Tutela de evidência (CPC art. 311) — rol TAXATIVO, dispensa perigo: I) abuso; II) tese firmada em julgamento de casos repetitivos ou SV; III) prova documental + súmula vinculante; IV) inicial documental e fato evidente',
-        'Fungibilidade entre cautelar e antecipada (CPC art. 305 §único)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 294-311'
-      ]},
-      { h: 'Jurisprudência crítica', items: [
-        'STJ Tema 1099 — estabilização da tutela antecipada antecedente: enquanto não decair em 2 anos (art. 304 §5º), pode ser revista',
-        'Recurso cabível: agravo de instrumento (CPC art. 1015 I)',
-        'Diferenças cautelar atípica × típica'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Tutela de evidência NÃO tem requisito de perigo',
-        'Estabilização: discute-se se gera coisa julgada material — STJ tende a NÃO',
-        'Fungibilidade tem limite: não vale entre tutela e ações autônomas'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: '**Tutela provisória** é o gênero adotado pelo CPC/15 (arts. 294-311) para todas as formas de tutela diferenciada concedida com base em cognição SUMÁRIA (não exauriente). Substitui a antiga separação binária (tutela cautelar × antecipatória) por uma sistemática unificada com **dois fundamentos** (urgência e evidência) e **duas naturezas** (antecipada e cautelar).' },
+          {
+            type: 'table',
+            headers: ['Tutela provisória', 'Fundamento', 'Natureza', 'Requisitos', 'Procedimento'],
+            rows: [
+              ['Antecipada de urgência', 'Urgência', 'SATISFATIVA (entrega o bem)', 'Fumus + periculum (art. 300)', 'Antecedente (art. 303) ou incidental'],
+              ['Cautelar de urgência', 'Urgência', 'CONSERVATIVA (assegura)', 'Fumus + periculum (art. 300)', 'Antecedente (art. 305) ou incidental'],
+              ['Tutela de evidência', 'Evidência', 'Satisfativa', 'Hipóteses TAXATIVAS (art. 311)', 'Apenas incidental']
+            ]
+          },
+          { type: 'p', text: '**Para o MP — vantagem direta:** o MP é credor cotidiano de tutelas provisórias em ACP (cautelares para indisponibilidade de bens, antecipadas para tutela ambiental, sanitária, infância). Tutela de evidência é arma poderosa em casos de tese consolidada (ex.: precatório, falha em serviço público).' },
+          { type: 'p', text: '**Tutela antecipada antecedente (art. 303)** — inovação radical: a parte pode pedir APENAS a tutela urgente, com indicação sumária do pedido principal e do direito, deferindo o aprofundamento da causa de pedir e do pedido (autoria PRINCIPAL) para 15 dias após a concessão (art. 303 §1º I). Se NÃO houver aditamento, o processo é extinto (art. 303 §2º).' },
+          { type: 'p', text: '**Estabilização da tutela antecipada antecedente (art. 304) — Ó GRANDE INOVAÇÃO:** se concedida e NÃO impugnada por **AGRAVO DE INSTRUMENTO** pelo réu, ela se TORNA ESTÁVEL e o processo é EXTINTO. Por dois anos (art. 304 §5º), qualquer das partes pode propor ação para revê-la, reformá-la ou invalidá-la. Após esse prazo, há decadência do direito de revisão (mas a estabilização NÃO É coisa julgada — STJ).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CPC — Disposições gerais (arts. 294-299)' },
+          { type: 'list', items: [
+            '**Art. 294** — gênero tutela provisória (urgência e evidência)',
+            '**Art. 295** — pedido principal e provisório',
+            '**Art. 296** — provisoriedade; possibilidade de revisão',
+            '**Art. 297** — efetivação (técnica executiva)',
+            '**Art. 298** — fundamentação obrigatória',
+            '**Art. 299** — competência (juízo da causa principal)'
+          ]},
+          { type: 'h', text: 'Tutela de URGÊNCIA (arts. 300-302)' },
+          { type: 'list', items: [
+            '**Art. 300** — requisitos: probabilidade + perigo (caput); caução pode ser exigida (§1º); concessão liminar ou após justificação (§2º); irreversibilidade impede deferimento (§3º — mas STJ relativiza em direito à saúde)',
+            '**Art. 301** — modalidades cautelares típicas (arresto, sequestro, busca e apreensão, exibição) — rol exemplificativo',
+            '**Art. 302** — responsabilidade objetiva pelo dano causado por tutela injusta'
+          ]},
+          { type: 'h', text: 'Tutela ANTECIPADA antecedente (arts. 303-304)' },
+          { type: 'list', items: [
+            '**Art. 303** — pedido autônomo de tutela antecipada antecedente; aditamento em 15 dias',
+            '**Art. 304** — ESTABILIZAÇÃO se não houver agravo'
+          ]},
+          { type: 'h', text: 'Tutela CAUTELAR antecedente (arts. 305-310)' },
+          { type: 'list', items: [
+            '**Art. 305** — petição cautelar autônoma; 30 dias para principal',
+            '**Art. 305 § único** — FUNGIBILIDADE: pedido cautelar pode ser conhecido como antecipado (e vice-versa)',
+            '**Art. 308** — pedido principal nos mesmos autos'
+          ]},
+          { type: 'h', text: 'Tutela de EVIDÊNCIA (art. 311)' },
+          { type: 'list', items: [
+            '**Art. 311 I** — abuso do direito de defesa ou propósito protelatório',
+            '**Art. 311 II** — alegações de fato comprovadas DOCUMENTALMENTE + tese firmada em casos repetitivos ou súmula vinculante',
+            '**Art. 311 III** — pedido reipersecutório baseado em prova documental adequada (locação, depósito)',
+            '**Art. 311 IV** — petição inicial instruída com prova documental SUFICIENTE dos fatos e o réu não opõe prova capaz de gerar dúvida razoável'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Requisitos da tutela de URGÊNCIA (art. 300)' },
+          { type: 'p', text: 'Dois requisitos cumulativos:' },
+          { type: 'list', items: [
+            '**Probabilidade do direito (fumus boni iuris)** — verossimilhança apurada em cognição sumária; mais robusto que mera plausibilidade',
+            '**Perigo de dano OU risco ao resultado útil do processo** — periculum in mora; deve ser CONCRETO, atual, demonstrado'
+          ]},
+          { type: 'p', text: '**Limite (art. 300 §3º):** a tutela antecipada NÃO será concedida quando houver perigo de IRREVERSIBILIDADE dos efeitos da decisão. Mas o STJ relativiza essa proibição em direitos fundamentais (saúde, vida) — ponderação constitucional supera o óbice formal.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.815.500 (Tema 1.090):** o juiz pode conceder tutela antecipada para fornecimento de medicamento mesmo em situação de irreversibilidade fática, desde que demonstrada a probabilidade do direito e o perigo de dano à saúde/vida. Ponderação constitucional supera o art. 300 §3º.' },
+
+          { type: 'h', text: 'Tutela de EVIDÊNCIA — independe de URGÊNCIA' },
+          { type: 'p', text: 'Inovação genial do CPC/15: dispensa o perigo de dano (não há urgência, há "evidência" do direito). Justifica-se quando o direito é tão claro que aguardar a sentença final seria pôr ônus injusto sobre quem tem razão. **Rol TAXATIVO** (art. 311 — apenas as 4 hipóteses) — não admite analogia.' },
+          { type: 'p', text: 'Hipótese mais usada na prática: **inciso II** — alegações comprovadas documentalmente + tese firmada em **casos repetitivos** (recursos repetitivos do STJ, repercussão geral do STF, IRDR) ou em **súmula vinculante**. Essa é a "PORTA DE ENTRADA" para tutela de evidência em causas seriadas.' },
+
+          { type: 'h', text: 'Tutela antecipada antecedente — passo a passo (art. 303)' },
+          { type: 'list', items: [
+            '**1. Petição inicial limitada:** indica-se o pedido de tutela antecipada antecedente, a indicação do pedido de tutela final, a exposição da lide, do direito e do perigo (art. 303 §5º — autor deve indicar que pretende valer-se do procedimento)',
+            '**2. Concessão (ou não):** o juiz analisa em cognição sumária',
+            '**3. Aditamento (art. 303 §1º I):** se concedida, o autor tem 15 dias para aditar a inicial (incluindo causa de pedir + pedido final + provas), no MESMO processo, sem novas custas',
+            '**4. Não aditamento:** processo extinto sem mérito',
+            '**5. Citação do réu:** após aditamento'
+          ]},
+
+          { type: 'h', text: 'ESTABILIZAÇÃO (art. 304)' },
+          { type: 'p', text: 'Mecanismo PROCESSUAL único: a tutela antecipada antecedente concedida e NÃO IMPUGNADA por agravo torna-se ESTÁVEL e o processo é EXTINTO (art. 304 §1º). Conseqüências:' },
+          { type: 'list', items: [
+            '**Decisão estabilizada produz efeitos** — pode ser executada normalmente',
+            '**Por 2 ANOS (art. 304 §5º)** — qualquer das partes pode propor ação para revê-la, reformá-la ou invalidá-la (juízo originalmente competente; autuação em apartado; cognição plena)',
+            '**Após 2 anos:** decadência do direito de revisar — mas STJ defende que NÃO há coisa julgada (decisão estabilizada é definitiva no plano processual mas não material)',
+            '**Tese vinculante: STJ Tema 1.099** — a estabilização ocorre AINDA QUE o réu apresente outra forma de impugnação (contestação, p. ex.) — o que conta é a ausência de AGRAVO DE INSTRUMENTO'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.099 (REsp 1.997.347):** a estabilização ocorre **somente** se o réu não interpuser AGRAVO DE INSTRUMENTO contra a decisão concessiva. Outras formas de impugnação (contestação, requerimento de revogação) NÃO impedem a estabilização. Tese consolidada.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.760.966 e jurisprudência:** a estabilização do art. 304 NÃO gera coisa julgada material, mas sim "imutabilidade processual relativa". Após os 2 anos, há decadência do direito de revisão, mas teoricamente o direito material discutido pode ser objeto de outra ação (controvertido).' },
+
+          { type: 'h', text: 'Cautelar antecedente (art. 305) e fungibilidade' },
+          { type: 'p', text: 'Petição autônoma com requisitos resumidos (lide, fundamento da medida, indicação do pedido principal). Concedida, prazo de **30 DIAS** para o autor apresentar pedido principal NOS MESMOS AUTOS (art. 308). **Fungibilidade (art. 305 § único):** se o juiz entender que o pedido cautelar deveria ter sido formulado como antecipado (ou vice-versa), determina conversão. Aplica-se também ao § único do 303.' },
+
+          { type: 'h', text: 'Recurso cabível — agravo de instrumento (art. 1.015 I)' },
+          { type: 'p', text: '**Tema essencial:** decisão sobre tutela provisória — concessão, denegação, alteração — é recorrível por **agravo de instrumento** (art. 1.015 I), com prazo de 15 dias úteis. A omissão do agravo é o pressuposto da estabilização. NÃO se admite mandado de segurança contra decisão recorrível por agravo (Súmula 267/STF analógica).' },
+
+          { type: 'h', text: 'Responsabilidade pelo dano (art. 302)' },
+          { type: 'p', text: '**Responsabilidade OBJETIVA** do beneficiário pela tutela injustamente concedida (independe de dolo/culpa). Hipóteses (art. 302):' },
+          { type: 'list', items: [
+            'Sentença desfavorável ao requerente',
+            'Tutela cessada após o transcurso do prazo para aditamento (art. 303 §2º)',
+            'Cessação da eficácia em qualquer hipótese legal',
+            'Sentença que reconheceu a inexistência da obrigação'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Tutela provisória — esquema-mãe:** **G**ênero (provisória) → **2F**undamentos (Urgência, Evidência) → **2N**aturezas (Antecipada/Satisfativa, Cautelar/Conservativa).' },
+          { type: 'box', kind: 'macete', text: '**Requisitos da urgência — "PRO-PE":** **PRO**babilidade do direito (fumus) + **PE**rigo (de dano OU resultado útil).' },
+          { type: 'box', kind: 'macete', text: '**Tutela de evidência — 4 hipóteses "ABS-TES-DOC-EVI":** I — **ABS**uso de defesa; II — **TES**e firmada (repetitivos/SV); III — **DOC**umental adequada (reipersecutório); IV — **EVI**dência da inicial documental.' },
+          { type: 'box', kind: 'macete', text: '**Estabilização (art. 304) — só ocorre se o réu não AGRAVAR.** Outras impugnações não impedem (Tema 1.099/STJ). Mnemônico: "**A estabilização exige inércia ABSOLUTA quanto ao agravo**".' },
+          { type: 'box', kind: 'macete', text: '**Prazos críticos:** AGRAVO contra tutela = 15 dias; ADITAMENTO da antecipada antecedente = 15 dias; PEDIDO PRINCIPAL após cautelar antecedente = 30 dias; AÇÃO DE REVISÃO da estabilização = 2 anos.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Tutela de evidência NÃO TEM perigo como requisito** — a "evidência" supre. Erro frequente em prova de múltipla escolha.' },
+          { type: 'box', kind: 'atencao', text: '**Estabilização NÃO é coisa julgada material** (STJ — REsp 1.760.966). Por 2 anos cabe ação revisional. A imutabilidade é processual, não material.' },
+          { type: 'box', kind: 'atencao', text: '**Para estabilizar, basta NÃO HAVER AGRAVO** — Tema 1.099/STJ. Réu pode contestar, requerer revogação, etc., e ainda assim haverá estabilização. Pegadinha clássica.' },
+          { type: 'box', kind: 'atencao', text: '**Irreversibilidade (art. 300 §3º) é flexibilizável** em direitos fundamentais (saúde, vida) — STJ Tema 1.090. Não é vedação absoluta.' },
+          { type: 'box', kind: 'atencao', text: '**Fungibilidade entre antecipada e cautelar (art. 305 § único)** — admitida pelo CPC/15 expressamente. Não confundir com fungibilidade entre tutela provisória e ações autônomas (impossível).' },
+          { type: 'box', kind: 'atencao', text: '**Responsabilidade pela tutela injusta = OBJETIVA (art. 302).** Não se exige dolo ou culpa. Banca pode tentar inserir requisito subjetivo.' },
+          { type: 'box', kind: 'atencao', text: '**Tutela cautelar antecedente — pedido principal nos MESMOS AUTOS** (não em ação autônoma como no CPC/73). Inovação importante.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** o MP usa massivamente tutelas provisórias em ACP — indisponibilidade de bens (improbidade), tutela ambiental, sanitária, infância. **Vivência institucional da candidata** = vantagem grande.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** tutelas incidentais ocorrem dentro do procedimento comum. Antecipadas antecedentes têm rito próprio.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** tutela é decisão interlocutória → agravo de instrumento (art. 1.015 I).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** ACP cautelar e antecipada são ferramenta cotidiana do MP. Estudo conjunto recomendado.' }
+        ]
+      }
     ]
   },
   {
