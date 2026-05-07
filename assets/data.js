@@ -4991,15 +4991,86 @@ topics: [
     title: 'Atos unilaterais e enriquecimento sem causa',
     edital: '3.1.10',
     editalText: 'Promessa de recompensa. Gestão de negócios. Pagamento indevido. Enriquecimento sem causa.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Promessa de recompensa',
-      'Gestão de negócios',
-      'Pagamento indevido — repetição',
-      'Enriquecimento sem causa — pressupostos e subsidiariedade',
-      'Diferença com responsabilidade civil'
-    ],
-    sections: []
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **atos unilaterais** são fontes de obrigações que decorrem da manifestação de vontade de UMA SÓ pessoa, sem necessidade de aceitação. CC/02 trata: **promessa de recompensa** (arts. 854-860), **gestão de negócios** (arts. 861-875), **pagamento indevido** (arts. 876-883), **enriquecimento sem causa** (arts. 884-886).' },
+          { type: 'p', text: 'O **enriquecimento sem causa** (arts. 884-886) é norma fundamental: aquele que se enriqueceu à custa de outrem deve restituir o indevidamente auferido. **CARÁTER SUBSIDIÁRIO** (art. 886): só cabe quando NÃO houver outra ação específica. É "última fronteira" da reparação patrimonial — fonte autônoma de obrigação.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Promessa de recompensa (arts. 854-860)' },
+          { type: 'list', items: [
+            '**Art. 854** — quem, por anúncios públicos, prometer recompensa por algo, fica obrigado a cumprir',
+            '**Art. 855** — promessa pode ser revogada ANTES da prestação do serviço (mesma forma do anúncio)',
+            '**Art. 858** — em concursos, a recompensa cabe a quem cumprir conforme o anúncio'
+          ] },
+          { type: 'h', text: 'Gestão de negócios (arts. 861-875)' },
+          { type: 'list', items: [
+            '**Art. 861** — quem, sem autorização, gere negócio alheio, dirigir-se-á segundo a vontade presumível do dono',
+            '**Art. 862** — gerir negócios contra a vontade manifesta do dono → responde por perdas e danos, salvo se a vontade fosse contrária à lei',
+            '**Art. 869** — gestão útil e bem conduzida obriga o dono a indenizar despesas necessárias e úteis'
+          ] },
+          { type: 'h', text: 'Pagamento indevido (arts. 876-883)' },
+          { type: 'list', items: [
+            '**Art. 876** — todo aquele que recebeu o que NÃO LHE ERA DEVIDO fica obrigado a restituir',
+            '**Art. 877** — quem voluntariamente pagou o indevido tem o ônus da prova — deve provar que pagou por erro',
+            '**Art. 878** — irrecuperável a quantia paga conscientemente para fim ilícito (regra rigorosa)',
+            '**Art. 882** — não se pode repetir o que se pagou em razão de prescrição (dívida prescrita) — embora extinta a pretensão, a dívida persiste'
+          ] },
+          { type: 'h', text: 'Enriquecimento sem causa (arts. 884-886)' },
+          { type: 'list', items: [
+            '**Art. 884** — aquele que, sem JUSTA CAUSA, se enriquecer à custa de outrem, deve restituir o que indevidamente auferiu',
+            '**Art. 884 par. único** — restituição se faz pela coisa, ou pela quantia equivalente',
+            '**Art. 885** — restituição é INDEVIDA quando o enriquecimento se basear em causa juridicamente legítima (ex: doação válida)',
+            '**Art. 886** — NÃO caberá ação de enriquecimento sem causa quando a lei conferir ao lesado outros meios para se ressarcir do prejuízo (CARÁTER SUBSIDIÁRIO)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Pagamento indevido — ônus da prova' },
+          { type: 'p', text: 'Quem alega ter pago indevidamente tem **ÔNUS DE PROVAR O ERRO** (art. 877). Pagamento voluntário é presumidamente devido — quem se diz lesado deve quebrar essa presunção.' },
+          { type: 'h', text: 'Enriquecimento sem causa — subsidiariedade (art. 886)' },
+          { type: 'p', text: 'A ação de enriquecimento sem causa é **SUBSIDIÁRIA**: só cabe quando não há outra ação específica. Hipótese típica: quando a parte não tem ação contratual nem de responsabilidade civil — então invoca o enriquecimento como "fundo último" de tutela.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.304.061:** ação por enriquecimento sem causa é subsidiária; tendo a parte ação contratual ou de responsabilidade, não cabe a do art. 884.' },
+          { type: 'h', text: 'Pagamento de dívida PRESCRITA' },
+          { type: 'p', text: '**Art. 882** — quem paga DÍVIDA PRESCRITA não pode pedir de volta. A prescrição extingue a PRETENSÃO (art. 189), mas a dívida persiste como obrigação natural. Pagamento espontâneo de dívida prescrita = válido e irretratável.' },
+          { type: 'h', text: 'Diferença com responsabilidade civil' },
+          { type: 'p', text: 'Responsabilidade civil pressupõe **ATO ILÍCITO** (art. 186) ou ATIVIDADE DE RISCO (art. 927 par. único). Enriquecimento sem causa **NÃO** exige ilicitude — pode haver enriquecimento por fato lícito (recebimento de coisa por engano, p. ex.). Respondem a fontes distintas de obrigação.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**4 atos unilaterais: PROMESSA · GESTÃO · PAGAMENTO INDEVIDO · ENRIQUECIMENTO SEM CAUSA.**' },
+          { type: 'box', kind: 'macete', text: '**Enriquecimento sem causa = SUBSIDIÁRIO (art. 886). Sem outra ação = pode invocar.**' },
+          { type: 'box', kind: 'macete', text: '**Dívida PRESCRITA paga = NÃO se restitui (art. 882).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Enriquecimento é SUBSIDIÁRIO** (art. 886). Tendo ação específica = não cabe.' },
+          { type: 'box', kind: 'atencao', text: '**Pagamento de dívida PRESCRITA = irretratável** (art. 882). Pagador não recupera.' },
+          { type: 'box', kind: 'atencao', text: '**Quem paga indevido tem ônus da prova do erro** (art. 877). Pagamento voluntário é presumidamente devido.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** institutos distintos — responsabilidade exige ilicitude; enriquecimento basta a falta de causa.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (prescrição):** dívida prescrita paga não se repete (art. 882) — exceção ao princípio.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-11-responsabilidade-civil',
@@ -5132,17 +5203,97 @@ topics: [
     title: 'Direito de empresa',
     edital: '3.1.12',
     editalText: 'Empresário. Sociedade. Estabelecimento. Nome empresarial. EIRELI/SLU. Falência e recuperação (noções).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Empresário individual × sociedade empresária',
-      'Sociedades simples × empresárias',
-      'Tipos societários — Ltda, S.A. (parte geral)',
-      'Sociedade limitada unipessoal',
-      'Estabelecimento — trespasse',
-      'Nome empresarial — firma × denominação',
-      'Lei 11.101/05 — recuperação judicial e falência (linhas gerais)'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 2-3',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CC/02 absorveu o **Direito Empresarial** no Livro II da Parte Especial (arts. 966-1.195) — adotou a **TEORIA DA EMPRESA** (italiana) em substituição à teoria dos atos de comércio. Empresário é "quem exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou de serviços" (art. 966).' },
+          { type: 'p', text: 'Cinco temas centrais: (1) **Empresário individual × sociedade empresária × sociedade simples**; (2) **Tipos societários** (Ltda, S.A., SLU); (3) **Estabelecimento** (universalidade de fato, art. 1.142+); (4) **Nome empresarial** (firma × denominação); (5) **Falência/recuperação** (noções gerais — Lei 11.101/05).' },
+          { type: 'p', text: 'A Lei 13.874/19 introduziu a **SLU (Sociedade Limitada Unipessoal)** e a Lei 14.382/22 extinguiu a EIRELI. Reformas do "Marco Legal" buscam simplificar a vida empresarial.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Empresário (arts. 966-980)' },
+          { type: 'list', items: [
+            '**Art. 966 caput** — empresário: profissionalmente, atividade econômica organizada para produção ou circulação de bens/serviços',
+            '**Art. 966 par. único** — NÃO é empresário quem exerce profissão INTELECTUAL, científica, literária, artística, ainda com auxiliares — salvo se elemento de empresa',
+            '**Art. 967** — registro do empresário individual no Registro Público de Empresas Mercantis (Junta Comercial)',
+            '**Art. 970** — tratamento favorecido a ME e EPP (LC 123/06)'
+          ] },
+          { type: 'h', text: 'Sociedades (arts. 981-1.094)' },
+          { type: 'list', items: [
+            '**Art. 981** — sociedade = pessoas que mutuamente se obrigam a contribuir para exercer atividade econômica e partilhar resultados',
+            '**Art. 982** — sociedade EMPRESÁRIA: tem por objeto exercício de atividade própria de empresário (registro na Junta). SIMPLES: demais (registro no Cartório de PJs)',
+            '**Tipos:** sociedade EM COMUM (irregular — sem registro), EM CONTA DE PARTICIPAÇÃO, SIMPLES (cartório), LIMITADA (LTDA), por AÇÕES (Lei 6.404/76 — S.A.), em NOME COLETIVO, em COMANDITA SIMPLES e por AÇÕES, COOPERATIVA',
+            '**Art. 1.052** — LIMITADA: responsabilidade limitada ao capital social; sócios respondem solidariamente pela integralização',
+            '**Art. 1.052 §1º (Lei 13.874/19)** — Sociedade Limitada Unipessoal (SLU) — limitada com 1 sócio'
+          ] },
+          { type: 'h', text: 'Estabelecimento (arts. 1.142-1.149)' },
+          { type: 'list', items: [
+            '**Art. 1.142** — estabelecimento = complexo de bens organizados para exercício da empresa, por empresário ou sociedade',
+            '**Trespasse (art. 1.144)** — alienação do estabelecimento; eficácia perante credores depende de PUBLICAÇÃO + ANUÊNCIA expressa OU tácita (em 30 dias)',
+            '**Art. 1.146** — adquirente do estabelecimento responde pelo pagamento dos débitos anteriores ao trespasse, regularmente CONTABILIZADOS',
+            '**Art. 1.147** — não havendo permissão expressa, alienante NÃO PODE concorrer com o adquirente em prazo de 5 anos (cláusula de não-concorrência implícita)'
+          ] },
+          { type: 'h', text: 'Nome empresarial (arts. 1.155-1.168)' },
+          { type: 'list', items: [
+            '**Art. 1.155** — nome empresarial = firma OU denominação',
+            '**FIRMA:** nome do empresário (individual) ou de UM ou MAIS sócios (firma social)',
+            '**DENOMINAÇÃO:** designação genérica + indicação do objeto social — usada nas S.A., obrigatoriamente; LTDA pode ser firma ou denominação',
+            '**Princípios:** novidade (art. 1.163) + veracidade'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Empresário × profissional intelectual (art. 966 par. único)' },
+          { type: 'p', text: 'O CC/02 RETIROU os profissionais intelectuais (médicos, advogados, escritores, artistas) do conceito de empresário. Exceção: quando o exercício da profissão **constituir elemento de empresa** — quando a atividade pessoal se subordina a uma organização empresarial (ex: clínica médica organizada como empresa). Cobrado em provas.' },
+          { type: 'box', kind: 'atencao', text: '**Profissional intelectual NÃO é empresário** (art. 966 par. único), salvo se constituir elemento de empresa. Banca arma essa pegadinha.' },
+          { type: 'h', text: 'EIRELI extinta — SLU substituiu' },
+          { type: 'p', text: '**Lei 14.382/22** revogou expressamente a EIRELI (CC art. 980-A). EIRELIs existentes foram automaticamente convertidas em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19). SLU NÃO exige capital mínimo (diferente da antiga EIRELI, que exigia 100 SM).' },
+          { type: 'box', kind: 'atencao', text: '**EIRELI NÃO EXISTE MAIS** (Lei 14.382/22). Hoje só SLU. Erro frequente em concursos.' },
+          { type: 'h', text: 'Trespasse — anuência dos credores' },
+          { type: 'p', text: 'Para o trespasse (alienação do estabelecimento) ser eficaz perante credores: publicação no Diário Oficial + ANUÊNCIA dos credores (expressa ou tácita — silêncio em 30 dias = anuência). Sem isso, contratos pendentes não se transferem automaticamente.' },
+          { type: 'h', text: 'Cláusula de não-concorrência (art. 1.147)' },
+          { type: 'p', text: 'A lei cria por DEFAULT uma cláusula de não-concorrência: alienante de estabelecimento não pode concorrer com o adquirente por 5 anos. Pode ser afastada por cláusula expressa em sentido contrário.' },
+          { type: 'h', text: 'Falência e recuperação (Lei 11.101/05)' },
+          { type: 'p', text: 'Aplicáveis ao EMPRESÁRIO E SOCIEDADE EMPRESÁRIA — não a sociedades simples nem a profissionais liberais. **3 institutos:** (1) **Recuperação JUDICIAL** (art. 47-69) — devedor em crise apresenta plano para credores aprovarem; (2) **Recuperação EXTRAJUDICIAL** (art. 161-167) — acordo direto com credores, homologado pelo juiz; (3) **FALÊNCIA** (art. 75+) — execução coletiva concursal — devedor empresário insolvente.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Profissional intelectual NÃO é empresário** (art. 966 par. único). Salvo se elemento de empresa.' },
+          { type: 'box', kind: 'macete', text: '**EIRELI extinta. SLU vigente.** (Lei 14.382/22 + 13.874/19).' },
+          { type: 'box', kind: 'macete', text: '**Trespasse: PUBLICAÇÃO + anuência (expressa ou silêncio em 30 dias).**' },
+          { type: 'box', kind: 'macete', text: '**Não-concorrência implícita: 5 anos** (art. 1.147).' },
+          { type: 'box', kind: 'macete', text: '**Falência só para EMPRESÁRIO/sociedade empresária.** Sociedade simples NÃO falir.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Profissional intelectual (advogado, médico) NÃO é empresário** — salvo elemento de empresa.' },
+          { type: 'box', kind: 'atencao', text: '**SLU não tem capital mínimo** — diferente da extinta EIRELI (que exigia 100 SM).' },
+          { type: 'box', kind: 'atencao', text: '**Sociedade simples NÃO falir** — só empresária/empresário individual está sujeito ao regime falimentar.' },
+          { type: 'box', kind: 'atencao', text: '**Adquirente do estabelecimento responde por débitos CONTABILIZADOS** (art. 1.146); por dívidas trabalhistas e tributárias, regras especiais ampliam responsabilidade.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 3 (PJ):** SLU é tipo societário unipessoal limitado. Personalidade jurídica e desconsideração aplicam-se.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** falência é execução coletiva concursal; rege-se pela Lei 11.101/05.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Tributário:** sucessão de empresas tem regime tributário específico (CTN art. 133).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-13-direitos-reais',
@@ -5515,7 +5666,20 @@ flashcards: [
   { id: 212, topic: 9, materia: 'civil', q: 'Mútuo × comodato — diferença essencial?', a: 'MÚTUO: empréstimo de coisa FUNGÍVEL (dinheiro, grãos) — TRANSFERE propriedade; mutuário devolve do mesmo gênero. COMODATO: empréstimo GRATUITO de coisa INFUNGÍVEL — apenas USO, sem transferência de propriedade.', tags: ['fase3', 'mutuo', 'comodato'] },
   { id: 213, topic: 9, materia: 'civil', q: 'O que é o benefício de ordem na fiança?', a: 'Direito do FIADOR de exigir que sejam executados PRIMEIRO os bens do DEVEDOR PRINCIPAL (art. 827). RENUNCIÁVEL (art. 828). Não cabe se: renunciou expressamente, é "principal pagador", devedor é insolvente/falido.', tags: ['fase3', 'fianca'] },
   { id: 214, topic: 9, materia: 'civil', q: 'Súmula 214/STJ — qual a regra?', a: 'Fiador na locação NÃO responde por obrigações resultantes de aditamento ao qual NÃO ANUIU. Aplica princípio da interpretação RESTRITIVA da fiança (art. 819).', tags: ['fase3', 'fianca'] },
-  { id: 215, topic: 9, materia: 'civil', q: 'Bem de família do fiador locatício pode ser penhorado?', a: 'SIM (Lei 8.009/90 art. 3º VII + STF Tema 295 — RE 612.360). Exceção controversa (viola direito à moradia segundo crítica), mas constitucional.', tags: ['fase3', 'fianca', 'bem-familia'] }
+  { id: 215, topic: 9, materia: 'civil', q: 'Bem de família do fiador locatício pode ser penhorado?', a: 'SIM (Lei 8.009/90 art. 3º VII + STF Tema 295 — RE 612.360). Exceção controversa (viola direito à moradia segundo crítica), mas constitucional.', tags: ['fase3', 'fianca', 'bem-familia'] },
+
+  // ============ Bloco 15 — Fase 3 (Civil 10 + 12) ============
+  // Civ 10 — Atos unilaterais
+  { id: 216, topic: 10, materia: 'civil', q: 'O que caracteriza o enriquecimento sem causa (CC art. 884)?', a: 'Aquele que se enriquece SEM JUSTA CAUSA à custa de outrem deve restituir. Ação tem CARÁTER SUBSIDIÁRIO (art. 886) — só cabe quando NÃO houver outra ação específica para o lesado.', tags: ['fase3', 'enriquecimento'] },
+  { id: 217, topic: 10, materia: 'civil', q: 'Pagamento de dívida prescrita pode ser repetido?', a: 'NÃO (art. 882). Prescrição extingue a PRETENSÃO, mas a dívida persiste como obrigação natural. Pagamento espontâneo é válido e irretratável.', tags: ['fase3', 'pagamento-indevido'] },
+  { id: 218, topic: 10, materia: 'civil', q: 'Quem alega ter pago indevidamente tem o ônus da prova de quê?', a: 'Do ERRO (art. 877). Pagamento voluntário é presumidamente devido. Quem alega indevido deve provar que pagou por engano.', tags: ['fase3', 'pagamento-indevido'] },
+  { id: 219, topic: 10, materia: 'civil', q: 'Diferença entre enriquecimento sem causa e responsabilidade civil?', a: 'Responsabilidade exige ATO ILÍCITO (art. 186). Enriquecimento sem causa NÃO exige ilicitude — basta a ausência de causa juridicamente legítima. São fontes autônomas de obrigação.', tags: ['fase3', 'enriquecimento'] },
+
+  // Civ 12 — Empresa
+  { id: 220, topic: 12, materia: 'civil', q: 'Profissional intelectual (advogado, médico) é empresário?', a: 'NÃO (art. 966 par. único). Profissão intelectual, científica, literária, artística — ainda com auxiliares — não é empresarial. EXCEÇÃO: quando constituir ELEMENTO DE EMPRESA (organização empresarial subordinante).', tags: ['fase3', 'empresa'] },
+  { id: 221, topic: 12, materia: 'civil', q: 'EIRELI ainda existe no direito brasileiro?', a: 'NÃO (extinta pela Lei 14.382/22). EIRELIs existentes foram convertidas automaticamente em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19). SLU NÃO tem capital mínimo (diferente da antiga EIRELI).', tags: ['fase3', 'empresa', 'EIRELI'] },
+  { id: 222, topic: 12, materia: 'civil', q: 'O que é trespasse?', a: 'Alienação do ESTABELECIMENTO empresarial (CC art. 1.144). Eficácia perante credores depende de PUBLICAÇÃO + ANUÊNCIA (expressa ou tácita — silêncio por 30 dias). Adquirente responde por débitos CONTABILIZADOS (art. 1.146).', tags: ['fase3', 'empresa', 'trespasse'] },
+  { id: 223, topic: 12, materia: 'civil', q: 'Falência aplica-se à sociedade simples?', a: 'NÃO. Lei 11.101/05 aplica-se apenas a EMPRESÁRIO INDIVIDUAL e SOCIEDADE EMPRESÁRIA. Sociedade simples e profissionais liberais não estão sujeitos ao regime falimentar.', tags: ['fase3', 'empresa', 'falencia'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -6839,6 +7003,34 @@ questions: [
     ],
     correct: 'E',
     explanation: 'CC art. 819 + Súmula 214/STJ: interpretação RESTRITIVA da fiança; sem anuência ao aditamento, não responde. (A) Falso — interpretação restritiva. (B) Falso — benefício de ordem é RENUNCIÁVEL (art. 828). (C) Falso — Súmula 214 STJ. (D) Falso — Lei 8.009/90 art. 3º VII + STF Tema 295: penhorável.'
+  },
+
+  // ============ Bloco 15 — Fase 3 (Civil 10 + 12) ============
+  {
+    id: 91, topic: 10, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o enriquecimento sem causa no Código Civil, é correto afirmar:',
+    alternatives: [
+      'A ação por enriquecimento sem causa pode ser usada concorrentemente com outras ações disponíveis ao lesado, em razão da reparação integral.',
+      'A ação por enriquecimento sem causa é subsidiária — somente cabe quando a lei não conferir ao lesado outros meios para se ressarcir do prejuízo (art. 886).',
+      'O enriquecimento sem causa exige a comprovação de ato ilícito por parte do beneficiado.',
+      'A ação por enriquecimento sem causa é imprescritível, em razão da gravidade do desequilíbrio.',
+      'Quem paga dívida prescrita pode pleitear sua repetição com base no enriquecimento sem causa.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 886: subsidiariedade. (A) Falso — só quando NÃO há outra ação específica. (C) Falso — não exige ilicitude. (D) Falso — submete-se ao prazo geral (10 anos — art. 205) ou específicos. (E) Falso — art. 882: pagamento de dívida prescrita NÃO se repete.'
+  },
+  {
+    id: 92, topic: 12, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o conceito de empresário no CC/02 e sua aplicação a profissionais intelectuais, é correto afirmar:',
+    alternatives: [
+      'Todo profissional que exerce atividade econômica organizada é considerado empresário, independentemente da natureza da profissão.',
+      'Profissionais intelectuais (médicos, advogados, escritores, artistas) NÃO são considerados empresários, salvo se o exercício da profissão constituir ELEMENTO DE EMPRESA.',
+      'Profissionais liberais sempre são empresários, em razão da remuneração pela atividade.',
+      'O CC/02 manteve a teoria dos atos de comércio adotada pelo CCom/1850.',
+      'O empresário, mesmo individual, é obrigatoriamente registrado no Cartório de Pessoas Jurídicas.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 966 par. único: profissional intelectual NÃO é empresário, salvo se elemento de empresa. (A) Falso — exclui intelectuais. (C) Falso — só se for elemento de empresa. (D) Falso — CC/02 adotou TEORIA DA EMPRESA (italiana). (E) Falso — empresário individual registra-se na JUNTA COMERCIAL (art. 967).'
   }
 ],
 
