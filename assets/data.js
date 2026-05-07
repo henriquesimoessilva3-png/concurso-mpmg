@@ -3525,16 +3525,100 @@ topics: [
     title: 'Cooperação jurídica internacional',
     edital: '3.2.27',
     editalText: 'Cooperação jurídica internacional. Auxílio direto. Carta rogatória. Homologação de sentença estrangeira (CPC arts. 26-41 e 960-965).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Princípios — boa-fé, igualdade, publicidade, devido processo',
-      'Auxílio direto × carta rogatória',
-      'Autoridade central (MJSP)',
-      'Homologação de sentença estrangeira no STJ — requisitos',
-      'Eficácia provisória de medidas estrangeiras (art. 962)',
-      'Sentença arbitral estrangeira (Convenção de Nova York + Lei 9.307/96 art. 35)'
-    ],
-    sections: []
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CPC/15 disciplinou pela primeira vez de modo sistemático a **cooperação jurídica internacional** (arts. 26-41) e a **homologação de sentença estrangeira** (arts. 960-965). Antes, a matéria era dispersa em tratados, regimentos do STJ e Lei 9.307/96 (arbitragem). Hoje há marco unificado.' },
+          { type: 'p', text: 'Três institutos centrais a distinguir: (1) **Auxílio direto** (CPC art. 28) — autoridade brasileira EXECUTA o ato pedido por estado estrangeiro sem juízo de delibação. (2) **Carta rogatória** (CPC art. 36) — pedido de ato com necessidade de juízo de delibação no STJ (concede-se exequatur). (3) **Homologação de sentença estrangeira** (CPC arts. 960-965) — STJ reconhece eficácia da decisão estrangeira para que produza efeitos no Brasil.' },
+          { type: 'p', text: 'A **autoridade central** brasileira é o Ministério da Justiça (Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional — DRCI). Princípios: respeito às garantias do devido processo (CPC art. 26 § 2º), publicidade dos procedimentos, espontaneidade e reciprocidade.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Disposições gerais (arts. 26-27)' },
+          { type: 'list', items: [
+            '**Art. 26** — cooperação reger-se-á por tratado de que o Brasil seja parte; na sua ausência, pelo princípio da reciprocidade',
+            '**Art. 26 § 1º** — princípios da cooperação: respeito às garantias do devido processo legal; igualdade de tratamento; publicidade processual (salvo sigilo legal); existência de autoridade central; espontaneidade na transmissão',
+            '**Art. 26 § 4º** — vedada a discriminação ao requerimento estrangeiro',
+            '**Art. 27** — objeto: citação, intimação, colheita de provas, informações, atos concertados, qualquer outro ato não vedado em lei brasileira'
+          ] },
+          { type: 'h', text: 'Auxílio direto (arts. 28-34)' },
+          { type: 'list', items: [
+            '**Art. 28** — auxílio direto = quando a medida solicitada não decorrer diretamente de decisão estrangeira; pode ser executada diretamente pelas autoridades brasileiras',
+            '**Art. 30** — atos de auxílio direto: obtenção e prestação de informações, colheita de provas (salvo as que precisem de cooperação direta entre autoridades centrais)',
+            '**Art. 33** — para auxílio direto que reclame medida judicial, competência da JUSTIÇA FEDERAL'
+          ] },
+          { type: 'h', text: 'Carta rogatória e exequatur (arts. 36-37)' },
+          { type: 'list', items: [
+            '**Art. 36** — carta rogatória passiva: respeitará as garantias do devido processo legal; será denegada se manifestamente ofensiva à ordem pública',
+            '**Art. 37** — pedido pode ser feito pela parte ou pela autoridade estrangeira; exequatur cabível ao STJ (CF art. 105 I i)'
+          ] },
+          { type: 'h', text: 'Sentença estrangeira (arts. 960-965)' },
+          { type: 'list', items: [
+            '**Art. 960** — homologação obrigatória para produção de efeitos da sentença estrangeira no Brasil',
+            '**Art. 961** — decisão estrangeira pode ser executada após homologação pelo STJ ou concessão de exequatur a carta rogatória, salvo em casos legais expressos (ex: divórcio consensual puro — § 5º)',
+            '**Art. 961 § 5º** — sentença estrangeira de DIVÓRCIO CONSENSUAL produz efeitos no Brasil INDEPENDENTEMENTE de homologação pelo STJ. Apenas registro civil',
+            '**Art. 963** — requisitos para homologação: sentença proferida por autoridade competente; cientificação ou revelia legalmente verificada; eficaz no país de origem; não ofender coisa julgada brasileira; estar em português autenticado/traduzido; atender requisitos legais',
+            '**Art. 964** — não há revisão de mérito (juízo de DELIBAÇÃO)',
+            '**Art. 965** — execução da sentença homologada na JUSTIÇA FEDERAL (CF art. 109 X)'
+          ] },
+          { type: 'h', text: 'Sentença arbitral estrangeira' },
+          { type: 'list', items: [
+            '**Lei 9.307 art. 35** — homologação no STJ (CF art. 105 I i)',
+            '**Lei 9.307 art. 39** — recusa só nos casos da Convenção de Nova York/1958 (incapacidade, convenção inválida, ofensa à ordem pública, falta de notificação, decisão fora dos limites, falta de obrigatoriedade na origem)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Auxílio direto × carta rogatória — qual a diferença?' },
+          { type: 'p', text: 'Critério legal (CPC art. 28): se a medida pedida decorre diretamente de decisão estrangeira, é **carta rogatória** (com exequatur do STJ). Se for ato administrativo/processual independente — coleta de prova, informação, citação — pode ser **auxílio direto** (sem juízo de delibação, executado diretamente).' },
+          { type: 'box', kind: 'macete', text: '**Decorre de DECISÃO estrangeira → ROGATÓRIA + STJ. Não decorre → AUXÍLIO DIRETO.**' },
+          { type: 'h', text: 'Divórcio consensual estrangeiro — efeito direto (art. 961 § 5º)' },
+          { type: 'p', text: 'Inovação importante do CPC/15: divórcio CONSENSUAL puro (sem partilha de bens controvertida ou guarda) produz efeitos **IMEDIATAMENTE** no Brasil, com simples averbação no registro civil. **NÃO precisa de homologação no STJ.**' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.787.345 e Tema 1.047:** divórcio consensual puro estrangeiro dispensa homologação. Se houver partilha de bens em discussão, exige homologação.' },
+          { type: 'h', text: 'STJ — competência única para homologação' },
+          { type: 'p', text: 'A EC 45/2004 transferiu a competência homologatória do STF para o STJ (CF art. 105 I i). O procedimento segue o **Regimento Interno do STJ** (RISTJ arts. 216-A a 216-N) + CPC.' },
+          { type: 'h', text: 'Juízo de delibação (art. 964)' },
+          { type: 'p', text: 'O STJ **NÃO revisa o mérito** da sentença estrangeira. Apenas verifica os requisitos formais e a não ofensa à ordem pública/soberania nacional/dignidade humana. É controle de admissibilidade, não de revisão substancial.' },
+          { type: 'box', kind: 'atencao', text: '**STJ NÃO revisa mérito** da sentença estrangeira (art. 964). Erro: dizer que é "duplo grau" ou que cabe rediscussão da causa.' },
+          { type: 'h', text: 'Execução de sentença homologada — JF' },
+          { type: 'p', text: 'Após homologação no STJ, a execução é na **Justiça Federal** (CF art. 109 X + CPC art. 965). Não vai para a Justiça Comum estadual, mesmo se a matéria for tipicamente estadual.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**3 institutos: Auxílio Direto · Carta Rogatória · Homologação.** Aux: direto, sem delibação. Rogatória: ato com delibação (STJ). Homologação: efeito de sentença (STJ).' },
+          { type: 'box', kind: 'macete', text: '**Divórcio consensual puro = efeito DIRETO** (art. 961 §5º). Sem partilha controvertida → dispensa STJ.' },
+          { type: 'box', kind: 'macete', text: '**Sempre que entrar STJ, vira JF na execução** (art. 965 + CF 109 X).' },
+          { type: 'box', kind: 'macete', text: '**4 cartas: precatória (juízos), de ordem (tribunal pra inferior), rogatória (internacional), arbitral (árbitro).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**STF NÃO homologa mais sentença estrangeira** (mudou em 2004 com a EC 45). É STJ. Banca pode tentar a antiga sistemática.' },
+          { type: 'box', kind: 'atencao', text: '**Não há revisão de mérito no juízo de delibação** (art. 964). STJ verifica requisitos, não rediscute causa.' },
+          { type: 'box', kind: 'atencao', text: '**Auxílio direto NÃO precisa de delibação do STJ** (art. 33 — competência da JF). Erro: confundir com carta rogatória.' },
+          { type: 'box', kind: 'atencao', text: '**Sentença arbitral estrangeira → STJ** (Lei 9.307 art. 35). Diferente da interna, que é TEJ direto.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 22 (arbitragem):** sentença arbitral ESTRANGEIRA — homologação no STJ + Convenção de Nova York.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** competência absoluta da Justiça Federal para execução da sentença estrangeira homologada (CF 109 X).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** decisão do STJ em homologação é irrecorrível para tribunal superior, salvo embargos no próprio STJ.' }
+        ]
+      }
+    ]
   },
   {
     id: '28-precedentes-stare-decisis',
@@ -3542,18 +3626,119 @@ topics: [
     title: 'Sistema de precedentes — IRDR, IAC, repetitivos',
     edital: '3.2.28',
     editalText: 'Microssistema de precedentes vinculantes. CPC arts. 926-928, 976-987 (IRDR), 947 (IAC), 1.036-1.041 (repetitivos).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Função uniformizadora dos tribunais (art. 926)',
-      'Rol de precedentes obrigatórios (art. 927)',
-      'IRDR — pressupostos, procedimento, efeitos',
-      'IAC — assunção de competência (art. 947)',
-      'Repetitivos no STJ e RG no STF',
-      'Distinguishing × overruling',
-      'Reclamação como instrumento de aderência (art. 988)',
-      'Modulação de efeitos'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CPC/15 instituiu o **microssistema de precedentes vinculantes** (arts. 926-928 + 927 + 947 + 976-987 + 1.036-1.041), influenciado pelo *stare decisis* anglo-saxão. A finalidade é **uniformidade, integridade, estabilidade e coerência** da jurisprudência (art. 926 caput) — antídoto à "loteria judiciária".' },
+          { type: 'p', text: 'O **art. 927** lista os **6 precedentes obrigatórios**: (I) decisões em controle concentrado de constitucionalidade do STF; (II) súmulas vinculantes; (III) acórdãos em IRDR ou IAC; (IV) acórdãos em recursos repetitivos do STJ ou repercussão geral do STF; (V) súmulas do STF (matéria constitucional) e do STJ (matéria infraconstitucional); (VI) orientação do plenário/órgão especial a que estiverem vinculados (regimentos).' },
+          { type: 'p', text: 'A construção do precedente exige **fundamentação adequada** (art. 489 § 1º V e VI): juiz não pode invocar precedente sem demonstrar adequação do caso concreto à *ratio decidendi*; nem deixar de aplicar precedente sem demonstrar **distinguishing** (distinção) ou **overruling** (superação). Esses dois conceitos são pedra de toque das provas modernas.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Princípios gerais (arts. 926-927)' },
+          { type: 'list', items: [
+            '**Art. 926** — tribunais devem uniformizar sua jurisprudência e mantê-la **estável, íntegra e coerente**',
+            '**Art. 926 § 1º** — tribunais editarão enunciados de súmula da jurisprudência',
+            '**Art. 926 § 2º** — ao editar súmula, atenção às circunstâncias fáticas dos precedentes',
+            '**Art. 927** — juízes e tribunais OBSERVARÃO (vinculação): I (decisões STF controle concentrado); II (SV); III (acórdãos IRDR/IAC); IV (acórdãos repetitivos STJ + RG STF); V (súmulas STF/STJ); VI (orientação do plenário/órgão especial)',
+            '**Art. 927 § 1º** — observância do contraditório + dever de fundamentação adequada (art. 489 § 1º)',
+            '**Art. 927 § 4º** — modificação de enunciado: precedida de audiências públicas e participação de pessoas/instituições',
+            '**Art. 928** — julgamento de casos repetitivos = IRDR + recursos repetitivos'
+          ] },
+          { type: 'h', text: 'IRDR — Incidente de Resolução de Demandas Repetitivas (arts. 976-987)' },
+          { type: 'list', items: [
+            '**Art. 976** — pressupostos: (I) efetiva REPETIÇÃO de processos sobre **mesma questão exclusivamente de DIREITO**; (II) risco de OFENSA à ISONOMIA e à SEGURANÇA jurídica',
+            '**Art. 976 § 1º** — basta UMA causa pendente no tribunal para instauração',
+            '**Art. 977** — legitimados: relator/órgão julgador (de ofício); partes; MP; Defensoria Pública',
+            '**Art. 978** — IRDR julgado pelo órgão indicado no regimento (geralmente plenário/órgão especial)',
+            '**Art. 982 II** — suspensão dos processos pendentes na área de jurisdição do tribunal',
+            '**Art. 985** — tese aplicada a TODOS os processos da área de jurisdição (presentes e FUTUROS — efeito ultra partes)',
+            '**Art. 985 § 1º** — não observada a tese: cabe RECLAMAÇÃO',
+            '**Art. 987** — cabe RE/REsp do julgamento do IRDR (efeito suspensivo nacional automático)'
+          ] },
+          { type: 'h', text: 'IAC — Incidente de Assunção de Competência (art. 947)' },
+          { type: 'list', items: [
+            '**Caput** — admissível em julgamento de relevante questão de direito, com grande repercussão social, sem repetição em múltiplos processos',
+            '**§ 1º** — proposta pelo relator, partes ou MP; órgão indicado no regimento decide',
+            '**§ 3º** — acórdão do IAC vinculará todos os juízes e órgãos fracionários (efeito vinculante interno do tribunal)',
+            'Diferença IRDR × IAC: IRDR exige repetição; IAC pode ser usado com 1 caso de grande relevância (uniformização preventiva)'
+          ] },
+          { type: 'h', text: 'Recursos repetitivos (arts. 1.036-1.041)' },
+          { type: 'list', items: [
+            '**Art. 1.036** — quando houver multiplicidade de RE/REsp com mesma questão de direito, presidência seleciona DOIS ou mais "casos-piloto"',
+            '**Art. 1.037** — outros processos da mesma matéria ficam SUSPENSOS no país',
+            '**Art. 1.039 par. único** — recursos em que se aplicará a tese do paradigma e os pendentes serão decididos conforme tese fixada',
+            '**Art. 1.040** — implementação da tese: tribunal de origem aplica + processos suspensos retomam'
+          ] },
+          { type: 'h', text: 'Reclamação (arts. 988-993)' },
+          { type: 'list', items: [
+            '**Art. 988** — cabível para: (I) preservar competência do tribunal; (II) garantir autoridade de suas decisões; (III) garantir observância de decisão STF em controle concentrado; (IV) garantir observância de SV, acórdão repetitivo, IRDR, IAC, RG',
+            '**Art. 988 § 5º II** — reclamação contra acórdão recorrido EXIGE prévio esgotamento das instâncias ordinárias quando se tratar de inobservância de decisão em RG/repetitivo',
+            '**Não cabe reclamação para fazer cumprir SÚMULA não vinculante** — apenas vinculante (Súmula 734/STF)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Distinguishing × Overruling' },
+          { type: 'p', text: '**Distinguishing** = afastamento do precedente porque o caso concreto tem peculiaridades fáticas que justificam tratamento distinto. NÃO desconstrói o precedente; apenas diferencia. Pode ser feito por qualquer juiz, com fundamentação adequada (art. 489 § 1º VI).' },
+          { type: 'p', text: '**Overruling** = SUPERAÇÃO do precedente. Só pode ser feito pelo MESMO órgão que editou (ou superior). Exige procedimento específico — quórum, audiência pública etc. (art. 927 § 4º). Razões geralmente: mudança fática, social, jurídica.' },
+          { type: 'box', kind: 'macete', text: '**Distinguishing = DIFERENCIAR; Overruling = SUPERAR.** Distinguishing qualquer juiz; Overruling apenas o tribunal autor do precedente.' },
+          { type: 'h', text: 'Vinculação obrigatória do art. 927' },
+          { type: 'p', text: 'Apesar da redação "OBSERVARÃO" (art. 927), há discussão doutrinária sobre se gera vinculação real ou apenas dever de fundamentação. **Posição predominante (Didier, Marinoni):** sim, há eficácia vinculante, especialmente porque há **reclamação** (art. 988 IV) para garantir observância. Bancas tendem a adotar essa visão.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 510 (REsp 1.696.396):** observância de precedente do STJ em REsp repetitivo é OBRIGATÓRIA aos juízos inferiores; descumprimento autoriza reclamação após esgotamento das ordinárias.' },
+          { type: 'h', text: 'IRDR — pressupostos e efeitos' },
+          { type: 'p', text: '**Efetiva repetição** + **risco à isonomia/segurança jurídica** (art. 976). A tese vincula processos pendentes E FUTUROS na área do tribunal (art. 985 II) — efeito **ultra partes**. Apenas tribunal de 2º grau julga IRDR (relator no tribunal pode propor, ou propor por iniciativa).' },
+          { type: 'box', kind: 'atencao', text: '**IRDR exige questão exclusivamente de DIREITO** (art. 976 I). Matéria de fato/probatória NÃO. Banca pode armar.' },
+          { type: 'h', text: 'IRDR × IAC — diferenças' },
+          { type: 'table', headers: ['Critério', 'IRDR (976)', 'IAC (947)'],
+            rows: [
+              ['Repetição de processos', 'Necessária', 'Não'],
+              ['Foco', 'Resolver demandas em massa', 'Uniformização preventiva'],
+              ['Suspensão de processos', 'Sim, na área do tribunal', 'Não obrigatória'],
+              ['Vinculação', 'Casos pendentes + futuros (985 II)', 'Vinculante para juízes e órgãos do tribunal (947 §3º)']
+            ] },
+          { type: 'h', text: 'Reclamação para cumprir precedente — esgotamento (art. 988 § 5º II)' },
+          { type: 'p', text: 'Para acionar reclamação contra acórdão de tribunal local que descumpriu precedente repetitivo/RG, exige-se **esgotamento das instâncias ordinárias** (recurso especial/extraordinário deve ter sido tentado). Apenas para SV há reclamação direta.' },
+          { type: 'h', text: 'Modulação de efeitos (art. 927 § 3º)' },
+          { type: 'p', text: 'Quando houver alteração de jurisprudência consolidada, pode haver MODULAÇÃO dos efeitos (limitar retroatividade) por razão de interesse social e segurança jurídica. Tema clássico do STF (controle de constitucionalidade) trazido para a esfera dos precedentes.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Art. 927 — 6 precedentes obrigatórios:** I (controle concentrado STF) · II (SV) · III (IRDR/IAC) · IV (repetitivos STJ + RG STF) · V (súmulas STF/STJ) · VI (regimento — plenário/órgão especial).' },
+          { type: 'box', kind: 'macete', text: '**SEIQ: Segurança · Estabilidade · Integridade · Q (= coerência)** — 4 valores do art. 926.' },
+          { type: 'box', kind: 'macete', text: '**IRDR: Repetição + Direito + Risco isonomia.** Sem repetição, vai pra IAC.' },
+          { type: 'box', kind: 'macete', text: '**Reclamação (988 IV) — só pra inobservância de PRECEDENTE OBRIGATÓRIO.** Não cabe contra súmula simples (734/STF).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Súmula simples NÃO autoriza reclamação** (Súmula 734/STF). Só súmula VINCULANTE.' },
+          { type: 'box', kind: 'atencao', text: '**Reclamação contra descumprimento de RG/repetitivo: esgotamento ordinário** (art. 988 § 5º II). Pegadinha: dizer "cabe direto, sem esgotamento".' },
+          { type: 'box', kind: 'atencao', text: '**IRDR não é IAC.** Memoriza: IRDR exige repetição; IAC é preventivo (1 caso de grande relevância).' },
+          { type: 'box', kind: 'atencao', text: '**Distinguishing pode qualquer juiz; Overruling apenas o tribunal autor.** Erro frequente: dizer que qualquer instância pode superar precedente.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** improcedência liminar do art. 332 baseada em precedentes obrigatórios — tem ligação direta com o art. 927.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** RE/REsp repetitivos (1.036-1.041), RG (1.035), tudo se conversa com o microssistema de precedentes.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 19 (MS):** SV gera reclamação direta; outros precedentes exigem esgotamento.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 1 (lei processual):** dever de fundamentação (CPC art. 489 § 1º) é o "motor" do sistema — sem ele, precedente é decoração.' }
+        ]
+      }
+    ]
   },
   {
     id: '29-cnj-cnmp-resolucoes',
@@ -3561,16 +3746,102 @@ topics: [
     title: 'CNJ, CNMP — resoluções aplicáveis',
     edital: '3.2.29',
     editalText: 'Resoluções do CNJ e CNMP relevantes ao processo civil e à atuação do MP.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'CNJ — Resoluções 65/2017 (processo estrutural), 125/2010 (Política de tratamento de conflitos)',
-      'CNMP — Resolução 23/2007 (Inquérito Civil)',
-      'CNMP — Resolução 174/2017 (Recomendações)',
-      'CNMP — Resolução 179/2017 (TAC)',
-      'TJMG — Resolução 780/2014 (PJe)',
-      'Implicações práticas no procedimento'
-    ],
-    sections: []
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: 'A candidata é Analista MPMG — atos do CNMP são parte do dia a dia',
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os atos normativos do **CNJ** (Conselho Nacional de Justiça — CF art. 103-B) e do **CNMP** (Conselho Nacional do Ministério Público — CF art. 130-A) são fontes regulatórias relevantes do processo civil e da atuação ministerial. Embora subordinados à Constituição e à lei, têm **força normativa interna**, vinculando juízes/membros do MP.' },
+          { type: 'p', text: 'Para o concurso do MPMG, há **3 grupos de atos** que merecem atenção: (i) **CNJ** — Resolução 125/2010 (política de tratamento de conflitos, base dos CEJUSCs); 65/2009 (gestão de processos estratégicos); (ii) **CNMP** — Resolução 23/2007 (inquérito civil), 174/2017 (recomendações), 179/2017 (TAC), 230/2021 (LGPD); (iii) **TJMG** — atos locais de processo eletrônico e organização (Lei Orgânica do MPMG — LC 34/94).' },
+          { type: 'p', text: 'A **Resolução CNMP 23/2007** é a mais cobrada — disciplina o **inquérito civil**, instrumento exclusivo do MP (CF art. 129 III). Seu conhecimento é essencial para qualquer concurso de Promotor.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CNJ — Conselho Nacional de Justiça' },
+          { type: 'list', items: [
+            '**CF art. 103-B** — composição, atribuições; controle administrativo do Judiciário',
+            '**Resolução CNJ 125/2010** — Política Judiciária Nacional de Tratamento Adequado dos Conflitos. Base normativa dos **CEJUSCs**',
+            '**Resolução CNJ 305/2019** (e aditivas) — PJe (Processo Eletrônico)',
+            '**Resolução CNJ 65/2009** — Plano Nacional de Gestão Documental',
+            'Decisões em PCA (Procedimento de Controle Administrativo) e em Reclamação Disciplinar têm efeitos disciplinares e administrativos sobre o Judiciário'
+          ] },
+          { type: 'h', text: 'CNMP — Conselho Nacional do Ministério Público' },
+          { type: 'list', items: [
+            '**CF art. 130-A** — composição, atribuições; controle administrativo do MP',
+            '**Resolução CNMP 23/2007** — Inquérito Civil: instauração, instrução, conclusão, arquivamento. Aplica-se também ao MPF/MPM. Disciplina prazos, formalidades, possibilidade de recomendação, audiência pública',
+            '**Resolução CNMP 174/2017** — Recomendações (instrumento extrajudicial de orientação a entes públicos/privados)',
+            '**Resolução CNMP 179/2017** — TAC (Termo de Ajustamento de Conduta) — disciplina, requisitos, efeitos',
+            '**Resolução CNMP 230/2021** — LGPD aplicada ao MP',
+            '**Resolução CNMP 181/2017** (criminal — ANPP) — Acordo de Não Persecução Penal'
+          ] },
+          { type: 'h', text: 'Inquérito Civil — Resolução CNMP 23/2007 (pontos cobrados)' },
+          { type: 'list', items: [
+            '**Art. 1º** — IC é instrumento INVESTIGATIVO, não-cogente, de natureza administrativa, exclusivo do MP',
+            '**Art. 2º** — instaurado para apurar fato que possa ensejar tutela de interesses ou direitos a cargo do MP (difusos, coletivos, individuais homogêneos)',
+            '**Art. 4º** — pode ser instaurado de OFÍCIO ou em razão de representação/notícia',
+            '**Art. 9º** — promoção de arquivamento submetida ao Conselho Superior do MP — o juiz NÃO homologa (diferente do IP penal); arquivamento administrativo',
+            '**Art. 10** — prazo para conclusão: 1 ano, prorrogável fundamentadamente',
+            '**Art. 14** — TAC pode encerrar o inquérito; valor de TÍTULO EXECUTIVO EXTRAJUDICIAL (Lei 7.347/85 art. 5º § 6º)',
+            '**Sigilo** — em regra, sigiloso (art. 7º), com possibilidade de divulgação ponderada'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Inquérito civil × inquérito policial' },
+          { type: 'table', headers: ['Critério', 'IC (CNMP 23/07)', 'IP (CPP)'],
+            rows: [
+              ['Titularidade', 'MP (exclusivo — CF 129 III)', 'Polícia Judiciária'],
+              ['Natureza', 'Administrativo, investigatório', 'Administrativo, investigatório'],
+              ['Arquivamento', 'CSMP (Conselho Superior); juiz NÃO interfere', 'Juiz HOMOLOGAVA até Pacote Anticrime; agora interno do MP'],
+              ['Resultado', 'ACP, TAC, recomendação ou arquivamento', 'Denúncia, ANPP, arquivamento'],
+              ['Sigilo', 'Em regra, sigiloso', 'Em regra, sigiloso']
+            ] },
+          { type: 'box', kind: 'atencao', text: '**IC — arquivamento NÃO passa pelo juiz.** Vai ao **Conselho Superior do MP** (CSMP). Diferente do IP. Erro frequente.' },
+          { type: 'h', text: 'TAC — Termo de Ajustamento de Conduta' },
+          { type: 'p', text: 'Instrumento extrajudicial pelo qual o investigado se obriga a adequar conduta à lei, sob cominação de multa. **Título executivo EXTRAJUDICIAL** (Lei 7.347 art. 5º § 6º). Pode ser celebrado por qualquer legitimado da ACP (incluindo MP, Adm Pública, Defensoria, associações, com requisitos próprios).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.612.931:** TAC celebrado em IC tem natureza de TEE (Lei 7.347 art. 5º § 6º). Cabe execução nos termos do CPC arts. 824 e seguintes.' },
+          { type: 'h', text: 'Recomendação (CNMP 174/2017)' },
+          { type: 'p', text: 'Instrumento de **orientação** (não-vinculante) a entes públicos ou privados. NÃO cria obrigação juridicamente exigível. Mas o destinatário deve responder fundamentadamente (sob pena de improbidade ou da ACP). É forma extrajudicial de evitar o Judiciário.' },
+          { type: 'h', text: 'Resolução CNMP 230/2021 — LGPD' },
+          { type: 'p', text: 'O MP é controlador de dados pessoais. Aplicação da LGPD com peculiaridades — atividades persecutórias têm regime próprio (Anteprojeto LGPD criminal). Tema novo, possível em concurso 2027/2028.' },
+          { type: 'h', text: 'Limites das resoluções do CNJ/CNMP' },
+          { type: 'p', text: 'Resoluções não podem inovar contra a lei nem usurpar competência legislativa. **STF (ADI 4.638):** a competência normativa do CNJ não é genérica nem abrange matéria reservada à lei. Concursos cobram esse limite — pegadinha de "resolução pode tudo".' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**IC = Instrumento exclusivo do MP. Arquivamento NO MP, não no juiz** (CSMP).' },
+          { type: 'box', kind: 'macete', text: '**TAC = TEE** (título executivo extrajudicial). Lei 7.347 art. 5º § 6º.' },
+          { type: 'box', kind: 'macete', text: '**Resoluções CNMP cobradas: 23 (IC) · 174 (Recomendação) · 179 (TAC) · 181 (ANPP) · 230 (LGPD).**' },
+          { type: 'box', kind: 'macete', text: '**Resolução CNJ 125 = CEJUSCs.** Base normativa dos centros de mediação/conciliação.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**IC arquivamento NÃO vai ao juiz** (vai ao CSMP — Conselho Superior). Diferente do IP penal pré-Pacote Anticrime.' },
+          { type: 'box', kind: 'atencao', text: '**Recomendação NÃO é juridicamente vinculante** — é orientação. Mas destinatário deve responder fundamentadamente.' },
+          { type: 'box', kind: 'atencao', text: '**Resoluções do CNJ/CNMP têm limites** (STF ADI 4.638). Não substituem lei nem invadem matéria legislativa.' },
+          { type: 'box', kind: 'atencao', text: '**TAC tem força de TEE** — passa direto à execução, não precisa de processo de conhecimento. Mas se houver inadimplemento, segue rito de execução por título extrajudicial.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atribuições constitucionais e legais do MP — IC é instrumento exclusivo (CF 129 III).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** TAC e IC são instrumentos pré-judiciais — frequentemente evitam ACP, ou a antecedem.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 21 (mediação):** Resolução CNJ 125/2010 é a base normativa do CEJUSC — política nacional de tratamento de conflitos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 28 (precedentes):** decisões do CNJ em PCA podem ter impacto disciplinar; STF tem revisado limites normativos.' }
+        ]
+      }
+    ]
   },
   {
     id: '30-honorarios-custas',
@@ -3578,16 +3849,111 @@ topics: [
     title: 'Honorários sucumbenciais, custas e multas',
     edital: '3.2.30',
     editalText: 'Honorários advocatícios sucumbenciais (CPC art. 85). Custas processuais. Multas processuais (litigância de má-fé, ato atentatório).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Honorários — natureza alimentar, base de cálculo (§§ 2º-6º)',
-      'Honorários contra Fazenda Pública (§ 3º)',
-      'Honorários recursais (§ 11)',
-      'Sucumbência mínima e recíproca',
-      'Custas — fato gerador, isenções',
-      'Multas — litigância de má-fé (art. 80-81), atentatórias (arts. 77 §2º, 774)'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Honorários sucumbenciais (**CPC art. 85**) e custas processuais são os principais ÔNUS financeiros do processo. O CPC/15 inovou ao consolidar a **natureza alimentar** dos honorários (art. 85 § 14), garantindo prioridade na execução, e ao estabelecer **honorários recursais** (§ 11) — "majoração" dos honorários quando recurso for desprovido.' },
+          { type: 'p', text: 'Quanto à Fazenda Pública (§ 3º), há **sistema escalonado** de percentuais conforme valor da condenação ou da causa, com mínimos por faixa (1% a 20%). Quando há **sucumbência mínima** ou **recíproca** (§§ 14 e 86 par. único), há regras específicas.' },
+          { type: 'p', text: 'As **multas processuais** complementam o ônus: litigância de má-fé (arts. 80-81), atos atentatórios à dignidade da justiça (arts. 77 § 2º e 334 § 8º), execução (arts. 774 e 918), descumprimento de ordem judicial (multa diária — art. 537). Cada uma tem natureza, destinatário e regime próprios.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Honorários sucumbenciais (art. 85)' },
+          { type: 'list', items: [
+            '**Caput** — honorários fixados entre **10% e 20%** sobre valor da condenação, do proveito econômico ou, na ausência, do valor atualizado da causa',
+            '**§ 2º** — critérios para fixação: zelo, lugar, natureza/importância da causa, trabalho realizado, tempo exigido',
+            '**§ 3º** — Fazenda Pública (sistema ESCALONADO): 10-20% (até 200 SM); 8-10% (200 a 2.000 SM); 5-8% (2.000 a 20.000 SM); 3-5% (20.000 a 100.000 SM); 1-3% (acima 100.000 SM)',
+            '**§ 6º** — limites se aplicam ainda que ESTADO seja vencedor; honorários como verba SUI GENERIS, NÃO sujeita a sucumbência mínima',
+            '**§ 11** — honorários **RECURSAIS**: tribunal MAJORARÁ honorários, observando limites do § 2º; majoração somada não pode ultrapassar limites máximos do caput/§ 3º',
+            '**§ 14** — natureza ALIMENTAR; vedada compensação em caso de sucumbência parcial',
+            '**§ 18** — caput, § 2º e demais aplicam-se também à reconvenção, ao cumprimento de sentença, à execução resistida'
+          ] },
+          { type: 'h', text: 'Sucumbência recíproca e mínima' },
+          { type: 'list', items: [
+            '**Art. 85 § 14** — vedada COMPENSAÇÃO de honorários em sucumbência parcial',
+            '**Art. 86** — sucumbência recíproca: cada parte arca proporcionalmente. **Par. único:** sucumbência mínima (vencedor decai pequena parte) → o vencedor recebe TODOS os honorários',
+            '**Súmula 326/STJ:** dano moral fixado em valor inferior ao postulado NÃO importa sucumbência recíproca'
+          ] },
+          { type: 'h', text: 'Custas processuais' },
+          { type: 'list', items: [
+            'Fato gerador: distribuição da ação ou prática do ato',
+            '**Art. 82 § 2º** — sentença condenará vencido a pagar custas; salvo gratuidade ou outra disposição',
+            'Custas estaduais regidas por leis estaduais (no MG: Lei 14.939/03 e regulamento)',
+            'Sentenças contra a Fazenda: dispensa de custas em algumas hipóteses (lei estadual define)'
+          ] },
+          { type: 'h', text: 'Multas processuais' },
+          { type: 'list', items: [
+            '**Art. 77 § 2º** — atos atentatórios à dignidade da justiça (descumprir ordem, criar obstáculo): multa de até 20% do valor da causa, à União/Estado',
+            '**Arts. 80-81** — litigância de má-fé: hipóteses no art. 80; multa de 1% a 10% do valor corrigido da causa, à parte contrária + indenização',
+            '**Art. 334 § 8º** — ausência injustificada à audiência de conciliação: até 2% do valor da causa/vantagem econômica, à União/Estado',
+            '**Art. 537** — multa cominatória (astreintes) por descumprimento de obrigação de fazer/não fazer/entregar coisa',
+            '**Art. 774** — atos atentatórios à dignidade da justiça na execução: multa até 20% do valor atualizado do débito, ao exequente',
+            '**Art. 918** — execução manifestamente protelatória: multa de até 20% sobre valor da execução, ao exequente'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Honorários da Fazenda Pública — § 3º' },
+          { type: 'p', text: 'Sistema **ESCALONADO POR FAIXAS** — quanto maior o valor, menor o percentual. Vencedor da Fazenda **respeita o piso** da faixa correspondente. Lei 14.940/24 trouxe alterações para evitar honorários ínfimos em causas multimilionárias contra a União.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.105:** o §3º do art. 85 estabelece sistema cogente; juiz não pode fixar abaixo do mínimo da faixa, ainda que sob argumento de proporcionalidade.' },
+          { type: 'h', text: 'Honorários recursais (§ 11)' },
+          { type: 'p', text: 'Quando o recurso for **desprovido** (não conhecido OU julgado improcedente), o tribunal **MAJORA** os honorários como sanção pela atuação recursal infrutífera. Não é "novo honorário" — é majoração do existente. Limite: somatório não pode ultrapassar máximo legal (20% ou faixa do § 3º).' },
+          { type: 'box', kind: 'atencao', text: '**Honorários recursais incidem mesmo em causa que envolva Fazenda** (§ 11 + §3º). Erro frequente.' },
+          { type: 'h', text: 'Natureza alimentar (§ 14)' },
+          { type: 'p', text: 'Honorários têm natureza ALIMENTAR — beneficiário tem prioridade na fila de pagamento (art. 100 § 1º CF para precatórios, art. 833 IV CPC para impenhorabilidade). NÃO se sujeitam a compensação em sucumbência parcial.' },
+          { type: 'h', text: 'Sucumbência recíproca × mínima' },
+          { type: 'p', text: '**Recíproca:** cada parte ganha em parte; rateia honorários proporcionalmente, **vedada compensação** (§ 14). **Mínima:** vencedor decai em ponto irrelevante (ex: pediu 100, ganhou 95) → adversário paga TUDO. Súmula 326/STJ traz exemplo clássico (dano moral fixado abaixo do pedido NÃO é recíproca).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 326:** "Na ação de indenização por dano moral, a condenação em montante inferior ao postulado na inicial não implica sucumbência recíproca."' },
+          { type: 'h', text: 'Multas — destinatários' },
+          { type: 'table', headers: ['Multa', 'Hipótese', 'Destinatário'],
+            rows: [
+              ['Art. 77 § 2º', 'Ato atentatório (descumprir ordem etc.)', 'União/Estado'],
+              ['Art. 81', 'Litigância de má-fé', 'Parte contrária + indenização'],
+              ['Art. 334 § 8º', 'Ausência audiência conciliação', 'União/Estado'],
+              ['Art. 537', 'Astreintes (descumprir tutela específica)', 'Exequente/credor'],
+              ['Art. 774', 'Ato atentatório execução', 'Exequente'],
+              ['Art. 918', 'Execução protelatória', 'Exequente']
+            ] },
+          { type: 'box', kind: 'macete', text: '**Atentatórios = União/Estado. Má-fé = parte contrária. Astreintes/protelação = exequente.**' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Honorários Fazenda — 5 faixas, do maior pro menor (10-20% até 1-3%).** Quanto maior o valor da causa, menor o %.' },
+          { type: 'box', kind: 'macete', text: '**Recursais (§11) = MAJORAÇÃO, não novo honorário.** Soma respeita limite máximo.' },
+          { type: 'box', kind: 'macete', text: '**Honorários = ALIMENTAR (§14). Vedada COMPENSAÇÃO.**' },
+          { type: 'box', kind: 'macete', text: '**Litigância má-fé: 1-10% + indenização. Atentatório: até 20%, à União.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Honorários recursais APLICAM-SE à Fazenda** (§ 11 c/c § 3º). Erro: assumir que Fazenda escapa.' },
+          { type: 'box', kind: 'atencao', text: '**§ 14 veda COMPENSAÇÃO** em sucumbência parcial. Antes do CPC/15, era comum compensar; hoje, não.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 326/STJ — dano moral fixado abaixo do pedido = SUCUMBÊNCIA NÃO RECÍPROCA.** Apenas o réu paga.' },
+          { type: 'box', kind: 'atencao', text: '**Astreintes do art. 537 vão para o EXEQUENTE**, não para a União. Diferente das multas atentatórias.' },
+          { type: 'box', kind: 'atencao', text: '**Honorários NA RECONVENÇÃO, NA EXECUÇÃO RESISTIDA, NO CUMPRIMENTO DE SENTENÇA — TODOS COBRADOS** (§ 18). Erro: pensar que só na sentença principal.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento contra Fazenda):** honorários do § 3º na fase de cumprimento — § 7º exclui honorários no cumprimento NÃO impugnado.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 17 (gratuidade):** beneficiário derrotado paga honorários, mas exigibilidade SUSPENSA por 5 anos (CPC art. 98 § 3º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** honorários recursais (§ 11) — todo recurso desprovido majora a verba.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 21 (mediação):** ausência à audiência do art. 334 = ato atentatório (multa § 8º à União/Estado).' }
+        ]
+      }
+    ]
   },
 
   // ============================================================
@@ -4087,7 +4453,32 @@ flashcards: [
   { id: 144, topic: 26, q: 'PF e PJ — quem precisa provar a hipossuficiência?', a: 'PF tem PRESUNÇÃO de hipossuficiência (art. 99 §3º). PJ deve PROVAR (Súmula 481/STJ). PJ pode ter fins lucrativos — basta demonstrar a impossibilidade.', tags: ['fase2', 'gratuidade'] },
   { id: 145, topic: 26, q: 'Beneficiário da gratuidade derrotado é condenado em honorários?', a: 'SIM. Mas a exigibilidade fica SUSPENSA por 5 anos (CPC art. 98 §3º). Se nesse período houver melhora econômica, paga; senão, prescreve.', tags: ['fase2', 'gratuidade', 'honorarios'] },
   { id: 146, topic: 26, q: 'Quando pode ser pedida a gratuidade da justiça?', a: 'A QUALQUER TEMPO (Súmula 640/STJ). Na PI, contestação, recurso, cumprimento. O critério é a situação econômica NO MOMENTO do pedido.', tags: ['fase2', 'gratuidade'] },
-  { id: 147, topic: 26, q: 'Juiz pode indeferir gratuidade de ofício?', a: 'Indeferimento exige CONTRADITÓRIO PRÉVIO. Mesmo se houver elementos que indiquem falta de pressupostos, deve INTIMAR a parte para comprovar (art. 99 §2º). Indeferimento direto = nulidade.', tags: ['fase2', 'gratuidade'] }
+  { id: 147, topic: 26, q: 'Juiz pode indeferir gratuidade de ofício?', a: 'Indeferimento exige CONTRADITÓRIO PRÉVIO. Mesmo se houver elementos que indiquem falta de pressupostos, deve INTIMAR a parte para comprovar (art. 99 §2º). Indeferimento direto = nulidade.', tags: ['fase2', 'gratuidade'] },
+
+  // ============ Bloco 10 — Fase 2 (PC 27-30) ============
+  // Tópico 27 — Cooperação internacional
+  { id: 148, topic: 27, q: 'Diferença entre auxílio direto e carta rogatória?', a: 'Critério (CPC art. 28): se a medida DECORRE de decisão estrangeira → carta rogatória (com exequatur do STJ). Se for ato administrativo/processual independente → auxílio direto (sem delibação, executado pela JF).', tags: ['fase2', 'cooperacao'] },
+  { id: 149, topic: 27, q: 'Divórcio consensual estrangeiro precisa de homologação no STJ?', a: 'NÃO (CPC art. 961 §5º). Divórcio consensual puro produz efeitos diretos no Brasil — basta averbação no registro civil. Se houver partilha de bens controvertida, exige homologação.', tags: ['fase2', 'cooperacao'] },
+  { id: 150, topic: 27, q: 'Quem homologa sentença estrangeira no Brasil?', a: 'STJ (CF art. 105 I i, após EC 45/2004). Antes era STF. Procedimento: juízo de DELIBAÇÃO (não revisa mérito — art. 964 CPC). Execução posterior: Justiça Federal (CF 109 X).', tags: ['fase2', 'cooperacao', 'STJ'] },
+  { id: 151, topic: 27, q: 'O STJ revisa o mérito da sentença estrangeira na homologação?', a: 'NÃO (CPC art. 964). Apenas verifica requisitos formais e ofensa à ordem pública/soberania. É juízo de DELIBAÇÃO — controle de admissibilidade, não revisão substancial.', tags: ['fase2', 'cooperacao'] },
+
+  // Tópico 28 — Precedentes
+  { id: 152, topic: 28, q: 'Quais os 6 precedentes obrigatórios do art. 927 do CPC?', a: 'I — controle concentrado STF; II — Súmula Vinculante; III — IRDR/IAC; IV — repetitivos STJ + RG STF; V — súmulas STF/STJ; VI — orientação plenário/órgão especial (regimento).', tags: ['fase2', 'precedentes'] },
+  { id: 153, topic: 28, q: 'Qual a diferença entre distinguishing e overruling?', a: 'DISTINGUISHING = afastar precedente porque caso concreto tem peculiaridades fáticas distintas; pode qualquer juiz, com fundamentação. OVERRULING = SUPERAR o precedente; só o tribunal autor (ou superior).', tags: ['fase2', 'precedentes'] },
+  { id: 154, topic: 28, q: 'IRDR vs IAC — diferença essencial?', a: 'IRDR (art. 976) exige REPETIÇÃO efetiva de processos sobre questão de direito + risco à isonomia/segurança. IAC (art. 947) é PREVENTIVO — basta uma causa de relevante questão jurídica com grande repercussão social, sem repetição.', tags: ['fase2', 'precedentes', 'IRDR'] },
+  { id: 155, topic: 28, q: 'Cabe reclamação contra inobservância de súmula simples (não vinculante)?', a: 'NÃO (Súmula 734/STF). Só cabe contra inobservância de PRECEDENTE OBRIGATÓRIO (art. 988 IV) — SV, controle concentrado, IRDR, IAC, repetitivos, RG. Para repetitivos/RG, exige esgotamento ordinário (§5º II).', tags: ['fase2', 'precedentes', 'reclamacao'] },
+
+  // Tópico 29 — CNJ/CNMP
+  { id: 156, topic: 29, q: 'Inquérito civil — quem arquiva?', a: 'Conselho Superior do MP (CSMP). NÃO vai ao juiz (diferente do IP penal). Resolução CNMP 23/2007 art. 9º. Se o MP arquiva, sobe ao CSMP para revisão administrativa.', tags: ['fase2', 'CNMP', 'IC'] },
+  { id: 157, topic: 29, q: 'TAC (Termo de Ajustamento de Conduta) — natureza?', a: 'Título executivo EXTRAJUDICIAL (Lei 7.347/85 art. 5º §6º). Pode ser celebrado por legitimados da ACP (MP, Adm Pública, Defensoria). Disciplinado pela Resolução CNMP 179/2017.', tags: ['fase2', 'CNMP', 'TAC'] },
+  { id: 158, topic: 29, q: 'Resolução CNJ 125/2010 — qual seu objeto?', a: 'Instituiu a POLÍTICA JUDICIÁRIA NACIONAL DE TRATAMENTO ADEQUADO DOS CONFLITOS. Base normativa dos CEJUSCs (Centros Judiciários de Solução de Conflitos e Cidadania).', tags: ['fase2', 'CNJ', 'CEJUSC'] },
+  { id: 159, topic: 29, q: 'Resoluções CNJ/CNMP podem inovar contra a lei?', a: 'NÃO. STF (ADI 4.638): competência normativa não é genérica; matéria reservada à lei é intocável. Resoluções regulam atividade administrativa, não criam direito material novo.', tags: ['fase2', 'CNJ', 'limites'] },
+
+  // Tópico 30 — Honorários e custas
+  { id: 160, topic: 30, q: 'Honorários Fazenda — sistema do art. 85 §3º?', a: 'ESCALONADO em 5 faixas: 10-20% (até 200 SM); 8-10% (200-2.000); 5-8% (2.000-20.000); 3-5% (20.000-100.000); 1-3% (>100.000). Quanto maior o valor, MENOR o percentual.', tags: ['fase2', 'honorarios', 'fazenda'] },
+  { id: 161, topic: 30, q: 'O que são honorários recursais (§11)?', a: 'MAJORAÇÃO dos honorários quando recurso é desprovido (não conhecido OU julgado improcedente). NÃO é novo honorário; é majoração do existente. Soma respeita limite máximo do caput/§3º. Aplica-se à Fazenda também.', tags: ['fase2', 'honorarios', 'recursos'] },
+  { id: 162, topic: 30, q: 'Dano moral fixado abaixo do pedido = sucumbência recíproca?', a: 'NÃO (Súmula 326/STJ). Apenas o réu paga honorários. A "redução" pelo juiz é exercício de proporcionalidade — não importa decadência do autor.', tags: ['fase2', 'honorarios', 'sucumbencia'] },
+  { id: 163, topic: 30, q: 'Multa por ato atentatório — destinatário?', a: 'União/Estado (CPC art. 77 §2º — até 20% do valor da causa). Diferente de: litigância de má-fé (parte contrária — art. 81); astreintes (exequente — art. 537); execução protelatória (exequente — art. 918).', tags: ['fase2', 'multas'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -5011,6 +5402,112 @@ questions: [
     ],
     correct: 'C',
     explanation: 'Súmula 481/STJ: PJ com OU sem fins lucrativos pode obter, desde que COMPROVE a impossibilidade. (A) Falso — possível desde que comprovada. (B) Falso — também as com fins lucrativos. (D) Falso — só PF tem presunção (art. 99 §3º); PJ deve provar. (E) Falso — MP só intervém em casos do art. 178 (interesse público/incapaz).'
+  },
+
+  // ============ Bloco 10 — Fase 2 (PC 27-30) ============
+  {
+    id: 61, topic: 27, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Em relação à cooperação jurídica internacional regulada pelo CPC/15, é correto afirmar:',
+    alternatives: [
+      'A homologação de sentença estrangeira é da competência do Supremo Tribunal Federal, conforme regra constitucional vigente.',
+      'A sentença estrangeira de divórcio consensual produz efeitos no Brasil independentemente de homologação pelo STJ.',
+      'O auxílio direto exige sempre prévio juízo de delibação pelo STJ, equiparando-se à carta rogatória.',
+      'Na homologação de sentença estrangeira, o STJ examina o mérito da causa, podendo reformar a decisão proferida no exterior.',
+      'A execução de sentença estrangeira homologada é da Justiça Estadual do domicílio do devedor.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 961 §5º: divórcio CONSENSUAL puro produz efeitos diretos, dispensando homologação. (A) Falso — STJ desde EC 45/2004 (CF 105 I i). (C) Falso — auxílio direto NÃO precisa de delibação (CPC art. 33: competência da JF). (D) Falso — art. 964 veda revisão de mérito (juízo de delibação). (E) Falso — execução é JF (CF 109 X + CPC 965).'
+  },
+  {
+    id: 62, topic: 27, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o juízo de delibação na homologação de sentença estrangeira pelo STJ, é INCORRETO afirmar:',
+    alternatives: [
+      'Não comporta análise do mérito da decisão estrangeira, em razão da soberania jurisdicional do país de origem.',
+      'O STJ verifica requisitos formais como autoridade competente, citação ou revelia legalmente verificada e tradução.',
+      'A sentença estrangeira não pode ofender a coisa julgada brasileira nem a ordem pública nacional.',
+      'A homologação é dispensada quando a sentença estrangeira já houver sido objeto de exequatur em carta rogatória.',
+      'Em caso de divórcio consensual puro, o efeito da sentença é direto, dispensando-se a homologação.'
+    ],
+    correct: 'D',
+    explanation: 'O exequatur (carta rogatória) NÃO substitui a homologação — são institutos distintos. Carta rogatória = ato isolado; homologação = reconhecimento da decisão como um todo. (A) Correto — art. 964. (B) Correto — art. 963. (C) Correto — art. 963 par. único. (E) Correto — art. 961 §5º.'
+  },
+  {
+    id: 63, topic: 28, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o microssistema de precedentes vinculantes do CPC/15, assinale a alternativa correta:',
+    alternatives: [
+      'O art. 927 do CPC enumera precedentes meramente persuasivos, sem qualquer eficácia vinculante.',
+      'O distinguishing somente pode ser realizado pelo tribunal autor do precedente, vedado a juízos inferiores.',
+      'O IRDR exige a efetiva repetição de processos sobre questão de direito, com risco à isonomia e à segurança jurídica.',
+      'A reclamação cabe contra qualquer súmula do STJ, ainda que não vinculante, para garantir uniformidade.',
+      'O overruling pode ser realizado por qualquer juiz, com fundamentação adequada, em decisão singular.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 976 I-II: IRDR exige efetiva repetição + risco à isonomia/segurança. (A) Falso — art. 927 traz precedentes obrigatórios. (B) Falso — distinguishing pode QUALQUER juiz com fundamentação adequada (art. 489 §1º VI). (D) Falso — Súmula 734/STF: só súmulas vinculantes. (E) Falso — overruling só pelo tribunal autor (ou superior).'
+  },
+  {
+    id: 64, topic: 28, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Considerando o IRDR (incidente de resolução de demandas repetitivas) e o IAC (incidente de assunção de competência), assinale a alternativa correta:',
+    alternatives: [
+      'Tanto o IRDR quanto o IAC exigem a efetiva repetição de processos sobre a mesma questão.',
+      'O IRDR aplica-se a questão exclusivamente de direito; o IAC, a questões de fato e de direito conexas.',
+      'O IRDR vincula apenas as partes do caso paradigma; o IAC, todos os juízes da área de jurisdição.',
+      'A tese fixada no IRDR vincula os processos pendentes E os FUTUROS na área de jurisdição do tribunal.',
+      'O IAC requer a aprovação do plenário do STF para produzir efeitos vinculantes nacionais.'
+    ],
+    correct: 'D',
+    explanation: 'CPC art. 985 II: tese do IRDR aplica-se a casos pendentes E futuros (efeito ultra partes). (A) Falso — IAC NÃO exige repetição. (B) Falso — ambos sobre direito; IAC tem foco em "relevante questão de direito". (C) Inverte: IRDR vincula a área (947 §3º para IAC também). (E) Falso — IAC é interno do tribunal de 2º grau.'
+  },
+  {
+    id: 65, topic: 29, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o inquérito civil (Resolução CNMP 23/2007), é correto afirmar:',
+    alternatives: [
+      'É instrumento investigativo concorrente entre Ministério Público e Polícia Judiciária.',
+      'A promoção de arquivamento depende de homologação pelo juiz competente, sob pena de nulidade.',
+      'É instrumento investigativo exclusivo do Ministério Público (CF art. 129 III); o arquivamento submete-se ao Conselho Superior do MP.',
+      'O inquérito civil tem prazo improrrogável de 6 meses para conclusão, conforme regulamento.',
+      'O termo de ajustamento de conduta firmado em inquérito civil exige homologação judicial para constituir título executivo.'
+    ],
+    correct: 'C',
+    explanation: 'Res. CNMP 23/2007 + CF art. 129 III: IC é exclusivo do MP. (A) Falso — exclusivo do MP. (B) Falso — arquivamento vai ao CSMP, NÃO ao juiz. (D) Falso — prazo é 1 ano, prorrogável (art. 9º). (E) Falso — TAC é título executivo EXTRAJUDICIAL direto (Lei 7.347 art. 5º §6º).'
+  },
+  {
+    id: 66, topic: 29, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o limite do poder normativo do CNJ e do CNMP, é correto afirmar:',
+    alternatives: [
+      'As resoluções podem inovar sobre matéria reservada à lei, em razão da autonomia constitucional dos órgãos.',
+      'As resoluções têm força de emenda constitucional quando aprovadas por maioria qualificada.',
+      'Conforme decidido pelo STF (ADI 4.638), a competência normativa não é genérica nem alcança matéria reservada à lei.',
+      'As resoluções dispensam controle judicial em razão do princípio da autoadministração.',
+      'O Conselho pode revogar dispositivos legais por ato administrativo motivado.'
+    ],
+    correct: 'C',
+    explanation: 'STF ADI 4.638: competência normativa do CNJ/CNMP é limitada à atividade administrativa do Poder/órgão; não substitui lei em matéria reservada (proporcionalidade + reserva legal). (A), (B), (D), (E) violam separação de poderes e reserva de lei.'
+  },
+  {
+    id: 67, topic: 30, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os honorários sucumbenciais no CPC/15, é correto afirmar:',
+    alternatives: [
+      'O juiz pode compensar honorários quando há sucumbência recíproca, mantendo-se a regra do CPC/73.',
+      'Os honorários têm natureza indenizatória, não alimentar, em razão da sua titularidade pela parte vencedora.',
+      'Os honorários recursais (§11) não se aplicam a recursos contra a Fazenda Pública, em razão do interesse público.',
+      'A condenação em honorários abrange a fase de cumprimento de sentença, a reconvenção e a execução resistida.',
+      'O juiz pode fixar honorários abaixo do percentual mínimo legal quando entender excessivo o valor da condenação.'
+    ],
+    correct: 'D',
+    explanation: 'CPC art. 85 §18: caput, §2º e demais aplicam-se também à reconvenção, ao cumprimento de sentença e à execução resistida. (A) Falso — §14 VEDA compensação. (B) Falso — §14 estabelece natureza ALIMENTAR. (C) Falso — §11 aplica-se à Fazenda. (E) Falso — STJ Tema 1.105 veda fixação abaixo do mínimo da faixa.'
+  },
+  {
+    id: 68, topic: 30, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito das multas processuais no CPC/15, considerando os destinatários dos respectivos valores, é correto afirmar:',
+    alternatives: [
+      'A multa por litigância de má-fé (art. 81) reverte em favor da União ou do Estado, por sua natureza punitiva.',
+      'A multa cominatória (astreintes — art. 537) é destinada à União, em substituição à execução privada.',
+      'A multa por ato atentatório à dignidade da justiça (art. 77 §2º) reverte em favor da parte contrária prejudicada.',
+      'A multa por ausência injustificada à audiência de conciliação (art. 334 §8º) reverte em favor da União ou do Estado.',
+      'A multa por execução manifestamente protelatória (art. 918) é destinada ao juiz que conduz o processo.'
+    ],
+    correct: 'D',
+    explanation: 'CPC art. 334 §8º: ausência à audiência = ato atentatório, multa até 2% à União/Estado. (A) Falso — má-fé reverte à PARTE CONTRÁRIA + indenização (art. 81). (B) Falso — astreintes vão ao EXEQUENTE. (C) Falso — atentatório ao art. 77 §2º vai à União/Estado. (E) Falso — protelação execução = exequente.'
   }
 ],
 
