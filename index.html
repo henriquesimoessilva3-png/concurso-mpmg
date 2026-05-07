@@ -58,7 +58,7 @@
     <a href="#bloco-2">
       <span class="block-icon">📖</span>
       <span class="block-name">2. Resumos e Sínteses</span>
-      <span class="block-tag">20 tópicos de Proc. Civil</span>
+      <span class="block-tag" id="nav-block2-tag">— tópicos no edital</span>
     </a>
     <a href="#bloco-3">
       <span class="block-icon">✍️</span>
@@ -164,7 +164,7 @@
   <section id="bloco-2" class="block block-2">
     <div class="block-header">
       <h2>📖 2 · Resumos e Sínteses por Tópico</h2>
-      <span class="block-meta">20 tópicos de Processo Civil</span>
+      <span class="block-meta" id="block2-meta">Todas as matérias do edital</span>
     </div>
 
     <div class="callout callout-tip">
@@ -183,24 +183,20 @@
       <ul class="checklist" id="checklist-fase1"></ul>
     </div>
 
-    <details class="subsection" style="margin-top:1rem;">
-      <summary style="cursor:pointer; font-weight:600; padding:0.5rem 0; list-style:none;">
-        📋 Fase 2 · PC itens 21 a 30 <span style="color:var(--text-muted); font-weight:normal;">(em construção · clique para abrir)</span>
-      </summary>
-      <p style="color:var(--text-muted); font-size:0.85rem; margin-top:0.5rem;">Esqueletos com sumário previsto. Conteúdo será preenchido ao iniciar a Fase 2 (out-nov/2026).</p>
-      <ul class="checklist" id="checklist-fase2"></ul>
-    </details>
+    <div class="subsection" style="margin-top:1.5rem;">
+      <h3>📚 Todas as matérias do edital</h3>
+      <p style="color:var(--text-muted); font-size:0.9rem;">
+        O app é compartilhado: outras pessoas podem usar e contribuir com qualquer matéria. Filtre abaixo, abra um tópico para estudar (com conteúdo) ou para ver o sumário previsto (esqueleto).
+        <a href="CONTRIBUTING.md" style="margin-left:0.5rem;">Como contribuir →</a>
+      </p>
 
-    <details class="subsection" style="margin-top:1rem;">
-      <summary style="cursor:pointer; font-weight:600; padding:0.5rem 0; list-style:none;">
-        📘 Fase 3 · Direito Civil <span style="color:var(--text-muted); font-weight:normal;">(em construção · clique para abrir)</span>
-      </summary>
-      <p style="color:var(--text-muted); font-size:0.85rem; margin-top:0.5rem;">17 tópicos esqueleto da LINDB às Sucessões. Cronograma: dez/2026 → mar/2027.</p>
-      <ul class="checklist" id="checklist-fase3"></ul>
-    </details>
+      <div class="materia-filters" id="materia-filters" style="display:flex; flex-wrap:wrap; gap:0.4rem; margin:0.8rem 0 0.6rem;"></div>
+
+      <ul class="checklist" id="checklist-todas"></ul>
+    </div>
 
     <div class="toolbar">
-      <button class="btn btn-reset" onclick="resetChecklist()">Resetar checklist</button>
+      <button class="btn btn-reset" onclick="resetChecklist()">Resetar checklist Fase 1</button>
     </div>
   </section>
 
@@ -355,6 +351,13 @@
   const sumulasCountEl = document.getElementById('sumulas-count');
   if (sumulasCountEl && APP_DATA.sumulas) sumulasCountEl.textContent = APP_DATA.sumulas.length;
 
+  const totalTopics = APP_DATA.topics.length;
+  const totalContent = APP_DATA.topics.filter(t => t.sections && t.sections.length > 0).length;
+  const navTag = document.getElementById('nav-block2-tag');
+  if (navTag) navTag.textContent = `${totalTopics} tópicos · ${totalContent} com conteúdo`;
+  const block2Meta = document.getElementById('block2-meta');
+  if (block2Meta) block2Meta.textContent = `${totalTopics} tópicos · ${totalContent} com conteúdo`;
+
   // checklist Fase 1 — só PC 1-20 (com conteúdo)
   const ul = document.getElementById('checklist-fase1');
   APP_DATA.topics
@@ -381,46 +384,91 @@
       ul.appendChild(li);
     });
 
-  // checklist Fase 2 — PC 21-30 (esqueletos)
-  const ul2 = document.getElementById('checklist-fase2');
-  if (ul2) {
-    APP_DATA.topics
-      .filter(t => (t.materia || 'pc') === 'pc' && t.num >= 21 && t.num <= 30)
-      .forEach(t => {
-        const li = document.createElement('li');
-        li.className = 'checklist-item';
-        li.style.opacity = '0.85';
-        li.innerHTML = `
-          <div class="item-content" style="margin-left:0;">
-            <span class="item-title">${t.num}. ${App.escape(t.title)}</span>
-            <span class="item-desc">${App.escape(t.editalText || '')}</span>
-            <span class="item-tags"><span class="tag tag-fase2">🚧 stub</span></span>
-          </div>
-          <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
-        `;
-        ul2.appendChild(li);
+  // ---- Lista unificada por matéria com filtro ----
+  const filtersEl = document.getElementById('materia-filters');
+  const ulAll = document.getElementById('checklist-todas');
+
+  // Conta tópicos por matéria + quantos têm conteúdo
+  const counts = {};
+  APP_DATA.topics.forEach(t => {
+    const m = t.materia || 'pc';
+    if (!counts[m]) counts[m] = { total: 0, content: 0 };
+    counts[m].total++;
+    if (t.sections && t.sections.length > 0) counts[m].content++;
+  });
+
+  // Filtros: "Todas" + uma pílula por matéria (na ordem de App.MATERIAS)
+  const FILTER_KEY = 'index-materia-filter';
+  let activeFilter = App.load(FILTER_KEY, 'pc');
+
+  function buildFilterPills() {
+    filtersEl.innerHTML = '';
+    const totalContent = Object.values(counts).reduce((s, c) => s + c.content, 0);
+    const totalAll = Object.values(counts).reduce((s, c) => s + c.total, 0);
+
+    const pillAll = document.createElement('button');
+    pillAll.type = 'button';
+    pillAll.className = 'pill' + (activeFilter === 'all' ? ' pill-active' : '');
+    pillAll.dataset.materia = 'all';
+    pillAll.innerHTML = `Todas <small>(${totalContent}/${totalAll})</small>`;
+    filtersEl.appendChild(pillAll);
+
+    App.MATERIAS.forEach(m => {
+      if (!counts[m.key]) return;
+      const c = counts[m.key];
+      const pill = document.createElement('button');
+      pill.type = 'button';
+      pill.className = 'pill' + (activeFilter === m.key ? ' pill-active' : '');
+      pill.dataset.materia = m.key;
+      pill.innerHTML = `${m.icon} ${App.escape(m.label)} <small>(${c.content}/${c.total})</small>`;
+      filtersEl.appendChild(pill);
+    });
+
+    filtersEl.querySelectorAll('.pill').forEach(b => {
+      b.addEventListener('click', () => {
+        activeFilter = b.dataset.materia;
+        App.save(FILTER_KEY, activeFilter);
+        buildFilterPills();
+        renderList();
       });
+    });
   }
 
-  // checklist Fase 3 — Direito Civil (esqueletos)
-  const ul3 = document.getElementById('checklist-fase3');
-  if (ul3) {
-    APP_DATA.topics
-      .filter(t => t.materia === 'civil')
-      .forEach(t => {
-        const li = document.createElement('li');
-        li.className = 'checklist-item';
-        li.style.opacity = '0.85';
-        li.innerHTML = `
-          <div class="item-content" style="margin-left:0;">
-            <span class="item-title">${t.num}. ${App.escape(t.title)}</span>
-            <span class="item-desc">${App.escape(t.editalText || '')}</span>
-            <span class="item-tags"><span class="tag tag-fase2">🚧 stub</span></span>
-          </div>
-          <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
-        `;
-        ul3.appendChild(li);
-      });
+  function renderList() {
+    ulAll.innerHTML = '';
+    const list = APP_DATA.topics.filter(t => activeFilter === 'all' || (t.materia || 'pc') === activeFilter);
+    if (list.length === 0) {
+      ulAll.innerHTML = '<li style="padding:0.6rem; color:var(--text-muted);">Nenhum tópico nesta matéria.</li>';
+      return;
+    }
+    list.forEach(t => {
+      const mKey = t.materia || 'pc';
+      const m = App.getMateria(mKey);
+      const isStub = !t.sections || t.sections.length === 0;
+      const tags = [];
+      if (t.advantage) tags.push('<span class="tag tag-vantagem">⭐ Vantagem</span>');
+      if (isStub) tags.push('<span class="tag tag-fase2">🚧 esqueleto</span>');
+      else tags.push('<span class="tag tag-content">✅ com conteúdo</span>');
+      if (t.size && t.size.toLowerCase().includes('gigante')) tags.push('<span class="tag tag-gigante">⚠️ Gigante</span>');
+
+      const li = document.createElement('li');
+      li.className = 'checklist-item';
+      if (isStub) li.style.opacity = '0.88';
+      li.innerHTML = `
+        <div class="item-content" style="margin-left:0;">
+          <span class="item-title">${m.icon} <span style="color:var(--text-muted); font-weight:500;">${App.escape(m.short)} ${t.num}.</span> ${App.escape(t.title)}</span>
+          <span class="item-desc">${App.escape(t.editalText || '')}</span>
+          ${tags.length ? `<span class="item-tags">${tags.join('')}</span>` : ''}
+        </div>
+        <a href="topicos.html?id=${t.id}" class="item-link">Abrir →</a>
+      `;
+      ulAll.appendChild(li);
+    });
+  }
+
+  if (filtersEl && ulAll) {
+    buildFilterPills();
+    renderList();
   }
 
   // estado persistente

@@ -8,7 +8,38 @@
 
   const STORAGE_PREFIX = 'concurso-mpmg-';
 
+  // Mapa de matérias — chave (campo `materia` em data.js) → metadados
+  // Ordem aqui é a ordem de exibição no hub.
+  const MATERIAS = [
+    { key: 'pc',      label: 'Processo Civil',         short: 'PC',     prefix: 'PC ',     icon: '⚙️' },
+    { key: 'civil',   label: 'Direito Civil',          short: 'Civil',  prefix: 'Civ ',    icon: '📘' },
+    { key: 'const',   label: 'Constitucional',         short: 'Const.', prefix: 'Const ',  icon: '🏛️' },
+    { key: 'adm',     label: 'Administrativo',         short: 'Adm.',   prefix: 'Adm ',    icon: '🏢' },
+    { key: 'elei',    label: 'Eleitoral',              short: 'Eleit.', prefix: 'Elei ',   icon: '🗳️' },
+    { key: 'trib',    label: 'Tributário/Financeiro',  short: 'Trib.',  prefix: 'Trib ',   icon: '💰' },
+    { key: 'mp',      label: 'Teoria do MP',           short: 'MP',     prefix: 'MP ',     icon: '⚖️' },
+    { key: 'penal',   label: 'Penal/Criminologia',     short: 'Penal',  prefix: 'Pen ',    icon: '🚔' },
+    { key: 'pp',      label: 'Processo Penal',         short: 'P. Pen.',prefix: 'PP ',     icon: '👮' },
+    { key: 'colmat',  label: 'Material Coletivo',      short: 'Mat. Col.', prefix: 'ColM ', icon: '👥' },
+    { key: 'colproc', label: 'Processual Coletivo',    short: 'Proc. Col.',prefix: 'ColP ', icon: '🤝' }
+  ];
+
   window.App = {
+
+    // ---------- matérias ----------
+    MATERIAS,
+
+    getMateria(key) {
+      return MATERIAS.find(m => m.key === (key || 'pc')) || MATERIAS[0];
+    },
+
+    getMateriaLabel(key) {
+      return this.getMateria(key).label;
+    },
+
+    getMateriaPrefix(key) {
+      return this.getMateria(key).prefix;
+    },
 
     // ---------- localStorage ----------
     load(key, fallback) {

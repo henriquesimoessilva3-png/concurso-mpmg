@@ -12,14 +12,16 @@
   <div class="container">
     <div class="back-bar">
       <a href="index.html">← Painel</a>
-      <span class="breadcrumb">Resumos · Direito Processual Civil</span>
+      <span class="breadcrumb" id="hdr-breadcrumb">Resumos</span>
     </div>
     <h1 class="small" id="hdr-title">Carregando…</h1>
     <p class="subtitle tight" id="hdr-subtitle"></p>
   </div>
 </header>
 
-<main class="container-narrow">
+<main class="container-narrow topic-layout">
+  <aside class="topic-toc" id="topic-toc" aria-label="Sumário do tópico"></aside>
+
   <article class="article-block" id="article-content">
     <div class="empty-state">
       <span class="icon">⏳</span>
@@ -55,12 +57,16 @@
 
   // detecta esqueleto (sections vazias) — modo "🚧 Em construção"
   const isStub = !topic.sections || topic.sections.length === 0;
-  const materiaLabel = (topic.materia === 'civil') ? 'Civil' : 'PC';
-  const numLabel = (topic.materia === 'civil') ? `Civ ${topic.num}` : `Tópico ${topic.num}`;
+  const _mat = (topic.materia || 'pc');
+  const _matMeta = App.getMateria(_mat);
+  const numLabel = `${_matMeta.prefix.trim()} ${topic.num}`;
+
+  // breadcrumb dinâmico
+  const bc = document.getElementById('hdr-breadcrumb');
+  if (bc) bc.textContent = `Resumos · ${_matMeta.label}`;
 
   // pools para Quick check (visível tanto no markup, quanto no setup)
-  // Filtra por tópico E matéria (PC/Civil) — flashcards e questões sem 'materia' são considerados 'pc'
-  const _mat = (topic.materia || 'pc');
+  // Filtra por tópico E matéria — flashcards e questões sem 'materia' são considerados 'pc'
   const topicCards = (window.APP_DATA.flashcards || []).filter(f => f.topic === topic.num && (f.materia || 'pc') === _mat);
   const topicQs = (window.APP_DATA.questions || []).filter(q => q.topic === topic.num && (q.materia || 'pc') === _mat);
 
@@ -248,6 +254,49 @@
   } /* end if(!isStub) */
 
   article.innerHTML = html.join('\n');
+
+  // ---- TOC interno (sumário lateral com âncoras nos <h2>) ----
+  (function buildTOC() {
+    const toc = document.getElementById('topic-toc');
+    if (!toc) return;
+    const headings = article.querySelectorAll('h2');
+    if (headings.length < 2) { toc.style.display = 'none'; return; }
+
+    const slug = (s) => s.toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+
+    const links = [];
+    const used = new Set();
+    headings.forEach(h => {
+      let s = slug(h.textContent);
+      let base = s, n = 2;
+      while (used.has(s)) { s = base + '-' + n++; }
+      used.add(s);
+      h.id = s;
+      links.push(`<li><a href="#${s}">${App.escape(h.textContent)}</a></li>`);
+    });
+
+    toc.innerHTML = `
+      <div class="toc-inner">
+        <div class="toc-header">📑 Sumário</div>
+        <ul class="toc-list">${links.join('')}</ul>
+      </div>`;
+
+    // Scroll spy — destaca link do <h2> visível
+    const tocLinks = toc.querySelectorAll('a[href^="#"]');
+    const setActive = (id) => {
+      tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+    };
+    if ('IntersectionObserver' in window) {
+      const obs = new IntersectionObserver((entries) => {
+        const visible = entries.filter(e => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (visible) setActive(visible.target.id);
+      }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
+      headings.forEach(h => obs.observe(h));
+    }
+  })();
 
   if (!isStub) {
 
@@ -581,7 +630,7 @@
   // ---- Navegação prev/next ----
   const adj = App.getAdjacentTopics(id);
   const navEl = document.getElementById('topic-nav');
-  const prefix = (topic.materia === 'civil') ? 'Civil ' : 'Tópico ';
+  const prefix = _matMeta.prefix;
   navEl.innerHTML = '';
   if (adj.prev) {
     navEl.appendChild(App.el('a', { href: `topicos.html?id=${adj.prev.id}` }, `← ${prefix}${adj.prev.num}: ${adj.prev.title}`));

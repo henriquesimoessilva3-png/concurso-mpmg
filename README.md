@@ -1,77 +1,64 @@
 # Projeto Concurso MPMG — Promotor de Justiça Substituto
 
-> Este é o repositório de estudos. Ele cresce com o tempo. Comece sempre por aqui.
+App de estudos compartilhado para o concurso de **Promotor de Justiça Substituto do MPMG** (e outros concursos com programa similar). Resumos, flashcards, simulado, log de erros — tudo em uma página web estática.
 
-## 🎯 Status atual
+🌐 **App público:** https://henriquesimoessilva3-png.github.io/concurso-mpmg/
 
-- **Concurso alvo:** Promotor de Justiça Substituto do MPMG (próximo edital, provavelmente LXII)
-- **Fase atual:** **Fase 1 — Direito Processual Civil, itens 1 a 20** (do edital LXI/MPMG, que é a referência mais recente)
-- **Carga prevista:** ~1h/dia útil + ~4h sábado + ~4h domingo
-- **Última atualização:** 2026-05-06
+## ✨ O que tem
 
-## 🚀 Por onde começar
+- 📖 **143 tópicos** distribuídos em 11 matérias do edital (47 com conteúdo completo, 96 esqueletos abertos a contribuição)
+- 🃏 **267+ flashcards** com SM-2 nativo (algoritmo de revisão espaçada)
+- ✍️ **105+ questões** estilo IBGP/MPMG, com gabarito comentado
+- ⚖️ **48+ súmulas** STF/STJ mapeadas por tópico
+- 📝 Log diário, log de erros, estatísticas, modo áudio (TTS) — tudo no localStorage do navegador
 
-1. Abra **[01-CRONOGRAMA/cronograma-fase1-processo-civil.md](01-CRONOGRAMA/cronograma-fase1-processo-civil.md)** e veja o plano dos próximos 5 meses
-2. Vá para **[02-MATERIAS/G3-direito-processual-civil/00-checklist-edital.md](02-MATERIAS/G3-direito-processual-civil/00-checklist-edital.md)** — é o mapa do que estudar
-3. Comece pelo **Tópico 1**: abra `01-resumos/01-lei-processual-fontes.md` e siga o ciclo de 3 dias
-4. Ao final de cada dia, registre 2 linhas em **[01-CRONOGRAMA/log-diario.md](01-CRONOGRAMA/log-diario.md)**
+## 🚀 Como usar
 
-## 🗂️ Estrutura
+Abra https://henriquesimoessilva3-png.github.io/concurso-mpmg/ e comece pelo painel. Cada candidato tem o próprio progresso salvo no navegador (não há servidor / não há login).
+
+## 🤝 Como contribuir
+
+O app é compartilhado. Se você está estudando para o MPMG (ou concurso similar) e quer **preencher uma matéria** que ainda está em esqueleto, leia [CONTRIBUTING.md](CONTRIBUTING.md). Resumo: edite [`assets/data.js`](assets/data.js) e abra um Pull Request. Não há build, é HTML + JS puro.
+
+Matérias atualmente abertas a contribuição (todas em esqueleto, com sumário previsto):
+
+- 🏛️ Constitucional · 🏢 Administrativo · 🗳️ Eleitoral · 💰 Tributário/Financeiro
+- ⚖️ Teoria do MP · 🚔 Penal · 👮 Processo Penal
+- 👥 Material Coletivo · 🤝 Processual Coletivo
+
+## 🧠 Metodologia (princípios do app)
+
+1. **Active recall** — abra um tópico, leia, feche, reproduza. Quick check inline (mini-flashcard + mini-questão) em todo tópico já preenchido.
+2. **Revisão espaçada** — SM-2 nativo. Cards aparecem no dia certo, sem que você precise pensar.
+3. **Test-driven** — comece pela questão. Erros caem no log automaticamente.
+4. **Material condensado** — sinopse Juspodivm-like por tópico. ~3 mil palavras + lei seca + jurisprudência + macetes + pegadinhas.
+5. **Modo áudio** — escutar a sinopse no carro / fila / academia.
+
+## 🗂️ Estrutura do repo
 
 ```
-Projeto Concurso/
-├── README.md                                    ← você está aqui
-├── 00-EDITAL-E-DOCS/
-│   ├── 17-26 Edital do LXI Concurso -.pdf
-│   ├── analise-edital.md                        (visão dos 4 grupos)
-│   ├── checklist-disciplinas-geral.md           (status macro)
-│   └── bibliografia-recomendada.md              (livros, sites, apps)
-├── 01-CRONOGRAMA/
-│   ├── cronograma-macro.md                      (horizonte 1-2 anos)
-│   ├── cronograma-fase1-processo-civil.md       (foco atual)
-│   └── log-diario.md                            (registro diário)
-├── 02-MATERIAS/
-│   └── G3-direito-processual-civil/             ← FOCO ATUAL
-│       ├── 00-checklist-edital.md               (30 itens com status)
-│       ├── 00-checklist-itens-1-30.docx         (do material original)
-│       ├── 00-checklist-itens-21-30.docx        (do material original)
-│       ├── 01-resumos/                          (template + 20 esqueletos)
-│       ├── 02-leis-secas/                       (CPC.pdf + índice)
-│       ├── 03-jurisprudencia/                   (informativos + súmulas)
-│       ├── 04-questoes/                         (banco IBGP, MPMG, outros)
-│       ├── 05-flashcards/                       (guia Anki)
-│       └── 06-mapas-mentais/                    (vazio — opcional)
-└── 99-FUTURO/                                   (placeholder; outras matérias)
+concurso-mpmg/
+├── index.html          # Hub com filtro de matéria
+├── topicos.html        # Viewer parametrizado (?id=...)
+├── flashcards.html     # SM-2 nativo
+├── simulado.html       # Banco de questões
+├── log.html            # Diário, erros, estatísticas
+├── referencia.html     # Súmulas, doutrina, edital
+├── assets/
+│   ├── data.js         # ⭐ Conteúdo (todos tópicos/cards/questões/súmulas)
+│   ├── app.js          # Utilitários (App.MATERIAS, localStorage)
+│   └── style.css       # Estilos
+├── CONTRIBUTING.md     # Guia para contribuir
+├── HANDOFF.md          # Estado do projeto e decisões
+└── 00-EDITAL-E-DOCS/   # Edital LXI e análise programática
 ```
 
-## 📚 Materiais já na pasta
+## 📋 Status
 
-- ✅ Edital LXI (referência) — `00-EDITAL-E-DOCS/`
-- ✅ CPC (lei seca) — `02-MATERIAS/G3-.../02-leis-secas/CPC.pdf`
-- ✅ Checklists dos 30 tópicos do edital de Processo Civil — `02-MATERIAS/G3-.../00-checklist-itens-*.docx`
-
-## 🛠️ Princípios da metodologia
-
-1. **Active recall** — leia, feche, tente reproduzir. Nunca leia passivamente.
-2. **Revisão espaçada** — Anki ou planilha. Sem isso, o estudo de hoje some em 30 dias.
-3. **Test-driven** — comece pela questão. Erre. Aí estude.
-4. **Material condensado** — 1 doutrina + lei seca. Sem dispersão.
-5. **Use sua vantagem** — você é Analista MPMG. ACP, Teoria do MP, tutelas, Direito Coletivo são sua casa.
-6. **Fim de semana é alavanca** — onde a maior parte do conteúdo novo entra.
-
-## 🤝 Como continuar nas próximas conversas
-
-Quando quiser retomar o trabalho (com Claude ou outro assistente):
-- Diga: *"Estou no projeto Concurso, fase atual está no README"* — ele lê o README e se contextualiza
-- Ou peça mudanças específicas: *"vamos ajustar o cronograma da semana"*, *"crie a pasta de Direito Civil"*, *"resolva esta questão comigo"*
-
-## ⚠️ O que NÃO se distrair com agora
-
-- Outras matérias (Civil, Constitucional, Penal, etc.) — só na Fase 3+
-- Curso preparatório pago — só após 2 meses de estudo orgânico
-- Preparação para fase oral / peças práticas — só na reta final
-- Sistema sofisticado de tracking — markdown simples basta
+- **Concurso alvo:** Promotor de Justiça Substituto do MPMG, edital LXII estimado para 2027-2028
+- **Edital de referência:** LXI (homologado out/2025, banca IBGP)
+- **Última atualização:** ver [HANDOFF.md](HANDOFF.md)
 
 ---
 
-Boa sorte! 🌟 *Concurso é prova de resistência, não de velocidade.*
+*Concurso é prova de resistência, não de velocidade.* 🌟
