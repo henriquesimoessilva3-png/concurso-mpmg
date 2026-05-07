@@ -32,10 +32,12 @@
   <!-- SÚMULAS -->
   <div class="tab-content active" id="tab-sumulas">
     <div class="article-block">
-      <h1>Súmulas e Súmulas Vinculantes (Processo Civil)</h1>
-      <p>Curadoria das súmulas mais relevantes para o edital. Filtre por tribunal ou tópico.</p>
+      <h1>Súmulas e Súmulas Vinculantes</h1>
+      <p>Curadoria das súmulas mais relevantes para o edital. Filtre por matéria, tribunal ou tópico.</p>
 
       <div class="form-row" style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+        <label style="margin:0;">Matéria:</label>
+        <select id="f-materia" style="max-width:180px;"></select>
         <label style="margin:0;">Tribunal:</label>
         <select id="f-tribunal" style="max-width:140px;">
           <option value="">Todos</option>
@@ -43,7 +45,7 @@
           <option value="STJ">STJ</option>
         </select>
         <label style="margin:0;">Tópico:</label>
-        <select id="f-topic" style="max-width:300px;"></select>
+        <select id="f-topic" style="max-width:280px;"></select>
         <input type="text" id="f-text" placeholder="Buscar no texto…" style="flex:1; min-width:200px;">
       </div>
 
@@ -273,31 +275,66 @@
   }
 
   // ----- SÚMULAS -----
+  const fMateria = document.getElementById('f-materia');
   const fTribunal = document.getElementById('f-tribunal');
   const fTopic = document.getElementById('f-topic');
   const fText = document.getElementById('f-text');
 
-  fTopic.innerHTML = '<option value="">Todos os tópicos</option>';
-  APP_DATA.topics.forEach(t => {
-    const cnt = APP_DATA.sumulas.filter(s => s.topic === t.num).length;
-    if (cnt > 0) {
-      const o = document.createElement('option');
-      o.value = t.num; o.textContent = `${t.num}. ${t.title} (${cnt})`;
-      fTopic.appendChild(o);
-    }
+  // Popula filtro de matéria (só matérias que têm súmulas)
+  const sumulasByMateria = {};
+  APP_DATA.sumulas.forEach(s => {
+    const m = s.materia || 'pc';
+    sumulasByMateria[m] = (sumulasByMateria[m] || 0) + 1;
+  });
+  fMateria.innerHTML = `<option value="">Todas (${APP_DATA.sumulas.length})</option>`;
+  App.MATERIAS.forEach(m => {
+    if (!sumulasByMateria[m.key]) return;
+    const o = document.createElement('option');
+    o.value = m.key;
+    o.textContent = `${m.icon} ${m.label} (${sumulasByMateria[m.key]})`;
+    fMateria.appendChild(o);
   });
 
-  // tópico via URL
-  const pretopic = parseInt(App.getQueryParam('topic')) || null;
-  if (pretopic) fTopic.value = String(pretopic);
+  // Popula filtro de tópicos com base na matéria selecionada
+  function populateTopicFilter() {
+    const mat = fMateria.value;
+    fTopic.innerHTML = '<option value="">Todos os tópicos</option>';
+    APP_DATA.topics
+      .filter(t => !mat || (t.materia || 'pc') === mat)
+      .forEach(t => {
+        const tMat = t.materia || 'pc';
+        const cnt = APP_DATA.sumulas.filter(s => s.topic === t.num && (s.materia || 'pc') === tMat).length;
+        if (cnt > 0) {
+          const o = document.createElement('option');
+          o.value = `${tMat}:${t.num}`;
+          const prefix = App.getMateria(tMat).short;
+          o.textContent = `${prefix} ${t.num}. ${t.title} (${cnt})`;
+          fTopic.appendChild(o);
+        }
+      });
+  }
+  populateTopicFilter();
+
+  // tópico via URL — formato `?topic=N` (assume PC para retrocompat) ou `?topic=mat:N`
+  const pretopicRaw = App.getQueryParam('topic');
+  if (pretopicRaw) {
+    const v = pretopicRaw.includes(':') ? pretopicRaw : `pc:${pretopicRaw}`;
+    if ([...fTopic.options].some(o => o.value === v)) fTopic.value = v;
+  }
 
   function renderSumulas() {
+    const mat = fMateria.value;
     const trib = fTribunal.value;
-    const t = parseInt(fTopic.value);
+    const tVal = fTopic.value;
     const text = (fText.value || '').toLowerCase().trim();
     let list = APP_DATA.sumulas.slice();
+    if (mat) list = list.filter(s => (s.materia || 'pc') === mat);
     if (trib) list = list.filter(s => s.tribunal === trib);
-    if (t) list = list.filter(s => s.topic === t);
+    if (tVal) {
+      const [tMat, tNumStr] = tVal.split(':');
+      const tNum = parseInt(tNumStr);
+      list = list.filter(s => s.topic === tNum && (s.materia || 'pc') === tMat);
+    }
     if (text) list = list.filter(s => s.text.toLowerCase().includes(text));
 
     const div = document.getElementById('sumulas-list');
@@ -308,16 +345,19 @@
 
     let html = '';
     list.forEach(s => {
-      const tObj = APP_DATA.topics.find(x => x.num === s.topic && (x.materia || 'pc') === 'pc');
+      const sMat = s.materia || 'pc';
+      const matMeta = App.getMateria(sMat);
+      const tObj = APP_DATA.topics.find(x => x.num === s.topic && (x.materia || 'pc') === sMat);
       const tName = (tObj || {}).title || '';
       const tId = (tObj || {}).id || '';
       const badgeClass = s.tribunal === 'STF' ? 'tag-foco' : 'tag-vantagem';
       const topicLink = tName && tId
-        ? `<a href="topicos.html?id=${encodeURIComponent(tId)}" style="margin-left:0.4rem; text-transform:none; font-weight:normal; color:var(--accent); text-decoration:none;">Tópico ${s.topic}: ${App.escape(tName)} →</a>`
+        ? `<a href="topicos.html?id=${encodeURIComponent(tId)}" style="margin-left:0.4rem; text-transform:none; font-weight:normal; color:var(--accent); text-decoration:none;">${matMeta.short} ${s.topic}: ${App.escape(tName)} →</a>`
         : '';
       html += `<div class="log-entry">
         <div class="log-date">
           <span class="tag ${badgeClass}">${s.tribunal} · ${s.tipo} ${s.num}</span>
+          <span class="tag tag-novo" style="margin-left:0.3rem;">${matMeta.icon} ${App.escape(matMeta.short)}</span>
           ${topicLink}
         </div>
         <div class="log-content">${App.escape(s.text)}</div>
@@ -325,6 +365,7 @@
     });
     div.innerHTML = html;
   }
+  fMateria.addEventListener('change', () => { populateTopicFilter(); renderSumulas(); });
   fTribunal.addEventListener('change', renderSumulas);
   fTopic.addEventListener('change', renderSumulas);
   fText.addEventListener('input', renderSumulas);

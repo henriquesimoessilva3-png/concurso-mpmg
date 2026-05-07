@@ -5949,7 +5949,131 @@ topics: [
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL COLETIVO (8) ============
   { id: 'colproc-01-microssistema-tutela-coletiva', num: 1, materia: 'colproc', title: 'Microssistema da tutela coletiva', edital: '4.2.1', editalText: 'Diálogo entre LACP, CDC, ECA, Idoso, LIA, etc. Princípios. Direitos coletivos lato sensu.', size: 'Médio', schedule: null, advantage: 'Vantagem (atuação como Analista MP).', outline: ['Conceito de microssistema', 'Diálogo das fontes (LACP + CDC + ECA + Idoso + LIA + LBI + LMP)', 'Direitos transindividuais (difusos, coletivos stricto sensu, individuais homogêneos — CDC art. 81)', 'Princípios da tutela coletiva', 'Legitimidade (CF art. 129 + Lei 7.347/85)'], sections: [] },
-  { id: 'colproc-02-acao-civil-publica', num: 2, materia: 'colproc', title: 'Ação Civil Pública', edital: '4.2.2', editalText: 'Lei 7.347/85. Objeto. Legitimidade. Coisa julgada. Liquidação e execução.', size: 'Grande', schedule: null, advantage: 'Vantagem (atuação como Analista MP).', outline: ['Lei 7.347/85 — fundamentos', 'Objeto (interesses difusos, coletivos, individuais homogêneos)', 'Legitimidade ativa concorrente e disjuntiva', 'Inquérito Civil (preparatório)', 'TAC e Recomendação', 'Sentença, coisa julgada (secundum eventum probationis e litis)', 'Liquidação e execução coletiva', 'Custas e honorários'], sections: [] },
+  { id: 'colproc-02-acao-civil-publica', num: 2, materia: 'colproc', title: 'Ação Civil Pública', edital: '4.2.2', editalText: 'Lei 7.347/85. Objeto. Legitimidade. Coisa julgada. Liquidação e execução.', size: 'Grande', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem (atuação como Analista MP — campo direto de atuação).', outline: ['Lei 7.347/85 — fundamentos', 'Objeto (interesses difusos, coletivos, individuais homogêneos)', 'Legitimidade ativa concorrente e disjuntiva', 'Inquérito Civil (preparatório)', 'TAC e Recomendação', 'Sentença, coisa julgada (secundum eventum probationis e litis)', 'Liquidação e execução coletiva', 'Custas e honorários'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Ação Civil Pública** (Lei 7.347/85 — LACP) é o instrumento processual paradigma do **microssistema da tutela coletiva**. Inaugurada com inspiração nas *class actions* norte-americanas e adaptada à realidade brasileira, opera em diálogo permanente com o **CDC** (Lei 8.078/90, Título III), formando o que a doutrina chama de **microssistema processual coletivo**: as duas leis se aplicam reciprocamente (LACP art. 21 + CDC art. 90). Outros diplomas se integram ao sistema — ECA, Estatuto do Idoso, LBI, LIA, Lei do MS Coletivo — todos compartilhando o mesmo arcabouço processual.' },
+        { type: 'p', text: '**Objeto.** A ACP tutela três categorias de interesses transindividuais (CDC art. 81 § único, aplicável por força do diálogo com a LACP):' },
+        { type: 'list', items: [
+          '**DIFUSOS** — transindividuais de natureza indivisível, titulares INDETERMINÁVEIS ligados por circunstância de fato (ex.: meio ambiente, patrimônio histórico, propaganda enganosa coletiva)',
+          '**COLETIVOS *stricto sensu*** — transindividuais indivisíveis, titulares DETERMINÁVEIS (grupo, categoria ou classe) ligados entre si ou com a parte contrária por relação jurídica base (ex.: aumento abusivo de mensalidade escolar para alunos matriculados)',
+          '**INDIVIDUAIS HOMOGÊNEOS** — DIVISÍVEIS, titulares DETERMINADOS, decorrem de origem comum (ex.: defeito em série em produto, expurgos inflacionários para correntistas). São coletivos apenas no plano processual ("acidentalmente coletivos").'
+        ]},
+        { type: 'p', text: '**Função institucional do MP.** A CF/88 (art. 129 III) atribui ao MP a promoção da ACP para defesa de direitos difusos, coletivos e demais interesses sociais. Essa função foi expressamente recepcionada pela LC 75/93 (MPU, arts. 5º-6º) e LC 34/94 (MPMG, arts. 66-67). É **vantagem estratégica direta** para quem é Analista do MP — vivência institucional de IC, TAC, ACP, audiências públicas.' },
+        { type: 'p', text: '**Legitimidade concorrente e disjuntiva.** Diferente do processo civil clássico (legitimidade ordinária), na ACP múltiplos legitimados podem propor a ação independentemente uns dos outros (LACP art. 5º). O MP é apenas um deles — Defensoria, União, Estados, Municípios, autarquias, empresas públicas, fundações, sociedades de economia mista e associações constituídas há pelo menos 1 ano também têm legitimidade. Quando o MP não é autor, atua **OBRIGATORIAMENTE como custos legis** (LACP art. 5º §1º).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Estrutura da Lei 7.347/85 (LACP)' },
+        { type: 'list', items: [
+          '**Art. 1º** — Objeto da ACP: meio ambiente · consumidor · bens e direitos artísticos/estéticos/históricos/turísticos/paisagísticos · ordem urbanística · ordem econômica · honra e dignidade de grupos vulneráveis · qualquer outro interesse difuso ou coletivo (cláusula aberta)',
+          '**Art. 1º § único** — Vedações: tributos, contribuições previdenciárias, FGTS ou outros fundos cujos beneficiários possam ser individualmente determinados',
+          '**Art. 2º** — Foro competente: local do dano (regra) — competência ABSOLUTA',
+          '**Art. 3º** — Conteúdo das pretensões: condenação em dinheiro ou cumprimento de obrigação de fazer/não fazer',
+          '**Art. 4º** — Cabimento de cautelar (hoje tutela provisória do CPC)',
+          '**Art. 5º** — Legitimados ativos (rol)',
+          '**Art. 5º § 6º** — TAC tem eficácia de título executivo extrajudicial',
+          '**Arts. 8º-9º** — Inquérito Civil (poderes de requisição do MP) — **ESSENCIAL** para conhecer (já cobrado em prova)',
+          '**Art. 11** — Sentença em obrigação de fazer/não fazer: cumprimento sob pena de execução específica + cominação de multa',
+          '**Art. 13** — Fundo de Reparação dos Direitos Difusos (FDD federal e fundos estaduais) — destino da indenização em difusos sem vítima determinada',
+          '**Art. 16** — Coisa julgada: **erga omnes** dentro dos limites territoriais do órgão prolator (controvertido — STF Tema 1075 superou Súmula 401)',
+          '**Art. 17** — Litigância de má-fé do autor: condenação em honorários × multa decuplicada',
+          '**Art. 18** — Custas e honorários: **NÃO SÃO DEVIDOS PELO AUTOR**, salvo má-fé',
+          '**Art. 21** — Aplicam-se à ACP, no que cabível, as regras processuais do Título III do CDC (microssistema)'
+        ]},
+        { type: 'h', text: 'CDC — Título III (Defesa do Consumidor em Juízo)' },
+        { type: 'list', items: [
+          '**Art. 81** — Conceitos de difusos, coletivos e individuais homogêneos',
+          '**Art. 82** — Legitimados (similar ao art. 5º LACP, mas com algumas diferenças)',
+          '**Arts. 91-100** — Ações coletivas para tutela de individuais homogêneos (procedimento bifásico: condenação genérica → liquidação individual)',
+          '**Art. 95** — Sentença genérica em individuais homogêneos',
+          '**Art. 100** — Fluid recovery (recuperação fluida): se em 1 ano não houver liquidação individual em número compatível, MP ou outros legitimados liquidam globalmente, indo ao Fundo',
+          '**Art. 103** — Coisa julgada: ERGA OMNES nos difusos · ULTRA PARTES nos coletivos · ERGA OMNES nos individuais homogêneos. Sempre **secundum eventum litis** (só prejudica em caso de procedência ou improcedência por insuficiência de provas)'
+        ]},
+        { type: 'h', text: 'Outros diplomas integrantes do microssistema' },
+        { type: 'list', items: [
+          '**Lei 4.717/65** (Ação Popular) — modela coisa julgada e liquidação',
+          '**Lei 12.016/09** (MS Coletivo) — em parte aplicável',
+          '**Lei 8.069/90** (ECA) e **Lei 10.741/03** (Idoso) — ações coletivas específicas',
+          '**Lei 13.146/15** (LBI) — tutela coletiva da PCD',
+          '**Lei 8.429/92** (LIA) — improbidade administrativa, também coletiva',
+          '**Lei 12.846/13** (Anticorrupção) — responsabilização da PJ'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Coisa julgada coletiva — secundum eventum litis e secundum eventum probationis' },
+        { type: 'p', text: 'Princípio FUNDAMENTAL e ALVO RECORRENTE de prova. A coisa julgada coletiva opera de modo distinto da clássica:' },
+        { type: 'p', text: '**Secundum eventum litis** — só projeta efeitos sobre os indivíduos em caso de PROCEDÊNCIA (in utilibus). A IMPROCEDÊNCIA não impede ações INDIVIDUAIS dos titulares. Ratio: ninguém pode ser prejudicado em sua esfera por processo do qual não participou.' },
+        { type: 'p', text: '**Secundum eventum probationis** — em difusos e coletivos, se a improcedência for **POR INSUFICIÊNCIA DE PROVAS**, qualquer legitimado pode propor nova ação coletiva com novas provas (CDC art. 103 I, II). Não há trânsito em julgado material absoluto.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 1075 (2022):** declarou inconstitucional a Súmula 401 STJ e o art. 16 da LACP no ponto que limitava a coisa julgada coletiva ao território do juízo prolator. Hoje a coisa julgada projeta-se em todo o território nacional, conforme a competência. Essa decisão **redefiniu** o microssistema.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 601:** "O Ministério Público tem legitimidade ativa para atuar na defesa de direitos difusos, coletivos e individuais homogêneos dos consumidores, ainda que decorrentes da prestação de serviços públicos."' },
+
+        { type: 'h', text: 'Inquérito Civil (LACP arts. 8º-9º)' },
+        { type: 'p', text: 'Procedimento administrativo investigatório PRIVATIVO do MP (Resolução CNMP 23/2007). É **PREPARATÓRIO** — instrui eventual ACP, TAC ou recomendação. Características:' },
+        { type: 'list', items: [
+          'INSTAURAÇÃO: por portaria do membro do MP, mediante representação, requisição ou de ofício',
+          'PUBLICIDADE: regra (com possibilidade de sigilo motivado)',
+          'PRAZO DE DURAÇÃO: 1 ano (prorrogável fundamentadamente)',
+          'PODERES: requisitar informações, exames, perícias, expedir notificações, ouvir testemunhas',
+          'ARQUIVAMENTO: deve ser submetido ao Conselho Superior do MP (CSMP) — controle hierárquico',
+          'NÃO CONDICIONAMENTO: a propositura da ACP NÃO depende de prévio inquérito civil; pode ir direto'
+        ]},
+
+        { type: 'h', text: 'TAC — Termo de Ajustamento de Conduta (LACP art. 5º § 6º)' },
+        { type: 'p', text: 'Instrumento de **AUTOCOMPOSIÇÃO** próprio do MP (e demais órgãos PÚBLICOS legitimados — não cabe a associações privadas). Tem natureza de TÍTULO EXECUTIVO EXTRAJUDICIAL. O obrigado se compromete a adequar sua conduta às exigências legais, sob pena de execução. Vantagens:' },
+        { type: 'list', items: [
+          'Resolve o conflito SEM litígio',
+          'Define obrigações específicas (de fazer, não fazer, dar)',
+          'Pode prever multa cominatória (astreintes)',
+          'É título executivo: descumprimento → execução direta no juízo cível'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**Cuidado com a banca:** TAC NÃO é negócio jurídico bilateral comum. É **AJUSTE PROCESSUAL DE CONDUTA**. O órgão público NÃO transige com o direito material indisponível — só ajusta a forma de cumprimento.' },
+
+        { type: 'h', text: 'Custas e honorários — assimetria favorável ao autor coletivo' },
+        { type: 'p', text: 'LACP art. 18 + CDC art. 87: ASSOCIAÇÃO autora de ACP **NÃO PAGA** custas, despesas processuais nem honorários sucumbenciais, salvo má-fé (litigância). MP **JAMAIS paga** sucumbência (CF art. 128 § 5º II "a", art. 128 § 5º I "c"). Inversão clássica do princípio da sucumbência — proteção do interesse coletivo.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.962.488/SP (2022):** A vedação à condenação do MP em sucumbência é absoluta — abrange honorários contratuais e periciais. Tema rotineiro de prova oral/escrita.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 espécies de direitos coletivos (CDC art. 81): DIFUSOS · COLETIVOS *stricto sensu* · INDIVIDUAIS HOMOGÊNEOS.** Mnemônico **DCI**. Os 2 primeiros são INDIVISÍVEIS; o 3º é DIVISÍVEL.' },
+        { type: 'box', kind: 'macete', text: '**Coisa julgada coletiva (CDC art. 103): difusos = ERGA OMNES · coletivos = ULTRA PARTES · individuais homogêneos = ERGA OMNES.** Mnemônico **EUE**.' },
+        { type: 'box', kind: 'macete', text: '**Secundum eventum litis** = só prejudica indivíduos se for FAVORÁVEL (in utilibus). **Secundum eventum probationis** = improcedência por falta de provas NÃO faz coisa julgada material absoluta.' },
+        { type: 'box', kind: 'macete', text: '**Foro da ACP = local do DANO** (LACP art. 2º). Competência ABSOLUTA — não pode ser modificada por vontade das partes nem por conexão.' },
+        { type: 'box', kind: 'macete', text: '**Legitimados PÚBLICOS** (MP, Defensoria, U/E/M, autarquias, EP, SEM, fundações) podem celebrar TAC. **PRIVADOS** (associações) NÃO. Razão: TAC envolve disposição sobre forma de cumprimento de interesse coletivo — só ente público pode.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**ACP NÃO pode ter por objeto tributos, contribuições previdenciárias, FGTS ou outros fundos cujos beneficiários sejam INDIVIDUALMENTE DETERMINÁVEIS** (LACP art. 1º § único). Pegadinha clássica: candidato marca alternativa que diz que ACP serve para tudo. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**MP atua como CUSTOS LEGIS quando NÃO é autor** (LACP art. 5º § 1º). Atuação dupla: como autor OU como fiscal. Nunca esquece — banca cobra muito.' },
+        { type: 'box', kind: 'atencao', text: '**Improcedência da ACP NÃO impede ações individuais.** Apenas a procedência aproveita os indivíduos (in utilibus). Pegadinha frequente.' },
+        { type: 'box', kind: 'atencao', text: '**Súmula 401 STJ está SUPERADA pelo STF Tema 1075 (2022).** A coisa julgada coletiva NÃO se limita ao território do órgão prolator. Banca atualizada cobra essa virada.' },
+        { type: 'box', kind: 'atencao', text: '**Associação precisa estar constituída há ao menos 1 ANO** para ter legitimidade ativa (LACP art. 5º V "a"). Esse requisito pode ser DISPENSADO pelo juiz quando haja manifesto interesse social (LACP art. 5º § 4º).' },
+        { type: 'box', kind: 'atencao', text: '**TAC firmado por associação privada NÃO existe.** Só legitimados PÚBLICOS celebram TAC. Banca pega na descuidada.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** ACP é o eixo do microssistema; CDC arts. 81-104 + ECA + Idoso + LIA + LBI compõem o sistema integrado.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 6 (TAC):** TAC é o instrumento extrajudicial preferencial — evita a ACP, mas tem mesma eficácia executiva.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 7 (coisa julgada coletiva):** secundum eventum litis e probationis aplicam-se igualmente à ACP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PC 20 (ACP no CPC):** o art. 5º LACP convive com CPC art. 18 (legitimação extraordinária). Aplicação subsidiária do CPC à ACP — art. 19 LACP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7-8 (atribuições do MP):** ACP é a forma processual mais visível das atribuições do art. 129 III CF — defesa de difusos e coletivos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (meio ambiente):** ACP ambiental é a manifestação mais frequente — Lei 6.938/81 + LACP + responsabilidade civil objetiva.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (improbidade):** Lei 8.429/92 com Lei 14.230/21 — ANPC (Acordo de Não Persecução Cível) é instrumento próximo do TAC, no mesmo microssistema.' }
+      ]
+    }
+  ] },
   { id: 'colproc-03-acao-popular', num: 3, materia: 'colproc', title: 'Ação Popular', edital: '4.2.3', editalText: 'Lei 4.717/65. CF art. 5º LXXIII. Objeto, legitimidade, MP.', size: 'Médio', schedule: null, advantage: null, outline: ['CF art. 5º LXXIII', 'Lei 4.717/65', 'Objeto (anular ato lesivo ao patrimônio público, moralidade, meio ambiente, patrimônio histórico)', 'Legitimidade ativa (cidadão)', 'Atuação do MP (custos legis, sucessor processual, execução)', 'Coisa julgada', 'Sentença, recursos, reexame necessário'], sections: [] },
   { id: 'colproc-04-mandado-seguranca-coletivo', num: 4, materia: 'colproc', title: 'Mandado de Segurança Coletivo', edital: '4.2.4', editalText: 'CF art. 5º LXX. Lei 12.016/09. Legitimados, prazo, coisa julgada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['CF art. 5º LXX', 'Lei 12.016/09', 'Legitimados (partido com representação, organização sindical, entidade de classe, associação)', 'Direito líquido e certo', 'Coisa julgada (Súmula 333 STJ)', 'Pertinência temática'], sections: [] },
   { id: 'colproc-05-mi-adpf', num: 5, materia: 'colproc', title: 'Mandado de Injunção e ADPF', edital: '4.2.5', editalText: 'Lei 13.300/16. Lei 9.882/99. Subsidiariedade. Legitimados.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Mandado de Injunção (CF art. 5º LXXI; Lei 13.300/16)', 'MI individual e coletivo', 'Eficácia da decisão (corrente concretista geral × intermediária)', 'ADPF — Lei 9.882/99', 'Subsidiariedade (CF art. 102 §1º)', 'Legitimados (CF art. 103)'], sections: [] },
@@ -6345,7 +6469,45 @@ flashcards: [
   { id: 284, topic: 12, materia: 'civil', q: 'Teoria menor × teoria maior da desconsideração — diferença?', a: 'TEORIA MAIOR (CC art. 50): exige abuso da personalidade (desvio de finalidade ou confusão patrimonial). TEORIA MENOR (CDC art. 28 §5º; ambiental): basta o mero obstáculo ao ressarcimento da vítima. CC adota a maior.', tags: ['fase3', 'desconsideracao'] },
   { id: 285, topic: 12, materia: 'civil', q: 'EIRELI — ainda existe?', a: 'NÃO. Lei 14.195/21 EXTINGUIU a EIRELI. Substituída pela SLU (Sociedade Limitada Unipessoal — Lei 13.874/19). Empresários individuais que não migraram passaram automaticamente a SLU.', tags: ['fase3', 'empresa', 'EIRELI'] },
   { id: 286, topic: 15, materia: 'civil', q: 'Regimes de bens — quais existem no CC/02?', a: '4 regimes: COMUNHÃO PARCIAL (supletivo legal), COMUNHÃO UNIVERSAL, PARTICIPAÇÃO FINAL NOS AQUESTOS, SEPARAÇÃO TOTAL (convencional ou obrigatória). Pacto antenupcial necessário em todos exceto comunhão parcial.', tags: ['fase3', 'familia', 'regime-bens'] },
-  { id: 287, topic: 15, materia: 'civil', q: 'Alteração do regime de bens é possível?', a: 'SIM (CC art. 1.639 §2º): por DECISÃO JUDICIAL motivada, mediante pedido conjunto dos cônjuges, com ressalva dos direitos de TERCEIROS. Inovação relevante do CC/02.', tags: ['fase3', 'regime-bens'] }
+  { id: 287, topic: 15, materia: 'civil', q: 'Alteração do regime de bens é possível?', a: 'SIM (CC art. 1.639 §2º): por DECISÃO JUDICIAL motivada, mediante pedido conjunto dos cônjuges, com ressalva dos direitos de TERCEIROS. Inovação relevante do CC/02.', tags: ['fase3', 'regime-bens'] },
+
+  // ============ Reforço de densidade — segunda passada ============
+  // PC esparsos
+  { id: 288, topic: 7, q: 'Auxiliares da Justiça — quem são (CPC art. 149)?', a: 'ESCRIVÃO/CHEFE DE SECRETARIA · OFICIAL DE JUSTIÇA · PERITO · DEPOSITÁRIO · ADMINISTRADOR · INTÉRPRETE · TRADUTOR · MEDIADOR · CONCILIADOR · PARTIDOR · DISTRIBUIDOR · CONTABILISTA · REGULADOR DE AVARIAS. Lista TAXATIVA do art. 149.', tags: ['CPC', 'auxiliares'] },
+  { id: 289, topic: 10, q: 'Pressupostos processuais × condições da ação — diferença prática?', a: 'PRESSUPOSTOS PROCESSUAIS: validade do processo (juiz competente, partes capazes, petição apta). CONDIÇÕES DA AÇÃO: legitimidade e interesse — ausência leva à extinção sem mérito (CPC 485 VI). Ambos são cognoscíveis de ofício.', tags: ['CPC', 'pressupostos'] },
+  { id: 290, topic: 12, q: 'Multa do art. 523 §1º (cumprimento) — desconto por pagamento parcial?', a: 'SIM (CPC art. 523 §2º): se o devedor pagar parcialmente em 15 dias, multa e honorários incidem APENAS sobre o saldo remanescente. Estímulo ao pagamento parcial.', tags: ['CPC', 'cumprimento'] },
+  { id: 291, topic: 13, q: 'Ação de exigir contas — fases e efeitos?', a: 'CPC arts. 550-553. PRIMEIRA FASE: condenação a prestar contas (15 dias). SEGUNDA FASE: julgamento das contas — saldo apurado é título executivo (art. 552 § único). Cabível por quem tem direito de exigir e dever de prestar.', tags: ['CPC', 'exigir-contas'] },
+  { id: 292, topic: 14, q: 'Quais procedimentos de jurisdição voluntária estão no CPC?', a: 'CPC arts. 719-770: notificação/interpelação · alienação judicial · divórcio/separação consensual · extinção de usufruto/fideicomisso · herança jacente · bens dos ausentes · interdição · disposições comuns à tutela e curatela · tomada de decisão apoiada · organização e fiscalização das fundações · ratificação dos protestos marítimos.', tags: ['CPC', 'voluntaria'] },
+  { id: 293, topic: 14, q: 'Tomada de decisão apoiada — quem se beneficia?', a: 'CC art. 1.783-A (introduzido pelo Estatuto da PCD): pessoa COM DEFICIÊNCIA MENTAL OU INTELECTUAL que mantém capacidade civil. Diferente da curatela: APOIA a vontade da pessoa (não a substitui). Procedimento: jurisdição voluntária no CPC.', tags: ['CPC', 'TDA', 'PCD'] },
+  { id: 294, topic: 17, q: 'Gratuidade pode ser revogada?', a: 'SIM (CPC art. 100 § único). Constatado que o beneficiado pode arcar com as custas, o juiz revoga a gratuidade — em decisão fundamentada e ouvida a parte. Pagamento devido nas custas anteriores.', tags: ['CPC', 'gratuidade'] },
+  { id: 295, topic: 18, q: 'Reconvenção em Juizado Especial Cível?', a: 'NÃO cabe reconvenção (Lei 9.099/95 art. 31). Mas o réu pode formular PEDIDO CONTRAPOSTO na contestação, dentro dos limites do juizado (até 40 salários-mínimos no JEC, 60 no JEFP).', tags: ['JEC', '9099'] },
+
+  // Civil esparsos
+  { id: 296, topic: 2, materia: 'civil', q: 'Capacidade civil — escala vigente após Lei 13.146/15 (LBI)?', a: 'ABSOLUTAMENTE INCAPAZES (CC art. 3º — ÚNICO inciso): menor de 16 anos. RELATIVAMENTE INCAPAZES (CC art. 4º): maiores de 16 e menores de 18; ébrios habituais e viciados em tóxicos; pessoas que, por causa transitória ou permanente, não puderem exprimir sua vontade; pródigos. PCD não é mais incapaz por regra — usa-se TDA ou curatela.', tags: ['fase3', 'capacidade'] },
+  { id: 297, topic: 2, materia: 'civil', q: 'Direitos da personalidade — características?', a: 'CC arts. 11-21. INTRANSMISSÍVEIS (regra) · IRRENUNCIÁVEIS · IMPRESCRITÍVEIS · ABSOLUTOS · INDISPONÍVEIS (em regra). Ato de disposição: limitado, voluntário, com possibilidade de revogação (CC art. 11 + ENUNCIADO 4 CJF).', tags: ['fase3', 'personalidade'] },
+  { id: 298, topic: 3, materia: 'civil', q: 'Pessoa jurídica — quando começa sua existência?', a: 'CC art. 45: começa com a INSCRIÇÃO do ato constitutivo no respectivo registro (Junta Comercial para empresárias, RCPJ para civis). Antes disso: sociedade em comum (sócios respondem ilimitadamente).', tags: ['fase3', 'PJ'] },
+  { id: 299, topic: 3, materia: 'civil', q: 'Associação × fundação — qual a diferença essencial?', a: 'ASSOCIAÇÃO: união de PESSOAS para fins não-econômicos (CC arts. 53-61). FUNDAÇÃO: união de BENS afetados a um fim específico (CC arts. 62-69). Fundação é fiscalizada pelo MP (CC art. 66) — vantagem da candidata.', tags: ['fase3', 'PJ', 'fundacao', 'MP'] },
+  { id: 300, topic: 4, materia: 'civil', q: 'Bens públicos — espécies e regime?', a: 'CC art. 99: USO COMUM (mar, ruas, praças) · USO ESPECIAL (edifícios públicos, repartições) · DOMINICAIS (sem destinação pública). Características: IMPENHORÁVEIS · IMPRESCRITÍVEIS (não usucapem) · INALIENÁVEIS RELATIVAMENTE (dominicais podem ser alienados após desafetação).', tags: ['fase3', 'bens'] },
+  { id: 301, topic: 4, materia: 'civil', q: 'Bem de família — voluntário e legal?', a: 'VOLUNTÁRIO (CC arts. 1.711-1.722): instituído por escritura pública, registro no CRI, limite de 1/3 do patrimônio. LEGAL (Lei 8.009/90): impenhorabilidade automática do imóvel residencial — exceções no art. 3º (pensão, IPTU, fiança locatícia — STF Tema 295).', tags: ['fase3', 'bem-familia', 'impenhorabilidade'] },
+  { id: 302, topic: 6, materia: 'civil', q: 'Modalidades de obrigação — quais e características?', a: 'DAR (coisa CERTA · INCERTA · DINHEIRO) · FAZER (FUNGÍVEL × INFUNGÍVEL/personalíssima) · NÃO FAZER. Distinção importante para inadimplemento: inadimplemento de obrigação personalíssima resolve-se em perdas e danos (CC art. 247).', tags: ['fase3', 'obrigacoes'] },
+  { id: 303, topic: 6, materia: 'civil', q: 'Solidariedade — presume-se?', a: 'NÃO. CC art. 265: solidariedade não se presume — RESULTA da lei ou da vontade das partes. Diferente da indivisibilidade (art. 258), que pode resultar da natureza da prestação.', tags: ['fase3', 'solidariedade'] },
+  { id: 304, topic: 7, materia: 'civil', q: 'Mora do credor (mora accipiendi) — efeitos?', a: 'CC art. 400: subtrai o devedor isento da responsabilidade pela conservação da coisa, obriga o credor a ressarcir despesas de conservação, e sujeita-o a receber a coisa pela mais alta estimação após a oferta. Devedor pode consignar (CPC arts. 539+).', tags: ['fase3', 'mora-credor'] },
+  { id: 305, topic: 8, materia: 'civil', q: 'Contratos por adesão × paritários — distinção?', a: 'PARITÁRIO: cláusulas livremente discutidas. ADESÃO (CC art. 423): cláusulas pré-redigidas pela outra parte, aceita "em bloco". Cláusulas ambíguas se interpretam em favor do aderente; cláusulas que estipulem renúncia a direito resultante do negócio são nulas (art. 424).', tags: ['fase3', 'adesao'] },
+  { id: 306, topic: 8, materia: 'civil', q: 'Função social do contrato (CC art. 421)?', a: 'Contrato deve ser exercido em razão e nos LIMITES da função social. Lei 13.874/19 alterou: "nos limites da função social" — atenuou em favor da liberdade contratual. Conjuga com boa-fé (art. 422), probidade e revisão por onerosidade (art. 478).', tags: ['fase3', 'funcao-social'] },
+  { id: 307, topic: 9, materia: 'civil', q: 'Vícios redibitórios × erro substancial — distinção?', a: 'VÍCIO REDIBITÓRIO (CC arts. 441-446): defeito OCULTO da coisa que torna imprópria ao uso ou diminui valor. Coisa existe e tem o que se contratou; mas com defeito. ERRO ESSENCIAL (CC art. 138): falsa percepção sobre a coisa em si — ANULA o contrato. Vício redibitório: redibitória ou estimatória.', tags: ['fase3', 'vicios'] },
+  { id: 308, topic: 9, materia: 'civil', q: 'Doação inoficiosa — o que é?', a: 'CC art. 549: doação que excede o que o doador podia dispor em testamento (50% — proteção da legítima). É NULA na parte excedente. Tutela os herdeiros necessários — colação na partilha (CC arts. 2.002+).', tags: ['fase3', 'doacao'] },
+  { id: 309, topic: 10, materia: 'civil', q: 'Promessa de recompensa — natureza jurídica?', a: 'CC arts. 854-860: NEGÓCIO JURÍDICO UNILATERAL. Quem prometeu por anúncios públicos recompensa por ato/fato é OBRIGADO a cumprir. Pode ser revogada antes da execução (mas indenizando despesas).', tags: ['fase3', 'unilaterais'] },
+  { id: 310, topic: 10, materia: 'civil', q: 'Pagamento indevido × enriquecimento sem causa?', a: 'PAGAMENTO INDEVIDO (CC arts. 876-883): hipótese ESPECÍFICA. Quem paga o que não deve tem direito à RESTITUIÇÃO. ENRIQUECIMENTO SEM CAUSA (CC arts. 884-886): cláusula GERAL (subsidiária — só aplicável se não houver outra ação). Prescrição: 3 anos (art. 206 §3º IV).', tags: ['fase3', 'enriquecimento', 'pagamento-indevido'] },
+  { id: 311, topic: 13, materia: 'civil', q: 'Aquisição da propriedade imóvel — modalidades?', a: 'CC arts. 1.238+: USUCAPIÃO · ACESSÃO · REGISTRO DO TÍTULO (translativo) · SUCESSÃO HEREDITÁRIA. A regra geral é que a propriedade imóvel se transmite pelo REGISTRO no CRI (art. 1.245). Sem registro, não há transferência (apenas direito obrigacional).', tags: ['fase3', 'propriedade'] },
+  { id: 312, topic: 13, materia: 'civil', q: 'Posse — diferença entre posse direta e indireta?', a: 'CC art. 1.197: POSSE DIRETA (quem detém a coisa fisicamente — locatário, comodatário). POSSE INDIRETA (proprietário que cedeu a posse direta — locador). Ambas são protegidas por interditos. Não confundir com detenção (art. 1.198).', tags: ['fase3', 'posse'] },
+
+  // === Flashcards específicos do tópico colproc-02 (ACP — recém-preenchido) ===
+  { id: 313, topic: 2, materia: 'colproc', q: 'Quais as 3 espécies de direitos coletivos lato sensu (CDC art. 81 § único)?', a: 'DIFUSOS (indivisíveis, titulares indetermináveis, ligados por circunstância de fato — ex.: meio ambiente) · COLETIVOS *stricto sensu* (indivisíveis, determináveis, relação jurídica base) · INDIVIDUAIS HOMOGÊNEOS (divisíveis, determinados, origem comum). Mnemônico DCI.', tags: ['colproc', 'ACP', 'CDC'] },
+  { id: 314, topic: 2, materia: 'colproc', q: 'Como opera a coisa julgada coletiva (CDC art. 103)?', a: 'DIFUSOS = erga omnes; COLETIVOS = ultra partes; INDIVIDUAIS HOMOGÊNEOS = erga omnes. Em difusos e coletivos: secundum eventum probationis (improcedência por falta de provas NÃO faz coisa julgada material absoluta — pode reapresentar com novas provas). Sempre secundum eventum litis (in utilibus).', tags: ['colproc', 'coisa-julgada'] },
+  { id: 315, topic: 2, materia: 'colproc', q: 'STF Tema 1075 — o que decidiu sobre ACP?', a: 'STF declarou inconstitucional a parte do art. 16 LACP e superou a Súmula 401 STJ que limitavam a coisa julgada coletiva ao território do órgão prolator. HOJE: a coisa julgada coletiva projeta-se em todo o território nacional, conforme a competência. Decisão de 2022 redefiniu o microssistema.', tags: ['colproc', 'jurisprudencia', 'STF'] },
+  { id: 316, topic: 2, materia: 'colproc', q: 'Quem pode celebrar TAC (Termo de Ajustamento de Conduta)?', a: 'APENAS legitimados PÚBLICOS: MP, Defensoria, União, Estados, Municípios, autarquias, EP, SEM, fundações. ASSOCIAÇÕES PRIVADAS não podem celebrar TAC. Razão: TAC dispõe sobre forma de cumprimento de interesse coletivo. É título executivo extrajudicial (LACP art. 5º §6º).', tags: ['colproc', 'TAC', 'MP'] },
+  { id: 317, topic: 2, materia: 'colproc', q: 'Quando o MP atua como custos legis na ACP?', a: 'SEMPRE que NÃO é autor (LACP art. 5º §1º). Atuação dupla: como autor (legitimado) OU como fiscal da lei (intervindo obrigatoriamente). Nunca deixa de atuar. Recursos: pode recorrer mesmo se atuou só como custos legis (Súmula 99 STJ).', tags: ['colproc', 'MP', 'custos-legis'] },
+  { id: 318, topic: 2, materia: 'colproc', q: 'ACP pode tutelar tributos, FGTS ou contribuições previdenciárias?', a: 'NÃO (LACP art. 1º § único). Vedação expressa. Tutela apenas direitos COLETIVOS — esses são individualmente determináveis. Pegadinha clássica de banca.', tags: ['colproc', 'ACP', 'objeto'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -8004,6 +8166,205 @@ questions: [
     ],
     correct: 'B',
     explanation: 'CPC art. 335: o prazo de contestação inicia-se da audiência de conciliação (real ou frustrada) ou, no caso de não realização, a partir do AR. (D) Falso: reconvenção é apresentada na própria contestação (CPC art. 343).'
+  },
+
+  // === Reforço de densidade (segunda passada) ===
+  {
+    id: 116, topic: 7, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre impedimento e suspeição do juiz no CPC/15, é correto afirmar:',
+    alternatives: [
+      'Impedimento e suspeição têm o mesmo prazo decadencial de 15 dias úteis.',
+      'O impedimento gera nulidade absoluta e pode ser alegado a qualquer tempo, inclusive em ação rescisória; a suspeição gera nulidade relativa e tem prazo decadencial de 15 dias.',
+      'Ambos os institutos só atingem o juiz, jamais o promotor de justiça.',
+      'A suspeição é hipótese taxativa; o impedimento, exemplificativa.',
+      'O juiz pode declarar-se de ofício suspeito, mas nunca impedido.'
+    ],
+    correct: 'B',
+    explanation: 'CPC arts. 144-146: impedimento (objetivo) = nulidade absoluta; suspeição (subjetiva) = relativa, prazo de 15 dias. (C) Falso: aplica-se também a MP, defensoria, peritos (art. 148). (D) Inverso. (E) Falso — pode declarar-se em qualquer hipótese.'
+  },
+  {
+    id: 117, topic: 12, banca: 'Simulada', nivel: 'Médio',
+    statement: 'No cumprimento de sentença que reconhece obrigação de pagar, é correto:',
+    alternatives: [
+      'A multa de 10% e os honorários de 10% incidem mesmo se o devedor pagar dentro do prazo de 15 dias úteis.',
+      'O cumprimento provisório dispensa caução do exequente em qualquer hipótese.',
+      'Se o devedor não paga em 15 dias úteis, incidem multa de 10% e honorários de 10% — cumulativamente — e segue-se a expropriação.',
+      'A impugnação é o equivalente dos embargos à execução por título extrajudicial e suspende automaticamente o cumprimento.',
+      'A penhora online via SISBAJUD só é admissível após esgotadas as outras tentativas de penhora.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 523 §1º: 15 dias úteis para pagar; não pago, incide multa 10% + honorários 10% (cumulativos). (A) Inverso. (B) Caução exigida em situações com risco — art. 520. (D) Impugnação não suspende automaticamente — art. 525 §6º. (E) Súmula 560/STJ — penhora online é regra prioritária.'
+  },
+  {
+    id: 118, topic: 13, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ação possessória (CPC arts. 554-568), assinale a correta:',
+    alternatives: [
+      'Manutenção, reintegração e interdito proibitório são interfungíveis pelo princípio da fungibilidade (CPC art. 554).',
+      'A liminar possessória somente pode ser concedida após citação do réu.',
+      'Em ação possessória, é vedado pedido contraposto.',
+      'A discussão sobre a propriedade pode ser ampla na possessória, mesmo se o réu também alegar posse.',
+      'A coisa julgada da possessória atinge questões de domínio.'
+    ],
+    correct: 'A',
+    explanation: 'CPC art. 554: princípio da fungibilidade — possessórias são intercambiáveis. (B) Falso (art. 562 — possível inaudita altera parte). (C) Cabível pedido contraposto (art. 556). (D) Falso — exceção de domínio é VEDADA na pendência da possessória (Súmula 487/STJ). (E) Falso (art. 557).'
+  },
+  {
+    id: 119, topic: 14, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a tomada de decisão apoiada (CC art. 1.783-A) é correto:',
+    alternatives: [
+      'É medida igual à curatela, apenas com nome distinto.',
+      'Procedimento se faz junto ao Tribunal de Justiça em primeira instância como ação penal.',
+      'Pessoa com deficiência elege pelo menos 2 apoiadores idôneos com quem mantenha vínculo, conservando integralmente sua capacidade civil.',
+      'É hipótese de curatela compartilhada do CC.',
+      'A apoiadora atua em substituição à vontade da pessoa apoiada.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 1.783-A (LBI/2015): TDA conserva CAPACIDADE — apoia (não substitui) a vontade. Procedimento: jurisdição voluntária no foro do apoiado.'
+  },
+  {
+    id: 120, topic: 17, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a justiça gratuita (CPC arts. 98-102), é correto afirmar:',
+    alternatives: [
+      'A pessoa jurídica não pode pleitear gratuidade, em qualquer hipótese.',
+      'A gratuidade abrange custas, honorários sucumbenciais e a multa do art. 523 §1º, mas não os honorários contratuais.',
+      'A condenação em honorários sucumbenciais ao beneficiário da gratuidade fica sob condição suspensiva de exigibilidade por 5 anos (CPC art. 98 §3º).',
+      'A revogação da gratuidade pode ser feita ex officio, sem oitiva do beneficiário.',
+      'O benefício se estende automaticamente aos sucessores em caso de óbito.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 98 §3º: condição suspensiva por 5 anos. (A) PJ pode (Súmula 481/STJ). (B) Multa do art. 523 não é coberta. (D) Exige contraditório (art. 100 § único). (E) Não automático.'
+  },
+  {
+    id: 121, topic: 18, banca: 'Simulada', nivel: 'Médio',
+    statement: 'No Juizado Especial Cível (Lei 9.099/95), é correto afirmar:',
+    alternatives: [
+      'O valor de alçada é de até 60 salários-mínimos.',
+      'O valor de alçada é de até 40 salários-mínimos, com necessidade de advogado a partir de 20 salários-mínimos.',
+      'É admissível qualquer modalidade de intervenção de terceiros.',
+      'Cabe reconvenção, mas não pedido contraposto.',
+      'A revelia gera presunção absoluta de veracidade dos fatos.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 9.099/95 art. 3º (alçada 40 SM) + art. 9º (advogado a partir de 20 SM). (A) 60 SM é o JEFP. (C) Vedada intervenção, salvo litisconsórcio (art. 10). (D) Inverso (art. 31). (E) Presunção é relativa.'
+  },
+  {
+    id: 122, topic: 2, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os direitos da personalidade (CC arts. 11-21), é correto afirmar:',
+    alternatives: [
+      'São transmissíveis por sucessão.',
+      'O ato de disposição pode ser amplo, irrestrito e irrevogável.',
+      'São intransmissíveis e irrenunciáveis em regra, sendo possível ato voluntário e limitado de disposição.',
+      'A pessoa jurídica jamais pode sofrer dano moral, conforme jurisprudência consolidada do STJ.',
+      'O direito ao nome cessa com a morte da pessoa.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 11. (A) Falso. (B) Falso — limitado e revogável (Enunciado 4 CJF). (D) Súmula 227/STJ — PJ pode sofrer dano moral. (E) Tutela post-mortem — art. 12 § único.'
+  },
+  {
+    id: 123, topic: 6, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre solidariedade obrigacional, assinale a correta:',
+    alternatives: [
+      'Presume-se solidariedade quando há pluralidade de devedores em obrigação comum.',
+      'Solidariedade resulta da lei ou da vontade das partes (CC art. 265) — não se presume.',
+      'A solidariedade ativa e passiva têm regimes idênticos de extinção.',
+      'A renúncia da solidariedade pelo credor a um devedor extingue a obrigação para os demais.',
+      'A morte de um dos devedores solidários transmite a solidariedade aos herdeiros sem limite.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 265 — não se presume. (D) Falso — extingue só em relação ao devedor beneficiado (art. 282). (E) Herdeiros respondem só nas forças da herança e divisão proporcional (art. 270).'
+  },
+  {
+    id: 124, topic: 8, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os contratos de adesão no CC, assinale a correta:',
+    alternatives: [
+      'Cláusulas ambíguas em contrato de adesão se interpretam em favor do estipulante.',
+      'É lícita a renúncia antecipada do aderente a direito resultante da natureza do negócio.',
+      'Cláusulas ambíguas se interpretam em favor do aderente (CC art. 423) e cláusulas de renúncia a direito da natureza do negócio são nulas (art. 424).',
+      'Os contratos de adesão são proibidos pelo Código Civil de 2002.',
+      'Não se aplica boa-fé objetiva aos contratos de adesão.'
+    ],
+    correct: 'C',
+    explanation: 'CC arts. 423-424 — proteção ao aderente. Boa-fé (art. 422) sempre aplicável. CDC art. 51 IV reforça.'
+  },
+  {
+    id: 125, topic: 10, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o enriquecimento sem causa no CC (arts. 884-886):',
+    alternatives: [
+      'É instituto autônomo aplicável mesmo quando há outro meio de ressarcir o lesado.',
+      'Tem prazo prescricional de 10 anos.',
+      'É subsidiário (art. 886): só cabe se a lei não conferir ao lesado outros meios de ressarcir-se.',
+      'Não admite restituição em natureza, apenas em dinheiro.',
+      'A boa-fé do enriquecido afasta automaticamente o dever de restituir.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 886 — subsidiariedade. Prescrição: 3 anos (art. 206 §3º IV). Restituição é em natureza preferencialmente, ou pelo equivalente (art. 884).'
+  },
+  {
+    id: 126, topic: 13, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a usucapião no CC, é correto:',
+    alternatives: [
+      'A usucapião extraordinária exige justo título e boa-fé.',
+      'A usucapião urbana especial (CF 183) exige posse de 5 anos de área de até 250 m² para moradia, pelo possuidor que não seja proprietário de outro imóvel.',
+      'Bens públicos podem ser usucapidos após 30 anos.',
+      'A usucapião extrajudicial exige decisão judicial obrigatoriamente.',
+      'A usucapião familiar (CC 1.240-A) prescinde de qualquer prazo de posse.'
+    ],
+    correct: 'B',
+    explanation: 'CF art. 183 + CC art. 1.240. (A) Inverso — extraordinária dispensa justo título. (C) CF art. 183 §3º + Súmula 340/STF — bens públicos NÃO usucapem. (D) Lei 13.465/17 e procedimento de Lei 14.382/22 admitem usucapião extrajudicial perante CRI. (E) Exige 2 anos.'
+  },
+  {
+    id: 127, topic: 14, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os direitos reais de garantia (penhor, hipoteca, anticrese), é correto:',
+    alternatives: [
+      'O penhor pode incidir sobre imóveis e móveis indistintamente.',
+      'A cláusula comissória (que o credor fica com a coisa em caso de inadimplemento) é lícita no penhor.',
+      'A hipoteca incide tipicamente sobre imóveis e dura no máximo 30 anos (CC art. 1.485).',
+      'A alienação fiduciária é direito real de garantia previsto no Código Civil.',
+      'Hipoteca pode ser instituída por instrumento particular sem registro.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 1.485 — hipoteca dura no máximo 30 anos, prorrogável. (A) Falso — penhor é móveis (CC art. 1.431). (B) CC art. 1.428 — VEDADA cláusula comissória. (D) Alienação fiduciária está em LEI ESPECIAL (Lei 9.514/97). (E) Hipoteca exige registro (art. 1.227).'
+  },
+
+  // === Questões específicas do tópico colproc-02 (ACP) ===
+  {
+    id: 128, topic: 2, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a coisa julgada na Ação Civil Pública, é correto afirmar:',
+    alternatives: [
+      'Sempre opera erga omnes e impede ações individuais ainda que a sentença seja de improcedência.',
+      'A improcedência da ACP por insuficiência de provas faz coisa julgada material absoluta, impedindo nova ação.',
+      'Em direitos difusos e coletivos, a improcedência por insuficiência de provas não faz coisa julgada material — qualquer legitimado pode reapresentar com novas provas (secundum eventum probationis); a procedência aproveita os indivíduos (secundum eventum litis).',
+      'Por força do art. 16 da LACP, a coisa julgada coletiva limita-se ao território do órgão prolator, conforme jurisprudência atual.',
+      'A coisa julgada da ACP atinge apenas as partes formais do processo.'
+    ],
+    correct: 'C',
+    explanation: 'CDC art. 103 + LACP art. 16. Secundum eventum litis (in utilibus): só prejudica indivíduos se for procedente. Secundum eventum probationis: improcedência por insuficiência de provas não faz coisa julgada material — admite nova ação. (D) Falso — STF Tema 1075 (2022) declarou inconstitucional essa limitação territorial e superou a Súmula 401 STJ.'
+  },
+  {
+    id: 129, topic: 2, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Termo de Ajustamento de Conduta (TAC), assinale a correta:',
+    alternatives: [
+      'Pode ser celebrado por qualquer legitimado para a ACP, inclusive associações privadas.',
+      'É título executivo judicial, dependendo de homologação para ter força executiva.',
+      'Tem natureza de transação privada, podendo dispor sobre o direito material em si.',
+      'Apenas órgãos públicos legitimados (MP, Defensoria, União, Estados, Municípios e suas entidades) podem celebrar TAC; é título executivo extrajudicial (LACP art. 5º §6º).',
+      'É instrumento processual e só pode ser celebrado em audiência judicial.'
+    ],
+    correct: 'D',
+    explanation: 'LACP art. 5º §6º: TAC é exclusivo de órgãos PÚBLICOS legitimados. Tem eficácia de título executivo EXTRAJUDICIAL. Não dispõe sobre o direito material em si — ajusta a forma de cumprimento da exigência legal.'
+  },
+  {
+    id: 130, topic: 2, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito da legitimidade ativa para a ACP (LACP art. 5º), é correto afirmar:',
+    alternatives: [
+      'O Ministério Público tem legitimidade exclusiva para a ACP em matéria de meio ambiente.',
+      'A legitimidade é concorrente e disjuntiva: múltiplos legitimados podem propor a ação independentemente uns dos outros, e o MP atua obrigatoriamente como custos legis quando não é autor.',
+      'Associações precisam estar constituídas há pelo menos 5 anos para terem legitimidade.',
+      'A Defensoria Pública não tem legitimidade para ACP envolvendo direitos individuais homogêneos.',
+      'Sociedades de economia mista federais não podem propor ACP.'
+    ],
+    correct: 'B',
+    explanation: 'LACP art. 5º: legitimidade concorrente e disjuntiva. MP, DP, U/E/M, autarquias, EP, SEM, fundações, associações (constituídas há ao menos 1 ANO — não 5) têm legitimidade. MP intervém como custos legis sempre que não é autor (§1º).'
   }
 ],
 
@@ -8080,7 +8441,43 @@ sumulas: [
   { tribunal: 'STF', tipo: 'SV', num: 56, topic: 11, materia: 'pp', text: 'A falta de estabelecimento penal adequado não autoriza a manutenção do condenado em regime prisional mais gravoso, devendo-se observar, nessa hipótese, os parâmetros fixados no RE 641.320/RS.' },
   { tribunal: 'STF', tipo: 'SV', num: 14, topic: 2, materia: 'pp', text: 'É direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa.' },
   { tribunal: 'STJ', tipo: 'Súmula', num: 711, topic: 2, materia: 'penal', text: 'A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência.' },
-  { tribunal: 'STF', tipo: 'SV', num: 13, topic: 1, materia: 'adm', text: 'A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica, investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança, ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas, viola a Constituição Federal.' }
+  { tribunal: 'STF', tipo: 'SV', num: 13, topic: 1, materia: 'adm', text: 'A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica, investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança, ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas, viola a Constituição Federal.' },
+
+  // ============ Segunda passada — +25 súmulas distribuídas (Const., Adm., Penal, PP, Coletivo) ============
+  // Constitucional
+  { tribunal: 'STF', tipo: 'SV', num: 4, topic: 5, materia: 'const', text: 'Salvo nos casos previstos na Constituição, o salário mínimo não pode ser usado como indexador de base de cálculo de vantagem de servidor público ou de empregado, nem ser substituído por decisão judicial.' },
+  { tribunal: 'STF', tipo: 'SV', num: 6, topic: 6, materia: 'const', text: 'Não viola a Constituição o estabelecimento de remuneração inferior ao salário mínimo para as praças prestadoras de serviço militar inicial.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 654, topic: 8, materia: 'const', text: 'A garantia da irretroatividade da lei, prevista no art. 5º, XXXVI, da Constituição da República, não é invocável pela entidade estatal que a tenha editado.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 622, topic: 5, materia: 'const', text: 'Não cabe agravo regimental contra decisão do relator que concede ou indefere liminar em mandado de segurança.' },
+
+  // Administrativo
+  { tribunal: 'STF', tipo: 'SV', num: 5, topic: 4, materia: 'adm', text: 'A falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição.' },
+  { tribunal: 'STF', tipo: 'SV', num: 21, topic: 10, materia: 'adm', text: 'É inconstitucional a exigência de depósito ou arrolamento prévios de dinheiro ou bens para admissibilidade de recurso administrativo.' },
+  { tribunal: 'STF', tipo: 'SV', num: 33, topic: 4, materia: 'adm', text: 'Aplicam-se ao servidor público, no que couber, as regras do regime geral da previdência social sobre aposentadoria especial de que trata o artigo 40, §4º, inciso III da Constituição Federal, até a edição de lei complementar específica.' },
+  { tribunal: 'STF', tipo: 'SV', num: 37, topic: 4, materia: 'adm', text: 'Não cabe ao Poder Judiciário, que não tem função legislativa, aumentar vencimentos de servidores públicos sob o fundamento de isonomia.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 346, topic: 2, materia: 'adm', text: 'A administração pública pode declarar a nulidade dos seus próprios atos.' },
+  { tribunal: 'STF', tipo: 'Súmula', num: 473, topic: 2, materia: 'adm', text: 'A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 467, topic: 9, materia: 'adm', text: 'Prescreve em cinco anos, contados do término do processo administrativo, a pretensão da Administração Pública de promover a execução da multa por infração ambiental.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 633, topic: 9, materia: 'adm', text: 'A Lei nº 9.784/99, especialmente no que diz respeito ao prazo decadencial para a revisão de atos administrativos no âmbito da Administração Pública federal, pode ser aplicada, de forma subsidiária, aos estados e municípios, se inexistente norma local e específica que regule a matéria.' },
+
+  // Penal
+  { tribunal: 'STF', tipo: 'SV', num: 9, topic: 9, materia: 'penal', text: 'O disposto no artigo 127 da Lei nº 7.210/1984 (Lei de Execução Penal) foi recebido pela ordem constitucional vigente, e não se lhe aplica o limite temporal previsto no caput do artigo 58.' },
+  { tribunal: 'STF', tipo: 'SV', num: 11, topic: 8, materia: 'penal', text: 'Só é lícito o uso de algemas em casos de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, justificada a excepcionalidade por escrito, sob pena de responsabilidade disciplinar, civil e penal do agente ou da autoridade e de nulidade da prisão ou do ato processual a que se refere, sem prejuízo da responsabilidade civil do Estado.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 444, topic: 8, materia: 'penal', text: 'É vedada a utilização de inquéritos policiais e ações penais em curso para agravar a pena-base.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 269, topic: 8, materia: 'penal', text: 'É admissível a adoção do regime prisional semiaberto aos reeducandos menores de 21 anos.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 542, topic: 13, materia: 'penal', text: 'A ação penal relativa ao crime de lesão corporal resultante de violência doméstica contra a mulher é pública incondicionada.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 567, topic: 11, materia: 'penal', text: 'Sistema de vigilância realizado por monitoramento eletrônico ou por existência de segurança no interior de estabelecimento comercial, por si só, não torna impossível a configuração do crime de furto.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 588, topic: 13, materia: 'penal', text: 'A prática de crime ou contravenção penal contra a mulher com violência ou grave ameaça no ambiente doméstico impossibilita a substituição da pena privativa de liberdade por restritiva de direitos.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 593, topic: 10, materia: 'penal', text: 'O crime de estupro de vulnerável se configura com a conjunção carnal ou prática de ato libidinoso com menor de 14 anos, sendo irrelevante eventual consentimento da vítima para a prática do ato, sua experiência sexual anterior ou existência de relacionamento amoroso com o agente.' },
+
+  // Processo Penal
+  { tribunal: 'STF', tipo: 'Súmula', num: 691, topic: 10, materia: 'pp', text: 'Não compete ao Supremo Tribunal Federal conhecer de habeas corpus impetrado contra decisão do Relator que, em habeas corpus requerido a tribunal superior, indefere a liminar.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 568, topic: 10, materia: 'pp', text: 'O relator, monocraticamente e no Superior Tribunal de Justiça, poderá dar ou negar provimento ao recurso quando houver entendimento dominante acerca do tema.' },
+
+  // Coletivo (Material e Processual)
+  { tribunal: 'STJ', tipo: 'Súmula', num: 297, topic: 7, materia: 'colmat', text: 'O Código de Defesa do Consumidor é aplicável às instituições financeiras.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 601, topic: 2, materia: 'colproc', text: 'O Ministério Público tem legitimidade ativa para atuar na defesa de direitos difusos, coletivos e individuais homogêneos dos consumidores, ainda que decorrentes da prestação de serviços públicos.' },
+  { tribunal: 'STJ', tipo: 'Súmula', num: 605, topic: 2, materia: 'colmat', text: 'A superveniência da maioridade penal não interfere na apuração de ato infracional nem na aplicabilidade de medida socioeducativa em curso, inclusive na liberdade assistida, enquanto não atingida a idade de 21 anos.' }
 ],
 
 // ============ DOUTRINA RECOMENDADA ============
