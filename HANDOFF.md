@@ -175,22 +175,24 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #5** (2ac267f) — Atualização HANDOFF
 - **PR #6** (92cf09b) — Compartilhamento: esqueletos das 9 áreas (+96 tópicos), filtro de matéria no hub, CONTRIBUTING.md, +15 súmulas, +20 cards, +10 questões, TOC interno
 - **PR #7** (957c236) — Segunda passada: +25 súmulas (Const./Adm./Penal/PP/Coletivo), +25 cards, +12 questões, filtro de matéria em `referencia.html`, ACP (colproc-02) preenchida como demo
-- **PR #8** (este) — Vantagens da candidata: 6 esqueletos preenchidos (3 Teoria do MP + 3 Processual Coletivo), +27 cards e +6 questões. ColProc agora 4/8 preenchido; MP 3/8 preenchido.
+- **PR #8** (4ff7f07) — Vantagens da candidata: 6 esqueletos preenchidos (3 Teoria do MP + 3 Processual Coletivo), +27 cards e +6 questões.
+- **PR #9** (este) — Rodada 2: ColProc 100% completo (4 esqueletos restantes — MS Coletivo, MI/ADPF, coisa julgada, SIDH) + 2 ColMat (DH e ECA). +27 cards e +6 questões. Total: 60 preenchidos.
 
 ## Stats atuais
 
-- **143 tópicos** (**54 com conteúdo** + 89 esqueletos com outline)
-- **345 flashcards**
-- **136 questões** com gabarito comentado
+- **143 tópicos** (**60 com conteúdo** + 83 esqueletos com outline)
+- **372 flashcards**
+- **142 questões** com gabarito comentado
 - **88 súmulas** STF/STJ mapeadas, distribuídas em 8 matérias via campo `materia`
-- ~8.700 linhas em `assets/data.js`
+- ~9.300 linhas em `assets/data.js`
 
-### Tópicos preenchidos (54)
+### Tópicos preenchidos (60)
 
 - **Processo Civil 1-30** (30) — Fase 1 e Fase 2 completas
 - **Direito Civil 1-17** (17) — Fase 3 completa
-- **Teoria do MP** (3): princípios institucionais (mp-02), garantias e vedações (mp-03), atribuições constitucionais (mp-07)
-- **Processual Coletivo** (4): microssistema (colproc-01), ACP (colproc-02), Ação Popular (colproc-03), TAC e atuação extrajudicial (colproc-06)
+- **Processual Coletivo 1-8** (8) — **100% COMPLETO**: microssistema, ACP, Ação Popular, MS Coletivo, MI/ADPF, TAC/extrajudicial, coisa julgada coletiva, SIDH
+- **Teoria do MP** (3 de 8): princípios (mp-02), garantias/vedações (mp-03), atribuições (mp-07). Faltam: mp-01, 04, 05, 06, 08
+- **Material Coletivo** (2 de 12): direitos humanos (colmat-01), ECA (colmat-02). Faltam: colmat-03 a 12
 
 ## Memória persistente do Claude Code
 
