@@ -3248,16 +3248,89 @@ topics: [
     title: 'Juizados Especiais da Fazenda Pública (Lei 12.153/09)',
     edital: '3.2.24',
     editalText: 'Juizados Especiais da Fazenda Pública. Lei 12.153/09. Competência, procedimento, RPV.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Competência absoluta — onde houver vara da Fazenda',
-      'Limites — até 60 salários-mínimos',
-      'Causas excluídas (art. 2º §1º)',
-      'Pedido de urgência, antecipação de tutela contra a Fazenda',
-      'Recursos — inominado, ED, RE',
-      'Cumprimento — RPV (até 60 SM) e precatório'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **Lei 12.153/09** criou o **Juizado Especial da Fazenda Pública (JEFP)** para causas de menor complexidade contra **Estados, DF, Territórios e Municípios** (e suas autarquias, fundações, empresas públicas). O grande diferencial em relação ao JEC: aqui há **Fazenda no polo passivo**. Aplica-se subsidiariamente a Lei 9.099/95 (art. 27).' },
+          { type: 'p', text: 'Três marcas estruturais: (a) **competência absoluta** onde instalado o juizado (art. 2º § 4º — diferente do JEC, que parte da doutrina entende ser opção); (b) **valor até 60 SM** (não 40 como no JEC); (c) **cumprimento por RPV** quando obrigação de pagar até 60 SM, OU precatório acima desse limite.' },
+          { type: 'p', text: 'A Lei 12.153 ampliou a tutela do administrado em causas pequenas — antes, ele era obrigado a usar a vara da Fazenda comum (mais lenta). Atinge dispensa do reexame necessário, desnecessidade de manifestação prévia da Fazenda em decisões liminares (em parte), e flexibilização do precatório com a RPV.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Competência (arts. 2º e 5º)' },
+          { type: 'list', items: [
+            '**Art. 2º** — competência cível do JEFP: causas de até 60 SM em que figurem como rés Estados, DF, Territórios, Municípios + suas autarquias e fundações',
+            '**Art. 2º § 1º** — EXCLUÍDAS: ações de mandado de segurança, desapropriação, anulação ou cancelamento de ato administrativo (salvo de natureza previdenciária e de lançamento fiscal), execuções fiscais, demandas sobre direitos ou interesses difusos, coletivos e individuais homogêneos, ações sobre bens imóveis, causas de improbidade administrativa, ações que tenham por objeto a impugnação de lei',
+            '**Art. 2º § 4º** — competência do JEFP é **ABSOLUTA**, onde houver juizado instalado',
+            '**Art. 5º** — partes admitidas: como autoras, PF + ME e EPP; como rés, Estados, DF, Territórios, Municípios + autarquias e fundações + empresas públicas'
+          ] },
+          { type: 'h', text: 'Procedimento' },
+          { type: 'list', items: [
+            '**Art. 7º** — não há REEXAME NECESSÁRIO no JEFP, ainda que sentença contrária à Fazenda (regra excepcional ao CPC art. 496)',
+            '**Art. 8º** — citação por servidor judiciário ou correspondência (regra)',
+            '**Art. 9º** — entes públicos exibirão documentos requisitados em até 30 dias',
+            '**Art. 13** — sentença deve ser LÍQUIDA (subsidiariedade da Lei 9.099 art. 38 par. único)',
+            '**Art. 16** — decisões que tenham por objeto antecipação de tutela podem ser proferidas LIMINARMENTE, sem necessidade de prévia manifestação da Fazenda em todos os casos',
+            '**Art. 17 §§ 1º-2º** — turmas recursais compostas por juízes de 1º grau, com membros suplentes; pedido de uniformização regional/nacional'
+          ] },
+          { type: 'h', text: 'Cumprimento de sentença' },
+          { type: 'list', items: [
+            '**Art. 12** — pagamento de obrigação de pagar quantia certa: por **RPV** se até 60 SM; por **precatório** se acima',
+            '**Art. 13** — RPV: prazo de 60 dias após requisição',
+            '**Art. 13 § 4º** — descumprimento autoriza sequestro do valor, não bloqueio de outras verbas'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Competência absoluta (art. 2º § 4º)' },
+          { type: 'p', text: 'Diferente do JEC tradicional (onde há discussão se é opção do autor), no **JEFP a competência é ABSOLUTA** quando o juizado está instalado naquela comarca/foro. Significa: causas de até 60 SM contra ente público local **devem** ir para o JEFP.' },
+          { type: 'box', kind: 'atencao', text: '**Competência absoluta no JEFP** (art. 2º § 4º). Erro frequente: confundir com JEC, onde regra majoritária é opção do autor.' },
+          { type: 'h', text: 'Causas excluídas (art. 2º § 1º)' },
+          { type: 'p', text: 'O rol é **TAXATIVO**. Memorize as principais exclusões: MS, desapropriação, atos administrativos (com 2 exceções: previdenciário e lançamento fiscal), execuções fiscais, ações coletivas, imóveis, improbidade. Causas previdenciárias estaduais/municipais — CABEM. Causas tributárias estaduais/municipais sobre lançamento fiscal — CABEM.' },
+          { type: 'box', kind: 'atencao', text: '**MS NÃO cabe no JEFP** (art. 2º § 1º). Erro frequente: confundir com JEF (Lei 10.259), onde o art. 3º também exclui MS.' },
+          { type: 'h', text: 'Sem reexame necessário (art. 7º)' },
+          { type: 'p', text: 'Mesmo sentença contra a Fazenda **NÃO precisa de reexame necessário** no JEFP. O microssistema afastou a regra do CPC art. 496. Apenas o recurso inominado da Fazenda mantém o duplo grau, se for interposto.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 503 (RE 633.703):** prazos em dobro para Fazenda Pública (CPC art. 183) **APLICAM-SE** ao JEFP. Subsidiariedade do CPC.' },
+          { type: 'h', text: 'RPV × precatório no JEFP' },
+          { type: 'p', text: '**RPV (Requisição de Pequeno Valor):** até 60 SM, prazo de 60 dias para pagamento. **Precatório:** acima de 60 SM, sistema do art. 100 da CF (fila, ordem cronológica). O JEFP tem o limite máximo de 60 SM, então a regra prática é RPV.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**JEFP — Estados, DF, Municípios + autarquias e fundações + EP.** União NÃO entra (essa é Lei 10.259/01 — JEF).' },
+          { type: 'box', kind: 'macete', text: '**JEFP: 60 SM + competência ABSOLUTA + sem reexame.** Três marcas que diferenciam do JEC.' },
+          { type: 'box', kind: 'macete', text: '**Excluídos do JEFP — MS-DAi-EF-CO-IM:** **MS** · **D**esapropriação e **A**tos administrativos (não previdenciário/fiscal) · **E**xecução **F**iscal · **C**ole**O**tivas e individuais homogêneas · **IM**óveis e **IM**probidade.' },
+          { type: 'box', kind: 'macete', text: '**RPV no JEFP — 60-60:** até **60** SM, prazo **60** dias.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**JEFP NÃO julga União ou autarquias federais** (essas vão para o JEF — Lei 10.259/01). O art. 5º II é taxativo: Estados, DF, Territórios, Municípios + autarquias/fundações desses entes + empresas públicas.' },
+          { type: 'box', kind: 'atencao', text: '**Reexame necessário NÃO se aplica** (art. 7º). Banca pode dizer "sentença contra a Fazenda no JEFP exige reexame" — falso.' },
+          { type: 'box', kind: 'atencao', text: '**Causas tributárias podem caber** se forem sobre lançamento fiscal (não execução fiscal). Banca tenta induzir exclusão geral — confira o § 1º.' },
+          { type: 'box', kind: 'atencao', text: '**Prazos em dobro da Fazenda APLICAM-SE** ao JEFP** (STF Tema 503). Subsidiariedade do CPC.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 23 (JEC):** subsidiariedade da Lei 9.099/95 (art. 27 da Lei 12.153). Princípios OSICE valem; sentença líquida; embargos de declaração com 5 dias.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 25 (JEF):** outro microssistema federal — para União, autarquias e fundações federais (Lei 10.259/01).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento contra Fazenda):** RPV vs precatório (CF art. 100 + ADCT art. 87). RPV no JEFP até 60 SM; em juízo comum, segue limites estaduais (Estado fixa, mín. 30 SM se nada dispuser).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atuação como fiscal do ordenamento em causas com interesse público. No JEFP, a atuação do MP segue regra geral.' }
+        ]
+      }
+    ]
   },
   {
     id: '25-juizados-federais',
@@ -3265,16 +3338,98 @@ topics: [
     title: 'Juizados Especiais Federais (Lei 10.259/01)',
     edital: '3.2.25',
     editalText: 'Juizados Especiais Federais. Lei 10.259/01. Competência, procedimento, recursos para a Turma Nacional.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Competência cível e criminal nos JEF',
-      'Limite de 60 SM e exclusões (art. 3º §1º)',
-      'Antecipação de tutela contra a Fazenda no JEF',
-      'Recurso inominado, pedido de uniformização (regional e nacional)',
-      'Súmulas TNU mais cobradas',
-      'Cumprimento — RPV federal'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **Lei 10.259/01** instituiu os **Juizados Especiais Federais (JEF)** para causas cíveis (e criminais) de menor complexidade na Justiça Federal. Diferencia-se do JEC (Lei 9.099/95) e do JEFP (Lei 12.153/09) pelo polo passivo: aqui a ré é a **União, suas autarquias, fundações e empresas públicas FEDERAIS** (art. 6º II).' },
+          { type: 'p', text: 'Limite de **60 SM** (cíveis), competência **ABSOLUTA** onde instalado (art. 3º § 3º). Causas previdenciárias federais (INSS) representam o grosso do trabalho dos JEFs. Procedimento e recursos seguem essencialmente a Lei 9.099/95 (subsidiária — art. 1º). O grande diferencial: **Pedido de Uniformização** (regional e nacional) para harmonizar jurisprudência, com a **TNU (Turma Nacional de Uniformização)**.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Competência (art. 3º)' },
+          { type: 'list', items: [
+            '**Caput** — JEF cível julga causas até **60 salários-mínimos** de competência da Justiça Federal',
+            '**§ 1º** — EXCLUÍDAS: causas relativas a direitos coletivos e difusos, ações da União, autarquias federais e fundações federais (em determinadas hipóteses), MS, desapropriação, divisão e demarcação, ações populares, execuções fiscais, ações sobre bens imóveis, anulação ou cancelamento de ato administrativo (salvo previdenciário e lançamento fiscal)',
+            '**§ 2º** — competência cível segue valor da causa',
+            '**§ 3º** — competência **ABSOLUTA** onde instalado o JEF'
+          ] },
+          { type: 'h', text: 'Procedimento e tutelas' },
+          { type: 'list', items: [
+            '**Art. 4º** — juiz pode, de ofício ou a requerimento, deferir medidas cautelares no curso do processo, para evitar dano irreparável à parte',
+            '**Art. 5º** — não há reexame necessário (recepciona Lei 9.099)',
+            '**Art. 9º** — não há prazos em dobro nem prazos diferenciados para a Fazenda Pública no JEF (regra excepcional!)',
+            '**Art. 11** — entes públicos cumprirão decisões liminares e antecipatórias em 5 dias',
+            '**Art. 12** — pagamento RPV até 60 SM (art. 17), em 60 dias'
+          ] },
+          { type: 'h', text: 'Recursos' },
+          { type: 'list', items: [
+            '**Art. 14** — Pedido de Uniformização: cabível quando houver divergência entre Turmas Recursais sobre questão de DIREITO MATERIAL, julgado pelas turmas regionais (mesma região) ou pela TNU (Turmas Recursais de regiões diferentes ou contrariedade a súmula/jurisprudência STJ)',
+            '**Art. 15** — TNU é integrada por 10 juízes federais (2 por região), presidida pelo CJF; pode estender efeito a outros casos (precedente)',
+            '**Art. 14 § 4º** — incidente cabível no STJ se a decisão da TNU contrariar súmula ou jurisprudência dominante do STJ',
+            '**RE no STF** — cabe (com repercussão geral) das decisões da Turma Recursal',
+            '**REsp no STJ** — NÃO CABE (Súmula 203/STJ)'
+          ] },
+          { type: 'h', text: 'JEF Criminal (arts. 20-26)' },
+          { type: 'list', items: [
+            'Competência para infrações penais de menor potencial ofensivo (até 2 anos de pena máxima)',
+            'Subsidiariedade da Lei 9.099/95 também na parte penal (transação penal, suspensão condicional, ANPP)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'NÃO há prazos diferenciados para a Fazenda no JEF (art. 9º)' },
+          { type: 'p', text: 'Esta é a peculiaridade marcante: **enquanto no JEFP estadual há prazo em dobro** (Tema 503/STF aplicando subsidiariamente o CPC), na **Lei 10.259 o art. 9º veda expressamente** prazos diferenciados. União/autarquias federais litigam no JEF como qualquer outra parte.' },
+          { type: 'box', kind: 'atencao', text: '**JEF não tem prazo em dobro para Fazenda** (art. 9º). Diferente do JEFP estadual, onde há (Tema 503/STF). Banca confunde os dois!' },
+          { type: 'h', text: 'Cumprimento de obrigação de pagar — 60 dias' },
+          { type: 'p', text: 'Pagamento por **RPV em 60 dias** após requisição (art. 17). Limite de 60 SM. Acima disso, segue precatório do art. 100 da CF. Descumprimento → sequestro do valor.' },
+          { type: 'h', text: 'Pedido de Uniformização (PU)' },
+          { type: 'table', headers: ['Hipótese', 'Competência', 'Base'],
+            rows: [
+              ['Divergência entre Turmas da MESMA região', 'Turma Regional de Uniformização (TRU)', 'Art. 14 § 1º'],
+              ['Divergência entre Turmas de regiões DIFERENTES', 'Turma Nacional de Uniformização (TNU)', 'Art. 14 § 2º'],
+              ['Decisão TNU contrariando súmula/jurisprudência STJ', 'STJ', 'Art. 14 § 4º']
+            ] },
+          { type: 'box', kind: 'atencao', text: '**PU é só sobre DIREITO MATERIAL.** Divergência sobre direito processual NÃO cabe pedido de uniformização. Erro recorrente.' },
+          { type: 'h', text: 'Causas excluídas (art. 3º § 1º)' },
+          { type: 'p', text: 'Memorize: MS, desapropriação, atos administrativos (com exceção de previdenciário e lançamento fiscal), execuções fiscais, coletivas/difusas, imóveis, ação popular. **MUITAS causas previdenciárias** vão para o JEF (revisões de benefício, restabelecimento, concessão).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**JEF = União + autarquias federais + fundações federais + EP federais.** Estados/Municípios = JEFP.' },
+          { type: 'box', kind: 'macete', text: '**JEF: 60 SM + competência ABSOLUTA + SEM prazo em dobro.** Diferente do JEFP que TEM prazo em dobro.' },
+          { type: 'box', kind: 'macete', text: '**TNU/TRU julgam DIREITO MATERIAL.** Processual não cabe PU.' },
+          { type: 'box', kind: 'macete', text: '**Hierarquia: TR → TRU → TNU → STJ.** Matéria sobe quando há divergência ou contrariedade a súmula superior.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**JEF NÃO TEM prazo em dobro para Fazenda** (art. 9º). Diferente do JEFP estadual.' },
+          { type: 'box', kind: 'atencao', text: '**Causas previdenciárias federais (INSS) tipicamente VÃO para o JEF**, especialmente concessão/revisão de benefício até 60 SM. É o "core" prático do JEF.' },
+          { type: 'box', kind: 'atencao', text: '**REsp NÃO cabe**, mas há mecanismo alternativo: art. 14 § 4º — incidente no STJ contra decisão da TNU contrária à súmula/jurisprudência STJ.' },
+          { type: 'box', kind: 'atencao', text: '**MS contra ato federal NÃO cabe no JEF** (art. 3º § 1º) — vai para vara federal comum (Lei 12.016/09).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 23 (JEC):** Lei 9.099/95 aplicável subsidiariamente. Princípios e procedimento gerais.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 24 (JEFP):** outro microssistema da Fazenda — estadual, com diferenças em prazos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento contra Fazenda):** RPV/precatório federal segue mesma lógica geral, com prazos próprios da 10.259.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 28 (precedentes):** TNU edita súmulas vinculantes de fato — força jurisprudencial relevante para concursos.' }
+        ]
+      }
+    ]
   },
   {
     id: '26-justica-gratuita',
@@ -3282,16 +3437,87 @@ topics: [
     title: 'Assistência judiciária e justiça gratuita',
     edital: '3.2.26',
     editalText: 'Assistência judiciária integral. Justiça gratuita (Lei 1.060/50 e CPC arts. 98-102). Defensoria Pública. Honorários sucumbenciais e gratuidade.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Distinção: assistência jurídica (DPE) × judiciária × gratuidade da justiça',
-      'Sujeitos — PF (presunção iuris tantum) e PJ (Súmula 481/STJ)',
-      'Pedido, momento, prova da hipossuficiência',
-      'Impugnação — natureza e procedimento (art. 100)',
-      'Honorários e gratuidade (art. 98 §3º) — exigibilidade suspensa',
-      'Súmulas 481, 640/STJ'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 2 (nov/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O **acesso à justiça** (CF art. 5º LXXIV) tem três expressões complementares: (a) **assistência jurídica integral e gratuita** — prestação de serviço jurídico, função da Defensoria Pública (DPE/DPU/CF art. 134); (b) **assistência judiciária** — patrocínio em juízo (Defensoria, núcleo de prática, advogado dativo); (c) **gratuidade da justiça** — dispensa de pagamento de custas, despesas e honorários (CPC arts. 98-102 + Lei 1.060/50).' },
+          { type: 'p', text: 'O CPC/15 reformulou a matéria — derrogou a maior parte da Lei 1.060/50 (que regia a gratuidade desde 1950), trazendo regulamentação detalhada nos arts. 98-102. Pontos centrais: pedido pode ser formulado a qualquer tempo (Súmula 640/STJ); PF tem **presunção** de hipossuficiência (iuris tantum); PJ deve PROVAR (Súmula 481/STJ); honorários e custas, quando vencido o beneficiário, são **exigíveis sob condição** (art. 98 § 3º) — só pagam se nos 5 anos houver melhora econômica.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CPC arts. 98 a 102' },
+          { type: 'list', items: [
+            '**Art. 98** — pessoa NATURAL ou JURÍDICA, brasileira ou estrangeira, com insuficiência de recursos, tem direito à gratuidade',
+            '**Art. 98 § 1º** — abrangência: taxas, custas, selos postais, indenização à testemunha, depósitos prévios, honorários do advogado e do perito, etc.',
+            '**Art. 98 § 2º** — concessão NÃO afasta a responsabilidade do beneficiário pelos honorários e custas decorrentes de sua sucumbência',
+            '**Art. 98 § 3º** — verbas decorrentes da sucumbência ficam **sob condição suspensiva de exigibilidade** e somente são exigidas se, em até 5 anos, vier a ter capacidade financeira; passados 5 anos, **prescrita** a obrigação',
+            '**Art. 99** — pedido a qualquer tempo (PI, contestação, recurso); presume-se VERDADEIRA a alegação de PF (§ 3º)',
+            '**Art. 99 § 2º** — juiz somente indefere se houver elementos nos autos que evidenciem falta de pressupostos; antes, intima para comprovar (§ 2º final)',
+            '**Art. 99 § 4º** — o juiz não pode INDEFERIR DE OFÍCIO para aplicar a regra do § 2º — antes, intima',
+            '**Art. 100** — impugnação à gratuidade pela parte contrária: nos próprios autos, sem suspender o processo',
+            '**Art. 102** — sobrevindo melhora econômica, o beneficiário pode ser obrigado a pagar custas/despesas; havendo má-fé na declaração, multa de até 10x sobre as custas dispensadas'
+          ] },
+          { type: 'h', text: 'Súmulas relevantes' },
+          { type: 'list', items: [
+            '**Súmula 481/STJ** — Faz jus ao benefício a PJ (com ou sem fins lucrativos) que comprovar impossibilidade de arcar com encargos processuais',
+            '**Súmula 640/STJ** — Gratuidade pode ser requerida a QUALQUER TEMPO, considerando-se a situação no momento do pedido',
+            '**Súmula 178/STJ** — Beneficiário não está dispensado de pagar custas e honorários, em caso de derrota; suspensos sob condição (depois CPC § 3º)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'PF presume — PJ prova' },
+          { type: 'p', text: '**Pessoa Física:** declaração de hipossuficiência (mesmo no próprio corpo da PI) **PRESUME** verdade (art. 99 § 3º). Juiz só indefere se houver elementos contrários nos autos — e ainda assim deve INTIMAR a parte para comprovar antes (§ 2º).' },
+          { type: 'p', text: '**Pessoa Jurídica:** SEM presunção. Deve **PROVAR** a hipossuficiência financeira (Súmula 481/STJ). Pode ter fins lucrativos, sim — sociedade empresária em situação econômica adversa pode receber gratuidade.' },
+          { type: 'box', kind: 'macete', text: '**PF presume; PJ prova** (Súmula 481/STJ). É a frase-chave do tema.' },
+          { type: 'h', text: 'Honorários sucumbenciais e gratuidade (art. 98 § 3º)' },
+          { type: 'p', text: '**Beneficiário derrotado é condenado em honorários, sim** — apenas a EXIGIBILIDADE fica suspensa por 5 anos. Se nesse prazo houver melhora, paga; senão, prescreve. Erro frequente: imaginar que gratuidade dispensa condenação por sucumbência.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 178 + CPC art. 98 § 3º:** beneficiário derrotado é condenado, exigibilidade suspensa por 5 anos. Não há dispensa pura e simples.' },
+          { type: 'h', text: 'Pedido a qualquer tempo (Súmula 640/STJ)' },
+          { type: 'p', text: 'Pode ser feito na PI, contestação, recurso, cumprimento de sentença, em qualquer fase. O que importa é a situação econômica **no momento da formulação do pedido**. Não há preclusão.' },
+          { type: 'h', text: 'Indeferimento de ofício e contraditório prévio (art. 99 § 2º)' },
+          { type: 'p', text: 'O juiz **NÃO pode indeferir** sem antes INTIMAR a parte para apresentar comprovação. Esse é dever de cooperação processual + contraditório. Indeferimento direto, sem oportunidade de comprovação, gera nulidade.' },
+          { type: 'box', kind: 'atencao', text: '**Antes de indeferir gratuidade — INTIMAR para comprovar** (art. 99 § 2º). Banca pode armar: "juiz indefere de ofício quando inverossímil" — falso, exige contraditório prévio.' },
+          { type: 'h', text: 'Impugnação (art. 100)' },
+          { type: 'p', text: 'A parte contrária impugna **nos próprios autos**, sem suspensão do processo. Cabe agravo de instrumento da decisão (CPC art. 1.015 V — entendimento majoritário, ou recorrer ao final, controvertido).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Acesso à justiça — 3 expressões: jurídica integral · judiciária · gratuidade da justiça.** As 3 são distintas, podem coincidir mas não se confundem.' },
+          { type: 'box', kind: 'macete', text: '**98 § 3º: SUSPENDE 5 anos, depois PRESCREVE.** Não dispensa.' },
+          { type: 'box', kind: 'macete', text: '**A qualquer tempo · contraditório prévio · PF presume · PJ prova.** Quatro pilares.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**PJ pode ser beneficiária**, sim — mas DEVE PROVAR (Súmula 481/STJ). Erro frequente: dizer que apenas PF tem direito.' },
+          { type: 'box', kind: 'atencao', text: '**Estrangeiro também tem direito** (art. 98 caput). Não há restrição à nacionalidade.' },
+          { type: 'box', kind: 'atencao', text: '**Indeferimento de ofício SEM intimação prévia = nulidade** (art. 99 § 2º). Banca pode tentar dizer "juiz pode indeferir de plano se ostensivamente abastada" — falso, sempre intima primeiro.' },
+          { type: 'box', kind: 'atencao', text: '**Beneficiário derrotado É CONDENADO** em honorários — só fica suspenso (art. 98 § 3º). Não há dispensa.' },
+          { type: 'box', kind: 'atencao', text: '**A maior parte da Lei 1.060/50 foi REVOGADA pelo CPC/15** (art. 1.072 III). Apenas alguns dispositivos sobrevivem (sobre Defensoria). Não estudar a Lei 1.060 sem ler o CPC arts. 98-102.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 17 (gratuidade no JEC/JEFP/JEF):** mesma sistemática, aplicável subsidiariamente.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 30 (honorários):** beneficiário da gratuidade derrotado paga honorários sob condição (art. 98 § 3º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atuação obrigatória em causas com incapazes (art. 178 II) — frequentemente coincide com gratuidade.' },
+          { type: 'box', kind: 'conexao', text: '**Defensoria Pública (CF art. 134):** órgão constitucional independente; presta assistência jurídica integral e gratuita.' }
+        ]
+      }
+    ]
   },
   {
     id: '27-cooperacao-internacional',
@@ -3842,7 +4068,26 @@ flashcards: [
   { id: 132, topic: 23, q: 'Sentença ilíquida cabe no JEC?', a: 'NÃO. Lei 9.099 art. 38 par. único — sentença DEVE ser sempre líquida. Se inviável, extinção art. 51 II.', tags: ['fase2', 'JEC', 'sentenca'] },
   { id: 133, topic: 23, q: 'Cabe REsp contra acórdão da Turma Recursal?', a: 'NÃO (Súmula 203/STJ). Cabe apenas RE com repercussão geral. Para divergência entre Turmas, há Pedido de Uniformização (não REsp).', tags: ['fase2', 'JEC', 'recursos'] },
   { id: 134, topic: 23, q: 'Cabe ação rescisória no JEC?', a: 'NÃO (FONAJE 44). Microssistema do JEC não admite rescisória — privilegia coisa julgada e celeridade.', tags: ['fase2', 'JEC', 'recursos'] },
-  { id: 135, topic: 23, q: 'Honorários sucumbenciais no JEC: cabem?', a: 'Em 1º grau: NÃO (regra). Exceção: litigância de má-fé. NO RECURSO INOMINADO: vencido paga honorários + custas (art. 55 caput, in fine).', tags: ['fase2', 'JEC', 'honorarios'] }
+  { id: 135, topic: 23, q: 'Honorários sucumbenciais no JEC: cabem?', a: 'Em 1º grau: NÃO (regra). Exceção: litigância de má-fé. NO RECURSO INOMINADO: vencido paga honorários + custas (art. 55 caput, in fine).', tags: ['fase2', 'JEC', 'honorarios'] },
+
+  // ============ Bloco 9 — Fase 2 (PC 24-26) ============
+  // Tópico 24 — JEFP
+  { id: 136, topic: 24, q: 'Quem pode ser réu no JEFP (Lei 12.153/09)?', a: 'Estados, DF, Territórios, Municípios + suas autarquias, fundações e empresas públicas. NÃO inclui União/autarquias federais (essas vão para o JEF — Lei 10.259/01).', tags: ['fase2', 'JEFP'] },
+  { id: 137, topic: 24, q: 'Limite de valor e tipo de competência no JEFP?', a: 'Até 60 salários-mínimos. Competência ABSOLUTA onde houver juizado instalado (art. 2º §4º) — diferente do JEC, onde regra majoritária é opção do autor.', tags: ['fase2', 'JEFP'] },
+  { id: 138, topic: 24, q: 'Reexame necessário aplica-se no JEFP?', a: 'NÃO (art. 7º Lei 12.153). Sentença contra a Fazenda no JEFP NÃO depende de reexame necessário. Regra excepcional ao CPC art. 496.', tags: ['fase2', 'JEFP'] },
+  { id: 139, topic: 24, q: 'Causas excluídas do JEFP — cite 3?', a: 'Mandado de segurança, desapropriação, execuções fiscais, ações coletivas/difusas/individuais homogêneas, imóveis, improbidade, anulação/cancelamento de ato administrativo (salvo previdenciário e lançamento fiscal). Art. 2º §1º.', tags: ['fase2', 'JEFP'] },
+
+  // Tópico 25 — JEF
+  { id: 140, topic: 25, q: 'Há prazo em dobro para Fazenda no JEF (Lei 10.259)?', a: 'NÃO. Art. 9º veda expressamente prazos diferenciados para a Fazenda no JEF — regra excepcional. Diferente do JEFP estadual, onde HÁ prazo em dobro (Tema 503/STF).', tags: ['fase2', 'JEF'] },
+  { id: 141, topic: 25, q: 'Sobre o que é o Pedido de Uniformização (PU)?', a: 'Apenas DIREITO MATERIAL. Hipóteses: divergência entre Turmas Recursais da mesma região (TRU); de regiões diferentes (TNU); decisão TNU contrária a súmula/jurisprudência STJ (vai ao STJ — art. 14 §4º).', tags: ['fase2', 'JEF', 'PU'] },
+  { id: 142, topic: 25, q: 'Quem é parte no JEF (Lei 10.259, art. 6º)?', a: 'Como rés: União, autarquias, fundações e empresas públicas FEDERAIS. Como autoras: PF, ME e EPP. Causas previdenciárias federais (INSS) são o "core" prático.', tags: ['fase2', 'JEF'] },
+  { id: 143, topic: 25, q: 'RPV no JEF — limite e prazo?', a: 'Até 60 SM, prazo de pagamento de 60 dias após requisição (art. 17). Acima de 60 SM segue precatório (CF art. 100).', tags: ['fase2', 'JEF', 'RPV'] },
+
+  // Tópico 26 — Gratuidade
+  { id: 144, topic: 26, q: 'PF e PJ — quem precisa provar a hipossuficiência?', a: 'PF tem PRESUNÇÃO de hipossuficiência (art. 99 §3º). PJ deve PROVAR (Súmula 481/STJ). PJ pode ter fins lucrativos — basta demonstrar a impossibilidade.', tags: ['fase2', 'gratuidade'] },
+  { id: 145, topic: 26, q: 'Beneficiário da gratuidade derrotado é condenado em honorários?', a: 'SIM. Mas a exigibilidade fica SUSPENSA por 5 anos (CPC art. 98 §3º). Se nesse período houver melhora econômica, paga; senão, prescreve.', tags: ['fase2', 'gratuidade', 'honorarios'] },
+  { id: 146, topic: 26, q: 'Quando pode ser pedida a gratuidade da justiça?', a: 'A QUALQUER TEMPO (Súmula 640/STJ). Na PI, contestação, recurso, cumprimento. O critério é a situação econômica NO MOMENTO do pedido.', tags: ['fase2', 'gratuidade'] },
+  { id: 147, topic: 26, q: 'Juiz pode indeferir gratuidade de ofício?', a: 'Indeferimento exige CONTRADITÓRIO PRÉVIO. Mesmo se houver elementos que indiquem falta de pressupostos, deve INTIMAR a parte para comprovar (art. 99 §2º). Indeferimento direto = nulidade.', tags: ['fase2', 'gratuidade'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -4686,6 +4931,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'Lei 9.307 art. 4º §2º: dupla proteção do aderente — iniciativa OU concordância em destaque + visto. (A) Falso — não é sempre nula; é eficaz se cumpridos os requisitos. (B) Falso — exige proteção adicional ao aderente. (D) Falso — convenção arbitral não é cognoscível de ofício (CPC art. 337 X + §5º). (E) Falso — não há intervenção do CADE em arbitragem privada.'
+  },
+
+  // ============ Bloco 9 — Fase 2 (PC 24-26) ============
+  {
+    id: 55, topic: 24, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Juizado Especial da Fazenda Pública (Lei 12.153/09), assinale a alternativa correta:',
+    alternatives: [
+      'A competência é facultativa para o autor, podendo escolher entre o JEFP e a vara da Fazenda comum nas causas até 60 SM.',
+      'A competência é absoluta nas comarcas onde houver juizado instalado, abrangendo causas de até 60 salários-mínimos contra Estados, DF, Municípios e suas autarquias e fundações.',
+      'O reexame necessário do CPC art. 496 aplica-se integralmente ao JEFP, em razão do princípio da supremacia do interesse público.',
+      'Mandado de segurança e ações coletivas estão entre as causas inseridas na competência do JEFP.',
+      'Apenas pessoas físicas podem ser autoras no JEFP, sendo vedada a participação de microempresas ou empresas de pequeno porte.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 12.153/09 art. 2º: competência ABSOLUTA, até 60 SM, contra entes estaduais/municipais. (A) Falso — competência absoluta (§4º). (C) Falso — art. 7º veda reexame necessário no JEFP. (D) Falso — art. 2º §1º exclui MS e ações coletivas. (E) Falso — ME e EPP podem ser autoras (art. 5º I).'
+  },
+  {
+    id: 56, topic: 24, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito dos prazos processuais no Juizado Especial da Fazenda Pública (Lei 12.153/09), considere:',
+    alternatives: [
+      'Não se aplicam ao JEFP os prazos em dobro previstos no CPC art. 183, em razão do princípio da celeridade dos juizados.',
+      'Aplicam-se ao JEFP os prazos em dobro do CPC art. 183, conforme entendimento firmado pelo STF (Tema 503).',
+      'A Fazenda Pública goza de prazos em quádruplo no JEFP, conforme regra histórica do antigo CPC.',
+      'Os prazos no JEFP são em dias úteis, pela aplicação subsidiária do CPC art. 219.',
+      'Não existe contagem específica para Fazenda no JEFP, pois ela atua em igualdade com particulares.'
+    ],
+    correct: 'B',
+    explanation: 'STF Tema 503 (RE 633.703): prazos em dobro do CPC aplicam-se ao JEFP por subsidiariedade. (A) Inverso da realidade. (C) Falso — quádruplo foi extinto. (D) Falso — prazos no JEFP são contínuos (subsidiariedade da Lei 9.099). (E) Falso — Fazenda goza de prerrogativas (Tema 503).'
+  },
+  {
+    id: 57, topic: 25, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os Juizados Especiais Federais (Lei 10.259/01), é correto afirmar:',
+    alternatives: [
+      'Aplica-se à União, autarquias federais e fundações federais o prazo em dobro do CPC art. 183.',
+      'A competência é absoluta nas localidades onde houver vara federal especializada, abrangendo causas de até 60 salários-mínimos.',
+      'Cabe recurso especial ao STJ contra acórdão da Turma Recursal Federal, com base na Lei 10.259/01.',
+      'O Pedido de Uniformização cabe contra divergência entre Turmas Recursais sobre questões de DIREITO PROCESSUAL.',
+      'Mandado de segurança contra ato federal é da competência do JEF quando o valor da causa não exceder 60 SM.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 10.259 art. 3º §3º: competência absoluta nas comarcas com JEF instalado, até 60 SM. (A) Falso — art. 9º veda prazos diferenciados para Fazenda no JEF. (C) Falso — Súmula 203/STJ veda REsp do JEF. (D) Falso — PU é só sobre direito MATERIAL. (E) Falso — MS está excluído (art. 3º §1º).'
+  },
+  {
+    id: 58, topic: 25, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Em relação à Turma Nacional de Uniformização de Jurisprudência (TNU) e ao Pedido de Uniformização no JEF, considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'A TNU é integrada por desembargadores federais escolhidos pelos Tribunais Regionais Federais.',
+      'O pedido de uniformização cabe quando há divergência entre Turmas Recursais sobre matéria processual ou material, indistintamente.',
+      'Quando a decisão da TNU contrariar súmula ou jurisprudência dominante do STJ, cabe incidente perante o próprio STJ.',
+      'O pedido de uniformização tem efeito suspensivo automático sobre a execução do acórdão da Turma Recursal.',
+      'A TNU pode editar súmulas vinculantes para o Judiciário, equiparáveis às SVs do STF.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 10.259 art. 14 §4º: contra decisão da TNU contrária a súmula/jurisprudência STJ, cabe incidente no STJ. (A) Falso — TNU é integrada por JUÍZES FEDERAIS (10 juízes, 2 por região — art. 15). (B) Falso — PU só sobre direito MATERIAL. (D) Falso — não há efeito suspensivo automático. (E) Falso — súmulas da TNU não vinculam como SV do STF (CF art. 103-A).'
+  },
+  {
+    id: 59, topic: 26, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a justiça gratuita no CPC/15, é correto afirmar:',
+    alternatives: [
+      'A pessoa jurídica não pode obter o benefício da gratuidade, em razão da impossibilidade de presunção de hipossuficiência.',
+      'A gratuidade somente pode ser requerida na petição inicial, sob pena de preclusão temporal.',
+      'O beneficiário da gratuidade derrotado na demanda fica integralmente dispensado de pagar honorários sucumbenciais e custas.',
+      'O juiz pode indeferir o pedido de gratuidade sem prévia oportunidade de comprovação à parte, quando os autos evidenciarem capacidade financeira.',
+      'O beneficiário derrotado é condenado em honorários sucumbenciais e custas, mas a exigibilidade fica suspensa por até 5 anos.'
+    ],
+    correct: 'E',
+    explanation: 'CPC art. 98 §3º: beneficiário derrotado é CONDENADO em honorários, exigibilidade SUSPENSA por 5 anos. Se não houver melhora, prescreve. (A) Falso — Súmula 481/STJ permite à PJ que comprove. (B) Falso — Súmula 640/STJ: a qualquer tempo. (C) Falso — não há dispensa, há suspensão. (D) Falso — art. 99 §2º exige contraditório prévio.'
+  },
+  {
+    id: 60, topic: 26, banca: 'Simulada', nivel: 'Médio',
+    statement: 'No tocante ao pedido de gratuidade da justiça pela pessoa jurídica, é correto afirmar:',
+    alternatives: [
+      'É vedada à pessoa jurídica em qualquer hipótese, pelo princípio da personalidade.',
+      'Apenas pessoas jurídicas sem fins lucrativos têm direito ao benefício.',
+      'A pessoa jurídica, com ou sem fins lucrativos, pode obter a gratuidade desde que comprove a impossibilidade de arcar com os encargos processuais.',
+      'A pessoa jurídica goza da mesma presunção iuris tantum de hipossuficiência que a pessoa física.',
+      'A concessão à pessoa jurídica depende da prévia oitiva do Ministério Público em todos os casos.'
+    ],
+    correct: 'C',
+    explanation: 'Súmula 481/STJ: PJ com OU sem fins lucrativos pode obter, desde que COMPROVE a impossibilidade. (A) Falso — possível desde que comprovada. (B) Falso — também as com fins lucrativos. (D) Falso — só PF tem presunção (art. 99 §3º); PJ deve provar. (E) Falso — MP só intervém em casos do art. 178 (interesse público/incapaz).'
   }
 ],
 
