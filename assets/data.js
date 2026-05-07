@@ -392,27 +392,126 @@ topics: [
     schedule: 'Mês 1, Semana 3',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Capacidade: ser parte (capacidade de direito) × estar em juízo (capacidade processual) × postular (capacidade postulatória)',
-        'Substituição processual = legitimação extraordinária (atua em nome próprio defendendo direito alheio)',
-        'Litisconsórcio: necessário/facultativo, simples/unitário, ativo/passivo, inicial/ulterior',
-        'Intervenção de terceiros: assistência (simples e litisconsorcial), denunciação da lide, chamamento ao processo, IDPJ, amicus curiae',
-        'IDPJ — instaurado a requerimento; suspende o processo; cabe agravo de instrumento (CPC art. 1015 IV)',
-        'Amicus curiae — natureza jurídica, requisitos (relevância da matéria, especificidade, repercussão social), limites recursais'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 70-80 (capacidade), 113-118 (litisconsórcio), 119-138 (intervenção, IDPJ, amicus)'
-      ]},
-      { h: 'Jurisprudência relevante', items: [
-        'STJ Tema 1019 — IDPJ na execução fiscal (cabimento)',
-        'STF RE 1101937 — amicus curiae (limites recursais)',
-        'Súmula 375/STJ — fraude à execução exige inscrição da penhora'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Desconsideração direta (objetiva, art. 50 CC) × inversa (alcançar bens da PJ a partir de dívida do sócio)',
-        'Amicus curiae não recorre, salvo: contra decisão de admissão e em IRDR/IAC',
-        'Litisconsórcio multitudinário — limitação pelo juiz (CPC art. 113 §1º)'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: '**Partes** são os sujeitos parciais do processo — autor (quem deduz a pretensão) e réu (em face de quem se deduz). A condição de parte adquire-se com a propositura da ação e o desencadeamento do polo passivo (citação válida). Ao lado das partes principais, o processo admite **terceiros** que intervêm com posições jurídicas próprias e podem alterar a configuração subjetiva da relação processual.' },
+          { type: 'p', text: '**Capacidade** desdobra-se em três planos:' },
+          {
+            type: 'table',
+            headers: ['Capacidade', 'Significado', 'Quem tem'],
+            rows: [
+              ['Ser parte', 'Aptidão para titularizar relação processual (capacidade de direito)', 'Toda pessoa natural ou jurídica; entes despersonalizados (espólio, massa falida, condomínio)'],
+              ['Estar em juízo', 'Aptidão para atuar pessoalmente no processo (capacidade processual)', 'Maiores capazes; menores e incapazes precisam de representação/assistência'],
+              ['Postular', 'Aptidão para realizar atos técnicos (capacidade postulatória)', 'Advogados regularmente inscritos; partes em causa própria se também forem advogadas; Defensoria; MP']
+            ]
+          },
+          { type: 'p', text: '**Litisconsórcio** é a pluralidade de partes em um mesmo polo. Classifica-se por critérios cruzados: (a) **necessário** (a lei ou a relação material exigem; sentença atinge todos uniformemente) × **facultativo**; (b) **unitário** (decisão deve ser idêntica para todos) × **simples** (pode divergir); (c) **ativo** × **passivo** × **misto**; (d) **inicial** (formado na petição) × **ulterior** (sucessivo).' },
+          { type: 'p', text: '**Intervenção de terceiros** — espécies no CPC/15: assistência (simples e litisconsorcial), denunciação da lide, chamamento ao processo, **IDPJ** (incidente de desconsideração da personalidade jurídica), **amicus curiae**. O CPC/15 EXTINGUIU a oposição como modalidade de intervenção (passou a ser ação autônoma sob procedimento comum) e a nomeação à autoria (substituída pela correção do polo passivo, art. 339).' },
+          { type: 'p', text: '**Substituição processual** (legitimação extraordinária, art. 18) — atua-se em nome próprio defendendo direito alheio. Diferente de representação (atua em nome alheio defendendo direito alheio) e de sucessão processual (troca da parte por morte, art. 110, ou ato inter vivos, art. 109).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Partes, capacidade e procuradores' },
+          { type: 'list', items: [
+            '**CPC arts. 70-76** — capacidade processual; menor, incapaz, curador especial',
+            '**CPC arts. 77-81** — deveres das partes; litigância de má-fé',
+            '**CPC arts. 82-97** — despesas, honorários, multas',
+            '**CPC arts. 103-112** — procuradores; mandato; sucessão'
+          ]},
+          { type: 'h', text: 'Litisconsórcio' },
+          { type: 'list', items: [
+            '**CPC arts. 113-117** — espécies, formação, dinâmica',
+            '**Art. 113 §1º** — litisconsórcio multitudinário (limitação pelo juiz)',
+            '**Art. 114** — litisconsórcio necessário (sentença ineficaz quanto ao não citado se unitário)'
+          ]},
+          { type: 'h', text: 'Intervenção de terceiros' },
+          { type: 'list', items: [
+            '**CPC arts. 119-124** — assistência simples e litisconsorcial',
+            '**CPC arts. 125-129** — denunciação da lide (rol antes obrigatório, hoje facultativo, salvo art. 125)',
+            '**CPC arts. 130-132** — chamamento ao processo (devedor solidário; fiador chama afiançado)',
+            '**CPC arts. 133-137** — IDPJ',
+            '**CPC art. 138** — amicus curiae'
+          ]},
+          { type: 'h', text: 'Lei material' },
+          { type: 'list', items: [
+            '**CC art. 50** (com redação da Lei 13.874/19 — Liberdade Econômica) — desconsideração direta (abuso da personalidade: confusão patrimonial ou desvio de finalidade)',
+            '**CDC art. 28** — desconsideração nas relações de consumo (mais ampla)',
+            '**Lei 12.846/13 art. 14** — desconsideração na lei anticorrupção'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Litisconsórcio necessário × unitário' },
+          { type: 'p', text: 'Não confunda: **necessário** decorre da lei ou da relação material (todos DEVEM estar no processo); **unitário** decorre da homogeneidade do bem da vida (a sentença DEVE ser idêntica para todos). Pode haver: (a) necessário + unitário (regra — ex.: ação de anulação de casamento contra ambos os cônjuges); (b) necessário + simples (raríssimo); (c) facultativo + unitário (ex.: condôminos em ação reivindicatória); (d) facultativo + simples (regra do litisconsórcio facultativo comum).' },
+
+          { type: 'h', text: 'Litisconsórcio multitudinário — limitação pelo juiz' },
+          { type: 'p', text: 'Quando o número excessivo de litisconsortes comprometer a rápida solução do litígio ou dificultar a defesa, o juiz pode **limitar o litisconsórcio** (art. 113 §1º). A decisão é por desmembramento, não exclusão. Recurso cabível: agravo de instrumento (art. 1.015 III por interpretação ampliativa, mas matéria controvertida — STJ tende a admitir).' },
+
+          { type: 'h', text: 'Assistência simples × litisconsorcial' },
+          { type: 'p', text: 'Na **simples** (art. 121), o assistente tem interesse jurídico reflexo; pode ajudar mas não vincula a prova exclusiva, suas alegações cedem à parte assistida (art. 122). Na **litisconsorcial** (art. 124), tem interesse jurídico direto na lide; equipara-se a litisconsorte unitário, com poderes plenos. Recurso de assistente vale para o assistido se este for revel (art. 122 §único).' },
+
+          { type: 'h', text: 'Denunciação da lide' },
+          { type: 'p', text: 'Hoje em geral **facultativa** (art. 125 — rol fechado: garantia da evicção; obrigado por lei ou contrato a indenizar). A não denunciação não impede ação regressiva autônoma. Procedimento: dupla relação — autor × réu (lide principal) e réu × denunciado (lide secundária); duas sentenças no mesmo julgamento (art. 129).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.738.737 e Tema 880:** denunciação da lide pelo réu ao terceiro com obrigação de indenizar decorrente de contrato é ADMITIDA — não há mais óbice da "introdução de fundamento jurídico novo" sob o CPC/15.' },
+
+          { type: 'h', text: 'Chamamento ao processo' },
+          { type: 'p', text: 'Cabível para: (i) afiançado, pelo fiador; (ii) demais devedores solidários; (iii) demais fiadores (art. 130). Cabe ao réu (não ao autor). Resultado: condenação solidária + sub-rogação interna (art. 132 — quem pagou tudo cobra dos chamados). NÃO cabe contra a Fazenda Pública para chamar outro ente federativo (já se discutiu muito; o STF e a doutrina majoritária afastam — viola a CF art. 109 I).' },
+
+          { type: 'h', text: 'IDPJ — Incidente de Desconsideração da PJ' },
+          { type: 'p', text: '**Inovação do CPC/15** (arts. 133-137). Preserva o contraditório prévio: a desconsideração depende de provocação (autor, MP nos casos em que cabível, AGU/PFN em executivo fiscal — STJ Tema 1.019); o sócio é citado e produz defesa, com prazo de 15 dias e instrução probatória. **Suspende o processo** durante o trâmite. Recurso da decisão: **agravo de instrumento** (art. 1.015 IV). Cabe em qualquer fase: cognição, cumprimento de sentença, execução.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.019 (REsp 1.804.677):** o IDPJ é cabível na execução fiscal, salvo na hipótese específica do art. 135 do CTN (responsabilidade tributária de sócios-gerentes por atos com excesso de poderes), em que basta o redirecionamento incidental.' },
+          { type: 'p', text: '**Modalidades materiais da desconsideração:**' },
+          {
+            type: 'table',
+            headers: ['Modalidade', 'Conceito', 'Base'],
+            rows: [
+              ['Direta', 'Atinge bens dos sócios por dívida da PJ', 'CC art. 50 + CDC art. 28'],
+              ['Inversa', 'Atinge bens da PJ por dívida do sócio', 'CC art. 50 §3º (Lei 13.874/19)'],
+              ['Indireta', 'Atinge PJ controlada/coligada de outra (grupos econômicos)', 'CC art. 50 §4º + jurisprudência'],
+              ['Expansiva', 'Atinge PJ que sucede de fato outra (sucessão empresarial)', 'Construção jurisprudencial']
+            ]
+          },
+
+          { type: 'h', text: 'Amicus curiae (CPC art. 138)' },
+          { type: 'p', text: 'Sujeito que ingressa para CONTRIBUIR com subsídios técnicos, sociais ou jurídicos. Requisitos cumulativos: (i) **relevância da matéria**, (ii) **especificidade do tema** ou (iii) **repercussão social da controvérsia** + (iv) representatividade adequada do interveniente. Decisão de admissão é IRRECORRÍVEL (art. 138). Como regra, NÃO RECORRE — exceções: contra decisão de admissão e em IRDR/IAC. Pode ser pessoa natural, jurídica, órgão ou entidade especializada.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.101.937 (Tema 1.073):** o amicus curiae não tem legitimidade para opor embargos de declaração contra acórdão que julga o mérito do recurso extraordinário com repercussão geral — apenas contra a decisão que indefere sua admissão. Tese consolidada.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Capacidades — "Quem-Posso-Como":** **Q**uem (ser parte = capacidade de direito), **P**osso (estar em juízo = capacidade processual), **C**omo (postular = capacidade postulatória).' },
+          { type: 'box', kind: 'macete', text: '**Litisconsórcio — "QUEM-COMO" (4 critérios):** **Q**ual o lado (ativo/passivo/misto), **U**nitário ou simples, **E**xigido (necessário) ou voluntário (facultativo), **M**omento (inicial/ulterior).' },
+          { type: 'box', kind: 'macete', text: '**Intervenções típicas no CPC/15 — 5 espécies "ADCIA":** **A**ssistência (simples e litisconsorcial), **D**enunciação da lide, **C**hamamento ao processo, **I**DPJ, **A**micus curiae. Memorize: oposição e nomeação à autoria SAÍRAM.' },
+          { type: 'box', kind: 'macete', text: '**Hipóteses de denunciação obrigatória (art. 125) — apenas garantia da evicção** (e ainda assim o STJ relativiza — Tema 760: pode haver ação autônoma).' },
+          { type: 'box', kind: 'macete', text: '**Modalidades de desconsideração — DIIE:** **D**ireta, **I**nversa, **I**ndireta (grupos), **E**xpansiva.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Substituição × representação × sucessão:** três institutos distintos. Substituição: nome próprio + direito alheio (legitimação extraordinária). Representação: nome alheio + direito alheio (incapaz pelo representante). Sucessão: troca da parte (morte, alienação).' },
+          { type: 'box', kind: 'atencao', text: '**A oposição NÃO é mais intervenção de terceiros no CPC/15** — passou a ser AÇÃO AUTÔNOMA sob procedimento comum (arts. 682-686). Apesar disso, várias bancas ainda perguntam como se fosse — fique atento: NO CPC/15, a oposição não está no rol de intervenções (arts. 119-138).' },
+          { type: 'box', kind: 'atencao', text: '**Litisconsórcio facultativo unitário existe** — ex.: condôminos em ação reivindicatória. Cuidado: muita gente confunde "facultativo" com "simples" e "necessário" com "unitário" — são duas dimensões INDEPENDENTES.' },
+          { type: 'box', kind: 'atencao', text: '**IDPJ não é "automático":** sempre exige instauração formal (não basta requerer na petição inicial, salvo se já desde lá já se demanda contra o sócio também — art. 134 §2º). Suspende o processo. Decisão = agravo de instrumento.' },
+          { type: 'box', kind: 'atencao', text: '**Amicus curiae não recorre como regra (art. 138 §1º).** Exceções: decisão de admissão (rejeitada) e IRDR/IAC. Banca cobra essa pegadinha sempre.' },
+          { type: 'box', kind: 'atencao', text: '**Curador especial (art. 72):** réu preso revel, citado por edital ou hora certa revel, ou incapaz sem representante. Função institucional da DEFENSORIA PÚBLICA — pode contestar por negativa geral (art. 341 §único). NÃO confundir com curador da curatela civil (CC art. 1.767).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 3 (jurisdição/ação):** capacidade processual e legitimidade ad causam discutidas aqui são pressupostos processuais — sua ausência leva à extinção sem mérito (art. 485 IV e VI).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP/Adv. Pública/Defensoria):** o curador especial é função da DP. O MP é parte ou fiscal. Estude em conjunto.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum) e 16 (recursos):** intervenções afetam estrutura recursal — quem pode recorrer? Assistente simples segue o assistido; litisconsorcial recorre por si; amicus, em regra, não.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 15 (execução):** IDPJ e fraude à execução são institutos distintos — IDPJ é incidente cognitivo; fraude à execução é vício do ato dispositivo (arts. 792-794). Súmula 375/STJ exige inscrição/registro da penhora ou má-fé do terceiro.' }
+        ]
+      }
     ]
   },
   {
@@ -425,24 +524,131 @@ topics: [
     schedule: 'Mês 1, Semana 4',
     advantage: 'Vantagem GRANDE — vivência institucional',
     sections: [
-      { h: 'Foco central', items: [
-        'MP no processo civil: parte (legitimidade ativa) × fiscal da ordem jurídica (custos legis)',
-        'Hipóteses obrigatórias de intervenção (CPC art. 178): interesse público/social, incapaz, litígios coletivos sobre posse rural',
-        'Prazo do MP em dobro (CPC art. 180); Defensoria também (art. 186); Advocacia Pública também (art. 183)',
-        'Curador especial pela Defensoria (CPC art. 72): réu preso, citado por edital ou hora certa, incapaz sem representante',
-        'Nulidade pela ausência de intimação do MP — só nulidade absoluta se houver prejuízo (princípio do prejuízo)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 176-188',
-        'CF/88 arts. 127-130 (MP), 131-132 (Adv. Pública), 134 (DP)',
-        'LC 75/93 (MPU); LC 34/94 (MP/MG)',
-        'LC 80/94 (Defensoria Pública)'
-      ]},
-      { h: 'Jurisprudência relevante', items: [
-        'STJ Tema 1075 e 1076 — intimação do MP',
-        'Súmula 99/STJ — MP intervém em ações de família com interesse de incapaz',
-        'Súmula 226/STJ — MP tem legitimidade para ACP em defesa de direitos individuais homogêneos disponíveis'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CPC trata em capítulo próprio (arts. 176-188) das **funções essenciais à Justiça**: Ministério Público, Advocacia Pública e Defensoria Pública. A Constituição as eleva a status de funções autônomas, equidistantes do Judiciário (CF arts. 127-135). No processo civil, cada uma cumpre papel diferenciado e merece estudo conjunto — caem juntas em prova e tratam-se de **vantagem clara para a candidata** (vivência institucional como Analista MPMG).' },
+          { type: 'p', text: '**Ministério Público — duas vestes processuais:**' },
+          { type: 'list', items: [
+            '**Parte (autor)** — quando ajuíza ações em defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis (CF art. 127). Ex.: ACP, ação de improbidade, ações de família com legitimação extraordinária',
+            '**Fiscal da ordem jurídica (custos iuris/legis)** — quando intervém em processo movido por terceiros para velar pela correta aplicação do direito (CPC art. 178)'
+          ]},
+          { type: 'p', text: 'A intervenção como fiscal é **obrigatória** nas hipóteses do art. 178 e gera nulidade quando faltar — embora condicionada ao princípio do prejuízo (Súmula 523/STF analógica; STJ Tema 1.075).' },
+          { type: 'p', text: '**Advocacia Pública** (CF arts. 131-132): representa judicial e extrajudicialmente a União (AGU), Estados (PGE), DF (PGDF) e Municípios (PGM). É função **DE ESTADO**, não de governo. Tem prazos em dobro (art. 183), intimação pessoal e prerrogativas próprias.' },
+          { type: 'p', text: '**Defensoria Pública** (CF art. 134, com EC 80/14): instituição permanente, essencial à Justiça, expressão e instrumento do regime democrático, voltada à orientação jurídica, promoção dos direitos humanos e defesa, em todos os graus, judicial e extrajudicial, dos direitos individuais e coletivos dos NECESSITADOS. Tem autonomia funcional, administrativa e iniciativa orçamentária. Atua, ainda, como **curador especial** (CPC art. 72).' },
+          {
+            type: 'table',
+            headers: ['Instituição', 'Posição constitucional', 'Funções típicas no processo civil', 'Prazo'],
+            rows: [
+              ['MP', 'Função essencial à Justiça (CF arts. 127-130)', 'Parte (ACP, improbidade, família) + fiscal (art. 178)', 'Em dobro (art. 180)'],
+              ['Advocacia Pública', 'Função essencial (CF arts. 131-132)', 'Representação da Fazenda Pública', 'Em dobro (art. 183)'],
+              ['Defensoria', 'Função essencial (CF art. 134)', 'Defesa do necessitado + curador especial + tutelas coletivas', 'Em dobro (art. 186)']
+            ]
+          }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CPC' },
+          { type: 'list', items: [
+            '**Arts. 176-181** — Ministério Público',
+            '**Art. 178** — hipóteses de intervenção como fiscal (rol)',
+            '**Art. 180** — prazo do MP em dobro (todas as manifestações; conta da intimação pessoal)',
+            '**Arts. 182-184** — Advocacia Pública',
+            '**Art. 183** — prazo da Fazenda em dobro',
+            '**Arts. 185-187** — Defensoria Pública',
+            '**Art. 186** — prazo da DP em dobro',
+            '**Art. 72** — curador especial pela Defensoria Pública'
+          ]},
+          { type: 'h', text: 'Constituição' },
+          { type: 'list', items: [
+            '**Arts. 127-130-A** — Ministério Público',
+            '**Art. 129** — funções institucionais do MP (rol exemplificativo)',
+            '**Arts. 131-132** — Advocacia Pública',
+            '**Art. 134** — Defensoria Pública (após EC 80/14)',
+            '**Art. 135** — vedação à acumulação de funções'
+          ]},
+          { type: 'h', text: 'Legislação institucional' },
+          { type: 'list', items: [
+            '**LC 75/93** — Lei Orgânica do MPU (e fonte interpretativa para os MPs estaduais)',
+            '**Lei 8.625/93** — Lei Orgânica Nacional do MP (LONMP)',
+            '**LC 34/94 (MG)** — Lei Orgânica do MP/MG',
+            '**LC 80/94** — Lei Orgânica Nacional da Defensoria',
+            '**LC 73/93** — Lei Orgânica da AGU',
+            '**Lei 7.347/85** — LACP (legitimidade do MP, DP, AP, entes federativos, associações)'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Hipóteses de intervenção do MP como fiscal (CPC art. 178)' },
+          { type: 'p', text: 'Rol exemplificativo (a doutrina diverge — para parte é taxativo). Hipóteses expressas:' },
+          { type: 'list', items: [
+            '**I — interesse público ou social** (cláusula aberta, exige fundamentação concreta — não basta o ente público estar no polo)',
+            '**II — interesse de incapaz** (criança/adolescente, idoso vulnerável, PCD em situação específica)',
+            '**III — litígios coletivos pela posse de terra rural ou urbana** (matéria sensível para o MP)'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 189:** "É desnecessária a intervenção do MP nas execuções fiscais." Reforça leitura RESTRITIVA de "interesse público" — não basta a Fazenda figurar como exequente.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 99:** "O MP tem legitimidade para recorrer no processo em que oficiou como fiscal da lei, ainda que não haja recurso da parte."' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 226:** "O MP tem legitimidade para a ACP em defesa de direitos individuais homogêneos, ainda que disponíveis." Marco da legitimação ampla do MP em tutelas coletivas.' },
+
+          { type: 'h', text: 'Intimação pessoal e prazo em dobro' },
+          { type: 'p', text: '**Pontos comuns às três instituições:** intimação **pessoal** (com vista dos autos, físico ou eletrônico) + prazo em **DOBRO** (não em quádruplo — banca tenta confundir). Conta-se da entrega dos autos com vista (carga ou abertura no PJe).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.075 (REsp 1.696.396):** a intimação eletrônica do MP por meio do sistema do tribunal supre a intimação pessoal exigida por lei, desde que cadastrado adequadamente. Reflexo do processo eletrônico (Lei 11.419/06).' },
+
+          { type: 'h', text: 'Nulidade pela falta de intimação do MP' },
+          { type: 'p', text: 'A ausência de intimação do MP nas hipóteses do art. 178 gera **nulidade absoluta** — mas, conforme princípio do prejuízo (*pas de nullité sans grief*), a doutrina e a jurisprudência exigem demonstração de prejuízo concreto à parte tutelada (interesse de incapaz, p. ex.). O CPC/15 expressamente acolheu essa orientação no art. 279 §2º.' },
+
+          { type: 'h', text: 'Curador especial (CPC art. 72)' },
+          { type: 'p', text: 'Função INSTITUCIONAL da DEFENSORIA PÚBLICA. Hipóteses:' },
+          { type: 'list', items: [
+            'Réu **preso revel** (não constituiu advogado)',
+            'Réu **citado por edital** que ficar revel',
+            'Réu **citado com hora certa** que ficar revel',
+            '**Incapaz sem representante** ou cujos interesses colidirem com os do representante'
+          ]},
+          { type: 'p', text: 'O curador especial **defende exclusivamente o réu** (não o autor); pode contestar por **negativa geral** (art. 341 §único) — única exceção à regra do ônus da impugnação específica. NÃO se confunde com curador da curatela civil (CC arts. 1.767+).' },
+
+          { type: 'h', text: 'Advocacia Pública e suas prerrogativas' },
+          { type: 'p', text: 'Além do prazo em dobro e intimação pessoal, a Fazenda Pública goza de: (i) **remessa necessária** quando vencida acima dos limites do art. 496 (a sentença só transita após confirmação pelo tribunal); (ii) **dispensa de adiantar custas** em ações próprias (mas paga ao final se vencida); (iii) **execução por precatório** (CF art. 100); (iv) presunção de legitimidade dos atos administrativos.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 884 (RE 631.658) e ADI 5.107:** a Defensoria Pública estadual tem legitimidade ativa para ACP, mesmo em defesa de hipossuficientes em sentido amplo (não apenas econômicos). Ampliou o conceito de "necessitado".' },
+
+          { type: 'h', text: 'Defensoria Pública e legitimação coletiva' },
+          { type: 'p', text: 'A DP tem legitimidade para tutelas coletivas (LACP art. 5º; LC 80/94 art. 4º X). Exige-se **pertinência temática** com os hipossuficientes — conceito ampliado pelo STF para abranger não só os economicamente necessitados, mas também grupos vulneráveis em sentido organizacional, jurídico ou existencial.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Hipóteses do art. 178 — "PIM":** **P**úblico/social (interesse), **I**ncapaz, **M**ovimentos coletivos pela terra (rural ou urbana).' },
+          { type: 'box', kind: 'macete', text: '**Funções essenciais à Justiça (CF) — "MAD":** **M**inistério Público, **A**dvocacia (pública e privada), **D**efensoria. Não confundir com órgãos do Judiciário — equidistantes.' },
+          { type: 'box', kind: 'macete', text: '**Curador especial — 4 hipóteses "PEHIN" (art. 72):** **P**reso revel, **E**dital revel, **H**ora certa revel, **IN**capaz sem representante. Função da DEFENSORIA PÚBLICA.' },
+          { type: 'box', kind: 'macete', text: '**Prazos em dobro nas funções essenciais:** todas em DOBRO, nunca em QUÁDRUPLO. Conta-se da intimação pessoal. MP (art. 180), Adv. Pública (art. 183), Defensoria (art. 186).' },
+          { type: 'box', kind: 'macete', text: '**Distinção das 3 funções essenciais:** MP **defende o sistema** (ordem jurídica + indisponíveis); Adv. Pública **defende o ente público**; Defensoria **defende o necessitado**.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**MP em execuções fiscais:** Súmula 189/STJ é firme — DESNECESSÁRIA a intervenção. "Interesse público" do art. 178 NÃO se identifica com a presença da Fazenda.' },
+          { type: 'box', kind: 'atencao', text: '**Prazo em dobro — não cumulativo.** Erro frequente: somar dobra do MP (art. 180) com dobra do litisconsorte com advogados diferentes (art. 229). NÃO somam — prevalece o regime mais favorável (art. 229 §2º exclui o MP). Pegadinha clássica.' },
+          { type: 'box', kind: 'atencao', text: '**Curador especial × curatela civil:** o curador especial é INSTITUTO PROCESSUAL (Defensoria, em casos de revelia ou incapaz sem representante). A curatela civil é instituto material (CC arts. 1.767+), com nomeação pelo juiz da família/sucessões.' },
+          { type: 'box', kind: 'atencao', text: '**Defensoria Pública é função do ESTADO, não do governo.** Tem autonomia funcional, administrativa e financeira (CF art. 134 §2º). Vedação à submissão hierárquica ao Poder Executivo.' },
+          { type: 'box', kind: 'atencao', text: '**MP recorre como fiscal? SIM** (Súmula 99/STJ). Mesmo se a parte não recorrer. Cuidado com a banca que tenta colocar o MP em situação de inércia.' },
+          { type: 'box', kind: 'atencao', text: '**Custas e a Fazenda Pública:** dispensada de adiantar (não isenta — paga ao final se vencida). Confundir "dispensa" com "isenção" é erro clássico.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 2 (DH e processo):** o MP é o guardião natural dos direitos humanos no plano interno (CF art. 129 II e III); estuda-se DH no MP integrando direito processual internacional.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 4 (partes e intervenção):** o curador especial é função da DP, exercida nas hipóteses do art. 72; o IDPJ pode ser instaurado a pedido do MP.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 8 (atos processuais):** intimação pessoal e prazos em dobro do MP/DP/AP integram o regime de prazos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 19 (MS) e 20 (ACP):** legitimação coletiva ampla do MP é o "pão com manteiga" da carreira. ACP e MS coletivo são instrumentos cotidianos. **Vantagem ENORME para a candidata.**' }
+        ]
+      }
     ]
   },
   {
