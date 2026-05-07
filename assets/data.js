@@ -5518,18 +5518,104 @@ topics: [
     title: 'Direito de família — casamento, união estável, regime de bens',
     edital: '3.1.15',
     editalText: 'Casamento — capacidade, impedimentos, formalidades, efeitos. União estável. Regime de bens.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Casamento — habilitação, celebração, prova',
-      'Capacidade núbil; impedimentos × causas suspensivas',
-      'Efeitos pessoais e patrimoniais',
-      'Regimes de bens — comunhão parcial, universal, separação, participação final',
-      'Pacto antenupcial',
-      'União estável — requisitos (CC art. 1.723) e efeitos',
-      'Casamento e união homoafetiva (ADI 4.277, RE 646.721)',
-      'Dissolução — divórcio direto (EC 66/2010)'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 4 da Fase 3 (mar/2027) — semana 1',
+    advantage: 'Candidata é Analista MP — Promotor atua extensamente em família (incapazes, alimentos, ECA)',
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O Direito de Família, regulado pelo Livro IV do CC (arts. 1.511-1.783), foi profundamente alterado por leis especiais e jurisprudência constitucional. **EC 66/2010** acabou com a separação judicial e o prazo do divórcio. **STF (ADI 4.277 e RE 646.721)** reconheceu a união homoafetiva como família. **EPD (Lei 13.146/15)** alterou capacidade civil — repercute em casamento, curatela, tomada de decisão apoiada.' },
+          { type: 'p', text: 'O **CASAMENTO** (arts. 1.511-1.582) é instituição pessoal e patrimonial. Pressupostos: capacidade núbil (16 anos com autorização ou após emancipação), ausência de impedimentos (rol taxativo — art. 1.521), formalidades (habilitação + celebração — art. 1.525+). Efeitos: pessoais (art. 1.565+) e patrimoniais (regime de bens — arts. 1.639-1.688).' },
+          { type: 'p', text: 'A **UNIÃO ESTÁVEL** (CF art. 226 §3º + CC arts. 1.723-1.727) é entidade familiar paralela ao casamento, com requisitos: convivência **PÚBLICA, CONTÍNUA e DURADOURA**, com objetivo de constituir família. **NÃO exige tempo mínimo** (jurisprudência STJ). Aplica-se subsidiariamente o regime do casamento; padrão = comunhão parcial (art. 1.725).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Casamento — habilitação, impedimentos, celebração' },
+          { type: 'list', items: [
+            '**Art. 1.517** — capacidade núbil: 16 anos (homem e mulher), com autorização dos pais ou representante. Idade nupcial NÃO pode ser inferior a 16 — Lei 13.811/19 retirou exceções',
+            '**Art. 1.521 — IMPEDIMENTOS** (rol TAXATIVO): I — ascendentes e descendentes; II — afins em linha reta; III — adotante com filho do adotado; IV — irmãos; V — adotado com filho do adotante; VI — pessoas casadas; VII — cônjuge sobrevivente com condenado por homicídio do consorte',
+            '**Art. 1.523 — CAUSAS SUSPENSIVAS** — não impedem mas geram regime especial: divorciado antes de partilha; viúvo com filho; entre tutor/curatelado; entre afins em linha colateral até 3º grau (irmã do cônjuge falecido)',
+            '**Art. 1.525-1.542** — habilitação no cartório + celebração civil ou religiosa com efeitos civis (art. 1.515)',
+            '**Art. 1.567** — dever pessoal: fidelidade, vida em comum, mútua assistência, sustento, criação dos filhos, respeito'
+          ] },
+          { type: 'h', text: 'Regime de bens (arts. 1.639-1.688)' },
+          { type: 'list', items: [
+            '**Art. 1.639** — partes podem escolher regime livremente em pacto antenupcial; ausente, aplica-se COMUNHÃO PARCIAL (regra desde 1977)',
+            '**COMUNHÃO PARCIAL (arts. 1.658-1.666)** — comunicam-se bens adquiridos onerosamente NA constância; particulares: anteriores ao casamento, doados/herdados, sub-rogados, etc.',
+            '**COMUNHÃO UNIVERSAL (arts. 1.667-1.671)** — comunicam-se TODOS os bens (presentes, futuros, adquiridos antes); excetuam-se os incomunicáveis (art. 1.668)',
+            '**SEPARAÇÃO (arts. 1.687-1.688)** — convencional ou OBRIGATÓRIA (art. 1.641): casamento de quem tem 70+ anos; quem casou sem causas suspensivas observadas; quem dependeu de suprimento judicial',
+            '**PARTICIPAÇÃO FINAL NOS AQUESTOS (arts. 1.672-1.686)** — durante o casamento separação total; ao final, partilha "como se fosse" comunhão parcial sobre o patrimônio adquirido'
+          ] },
+          { type: 'h', text: 'União estável (arts. 1.723-1.727)' },
+          { type: 'list', items: [
+            '**Art. 1.723** — entidade familiar entre HOMEM e MULHER (interpretado pelo STF como inclui homoafetiva — ADI 4.277), configurada na convivência PÚBLICA, CONTÍNUA e DURADOURA com objetivo de constituir família',
+            '**Art. 1.723 § 1º** — não se constitui se houver impedimento do art. 1.521, salvo separados de fato/divorciados',
+            '**Art. 1.725** — aplica-se à união estável o regime de COMUNHÃO PARCIAL, salvo contrato escrito',
+            '**Art. 1.727** — concubinato (não eventual, pessoas impedidas de casar) NÃO constitui união estável'
+          ] },
+          { type: 'h', text: 'Dissolução (arts. 1.571-1.582 + EC 66/2010)' },
+          { type: 'list', items: [
+            '**EC 66/2010** acabou com prazo de separação judicial. Hoje: **DIVÓRCIO DIRETO**, sem necessidade de prévia separação',
+            'Modalidades: divórcio JUDICIAL CONSENSUAL/LITIGIOSO, EXTRAJUDICIAL (cartório — Lei 11.441/07, sem incapazes nem questão controvertida)',
+            '**Art. 1.580** par. único (revogado pela EC 66/2010 quanto a prazo)',
+            '**Art. 1.582** — competência para julgar dissolução: Justiça Comum estadual (Vara de Família)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Casamento — impedimentos × causas suspensivas' },
+          { type: 'table', headers: ['Critério', 'Impedimentos (1.521)', 'Causas Suspensivas (1.523)'],
+            rows: [
+              ['Efeito', 'NULIDADE (art. 1.548)', 'Casamento celebra com REGIME OBRIGATÓRIO de separação (1.641 III)'],
+              ['Hipóteses', 'Ascendentes, descendentes, irmãos, casados', 'Divorciado sem partilha, viúvo com filho'],
+              ['Natureza', 'Absoluta — proteção do interesse social', 'Relativa — proteção patrimonial']
+            ] },
+          { type: 'box', kind: 'atencao', text: '**Impedimentos = NULIDADE. Causas suspensivas = regime OBRIGATÓRIO de SEPARAÇÃO.** Confusão recorrente.' },
+          { type: 'h', text: 'União estável — STJ não exige tempo mínimo' },
+          { type: 'p', text: 'CC art. 1.723 não estabelece prazo. **STJ (REsp 1.094.957)** — não há prazo mínimo; basta verificar PUBLICIDADE, CONTINUIDADE, DURABILIDADE e ÂNIMO de constituir família. A duração concreta entra no juízo de "durabilidade", mas não há regra fixa.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.094.957:** união estável NÃO exige tempo mínimo. Critério é qualitativo, não cronológico.' },
+          { type: 'h', text: 'União homoafetiva' },
+          { type: 'p', text: '**STF — ADI 4.277 + ADPF 132 (2011)** reconheceu a união entre pessoas do mesmo sexo como entidade familiar (interpretação conforme a CF do CC art. 1.723). **CNJ Resolução 175/2013** determinou aos cartórios que celebrassem casamento entre pessoas do mesmo sexo. **STF — RE 646.721** reconheceu equiparação de direitos sucessórios.' },
+          { type: 'h', text: 'Regime obrigatório de separação (art. 1.641)' },
+          { type: 'p', text: '**Pessoas com 70 anos ou mais** (art. 1.641 II — após Lei 12.344/10): casamento OBRIGATORIAMENTE em regime de separação, salvo se firmarem **pacto antenupcial em sentido diverso? NÃO!** A imposição é norma cogente. **STJ — Súmula 377:** "No regime de separação legal de bens, comunicam-se os adquiridos na constância do casamento" — atenuação por ESFORÇO COMUM (mitigação da rigidez). MUITO COBRADO.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 377:** No regime de separação LEGAL de bens, comunicam-se os adquiridos na constância do casamento. Atenua a rigidez do regime obrigatório.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Casamento: 16 anos com autorização. Lei 13.811/19 acabou com exceções.**' },
+          { type: 'box', kind: 'macete', text: '**Impedimentos = NULIDADE. Causas Suspensivas = SEPARAÇÃO obrigatória.**' },
+          { type: 'box', kind: 'macete', text: '**Regime padrão sem pacto antenupcial = COMUNHÃO PARCIAL (1.640).**' },
+          { type: 'box', kind: 'macete', text: '**70+ = SEPARAÇÃO OBRIGATÓRIA + Súmula 377/STJ atenua.**' },
+          { type: 'box', kind: 'macete', text: '**União estável: PÚBLICA · CONTÍNUA · DURADOURA + ânimo. Sem prazo mínimo (STJ).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**EC 66/2010 acabou com SEPARAÇÃO JUDICIAL** — hoje só divórcio. Erro: confundir com sistema antigo.' },
+          { type: 'box', kind: 'atencao', text: '**70 anos = separação OBRIGATÓRIA** (art. 1.641 II). Súmula 377/STJ atenua para os bens adquiridos na constância — comunicam-se.' },
+          { type: 'box', kind: 'atencao', text: '**União estável NÃO exige tempo mínimo** (STJ REsp 1.094.957). Mas exige durabilidade qualitativa.' },
+          { type: 'box', kind: 'atencao', text: '**Concubinato (1.727) NÃO é união estável** — pessoas impedidas de casar (casado morando com amante). STJ tem decisões pontuais reconhecendo certos efeitos patrimoniais (concubinato adulterino), mas regra geral nega.' },
+          { type: 'box', kind: 'atencao', text: '**Casamento entre pessoas do mesmo sexo é VÁLIDO** (STF ADI 4.277 + CNJ 175/2013). Concursos modernos cobram.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (alimentos, tutela, curatela):** complementa o estudo de família.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 17 (sucessões):** cônjuge/companheiro têm direitos sucessórios — RE 878.694 equiparou-os (companheiro = cônjuge para fins sucessórios).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP):** atuação obrigatória em causas de família com incapazes (CPC art. 178 II).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 2 (pessoas naturais):** tomada de decisão apoiada × curatela (Lei 13.146 + CC 1.767).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-16-familia-especifico',
@@ -5537,19 +5623,109 @@ topics: [
     title: 'Família — alimentos, filiação, tutela e curatela',
     edital: '3.1.16',
     editalText: 'Filiação. Reconhecimento. Adoção. Poder familiar. Alimentos. Tutela, curatela, guarda.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Filiação — presunções (art. 1.597); socioafetividade; multiparentalidade (RE 898.060)',
-      'Reconhecimento de filhos',
-      'Adoção (Lei 12.010/09) — requisitos',
-      'Poder familiar — exercício, suspensão, destituição',
-      'Alimentos — pressupostos, espécies (provisionais, provisórios, definitivos)',
-      'Binômio necessidade × possibilidade × razoabilidade',
-      'Prisão civil do alimentante (Súmula 309/STJ)',
-      'Tutela × curatela × guarda',
-      'Tomada de decisão apoiada (Lei 13.146/15)'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 4 da Fase 3 (mar/2027) — semana 2-3',
+    advantage: 'Promotor MP atua extensamente — alimentos, abandono afetivo, tutela, ECA',
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Aqui se concentram alguns dos temas mais cobrados em concurso de Promotor: **filiação** (presunções, socioafetiva, multiparentalidade), **reconhecimento**, **adoção** (Lei 12.010/09), **poder familiar**, **alimentos** (pressupostos, espécies, binômio necessidade-possibilidade-razoabilidade), **prisão civil**, **tutela/curatela/guarda**.' },
+          { type: 'p', text: 'O **STF (RE 898.060 — Tema 622)** reconheceu a **multiparentalidade** — possibilidade de dupla maternidade ou paternidade (biológica + socioafetiva). A Lei 13.146/15 (EPD) reformou a curatela — só para atos negociais e patrimoniais, não para "vida em geral". **TDA (tomada de decisão apoiada)** é alternativa autonomista à curatela.' },
+          { type: 'p', text: 'Em **ALIMENTOS**, a tríade clássica: **NECESSIDADE** do alimentado + **POSSIBILIDADE** do alimentante + **RAZOABILIDADE** (proporcionalidade). Espécies: provisionais (cautelar), provisórios (Lei 5.478/68 — concedidos liminarmente em ação de alimentos), definitivos (sentença de mérito). Prisão civil = único caso constitucional (CF 5º LXVII + Súmula 309/STJ).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Filiação (arts. 1.596-1.629)' },
+          { type: 'list', items: [
+            '**Art. 1.596** — filhos havidos no casamento OU FORA dele, ou por adoção, têm os MESMOS direitos. Vedada qualquer designação discriminatória',
+            '**Art. 1.597** — presumem-se concebidos na constância do casamento: I — nascidos 180+ dias após estabelecimento conjugal; II — 300 dias após dissolução; III — fecundação artificial homóloga; IV — havidos por inseminação artificial heteróloga (consentimento do marido); V — embriões excedentários (concepção homóloga in vitro)',
+            '**Art. 1.601** — direito de IMPUGNAR paternidade pertence ao marido; PRESCRITÍVEL (na CC original era imprescritível — atenção!)',
+            '**Art. 1.609** — reconhecimento voluntário: por escritura pública/particular, testamento, manifestação direta no termo de nascimento, ou em qualquer documento',
+            '**Art. 1.614** — filho maior NÃO pode ser reconhecido sem seu consentimento. Menor pode impugnar dentro de 4 anos seguintes à maioridade'
+          ] },
+          { type: 'h', text: 'Adoção (Lei 12.010/09 + ECA)' },
+          { type: 'list', items: [
+            'Disciplina: ECA (Lei 8.069/90) arts. 39-52-D + Lei 12.010/09 alterações',
+            'Adoção é IRREVOGÁVEL (regra) — equipara o adotado ao filho biológico, com mesmos direitos',
+            'Idade do adotante: 18 anos + 16 anos a mais que o adotado',
+            'Cadastro nacional de adoção; preferência aos cadastrados',
+            'Natureza JUDICIAL — ato constitutivo'
+          ] },
+          { type: 'h', text: 'Poder familiar (arts. 1.630-1.638)' },
+          { type: 'list', items: [
+            '**Art. 1.630** — filhos sujeitos ao poder familiar enquanto menores',
+            '**Art. 1.631** — exercício pelos PAIS, em pé de IGUALDADE',
+            '**Art. 1.634** — competência: criação, educação, companhia, autorização, representação/assistência, etc.',
+            '**Art. 1.638** — perda do poder familiar (por sentença): castigos imoderados, abandono, atos contrários à moral/bons costumes, faltas reiteradas dos deveres do art. 1.634, alienação parental, conduta criminosa contra o filho'
+          ] },
+          { type: 'h', text: 'Alimentos (arts. 1.694-1.710)' },
+          { type: 'list', items: [
+            '**Art. 1.694** — alimentos: necessidade do alimentado, possibilidade do alimentante, proporcionalidade',
+            '**Art. 1.694 § 2º** — alimentos serão IRRENUNCIÁVEIS (mas pode haver renúncia entre cônjuges em certos casos — STJ tem temperado)',
+            '**Art. 1.696** — direito de pedir alimentos é RECÍPROCO entre pais e filhos, parentes (em ordem)',
+            '**Art. 1.700** — obrigação alimentar TRANSMITE-SE aos herdeiros do devedor (até as forças da herança)',
+            '**Art. 1.703** — alimentos para os filhos, com observância do regime jurídico aplicável',
+            '**Art. 1.708** — cessão por casamento, união estável ou concubinato do credor; OU procedimento indigno'
+          ] },
+          { type: 'h', text: 'Tutela e curatela (arts. 1.728-1.783-A)' },
+          { type: 'list', items: [
+            '**TUTELA (1.728-1.766)** — proteção de MENOR não emancipado (sem pais ou com pais impedidos). Tutor é nomeado por testamento, lei (parente próximo) ou juiz',
+            '**CURATELA (1.767-1.783)** — proteção de pessoa que NÃO PODE EXPRIMIR vontade (causa transitória ou permanente — após Lei 13.146/15)',
+            '**Art. 1.772 (após EPD)** — curatela RESTRITA aos atos negociais e patrimoniais; não atinge "vida pessoal" (autonomia preservada)',
+            '**Art. 1.783-A** — TOMADA DE DECISÃO APOIADA: pessoa com deficiência elege apoiadores. Alternativa autonomista à curatela'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Multiparentalidade (RE 898.060)' },
+          { type: 'p', text: 'STF (Tema 622, RE 898.060) reconheceu a possibilidade de **DUPLA MATERNIDADE OU PATERNIDADE** (biológica + socioafetiva). Filho pode ter, no registro civil, mãe biológica + mãe socioafetiva (ou pai biológico + pai socioafetivo). Tese: "A paternidade socioafetiva, declarada ou não em registro, NÃO impede o reconhecimento concomitante do vínculo biológico." Tema vinculante.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 898.060 (Tema 622):** multiparentalidade é compatível com o ordenamento jurídico — vínculo socioafetivo NÃO afasta o biológico, e vice-versa.' },
+          { type: 'h', text: 'Alimentos — binômio (na verdade trinômio)' },
+          { type: 'p', text: '**Necessidade** (do alimentado) + **possibilidade** (do alimentante) + **proporcionalidade/razoabilidade** (CC art. 1.694 §1º). Critério clássico chamado às vezes de "binômio" (necessidade × possibilidade), mas hoje há tendência ao "trinômio" com proporcionalidade.' },
+          { type: 'h', text: 'Prisão civil do alimentante — Súmula 309/STJ' },
+          { type: 'p', text: '**Súmula 309/STJ:** débito alimentar que autoriza prisão civil compreende as **3 PRESTAÇÕES ANTERIORES** ao ajuizamento + as que vencerem no curso. Único caso CONSTITUCIONAL de prisão civil (CF 5º LXVII + SV 25/STF — depositário infiel acabou). Prisão é em regime FECHADO, 1 a 3 meses.' },
+          { type: 'h', text: 'EPD e curatela' },
+          { type: 'p', text: 'Após Lei 13.146/15, deficiência intelectual ou psíquica NÃO acarreta automaticamente incapacidade. Pessoa com deficiência tem PLENA CAPACIDADE. Curatela é EXCEPCIONAL e LIMITADA aos atos patrimoniais (art. 1.772). **Tomada de decisão apoiada** (1.783-A) é instrumento autonomista — pessoa elege apoiadores que assistem nas decisões sem retirar capacidade.' },
+          { type: 'h', text: 'Adoção — irrevogabilidade' },
+          { type: 'p', text: 'A adoção é IRREVOGÁVEL — regra clássica. Adotado tem mesmos direitos do filho biológico (CF art. 227 §6º — filhos havidos ou não da relação do casamento, ou por adoção, terão os mesmos direitos). Veda-se discriminação. STJ tem flexibilizado em casos excepcionais (adoção em interesse próprio, sem vínculo afetivo verdadeiro), mas a regra é firme.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Alimentos: trinômio NECESSIDADE × POSSIBILIDADE × PROPORCIONALIDADE.**' },
+          { type: 'box', kind: 'macete', text: '**Prisão civil: SÚMULA 309/STJ — 3 últimas + vincendas.** Único caso constitucional (CF 5º LXVII).' },
+          { type: 'box', kind: 'macete', text: '**Multiparentalidade: STF Tema 622 (RE 898.060).** Bio + sócioafetivo CONVIVEM.' },
+          { type: 'box', kind: 'macete', text: '**Curatela após EPD — só atos negociais e patrimoniais (1.772). Vida pessoal preservada.**' },
+          { type: 'box', kind: 'macete', text: '**Adoção = IRREVOGÁVEL (regra). Mesmos direitos do filho biológico (CF 227 §6º).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Vínculo socioafetivo NÃO AFASTA biológico** (STF Tema 622). Multiparentalidade reconhecida.' },
+          { type: 'box', kind: 'atencao', text: '**Filhos havidos FORA do casamento têm MESMOS direitos** (CC 1.596 + CF 227 §6º). Vedada qualquer discriminação.' },
+          { type: 'box', kind: 'atencao', text: '**Prisão civil só do alimentante** — depositário infiel NÃO mais (SV 25/STF).' },
+          { type: 'box', kind: 'atencao', text: '**Pessoa com deficiência tem CAPACIDADE PLENA** após EPD. Curatela excepcional, limitada (1.772).' },
+          { type: 'box', kind: 'atencao', text: '**Alimentos transmitem-se aos herdeiros** (até forças da herança — art. 1.700). Não morre com o devedor.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 17 (sucessões):** alimentos transmitem-se aos herdeiros (art. 1.700, até as forças).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (prescrição):** prazo prescricional para alimentos = 2 ANOS (art. 206 §2º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP):** intervenção em causas de família com incapazes (CPC 178 II); ECA + Estatuto do Idoso.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 13 (cumprimento alimentos):** prisão civil — Súmula 309/STJ (dívida das 3 últimas + vincendas).' },
+          { type: 'box', kind: 'conexao', text: '**Direito Constitucional:** CF arts. 226-230 (ordem familiar).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-17-sucessoes',
@@ -5557,19 +5733,114 @@ topics: [
     title: 'Sucessões',
     edital: '3.1.17',
     editalText: 'Sucessão legítima e testamentária. Inventário. Partilha. Colação. Sonegados. Petição de herança.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Abertura — saisine (CC art. 1.784)',
-      'Ordem de vocação hereditária',
-      'Direito do cônjuge × companheiro (RE 878.694)',
-      'Sucessão testamentária — formas (público, cerrado, particular)',
-      'Legítima × disponível; deserdação',
-      'Inventário judicial × extrajudicial (Lei 11.441/07)',
-      'Partilha amigável × judicial',
-      'Colação, sonegados, petição de herança',
-      'Cessão de direitos hereditários'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 4 da Fase 3 (mar/2027) — semana 3-4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O Direito das Sucessões (CC arts. 1.784-2.027) trata da TRANSMISSÃO PATRIMONIAL pela morte. Princípio fundamental: **SAISINE** (art. 1.784) — com a abertura da sucessão (morte), a herança transmite-se DESDE LOGO aos herdeiros legítimos e testamentários, AUTOMATICAMENTE. Independe de inventário ou partilha — esses apenas formalizam.' },
+          { type: 'p', text: '**Sucessão LEGÍTIMA** (decorre da lei — ordem de vocação hereditária do art. 1.829) × **TESTAMENTÁRIA** (decorre de testamento). Os herdeiros NECESSÁRIOS (descendentes, ascendentes, cônjuge — art. 1.845) têm direito à LEGÍTIMA (50% do patrimônio — art. 1.846). Pode-se dispor por testamento da PARTE DISPONÍVEL (50%).' },
+          { type: 'p', text: '**STF — RE 878.694 (Tema 809)** equiparou companheiro ao cônjuge para fins sucessórios — declarando inconstitucional o art. 1.790 do CC, que dava menos direitos ao companheiro. Companheiro hoje sucede como cônjuge (art. 1.829). Tema vinculante e cobrado.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Abertura da sucessão e saisine (arts. 1.784-1.792)' },
+          { type: 'list', items: [
+            '**Art. 1.784** — saisine: ABERTA a sucessão, herança transmite-se DESDE LOGO aos herdeiros legítimos e testamentários',
+            '**Art. 1.785** — sucessão abre-se no lugar do último DOMICÍLIO do falecido',
+            '**Art. 1.787** — lei aplicável: a vigente AO TEMPO DA ABERTURA. Lei nova retroage para alterar regras de testamento já existentes? Em regra não — respeita-se a lei do tempo da feitura',
+            '**Art. 1.788** — herda quem é HERDEIRO ou LEGATÁRIO ao tempo da abertura'
+          ] },
+          { type: 'h', text: 'Ordem de vocação hereditária (art. 1.829)' },
+          { type: 'list', items: [
+            '**I — descendentes, em concorrência com o CÔNJUGE** (salvo se casado com comunhão universal, separação obrigatória — separação CONVENCIONAL concorre — STJ tem orientação)',
+            '**II — ascendentes, em concorrência com o cônjuge**',
+            '**III — cônjuge sobrevivente** (sozinho)',
+            '**IV — colaterais** (até 4º grau)',
+            '**Após RE 878.694 — companheiro EQUIPARADO ao cônjuge** em todos os incisos'
+          ] },
+          { type: 'h', text: 'Herdeiros necessários e legítima (arts. 1.845-1.847)' },
+          { type: 'list', items: [
+            '**Art. 1.845** — herdeiros NECESSÁRIOS: descendentes, ascendentes, cônjuge. NÃO incluem colaterais',
+            '**Art. 1.846** — pertence aos herdeiros necessários, de pleno direito, a METADE do patrimônio (LEGÍTIMA). Outra metade = parte DISPONÍVEL',
+            '**Art. 1.847** — para cálculo da legítima, soma-se valor dos bens existentes ao tempo da abertura + valor das doações (colação)'
+          ] },
+          { type: 'h', text: 'Sucessão testamentária' },
+          { type: 'list', items: [
+            'Formas ORDINÁRIAS de testamento: PÚBLICO (art. 1.864 — feito em cartório, mais usado), CERRADO (art. 1.868 — confiado ao tabelião em envelope lacrado), PARTICULAR (art. 1.876 — escrito de próprio punho, com 3 testemunhas)',
+            'Formas ESPECIAIS: marítimo, aeronáutico, militar (situações específicas — exigem confirmação)',
+            '**Art. 1.857** — disposições testamentárias: instituição de herdeiros e legatários',
+            '**Art. 1.864 § 1º** — testamento público lavrado pelo tabelião + 2 testemunhas',
+            '**Art. 1.876** — testamento particular: escrito + assinatura + 3 testemunhas (pode ser DIGITADO desde Lei 14.382/22)'
+          ] },
+          { type: 'h', text: 'Inventário e partilha (arts. 1.991-2.027)' },
+          { type: 'list', items: [
+            '**Art. 2.013** — partilha pode ser feita por escritura pública (consensual) ou judicial',
+            '**Lei 11.441/07** — INVENTÁRIO EXTRAJUDICIAL (cartório): possível se houver consenso, partes capazes (sem incapazes), nenhuma controvérsia, todos com advogado',
+            '**Inventário judicial** — necessário com incapazes ou litígio',
+            'Prazo: 60 dias da abertura para iniciar inventário (CPC art. 611). Sentença em 12 meses ideal (mas raramente cumpre)',
+            '**ITCMD** — imposto de transmissão "causa mortis" — competência estadual (CF 155 I)'
+          ] },
+          { type: 'h', text: 'Colação, sonegados, petição de herança' },
+          { type: 'list', items: [
+            '**COLAÇÃO (arts. 2.002-2.012)** — descendentes que receberam doações em vida devem trazer à colação para igualar com os demais (proteção da legítima)',
+            '**SONEGAÇÃO (arts. 1.992-1.996)** — herdeiro que esconde bens da herança perde o direito sobre eles + responde por perdas e danos',
+            '**PETIÇÃO DE HERANÇA (arts. 1.824-1.828)** — ação para reivindicação da herança contra quem a possui sem direito; PRESCRITÍVEL (10 anos — art. 205, conforme entendimento STJ); em alguns casos imprescritível'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Saisine (art. 1.784)' },
+          { type: 'p', text: 'Princípio MEDIEVAL francês ("Le mort saisit le vif" — o morto investe o vivo). Com a abertura da sucessão (= morte), a herança transmite-se AUTOMATICAMENTE aos herdeiros, no estado em que se encontram. Inventário e partilha apenas FORMALIZAM. Importância prática: herdeiros são proprietários desde o óbito; antes da partilha = condomínio entre eles (mancomunhão hereditária).' },
+          { type: 'h', text: 'Companheiro = cônjuge (RE 878.694)' },
+          { type: 'p', text: 'Antes do RE 878.694: art. 1.790 do CC dava direitos sucessórios LIMITADOS ao companheiro (em geral, somente quanto a bens onerosamente adquiridos). STF (Tema 809, 2017) declarou INCONSTITUCIONAL o art. 1.790, equiparando companheiro a cônjuge para todos os fins sucessórios (art. 1.829). HOJE: companheiro herda como cônjuge.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 878.694 (Tema 809):** companheiro tem MESMOS direitos sucessórios que o cônjuge. Inconstitucional o art. 1.790 do CC (que estabelecia tratamento inferior).' },
+          { type: 'h', text: 'Concorrência cônjuge × descendentes (art. 1.829 I)' },
+          { type: 'p', text: 'Cônjuge concorre com descendentes EM REGRA. Exceções (não concorre): (a) comunhão UNIVERSAL; (b) separação OBRIGATÓRIA; (c) comunhão parcial sem bens particulares do falecido. Se o cônjuge concorre, recebe quota igual à dos descendentes que sucederem por cabeça (mínimo de 1/4 se concorrer com seus próprios descendentes — art. 1.832).' },
+          { type: 'h', text: 'Sucessão testamentária — teste da capacidade do testador' },
+          { type: 'p', text: 'A capacidade aferi-se NO MOMENTO DA FEITURA do testamento (art. 1.861). Se feito quando capaz, mantém-se válido ainda que o testador depois se torne incapaz. Inversamente: testamento de incapaz é NULO, mesmo que ele depois recupere capacidade. Lei aplicável: a vigente ao tempo da CONFECÇÃO (art. 1.787, in fine).' },
+          { type: 'h', text: 'Inventário extrajudicial (Lei 11.441/07)' },
+          { type: 'p', text: 'Requisitos: (a) consenso entre todos os interessados; (b) partes capazes; (c) sem incapazes envolvidos; (d) sem testamento (Lei 11.441 — alterada pela Lei 14.382/22 que admitiu nas hipóteses sem litígio); (e) com advogado (todos representados ou compartilhando o mesmo advogado, se houver consenso); (f) por escritura pública.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**SAISINE — herança transmite AUTOMÁTICA com a morte** (art. 1.784).' },
+          { type: 'box', kind: 'macete', text: '**Vocação hereditária — DAC C: Descendentes · Ascendentes · Cônjuge sozinho · Colaterais.**' },
+          { type: 'box', kind: 'macete', text: '**Companheiro = cônjuge** (STF Tema 809). Art. 1.790 do CC inconstitucional.' },
+          { type: 'box', kind: 'macete', text: '**Legítima = 50% (herdeiros necessários: D-A-C). Disponível = 50%.**' },
+          { type: 'box', kind: 'macete', text: '**3 formas ordinárias de testamento: PÚBLICO · CERRADO · PARTICULAR.**' },
+          { type: 'box', kind: 'macete', text: '**Inventário extrajudicial: 11.441/07 — sem incapazes, com consenso e advogado.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Companheiro herda como cônjuge** (STF RE 878.694). Antes não era — atualizou-se em 2017.' },
+          { type: 'box', kind: 'atencao', text: '**Saisine — herança transmite automaticamente** (art. 1.784). Antes do inventário, herdeiros já são proprietários (mancomunhão).' },
+          { type: 'box', kind: 'atencao', text: '**Colaterais NÃO são herdeiros necessários** (art. 1.845). Apenas descendentes, ascendentes, cônjuge.' },
+          { type: 'box', kind: 'atencao', text: '**Cônjuge NÃO concorre** com descendentes em comunhão UNIVERSAL nem em separação OBRIGATÓRIA. Confusão recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Capacidade do testador afere-se NO MOMENTO da feitura** (art. 1.861). Decisão posterior do testador como incapaz não invalida.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (família):** alimentos transmitem-se aos herdeiros (art. 1.700, até as forças da herança).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 9 (contratos em espécie):** doação não excede o valor disponível em testamento (art. 549 — proteção da legítima).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (prescrição):** petição de herança em geral em 10 anos (regra geral).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 14 (procedimentos especiais):** inventário judicial = procedimento especial (CPC arts. 610-673).' },
+          { type: 'box', kind: 'conexao', text: '**Direito Tributário:** ITCMD — competência estadual (CF 155 I); fato gerador na abertura da sucessão.' }
+        ]
+      }
+    ]
   }
 ],
 
@@ -5876,7 +6147,28 @@ flashcards: [
   { id: 230, topic: 14, materia: 'civil', q: 'O usufruto é transmissível por sucessão hereditária?', a: 'NÃO. Usufruto é PERSONALÍSSIMO — extingue-se com a MORTE do usufrutuário (CC art. 1.410 I). Não passa aos herdeiros. Pode ser vitalício ou por tempo determinado (não excedendo a vida).', tags: ['fase3', 'usufruto'] },
   { id: 231, topic: 14, materia: 'civil', q: 'Diferença entre servidão e usufruto?', a: 'SERVIDÃO é direito real entre PRÉDIOS (dominante e serviente — passagem, aqueduto). USUFRUTO é direito real entre PESSOA (usufrutuário) e COISA. Servidão é permanente; usufruto é pessoal e extingue com morte.', tags: ['fase3', 'servidao', 'usufruto'] },
   { id: 232, topic: 14, materia: 'civil', q: 'Alienação fiduciária imobiliária — como funciona em caso de inadimplemento?', a: 'Lei 9.514/97 art. 26-27: devedor inadimplente é intimado; persistindo a mora, credor CONSOLIDA propriedade em seu nome (registro). Em 60 dias, deve realizar 2 LEILÕES PÚBLICOS (1º com lance mínimo do valor do imóvel; 2º livre).', tags: ['fase3', 'alienacao-fiduciaria'] },
-  { id: 233, topic: 14, materia: 'civil', q: 'A CUEM (Concessão de Uso Especial para Moradia) é usucapião?', a: 'NÃO. Bens PÚBLICOS não se usucapem (Súmula 340/STF). CUEM é direito real ADMINISTRATIVO regido pela MP 2.220/01 — ocupação de imóvel público até 250m² urbano por 5+ anos para moradia, sem outro imóvel.', tags: ['fase3', 'CUEM'] }
+  { id: 233, topic: 14, materia: 'civil', q: 'A CUEM (Concessão de Uso Especial para Moradia) é usucapião?', a: 'NÃO. Bens PÚBLICOS não se usucapem (Súmula 340/STF). CUEM é direito real ADMINISTRATIVO regido pela MP 2.220/01 — ocupação de imóvel público até 250m² urbano por 5+ anos para moradia, sem outro imóvel.', tags: ['fase3', 'CUEM'] },
+
+  // ============ Bloco 17 — Fase 3 (Civil 15-17 — Família e Sucessões) ============
+  // Civ 15 — Família geral
+  { id: 234, topic: 15, materia: 'civil', q: 'Diferença entre impedimentos e causas suspensivas para o casamento?', a: 'IMPEDIMENTOS (art. 1.521): rol taxativo — geram NULIDADE se desrespeitados. CAUSAS SUSPENSIVAS (art. 1.523): casamento celebra-se mas em REGIME OBRIGATÓRIO de separação de bens (art. 1.641 III).', tags: ['fase3', 'familia', 'casamento'] },
+  { id: 235, topic: 15, materia: 'civil', q: 'União estável tem prazo mínimo?', a: 'NÃO (STJ REsp 1.094.957). CC art. 1.723 não fixa prazo — exige convivência PÚBLICA, CONTÍNUA, DURADOURA com objetivo de constituir família. Critério é qualitativo, não cronológico.', tags: ['fase3', 'familia', 'uniao-estavel'] },
+  { id: 236, topic: 15, materia: 'civil', q: 'Pessoas com 70+ anos: regime obrigatório?', a: 'SIM — separação OBRIGATÓRIA de bens (art. 1.641 II — Lei 12.344/10). Súmula 377/STJ ATENUA: bens adquiridos na constância do casamento se comunicam por esforço comum.', tags: ['fase3', 'familia', 'regime-bens'] },
+  { id: 237, topic: 15, materia: 'civil', q: 'União homoafetiva é entidade familiar?', a: 'SIM. STF (ADI 4.277 + ADPF 132, 2011) reconheceu união entre pessoas do mesmo sexo como entidade familiar. CNJ Resolução 175/2013 determinou aos cartórios celebrar casamento. STF RE 646.721 equiparou direitos sucessórios.', tags: ['fase3', 'familia', 'homoafetiva'] },
+
+  // Civ 16 — Família específico (alimentos, filiação, tutela)
+  { id: 238, topic: 16, materia: 'civil', q: 'STF — Tema 622 (RE 898.060) — qual tese?', a: 'MULTIPARENTALIDADE — paternidade socioafetiva NÃO impede o reconhecimento concomitante do vínculo biológico. Filho pode ter no registro pai/mãe biológicos + socioafetivos. Tese vinculante.', tags: ['fase3', 'filiacao', 'multiparentalidade'] },
+  { id: 239, topic: 16, materia: 'civil', q: 'Critério para fixação de alimentos (art. 1.694 §1º)?', a: 'TRINÔMIO: NECESSIDADE do alimentado + POSSIBILIDADE do alimentante + PROPORCIONALIDADE (razoabilidade). Aplica-se em qualquer modalidade — provisional, provisória, definitiva.', tags: ['fase3', 'alimentos'] },
+  { id: 240, topic: 16, materia: 'civil', q: 'Súmula 309/STJ — qual a regra para prisão civil?', a: 'Débito alimentar que autoriza prisão civil = 3 PRESTAÇÕES ANTERIORES ao ajuizamento + as que vencerem no curso do processo. Único caso constitucional de prisão civil (CF 5º LXVII). Regime FECHADO, 1-3 meses.', tags: ['fase3', 'alimentos', 'prisao-civil'] },
+  { id: 241, topic: 16, materia: 'civil', q: 'Curatela após o EPD (Lei 13.146/15) tem que escopo?', a: 'RESTRITA aos atos NEGOCIAIS e PATRIMONIAIS (art. 1.772). NÃO atinge "vida em geral" — autonomia da pessoa preservada. Tomada de Decisão Apoiada (TDA — art. 1.783-A) é alternativa autonomista.', tags: ['fase3', 'curatela', 'EPD'] },
+  { id: 242, topic: 16, materia: 'civil', q: 'Prazo prescricional para alimentos?', a: '2 ANOS (art. 206 §2º) para pretensão de alimentos VENCIDOS. Prazo curto cobrado em prova.', tags: ['fase3', 'alimentos', 'prescricao'] },
+
+  // Civ 17 — Sucessões
+  { id: 243, topic: 17, materia: 'civil', q: 'O que é o princípio da SAISINE (CC art. 1.784)?', a: 'Com a abertura da sucessão (morte), a herança transmite-se DESDE LOGO aos herdeiros legítimos e testamentários, AUTOMATICAMENTE. Inventário e partilha apenas FORMALIZAM. Princípio medieval francês ("Le mort saisit le vif").', tags: ['fase3', 'sucessoes', 'saisine'] },
+  { id: 244, topic: 17, materia: 'civil', q: 'STF — Tema 809 — companheiro tem direitos sucessórios iguais aos do cônjuge?', a: 'SIM (RE 878.694, 2017). STF declarou inconstitucional o art. 1.790 do CC que dava direitos limitados ao companheiro. Hoje companheiro herda nos mesmos termos do cônjuge (art. 1.829).', tags: ['fase3', 'sucessoes', 'companheiro'] },
+  { id: 245, topic: 17, materia: 'civil', q: 'Quem são os herdeiros NECESSÁRIOS (art. 1.845)?', a: 'DESCENDENTES, ASCENDENTES e CÔNJUGE (após RE 878.694, equipara-se companheiro). NÃO incluem colaterais. Têm direito à LEGÍTIMA (50% do patrimônio — art. 1.846).', tags: ['fase3', 'sucessoes', 'herdeiros'] },
+  { id: 246, topic: 17, materia: 'civil', q: 'Quando cabe inventário extrajudicial?', a: 'Lei 11.441/07: consenso entre interessados + partes capazes + SEM incapazes + advogado (mesmo se compartilhado) + por escritura pública. Sem litígio. Lei 14.382/22 admitiu nas hipóteses sem litígio mesmo com testamento.', tags: ['fase3', 'sucessoes', 'inventario'] },
+  { id: 247, topic: 17, materia: 'civil', q: 'Quais as 3 formas ordinárias de testamento?', a: 'PÚBLICO (art. 1.864 — em cartório, mais usado), CERRADO (art. 1.868 — entregue lacrado ao tabelião), PARTICULAR (art. 1.876 — escrito + 3 testemunhas; pode ser digitado pela Lei 14.382/22).', tags: ['fase3', 'sucessoes', 'testamento'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -7282,6 +7574,73 @@ questions: [
     ],
     correct: 'D',
     explanation: 'CC art. 1.410 I: usufruto extingue-se com a MORTE do usufrutuário — NÃO se transmite aos herdeiros. (A), (B), (C), (E) — todas corretas conforme CC arts. 1.390-1.411.'
+  },
+
+  // ============ Bloco 17 — Fase 3 (Civil 15-17 — Família e Sucessões) ============
+  {
+    id: 97, topic: 15, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os efeitos jurídicos do casamento e da união estável após a CF/88, é correto afirmar:',
+    alternatives: [
+      'A união estável exige prazo mínimo de 5 anos para configurar entidade familiar.',
+      'A união entre pessoas do mesmo sexo NÃO é reconhecida como entidade familiar pelo ordenamento brasileiro.',
+      'A EC 66/2010 acabou com a separação judicial e o prazo do divórcio, instituindo o divórcio direto.',
+      'O regime obrigatório de separação de bens para pessoas com 70+ anos NÃO admite a Súmula 377/STJ.',
+      'O concubinato impuro (entre pessoas impedidas de casar) constitui sempre união estável.'
+    ],
+    correct: 'C',
+    explanation: 'EC 66/2010: divórcio direto, sem separação judicial nem prazo mínimo. (A) Falso — STJ não exige prazo mínimo. (B) Falso — STF ADI 4.277 reconheceu união homoafetiva. (D) Falso — Súmula 377/STJ aplica-se ao 1.641 (separação obrigatória), atenuando rigor. (E) Falso — concubinato (1.727) NÃO é união estável.'
+  },
+  {
+    id: 98, topic: 16, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os alimentos no direito civil brasileiro, é correto afirmar:',
+    alternatives: [
+      'A obrigação alimentar extingue-se com a morte do alimentante, não se transmitindo aos herdeiros.',
+      'O critério para fixação dos alimentos é apenas a necessidade do alimentado, dispensando análise da possibilidade do alimentante.',
+      'A prisão civil do alimentante é cabível pelo débito relativo às 3 prestações anteriores ao ajuizamento e às vincendas no curso do processo (Súmula 309/STJ).',
+      'O prazo prescricional para a pretensão de alimentos vencidos é de 5 anos.',
+      'Os alimentos são livremente renunciáveis, em razão do princípio da autonomia da vontade.'
+    ],
+    correct: 'C',
+    explanation: 'Súmula 309/STJ: 3 prestações anteriores + vincendas. (A) Falso — art. 1.700: transmite-se aos herdeiros (forças da herança). (B) Falso — trinômio: necessidade + possibilidade + proporcionalidade. (D) Falso — prazo é 2 ANOS (art. 206 §2º). (E) Falso — alimentos são IRRENUNCIÁVEIS (art. 1.694 §2º), com mitigações.'
+  },
+  {
+    id: 99, topic: 16, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a multiparentalidade conforme entendimento do STF (RE 898.060 — Tema 622), é correto afirmar:',
+    alternatives: [
+      'A paternidade socioafetiva exclui o reconhecimento concomitante do vínculo biológico.',
+      'Apenas a paternidade biológica gera efeitos jurídicos plenos, sendo a socioafetiva mera "afeição moral".',
+      'A paternidade socioafetiva, declarada ou não em registro, NÃO impede o reconhecimento concomitante do vínculo biológico — admite-se a multiparentalidade.',
+      'O reconhecimento da multiparentalidade depende de autorização judicial específica em cada caso, sem caráter geral.',
+      'A multiparentalidade é vedada pelo CC/02, que estabelece a unicidade do vínculo de filiação.'
+    ],
+    correct: 'C',
+    explanation: 'STF Tema 622 (RE 898.060): tese vinculante reconhecendo multiparentalidade. (A), (B), (D), (E) contradizem o entendimento.'
+  },
+  {
+    id: 100, topic: 17, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o princípio da saisine e a ordem de vocação hereditária, é correto afirmar:',
+    alternatives: [
+      'A herança transmite-se aos herdeiros somente após a partilha judicial, em razão do princípio da formalização.',
+      'Pelo princípio da saisine (CC art. 1.784), a herança transmite-se desde logo aos herdeiros legítimos e testamentários no momento da abertura da sucessão.',
+      'Os colaterais até o 4º grau são considerados herdeiros necessários, possuindo direito à legítima.',
+      'O companheiro tem direitos sucessórios inferiores aos do cônjuge, conforme art. 1.790 do Código Civil.',
+      'A capacidade do testador é aferida no momento da execução do testamento, e não no momento de sua feitura.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 1.784: saisine — transmissão automática com a morte. (A) Falso — partilha apenas formaliza. (C) Falso — colaterais NÃO são necessários (art. 1.845). (D) Falso — STF Tema 809 (RE 878.694) declarou inconstitucional o art. 1.790; companheiro = cônjuge. (E) Falso — capacidade afere-se no momento da FEITURA (art. 1.861).'
+  },
+  {
+    id: 101, topic: 17, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito do inventário extrajudicial (Lei 11.441/07 e alterações), é correto afirmar:',
+    alternatives: [
+      'É obrigatório em qualquer hipótese de sucessão, em razão do princípio da celeridade.',
+      'Pode ser realizado em cartório quando todos os interessados forem capazes, houver consenso, sem incapazes envolvidos, com advogado, por escritura pública.',
+      'Dispensa a presença de advogado, em razão da natureza puramente administrativa do procedimento.',
+      'Aplica-se quando há litígio entre os herdeiros, pois substitui o procedimento judicial pelo arbitral.',
+      'A Lei 14.382/22 reduziu as hipóteses de inventário extrajudicial, restringindo seu uso.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 11.441/07: inventário extrajudicial requer consenso + capacidade + sem incapazes + advogado + escritura pública. (A) Falso — opção, não obrigação. (C) Falso — exige advogado. (D) Falso — exige consenso, não cabe litígio. (E) Falso — Lei 14.382/22 AMPLIOU as hipóteses (admitindo até com testamento sem litígio).'
   }
 ],
 
