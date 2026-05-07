@@ -2184,38 +2184,185 @@ topics: [
     schedule: 'Mês 4, Semana 4 + transbordo',
     advantage: null,
     sections: [
-      { h: 'Recursos no CPC', items: [
-        'Apelação (1009-1014): prazo 15 dias, efeito suspensivo regra; juízo de retratação só em hipóteses específicas',
-        'Agravo de instrumento (1015-1020): rol TAXATIVO MITIGADO (Tema 988/STJ — admite por interpretação extensiva quando há urgência)',
-        'Agravo interno (1021)',
-        'Embargos de declaração (1022-1026): obscuridade, contradição, omissão, erro material',
-        'Recurso ordinário (1027-1028)',
-        'RE (CF art. 102 III) e REsp (CF art. 105 III)',
-        'Embargos de divergência (1043-1044)',
-        'Agravo em RE/REsp (1042)'
-      ]},
-      { h: 'Sistema de precedentes', items: [
-        'Categorias (CPC art. 927): I) decisões STF em controle concentrado; II) súmulas vinculantes; III) acórdãos em IAC, IRDR, REs/REsps repetitivos; IV) súmulas STF (constitucional) e STJ (federal); V) orientação do plenário/órgão especial',
-        'Ratio decidendi (vinculante) × obiter dictum (não vinculante)',
-        'Distinguishing e overruling (CPC art. 489 §1º V e VI)',
-        'IRDR (CPC arts. 976-987): pressupostos, suspensão, eficácia',
-        'Repercussão geral no RE; relevância no REsp (EC 125/2022)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 926-1044',
-        'CF/88 arts. 102 (STF), 105 (STJ)'
-      ]},
-      { h: 'Jurisprudência crítica', items: [
-        'STJ Tema 988 — taxatividade mitigada do art. 1015',
-        'STF — modulação de efeitos em mudança de jurisprudência',
-        'Súmula 7/STJ — incompatibilidade de REsp com reexame de prova',
-        'Súmula 280/STF — incompatibilidade de RE com matéria local'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Prazo recursal: 15 dias (regra) × 5 dias (embargos de declaração)',
-        'Sucumbência recursal (CPC art. 85 §11) — majoração na ED ou apelação parcialmente provida',
-        'Princípio da fungibilidade: erro razoável + tempestividade do recurso correto'
-      ]}
+      {
+        h: 'Estratégia',
+        items: [
+          { type: 'box', kind: 'info', text: '**Tópico GIGANTE.** Estude por blocos: (1) processos nos tribunais (ordem, originárias); (2) teoria geral dos recursos; (3) recursos em espécie; (4) RE/REsp/agravos; (5) sistema de precedentes; (6) IRDR/IAC. Reserve 10-12 dias.' }
+        ]
+      },
+      {
+        h: 'Princípios e teoria geral dos recursos',
+        items: [
+          { type: 'p', text: '**Recurso** é remédio voluntário, idôneo a impugnar, no mesmo processo, ato decisório. Princípios:' },
+          { type: 'list', items: [
+            '**Voluntariedade** — depende da provocação da parte legitimada',
+            '**Taxatividade** — apenas os recursos previstos em lei (rol exaustivo no art. 994)',
+            '**Singularidade** — para cada decisão, um recurso (regra; salvo RE + REsp simultâneos)',
+            '**Fungibilidade** — admitida em caso de dúvida razoável (não erro grosseiro) + tempestividade do recurso correto',
+            '**Dialeticidade** — necessidade de razões; impugnação específica',
+            '**Devolutividade** — devolve a matéria ao tribunal nos limites pedidos (tantum devolutum quantum appellatum) + efeito translativo (matérias de ordem pública sobem mesmo sem recorrida)',
+            '**Suspensividade** — alguns têm efeito suspensivo automático (apelação, regra), outros não (agravo)',
+            '**Vedação à reforma para pior (non reformatio in pejus)** — salvo recurso adesivo do adversário ou matérias de ordem pública',
+            '**Complementaridade** — possibilidade de aditar razões em embargos de declaração',
+            '**Proibição da reformatio in pejus** — referência expressa do CPC/15'
+          ]},
+          { type: 'p', text: '**Pressupostos recursais (admissibilidade):**' },
+          {
+            type: 'table',
+            headers: ['Pressuposto', 'Categoria', 'Significado'],
+            rows: [
+              ['Cabimento', 'Objetivo', 'Recurso adequado e existente para a decisão'],
+              ['Tempestividade', 'Objetivo', 'Dentro do prazo (15 dias regra; 5 ED; 30 RO)'],
+              ['Preparo', 'Objetivo', 'Pagamento das custas; isentos: gratuidade, MP, DP, Fazenda (art. 1.007 §1º)'],
+              ['Regularidade formal', 'Objetivo', 'Razões, contrarrazões, peças essenciais (no AI)'],
+              ['Inexistência de fato impeditivo', 'Objetivo', 'Não desistência, renúncia, aceitação tácita'],
+              ['Legitimidade', 'Subjetivo', 'Parte vencida, terceiro prejudicado, MP (art. 996)'],
+              ['Interesse', 'Subjetivo', 'Sucumbência (necessidade + utilidade)']
+            ]
+          },
+          { type: 'p', text: '**Prazos uniformizados (CPC/15 — art. 1.003):** **15 DIAS ÚTEIS** para a maioria; **5 dias** para embargos de declaração (art. 1.023); **30 dias** para recurso ordinário em causas internacionais (art. 1.027 §3º). Conta-se da intimação do advogado (DJe) — não da publicação no DOU.' }
+        ]
+      },
+      {
+        h: 'Recursos em espécie (art. 994)',
+        items: [
+          { type: 'h', text: 'Apelação (arts. 1.009-1.014)' },
+          { type: 'p', text: '**Cabe** contra SENTENÇA. Prazo 15 dias úteis. **Efeito suspensivo é REGRA** (art. 1.012) — exceções no §1º (homologação de divórcio, condenação alimentar, decreto de interdição etc.). **Efeito devolutivo + translativo** — devolve toda a matéria do mérito impugnada + matérias cognoscíveis de ofício.' },
+          { type: 'p', text: '**Inovação CPC/15 (art. 1.013 §3º):** TEORIA DA CAUSA MADURA — se a sentença é apenas terminativa (sem mérito), o tribunal pode JULGAR DIRETO O MÉRITO se a causa estiver pronta para julgamento (art. 1.013 §3º). Inversão da lógica do CPC/73 (que devolvia para a 1ª instância).' },
+          { type: 'h', text: 'Agravo de instrumento (arts. 1.015-1.020)' },
+          { type: 'p', text: '**Cabe** contra DECISÕES INTERLOCUTÓRIAS — mas APENAS as taxativamente previstas no art. 1.015 (rol):' },
+          { type: 'list', items: [
+            'I — tutelas provisórias',
+            'II — mérito do processo (julgamento parcial)',
+            'III — rejeição da alegação de convenção de arbitragem',
+            'IV — incidente de desconsideração da personalidade jurídica',
+            'V — rejeição do pedido de gratuidade ou acolhimento do pedido de revogação',
+            'VI — exibição ou posse de documento ou coisa',
+            'VII — exclusão de litisconsorte',
+            'VIII — rejeição de limitação do litisconsórcio',
+            'IX — admissão ou inadmissão de intervenção de terceiros',
+            'X — concessão, modificação ou revogação do efeito suspensivo aos embargos à execução',
+            'XI — redistribuição do ônus da prova nos termos do art. 373 §1º',
+            'XIII — outros casos expressamente referidos em lei',
+            'Parágrafo único — também em liquidação, cumprimento, execução e inventário'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 988 (REsp 1.704.520):** o rol do art. 1.015 é de TAXATIVIDADE MITIGADA — admite-se interpretação EXTENSIVA para hipóteses análogas, em casos de URGÊNCIA decorrente da inutilidade do julgamento da apelação. **Tese revolucionária**, marca a jurisprudência do CPC/15.' },
+          { type: 'p', text: 'Decisões interlocutórias NÃO recorríveis por agravo: **PRECLUSÃO TARDIA** — discutidas em PRELIMINAR DE APELAÇÃO ou em CONTRARRAZÕES (art. 1.009 §1º). Engenhoso mecanismo do CPC/15.' },
+          { type: 'h', text: 'Agravo interno (art. 1.021)' },
+          { type: 'p', text: 'Recurso contra DECISÃO MONOCRÁTICA do relator. Prazo 15 dias. Levado ao colegiado (turma, câmara). Pode ter sucumbência recursal (art. 85 §11).' },
+          { type: 'h', text: 'Embargos de declaração (arts. 1.022-1.026)' },
+          { type: 'p', text: 'Cabíveis contra QUALQUER decisão (sentença, acórdão, interlocutória). Prazo: **5 DIAS**. Hipóteses (art. 1.022):' },
+          { type: 'list', items: [
+            'I — esclarecer obscuridade ou eliminar contradição',
+            'II — suprir omissão (incluindo omissão sobre matéria que o juiz devia decidir de ofício)',
+            'III — corrigir erro material',
+            'Parágrafo único — também: omissão decorrente do art. 489 §1º (fundamentação inadequada)'
+          ]},
+          { type: 'p', text: '**Efeito INTERRUPTIVO** (art. 1.026 caput) do prazo dos demais recursos para TODAS AS PARTES. Mudança em relação ao CPC/73 (que era apenas suspensivo). Importante.' },
+          { type: 'p', text: '**Multa por embargos protelatórios (art. 1.026 §§2º-3º):** até 2% do valor atualizado da causa (1ª oposição); até 10% (segunda oposição). Reiteração condicionada a depósito.' },
+          { type: 'h', text: 'Recurso ordinário (arts. 1.027-1.028)' },
+          { type: 'p', text: 'Cabe ao STJ contra: (i) MS, HC, MI, HD denegados pelos TJs e TRFs; (ii) causas em que figurem como partes Estado estrangeiro × residente no Brasil. Cabe ao STF contra: MS, HC, MI, HD denegados em única instância pelos tribunais superiores.' },
+          { type: 'h', text: 'Recurso Extraordinário e Recurso Especial' },
+          { type: 'p', text: '**RE (CF art. 102 III):** cabe ao STF contra decisão de única ou última instância que: (a) contrariar dispositivo da CF; (b) declarar a inconstitucionalidade de tratado ou lei federal; (c) julgar válida lei ou ato local contestado em face da CF; (d) julgar válida lei local contestada em face de lei federal.' },
+          { type: 'p', text: '**REsp (CF art. 105 III):** cabe ao STJ contra decisão de única ou última instância de TJ ou TRF que: (a) contrariar tratado ou lei federal, ou negar-lhes vigência; (b) julgar válido ato de governo local contestado em face de lei federal; (c) der à lei federal interpretação divergente da que lhe haja atribuído outro tribunal.' },
+          { type: 'p', text: '**Pressupostos comuns: prequestionamento** (a matéria deve ter sido enfrentada na decisão recorrida); decisão de última instância; recurso intempestivo, etc. **Súmulas críticas:** 7/STJ (incompatibilidade com reexame de prova), 280/STF (matéria local), 282 e 356 do STF (prequestionamento).' },
+          { type: 'p', text: '**Repercussão geral no RE (CF 102 §3º + CPC arts. 1.035-1.041):** existência de questões relevantes do ponto de vista econômico, político, social ou jurídico que ultrapassem os interesses subjetivos da causa. **Relevância no REsp (EC 125/2022 + Lei 14.344):** introduzido em 2022 — análogo à repercussão geral, em fase de implementação.' },
+          { type: 'h', text: 'Embargos de divergência (arts. 1.043-1.044)' },
+          { type: 'p', text: 'Cabíveis no STF e STJ contra acórdão de turma que divirja de outra turma, da seção ou do órgão especial sobre direito federal. Função uniformizadora interna.' },
+          { type: 'h', text: 'Agravo em RE/REsp (art. 1.042)' },
+          { type: 'p', text: 'Cabe contra decisão do tribunal de origem que NÃO ADMITE RE/REsp. Sobe direto para STF/STJ. Prazo 15 dias.' }
+        ]
+      },
+      {
+        h: 'Sistema de precedentes (arts. 926-928)',
+        items: [
+          { type: 'h', text: 'Marco constitucional do CPC/15' },
+          { type: 'p', text: 'O CPC/15 institucionaliza um SISTEMA DE PRECEDENTES VINCULANTES — busca dar efetividade à isonomia, segurança jurídica e celeridade. Arts. 926-928 são "constitucionais do código".' },
+          { type: 'p', text: '**Dever dos tribunais (art. 926):** uniformizar jurisprudência, mantê-la **estável**, **íntegra** e **coerente**.' },
+          { type: 'h', text: 'Precedentes VINCULANTES (art. 927)' },
+          { type: 'p', text: 'O juiz e o tribunal **OBSERVARÃO**:' },
+          { type: 'list', items: [
+            '**I** — decisões do STF em CONTROLE CONCENTRADO de constitucionalidade (ADI, ADC, ADPF)',
+            '**II** — enunciados de SÚMULA VINCULANTE',
+            '**III** — acórdãos em IAC, IRDR e em julgamento de RECURSOS REPETITIVOS (STF e STJ)',
+            '**IV** — enunciados de SÚMULA do STF em matéria CONSTITUCIONAL e do STJ em matéria FEDERAL',
+            '**V** — orientação do plenário ou órgão especial dos tribunais aos quais estiverem vinculados'
+          ]},
+          { type: 'p', text: '**Categorias com mais força:** I, II e III são vinculantes em sentido FORTE; IV e V em sentido mais brando (devem ser observados com motivação para distinguir).' },
+          { type: 'h', text: 'Conceitos centrais — ratio decidendi, distinguishing, overruling' },
+          { type: 'list', items: [
+            '**Ratio decidendi** — fundamento JURÍDICO determinante da decisão; é o que vincula',
+            '**Obiter dictum** — observações laterais, sem força vinculante',
+            '**Distinguishing** — distinção: o caso atual difere do precedente em aspecto relevante; afasta a aplicação (não desafia o precedente)',
+            '**Overruling** — superação: o precedente é alterado ou abandonado pelo próprio tribunal (mudança expressa da jurisprudência); pode haver MODULAÇÃO de efeitos (CPC art. 927 §3º)'
+          ]},
+          { type: 'p', text: '**Fundamentação que descumpre o precedente sem distinguir/superar é NULA** (art. 489 §1º V e VI). Ligação umbilical com a fundamentação substancial estudada no Tópico 11.' },
+          { type: 'h', text: 'IRDR — Incidente de Resolução de Demandas Repetitivas (arts. 976-987)' },
+          { type: 'p', text: 'Instaurado quando há (cumulativamente — art. 976):' },
+          { type: 'list', items: [
+            'EFETIVA REPETIÇÃO de processos com idêntica questão UNICAMENTE DE DIREITO',
+            'RISCO DE OFENSA À ISONOMIA e à segurança jurídica'
+          ]},
+          { type: 'p', text: '**Legitimidade:** juiz/relator de ofício; partes; MP; Defensoria Pública (art. 977). **Competência:** TJ ou TRF. **Suspensão:** todos os processos pendentes sobre a matéria, no Estado ou na região, ficam suspensos por 1 ano (art. 982). **Tese fixada:** vincula todos os processos, presentes e futuros, no âmbito do tribunal — pode subir ao STF/STJ por RE/REsp para extensão nacional (art. 987).' },
+          { type: 'h', text: 'IAC — Incidente de Assunção de Competência (art. 947)' },
+          { type: 'p', text: 'Quando o relator propõe, há relevante questão de direito com grande repercussão social, sem repetição em múltiplos processos. Levado ao órgão indicado pelo regimento. Tese vincula todos os juízes e órgãos fracionários (art. 947 §3º).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 926-928** — sistema de precedentes',
+            '**Arts. 932-947** — processos nos tribunais; relator; IAC',
+            '**Arts. 976-987** — IRDR',
+            '**Arts. 988-1.044** — recursos',
+            '**Art. 1.003** — prazos recursais',
+            '**Art. 1.007** — preparo',
+            '**Art. 1.009** — apelação',
+            '**Art. 1.013 §3º** — teoria da causa madura',
+            '**Art. 1.015** — agravo de instrumento (rol)',
+            '**Art. 1.022** — embargos de declaração',
+            '**Arts. 1.027-1.028** — recurso ordinário',
+            '**Arts. 1.029-1.041** — RE e REsp; repetitivos',
+            '**Art. 1.035** — repercussão geral no RE',
+            '**Arts. 1.043-1.044** — embargos de divergência',
+            '**CF/88 arts. 102 (STF), 103-A (SV), 105 (STJ)**'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Prazos recursais — "15-5-30":** **15** dias regra (apelação, AI, AInt, RE, REsp); **5** dias embargos de declaração; **30** dias RO em causa internacional.' },
+          { type: 'box', kind: 'macete', text: '**Pressupostos recursais — "CTP-RIL":** **C**abimento, **T**empestividade, **P**reparo, **R**egularidade, **I**nteresse, **L**egitimidade.' },
+          { type: 'box', kind: 'macete', text: '**Precedentes do art. 927 (5 categorias) — "CCISO":** **C**ontrole concentrado, **C**oncreto vinculante (SV), **I**ncidentes (IAC/IRDR/repetitivos), **S**úmulas STF/STJ, **O**rientação do plenário/OE.' },
+          { type: 'box', kind: 'macete', text: '**Distinguishing × Overruling — "DistOvR":** **Dist**inguishing = caso DIFERENTE; **Ov**erR**uling** = precedente SUPERADO.' },
+          { type: 'box', kind: 'macete', text: '**Causa madura (1.013 §3º) — "STM-J":** **S**entença **T**erminativa (sem mérito) + causa **J**ulgável → tribunal decide direto.' },
+          { type: 'box', kind: 'macete', text: '**ED interrompe (não suspende) o prazo dos demais recursos para todas as partes — art. 1.026.** Inovação CPC/15.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Rol do art. 1.015 é TAXATIVO MITIGADO** (Tema 988/STJ) — admite extensão por interpretação em URGÊNCIA. NÃO é exclusivo nem totalmente livre.' },
+          { type: 'box', kind: 'atencao', text: '**Decisões interlocutórias não agraváveis = preclusão TARDIA** (art. 1.009 §1º) — discutidas na apelação ou contrarrazões. Erro frequente: dizer que precluem definitivamente.' },
+          { type: 'box', kind: 'atencao', text: '**Apelação tem efeito suspensivo de REGRA** (art. 1.012) — mas exceções importantes (alimentos, divórcio, interdição). Erro: assumir efeito sempre suspensivo.' },
+          { type: 'box', kind: 'atencao', text: '**Causa madura (1.013 §3º) só se aplica a sentenças TERMINATIVAS** — tribunal pode julgar direto se causa estiver pronta. Não se aplica a sentenças de mérito improcedentes (já decididas).' },
+          { type: 'box', kind: 'atencao', text: '**ED INTERROMPEM (não suspendem) o prazo recursal — para TODAS as partes** (art. 1.026). Mudança crítica do CPC/15.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 7/STJ × Súmula 279/STF:** ambas vedam reexame de prova em RE/REsp — pegadinha clássica de cabimento.' },
+          { type: 'box', kind: 'atencao', text: '**MP RECORRE como fiscal** (Súmula 99/STJ — Tópico 5) — mesmo se a parte não recorrer.' },
+          { type: 'box', kind: 'atencao', text: '**IRDR exige questão UNICAMENTE DE DIREITO + REPETIÇÃO efetiva** — questão de fato não cabe; mera potencialidade não basta.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** fundamentação substancial (art. 489 §1º) e dever de seguir/distinguir precedentes — base do sistema de art. 927.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 9 (tutela provisória):** decisão sobre tutela = agravo de instrumento (art. 1.015 I).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 19 (MS):** RO contra MS denegado por TJ/TRF (art. 1.027 II) ou pelos tribunais superiores (RO ao STF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** IRDR pode ser usado para padronizar decisões em ações coletivas seriadas.' }
+        ]
+      }
     ]
   },
   {
