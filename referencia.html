@@ -11,7 +11,7 @@
 <header class="app-header">
   <div class="container">
     <div class="back-bar">
-      <a href="index.html">← Painel</a>
+      <a href="index.html" id="back-link">← Painel</a>
       <span class="breadcrumb">Referência · Súmulas, doutrina, edital</span>
     </div>
     <h1 class="small">📚 Referência</h1>
@@ -253,6 +253,8 @@
 <script src="assets/app.js"></script>
 <script>
 (function () {
+  App.applyBackLink();
+
   // tabs
   document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
