@@ -4815,19 +4815,124 @@ topics: [
     title: 'Responsabilidade civil',
     edital: '3.1.11',
     editalText: 'Subjetiva e objetiva. Atos ilícitos. Dano material e moral. Quantificação. Responsabilidade do Estado, do empregador, dos pais.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Pressupostos — conduta, dano, nexo causal, culpa (na subjetiva)',
-      'Responsabilidade subjetiva × objetiva',
-      'Cláusula geral de risco (art. 927 § único)',
-      'Excludentes — caso fortuito, força maior, fato exclusivo da vítima/terceiro',
-      'Dano material — emergente e lucros cessantes',
-      'Dano moral — quantificação, dano in re ipsa',
-      'Dano estético, dano existencial',
-      'Responsabilidade dos pais, empregador, empresário, do Estado',
-      'Súmulas STJ relevantes'
-    ],
-    sections: []
+    size: 'Gigante',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 1-2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A responsabilidade civil é instituto que **obriga ao ressarcimento** quem causa dano a outrem. Pressupostos clássicos: **conduta** (ação/omissão) + **dano** (prejuízo material ou moral) + **nexo causal** (conexão causa-efeito). A **culpa** entra como pressuposto na **responsabilidade SUBJETIVA**; é dispensada na **OBJETIVA** (basta a relação dano-conduta).' },
+          { type: 'p', text: 'O CC/02 introduziu inovação radical: o **art. 927 par. único** (cláusula geral de risco) — atividades habitualmente desenvolvidas que impliquem RISCO aos direitos de outrem geram responsabilidade OBJETIVA. Isso alargou enormemente o rol de hipóteses (antes restrito a leis específicas: CDC art. 12-14, ambiental Lei 6.938 art. 14 §1º, transporte de pessoas etc.).' },
+          { type: 'p', text: 'Responsabilidade civil **EXTRACONTRATUAL** (aquiliana — arts. 186 + 927) e **CONTRATUAL** (decorre do descumprimento de obrigação — arts. 389+). CC/02 unificou tratamento em muitos pontos. Distinção mais relevante hoje: prazo prescricional (3 anos para extracontratual — art. 206 §3º V; 10 anos para contratual — art. 205, regra geral). Com o STJ tendendo a aplicar 3 anos a ambas em muitos casos (responsabilidade civil em sentido amplo).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Ato ilícito e responsabilidade — bases (arts. 186, 187, 927)' },
+          { type: 'list', items: [
+            '**Art. 186** — aquele que, por AÇÃO ou OMISSÃO voluntária, NEGLIGÊNCIA ou IMPRUDÊNCIA, violar direito e causar dano a outrem, comete ATO ILÍCITO',
+            '**Art. 187** — comete ato ilícito o titular de um direito que, ao exercê-lo, EXCEDE manifestamente os limites impostos por seu fim econômico/social, pela boa-fé ou pelos bons costumes (ABUSO DE DIREITO)',
+            '**Art. 188** — NÃO constituem atos ilícitos: legítima defesa, exercício regular de direito, estado de necessidade',
+            '**Art. 927 caput** — aquele que por ato ilícito (arts. 186 e 187) causar dano a outrem, fica obrigado a repará-lo',
+            '**Art. 927 par. único** — RESPONSABILIDADE OBJETIVA quando: (a) lei especificar; (b) atividade NORMALMENTE desenvolvida pelo autor implicar, POR SUA NATUREZA, RISCO para os direitos de outrem (TEORIA DO RISCO CRIADO)'
+          ] },
+          { type: 'h', text: 'Responsabilidade indireta (art. 932)' },
+          { type: 'list', items: [
+            '**I — pais** pelos filhos menores que estiverem sob sua autoridade',
+            '**II — tutor** ou curador pelo pupilo ou curatelado',
+            '**III — empregador** pelos atos dos empregados, no exercício do trabalho ou em razão dele',
+            '**IV — donos de hotéis, hospedarias, estabelecimentos** onde se hospede ou aloje',
+            '**V — os que gratuitamente houverem participado nos produtos do crime**',
+            '**Art. 933** — responsabilidade do art. 932 é **OBJETIVA** (independe de culpa do responsável)'
+          ] },
+          { type: 'h', text: 'Quantificação dos danos (arts. 944-954)' },
+          { type: 'list', items: [
+            '**Art. 944 caput** — indenização mede-se pela EXTENSÃO do dano',
+            '**Art. 944 par. único** — havendo excessiva DESPROPORÇÃO entre gravidade da culpa e dano, juiz pode REDUZIR equitativamente a indenização',
+            '**Art. 945** — culpa CONCORRENTE da vítima atenua a indenização',
+            '**Art. 948** — homicídio: indenização inclui despesas com tratamento + funeral + alimentos para dependentes (art. 948 II)',
+            '**Art. 949** — lesão à saúde: despesas + lucros cessantes até o fim da convalescência + qualquer outro dano',
+            '**Art. 950** — defeito que diminua capacidade laboral: pensão correspondente à inabilitação permanente',
+            '**Art. 953** — calúnia, difamação, injúria: indenização pelo prejuízo + juiz pode arbitrar dano moral'
+          ] },
+          { type: 'h', text: 'Dano moral, estético, existencial' },
+          { type: 'list', items: [
+            'CF art. 5º X — direito à indenização por dano moral (constitucional)',
+            'CC art. 186 — dano patrimonial OU MORAL pode caracterizar ato ilícito',
+            '**Súmula 387/STJ** — é lícita a CUMULAÇÃO de indenizações de dano ESTÉTICO e MORAL',
+            '**Súmula 227/STJ** — pessoa JURÍDICA pode sofrer dano moral (honra objetiva)',
+            '**Súmula 326/STJ** — dano moral fixado abaixo do pedido NÃO importa sucumbência recíproca'
+          ] },
+          { type: 'h', text: 'Excludentes (responsabilidade subjetiva)' },
+          { type: 'list', items: [
+            '**Caso fortuito / força maior** (art. 393) — eventos imprevisíveis e inevitáveis',
+            '**Fato exclusivo da vítima** — afasta o nexo causal (Súmula 145/STJ — transporte gratuito por relação de cortesia)',
+            '**Fato exclusivo de terceiro** — afasta nexo, salvo se previsível',
+            '**Legítima defesa, exercício regular de direito, estado de necessidade** (CC art. 188) — atos lícitos, embora possam gerar dever de indenizar em hipóteses do art. 929-930'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Subjetiva × objetiva — diferenças' },
+          { type: 'table', headers: ['Aspecto', 'Subjetiva', 'Objetiva'],
+            rows: [
+              ['Pressupostos', 'Conduta + dano + nexo + CULPA', 'Conduta + dano + nexo (sem culpa)'],
+              ['Base normativa', 'Art. 186 + 927 caput', 'Art. 927 par. único + leis específicas'],
+              ['Defesa', 'Negar culpa, romper nexo', 'Romper nexo (caso fortuito, fato vítima)'],
+              ['Hipóteses clássicas', 'Acidentes em geral entre particulares', 'CDC, ambiental, transporte, atividade de risco']
+            ] },
+          { type: 'h', text: 'Cláusula geral de risco (art. 927 par. único)' },
+          { type: 'p', text: 'Inovação do CC/02. Não exige lei específica — basta que a atividade normalmente desenvolvida implique risco aos direitos de outrem POR SUA NATUREZA. STJ aplicou a: empresa de transporte ferroviário, atividade de manuseio de explosivos, geração de energia, transporte rodoviário de cargas perigosas. Crítica doutrinária: indeterminação semântica.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.366.587:** atividades de produção de cerveja são objetivas (atividade industrial perigosa). Mostra a aplicação ampla do art. 927 par. único.' },
+          { type: 'h', text: 'Dano in re ipsa' },
+          { type: 'p', text: 'Em situações específicas, o dano dispensa prova — DECORRE DA PRÓPRIA SITUAÇÃO. Hipóteses clássicas: protesto indevido, inscrição indevida em SPC/SERASA (Súmula 297/STJ), atraso na devolução de imóvel locado, abandono afetivo ostensivo (controvertido — STJ tem mudado posição). Banca cobra a literalidade.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 385:** "Da anotação irregular em cadastro de proteção ao crédito, NÃO cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento." Limita o dano in re ipsa.' },
+          { type: 'h', text: 'Responsabilidade indireta — pais pelos filhos' },
+          { type: 'p', text: '**Pais respondem OBJETIVAMENTE** pelos atos do filho menor sob sua autoridade (art. 932 I + art. 933). NÃO precisam ter culpa — basta a condição de pai. Tem natureza SOLIDÁRIA com o filho, mas há regra especial: o filho menor responde SUBSIDIARIAMENTE (art. 928). Os pais respondem em primeiro lugar.' },
+          { type: 'box', kind: 'atencao', text: '**Pais respondem OBJETIVAMENTE pelos filhos** (art. 932 I + 933). Erro frequente: assumir responsabilidade subjetiva.' },
+          { type: 'h', text: 'Reparação por excessiva desproporção (art. 944 par. único)' },
+          { type: 'p', text: 'Inovação relevante: indenização mede-se pela EXTENSÃO do dano (caput), MAS havendo excessiva desproporção entre culpa e dano, juiz pode REDUZIR. Aplicação: caso clássico do "Maradona vs criança" — culpa leve, dano enorme = redução. Crítica: enfraquece reparação integral. Aplicado com parcimônia pelo STJ.' },
+          { type: 'h', text: 'Responsabilidade civil do Estado' },
+          { type: 'p', text: '**CF art. 37 § 6º** — responsabilidade OBJETIVA das pessoas jurídicas de direito público (e privadas prestadoras de serviço público) pelos danos que seus agentes causem a terceiros. Direito de REGRESSO contra agente nos casos de dolo ou culpa. Modalidade: **TEORIA DO RISCO ADMINISTRATIVO** (com excludentes — fortuito, fato exclusivo da vítima/terceiro), não risco integral.' },
+          { type: 'p', text: '**Omissão estatal:** STF (Tema 366 — RE 841.526) consolidou tese híbrida: omissão GENÉRICA (falta de policiamento generalizado) = subjetiva (faute du service); omissão ESPECÍFICA (já existente dever de agir) = objetiva. Tema controverso e cobrado.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Pressupostos: 4 — Conduta · Dano · Nexo · Culpa (na subjetiva).** Objetiva: 3 — sem culpa.' },
+          { type: 'box', kind: 'macete', text: '**Cláusula geral de risco — art. 927 par. único.** Atividade que NORMALMENTE implica risco = OBJETIVA.' },
+          { type: 'box', kind: 'macete', text: '**Pais OBJETIVOS (932 I + 933). Filho subsidiário (928).**' },
+          { type: 'box', kind: 'macete', text: '**Estado: art. 37 §6º CF — OBJETIVA por ATO COMISSIVO; OMISSÃO GENÉRICA = subjetiva.**' },
+          { type: 'box', kind: 'macete', text: '**Súmula 387/STJ: dano moral + estético = CUMULA.** Súmula 227: PJ TEM dano moral.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Reparação civil — prazo prescricional 3 ANOS** (art. 206 §3º V). Tema vinculante na prática.' },
+          { type: 'box', kind: 'atencao', text: '**Pais respondem OBJETIVAMENTE pelos filhos** — independe de culpa (arts. 932 I + 933).' },
+          { type: 'box', kind: 'atencao', text: '**Filho menor responde SUBSIDIARIAMENTE — só se os pais não tiverem condição de reparar** (art. 928). Erro: dizer que responsabilidade é solidária.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 385/STJ — preexistente legítima inscrição em SPC = sem dano moral.** Limita o dano in re ipsa.' },
+          { type: 'box', kind: 'atencao', text: '**Estado responde por OMISSÃO GENÉRICA de forma SUBJETIVA** (faute du service). Por ATO COMISSIVO ou omissão ESPECÍFICA, OBJETIVA.' },
+          { type: 'box', kind: 'atencao', text: '**Atividade de risco (art. 927 par. único) = OBJETIVA mesmo sem lei específica.** Inovação do CC/02.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (fatos jurídicos):** prescrição da reparação civil = 3 anos (art. 206 §3º V).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento contratual):** responsabilidade contratual segue regras próprias (arts. 389+); STJ tende a aplicar 3 anos a ambas (recurso repetitivo).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 2 (pessoas naturais):** menor responde subsidiariamente (928); pais objetivamente (932 I + 933).' },
+          { type: 'box', kind: 'conexao', text: '**Direito Administrativo:** responsabilidade do Estado (art. 37 §6º CF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 20 (ACP):** ações coletivas frequentemente tratam de responsabilidade civil (improbidade, ambiental, consumidor).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-12-empresa',
@@ -5194,7 +5299,16 @@ flashcards: [
   { id: 195, topic: 7, materia: 'civil', q: 'Quais elementos compõem as perdas e danos (art. 402)?', a: 'DANO EMERGENTE (o que efetivamente perdeu) + LUCROS CESSANTES (o que razoavelmente deixou de lucrar). Devem ser danos diretos e imediatos (art. 403) — danos remotos não são indenizáveis.', tags: ['fase3', 'perdas-danos'] },
   { id: 196, topic: 7, materia: 'civil', q: 'Cláusula penal compensatória × moratória — qual a diferença?', a: 'COMPENSATÓRIA (inadimplemento total): ALTERNATIVA — credor escolhe entre executar a obrigação OU cobrar a multa. MORATÓRIA (mero atraso): CUMULATIVA — pode cobrar multa + cumprimento. Limite: não excede valor da obrigação principal (art. 412).', tags: ['fase3', 'clausula-penal'] },
   { id: 197, topic: 7, materia: 'civil', q: 'Arras confirmatórias × penitenciais?', a: 'CONFIRMATÓRIAS (regra — art. 417): reforçam o vínculo, sem arrependimento, descumprimento = perda das arras + perdas e danos suplementares (art. 419). PENITENCIAIS (exceção — art. 420): permitem arrependimento; limite máximo é o valor das arras em dobro.', tags: ['fase3', 'arras'] },
-  { id: 198, topic: 7, materia: 'civil', q: 'Devedor em mora responde por caso fortuito?', a: 'SIM (art. 399). Em regra, devedor não responde por caso fortuito/força maior (art. 393); MAS se já estava em mora, responde até por isso, salvo se provar que o evento ocorreria mesmo sem o atraso.', tags: ['fase3', 'mora', 'fortuito'] }
+  { id: 198, topic: 7, materia: 'civil', q: 'Devedor em mora responde por caso fortuito?', a: 'SIM (art. 399). Em regra, devedor não responde por caso fortuito/força maior (art. 393); MAS se já estava em mora, responde até por isso, salvo se provar que o evento ocorreria mesmo sem o atraso.', tags: ['fase3', 'mora', 'fortuito'] },
+
+  // ============ Bloco 13 — Fase 3 (Civil 11 — Responsabilidade Civil) ============
+  { id: 199, topic: 11, materia: 'civil', q: 'Quais os pressupostos da responsabilidade civil subjetiva?', a: 'CONDUTA (ação/omissão) + DANO (material ou moral) + NEXO CAUSAL + CULPA (dolo, negligência ou imprudência — art. 186). Objetiva: dispensa culpa.', tags: ['fase3', 'resp-civil'] },
+  { id: 200, topic: 11, materia: 'civil', q: 'O que estabelece o art. 927 par. único do CC?', a: 'Cláusula geral de risco — atividade NORMALMENTE desenvolvida que, POR SUA NATUREZA, implique risco aos direitos de outrem gera responsabilidade OBJETIVA, independentemente de culpa. Inovação radical do CC/02.', tags: ['fase3', 'resp-civil', 'risco'] },
+  { id: 201, topic: 11, materia: 'civil', q: 'Pais respondem por atos dos filhos menores — responsabilidade subjetiva ou objetiva?', a: 'OBJETIVA (CC arts. 932 I + 933). Independem de culpa dos pais. Pais respondem em primeiro lugar; filho menor responde SUBSIDIARIAMENTE (art. 928), salvo se atos foram praticados sem assistência ou já fora do âmbito familiar.', tags: ['fase3', 'resp-civil', 'pais'] },
+  { id: 202, topic: 11, materia: 'civil', q: 'Dano moral e estético podem ser cumulados?', a: 'SIM — Súmula 387/STJ. Dano estético (lesão à integridade física que afeta aparência) é AUTÔNOMO ao dano moral (lesão à dignidade/imagem). Hipótese clássica: vítima de queimadura grave.', tags: ['fase3', 'resp-civil', 'dano'] },
+  { id: 203, topic: 11, materia: 'civil', q: 'Pessoa jurídica pode sofrer dano moral?', a: 'SIM — Súmula 227/STJ. Tutela a HONRA OBJETIVA (reputação no mercado). NÃO cobre direitos da personalidade individuais (privacidade, integridade física). Inscrição indevida em SPC contra PJ pode gerar dano moral.', tags: ['fase3', 'resp-civil', 'PJ', 'dano'] },
+  { id: 204, topic: 11, materia: 'civil', q: 'O Estado responde objetivamente por OMISSÃO?', a: 'DEPENDE. STF Tema 366: omissão GENÉRICA (falta de policiamento generalizado) = SUBJETIVA (faute du service). Omissão ESPECÍFICA (existindo dever específico de agir, ex: chuva e árvore caindo na via) = OBJETIVA. Distinção essencial.', tags: ['fase3', 'resp-civil', 'estado'] },
+  { id: 205, topic: 11, materia: 'civil', q: 'Súmula 385/STJ — qual a regra?', a: 'Anotação irregular em cadastro de proteção ao crédito NÃO gera dano moral, quando preexistente legítima inscrição (anterior). Limita o dano in re ipsa. Apenas direito ao cancelamento.', tags: ['fase3', 'resp-civil', 'sumula'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -6410,6 +6524,60 @@ questions: [
     ],
     correct: 'D',
     explanation: 'CC arts. 410-411: compensatória (inadimplemento total) é ALTERNATIVA; moratória (atraso) é CUMULATIVA. (A) Inverte: compensatória é alternativa. (B) Inverte: moratória é cumulativa. (C) Falso — art. 412: limite é o valor da obrigação principal. (E) Falso — art. 413: juiz REDUZ equitativamente se manifestamente excessivo.'
+  },
+
+  // ============ Bloco 13 — Fase 3 (Civil 11 — Responsabilidade Civil) ============
+  {
+    id: 83, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a responsabilidade civil objetiva no direito brasileiro, é correto afirmar:',
+    alternatives: [
+      'Aplica-se exclusivamente nas hipóteses expressamente previstas em lei especial, sendo vedada a aplicação por cláusula geral.',
+      'A vítima fica dispensada de provar o dano e o nexo causal.',
+      'O CC/02 adotou cláusula geral de risco no art. 927 par. único, gerando responsabilidade objetiva quando a atividade normalmente desenvolvida implicar risco aos direitos de outrem por sua natureza.',
+      'A responsabilidade objetiva é incompatível com o ordenamento jurídico brasileiro, que adota a teoria da culpa em todos os casos.',
+      'Apenas a responsabilidade do Estado prevista no art. 37 §6º da Constituição é objetiva no direito brasileiro.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 927 par. único: cláusula geral de risco — atividade que normalmente implique risco POR SUA NATUREZA = responsabilidade OBJETIVA. (A) Falso — cláusula geral expandiu hipóteses. (B) Falso — vítima ainda prova dano e nexo. (D) Falso — sistema brasileiro admite ambas. (E) Falso — há objetiva também em CDC, ambiental, atividade de risco etc.'
+  },
+  {
+    id: 84, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito da responsabilidade dos pais por atos dos filhos menores, é INCORRETO afirmar:',
+    alternatives: [
+      'Os pais respondem objetivamente pelos atos dos filhos menores que estiverem sob sua autoridade (CC arts. 932 I + 933).',
+      'A responsabilidade dos pais independe de demonstração de culpa em sua atuação educacional.',
+      'O filho menor responde de forma SOLIDÁRIA com os pais, podendo ser executado independentemente da falta de patrimônio dos pais.',
+      'O filho menor responde de forma SUBSIDIÁRIA, somente se os pais não tiverem condições econômicas para arcar com a indenização (art. 928).',
+      'Se o ato for praticado pelo filho menor sem assistência ou conhecimento dos pais, e estiver fora da esfera familiar, a responsabilidade pode ser afastada.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 928: filho menor responde SUBSIDIARIAMENTE — só se os pais não tiverem condições. NÃO é solidária. As demais alternativas estão corretas conforme CC arts. 928, 932 I e 933.'
+  },
+  {
+    id: 85, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o dano moral e o dano estético no direito brasileiro, é correto afirmar:',
+    alternatives: [
+      'Dano moral e dano estético são institutos idênticos, vedando-se sua cumulação para evitar bis in idem.',
+      'A pessoa jurídica não pode sofrer dano moral, em razão da incompatibilidade com a natureza das pessoas jurídicas.',
+      'É lícita a cumulação de indenizações de dano moral e dano estético, desde que decorrentes do mesmo fato (Súmula 387/STJ).',
+      'O dano in re ipsa (presumido) aplica-se a toda inscrição em cadastro de proteção ao crédito, ainda que existam inscrições anteriores legítimas.',
+      'O dano moral só é indenizável quando há prova específica do sofrimento da vítima, mediante perícia psicológica.'
+    ],
+    correct: 'C',
+    explanation: 'Súmula 387/STJ: cumulação possível. Estético (lesão à aparência) e moral (lesão à dignidade) são autônomos. (A) Errado — institutos distintos. (B) Errado — Súmula 227/STJ. (D) Errado — Súmula 385/STJ: anotação preexistente legítima afasta dano moral. (E) Errado — alguns danos morais são in re ipsa.'
+  },
+  {
+    id: 86, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a responsabilidade civil do Estado, conforme jurisprudência do STF, marque a alternativa CORRETA:',
+    alternatives: [
+      'A responsabilidade do Estado é sempre subjetiva, fundada na teoria do risco administrativo.',
+      'A omissão genérica do Estado (falta de policiamento amplo) gera responsabilidade objetiva, equiparada a ato comissivo.',
+      'Por ato comissivo do agente, a responsabilidade é OBJETIVA (art. 37 §6º CF); a omissão GENÉRICA é SUBJETIVA (faute du service); a omissão ESPECÍFICA (existindo dever determinado de agir) volta a ser OBJETIVA.',
+      'O Estado adota a teoria do risco integral, sem qualquer excludente de responsabilidade.',
+      'O direito de regresso do Estado contra o agente é absoluto, independendo de comprovação de dolo ou culpa.'
+    ],
+    correct: 'C',
+    explanation: 'STF Tema 366 (RE 841.526) — responsabilidade do Estado: comissivo OBJETIVO (art. 37 §6º); omissão genérica SUBJETIVA (faute du service); omissão específica OBJETIVA. (A) Falso — comissivo é objetivo. (B) Falso — omissão genérica é SUBJETIVA. (D) Falso — teoria adotada é RISCO ADMINISTRATIVO (com excludentes). (E) Falso — regresso depende de DOLO ou CULPA do agente (CF 37 §6º final).'
   }
 ],
 
