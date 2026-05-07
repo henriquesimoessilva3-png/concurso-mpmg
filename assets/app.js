@@ -54,6 +54,28 @@
       return url.searchParams.get(name);
     },
 
+    // Retorna alvo "voltar" inteligente: se chegou via ?topic=N, volta ao tópico de origem
+    backTarget() {
+      const topicNum = parseInt(this.getQueryParam('topic')) || null;
+      if (topicNum && typeof APP_DATA !== 'undefined') {
+        const t = APP_DATA.topics.find(x => x.num === topicNum);
+        if (t) {
+          const shortTitle = t.title.length > 38 ? t.title.slice(0, 38) + '…' : t.title;
+          return { href: 'topicos.html?id=' + t.id, label: '← Tópico ' + t.num + ': ' + shortTitle, isTopic: true };
+        }
+      }
+      return { href: 'index.html', label: '← Painel', isTopic: false };
+    },
+
+    // Aplica o back-target ao link com id="back-link"
+    applyBackLink() {
+      const el = document.getElementById('back-link');
+      if (!el) return;
+      const back = this.backTarget();
+      el.href = back.href;
+      el.textContent = back.label;
+    },
+
     // ---------- formatação ----------
     formatDate(d) {
       if (!d) return '';
@@ -117,6 +139,56 @@
         });
       }
       return e;
+    },
+
+    // ---------- TTS (Text-to-Speech) ----------
+    // Compartilhado entre flashcards.html e simulado.html.
+    // topicos.html usa controle próprio mais completo.
+    tts: {
+      _voice: null,
+      _initialized: false,
+      _currentBtn: null,
+      init() {
+        if (!('speechSynthesis' in window)) return;
+        if (this._initialized) return;
+        const pickVoice = () => {
+          const all = window.speechSynthesis.getVoices();
+          const ptBR = all.find(v => /pt[-_]br/i.test(v.lang));
+          this._voice = ptBR || all.find(v => /^pt/i.test(v.lang)) || null;
+        };
+        pickVoice();
+        if (window.speechSynthesis.onvoiceschanged !== undefined) {
+          window.speechSynthesis.onvoiceschanged = pickVoice;
+        }
+        this._initialized = true;
+      },
+      speak(text, btn) {
+        if (!('speechSynthesis' in window)) return;
+        this.init();
+        // Se está falando o mesmo botão, alterna pause/resume
+        if (this._currentBtn === btn && (window.speechSynthesis.speaking || window.speechSynthesis.pending)) {
+          window.speechSynthesis.cancel();
+          if (btn) btn.classList.remove('speaking');
+          this._currentBtn = null;
+          return;
+        }
+        window.speechSynthesis.cancel();
+        const u = new window.SpeechSynthesisUtterance(text);
+        if (this._voice) { u.voice = this._voice; u.lang = this._voice.lang; }
+        else u.lang = 'pt-BR';
+        u.rate = 1;
+        u.onend = () => { if (btn) btn.classList.remove('speaking'); this._currentBtn = null; };
+        u.onerror = () => { if (btn) btn.classList.remove('speaking'); this._currentBtn = null; };
+        window.speechSynthesis.speak(u);
+        if (btn) btn.classList.add('speaking');
+        this._currentBtn = btn;
+      },
+      stop() {
+        if (!('speechSynthesis' in window)) return;
+        window.speechSynthesis.cancel();
+        if (this._currentBtn) this._currentBtn.classList.remove('speaking');
+        this._currentBtn = null;
+      }
     },
 
     // ---------- toast ----------

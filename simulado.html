@@ -11,7 +11,7 @@
 <header class="app-header">
   <div class="container">
     <div class="back-bar">
-      <a href="index.html">← Painel</a>
+      <a href="index.html" id="back-link">← Painel</a>
       <span class="breadcrumb">Banco de questões · Simulado</span>
     </div>
     <h1 class="small">✍️ Simulado · Banco de questões</h1>
@@ -119,7 +119,7 @@
       <div class="btn-row" style="margin-top:1.5rem;">
         <button class="btn btn-danger" id="btn-restart">Novo simulado</button>
         <a class="btn" href="log.html#erros">Ver log de erros</a>
-        <a class="btn btn-ghost" href="index.html">↑ Painel</a>
+        <a class="btn btn-ghost" href="index.html" id="result-back-link">↑ Painel</a>
       </div>
     </div>
   </div>
@@ -132,6 +132,15 @@
 <script src="assets/app.js"></script>
 <script>
 (function () {
+  // Smart back: se chegou via ?topic=N, volta ao tópico de origem
+  App.applyBackLink();
+  const __back = App.backTarget();
+  const __resultBack = document.getElementById('result-back-link');
+  if (__resultBack) {
+    __resultBack.href = __back.href;
+    __resultBack.textContent = __back.isTopic ? '↑ Voltar ao tópico' : '↑ Painel';
+  }
+
   const allQuestions = APP_DATA.questions;
   const filterTopic = document.getElementById('filter-topic');
 
@@ -254,11 +263,16 @@
         <span>📋 ${App.escape(q.banca || 'Banca')}</span>
         ${q.concurso ? `<span>· ${App.escape(q.concurso)}</span>` : ''}
         <span>· Nível: ${App.escape(q.nivel || 'Médio')}</span>
+        <button class="btn-tts" data-tts-q style="margin-left:auto;">🔊 Ouvir questão</button>
       </div>
       <div class="question-statement">${App.escape(q.statement)}</div>
       <div class="alternatives">${altsHtml}</div>
       <div id="explain" style="display:none;"></div>
     `;
+    card.querySelector('[data-tts-q]').addEventListener('click', (e) => {
+      const fullText = q.statement + '. ' + q.alternatives.map((a, i) => 'Alternativa ' + String.fromCharCode(65 + i) + ': ' + a).join('. ');
+      App.tts.speak(fullText, e.currentTarget);
+    });
 
     questionStart = Date.now();
 

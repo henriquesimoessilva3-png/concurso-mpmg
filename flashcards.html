@@ -11,7 +11,7 @@
 <header class="app-header">
   <div class="container">
     <div class="back-bar">
-      <a href="index.html">← Painel</a>
+      <a href="index.html" id="back-link">← Painel</a>
       <span class="breadcrumb">Flashcards · Revisão espaçada</span>
     </div>
     <h1 class="small">🃏 Flashcards</h1>
@@ -70,6 +70,8 @@
 <script src="assets/app.js"></script>
 <script>
 (function () {
+  App.applyBackLink();
+
   const cards = APP_DATA.flashcards.slice();
 
   // estado por card no localStorage: { ease, interval, dueDate, reps, lapses }
@@ -151,8 +153,10 @@
     area.innerHTML = `
       <span class="face-label">Pergunta · Tópico ${current.topic} — ${App.escape(tname)}</span>
       <div class="question">${App.escape(current.q)}</div>
+      <button class="btn-tts" data-tts-q style="margin-top:0.6rem;">🔊 Ouvir pergunta</button>
       <div class="tags">${tagsHtml}</div>
     `;
+    area.querySelector('[data-tts-q]').addEventListener('click', (e) => App.tts.speak(current.q, e.currentTarget));
     controls.innerHTML = `<button class="btn btn-theme" id="btn-show" style="grid-column:1/-1;">Mostrar resposta (espaço)</button>`;
     document.getElementById('btn-show').addEventListener('click', flipCard);
   }
@@ -168,7 +172,9 @@
       <span class="face-label">Resposta · Tópico ${current.topic} — ${App.escape(tname)}</span>
       <div style="margin-bottom:1rem; font-size:0.9rem; color:var(--text-muted);">${App.escape(current.q)}</div>
       <div class="answer"><strong>${App.escape(current.a)}</strong></div>
+      <button class="btn-tts" data-tts-a style="margin-top:0.6rem;">🔊 Ouvir resposta</button>
     `;
+    area.querySelector('[data-tts-a]').addEventListener('click', (e) => App.tts.speak(current.q + '. Resposta: ' + current.a, e.currentTarget));
     controls.innerHTML = `
       <button class="btn btn-danger" data-grade="0">De novo</button>
       <button class="btn" data-grade="2">Difícil</button>

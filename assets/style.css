@@ -335,6 +335,37 @@ tr:hover td { background: var(--bg-soft); }
 }
 .callout strong { font-weight: 700; }
 
+/* AUDIO CONTROLS (TTS player) */
+.audio-controls {
+  display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;
+  padding: 0.6rem 0.8rem; background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius); margin: 0.8rem 0 1rem;
+  font-size: 0.85rem;
+}
+.audio-controls label { font-size: 0.78rem; color: var(--text-muted); margin-right: 0.2rem; }
+.audio-controls select {
+  width: auto; padding: 0.3rem 0.5rem; font-size: 0.82rem;
+  max-width: 200px;
+}
+.audio-controls .btn { padding: 0.35rem 0.7rem; font-size: 0.85rem; }
+.audio-controls .audio-status {
+  margin-left: auto; font-size: 0.78rem; color: var(--text-muted);
+  font-family: "SF Mono", Monaco, Consolas, monospace;
+}
+
+/* TTS small button (in flashcards / simulado question) */
+.btn-tts {
+  display: inline-flex; align-items: center; gap: 0.3rem;
+  padding: 0.25rem 0.55rem; font-size: 0.78rem;
+  background: var(--bg-soft); color: var(--text-soft);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  cursor: pointer; font-family: inherit;
+  transition: all 0.15s ease;
+}
+.btn-tts:hover { background: var(--theme-soft); color: var(--theme-color); border-color: var(--theme-color); }
+.btn-tts.speaking { background: var(--theme-color); color: white; }
+
 /* META INFO BAR */
 .meta-bar {
   display: flex; gap: 0.8rem; flex-wrap: wrap; margin: 0.8rem 0 1.2rem;

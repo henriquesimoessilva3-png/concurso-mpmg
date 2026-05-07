@@ -74,6 +74,26 @@
   }
   html.push(`<div class="meta-bar">${metaItems.join('')}</div>`);
 
+  // ----- Audio controls (TTS) -----
+  html.push(`
+    <div class="audio-controls" id="audio-controls" style="display:none;">
+      <button class="btn btn-sm btn-theme" id="audio-play">🔊 Ouvir</button>
+      <button class="btn btn-sm" id="audio-pause" style="display:none;">⏸️ Pausar</button>
+      <button class="btn btn-sm" id="audio-stop" style="display:none;">⏹️ Parar</button>
+      <label>Velocidade:</label>
+      <select id="audio-speed">
+        <option value="0.85">0.85x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.15">1.15x</option>
+        <option value="1.3">1.3x</option>
+        <option value="1.5">1.5x</option>
+      </select>
+      <label>Voz:</label>
+      <select id="audio-voice"><option>Carregando…</option></select>
+      <span class="audio-status" id="audio-status"></span>
+    </div>
+  `);
+
   // Status (controles persistentes)
   html.push(`
     <h2>Status</h2>
@@ -213,6 +233,146 @@
       App.toast('Notas salvas');
     }, 600);
   });
+
+  // ---- AUDIO MODE (TTS via SpeechSynthesis API) ----
+  (function initAudio() {
+    if (!('speechSynthesis' in window)) return;
+    const ctrl = document.getElementById('audio-controls');
+    if (!ctrl) return;
+    ctrl.style.display = 'flex';
+
+    const playBtn = document.getElementById('audio-play');
+    const pauseBtn = document.getElementById('audio-pause');
+    const stopBtn = document.getElementById('audio-stop');
+    const speedEl = document.getElementById('audio-speed');
+    const voiceEl = document.getElementById('audio-voice');
+    const statusEl = document.getElementById('audio-status');
+
+    let voices = [];
+    let chunks = [];
+    let idx = 0;
+
+    function loadVoices() {
+      const all = window.speechSynthesis.getVoices();
+      voices = all.filter(v => /^pt(-|_|$)/i.test(v.lang));
+      if (voices.length === 0) voices = all;
+      if (voices.length === 0) {
+        voiceEl.innerHTML = '<option value="">(sem vozes disponíveis)</option>';
+        playBtn.disabled = true;
+        return;
+      }
+      voiceEl.innerHTML = voices.map((v, i) => `<option value="${i}">${App.escape(v.name)} (${v.lang})</option>`).join('');
+      // Preferir pt-BR
+      const ptBR = voices.findIndex(v => /pt[-_]br/i.test(v.lang));
+      if (ptBR >= 0) voiceEl.value = String(ptBR);
+    }
+
+    if (window.speechSynthesis.getVoices().length > 0) loadVoices();
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+
+    function getChunks() {
+      const article = document.getElementById('article-content');
+      const skipH2 = new Set(['Status', '📝 Suas notas pessoais', '🚀 Ações rápidas']);
+      const out = [];
+      let inSkip = false;
+      Array.from(article.children).forEach(el => {
+        const tag = el.tagName;
+        if (tag === 'H1') {
+          out.push(el.textContent.trim() + '.');
+        } else if (tag === 'H2') {
+          const txt = el.textContent.trim();
+          inSkip = skipH2.has(txt);
+          if (!inSkip) out.push('Seção: ' + txt + '.');
+        } else if (tag === 'H3') {
+          if (!inSkip) out.push(el.textContent.trim() + '.');
+        } else if (!inSkip) {
+          // pega o texto inteiro do elemento (parágrafo, lista, tabela, box)
+          const txt = el.textContent.replace(/\s+/g, ' ').trim();
+          if (txt && txt.length > 3) out.push(txt);
+        }
+      });
+      return out;
+    }
+
+    function speakNext() {
+      if (idx >= chunks.length) {
+        statusEl.textContent = '✅ Concluído';
+        playBtn.style.display = '';
+        pauseBtn.style.display = 'none';
+        stopBtn.style.display = 'none';
+        idx = 0;
+        return;
+      }
+      const u = new SpeechSynthesisUtterance(chunks[idx]);
+      const vIdx = parseInt(voiceEl.value);
+      if (!isNaN(vIdx) && voices[vIdx]) {
+        u.voice = voices[vIdx];
+        u.lang = voices[vIdx].lang;
+      } else {
+        u.lang = 'pt-BR';
+      }
+      u.rate = parseFloat(speedEl.value) || 1;
+      u.onend = () => {
+        idx++;
+        statusEl.textContent = idx + '/' + chunks.length;
+        if (!window.speechSynthesis.paused) speakNext();
+      };
+      u.onerror = (e) => {
+        statusEl.textContent = '⚠️ Erro: ' + (e.error || 'desconhecido');
+        playBtn.style.display = '';
+        pauseBtn.style.display = 'none';
+        stopBtn.style.display = 'none';
+      };
+      window.speechSynthesis.speak(u);
+    }
+
+    playBtn.addEventListener('click', () => {
+      window.speechSynthesis.cancel();
+      chunks = getChunks();
+      idx = 0;
+      if (chunks.length === 0) {
+        statusEl.textContent = 'Nada para ler.';
+        return;
+      }
+      statusEl.textContent = '0/' + chunks.length;
+      playBtn.style.display = 'none';
+      pauseBtn.style.display = '';
+      pauseBtn.textContent = '⏸️ Pausar';
+      stopBtn.style.display = '';
+      speakNext();
+    });
+
+    pauseBtn.addEventListener('click', () => {
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+        pauseBtn.textContent = '⏸️ Pausar';
+      } else {
+        window.speechSynthesis.pause();
+        pauseBtn.textContent = '▶️ Continuar';
+      }
+    });
+
+    stopBtn.addEventListener('click', () => {
+      window.speechSynthesis.cancel();
+      chunks = [];
+      idx = 0;
+      playBtn.style.display = '';
+      pauseBtn.style.display = 'none';
+      stopBtn.style.display = 'none';
+      statusEl.textContent = '';
+    });
+
+    speedEl.addEventListener('change', () => {
+      if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
+        window.speechSynthesis.cancel();
+        if (idx > 0) idx--;
+        speakNext();
+      }
+    });
+
+    // Cancela ao sair da página
+    window.addEventListener('beforeunload', () => window.speechSynthesis.cancel());
+  })();
 
   // ---- Navegação prev/next ----
   const adj = App.getAdjacentTopics(id);
