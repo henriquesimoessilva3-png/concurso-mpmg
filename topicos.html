@@ -59,8 +59,10 @@
   const numLabel = (topic.materia === 'civil') ? `Civ ${topic.num}` : `Tópico ${topic.num}`;
 
   // pools para Quick check (visível tanto no markup, quanto no setup)
-  const topicCards = (window.APP_DATA.flashcards || []).filter(f => f.topic === topic.num && (topic.materia || 'pc') === 'pc');
-  const topicQs = (window.APP_DATA.questions || []).filter(q => q.topic === topic.num && (topic.materia || 'pc') === 'pc');
+  // Filtra por tópico E matéria (PC/Civil) — flashcards e questões sem 'materia' são considerados 'pc'
+  const _mat = (topic.materia || 'pc');
+  const topicCards = (window.APP_DATA.flashcards || []).filter(f => f.topic === topic.num && (f.materia || 'pc') === _mat);
+  const topicQs = (window.APP_DATA.questions || []).filter(q => q.topic === topic.num && (q.materia || 'pc') === _mat);
 
   // título e subtítulo
   document.title = `${numLabel} · ${topic.title}`;

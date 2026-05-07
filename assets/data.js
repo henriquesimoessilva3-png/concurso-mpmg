@@ -3966,17 +3966,111 @@ topics: [
     title: 'LINDB e teoria geral do Direito Civil',
     edital: '3.1.1',
     editalText: 'Lei de Introdução às Normas do Direito Brasileiro. Vigência, aplicação, integração e interpretação. Teoria geral do Direito Civil.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Vigência e revogação da lei (art. 1º a 4º)',
-      'Antinomias e critérios de solução',
-      'Conflito de leis no tempo — direito adquirido, ato jurídico perfeito, coisa julgada',
-      'Conflito de leis no espaço (DIPr)',
-      'Integração — analogia, costumes, princípios (art. 4º)',
-      'Hermenêutica jurídica (art. 5º)',
-      'Arts. 20-30 (consequencialismo) — LINDB Lei 13.655/18'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **LINDB** (Decreto-Lei 4.657/42, com alterações da Lei 13.655/18) é a "**lei sobre as leis**" — meta-norma que disciplina vigência, conflitos no tempo e no espaço, integração e interpretação. Aplica-se a TODOS os ramos do direito brasileiro, não só ao Civil. É preâmbulo essencial para qualquer concurso jurídico.' },
+          { type: 'p', text: 'A **Lei 13.655/18** acrescentou os arts. 20 a 30 — o **consequencialismo jurídico**: motivação obrigatória das decisões, valores fáticos, segurança jurídica na aplicação do direito público. Considerada a "reforma do direito administrativo brasileiro" sem mudar o direito material — só o modo de decidir.' },
+          { type: 'p', text: 'Três eixos para concurso: (a) **vigência e conflito no tempo** (arts. 1º-2º + 6º — irretroatividade, vacatio legis, ato jurídico perfeito, direito adquirido, coisa julgada); (b) **integração** (art. 4º — analogia, costumes, princípios); (c) **consequencialismo** (arts. 20-30 — motivação, valores, segurança jurídica).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Vigência e revogação (arts. 1º-2º)' },
+          { type: 'list', items: [
+            '**Art. 1º** — vacatio legis de 45 dias no Brasil + 3 meses no estrangeiro, salvo disposição em contrário',
+            '**Art. 1º § 1º** — leis que estabeleçam período de adaptação obedecem o prazo nelas fixado (vacatio especial)',
+            '**Art. 1º § 3º** — se lei for republicada antes da entrada em vigor, vacatio recomeça',
+            '**Art. 2º** — não havendo disposição em contrário, lei vigora até ser modificada/revogada',
+            '**Art. 2º § 1º** — revogação: expressa, tácita (incompatível), por norma superior, por específica geral (lex specialis)',
+            '**Art. 2º § 2º** — lei nova GERAL não revoga lei especial anterior, salvo disposição expressa',
+            '**Art. 2º § 3º** — repristinação: revogação da lei revogadora NÃO restaura lei revogada, salvo disposição expressa'
+          ] },
+          { type: 'h', text: 'Conflito de leis no tempo (art. 6º)' },
+          { type: 'list', items: [
+            '**Caput** — lei em vigor terá efeito IMEDIATO e GERAL, respeitados ato jurídico perfeito, direito adquirido e coisa julgada',
+            '**§ 1º** — ato jurídico perfeito = já consumado segundo lei vigente',
+            '**§ 2º** — direito adquirido = aquele que o titular pode exercer; também os subordinados a termo prefixado ou condição preestabelecida e inalterável',
+            '**§ 3º** — coisa julgada = decisão judicial não mais sujeita a recurso'
+          ] },
+          { type: 'h', text: 'Integração e interpretação (arts. 4º-5º)' },
+          { type: 'list', items: [
+            '**Art. 4º** — quando a lei for omissa, juiz decidirá conforme: ANALOGIA, COSTUMES, PRINCÍPIOS GERAIS DO DIREITO',
+            '**Art. 5º** — na aplicação da lei, o juiz atenderá aos FINS SOCIAIS e às EXIGÊNCIAS DO BEM COMUM'
+          ] },
+          { type: 'h', text: 'Conflito de leis no espaço (arts. 7º-19)' },
+          { type: 'list', items: [
+            '**Art. 7º** — lei do país do domicílio rege começo e fim da personalidade, nome, capacidade, direitos de família',
+            '**Art. 8º** — bens regem-se pela lei do país onde estiverem situados (lex rei sitae)',
+            '**Art. 9º** — obrigações regem-se pela lei do país em que se constituírem (locus regit actum)',
+            '**Art. 10** — sucessão por morte ou ausência: lei do domicílio do falecido (regra), com proteção do art. 5º XXXI CF (mais favorável a brasileiro)'
+          ] },
+          { type: 'h', text: 'Consequencialismo (arts. 20-30 — Lei 13.655/18)' },
+          { type: 'list', items: [
+            '**Art. 20** — em decisões da esfera administrativa, controladora e judicial, o juiz não decidirá com base em VALORES JURÍDICOS ABSTRATOS sem considerar consequências práticas',
+            '**Art. 21** — decisão que invalide ato/contrato/processo administrativo deve indicar consequências e regime de transição',
+            '**Art. 22** — interpretação considerará obstáculos e dificuldades reais do gestor; agente público não responde por mera divergência de opinião',
+            '**Art. 23** — nova interpretação de norma exige regime de transição (segurança jurídica)',
+            '**Art. 28** — agente público responde pessoalmente por DOLO ou ERRO GROSSEIRO',
+            '**Art. 30** — autoridades devem atuar para SEGURANÇA JURÍDICA — súmulas, regulamentos, respostas a consultas'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Antinomias e critérios de solução' },
+          { type: 'p', text: 'Quando duas normas conflitam, três critérios em escala (Bobbio): (1) **hierárquico** — lei superior prevalece; (2) **cronológico** — lei posterior prevalece; (3) **especialidade** — lei específica prevalece. Antinomia REAL = não resolvível por critérios; exige aplicação de equidade ou reformulação legal.' },
+          { type: 'box', kind: 'macete', text: '**Antinomias — HIE-CRO-ESPE (Hierárquico → Cronológico → Especialidade).** Em conflito entre critérios: hierárquico vence cronológico; cronológico geral cede à especialidade.' },
+          { type: 'h', text: 'Repristinação (art. 2º § 3º)' },
+          { type: 'p', text: '**REPRISTINAÇÃO NÃO É AUTOMÁTICA.** Se a lei A foi revogada pela lei B, e a lei B é depois revogada pela lei C, a lei A NÃO volta a vigorar — salvo se a lei C dispuser expressamente. Cuidado: confunde-se com efeito repristinatório (controle de constitucionalidade).' },
+          { type: 'box', kind: 'atencao', text: '**Repristinação ≠ efeito repristinatório.** Repristinação (LINDB art. 2º §3º) NÃO é automática. Efeito repristinatório (controle constitucionalidade) reaparece norma anterior pela DECLARAÇÃO de inconstitucionalidade.' },
+          { type: 'h', text: 'Vacatio legis especial' },
+          { type: 'p', text: 'A regra dos 45 dias (art. 1º) é **supletiva**. Cada lei pode fixar sua própria vacatio. Códigos costumam ter vacatio longa (CC/02 = 1 ano; CPC/15 = 1 ano). Lei sem cláusula expressa de vigência → 45 dias.' },
+          { type: 'h', text: 'Direito adquirido × expectativa de direito' },
+          { type: 'p', text: '**Direito adquirido** = aquele cujo titular já pode exercer (ou está protegido por termo/condição inalterável). Imune à lei nova (CF 5º XXXVI). **Expectativa de direito** = situação não consolidada. Pode ser alterada por lei nova.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 226.855:** servidor que ainda não cumpriu requisitos para aposentadoria tem mera EXPECTATIVA, não direito adquirido. Lei nova pode alterar regras.' },
+          { type: 'h', text: 'Consequencialismo — art. 20 (decisões "abstratas" vedadas)' },
+          { type: 'p', text: 'Magistrados, controladores e administradores **NÃO podem decidir com base em valores jurídicos ABSTRATOS** (boa-fé, função social, dignidade) **sem considerar consequências PRÁTICAS**. Não significa "consequencialismo puro" — exige motivação concreta com análise de impactos.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 6.421:** art. 20 LINDB compatível com a Constituição; reforça segurança jurídica e previsibilidade decisional, sem afastar princípios constitucionais.' },
+          { type: 'h', text: 'Erro grosseiro × culpa simples (art. 28)' },
+          { type: 'p', text: 'Agente público responde pessoalmente apenas por **DOLO** ou **ERRO GROSSEIRO** — afasta responsabilização por culpa simples ou divergência razoável de opinião. Visa proteger administrador honesto que se equivoca em situação complexa.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Vacatio: 45 + 3.** 45 dias no Brasil, 3 meses no exterior, salvo disposição em contrário (art. 1º).' },
+          { type: 'box', kind: 'macete', text: '**Integração — A-C-P:** **A**nalogia · **C**ostumes · **P**rincípios (art. 4º).' },
+          { type: 'box', kind: 'macete', text: '**Cláusula de imutabilidade — A-D-C:** **A**to jurídico perfeito · **D**ireito adquirido · **C**oisa julgada (CF 5º XXXVI + LINDB 6º).' },
+          { type: 'box', kind: 'macete', text: '**Lei NOVA GERAL não revoga lei ESPECIAL (art. 2º §2º).** Lex specialis derogat generali — princípio da especialidade.' },
+          { type: 'box', kind: 'macete', text: '**Consequencialismo — arts. 20 a 30 = Lei 13.655/18 (LINDB reformada).** Núcleo: motivação concreta + segurança jurídica.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Repristinação NÃO é automática** (art. 2º §3º). Banca arma: "revogada a lei revogadora, restaura-se a lei anterior" — falso, salvo disposição expressa.' },
+          { type: 'box', kind: 'atencao', text: '**Lex specialis derogat generali** — lei nova GERAL não revoga ESPECIAL anterior (art. 2º §2º). A relação especial-geral mantém-se.' },
+          { type: 'box', kind: 'atencao', text: '**Direito adquirido × expectativa** — só direito ADQUIRIDO está protegido (CF 5º XXXVI). Expectativa pode ser frustrada por lei nova.' },
+          { type: 'box', kind: 'atencao', text: '**Art. 28 LINDB protege agente público de DIVERGÊNCIA de opinião** — mas não de dolo nem erro grosseiro. Banca pode armar: "agente responde por toda culpa" — falso após Lei 13.655/18.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (fatos jurídicos):** prescrição e decadência — institutos com regras próprias, mas LINDB regula vigência da lei aplicável.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 1 (lei processual):** princípios análogos de aplicação no tempo (tempus regit actum); CPC/15 art. 14 aplica imediatamente sem retroatividade.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Administrativo:** arts. 20-30 LINDB são pedra de toque do "novo direito administrativo brasileiro".' },
+          { type: 'box', kind: 'conexao', text: '**Direito Constitucional:** CF art. 5º XXXVI (irretroatividade) é fundamento do art. 6º LINDB.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-02-pessoas-naturais',
@@ -3984,18 +4078,113 @@ topics: [
     title: 'Pessoas naturais',
     edital: '3.1.2',
     editalText: 'Personalidade. Capacidade. Direitos da personalidade. Domicílio. Ausência. Estatuto da Pessoa com Deficiência.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Início e fim da personalidade — natimorto',
-      'Capacidade de direito × de fato',
-      'Incapacidade absoluta (art. 3º) e relativa (art. 4º) — após Lei 13.146/15',
-      'Direitos da personalidade — características',
-      'Nome, imagem, intimidade, honra, sepultura',
-      'Domicílio — fixo, profissional, contratual',
-      'Ausência — fases (curadoria, sucessão provisória, definitiva)',
-      'Tomada de decisão apoiada × curatela'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Pessoa natural é o ser humano sujeito de direitos. **Personalidade** começa com o nascimento com vida (art. 2º), mas a lei resguarda os direitos do **nascituro** desde a concepção. **Capacidade** distingue-se em **de direito** (todos têm — art. 1º) e **de fato** (idade + discernimento — arts. 3º-4º).' },
+          { type: 'p', text: 'A **Lei 13.146/15 (Estatuto da Pessoa com Deficiência)** revolucionou o tema: deficiência **NÃO afeta plena capacidade civil** (art. 6º EPD). A incapacidade hoje é restrita: **ABSOLUTA** apenas para menores de 16 anos (art. 3º); **RELATIVA** para os hipóteses do art. 4º (inclusive maiores que não puderem exprimir vontade). Tomada de decisão apoiada (art. 1.783-A) substituiu, para a maioria dos casos, a curatela.' },
+          { type: 'p', text: 'Os **direitos da personalidade** (arts. 11-21) são **absolutos, indisponíveis, irrenunciáveis, intransmissíveis, imprescritíveis**. Vida, honra, imagem, nome, privacidade, integridade física e moral. Tutela cível autônoma — não exige dolo nem dano, basta a lesão ou ameaça.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Personalidade e capacidade (arts. 1º-5º)' },
+          { type: 'list', items: [
+            '**Art. 1º** — toda pessoa é capaz de direitos e deveres na ordem civil',
+            '**Art. 2º** — personalidade começa com nascimento com vida; lei põe a salvo, desde a concepção, os direitos do NASCITURO',
+            '**Art. 3º** — ABSOLUTAMENTE incapazes: menores de 16 anos (UNICO inciso, após Lei 13.146/15)',
+            '**Art. 4º** — RELATIVAMENTE incapazes: I — maiores de 16 e menores de 18; II — ébrios habituais e viciados em tóxico; III — aqueles que, por causa transitória ou permanente, NÃO puderem exprimir sua vontade; IV — pródigos',
+            '**Art. 5º** — cessação da menoridade: 18 anos OU (par. único) emancipação por: concessão dos pais, casamento, emprego público efetivo, colação de grau em ensino superior, estabelecimento civil/comercial, economia própria a partir dos 16 anos'
+          ] },
+          { type: 'h', text: 'Direitos da personalidade (arts. 11-21)' },
+          { type: 'list', items: [
+            '**Art. 11** — direitos da personalidade são INTRANSMISSÍVEIS e IRRENUNCIÁVEIS, salvo casos previstos em lei',
+            '**Art. 12** — pode-se exigir cessação de ameaça/lesão a direito da personalidade + perdas e danos',
+            '**Art. 12 par. único** — em caso de morte, legitimados: cônjuge, ascendentes, descendentes, colaterais até 4º grau (rol não taxativo na jurisprudência)',
+            '**Art. 13** — disposição corpórea: vedada quando importar diminuição permanente da integridade física, salvo por exigência médica',
+            '**Art. 16** — toda pessoa tem direito ao NOME (prenome + sobrenome)',
+            '**Art. 17** — nome não pode ser empregado por outrem em publicações ou representações que exponham ao desprezo público',
+            '**Art. 19** — pseudônimo amparado por nome',
+            '**Art. 20** — divulgação de escritos, transmissão de palavra, publicação/exposição/utilização de imagem podem ser proibidas a requerimento, e havendo dano causarão indenização',
+            '**Art. 21** — vida privada inviolável; juiz pode adotar medidas necessárias'
+          ] },
+          { type: 'h', text: 'Domicílio (arts. 70-78)' },
+          { type: 'list', items: [
+            '**Art. 70** — domicílio = lugar onde pessoa estabelece residência com ânimo definitivo',
+            '**Art. 72** — domicílio profissional: para relações profissionais',
+            '**Art. 73** — pessoa sem residência habitual: domicílio onde for encontrada',
+            '**Art. 75** — domicílio das PJs: sede ou onde funcionarem suas diretorias e administrações',
+            '**Art. 76** — domicílio NECESSÁRIO: incapazes (do representante), servidores públicos (lugar onde exercerem funções), militares (sede do comando), marítimos (porto onde matriculado), preso (lugar do cumprimento da pena)',
+            '**Art. 78** — eleição de domicílio em contrato (foro de eleição) — limites em contrato de adesão'
+          ] },
+          { type: 'h', text: 'Ausência (arts. 22-39)' },
+          { type: 'list', items: [
+            '**Art. 22** — desaparecido sem notícias ou representante: juiz declara ausência e nomeia CURADOR (1ª fase)',
+            '**Arts. 26-27** — após 1 ano da arrecadação dos bens (ou 3 anos se houve representante), abre-se SUCESSÃO PROVISÓRIA (2ª fase)',
+            '**Art. 37** — após 10 anos do trânsito em julgado da sentença de abertura da sucessão provisória, ou 5 anos das últimas notícias se ausente tinha 80+ anos, abre-se SUCESSÃO DEFINITIVA (3ª fase)',
+            '**Art. 39** — se o ausente regressar nos 10 anos após a definitiva, terá direito aos bens existentes no estado em que se acharem'
+          ] },
+          { type: 'h', text: 'Tomada de Decisão Apoiada (art. 1.783-A — Lei 13.146/15)' },
+          { type: 'list', items: [
+            'Procedimento JUDICIAL pelo qual a pessoa com deficiência elege APOIADORES de sua confiança',
+            'Apoiadores prestam assistência sem retirar a capacidade civil',
+            'Diferença com curatela: TDA é manifestação de AUTONOMIA da pessoa; curatela é proteção em face de impossibilidade de exprimir vontade'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Status do nascituro — teorias' },
+          { type: 'p', text: 'Três teorias: (a) **NATALISTA** — só com nascimento com vida há personalidade (art. 2º caput); direitos do nascituro são meras expectativas. (b) **CONDICIONALISTA** — personalidade adquirida sob condição do nascimento com vida. (c) **CONCEPCIONISTA** — personalidade desde a concepção, mas com direitos que se completam com nascimento. STJ tem oscilado, mas tendência atual é **concepcionista** quanto a direitos da personalidade (REsp 1.415.727 — direito à imagem do nascituro).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.415.727:** indenização por danos morais ao nascituro por morte do pai antes do nascimento. Adoção da teoria concepcionista para direitos da personalidade.' },
+          { type: 'h', text: 'Estatuto da Pessoa com Deficiência (Lei 13.146/15) — revisão estrutural' },
+          { type: 'p', text: 'Antes do EPD: deficiência psíquica/intelectual era hipótese clássica de incapacidade absoluta. **Após EPD:** deficiência **NÃO afeta plena capacidade civil** (art. 6º EPD). A incapacidade absoluta restringiu-se aos menores de 16 anos. Pessoas com deficiência mental podem usar **TDA** (autonomia) ou, em casos extremos de impossibilidade de exprimir vontade, curatela (mas relativa — art. 1.772 CC).' },
+          { type: 'box', kind: 'atencao', text: '**Pessoa com deficiência tem PLENA capacidade civil** (Lei 13.146 art. 6º). Erro frequente: assumir que continua absolutamente incapaz como antes do EPD.' },
+          { type: 'h', text: 'Direitos da personalidade — características' },
+          { type: 'p', text: 'São **absolutos** (oponíveis erga omnes), **indisponíveis** (não podem ser cedidos), **irrenunciáveis**, **intransmissíveis**, **imprescritíveis** (não se extinguem pelo não-exercício), **vitalícios** (acompanham a pessoa até a morte; depois, a tutela é pelos legitimados do art. 12 par. único).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 521.697 (Ricardo Henkin):** direitos da personalidade do morto podem ser tutelados pela família, em caráter de "lesão ricochete" — atinge memória do falecido e dignidade dos parentes.' },
+          { type: 'h', text: 'Emancipação (art. 5º par. único)' },
+          { type: 'p', text: 'Modos de emancipação: **voluntária** (concessão dos pais, irrevogável); **judicial** (tutor); **legal** (casamento, emprego público efetivo, colação de grau em superior, estabelecimento civil/comercial, economia própria 16+). A emancipação confere capacidade civil plena (mas não responsabilidade penal — penal é 18 anos sempre).' },
+          { type: 'box', kind: 'atencao', text: '**Emancipação NÃO altera responsabilidade penal** — apenas civil. Erro: confundir capacidade civil com imputabilidade penal (que é 18 anos).' },
+          { type: 'h', text: 'Domicílio aparente x necessário' },
+          { type: 'p', text: '**Necessário (art. 76)** — fixado por lei: incapaz, servidor, militar, marítimo, preso. Não admite escolha. **Aparente** — caracterizado pela presença material e sinais de fixação. Se PF tem múltiplas residências, é considerada domiciliada em qualquer delas (art. 71).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Personalidade — INA-IRRENUNCIÁVEL-INTRANSMISSÍVEL-IMPRESCRITÍVEL.** Características essenciais.' },
+          { type: 'box', kind: 'macete', text: '**Absolutos: < 16 anos.** Apenas (após EPD).' },
+          { type: 'box', kind: 'macete', text: '**Relativos: 16-18, ébrio, viciado, NÃO podem exprimir vontade, pródigo (art. 4º).**' },
+          { type: 'box', kind: 'macete', text: '**Ausência — 3 fases: Curadoria → Provisória (1 ou 3 anos) → Definitiva (10 anos).**' },
+          { type: 'box', kind: 'macete', text: '**Emancipação legal: CCEEEE — Casamento · Emprego público · Estabelecimento · Estudo superior · Economia própria 16+.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Pessoa com deficiência intelectual NÃO é mais ABSOLUTAMENTE incapaz.** Pode ser relativa (art. 4º III — impossibilidade de exprimir vontade) ou tomada de decisão apoiada (art. 1.783-A). Mudança radical pelo EPD.' },
+          { type: 'box', kind: 'atencao', text: '**Maior de 16 e menor de 18 é RELATIVO** — pratica atos com assistência. Diferente de "absolutamente incapaz".' },
+          { type: 'box', kind: 'atencao', text: '**Personalidade da PJ é distinta dos direitos da personalidade pessoais.** PJ tem honra OBJETIVA (Súmula 227/STJ), mas não direito à intimidade ou à integridade física.' },
+          { type: 'box', kind: 'atencao', text: '**Domicílio do incapaz é NECESSÁRIO — do representante** (art. 76). Mesmo que o incapaz resida em outro lugar, juridicamente segue o representante.' },
+          { type: 'box', kind: 'atencao', text: '**Sucessão definitiva pode SUSPENDER se ausente retornar.** Mas após 10 anos, bens vão para os herdeiros sem mais retorno (art. 39).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (Família — alimentos, tutela, curatela):** EPD reformou curatela (art. 1.767 + 1.772) — restrita a "atos negociais e patrimoniais". Tomada de decisão apoiada é alternativa.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP no processo):** intervenção obrigatória em causas com incapazes (CPC art. 178 II).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** menor incapaz responde subsidiariamente (CC art. 928); pais respondem objetivamente pelos atos dos filhos (art. 932 I).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-03-pessoas-juridicas',
@@ -4003,18 +4192,103 @@ topics: [
     title: 'Pessoas jurídicas',
     edital: '3.1.3',
     editalText: 'Conceito. Espécies. Constituição, registro, extinção. Desconsideração da personalidade jurídica (CC art. 50).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Espécies — direito público (interno/externo) e privado',
-      'Constituição — registro como condição de existência',
-      'Atos constitutivos, denominação',
-      'Responsabilidade — patrimônio próprio',
-      'Desconsideração (art. 50) — teoria maior × menor',
-      'Lei 13.874/19 (Liberdade Econômica) e impactos',
-      'Desconsideração inversa',
-      'Grupos econômicos e sucessão empresarial'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A pessoa jurídica é **entidade abstrata** com personalidade própria, distinta dos seus membros. **Princípio da autonomia patrimonial** (art. 49-A, incluído pela Lei 13.874/19): patrimônio da PJ não se confunde com o dos sócios. A separação é a "essência" da PJ — só excepcionalmente (desconsideração) se rompe.' },
+          { type: 'p', text: 'O CC classifica as PJs em **direito público** (externas: Estados estrangeiros e organismos internacionais; internas: União, Estados, DF, Municípios, autarquias, fundações públicas) e **direito privado** (associações, sociedades, fundações, OSCs, EIRELI — esta extinta pela Lei 14.382/22, agora SLU). A constituição se completa com **registro** (art. 45) — antes do registro, há mera "sociedade de fato".' },
+          { type: 'p', text: 'A **desconsideração da personalidade jurídica (art. 50)** é o mecanismo de exceção. O CC adota a **TEORIA MAIOR**: exige abuso da personalidade caracterizado por **DESVIO DE FINALIDADE** ou **CONFUSÃO PATRIMONIAL**. Diferente da TEORIA MENOR (CDC art. 28; ambiental Lei 9.605), que basta a insolvência. A Lei 13.874/19 detalhou os requisitos do art. 50.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Espécies, constituição e responsabilidade (arts. 40-52)' },
+          { type: 'list', items: [
+            '**Art. 40** — PJs de direito público interno ou externo, e de direito privado',
+            '**Art. 41** — PJs de direito público interno: União, Estados, DF, Territórios, Municípios, autarquias, demais entidades de caráter público criadas por lei',
+            '**Art. 44** — PJs de direito privado: associações, sociedades, fundações, organizações religiosas, partidos políticos, EIRELI (revogada Lei 14.382/22)',
+            '**Art. 45** — começa a existência legal das PJs de direito privado com inscrição do ato constitutivo no registro próprio',
+            '**Art. 49-A** (Lei 13.874/19) — PJ NÃO se confunde com seus sócios, associados, instituidores ou administradores. Patrimônio é AUTÔNOMO',
+            '**Art. 49-A par. único** — autonomia patrimonial é instrumento lícito de alocação de risco e estímulo à atividade econômica'
+          ] },
+          { type: 'h', text: 'Desconsideração (art. 50 — Lei 13.874/19)' },
+          { type: 'list', items: [
+            '**Caput** — em caso de ABUSO DA PERSONALIDADE JURÍDICA, caracterizado por DESVIO DE FINALIDADE ou CONFUSÃO PATRIMONIAL, pode o juiz, a requerimento da parte ou do MP (quando intervir), desconsiderar para que os efeitos atinjam bens dos sócios/administradores',
+            '**§ 1º** — DESVIO DE FINALIDADE = utilização da PJ com propósito de lesar credores ou praticar ato ilícito',
+            '**§ 2º** — CONFUSÃO PATRIMONIAL: I — cumprimento repetitivo de obrigações da PJ pelo sócio (ou vice-versa); II — transferência de ativos sem efetivas contraprestações; III — outros atos de descumprimento da autonomia patrimonial',
+            '**§ 3º** — desconsideração também pode atingir bens dos sócios/administradores em RECUPERAÇÃO JUDICIAL/falência',
+            '**§ 4º** — desconsideração INVERSA: bens da PJ podem responder por dívidas pessoais dos sócios',
+            '**§ 5º** — não constitui desvio de finalidade a mera expansão ou alteração da finalidade original (proteção)'
+          ] },
+          { type: 'h', text: 'Fundações (arts. 62-69)' },
+          { type: 'list', items: [
+            '**Art. 62** — fundações privadas só para fins RELIGIOSOS, MORAIS, CULTURAIS, ASSISTENCIAIS',
+            'Constituição por escritura pública ou testamento, com indicação dos fins',
+            '**Art. 66** — fundações são fiscalizadas pelo MP do estado onde situadas (atribuição clássica do MPMG)'
+          ] },
+          { type: 'h', text: 'Lei 14.382/22 — extinção da EIRELI' },
+          { type: 'list', items: [
+            'Lei 14.382/22 (Marco Legal das Garantias) extinguiu a EIRELI',
+            'EIRELIs existentes foram automaticamente convertidas em **SLU (Sociedade Limitada Unipessoal)**',
+            'SLU já existia desde Lei 13.874/19 — agora é única figura unipessoal limitada'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Teoria Maior × Teoria Menor da desconsideração' },
+          { type: 'p', text: '**TEORIA MAIOR** (CC art. 50): exige **abuso da personalidade** — desvio de finalidade ou confusão patrimonial. Mera insolvência NÃO autoriza. Aplicável em direito empresarial e civil em geral.' },
+          { type: 'p', text: '**TEORIA MENOR** (CDC art. 28; Lei 9.605/98 — ambiental): basta a **OBSTACULIZAÇÃO ao ressarcimento** ou a **insolvência da PJ**. Não exige abuso. Aplicável apenas onde lei específica adota (consumidor e ambiental são clássicos).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.658.648:** Teoria Menor é aplicada apenas em casos legalmente previstos. Em direito civil/empresarial geral, a Teoria MAIOR (CC art. 50) é a regra.' },
+          { type: 'box', kind: 'macete', text: '**Maior = abuso (CC 50). Menor = insolvência (CDC 28 + ambiental).** Maior exige mais para desconsiderar; Menor é mais permissiva.' },
+          { type: 'h', text: 'Desconsideração inversa (art. 50 § 4º)' },
+          { type: 'p', text: 'Possível desde a edição da Lei 13.874/19 (positivou jurisprudência STJ). **Bens da PJ respondem por dívidas pessoais dos sócios.** Hipótese clássica: sócio que esvazia patrimônio pessoal para a PJ (com confusão patrimonial reversa).' },
+          { type: 'h', text: 'Procedimento: IDPJ (CPC arts. 133-137)' },
+          { type: 'p', text: 'Desconsideração exige **incidente de desconsideração da personalidade jurídica (IDPJ)** no processo civil, com contraditório, instrução, decisão (recurso: agravo de instrumento — CPC art. 1.015 IV). Sem IDPJ, atingir patrimônio do sócio é nulo. Apenas em CDC e ambiental admite-se "desconsideração in radice" sem IDPJ pleno (controvertido).' },
+          { type: 'box', kind: 'atencao', text: '**Sem IDPJ, desconsideração é NULA** (CPC arts. 133-137). Mero pedido em fase de execução, sem incidente, não basta.' },
+          { type: 'h', text: 'Personalidade da PJ × dos seus integrantes' },
+          { type: 'p', text: 'PJ tem **autonomia patrimonial** (art. 49-A) — patrimônio próprio. Sócios respondem nas dimensões da participação societária (LTDA: limitação ao capital social — Lei 6.404). Desconsideração rompe essa proteção, mas é EXCEPCIONAL.' },
+          { type: 'h', text: 'Direitos da personalidade da PJ' },
+          { type: 'p', text: 'PJ NÃO tem todos os direitos da personalidade da PF — apenas alguns: **honra OBJETIVA** (reputação — Súmula 227/STJ), nome/marca (art. 1.155+), imagem corporativa. NÃO tem direito à privacidade pessoal nem integridade física (são "imateriais por natureza").' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 227:** "A pessoa jurídica pode sofrer dano moral." Reconhecimento da honra objetiva.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Desconsideração — DD: Desvio de finalidade + cumprimento Duplicado de obrigações = abuso (Maior).**' },
+          { type: 'box', kind: 'macete', text: '**Maior = CC 50 (abuso). Menor = CDC 28 / Lei 9.605 (insolvência).**' },
+          { type: 'box', kind: 'macete', text: '**EIRELI EXTINTA** (Lei 14.382/22). Hoje só existe SLU (sociedade limitada unipessoal).' },
+          { type: 'box', kind: 'macete', text: '**Fundação privada — 4 fins: religioso, moral, cultural, assistencial (art. 62).** MP fiscaliza.' },
+          { type: 'box', kind: 'macete', text: '**Lei 13.874/19 — Liberdade Econômica.** Reformou desconsideração (art. 50) + autonomia patrimonial (49-A) + introduziu SLU.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**EIRELI NÃO EXISTE MAIS** (extinta pela Lei 14.382/22). Substituída pela SLU (Sociedade Limitada Unipessoal) automaticamente.' },
+          { type: 'box', kind: 'atencao', text: '**Mera INSOLVÊNCIA não autoriza desconsideração (Teoria Maior — art. 50).** Banca arma: "PJ insolvente → sócios respondem". Falso, em direito civil geral. Em CDC sim (Teoria Menor).' },
+          { type: 'box', kind: 'atencao', text: '**Desconsideração exige IDPJ** (CPC 133-137). Pedido direto na execução = nulo.' },
+          { type: 'box', kind: 'atencao', text: '**Direitos da personalidade da PJ — limitados.** Tem honra OBJETIVA (S. 227/STJ), mas não privacidade ou integridade física.' },
+          { type: 'box', kind: 'atencao', text: '**Mero crescimento ou alteração de objeto social NÃO é desvio de finalidade** (art. 50 §5º). Proteção positivada pela Lei 13.874/19.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 4 (intervenção de terceiros):** IDPJ é incidente do art. 133-137 CPC.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP):** MP fiscaliza fundações (CC art. 66) — função clássica do Promotor de Justiça.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 12 (empresa):** sociedades empresárias seguem Lei 6.404 (S.A.) e CC arts. 1.052+ (LTDA). SLU é unipessoal limitada.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Administrativo:** PJs de direito público interno (União, autarquias) seguem regime distinto, com prerrogativas (impenhorabilidade, prescrição).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-04-bens',
@@ -4022,16 +4296,101 @@ topics: [
     title: 'Bens',
     edital: '3.1.4',
     editalText: 'Conceito de bens. Classificação. Bens públicos. Bem de família legal e voluntário (Lei 8.009/90).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Classificação — corpóreos/incorpóreos, móveis/imóveis, fungíveis/infungíveis',
-      'Acessões e benfeitorias',
-      'Bens públicos — uso comum, uso especial, dominicais',
-      'Imprescritibilidade e impenhorabilidade dos bens públicos',
-      'Bem de família legal (Lei 8.009/90) — limites e exceções',
-      'Bem de família voluntário (CC arts. 1.711-1.722)'
-    ],
-    sections: []
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Bens são "tudo o que pode ser objeto de uma relação jurídica". O CC classifica os bens em **móveis/imóveis** (arts. 79-84), **fungíveis/infungíveis e consumíveis/inconsumíveis** (arts. 85-86), **divisíveis/indivisíveis** (arts. 87-88), **singulares/coletivos** (arts. 89-91), **principais/acessórios** (arts. 92-97), **PÚBLICOS** (arts. 98-103) e **bem de família** (arts. 1.711+ + Lei 8.009/90).' },
+          { type: 'p', text: 'Para concurso de Promotor, dois núcleos pesam: (1) **Bens públicos** — classificação por destinação (uso comum, uso especial, dominicais), prerrogativas (inalienabilidade relativa, impenhorabilidade, imprescritibilidade); (2) **Bem de família** — distinção entre legal (Lei 8.009/90 — automático) e voluntário (CC 1.711+ — escritura registrada). Exceções à impenhorabilidade.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Classificação geral (arts. 79-91)' },
+          { type: 'list', items: [
+            '**Art. 79** — móveis: suscetíveis de movimento próprio ou remoção sem alteração da substância',
+            '**Art. 80** — imóveis: solo + tudo que se incorpora natural/artificialmente. **Direitos reais** sobre imóveis também são imóveis (regra IMPORTANTE)',
+            '**Art. 81** — bens MÓVEIS POR DETERMINAÇÃO LEGAL: energias com valor econômico, direitos reais sobre objetos móveis, ações de sociedades, etc.',
+            '**Art. 82** — móveis por NATUREZA + por antecipação (frutos pendentes destinados ao corte)',
+            '**Art. 85** — fungíveis: substituíveis por outros do mesmo gênero, qualidade, quantidade (dinheiro, grãos)',
+            '**Art. 86** — consumíveis: cujo uso importa destruição imediata (alimentos)',
+            '**Art. 91** — universalidade DE FATO: pluralidade de bens singulares com unidade econômica (rebanho, biblioteca)'
+          ] },
+          { type: 'h', text: 'Bens públicos (arts. 98-103)' },
+          { type: 'list', items: [
+            '**Art. 98** — bens públicos: pertencem às PJs de direito público interno; demais são particulares',
+            '**Art. 99** — três espécies: (I) USO COMUM do povo: rios, mares, estradas, ruas, praças; (II) USO ESPECIAL: edifícios e terrenos destinados a serviço público; (III) DOMINICAIS: patrimônio das PJs públicas, como objeto de direito real ou pessoal',
+            '**Art. 100** — bens de uso comum e uso especial são INALIENÁVEIS enquanto conservarem essa qualificação. Dominicais podem ser alienados, observados os requisitos legais',
+            '**Art. 101** — desafetação possível por lei (uso especial → dominical, depois alienar)',
+            '**Art. 102** — bens públicos NÃO ESTÃO sujeitos a USUCAPIÃO',
+            '**Art. 103** — uso comum pode ser gratuito ou retribuído, conforme estabelecido em lei'
+          ] },
+          { type: 'h', text: 'Bem de família (CC arts. 1.711-1.722 + Lei 8.009/90)' },
+          { type: 'list', items: [
+            '**CC art. 1.711** — pode-se destinar parte do patrimônio para bem de família, máximo 1/3 do patrimônio líquido. Inscrito no registro imobiliário',
+            '**CC art. 1.712** — bem de família abrange prédio residencial + valores mobiliários para conservação/sustento da família',
+            '**CC art. 1.715** — bem de família é IMPENHORÁVEL e isento de execução por dívidas posteriores à instituição',
+            '**Lei 8.009/90 art. 1º** — IMÓVEL RESIDENCIAL próprio do casal/entidade familiar é IMPENHORÁVEL automaticamente, não respondendo por dívida civil/comercial/fiscal/previdenciária do casal/famílias',
+            '**Lei 8.009/90 art. 3º** — exceções (rol TAXATIVO): I (revogado); II — créditos de empregados domésticos; III — credor de financiamento do próprio imóvel; IV — pensão alimentícia (decisão judicial); V — IPTU/cotas condominiais do imóvel; VI — execução de hipoteca dada em garantia ao casal; VII — civil de fiança em locação (julgado constitucional pelo STF)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Bem de família LEGAL × VOLUNTÁRIO' },
+          { type: 'table', headers: ['Critério', 'Legal (Lei 8.009)', 'Voluntário (CC 1.711)'],
+            rows: [
+              ['Constituição', 'AUTOMÁTICA — basta residência', 'Escritura pública + REGISTRO'],
+              ['Limite valor', 'Sem limite no imóvel residencial', 'Até 1/3 do patrimônio líquido'],
+              ['Exceções', 'Rol taxativo do art. 3º (Lei 8.009)', 'Tributos do imóvel + pensão alimentícia'],
+              ['Atinge', 'Imóvel residencial + alguns móveis essenciais', 'Imóvel + valores mobiliários']
+            ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 449:** "A vaga de garagem que possui matrícula própria no registro de imóveis NÃO constitui bem de família para efeito de penhora." Tem matrícula = é bem distinto, penhorável.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 486:** "É impenhorável o único imóvel residencial do devedor que esteja LOCADO a terceiros, desde que a renda obtida com a locação seja revertida para a subsistência da família ou para o pagamento de aluguel da residência onde a família reside."' },
+          { type: 'h', text: 'Bens PÚBLICOS — 3 prerrogativas (clássicas)' },
+          { type: 'p', text: '**INALIENABILIDADE** (relativa — desafetação permite venda); **IMPENHORABILIDADE** (absoluta — bens públicos não podem ser penhorados; pagamento por precatórios/RPVs); **IMPRESCRITIBILIDADE** (não admitem usucapião — art. 102 + Súmula 340/STF). Forma o "tripé" da proteção dos bens públicos.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 340:** "Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, NÃO PODEM ser adquiridos por usucapião." Aplicação ampla a todas as espécies de bens públicos.' },
+          { type: 'h', text: 'Fiança locatícia — exceção controvertida' },
+          { type: 'p', text: '**Lei 8.009/90 art. 3º VII** permite penhora do bem de família do FIADOR em LOCAÇÃO. STF reconheceu constitucionalidade (RE 612.360 — Tema 295). Crítica doutrinária: viola direito à moradia (CF art. 6º). Tema clássico de prova oral.' },
+          { type: 'h', text: 'Bens dominicais e desafetação' },
+          { type: 'p', text: 'Dominicais são "bens públicos sem destinação pública específica" — patrimônio disponível. Podem ser alienados (com requisitos: avaliação, autorização legislativa, licitação — Lei 14.133/21). **Uso comum/especial** exigem **desafetação** prévia (lei ou ato administrativo) para virarem dominicais e poderem ser alienados.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Bens públicos: 3 espécies (USO COMUM · USO ESPECIAL · DOMINICAIS) + 3 prerrogativas (INALIENÁVEL · IMPENHORÁVEL · IMPRESCRITÍVEL).**' },
+          { type: 'box', kind: 'macete', text: '**Bem família LEGAL = AUTOMÁTICO (Lei 8.009/90). VOLUNTÁRIO = registro (CC 1.711).**' },
+          { type: 'box', kind: 'macete', text: '**Lei 8.009 art. 3º — 7 EXCEÇÕES:** doméstico, financiamento, alimentos, IPTU/condomínio, hipoteca, fiança locatícia, etc.' },
+          { type: 'box', kind: 'macete', text: '**Súmula 340/STF: bens públicos = SEM USUCAPIÃO.** Universal.' },
+          { type: 'box', kind: 'macete', text: '**Móveis por DETERMINAÇÃO LEGAL: energia, direitos reais sobre móveis, ações** (art. 81).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Bem de família LEGAL é AUTOMÁTICO** — não precisa registro nem declaração. A residência do casal é protegida ipso facto (Lei 8.009 art. 1º).' },
+          { type: 'box', kind: 'atencao', text: '**Imóvel residencial LOCADO PODE ser bem de família** se renda for usada para subsistência ou aluguel residencial (Súmula 486/STJ). Erro: assumir que locação afasta proteção.' },
+          { type: 'box', kind: 'atencao', text: '**Vaga de garagem com matrícula PRÓPRIA = penhorável** (Súmula 449/STJ). Diferente da unidade autônoma como um todo.' },
+          { type: 'box', kind: 'atencao', text: '**Fiança locatícia PENHORA bem de família do fiador** (Lei 8.009 art. 3º VII + STF Tema 295). Exceção amplamente cobrada.' },
+          { type: 'box', kind: 'atencao', text: '**Bem público é IMPRESCRITÍVEL — NÃO admite usucapião** (Súmula 340/STF + CC 102). Banca arma: "dominicais sem afetação podem ser usucapidos" — falso.' },
+          { type: 'box', kind: 'atencao', text: '**Direitos reais sobre IMÓVEIS são IMÓVEIS** (art. 80 II). Direitos reais sobre móveis são móveis. Pegadinha clássica.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 13 (direitos reais — posse e propriedade):** usucapião. Bem público nunca é usucapido (Súmula 340/STF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** impenhorabilidade do bem de família é defesa do devedor; STJ tem jurisprudência ampla sobre exceções.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (família — alimentos):** pensão alimentícia é exceção que permite penhora do bem de família (Lei 8.009 art. 3º IV).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-05-fatos-juridicos',
@@ -4039,18 +4398,131 @@ topics: [
     title: 'Fatos jurídicos, prescrição e decadência',
     edital: '3.1.5',
     editalText: 'Fato, ato e negócio jurídico. Defeitos do negócio jurídico. Validade, eficácia, nulidade e anulabilidade. Prescrição e decadência.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Fato × ato × negócio jurídico — escala Pontes de Miranda',
-      'Plano da existência, validade e eficácia',
-      'Defeitos — erro, dolo, coação, lesão, estado de perigo, fraude',
-      'Simulação — nulidade absoluta',
-      'Nulidade × anulabilidade — diferenças e prazos',
-      'Prescrição (art. 189-206) — causas suspensivas e interruptivas',
-      'Decadência — convencional e legal',
-      'Diferenças prescrição × decadência'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 2-3',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Fato jurídico (lato sensu) é qualquer acontecimento que produza efeitos jurídicos. **Pontes de Miranda** estruturou a escala: **fato jurídico stricto sensu** (acontecimento da natureza — nascimento, morte) → **ato-fato jurídico** (conduta humana sem vontade dirigida — achar tesouro) → **ato jurídico stricto sensu** (vontade que produz efeitos predeterminados — protesto) → **negócio jurídico** (autonomia plena — contrato, testamento).' },
+          { type: 'p', text: '**Plano da existência, validade e eficácia** (escada ponteana): existir = atender pressupostos mínimos; ser válido = atender requisitos legais (capacidade, forma, objeto lícito); ser eficaz = produzir efeitos. Há atos que existem mas são inválidos (anuláveis); há atos válidos mas ineficazes (sob condição suspensiva).' },
+          { type: 'p', text: '**Prescrição × decadência** é divisor de águas. Prescrição extingue a PRETENSÃO (não o direito); decadência extingue o próprio DIREITO. CC unificou: prescrição com prazos do art. 205 (geral, 10 anos) e 206 (especiais); decadência convencional ou legal (arts. 207-211). Aplicação prática: prescrição admite suspensão/interrupção/renúncia; decadência legal não.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Negócio jurídico (arts. 104-184)' },
+          { type: 'list', items: [
+            '**Art. 104** — requisitos de VALIDADE: I — agente capaz; II — objeto lícito, possível, determinado/determinável; III — forma prescrita ou não defesa em lei',
+            '**Art. 107** — forma livre, salvo quando lei exigir forma especial (negócios solenes)',
+            '**Art. 108** — escritura pública é da SUBSTÂNCIA do ato em negócios sobre IMÓVEIS de valor superior a 30 SM',
+            '**Art. 113** — interpretação: boa-fé objetiva e usos do lugar',
+            '**Art. 114** — negócios benéficos e renúncia interpretam-se restritivamente',
+            '**Art. 121** — condição: cláusula que subordina efeito do negócio a evento FUTURO e INCERTO',
+            '**Art. 131** — termo: evento FUTURO E CERTO. Diferença com condição (futuro INCERTO)'
+          ] },
+          { type: 'h', text: 'Defeitos do negócio jurídico (arts. 138-165)' },
+          { type: 'list', items: [
+            '**Erro substancial (art. 138)** — engano sobre elemento essencial do negócio. Anulabilidade. Prazo: 4 anos da celebração (art. 178 II)',
+            '**Dolo (art. 145)** — engano provocado pela parte ou terceiro. Anulabilidade. Prazo: 4 anos',
+            '**Coação (art. 151)** — ameaça que vicia a vontade. Anulabilidade. Prazo: 4 anos da cessação',
+            '**Estado de perigo (art. 156)** — assumir obrigação excessivamente onerosa em situação de necessidade extrema (parente em risco)',
+            '**Lesão (art. 157)** — desproporção entre prestações por inexperiência ou premente necessidade. Anulabilidade — pode ser COMPLEMENTADA pelo lesado para conservar o negócio (§2º)',
+            '**Fraude contra credores (arts. 158-165)** — alienação que reduz devedor à insolvência. AÇÃO PAULIANA. Anulabilidade — prazo 4 anos',
+            '**Simulação (art. 167)** — declaração não corresponde à vontade real. NULIDADE ABSOLUTA. Não convalida; pode ser arguida a qualquer tempo'
+          ] },
+          { type: 'h', text: 'Nulidade × anulabilidade' },
+          { type: 'list', items: [
+            '**Nulidade ABSOLUTA (art. 166)** — vício gravíssimo: agente absolutamente incapaz, objeto ilícito/impossível, ausência de forma essencial, simulação, etc. **Pode ser arguida por QUALQUER interessado e pelo MP. Não convalida pelo tempo. Imprescritível.**',
+            '**Anulabilidade (art. 171)** — vício menos grave: agente relativamente incapaz, defeitos do negócio jurídico (erro, dolo, coação, lesão, estado de perigo, fraude). **Só pelos interessados. Convalida pelo decurso do prazo (4 anos — art. 178). Prescritível decadencial.**'
+          ] },
+          { type: 'h', text: 'Prescrição (arts. 189-206)' },
+          { type: 'list', items: [
+            '**Art. 189** — violado o direito, nasce para o titular a PRETENSÃO, que se extingue pela PRESCRIÇÃO',
+            '**Art. 190** — prescrição da pretensão extingue a possibilidade de ação',
+            '**Art. 191** — renúncia da prescrição: tácita ou expressa, após consumada e sem prejudicar terceiros',
+            '**Art. 197-201** — causas SUSPENSIVAS (entre cônjuges, ascendentes-descendentes, contra incapazes do art. 3º — apenas absolutamente incapaz)',
+            '**Arts. 202-204** — causas INTERRUPTIVAS — UMA SÓ VEZ pelo mesmo fato (art. 202 caput)',
+            '**Art. 205** — prazo geral: 10 ANOS, se não houver previsão específica',
+            '**Art. 206** — prazos especiais: §3º V — pretensão de reparação civil = 3 ANOS; §5º I — exigir cumprimento de obrigação líquida em instrumento público/particular = 5 ANOS'
+          ] },
+          { type: 'h', text: 'Decadência (arts. 207-211)' },
+          { type: 'list', items: [
+            '**Art. 207** — salvo disposição em contrário, NÃO se aplicam à decadência as normas que impedem, suspendem ou interrompem a prescrição',
+            '**Art. 208** — aplica-se à decadência o art. 195 (proteção dos absolutamente incapazes)',
+            '**Art. 209** — é nula a renúncia à decadência LEGAL',
+            '**Art. 210** — DECADÊNCIA LEGAL conhecível DE OFÍCIO',
+            '**Art. 211** — DECADÊNCIA CONVENCIONAL — só pode ser arguida pela parte beneficiada'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Prescrição × decadência — diferenças essenciais' },
+          { type: 'table', headers: ['Critério', 'Prescrição', 'Decadência'],
+            rows: [
+              ['O que extingue', 'A PRETENSÃO (não o direito)', 'O próprio DIREITO'],
+              ['Suspensão/interrupção', 'Sim (arts. 197-204)', 'NÃO (regra — art. 207). Exceção: art. 195 (incapazes)'],
+              ['Renúncia', 'Possível, após consumada (art. 191)', 'Convencional sim; LEGAL não (art. 209)'],
+              ['Conhecimento de ofício', 'Sim (CPC art. 487 II)', 'Decadência LEGAL: SIM (art. 210). Convencional: NÃO (art. 211)'],
+              ['Aplicação', 'Direitos a prestação', 'Direitos potestativos (formação/desconstituição)']
+            ] },
+          { type: 'box', kind: 'macete', text: '**Prescrição = PRETENSÃO. Decadência = DIREITO.** Prescrição admite suspensão/interrupção; decadência (legal) não.' },
+          { type: 'h', text: 'Simulação — única causa de NULIDADE entre os defeitos' },
+          { type: 'p', text: 'Todos os defeitos do negócio jurídico geram **anulabilidade** (arts. 138, 145, 151, 156, 157, 158) — EXCETO **simulação** (art. 167), que gera **nulidade absoluta**. Por isso pode ser arguida a qualquer tempo, por qualquer interessado ou MP. Doutrina explica: simulação atinge a estrutura mesma do negócio (não há vontade real correspondente).' },
+          { type: 'box', kind: 'atencao', text: '**Simulação = NULIDADE absoluta** (não anulabilidade). Erro frequente: confundir com os outros defeitos.' },
+          { type: 'h', text: 'Prazos prescricionais mais cobrados' },
+          { type: 'list', items: [
+            '**10 anos** (art. 205) — geral, residual',
+            '**5 anos** (206 §5º I) — cobrança de obrigação líquida em instrumento público/particular',
+            '**5 anos** (206 §5º II) — pretensão de honorários de profissionais liberais',
+            '**3 anos** (206 §3º V) — REPARAÇÃO CIVIL (responsabilidade civil)',
+            '**3 anos** (206 §3º IV) — pretensão de ressarcimento por enriquecimento sem causa',
+            '**2 anos** (206 §2º) — alimentos em decorrência de sentença',
+            '**1 ano** (206 §1º) — pretensão de hospedeiros, contra mantenedores de pensões'
+          ] },
+          { type: 'h', text: 'Decadência convencional × legal' },
+          { type: 'p', text: '**LEGAL** — fixada por lei. Conhecível DE OFÍCIO (art. 210). Renúncia é nula (art. 209). Ex: prazo para anular casamento (4 anos — art. 1.560), prazo para reclamar vícios redibitórios (30 dias se evidente, 1 ano se oculto — art. 445).' },
+          { type: 'p', text: '**CONVENCIONAL** — fixada pelas partes. NÃO é conhecível de ofício (art. 211). Pode ser renunciada. Beneficiária deve invocar.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 405:** "A ação de cobrança do seguro obrigatório DPVAT prescreve em 3 anos." Aplicação do art. 206 §3º IX (seguro). Tema cobrado.' },
+          { type: 'h', text: 'Causas que SUSPENDEM × INTERROMPEM' },
+          { type: 'p', text: '**Suspensão (arts. 197-201)** — paralisa o curso, depois retoma de onde parou. Causas: entre cônjuges, ascendentes/descendentes, contra absolutamente incapazes, etc. **Interrupção (arts. 202-204)** — zera o prazo, recomeça do zero. Causas: citação válida (Súmula 106/STJ), protesto (judicial ou extrajudicial), reconhecimento do devedor, etc. **UMA SÓ VEZ** pelo mesmo fato (art. 202 caput).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Defeitos: 6** — Erro · Dolo · Coação · Estado de perigo · Lesão · Fraude. Todos = anulabilidade. **Simulação = NULIDADE.**' },
+          { type: 'box', kind: 'macete', text: '**Prescrição × Decadência = PRETENSÃO × DIREITO.** A pretensão "se extingue" (prescrição); o direito "decai" (decadência).' },
+          { type: 'box', kind: 'macete', text: '**Reparação civil = 3 anos (art. 206 §3º V).** Tema vinculante na prática.' },
+          { type: 'box', kind: 'macete', text: '**Decadência LEGAL = ofício + irrenunciável. CONVENCIONAL = parte + renunciável.**' },
+          { type: 'box', kind: 'macete', text: '**Plano ponteano: existir → válido → eficaz.** Existência mínimo, validade requisitos legais, eficácia produção de efeitos.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Simulação = NULIDADE (art. 167).** Os outros 6 defeitos = anulabilidade. Erro recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Lesão admite COMPLEMENTAÇÃO (art. 157 §2º) — diferente dos outros defeitos.** Lesado pode optar por manter o negócio ajustando preço.' },
+          { type: 'box', kind: 'atencao', text: '**Decadência LEGAL é conhecível DE OFÍCIO** (art. 210). CONVENCIONAL não. Banca confunde.' },
+          { type: 'box', kind: 'atencao', text: '**Renúncia à decadência LEGAL é NULA** (art. 209). À convencional é válida.' },
+          { type: 'box', kind: 'atencao', text: '**Prescrição interrompida UMA ÚNICA VEZ** pelo mesmo fato (art. 202 caput). Pegadinha: dizer que pode ser interrompida várias vezes.' },
+          { type: 'box', kind: 'atencao', text: '**Suspensão da prescrição contra absolutamente incapaz — só MENOR DE 16 ANOS** (art. 198 c/c art. 3º após EPD). Pessoa com deficiência intelectual NÃO é absolutamente incapaz e prescrição corre normalmente contra ela (salvo TDA/curatela).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** prazo prescricional de 3 anos (art. 206 §3º V).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 1 (LINDB):** integração e antinomias relacionam-se com vigência das normas — base para análise de prescrição/decadência por leis sucessivas.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 11 (procedimento comum):** improcedência liminar do pedido por prescrição/decadência (CPC art. 332 §1º). Juiz reconhece de ofício as legais.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 16 (recursos):** pode-se discutir prescrição em qualquer fase recursal (CPC art. 487 par. único).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-06-obrigacoes-geral',
@@ -4478,7 +4950,43 @@ flashcards: [
   { id: 160, topic: 30, q: 'Honorários Fazenda — sistema do art. 85 §3º?', a: 'ESCALONADO em 5 faixas: 10-20% (até 200 SM); 8-10% (200-2.000); 5-8% (2.000-20.000); 3-5% (20.000-100.000); 1-3% (>100.000). Quanto maior o valor, MENOR o percentual.', tags: ['fase2', 'honorarios', 'fazenda'] },
   { id: 161, topic: 30, q: 'O que são honorários recursais (§11)?', a: 'MAJORAÇÃO dos honorários quando recurso é desprovido (não conhecido OU julgado improcedente). NÃO é novo honorário; é majoração do existente. Soma respeita limite máximo do caput/§3º. Aplica-se à Fazenda também.', tags: ['fase2', 'honorarios', 'recursos'] },
   { id: 162, topic: 30, q: 'Dano moral fixado abaixo do pedido = sucumbência recíproca?', a: 'NÃO (Súmula 326/STJ). Apenas o réu paga honorários. A "redução" pelo juiz é exercício de proporcionalidade — não importa decadência do autor.', tags: ['fase2', 'honorarios', 'sucumbencia'] },
-  { id: 163, topic: 30, q: 'Multa por ato atentatório — destinatário?', a: 'União/Estado (CPC art. 77 §2º — até 20% do valor da causa). Diferente de: litigância de má-fé (parte contrária — art. 81); astreintes (exequente — art. 537); execução protelatória (exequente — art. 918).', tags: ['fase2', 'multas'] }
+  { id: 163, topic: 30, q: 'Multa por ato atentatório — destinatário?', a: 'União/Estado (CPC art. 77 §2º — até 20% do valor da causa). Diferente de: litigância de má-fé (parte contrária — art. 81); astreintes (exequente — art. 537); execução protelatória (exequente — art. 918).', tags: ['fase2', 'multas'] },
+
+  // ============ Bloco 11 — Fase 3 (Civil 1-5 — Parte Geral) ============
+  // Civ 1 — LINDB
+  { id: 164, topic: 1, materia: 'civil', q: 'O que é repristinação no direito brasileiro?', a: 'Restauração da lei revogada quando a lei revogadora é ela mesma revogada. NÃO é automática (LINDB art. 2º §3º) — só acontece se a nova lei dispuser EXPRESSAMENTE.', tags: ['fase3', 'LINDB'] },
+  { id: 165, topic: 1, materia: 'civil', q: 'Quando se aplica vacatio legis de 45 dias (LINDB)?', a: 'Quando a lei NÃO fixa data própria de vigência (regra supletiva — art. 1º). Ex: lei sem cláusula de vigência → 45 dias no Brasil + 3 meses no exterior. Códigos costumam fixar vacatio longa (ex: 1 ano).', tags: ['fase3', 'LINDB', 'vigencia'] },
+  { id: 166, topic: 1, materia: 'civil', q: 'Quais os critérios para resolver antinomias?', a: 'Bobbio: (1) Hierárquico (lei superior); (2) Cronológico (lei posterior); (3) Especialidade (lei específica). Em conflito entre critérios: hierárquico vence cronológico; cronológico geral cede à especialidade.', tags: ['fase3', 'LINDB', 'antinomias'] },
+  { id: 167, topic: 1, materia: 'civil', q: 'O que diz o art. 28 da LINDB sobre responsabilização do agente público?', a: 'Agente público responde PESSOALMENTE apenas por DOLO ou ERRO GROSSEIRO. Lei 13.655/18 protege administrador de divergência razoável de opinião — não é culpa simples.', tags: ['fase3', 'LINDB', 'consequencialismo'] },
+  { id: 168, topic: 1, materia: 'civil', q: 'Lei nova GERAL revoga lei especial anterior?', a: 'NÃO, salvo disposição expressa (LINDB art. 2º §2º). Lex specialis derogat generali — princípio da especialidade. A relação especial-geral mantém-se.', tags: ['fase3', 'LINDB'] },
+
+  // Civ 2 — Pessoas naturais
+  { id: 169, topic: 2, materia: 'civil', q: 'Quem são os ABSOLUTAMENTE incapazes após a Lei 13.146/15 (EPD)?', a: 'APENAS os menores de 16 anos (CC art. 3º — único inciso após EPD). Pessoa com deficiência mental NÃO é mais absolutamente incapaz; pode ser relativa (art. 4º III) ou usar tomada de decisão apoiada.', tags: ['fase3', 'pessoas-naturais', 'EPD'] },
+  { id: 170, topic: 2, materia: 'civil', q: 'Quais as três fases da ausência?', a: '(1) CURADORIA — declaração + curador (art. 22). (2) SUCESSÃO PROVISÓRIA — após 1 ano da arrecadação (ou 3 anos com representante) — arts. 26-27. (3) SUCESSÃO DEFINITIVA — após 10 anos da provisória (ou 5 anos das últimas notícias se tinha 80+ anos) — art. 37.', tags: ['fase3', 'pessoas-naturais', 'ausencia'] },
+  { id: 171, topic: 2, materia: 'civil', q: 'Quais os modos de emancipação legal (art. 5º par. único)?', a: 'Casamento, emprego público efetivo, colação de grau em ensino superior, estabelecimento civil/comercial, economia própria do menor com 16+ anos. Voluntária: pais ou tutor (judicial).', tags: ['fase3', 'pessoas-naturais', 'emancipacao'] },
+  { id: 172, topic: 2, materia: 'civil', q: 'Características dos direitos da personalidade?', a: 'ABSOLUTOS · INDISPONÍVEIS · IRRENUNCIÁVEIS · INTRANSMISSÍVEIS · IMPRESCRITÍVEIS · VITALÍCIOS. Tutela cível autônoma — basta lesão ou ameaça (art. 12).', tags: ['fase3', 'pessoas-naturais', 'personalidade'] },
+  { id: 173, topic: 2, materia: 'civil', q: 'Qual a teoria adotada pelo STJ sobre o status jurídico do nascituro?', a: 'Tendência CONCEPCIONISTA para direitos da personalidade (REsp 1.415.727 — indenização ao nascituro por morte do pai). CC art. 2º caput sugere natalista, mas jurisprudência avança.', tags: ['fase3', 'pessoas-naturais', 'nascituro'] },
+
+  // Civ 3 — Pessoas jurídicas
+  { id: 174, topic: 3, materia: 'civil', q: 'Diferença entre Teoria Maior e Teoria Menor da desconsideração?', a: 'MAIOR (CC art. 50): exige ABUSO da personalidade — desvio de finalidade ou confusão patrimonial. MENOR (CDC art. 28; ambiental Lei 9.605): basta a INSOLVÊNCIA ou obstaculização ao ressarcimento.', tags: ['fase3', 'PJ', 'desconsideracao'] },
+  { id: 175, topic: 3, materia: 'civil', q: 'O que mudou na desconsideração com a Lei 13.874/19?', a: 'Detalhou os requisitos do art. 50: definiu desvio de finalidade (§1º) e confusão patrimonial (§2º), positivou a desconsideração INVERSA (§4º), e protegeu a expansão lícita da finalidade original (§5º).', tags: ['fase3', 'PJ', 'desconsideracao'] },
+  { id: 176, topic: 3, materia: 'civil', q: 'A EIRELI ainda existe no direito brasileiro?', a: 'NÃO (extinta pela Lei 14.382/22 — Marco Legal das Garantias). EIRELIs existentes foram convertidas automaticamente em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19).', tags: ['fase3', 'PJ'] },
+  { id: 177, topic: 3, materia: 'civil', q: 'Procedimento para desconsiderar a personalidade jurídica?', a: 'IDPJ — Incidente de Desconsideração da Personalidade Jurídica (CPC arts. 133-137). Exige contraditório, instrução, decisão (recurso: agravo de instrumento — art. 1.015 IV). Sem IDPJ, desconsideração é nula.', tags: ['fase3', 'PJ', 'IDPJ'] },
+  { id: 178, topic: 3, materia: 'civil', q: 'PJ pode sofrer dano moral?', a: 'SIM — Súmula 227/STJ. Tutela a honra OBJETIVA (reputação no mercado/sociedade). Não tem direito à privacidade pessoal, integridade física ou direitos personalíssimos individuais.', tags: ['fase3', 'PJ', 'personalidade'] },
+
+  // Civ 4 — Bens
+  { id: 179, topic: 4, materia: 'civil', q: 'Quais as 3 espécies de bens públicos (CC art. 99)?', a: 'I — USO COMUM do povo (rios, ruas, praças); II — USO ESPECIAL (edifícios destinados a serviço público); III — DOMINICAIS (patrimônio das PJs públicas, sem destinação específica).', tags: ['fase3', 'bens', 'publicos'] },
+  { id: 180, topic: 4, materia: 'civil', q: 'Bem público admite usucapião?', a: 'NÃO. Súmula 340/STF e CC art. 102 — TODOS os bens públicos (mesmo dominicais) são imprescritíveis. Junto com inalienabilidade e impenhorabilidade, formam o tripé da proteção.', tags: ['fase3', 'bens', 'publicos'] },
+  { id: 181, topic: 4, materia: 'civil', q: 'Diferença entre bem de família LEGAL e VOLUNTÁRIO?', a: 'LEGAL (Lei 8.009/90): AUTOMÁTICO — basta residência. VOLUNTÁRIO (CC 1.711+): exige escritura + REGISTRO; limite de 1/3 do patrimônio; abrange imóvel + valores mobiliários.', tags: ['fase3', 'bens', 'bem-familia'] },
+  { id: 182, topic: 4, materia: 'civil', q: 'Imóvel residencial LOCADO pode ser bem de família?', a: 'SIM — Súmula 486/STJ. Único imóvel residencial locado a terceiros é impenhorável SE a renda for usada para subsistência da família ou para pagar aluguel residencial. Súmula 449: vaga de garagem com matrícula PRÓPRIA é penhorável.', tags: ['fase3', 'bens', 'bem-familia'] },
+  { id: 183, topic: 4, materia: 'civil', q: 'Bem de família do FIADOR em locação pode ser penhorado?', a: 'SIM — Lei 8.009/90 art. 3º VII + STF Tema 295 (RE 612.360). Exceção controvertida (viola direito à moradia segundo crítica), mas constitucional.', tags: ['fase3', 'bens', 'bem-familia'] },
+
+  // Civ 5 — Fatos jurídicos
+  { id: 184, topic: 5, materia: 'civil', q: 'Diferença entre prescrição e decadência?', a: 'PRESCRIÇÃO extingue a PRETENSÃO (não o direito); admite suspensão/interrupção/renúncia. DECADÊNCIA extingue o próprio DIREITO; legal NÃO admite suspensão/interrupção/renúncia (art. 207 + 209). Pretensão = prestação; decadência = direito potestativo.', tags: ['fase3', 'fatos', 'prescricao'] },
+  { id: 185, topic: 5, materia: 'civil', q: 'Qual é o defeito do negócio jurídico que gera NULIDADE absoluta?', a: 'SIMULAÇÃO (CC art. 167). É a ÚNICA exceção entre os defeitos — todos os outros (erro, dolo, coação, lesão, estado de perigo, fraude contra credores) geram apenas anulabilidade.', tags: ['fase3', 'fatos', 'simulacao'] },
+  { id: 186, topic: 5, materia: 'civil', q: 'Prazo prescricional para reparação civil (responsabilidade civil)?', a: '3 ANOS (CC art. 206 §3º V). Conta-se da ciência inequívoca do dano. Vinculante na prática forense; tema cobrado em quase toda prova.', tags: ['fase3', 'fatos', 'prescricao'] },
+  { id: 187, topic: 5, materia: 'civil', q: 'Decadência LEGAL pode ser conhecida de ofício?', a: 'SIM (CC art. 210). Juiz deve reconhecer mesmo sem alegação da parte. CONVENCIONAL (art. 211): apenas pela parte beneficiada.', tags: ['fase3', 'fatos', 'decadencia'] },
+  { id: 188, topic: 5, materia: 'civil', q: 'A prescrição pode ser interrompida várias vezes pelo mesmo fato?', a: 'NÃO. CC art. 202 caput: a interrupção só ocorre UMA ÚNICA VEZ pelo mesmo fato. Após interrompida, recomeça a contagem por inteiro.', tags: ['fase3', 'fatos', 'prescricao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -5508,6 +6016,138 @@ questions: [
     ],
     correct: 'D',
     explanation: 'CPC art. 334 §8º: ausência à audiência = ato atentatório, multa até 2% à União/Estado. (A) Falso — má-fé reverte à PARTE CONTRÁRIA + indenização (art. 81). (B) Falso — astreintes vão ao EXEQUENTE. (C) Falso — atentatório ao art. 77 §2º vai à União/Estado. (E) Falso — protelação execução = exequente.'
+  },
+
+  // ============ Bloco 11 — Fase 3 (Civil 1-5 — Parte Geral) ============
+  {
+    id: 69, topic: 1, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Lei de Introdução às Normas do Direito Brasileiro (LINDB), é correto afirmar:',
+    alternatives: [
+      'A revogação da lei revogadora restaura automaticamente a vigência da lei original revogada (repristinação).',
+      'Lei nova de caráter geral revoga automaticamente lei especial anterior, em razão do critério cronológico.',
+      'A vacatio legis de 45 dias é norma cogente, não admitindo prazo diverso fixado pela própria lei.',
+      'Os arts. 20 a 30 da LINDB, introduzidos pela Lei 13.655/18, exigem que decisões considerem consequências práticas e zelem pela segurança jurídica.',
+      'Em caso de antinomia entre normas, prevalece sempre o critério cronológico, ainda que conflite com hierárquico ou de especialidade.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 13.655/18 acrescentou arts. 20-30 — consequencialismo + segurança jurídica. (A) Falso — repristinação NÃO é automática (art. 2º §3º). (B) Falso — lei nova GERAL não revoga lei especial salvo disposição expressa (art. 2º §2º). (C) Falso — 45 dias é supletiva. (E) Falso — Bobbio: hierárquico vence cronológico; especialidade vence cronológico geral.'
+  },
+  {
+    id: 70, topic: 1, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a responsabilização do agente público à luz do art. 28 da LINDB (incluído pela Lei 13.655/18), assinale a alternativa correta:',
+    alternatives: [
+      'O agente público responde pessoalmente por todos os atos que praticar, independentemente de culpa ou dolo.',
+      'O agente público responde pessoalmente apenas em caso de dolo ou erro grosseiro.',
+      'O agente público é absolutamente irresponsável por seus atos administrativos, em razão da imunidade funcional.',
+      'A responsabilidade do agente é objetiva, dispensada a comprovação de dolo ou culpa.',
+      'Mera divergência razoável de opinião gera responsabilidade pessoal do agente, em razão do princípio da legalidade.'
+    ],
+    correct: 'B',
+    explanation: 'LINDB art. 28: responsabilização pessoal apenas por DOLO ou ERRO GROSSEIRO. Lei 13.655/18 protege administrador honesto que diverge razoavelmente. (A), (D), (E) ampliam indevidamente; (C) imunidade absoluta inexiste.'
+  },
+  {
+    id: 71, topic: 2, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Após a Lei 13.146/15 (Estatuto da Pessoa com Deficiência), são absolutamente incapazes:',
+    alternatives: [
+      'Os menores de 18 anos e as pessoas com deficiência intelectual ou mental.',
+      'Apenas os menores de 16 anos.',
+      'Os maiores de 16 e menores de 18 anos.',
+      'Os ébrios habituais e os pródigos.',
+      'Apenas as pessoas que não puderem exprimir sua vontade, por causa transitória ou permanente.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 3º (após EPD): apenas menores de 16 anos são absolutamente incapazes. Pessoa com deficiência mental ou intelectual NÃO é mais absolutamente incapaz — pode ser relativamente incapaz (art. 4º III) ou usar tomada de decisão apoiada (art. 1.783-A). (C) e (D) são relativamente incapazes (art. 4º).'
+  },
+  {
+    id: 72, topic: 2, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a ausência (CC arts. 22-39), é correto afirmar:',
+    alternatives: [
+      'A sucessão definitiva pode ser aberta imediatamente, sem qualquer fase intermediária.',
+      'A ausência tem três fases: curadoria, sucessão provisória e sucessão definitiva.',
+      'Após a abertura da sucessão definitiva, o ausente que retornar tem direito à reposição integral de todos os bens, nos exatos termos em que se encontravam.',
+      'A declaração de ausência exige prévia ação penal pela polícia.',
+      'A sucessão provisória abre-se 5 anos após a declaração de ausência, em qualquer hipótese.'
+    ],
+    correct: 'B',
+    explanation: 'Ausência tem 3 fases: (1) curadoria (art. 22); (2) sucessão provisória — após 1 ano da arrecadação ou 3 anos com representante (arts. 26-27); (3) sucessão definitiva — após 10 anos da provisória ou 5 das últimas notícias se tinha 80+ anos (art. 37). (C) Falso — art. 39: bens NO ESTADO em que se acharem, não integralmente.'
+  },
+  {
+    id: 73, topic: 3, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a desconsideração da personalidade jurídica no direito brasileiro, assinale a alternativa correta:',
+    alternatives: [
+      'O Código Civil adota a Teoria Menor da desconsideração, bastando a insolvência da pessoa jurídica para atingir os sócios.',
+      'O CDC e a legislação ambiental adotam a Teoria Maior, exigindo abuso da personalidade caracterizado por desvio de finalidade ou confusão patrimonial.',
+      'O Código Civil (art. 50) adota a Teoria Maior — exige abuso da personalidade caracterizado por desvio de finalidade ou confusão patrimonial.',
+      'A Lei 13.874/19 (Liberdade Econômica) eliminou a possibilidade de desconsideração no direito civil brasileiro.',
+      'A desconsideração inversa, em que bens da PJ respondem por dívidas pessoais dos sócios, é vedada no ordenamento.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 50 adota Teoria MAIOR: exige abuso (desvio de finalidade ou confusão patrimonial). (A) Inverte — Maior é CC. (B) Inverte — Menor é CDC e ambiental. (D) Falso — Lei 13.874/19 detalhou a desconsideração. (E) Falso — desconsideração inversa positivada no §4º (Lei 13.874).'
+  },
+  {
+    id: 74, topic: 3, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a EIRELI (Empresa Individual de Responsabilidade Limitada) no direito brasileiro atual, é correto afirmar:',
+    alternatives: [
+      'A EIRELI permanece em pleno vigor como tipo societário unipessoal, com capital social mínimo de 100 salários-mínimos.',
+      'A EIRELI foi extinta pela Lei 14.382/22 (Marco Legal das Garantias), tendo as existentes sido convertidas automaticamente em Sociedade Limitada Unipessoal (SLU).',
+      'A EIRELI passou a ser denominada microempresa individual, com regime tributário simplificado.',
+      'A EIRELI é exclusiva para atividades empresariais, vedada para sociedades simples.',
+      'A EIRELI exige no mínimo dois sócios, perdendo a característica unipessoal após a Lei 13.874/19.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 14.382/22 extinguiu a EIRELI; SLU (Sociedade Limitada Unipessoal — Lei 13.874/19) absorveu a função unipessoal limitada. (A) e (E) Falso — EIRELI já não existe. (C) Falso — não houve renomeação. (D) Falso — EIRELI valia para qualquer atividade.'
+  },
+  {
+    id: 75, topic: 4, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o bem de família legal (Lei 8.009/90), considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'Sua constituição depende de escritura pública e registro no Cartório de Imóveis, sob pena de não produzir efeitos.',
+      'É instituído automaticamente pela mera residência, sendo o imóvel residencial impenhorável independentemente de declaração formal.',
+      'Limita-se ao imóvel residencial cujo valor não ultrapasse 1/3 do patrimônio líquido do casal.',
+      'A impenhorabilidade é absoluta, sem qualquer exceção legal.',
+      'Não se aplica a imóvel residencial locado a terceiros, mesmo que a renda obtida seja revertida para subsistência da família.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 8.009/90 art. 1º: bem de família legal é AUTOMÁTICO — basta residência. (A) Falso — voluntário (CC 1.711) é que exige registro. (C) Falso — limite de 1/3 é do bem de família VOLUNTÁRIO. (D) Falso — art. 3º traz exceções (alimentos, financiamento, fiança locatícia etc.). (E) Falso — Súmula 486/STJ: imóvel locado pode ser bem de família se renda usada para subsistência.'
+  },
+  {
+    id: 76, topic: 4, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os bens públicos no direito brasileiro, é INCORRETO afirmar:',
+    alternatives: [
+      'Os bens de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem essa qualificação.',
+      'Os bens dominicais podem ser alienados, observados os requisitos legais.',
+      'Bens públicos não estão sujeitos a usucapião, conforme Súmula 340 do STF.',
+      'A desafetação permite a transformação de bem de uso comum ou especial em dominical, viabilizando posterior alienação.',
+      'Os bens dominicais, por não terem destinação pública específica, admitem prescrição aquisitiva por particulares que comprovem posse mansa e pacífica por longo período.'
+    ],
+    correct: 'E',
+    explanation: 'Súmula 340/STF + CC art. 102: TODOS os bens públicos (inclusive dominicais) são IMPRESCRITÍVEIS. Não admitem usucapião por particular. (A), (B), (C), (D) corretas — alinhadas ao CC arts. 100-103.'
+  },
+  {
+    id: 77, topic: 5, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito da prescrição e da decadência no Código Civil, é correto afirmar:',
+    alternatives: [
+      'A prescrição extingue o próprio direito; a decadência extingue apenas a pretensão.',
+      'A decadência legal pode ser conhecida de ofício pelo juiz; a decadência convencional, somente mediante alegação da parte interessada.',
+      'A prescrição admite interrupção repetida pelos mesmos fatos, em razão do princípio da inafastabilidade da jurisdição.',
+      'A renúncia à decadência legal é válida quando feita antes da consumação do prazo.',
+      'O prazo prescricional para a pretensão de reparação civil é de 5 anos, conforme regra geral do art. 205 do Código Civil.'
+    ],
+    correct: 'B',
+    explanation: 'CC arts. 210-211: legal de ofício; convencional só por alegação. (A) Inverte — prescrição extingue PRETENSÃO; decadência extingue DIREITO. (C) Falso — interrupção UMA SÓ VEZ (art. 202 caput). (D) Falso — renúncia à decadência legal é NULA (art. 209). (E) Falso — reparação civil prescreve em 3 ANOS (art. 206 §3º V).'
+  },
+  {
+    id: 78, topic: 5, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os defeitos do negócio jurídico e suas consequências, assinale a alternativa correta:',
+    alternatives: [
+      'Todos os defeitos do negócio jurídico (erro, dolo, coação, lesão, estado de perigo, fraude e simulação) geram a anulabilidade do ato.',
+      'A simulação gera nulidade absoluta, podendo ser arguida a qualquer tempo, por qualquer interessado ou pelo Ministério Público.',
+      'A lesão somente pode ser alegada pela parte lesada na ação anulatória, sem possibilidade de complementação para preservar o negócio.',
+      'A fraude contra credores caracteriza-se por mera diminuição do patrimônio do devedor, independentemente de redução à insolvência.',
+      'O erro substancial admite suprimento pelos sucessores, em razão do princípio da boa-fé objetiva.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 167: simulação = NULIDADE absoluta. Pode ser arguida por qualquer interessado, MP, conhecida de ofício. (A) Falso — simulação é NULIDADE, não anulabilidade. (C) Falso — art. 157 §2º: lesão admite COMPLEMENTAÇÃO para conservar o negócio. (D) Falso — fraude exige redução à INSOLVÊNCIA (art. 158). (E) Falso — erro substancial gera anulabilidade, não suprimento por sucessores.'
   }
 ],
 
