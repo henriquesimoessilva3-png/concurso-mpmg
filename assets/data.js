@@ -2375,22 +2375,98 @@ topics: [
     schedule: 'Mês 5, Semana 1',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Distinção: gratuidade da justiça (não pagar custas) × assistência judiciária (advogado pago pelo Estado) × assistência jurídica (orientação jurídica integral pela Defensoria)',
-        'Concessão (CPC art. 99): presunção de hipossuficiência da pessoa natural; PJ deve provar (Súmula 481/STJ)',
-        'Revogação a qualquer tempo se demonstrada capacidade financeira (art. 100)',
-        'Beneficiário pode ser condenado em sucumbência, mas exigibilidade fica suspensa por 5 anos (art. 98 §3º)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 98-102',
-        'Lei 1.060/50 (no que não foi revogado pelo CPC)',
-        'LC 80/94 (Defensoria Pública)'
-      ]},
-      { h: 'Pontos clássicos', items: [
-        'Súmula 481/STJ — PJ pode ser beneficiária se demonstrar incapacidade financeira',
-        'Requerimento da gratuidade pode ser feito a qualquer tempo (na inicial, contestação, recurso)',
-        'Impugnação à gratuidade: incidente em apartado (CPC art. 100)'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O direito constitucional à assistência jurídica integral e gratuita (CF art. 5º LXXIV) materializa-se em três institutos distintos, frequentemente confundidos:' },
+          {
+            type: 'table',
+            headers: ['Instituto', 'Conteúdo', 'Quem provê'],
+            rows: [
+              ['Gratuidade da justiça', 'Isenção de despesas processuais (custas, perícia, etc.)', 'Estado (judiciário; é benefício processual)'],
+              ['Assistência judiciária', 'Patrocínio gratuito por advogado pago pelo Estado', 'Defensoria ou advogado dativo'],
+              ['Assistência jurídica integral', 'Orientação + extrajudicial + judicial', 'Defensoria Pública (CF 134; LC 80/94)']
+            ]
+          },
+          { type: 'p', text: 'O CPC/15 disciplina sobretudo a **gratuidade da justiça** (arts. 98-102), substituindo a antiga Lei 1.060/50 nos pontos essenciais.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 98-102** — gratuidade da justiça',
+            '**Art. 98** — quem tem direito (pessoa natural ou jurídica BR ou estrangeira); rol de despesas isentas (§1º — custas, honorários, depósitos, perícia, etc.)',
+            '**Art. 98 §3º** — vencido em sucumbência: dívida fica suspensa por 5 anos; só exigível se demonstrada cessação da hipossuficiência',
+            '**Art. 99** — requerimento (na PI, contestação, petição simples, recurso)',
+            '**Art. 99 §2º** — presunção de veracidade da declaração da pessoa natural',
+            '**Art. 99 §3º** — concedida a gratuidade, é revogável quando descabida',
+            '**Art. 100** — IMPUGNAÇÃO à gratuidade (preliminar de contestação ou peça apartada)',
+            '**Art. 101** — recurso da decisão que indefere ou revoga: AGRAVO DE INSTRUMENTO se em decisão interlocutória; APELAÇÃO se em sentença',
+            '**Art. 102** — cessada a impossibilidade, o beneficiário deve PAGAR as despesas das quais ficou isento',
+            '**CF art. 5º LXXIV** — assistência jurídica integral e gratuita aos comprovadamente necessitados',
+            '**Lei 1.060/50** — no que não revogado pelo CPC',
+            '**LC 80/94** — Defensoria Pública'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Beneficiários da gratuidade' },
+          { type: 'p', text: '**Pessoa natural (art. 99 §3º):** PRESUNÇÃO RELATIVA de veracidade da declaração de hipossuficiência. O juiz pode determinar comprovação se houver elementos no processo que contrariem a presunção (art. 99 §2º).' },
+          { type: 'p', text: '**Pessoa jurídica:** SEM presunção. Deve **PROVAR** a hipossuficiência financeira (Súmula 481/STJ).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 481:** "Faz jus ao benefício da justiça gratuita a PESSOA JURÍDICA que comprovar sua impossibilidade de arcar com os encargos processuais." Aplica-se mesmo a sociedades empresárias, com fins lucrativos, em situação econômica adversa.' },
+
+          { type: 'h', text: 'Concessão parcial e em prestações' },
+          { type: 'p', text: 'Inovação CPC/15 (art. 98 §§5º-6º): a gratuidade pode ser CONCEDIDA EM RELAÇÃO A APENAS ALGUM ATO ou reduzir o percentual de despesas. Pode também ser PARCELADO o pagamento das custas. Atende ao princípio da menor onerosidade e da proteção parcial do necessitado.' },
+
+          { type: 'h', text: 'Sucumbência do beneficiário (art. 98 §3º) — regra de ouro' },
+          { type: 'p', text: 'O beneficiário da gratuidade que perde a causa É CONDENADO em sucumbência (honorários, custas, multas), mas a exigibilidade fica **SUSPENSA POR 5 ANOS**. Cessada a hipossuficiência nesse prazo, exige-se. Esgotado o prazo sem mudança, há prescrição da pretensão (art. 98 §3º final).' },
+          { type: 'p', text: 'Mecanismo PROTEGE o necessitado sem fomentar a litigância irresponsável — o ônus existe, só não é cobrado de imediato.' },
+
+          { type: 'h', text: 'Impugnação à gratuidade (art. 100)' },
+          { type: 'p', text: 'O adversário pode impugnar a gratuidade concedida — em **PRELIMINAR DE CONTESTAÇÃO** ou em **PETIÇÃO SIMPLES** (autuada em apartado para não atrapalhar o processo principal). O ônus da prova da capacidade financeira é DO IMPUGNANTE (art. 100 §único). Decisão = AI ou apelação conforme o momento.' },
+
+          { type: 'h', text: 'Defensoria Pública e assistência jurídica integral' },
+          { type: 'p', text: 'A DP (CF art. 134) tem o monopólio constitucional da assistência jurídica integral aos necessitados. Atribuições (LC 80/94 art. 4º):' },
+          { type: 'list', items: [
+            'Orientação jurídica',
+            'Patrocínio nos diferentes graus de jurisdição',
+            'Promoção da DEFESA, em todos os graus, judicial e extrajudicial',
+            'Promoção da TUTELA COLETIVA (DP tem legitimidade para ACP — art. 4º X; ampliada pelo STF — Tema 884)',
+            'Curador especial (CPC art. 72 — Tópico 4)'
+          ]},
+          { type: 'p', text: 'Em comarcas onde NÃO HÁ DP suficiente, o juiz nomeia ADVOGADO DATIVO, pago pelo Estado. Sistema híbrido.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**3 institutos da assistência — "GAJ":** **G**ratuidade (não pagar custas), **A**ssistência judiciária (advogado), **J**urídica integral (DP — orienta + judicial + extrajudicial).' },
+          { type: 'box', kind: 'macete', text: '**PF presume hipossuficiência; PJ PROVA** (Súmula 481/STJ).' },
+          { type: 'box', kind: 'macete', text: '**Sucumbência do beneficiário — suspende por 5 anos** (art. 98 §3º). Cessada a pobreza no prazo, exige-se. Após, prescreve.' },
+          { type: 'box', kind: 'macete', text: '**Impugnação à gratuidade — em apartado, sem suspender o processo principal** (art. 100). Ônus do impugnante.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**PJ pode ser beneficiária**, sim — mas DEVE PROVAR (Súmula 481/STJ). Erro frequente: dizer que apenas PF tem direito.' },
+          { type: 'box', kind: 'atencao', text: '**Beneficiário NÃO É ISENTO de sucumbência** — a obrigação existe, fica SUSPENSA por 5 anos (art. 98 §3º).' },
+          { type: 'box', kind: 'atencao', text: '**Gratuidade pode ser PARCIAL ou em PRESTAÇÕES** (art. 98 §§5º-6º) — não é all-or-nothing.' },
+          { type: 'box', kind: 'atencao', text: '**Gratuidade × assistência judiciária** — gratuidade isenta de custas; assistência judiciária garante advogado. Não confundir.' },
+          { type: 'box', kind: 'atencao', text: '**A presunção do art. 99 §3º é RELATIVA** — juiz pode exigir prova se houver indícios em sentido contrário.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (Defensoria):** assistência jurídica integral é função institucional da DP. Curador especial é CPC art. 72.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** gratuidade pode ser pedida na PI, contestação ou em qualquer momento (art. 99).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** preparo é dispensado para o beneficiário (art. 1.007 §1º).' }
+        ]
+      }
     ]
   },
   {
@@ -2403,31 +2479,110 @@ topics: [
     schedule: 'Mês 5, Semana 1-2',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Princípios: oralidade, simplicidade, informalidade, economia processual, celeridade',
-        'JEC (Lei 9.099/95): competência por valor (até 40 SM), por matéria (rol específico — art. 3º), por opção; pessoa natural autora (PJ só ME/EIRELI)',
-        'JEF (Lei 10.259/01) — competência federal até 60 SM',
-        'JEFP (Lei 12.153/09) — Estados/DF/Municípios; até 60 SM; quem demanda contra ente público',
-        'Procedimento: demanda oral, AIJ una, sentença líquida',
-        'Recursos: turma recursal, embargos de declaração, RE (com repercussão geral) — não cabe REsp (Súmula 203/STJ)',
-        'Execução nos juizados (Lei 9.099 arts. 52-53)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'Lei 9.099/95 (JEC)',
-        'Lei 10.259/01 (JEF)',
-        'Lei 12.153/09 (JEFP)'
-      ]},
-      { h: 'Súmulas críticas', items: [
-        'Súmula 203/STJ — não cabe REsp em juizados',
-        'Súmula 640/STJ — cabe ED no JEC contra acórdão da turma',
-        'Súmula 8/TNU — cabe MS contra ato de juiz no JEC'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Não cabe ação de consignação genérica nem ação de despejo no JEC',
-        'Restrição de valor — soma com pedidos cumulados',
-        'Pessoa jurídica como autora — só microempresa, EPP e MEI',
-        'Defensoria pode atuar nos juizados'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os Juizados Especiais (CF art. 98 I + leis específicas) materializam o **acesso popular à Justiça** com rito simplificado, oralidade, informalidade e celeridade. São três modalidades:' },
+          {
+            type: 'table',
+            headers: ['Tipo', 'Lei', 'Limite valor', 'Ramo'],
+            rows: [
+              ['JEC', 'Lei 9.099/95', '40 SM', 'Justiça Estadual'],
+              ['JEF', 'Lei 10.259/01', '60 SM', 'Justiça Federal'],
+              ['JEFP', 'Lei 12.153/09', '60 SM', 'Estadual contra Estados/DF/Municípios e suas autarquias e fundações']
+            ]
+          },
+          { type: 'p', text: '**Princípios (Lei 9.099 art. 2º):** ORALIDADE, SIMPLICIDADE, INFORMALIDADE, ECONOMIA PROCESSUAL, CELERIDADE. Buscar sempre que possível a CONCILIAÇÃO ou TRANSAÇÃO. Procedimento concentrado: demanda → audiência de conciliação → sessão de instrução e julgamento (AIJ una se possível).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**Lei 9.099/95** — JEC (Juizados Especiais Cíveis estaduais)',
+            '**Art. 3º** — competência (rol fechado: causas até 40 SM, despejo para uso próprio, possessórias até 40 SM, e ações enumeradas)',
+            '**Art. 8º** — partes (PF capaz; PJ apenas ME, EPP, MEI, OSCIP, sociedades de crédito ao microempreendedor)',
+            '**Art. 9º** — capacidade postulatória (advogado dispensado até 20 SM)',
+            '**Art. 18** — citação (com prevalência do meio simplificado)',
+            '**Arts. 41-50** — recursos (turma recursal)',
+            '**Arts. 52-53** — execução',
+            '**Lei 10.259/01** — JEF (Justiça Federal)',
+            '**Art. 3º** — competência (até 60 SM; rol específico)',
+            '**Lei 12.153/09** — JEFP (Estados/DF/Municípios)',
+            '**Resolução 159/CNJ** — uniformização',
+            '**CF art. 98 I** — base constitucional'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Competência do JEC (Lei 9.099 art. 3º) — rol fechado' },
+          { type: 'list', items: [
+            'I — causas cujo valor não exceda 40 SM',
+            'II — enumeradas no art. 275 II do CPC/73 (cobrança de seguro etc. — interpretação atualizada)',
+            'III — ação de despejo para uso próprio',
+            'IV — ações possessórias sobre imóveis até 40 SM'
+          ]},
+          { type: 'p', text: '**EXCLUÍDAS (art. 3º §2º):** causas de natureza alimentar, falimentar, fiscal, de interesse da Fazenda Pública, acidentes de trabalho, resíduos e estado e capacidade. **Vedação ao consignatório como ação principal.**' },
+          { type: 'h', text: 'Quem pode ser parte (art. 8º)' },
+          { type: 'list', items: [
+            '**Pessoa NATURAL CAPAZ** (autor)',
+            'PJ apenas: **ME, EPP, MEI**, OSCIPs, sociedades de crédito ao microempreendedor',
+            '**Vedado** ao incapaz, preso, PJ de direito público, massa falida, insolvente civil'
+          ]},
+          { type: 'h', text: 'Capacidade postulatória (art. 9º)' },
+          { type: 'p', text: 'ADVOGADO **dispensado até 20 SM**. Acima desse valor é OBRIGATÓRIO. Defensoria atua sem limites. Característica que distingue radicalmente o procedimento — democratização do acesso.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 1.539:** a obrigatoriedade do advogado em causas acima de 20 SM nos JEC é constitucional, inclusive nos JEFs (Lei 10.259/01) e JEFPs.' },
+          { type: 'h', text: 'Recursos nos juizados' },
+          { type: 'p', text: 'Sistemática DIFERENCIADA:' },
+          { type: 'list', items: [
+            '**Recurso inominado** (Lei 9.099 art. 41) — contra a sentença, prazo 10 dias, ao colegiado da TURMA RECURSAL (juízes de 1º grau)',
+            '**Embargos de declaração** (art. 48) — 5 dias',
+            '**RE (CF 102 III)** — cabível, com REPERCUSSÃO GERAL',
+            '**REsp NÃO CABE** — Súmula 203/STJ'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 203:** "Não cabe recurso especial contra decisão proferida por órgão de segundo grau dos JUIZADOS ESPECIAIS." Tese consolidada — defensa diferenciada de competência.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 640:** "Cabe embargos de declaração no JEC contra acórdão proferido pela Turma Recursal." Reforça o ED como recurso comum em todos os graus.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**TNU — Súmula 8:** "É cabível mandado de segurança contra ato judicial nos juizados especiais para fins de impugnação de decisão da turma recursal." Solução para falta de outro recurso adequado.' },
+          { type: 'h', text: 'JEFP (Lei 12.153/09) — peculiaridades' },
+          { type: 'list', items: [
+            'Quem demanda CONTRA o ente público (não o contrário)',
+            'Limite 60 SM',
+            'Cabe contra Estados, DF, Municípios e suas autarquias e fundações',
+            'NÃO cabe execução fiscal',
+            'NÃO cabe ação possessória contra ente público',
+            'Conciliação obrigatória — pode-se transacionar conforme decreto regulamentador'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Princípios JEC — "OSICE":** **O**ralidade, **S**implicidade, **I**nformalidade, **C**eleridade, **E**conomia processual.' },
+          { type: 'box', kind: 'macete', text: '**Limites — "40-60-60":** **40** SM no JEC; **60** SM no JEF e JEFP.' },
+          { type: 'box', kind: 'macete', text: '**Advogado dispensado — "até 20 no JEC".** Acima, obrigatório. Outros juizados sempre.' },
+          { type: 'box', kind: 'macete', text: '**Recursos no juizado — "RIDM":** **R**ecurso inominado, **I**nominados, **D**eclaração (ED), **M**andado de segurança (TNU 8).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**REsp NÃO CABE** em juizados (Súmula 203/STJ). RE cabe (com repercussão geral).' },
+          { type: 'box', kind: 'atencao', text: '**PJ que pode ser autora — APENAS ME, EPP, MEI, OSCIP**, etc. PJ comum NÃO ENTRA. Pegadinha clássica.' },
+          { type: 'box', kind: 'atencao', text: '**Advogado dispensado SÓ ATÉ 20 SM no JEC** (não em todo valor). Acima, obrigatório.' },
+          { type: 'box', kind: 'atencao', text: '**Não cabe ação de DESPEJO no JEC, salvo para uso próprio** (art. 3º III). Cuidado com a banca generalizando.' },
+          { type: 'box', kind: 'atencao', text: '**JEFP — quem demanda CONTRA o ente público** (não o ente público autor). Cuidado.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (Defensoria):** atua sem limites nos juizados; importante para acesso à justiça.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 8 (atos):** prazos no JEC seguem regime PRÓPRIO (Súmula CJF 99 e enunciados FONAJE — não em dias úteis necessariamente).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** RE cabe nos juizados (com repercussão geral); REsp não.' }
+        ]
+      }
     ]
   },
   {
@@ -2440,31 +2595,131 @@ topics: [
     schedule: 'Mês 5, Semana 2',
     advantage: 'MS coletivo é instrumento do MP — vantagem',
     sections: [
-      { h: 'Mandado de Segurança', items: [
-        'Pressupostos: direito líquido e certo + ato de autoridade + ilegalidade ou abuso de poder',
-        'Direito líquido e certo = comprovado documentalmente, sem dilação probatória',
-        'Prazo decadencial: 120 dias (Lei 12.016/09 art. 23) da ciência do ato',
-        'MS contra ato judicial: excepcional (Súmula 267/STF) — só se houver decisão teratológica e não couber recurso com efeito suspensivo',
-        'MS coletivo (CF/88 art. 5º LXX, Lei 12.016 arts. 21-22): partido com representação no CN; sindicato; entidade de classe; associação (>1 ano em atividade)',
-        'Liminar: requisitos (relevância do fundamento + ineficácia da ordem se for concedida só ao final)'
-      ]},
-      { h: 'Mandado de Injunção', items: [
-        'Lei 13.300/2016 — disciplina processual',
-        'Cabimento: omissão legislativa que inviabilize o exercício de direitos e liberdades constitucionais e prerrogativas inerentes à nacionalidade, soberania e cidadania',
-        'MI individual e coletivo (legitimados similares ao MS coletivo)',
-        'Eficácia: efeitos concretos (regular o caso) ou abstratos (suprir a omissão até a lei) — debate STF'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'Lei 12.016/2009 (MS) — DECORAR pontos cruciais',
-        'Lei 13.300/2016 (MI)',
-        'CF/88 art. 5º LXIX, LXX, LXXI'
-      ]},
-      { h: 'Súmulas STF/STJ', items: [
-        'Súmula 269/STF — MS não substitui ação de cobrança',
-        'Súmula 271/STF — concessão do MS não produz efeitos patrimoniais pretéritos',
-        'Súmula 460/STJ — não cabe MS para convalidar compensação tributária',
-        'Casos clássicos: MI 670, 708, 712 — STF concedeu eficácia geral à ausência de regulamentação do direito de greve do servidor público'
-      ]}
+      {
+        h: 'Mandado de Segurança — visão geral',
+        items: [
+          { type: 'p', text: 'O **Mandado de Segurança** (CF art. 5º LXIX, LXX; Lei 12.016/2009) é a ação constitucional adequada para proteger DIREITO LÍQUIDO E CERTO contra ato ilegal ou abusivo de autoridade pública. Espécies: INDIVIDUAL (LXIX) e COLETIVO (LXX).' },
+          { type: 'p', text: '**Pressupostos:**' },
+          { type: 'list', items: [
+            '**Direito LÍQUIDO E CERTO** — comprovado por PROVA PRÉ-CONSTITUÍDA (geralmente documental); sem necessidade de dilação probatória. Conceito processual, NÃO material',
+            '**ATO DE AUTORIDADE** — comissivo (atue) ou omissivo (não atue), praticado por autoridade pública ou agente privado no exercício de função pública (art. 1º §1º)',
+            '**ILEGALIDADE OU ABUSO DE PODER** — desconformidade com a lei ou desvio de finalidade'
+          ]},
+          { type: 'p', text: '**Prazo decadencial:** **120 DIAS** da ciência do ato (Lei 12.016 art. 23). É decadência (não prescrição) — o juiz extingue de ofício, sem mérito.' },
+          { type: 'p', text: '**Liminar (art. 7º III):** requisitos = (i) **relevância do fundamento (fumus boni iuris)** + (ii) **ineficácia da ordem se concedida apenas ao final (periculum in mora)**. Pode ser exigida CAUÇÃO. Cessa com a sentença, salvo deferimento expresso.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 269:** "O MS não é substitutivo de ação de cobrança." Conjugada com a **Súmula 271/STF:** "Concessão de MS não produz efeitos patrimoniais em relação ao período pretérito, os quais devem ser reclamados administrativamente ou pela via judicial própria." Tema essencial para PROVA.' }
+        ]
+      },
+      {
+        h: 'MS individual (Lei 12.016)',
+        items: [
+          { type: 'h', text: 'Sujeitos' },
+          { type: 'list', items: [
+            '**IMPETRANTE** — pessoa natural ou jurídica titular do direito',
+            '**IMPETRADO/AUTORIDADE COATORA** — quem praticou o ato (não o ente público; art. 6º §3º, com cuidado)',
+            '**LITISCONSORTE PASSIVO** — pessoa jurídica de direito público (art. 6º §1º): notificada para integrar o polo passivo'
+          ]},
+          { type: 'h', text: 'Procedimento (rito SUMARÍSSIMO)' },
+          { type: 'list', items: [
+            'PI com prova pré-constituída (art. 6º)',
+            'Notificação da autoridade coatora para prestar informações em 10 dias (art. 7º I)',
+            'Vista ao MP em 10 dias (art. 12) — intervenção OBRIGATÓRIA como fiscal',
+            'Sentença em 30 dias',
+            'Recurso: APELAÇÃO em 15 dias',
+            'RO em alguns casos (Tópico 16)'
+          ]},
+          { type: 'h', text: 'MS contra ato judicial — Súmula 267/STF' },
+          { type: 'p', text: '**Súmula 267/STF:** "Não cabe MS contra ato judicial passível de recurso ou correição." MS contra ato jurisdicional é EXCEPCIONALÍSSIMO — só cabe quando: (i) o ato é teratológico (manifestamente ilegal); (ii) NÃO cabe recurso com efeito suspensivo; (iii) há perigo de dano irreparável. Aplicação restritiva.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 268:** "Não cabe MS contra decisão judicial com TRÂNSITO EM JULGADO."' },
+
+          { type: 'h', text: 'Hipóteses NÃO admitidas (art. 5º Lei 12.016)' },
+          { type: 'list', items: [
+            'I — ato do qual caiba RECURSO ADMINISTRATIVO com efeito suspensivo (independe de caução)',
+            'II — decisão judicial da qual CAIBA RECURSO com efeito suspensivo',
+            'III — decisão judicial TRANSITADA EM JULGADO'
+          ]}
+        ]
+      },
+      {
+        h: 'MS Coletivo (CF art. 5º LXX + Lei 12.016 arts. 21-22)',
+        items: [
+          { type: 'p', text: 'Importante mecanismo de tutela coletiva, especialmente em direito do trabalho, servidores públicos, consumidor. **Vantagem direta para a candidata:** o MP estuda essa interface frequentemente.' },
+          { type: 'h', text: 'Legitimados (CF art. 5º LXX)' },
+          { type: 'list', items: [
+            '**a)** PARTIDO POLÍTICO com representação no CN — defesa de interesses dos seus filiados ou da finalidade partidária',
+            '**b)** ORGANIZAÇÃO SINDICAL, ENTIDADE DE CLASSE OU ASSOCIAÇÃO legalmente constituída e em funcionamento há pelo menos 1 ANO — defesa dos interesses de seus membros ou associados'
+          ]},
+          { type: 'h', text: 'Direitos tuteláveis (Lei 12.016 art. 21 §único)' },
+          { type: 'list', items: [
+            '**Coletivos** (transindividuais indivisíveis com grupo determinado)',
+            '**Individuais homogêneos** (origem comum)',
+            'NÃO se aplica a difusos puros — para esses, ACP é a via'
+          ]},
+          { type: 'h', text: 'Coisa julgada no MS coletivo (art. 22)' },
+          { type: 'p', text: 'Ultra partes ou erga omnes (a depender do interesse), MAS limitada aos membros do grupo, categoria ou classe substituídos. NÃO PREJUDICA AS AÇÕES INDIVIDUAIS — autores individuais podem desistir (art. 22 §1º) para se aproveitar da decisão coletiva.' }
+        ]
+      },
+      {
+        h: 'Mandado de Injunção (CF art. 5º LXXI + Lei 13.300/2016)',
+        items: [
+          { type: 'p', text: 'Ação constitucional para proteger contra OMISSÃO LEGISLATIVA OU ADMINISTRATIVA que inviabilize o exercício de DIREITOS E LIBERDADES CONSTITUCIONAIS e PRERROGATIVAS inerentes à NACIONALIDADE, SOBERANIA E CIDADANIA.' },
+          { type: 'p', text: '**Cabimento (Lei 13.300 art. 2º):** omissão TOTAL ou PARCIAL de norma reguladora. Pressuposto: prazo razoável já decorrido sem que o omisso atue.' },
+          { type: 'h', text: 'MI individual × coletivo' },
+          { type: 'list', items: [
+            'INDIVIDUAL — quem tem o direito tolhido pela omissão',
+            'COLETIVO (art. 12) — MP, partido com rep. no CN, sindicatos, entidades de classe, associação >1 ano, **DEFENSORIA PÚBLICA**'
+          ]},
+          { type: 'h', text: 'Eficácia da decisão (art. 8º) — debate' },
+          { type: 'p', text: 'Duas correntes históricas:' },
+          { type: 'list', items: [
+            '**Não-concretista** — antiga, predominante até 2007: STF apenas comunica a omissão ao órgão competente',
+            '**Concretista** — moderna: STF supre a omissão, regulando o caso (concretista individual) ou a matéria (concretista geral)'
+          ]},
+          { type: 'p', text: 'A Lei 13.300/16 acolhe a tese **CONCRETISTA INTERMEDIÁRIA**: STF fixa prazo para o omisso atuar; se não cumprir, o STF supre a omissão para o impetrante (art. 8º). Em casos especiais, eficácia ULTRA PARTES (concretista geral).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — MI 670, 708 e 712 (greve dos servidores públicos):** caso paradigma. STF deu eficácia GERAL ao MI, suprindo a omissão do legislador (Lei 7.783/89 sobre direito de greve dos privados aplicada subsidiariamente). Marco da virada concretista.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CF art. 5º LXIX** — MS individual',
+            '**CF art. 5º LXX** — MS coletivo',
+            '**CF art. 5º LXXI** — Mandado de Injunção',
+            '**Lei 12.016/09** — disciplina processual do MS (DECORE arts. 1º, 5º, 6º, 7º, 12, 21, 22, 23)',
+            '**Lei 13.300/16** — Mandado de Injunção'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**MS — 3 pressupostos "DLA-AAI":** **D**ireito **L**íquido e certo — **A**to de autoridade — **A**busividade ou **I**legalidade.' },
+          { type: 'box', kind: 'macete', text: '**Prazo decadencial — 120 dias** (Lei 12.016 art. 23). Decadência, não prescrição.' },
+          { type: 'box', kind: 'macete', text: '**MS coletivo — legitimados "PASE":** **P**artido (com rep. CN), **A**ssociação >1 ano, **S**indicato, **E**ntidade de classe.' },
+          { type: 'box', kind: 'macete', text: '**MI — concretista intermediária da Lei 13.300:** STF fixa PRAZO; se não cumprido, SUPRE a omissão para o impetrante.' },
+          { type: 'box', kind: 'macete', text: '**Súmula 269/271 STF — MS não cobra; não tem efeito patrimonial pretérito.** Para isso, ação de cobrança.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**MS é DECADENCIAL — 120 dias** (não prescrição). Juiz extingue de ofício se estourar.' },
+          { type: 'box', kind: 'atencao', text: '**MS NÃO substitui ação de cobrança nem produz efeito pretérito** (Súmulas 269/271 STF). Erro frequente.' },
+          { type: 'box', kind: 'atencao', text: '**MS contra ato judicial é EXCEPCIONALÍSSIMO** (Súmula 267/STF) — só com teratologia + ausência de recurso + risco de dano.' },
+          { type: 'box', kind: 'atencao', text: '**MS coletivo NÃO tutela DIREITOS DIFUSOS** — apenas coletivos e individuais homogêneos. Para difuso = ACP.' },
+          { type: 'box', kind: 'atencao', text: '**Defensoria NÃO está na CF art. 5º LXX** (legitimados do MS coletivo) — mas tem legitimidade para ACP. Ponto polêmico que pode ser discutido.' },
+          { type: 'box', kind: 'atencao', text: '**MI individual é distinto do coletivo** — Lei 13.300 art. 12 traz rol expresso (incluindo Defensoria). Banca confunde.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** intervenção OBRIGATÓRIA do MP no MS (Lei 12.016 art. 12) como fiscal. MS coletivo é arma do MP em casos específicos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** RO no MS denegado (CF art. 102 II, 105 II); apelação no MS julgado em 1ª instância.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** MS coletivo e ACP têm interface — escolha do remédio depende da natureza do direito (difuso, coletivo, homogêneo).' }
+        ]
+      }
     ]
   },
   {
@@ -2477,53 +2732,155 @@ topics: [
     schedule: 'Mês 5, Semana 3',
     advantage: 'Vantagem ENORME — pão com manteiga do MP',
     sections: [
-      { h: 'Ação Civil Pública (Lei 7.347/85)', items: [
-        'Objeto: meio ambiente, consumidor, patrimônio público, ordem urbanística, idoso, deficiente, etc.',
-        'Legitimados (art. 5º): MP, Defensoria, União/Estados/Municípios, autarquias, fundações públicas, empresas públicas, associações com >1 ano e finalidade compatível',
-        'Inquérito Civil — instrumento extrajudicial do MP (CNMP Resolução 23/2007)',
-        'TAC — Termo de Ajustamento de Conduta (Lei 7.347 art. 5º §6º)',
-        'Coisa julgada secundum eventum litis (CDC art. 103 — aplicável por integração)',
-        'Tutelas de urgência específicas, multa diária'
-      ]},
-      { h: 'Acordo de Não Persecução Cível (ANPC)', items: [
-        'Lei 14.230/2021 — alteração da Lei de Improbidade (Lei 8.429/92)',
-        'Cabimento: atos de improbidade que admitam mitigação',
-        'Requisitos: integral devolução do produto, reparação integral do dano, observância dos princípios',
-        'Homologação judicial obrigatória',
-        'Diferença em relação ao TAC: ANPC pressupõe responsabilização; TAC é compromisso de adequação'
-      ]},
-      { h: 'Compliance e programas de integridade', items: [
-        'Lei 12.846/2013 (Anticorrupção): pessoa jurídica pode ser responsabilizada por atos contra adm. pública',
-        'Programas de integridade reduzem sanções (decreto 11.129/2022)',
-        'Acordos de leniência — celebrados com CGU, AGU, MPF/MPE'
-      ]},
-      { h: 'Ação de Ressarcimento ao Erário', items: [
-        'CF/88 art. 37 §5º — imprescritibilidade RESTRITA',
-        'STF Tema 897: imprescritível apenas o ressarcimento por ato DOLOSO de improbidade'
-      ]},
-      { h: 'Ação Popular (Lei 4.717/65)', items: [
-        'Legitimidade ativa exclusiva do CIDADÃO (com título eleitoral em dia)',
-        'Objeto: ato lesivo ao patrimônio público, moralidade, meio ambiente, patrimônio histórico-cultural',
-        'Coisa julgada secundum eventum probationis (improcedência por falta de provas → pode ser repropoSta)'
-      ]},
-      { h: 'Habeas Data (Lei 9.507/97)', items: [
-        'Direito de acesso a informações pessoais em registros de caráter público',
-        'Direito de retificação de dados',
-        'Diferença com MS: no HD se discute o direito à informação/retificação; no MS, direito líquido e certo violado por ato de autoridade'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'Lei 7.347/85 (ACP)',
-        'Lei 4.717/65 (Ação Popular)',
-        'Lei 9.507/97 (Habeas Data)',
-        'Lei 8.429/92 (Improbidade) com Lei 14.230/21',
-        'Lei 12.846/2013 (Anticorrupção)'
-      ]},
-      { h: 'Jurisprudência crítica', items: [
-        'STF Tema 897 — imprescritibilidade do ressarcimento (restrita ao doloso)',
-        'STF — modulação de efeitos da Lei 14.230/21 (improbidade)',
-        'STJ — Resolução CNMP 179/2017 (TAC)',
-        'STJ — Resolução CNMP 23/2007 (inquérito civil)'
-      ]}
+      {
+        h: 'Visão geral — microssistema processual coletivo',
+        items: [
+          { type: 'p', text: 'Este tópico reúne os principais **instrumentos de tutela coletiva e de proteção do patrimônio público**, formando o que a doutrina chama de **microssistema processual coletivo**: ACP + Ação Popular + Improbidade + Anticorrupção + LACP + CDC + Estatutos especiais (ECA, EI, EPCD, etc.). Para o MP, é o **PÃO COM MANTEIGA** — instrumental cotidiano da carreira, especialmente em comarcas como Ouro Branco/MG (vivência da candidata).' },
+          {
+            type: 'table',
+            headers: ['Instrumento', 'Lei', 'Legitimado principal', 'Tutela'],
+            rows: [
+              ['ACP', 'Lei 7.347/85', 'MP, DP, entes federativos, associações', 'Direitos transindividuais (difusos, coletivos, individuais homogêneos)'],
+              ['Ação Popular', 'Lei 4.717/65', 'CIDADÃO (exclusivo)', 'Patrimônio público, moralidade, meio ambiente, histórico-cultural'],
+              ['Improbidade', 'Lei 8.429/92 (com Lei 14.230/21)', 'MP', 'Reparação patrimônio público + sanções pessoais'],
+              ['Anticorrupção PJ', 'Lei 12.846/13', 'MP, AGU, CGU', 'Responsabilização objetiva da PJ'],
+              ['Habeas Data', 'Lei 9.507/97', 'Titular dos dados', 'Acesso e retificação de dados pessoais'],
+              ['Ação Ressarcimento', 'CF 37 §5º', 'Ente lesado / MP', 'Recomposição do erário (imprescritível se doloso)']
+            ]
+          }
+        ]
+      },
+      {
+        h: 'Ação Civil Pública (Lei 7.347/85)',
+        items: [
+          { type: 'h', text: 'Objeto (art. 1º) — bens e interesses tutelados' },
+          { type: 'list', items: [
+            'Meio AMBIENTE',
+            'CONSUMIDOR',
+            'Bens e direitos de valor artístico, estético, histórico, turístico, paisagístico (PATRIMÔNIO CULTURAL)',
+            'Qualquer outro INTERESSE DIFUSO OU COLETIVO',
+            'Infrações da ORDEM ECONÔMICA',
+            'ORDEM URBANÍSTICA',
+            'HONRA E DIGNIDADE de grupos raciais, étnicos ou religiosos',
+            'PATRIMÔNIO PÚBLICO E SOCIAL'
+          ]},
+          { type: 'p', text: '**Vedação (art. 1º §único):** ACP NÃO pode tratar de tributos, contribuições previdenciárias, FGTS ou outros direitos cuja titularidade individualizável seja predominante (interpretado restritivamente).' },
+          { type: 'h', text: 'Legitimidade ativa (art. 5º) — concorrente e disjuntiva' },
+          { type: 'list', items: [
+            'I — MP',
+            'II — DEFENSORIA PÚBLICA (após Lei 11.448/07; STF — Tema 884 amplia para qualquer hipossuficiência)',
+            'III — União, Estados, DF, Municípios',
+            'IV — Autarquias, empresas públicas, fundações, sociedades de economia mista',
+            'V — ASSOCIAÇÃO constituída há pelo menos 1 ANO + finalidade compatível (pertinência temática)'
+          ]},
+          { type: 'p', text: '**MP é o ATOR NATURAL** dessa tutela (CF art. 129 III). Mesmo se não ajuizar, atua sempre como fiscal (Lei 7.347 art. 5º §1º).' },
+          { type: 'h', text: 'Inquérito Civil (CF art. 129 III + Resolução 23/2007 CNMP)' },
+          { type: 'p', text: '**INSTRUMENTO EXTRAJUDICIAL EXCLUSIVO DO MP** para apurar fatos que possam ensejar ACP. Características: inquisitivo, sigiloso por padrão, sem contraditório obrigatório, pode resultar em ajuizamento de ACP, arquivamento (com revisão por órgão superior do MP) ou TAC. Não vincula o juiz; produz prova INDICIÁRIA, sujeita ao contraditório judicial posterior.' },
+          { type: 'h', text: 'TAC — Termo de Ajustamento de Conduta (art. 5º §6º)' },
+          { type: 'p', text: '**Compromisso EXTRAJUDICIAL** firmado entre o legitimado público (MP, DP, ente público) e o causador do dano. Tem **EFICÁCIA DE TÍTULO EXECUTIVO EXTRAJUDICIAL**. Cumprido, evita a ACP. Descumprido, executa-se diretamente. Disciplinado pela **Resolução 179/2017 do CNMP**.' },
+          { type: 'h', text: 'Coisa julgada (Lei 7.347 art. 16 + CDC art. 103)' },
+          { type: 'p', text: 'Sistemática especial: difusos = erga omnes, salvo improcedência por insuficiência de provas (secundum eventum probationis); coletivos = ultra partes, limitada ao grupo, com a mesma ressalva; individuais homogêneos = erga omnes mas só beneficia (in utilibus).' },
+          { type: 'p', text: '**Limitação territorial do art. 16 (versão restritiva pela Lei 9.494/97):** sentença produzia efeitos apenas nos limites da competência territorial. **STF declarou INCONSTITUCIONAL essa restrição** (Tema 1.075). Hoje a coisa julgada na ACP é AMPLA, respeitando apenas o âmbito do interesse tutelado.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 1.075 (RE 1.101.937, abr/2021):** "É inconstitucional o art. 16 da Lei 7.347/85, alterada pela Lei 9.494/97. Em se tratando de ACP de efeitos nacionais ou regionais, a competência deve observar o art. 93, II, da Lei 8.078/90 (CDC). Ajuizadas múltiplas ACPs com o mesmo objeto, observa-se a PREVENÇÃO." Marco da tutela coletiva ampla.' }
+        ]
+      },
+      {
+        h: 'Improbidade administrativa (Lei 8.429/92 + Lei 14.230/21)',
+        items: [
+          { type: 'p', text: 'A **Lei 14.230/21** REVOLUCIONOU o regime da improbidade. Pontos essenciais:' },
+          { type: 'list', items: [
+            '**MP é o ÚNICO LEGITIMADO** para a ação de improbidade (art. 17 caput) — antes, ente público também tinha legitimidade ATÍPICA',
+            'Modalidades: ENRIQUECIMENTO ILÍCITO (art. 9º), DANO AO ERÁRIO (art. 10), ATENTADO AOS PRINCÍPIOS (art. 11)',
+            'Após Lei 14.230, **TODAS as modalidades exigem DOLO** (art. 1º §1º) — culpa foi REVOGADA',
+            'Sanções: perda de bens, suspensão de direitos políticos (até 14 anos no enriquecimento ilícito), multa, proibição de contratar, perda de função',
+            'Prescrição (art. 23): 8 anos; inclusive intercorrente'
+          ]},
+          { type: 'h', text: 'ANPC — Acordo de Não Persecução Cível (art. 17-B, Lei 14.230)' },
+          { type: 'p', text: 'O MP pode firmar acordo com o demandado (improbidade), com integral devolução do produto + reparação integral do dano + aplicação parcial de sanções. Homologação judicial OBRIGATÓRIA. Cabível em qualquer fase da ação ou inquérito.' },
+          { type: 'p', text: '**Diferença do TAC:** ANPC pressupõe RECONHECIMENTO da improbidade e responsabilização (com sanção atenuada); TAC é compromisso de adequação prospectivo (sem reconhecimento de ato ímprobo).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — ADIs 7.236, 7.235, 7.226 (modulação Lei 14.230/21, ago/2022):** a Lei 14.230 NÃO se aplica retroativamente a atos culposos já reconhecidos com trânsito em julgado. Para os processos em curso ou em execução, a NOVA LEI ELIMINOU A CULPA — atos puramente culposos não sustentam mais condenação.' }
+        ]
+      },
+      {
+        h: 'Anticorrupção, Ação Popular, Habeas Data, Ressarcimento',
+        items: [
+          { type: 'h', text: 'Lei Anticorrupção (Lei 12.846/2013)' },
+          { type: 'p', text: '**Responsabilização OBJETIVA** da PJ por atos contra a administração pública. Sanções: multa (até 20% do faturamento bruto), publicação extraordinária, restrições para contratação. **Programas de Integridade (Decreto 11.129/2022):** mecanismos internos de prevenção; podem REDUZIR multas. **Acordo de Leniência (arts. 16-17):** PJ confessa, identifica corresponsáveis, devolve valores, em troca de redução de sanções.' },
+          { type: 'h', text: 'Ação Popular (Lei 4.717/65)' },
+          { type: 'p', text: 'Tutela do **patrimônio público em sentido amplo**.' },
+          {
+            type: 'table',
+            headers: ['Aspecto', 'Ação Popular', 'ACP'],
+            rows: [
+              ['Legitimado ativo', 'CIDADÃO (com título eleitoral em dia)', 'MP, DP, entes federativos, associações'],
+              ['Objeto principal', 'Anular ato lesivo + reparar', 'Tutela ampla de direitos transindividuais'],
+              ['MP', 'FISCAL OBRIGATÓRIO', 'Pode ser parte ou fiscal'],
+              ['Custas', 'Isento (CF art. 5º LXXIII), salvo má-fé', 'Sem isenção automática'],
+              ['Coisa julgada na improcedência', 'Secundum eventum probationis', 'Idem (CDC 103)']
+            ]
+          },
+          { type: 'p', text: '**Coisa julgada SECUNDUM EVENTUM PROBATIONIS:** improcedência por insuficiência de provas NÃO faz coisa julgada material — pode ser RE-AJUIZADA com prova nova (Lei 4.717 art. 18). Outros fundamentos de improcedência fazem coisa julgada normal.' },
+          { type: 'h', text: 'Ressarcimento ao erário (CF art. 37 §5º)' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 897 (RE 852.475, ago/2018):** "São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ato de IMPROBIDADE ADMINISTRATIVA DOLOSO tipificado na Lei 8.429/92." Imprescritibilidade RESTRITA — atos culposos (após Lei 14.230, não mais ímprobos) seguem prazo prescricional civil.' },
+          { type: 'h', text: 'Habeas Data (CF art. 5º LXXII + Lei 9.507/97)' },
+          { type: 'p', text: 'Garantia para ACESSO a informações pessoais em registros de caráter público e RETIFICAÇÃO desses dados quando incorretos. **Pressuposto:** prévio requerimento administrativo recusado (Súmula 2/STJ). Diferença com MS: HD discute o direito ao dado; MS protege direito líquido e certo violado por autoridade.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 2:** "Não cabe HABEAS DATA se não houve recusa de informações por parte da autoridade administrativa." Pressuposto da prévia tentativa.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**Lei 7.347/85** — LACP (DECORE artigos centrais: 1º, 5º, 6º, 11, 12, 16, 17)',
+            '**Lei 8.429/92 + Lei 14.230/21** — Improbidade Administrativa (NOVA disciplina)',
+            '**Lei 12.846/2013** — Anticorrupção (PJ)',
+            '**Lei 4.717/65** — Ação Popular',
+            '**Lei 9.507/97** — Habeas Data',
+            '**CDC arts. 81-104** — sistema integrado (aplicável à ACP por integração)',
+            '**Resolução 23/2007 CNMP** — Inquérito Civil',
+            '**Resolução 179/2017 CNMP** — TAC',
+            '**Decreto 11.129/2022** — Programas de Integridade',
+            '**CF art. 5º LXXII (HD), LXXIII (AP), LXXIV (assistência)**',
+            '**CF art. 37 §5º** — imprescritibilidade restrita',
+            '**CF art. 129** — funções do MP'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Legitimados ACP — "MP-DEAUFA":** **MP**, **D**efensoria, **E**ntes federativos, **A**utarquias/EP/SEM/Fundações, **A**ssociação >1 ano.' },
+          { type: 'box', kind: 'macete', text: '**Coisa julgada coletiva — "DIPR" (Tópico 11):** **DI**fuso e coletivo = secundum eventum **PR**obationis; **I**ndividual homogêneo = só beneficia (in utilibus).' },
+          { type: 'box', kind: 'macete', text: '**Improbidade após Lei 14.230 — "SÓ DOLO".** Culpa foi REVOGADA. MP é único legitimado.' },
+          { type: 'box', kind: 'macete', text: '**ANPC × TAC:** **ANPC** = improbidade reconhecida com sanção atenuada. **TAC** = compromisso de adequação sem reconhecimento de improbidade.' },
+          { type: 'box', kind: 'macete', text: '**Ressarcimento — Tema 897 STF:** imprescritível APENAS em improbidade DOLOSA. Outros atos = prescrição comum.' },
+          { type: 'box', kind: 'macete', text: '**Ação Popular — só CIDADÃO.** PJ não pode (Súmula 365/STF). Custas isentas, salvo má-fé.' },
+          { type: 'box', kind: 'macete', text: '**HD — exige PRÉVIA RECUSA administrativa** (Súmula 2/STJ).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Após STF Tema 1.075 (RE 1.101.937), o art. 16 da LACP é INCONSTITUCIONAL** — coisa julgada na ACP é AMPLA, não limitada à competência territorial. Bancas atualizadas cobram.' },
+          { type: 'box', kind: 'atencao', text: '**Improbidade após Lei 14.230/21 — APENAS DOLOSA.** Culpa foi revogada para todas as modalidades.' },
+          { type: 'box', kind: 'atencao', text: '**MP é ÚNICO legitimado para improbidade** após Lei 14.230 (art. 17 caput). Anteriormente era concorrente com o ente público lesado.' },
+          { type: 'box', kind: 'atencao', text: '**ACP NÃO trata de tributos, FGTS, contribuições previdenciárias** (art. 1º §único). Para essas, ações próprias.' },
+          { type: 'box', kind: 'atencao', text: '**Ação Popular — apenas CIDADÃO** (com título eleitoral). PJ não pode (Súmula 365/STF).' },
+          { type: 'box', kind: 'atencao', text: '**Coisa julgada na Ação Popular — secundum eventum probationis:** improcedência por insuficiência de prova permite RE-AJUIZAMENTO. Erro frequente confundir com ACP.' },
+          { type: 'box', kind: 'atencao', text: '**HD exige PRÉVIA RECUSA administrativa** (Súmula 2/STJ).' },
+          { type: 'box', kind: 'atencao', text: '**Imprescritibilidade do ressarcimento — RESTRITA a improbidade DOLOSA** (Tema 897). Erro: tomar como geral.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** ACP, improbidade, anticorrupção e inquérito civil são instrumentos COTIDIANOS do MP. Vivência institucional da candidata = vantagem MAXIMIZADA aqui.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** coisa julgada coletiva (DIPR), processo estrutural (ADPF 347), liquidação coletiva — leitura conjunta.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 9 (tutela provisória):** ACP usa massivamente tutelas provisórias — indisponibilidade de bens em improbidade, tutela ambiental urgente, sanitária.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 19 (MS):** MS coletivo é alternativa em casos específicos. Para difusos puros, ACP é a via.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** Súmula 489/STJ — conexão entre ACPs federal e estadual = vai para a JF. STF Tema 1.075 cuidou da competência em ACPs nacionais/regionais.' }
+        ]
+      }
     ]
   }
 ],
