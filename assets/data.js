@@ -4530,18 +4530,111 @@ topics: [
     title: 'Obrigações — parte geral',
     edital: '3.1.6',
     editalText: 'Conceito. Modalidades. Efeitos. Transmissão. Adimplemento. Extinção sem pagamento.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Estrutura da obrigação — sujeitos, vínculo, prestação',
-      'Obrigações de dar, fazer, não fazer',
-      'Obrigações alternativas e facultativas',
-      'Obrigações divisíveis × indivisíveis × solidárias',
-      'Cessão de crédito × assunção de dívida × cessão de contrato',
-      'Pagamento — quem paga, a quem, como, onde, quando',
-      'Pagamento em consignação, sub-rogação, imputação, dação',
-      'Compensação, confusão, remissão, novação'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: '**Obrigação** = relação jurídica pela qual uma parte (devedor) deve prestação econômica à outra (credor). Estrutura: **sujeitos** (credor + devedor) + **vínculo** (relação jurídica) + **prestação** (objeto). É elo de conexão entre direito patrimonial e o trabalho da pessoa para sua satisfação econômica.' },
+          { type: 'p', text: 'Quanto ao OBJETO: obrigações de **dar** (entrega de coisa), **fazer** (prestação de serviço/atividade), **não fazer** (abstenção). Quanto à PLURALIDADE: **divisíveis** × **indivisíveis** (natureza ou disposição), **solidárias** (cada um dos múltiplos sujeitos por toda a dívida — só por lei ou contrato, art. 265). Quanto ao MODO: **alternativas** (escolha entre prestações, art. 252), **facultativas** (uma prestação principal + faculdade de substituir).' },
+          { type: 'p', text: 'A obrigação **se extingue** principalmente pelo PAGAMENTO (forma normal). Há também extinções sem pagamento: **compensação** (créditos recíprocos), **confusão** (mesma pessoa credor e devedor), **remissão** (perdão), **novação** (substitui a obrigação por nova). Há ainda: pagamento em consignação, sub-rogação, dação em pagamento, imputação do pagamento.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Modalidades de obrigações (arts. 233-285)' },
+          { type: 'list', items: [
+            '**Art. 233-242** — obrigação de DAR coisa CERTA: até a tradição, riscos do credor; salvo culpa do devedor',
+            '**Art. 243-246** — obrigação de DAR coisa INCERTA: gênero e quantidade; concentração do crédito',
+            '**Arts. 247-249** — obrigação de FAZER: pessoal (intuitu personae) ou impessoal; recusa = perdas e danos OU prestação por terceiro à custa do devedor',
+            '**Arts. 250-251** — obrigação de NÃO FAZER: extingue-se quando se torna impossível sem culpa; descumprimento = desfazimento à custa do devedor + perdas e danos',
+            '**Arts. 252-256** — alternativas: 2+ prestações; escolha cabe ao devedor (regra), salvo disposição em contrário',
+            '**Arts. 257-263** — divisíveis × indivisíveis: indivisibilidade pode ser por NATUREZA, lei ou disposição',
+            '**Arts. 264-285** — SOLIDÁRIAS: presunção iuris tantum NÃO se presume; resulta da lei ou da vontade (art. 265)',
+            '**Art. 266** — solidariedade ATIVA: cada credor pode exigir TUDO; **PASSIVA**: cada devedor responde por TUDO'
+          ] },
+          { type: 'h', text: 'Transmissão (arts. 286-303)' },
+          { type: 'list', items: [
+            '**Cessão de crédito (286-298)** — credor transfere a outrem o seu crédito; admitida salvo se pessoal, vedada por lei ou contrato; eficácia perante devedor depende de notificação (art. 290)',
+            '**Assunção de dívida (299-303)** — terceiro assume a posição do devedor; depende de CONSENTIMENTO EXPRESSO do credor (art. 299)',
+            '**Cessão de contrato** — não regulada expressamente no CC, mas é construção doutrinária ampla'
+          ] },
+          { type: 'h', text: 'Adimplemento (arts. 304-388)' },
+          { type: 'list', items: [
+            '**Pagamento (304+)** — extinção normal: quem paga, a quem, como, quando, onde',
+            '**Art. 305** — terceiro INTERESSADO pode pagar (e sub-roga-se nos direitos); terceiro NÃO INTERESSADO pode pagar com oposição do devedor',
+            '**Pagamento em consignação (334-345)** — credor sem domicílio certo, recusa, etc. Eficácia retroativa à data da consignação',
+            '**Sub-rogação (346-351)** — substituição na titularidade do crédito, com transferência de todos os direitos acessórios',
+            '**Imputação (352-355)** — devedor pode escolher qual dívida quitar (regra), conforme certas regras',
+            '**Dação em pagamento (356-359)** — credor consente em receber prestação diversa da originária'
+          ] },
+          { type: 'h', text: 'Extinção sem pagamento (arts. 368-388)' },
+          { type: 'list', items: [
+            '**Compensação (368-380)** — duas pessoas reciprocamente devedoras e credoras → extinguem-se até onde se compensarem. Requisitos: dívidas LÍQUIDAS, VENCIDAS, FUNGÍVEIS',
+            '**Confusão (381-384)** — quando na mesma pessoa coincidem credor e devedor (sucessão hereditária)',
+            '**Remissão (385-388)** — perdão da dívida pelo credor; total ou parcial. Pessoal (não atinge co-devedores), salvo se de natureza solidária',
+            '**Novação (360-367)** — extingue obrigação anterior pela criação de nova, com ânimo de novar (animus novandi). Modalidades: objetiva (novo objeto), subjetiva ativa (novo credor) ou passiva (novo devedor)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Solidariedade NÃO se presume (art. 265)' },
+          { type: 'p', text: 'Regra fundamental: a solidariedade **NUNCA** se presume — resulta apenas da LEI ou da VONTADE expressa das partes. Em caso de dúvida sobre se há solidariedade entre múltiplos devedores/credores, presume-se conjunção (cada um responde por sua parte, dividida proporcionalmente).' },
+          { type: 'box', kind: 'macete', text: '**Solidariedade NÃO se presume — só por LEI ou VONTADE expressa (art. 265).** Frase-chave do tema.' },
+          { type: 'h', text: 'Solidariedade passiva — efeitos' },
+          { type: 'p', text: 'Cada devedor solidário responde pelo TODO. Pagamento de qualquer um exonera os demais. Subrogação interna: o que pagou cobra dos demais a quota-parte (art. 283). **Renúncia da solidariedade** pelo credor a um devedor não atinge os demais — solidariedade subsiste contra os outros pelo restante (art. 282).' },
+          { type: 'h', text: 'Cessão de crédito × assunção de dívida' },
+          { type: 'table', headers: ['Critério', 'Cessão de crédito', 'Assunção de dívida'],
+            rows: [
+              ['O que se transfere', 'Posição do CREDOR', 'Posição do DEVEDOR'],
+              ['Consentimento do devedor', 'NÃO necessário (basta notificação)', '— ─'],
+              ['Consentimento do credor', '— ─', 'NECESSÁRIO (expresso — art. 299)'],
+              ['Razão', 'Devedor é indiferente a quem paga', 'Credor pode preferir o devedor original (solvência)']
+            ] },
+          { type: 'h', text: 'Compensação — requisitos cumulativos' },
+          { type: 'p', text: 'Para compensação operar (extinção automática): (a) dívidas RECÍPROCAS; (b) LÍQUIDAS (valor determinado); (c) VENCIDAS; (d) FUNGÍVEIS (mesmo gênero). Faltando UM = não há compensação. Banca cobra a literalidade.' },
+          { type: 'box', kind: 'macete', text: '**Compensação: RLVF — Recíprocas, Líquidas, Vencidas, Fungíveis (art. 369).**' },
+          { type: 'h', text: 'Novação × dação em pagamento × pagamento em consignação' },
+          { type: 'p', text: '**Novação** = extingue obrigação ANTERIOR criando NOVA com animus novandi. **Dação em pagamento** = credor recebe coisa diversa, mas a obrigação se extingue (não nasce nova). **Consignação** = depósito judicial/extrajudicial diante de recusa do credor — extinção retroativa da obrigação à data do depósito.' },
+          { type: 'h', text: 'Adimplemento substancial (criação jurisprudencial)' },
+          { type: 'p', text: 'Quando o devedor cumpriu a maior parte da prestação (substancialmente), o credor NÃO pode resolver o contrato — apenas exigir o saldo. Doutrina italiana adotada pelo STJ (REsp 1.581.505 — alienação fiduciária), com nuances. Tema cobrado em provas modernas.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tese consolidada (REsp 1.622.555):** adimplemento substancial NÃO se aplica a contratos de alienação fiduciária regidos pelo Decreto-Lei 911/69 (mudança de orientação após 2017).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Solidariedade — só LEI ou VONTADE.** Não se presume (art. 265).' },
+          { type: 'box', kind: 'macete', text: '**Compensação RLVF: Recíproca · Líquida · Vencida · Fungível (art. 369).**' },
+          { type: 'box', kind: 'macete', text: '**Cessão CRÉDITO = sem precisar do devedor; Assunção DÍVIDA = precisa do credor.**' },
+          { type: 'box', kind: 'macete', text: '**4 extinções sem pagamento: CCRN — Compensação · Confusão · Remissão · Novação.**' },
+          { type: 'box', kind: 'macete', text: '**Sub-rogação: terceiro INTERESSADO paga, herda direitos.** Não-interessado: sem sub-rogação automática.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Solidariedade NÃO SE PRESUME** (art. 265). Em dúvida = conjuntiva (cada um por sua quota).' },
+          { type: 'box', kind: 'atencao', text: '**Cessão de crédito não precisa do devedor; basta notificá-lo** (art. 290). Erro: confundir com assunção de dívida.' },
+          { type: 'box', kind: 'atencao', text: '**Adimplemento substancial NÃO se aplica em alienação fiduciária** (DL 911/69), conforme STJ (REsp 1.622.555).' },
+          { type: 'box', kind: 'atencao', text: '**Compensação automática NÃO opera com dívida ilíquida** — é requisito cumulativo do art. 369.' },
+          { type: 'box', kind: 'atencao', text: '**Renúncia à solidariedade quanto a UM devedor não dispensa os demais** (art. 282). Banca arma armadilhas com isso.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento):** descumprimento gera mora ou inadimplemento absoluto + perdas e danos. Adimplemento substancial é defesa.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 8 (contratos):** adimplemento substancial relaciona-se à exceção do contrato não cumprido (art. 476).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 12 (cumprimento):** prestações pecuniárias seguem rito próprio (CPC art. 523+).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-07-obrigacoes-inadimplemento',
@@ -4549,18 +4642,118 @@ topics: [
     title: 'Inadimplemento, mora e perdas e danos',
     edital: '3.1.7',
     editalText: 'Inadimplemento absoluto e relativo. Mora. Perdas e danos. Juros, cláusula penal, arras.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Inadimplemento absoluto × relativo (mora)',
-      'Mora do devedor × do credor',
-      'Constituição em mora — ex re × ex persona',
-      'Perdas e danos — danos emergentes e lucros cessantes',
-      'Juros — moratórios × compensatórios; legais × convencionais',
-      'Cláusula penal — moratória × compensatória; limite',
-      'Arras — confirmatórias × penitenciais',
-      'Teoria do adimplemento substancial'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Quando a obrigação não é cumprida, há **inadimplemento**. Pode ser **absoluto** (impossibilidade definitiva — perde sentido a prestação) ou **relativo** (a chamada **MORA** — atraso que não impossibilita o cumprimento ainda útil ao credor).' },
+          { type: 'p', text: '**Mora do devedor** (mora solvendi): regra geral é mora EX RE — automática (caput do art. 397) quando há termo certo. Sem termo, mora EX PERSONA — exige interpelação (judicial ou extrajudicial). **Mora do credor** (mora accipiendi): art. 396 — recusa em receber. Efeito: devedor consigna; credor responde por perdas e danos.' },
+          { type: 'p', text: 'A consequência do inadimplemento (absoluto ou mora) é o pagamento de **PERDAS E DANOS** (arts. 402-405): danos emergentes (o que efetivamente perdeu) + lucros cessantes (o que razoavelmente deixou de ganhar). Juros + cláusula penal + arras são institutos que **fortalecem a obrigação** ou **liquidam previamente** os danos.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Inadimplemento e mora (arts. 389-401)' },
+          { type: 'list', items: [
+            '**Art. 389** — não cumprida obrigação: devedor responde por PERDAS E DANOS, MAIS juros + atualização monetária + honorários',
+            '**Art. 393** — devedor não responde por CASO FORTUITO ou FORÇA MAIOR, salvo se expressamente assumiu o risco',
+            '**Art. 394** — em mora o devedor que não efetuar pagamento; o credor que não quiser recebê-lo no tempo, lugar e forma',
+            '**Art. 397** — inadimplemento da obrigação POSITIVA E LÍQUIDA, no termo, constitui de pleno direito em mora o devedor (mora **EX RE**)',
+            '**Art. 397 par. único** — não havendo termo, a mora se constitui mediante interpelação (mora **EX PERSONA**)',
+            '**Art. 398** — obrigações ILÍCITAS (responsabilidade extracontratual) → mora desde o ato ilícito',
+            '**Arts. 399-401** — devedor em mora responde até por caso fortuito; mora pode ser purgada (purgação) com pagamento + danos'
+          ] },
+          { type: 'h', text: 'Perdas e danos (arts. 402-405)' },
+          { type: 'list', items: [
+            '**Art. 402** — perdas e danos compreendem: (a) o que o credor EFETIVAMENTE PERDEU (DANO EMERGENTE) + (b) o que RAZOAVELMENTE deixou de lucrar (LUCROS CESSANTES)',
+            '**Art. 403** — danos diretos e imediatos; danos remotos NÃO',
+            '**Art. 404** — perdas e danos em obrigações pecuniárias = juros + correção monetária + honorários, salvo cláusula penal',
+            '**Art. 405** — juros de mora correm desde a CITAÇÃO inicial em obrigações ilíquidas (sem termo certo)'
+          ] },
+          { type: 'h', text: 'Juros (arts. 406-407)' },
+          { type: 'list', items: [
+            '**Art. 406** — juros NÃO convencionados (legais): taxa em vigor para mora dos impostos federais (SELIC). STJ tem aplicação variada — tendência recente: art. 406 = SELIC',
+            '**Distinção:** juros COMPENSATÓRIOS (remuneração do capital, prévio convencional) × juros MORATÓRIOS (sanção pelo atraso)',
+            'Juros convencionais: Lei de Usura (Decreto 22.626/33) limita a 12% a.a., salvo instituições financeiras (Súmula 596/STF)'
+          ] },
+          { type: 'h', text: 'Cláusula penal (arts. 408-416)' },
+          { type: 'list', items: [
+            '**Art. 408** — cláusula penal: pena convencional, prefixação dos danos',
+            '**Art. 409** — pode ser estipulada para o caso de TOTAL inadimplemento (compensatória) ou simples MORA (moratória)',
+            '**Art. 410** — cláusula penal COMPENSATÓRIA: alternativa a benefício do credor (escolhe entre executar a obrigação ou cobrar a multa)',
+            '**Art. 411** — cláusula penal MORATÓRIA: cumulativa ao desempenho da obrigação',
+            '**Art. 412** — cláusula penal NÃO pode exceder o valor da OBRIGAÇÃO PRINCIPAL',
+            '**Art. 413** — penalidade deve ser REDUZIDA EQUITATIVAMENTE pelo juiz se: (a) obrigação cumprida em parte; (b) montante manifestamente excessivo'
+          ] },
+          { type: 'h', text: 'Arras (arts. 417-420)' },
+          { type: 'list', items: [
+            '**Arras CONFIRMATÓRIAS (art. 417)** — sinal dado em garantia da firmeza do contrato; em caso de descumprimento, arras servem como mínimo de perdas e danos',
+            '**Art. 418** — descumprimento por quem deu as arras: outro pode reter o sinal. Descumprimento por quem recebeu: deve restituir + igual valor (em dobro)',
+            '**Arras PENITENCIAIS (art. 420)** — concedem direito de arrependimento; quem deu pode arrepender-se perdendo as arras; quem recebeu pode arrepender-se devolvendo em dobro. NÃO há direito a perdas e danos suplementares'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Mora EX RE × EX PERSONA' },
+          { type: 'p', text: '**EX RE** — automática, "decorre da coisa". Aplicável a obrigações com termo certo (art. 397 caput). "Dies interpellat pro homine" — o dia interpela pelo homem.' },
+          { type: 'p', text: '**EX PERSONA** — exige interpelação (judicial ou extrajudicial — notificação cartorária, e-mail, comunicação registrada). Sem interpelação, não há mora. Aplicável quando a obrigação NÃO tem termo certo (art. 397 par. único).' },
+          { type: 'box', kind: 'macete', text: '**EX RE = Récorde (data fixa); EX PERSONA = Pessoa precisa interpelar.**' },
+          { type: 'h', text: 'Cláusula penal compensatória × moratória' },
+          { type: 'table', headers: ['Critério', 'Compensatória', 'Moratória'],
+            rows: [
+              ['Hipótese', 'Inadimplemento TOTAL', 'Atraso (mora)'],
+              ['Efeito', 'ALTERNATIVA (credor escolhe: executar OU cobrar pena)', 'CUMULATIVA (cobrança da pena + cumprimento)'],
+              ['Limite', 'Não pode exceder valor da obrigação (art. 412)', 'Idem'],
+              ['Redução', 'Pode pelo juiz (art. 413)', 'Idem']
+            ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 616:** "A indenização decorrente de seguro de vida em garantia de mútuo NÃO é considerada cláusula penal."' },
+          { type: 'h', text: 'Arras confirmatórias × penitenciais' },
+          { type: 'p', text: '**CONFIRMATÓRIAS (art. 417)** — REGRA. Reforçam o vínculo; descumprimento = perda das arras (mais perdas e danos suplementares se provados — art. 419). NÃO há arrependimento.' },
+          { type: 'p', text: '**PENITENCIAIS (art. 420)** — exigem cláusula EXPRESSA. Concedem direito de arrependimento. Limitação dos danos: máximo é o valor das arras (em dobro) — sem suplemento.' },
+          { type: 'box', kind: 'macete', text: '**Confirmatórias = REGRA, sem arrependimento. Penitenciais = exceção, COM arrependimento + limite.**' },
+          { type: 'h', text: 'Adimplemento substancial' },
+          { type: 'p', text: 'Construção jurisprudencial (origem: Direito inglês — substantial performance). Quando o devedor cumpriu a parte essencial da prestação, mesmo com falhas menores, o credor NÃO pode resolver o contrato — apenas exigir o saldo + perdas e danos. Razão: boa-fé + função social do contrato + vedação ao abuso.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.622.555 (2017):** adimplemento substancial NÃO se aplica a alienação fiduciária regida pelo Decreto-Lei 911/69. Mudança de orientação relevante.' },
+          { type: 'h', text: 'Caso fortuito × força maior (art. 393)' },
+          { type: 'p', text: 'Doutrina diverge na distinção: **fortuito** = evento humano imprevisível (greve geral); **força maior** = evento da natureza inevitável (terremoto). Mas o efeito é IDÊNTICO (art. 393): excluem responsabilidade do devedor, salvo se assumiu expressamente o risco. Em concursos, atenção à **interpretação literal** do CC.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Mora — EX RE = data certa, automática. EX PERSONA = sem termo, interpelação.**' },
+          { type: 'box', kind: 'macete', text: '**Cláusula penal compensatória ALTERNATIVA, moratória CUMULATIVA.**' },
+          { type: 'box', kind: 'macete', text: '**Cláusula penal limite: valor da OBRIGAÇÃO PRINCIPAL (art. 412). Manifestamente excessivo: REDUÇÃO equitativa pelo juiz (art. 413).**' },
+          { type: 'box', kind: 'macete', text: '**Arras: confirmatória SEM arrependimento; penitencial COM arrependimento.**' },
+          { type: 'box', kind: 'macete', text: '**Perdas e danos: dano EMERGENTE + lucros CESSANTES** (art. 402).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Mora EX RE quando há TERMO CERTO** — aplicação automática, sem necessidade de interpelação.' },
+          { type: 'box', kind: 'atencao', text: '**Cláusula penal compensatória NÃO se cumula com obrigação principal** — é alternativa. Já a moratória cumula.' },
+          { type: 'box', kind: 'atencao', text: '**Caso fortuito EXCLUI responsabilidade, SALVO se devedor estava em mora** (art. 399) ou expressamente assumiu o risco (art. 393).' },
+          { type: 'box', kind: 'atencao', text: '**Lei de Usura (Decreto 22.626/33) limita juros convencionais a 12% a.a. — exceção: instituições financeiras (Súmula 596/STF).**' },
+          { type: 'box', kind: 'atencao', text: '**Arras CONFIRMATÓRIAS são a regra do CC** (art. 417); penitenciais (art. 420) exigem disposição EXPRESSA.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 6 (obrigações geral):** o inadimplemento se conecta à compensação, novação, remissão.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** dano emergente + lucros cessantes são noções comuns à responsabilidade extracontratual.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 8 (contratos):** exceção do contrato não cumprido (art. 476) é defesa diante do inadimplemento; resolução por inadimplemento é típica.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 12 (cumprimento):** título executivo judicial líquido pode ser cobrado por cumprimento de sentença.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-08-contratos-geral',
@@ -4986,7 +5179,22 @@ flashcards: [
   { id: 185, topic: 5, materia: 'civil', q: 'Qual é o defeito do negócio jurídico que gera NULIDADE absoluta?', a: 'SIMULAÇÃO (CC art. 167). É a ÚNICA exceção entre os defeitos — todos os outros (erro, dolo, coação, lesão, estado de perigo, fraude contra credores) geram apenas anulabilidade.', tags: ['fase3', 'fatos', 'simulacao'] },
   { id: 186, topic: 5, materia: 'civil', q: 'Prazo prescricional para reparação civil (responsabilidade civil)?', a: '3 ANOS (CC art. 206 §3º V). Conta-se da ciência inequívoca do dano. Vinculante na prática forense; tema cobrado em quase toda prova.', tags: ['fase3', 'fatos', 'prescricao'] },
   { id: 187, topic: 5, materia: 'civil', q: 'Decadência LEGAL pode ser conhecida de ofício?', a: 'SIM (CC art. 210). Juiz deve reconhecer mesmo sem alegação da parte. CONVENCIONAL (art. 211): apenas pela parte beneficiada.', tags: ['fase3', 'fatos', 'decadencia'] },
-  { id: 188, topic: 5, materia: 'civil', q: 'A prescrição pode ser interrompida várias vezes pelo mesmo fato?', a: 'NÃO. CC art. 202 caput: a interrupção só ocorre UMA ÚNICA VEZ pelo mesmo fato. Após interrompida, recomeça a contagem por inteiro.', tags: ['fase3', 'fatos', 'prescricao'] }
+  { id: 188, topic: 5, materia: 'civil', q: 'A prescrição pode ser interrompida várias vezes pelo mesmo fato?', a: 'NÃO. CC art. 202 caput: a interrupção só ocorre UMA ÚNICA VEZ pelo mesmo fato. Após interrompida, recomeça a contagem por inteiro.', tags: ['fase3', 'fatos', 'prescricao'] },
+
+  // ============ Bloco 12 — Fase 3 (Civil 6-7 — Obrigações) ============
+  // Civ 6 — Obrigações parte geral
+  { id: 189, topic: 6, materia: 'civil', q: 'A solidariedade obrigacional pode ser presumida?', a: 'NÃO (CC art. 265). Solidariedade decorre apenas da LEI ou da VONTADE expressa. Em dúvida = obrigação conjuntiva (cada um por sua quota proporcional).', tags: ['fase3', 'obrigacoes', 'solidariedade'] },
+  { id: 190, topic: 6, materia: 'civil', q: 'Quais os requisitos cumulativos para compensação operar (art. 369)?', a: 'RLVF: dívidas RECÍPROCAS, LÍQUIDAS, VENCIDAS, FUNGÍVEIS. Faltando um, não há compensação. Mais comum em Direito Tributário e Civil.', tags: ['fase3', 'obrigacoes', 'compensacao'] },
+  { id: 191, topic: 6, materia: 'civil', q: 'Cessão de crédito × assunção de dívida — qual exige consentimento do credor?', a: 'ASSUNÇÃO DE DÍVIDA exige consentimento expresso do credor (art. 299). Cessão de crédito NÃO precisa do devedor — basta NOTIFICAÇÃO (art. 290). Razão: credor pode ter interesse na solvência do devedor; devedor é indiferente a quem paga.', tags: ['fase3', 'obrigacoes', 'cessao'] },
+  { id: 192, topic: 6, materia: 'civil', q: 'O que diferencia novação, dação em pagamento e consignação?', a: 'NOVAÇÃO: extingue obrigação anterior CRIANDO NOVA (animus novandi). DAÇÃO: credor recebe coisa diversa, mas a obrigação se EXTINGUE (sem nova). CONSIGNAÇÃO: depósito diante de recusa do credor — extinção retroativa.', tags: ['fase3', 'obrigacoes', 'extincao'] },
+  { id: 193, topic: 6, materia: 'civil', q: 'Adimplemento substancial aplica-se a alienação fiduciária?', a: 'NÃO mais (STJ — REsp 1.622.555, 2017). Em outras espécies de contratos sim, mas em alienação fiduciária regida pelo Decreto-Lei 911/69 a teoria não se aplica — credor pode acionar regimes próprios.', tags: ['fase3', 'obrigacoes', 'adimplemento'] },
+
+  // Civ 7 — Inadimplemento
+  { id: 194, topic: 7, materia: 'civil', q: 'Diferença entre mora ex re e mora ex persona?', a: 'EX RE (art. 397 caput): obrigação POSITIVA E LÍQUIDA com TERMO CERTO. Mora automática (dies interpellat pro homine). EX PERSONA (par. único): sem termo certo. Exige interpelação judicial ou extrajudicial.', tags: ['fase3', 'mora'] },
+  { id: 195, topic: 7, materia: 'civil', q: 'Quais elementos compõem as perdas e danos (art. 402)?', a: 'DANO EMERGENTE (o que efetivamente perdeu) + LUCROS CESSANTES (o que razoavelmente deixou de lucrar). Devem ser danos diretos e imediatos (art. 403) — danos remotos não são indenizáveis.', tags: ['fase3', 'perdas-danos'] },
+  { id: 196, topic: 7, materia: 'civil', q: 'Cláusula penal compensatória × moratória — qual a diferença?', a: 'COMPENSATÓRIA (inadimplemento total): ALTERNATIVA — credor escolhe entre executar a obrigação OU cobrar a multa. MORATÓRIA (mero atraso): CUMULATIVA — pode cobrar multa + cumprimento. Limite: não excede valor da obrigação principal (art. 412).', tags: ['fase3', 'clausula-penal'] },
+  { id: 197, topic: 7, materia: 'civil', q: 'Arras confirmatórias × penitenciais?', a: 'CONFIRMATÓRIAS (regra — art. 417): reforçam o vínculo, sem arrependimento, descumprimento = perda das arras + perdas e danos suplementares (art. 419). PENITENCIAIS (exceção — art. 420): permitem arrependimento; limite máximo é o valor das arras em dobro.', tags: ['fase3', 'arras'] },
+  { id: 198, topic: 7, materia: 'civil', q: 'Devedor em mora responde por caso fortuito?', a: 'SIM (art. 399). Em regra, devedor não responde por caso fortuito/força maior (art. 393); MAS se já estava em mora, responde até por isso, salvo se provar que o evento ocorreria mesmo sem o atraso.', tags: ['fase3', 'mora', 'fortuito'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -6148,6 +6356,60 @@ questions: [
     ],
     correct: 'B',
     explanation: 'CC art. 167: simulação = NULIDADE absoluta. Pode ser arguida por qualquer interessado, MP, conhecida de ofício. (A) Falso — simulação é NULIDADE, não anulabilidade. (C) Falso — art. 157 §2º: lesão admite COMPLEMENTAÇÃO para conservar o negócio. (D) Falso — fraude exige redução à INSOLVÊNCIA (art. 158). (E) Falso — erro substancial gera anulabilidade, não suprimento por sucessores.'
+  },
+
+  // ============ Bloco 12 — Fase 3 (Civil 6-7 — Obrigações) ============
+  {
+    id: 79, topic: 6, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a solidariedade obrigacional no Direito Civil brasileiro, é correto afirmar:',
+    alternatives: [
+      'A solidariedade presume-se quando há multiplicidade de devedores ou de credores em uma mesma obrigação.',
+      'A solidariedade decorre apenas da lei ou da vontade expressa das partes; não se presume.',
+      'A solidariedade ativa permite que o credor escolha qual devedor pagará a dívida proporcional.',
+      'A renúncia da solidariedade pelo credor a um dos devedores extingue automaticamente a solidariedade em relação a todos.',
+      'A solidariedade entre devedores impede a sub-rogação interna entre eles.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 265: solidariedade NÃO se presume — só por LEI ou VONTADE expressa. (A) Falso — em dúvida, obrigação conjuntiva. (C) Falso — solidariedade ATIVA refere-se a vários CREDORES, não devedores. (D) Falso — art. 282: renúncia a um devedor não dispensa demais. (E) Falso — devedor que paga sub-roga-se nos direitos do credor (art. 283).'
+  },
+  {
+    id: 80, topic: 6, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a cessão de crédito e a assunção de dívida no Código Civil, é INCORRETO afirmar:',
+    alternatives: [
+      'A cessão de crédito tem eficácia perante o devedor a partir da notificação, dispensando seu consentimento.',
+      'A assunção de dívida exige consentimento expresso do credor para que o terceiro possa substituir o devedor original.',
+      'O credor cessionário tem os mesmos direitos do credor cedente, podendo opor ao devedor as exceções que este teria.',
+      'A assunção de dívida é vedada em qualquer hipótese, em razão da pessoalidade do vínculo obrigacional.',
+      'O devedor pode opor ao cessionário as exceções pessoais que tinha ao cedente, desde que existentes ao tempo da notificação.'
+    ],
+    correct: 'D',
+    explanation: 'Assunção de dívida é PERMITIDA (CC arts. 299-303), exigindo apenas consentimento expresso do credor. As demais alternativas são corretas: (A) art. 290; (B) art. 299; (C)/(E) art. 294 — devedor pode opor exceções pessoais ao cessionário.'
+  },
+  {
+    id: 81, topic: 7, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a mora no Direito Civil, é correto afirmar:',
+    alternatives: [
+      'Toda obrigação, independentemente de termo, exige interpelação para constituição em mora.',
+      'A mora ex re ocorre automaticamente em obrigações positivas e líquidas, com termo certo, dispensando interpelação.',
+      'A mora do credor (mora accipiendi) impossibilita a posterior consignação em pagamento.',
+      'O devedor em mora não responde por caso fortuito ocorrido durante o atraso.',
+      'A mora ex persona incide automaticamente em obrigações ilícitas (responsabilidade extracontratual).'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 397 caput: mora EX RE em obrigação positiva e líquida com termo. (A) Falso — sem termo é EX PERSONA. (C) Falso — credor em mora viabiliza consignação pelo devedor. (D) Falso — devedor em mora responde até por fortuito (art. 399). (E) Falso — em obrigações ILÍCITAS mora desde o ATO ILÍCITO (art. 398), não é ex persona.'
+  },
+  {
+    id: 82, topic: 7, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a cláusula penal no Código Civil, considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'A cláusula penal compensatória é cumulativa à execução da obrigação principal, em razão do princípio da reparação integral.',
+      'A cláusula penal moratória é alternativa, podendo o credor escolher entre cobrar a pena ou exigir o cumprimento da obrigação.',
+      'O valor da cláusula penal pode exceder o valor da obrigação principal, desde que estipulado expressamente pelas partes.',
+      'A cláusula penal compensatória opera em caso de inadimplemento total e é alternativa; a cláusula penal moratória opera em caso de mora e é cumulativa.',
+      'A cláusula penal manifestamente excessiva NÃO pode ser reduzida pelo juiz, em razão da autonomia da vontade.'
+    ],
+    correct: 'D',
+    explanation: 'CC arts. 410-411: compensatória (inadimplemento total) é ALTERNATIVA; moratória (atraso) é CUMULATIVA. (A) Inverte: compensatória é alternativa. (B) Inverte: moratória é cumulativa. (C) Falso — art. 412: limite é o valor da obrigação principal. (E) Falso — art. 413: juiz REDUZ equitativamente se manifestamente excessivo.'
   }
 ],
 
