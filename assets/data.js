@@ -1671,27 +1671,124 @@ topics: [
     schedule: 'Mês 4, Semana 1',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Cumprimento provisório × definitivo (CPC arts. 520-522)',
-        'Espécies: pagar quantia (513-527), fazer/não-fazer (536-538), entregar coisa (538), alimentos (528-533)',
-        'Cumprimento contra Fazenda Pública: precatórios (Constituição art. 100) e RPV',
-        'Multa do art. 523 §1º: 10% se não pagar em 15 dias após intimação para pagamento; honorários de 10% também',
-        'Defesas: impugnação ao cumprimento de sentença (CPC art. 525) — rol TAXATIVO',
-        'Multa coercitiva (astreintes) e meios atípicos (CPC art. 139 IV — Tema 1010 STJ)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 513-538'
-      ]},
-      { h: 'Jurisprudência crítica', items: [
-        'STJ Tema 962 — multa do art. 523: incide a partir do término do prazo, mesmo sem intimação pessoal',
-        'STF — precatórios EC 113/21 — atualização e taxa SELIC',
-        'STJ Tema 1010 — atipicidade dos meios executivos (CNH, passaporte, cartão de crédito) — limitada por proporcionalidade'
-      ]},
-      { h: 'Pegadinhas', items: [
-        'Diferença entre cumprimento (título judicial) × execução autônoma (extrajudicial)',
-        'Excesso de execução: arguição com memória discriminada (525 §4º) sob pena de não conhecimento',
-        'Multa coercitiva pode ser modificada pelo juiz a qualquer tempo'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O **cumprimento de sentença** (CPC arts. 513-538) é a fase de satisfação dos títulos executivos JUDICIAIS — sentenças, decisões interlocutórias com componente executivo, sentenças penais condenatórias, sentenças arbitrais, etc. Distingue-se da **execução por título extrajudicial** (Tópico 15), que tem rito autônomo e disciplina própria. Após o CPC/15, o sincretismo processual se consolidou: cumprimento é FASE do mesmo processo de conhecimento.' },
+          {
+            type: 'table',
+            headers: ['Espécie', 'Artigos', 'Características'],
+            rows: [
+              ['Pagar quantia', '513-527', 'Multa de 10% + honorários de 10% se não pagar em 15 dias (art. 523 §1º)'],
+              ['Fazer/não-fazer', '536-537', 'Multa diária (astreintes); medidas atípicas (art. 139 IV)'],
+              ['Entregar coisa', '538', 'Mandado de busca e apreensão; multa diária'],
+              ['Alimentos', '528-533', 'Coação patrimonial OU prisão civil (1-3 meses, regime fechado)'],
+              ['Contra Fazenda Pública', '534-535', 'Precatório ou RPV; arts. 910 (extrajudicial) e 100 CF']
+            ]
+          },
+          { type: 'p', text: '**Cumprimento provisório × definitivo:** PROVISÓRIO (art. 520) — sentença pendente de recurso sem efeito suspensivo (apelação, em regra, tem; agravo NÃO). DEFINITIVO — após o trânsito em julgado. Provisório exige caução para levantamento de quantias e atos irreversíveis (art. 520 IV) — exceções no art. 521.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 513-519** — disposições gerais',
+            '**Art. 520** — cumprimento PROVISÓRIO',
+            '**Art. 521** — dispensa de caução (alimentos, valor até 60 SM, urgência)',
+            '**Arts. 523-527** — cumprimento de quantia certa',
+            '**Art. 523** — prazo de 15 dias para pagamento + multa 10% + honorários 10%',
+            '**Art. 524 §4º** — execução parcial pelo valor incontroverso',
+            '**Art. 525** — IMPUGNAÇÃO do executado (rol taxativo: §1º, 9 hipóteses)',
+            '**Art. 528** — cumprimento de alimentos com possibilidade de PRISÃO CIVIL',
+            '**Arts. 534-535** — cumprimento contra a Fazenda Pública',
+            '**Art. 535 §3º** — RPV (60 SM, federal) ou precatório',
+            '**Arts. 536-537** — fazer/não-fazer; multa diária e medidas atípicas',
+            '**Art. 538** — entregar coisa; busca e apreensão'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Multa do art. 523 §1º (10% + honorários 10%)' },
+          { type: 'p', text: 'Após o trânsito em julgado, o devedor é **INTIMADO** (na pessoa do advogado, em regra) para pagar em **15 DIAS ÚTEIS**. Não pagando, incide:' },
+          { type: 'list', items: [
+            '**Multa de 10%** sobre o valor não pago',
+            '**Honorários advocatícios** sucumbenciais de 10% (art. 523 §1º — somam-se aos da fase de conhecimento)',
+            '**Penhora** dos bens (geralmente online, via SISBAJUD)',
+            'Início do prazo de 15 dias para impugnar (art. 525)'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 962 (REsp 1.620.919):** a multa do art. 523 incide AUTOMATICAMENTE a partir do término do prazo de 15 dias, INDEPENDENTEMENTE de intimação pessoal do devedor. A intimação do advogado (via DJe) é suficiente. Tema vinculante.' },
+
+          { type: 'h', text: 'Impugnação ao cumprimento (art. 525) — rol TAXATIVO' },
+          { type: 'p', text: 'Hipóteses (§1º):' },
+          { type: 'list', items: [
+            '**I** — falta ou nulidade da citação (querela nullitatis se já citado em apelação)',
+            '**II** — ilegitimidade da parte',
+            '**III** — inexequibilidade do título ou inexigibilidade da obrigação',
+            '**IV** — penhora incorreta ou avaliação errônea',
+            '**V** — excesso de execução ou cumulação indevida',
+            '**VI** — incompetência do juízo',
+            '**VII** — qualquer causa modificativa ou extintiva da obrigação posterior à sentença',
+            '**§4º** — excesso de execução exige memória DISCRIMINADA, sob pena de não conhecimento (Súmula 612/STJ)'
+          ]},
+          { type: 'p', text: 'Não há **EFEITO SUSPENSIVO automático** (art. 525 §6º) — só com requerimento + garantia integral + prova de risco grave de dano de difícil reparação.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 612:** "O direito de impugnar o título executivo extrajudicial admite distinguishing." Reforça a importância da memória DISCRIMINADA quando se alega excesso (art. 525 §4º).' },
+
+          { type: 'h', text: 'Atipicidade dos meios executivos (art. 139 IV) na quantia certa' },
+          { type: 'p', text: 'Inovação CPC/15 — antes restrito a obrigações de fazer/não-fazer, hoje aplicável a obrigações de PAGAR. STJ no Tema 1.137 (REsp 1.788.950) consolidou: medidas atípicas (suspensão de CNH, passaporte, cartão de crédito, bloqueio de aplicativos de transporte) são CABÍVEIS, mas exigem:' },
+          { type: 'list', items: [
+            'Esgotamento dos meios típicos (penhora, BacenJud)',
+            'Demonstração de patrimônio compatível ocultado',
+            'Decisão fundamentada e PROPORCIONAL',
+            'Não violar núcleo essencial de direitos fundamentais'
+          ]},
+
+          { type: 'h', text: 'Cumprimento contra a Fazenda Pública' },
+          { type: 'p', text: 'Pagamento por **PRECATÓRIO** (CF art. 100) ou **RPV** (Requisição de Pequeno Valor — federal: 60 SM, estadual: 40 SM, municipal: 30 SM, salvo legislação local diferente). Procedimento (arts. 534-535):' },
+          { type: 'list', items: [
+            'Fazenda intimada em 30 dias para impugnar (rol do art. 535)',
+            'Não impugnando, expede-se precatório (federal: até 1º julho; pagamento até 31/12 do ano seguinte) ou RPV (60 dias, sem ordem cronológica)',
+            'EC 113/21: SELIC como índice de correção e juros, simplificando a complexa sistemática anterior'
+          ]},
+
+          { type: 'h', text: 'Cumprimento de alimentos (arts. 528-533)' },
+          { type: 'p', text: 'Sistemática DUPLA:' },
+          { type: 'list', items: [
+            '**Coação patrimonial (art. 528 §8º)** — penhora de bens, BacenJud, atipicidade do art. 139 IV. Aplica-se preferencialmente em débitos antigos',
+            '**Prisão civil (art. 528 §3º)** — 1 a 3 meses em REGIME FECHADO; cabível para débito das 3 ÚLTIMAS prestações + parcelas vincendas até a data do pagamento (Súmula 309/STJ); única hipótese de prisão civil constitucional (CF art. 5º LXVII + Súmula Vinculante 25 — depositário infiel não)'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 309:** "O débito alimentar que autoriza a prisão civil do alimentante é o que compreende as 3 prestações anteriores ao ajuizamento da execução e as que vencerem no curso do processo." Tema vinculante na prática forense.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Multa do art. 523 — 10/10/15:** **10**% multa + **10**% honorários, se não pagar em **15** dias úteis após intimação.' },
+          { type: 'box', kind: 'macete', text: '**RPV — 60/40/30 SM:** **União 60**, **Estado 40**, **Município 30** (regra; Estados e Municípios podem fixar diferente).' },
+          { type: 'box', kind: 'macete', text: '**Alimentos — prisão civil das 3 últimas + vincendas** (Súmula 309/STJ). Régime FECHADO; 1-3 meses.' },
+          { type: 'box', kind: 'macete', text: '**Impugnação (525) — rol TAXATIVO em 9 hipóteses.** Memorize: nulidade da citação, ilegitimidade, inexigibilidade, penhora errada, excesso, incompetência, modificativa/extintiva.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Multa do art. 523 incide AUTOMATICAMENTE** após 15 dias — Tema 962/STJ. Intimação pessoal do devedor NÃO é necessária (basta a do advogado).' },
+          { type: 'box', kind: 'atencao', text: '**Excesso de execução SEM memória discriminada = NÃO CONHECIMENTO** (art. 525 §4º). Mero "discordo do valor" não basta.' },
+          { type: 'box', kind: 'atencao', text: '**Impugnação NÃO TEM EFEITO SUSPENSIVO automático** (art. 525 §6º) — exige garantia + risco grave.' },
+          { type: 'box', kind: 'atencao', text: '**Cumprimento × execução autônoma:** cumprimento (513+) é fase do mesmo processo de conhecimento; execução (771+) é processo autônomo, para títulos EXTRAJUDICIAIS. Banca tenta confundir.' },
+          { type: 'box', kind: 'atencao', text: '**Atipicidade do art. 139 IV em quantia certa exige MEIOS TÍPICOS ESGOTADOS** — Tema 1.137. Não é primeira opção.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 7 (juiz):** atipicidade do art. 139 IV é manifestação dos poderes-deveres do juiz; aplicada massivamente aqui.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** cumprimento é FASE do mesmo processo (sincretismo). Sentença líquida → cumprimento direto.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 15 (execução):** muitas regras se aplicam por remissão (art. 513 §1º — aplicação subsidiária do procedimento de execução).' }
+        ]
+      }
     ]
   },
   {
@@ -1704,31 +1801,114 @@ topics: [
     schedule: 'Mês 4, Semanas 1-2',
     advantage: null,
     sections: [
-      { h: 'Procedimentos específicos do CPC', items: [
-        'Ação de consignação em pagamento (CPC arts. 539-549)',
-        'Ação de exigir contas (550-553)',
-        'Ações possessórias: manutenção, reintegração, interdito proibitório (554-568)',
-        'Ação de divisão e demarcação (569-598)',
-        'Ações de família (693-699) — peculiaridades: tentativa obrigatória de mediação',
-        'Ação monitória (700-702): documento sem eficácia executiva',
-        'Embargos de terceiro (674-681)',
-        'Habilitação (687-692)',
-        'Restauração de autos (712-718)',
-        'Oposição (682-686): forma incidental no CPC'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 539-770'
-      ]},
-      { h: 'Pontos clássicos de prova', items: [
-        'Possessória: força nova (até 1 ano e 1 dia) × velha (após esse prazo)',
-        'Súmula 384/STJ — monitória: liquidez não exigida',
-        'Súmula 339/STJ — cabimento de monitória contra Fazenda Pública',
-        'Ações de família — mediação obrigatória, sigilo de audiências'
-      ]},
-      { h: 'Estratégia de estudo', items: [
-        'Quadro comparativo: rito × prazo × peculiaridades × cabimento',
-        'Para cada procedimento, identificar 2 perguntas que provavelmente caem'
-      ]}
+      {
+        h: 'Visão geral',
+        items: [
+          { type: 'p', text: 'Os **procedimentos especiais** (CPC arts. 539-770) são ritos diferenciados do procedimento comum, criados para tutelar situações específicas com peculiaridades que justificam tratamento próprio. Aplica-se subsidiariamente o procedimento comum (art. 318 §único).' },
+          { type: 'p', text: 'A estratégia de estudo é por **PROCEDIMENTO**, identificando para cada: (a) cabimento; (b) legitimidade; (c) rito específico; (d) súmulas críticas. NÃO é necessário decorar cada artigo — domine a LÓGICA de cada um.' }
+        ]
+      },
+      {
+        h: 'Procedimentos contenciosos do CPC',
+        items: [
+          { type: 'h', text: 'Consignação em pagamento (arts. 539-549)' },
+          { type: 'p', text: 'Cabível quando o credor: recusa-se sem justa causa a receber; é incapaz; reside em local desconhecido; pluralidade de credores. Pode ser **judicial** ou **extrajudicial** (art. 539 §1º — depósito em estabelecimento bancário). Procedimento sumário; após depósito, citação do réu; impugnação no prazo da contestação.' },
+          { type: 'h', text: 'Ação de exigir contas (arts. 550-553)' },
+          { type: 'p', text: 'Bifásica: 1ª fase (cabimento) → sentença que reconhece o dever de prestar contas; 2ª fase (apuração) → contas no prazo de 15 dias. Súmula 259/STJ: "A ação de prestação de contas pode ser proposta pelo titular de conta corrente bancária" (admite contra banco).' },
+          { type: 'h', text: 'Ações possessórias (arts. 554-568)' },
+          { type: 'p', text: 'Tutela da posse — não da propriedade. Espécies:' },
+          { type: 'list', items: [
+            '**Reintegração** — esbulho (perda total)',
+            '**Manutenção** — turbação (perturbação parcial)',
+            '**Interdito proibitório** — ameaça'
+          ]},
+          { type: 'p', text: '**FUNGIBILIDADE expressa (art. 554):** o juiz concede a tutela adequada, mesmo se pedido outro nome. **Distinção crucial:**' },
+          {
+            type: 'table',
+            headers: ['Tipo', 'Tempo', 'Procedimento', 'Liminar'],
+            rows: [
+              ['Força nova', 'até 1 ano e 1 dia da turbação/esbulho', 'Especial', 'Cabe (art. 562 — sem oitiva)'],
+              ['Força velha', 'após 1 ano e 1 dia', 'Comum', 'Apenas tutela provisória ordinária']
+            ]
+          },
+          { type: 'p', text: '**Possessórias coletivas (arts. 565-566):** litígio com mais de 1 ano, com presença de muitas pessoas → audiência de mediação obrigatória, intervenção do MP e Defensoria. **Marco em invasões/ocupações de movimentos sociais.**' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 637:** "O ente público tem legitimidade e interesse para intervir como amicus curiae em ação possessória entre particulares quando relevantes interesses transindividuais." Reforço da função protetiva do Estado.' },
+          { type: 'h', text: 'Divisão e demarcação (arts. 569-598)' },
+          { type: 'p', text: 'Ações imobiliárias dúplices. Demarcação: fixar limites entre imóveis. Divisão: dividir imóvel comum entre condôminos. Procedimento técnico, com perito.' },
+          { type: 'h', text: 'Inventário e partilha (arts. 610-673)' },
+          { type: 'p', text: 'Procedimento de jurisdição contenciosa (sucessões). Modalidades:' },
+          { type: 'list', items: [
+            '**Tradicional (judicial)** — quando há menores, incapazes, testamento ou desacordo',
+            '**Por arrolamento sumário** (até R$ 1.000 ou bens de pequena monta)',
+            '**Por arrolamento comum** (consenso entre maiores capazes)',
+            '**Extrajudicial (Lei 11.441/07 + CPC art. 610 §1º)** — em cartório, se todos maiores e capazes, em consenso, sem testamento'
+          ]},
+          { type: 'h', text: 'Embargos de terceiro (arts. 674-681)' },
+          { type: 'p', text: 'Defesa do TERCEIRO (não-parte) cuja posse ou propriedade é ameaçada por ato judicial (penhora, arresto, etc.). Procedimento ágil; juízo da execução é competente. Súmula 84/STJ: "É admissível a oposição de embargos de terceiro fundados em alegação de posse advinda de compromisso de compra e venda, ainda que sem registro."' },
+          { type: 'h', text: 'Oposição (arts. 682-686)' },
+          { type: 'p', text: '**No CPC/15 a oposição é AÇÃO AUTÔNOMA** (não mais intervenção de terceiros). Terceiro pretende, no todo ou em parte, o objeto da disputa entre autor e réu. Procedimento comum. Se ajuizada antes da AIJ, julgada em conjunto.' },
+          { type: 'h', text: 'Habilitação (arts. 687-692)' },
+          { type: 'p', text: 'Sucessão processual em caso de morte da parte (art. 110): habilitação dos sucessores no processo. Procedimento incidental.' },
+          { type: 'h', text: 'Ações de família (arts. 693-699)' },
+          { type: 'p', text: 'Aplicáveis a divórcio, separação, guarda, alimentos, união estável, adoção, etc. Peculiaridades:' },
+          { type: 'list', items: [
+            'Tentativa obrigatória de mediação (art. 694)',
+            'Citação do réu apenas para audiência (sem prévia entrega da PI — art. 695 §1º) — sigilo da postura',
+            'Audiências são SIGILOSAS (art. 189 II)',
+            'Intervenção do MP em casos com incapazes (art. 698 + Súmula 99/STJ)'
+          ]},
+          { type: 'h', text: 'Monitória (arts. 700-702)' },
+          { type: 'p', text: 'Cobrança fundada em prova ESCRITA SEM EFICÁCIA EXECUTIVA (cheque prescrito, contrato sem executividade plena, e-mails). Concedida liminarmente, o réu tem 15 dias para: (i) pagar (com isenção de honorários); (ii) opor embargos; (iii) cumprir a obrigação de fazer/coisa. Sem reação → mandado vira título executivo judicial.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 339:** "É cabível ação monitória contra a Fazenda Pública." E Súmula 384: "Cabe ação monitória para haver saldo de devedor decorrente de cumprimento de cheque prescrito."' },
+          { type: 'h', text: 'Restauração de autos (arts. 712-718)' },
+          { type: 'p', text: 'Quando autos físicos se perdem ou destroem. Procedimento incidental para reconstituir.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 539-770** — Procedimentos Especiais (TUDO contencioso e voluntário)',
+            '**Arts. 539-549** — Consignação',
+            '**Arts. 550-553** — Exigir contas',
+            '**Arts. 554-568** — Possessórias',
+            '**Arts. 610-673** — Inventário/partilha',
+            '**Arts. 674-681** — Embargos de terceiro',
+            '**Arts. 693-699** — Ações de família',
+            '**Arts. 700-702** — Monitória',
+            '**Lei 11.441/07** — Inventário, partilha, divórcio extrajudicial'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Possessórias — "MIRA":** **M**anutenção (turbação), **I**nterdito proibitório (ameaça), **R**eintegração (esbulho), **A**FIN dúplice/fungíveis.' },
+          { type: 'box', kind: 'macete', text: '**Força nova × velha — "1A1D":** até **1A**no e **1D**ia = nova (rito especial + liminar); depois = velha (procedimento comum).' },
+          { type: 'box', kind: 'macete', text: '**Monitória — "PRO-EX-IS":** **PRO**va escrita **EX**istente sem eficácia executiva = monitória **IS**tituível.' },
+          { type: 'box', kind: 'macete', text: '**Ações de família — peculiaridades "MeSiMP":** **Me**diação obrigatória, **Si**gilo, **MP** intervém com incapaz.' },
+          { type: 'box', kind: 'macete', text: '**Inventário extrajudicial — "MaCo Sem-Test":** **Ma**iores **Co**ncordantes, **Sem T**estamento e **sem incapazes**. Em cartório.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Possessórias — fungibilidade EXPRESSA (art. 554)** — pedida uma, juiz dá outra. NÃO confundir com fungibilidade entre tutela cautelar e antecipada (art. 305).' },
+          { type: 'box', kind: 'atencao', text: '**Oposição é AÇÃO AUTÔNOMA no CPC/15** — não está no rol de intervenções (Tópico 4). Banca cobra essa mudança.' },
+          { type: 'box', kind: 'atencao', text: '**Inventário em cartório (Lei 11.441/07) NÃO admite testamento, incapazes ou desacordo** — restrito a casos de plena consensualidade.' },
+          { type: 'box', kind: 'atencao', text: '**Citação em ações de família é só para audiência (art. 695 §1º)** — réu nem recebe a PI inicialmente. Estratégia de propiciar conciliação sem polarização.' },
+          { type: 'box', kind: 'atencao', text: '**Monitória cabe contra Fazenda Pública** (Súmula 339/STJ). Erro frequente: afirmar incompatibilidade.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 4 (intervenções):** oposição saiu do rol e virou ação autônoma — leitura cruzada essencial.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** intervenção em ações de família com incapaz (art. 698 + Súmula 99/STJ).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento):** monitória, ao virar título executivo, sujeita-se ao cumprimento de sentença (arts. 513+).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 14 (jurisdição voluntária):** muitos procedimentos têm contraparte em procedimento voluntário (notificações, alvarás).' }
+        ]
+      }
     ]
   },
   {
@@ -1741,22 +1921,106 @@ topics: [
     schedule: 'Mês 4, Semana 2',
     advantage: 'Fundações e curatela são áreas conhecidas',
     sections: [
-      { h: 'Foco central', items: [
-        'Natureza: jurisdicional (corrente moderna, STJ) × administrativa (clássica)',
-        'Características: princípio inquisitorial (juiz tem amplos poderes), MP intervém em casos específicos, sentença sem coisa julgada material (em tese)',
-        'Procedimentos: emancipação (725 I), interdição/curatela, organização e fiscalização das fundações, herança jacente, bens de ausentes, alienação judicial'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 719-770',
-        'Resolução 35/2007 do CNJ — separação/divórcio extrajudicial',
-        'Lei 13.146/2015 (Estatuto da Pessoa com Deficiência) — repercussões na curatela'
-      ]},
-      { h: 'Pontos clássicos', items: [
-        'Coisa julgada formal × material (em jurisdição voluntária só formal — discutível)',
-        'Tomada de decisão apoiada (apoio menos invasivo que curatela)',
-        'Curatela limitada apenas a atos patrimoniais (após Estatuto da PCD)',
-        'Fundações: MP fiscaliza estatuto, contas e atividade'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **jurisdição voluntária** (CPC arts. 719-770) é a função estatal de **administrar interesses privados** quando a lei exige a intervenção judicial — sem litígio, em regra. Discute-se sua natureza:' },
+          { type: 'list', items: [
+            '**Tese clássica (administrativa):** não há lide, não há partes (apenas interessados), não há coisa julgada material — é simples administração pública de interesses privados',
+            '**Tese moderna (jurisdicional):** o CPC trata como jurisdição (Capítulo XV); STJ e doutrina majoritária consideram jurisdição em sentido próprio, com peculiaridades. Há contraditório (arts. 721-722), recurso (apelação), forma de processo'
+          ]},
+          { type: 'p', text: '**Características marcantes (arts. 720-725):**' },
+          { type: 'list', items: [
+            'Início: por requerimento do interessado, MP ou Defensoria (art. 720)',
+            'Autuação como processo (art. 720 §único)',
+            'Citação dos interessados (art. 721); intimação do MP nas hipóteses do art. 178',
+            '**Princípio inquisitivo amplo:** juiz tem AMPLOS poderes de investigação (art. 723) — pode determinar provas de ofício',
+            '**Decisão por equidade (art. 723 §único):** o juiz NÃO É OBRIGADO a observar critério de legalidade estrita, podendo adotar SOLUÇÃO QUE REPUTAR MAIS CONVENIENTE OU OPORTUNA. Inovação CPC/15.',
+            'Recurso: APELAÇÃO (art. 724)'
+          ]},
+          { type: 'p', text: '**Vantagem para a candidata:** fundações e curatela são áreas familiares ao MP. Curatela hoje é matéria sensível com a Lei 13.146/15 (Estatuto da PCD).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 719-725** — disposições gerais',
+            '**Art. 721** — citação dos interessados',
+            '**Art. 723** — poderes do juiz; decisão por EQUIDADE',
+            '**Art. 725 (rol exemplificativo)** — emancipação, alienação/arrendamento de bens, alienação/locação de coisa comum, alienação de quinhão, divisão amigável, separações/divórcios consensuais, casamento nuncupativo, sub-rogação, etc.',
+            '**Arts. 726-770** — procedimentos específicos (notificações, herança jacente, bens ausentes, etc.)',
+            '**Arts. 731-734** — separação e divórcio CONSENSUAIS',
+            '**Arts. 737-739** — testamentos',
+            '**Arts. 744-745** — herança jacente',
+            '**Arts. 747-755** — interdição',
+            '**Arts. 759-763** — bens dos ausentes',
+            '**Arts. 764-770** — fundações',
+            '**Lei 11.441/07 + Resolução 35/2007 CNJ** — separação/divórcio/inventário extrajudiciais',
+            '**Lei 13.146/15 (Estatuto da PCD) + Lei 13.703/15** — repercussão na curatela'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Decisão por equidade (art. 723 §único) — INOVAÇÃO do CPC/15' },
+          { type: 'p', text: 'Em jurisdição voluntária, o juiz **não fica restrito à legalidade estrita** — pode buscar a solução mais conveniente e oportuna. Isso o aproxima do administrador, mas com garantias processuais. Exemplo: na alienação judicial de bem de incapaz, o juiz pode adotar critério de melhor preço considerando contexto, mesmo se o procedimento padrão seria leilão.' },
+
+          { type: 'h', text: 'Curatela e tomada de decisão apoiada (Lei 13.146/15)' },
+          { type: 'p', text: 'O **Estatuto da PCD** modificou profundamente o instituto:' },
+          { type: 'list', items: [
+            '**Curatela é EXCEPCIONAL e limitada a atos patrimoniais** (CC art. 1.772, redação Lei 13.146)',
+            'Pessoas com deficiência são CIVILMENTE CAPAZES — só sujeitas a curatela em circunstâncias específicas',
+            '**Tomada de decisão apoiada (CC art. 1.783-A)** — instituto MENOS invasivo: PCD escolhe pelo menos 2 apoiadores; mantém a capacidade civil; juiz homologa; recurso cabível',
+            'Procedimento da curatela: arts. 747-758 CPC; oitiva direta do interditando (art. 751); perícia psiquiátrica obrigatória; sentença com limites'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.952.918:** a curatela após o Estatuto da PCD é instituto EXCEPCIONAL, limitado a atos patrimoniais e negociais. Atos existenciais (casar, votar, ter filhos, escolher tratamento) são em regra preservados.' },
+
+          { type: 'h', text: 'Fundações (CPC arts. 764-770 + CC arts. 62-69)' },
+          { type: 'p', text: 'Patrimônio destacado, com fim social específico (assistencial, educacional, cultural, religioso etc.). MP é o **fiscalizador OBRIGATÓRIO** das fundações (CC art. 66; CPC art. 770). Funções:' },
+          { type: 'list', items: [
+            'Aprovar o estatuto (CC art. 65)',
+            'Aprovar a alteração do estatuto (CC art. 67)',
+            'Apurar contas (CC art. 69)',
+            'Promover a extinção (CC art. 69 §único)'
+          ]},
+          { type: 'p', text: '**Fortíssima conexão com a vivência institucional da candidata** — Promotores de Fundações tem atribuição específica em MGs (Promotorias Especializadas).' },
+
+          { type: 'h', text: 'Separação e divórcio extrajudiciais (Lei 11.441/07)' },
+          { type: 'p', text: 'Em cartório, por escritura pública. Requisitos: (i) consenso entre cônjuges; (ii) ausência de filhos menores ou incapazes (com ressalva: se houver, mas as questões deles já foram resolvidas em ação autônoma anterior); (iii) assistência por advogado. CPC art. 733 mantém a sistemática. Mais ágil e barato que o judicial.' },
+
+          { type: 'h', text: 'Coisa julgada na jurisdição voluntária' },
+          { type: 'p', text: '**Tema controverso.** Tese clássica: gera apenas coisa julgada FORMAL (porque não há "lide" para julgar). Tese moderna (CPC/15): pode haver coisa julgada material em algumas decisões de mérito (interdição decretada, herança jacente declarada vacante, etc.). STJ tem entendimentos divergentes — fique atento à banca.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Características da jur. voluntária — "INequidade":** **IN**quisitivo, **EQUI**dade (art. 723 §único), **DA**dosidade processual (forma de processo, mas sem lide).' },
+          { type: 'box', kind: 'macete', text: '**MP fiscaliza fundações — sempre.** CC art. 66 + CPC art. 770. Mnemônico: "Fundação = MP de plantão".' },
+          { type: 'box', kind: 'macete', text: '**Curatela hoje (PCD) — só PATRIMONIAL.** Atos existenciais ficam de fora. Mnemônico: "**P**atrimônio sim, **P**essoa não".' },
+          { type: 'box', kind: 'macete', text: '**Tomada de decisão apoiada — pelo menos 2 apoiadores.** Menos invasiva que curatela.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Decisão por equidade (art. 723 §único) NÃO É arbitrariedade** — ainda exige fundamentação adequada (art. 489 §1º). É flexibilização da legalidade estrita, não dispensa.' },
+          { type: 'box', kind: 'atencao', text: '**Curatela após PCD é EXCEPCIONAL e LIMITADA a atos patrimoniais.** Banca tenta colocar como instituto amplo (regime CPC/73 antigo).' },
+          { type: 'box', kind: 'atencao', text: '**Divórcio/inventário extrajudiciais NÃO ADMITEM filhos menores nem incapazes** (em regra). Erro clássico.' },
+          { type: 'box', kind: 'atencao', text: '**Coisa julgada material em jurisdição voluntária — controvertido.** Tese clássica nega; moderna admite parcialmente. Estude as duas posições.' },
+          { type: 'box', kind: 'atencao', text: '**Tomada de decisão apoiada ≠ curatela.** Diferenças: TDA é a pedido do PCD; curatela é judicialmente imposta. TDA preserva capacidade; curatela limita.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 3 (jurisdição):** debate sobre natureza administrativa × jurisdicional reaparece aqui com nuances específicas.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** atribuição obrigatória do MP em fundações (CC art. 66; CPC art. 770) — vivência institucional cotidiana.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 4 (capacidade):** curatela impacta capacidade processual (art. 71) — leitura conjunta.' }
+        ]
+      }
     ]
   },
   {
@@ -1769,29 +2033,145 @@ topics: [
     schedule: 'Mês 4, Semana 3',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Execução por título extrajudicial (CPC art. 784): cheque, nota promissória, contratos garantidos por hipoteca, etc.',
-        'Espécies: pagar quantia (824-909), entregar coisa (806-823), fazer/não-fazer (814-823), alimentos (911-913), contra Fazenda (910)',
-        'Penhora: ordem do CPC art. 835 (dinheiro primeiro), bens impenhoráveis (833)',
-        'Defesas: embargos à execução (CPC art. 914 — autônoma, com garantia) × exceção de pré-executividade (atípica, sem garantia, matéria conhecível de ofício — Súmula 393/STJ)',
-        'Fraude à execução (CPC art. 792) × fraude contra credores (CC art. 158-165)',
-        'Suspensão e extinção da execução (CPC arts. 921-925)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 771-925',
-        'Lei 6.830/80 (execução fiscal — comparação)'
-      ]},
-      { h: 'Súmulas STJ críticas', items: [
-        'Súmula 393 — exceção de pré-executividade cabe quando não exigir dilação probatória',
-        'Súmula 394 — impenhorabilidade do salário (mitigada para alimentos e quantias acima de 50 SM)',
-        'Súmula 375 — fraude à execução exige inscrição da penhora ou má-fé do terceiro',
-        'Súmula 581/STJ — exclusão de fiador que não pactuou prorrogação'
-      ]},
-      { h: 'Pontos polêmicos', items: [
-        'Penhora online (BacenJud/SISBAJUD) — automática',
-        'Atipicidade dos meios (Tema 1010): CNH, passaporte, cartão — só com proporcionalidade demonstrada',
-        'Suspensão da execução por ausência de bens (921 III) — prazo de 1 ano + prescrição intercorrente'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O **processo de execução** (CPC arts. 771-925) busca a satisfação de obrigações fundadas em **TÍTULO EXECUTIVO EXTRAJUDICIAL** (TEEx) — distinguindo-se do CUMPRIMENTO de sentença (Tópico 12), que é fase do mesmo processo de conhecimento e tem por base TÍTULO JUDICIAL.' },
+          {
+            type: 'table',
+            headers: ['Critério', 'Cumprimento de sentença (Tópico 12)', 'Execução autônoma (Tópico 15)'],
+            rows: [
+              ['Título', 'Judicial (sentença, decisão)', 'Extrajudicial (cheque, contrato, etc.)'],
+              ['Estrutura', 'FASE do processo de conhecimento (sincretismo)', 'PROCESSO autônomo'],
+              ['Defesa', 'Impugnação ao cumprimento (art. 525)', 'Embargos à execução (art. 914)'],
+              ['Garantia para defender', 'Não exige', 'Exige (em regra) — exceto pré-executividade'],
+              ['Multa do art. 523 (10%)', 'SIM, se não pagar em 15 dias', 'NÃO — execução tem rito próprio']
+            ]
+          },
+          { type: 'p', text: '**Títulos executivos extrajudiciais (art. 784):** cheque, letra de câmbio, nota promissória, duplicata, debênture; contrato garantido por hipoteca, penhor, anticrese, fiança; contrato de seguro de vida em caso de morte; foro e laudêmio; aluguel; honorários advocatícios contratuais; certidão de dívida ativa; e mais. Rol exaustivo.' },
+          { type: 'p', text: '**Princípios gerais da execução:**' },
+          { type: 'list', items: [
+            '**Patrimonialidade** — atinge BENS, não a pessoa (art. 789); única exceção atual: prisão civil do alimentante (CF 5º LXVII)',
+            '**Menor onerosidade** (art. 805) — entre dois meios eficazes, opta-se pelo menos gravoso para o devedor',
+            '**Disponibilidade do credor** (art. 775) — pode desistir total ou parcialmente da execução',
+            '**Especificidade** (art. 776) — execução pelo valor exato + acessórios',
+            '**Lealdade processual** (arts. 5º, 77, 774) — atos atentatórios à dignidade gerar multa de até 20%'
+          ]}
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 771-805** — disposições gerais',
+            '**Art. 784** — TÍTULOS EXECUTIVOS EXTRAJUDICIAIS (rol)',
+            '**Arts. 789-790** — responsabilidade patrimonial; bens sujeitos',
+            '**Art. 805** — menor onerosidade',
+            '**Arts. 824-909** — execução por quantia certa',
+            '**Art. 833** — bens IMPENHORÁVEIS',
+            '**Art. 835** — ORDEM da penhora (dinheiro 1º)',
+            '**Art. 854** — penhora online (SISBAJUD)',
+            '**Arts. 910-913** — execução contra Fazenda Pública e alimentos',
+            '**Arts. 914-920** — EMBARGOS à execução',
+            '**Arts. 921-925** — SUSPENSÃO e EXTINÇÃO',
+            '**Art. 921 III + §§** — suspensão por inexistência de bens; PRESCRIÇÃO INTERCORRENTE',
+            '**Art. 792** — fraude à execução',
+            '**Lei 6.830/80** — execução fiscal (estudo comparativo)'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Bens impenhoráveis (art. 833) — rol' },
+          { type: 'p', text: 'Hipóteses (10 incisos):' },
+          { type: 'list', items: [
+            '**I** — bens inalienáveis e os declarados, por ato voluntário, não sujeitos a execução',
+            '**II** — móveis, pertences e utilidades domésticas (que não ultrapassem médio padrão)',
+            '**III** — vestuário, salvo de elevado valor',
+            '**IV** — VENCIMENTOS, SOLDOS, SALÁRIOS, REMUNERAÇÕES, PROVENTOS DE APOSENTADORIA, pensões, etc., **salvo para alimentos** ou quantias acima de **50 SALÁRIOS-MÍNIMOS** mensais (Súmula 394/STJ + art. 833 §2º)',
+            '**V** — livros, máquinas, ferramentas, utensílios necessários ao exercício profissional',
+            '**VI** — seguro de vida',
+            '**VII** — materiais necessários a obras em andamento',
+            '**VIII** — pequena propriedade rural (até 4 módulos fiscais), de proveito pessoal',
+            '**IX** — recursos públicos do FPM/FPE (recebidos por entes federados)',
+            '**X** — quantia depositada em caderneta de poupança até **40 SM**',
+            '**XI** — recursos do Fundo Garantidor por Tempo de Serviço (FGTS — não são impenhoráveis para alimentos)'
+          ]},
+          { type: 'p', text: '**Bem de família (Lei 8.009/90)** — impenhorabilidade adicional, fora do art. 833. Exceções: dívida do próprio imóvel (IPTU, condomínio), fiança em locação (até 2018; após: STF derrubou em alguns casos — RE 605.709, repercussão geral pendente).' },
+
+          { type: 'h', text: 'Ordem da penhora (art. 835)' },
+          { type: 'p', text: 'Sequência preferencial: **DINHEIRO** → títulos da dívida pública → títulos e valores mobiliários → veículos → bens imóveis → bens móveis em geral → semoventes → navios e aeronaves → ações de S/A; quotas de sociedade simples → percentual do faturamento da empresa → pedras preciosas → outros direitos.' },
+          { type: 'p', text: '**Penhora online (SISBAJUD — sucessor do BacenJud, CNJ Resolução 524):** ordem AUTOMATIZADA de bloqueio de valores em conta. Notificação prévia do devedor é DISPENSADA — surpresa é da essência. Apenas notificação posterior para impugnar irregularidade do bloqueio (art. 854 §3º).' },
+
+          { type: 'h', text: 'Embargos à execução (arts. 914-920)' },
+          { type: 'p', text: '**Características:**' },
+          { type: 'list', items: [
+            'Ação INCIDENTAL e AUTÔNOMA (mesmos autos não, autos apartados)',
+            'Prazo: **15 DIAS ÚTEIS** (art. 915), conta-se da JUNTADA do mandado de citação (não do CUMPRIMENTO)',
+            'NÃO EXIGE garantia da execução (CPC/15 — diferente do CPC/73). Mas SUSPENSÃO da execução exige garantia (art. 919 §1º)',
+            'Matérias: TODAS — impugnação ao título, da execução em si, ao mérito do crédito, prescrição, etc. (art. 917)',
+            'Recurso da decisão dos embargos: APELAÇÃO'
+          ]},
+          { type: 'h', text: 'Exceção de pré-executividade — defesa atípica' },
+          { type: 'p', text: 'Construção doutrinária e jurisprudencial (Pontes de Miranda) — defesa nos próprios autos da execução, sem garantia, para matérias **conhecíveis de ofício** que **não exijam dilação probatória**. Súmula 393/STJ: "A exceção de pré-executividade é admissível na execução fiscal RELATIVAMENTE a matérias conhecíveis de ofício que NÃO DEMANDEM dilação probatória."' },
+          { type: 'p', text: '**Hipóteses típicas:** prescrição, ilegitimidade evidente, inexigibilidade do título por documento incontroverso, pagamento documentalmente provado, excesso aritmético óbvio.' },
+
+          { type: 'h', text: 'Fraude à execução × fraude contra credores' },
+          { type: 'p', text: 'Distinção CRUCIAL:' },
+          {
+            type: 'table',
+            headers: ['Aspecto', 'Fraude à execução (CPC 792)', 'Fraude contra credores (CC 158-165)'],
+            rows: [
+              ['Natureza', 'Vício processual', 'Vício de DIREITO MATERIAL'],
+              ['Procedimento', 'Reconhecida nos autos da execução (incidente)', 'Exige AÇÃO PAULIANA autônoma'],
+              ['Requisito subjetivo', 'Indiferente em regra — basta a ação real ou execução em curso', 'Exige consilium fraudis (má-fé)'],
+              ['Quando ocorre', 'Após início da ação real ou execução', 'Antes ou independente'],
+              ['Consequência', 'INEFICÁCIA do ato em relação ao credor', 'ANULABILIDADE do ato (CC 165)']
+            ]
+          },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 375:** "O reconhecimento da fraude à execução depende do registro da penhora do bem alienado ou da prova da má-fé do terceiro adquirente." Tese vinculante na prática.' },
+
+          { type: 'h', text: 'Suspensão por ausência de bens e prescrição intercorrente (art. 921)' },
+          { type: 'p', text: 'Quando não há bens penhoráveis (inciso III), a execução é SUSPENSA por **1 ANO** (art. 921 §1º). Após esse prazo, sem nova manifestação do credor, INICIA-SE A PRESCRIÇÃO INTERCORRENTE (art. 921 §4º) — pelo prazo da pretensão (geralmente 5 anos para tributárias, conforme título material).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.030 (REsp 1.604.412):** o prazo da prescrição intercorrente conta-se a partir do **fim do prazo de suspensão de 1 ano**, mesmo sem decisão expressa do juiz. CPC/15 internalizou a Súmula 314/STJ.' },
+
+          { type: 'h', text: 'Atipicidade dos meios executivos (art. 139 IV) na execução' },
+          { type: 'p', text: 'STJ Tema 1.137: cabíveis (CNH, passaporte, cartão), mas com critérios de proporcionalidade (esgotamento de meios típicos, demonstração de patrimônio compatível, decisão fundamentada). Aplica-se à execução autônoma e ao cumprimento.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Cumprimento × Execução — "JUDicial × EXTrajudicial":** **JUD**icial = cumprimento (Tópico 12); **EXT**rajudicial = execução (Tópico 15).' },
+          { type: 'box', kind: 'macete', text: '**Ordem da penhora — "DiTiTiViMo":** **Di**nheiro, **Ti**tulos da dívida, **Ti**tulos privados, **Vi**culos, **Mo**veis e imóveis...' },
+          { type: 'box', kind: 'macete', text: '**Salário impenhorável — exceção dupla:** **A**limentos e quantias acima de **50 SM** (art. 833 §2º + Súmula 394).' },
+          { type: 'box', kind: 'macete', text: '**Embargos à execução — "15 dias da JUNTADA":** prazo conta da juntada do mandado de citação (não da efetiva citação).' },
+          { type: 'box', kind: 'macete', text: '**Pré-executividade — "Conhecível + Sem dilação"** = Súmula 393/STJ. Sem essas duas, exige embargos.' },
+          { type: 'box', kind: 'macete', text: '**Prescrição intercorrente — 1 ano de suspensão + prazo prescricional do título.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Embargos à execução NÃO EXIGEM GARANTIA no CPC/15** (mudança do CPC/73). Mas a SUSPENSÃO da execução exige (art. 919 §1º).' },
+          { type: 'box', kind: 'atencao', text: '**Pré-executividade NÃO É RECURSO** — é defesa atípica nos próprios autos. Não tem prazo (cabível enquanto não preclusas as matérias).' },
+          { type: 'box', kind: 'atencao', text: '**Salário acima de 50 SM é PENHORÁVEL** no excedente (art. 833 §2º). Erro frequente: dizer impenhorável em qualquer hipótese.' },
+          { type: 'box', kind: 'atencao', text: '**Bem de família — fiança em locação:** o STF (RE 605.709) tem afastado a penhorabilidade do fiador em alguns casos. Tema controverso, acompanhar jurisprudência.' },
+          { type: 'box', kind: 'atencao', text: '**Fraude à execução × contra credores:** a primeira é vício processual reconhecido na execução; a segunda exige ação pauliana. Pegadinha clássica.' },
+          { type: 'box', kind: 'atencao', text: '**Penhora online (SISBAJUD) NÃO exige notificação prévia** (art. 854 caput). Surpresa é da essência. Apenas a posterior, para impugnar.' },
+          { type: 'box', kind: 'atencao', text: '**Caderneta de poupança impenhorável até 40 SM** (art. 833 X) — tema novo no CPC/15. Limite POR caderneta, não somatório.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 4 (intervenções):** IDPJ pode ser instaurado na execução para alcançar bens dos sócios (Tema 1.019/STJ).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 7 (juiz):** atipicidade do art. 139 IV é manifestação dos poderes do juiz; central na execução moderna.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento):** muitas regras são compartilhadas (impenhorabilidade, ordem da penhora) — leitura conjunta.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** decisão dos embargos = apelação. Pré-executividade rejeitada = agravo de instrumento (art. 1.015 § único).' }
+        ]
+      }
     ]
   },
   {
