@@ -5301,18 +5301,117 @@ topics: [
     title: 'Direitos reais — posse e propriedade',
     edital: '3.1.13',
     editalText: 'Posse. Propriedade. Aquisição e perda. Função social. Usucapião. Direitos de vizinhança.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Posse — teorias (Savigny, Ihering); classificação',
-      'Efeitos da posse — proteção, frutos, benfeitorias, indenização',
-      'Ações possessórias — fungibilidade',
-      'Propriedade — atributos e função social',
-      'Aquisição da propriedade imóvel — registro, acessão, usucapião',
-      'Usucapião — espécies (extraordinária, ordinária, especial urbana, rural, familiar, coletiva)',
-      'Perda da propriedade',
-      'Direitos de vizinhança — uso anormal, passagem forçada, águas, limites'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 3-4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **direitos reais** são poderes diretos sobre coisas, oponíveis ERGA OMNES (contra todos). CC art. 1.225 traz rol TAXATIVO: propriedade, superfície, servidões, usufruto, uso, habitação, direito do promitente comprador, penhor, hipoteca, anticrese, concessão de uso especial para fins de moradia, concessão de direito real de uso, laje, etc.' },
+          { type: 'p', text: '**POSSE** (arts. 1.196-1.224) — situação de fato; tutela autônoma. CC adota a teoria de Ihering (objetiva — basta a aparência de direito real). Possuidor de boa-fé tem direito a frutos colhidos, indenização por benfeitorias úteis e necessárias. Mau-fé responde pelos frutos percebidos e perdas e danos.' },
+          { type: 'p', text: '**PROPRIEDADE** (arts. 1.228-1.368) — direito real máximo. Atributos: USAR · GOZAR · DISPOR · REIVINDICAR (jus utendi, fruendi, abutendi, reivindicandi). Limitada pela **FUNÇÃO SOCIAL** (CF art. 5º XXIII e CC 1.228 §1º). Aquisição: registro (imóveis), tradição (móveis), acessão, usucapião, sucessão hereditária.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Posse (arts. 1.196-1.224)' },
+          { type: 'list', items: [
+            '**Art. 1.196** — possuidor é todo aquele que tem, de fato, o exercício pleno ou não, de algum dos poderes inerentes à propriedade',
+            '**Art. 1.197** — composse: posse comum a duas ou mais pessoas',
+            '**Art. 1.200** — posse JUSTA (não-violenta, não-clandestina, não-precária) × INJUSTA',
+            '**Art. 1.201** — posse de BOA-FÉ: ignora o vício; MÁ-FÉ: conhece-o',
+            '**Art. 1.210** — protegida posse mediante AÇÕES POSSESSÓRIAS — manutenção (turbação), reintegração (esbulho), interdito proibitório (ameaça). Fungibilidade entre essas ações',
+            '**Art. 1.211** — quem tinha a posse há menos de 1 ano e dia: força nova; mais: força velha',
+            '**Art. 1.214** — possuidor de BOA-FÉ tem direito aos frutos colhidos. Após citação, todos os frutos são restituídos (perde a boa-fé)',
+            '**Art. 1.219-1.220** — possuidor de BOA-FÉ direito a indenização por benfeitorias NECESSÁRIAS + ÚTEIS, com direito de RETENÇÃO. Voluptuárias: levantar se possível, sem dano. Possuidor de MÁ-FÉ: só necessárias'
+          ] },
+          { type: 'h', text: 'Propriedade (arts. 1.228-1.368)' },
+          { type: 'list', items: [
+            '**Art. 1.228 caput** — proprietário tem faculdades de USAR, GOZAR, DISPOR e REIVINDICAR',
+            '**Art. 1.228 §1º** — propriedade deve atender FUNÇÃO SOCIAL — finalidades econômicas e sociais, ambiental, conservação dos recursos',
+            '**Art. 1.228 §§ 4-5** — desapropriação judicial (PROPRIEDADE PRIVADA): possuidores de boa-fé que a tornaram produtiva (5+ anos, > 10 famílias) podem adquirir mediante indenização — verdadeira USUCAPIÃO COLETIVA',
+            '**Art. 1.231** — propriedade é EXCLUSIVA, salvo disposição em contrário',
+            '**Art. 1.275** — perda da propriedade: alienação, renúncia, abandono, perecimento, desapropriação'
+          ] },
+          { type: 'h', text: 'Usucapião (arts. 1.238-1.244)' },
+          { type: 'list', items: [
+            '**EXTRAORDINÁRIA (art. 1.238)** — 15 ANOS, sem título nem boa-fé. Reduzido a 10 ANOS se posse-trabalho ou habitação',
+            '**ORDINÁRIA (art. 1.242)** — 10 ANOS, com TÍTULO + BOA-FÉ. Reduzido a 5 ANOS se posse-trabalho ou aquisição onerosa registrada e cancelada',
+            '**ESPECIAL URBANA — Pro Misero (CF 183 + CC 1.240)** — 5 ANOS, área de até 250 m², não tem outro imóvel, posse + uso para sua moradia/família',
+            '**ESPECIAL RURAL (CF 191 + CC 1.239)** — 5 ANOS, área de até 50 hectares (módulo rural), produtiva (trabalho do agricultor)',
+            '**FAMILIAR (Lei 12.424/11 + CC 1.240-A)** — 2 ANOS, ex-cônjuge/companheiro abandonado, imóvel urbano até 250 m²',
+            '**COLETIVA (Estatuto da Cidade — Lei 10.257/01 art. 10)** — > 5 anos, área urbana ocupada por famílias de baixa renda'
+          ] },
+          { type: 'h', text: 'Direitos de vizinhança (arts. 1.277-1.313)' },
+          { type: 'list', items: [
+            '**Art. 1.277** — uso ANORMAL da propriedade: pode-se exigir cessação ou redução; intolerável, prejudicial, segurança',
+            '**Art. 1.285** — passagem FORÇADA: prédio encravado tem direito a passagem mediante indenização',
+            '**Arts. 1.297-1.298** — limites entre prédios: ação demarcatória; uso comum de meios divisórios'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Posse — teoria de Ihering (objetiva)' },
+          { type: 'p', text: 'CC adota teoria OBJETIVA (Ihering) — posse é exteriorização do direito de propriedade; basta a aparência. NÃO é necessário ânimo de dono (animus domini), salvo para usucapião. Diferente de Savigny (subjetiva) que exige animus + corpus.' },
+          { type: 'h', text: 'Fungibilidade das ações possessórias (art. 1.211)' },
+          { type: 'p', text: 'CPC art. 554: a propositura de uma possessória pelo lesado em outra modalidade não obsta a concessão da tutela; juiz dá a proteção adequada à situação. Manutenção/reintegração/interdito proibitório são FUNGÍVEIS — juiz adapta.' },
+          { type: 'h', text: 'Usucapião — quadro comparativo' },
+          { type: 'table', headers: ['Espécie', 'Prazo', 'Requisitos', 'Base legal'],
+            rows: [
+              ['Extraordinária', '15a (10a se posse-trabalho)', 'Sem título nem boa-fé', 'CC 1.238'],
+              ['Ordinária', '10a (5a se onerosa)', 'Com título + boa-fé', 'CC 1.242'],
+              ['Especial urbana', '5a', '≤ 250 m² + moradia + sem outro imóvel', 'CF 183 + CC 1.240'],
+              ['Especial rural', '5a', '≤ 50 ha + produtiva + trabalho', 'CF 191 + CC 1.239'],
+              ['Familiar', '2a', 'Cônjuge/comp abandonado + ≤ 250m² + sem outro', 'CC 1.240-A'],
+              ['Coletiva', '> 5a', 'Área urbana + famílias baixa renda', 'Estatuto da Cidade 10.257']
+            ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 340:** bens públicos NÃO admitem usucapião. CC art. 102 reforça. Usucapião especial urbana/rural NÃO atinge bens públicos.' },
+          { type: 'h', text: 'Função social da propriedade (CF e CC)' },
+          { type: 'p', text: 'Não é mera limitação — é elemento ESTRUTURAL do direito de propriedade. Propriedade que não cumpre função social pode ser objeto de desapropriação por interesse social (CF art. 184), ou da "desapropriação judicial" do CC art. 1.228 §§ 4-5 (usucapião coletiva sui generis).' },
+          { type: 'h', text: 'Indenização por benfeitorias — boa-fé × má-fé' },
+          { type: 'table', headers: ['Tipo de benfeitoria', 'Boa-fé', 'Má-fé'],
+            rows: [
+              ['Necessárias', 'INDENIZÁVEIS + RETENÇÃO', 'INDENIZÁVEIS (sem retenção)'],
+              ['Úteis', 'INDENIZÁVEIS + retenção', 'NÃO indenizáveis'],
+              ['Voluptuárias', 'Levantamento se possível sem dano; sem indenização', 'NÃO indenizáveis']
+            ] }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**4 atributos da propriedade: USAR · GOZAR · DISPOR · REIVINDICAR.**' },
+          { type: 'box', kind: 'macete', text: '**Posse: teoria de IHERING (objetiva).** CC adotou. Sem necessidade de animus.' },
+          { type: 'box', kind: 'macete', text: '**Usucapião extraordinária = 15a sem título; ordinária = 10a com título + boa-fé.**' },
+          { type: 'box', kind: 'macete', text: '**Especial urbana = 250m² + 5a + sem outro imóvel + moradia.**' },
+          { type: 'box', kind: 'macete', text: '**Bens públicos = SEM USUCAPIÃO** (Súmula 340/STF).' },
+          { type: 'box', kind: 'macete', text: '**Boa-fé: necessárias + úteis + retenção. Má-fé: só necessárias, sem retenção.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Posse não exige animus domini** (teoria de Ihering). Salvo para usucapião — onde se exige.' },
+          { type: 'box', kind: 'atencao', text: '**Usucapião familiar (1.240-A) = 2 ANOS**, abandono do lar pelo cônjuge/companheiro. Prazo curto cobrado.' },
+          { type: 'box', kind: 'atencao', text: '**Bens públicos NÃO se usucapem** (Súmula 340/STF + CC 102) — TODOS, mesmo dominicais.' },
+          { type: 'box', kind: 'atencao', text: '**Possuidor de boa-fé tem direito de RETENÇÃO** por benfeitorias necessárias e úteis (art. 1.219). Má-fé: sem retenção.' },
+          { type: 'box', kind: 'atencao', text: '**Frutos COLHIDOS na boa-fé pertencem ao possuidor (art. 1.214). Após citação, perde a boa-fé.**' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 4 (bens):** bens públicos não admitem usucapião (Súmula 340/STF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 14 (direitos reais — garantias):** outros direitos reais limitados (servidão, usufruto, hipoteca).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 14 (procedimentos especiais):** ações possessórias (CPC arts. 554-568); rito específico.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Constitucional:** função social da propriedade (CF art. 5º XXIII + 184 + 191).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-14-direitos-reais-garantia',
@@ -5320,15 +5419,98 @@ topics: [
     title: 'Direitos reais sobre coisa alheia e direitos reais de garantia',
     edital: '3.1.14',
     editalText: 'Superfície, servidões, usufruto, uso, habitação, concessão de uso. Penhor, hipoteca, anticrese. Alienação fiduciária.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Direitos reais sobre coisa alheia — superfície, servidões, usufruto, uso, habitação',
-      'Concessão de uso especial para fins de moradia',
-      'Direitos reais de garantia — penhor, hipoteca, anticrese',
-      'Alienação fiduciária em garantia — móvel (Lei 4.728/65) e imóvel (Lei 9.514/97)',
-      'Princípios — publicidade, especialidade'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **direitos reais sobre coisa alheia** (jura in re aliena) limitam a propriedade plena de outrem. Subdividem-se em (a) **direitos de fruição/gozo** (superfície, servidão, usufruto, uso, habitação) e (b) **direitos de garantia** (penhor, hipoteca, anticrese). A **alienação fiduciária** é direito real de garantia ATÍPICO (regida por leis especiais: 4.728/65, 9.514/97).' },
+          { type: 'p', text: 'Princípios estruturais: **PUBLICIDADE** (registro imobiliário para imóveis); **ESPECIALIDADE** (descrição precisa do bem onerado); **ABSOLUTISMO** (eficácia erga omnes — oponível a todos); **ACESSORIEDADE** (garantias seguem a obrigação principal); **INDIVISIBILIDADE** (garantia não se divide automaticamente, salvo regra especial).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Direitos de fruição (arts. 1.369-1.416)' },
+          { type: 'list', items: [
+            '**SUPERFÍCIE (1.369-1.377)** — proprietário concede a outrem direito de construir/plantar em seu terreno; pode ser GRATUITA ou ONEROSA',
+            '**SERVIDÃO (1.378-1.389)** — predial; um prédio (dominante) usa o outro (serviente) para passagem, aqueduto, etc. Constitui-se por escritura + registro',
+            '**USUFRUTO (1.390-1.411)** — direito de USAR e FRUIR coisa alheia, sem alterá-la; intransmissível por morte (extingue-se)',
+            '**USO (1.412-1.413)** — gozar direito de fruição da coisa alheia, em medida limitada às necessidades do usuário e família',
+            '**HABITAÇÃO (1.414-1.416)** — direito real de morar gratuitamente em casa alheia, sem ceder a outrem',
+            '**LAJE (Lei 13.465/17 — CC 1.510-A a 1.510-E)** — direito real autônomo de superfície sobre laje superior/inferior'
+          ] },
+          { type: 'h', text: 'Direitos reais de garantia (arts. 1.419-1.510)' },
+          { type: 'list', items: [
+            '**PENHOR (1.431-1.472)** — coisa MÓVEL é entregue ao credor como garantia (regra). Subespécies: penhor RURAL (sem deslocamento), INDUSTRIAL, MERCANTIL, etc.',
+            '**HIPOTECA (1.473-1.505)** — coisa IMÓVEL afetada como garantia, sem transferência de posse. Constituída por registro. Bens hipotecáveis: art. 1.473 (imóveis, navios/aeronaves)',
+            '**ANTICRESE (1.506-1.510)** — credor recebe imóvel para perceber FRUTOS e quitar a dívida com eles. Pouco usada hoje',
+            '**ALIENAÇÃO FIDUCIÁRIA EM GARANTIA**: (a) Bens MÓVEIS — Lei 4.728/65 + Decreto-Lei 911/69 (consumo: CDC); (b) Bens IMÓVEIS — Lei 9.514/97'
+          ] },
+          { type: 'h', text: 'Princípios das garantias' },
+          { type: 'list', items: [
+            '**Art. 1.419** — pertencimento ao credor de poder de excutir bem alheio para se pagar',
+            '**Art. 1.420** — só pode oferecer em garantia quem tem poder de aliená-la',
+            '**Art. 1.421** — pagamento de dívida garantida por mais de uma coisa, total ou parcial, NÃO desonera as outras (princípio da indivisibilidade)',
+            '**Art. 1.428** — VEDADO o PACTO COMISSÓRIO — credor não pode ficar com o bem em pagamento se a dívida não for paga (deve haver leilão)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Vedação do pacto comissório (art. 1.428)' },
+          { type: 'p', text: 'Cláusula que permite ao credor TICAR COM O BEM em garantia se a dívida não for paga = NULA. O credor deve LEILOAR a coisa (ou na alienação fiduciária, fazer a CONSOLIDAÇÃO da propriedade — peculiar). É proteção contra abuso. **EXCEÇÃO: alienação fiduciária imobiliária (Lei 9.514/97 art. 26)** — credor consolida propriedade em seu nome após mora, com leilão SUBSEQUENTE.' },
+          { type: 'box', kind: 'atencao', text: '**Pacto comissório é VEDADO (art. 1.428).** Mas alienação fiduciária imobiliária permite consolidação (Lei 9.514) — exceção legal.' },
+          { type: 'h', text: 'Usufruto — características' },
+          { type: 'p', text: 'Direito real PERSONALÍSSIMO — extingue-se com a MORTE do usufrutuário (art. 1.410 I), não passa aos herdeiros. Pode ser por TEMPO determinado (não exceder a vida) ou VITALÍCIO. Dois sujeitos: NU-PROPRIETÁRIO (titular do domínio sem o uso) + USUFRUTUÁRIO (usa e frui).' },
+          { type: 'h', text: 'Servidão × usufruto' },
+          { type: 'table', headers: ['Critério', 'Servidão', 'Usufruto'],
+            rows: [
+              ['Sujeito', 'PRÉDIO (sobre prédio)', 'PESSOA (titular)'],
+              ['Foco', 'Vantagem entre prédios', 'Direito de fruir coisa'],
+              ['Constituição', 'Registro + escritura', 'Registro (imóvel) ou contrato'],
+              ['Duração', 'Permanente até desconstituição', 'Pessoal — extingue com morte do usufrutuário']
+            ] },
+          { type: 'h', text: 'Alienação fiduciária — móvel × imóvel' },
+          { type: 'p', text: '**MÓVEL (DL 911/69 + Lei 4.728/65)** — credor consolida propriedade após inadimplemento, leiloa coisa; eventual saldo positivo entrega ao devedor. Usado em automóveis. **IMÓVEL (Lei 9.514/97)** — devedor transfere propriedade ao credor SOB CONDIÇÃO RESOLUTIVA (paga = volta ao devedor); se não paga, credor consolida e leiloa em 60 dias (em duas hastas públicas). Usado em financiamento habitacional.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.622.555:** adimplemento substancial NÃO se aplica à alienação fiduciária regida pelo DL 911/69. Mudança de orientação relevante.' },
+          { type: 'h', text: 'Concessão de uso especial para fins de moradia (CUEM)' },
+          { type: 'p', text: 'Lei 11.481/07 + MP 2.220/01: ocupação de imóvel PÚBLICO (mais de 250 m² urbano) por mais de 5 anos para moradia, sem outro imóvel = direito real de uso administrativo. Não é usucapião (bens públicos não se usucapem), mas tem efeitos similares de proteção da posse.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Direitos reais de garantia: PHA — Penhor (móvel) · Hipoteca (imóvel) · Anticrese (frutos imóvel).**' },
+          { type: 'box', kind: 'macete', text: '**Pacto comissório VEDADO** (1.428). Exceção: alienação fiduciária imobiliária.' },
+          { type: 'box', kind: 'macete', text: '**Usufruto = PERSONALÍSSIMO. Extingue com a morte.**' },
+          { type: 'box', kind: 'macete', text: '**Princípios: PUBLICIDADE · ESPECIALIDADE · ABSOLUTISMO · ACESSORIEDADE · INDIVISIBILIDADE.**' },
+          { type: 'box', kind: 'macete', text: '**Alienação fiduciária IMÓVEL = consolida + 2 hastas públicas (Lei 9.514).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Pacto comissório é VEDADO** (CC 1.428) na maior parte dos casos. Exceção legal: alienação fiduciária imobiliária (Lei 9.514).' },
+          { type: 'box', kind: 'atencao', text: '**Usufruto NÃO se transmite por sucessão hereditária** — extingue-se com a morte do usufrutuário (art. 1.410 I).' },
+          { type: 'box', kind: 'atencao', text: '**Servidão é entre PRÉDIOS** (real); usufruto é entre PESSOA e coisa. Confusão recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Adimplemento substancial NÃO se aplica em alienação fiduciária** (STJ 1.622.555).' },
+          { type: 'box', kind: 'atencao', text: '**CUEM (concessão de uso especial para moradia) NÃO é usucapião** — é direito real administrativo sobre imóvel público.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 13 (posse e propriedade):** direitos reais limitam a propriedade plena.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 4 (bens):** alienação fiduciária imobiliária × bem de família (Lei 8.009 art. 3º V — exceção pela hipoteca).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (família):** usufruto vidual entre cônjuges (formas históricas substituídas pelo regime atual).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** penhora segue regras dos direitos reais e da impenhorabilidade.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-15-familia-geral',
@@ -5679,7 +5861,22 @@ flashcards: [
   { id: 220, topic: 12, materia: 'civil', q: 'Profissional intelectual (advogado, médico) é empresário?', a: 'NÃO (art. 966 par. único). Profissão intelectual, científica, literária, artística — ainda com auxiliares — não é empresarial. EXCEÇÃO: quando constituir ELEMENTO DE EMPRESA (organização empresarial subordinante).', tags: ['fase3', 'empresa'] },
   { id: 221, topic: 12, materia: 'civil', q: 'EIRELI ainda existe no direito brasileiro?', a: 'NÃO (extinta pela Lei 14.382/22). EIRELIs existentes foram convertidas automaticamente em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19). SLU NÃO tem capital mínimo (diferente da antiga EIRELI).', tags: ['fase3', 'empresa', 'EIRELI'] },
   { id: 222, topic: 12, materia: 'civil', q: 'O que é trespasse?', a: 'Alienação do ESTABELECIMENTO empresarial (CC art. 1.144). Eficácia perante credores depende de PUBLICAÇÃO + ANUÊNCIA (expressa ou tácita — silêncio por 30 dias). Adquirente responde por débitos CONTABILIZADOS (art. 1.146).', tags: ['fase3', 'empresa', 'trespasse'] },
-  { id: 223, topic: 12, materia: 'civil', q: 'Falência aplica-se à sociedade simples?', a: 'NÃO. Lei 11.101/05 aplica-se apenas a EMPRESÁRIO INDIVIDUAL e SOCIEDADE EMPRESÁRIA. Sociedade simples e profissionais liberais não estão sujeitos ao regime falimentar.', tags: ['fase3', 'empresa', 'falencia'] }
+  { id: 223, topic: 12, materia: 'civil', q: 'Falência aplica-se à sociedade simples?', a: 'NÃO. Lei 11.101/05 aplica-se apenas a EMPRESÁRIO INDIVIDUAL e SOCIEDADE EMPRESÁRIA. Sociedade simples e profissionais liberais não estão sujeitos ao regime falimentar.', tags: ['fase3', 'empresa', 'falencia'] },
+
+  // ============ Bloco 16 — Fase 3 (Civil 13-14 — Direitos Reais) ============
+  // Civ 13 — Posse e propriedade
+  { id: 224, topic: 13, materia: 'civil', q: 'Qual a teoria adotada pelo CC sobre a posse?', a: 'Teoria OBJETIVA de IHERING — posse é exteriorização da propriedade, basta a aparência. NÃO exige animus domini, salvo para usucapião. Distinta de Savigny (subjetiva — exigia corpus + animus).', tags: ['fase3', 'posse'] },
+  { id: 225, topic: 13, materia: 'civil', q: 'Quais os 4 atributos da propriedade?', a: 'USAR · GOZAR · DISPOR · REIVINDICAR (jus utendi, fruendi, abutendi e reivindicandi). Limitados pela FUNÇÃO SOCIAL (CF 5º XXIII + CC 1.228 §1º).', tags: ['fase3', 'propriedade'] },
+  { id: 226, topic: 13, materia: 'civil', q: 'Prazo da usucapião extraordinária?', a: '15 ANOS (CC art. 1.238) — sem necessidade de título nem boa-fé. Reduzido a 10 ANOS se houve posse-trabalho ou habitação no imóvel.', tags: ['fase3', 'usucapiao'] },
+  { id: 227, topic: 13, materia: 'civil', q: 'Quais os requisitos da usucapião especial urbana?', a: 'CF 183 + CC 1.240: 5 ANOS + área ≤ 250 m² + posse para moradia própria/família + sem outro imóvel urbano/rural. Pro Misero — instrumento de tutela do direito à moradia.', tags: ['fase3', 'usucapiao'] },
+  { id: 228, topic: 13, materia: 'civil', q: 'Indenização ao possuidor de boa-fé por benfeitorias?', a: 'NECESSÁRIAS + ÚTEIS = indenizáveis com direito de RETENÇÃO (art. 1.219). Voluptuárias = pode levantar se sem dano. Possuidor de MÁ-FÉ: só indenizado por necessárias, sem retenção (art. 1.220).', tags: ['fase3', 'posse', 'benfeitorias'] },
+
+  // Civ 14 — Direitos reais sobre coisa alheia + garantias
+  { id: 229, topic: 14, materia: 'civil', q: 'O que é o pacto comissório (CC art. 1.428)?', a: 'Cláusula que permite ao credor FICAR COM O BEM dado em garantia se a dívida não for paga. É VEDADA pelo CC — credor deve LEILOAR. EXCEÇÃO: alienação fiduciária imobiliária (Lei 9.514/97 art. 26 — credor consolida + 2 hastas).', tags: ['fase3', 'garantias'] },
+  { id: 230, topic: 14, materia: 'civil', q: 'O usufruto é transmissível por sucessão hereditária?', a: 'NÃO. Usufruto é PERSONALÍSSIMO — extingue-se com a MORTE do usufrutuário (CC art. 1.410 I). Não passa aos herdeiros. Pode ser vitalício ou por tempo determinado (não excedendo a vida).', tags: ['fase3', 'usufruto'] },
+  { id: 231, topic: 14, materia: 'civil', q: 'Diferença entre servidão e usufruto?', a: 'SERVIDÃO é direito real entre PRÉDIOS (dominante e serviente — passagem, aqueduto). USUFRUTO é direito real entre PESSOA (usufrutuário) e COISA. Servidão é permanente; usufruto é pessoal e extingue com morte.', tags: ['fase3', 'servidao', 'usufruto'] },
+  { id: 232, topic: 14, materia: 'civil', q: 'Alienação fiduciária imobiliária — como funciona em caso de inadimplemento?', a: 'Lei 9.514/97 art. 26-27: devedor inadimplente é intimado; persistindo a mora, credor CONSOLIDA propriedade em seu nome (registro). Em 60 dias, deve realizar 2 LEILÕES PÚBLICOS (1º com lance mínimo do valor do imóvel; 2º livre).', tags: ['fase3', 'alienacao-fiduciaria'] },
+  { id: 233, topic: 14, materia: 'civil', q: 'A CUEM (Concessão de Uso Especial para Moradia) é usucapião?', a: 'NÃO. Bens PÚBLICOS não se usucapem (Súmula 340/STF). CUEM é direito real ADMINISTRATIVO regido pela MP 2.220/01 — ocupação de imóvel público até 250m² urbano por 5+ anos para moradia, sem outro imóvel.', tags: ['fase3', 'CUEM'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -7031,6 +7228,60 @@ questions: [
     ],
     correct: 'B',
     explanation: 'CC art. 966 par. único: profissional intelectual NÃO é empresário, salvo se elemento de empresa. (A) Falso — exclui intelectuais. (C) Falso — só se for elemento de empresa. (D) Falso — CC/02 adotou TEORIA DA EMPRESA (italiana). (E) Falso — empresário individual registra-se na JUNTA COMERCIAL (art. 967).'
+  },
+
+  // ============ Bloco 16 — Fase 3 (Civil 13-14) ============
+  {
+    id: 93, topic: 13, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a posse no direito civil brasileiro, é correto afirmar:',
+    alternatives: [
+      'O Código Civil adota a teoria subjetiva de Savigny, exigindo corpus e animus para configurar a posse.',
+      'O Código Civil adota a teoria objetiva de Ihering — basta a exteriorização do direito de propriedade, dispensando animus domini, salvo para usucapião.',
+      'A composse é vedada no direito brasileiro, em razão da exclusividade da posse.',
+      'A posse é direito real, integrando o rol taxativo do art. 1.225 do CC.',
+      'O possuidor de boa-fé não tem direito a frutos colhidos durante a posse.'
+    ],
+    correct: 'B',
+    explanation: 'CC adota teoria OBJETIVA de Ihering. (A) Falso — Savigny não foi adotado. (C) Falso — composse é admitida (art. 1.197). (D) Falso — posse é direito PESSOAL/situação de fato; rol do 1.225 traz direitos reais (propriedade etc.). (E) Falso — possuidor de boa-fé tem direito aos frutos colhidos (art. 1.214).'
+  },
+  {
+    id: 94, topic: 13, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as modalidades de usucapião previstas no CC e na CF, assinale a alternativa correta:',
+    alternatives: [
+      'A usucapião extraordinária exige título e boa-fé, com prazo de 10 anos.',
+      'A usucapião especial urbana (pro misero) exige posse de 5 anos, área de até 250 m², moradia e ausência de outro imóvel.',
+      'Bens públicos podem ser objeto de usucapião especial urbana ou rural, em razão do princípio da função social da propriedade.',
+      'A usucapião familiar exige prazo de 10 anos de abandono do lar pelo cônjuge ou companheiro.',
+      'A usucapião ordinária dispensa título e boa-fé.'
+    ],
+    correct: 'B',
+    explanation: 'CF 183 + CC 1.240: 5 anos + 250m² + moradia + sem outro imóvel. (A) Falso — extraordinária dispensa título e boa-fé (15a — art. 1.238). (C) Falso — Súmula 340/STF + CC 102: bens públicos NÃO se usucapem. (D) Falso — usucapião familiar = 2 ANOS (art. 1.240-A). (E) Falso — ordinária EXIGE título + boa-fé (art. 1.242).'
+  },
+  {
+    id: 95, topic: 14, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o pacto comissório nos direitos reais de garantia, é correto afirmar:',
+    alternatives: [
+      'O pacto comissório é amplamente admitido no direito brasileiro, como exercício da autonomia da vontade.',
+      'O pacto comissório é VEDADO pelo CC (art. 1.428), salvo exceções legais expressas, como a alienação fiduciária imobiliária (Lei 9.514/97).',
+      'O pacto comissório só é vedado em contratos de consumo, sendo permitido em relações empresariais.',
+      'A alienação fiduciária aplica integralmente o pacto comissório, dispensando qualquer leilão público.',
+      'A vedação ao pacto comissório foi revogada pelo CC/02 e não tem mais aplicação prática.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 1.428 veda pacto comissório como regra; alienação fiduciária imobiliária (Lei 9.514/97 art. 26-27) é exceção, permitindo consolidação seguida de DOIS leilões obrigatórios. (A) Falso — vedado. (C) Falso — vedação geral, não só consumo. (D) Falso — exige 2 leilões. (E) Falso — vedação mantida pelo CC/02.'
+  },
+  {
+    id: 96, topic: 14, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o usufruto no Código Civil, é INCORRETO afirmar:',
+    alternatives: [
+      'É direito real personalíssimo, extinguindo-se com a morte do usufrutuário.',
+      'Pode ser estabelecido por tempo determinado, desde que não exceda a vida do usufrutuário.',
+      'O usufrutuário tem direito a usar e fruir a coisa alheia.',
+      'O usufruto pode ser livremente transmitido por sucessão hereditária aos herdeiros do usufrutuário.',
+      'A constituição de usufruto sobre imóvel exige registro no Cartório de Registro de Imóveis.'
+    ],
+    correct: 'D',
+    explanation: 'CC art. 1.410 I: usufruto extingue-se com a MORTE do usufrutuário — NÃO se transmite aos herdeiros. (A), (B), (C), (E) — todas corretas conforme CC arts. 1.390-1.411.'
   }
 ],
 
