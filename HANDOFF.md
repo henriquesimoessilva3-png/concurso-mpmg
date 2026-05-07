@@ -15,7 +15,7 @@ Cole esta frase no início:
 - **Candidata:** esposa do usuário Henrique. Já é **Analista do MP em Ouro Branco-MG**. Vantagem em Teoria do MP, Material/Processual Coletivo, ACP, tutelas.
 - **Carga:** **1h/dia útil** + 4h sábado + 4h domingo = ~15h/semana
 - **Horizonte:** 1-2 anos
-- **Foco atual:** Fase 1 — Direito Processual Civil, itens 1 a 20
+- **Foco atual:** Fase 1 — Direito Processual Civil, itens 1 a 20 ✅ **CONTEÚDO COMPLETO**
 
 ## Está deployado
 
@@ -29,51 +29,51 @@ Cole esta frase no início:
 ```
 Projeto Concurso/
 ├── index.html              # Hub principal
-├── topicos.html            # Viewer parametrizado (?id=01-...)
+├── topicos.html            # Viewer parametrizado (?id=01-...) com renderer tipado
 ├── flashcards.html         # SM-2 nativo
 ├── simulado.html           # Banco de questões nativo
 ├── log.html                # Diário + erros + estatísticas
 ├── referencia.html         # Súmulas, doutrina, edital, metodologia
 ├── assets/
-│   ├── style.css           # Todos os estilos (~500 linhas)
+│   ├── style.css           # Estilos + classes para boxes/tabelas tipadas
 │   ├── app.js              # Utilitários (localStorage, navegação)
-│   └── data.js             # ⭐ FONTE DE TODO O CONTEÚDO
-├── 00-EDITAL-E-DOCS/       # Edital LXI PDF, análise, bibliografia
-├── 01-CRONOGRAMA/          # Cronogramas em markdown (legacy, mantidos)
-├── 02-MATERIAS/            # Resumos antigos em markdown (legacy)
-├── 99-FUTURO/              # Placeholder para outras matérias
-└── HANDOFF.md              # Este arquivo
+│   └── data.js             # ⭐ FONTE DE TODO O CONTEÚDO (~3250+ linhas, ~62k palavras)
+├── 00-EDITAL-E-DOCS/
+├── 01-CRONOGRAMA/
+├── 02-MATERIAS/
+├── 99-FUTURO/
+└── HANDOFF.md
 ```
 
-## Conteúdo já embutido (em `assets/data.js`)
+## Conteúdo embutido em `assets/data.js`
 
-- **20 tópicos** de Processo Civil com: texto do edital, foco central, lei seca, jurisprudência, pegadinhas (3-5 seções por tópico, profundidade RESUMIDA)
-- **37 flashcards** cobrindo conceitos-chave dos 20 tópicos
-- **15 questões** simuladas no estilo IBGP/MPMG, com gabarito comentado
-- **~25 súmulas** STF/STJ relevantes para Processo Civil, mapeadas por tópico
-- **Doutrina recomendada** (Sinopse Juspodivm, Daniel Amorim, Didier)
-- **Cronograma** macro (7 fases) e Fase 1 (5 meses)
+- **20 tópicos COMPLETOS** de Processo Civil com sinopse Juspodivm-like (~3000 palavras/tópico, ~62k totais)
+  - Estrutura por tópico: Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
+  - Renderização suporta blocos tipados (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
+  - 968 blocos tipados no total
+- **Flashcards** expandidos cobrindo armadilhas e jurisprudência consolidada de cada tópico
+- **Questões simuladas** com gabarito comentado, no estilo IBGP/MPMG
+- **Súmulas STF/STJ** mapeadas por tópico
+- **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 detalhada** (5 meses)
 
-## ⚠️ Solicitação pendente do usuário (próxima task)
+## Renderer tipado em `topicos.html`
 
-**O usuário pediu:** "consegue colocar os conteúdos completos aqui dentro também?"
+A função `renderItem(item)` (em `topicos.html:62-103`) detecta:
+- `string` legado → `<li>` com markdown-mini inline (`**bold**`, `*itálico*`, `` `code` ``)
+- `{type: 'p', text}` → parágrafo
+- `{type: 'h', text}` → sub-cabeçalho com borda lateral colorida
+- `{type: 'list', items}` → `<ul>`
+- `{type: 'table', headers, rows}` → `<table class="content-table">` com scroll horizontal
+- `{type: 'box', kind, text}` → caixa colorida (5 kinds: macete amarelo, jurisprudencia azul, atencao vermelho, conexao verde, info azul claro)
 
-Referência: a página `topicos.html` (e os 20 tópicos em `assets/data.js`) hoje tem **conteúdo resumido** (3-5 bullets por seção). O usuário quer o **conteúdo completo de estudo** embutido — algo como o que se encontraria em uma sinopse de concurso, com explicações desenvolvidas, exemplos, casos, comparações.
+CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`.
 
-**O que fazer:**
+## Próximas tasks possíveis
 
-1. Editar `assets/data.js` — cada tópico tem `sections: [{h: 'título', items: [...]}]`
-2. Para cada tópico, expandir e/ou adicionar seções com conteúdo aprofundado:
-   - Adicionar parágrafos explicativos (não só bullets)
-   - Incluir exemplos práticos
-   - Detalhar jurisprudência (não só citar o tema)
-   - Quadros comparativos quando aplicável
-   - Mnemônicos/macetes
-3. **Cuidado com escopo:** 20 tópicos × ~3000 palavras cada = ~60k palavras. **Provavelmente vai precisar quebrar em múltiplos chats.**
-4. Sugestão de ordem: começar pelos tópicos da Fase 1 Mês 1 (1, 2, 3, 4, 5) e ir avançando.
-5. Considerar mudar a estrutura de `items: ['string', 'string']` para `items: [{type: 'p', text: '...'}, {type: 'list', items: [...]}, {type: 'table', ...}]` para suportar parágrafos, listas, tabelas.
-
-**Ajuste no viewer:** o `topicos.html` (renderização) precisa ser atualizado para suportar a nova estrutura de items (parágrafos, tabelas, etc.). Hoje renderiza só `<ul><li>`.
+1. **Atualizar súmulas** — adicionar súmulas referenciadas nos novos boxes de jurisprudência (ex: 309, 339, 384, 393, 410, 414, 460, 481, 489, 556, 612, 637, 640)
+2. **Fase 2** do cronograma macro — Direito Civil (itens 4.x do edital). O viewer e a estrutura já estão prontos
+3. **Iniciar Fase 1 Mês 1 do estudo** — abrir tópico 1 no app, fazer flashcards, marcar status
+4. **Ajustes de UX** — reordenar seções no viewer, adicionar TOC interno por tópico, índice alfabético de termos
 
 ## Como subir mudanças (auto-deploy via GitHub Pages)
 
@@ -84,8 +84,6 @@ git commit -m "Mensagem"
 git push
 # Pages reconstrói em 30-90s
 ```
-
-Atalho do gh CLI: tudo já está autenticado, basta `git push`.
 
 ## Configurações importantes do git no projeto
 
@@ -109,17 +107,13 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 ## Decisões já tomadas (não rediscutir)
 
 - ✅ Estrutura de pastas com `assets/`
-- ✅ App self-contained, sem links externos (Anki, QConcursos, etc. trocados por equivalentes nativos)
-- ✅ Conteúdo embutido em `data.js` (não via fetch de markdown — file:// causaria CORS)
-- ✅ GitHub Pages como deploy (público, padrão dos outros projetos do usuário)
-- ✅ Tópico viewer parametrizado (`topicos.html?id=...`) ao invés de 20 HTMLs separados
+- ✅ App self-contained, sem links externos
+- ✅ Conteúdo embutido em `data.js` (não via fetch — file:// causaria CORS)
+- ✅ GitHub Pages como deploy
+- ✅ Tópico viewer parametrizado (`topicos.html?id=...`)
 - ✅ Foco atual: só Processo Civil 1-20 (Fase 1)
-
-## Decisões pendentes (perguntar ao usuário se relevante)
-
-- Estrutura nova para `sections.items` (parágrafos vs tabelas vs listas)
-- Profundidade do conteúdo expandido (Sinopse Juspodivm-like? Manual completo?)
-- Se incluir mais flashcards/questões em paralelo à expansão dos tópicos
+- ✅ Profundidade dos tópicos: sinopse Juspodivm-like (~3000 palavras/tópico)
+- ✅ Estrutura tipada de items (p, h, list, table, box) com fallback para strings
 
 ## Memória persistente do Claude Code
 

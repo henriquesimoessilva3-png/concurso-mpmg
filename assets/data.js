@@ -2923,7 +2923,100 @@ flashcards: [
   { id: 34, topic: 20, q: 'Legitimados ativos da ACP?', a: 'MP, Defensoria, União/Estados/Municípios, autarquias, fundações públicas, empresas públicas, e associações com mais de 1 ano e finalidade compatível (Lei 7.347/85 art. 5º).', tags: ['ACP'] },
   { id: 35, topic: 20, q: 'O ressarcimento ao erário por ato de improbidade prescreve?', a: 'STF Tema 897: imprescritível APENAS para atos DOLOSOS de improbidade administrativa. Atos culposos prescrevem.', tags: ['ACP', 'improbidade'] },
   { id: 36, topic: 20, q: 'Quem pode propor ação popular?', a: 'Apenas o CIDADÃO (com título eleitoral em dia). Lei 4.717/65.', tags: ['popular'] },
-  { id: 37, topic: 20, q: 'Diferença entre TAC e ANPC?', a: 'TAC (Lei 7.347 §6º): compromisso de adequação à lei, dispensa responsabilização. ANPC (Lei 14.230/21): pressupõe responsabilização por improbidade, requer integral devolução + reparação + homologação judicial.', tags: ['ACP', 'improbidade'] }
+  { id: 37, topic: 20, q: 'Diferença entre TAC e ANPC?', a: 'TAC (Lei 7.347 §6º): compromisso de adequação à lei, dispensa responsabilização. ANPC (Lei 14.230/21): pressupõe responsabilização por improbidade, requer integral devolução + reparação + homologação judicial.', tags: ['ACP', 'improbidade'] },
+  // ====== Bloco 1 — tópicos 1-3 ======
+  { id: 38, topic: 1, q: 'A vedação à decisão-surpresa (art. 10 CPC) vale para matérias de ordem pública?', a: 'SIM. Mesmo em matérias cognoscíveis de ofício (incompetência absoluta, prescrição, etc.), o juiz deve dar oportunidade de manifestação às partes (REsp 1.676.027 STJ).', tags: ['CPC', 'cooperacao'] },
+  { id: 39, topic: 1, q: 'Os 4 deveres do juiz na cooperação (mnemônico EPCA)?', a: 'Esclarecer, Prevenir, Consultar e Auxiliar (Mitidiero/Marinoni). Concretizam o art. 6º CPC.', tags: ['CPC', 'cooperacao'] },
+  { id: 40, topic: 1, q: '3 modalidades do diálogo das fontes (Cláudia Lima Marques)?', a: 'CCC: Coerência (uma lei serve de base à outra), Complementaridade/subsidiariedade (uma supre a outra), Coordenação/influência (princípios cruzados).', tags: ['principios'] },
+  { id: 41, topic: 1, q: 'Aplicação imediata da lei processual = retroatividade?', a: 'NÃO. Princípio do isolamento dos atos processuais (art. 14 CPC): nova lei aplica-se aos atos a praticar, preservando os já praticados.', tags: ['CPC', 'lei-processual'] },
+  { id: 42, topic: 2, q: 'Casos paradigmáticos da Corte IDH × Brasil (mnemônico DGGFH)?', a: 'Damião Ximenes (saúde mental), Gomes Lund (anistia), Garibaldi (impunidade), Favela Nova Brasília (tortura), Vladimir Herzog (imprescritibilidade crimes contra humanidade).', tags: ['DH'] },
+  { id: 43, topic: 2, q: 'O que é controle de convencionalidade?', a: 'Dever do juiz de aferir compatibilidade da lei interna com tratados de DH. Se a lei contraria tratado supralegal, deixa de ser aplicada (Almonacid Arellano vs. Chile, 2006).', tags: ['DH', 'convencionalidade'] },
+  { id: 44, topic: 2, q: 'Quais 3 tratados têm status de EC no Brasil hoje?', a: 'Convenção sobre Direitos das PCD (Decreto 6.949/09), Tratado de Marraqueche (Decreto 9.522/18) e Convenção Interamericana contra o Racismo (Decreto 10.932/22).', tags: ['DH'] },
+  { id: 45, topic: 2, q: 'Contraditório formal × substancial?', a: 'Formal = oportunidade de manifestação. Substancial (CPC art. 9º) = direito de INFLUENCIAR a decisão; juiz deve enfrentar argumentos (art. 489 §1º IV).', tags: ['principios', 'contraditorio'] },
+  { id: 46, topic: 3, q: '4 características da jurisdição (mnemônico SIDU)?', a: 'Substitutividade (decide pelas partes), Inércia (não age de ofício), Definitividade (coisa julgada), Unidade (jurisdição é uma só).', tags: ['jurisdicao'] },
+  { id: 47, topic: 3, q: 'O que é interesse de agir (3 elementos UNA)?', a: 'Utilidade do provimento + Necessidade da provocação + Adequação da via processual escolhida.', tags: ['acao'] },
+  { id: 48, topic: 3, q: 'Diferença entre carência da ação e improcedência?', a: 'Carência (485 VI) = sem mérito, coisa julgada apenas formal, admite repropositura. Improcedência (487 I) = COM mérito, coisa julgada material.', tags: ['acao'] },
+
+  // ====== Bloco 2 — tópicos 4-5 ======
+  { id: 49, topic: 4, q: '5 espécies de intervenção no CPC/15 (mnemônico ADCIA)?', a: 'Assistência (simples e litisconsorcial), Denunciação da lide, Chamamento ao processo, IDPJ, Amicus curiae. Oposição saiu (virou ação autônoma).', tags: ['intervencao'] },
+  { id: 50, topic: 4, q: '4 modalidades de desconsideração da PJ (DIIE)?', a: 'Direta (sócios pela PJ), Inversa (PJ pelo sócio), Indireta (grupos econômicos), Expansiva (sucessão de fato).', tags: ['IDPJ'] },
+  { id: 51, topic: 4, q: 'Litisconsórcio necessário × unitário?', a: 'NECESSÁRIO: lei ou relação material EXIGE a presença de todos. UNITÁRIO: decisão DEVE ser idêntica para todos. Dimensões INDEPENDENTES (pode haver facultativo unitário).', tags: ['litisconsorcio'] },
+  { id: 52, topic: 4, q: 'Curador especial (CPC art. 72) é função de quem?', a: 'DEFENSORIA PÚBLICA. Exercida em 4 hipóteses: réu preso revel, edital revel, hora certa revel, incapaz sem representante.', tags: ['curador-especial', 'DP'] },
+  { id: 53, topic: 5, q: 'Distinção entre as 3 funções essenciais (MP, Adv Pública, Defensoria)?', a: 'MP defende o SISTEMA (ordem jurídica + indisponíveis); Adv Pública defende o ENTE PÚBLICO; Defensoria defende o NECESSITADO.', tags: ['MP', 'AP', 'DP'] },
+  { id: 54, topic: 5, q: 'Hipóteses de intervenção do MP como fiscal (PIM)?', a: 'CPC art. 178: P (interesse Público/social), I (incapaz), M (Movimentos coletivos pela posse de terra rural ou urbana). Súmula 189: NÃO em execução fiscal.', tags: ['MP'] },
+  { id: 55, topic: 5, q: 'Prazo do MP/DP/AP - acumulam dobra com art. 229?', a: 'NÃO. A dobra das funções essenciais (180/183/186) não se acumula com a dobra do art. 229 (litisconsortes com advogados diferentes).', tags: ['MP', 'prazos'] },
+  { id: 56, topic: 5, q: 'STJ Súmula 226 (MP)?', a: 'O MP tem legitimidade para ACP em defesa de direitos individuais homogêneos, ainda que disponíveis. Marco da legitimação ampla.', tags: ['MP', 'ACP'] },
+
+  // ====== Bloco 3 — tópicos 6-9 ======
+  { id: 57, topic: 6, q: '5 critérios determinativos da competência?', a: 'ABSOLUTA: Matéria, Pessoa, Função. RELATIVA: Valor, Território (em regra). Mnemônico MaPeFun-VaTe.', tags: ['competencia'] },
+  { id: 58, topic: 6, q: 'Única hipótese em que o juiz declara incompetência relativa de ofício?', a: 'Cláusula abusiva de eleição de foro em contrato de adesão (art. 63 §3º), antes da citação. Exceção à Súmula 33/STJ.', tags: ['competencia'] },
+  { id: 59, topic: 6, q: 'O que é translatio iudicii?', a: 'Aproveitamento dos atos NÃO DECISÓRIOS do juízo incompetente (CPC art. 64 §4º). Inovação do CPC/15 — antes a incompetência absoluta nulificava tudo.', tags: ['competencia'] },
+  { id: 60, topic: 6, q: 'STJ Súmula 489?', a: 'Reconhecida a continência, devem ser reunidas na JF as ACPs propostas nesta e na Justiça Estadual. Força atrativa da JF.', tags: ['competencia', 'ACP'] },
+  { id: 61, topic: 7, q: 'Atipicidade dos meios executivos - requisitos do Tema 1.137/STJ?', a: 'CNH, passaporte, cartão de crédito (art. 139 IV) cabíveis em quantia certa, mas com: esgotamento de meios típicos + patrimônio compatível ocultado + decisão fundamentada + proporcionalidade.', tags: ['juiz', 'execucao'] },
+  { id: 62, topic: 7, q: 'Conciliador × Mediador?', a: 'CONCILIADOR: causas SEM vínculo prévio (consumo); pode propor solução. MEDIADOR: causas COM vínculo (família, condomínio); restaura comunicação, NÃO propõe.', tags: ['juiz', 'mediacao'] },
+  { id: 63, topic: 7, q: 'Responsabilidade civil do juiz (art. 143) - quando?', a: 'DRO: Dolo ou fraude; Recusa, Omissão ou retardamento sem justo motivo. Hipóteses TAXATIVAS — responsabilidade pessoal e direta.', tags: ['juiz'] },
+  { id: 64, topic: 8, q: 'O que são NJP (CPC art. 190)?', a: 'Negócios jurídicos processuais atípicos: partes plenamente capazes podem convencionar sobre ônus, poderes, faculdades e deveres processuais (em causas que admitam autocomposição).', tags: ['atos', 'NJP'] },
+  { id: 65, topic: 8, q: 'Prazo em dobro do art. 229 - aplica em autos eletrônicos?', a: 'NÃO (Tema 1.024/STJ). A dobra para litisconsortes com advogados diferentes só vale em autos físicos. Pegadinha clássica.', tags: ['prazos'] },
+  { id: 66, topic: 8, q: '4 princípios das nulidades (CIPA)?', a: 'Causalidade (contamina dependentes), Instrumentalidade (atinge fim = válido), Prejuízo (sem dano = sem nulidade), Aproveitamento (juiz prefere sanar).', tags: ['nulidades'] },
+  { id: 67, topic: 8, q: 'ED interrompem ou suspendem o prazo dos demais recursos?', a: 'INTERROMPEM (CPC art. 1.026), para TODAS as partes. Mudança em relação ao CPC/73 (que apenas suspendia).', tags: ['atos', 'recursos'] },
+  { id: 68, topic: 9, q: 'Esquema da tutela provisória (gênero/fundamentos/naturezas)?', a: 'GÊNERO: tutela provisória. 2 FUNDAMENTOS: urgência e evidência. 2 NATUREZAS: antecipada (satisfativa) e cautelar (conservativa).', tags: ['tutela'] },
+  { id: 69, topic: 9, q: '4 hipóteses de tutela de evidência (art. 311)?', a: 'I) abuso de defesa/protelatório; II) tese repetitivo/SV + comprovação documental; III) reipersecutório com prova documental; IV) inicial documental + sem prova capaz de gerar dúvida.', tags: ['tutela'] },
+  { id: 70, topic: 9, q: 'Quando ocorre estabilização (art. 304)?',  a: 'Quando o réu NÃO interpõe AGRAVO DE INSTRUMENTO contra a tutela antecipada antecedente (Tema 1.099/STJ). Outras impugnações não impedem.', tags: ['tutela'] },
+  { id: 71, topic: 9, q: 'Estabilização gera coisa julgada material?', a: 'NÃO. É imutabilidade processual relativa. Por 2 anos (art. 304 §5º) cabe ação revisional. Após, decadência do direito de revisão.', tags: ['tutela'] },
+
+  // ====== Bloco 4 — tópicos 10-11 ======
+  { id: 72, topic: 10, q: 'Marcos da formação - autor × réu?', a: 'AUTOR: propositura (protocolo da PI - art. 312). RÉU: citação válida (art. 240). Antes da citação, réu ainda não está em juízo.', tags: ['formacao'] },
+  { id: 73, topic: 10, q: 'Decadência e prescrição extinguem com ou sem mérito?', a: 'COM MÉRITO (art. 487 II) - geram coisa julgada MATERIAL. Erro frequente classificar como sem mérito (485).', tags: ['extincao'] },
+  { id: 74, topic: 10, q: 'O que é perempção (art. 486 §3º)?', a: 'Sanção: 3 abandonos pelo autor (485 III) = autor PROIBIDO de propor nova ação contra o mesmo réu, com o mesmo objeto. Única exceção à regra de repropositura.', tags: ['extincao'] },
+  { id: 75, topic: 11, q: 'Audiência do art. 334 só dispensa quando?', a: 'Quando AMBAS as partes manifestam desinteresse expresso (art. 334 §4º I) OU se não admitir autocomposição (II). Apenas uma não basta.', tags: ['procedimento-comum'] },
+  { id: 76, topic: 11, q: '6 hipóteses de fundamentação inadequada (art. 489 §1º)?', a: 'I) reprodução normativa; II) conceito indeterminado sem aplicação; III) motivação genérica; IV) não enfrentar argumento; V) precedente sem demonstrar aplicação; VI) ignorar precedente sem distinguir/superar.', tags: ['sentenca'] },
+  { id: 77, topic: 11, q: '4 mitigações ao efeito material da revelia (art. 345)?', a: 'I) litisconsorte que contesta sobre fato comum; II) direitos indisponíveis; III) PI sem instrumento indispensável; IV) inverossimilhança ou contradição com prova nos autos.', tags: ['revelia'] },
+  { id: 78, topic: 11, q: 'Coisa julgada coletiva (mnemônico DIPR)?', a: 'DIfusos e coletivos = secundum eventum PRobationis (improc por insuf prova permite reajuizar). Individual homogêneo = só beneficia (in utilibus).', tags: ['coletivo', 'coisa-julgada'] },
+  { id: 79, topic: 11, q: 'Limites da remessa necessária (CPC art. 496 §3º)?', a: 'União: até 1.000 SM. Estados/DF/Capitais: até 500 SM. Municípios não-capitais: até 100 SM. Abaixo, dispensada.',  tags: ['remessa'] },
+  { id: 80, topic: 11, q: 'Improcedência liminar (art. 332) - cabe retratação na apelação?', a: 'SIM (art. 332 §3º) - ÚNICO caso na apelação. Se juiz não retrata, réu é citado para contrarrazões.', tags: ['procedimento-comum'] },
+
+  // ====== Bloco 5 — tópicos 12-15 ======
+  { id: 81, topic: 12, q: 'Multa do art. 523 §1º incide automaticamente?', a: 'SIM (Tema 962/STJ): incide automaticamente após 15 dias do prazo, INDEPENDENTEMENTE de intimação pessoal do devedor. Basta a do advogado.', tags: ['cumprimento'] },
+  { id: 82, topic: 12, q: 'Limites de RPV (federal/estadual/municipal)?', a: 'Federal: 60 SM. Estadual: 40 SM. Municipal: 30 SM (regra; entes podem fixar diferente em legislação local).', tags: ['cumprimento', 'fazenda'] },
+  { id: 83, topic: 12, q: 'STJ Súmula 309 (alimentos)?', a: 'A prisão civil cabe pelo débito das 3 ÚLTIMAS prestações ANTERIORES ao ajuizamento + parcelas vincendas até o pagamento. Único caso de prisão civil constitucional ainda existente.', tags: ['alimentos'] },
+  { id: 84, topic: 13, q: 'Possessória: força nova × velha?', a: 'NOVA: até 1 ano e 1 dia da turbação/esbulho - rito especial + LIMINAR. VELHA: após esse prazo - procedimento comum, só tutela ordinária.', tags: ['possessorias'] },
+  { id: 85, topic: 13, q: 'Inventário extrajudicial - requisitos?', a: 'Lei 11.441/07: maiores capazes + consenso + sem testamento + sem incapazes. Em cartório, por escritura pública, com advogado.', tags: ['especiais'] },
+  { id: 86, topic: 13, q: 'Oposição é intervenção de terceiros no CPC/15?', a: 'NÃO! Virou AÇÃO AUTÔNOMA (arts. 682-686). Saiu do rol de intervenções. Erro frequente em prova.', tags: ['oposicao'] },
+  { id: 87, topic: 14, q: 'O que é decisão por equidade na jurisdição voluntária?', a: 'CPC art. 723 §único: o juiz NÃO fica restrito à legalidade estrita - pode adotar a solução mais conveniente e oportuna. Inovação do CPC/15.', tags: ['voluntaria'] },
+  { id: 88, topic: 14, q: 'Curatela após Estatuto da PCD (Lei 13.146/15)?', a: 'EXCEPCIONAL e LIMITADA a atos PATRIMONIAIS. Atos existenciais (casar, votar, ter filhos) preservados. Tomada de Decisão Apoiada é instituto menos invasivo.', tags: ['voluntaria', 'curatela'] },
+  { id: 89, topic: 15, q: 'Cumprimento × Execução autônoma?', a: 'CUMPRIMENTO (513+): título JUDICIAL, fase do mesmo processo. EXECUÇÃO (771+): título EXTRAJUDICIAL, processo autônomo. Embargos sem garantia (CPC/15) × com garantia (CPC/73).', tags: ['execucao'] },
+  { id: 90, topic: 15, q: 'Salário acima de 50 SM é penhorável?', a: 'SIM, no excedente (art. 833 §2º + Súmula 394/STJ). Também penhorável para alimentos (sem limite). Erro: dizer impenhorável em qualquer hipótese.', tags: ['execucao', 'penhora'] },
+  { id: 91, topic: 15, q: 'Fraude à execução × fraude contra credores?', a: 'À EXECUÇÃO: vício processual, INEFICÁCIA do ato (CPC 792). CONTRA CREDORES: vício material, ANULABILIDADE (CC 158-165, exige ação pauliana com consilium fraudis).', tags: ['execucao', 'fraude'] },
+
+  // ====== Bloco 6 — tópico 16 ======
+  { id: 92, topic: 16, q: 'O que é taxatividade mitigada (Tema 988/STJ)?', a: 'O rol do art. 1.015 é taxativo, mas admite-se interpretação EXTENSIVA por analogia em casos de URGÊNCIA decorrente da inutilidade do julgamento da apelação.', tags: ['recursos'] },
+  { id: 93, topic: 16, q: 'O que é teoria da causa madura (art. 1.013 §3º)?', a: 'Em apelação contra sentença TERMINATIVA (sem mérito), o tribunal pode julgar DIRETO o mérito se a causa estiver pronta. Inversão do CPC/73.', tags: ['recursos', 'apelacao'] },
+  { id: 94, topic: 16, q: 'Ratio decidendi × obiter dictum?', a: 'RATIO = fundamento JURÍDICO determinante (vincula). OBITER = observação lateral (não vincula). Distinção essencial no sistema de precedentes.', tags: ['precedentes'] },
+  { id: 95, topic: 16, q: 'Distinguishing × Overruling?', a: 'DISTINGUISHING = caso concreto DIFERE do precedente em aspecto relevante - afasta aplicação. OVERRULING = SUPERAÇÃO/abandono do precedente pelo próprio tribunal.', tags: ['precedentes'] },
+  { id: 96, topic: 16, q: 'IRDR - 2 requisitos cumulativos (art. 976)?', a: '(1) EFETIVA REPETIÇÃO de processos com idêntica questão UNICAMENTE de direito; (2) RISCO DE OFENSA à isonomia e segurança jurídica.', tags: ['IRDR'] },
+  { id: 97, topic: 16, q: 'Sucumbência recursal - quando se aplica?', a: 'CPC art. 85 §11: na decisão do recurso, o tribunal MAJORA os honorários (até o dobro do limite legal) - mesmo em recurso parcialmente provido. Aplica em apelação, ED, AI, AInt.', tags: ['recursos', 'honorarios'] },
+
+  // ====== Bloco 7 — tópicos 17-20 ======
+  { id: 98, topic: 17, q: '3 institutos da assistência (mnemônico GAJ)?', a: 'Gratuidade (não pagar custas), Assistência judiciária (advogado pago pelo Estado), assistência Jurídica integral (DP - orientação + judicial + extrajudicial).', tags: ['assistencia'] },
+  { id: 99, topic: 17, q: 'Beneficiário condenado em sucumbência - paga?', a: 'NÃO de imediato. Exigibilidade SUSPENSA por 5 anos (art. 98 §3º). Cessada hipossuficiência no prazo, exige-se. Esgotado sem mudança, prescreve.', tags: ['assistencia'] },
+  { id: 100, topic: 18, q: 'Limites JEC/JEF/JEFP?', a: 'JEC: 40 SM. JEF: 60 SM. JEFP: 60 SM (só quem demanda CONTRA ente público).', tags: ['juizados'] },
+  { id: 101, topic: 18, q: 'Advogado dispensado no JEC até quanto?', a: '20 SM (art. 9º Lei 9.099). Acima é OBRIGATÓRIO. Defensoria sem limites.', tags: ['juizados'] },
+  { id: 102, topic: 18, q: 'PJ pode ser autora no JEC?', a: 'APENAS ME, EPP, MEI, OSCIP, sociedades de crédito ao microempreendedor (art. 8º §1º). PJ comum NÃO entra.', tags: ['juizados'] },
+  { id: 103, topic: 19, q: '3 pressupostos do MS (DLA-AAI)?', a: 'Direito Líquido e Certo (prova pré-constituída) + Ato de Autoridade pública + Abusividade ou Ilegalidade.', tags: ['MS'] },
+  { id: 104, topic: 19, q: 'Súmula 269/STF (MS)?', a: 'O MS não substitui ação de cobrança. Conjugada com Súmula 271: MS não produz efeitos patrimoniais pretéritos.', tags: ['MS'] },
+  { id: 105, topic: 19, q: 'MS coletivo - legitimados (PASE)?', a: 'CF art. 5º LXX: Partido com representação no CN; Associação >1 ano em atividade; Sindicato; Entidade de classe. Defensoria NÃO está no rol.', tags: ['MS', 'coletivo'] },
+  { id: 106, topic: 19, q: 'O que é tese concretista intermediária no MI?', a: 'Lei 13.300/16: STF fixa PRAZO para o omisso atuar. Não cumprido, STF SUPRE a omissão para o impetrante (art. 8º). Casos paradigma: MI 670, 708, 712 (greve servidores).', tags: ['MI'] },
+  { id: 107, topic: 20, q: 'Legitimados ACP (mnemônico MP-DEAUFA)?', a: 'MP, Defensoria, Entes federativos (U/E/M), Autarquias/EP/SEM/Fundações, Associações >1 ano com pertinência temática.', tags: ['ACP'] },
+  { id: 108, topic: 20, q: 'Tema 1.075/STF (art. 16 LACP)?', a: 'INCONSTITUCIONAL a limitação territorial da coisa julgada na ACP. Hoje a coisa julgada é AMPLA, respeitando apenas o âmbito do interesse tutelado.', tags: ['ACP'] },
+  { id: 109, topic: 20, q: 'Improbidade após Lei 14.230/21 - culpa cabe?', a: 'NÃO. Apenas DOLO em todas as modalidades (art. 1º §1º). MP é único legitimado (art. 17). STF (ADIs 7.236, 7.235, 7.226) aplicou irretroatividade favorável.', tags: ['improbidade'] },
+  { id: 110, topic: 20, q: 'Tema 897/STF (ressarcimento)?', a: 'Imprescritível APENAS para ressarcimento por ato DOLOSO de improbidade. Atos culposos (após Lei 14.230, sem improbidade) prescrevem normalmente.', tags: ['improbidade'] },
+  { id: 111, topic: 20, q: 'ANPC × TAC?', a: 'ANPC (Lei 14.230 art. 17-B): pressupõe RECONHECIMENTO da improbidade + sanção atenuada + homologação judicial. TAC (Lei 7.347 §6º): compromisso PROSPECTIVO de adequação, sem reconhecimento de ato ímprobo.', tags: ['improbidade', 'ACP'] },
+  { id: 112, topic: 20, q: 'Habeas Data - pressuposto para impetrar?', a: 'PRÉVIA RECUSA administrativa de informações (Súmula 2/STJ). Não basta querer dado - precisa ter pedido formalmente e recebido negativa ou silêncio.', tags: ['HD'] },
+  { id: 113, topic: 20, q: 'Ação Popular - quem pode propor?', a: 'Apenas o CIDADÃO (com título eleitoral em dia). PJ NÃO pode (Súmula 365/STF). Custas isentas, salvo má-fé.', tags: ['popular'] },
+  { id: 114, topic: 20, q: 'Coisa julgada na Ação Popular?', a: 'Secundum eventum probationis: improcedência por insuficiência de provas NÃO faz coisa julgada material - pode ser reproposta com prova nova (Lei 4.717 art. 18).', tags: ['popular'] },
+  { id: 115, topic: 20, q: 'Inquérito Civil - exclusivo de quem?', a: 'Do MP (CF art. 129 III + Resolução 23/2007 CNMP). Instrumento extrajudicial inquisitivo, sigiloso, sem contraditório obrigatório. Pode resultar em ACP, arquivamento ou TAC.', tags: ['inquerito-civil'] },
+  { id: 116, topic: 18, q: 'Princípios do JEC (mnemônico OSICE)?', a: 'Oralidade, Simplicidade, Informalidade, Celeridade, Economia processual (Lei 9.099 art. 2º).', tags: ['juizados'] },
+  { id: 117, topic: 8, q: 'Calendário processual × NJP?', a: 'CALENDÁRIO (art. 191): específico (datas para atos). NJP (art. 190): amplo (regras procedimentais). Ambos exigem capacidade, livre disposição, contraditório.', tags: ['atos', 'NJP'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -3168,6 +3261,486 @@ questions: [
     ],
     correct: 'C',
     explanation: 'A) Errado — suspeição tem prazo de 15 dias (CPC art. 146). B) Errado — INVERSO: impedimento taxativo (art. 144), suspeição exemplificativa (art. 145). C) CORRETO — impedimento é matéria de ordem pública, sem prazo, e pode fundamentar ação rescisória (art. 966 II). D) Sem fundamento normativo na forma proposta. E) Errado — juiz pode (e deve) reconhecer impedimento de ofício.'
+  },
+  {
+    id: 16,
+    topic: 1,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'A respeito da vedação à decisão-surpresa (CPC art. 10), assinale a alternativa CORRETA:',
+    alternatives: [
+      'Aplica-se apenas a matérias de defesa do réu, não a questões de ordem pública.',
+      'Aplica-se mesmo a matérias cognoscíveis de ofício, conforme jurisprudência consolidada do STJ.',
+      'Permite ao juiz decidir com base em fundamento novo, desde que devidamente fundamentado.',
+      'É flexibilizada quando o juiz invocar precedente vinculante.',
+      'Aplica-se apenas em primeira instância.'
+    ],
+    correct: 'B',
+    explanation: 'STJ (REsp 1.676.027 e REsp 1.755.266): a vedação à decisão-surpresa do art. 10 alcança até as matérias COGNOSCÍVEIS DE OFÍCIO. O juiz não pode decidir com fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, ainda que matéria de ordem pública. Exceção apenas para questões puramente de direito que constituam desdobramento lógico do já debatido.'
+  },
+  {
+    id: 17,
+    topic: 2,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre o status normativo dos tratados internacionais de direitos humanos no Brasil, assinale a CORRETA:',
+    alternatives: [
+      'Todos os tratados de DH têm status de emenda constitucional, independentemente de rito de aprovação.',
+      'Tratados de DH têm sempre status supralegal.',
+      'Apenas os tratados aprovados pelo rito do art. 5º §3º da CF têm status de EC; os demais ratificados são supralegais.',
+      'Tratados de DH equivalem à legislação ordinária.',
+      'Não há tratado de DH com status de EC no Brasil.'
+    ],
+    correct: 'C',
+    explanation: 'STF, RE 466.343/SP (Cesar Peluso, 2008): tratados de DH não aprovados pelo rito do art. 5º §3º têm status SUPRALEGAL (acima da lei, abaixo da CF). Aprovados pelo rito (3/5, dois turnos, cada Casa) têm status de EC. Atualmente: PCD, Marraqueche e Convenção Interamericana contra o Racismo são os 3 com status de EC.'
+  },
+  {
+    id: 18,
+    topic: 3,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre as condições da ação no CPC/15:',
+    alternatives: [
+      'São três: legitimidade, interesse e possibilidade jurídica do pedido.',
+      'São apenas duas: legitimidade e interesse de agir, segundo o art. 17.',
+      'A possibilidade jurídica do pedido continua sendo categoria autônoma.',
+      'A teoria da asserção foi expressamente repudiada pelo CPC/15.',
+      'A carência da ação gera coisa julgada material.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 17: "Para postular em juízo é necessário ter interesse e legitimidade." A possibilidade jurídica do pedido foi absorvida pelo interesse de agir (mantida a teoria eclética de Liebman, com essa simplificação). Carência da ação = extinção sem mérito (485 VI), apenas coisa julgada formal. Teoria da asserção continua predominante (STJ — REsp 1.395.875).'
+  },
+  {
+    id: 19,
+    topic: 4,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre a oposição no CPC/15, assinale a alternativa CORRETA:',
+    alternatives: [
+      'É espécie de intervenção de terceiros, regulada nos arts. 119-138.',
+      'Foi extinta do CPC/15.',
+      'Passou a ser ação autônoma sob o procedimento comum (arts. 682-686), não mais intervenção.',
+      'Continua sendo intervenção, mas com nome alterado para nomeação à autoria.',
+      'Apenas o assistente pode opor-se à pretensão das partes.'
+    ],
+    correct: 'C',
+    explanation: 'O CPC/15 retirou a oposição do rol das intervenções de terceiros (arts. 119-138) e a transformou em AÇÃO AUTÔNOMA, sob o procedimento comum (arts. 682-686). Ainda admite julgamento conjunto se proposta antes da AIJ. Erro frequente: tratá-la como intervenção (regime CPC/73).'
+  },
+  {
+    id: 20,
+    topic: 5,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre os prazos do MP, da Defensoria Pública e da Advocacia Pública no processo civil:',
+    alternatives: [
+      'O prazo é em quádruplo, somando-se a dobra das funções essenciais com a do art. 229.',
+      'Apenas o MP tem prazo em dobro; DP e AP seguem o prazo comum.',
+      'MP, DP e AP têm prazo em dobro, que NÃO se acumula com a dobra do art. 229.',
+      'A dobra do art. 180 (MP) só vale para a primeira manifestação.',
+      'A dobra dos entes essenciais é em dobro apenas em primeira instância.'
+    ],
+    correct: 'C',
+    explanation: 'CPC arts. 180 (MP), 183 (Adv. Pública) e 186 (DP): todos têm prazo em DOBRO, contados da intimação pessoal. NÃO se acumulam com a dobra do art. 229 (litisconsortes com advogados diferentes - art. 229 §2º). Pegadinha clássica que tenta induzir o "quádruplo" - ERRADO.'
+  },
+  {
+    id: 21,
+    topic: 6,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre a competência da Justiça Federal (CF art. 109), é INCORRETO afirmar:',
+    alternatives: [
+      'Compete à JF processar causas em que figure como parte sociedade de economia mista federal.',
+      'Compete à JF processar causas em que a União seja parte, autora, ré, assistente ou opoente.',
+      'Excluem-se da competência da JF as causas de falência e os acidentes do trabalho.',
+      'A competência da JF é absoluta - cognoscível de ofício.',
+      'Reconhecida continência, ACPs federal e estadual reúnem-se na JF (Súmula 489/STJ).'
+    ],
+    correct: 'A',
+    explanation: 'A) INCORRETO - Súmula 556/STJ: "É competente a Justiça Estadual para processar e julgar causas em que é parte sociedade de economia mista federal." SEM federal NÃO está no art. 109 I (apenas União, autarquias, EP). B), C), D), E) Corretos.'
+  },
+  {
+    id: 22,
+    topic: 7,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre a atipicidade dos meios executivos do art. 139 IV do CPC, conforme entendimento atual do STJ:',
+    alternatives: [
+      'Medidas atípicas (suspensão de CNH, passaporte, cartão de crédito) são vedadas em obrigações pecuniárias.',
+      'Medidas atípicas são cabíveis livremente, sem necessidade de fundamentação.',
+      'São cabíveis em quantia certa, mas exigem esgotamento de meios típicos, demonstração de patrimônio compatível ocultado, fundamentação e proporcionalidade (Tema 1.137).',
+      'O juiz pode determinar a prisão civil por dívida pecuniária, em caráter excepcional.',
+      'Aplicam-se apenas a obrigações de fazer e não-fazer, conforme o regime do CPC/73.'
+    ],
+    correct: 'C',
+    explanation: 'STJ, Tema 1.137 (REsp 1.788.950): as medidas atípicas (suspensão de CNH, passaporte, cartão) são CABÍVEIS em execução de obrigação pecuniária, mas exigem cumulativamente: (i) esgotamento de meios típicos; (ii) patrimônio compatível ocultado; (iii) decisão fundamentada e proporcional; (iv) sem violação ao núcleo essencial de direitos fundamentais. Não é "carta branca", nem vedação absoluta.'
+  },
+  {
+    id: 23,
+    topic: 8,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre o prazo em dobro para litisconsortes com advogados de escritórios diferentes (CPC art. 229):',
+    alternatives: [
+      'Aplica-se sempre, independentemente do meio (físico ou eletrônico).',
+      'Aplica-se em autos físicos, mas NÃO em autos eletrônicos (Tema 1.024/STJ).',
+      'Aplica-se apenas em primeira instância.',
+      'Soma-se à dobra do MP/DP/AP.',
+      'Apenas no juizado especial.'
+    ],
+    correct: 'B',
+    explanation: 'STJ, Tema 1.024 (REsp 1.813.684): o prazo em dobro do art. 229 NÃO se aplica em autos eletrônicos, mesmo se o réu se manifestou em meio físico. A justificativa do dobro (dificuldade de cópia em autos físicos) não existe no eletrônico, onde há cópia digital permanente.'
+  },
+  {
+    id: 24,
+    topic: 9,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre a estabilização da tutela antecipada antecedente (CPC art. 304), conforme STJ Tema 1.099:',
+    alternatives: [
+      'Ocorre quando o réu apresenta contestação tempestivamente.',
+      'Ocorre quando o réu apresenta qualquer impugnação à tutela.',
+      'Ocorre apenas se o réu NÃO interpuser AGRAVO DE INSTRUMENTO contra a tutela.',
+      'Gera coisa julgada material imediata.',
+      'Permite revisão judicial pelo prazo de 5 anos.'
+    ],
+    correct: 'C',
+    explanation: 'STJ, Tema 1.099 (REsp 1.997.347): a estabilização ocorre SOMENTE se o réu não interpuser AGRAVO DE INSTRUMENTO. Outras impugnações (contestação, requerimento de revogação) NÃO impedem a estabilização. Estabilização = imutabilidade processual, NÃO coisa julgada material. Cabe revisão por 2 anos (art. 304 §5º).'
+  },
+  {
+    id: 25,
+    topic: 10,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a extinção do processo por decadência ou prescrição:',
+    alternatives: [
+      'É hipótese de extinção sem resolução do mérito (art. 485).',
+      'Gera apenas coisa julgada formal.',
+      'É hipótese de extinção COM resolução do mérito (art. 487 II) e gera coisa julgada material.',
+      'Permite repropositura da ação após o prazo prescricional civil.',
+      'Aplica-se apenas a direitos materiais disponíveis.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 487 II: "Haverá resolução de mérito quando o juiz: II - decidir, de ofício ou a requerimento, sobre a ocorrência de decadência ou prescrição." Embora extingam o direito material, são tratadas como sentença de mérito - geram COISA JULGADA MATERIAL e impedem repropositura. Pegadinha clássica em prova.'
+  },
+  {
+    id: 26,
+    topic: 11,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'A respeito da audiência de conciliação ou mediação (CPC art. 334):',
+    alternatives: [
+      'É facultativa, dependendo da vontade exclusiva do autor.',
+      'Só é dispensada se ambas as partes manifestarem desinteresse expresso ou se a causa não admitir autocomposição.',
+      'Pode ser dispensada apenas pelo juiz, de ofício.',
+      'O não comparecimento gera apenas advertência verbal.',
+      'É realizada após a contestação, para tentativa final de acordo.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 334 §4º: a audiência só é dispensada se: (I) AMBAS as partes manifestarem desinteresse; (II) não admitir autocomposição. O não comparecimento injustificado é ato atentatório à dignidade da justiça - multa de até 2% (art. 334 §8º). É realizada ANTES da contestação - prazo conta a partir dela.'
+  },
+  {
+    id: 27,
+    topic: 11,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre o efeito material da revelia, é INCORRETO afirmar que se mitiga em caso de:',
+    alternatives: [
+      'Litisconsorte que apresenta defesa sobre fato comum.',
+      'Direitos indisponíveis.',
+      'PI desacompanhada de instrumento que a lei considere indispensável.',
+      'Inverossimilhança das alegações ou contradição com prova nos autos.',
+      'Réu que apresenta a contestação em prazo posterior ao legal.'
+    ],
+    correct: 'E',
+    explanation: 'CPC art. 345 lista as 4 mitigações ao efeito material da revelia (presunção de veracidade): I) litisconsorte; II) indisponibilidade; III) falta de instrumento indispensável; IV) inverossimilhança. A apresentação de contestação intempestiva caracteriza REVELIA - não é mitigação dela. Pegadinha de inversão lógica.'
+  },
+  {
+    id: 28,
+    topic: 11,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre a fundamentação substancial da sentença (CPC art. 489 §1º), NÃO se considera fundamentada a decisão que:',
+    alternatives: [
+      'Aplica fundamentadamente uma súmula vinculante ao caso.',
+      'Limita-se à indicação do ato normativo, sem explicar a relação com o caso.',
+      'Distingue precedente aplicável demonstrando peculiaridades fáticas relevantes.',
+      'Enfrenta todos os argumentos relevantes deduzidos pelas partes.',
+      'Aplica conceito jurídico indeterminado com expressa contextualização ao caso.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 489 §1º I: NÃO é fundamentada a decisão que se limita à indicação, reprodução ou paráfrase do ato normativo, sem explicar sua relação com o caso. As demais alternativas descrevem fundamentações ADEQUADAS. As 6 hipóteses de fundamentação inadequada (incisos I-VI) elevam o ônus de motivação.'
+  },
+  {
+    id: 29,
+    topic: 12,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a multa do art. 523 §1º do CPC (cumprimento de sentença), conforme Tema 962/STJ:',
+    alternatives: [
+      'Incide somente após intimação pessoal do devedor.',
+      'Incide automaticamente após 15 dias do prazo, mesmo sem intimação pessoal — basta a do advogado.',
+      'É de 20% do valor do débito.',
+      'Não se aplica a honorários advocatícios.',
+      'Pode ser afastada por requerimento do devedor.'
+    ],
+    correct: 'B',
+    explanation: 'STJ, Tema 962 (REsp 1.620.919): a multa de 10% do art. 523 §1º incide AUTOMATICAMENTE após o término do prazo de 15 dias, INDEPENDENTEMENTE de intimação pessoal do devedor. A intimação do advogado (via DJe) é suficiente. A multa é de 10% + honorários de 10% (art. 523 §1º) - somam 20% do valor.'
+  },
+  {
+    id: 30,
+    topic: 13,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a oposição no CPC/15:',
+    alternatives: [
+      'Continua como espécie de intervenção de terceiros, listada nos arts. 119-138.',
+      'Foi extinta como instituto pelo CPC/15.',
+      'Passou a ser AÇÃO AUTÔNOMA sob procedimento comum (arts. 682-686), não mais intervenção.',
+      'Permanece intervenção, mas com prazo simplificado de 15 dias.',
+      'Foi substituída pela nomeação à autoria.'
+    ],
+    correct: 'C',
+    explanation: 'O CPC/15 retirou a oposição do rol de intervenções (arts. 119-138). Passou a ser AÇÃO AUTÔNOMA sob procedimento comum (arts. 682-686). Mantém julgamento conjunto se proposta antes da AIJ. Erro frequente em prova.'
+  },
+  {
+    id: 31,
+    topic: 14,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a curatela após o Estatuto da Pessoa com Deficiência (Lei 13.146/15):',
+    alternatives: [
+      'A curatela é instituto amplo, abrangendo todos os atos da vida civil.',
+      'A pessoa com deficiência é sempre absolutamente incapaz.',
+      'A curatela é EXCEPCIONAL e LIMITADA a atos patrimoniais e negociais.',
+      'Foi extinta a curatela como instituto.',
+      'Atos existenciais (casar, ter filhos, votar) sujeitam-se a controle do curador.'
+    ],
+    correct: 'C',
+    explanation: 'A Lei 13.146/15 modificou profundamente a curatela: PCD são em regra civilmente capazes; a curatela é EXCEPCIONAL e LIMITADA a atos PATRIMONIAIS e negociais (CC art. 1.772). Atos EXISTENCIAIS (casar, votar, ter filhos, escolher tratamento) são preservados. A Tomada de Decisão Apoiada (CC art. 1.783-A) é alternativa menos invasiva.'
+  },
+  {
+    id: 32,
+    topic: 15,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre os embargos à execução no CPC/15:',
+    alternatives: [
+      'Exigem prévia garantia da execução para serem opostos.',
+      'NÃO exigem garantia para oposição, mas a SUSPENSÃO da execução exige garantia.',
+      'Devem ser opostos no prazo de 30 dias da intimação do devedor.',
+      'Têm efeito suspensivo automático.',
+      'São cabíveis apenas contra a Fazenda Pública.'
+    ],
+    correct: 'B',
+    explanation: 'CPC/15 (mudança importante em relação ao CPC/73): os embargos à execução NÃO exigem garantia para serem opostos (prazo: 15 dias da juntada do mandado - art. 915). Mas a SUSPENSÃO da execução depende de garantia + risco grave (art. 919 §1º). Não há efeito suspensivo automático.'
+  },
+  {
+    id: 33,
+    topic: 15,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a impenhorabilidade salarial e seus limites:',
+    alternatives: [
+      'Salários são absolutamente impenhoráveis em qualquer hipótese.',
+      'São impenhoráveis em regra, mas penhoráveis para alimentos e em quantias acima de 50 SM (no excedente).',
+      'São penhoráveis em qualquer hipótese se a dívida for tributária.',
+      'A impenhorabilidade só vale para servidores públicos.',
+      'Salários acima de 10 SM são integralmente penhoráveis.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 833 IV + §2º + Súmula 394/STJ: salários são impenhoráveis EM REGRA, mas há duas exceções: (i) para pagamento de prestação ALIMENTÍCIA (sem limite); (ii) para quantias acima de 50 SALÁRIOS-MÍNIMOS mensais (penhorável no excedente). Erro frequente afirmar impenhorabilidade absoluta.'
+  },
+  {
+    id: 34,
+    topic: 16,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre a teoria da causa madura no CPC/15 (art. 1.013 §3º):',
+    alternatives: [
+      'Aplica-se quando a apelação é provida sobre matéria de mérito.',
+      'Permite ao tribunal julgar diretamente o mérito quando a sentença foi terminativa e a causa está pronta para julgamento.',
+      'Foi mantida na mesma sistemática do CPC/73, devolvendo o processo à 1ª instância.',
+      'Aplica-se apenas se houver requerimento expresso das partes.',
+      'Limita-se a causas de competência do STJ.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 1.013 §3º: em apelação contra sentença que NÃO RESOLVEU o mérito (terminativa - art. 485), o tribunal pode julgar DIRETAMENTE o mérito se a causa estiver em condições de imediato julgamento. Inversão da lógica do CPC/73 (que devolvia para 1ª instância).'
+  },
+  {
+    id: 35,
+    topic: 16,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre os embargos de declaração no CPC/15:',
+    alternatives: [
+      'SUSPENDEM o prazo dos demais recursos.',
+      'INTERROMPEM o prazo dos demais recursos para todas as partes.',
+      'Aplicam-se apenas a sentenças, não a acórdãos.',
+      'Têm prazo de 15 dias úteis.',
+      'Não admitem multa por caráter protelatório.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 1.026 (mudança importante CPC/15): os ED INTERROMPEM (não suspendem) o prazo dos demais recursos para TODAS as partes. Cabíveis contra qualquer decisão. Prazo: 5 dias úteis. Multa de até 2% (1ª) ou 10% (reiteração) por caráter protelatório (§§2º-3º).'
+  },
+  {
+    id: 36,
+    topic: 17,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a sucumbência do beneficiário da gratuidade da justiça (CPC art. 98 §3º):',
+    alternatives: [
+      'O beneficiário é integralmente isento de honorários e custas, mesmo se vencido.',
+      'O beneficiário, se vencido, paga sucumbência em condições normais.',
+      'O beneficiário, se vencido, é condenado em sucumbência, mas a exigibilidade fica suspensa por 5 anos.',
+      'A condenação em sucumbência impede nova concessão de gratuidade.',
+      'A suspensão da exigibilidade vale por 10 anos.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 98 §3º: o beneficiário vencido É CONDENADO em sucumbência, mas a EXIGIBILIDADE FICA SUSPENSA POR 5 ANOS. Cessada a hipossuficiência no prazo, exige-se. Esgotado o prazo sem mudança, há prescrição da pretensão. Mecanismo equilibrado entre proteção e responsabilização.'
+  },
+  {
+    id: 37,
+    topic: 18,
+    banca: 'Simulada',
+    nivel: 'Fácil',
+    statement: 'Sobre a possibilidade de pessoa jurídica figurar como autora no JEC:',
+    alternatives: [
+      'Qualquer pessoa jurídica pode ser autora.',
+      'Apenas pessoas jurídicas de direito público.',
+      'Apenas microempresa, EPP, MEI e algumas entidades específicas (OSCIPs, sociedades de crédito ao microempreendedor).',
+      'Sociedades anônimas podem, desde que com receita anual reduzida.',
+      'É vedado a qualquer PJ ser autora no JEC.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.099/95 art. 8º §1º: PJ no JEC apenas como microempresa, empresa de pequeno porte, MEI, OSCIPs e sociedades de crédito ao microempreendedor. PJ comum NÃO entra. Pessoa jurídica de direito público também é VEDADA (art. 8º caput).'
+  },
+  {
+    id: 38,
+    topic: 19,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre os legitimados ativos do Mandado de Segurança Coletivo (CF art. 5º LXX):',
+    alternatives: [
+      'Apenas o Ministério Público.',
+      'Partido político (com representação no CN), organização sindical, entidade de classe ou associação (em funcionamento há pelo menos 1 ano).',
+      'Qualquer pessoa interessada na defesa de direito coletivo.',
+      'Apenas a Defensoria Pública.',
+      'Pessoa jurídica de direito público.'
+    ],
+    correct: 'B',
+    explanation: 'CF art. 5º LXX + Lei 12.016/09 arts. 21-22: legitimados são (a) partido político com representação no CN; (b) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos 1 ANO. Defensoria NÃO está no rol (mas tem legitimidade para ACP - distinção importante).'
+  },
+  {
+    id: 39,
+    topic: 20,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre o art. 16 da Lei 7.347/85 (LACP), conforme decisão do STF (RE 1.101.937, Tema 1.075):',
+    alternatives: [
+      'A coisa julgada na ACP fica limitada à competência territorial do juízo prolator.',
+      'O dispositivo foi declarado INCONSTITUCIONAL: a coisa julgada na ACP é AMPLA, respeitando apenas o âmbito do interesse tutelado.',
+      'Aplica-se apenas em ACPs ambientais.',
+      'A limitação territorial vale apenas em causas estaduais.',
+      'A norma foi expressamente revogada por nova lei em 2021.'
+    ],
+    correct: 'B',
+    explanation: 'STF, RE 1.101.937 (Tema 1.075, abr/2021): "É inconstitucional o art. 16 da Lei 7.347/85, alterada pela Lei 9.494/97." A limitação territorial da coisa julgada coletiva foi RECHAÇADA. Hoje a coisa julgada na ACP é AMPLA, observando o âmbito do interesse tutelado (nacional/regional/local) e as regras de competência do art. 93 II do CDC.'
+  },
+  {
+    id: 40,
+    topic: 20,
+    banca: 'Simulada',
+    nivel: 'Difícil',
+    statement: 'Sobre o ressarcimento ao erário por ato de improbidade administrativa, conforme STF Tema 897:',
+    alternatives: [
+      'É imprescritível em qualquer hipótese.',
+      'Sempre prescreve em 5 anos.',
+      'É imprescritível APENAS para atos DOLOSOS de improbidade.',
+      'É imprescritível para atos culposos, em razão da maior dificuldade de identificação.',
+      'Aplica-se o prazo prescricional de 10 anos do CC art. 205.'
+    ],
+    correct: 'C',
+    explanation: 'STF, Tema 897 (RE 852.475): "São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ATO DOLOSO tipificado na Lei de Improbidade Administrativa." Após Lei 14.230/21, atos culposos não geram improbidade - seguem prazo prescricional civil ordinário.'
+  },
+  {
+    id: 41,
+    topic: 5,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre a intervenção do MP em execução fiscal:',
+    alternatives: [
+      'É obrigatória, por força do art. 178 I (interesse público).',
+      'É facultativa, dependendo da Fazenda credora.',
+      'É desnecessária, conforme Súmula 189/STJ.',
+      'Só é obrigatória se houver dívida ativa de valor superior a 1.000 SM.',
+      'Cabível apenas em executivos fiscais federais.'
+    ],
+    correct: 'C',
+    explanation: 'STJ Súmula 189: "É desnecessária a intervenção do MP nas execuções fiscais." A simples presença da Fazenda como exequente NÃO caracteriza interesse público do art. 178 I para fins de intervenção do MP. Reforça a leitura RESTRITIVA do conceito de interesse público.'
+  },
+  {
+    id: 42,
+    topic: 9,
+    banca: 'Simulada',
+    nivel: 'Fácil',
+    statement: 'Sobre a tutela de evidência (CPC art. 311):',
+    alternatives: [
+      'Exige a demonstração de probabilidade do direito e do perigo de dano.',
+      'DISPENSA o requisito de perigo, exigindo apenas a evidência das hipóteses taxativas do art. 311.',
+      'Pode ser concedida em qualquer hipótese, sem requisitos específicos.',
+      'Aplica-se apenas em causas até 60 SM.',
+      'É concedida apenas após a contestação.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 311: a tutela de evidência DISPENSA o perigo de dano (não há urgência - há "evidência" do direito). As 4 hipóteses são TAXATIVAS: I) abuso de defesa; II) tese repetitivo/SV + comprovação documental; III) reipersecutório com prova documental; IV) inicial documental + sem prova capaz de gerar dúvida razoável. Algumas podem ser concedidas liminarmente.'
+  },
+  {
+    id: 43,
+    topic: 6,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre o foro do consumidor (CDC art. 101 I):',
+    alternatives: [
+      'É absoluto - o consumidor é OBRIGADO a demandar em seu próprio domicílio.',
+      'É privilégio do consumidor: pode demandar em seu domicílio OU em outro foro de sua escolha.',
+      'Aplica-se apenas em causas até 40 SM.',
+      'Cabe ao fornecedor decidir o foro.',
+      'É inderrogável por cláusula contratual de eleição de foro.'
+    ],
+    correct: 'B',
+    explanation: 'CDC art. 101 I: o foro do domicílio do consumidor é PRIVILÉGIO seu - não vinculação. O consumidor PODE demandar em outro foro se preferir. Cláusula de eleição de foro abusiva em contrato de adesão é nula (CPC art. 63 §3º + CDC art. 51 IV) - única hipótese em que o juiz declara incompetência relativa de ofício.'
+  },
+  {
+    id: 44,
+    topic: 11,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre o saneamento e organização do processo (CPC art. 357):',
+    alternatives: [
+      'É decisão monocrática insindicável.',
+      'Resolve questões processuais pendentes, delimita questões controvertidas, distribui ônus probatório e define provas a produzir.',
+      'Equivale ao despacho liminar positivo.',
+      'É vedada a distribuição dinâmica do ônus da prova.',
+      'A decisão de saneamento é irrecorrível.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 357: a decisão de saneamento é momento-chave do processo - resolve preliminares pendentes, delimita controvérsia fática (objeto da prova), distribui ônus probatório (regra ou DINÂMICA - §1º), define questões de direito relevantes e designa AIJ. Em causas complexas, pode haver audiência de saneamento (§3º). Saneamento consensual (§2º) é NJP típico.'
+  },
+  {
+    id: 45,
+    topic: 8,
+    banca: 'Simulada',
+    nivel: 'Médio',
+    statement: 'Sobre o calendário processual (CPC art. 191):',
+    alternatives: [
+      'É instituto idêntico ao negócio jurídico processual atípico (art. 190).',
+      'Permite ao juiz e às partes fixarem CONJUNTAMENTE prazos e datas para os atos processuais, com efeito vinculante.',
+      'Substitui a sistemática de prazos legais.',
+      'Aplicável apenas em causas de família.',
+      'Requer homologação do tribunal superior.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 191: o calendário processual é fixado em comum acordo entre juiz e partes, com datas e prazos específicos para os atos processuais. É VINCULANTE - dispensa intimações específicas. Diferente do NJP do art. 190 (mais amplo, sobre regras procedimentais). Ambos exigem capacidade, livre disposição e contraditório.'
   }
 ],
 
