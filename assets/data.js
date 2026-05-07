@@ -6190,8 +6190,237 @@ topics: [
   { id: 'pp-12-leis-especiais', num: 12, materia: 'pp', title: 'Leis especiais (Org. Criminosa, Drogas, JECrim, Maria da Penha)', edital: '2.2.12', editalText: 'Procedimentos especiais. Colaboração premiada. Audiência una.', size: 'Grande', schedule: null, advantage: null, outline: ['Lei 12.850/13 — Org. Criminosa (procedimento, colaboração premiada, ações controladas)', 'Lei 11.343/06 — Drogas (procedimento)', 'Lei 9.099/95 — JECrim (transação, suspensão condicional do processo)', 'Lei 11.340/06 — Maria da Penha (medidas protetivas)', 'Lei 9.296/96 — Interceptação telefônica', 'Pacote Anticrime — alterações processuais'], sections: [] },
 
   // ============ ESQUELETOS — DIREITO MATERIAL COLETIVO (12) ============
-  { id: 'colmat-01-direitos-humanos', num: 1, materia: 'colmat', title: 'Direitos humanos e fundamentais', edital: '4.1.1', editalText: 'Tratados internacionais de DH. Sistemas global e interamericano. CF/88.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito e dimensões dos direitos humanos', 'Sistema global (ONU)', 'Sistema interamericano (CIDH, Corte IDH)', 'Tratados internacionais e CF (art. 5º §§ 2º, 3º)', 'Mínimo existencial e reserva do possível', 'Eficácia dos direitos fundamentais'], sections: [] },
-  { id: 'colmat-02-eca', num: 2, materia: 'colmat', title: 'ECA — Estatuto da Criança e do Adolescente', edital: '4.1.2', editalText: 'Lei 8.069/90. Direitos fundamentais, medidas protetivas, ato infracional.', size: 'Grande', schedule: null, advantage: 'Vantagem (atuação como Analista MP).', outline: ['Princípios (proteção integral, prioridade absoluta)', 'Direitos fundamentais (vida, saúde, educação, convivência)', 'Família natural × extensa × substituta (guarda, tutela, adoção)', 'Adoção (Lei 12.010/09)', 'Medidas protetivas (art. 101)', 'Ato infracional e medidas socioeducativas (SINASE — Lei 12.594/12)', 'Sistema de Justiça da Infância (Conselho Tutelar, Vara)', 'Crimes do ECA'], sections: [] },
+  { id: 'colmat-01-direitos-humanos', num: 1, materia: 'colmat', title: 'Direitos humanos e fundamentais', edital: '4.1.1', editalText: 'Tratados internacionais de DH. Sistemas global e interamericano. CF/88.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: null, outline: ['Conceito e dimensões dos direitos humanos', 'Sistema global (ONU)', 'Sistema interamericano (CIDH, Corte IDH)', 'Tratados internacionais e CF (art. 5º §§ 2º, 3º)', 'Mínimo existencial e reserva do possível', 'Eficácia dos direitos fundamentais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **direitos humanos** são prerrogativas universais, inerentes à condição humana, reconhecidas no plano internacional. Os **direitos fundamentais** são os direitos humanos POSITIVADOS na ordem jurídica interna (CF/88). A distinção é didática — na prática, há sobreposição substancial. Norberto Bobbio: a era dos direitos não é a era da fundamentação filosófica, mas da PROTEÇÃO efetiva.' },
+        { type: 'p', text: 'A **CF/88** consagrou um catálogo robusto de direitos fundamentais (art. 5º — individuais e coletivos; arts. 6º-11 — sociais; art. 12 — nacionalidade; arts. 14-17 — políticos; art. 17 — partidos). Esses direitos têm **APLICAÇÃO IMEDIATA** (art. 5º §1º) e formam o NÚCLEO INTANGÍVEL da ordem constitucional — cláusulas pétreas (art. 60 §4º IV).' },
+        { type: 'p', text: 'No campo internacional, o Brasil é parte de tratados centrais: PIDCP, PIDESC, CADH, Convenção sobre Direitos da Criança, Belém do Pará, Convenção de NY (PCD), Convenção contra a Tortura, etc. A CF (arts. 5º §§2º, 3º e 4º) define o status hierárquico desses tratados — tema consolidado pelo STF (RE 466.343).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF/88 — núcleo' },
+        { type: 'list', items: [
+          '**Art. 1º III** — dignidade da pessoa humana (fundamento da República)',
+          '**Art. 4º II** — prevalência dos DH nas relações internacionais (princípio das relações internacionais)',
+          '**Art. 5º §1º** — aplicação imediata das normas definidoras de direitos e garantias fundamentais',
+          '**Art. 5º §2º** — direitos não excluem outros decorrentes do regime, princípios da CF e tratados internacionais',
+          '**Art. 5º §3º** (EC 45/04) — tratados de DH aprovados em CADA Casa do Congresso, em 2 turnos, por 3/5 dos membros, equivalem a EC',
+          '**Art. 5º §4º** (EC 45/04) — Brasil submete-se à jurisdição do TPI (Tribunal Penal Internacional)',
+          '**Art. 60 §4º IV** — cláusulas pétreas: direitos e garantias individuais (extensível aos demais direitos fundamentais por interpretação)'
+        ]},
+        { type: 'h', text: 'Tratados centrais ratificados pelo Brasil' },
+        { type: 'list', items: [
+          '**Carta da ONU** (1945) — Decreto 19.841/45',
+          '**Declaração Universal dos Direitos Humanos** (1948) — soft law',
+          '**Pacto Internacional dos Direitos Civis e Políticos (PIDCP)** — Decreto 592/92',
+          '**Pacto Internacional dos Direitos Econômicos, Sociais e Culturais (PIDESC)** — Decreto 591/92',
+          '**CADH (Pacto de São José)** — Decreto 678/92 (status: SUPRALEGAL)',
+          '**Convenção sobre Direitos da Criança** — Decreto 99.710/90',
+          '**Convenção sobre os Direitos das Pessoas com Deficiência (NY)** — Decreto 6.949/09 (status: CONSTITUCIONAL formal)',
+          '**Convenção contra a Tortura** — Decreto 40/91',
+          '**Belém do Pará** (violência contra mulher) — Decreto 1.973/96',
+          '**Convenção 169 OIT** (povos indígenas) — Decreto 5.051/04'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Características dos direitos fundamentais' },
+        { type: 'list', items: [
+          '**Universalidade** — destinados a todos, sem distinção',
+          '**Historicidade** — surgem em momentos históricos (não são eternos no sentido de imutáveis)',
+          '**Inalienabilidade** — em regra (com flexibilizações pontuais)',
+          '**Imprescritibilidade** — não se perdem pelo decurso do tempo',
+          '**Irrenunciabilidade** — em regra',
+          '**Indivisibilidade e interdependência** — todos são igualmente importantes',
+          '**Concorrência** — podem ser exercidos cumulativamente (liberdade + igualdade)',
+          '**Aplicabilidade imediata** (CF 5º §1º — para os do art. 5º; demais sofrem mediação legislativa)'
+        ]},
+
+        { type: 'h', text: 'Dimensões/Gerações dos DH (Bobbio/Karel Vasak)' },
+        { type: 'list', items: [
+          '**1ª dimensão** — LIBERDADES individuais (civis e políticos): direito à vida, liberdade, propriedade. Estado abstém-se',
+          '**2ª dimensão** — IGUALDADE: direitos sociais, econômicos, culturais. Estado intervém ativamente',
+          '**3ª dimensão** — FRATERNIDADE/SOLIDARIEDADE: direitos difusos (meio ambiente, paz, desenvolvimento). Coletividade',
+          '**4ª dimensão** (Paulo Bonavides) — DEMOCRACIA, informação, pluralismo. Bioética',
+          '**5ª dimensão** — PAZ (Bonavides). Algumas obras incluem cibersegurança e direitos digitais'
+        ]},
+
+        { type: 'h', text: 'Hierarquia dos tratados de DH no Brasil' },
+        { type: 'p', text: 'STF (RE 466.343, 2008) consolidou:' },
+        { type: 'list', items: [
+          '**Constitucional formal** — tratados de DH aprovados pelo rito do art. 5º §3º (3/5 + 2 turnos): equivalem a EC. Hoje: **Convenção de NY (PCD) — Decreto 6.949/09** e Tratado de Marraquexe (cegos)',
+          '**SUPRALEGAL** — demais tratados de DH: acima da lei, abaixo da CF (status majoritário)',
+          '**Legal** — tratados internacionais não-DH (regulamentados por lei ordinária)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 466.343 (2008):** caso da prisão civil do depositário infiel. STF declarou a impossibilidade da prisão por força da CADH (supralegal) — afastando a regra do art. 5º LXVII CF. Aplicação prática da TEORIA DO DIÁLOGO DAS FONTES e do controle de convencionalidade.' },
+
+        { type: 'h', text: 'Mínimo existencial × reserva do possível' },
+        { type: 'p', text: '**MÍNIMO EXISTENCIAL** — núcleo dos direitos fundamentais que NÃO PODE ser limitado por argumentos econômicos. Inclui educação básica, saúde mínima, moradia, alimentação. STF — Tema 793: judicialização da saúde para medicamentos não-padronizados.' },
+        { type: 'p', text: '**RESERVA DO POSSÍVEL** — limite fático: o Estado só pode realizar o que é possível dentro de seus recursos. NÃO É argumento absoluto — pode ser superada para garantir o mínimo existencial. STF (caso da Apae - ADI 4.022 / ADPF 45 - cunho ordenatório) reconhece, mas com limites.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 45 (e jurisprudência derivada):** reserva do possível é argumento de defesa do Estado, mas não exime a garantia do MÍNIMO EXISTENCIAL. Direitos fundamentais sociais comportam intervenção judicial.' },
+
+        { type: 'h', text: 'Eficácia horizontal dos direitos fundamentais' },
+        { type: 'p', text: 'Os direitos fundamentais aplicam-se também nas RELAÇÕES PRIVADAS (entre particulares), não apenas Estado × cidadão. Tese consolidada (STF — RE 201.819, caso da expulsão de associado da União Brasileira de Compositores). Particulares devem respeitar contraditório, ampla defesa, dignidade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 201.819 (2005):** eficácia horizontal dos direitos fundamentais. Associação privada deve assegurar ampla defesa e contraditório nos PADs internos. Marco no Brasil.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**5 dimensões dos DH (Bonavides):** **L**iberdades · **I**gualdade · **F**raternidade · **D**emocracia · **P**az. Mnemônico **LIFDP**.' },
+        { type: 'box', kind: 'macete', text: '**Hierarquia tratados de DH:** Constitucional formal (rito EC art. 5º §3º) > SUPRALEGAL (regra após RE 466.343) > Legal.' },
+        { type: 'box', kind: 'macete', text: '**Tratado com status constitucional FORMAL:** Convenção de NY (PCD) — Decreto 6.949/09. Tratado de Marraquexe (cegos).' },
+        { type: 'box', kind: 'macete', text: '**Mínimo existencial > reserva do possível.** Estado não pode alegar custos para suprimir direitos básicos.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Direitos humanos × fundamentais — não confundir.** DH = plano internacional. FUNDAMENTAIS = positivados na CF. Há sobreposição mas distinção doutrinária.' },
+        { type: 'box', kind: 'atencao', text: '**CADH (Pacto de São José) é SUPRALEGAL** (RE 466.343). Não tem status constitucional formal (não foi aprovada pelo rito do art. 5º §3º).' },
+        { type: 'box', kind: 'atencao', text: '**Convenção de NY (PCD) é a ÚNICA com status constitucional formal indiscutível** + Tratado de Marraquexe (mais recente).' },
+        { type: 'box', kind: 'atencao', text: '**Eficácia horizontal: STF reconhece**. Direitos fundamentais aplicam-se entre particulares (não só Estado).' },
+        { type: 'box', kind: 'atencao', text: '**Aplicação imediata (CF 5º §1º) — vale apenas para o art. 5º?** Predominante: vale para TODOS os direitos fundamentais (incluindo sociais), com mediação legislativa quando necessária.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** este tópico é a BASE constitucional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 8 (SIDH):** SIDH é subsistema regional de proteção dos DH.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 4 (PCD):** Convenção de NY tem status constitucional formal — primeira EC tratado.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** Convenção sobre Direitos da Criança internalizada.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-02-eca', num: 2, materia: 'colmat', title: 'ECA — Estatuto da Criança e do Adolescente', edital: '4.1.2', editalText: 'Lei 8.069/90. Direitos fundamentais, medidas protetivas, ato infracional.', size: 'Grande', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — atendimento à infância).', outline: ['Princípios (proteção integral, prioridade absoluta)', 'Direitos fundamentais (vida, saúde, educação, convivência)', 'Família natural × extensa × substituta (guarda, tutela, adoção)', 'Adoção (Lei 12.010/09)', 'Medidas protetivas (art. 101)', 'Ato infracional e medidas socioeducativas (SINASE — Lei 12.594/12)', 'Sistema de Justiça da Infância (Conselho Tutelar, Vara)', 'Crimes do ECA'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **ECA — Estatuto da Criança e do Adolescente** (Lei 8.069/90) é o marco jurídico mais avançado do Brasil em proteção à infância e juventude. Concretiza o art. 227 da CF/88, que estabelece o **PRINCÍPIO DA PRIORIDADE ABSOLUTA** dos direitos da criança e do adolescente — primeiro a serem atendidos no que diz respeito à proteção, primeiro a receberem socorro em situações de risco, primeiro nos planejamentos públicos.' },
+        { type: 'p', text: 'O ECA rompeu com a doutrina da SITUAÇÃO IRREGULAR (Código de Menores de 1979) e adotou a **DOUTRINA DA PROTEÇÃO INTEGRAL** — toda criança e adolescente é sujeito de direitos, e não objeto de tutela. Conceitos centrais: CRIANÇA (até 12 anos incompletos), ADOLESCENTE (12 a 18). Adultos jovens (18-21) podem ser destinatários de algumas medidas socioeducativas em curso (Súmula 605 STJ).' },
+        { type: 'p', text: 'Para a **Analista MP** lotada em Promotoria da Infância, este é o tópico do dia a dia. Atendimento em Conselho Tutelar, ações de destituição do poder familiar, adoção, ato infracional, medidas protetivas — tudo regulado pelo ECA. É VANTAGEM DIRETA da candidata.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 227 + ECA — princípios fundamentais' },
+        { type: 'list', items: [
+          '**CF art. 227** — dever da família, sociedade e Estado de assegurar, com PRIORIDADE ABSOLUTA, os direitos fundamentais da criança e do adolescente',
+          '**CF art. 228** — inimputabilidade dos menores de 18 anos (sujeitos às normas da legislação especial)',
+          '**ECA art. 1º** — dispõe sobre a proteção integral',
+          '**ECA art. 2º** — criança (até 12 incompletos) · adolescente (12 a 18)',
+          '**ECA art. 3º** — gozam de todos os direitos fundamentais inerentes à pessoa humana, sem prejuízo da proteção integral',
+          '**ECA art. 4º** — prioridade absoluta + dever solidário (família, sociedade, Estado)',
+          '**ECA art. 5º** — vedação à discriminação',
+          '**ECA art. 6º** — interpretação favorável aos fins sociais (regra hermenêutica)'
+        ]},
+        { type: 'h', text: 'Direitos fundamentais (ECA arts. 7º-69)' },
+        { type: 'list', items: [
+          '**Vida e saúde** (arts. 7º-14) — incluindo atendimento gratuito ao parto, vacinação, atendimento prioritário no SUS',
+          '**Liberdade, respeito e dignidade** (arts. 15-18-B) — proibição de castigos físicos (Lei Menino Bernardo — 13.010/14)',
+          '**Convivência familiar e comunitária** (arts. 19-52-D) — família NATURAL · EXTENSA (parentes próximos) · SUBSTITUTA (guarda, tutela, adoção)',
+          '**Educação, cultura, esporte e lazer** (arts. 53-59)',
+          '**Profissionalização e proteção ao trabalho** (arts. 60-69) — vedação ao trabalho do menor de 14, ressalvada aprendizagem'
+        ]},
+        { type: 'h', text: 'Família substituta (arts. 28-52)' },
+        { type: 'list', items: [
+          '**Guarda** (arts. 33-35) — não rompe poder familiar; medida temporária ou definitiva',
+          '**Tutela** (arts. 36-38) — pressupõe perda/suspensão do poder familiar',
+          '**Adoção** (arts. 39-52-D + Lei 12.010/09 — "Lei da Adoção") — irrevogável, com vínculo de filiação',
+          '**SNA** (Sistema Nacional de Adoção) — cadastros nacional/estaduais (Res. CNJ 289)'
+        ]},
+        { type: 'h', text: 'Ato infracional e medidas socioeducativas (arts. 103-128)' },
+        { type: 'list', items: [
+          '**Art. 103** — ato infracional = conduta descrita como crime ou contravenção penal',
+          '**Art. 105** — criança (até 12 anos) que comete ato infracional → MEDIDAS DE PROTEÇÃO (art. 101)',
+          '**Art. 112** — medidas socioeducativas: advertência · obrigação de reparar dano · prestação de serviços · liberdade assistida · semiliberdade · INTERNAÇÃO',
+          '**Internação (art. 122)** — só em 3 hipóteses TAXATIVAS: (I) ato infracional com violência ou grave ameaça; (II) reiteração na prática de outras infrações graves; (III) descumprimento reiterado de outra medida',
+          '**Lei 12.594/12 (SINASE)** — Sistema Nacional de Atendimento Socioeducativo'
+        ]},
+        { type: 'h', text: 'Sistema de Justiça da Infância' },
+        { type: 'list', items: [
+          '**Conselho Tutelar** (arts. 131-140) — órgão municipal · 5 membros eleitos · não jurisdicional',
+          '**Vara da Infância** (art. 145) — competência ampla',
+          '**MP da Infância** (art. 200) — atribuições específicas: ACP, IC, ações de destituição de poder familiar, fiscalização de instituições',
+          '**Defensoria Pública da Infância**'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Doutrina da Proteção Integral × Situação Irregular' },
+        { type: 'p', text: 'Antes do ECA (1990) vigorou o **Código de Menores** (Lei 6.697/79), que adotava a DOUTRINA DA SITUAÇÃO IRREGULAR — o Estado intervinha apenas quando a criança/adolescente estava em "situação irregular" (abandono, infração). O paradigma era OBJETUAL: o menor era OBJETO de tutela.' },
+        { type: 'p', text: 'O ECA rompe radicalmente: TODA criança e adolescente, mesmo "em situação regular", é SUJEITO de direitos (PROTEÇÃO INTEGRAL). Mudança paradigmática derivada da **Convenção sobre os Direitos da Criança da ONU (1989)**, internalizada pelo Decreto 99.710/90.' },
+
+        { type: 'h', text: 'Princípio da prioridade absoluta (CF 227)' },
+        { type: 'p', text: 'Não é mero topos retórico — tem consequências concretas: (a) PRIMAZIA na proteção; (b) ATENDIMENTO PRIORITÁRIO em serviços públicos; (c) PREFERÊNCIA na formulação e execução de políticas; (d) DESTINAÇÃO PRIVILEGIADA de recursos públicos. Decorrências práticas no orçamento, na fila do SUS, no atendimento policial.' },
+
+        { type: 'h', text: 'Adoção (Lei 12.010/09)' },
+        { type: 'list', items: [
+          '**IRREVOGÁVEL** (art. 39 §1º)',
+          'Atribui condição de FILHO ao adotando, com os mesmos direitos e deveres dos demais filhos (art. 41)',
+          'Idade do adotante: maior de 18 anos, com diferença de 16 anos do adotando (art. 42)',
+          '**Cadastros**: art. 50 estabelece o CADASTRO NACIONAL DE ADOÇÃO — adoção dirigida só em hipóteses excepcionais',
+          '**Adoção à brasileira** — registro de filho de outrem como próprio. CRIME (CP art. 242). Mas o STJ entende possível regularização posterior em alguns casos (parentalidade socioafetiva)'
+        ]},
+
+        { type: 'h', text: 'Ato infracional e medidas socioeducativas' },
+        { type: 'p', text: 'Criança (até 12 incompletos) que comete ato infracional → MEDIDAS DE PROTEÇÃO (art. 101). Não se aplicam medidas socioeducativas. Adolescente (12 a 18) que comete ato infracional → MEDIDAS SOCIOEDUCATIVAS (art. 112).' },
+        { type: 'p', text: '**Internação** é medida EXCEPCIONAL — só nos 3 casos do art. 122 (taxativos). Tempo máximo de internação: 3 anos (art. 121 §3º). Aos 21 anos, há liberação compulsória (art. 121 §5º). Súmula 492 STJ: "O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição da medida socioeducativa de internação".' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 492:** "O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição da medida socioeducativa de internação do adolescente." Internação é exceção — aplica-se o princípio da brevidade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 605:** "A superveniência da maioridade penal não interfere na apuração de ato infracional nem na aplicabilidade de medida socioeducativa em curso, inclusive na liberdade assistida, enquanto não atingida a idade de 21 anos."' },
+
+        { type: 'h', text: 'Atribuições do MP no ECA (art. 200)' },
+        { type: 'list', items: [
+          'Promover ACP em defesa dos direitos coletivos da infância',
+          'Promover destituição do poder familiar',
+          'Atuar como custos legis em todos os processos de interesse de criança/adolescente',
+          'Inspecionar entidades de atendimento',
+          'Promover apuração de ato infracional (representação)',
+          'Recomendar e celebrar TAC com entidades de atendimento'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Criança = até 12 incompletos · Adolescente = 12 a 18.** ECA art. 2º.' },
+        { type: 'box', kind: 'macete', text: '**Doutrina da PROTEÇÃO INTEGRAL** (ECA) × Doutrina da Situação Irregular (Código de Menores 1979).' },
+        { type: 'box', kind: 'macete', text: '**3 hipóteses TAXATIVAS para internação (art. 122):** **V**iolência ou grave ameaça · **R**eiteração de infrações graves · **D**escumprimento reiterado de medida.' },
+        { type: 'box', kind: 'macete', text: '**Família substituta — GTA: Guarda · Tutela · Adoção.** Adoção = irrevogável.' },
+        { type: 'box', kind: 'macete', text: '**Súmulas STJ-chave: 492 (tráfico ≠ internação automática) e 605 (maioridade não cessa medida).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Adoção é IRREVOGÁVEL** (ECA art. 39 §1º). Diferente de guarda e tutela, que podem ser revogadas.' },
+        { type: 'box', kind: 'atencao', text: '**Internação só em 3 hipóteses TAXATIVAS do art. 122.** Tráfico de drogas SOZINHO não autoriza (Súmula 492 STJ).' },
+        { type: 'box', kind: 'atencao', text: '**Maioridade penal não cessa medida socioeducativa em curso até os 21 anos** (Súmula 605 STJ + ECA art. 121 §5º).' },
+        { type: 'box', kind: 'atencao', text: '**Conselho Tutelar é órgão MUNICIPAL e NÃO JURISDICIONAL.** Não substitui o Judiciário — atua administrativamente.' },
+        { type: 'box', kind: 'atencao', text: '**Adoção à brasileira é CRIME** (CP art. 242), mas STJ admite eventual regularização por parentalidade socioafetiva em casos específicos.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** Convenção sobre Direitos da Criança é o substrato internacional do ECA.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civ 15-16 (família):** poder familiar, guarda, adoção, alimentos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13 (legislação especial):** crimes do ECA (arts. 228+).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP do ECA tutela direitos coletivos da infância.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** ECA art. 200 dá atribuições específicas ao MP.' }
+      ]
+    }
+  ] },
   { id: 'colmat-03-estatuto-idoso', num: 3, materia: 'colmat', title: 'Estatuto do Idoso e Estatuto da Pessoa Idosa', edital: '4.1.3', editalText: 'Lei 10.741/03 (atual Estatuto da Pessoa Idosa). Direitos, prioridade, tutela.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios e direitos fundamentais', 'Prioridade absoluta', 'Atendimento à saúde (SUS)', 'BPC/LOAS', 'Violência contra pessoa idosa', 'Crimes do estatuto', 'Medidas protetivas e atuação do MP'], sections: [] },
   { id: 'colmat-04-pessoa-com-deficiencia', num: 4, materia: 'colmat', title: 'Pessoa com Deficiência (Lei 13.146/15)', edital: '4.1.4', editalText: 'LBI. Convenção de NY (status de EC). Capacidade civil. Acessibilidade.', size: 'Médio', schedule: null, advantage: null, outline: ['Convenção de NY (Decreto 6.949/09 — status de EC)', 'Lei 13.146/15 (LBI)', 'Capacidade civil (alterações no CC arts. 3º e 4º)', 'Tomada de decisão apoiada (CC art. 1.783-A)', 'Curatela compartilhada', 'Acessibilidade', 'Inclusão escolar e profissional', 'BPC à PCD'], sections: [] },
   { id: 'colmat-05-educacao', num: 5, materia: 'colmat', title: 'Educação', edital: '4.1.5', editalText: 'CF arts. 205-214. LDB (9.394/96). FUNDEB. Educação especial e inclusiva.', size: 'Médio', schedule: null, advantage: null, outline: ['Direito à educação (CF arts. 205-214)', 'LDB (Lei 9.394/96)', 'FUNDEB (EC 108/20)', 'Educação especial e inclusiva', 'Vagas em creche — direito subjetivo (STJ Tema 548)', 'Educação domiciliar', 'Atuação do MP (vagas, reserva de vagas, acompanhamento)'], sections: [] },
@@ -6524,8 +6753,190 @@ topics: [
       ]
     }
   ] },
-  { id: 'colproc-04-mandado-seguranca-coletivo', num: 4, materia: 'colproc', title: 'Mandado de Segurança Coletivo', edital: '4.2.4', editalText: 'CF art. 5º LXX. Lei 12.016/09. Legitimados, prazo, coisa julgada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['CF art. 5º LXX', 'Lei 12.016/09', 'Legitimados (partido com representação, organização sindical, entidade de classe, associação)', 'Direito líquido e certo', 'Coisa julgada (Súmula 333 STJ)', 'Pertinência temática'], sections: [] },
-  { id: 'colproc-05-mi-adpf', num: 5, materia: 'colproc', title: 'Mandado de Injunção e ADPF', edital: '4.2.5', editalText: 'Lei 13.300/16. Lei 9.882/99. Subsidiariedade. Legitimados.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Mandado de Injunção (CF art. 5º LXXI; Lei 13.300/16)', 'MI individual e coletivo', 'Eficácia da decisão (corrente concretista geral × intermediária)', 'ADPF — Lei 9.882/99', 'Subsidiariedade (CF art. 102 §1º)', 'Legitimados (CF art. 103)'], sections: [] },
+  { id: 'colproc-04-mandado-seguranca-coletivo', num: 4, materia: 'colproc', title: 'Mandado de Segurança Coletivo', edital: '4.2.4', editalText: 'CF art. 5º LXX. Lei 12.016/09. Legitimados, prazo, coisa julgada.', size: 'Pequeno', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Conexão com tutela coletiva.', outline: ['CF art. 5º LXX', 'Lei 12.016/09', 'Legitimados (partido com representação, organização sindical, entidade de classe, associação)', 'Direito líquido e certo', 'Coisa julgada (Súmula 333 STJ)', 'Pertinência temática'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Mandado de Segurança Coletivo** (CF art. 5º LXX; Lei 12.016/09 arts. 21-22) é a versão coletivizada do MS individual: ataca **ato de autoridade ilegal ou abusivo de poder** que viole DIREITO LÍQUIDO E CERTO, mas em escala COLETIVA. Está expressamente previsto na CF/88 — inovação institucional importante.' },
+        { type: 'p', text: 'Por ser **REMÉDIO CONSTITUCIONAL**, herda as características do MS individual: prazo de 120 dias (decadencial), exigência de prova pré-constituída (não admite dilação probatória), legitimidade passiva da autoridade coatora. Mas se diferencia na LEGITIMIDADE ATIVA: rol restrito à **CF art. 5º LXX** (partidos políticos com representação no Congresso · organizações sindicais · entidades de classe · associações).' },
+        { type: 'p', text: 'A tutela em MS Coletivo é típica de **direitos coletivos *stricto sensu*** (titulares determináveis, ligados por relação jurídica base) e **individuais homogêneos** dos integrantes do grupo. Direitos DIFUSOS, em regra, não são objeto de MS — para esses, a via é a ACP.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 5º LXX' },
+        { type: 'list', items: [
+          'O mandado de segurança COLETIVO pode ser impetrado por:',
+          '**a)** partido político com representação no Congresso Nacional',
+          '**b)** organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos 1 ano, em defesa dos interesses de seus membros ou associados'
+        ]},
+        { type: 'h', text: 'Lei 12.016/09 (LMS) — arts. 21-22' },
+        { type: 'list', items: [
+          '**Art. 21** — repete a lista da CF + acrescenta: pode tutelar (a) direitos COLETIVOS, assim entendidos os transindividuais de natureza indivisível dos quais sejam titulares grupos de pessoas ligadas por uma relação jurídica básica; (b) direitos INDIVIDUAIS HOMOGÊNEOS, assim entendidos os decorrentes de origem comum',
+          '**Art. 22** — coisa julgada erga omnes, limitada aos membros do grupo/categoria, sem prejuízo de mandados de segurança individuais',
+          '**Art. 22 §1º** — MS coletivo NÃO induz litispendência para o MS individual; mas o impetrante INDIVIDUAL deve requerer DESISTÊNCIA em 30 dias se quiser se beneficiar da decisão coletiva',
+          '**Art. 22 §2º** — liminar coletiva: oitiva PRÉVIA do representante judicial da PJ de direito público (regra)',
+          '**Art. 23** — prazo decadencial: 120 dias da ciência do ato impugnado'
+        ]},
+        { type: 'h', text: 'Outras normas relevantes' },
+        { type: 'list', items: [
+          '**CF art. 5º LXIX** — MS individual (base constitucional)',
+          '**Súmula 629 STF** — "A impetração de MS coletivo por entidade de classe em favor dos associados independe da autorização destes."',
+          '**Súmula 630 STF** — "A entidade de classe tem legitimação para o MS ainda quando a pretensão veiculada interesse apenas a uma parte da respectiva categoria."',
+          '**Súmula 333 STJ** — "Cabe MS contra ato praticado em licitação promovida por sociedade de economia mista ou empresa pública."'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Legitimidade ativa — rol TAXATIVO (CF 5º LXX)' },
+        { type: 'p', text: 'Lista CONSTITUCIONAL — não admite ampliação por lei. Quatro entes: (1) partido político com representação no CN; (2) organização sindical; (3) entidade de classe; (4) associação. Os 3 últimos exigem **constituição há ao menos 1 ano**. Para partidos, basta ter 1 representante (Senador ou Deputado Federal) no momento da impetração.' },
+        { type: 'p', text: '**Pertinência temática** — para sindicatos, entidades de classe e associações, a impetração deve ser em DEFESA DOS INTERESSES DOS MEMBROS (Súmula 630 STF: pode ser apenas parte da categoria, não precisa ser todos). Para partidos, há controvérsia — STF tende a admitir tutela ampla (não restrita a temas partidários).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 629:** "A impetração de MS coletivo por entidade de classe em favor dos associados INDEPENDE DA AUTORIZAÇÃO DESTES." Diferente da ACP por associação (que precisa de autorização — STF Tema 499).' },
+
+        { type: 'h', text: 'Direito líquido e certo' },
+        { type: 'p', text: 'Não admite dilação probatória — exige PROVA PRÉ-CONSTITUÍDA. Toda matéria fática deve estar documentada com a impetração. Diferente da ACP, em que pode haver ampla instrução probatória. Limita-se a casos onde os fatos são incontestes ou demonstráveis documentalmente.' },
+
+        { type: 'h', text: 'Objeto — direitos coletivos e individuais homogêneos' },
+        { type: 'p', text: 'Lei 12.016/09 art. 21 § único limitou expressamente: MS Coletivo tutela COLETIVOS (transindividuais indivisíveis, com relação jurídica base) e INDIVIDUAIS HOMOGÊNEOS. **NÃO TUTELA DIFUSOS** (titulares indetermináveis ligados por circunstância de fato). Inovação restritiva — antes a doutrina aceitava também difusos.' },
+        { type: 'box', kind: 'atencao', text: '**Pegadinha:** MS Coletivo NÃO tutela DIFUSOS. Para difusos, a via é a ACP. Banca cobra essa nuance específica da Lei 12.016/09.' },
+
+        { type: 'h', text: 'Coisa julgada (Lei 12.016/09 art. 22)' },
+        { type: 'p', text: 'Coisa julgada **ERGA OMNES**, mas limitada aos membros do grupo/categoria/classe. NÃO prejudica MS individuais — daí o §1º exigir que o impetrante individual desista em 30 dias se quiser se beneficiar do coletivo. Sistema de "opt-out" reverso: você está fora a menos que se inscreva.' },
+
+        { type: 'h', text: 'Prazo decadencial — 120 dias' },
+        { type: 'p', text: 'Aplicável também ao MS Coletivo (Lei 12.016/09 art. 23). Conta-se da CIÊNCIA do ato impugnado. É DECADENCIAL — não admite suspensão nem interrupção. Se há ato CONTINUADO (omissão da Administração que persiste no tempo), o prazo se renova diariamente.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 legitimados ao MS Coletivo (CF 5º LXX):** Partido com representação no CN · Sindicato · Entidade de classe · Associação (1 ano).' },
+        { type: 'box', kind: 'macete', text: '**MS Coletivo tutela COLETIVOS e INDIVIDUAIS HOMOGÊNEOS — NÃO difusos.** Para difusos = ACP.' },
+        { type: 'box', kind: 'macete', text: '**Não precisa autorização dos associados** (Súmula 629 STF). Diferente da ACP por associação.' },
+        { type: 'box', kind: 'macete', text: '**Prazo: 120 dias decadenciais** da ciência do ato (Lei 12.016/09 art. 23).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MS Coletivo NÃO tutela DIREITOS DIFUSOS** (Lei 12.016/09 art. 21 § único). Para difusos = ACP.' },
+        { type: 'box', kind: 'atencao', text: '**Partido SEM representação no CN não pode impetrar MS Coletivo** (CF 5º LXX "a"). Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Associação precisa estar constituída há ao menos 1 ANO** (idêntico à ACP — LACP art. 5º V "a"). Pegadinha: candidato pensa que requisito é distinto.' },
+        { type: 'box', kind: 'atencao', text: '**Súmula 629 STF: dispensa autorização dos associados.** Diferente da ACP — nesta, o STF Tema 499 (RE 612.043) entende ser necessária autorização prévia.' },
+        { type: 'box', kind: 'atencao', text: '**MS Coletivo NÃO induz litispendência para MS individual** (Lei 12.016/09 art. 22 §1º). Mas o impetrante individual deve requerer desistência em 30 dias para aproveitar a decisão coletiva.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** MS Coletivo integra o microssistema processual coletivo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MS Coletivo é remédio análogo, mas restrito a ato de autoridade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** MS é remédio constitucional do art. 5º LXIX/LXX.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PC 19 (MS, MI, individuais):** MS individual é a base normativa do coletivo.' }
+      ]
+    }
+  ] },
+  { id: 'colproc-05-mi-adpf', num: 5, materia: 'colproc', title: 'Mandado de Injunção e ADPF', edital: '4.2.5', editalText: 'Lei 13.300/16. Lei 9.882/99. Subsidiariedade. Legitimados.', size: 'Pequeno', schedule: 'Mês 6 — vantagem da candidata', advantage: null, outline: ['Mandado de Injunção (CF art. 5º LXXI; Lei 13.300/16)', 'MI individual e coletivo', 'Eficácia da decisão (corrente concretista geral × intermediária)', 'ADPF — Lei 9.882/99', 'Subsidiariedade (CF art. 102 §1º)', 'Legitimados (CF art. 103)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Mandado de Injunção** (CF art. 5º LXXI; Lei 13.300/16) e a **ADPF — Arguição de Descumprimento de Preceito Fundamental** (CF art. 102 §1º; Lei 9.882/99) são institutos com escopos distintos, mas ambos voltados à efetivação de garantias constitucionais. Compartilham a ideia de **TUTELA DIFUSA** (não-individual) e relação direta com o STF (no caso da ADPF) ou tribunal competente (no MI).' },
+        { type: 'p', text: '**MI** combate a **OMISSÃO LEGISLATIVA** que torne inviável o exercício de direitos e liberdades constitucionais. **ADPF** ataca **ato do Poder Público** que cause lesão a PRECEITO FUNDAMENTAL — é instrumento subsidiário (cabe quando não há outro meio eficaz).' },
+        { type: 'p', text: 'Para o MP, ambos são instrumentos relevantes: o MI aparece em casos de greve do servidor público (greve no setor público é direito constitucional pendente de regulação — STF MI 670/708/712 deu eficácia normativa direta), enquanto a ADPF é alternativa ao controle concentrado de constitucionalidade quando ADI/ADC não cabem.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Mandado de Injunção (CF art. 5º LXXI; Lei 13.300/16)' },
+        { type: 'list', items: [
+          '**CF art. 5º LXXI** — concede-se MI sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania',
+          '**Lei 13.300/16 art. 2º** — MI individual: cabível à pessoa que se afirme titular dos direitos cuja efetivação dependa de norma regulamentadora cuja ausência é apontada',
+          '**Lei 13.300/16 art. 12** — MI COLETIVO: legitimados (MP, partido com representação no CN, organização sindical, entidade de classe, associação, Defensoria Pública)',
+          '**Art. 8º** — decisão concretista: STF reconhece o direito e DETERMINA conduta a ser observada (corrente concretista geral)',
+          '**Art. 9º** — eficácia: ENTRE AS PARTES (em regra, ressalvada a possibilidade de ampliação)',
+          '**Art. 10** — pode ser fixado prazo para o legislador suprir a omissão'
+        ]},
+        { type: 'h', text: 'ADPF (CF art. 102 §1º; Lei 9.882/99)' },
+        { type: 'list', items: [
+          '**CF art. 102 §1º** — ADPF perante o STF, na forma da lei',
+          '**Lei 9.882/99 art. 1º** — objeto: evitar ou reparar lesão a PRECEITO FUNDAMENTAL (decorrente de ato do Poder Público)',
+          '**Art. 1º § único I** — também cabe quando relevante o fundamento da controvérsia constitucional sobre LEI OU ATO NORMATIVO FEDERAL, ESTADUAL OU MUNICIPAL, INCLUSIVE OS ANTERIORES À CF',
+          '**Art. 2º** — legitimados: os mesmos da ADI (CF art. 103) — nove autoridades/órgãos',
+          '**Art. 4º §1º** — SUBSIDIARIEDADE: não cabe ADPF se há outro meio eficaz de sanar a lesividade',
+          '**Art. 10** — efeitos: erga omnes · vinculante · ex tunc (regra)'
+        ]},
+        { type: 'h', text: 'Legitimados ADI/ADC/ADPF (CF art. 103)' },
+        { type: 'list', items: [
+          '**I** — Presidente da República',
+          '**II** — Mesa do Senado',
+          '**III** — Mesa da Câmara dos Deputados',
+          '**IV** — Mesa de Assembleia Legislativa ou da Câmara Legislativa do DF',
+          '**V** — Governador de Estado ou do DF',
+          '**VI** — Procurador-Geral da República',
+          '**VII** — Conselho Federal da OAB',
+          '**VIII** — partido político com representação no Congresso Nacional',
+          '**IX** — confederação sindical ou entidade de classe de âmbito nacional'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'MI — correntes sobre eficácia da decisão' },
+        { type: 'p', text: 'Historicamente, três correntes sobre o efeito do MI:' },
+        { type: 'list', items: [
+          '**NÃO-CONCRETISTA** (clássica): STF apenas DECLARAVA a omissão e comunicava ao Congresso. Resultado: pouco efetivo (ineficaz)',
+          '**CONCRETISTA INDIVIDUAL**: STF resolve para o caso concreto (entre as partes), sem efeito erga omnes',
+          '**CONCRETISTA GERAL**: STF resolve com efeito erga omnes — supre a omissão legislativa para todos'
+        ]},
+        { type: 'p', text: 'O **STF e a Lei 13.300/16** consolidaram a corrente CONCRETISTA INDIVIDUAL como REGRA (art. 9º), com possibilidade de ampliação (corrente concretista geral) em casos excepcionais. Marco histórico: **MI 670, 708 e 712 (Tema 41/STF)** — direito de greve do servidor público — STF aplicou ANALOGICAMENTE a Lei 7.783/89 (greve da iniciativa privada), com eficácia GERAL.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — MI 670 (Tema 41):** STF supriu a omissão do CN sobre direito de greve do servidor público, aplicando por analogia a Lei 7.783/89. Marco da virada concretista no STF.' },
+
+        { type: 'h', text: 'ADPF — subsidiariedade' },
+        { type: 'p', text: 'A SUBSIDIARIEDADE (Lei 9.882/99 art. 4º §1º) é princípio FUNDAMENTAL. ADPF não cabe se houver OUTRO MEIO EFICAZ de sanar a lesividade — é instrumento de RESERVA. Tipicamente, cabe ADPF quando ADI ou ADC não são possíveis (ex.: lei municipal, ato pré-constitucional, descumprimento por ato administrativo).' },
+        { type: 'p', text: 'STF tem **mitigado** a subsidiariedade — entende que a existência teórica de outros meios não obsta o conhecimento da ADPF se o STF reputar mais eficaz para resolver a controvérsia. Caso clássico: **ADPF 132 e ADI 4.277** (união homoafetiva) — STF conheceu da ADPF e da ADI conjuntamente.' },
+
+        { type: 'h', text: 'ADPF — objeto ampliado' },
+        { type: 'p', text: 'Diferente da ADI/ADC (que combatem leis ou atos normativos federais ou estaduais), a ADPF tem objeto MUITO MAIS AMPLO: pode atacar qualquer ATO DO PODER PÚBLICO, federal/estadual/municipal/distrital, incluindo atos pré-constitucionais (Lei 9.882/99 art. 1º § único I). É a única via para atacar lei MUNICIPAL pelo controle concentrado.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 187:** declarou inconstitucional a interpretação de tipos penais que criminalizavam a "marcha da maconha" (manifestação política). Demonstra a amplitude do instrumento.' },
+
+        { type: 'h', text: 'Efeitos vinculantes e modulação' },
+        { type: 'p', text: 'ADPF tem efeitos **erga omnes** e **vinculantes** (Lei 9.882/99 art. 10). STF pode MODULAR efeitos (Lei 9.868/99 art. 27 aplicável por analogia). MI tem eficácia ENTRE AS PARTES (regra), mas pode ser ampliada para erga omnes em casos relevantes (corrente concretista geral).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**MI = OMISSÃO legislativa.** ADPF = ATO do Poder Público lesivo a preceito fundamental.' },
+        { type: 'box', kind: 'macete', text: '**ADPF = SUBSIDIÁRIA** (cabe quando não há outro meio eficaz). ADI/ADC têm objeto mais restrito (lei/ato normativo federal ou estadual).' },
+        { type: 'box', kind: 'macete', text: '**ADPF é a ÚNICA via concentrada para LEI MUNICIPAL e ato PRÉ-constitucional.**' },
+        { type: 'box', kind: 'macete', text: '**Legitimados ADI/ADC/ADPF: 9 (CF 103).** Mesma lista para os 3 instrumentos.' },
+        { type: 'box', kind: 'macete', text: '**MI: corrente concretista INDIVIDUAL é REGRA (Lei 13.300, art. 9º). Geral é EXCEÇÃO** (casos relevantes — STF MI 670 sobre greve).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MS é remédio para ato lesivo a direito líquido e certo. MI é remédio para OMISSÃO legislativa que inviabilize o exercício.** Não confundir.' },
+        { type: 'box', kind: 'atencao', text: '**MI Coletivo tem legitimados PRÓPRIOS (Lei 13.300 art. 12)** — incluindo MP e Defensoria. Não é o mesmo rol da CF 5º LXX (que é só do MS).' },
+        { type: 'box', kind: 'atencao', text: '**ADPF NÃO requer autorização legislativa** — cabe diretamente. Subsidiariedade ≠ inadmissibilidade.' },
+        { type: 'box', kind: 'atencao', text: '**Decisão em MI individual em regra produz efeitos ENTRE AS PARTES** (Lei 13.300 art. 9º). Erga omnes é exceção justificada.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** ADPF é instrumento do controle concentrado.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 4 (MS Coletivo):** instrumentos correlatos para tutela coletiva.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** MI tutela direitos pendentes de regulamentação.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (servidores):** direito de greve do servidor — caso histórico de MI (STF MI 670).' }
+      ]
+    }
+  ] },
   { id: 'colproc-06-tac-extrajudicial', num: 6, materia: 'colproc', title: 'TAC e atuação extrajudicial', edital: '4.2.6', editalText: 'Termo de Ajustamento de Conduta. Inquérito Civil. Recomendação. Audiência pública.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — instrumentos do dia a dia institucional).', outline: ['Inquérito Civil (Resolução CNMP 23)', 'Notícia de fato (Resolução CNMP 174)', 'Procedimento Preparatório', 'Recomendação ministerial (Resolução CNMP 164)', 'Termo de Ajustamento de Conduta (TAC) — eficácia executiva', 'Audiência pública', 'Arquivamento e revisão pelo CSMP'], sections: [
     {
       h: 'Foco central',
@@ -6630,8 +7041,211 @@ topics: [
       ]
     }
   ] },
-  { id: 'colproc-07-coisa-julgada-coletiva', num: 7, materia: 'colproc', title: 'Coisa julgada coletiva, liquidação e execução', edital: '4.2.7', editalText: 'Coisa julgada secundum eventum litis e probationis. Liquidação e execução individual.', size: 'Médio', schedule: null, advantage: null, outline: ['Coisa julgada secundum eventum litis (LACP + CDC art. 103)', 'Coisa julgada secundum eventum probationis', 'Limites territoriais (Tema 1075 STF — superação Súmula 401)', 'Liquidação coletiva e individual', 'Execução individual (CDC art. 97)', 'Fluid recovery (CDC art. 100)'], sections: [] },
-  { id: 'colproc-08-sistema-interamericano', num: 8, materia: 'colproc', title: 'Sistema Interamericano de Direitos Humanos', edital: '4.2.8', editalText: 'CIDH. Corte IDH. Pacto de São José. Controle de convencionalidade.', size: 'Médio', schedule: null, advantage: null, outline: ['Estrutura do SIDH (OEA, CIDH, Corte IDH)', 'Pacto de São José (Decreto 678/92)', 'Petições individuais à CIDH', 'Casos contenciosos na Corte IDH', 'Casos brasileiros (Damião Ximenes, Maria da Penha, Gomes Lund)', 'Controle de convencionalidade (difuso e concentrado)', 'Corte IDH e dever de adequação interna'], sections: [] }
+  { id: 'colproc-07-coisa-julgada-coletiva', num: 7, materia: 'colproc', title: 'Coisa julgada coletiva, liquidação e execução', edital: '4.2.7', editalText: 'Coisa julgada secundum eventum litis e probationis. Liquidação e execução individual.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem (Analista MP — atua em fase de liquidação/execução).', outline: ['Coisa julgada secundum eventum litis (LACP + CDC art. 103)', 'Coisa julgada secundum eventum probationis', 'Limites territoriais (Tema 1075 STF — superação Súmula 401)', 'Liquidação coletiva e individual', 'Execução individual (CDC art. 97)', 'Fluid recovery (CDC art. 100)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **coisa julgada coletiva** opera de modo radicalmente distinto da coisa julgada clássica do processo civil individual. O sistema brasileiro adota duas técnicas inovadoras: **secundum eventum litis** (favorece os indivíduos só em caso de procedência — *in utilibus*) e **secundum eventum probationis** (improcedência por insuficiência de provas não faz coisa julgada material). Ambas decorrem da impossibilidade de prejudicar terceiros que não foram ouvidos (limite do contraditório).' },
+        { type: 'p', text: 'A **LIQUIDAÇÃO** e a **EXECUÇÃO** seguem lógicas distintas conforme a espécie do direito tutelado:' },
+        { type: 'list', items: [
+          '**DIFUSOS** — sentença genérica · execução pelo legitimado ativo · destinação ao Fundo (LACP art. 13)',
+          '**COLETIVOS *stricto sensu*** — sentença genérica · execução pelo legitimado · pode beneficiar diretamente os membros do grupo',
+          '**INDIVIDUAIS HOMOGÊNEOS** — sentença GENÉRICA (CDC art. 95) → cada vítima LIQUIDA INDIVIDUALMENTE seu prejuízo → executa contra o réu (procedimento bifásico)'
+        ]},
+        { type: 'p', text: 'A complexidade da fase de execução é o ponto mais técnico do microssistema. Para a Analista MP que acompanha cumprimento de TACs e execuções de ACPs, esses institutos são vivenciados rotineiramente.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CDC art. 103 — coisa julgada coletiva' },
+        { type: 'list', items: [
+          '**I — DIFUSOS:** coisa julgada **ERGA OMNES**, EXCETO se a demanda for julgada IMPROCEDENTE por INSUFICIÊNCIA DE PROVAS — caso em que qualquer legitimado pode propor nova ACP, com idêntico fundamento, valendo-se de nova prova',
+          '**II — COLETIVOS:** coisa julgada **ULTRA PARTES**, mas limitada ao grupo, categoria ou classe, salvo improcedência por falta de provas (mesma ressalva do inciso I)',
+          '**III — INDIVIDUAIS HOMOGÊNEOS:** coisa julgada **ERGA OMNES**, em caso de PROCEDÊNCIA, para beneficiar todas as vítimas e seus sucessores',
+          '**§1º** — efeitos da coisa julgada NÃO PREJUDICAM interesses e direitos individuais dos integrantes da coletividade. Os efeitos nos casos II e III só os atingem se procedente',
+          '**§2º** — IMPROCEDÊNCIA na ACP de individuais homogêneos NÃO impede ações INDIVIDUAIS pelos titulares — desde que não tenham intervindo como assistentes litisconsorciais (§3º — opt-in)',
+          '**§3º** — quem ingressar como assistente litisconsorcial fica vinculado à coisa julgada (negativa também)',
+          '**§4º** — aplicabilidade ampla'
+        ]},
+        { type: 'h', text: 'LACP art. 16 (modificado) e Tema 1075 STF' },
+        { type: 'list', items: [
+          'Texto legal limitava a coisa julgada erga omnes ao TERRITÓRIO do órgão prolator',
+          'Súmula 401 STJ confirmou (afastando crítica doutrinária)',
+          '**STF Tema 1075 (RE 1.101.937, 2022) — declarou INCONSTITUCIONAL essa limitação.** Hoje, coisa julgada coletiva projeta efeitos por todo o território nacional, conforme a competência do juízo'
+        ]},
+        { type: 'h', text: 'Liquidação e execução (CDC arts. 95-100)' },
+        { type: 'list', items: [
+          '**Art. 95** — em ACP de individuais homogêneos, sentença é GENÉRICA (fixa apenas a responsabilidade)',
+          '**Art. 97** — liquidação INDIVIDUAL pelas vítimas e seus sucessores',
+          '**Art. 98** — execução COLETIVA quando os legitimados promovem (somatório das liquidações individuais)',
+          '**Art. 99** — preferência da execução coletiva sobre individual no que tange à arrecadação',
+          '**Art. 100** — FLUID RECOVERY: se em 1 ano da publicação da sentença não houver liquidações individuais em número compatível, o legitimado promove a liquidação global e o produto vai ao Fundo'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Secundum eventum litis (in utilibus)' },
+        { type: 'p', text: 'A coisa julgada favorável (procedência) ESTENDE-SE ao plano individual, beneficiando os titulares dos direitos. Mas a coisa julgada DESFAVORÁVEL (improcedência) NÃO PREJUDICA o plano individual — os titulares podem ainda propor suas ações individuais. Isso decorre do contraditório: ninguém pode ser prejudicado em sua esfera por processo do qual não participou.' },
+        { type: 'p', text: '**Exceção ao secundum eventum litis:** quem INTERVÉM como ASSISTENTE LITISCONSORCIAL na ACP fica VINCULADO à coisa julgada — beneficiando-se ou prejudicando-se dela (CDC art. 103 §3º). É o mecanismo de "opt-in".' },
+
+        { type: 'h', text: 'Secundum eventum probationis' },
+        { type: 'p', text: 'A IMPROCEDÊNCIA da ACP por **INSUFICIÊNCIA DE PROVAS** NÃO faz coisa julgada material — qualquer legitimado pode propor nova ACP com novas provas. Ratio: o coletivo não pode ser prejudicado pela ineficiência probatória de um legitimado específico.' },
+        { type: 'p', text: 'Para que se aplique, o JUIZ DEVE EXPRESSAMENTE consignar que a improcedência decorreu de falta de provas. Se a improcedência for fundada em razão diversa (ausência de direito alegado), há coisa julgada material plena — não cabe nova ACP.' },
+
+        { type: 'h', text: 'STF Tema 1075 — virada histórica' },
+        { type: 'p', text: 'Antes do **RE 1.101.937 (2022)**: art. 16 LACP e Súmula 401 STJ limitavam a coisa julgada coletiva ao território do juízo. Resultado: tutela fragmentada, ineficaz em escala nacional.' },
+        { type: 'p', text: 'Após o STF: **a coisa julgada coletiva projeta-se em todo o território nacional**, conforme a COMPETÊNCIA do juízo. Justiça local: efeitos no município/comarca. Justiça estadual: no estado. Justiça federal: nacional. Reorganização significativa do microssistema.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.101.937 (Tema 1075, 2022):** "É inconstitucional o art. 16 da Lei 7.347/85, alterada pela Lei 9.494/97. A coisa julgada coletiva produz efeitos para além dos limites territoriais do órgão prolator." Superou Súmula 401/STJ.' },
+
+        { type: 'h', text: 'Liquidação e execução em individuais homogêneos' },
+        { type: 'p', text: 'Procedimento BIFÁSICO: (1) FASE COLETIVA — sentença genérica; (2) FASE INDIVIDUAL — cada vítima liquida e executa seu prejuízo. A primeira fase fixa a responsabilidade GERAL (an debeatur); a segunda fixa o quantum debeatur para cada um.' },
+        { type: 'p', text: 'Liquidação individual: pelos titulares OU sucessores (CDC art. 97). Execução coletiva: pelo legitimado original (MP, associação etc.). Se em 1 ano não houver liquidações individuais suficientes, o LEGITIMADO promove LIQUIDAÇÃO GLOBAL — fluid recovery (CDC art. 100). Produto vai ao Fundo (LACP art. 13).' },
+
+        { type: 'h', text: 'Fluid recovery (CDC art. 100)' },
+        { type: 'p', text: 'Mecanismo importado do direito americano (cy-pres doctrine). Quando a fase individual não funciona (vítimas não liquidam ou são incertas/pulverizadas demais), o LEGITIMADO promove a LIQUIDAÇÃO GLOBAL — calculando o dano causado à coletividade — e o produto é destinado ao FUNDO (FDD federal ou estaduais — LACP art. 13). Não é solução perfeita, mas evita que o réu se beneficie da inércia das vítimas.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Coisa julgada coletiva — EUE: difusos = ERGA OMNES · coletivos = ULTRA PARTES · individuais homogêneos = ERGA OMNES (procedência).**' },
+        { type: 'box', kind: 'macete', text: '**Secundum eventum litis (in utilibus):** beneficia indivíduos só em PROCEDÊNCIA. Improcedência não os prejudica.' },
+        { type: 'box', kind: 'macete', text: '**Secundum eventum probationis:** improcedência POR FALTA DE PROVAS = pode ser reapresentada com novas provas.' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 1075 (2022):** SUPEROU art. 16 LACP e Súmula 401 STJ. Coisa julgada coletiva = nacional, conforme competência.' },
+        { type: 'box', kind: 'macete', text: '**Fluid recovery: 1 ano sem liquidações individuais → legitimado liquida global → vai ao Fundo (LACP 13).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Improcedência por falta de provas NÃO faz coisa julgada material.** Mas OUTRAS razões de improcedência (mérito) FAZEM coisa julgada plena. Banca explora essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**Súmula 401 STJ está SUPERADA pelo STF Tema 1075 (2022).** Banca atualizada cobra a virada.' },
+        { type: 'box', kind: 'atencao', text: '**Quem se torna ASSISTENTE LITISCONSORCIAL fica VINCULADO** à coisa julgada coletiva (CDC art. 103 §3º) — opt-in.' },
+        { type: 'box', kind: 'atencao', text: '**Em ACP de individuais homogêneos, sentença é GENÉRICA (CDC 95).** Vítimas LIQUIDAM individualmente.' },
+        { type: 'box', kind: 'atencao', text: '**Fluid recovery: prazo de 1 ano** sem liquidações suficientes (CDC 100). Conta-se da publicação da sentença coletiva.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** princípios estruturantes da tutela coletiva.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** liquidação e execução são fase final da ACP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PC 12 (cumprimento de sentença):** procedimento individual aplicável subsidiariamente.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** regras gerais aplicáveis.' }
+      ]
+    }
+  ] },
+  { id: 'colproc-08-sistema-interamericano', num: 8, materia: 'colproc', title: 'Sistema Interamericano de Direitos Humanos', edital: '4.2.8', editalText: 'CIDH. Corte IDH. Pacto de São José. Controle de convencionalidade.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: null, outline: ['Estrutura do SIDH (OEA, CIDH, Corte IDH)', 'Pacto de São José (Decreto 678/92)', 'Petições individuais à CIDH', 'Casos contenciosos na Corte IDH', 'Casos brasileiros (Damião Ximenes, Maria da Penha, Gomes Lund)', 'Controle de convencionalidade (difuso e concentrado)', 'Corte IDH e dever de adequação interna'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Sistema Interamericano de Direitos Humanos (SIDH)** é o subsistema regional da OEA voltado à proteção dos direitos humanos no continente americano. Estruturalmente composto por DOIS órgãos centrais: **CIDH — Comissão Interamericana de Direitos Humanos** (Washington) e **Corte IDH — Corte Interamericana de Direitos Humanos** (San José da Costa Rica).' },
+        { type: 'p', text: 'O Brasil é parte da **Convenção Americana sobre Direitos Humanos** (Pacto de São José da Costa Rica) desde 1992 (Decreto 678/92) e reconheceu a JURISDIÇÃO CONTENCIOSA da Corte IDH em 1998 (Decreto Legislativo 89/98). Decisões da Corte são VINCULANTES para o Brasil — mas a execução depende de mecanismos internos.' },
+        { type: 'p', text: 'Para o MP, o SIDH é referência fundamental no controle de convencionalidade — comparação entre normas internas e tratados de DH (CADH e protocolos). Promotor não é só fiscal da ordem CONSTITUCIONAL — é também fiscal da CONVENCIONAL. Casos brasileiros emblemáticos (Damião Ximenes, Maria da Penha, Gomes Lund/Guerrilha do Araguaia) marcaram a jurisprudência.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Tratados centrais' },
+        { type: 'list', items: [
+          '**Convenção Americana sobre Direitos Humanos (CADH/Pacto de São José)** — Decreto 678/92. Direitos civis e políticos',
+          '**Protocolo de San Salvador** (1988) — Direitos econômicos, sociais e culturais. Decreto 3.321/99',
+          '**Protocolo Adicional Relativo à Abolição da Pena de Morte** (1990) — Decreto 2.754/98',
+          '**Convenção de Belém do Pará** (1994) — violência contra a mulher. Decreto 1.973/96'
+        ]},
+        { type: 'h', text: 'Estrutura do SIDH' },
+        { type: 'list', items: [
+          '**OEA** — Organização dos Estados Americanos · 35 Estados-membros · sede em Washington',
+          '**CIDH (Comissão)** — 7 comissários · independente · Washington · recebe petições individuais e estatais',
+          '**Corte IDH** — 7 juízes · San José/Costa Rica · jurisdição contenciosa e consultiva'
+        ]},
+        { type: 'h', text: 'CADH (Pacto de São José) — direitos centrais' },
+        { type: 'list', items: [
+          '**Art. 4º** — direito à vida (proibição da pena de morte para Estados-parte que já a aboliram)',
+          '**Art. 5º** — integridade pessoal (proibição absoluta da tortura)',
+          '**Art. 7º** — liberdade pessoal (devido processo, prisão regular)',
+          '**Art. 8º** — garantias judiciais (devido processo, juiz natural, ampla defesa)',
+          '**Art. 13** — liberdade de pensamento e expressão',
+          '**Art. 21** — propriedade privada (com função social)',
+          '**Art. 25** — proteção judicial (recurso efetivo)'
+        ]},
+        { type: 'h', text: 'Procedimento perante a CIDH' },
+        { type: 'list', items: [
+          '**Petição individual** — qualquer pessoa, grupo ou ONG pode peticionar',
+          'Requisitos: ESGOTAMENTO dos recursos internos · prazo de 6 meses da decisão final · não estar pendente em outro foro internacional',
+          'Etapas: admissibilidade · mérito · recomendações · eventual envio à Corte IDH'
+        ]},
+        { type: 'h', text: 'Jurisdição da Corte IDH' },
+        { type: 'list', items: [
+          '**CONTENCIOSA** — sentença vinculante. Brasil reconheceu em 1998 (DL 89/98). Apenas Estados (não particulares) figuram como réus',
+          '**CONSULTIVA** — opiniões consultivas (OC). Estados e órgãos da OEA podem solicitar interpretação da CADH'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Status hierárquico dos tratados de DH no Brasil' },
+        { type: 'p', text: '**STF — RE 466.343 (2008):** consolidou a tese da SUPRALEGALIDADE dos tratados de DH não aprovados pelo rito do art. 5º §3º da CF (rito de EC). Quatro níveis hoje:' },
+        { type: 'list', items: [
+          '**Constitucional formal** — aprovados pelo rito do art. 5º §3º (3/5 + 2 turnos): Convenção de NY (Decreto 6.949/09). Equivale à EC',
+          '**Supralegal** — tratados de DH não aprovados pelo rito especial: CADH (Decreto 678/92). Acima da lei, abaixo da CF',
+          '**Legal** — outros tratados internacionais (não-DH)',
+          '**Infralegal** — não há (tratados internacionais regularmente incorporados são, no mínimo, lei)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 466.343 (2008):** consolidou a SUPRALEGALIDADE dos tratados de DH. Caso emblemático: prisão civil do depositário infiel — STF declarou-a INCONVENCIONAL (com base na CADH art. 7º) e INCONSTITUCIONAL. Súmula Vinculante 25 codificou.' },
+
+        { type: 'h', text: 'Controle de convencionalidade — modalidades' },
+        { type: 'p', text: '**Difuso** — qualquer juiz brasileiro pode (e DEVE) verificar se a norma interna é compatível com tratados de DH. Se não for, afasta a aplicação. Análogo ao controle difuso de constitucionalidade.' },
+        { type: 'p', text: '**Concentrado** — STF pode declarar uma norma INCONVENCIONAL (com efeitos erga omnes). Pode usar essa fundamentação em ADI/ADPF.' },
+        { type: 'p', text: '**Pela Corte IDH** — controle SUPRANACIONAL. Doutrina de Sergio García Ramírez (ex-juiz IDH) — Estados-parte têm DEVER de exercer controle de convencionalidade ex officio (Caso Almonacid Arellano vs. Chile, 2006).' },
+
+        { type: 'h', text: 'Casos brasileiros emblemáticos' },
+        { type: 'list', items: [
+          '**Maria da Penha vs. Brasil (CIDH 2001)** — recomendação que originou a Lei 11.340/06',
+          '**Damião Ximenes Lopes vs. Brasil (Corte IDH 2006)** — primeira condenação do Brasil. Maus-tratos em hospital psiquiátrico em Sobral/CE',
+          '**Gomes Lund e outros vs. Brasil (Corte IDH 2010)** — Guerrilha do Araguaia. Lei de Anistia (Lei 6.683/79) considerada incompatível com a CADH (apesar de o STF tê-la considerado constitucional na ADPF 153)',
+          '**Garibaldi vs. Brasil (Corte IDH 2009)** — homicídio sem investigação adequada (acampamento sem-terra)',
+          '**Favela Nova Brasília vs. Brasil (Corte IDH 2017)** — investigação insuficiente em ações policiais'
+        ]},
+
+        { type: 'h', text: 'Margem de apreciação e soberania' },
+        { type: 'p', text: 'A "margem de apreciação" — espaço de discricionariedade dos Estados — é mais restrita no SIDH do que no Sistema Europeu. Corte IDH tende a impor padrões UNIFORMES de proteção, deixando pouco espaço para particularidades nacionais. Tema controverso no caso da Lei de Anistia (ADPF 153 vs. Gomes Lund — divergência STF/Corte IDH).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**SIDH = CIDH + Corte IDH.** CIDH (Washington) recebe petições. Corte IDH (San José) julga.' },
+        { type: 'box', kind: 'macete', text: '**Hierarquia tratados DH:** Constitucional formal (rito EC) > SUPRALEGAL (regra) > Legal > Infralegal.' },
+        { type: 'box', kind: 'macete', text: '**3 modalidades de controle de convencionalidade:** DIFUSO (qualquer juiz) · CONCENTRADO (STF) · INTERNACIONAL (Corte IDH).' },
+        { type: 'box', kind: 'macete', text: '**Casos brasileiros: M D G G F** (Maria da Penha · Damião · Gomes Lund · Garibaldi · Favela Nova Brasília).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**CADH (Pacto de São José) é SUPRALEGAL no Brasil**, não constitucional. Só Convenção de NY (PCD) tem status constitucional formal (aprovada pelo rito do art. 5º §3º).' },
+        { type: 'box', kind: 'atencao', text: '**CIDH ≠ Corte IDH.** CIDH é COMISSÃO (recebe e analisa petições). Corte IDH é TRIBUNAL (julga). São órgãos distintos.' },
+        { type: 'box', kind: 'atencao', text: '**Esgotamento dos recursos internos é REQUISITO** para a admissibilidade da petição na CIDH (CADH art. 46). Exceção: ineficácia comprovada dos recursos internos.' },
+        { type: 'box', kind: 'atencao', text: '**Sentença da Corte IDH é VINCULANTE para o Brasil**, mas a execução depende de mecanismos internos. Não há execução automática — STF tem competência (ADPF, p.ex.) para internalizar.' },
+        { type: 'box', kind: 'atencao', text: '**Lei de Anistia: STF (ADPF 153) declarou constitucional · Corte IDH (Gomes Lund) declarou incompatível com a CADH.** DIVERGÊNCIA real — banca pode cobrar.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** SIDH é o subsistema regional dos direitos humanos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** tratados de DH integram o bloco de constitucionalidade (parcial).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (princípios):** controle de convencionalidade aplicado a normas penais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2-4 (ECA, idoso, PCD):** convenções específicas integrantes.' }
+      ]
+    }
+  ] }
 ],
 
 // ============ FLASHCARDS INICIAIS ============
@@ -7099,7 +7713,47 @@ flashcards: [
   { id: 342, topic: 6, materia: 'colproc', q: 'Inquérito Civil — prazo de duração e quem arquiva?', a: '1 ANO (prorrogável fundamentadamente — Res. CNMP 23 art. 9º). Arquivamento submetido ao CSMP em 3 dias. CSMP pode homologar, determinar diligências, ou designar OUTRO membro.', tags: ['colproc', 'IC', 'CNMP'] },
   { id: 343, topic: 6, materia: 'colproc', q: 'Arquivamento de IC faz coisa julgada?', a: 'NÃO. Outro legitimado (Defensoria, associação, ente público) pode propor ACP mesmo após arquivamento do IC pelo MP — Res. 23 art. 16.', tags: ['colproc', 'IC', 'arquivamento'] },
   { id: 344, topic: 6, materia: 'colproc', q: 'Resoluções CNMP-chave para a atuação extrajudicial?', a: 'Res. 23/2007 (IC) · Res. 164/2017 (Recomendação) · Res. 174/2017 (Notícia de fato) · Res. 181/2017 (PIC). Cair em concurso é certo.', tags: ['colproc', 'CNMP'] },
-  { id: 345, topic: 6, materia: 'colproc', q: 'PIC × Inquérito Civil — diferença?', a: 'PIC = Procedimento Investigatório CRIMINAL (Res. CNMP 181/2017). IC = Inquérito CIVIL (Res. 23/2007). Mesmo nome do "Inquérito" mas natureza distinta — não confundir.', tags: ['colproc', 'PIC', 'IC'] }
+  { id: 345, topic: 6, materia: 'colproc', q: 'PIC × Inquérito Civil — diferença?', a: 'PIC = Procedimento Investigatório CRIMINAL (Res. CNMP 181/2017). IC = Inquérito CIVIL (Res. 23/2007). Mesmo nome do "Inquérito" mas natureza distinta — não confundir.', tags: ['colproc', 'PIC', 'IC'] },
+
+  // === Cards para os 6 esqueletos preenchidos na Rodada 2 ===
+  // colproc-04 — MS Coletivo
+  { id: 346, topic: 4, materia: 'colproc', q: 'Quem pode impetrar MS Coletivo (CF 5º LXX)?', a: 'Rol TAXATIVO: (a) partido com representação no CN; (b) organização sindical, entidade de classe, associação (constituída há ≥ 1 ano em defesa dos interesses dos membros).', tags: ['colproc', 'MS-coletivo'] },
+  { id: 347, topic: 4, materia: 'colproc', q: 'MS Coletivo tutela direitos difusos?', a: 'NÃO. Lei 12.016/09 art. 21 § único limita a COLETIVOS *stricto sensu* e INDIVIDUAIS HOMOGÊNEOS. Para difusos = ACP. Pegadinha clássica.', tags: ['colproc', 'MS-coletivo'] },
+  { id: 348, topic: 4, materia: 'colproc', q: 'Súmula 629 STF — qual seu conteúdo?', a: '"A impetração de MS coletivo por entidade de classe em favor dos associados INDEPENDE da autorização destes." Diferente da ACP por associação (Tema 499/STF).', tags: ['colproc', 'MS-coletivo', 'sumula'] },
+  { id: 349, topic: 4, materia: 'colproc', q: 'Prazo decadencial do MS (individual e coletivo)?', a: '120 DIAS da ciência do ato impugnado (Lei 12.016/09 art. 23). Prazo decadencial — não admite suspensão nem interrupção.', tags: ['colproc', 'MS', 'prazo'] },
+
+  // colproc-05 — MI e ADPF
+  { id: 350, topic: 5, materia: 'colproc', q: 'MI × ADPF — diferença essencial?', a: 'MI: combate OMISSÃO LEGISLATIVA que inviabilize direitos constitucionais (CF 5º LXXI). ADPF: combate ATO do Poder Público lesivo a preceito fundamental (CF 102 §1º). Objetos distintos.', tags: ['colproc', 'MI', 'ADPF'] },
+  { id: 351, topic: 5, materia: 'colproc', q: 'STF e a corrente concretista — qual prevalece?', a: 'CONCRETISTA INDIVIDUAL é REGRA (Lei 13.300/16 art. 9º — efeitos entre as partes). CONCRETISTA GERAL é EXCEÇÃO em casos relevantes (STF MI 670/708/712 — direito de greve do servidor).', tags: ['colproc', 'MI', 'concretismo'] },
+  { id: 352, topic: 5, materia: 'colproc', q: 'ADPF — princípio da subsidiariedade?', a: 'Lei 9.882/99 art. 4º §1º: ADPF NÃO cabe se houver outro meio eficaz. STF tem MITIGADO esse requisito quando reputa a ADPF mais eficaz para resolver a controvérsia.', tags: ['colproc', 'ADPF', 'subsidiariedade'] },
+  { id: 353, topic: 5, materia: 'colproc', q: 'ADPF é a única via concentrada para qual tipo de ato?', a: 'LEI MUNICIPAL e ATO PRÉ-CONSTITUCIONAL (Lei 9.882/99 art. 1º § único I). ADI/ADC só atacam leis ou atos federais/estaduais pós-CF.', tags: ['colproc', 'ADPF', 'objeto'] },
+
+  // colproc-07 — Coisa julgada coletiva
+  { id: 354, topic: 7, materia: 'colproc', q: 'Como opera a coisa julgada em direitos individuais homogêneos (CDC 103 III)?', a: 'ERGA OMNES em caso de PROCEDÊNCIA — beneficia todas as vítimas e sucessores. Improcedência NÃO impede ações individuais (§2º), salvo quem ingressou como assistente litisconsorcial (§3º — opt-in vincula).', tags: ['colproc', 'coisa-julgada', 'individuais-homogeneos'] },
+  { id: 355, topic: 7, materia: 'colproc', q: 'Secundum eventum probationis — quando se aplica?', a: 'Apenas em DIFUSOS e COLETIVOS (CDC 103 I e II). Improcedência POR INSUFICIÊNCIA DE PROVAS = não faz coisa julgada material. Outras razões de improcedência fazem coisa julgada plena. Banca explora a nuance.', tags: ['colproc', 'probationis'] },
+  { id: 356, topic: 7, materia: 'colproc', q: 'STF Tema 1075 (2022) — o que decidiu?', a: 'Declarou INCONSTITUCIONAL a parte do art. 16 LACP que limitava a coisa julgada coletiva ao território do juízo. SUPEROU a Súmula 401 STJ. Hoje: coisa julgada coletiva = nacional, conforme competência.', tags: ['colproc', 'STF', 'tema-1075'] },
+  { id: 357, topic: 7, materia: 'colproc', q: 'Fluid recovery (CDC 100) — o que é?', a: 'Mecanismo de recuperação fluida: se em 1 ano da publicação da sentença coletiva não houver liquidações individuais em número compatível, o LEGITIMADO promove liquidação GLOBAL e o produto vai ao FUNDO (LACP art. 13). Importado da cy-pres doctrine.', tags: ['colproc', 'fluid-recovery'] },
+
+  // colproc-08 — SIDH
+  { id: 358, topic: 8, materia: 'colproc', q: 'SIDH — quais os 2 órgãos centrais?', a: 'CIDH (Comissão — Washington, recebe e analisa petições) + Corte IDH (Tribunal — San José/Costa Rica, julga casos contenciosos com sentença vinculante). Ambos são órgãos da OEA.', tags: ['colproc', 'SIDH'] },
+  { id: 359, topic: 8, materia: 'colproc', q: 'Status hierárquico da CADH (Pacto de São José) no Brasil?', a: 'SUPRALEGAL (STF RE 466.343, 2008). Acima da lei, abaixo da CF. Não tem status constitucional formal porque não foi aprovada pelo rito do art. 5º §3º.', tags: ['colproc', 'tratados', 'hierarquia'] },
+  { id: 360, topic: 8, materia: 'colproc', q: 'Casos brasileiros emblemáticos no SIDH?', a: 'Maria da Penha (CIDH 2001 — gerou Lei 11.340/06) · Damião Ximenes (Corte IDH 2006 — primeira condenação) · Gomes Lund (2010 — Lei de Anistia) · Garibaldi (2009) · Favela Nova Brasília (2017).', tags: ['colproc', 'SIDH', 'casos'] },
+  { id: 361, topic: 8, materia: 'colproc', q: 'Controle de convencionalidade — modalidades?', a: 'DIFUSO (qualquer juiz brasileiro afasta norma incompatível com tratados de DH) · CONCENTRADO (STF declara inconvencionalidade com efeitos erga omnes) · INTERNACIONAL (Corte IDH — Caso Almonacid Arellano vs. Chile, 2006).', tags: ['colproc', 'convencionalidade'] },
+
+  // colmat-01 — Direitos humanos
+  { id: 362, topic: 1, materia: 'colmat', q: 'Direitos humanos × fundamentais — diferença didática?', a: 'DH = plano internacional, prerrogativas universais inerentes à condição humana. FUNDAMENTAIS = positivados na ordem interna (CF/88). Há sobreposição substancial — distinção é mais didática que prática.', tags: ['colmat', 'DH'] },
+  { id: 363, topic: 1, materia: 'colmat', q: 'CF art. 5º §3º — o que estabelece?', a: 'Tratados de DH aprovados em CADA Casa do Congresso, em 2 turnos, por 3/5 dos membros, equivalem a EC. Único tratado com status constitucional formal: Convenção de NY (PCD) — Decreto 6.949/09. Marraquexe também.', tags: ['colmat', 'tratados'] },
+  { id: 364, topic: 1, materia: 'colmat', q: 'STF RE 466.343 — qual a tese central?', a: 'SUPRALEGALIDADE dos tratados de DH não aprovados pelo rito do art. 5º §3º. Caso da prisão civil do depositário infiel — STF afastou a regra do art. 5º LXVII com base na CADH (supralegal). Codificou-se na SV 25.', tags: ['colmat', 'STF', 'supralegalidade'] },
+  { id: 365, topic: 1, materia: 'colmat', q: 'Mínimo existencial × reserva do possível?', a: 'MÍNIMO EXISTENCIAL = núcleo dos direitos sociais que não pode ser limitado por argumentos econômicos (educação básica, saúde mínima). RESERVA DO POSSÍVEL = limite fático dos recursos. STF: reserva é argumento, não exime o mínimo (ADPF 45).', tags: ['colmat', 'minimo-existencial'] },
+  { id: 366, topic: 1, materia: 'colmat', q: 'Eficácia horizontal dos direitos fundamentais?', a: 'Aplicam-se também entre PARTICULARES (não só Estado × cidadão). STF RE 201.819 (2005, União Brasileira de Compositores) — associação privada deve assegurar contraditório e ampla defesa nos PADs internos.', tags: ['colmat', 'eficacia-horizontal'] },
+
+  // colmat-02 — ECA
+  { id: 367, topic: 2, materia: 'colmat', q: 'ECA — criança × adolescente?', a: 'CRIANÇA: até 12 anos INCOMPLETOS. ADOLESCENTE: 12 a 18 anos (ECA art. 2º). Ato infracional praticado por criança → medidas de PROTEÇÃO (art. 101). Por adolescente → medidas SOCIOEDUCATIVAS (art. 112).', tags: ['colmat', 'ECA'] },
+  { id: 368, topic: 2, materia: 'colmat', q: 'Doutrina da Proteção Integral × Situação Irregular?', a: 'PROTEÇÃO INTEGRAL (ECA): toda criança/adolescente é SUJEITO de direitos. SITUAÇÃO IRREGULAR (Código de Menores 1979 — superado): Estado intervinha apenas em "situação irregular", crianças eram OBJETO de tutela.', tags: ['colmat', 'ECA', 'doutrina'] },
+  { id: 369, topic: 2, materia: 'colmat', q: 'Internação — quando é cabível (ECA art. 122)?', a: 'TAXATIVAMENTE em 3 hipóteses: (I) ato infracional com VIOLÊNCIA OU GRAVE AMEAÇA; (II) REITERAÇÃO de outras infrações graves; (III) DESCUMPRIMENTO REITERADO de outra medida. Tempo máximo: 3 anos. Liberação compulsória aos 21.', tags: ['colmat', 'ECA', 'internacao'] },
+  { id: 370, topic: 2, materia: 'colmat', q: 'Súmula 492 STJ — qual a tese?', a: '"O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição da medida socioeducativa de internação." Internação é EXCEPCIONAL — princípio da brevidade.', tags: ['colmat', 'ECA', 'STJ'] },
+  { id: 371, topic: 2, materia: 'colmat', q: 'Família substituta — modalidades?', a: 'GUARDA (não rompe poder familiar; temporária ou definitiva) · TUTELA (pressupõe perda/suspensão do poder familiar) · ADOÇÃO (irrevogável, vínculo de filiação). Mnemônico GTA.', tags: ['colmat', 'ECA', 'familia'] },
+  { id: 372, topic: 2, materia: 'colmat', q: 'Adoção é revogável?', a: 'NÃO. ECA art. 39 §1º — IRREVOGÁVEL. Atribui condição de filho, com mesmos direitos e deveres dos demais filhos (art. 41). Diferente de guarda e tutela, que podem ser revogadas.', tags: ['colmat', 'ECA', 'adocao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -9037,6 +9691,86 @@ questions: [
     ],
     correct: 'D',
     explanation: 'LACP art. 5º §6º. (A) Falso — 1 ano prorrogável (Res. 23 art. 9º). (B) Falso — Recomendação persuade, não vincula. (C) Falso — TAC só é celebrado por órgãos PÚBLICOS. (E) Falso — Res. 23 art. 16: arquivamento não impede ACP por outro legitimado.'
+  },
+
+  // === Questões para os 6 esqueletos preenchidos na Rodada 2 ===
+  {
+    id: 137, topic: 4, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Mandado de Segurança Coletivo (CF art. 5º LXX; Lei 12.016/09):',
+    alternatives: [
+      'Pode ser impetrado por qualquer pessoa jurídica, inclusive sociedades empresárias.',
+      'Pode tutelar tanto direitos coletivos *stricto sensu* e individuais homogêneos quanto direitos difusos.',
+      'A entidade de classe precisa de autorização expressa dos associados para impetrar, conforme jurisprudência consolidada do STF.',
+      'O rol de legitimados é taxativo (CF art. 5º LXX), e a entidade de classe não precisa de autorização dos associados (Súmula 629/STF).',
+      'O prazo decadencial para impetração é de 60 dias da ciência do ato.'
+    ],
+    correct: 'D',
+    explanation: 'CF 5º LXX (rol taxativo) + Súmula 629 STF + Lei 12.016/09 art. 23 (prazo de 120 dias). (A) Falso. (B) Falso — Lei 12.016/09 art. 21 § único exclui difusos. (C) Falso — independe de autorização (Súmula 629 STF). (E) Falso — 120 dias.'
+  },
+  {
+    id: 138, topic: 5, materia: 'colproc', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o Mandado de Injunção (CF 5º LXXI; Lei 13.300/16) e a ADPF (Lei 9.882/99):',
+    alternatives: [
+      'O MI ataca lesão a direito líquido e certo decorrente de ato comissivo do Poder Público.',
+      'A ADPF é via principal para impugnar leis ou atos normativos federais ou estaduais — alternativa da ADI.',
+      'O MI tem como objeto a omissão legislativa que inviabilize o exercício de direitos constitucionais; e a ADPF é via subsidiária (Lei 9.882/99 art. 4º §1º), sendo a única via concentrada para lei municipal e ato pré-constitucional.',
+      'A decisão em MI sempre tem efeitos erga omnes, conforme corrente concretista geral majoritária no STF.',
+      'A ADPF dispensa o requisito da subsidiariedade quando o autor for o Procurador-Geral da República.'
+    ],
+    correct: 'C',
+    explanation: 'CF 5º LXXI + Lei 9.882/99. (A) Falso — MI ataca OMISSÃO. (B) Falso — ADI tem objeto restrito; ADPF complementa. (D) Falso — corrente concretista INDIVIDUAL é regra (Lei 13.300 art. 9º). (E) Falso — subsidiariedade aplica-se a todos os legitimados.'
+  },
+  {
+    id: 139, topic: 7, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a coisa julgada coletiva e o STF Tema 1075 (RE 1.101.937, 2022):',
+    alternatives: [
+      'O STF confirmou a constitucionalidade do art. 16 da LACP, mantendo a limitação territorial da coisa julgada coletiva ao território do juízo prolator.',
+      'A coisa julgada coletiva projeta-se em todo o território nacional, conforme a competência do juízo prolator, superando a Súmula 401 STJ.',
+      'A Súmula 401 STJ permanece em pleno vigor após o julgamento.',
+      'A decisão do STF aplica-se apenas a ações coletivas propostas após 2022.',
+      'A coisa julgada erga omnes só ocorre em direitos difusos, nunca em coletivos ou individuais homogêneos.'
+    ],
+    correct: 'B',
+    explanation: 'STF Tema 1075 (2022): inconstitucional a limitação territorial; superada Súmula 401/STJ. Coisa julgada projeta-se nacionalmente, conforme competência. (E) Falso — CDC 103 dispõe diferente (erga omnes em difusos e individuais homogêneos; ultra partes em coletivos).'
+  },
+  {
+    id: 140, topic: 8, materia: 'colproc', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Sistema Interamericano de Direitos Humanos (SIDH):',
+    alternatives: [
+      'CIDH e Corte IDH são denominações distintas para o mesmo órgão, sediado em San José.',
+      'A CADH (Pacto de São José) tem status constitucional formal no Brasil, por ter sido aprovada pelo rito do art. 5º §3º da CF.',
+      'A CIDH (Comissão, em Washington) recebe e analisa petições; a Corte IDH (em San José) julga casos contenciosos com sentença vinculante. A CADH tem status SUPRALEGAL no Brasil (STF RE 466.343).',
+      'Brasileiros não podem peticionar individualmente à CIDH — somente o Estado pode.',
+      'O STF e a Corte IDH têm jurisprudência uniforme sobre a Lei de Anistia.'
+    ],
+    correct: 'C',
+    explanation: 'STF RE 466.343 (2008) consolidou a SUPRALEGALIDADE da CADH. CIDH e Corte IDH são órgãos distintos com sedes distintas. (A) Falso. (B) Falso — só Convenção de NY tem status constitucional formal. (D) Falso — CADH art. 44 admite petição individual. (E) Falso — divergência (ADPF 153 vs. Gomes Lund).'
+  },
+  {
+    id: 141, topic: 1, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Em relação aos direitos humanos e fundamentais no Brasil:',
+    alternatives: [
+      'Todos os tratados internacionais ratificados pelo Brasil têm status constitucional, conforme jurisprudência do STF.',
+      'A reserva do possível é argumento absoluto, capaz de superar pretensões a direitos sociais em qualquer hipótese.',
+      'A eficácia horizontal dos direitos fundamentais é tese rejeitada pelo STF, que entende caberem apenas nas relações Estado × cidadão.',
+      'Tratados de DH aprovados pelo rito do art. 5º §3º da CF (3/5, 2 turnos em cada Casa) equivalem a EC; os demais têm status supralegal (STF RE 466.343); o mínimo existencial é núcleo intangível mesmo diante de argumentos orçamentários.',
+      'O Brasil não ratificou a Convenção sobre Direitos das Pessoas com Deficiência.'
+    ],
+    correct: 'D',
+    explanation: 'STF RE 466.343 + RE 201.819 + ADPF 45. (A) Falso — só tratados de DH aprovados pelo rito têm constitucional formal. (B) Falso — mínimo existencial supera reserva. (C) Falso — STF reconhece eficácia horizontal. (E) Falso — Decreto 6.949/09.'
+  },
+  {
+    id: 142, topic: 2, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito do ECA (Lei 8.069/90) e da medida socioeducativa de internação:',
+    alternatives: [
+      'A internação pode ser aplicada em qualquer hipótese de ato infracional, dada a gravidade do envolvimento de adolescente em criminalidade.',
+      'O ato infracional análogo ao tráfico de drogas, por si só, autoriza a imposição obrigatória de internação.',
+      'A internação é cabível taxativamente em três hipóteses (ECA art. 122 — violência/grave ameaça, reiteração de infrações graves, descumprimento reiterado de outra medida); a Súmula 492/STJ afasta a obrigatoriedade da internação para tráfico.',
+      'A maioridade penal (18 anos) cessa imediatamente qualquer medida socioeducativa em curso.',
+      'Adoção é revogável a qualquer tempo, mediante simples requerimento do adotante.'
+    ],
+    correct: 'C',
+    explanation: 'ECA art. 122 + Súmula 492 STJ. (A) Falso — internação é excepcional. (B) Falso — Súmula 492 STJ. (D) Falso — Súmula 605 STJ + ECA art. 121 §5º (cessa aos 21). (E) Falso — adoção é IRREVOGÁVEL (art. 39 §1º).'
   }
 ],
 
