@@ -2894,17 +2894,113 @@ topics: [
     title: 'Mediação, conciliação e autocomposição',
     edital: '3.2.21',
     editalText: 'Mediação, conciliação e autocomposição. Lei 13.140/15. Audiências do CPC art. 334. CEJUSC.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Princípios da autocomposição (CPC art. 165 §§ 1º-3º)',
-      'Diferença mediação × conciliação (vínculo prévio, postura do terceiro)',
-      'Lei 13.140/15 — mediação judicial e extrajudicial',
-      'Audiência de conciliação/mediação (art. 334) — quando é obrigatória, recusa bilateral',
-      'CEJUSC e câmaras públicas/privadas de mediação',
-      'Confidencialidade, dever de sigilo e exceções',
-      'Mediação na administração pública (Lei 13.140/15 capítulo II)'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 2 (out/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A política de **autocomposição** ganhou centralidade no CPC/15 e foi consolidada na **Lei 13.140/15** (Lei de Mediação). O art. 3º §§ 2º e 3º do CPC estabelece o dever do juiz, advogados, defensores e MP de **estimular** a solução consensual. A audiência do art. 334 transformou a tentativa de autocomposição em **fase obrigatória** do procedimento comum — ato de abertura, salvo recusa bilateral expressa ou matéria que não admita autocomposição.' },
+          { type: 'p', text: '**Mediação × conciliação:** o critério legal (CPC art. 165 §§ 2º-3º) é o **vínculo prévio entre as partes**. Mediação para quem TINHA relação anterior (família, vizinhança, sócios) — o mediador apenas FACILITA o diálogo. Conciliação para quem NÃO tinha vínculo (acidente de trânsito, consumo) — o conciliador pode **propor** soluções. Ambas regem-se pelos mesmos princípios.' },
+          { type: 'p', text: 'A mediação opera em duas frentes: (a) **judicial** (anexo ao processo, dentro do CEJUSC) e (b) **extrajudicial** (Lei 13.140 capítulos III e IV — antes ou fora do processo, inclusive na Administração Pública). O resultado, quando exitoso, é homologado e vira **título executivo judicial** (CPC art. 515 III).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'CPC arts. 165 a 175 — conciliadores e mediadores judiciais' },
+          { type: 'list', items: [
+            '**Art. 165** — criação dos centros judiciários (CEJUSCs) pelo tribunal',
+            '**§ 2º** — conciliador atua preferencialmente sem vínculo prévio; pode SUGERIR soluções, vedada coação ou intimidação',
+            '**§ 3º** — mediador atua preferencialmente com vínculo prévio; AUXILIA a entender questões e interesses, sem propor solução',
+            '**Art. 166** — princípios da conciliação/mediação: independência, imparcialidade, autonomia da vontade, confidencialidade, oralidade, informalidade, decisão informada',
+            '**Art. 167** — cadastro nacional e dos tribunais; capacitação obrigatória',
+            '**Art. 168 §1º** — partes podem escolher de comum acordo o conciliador/mediador',
+            '**Art. 173** — exclusão do cadastro: violação de princípios, inabilitação por 180 dias',
+            '**Art. 175** — ressalva às câmaras privadas'
+          ] },
+          { type: 'h', text: 'CPC art. 334 — audiência de conciliação/mediação' },
+          { type: 'list', items: [
+            '**Caput** — designada pelo juiz **se a petição inicial preencher os requisitos e não for caso de improcedência liminar**',
+            '**§ 4º I** — não realizada se AMBAS as partes manifestarem expressamente desinteresse (de comum acordo)',
+            '**§ 4º II** — não realizada se a causa não admitir autocomposição',
+            '**§ 5º** — desinteresse do autor: na PI; do réu: por petição, com 10 dias de antecedência',
+            '**§ 6º** — havendo litisconsórcio, o desinteresse só vale se TODOS manifestarem',
+            '**§ 8º** — ausência injustificada é **ato atentatório à dignidade da justiça**, multa de até **2%** sobre valor da causa ou vantagem econômica pretendida',
+            '**§ 9º** — partes devem estar acompanhadas de advogados/defensores',
+            '**§ 10º** — pode haver representação por preposto com procuração específica',
+            '**§ 11** — autocomposição obtida → reduzida a termo + homologação por sentença'
+          ] },
+          { type: 'h', text: 'Lei 13.140/15 — Lei de Mediação' },
+          { type: 'list', items: [
+            '**Art. 1º par. único** — mediação é **atividade técnica** exercida por terceiro imparcial sem poder decisório que auxilia partes a identificarem ou desenvolverem soluções consensuais',
+            '**Art. 2º** — princípios: imparcialidade do mediador, isonomia entre as partes, oralidade, informalidade, autonomia da vontade, busca do consenso, confidencialidade, boa-fé',
+            '**Art. 3º** — pode versar sobre direitos disponíveis ou indisponíveis que admitam transação. Direitos indisponíveis transigíveis exigem **homologação judicial** com participação do MP',
+            '**Art. 4º** — mediador conduzirá com pleno conhecimento das partes; não pode atuar como árbitro nem como testemunha em processos judiciais ou arbitrais relativos ao conflito por 1 ano após',
+            '**Arts. 11-13** — mediador judicial: graduação superior há pelo menos 2 anos + capacitação',
+            '**Arts. 22-23** — mediação extrajudicial: convite formal; ausência por 1 vez não importa em má-fé; nas partes signatárias de cláusula de mediação, ausência implica multa proporcional ao prejuízo',
+            '**Cap. II (arts. 32-40)** — câmaras de prevenção e resolução administrativa de conflitos no âmbito da Administração Pública',
+            '**Art. 30** — confidencialidade: estende-se a todas as informações, inclusive auxiliares e partes; EXCEÇÃO: informações relativas a CRIME DE AÇÃO PÚBLICA'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Quando a audiência do art. 334 é obrigatória?' },
+          { type: 'p', text: 'Regra: **toda PI que não receba improcedência liminar deve ter audiência**. Exceções (§ 4º): (i) desinteresse BILATERAL e expresso; (ii) causa que não admite autocomposição (tutela de urgência indeferida não é exceção; o que importa é a **disponibilidade material** do direito).' },
+          { type: 'box', kind: 'atencao', text: 'Se UMA das partes quer a audiência e a outra não, a audiência ACONTECE. Erro frequente: tomar como exceção a vontade unilateral.' },
+          { type: 'box', kind: 'atencao', text: 'Litisconsórcio (§ 6º) — só dispensa se TODOS os litisconsortes manifestarem desinteresse. Um único quer = audiência designada.' },
+          { type: 'h', text: 'Multa por ausência (§ 8º)' },
+          { type: 'p', text: 'A ausência injustificada é **ato atentatório à dignidade da justiça** (categoria do art. 77 §2º). Multa de **até 2%** sobre o valor da causa OU sobre a vantagem econômica pretendida, revertida em favor da União ou do Estado. A multa atinge a parte (ou seu preposto), NÃO o advogado.' },
+          { type: 'box', kind: 'macete', text: '**334 §8º — ausência = ato atentatório · até 2% · pra União/Estado**. Não é honorários nem custas, é punição processual.' },
+          { type: 'h', text: 'Mediação × conciliação — diferença prática' },
+          { type: 'table', headers: ['Critério', 'Mediação', 'Conciliação'],
+            rows: [
+              ['Vínculo prévio', 'Costuma haver (família, vizinhança)', 'Tipicamente ausente (acidente, consumo)'],
+              ['Postura do terceiro', 'FACILITA — não sugere solução', 'Pode SUGERIR a solução'],
+              ['Foco', 'Restaurar a relação + resolver conflito', 'Resolver o conflito pontual'],
+              ['Duração típica', 'Múltiplas sessões', 'Uma ou duas sessões'],
+              ['CPC', 'Art. 165 § 3º', 'Art. 165 § 2º']
+            ] },
+          { type: 'h', text: 'Confidencialidade (Lei 13.140 art. 30)' },
+          { type: 'p', text: 'Tudo que for produzido em mediação é **confidencial** — partes, mediador, auxiliares e terceiros que tenham contato. Não pode ser usado em juízo posterior. **EXCEÇÃO única importante: informação relativa a CRIME DE AÇÃO PÚBLICA** — o mediador deve denunciar.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.733.685:** descumprimento da confidencialidade pelo mediador gera responsabilidade civil. Refletida no rigor da exclusão do cadastro do art. 173 do CPC.' },
+          { type: 'h', text: 'Direitos indisponíveis transigíveis (art. 3º § 2º)' },
+          { type: 'p', text: '**Direito indisponível NEM SEMPRE é intransigível.** Alimentos, por exemplo, são indisponíveis quanto à existência (não se renuncia o direito) mas o **valor pode ser transigido**. Mediação cabe — exige homologação judicial e oitiva do MP.' },
+          { type: 'box', kind: 'atencao', text: 'Estado da técnica: a Lei 13.140 admite mediação em direitos indisponíveis transigíveis, com participação do MP. Erro: dizer que indisponíveis nunca cabem em mediação.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Mediação x Conciliação — VInculo + Sugestão:** Mediação tem **VÍ**nculo, **NÃO** sugere. Conciliação **SE**m vínculo, **PO**de sugerir.' },
+          { type: 'box', kind: 'macete', text: '**Princípios da Lei 13.140 (art. 2º) — IMÔNICO:** **I**mparcialidade · **I**sonomia · **O**ralidade · **I**nformalidade · **A**utonomia da vontade · **B**usca do consenso · **C**onfidencialidade · **B**oa-fé.' },
+          { type: 'box', kind: 'macete', text: '**Audiência 334 — recusa exige 4 condições simultâneas:** (1) **bilateral** + (2) **expressa** + (3) autor na PI + (4) réu até 10 dias antes.' },
+          { type: 'box', kind: 'macete', text: '**Confidencialidade quebra UMA vez:** crime de AÇÃO PÚBLICA. Não quebra para crime de ação privada.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Litisconsórcio — todos devem recusar.** Se 1 quer audiência, ela acontece. Banca pode dizer "se a maioria recusar, não há audiência" — FALSO.' },
+          { type: 'box', kind: 'atencao', text: '**Mediador é vedado a atuar como árbitro/testemunha pelo prazo de 1 ano após o término** (Lei 13.140 art. 7º). Esquecer esse prazo é erro frequente.' },
+          { type: 'box', kind: 'atencao', text: '**Direitos indisponíveis transigíveis CABEM** (art. 3º §§ 1º-2º) — alimentos, guarda em parte. Banca pode armar: "mediação só para direitos disponíveis" — errado.' },
+          { type: 'box', kind: 'atencao', text: '**Resultado da mediação NÃO precisa ser homologado quando extrajudicial e versa sobre direito disponível** (Lei 13.140 art. 20 par. único — vira título executivo extrajudicial). Em direitos indisponíveis transigíveis, exige homologação + MP.' },
+          { type: 'box', kind: 'atencao', text: '**Multa do § 8º vai para União/Estado**, NÃO para a outra parte. Erro frequente: confundir com indenização.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** a audiência do art. 334 é a **PRIMEIRA fase ordinária** do procedimento comum. Sem ela, nulidade relativa por cerceamento.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 22 (arbitragem):** arbitragem e mediação fazem parte do mesmo microssistema de ADR. Diferença essencial: árbitro DECIDE; mediador/conciliador NÃO decidem.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 5 (MP):** mediação em direitos indisponíveis transigíveis exige participação do MP (Lei 13.140 art. 3º §2º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 29 (CNJ/CNMP):** Resolução CNJ 125/2010 instituiu a Política Judiciária Nacional de Tratamento de Conflitos — base normativa dos CEJUSCs.' }
+        ]
+      }
+    ]
   },
   {
     id: '22-arbitragem',
@@ -2912,19 +3008,108 @@ topics: [
     title: 'Arbitragem (Lei 9.307/96)',
     edital: '3.2.22',
     editalText: 'Arbitragem. Lei 9.307/96 (com alterações da Lei 13.129/15). Cláusula compromissória, sentença arbitral, ação anulatória.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Natureza jurídica — jurisdicional × privada',
-      'Arbitrabilidade objetiva (direitos patrimoniais disponíveis) e subjetiva',
-      'Cláusula compromissória × compromisso arbitral',
-      'Cláusula cheia × vazia (art. 4º §§ 1º-2º)',
-      'Procedimento arbitral, princípios (kompetenz-kompetenz)',
-      'Sentença arbitral — natureza de título executivo judicial (CPC art. 515 VII)',
-      'Ação anulatória (art. 33) — prazo de 90 dias',
-      'Arbitragem com a Administração Pública',
-      'Súmula 485/STJ'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 2 (out/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Arbitragem é **método heterocompositivo privado** de solução de conflitos relativos a direitos patrimoniais disponíveis (Lei 9.307/96 art. 1º). O **STF** (ADI 7.123 e SE 5.206) afastou alegação de inconstitucionalidade e reconheceu sua natureza **jurisdicional** — a sentença arbitral tem força de título executivo judicial e não passa por homologação, salvo a estrangeira (que vai ao STJ).' },
+          { type: 'p', text: 'Diferentemente da mediação (consensual, terceiro não decide), na arbitragem o **árbitro DECIDE** o caso por sentença. As partes elegem voluntariamente esse caminho via **convenção de arbitragem** — gênero que abrange a **cláusula compromissória** (pacto prévio inserido em contrato) e o **compromisso arbitral** (pacto firmado depois do conflito).' },
+          { type: 'p', text: 'Lei 13.129/15 introduziu reformas relevantes: (a) ampliação para Administração Pública (art. 1º §§ 1º-2º), (b) tutela cautelar pré-arbitral pelo Judiciário (art. 22-A), (c) carta arbitral (art. 22-C) e (d) sentença arbitral parcial (art. 23 §1º).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Lei 9.307/96 — disposições estruturais' },
+          { type: 'list', items: [
+            '**Art. 1º caput** — pessoas capazes podem valer-se de arbitragem para dirimir litígios sobre **direitos patrimoniais disponíveis**',
+            '**Art. 1º § 1º** — Administração Pública direta e indireta poderá utilizar arbitragem (Lei 13.129/15)',
+            '**Art. 1º § 2º** — autoridade competente celebra convenção (mesma da que celebra acordos ou transações)',
+            '**Art. 2º** — arbitragem pode ser de **direito** (regra) ou de **equidade**, à escolha das partes; § 3º prevê **publicidade** quando envolver Administração Pública',
+            '**Art. 3º** — convenção de arbitragem = cláusula compromissória + compromisso arbitral',
+            '**Art. 4º** — cláusula compromissória: estipulação para submeter à arbitragem litígios futuros',
+            '**Art. 4º § 1º** — exigência de forma escrita (no contrato ou em documento apartado)',
+            '**Art. 4º § 2º** — em contrato de adesão: cláusula só vale se aderente tomar iniciativa OU concordar expressamente em destaque, com visto separado',
+            '**Art. 7º** — cláusula vazia → ação para suprir lacunas (especial; segue rito do art. 6º)',
+            '**Art. 8º par. único** — **Kompetenz-Kompetenz**: cabe ao árbitro decidir sobre sua própria competência e sobre validade da convenção'
+          ] },
+          { type: 'h', text: 'Procedimento arbitral e sentença' },
+          { type: 'list', items: [
+            '**Art. 13** — qualquer pessoa capaz e da confiança das partes pode ser árbitro; quando colegiado, número ímpar',
+            '**Art. 14** — impedimentos análogos aos do CPC (juiz)',
+            '**Art. 17** — árbitros equiparam-se a funcionários públicos para efeitos penais',
+            '**Art. 21 § 2º** — princípios obrigatórios: contraditório, igualdade das partes, imparcialidade do árbitro, livre convencimento',
+            '**Art. 22-A** — antes da instauração da arbitragem, partes podem pedir **medida cautelar** ao Judiciário; após instaurada, ao árbitro',
+            '**Art. 22-B** — instituída a arbitragem, cabe aos árbitros manter, modificar ou revogar a cautelar concedida pelo Judiciário',
+            '**Art. 22-C** — **carta arbitral** = árbitro requisita do Judiciário ato coercitivo (penhora, condução de testemunha)',
+            '**Art. 23 § 1º** — admite **sentença arbitral parcial**',
+            '**Art. 26** — requisitos formais da sentença arbitral (relatório, fundamentos, dispositivo, data, lugar)',
+            '**Art. 31** — sentença arbitral produz, entre as partes e seus sucessores, os mesmos efeitos da sentença judicial; é **título executivo judicial** (também CPC art. 515 VII)'
+          ] },
+          { type: 'h', text: 'Anulação da sentença arbitral' },
+          { type: 'list', items: [
+            '**Art. 32** — hipóteses TAXATIVAS de nulidade: (I) compromisso nulo, (II) sentença emanada por quem não podia ser árbitro, (III) ausência dos requisitos do art. 26, (IV) prolatada fora dos limites da convenção, (V) — REVOGADA pela Lei 13.129/15, (VI) comprovação de prevaricação/concussão/corrupção passiva, (VII) prolatada fora do prazo, (VIII) violados os princípios do art. 21 § 2º',
+            '**Art. 33** — ação anulatória na Justiça Comum, prazo **decadencial de 90 dias** após recebimento da sentença ou da decisão dos embargos',
+            '**Art. 33 § 3º** — sentença arbitral também pode ser desconstituída por **impugnação ao cumprimento de sentença** (art. 525 CPC) com fundamento no art. 32 da Lei 9.307'
+          ] },
+          { type: 'h', text: 'Sentença arbitral estrangeira' },
+          { type: 'list', items: [
+            '**Arts. 34-40** — homologação no STJ (CPC art. 105 I i CF); reconhece base na Convenção de Nova York',
+            '**Art. 39** — recusa só por: incapacidade das partes, convenção inválida, ofensa à ordem pública, falta de notificação, decisão fora dos limites da convenção, falta de obrigatoriedade no país de origem'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Cláusula cheia × vazia' },
+          { type: 'p', text: '**Cláusula cheia** = define todos os elementos essenciais para instaurar a arbitragem (regra de eleição do árbitro, instituição arbitral, regulamento). **Cláusula vazia** = remete à arbitragem mas não define como instaurá-la. Solução: art. 7º — qualquer parte ajuíza ação para o juiz suprir a lacuna e dar início ao procedimento.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 485:** "A Lei de Arbitragem aplica-se aos contratos que contenham cláusula arbitral, ainda que celebrados antes da sua edição." Reforça a natureza jurisdicional do instituto e a aplicação imediata.' },
+          { type: 'h', text: 'Cláusula em contrato de adesão (art. 4º § 2º)' },
+          { type: 'p', text: 'Para vincular o aderente, a cláusula compromissória em contrato de adesão exige **DUPLA proteção**: (i) iniciativa do aderente OU (ii) concordância expressa **em destaque + visto/assinatura específica**. Falta isso = cláusula INEFICAZ. Em CDC: STJ tem jurisprudência ampla flexibilizando para consumidor (REsp 1.169.841 e seguintes — em geral, NÃO obriga consumidor sem manifestação positiva).' },
+          { type: 'h', text: 'Kompetenz-Kompetenz (art. 8º par. único)' },
+          { type: 'p', text: 'Princípio originário do direito alemão. Significa que o **próprio árbitro** decide se tem competência para julgar, inclusive sobre a validade da cláusula arbitral. Consequência: parte que insiste em ajuizar perante o Judiciário, quando há cláusula arbitral válida, encontra extinção sem mérito do art. 485 VII do CPC (existência de convenção de arbitragem).' },
+          { type: 'box', kind: 'atencao', text: 'Convenção de arbitragem é **matéria que o juiz NÃO conhece de ofício** — só por arguição da parte (CPC art. 337 X + § 5º). Se o réu não alega na contestação, ocorre RENÚNCIA TÁCITA à arbitragem, e o processo prossegue na Justiça Comum.' },
+          { type: 'h', text: 'Sentença arbitral × homologação' },
+          { type: 'p', text: 'Sentença arbitral **NÃO precisa de homologação judicial** — é título executivo judicial direto (CPC art. 515 VII + Lei 9.307 art. 31). EXCEÇÃO: sentença arbitral **estrangeira** = homologação no **STJ** (CF art. 105 I i).' },
+          { type: 'box', kind: 'atencao', text: '**Recurso da sentença arbitral é IMPOSSÍVEL** internamente — só ação anulatória (90 dias) por hipóteses taxativas do art. 32. Banca tenta induzir cabimento de apelação ou agravo — falso.' },
+          { type: 'h', text: 'Arbitragem na Administração Pública' },
+          { type: 'p', text: 'Lei 13.129/15 (alterando o art. 1º §§ 1º-2º): **só para direitos patrimoniais disponíveis**. Princípios: legalidade, publicidade (art. 2º § 3º — sigilo é vedado), motivação. Não pode ter cláusula de equidade (art. 2º § 3º). Servidor responsável pela transação responde pessoalmente em caso de fraude/conluio.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Convenção = Cláusula + Compromisso.** Cláusula é PRÉVIA (no contrato). Compromisso é POSTERIOR (depois do conflito).' },
+          { type: 'box', kind: 'macete', text: '**Sentença arbitral é TEJ direto:** título executivo judicial sem homologação (CPC 515 VII). Exceção: estrangeira → STJ.' },
+          { type: 'box', kind: 'macete', text: '**Anulatória — 90 dias decadenciais.** Não é prescrição. Não admite suspensão.' },
+          { type: 'box', kind: 'macete', text: '**Carta arbitral = árbitro pede ao juiz** ato coercitivo (penhora etc). Carta de ordem é entre tribunais; carta precatória entre juízos; carta rogatória internacional. Carta arbitral é a 4ª.' },
+          { type: 'box', kind: 'macete', text: '**Adm Pública: equidade NÃO; publicidade SIM** (art. 2º § 3º). Erro: assumir sigilo automático.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Convenção de arbitragem NÃO é cognoscível de ofício** (CPC art. 337 § 5º). Erro frequente: dizer que juiz pode declarar de ofício e remeter o processo à arbitragem.' },
+          { type: 'box', kind: 'atencao', text: '**Cláusula arbitral em contrato de adesão exige destaque + visto.** Sem isso = ineficaz. Banca arma: "cláusula arbitral em contrato de adesão é sempre nula" (errado, depende dos requisitos do § 2º).' },
+          { type: 'box', kind: 'atencao', text: '**Sentença arbitral interna NÃO se homologa.** Banca tenta confundir com a estrangeira. Memorize: interna = TEJ direto; estrangeira = STJ.' },
+          { type: 'box', kind: 'atencao', text: '**Cautelar PRÉ-arbitral é com o Judiciário** (art. 22-A); pós-instalação é com o árbitro. Se o juiz concedeu antes da instauração, o árbitro pode mantê-la, modificá-la ou revogá-la (art. 22-B).' },
+          { type: 'box', kind: 'atencao', text: '**Equidade exige autorização EXPRESSA das partes** (art. 2º § 1º). Em arbitragem com Adm Pública, equidade é **vedada** (art. 2º § 3º).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 21 (mediação):** ambos métodos do microssistema de ADR. Diferença essencial: árbitro DECIDE; mediador FACILITA.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 6 (competência):** convenção de arbitragem é exceção PROCESSUAL — réu deve alegá-la na contestação (CPC art. 337 X), sob pena de renúncia tácita.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento):** sentença arbitral é título executivo judicial (CPC art. 515 VII) — segue o procedimento de cumprimento de sentença, não execução de título extrajudicial.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** contra sentença arbitral interna NÃO cabe recurso — só ação anulatória (Lei 9.307 art. 33).' }
+        ]
+      }
+    ]
   },
   {
     id: '23-juizados-especiais-civeis',
@@ -2932,20 +3117,130 @@ topics: [
     title: 'Juizados Especiais Cíveis (Lei 9.099/95)',
     edital: '3.2.23',
     editalText: 'Juizados Especiais Cíveis. Lei 9.099/95. Princípios. Competência. Recursos. Súmulas STJ aplicáveis.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Princípios — oralidade, simplicidade, informalidade, economia, celeridade (art. 2º)',
-      'Competência em razão do valor (até 40 SM) e da matéria',
-      'Hipóteses de incompetência absoluta (causas complexas, contra Fazenda etc.)',
-      'Procedimento — pedido oral, audiência una',
-      'Sentença e recursos — recurso inominado, embargos de declaração, recurso extraordinário',
-      'Não cabimento de REsp (Súmula 203/STJ)',
-      'Cabimento de RE com repercussão geral',
-      'Execução no JEC',
-      'Enunciados FONAJE relevantes',
-      'Súmulas críticas: 203, 640, TNU 8, CJF 99'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 1 da Fase 2 (out/2026) — semana 3',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O **JEC** (Lei 9.099/95) é microssistema processual com **lógica própria**: criado para causas de menor complexidade, regido por princípios que pressionam a velocidade e a simplicidade. Não é apenas "rito mais rápido do CPC" — é REGIME paralelo, com critérios próprios de competência (absoluta), de capacidade postulatória, de contagem de prazos, de recursos e até de execução.' },
+          { type: 'p', text: 'Três pegadinhas estruturais que a banca cobra repetidamente: (a) **prazos NÃO são em dias úteis** (Súmula CJF 99 + FONAJE 165) — diferente do CPC 219; (b) **NÃO cabe REsp** (Súmula 203/STJ) — só RE com repercussão geral; (c) **NÃO cabe ação rescisória** (FONAJE 44).' },
+          { type: 'p', text: 'A "porta" do JEC é o **art. 3º** — define o que cabe lá, alternativamente: (i) por VALOR (causas até 40 SM — algumas até 20 SM sem advogado), (ii) por MATÉRIA (rol específico do § 1º), (iii) por execução de título extrajudicial até 40 SM.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Princípios e estrutura geral' },
+          { type: 'list', items: [
+            '**Art. 2º** — princípios: oralidade, simplicidade, informalidade, economia processual, celeridade; **conciliação ou transação** como objetivo permanente',
+            '**Art. 3º I** — causas de até **40 salários-mínimos** (cíveis em geral)',
+            '**Art. 3º II** — matérias do art. 275 II do CPC/73 (rito sumário): seguro, capitalização, rescisão de contrato de transporte, etc.',
+            '**Art. 3º III** — ação de despejo para uso próprio',
+            '**Art. 3º IV** — ações possessórias sobre imóveis até 40 SM',
+            '**Art. 3º § 1º** — execução de seus julgados + execução de títulos extrajudiciais até 40 SM',
+            '**Art. 3º § 2º** — EXCLUÍDAS: causas de natureza alimentar, falimentar, fiscal, contra Fazenda Pública (vai para Lei 12.153/09), ações sobre acidentes do trabalho, residuais e estado das pessoas',
+            '**Art. 8º** — partes admitidas: pessoa física (capaz), microempreendedor individual, ME, EPP, OSCIP, sociedade de crédito ao microempreendedor',
+            '**Art. 8º § 1º** — incapaz **NÃO** pode ser parte; PJ de grande porte tampouco; espólio também NÃO',
+            '**Art. 9º** — capacidade postulatória dispensável até 20 SM (jus postulandi); acima disso, advogado obrigatório'
+          ] },
+          { type: 'h', text: 'Procedimento' },
+          { type: 'list', items: [
+            '**Art. 14** — pedido pode ser ESCRITO ou ORAL (reduzido a termo)',
+            '**Art. 16** — comparecimento pessoal das partes; preposto da PJ com carta de preposição',
+            '**Art. 18** — citação por correspondência (regra), inclusive PJ; pode ser por mandado',
+            '**Art. 18 § 2º** — não admitida citação por edital',
+            '**Art. 27** — audiência **una** de conciliação, instrução e julgamento (princípio da concentração)',
+            '**Art. 31** — não há intervenção de terceiros nem assistência (admite-se litisconsórcio)',
+            '**Art. 38 par. único** — **NÃO admite sentença ilíquida** (mesmo se condenatória); deve ser sempre LÍQUIDA',
+            '**Art. 51** — extinção do processo: pelos motivos do art. 485 CPC + (II) inadmissibilidade do procedimento + (III) reconhecimento de incompetência territorial'
+          ] },
+          { type: 'h', text: 'Recursos no JEC' },
+          { type: 'list', items: [
+            '**Art. 41** — **recurso inominado** contra sentença, exceto a homologatória de transação ou laudo arbitral. Prazo: **10 dias**, contínuos (não se aplica art. 219 CPC). Necessita advogado (mesmo se causa < 20 SM)',
+            '**Art. 41 § 2º** — efeito apenas DEVOLUTIVO (regra); efeito suspensivo a critério do juiz, para evitar dano irreparável',
+            '**Art. 42** — preparo: **dobro do valor** das custas iniciais',
+            '**Arts. 48-50** — **embargos de declaração** (5 dias, suspendem prazo — Súmula 640/STJ)',
+            '**Art. 46** — julgamento pela **Turma Recursal** (juízes de 1º grau)',
+            '**RE no STF** — cabe com **repercussão geral**; STF entende possível em decisão das Turmas Recursais',
+            '**REsp** — **NÃO CABE** (Súmula 203/STJ)',
+            '**MS contra ato judicial** — TNU Súmula 8: cabe quando inviável outro recurso (decisão interlocutória teratológica, p. ex.)',
+            '**Ação rescisória — NÃO CABE** (FONAJE 44)'
+          ] },
+          { type: 'h', text: 'Execução' },
+          { type: 'list', items: [
+            '**Art. 52** — execução das sentenças do JEC processa-se ali mesmo',
+            '**Art. 53** — execução de título extrajudicial até 40 SM',
+            '**Art. 55** — sentença normalmente sem honorários sucumbenciais; SÓ devidos quando litigância de má-fé OU em sede de recurso (vencido)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Competência absoluta — opção do autor?' },
+          { type: 'p', text: 'A regra majoritária (FONAJE 1) e doutrinária é que a competência do JEC é **OPÇÃO do autor** quando a causa é por valor. Mas há divergência: parte da jurisprudência sustenta competência absoluta, mesmo concorrente. Em concurso: a banca tende a seguir o STJ — opção do autor para causas por valor (≤ 40 SM); para causas por matéria (rol do art. 3º), competência absoluta.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 203:** "Não cabe recurso especial contra decisão proferida por órgão de segundo grau dos Juizados Especiais." Tese clássica e cobrada em quase toda prova.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 640:** "O benefício da justiça gratuita pode ser requerido a qualquer tempo, considerando-se a situação econômica do interessado no momento da formulação do pedido." Aplica-se a todos os ritos, inclusive JEC.' },
+          { type: 'h', text: 'Pessoa jurídica como autora' },
+          { type: 'p', text: 'Apenas **microempresa, EPP, OSCIP, MEI e sociedade de crédito ao microempreendedor** (art. 8º § 1º + Lei 9.841/99 + LC 123/06). PJ comum (S.A., Ltda. de grande porte) **NÃO** pode ser autora — só ré. Espólio e incapaz NÃO podem ser parte (FONAJE 72).' },
+          { type: 'box', kind: 'atencao', text: '**Espólio NÃO pode ser parte no JEC** (FONAJE 72). Erro frequente: assumir que como o espólio sucede o falecido, poderia litigar onde ele litigaria.' },
+          { type: 'h', text: 'Prazos: dias contínuos × dias úteis' },
+          { type: 'p', text: 'Súmula CJF 99 + FONAJE 165: a contagem do CPC art. 219 (em dias úteis) **NÃO se aplica** ao JEC. Prazos no JEC são **CORRIDOS/CONTÍNUOS**. Erro grave de quem replica regra geral CPC.' },
+          { type: 'box', kind: 'atencao', text: '**Prazos no JEC são CONTÍNUOS, não em dias úteis.** Erro recorrente de candidato — banca adora cobrar.' },
+          { type: 'h', text: 'Recursos: o que cabe e o que não cabe' },
+          { type: 'table', headers: ['Recurso', 'Cabe?', 'Observação'],
+            rows: [
+              ['Recurso inominado (art. 41)', 'SIM', 'Contra sentença final; 10 dias contínuos'],
+              ['Embargos de declaração (arts. 48-50)', 'SIM', 'Prazo 5 dias; suspende (Súmula 640 indireta)'],
+              ['Recurso extraordinário', 'SIM', 'Contra acórdão da Turma Recursal, com repercussão geral'],
+              ['Recurso especial (REsp)', 'NÃO', 'Súmula 203/STJ'],
+              ['Agravo de instrumento', 'NÃO (regra)', 'Decisões interlocutórias só impugnáveis com a sentença'],
+              ['Apelação', 'NÃO', 'Não existe na 9.099 — equivalente é o inominado'],
+              ['Ação rescisória', 'NÃO', 'FONAJE 44'],
+              ['Mandado de segurança', 'EXCEPCIONAL', 'TNU Súmula 8 — só quando inviável outro recurso']
+            ] },
+          { type: 'h', text: 'Sentença ilíquida × líquida (art. 38 par. único)' },
+          { type: 'p', text: '**JEC NÃO admite sentença ilíquida.** Mesmo nas condenatórias, o juiz deve fixar o valor. Se não puder, o caso pode ser **inadmitido** (extinção art. 51 II). Diferença marcante para o procedimento comum, onde sentença ilíquida é regra.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.111 (recursos repetitivos):** A capacidade postulatória pelo próprio cidadão (art. 9º) NÃO se estende ao recurso inominado — há advogado obrigatório (FONAJE 36).' },
+          { type: 'h', text: 'Honorários sucumbenciais (art. 55)' },
+          { type: 'p', text: 'Em primeira instância no JEC: **NÃO há honorários sucumbenciais** (regra). Exceção: litigância de má-fé. **No recurso inominado**: o vencido paga honorários (art. 55 caput, in fine) + custas. Por isso muitos litigantes desistem do recurso.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Princípios do JEC — OSICE:** **O**ralidade · **S**implicidade · **I**nformalidade · **C**eleridade · **E**conomia (art. 2º).' },
+          { type: 'box', kind: 'macete', text: '**JEC: 40-20-10:** competência **40** SM; jus postulandi **20** SM; recurso inominado **10** dias.' },
+          { type: 'box', kind: 'macete', text: '**No JEC NÃO cabe RAR:** **R**escisória, **A**gravo de instrumento, **R**Esp.' },
+          { type: 'box', kind: 'macete', text: '**Sentença ilíquida JAMAIS** (art. 38 par. único). Memoriza: JEC só com sentença líquida.' },
+          { type: 'box', kind: 'macete', text: '**Prazos JEC = contínuos.** CPC art. 219 (dias úteis) NÃO se aplica. Súmula CJF 99 + FONAJE 165.' },
+          { type: 'box', kind: 'macete', text: '**Honorários só no recurso (vencido).** Em 1º grau, regra é não pagar.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**REsp NÃO CABE** (Súmula 203/STJ). Banca pode dizer "cabe REsp por divergência jurisprudencial entre Turmas" — falso, é Pedido de Uniformização, não REsp.' },
+          { type: 'box', kind: 'atencao', text: '**RE CABE** com repercussão geral (não confundir com REsp). Esse é o recurso de constitucionalidade no JEC.' },
+          { type: 'box', kind: 'atencao', text: '**Espólio e PJ comum NÃO podem ser autores** no JEC. Erro: dizer que PJ pode quando ré ≠ pode quando autora (só pode quando ré qualquer PJ).' },
+          { type: 'box', kind: 'atencao', text: '**No JEC NÃO há intervenção de terceiros** (art. 31). Litisconsórcio é admitido. Banca confunde os dois institutos.' },
+          { type: 'box', kind: 'atencao', text: '**Citação por edital é VEDADA** (art. 18 § 2º). Se réu não localizado, extinção do processo no JEC; reabertura no rito comum.' },
+          { type: 'box', kind: 'atencao', text: '**Conciliação é OBJETIVO permanente, não fase única.** Em qualquer estágio, juiz tenta. Diferente do CPC 334, onde é fase definida.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 8 (atos processuais):** prazos no JEC são CONTÍNUOS, não em dias úteis. CPC art. 219 não se aplica.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 24 (Juizados da Fazenda):** rito complementar à 9.099, mas com Fazenda Pública (Lei 12.153/09). Limite 60 SM (não 40).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 25 (JEF):** Lei 10.259/01 — Juizados Federais. Outro microssistema, com regras próprias.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** REsp e ação rescisória NÃO cabem do JEC. Súmula 203/STJ + FONAJE 44.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 26 (gratuidade):** Súmula 640/STJ aplica-se também ao JEC.' }
+        ]
+      }
+    ]
   },
   {
     id: '24-juizados-fazenda-publica',
@@ -3522,7 +3817,32 @@ flashcards: [
   { id: 114, topic: 20, q: 'Coisa julgada na Ação Popular?', a: 'Secundum eventum probationis: improcedência por insuficiência de provas NÃO faz coisa julgada material - pode ser reproposta com prova nova (Lei 4.717 art. 18).', tags: ['popular'] },
   { id: 115, topic: 20, q: 'Inquérito Civil - exclusivo de quem?', a: 'Do MP (CF art. 129 III + Resolução 23/2007 CNMP). Instrumento extrajudicial inquisitivo, sigiloso, sem contraditório obrigatório. Pode resultar em ACP, arquivamento ou TAC.', tags: ['inquerito-civil'] },
   { id: 116, topic: 18, q: 'Princípios do JEC (mnemônico OSICE)?', a: 'Oralidade, Simplicidade, Informalidade, Celeridade, Economia processual (Lei 9.099 art. 2º).', tags: ['juizados'] },
-  { id: 117, topic: 8, q: 'Calendário processual × NJP?', a: 'CALENDÁRIO (art. 191): específico (datas para atos). NJP (art. 190): amplo (regras procedimentais). Ambos exigem capacidade, livre disposição, contraditório.', tags: ['atos', 'NJP'] }
+  { id: 117, topic: 8, q: 'Calendário processual × NJP?', a: 'CALENDÁRIO (art. 191): específico (datas para atos). NJP (art. 190): amplo (regras procedimentais). Ambos exigem capacidade, livre disposição, contraditório.', tags: ['atos', 'NJP'] },
+
+  // ============ Bloco 8 — Fase 2 (PC 21-23) ============
+  // Tópico 21 — Mediação e conciliação
+  { id: 118, topic: 21, q: 'Mediação × conciliação — qual o critério legal de distinção (CPC art. 165 §§ 2º-3º)?', a: 'VÍNCULO PRÉVIO entre as partes. Mediação: TINHA relação anterior (família, vizinhança), mediador FACILITA sem sugerir. Conciliação: NÃO tinha vínculo, conciliador pode SUGERIR solução.', tags: ['fase2', 'mediacao'] },
+  { id: 119, topic: 21, q: 'Quando a audiência do CPC art. 334 NÃO é realizada?', a: 'Duas hipóteses: (i) ambas as partes manifestarem desinteresse expressamente — autor na PI, réu até 10 dias antes; (ii) causa não admitir autocomposição. Em litisconsórcio, todos devem manifestar desinteresse (§6º).', tags: ['fase2', 'audiencia-334'] },
+  { id: 120, topic: 21, q: 'Qual a sanção para ausência injustificada à audiência de conciliação/mediação?', a: 'Ato atentatório à dignidade da justiça (CPC art. 334 §8º): multa de até 2% sobre valor da causa ou vantagem econômica pretendida, revertida à União/Estado.', tags: ['fase2', 'mediacao', 'multa'] },
+  { id: 121, topic: 21, q: 'Mediação cabe em direitos indisponíveis?', a: 'Cabe quando indisponíveis MAS transigíveis (Lei 13.140 art. 3º §§1º-2º), exigindo homologação judicial e oitiva do MP. Ex: alimentos (existência indisponível, valor transigível).', tags: ['fase2', 'mediacao', 'indisponiveis'] },
+  { id: 122, topic: 21, q: 'Confidencialidade na mediação tem alguma exceção?', a: 'Sim — informação relativa a CRIME DE AÇÃO PÚBLICA (Lei 13.140 art. 30). Não se aplica a crime de ação privada. Mediador deve denunciar.', tags: ['fase2', 'mediacao', 'confidencialidade'] },
+  { id: 123, topic: 21, q: 'Por quanto tempo o mediador fica impedido de atuar como árbitro/testemunha relativa ao mesmo conflito?', a: '1 ano após o encerramento da última audiência (Lei 13.140 art. 7º). Esquecer esse prazo é erro frequente.', tags: ['fase2', 'mediacao'] },
+
+  // Tópico 22 — Arbitragem
+  { id: 124, topic: 22, q: 'O que é Kompetenz-Kompetenz na arbitragem?', a: 'Princípio (Lei 9.307 art. 8º par. único): cabe ao próprio árbitro decidir sobre sua competência, inclusive sobre validade da convenção arbitral. Importação do direito alemão.', tags: ['fase2', 'arbitragem'] },
+  { id: 125, topic: 22, q: 'Cláusula arbitral em contrato de adesão exige o quê?', a: 'Iniciativa do aderente OU concordância expressa em destaque + visto/assinatura específica (Lei 9.307 art. 4º §2º). Sem isso, ineficaz.', tags: ['fase2', 'arbitragem', 'adesao'] },
+  { id: 126, topic: 22, q: 'Sentença arbitral interna precisa de homologação judicial?', a: 'NÃO. É título executivo judicial direto (CPC art. 515 VII + Lei 9.307 art. 31). EXCEÇÃO: sentença arbitral ESTRANGEIRA — homologação no STJ (CF art. 105 I i).', tags: ['fase2', 'arbitragem', 'sentenca'] },
+  { id: 127, topic: 22, q: 'Qual o prazo da ação anulatória de sentença arbitral?', a: '90 dias DECADENCIAIS (Lei 9.307 art. 33 §1º), contados do recebimento da sentença ou da decisão dos embargos. Hipóteses taxativas no art. 32.', tags: ['fase2', 'arbitragem', 'anulatoria'] },
+  { id: 128, topic: 22, q: 'Convenção de arbitragem é matéria conhecível de ofício pelo juiz?', a: 'NÃO (CPC art. 337 X + §5º). Réu deve alegar na contestação, sob pena de RENÚNCIA TÁCITA. Sem alegação, processo prossegue na Justiça Comum.', tags: ['fase2', 'arbitragem', 'competencia'] },
+  { id: 129, topic: 22, q: 'Arbitragem com Adm Pública pode ser por equidade ou sigilosa?', a: 'NÃO. Lei 9.307 art. 2º §3º (alterado pela Lei 13.129/15): só DE DIREITO e com publicidade obrigatória. Sigilo é vedado.', tags: ['fase2', 'arbitragem', 'fazenda'] },
+
+  // Tópico 23 — JEC
+  { id: 130, topic: 23, q: 'Como contam os prazos no JEC?', a: 'CONTÍNUOS (corridos), não em dias úteis. Súmula CJF 99 + FONAJE 165. CPC art. 219 NÃO se aplica ao JEC.', tags: ['fase2', 'JEC', 'prazos'] },
+  { id: 131, topic: 23, q: 'Quem pode ser autor no JEC (art. 8º)?', a: 'PF capaz, MEI, ME, EPP, OSCIP, sociedade de crédito ao microempreendedor. NÃO podem: incapaz, espólio, PJ comum (S.A., Ltda. de grande porte).', tags: ['fase2', 'JEC', 'partes'] },
+  { id: 132, topic: 23, q: 'Sentença ilíquida cabe no JEC?', a: 'NÃO. Lei 9.099 art. 38 par. único — sentença DEVE ser sempre líquida. Se inviável, extinção art. 51 II.', tags: ['fase2', 'JEC', 'sentenca'] },
+  { id: 133, topic: 23, q: 'Cabe REsp contra acórdão da Turma Recursal?', a: 'NÃO (Súmula 203/STJ). Cabe apenas RE com repercussão geral. Para divergência entre Turmas, há Pedido de Uniformização (não REsp).', tags: ['fase2', 'JEC', 'recursos'] },
+  { id: 134, topic: 23, q: 'Cabe ação rescisória no JEC?', a: 'NÃO (FONAJE 44). Microssistema do JEC não admite rescisória — privilegia coisa julgada e celeridade.', tags: ['fase2', 'JEC', 'recursos'] },
+  { id: 135, topic: 23, q: 'Honorários sucumbenciais no JEC: cabem?', a: 'Em 1º grau: NÃO (regra). Exceção: litigância de má-fé. NO RECURSO INOMINADO: vencido paga honorários + custas (art. 55 caput, in fine).', tags: ['fase2', 'JEC', 'honorarios'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -4247,6 +4567,125 @@ questions: [
     ],
     correct: 'B',
     explanation: 'CPC art. 191: o calendário processual é fixado em comum acordo entre juiz e partes, com datas e prazos específicos para os atos processuais. É VINCULANTE - dispensa intimações específicas. Diferente do NJP do art. 190 (mais amplo, sobre regras procedimentais). Ambos exigem capacidade, livre disposição e contraditório.'
+  },
+
+  // ============ Bloco 8 — Fase 2 (PC 21-23) ============
+  {
+    id: 46, topic: 21, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a audiência de conciliação ou de mediação prevista no art. 334 do CPC, é correto afirmar:',
+    alternatives: [
+      'A audiência será sempre realizada, ainda que ambas as partes manifestem desinteresse, em razão do princípio do estímulo à autocomposição.',
+      'Havendo litisconsórcio, a audiência somente deixará de ser realizada se TODOS os litisconsortes manifestarem desinteresse na composição consensual.',
+      'O autor manifesta desinteresse na audiência por petição autônoma, no prazo de 10 dias da distribuição da inicial.',
+      'A ausência injustificada da parte gera apenas multa por litigância de má-fé, no patamar de 1% sobre o valor da causa.',
+      'A audiência é incompatível com causas que admitam autocomposição, sendo dispensada nesses casos.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 334 §6º: havendo litisconsórcio, o desinteresse na audiência só vale se TODOS manifestarem. Um único litisconsorte que queira a audiência impõe sua realização. (A) Se ambas recusarem expressamente, NÃO se realiza (§4º I). (C) Autor manifesta na própria PI (§5º). (D) Ausência é ato atentatório à dignidade da justiça, multa de até 2% (§8º). (E) Audiência é dispensada quando a causa NÃO admite autocomposição (§4º II), o oposto do enunciado.'
+  },
+  {
+    id: 47, topic: 21, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a Lei de Mediação (Lei 13.140/15) e a relação entre mediação e direitos indisponíveis, assinale a alternativa correta:',
+    alternatives: [
+      'A mediação é restrita a direitos patrimoniais disponíveis, sendo incompatível com direitos indisponíveis em qualquer hipótese.',
+      'Direitos indisponíveis transigíveis admitem mediação, dispensando-se nesse caso a homologação judicial e a participação do Ministério Público.',
+      'Direitos indisponíveis transigíveis admitem mediação, exigindo-se homologação judicial e oitiva do Ministério Público.',
+      'A confidencialidade da mediação é absoluta e cobre inclusive informações relativas a crimes de ação pública.',
+      'O acordo obtido em mediação extrajudicial sobre direitos disponíveis somente é eficaz após homologação judicial.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 13.140 art. 3º §§ 1º-2º: direitos indisponíveis MAS transigíveis (ex: valor de alimentos) admitem mediação, com homologação judicial + oitiva do MP. (A) Falso — mediação cabe em direitos indisponíveis transigíveis. (B) Falso — exige homologação e MP. (D) Falso — art. 30 da Lei 13.140 ressalva crime de ação pública (mediador deve denunciar). (E) Falso — acordo extrajudicial sobre direito disponível é título executivo extrajudicial, sem necessidade de homologação (art. 20 par. único).'
+  },
+  {
+    id: 48, topic: 22, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a sentença arbitral e os meios de impugnação, é correto afirmar:',
+    alternatives: [
+      'Cabe apelação contra a sentença arbitral, no prazo de 15 dias úteis, perante o Tribunal de Justiça.',
+      'A sentença arbitral interna depende de homologação pelo juiz togado para constituir título executivo judicial.',
+      'A sentença arbitral pode ser desconstituída por ação anulatória, no prazo decadencial de 90 dias após o recebimento, nas hipóteses taxativas do art. 32 da Lei 9.307/96.',
+      'A ação anulatória pode ser substituída por ação rescisória ajuizada no STJ, no prazo de 2 anos.',
+      'A sentença arbitral estrangeira é homologada pelo STF, na forma do art. 102, I, "h", da Constituição Federal.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.307 art. 33 c/c art. 32: ação anulatória é o meio de impugnação à sentença arbitral, prazo decadencial de 90 dias, hipóteses taxativas. (A) Falso — não cabe recurso, só ação anulatória. (B) Falso — sentença arbitral interna é TEJ direto (CPC art. 515 VII + Lei 9.307 art. 31), sem homologação. (D) Falso — não há rescisória da sentença arbitral; só anulatória. (E) Falso — sentença arbitral estrangeira é homologada pelo STJ (CF art. 105 I i, alterado pela EC 45/2004).'
+  },
+  {
+    id: 49, topic: 22, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'No tocante à arbitragem envolvendo a Administração Pública, conforme alterações da Lei 13.129/15, é INCORRETO afirmar:',
+    alternatives: [
+      'A arbitragem é admitida para dirimir conflitos relativos a direitos patrimoniais disponíveis envolvendo a Administração Pública direta e indireta.',
+      'Veda-se a arbitragem por equidade no âmbito da Administração Pública, sendo obrigatória a arbitragem de direito.',
+      'O princípio da publicidade impõe-se à arbitragem com a Administração, sendo proibido o sigilo tradicionalmente utilizado em arbitragens privadas.',
+      'A autoridade competente para celebrar a convenção de arbitragem é a mesma para a celebração de acordos ou transações.',
+      'A sentença arbitral em desfavor da Administração Pública depende de duplo grau de jurisdição (reexame necessário) para produzir efeitos.'
+    ],
+    correct: 'E',
+    explanation: 'NÃO há reexame necessário em sentença arbitral contra a Administração — a sentença arbitral é título executivo judicial direto. O reexame necessário do CPC art. 496 aplica-se a sentenças JUDICIAIS. As demais alternativas são corretas: (A) art. 1º §1º; (B) art. 2º §3º; (C) art. 2º §3º; (D) art. 1º §2º.'
+  },
+  {
+    id: 50, topic: 23, banca: 'Simulada', nivel: 'Médio',
+    statement: 'No procedimento dos Juizados Especiais Cíveis (Lei 9.099/95), é correto afirmar:',
+    alternatives: [
+      'Os prazos processuais contam-se em dias úteis, em razão da aplicação subsidiária do CPC art. 219.',
+      'Cabe recurso especial ao STJ contra acórdãos das Turmas Recursais quando houver violação à lei federal.',
+      'A sentença pode ser ilíquida nas causas condenatórias, remetendo-se a liquidação para fase posterior.',
+      'A capacidade postulatória da própria parte (jus postulandi) é admitida em causas até 20 salários-mínimos, mas o recurso inominado exige sempre advogado.',
+      'Cabe ação rescisória contra sentença transitada em julgado nos Juizados Especiais, observado o prazo de 2 anos.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 9.099 art. 9º + FONAJE 36 + STJ Tema 1.111: jus postulandi até 20 SM, mas recurso inominado exige advogado. (A) Falso — prazos no JEC são CONTÍNUOS, CPC 219 NÃO se aplica (Súmula CJF 99 + FONAJE 165). (B) Falso — Súmula 203/STJ veda REsp do JEC. (C) Falso — art. 38 par. único veda sentença ilíquida. (E) Falso — FONAJE 44 veda rescisória no JEC.'
+  },
+  {
+    id: 51, topic: 23, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as partes admitidas no Juizado Especial Cível (art. 8º da Lei 9.099/95), assinale a alternativa correta:',
+    alternatives: [
+      'O espólio pode ser parte autora, exercendo os direitos do falecido nos juizados.',
+      'A pessoa jurídica de grande porte pode ser autora desde que a causa não exceda 40 salários-mínimos.',
+      'O incapaz pode ser autor mediante representação ou assistência, conforme regra geral.',
+      'Microempresas, empresas de pequeno porte, OSCIP, MEI e sociedades de crédito ao microempreendedor podem ser autoras.',
+      'A massa falida pode propor ações no JEC para acelerar a recuperação de créditos.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 9.099 art. 8º §1º + Lei 9.841/99 + LC 123/06: ME, EPP, OSCIP, MEI e sociedade de crédito ao microempreendedor podem ser autoras. (A) Falso — espólio NÃO pode ser parte (FONAJE 72). (B) Falso — apenas ME, EPP, OSCIP, MEI etc. (C) Falso — incapaz não pode ser parte (art. 8º §1º). (E) Falso — causas falimentares são EXCLUÍDAS do JEC (art. 3º §2º).'
+  },
+  {
+    id: 52, topic: 23, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os recursos no JEC, considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'Cabe recurso especial nos casos em que houver divergência jurisprudencial entre Turmas Recursais de diferentes estados.',
+      'Cabe recurso extraordinário, com demonstração de repercussão geral, contra acórdão de Turma Recursal que decida questão constitucional.',
+      'O recurso inominado dispensa o pagamento de preparo, em razão do princípio da economia processual.',
+      'Os embargos de declaração no JEC têm prazo de 15 dias e não suspendem prazo para outros recursos.',
+      'Cabe agravo de instrumento contra todas as decisões interlocutórias proferidas pelo juiz togado do JEC.'
+    ],
+    correct: 'B',
+    explanation: 'É possível RE contra acórdãos de Turma Recursal, com repercussão geral. STF tem jurisprudência consolidada nesse sentido. (A) Falso — Súmula 203/STJ veda REsp; eventual divergência se resolve via Pedido de Uniformização. (C) Falso — art. 42: preparo é o DOBRO das custas iniciais. (D) Falso — ED têm prazo de 5 dias e SUSPENDEM o prazo para outros recursos (Súmula 640 indireta). (E) Falso — interlocutórias só impugnáveis com a sentença, salvo MS excepcional (TNU Súmula 8).'
+  },
+  {
+    id: 53, topic: 21, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Distingue mediação e conciliação, conforme o CPC e a Lei 13.140/15:',
+    alternatives: [
+      'Apenas o conciliador atua segundo princípios da imparcialidade e da informalidade; o mediador atua de forma diretiva.',
+      'Mediação aplica-se preferencialmente a casos sem vínculo prévio, com sugestão de soluções pelo mediador; conciliação a casos com vínculo prévio, sem proposição de saídas.',
+      'Mediação aplica-se preferencialmente a casos COM vínculo prévio, sem que o mediador sugira soluções; conciliação a casos SEM vínculo prévio, com possibilidade de o conciliador propor saídas.',
+      'Não há diferença normativa entre os institutos; a denominação varia conforme a tradição forense de cada Estado.',
+      'Apenas a mediação observa a confidencialidade; a conciliação é sempre pública.'
+    ],
+    correct: 'C',
+    explanation: 'CPC art. 165 §§ 2º-3º: distinção legal pelo VÍNCULO PRÉVIO. Mediação = vínculo prévio, mediador FACILITA sem sugerir; conciliação = sem vínculo, conciliador pode SUGERIR. (A) Falso — ambos atuam com imparcialidade. (B) Inverte a regra. (D) Falso — diferença é normativa. (E) Falso — confidencialidade aplica-se a ambas.'
+  },
+  {
+    id: 54, topic: 22, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a cláusula compromissória no contrato de adesão, é correto afirmar:',
+    alternatives: [
+      'É sempre nula, em razão da hipossuficiência presumida do aderente.',
+      'Vincula automaticamente o aderente, em razão do princípio pacta sunt servanda.',
+      'Somente terá eficácia se o aderente tomar a iniciativa OU concordar expressamente em destaque, com visto ou assinatura específica.',
+      'Pode ser invocada de ofício pelo juiz para extinguir o processo sem mérito, em qualquer hipótese.',
+      'Submete-se à homologação do CADE para vincular o aderente.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.307 art. 4º §2º: dupla proteção do aderente — iniciativa OU concordância em destaque + visto. (A) Falso — não é sempre nula; é eficaz se cumpridos os requisitos. (B) Falso — exige proteção adicional ao aderente. (D) Falso — convenção arbitral não é cognoscível de ofício (CPC art. 337 X + §5º). (E) Falso — não há intervenção do CADE em arbitragem privada.'
   }
 ],
 
