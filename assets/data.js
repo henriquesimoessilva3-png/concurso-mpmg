@@ -3966,17 +3966,111 @@ topics: [
     title: 'LINDB e teoria geral do Direito Civil',
     edital: '3.1.1',
     editalText: 'Lei de Introdução às Normas do Direito Brasileiro. Vigência, aplicação, integração e interpretação. Teoria geral do Direito Civil.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Vigência e revogação da lei (art. 1º a 4º)',
-      'Antinomias e critérios de solução',
-      'Conflito de leis no tempo — direito adquirido, ato jurídico perfeito, coisa julgada',
-      'Conflito de leis no espaço (DIPr)',
-      'Integração — analogia, costumes, princípios (art. 4º)',
-      'Hermenêutica jurídica (art. 5º)',
-      'Arts. 20-30 (consequencialismo) — LINDB Lei 13.655/18'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A **LINDB** (Decreto-Lei 4.657/42, com alterações da Lei 13.655/18) é a "**lei sobre as leis**" — meta-norma que disciplina vigência, conflitos no tempo e no espaço, integração e interpretação. Aplica-se a TODOS os ramos do direito brasileiro, não só ao Civil. É preâmbulo essencial para qualquer concurso jurídico.' },
+          { type: 'p', text: 'A **Lei 13.655/18** acrescentou os arts. 20 a 30 — o **consequencialismo jurídico**: motivação obrigatória das decisões, valores fáticos, segurança jurídica na aplicação do direito público. Considerada a "reforma do direito administrativo brasileiro" sem mudar o direito material — só o modo de decidir.' },
+          { type: 'p', text: 'Três eixos para concurso: (a) **vigência e conflito no tempo** (arts. 1º-2º + 6º — irretroatividade, vacatio legis, ato jurídico perfeito, direito adquirido, coisa julgada); (b) **integração** (art. 4º — analogia, costumes, princípios); (c) **consequencialismo** (arts. 20-30 — motivação, valores, segurança jurídica).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Vigência e revogação (arts. 1º-2º)' },
+          { type: 'list', items: [
+            '**Art. 1º** — vacatio legis de 45 dias no Brasil + 3 meses no estrangeiro, salvo disposição em contrário',
+            '**Art. 1º § 1º** — leis que estabeleçam período de adaptação obedecem o prazo nelas fixado (vacatio especial)',
+            '**Art. 1º § 3º** — se lei for republicada antes da entrada em vigor, vacatio recomeça',
+            '**Art. 2º** — não havendo disposição em contrário, lei vigora até ser modificada/revogada',
+            '**Art. 2º § 1º** — revogação: expressa, tácita (incompatível), por norma superior, por específica geral (lex specialis)',
+            '**Art. 2º § 2º** — lei nova GERAL não revoga lei especial anterior, salvo disposição expressa',
+            '**Art. 2º § 3º** — repristinação: revogação da lei revogadora NÃO restaura lei revogada, salvo disposição expressa'
+          ] },
+          { type: 'h', text: 'Conflito de leis no tempo (art. 6º)' },
+          { type: 'list', items: [
+            '**Caput** — lei em vigor terá efeito IMEDIATO e GERAL, respeitados ato jurídico perfeito, direito adquirido e coisa julgada',
+            '**§ 1º** — ato jurídico perfeito = já consumado segundo lei vigente',
+            '**§ 2º** — direito adquirido = aquele que o titular pode exercer; também os subordinados a termo prefixado ou condição preestabelecida e inalterável',
+            '**§ 3º** — coisa julgada = decisão judicial não mais sujeita a recurso'
+          ] },
+          { type: 'h', text: 'Integração e interpretação (arts. 4º-5º)' },
+          { type: 'list', items: [
+            '**Art. 4º** — quando a lei for omissa, juiz decidirá conforme: ANALOGIA, COSTUMES, PRINCÍPIOS GERAIS DO DIREITO',
+            '**Art. 5º** — na aplicação da lei, o juiz atenderá aos FINS SOCIAIS e às EXIGÊNCIAS DO BEM COMUM'
+          ] },
+          { type: 'h', text: 'Conflito de leis no espaço (arts. 7º-19)' },
+          { type: 'list', items: [
+            '**Art. 7º** — lei do país do domicílio rege começo e fim da personalidade, nome, capacidade, direitos de família',
+            '**Art. 8º** — bens regem-se pela lei do país onde estiverem situados (lex rei sitae)',
+            '**Art. 9º** — obrigações regem-se pela lei do país em que se constituírem (locus regit actum)',
+            '**Art. 10** — sucessão por morte ou ausência: lei do domicílio do falecido (regra), com proteção do art. 5º XXXI CF (mais favorável a brasileiro)'
+          ] },
+          { type: 'h', text: 'Consequencialismo (arts. 20-30 — Lei 13.655/18)' },
+          { type: 'list', items: [
+            '**Art. 20** — em decisões da esfera administrativa, controladora e judicial, o juiz não decidirá com base em VALORES JURÍDICOS ABSTRATOS sem considerar consequências práticas',
+            '**Art. 21** — decisão que invalide ato/contrato/processo administrativo deve indicar consequências e regime de transição',
+            '**Art. 22** — interpretação considerará obstáculos e dificuldades reais do gestor; agente público não responde por mera divergência de opinião',
+            '**Art. 23** — nova interpretação de norma exige regime de transição (segurança jurídica)',
+            '**Art. 28** — agente público responde pessoalmente por DOLO ou ERRO GROSSEIRO',
+            '**Art. 30** — autoridades devem atuar para SEGURANÇA JURÍDICA — súmulas, regulamentos, respostas a consultas'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Antinomias e critérios de solução' },
+          { type: 'p', text: 'Quando duas normas conflitam, três critérios em escala (Bobbio): (1) **hierárquico** — lei superior prevalece; (2) **cronológico** — lei posterior prevalece; (3) **especialidade** — lei específica prevalece. Antinomia REAL = não resolvível por critérios; exige aplicação de equidade ou reformulação legal.' },
+          { type: 'box', kind: 'macete', text: '**Antinomias — HIE-CRO-ESPE (Hierárquico → Cronológico → Especialidade).** Em conflito entre critérios: hierárquico vence cronológico; cronológico geral cede à especialidade.' },
+          { type: 'h', text: 'Repristinação (art. 2º § 3º)' },
+          { type: 'p', text: '**REPRISTINAÇÃO NÃO É AUTOMÁTICA.** Se a lei A foi revogada pela lei B, e a lei B é depois revogada pela lei C, a lei A NÃO volta a vigorar — salvo se a lei C dispuser expressamente. Cuidado: confunde-se com efeito repristinatório (controle de constitucionalidade).' },
+          { type: 'box', kind: 'atencao', text: '**Repristinação ≠ efeito repristinatório.** Repristinação (LINDB art. 2º §3º) NÃO é automática. Efeito repristinatório (controle constitucionalidade) reaparece norma anterior pela DECLARAÇÃO de inconstitucionalidade.' },
+          { type: 'h', text: 'Vacatio legis especial' },
+          { type: 'p', text: 'A regra dos 45 dias (art. 1º) é **supletiva**. Cada lei pode fixar sua própria vacatio. Códigos costumam ter vacatio longa (CC/02 = 1 ano; CPC/15 = 1 ano). Lei sem cláusula expressa de vigência → 45 dias.' },
+          { type: 'h', text: 'Direito adquirido × expectativa de direito' },
+          { type: 'p', text: '**Direito adquirido** = aquele cujo titular já pode exercer (ou está protegido por termo/condição inalterável). Imune à lei nova (CF 5º XXXVI). **Expectativa de direito** = situação não consolidada. Pode ser alterada por lei nova.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 226.855:** servidor que ainda não cumpriu requisitos para aposentadoria tem mera EXPECTATIVA, não direito adquirido. Lei nova pode alterar regras.' },
+          { type: 'h', text: 'Consequencialismo — art. 20 (decisões "abstratas" vedadas)' },
+          { type: 'p', text: 'Magistrados, controladores e administradores **NÃO podem decidir com base em valores jurídicos ABSTRATOS** (boa-fé, função social, dignidade) **sem considerar consequências PRÁTICAS**. Não significa "consequencialismo puro" — exige motivação concreta com análise de impactos.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 6.421:** art. 20 LINDB compatível com a Constituição; reforça segurança jurídica e previsibilidade decisional, sem afastar princípios constitucionais.' },
+          { type: 'h', text: 'Erro grosseiro × culpa simples (art. 28)' },
+          { type: 'p', text: 'Agente público responde pessoalmente apenas por **DOLO** ou **ERRO GROSSEIRO** — afasta responsabilização por culpa simples ou divergência razoável de opinião. Visa proteger administrador honesto que se equivoca em situação complexa.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Vacatio: 45 + 3.** 45 dias no Brasil, 3 meses no exterior, salvo disposição em contrário (art. 1º).' },
+          { type: 'box', kind: 'macete', text: '**Integração — A-C-P:** **A**nalogia · **C**ostumes · **P**rincípios (art. 4º).' },
+          { type: 'box', kind: 'macete', text: '**Cláusula de imutabilidade — A-D-C:** **A**to jurídico perfeito · **D**ireito adquirido · **C**oisa julgada (CF 5º XXXVI + LINDB 6º).' },
+          { type: 'box', kind: 'macete', text: '**Lei NOVA GERAL não revoga lei ESPECIAL (art. 2º §2º).** Lex specialis derogat generali — princípio da especialidade.' },
+          { type: 'box', kind: 'macete', text: '**Consequencialismo — arts. 20 a 30 = Lei 13.655/18 (LINDB reformada).** Núcleo: motivação concreta + segurança jurídica.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Repristinação NÃO é automática** (art. 2º §3º). Banca arma: "revogada a lei revogadora, restaura-se a lei anterior" — falso, salvo disposição expressa.' },
+          { type: 'box', kind: 'atencao', text: '**Lex specialis derogat generali** — lei nova GERAL não revoga ESPECIAL anterior (art. 2º §2º). A relação especial-geral mantém-se.' },
+          { type: 'box', kind: 'atencao', text: '**Direito adquirido × expectativa** — só direito ADQUIRIDO está protegido (CF 5º XXXVI). Expectativa pode ser frustrada por lei nova.' },
+          { type: 'box', kind: 'atencao', text: '**Art. 28 LINDB protege agente público de DIVERGÊNCIA de opinião** — mas não de dolo nem erro grosseiro. Banca pode armar: "agente responde por toda culpa" — falso após Lei 13.655/18.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (fatos jurídicos):** prescrição e decadência — institutos com regras próprias, mas LINDB regula vigência da lei aplicável.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 1 (lei processual):** princípios análogos de aplicação no tempo (tempus regit actum); CPC/15 art. 14 aplica imediatamente sem retroatividade.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Administrativo:** arts. 20-30 LINDB são pedra de toque do "novo direito administrativo brasileiro".' },
+          { type: 'box', kind: 'conexao', text: '**Direito Constitucional:** CF art. 5º XXXVI (irretroatividade) é fundamento do art. 6º LINDB.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-02-pessoas-naturais',
@@ -3984,18 +4078,113 @@ topics: [
     title: 'Pessoas naturais',
     edital: '3.1.2',
     editalText: 'Personalidade. Capacidade. Direitos da personalidade. Domicílio. Ausência. Estatuto da Pessoa com Deficiência.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Início e fim da personalidade — natimorto',
-      'Capacidade de direito × de fato',
-      'Incapacidade absoluta (art. 3º) e relativa (art. 4º) — após Lei 13.146/15',
-      'Direitos da personalidade — características',
-      'Nome, imagem, intimidade, honra, sepultura',
-      'Domicílio — fixo, profissional, contratual',
-      'Ausência — fases (curadoria, sucessão provisória, definitiva)',
-      'Tomada de decisão apoiada × curatela'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Pessoa natural é o ser humano sujeito de direitos. **Personalidade** começa com o nascimento com vida (art. 2º), mas a lei resguarda os direitos do **nascituro** desde a concepção. **Capacidade** distingue-se em **de direito** (todos têm — art. 1º) e **de fato** (idade + discernimento — arts. 3º-4º).' },
+          { type: 'p', text: 'A **Lei 13.146/15 (Estatuto da Pessoa com Deficiência)** revolucionou o tema: deficiência **NÃO afeta plena capacidade civil** (art. 6º EPD). A incapacidade hoje é restrita: **ABSOLUTA** apenas para menores de 16 anos (art. 3º); **RELATIVA** para os hipóteses do art. 4º (inclusive maiores que não puderem exprimir vontade). Tomada de decisão apoiada (art. 1.783-A) substituiu, para a maioria dos casos, a curatela.' },
+          { type: 'p', text: 'Os **direitos da personalidade** (arts. 11-21) são **absolutos, indisponíveis, irrenunciáveis, intransmissíveis, imprescritíveis**. Vida, honra, imagem, nome, privacidade, integridade física e moral. Tutela cível autônoma — não exige dolo nem dano, basta a lesão ou ameaça.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Personalidade e capacidade (arts. 1º-5º)' },
+          { type: 'list', items: [
+            '**Art. 1º** — toda pessoa é capaz de direitos e deveres na ordem civil',
+            '**Art. 2º** — personalidade começa com nascimento com vida; lei põe a salvo, desde a concepção, os direitos do NASCITURO',
+            '**Art. 3º** — ABSOLUTAMENTE incapazes: menores de 16 anos (UNICO inciso, após Lei 13.146/15)',
+            '**Art. 4º** — RELATIVAMENTE incapazes: I — maiores de 16 e menores de 18; II — ébrios habituais e viciados em tóxico; III — aqueles que, por causa transitória ou permanente, NÃO puderem exprimir sua vontade; IV — pródigos',
+            '**Art. 5º** — cessação da menoridade: 18 anos OU (par. único) emancipação por: concessão dos pais, casamento, emprego público efetivo, colação de grau em ensino superior, estabelecimento civil/comercial, economia própria a partir dos 16 anos'
+          ] },
+          { type: 'h', text: 'Direitos da personalidade (arts. 11-21)' },
+          { type: 'list', items: [
+            '**Art. 11** — direitos da personalidade são INTRANSMISSÍVEIS e IRRENUNCIÁVEIS, salvo casos previstos em lei',
+            '**Art. 12** — pode-se exigir cessação de ameaça/lesão a direito da personalidade + perdas e danos',
+            '**Art. 12 par. único** — em caso de morte, legitimados: cônjuge, ascendentes, descendentes, colaterais até 4º grau (rol não taxativo na jurisprudência)',
+            '**Art. 13** — disposição corpórea: vedada quando importar diminuição permanente da integridade física, salvo por exigência médica',
+            '**Art. 16** — toda pessoa tem direito ao NOME (prenome + sobrenome)',
+            '**Art. 17** — nome não pode ser empregado por outrem em publicações ou representações que exponham ao desprezo público',
+            '**Art. 19** — pseudônimo amparado por nome',
+            '**Art. 20** — divulgação de escritos, transmissão de palavra, publicação/exposição/utilização de imagem podem ser proibidas a requerimento, e havendo dano causarão indenização',
+            '**Art. 21** — vida privada inviolável; juiz pode adotar medidas necessárias'
+          ] },
+          { type: 'h', text: 'Domicílio (arts. 70-78)' },
+          { type: 'list', items: [
+            '**Art. 70** — domicílio = lugar onde pessoa estabelece residência com ânimo definitivo',
+            '**Art. 72** — domicílio profissional: para relações profissionais',
+            '**Art. 73** — pessoa sem residência habitual: domicílio onde for encontrada',
+            '**Art. 75** — domicílio das PJs: sede ou onde funcionarem suas diretorias e administrações',
+            '**Art. 76** — domicílio NECESSÁRIO: incapazes (do representante), servidores públicos (lugar onde exercerem funções), militares (sede do comando), marítimos (porto onde matriculado), preso (lugar do cumprimento da pena)',
+            '**Art. 78** — eleição de domicílio em contrato (foro de eleição) — limites em contrato de adesão'
+          ] },
+          { type: 'h', text: 'Ausência (arts. 22-39)' },
+          { type: 'list', items: [
+            '**Art. 22** — desaparecido sem notícias ou representante: juiz declara ausência e nomeia CURADOR (1ª fase)',
+            '**Arts. 26-27** — após 1 ano da arrecadação dos bens (ou 3 anos se houve representante), abre-se SUCESSÃO PROVISÓRIA (2ª fase)',
+            '**Art. 37** — após 10 anos do trânsito em julgado da sentença de abertura da sucessão provisória, ou 5 anos das últimas notícias se ausente tinha 80+ anos, abre-se SUCESSÃO DEFINITIVA (3ª fase)',
+            '**Art. 39** — se o ausente regressar nos 10 anos após a definitiva, terá direito aos bens existentes no estado em que se acharem'
+          ] },
+          { type: 'h', text: 'Tomada de Decisão Apoiada (art. 1.783-A — Lei 13.146/15)' },
+          { type: 'list', items: [
+            'Procedimento JUDICIAL pelo qual a pessoa com deficiência elege APOIADORES de sua confiança',
+            'Apoiadores prestam assistência sem retirar a capacidade civil',
+            'Diferença com curatela: TDA é manifestação de AUTONOMIA da pessoa; curatela é proteção em face de impossibilidade de exprimir vontade'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Status do nascituro — teorias' },
+          { type: 'p', text: 'Três teorias: (a) **NATALISTA** — só com nascimento com vida há personalidade (art. 2º caput); direitos do nascituro são meras expectativas. (b) **CONDICIONALISTA** — personalidade adquirida sob condição do nascimento com vida. (c) **CONCEPCIONISTA** — personalidade desde a concepção, mas com direitos que se completam com nascimento. STJ tem oscilado, mas tendência atual é **concepcionista** quanto a direitos da personalidade (REsp 1.415.727 — direito à imagem do nascituro).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.415.727:** indenização por danos morais ao nascituro por morte do pai antes do nascimento. Adoção da teoria concepcionista para direitos da personalidade.' },
+          { type: 'h', text: 'Estatuto da Pessoa com Deficiência (Lei 13.146/15) — revisão estrutural' },
+          { type: 'p', text: 'Antes do EPD: deficiência psíquica/intelectual era hipótese clássica de incapacidade absoluta. **Após EPD:** deficiência **NÃO afeta plena capacidade civil** (art. 6º EPD). A incapacidade absoluta restringiu-se aos menores de 16 anos. Pessoas com deficiência mental podem usar **TDA** (autonomia) ou, em casos extremos de impossibilidade de exprimir vontade, curatela (mas relativa — art. 1.772 CC).' },
+          { type: 'box', kind: 'atencao', text: '**Pessoa com deficiência tem PLENA capacidade civil** (Lei 13.146 art. 6º). Erro frequente: assumir que continua absolutamente incapaz como antes do EPD.' },
+          { type: 'h', text: 'Direitos da personalidade — características' },
+          { type: 'p', text: 'São **absolutos** (oponíveis erga omnes), **indisponíveis** (não podem ser cedidos), **irrenunciáveis**, **intransmissíveis**, **imprescritíveis** (não se extinguem pelo não-exercício), **vitalícios** (acompanham a pessoa até a morte; depois, a tutela é pelos legitimados do art. 12 par. único).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 521.697 (Ricardo Henkin):** direitos da personalidade do morto podem ser tutelados pela família, em caráter de "lesão ricochete" — atinge memória do falecido e dignidade dos parentes.' },
+          { type: 'h', text: 'Emancipação (art. 5º par. único)' },
+          { type: 'p', text: 'Modos de emancipação: **voluntária** (concessão dos pais, irrevogável); **judicial** (tutor); **legal** (casamento, emprego público efetivo, colação de grau em superior, estabelecimento civil/comercial, economia própria 16+). A emancipação confere capacidade civil plena (mas não responsabilidade penal — penal é 18 anos sempre).' },
+          { type: 'box', kind: 'atencao', text: '**Emancipação NÃO altera responsabilidade penal** — apenas civil. Erro: confundir capacidade civil com imputabilidade penal (que é 18 anos).' },
+          { type: 'h', text: 'Domicílio aparente x necessário' },
+          { type: 'p', text: '**Necessário (art. 76)** — fixado por lei: incapaz, servidor, militar, marítimo, preso. Não admite escolha. **Aparente** — caracterizado pela presença material e sinais de fixação. Se PF tem múltiplas residências, é considerada domiciliada em qualquer delas (art. 71).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Personalidade — INA-IRRENUNCIÁVEL-INTRANSMISSÍVEL-IMPRESCRITÍVEL.** Características essenciais.' },
+          { type: 'box', kind: 'macete', text: '**Absolutos: < 16 anos.** Apenas (após EPD).' },
+          { type: 'box', kind: 'macete', text: '**Relativos: 16-18, ébrio, viciado, NÃO podem exprimir vontade, pródigo (art. 4º).**' },
+          { type: 'box', kind: 'macete', text: '**Ausência — 3 fases: Curadoria → Provisória (1 ou 3 anos) → Definitiva (10 anos).**' },
+          { type: 'box', kind: 'macete', text: '**Emancipação legal: CCEEEE — Casamento · Emprego público · Estabelecimento · Estudo superior · Economia própria 16+.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Pessoa com deficiência intelectual NÃO é mais ABSOLUTAMENTE incapaz.** Pode ser relativa (art. 4º III — impossibilidade de exprimir vontade) ou tomada de decisão apoiada (art. 1.783-A). Mudança radical pelo EPD.' },
+          { type: 'box', kind: 'atencao', text: '**Maior de 16 e menor de 18 é RELATIVO** — pratica atos com assistência. Diferente de "absolutamente incapaz".' },
+          { type: 'box', kind: 'atencao', text: '**Personalidade da PJ é distinta dos direitos da personalidade pessoais.** PJ tem honra OBJETIVA (Súmula 227/STJ), mas não direito à intimidade ou à integridade física.' },
+          { type: 'box', kind: 'atencao', text: '**Domicílio do incapaz é NECESSÁRIO — do representante** (art. 76). Mesmo que o incapaz resida em outro lugar, juridicamente segue o representante.' },
+          { type: 'box', kind: 'atencao', text: '**Sucessão definitiva pode SUSPENDER se ausente retornar.** Mas após 10 anos, bens vão para os herdeiros sem mais retorno (art. 39).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (Família — alimentos, tutela, curatela):** EPD reformou curatela (art. 1.767 + 1.772) — restrita a "atos negociais e patrimoniais". Tomada de decisão apoiada é alternativa.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP no processo):** intervenção obrigatória em causas com incapazes (CPC art. 178 II).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** menor incapaz responde subsidiariamente (CC art. 928); pais respondem objetivamente pelos atos dos filhos (art. 932 I).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-03-pessoas-juridicas',
@@ -4003,18 +4192,103 @@ topics: [
     title: 'Pessoas jurídicas',
     edital: '3.1.3',
     editalText: 'Conceito. Espécies. Constituição, registro, extinção. Desconsideração da personalidade jurídica (CC art. 50).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Espécies — direito público (interno/externo) e privado',
-      'Constituição — registro como condição de existência',
-      'Atos constitutivos, denominação',
-      'Responsabilidade — patrimônio próprio',
-      'Desconsideração (art. 50) — teoria maior × menor',
-      'Lei 13.874/19 (Liberdade Econômica) e impactos',
-      'Desconsideração inversa',
-      'Grupos econômicos e sucessão empresarial'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A pessoa jurídica é **entidade abstrata** com personalidade própria, distinta dos seus membros. **Princípio da autonomia patrimonial** (art. 49-A, incluído pela Lei 13.874/19): patrimônio da PJ não se confunde com o dos sócios. A separação é a "essência" da PJ — só excepcionalmente (desconsideração) se rompe.' },
+          { type: 'p', text: 'O CC classifica as PJs em **direito público** (externas: Estados estrangeiros e organismos internacionais; internas: União, Estados, DF, Municípios, autarquias, fundações públicas) e **direito privado** (associações, sociedades, fundações, OSCs, EIRELI — esta extinta pela Lei 14.382/22, agora SLU). A constituição se completa com **registro** (art. 45) — antes do registro, há mera "sociedade de fato".' },
+          { type: 'p', text: 'A **desconsideração da personalidade jurídica (art. 50)** é o mecanismo de exceção. O CC adota a **TEORIA MAIOR**: exige abuso da personalidade caracterizado por **DESVIO DE FINALIDADE** ou **CONFUSÃO PATRIMONIAL**. Diferente da TEORIA MENOR (CDC art. 28; ambiental Lei 9.605), que basta a insolvência. A Lei 13.874/19 detalhou os requisitos do art. 50.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Espécies, constituição e responsabilidade (arts. 40-52)' },
+          { type: 'list', items: [
+            '**Art. 40** — PJs de direito público interno ou externo, e de direito privado',
+            '**Art. 41** — PJs de direito público interno: União, Estados, DF, Territórios, Municípios, autarquias, demais entidades de caráter público criadas por lei',
+            '**Art. 44** — PJs de direito privado: associações, sociedades, fundações, organizações religiosas, partidos políticos, EIRELI (revogada Lei 14.382/22)',
+            '**Art. 45** — começa a existência legal das PJs de direito privado com inscrição do ato constitutivo no registro próprio',
+            '**Art. 49-A** (Lei 13.874/19) — PJ NÃO se confunde com seus sócios, associados, instituidores ou administradores. Patrimônio é AUTÔNOMO',
+            '**Art. 49-A par. único** — autonomia patrimonial é instrumento lícito de alocação de risco e estímulo à atividade econômica'
+          ] },
+          { type: 'h', text: 'Desconsideração (art. 50 — Lei 13.874/19)' },
+          { type: 'list', items: [
+            '**Caput** — em caso de ABUSO DA PERSONALIDADE JURÍDICA, caracterizado por DESVIO DE FINALIDADE ou CONFUSÃO PATRIMONIAL, pode o juiz, a requerimento da parte ou do MP (quando intervir), desconsiderar para que os efeitos atinjam bens dos sócios/administradores',
+            '**§ 1º** — DESVIO DE FINALIDADE = utilização da PJ com propósito de lesar credores ou praticar ato ilícito',
+            '**§ 2º** — CONFUSÃO PATRIMONIAL: I — cumprimento repetitivo de obrigações da PJ pelo sócio (ou vice-versa); II — transferência de ativos sem efetivas contraprestações; III — outros atos de descumprimento da autonomia patrimonial',
+            '**§ 3º** — desconsideração também pode atingir bens dos sócios/administradores em RECUPERAÇÃO JUDICIAL/falência',
+            '**§ 4º** — desconsideração INVERSA: bens da PJ podem responder por dívidas pessoais dos sócios',
+            '**§ 5º** — não constitui desvio de finalidade a mera expansão ou alteração da finalidade original (proteção)'
+          ] },
+          { type: 'h', text: 'Fundações (arts. 62-69)' },
+          { type: 'list', items: [
+            '**Art. 62** — fundações privadas só para fins RELIGIOSOS, MORAIS, CULTURAIS, ASSISTENCIAIS',
+            'Constituição por escritura pública ou testamento, com indicação dos fins',
+            '**Art. 66** — fundações são fiscalizadas pelo MP do estado onde situadas (atribuição clássica do MPMG)'
+          ] },
+          { type: 'h', text: 'Lei 14.382/22 — extinção da EIRELI' },
+          { type: 'list', items: [
+            'Lei 14.382/22 (Marco Legal das Garantias) extinguiu a EIRELI',
+            'EIRELIs existentes foram automaticamente convertidas em **SLU (Sociedade Limitada Unipessoal)**',
+            'SLU já existia desde Lei 13.874/19 — agora é única figura unipessoal limitada'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Teoria Maior × Teoria Menor da desconsideração' },
+          { type: 'p', text: '**TEORIA MAIOR** (CC art. 50): exige **abuso da personalidade** — desvio de finalidade ou confusão patrimonial. Mera insolvência NÃO autoriza. Aplicável em direito empresarial e civil em geral.' },
+          { type: 'p', text: '**TEORIA MENOR** (CDC art. 28; Lei 9.605/98 — ambiental): basta a **OBSTACULIZAÇÃO ao ressarcimento** ou a **insolvência da PJ**. Não exige abuso. Aplicável apenas onde lei específica adota (consumidor e ambiental são clássicos).' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.658.648:** Teoria Menor é aplicada apenas em casos legalmente previstos. Em direito civil/empresarial geral, a Teoria MAIOR (CC art. 50) é a regra.' },
+          { type: 'box', kind: 'macete', text: '**Maior = abuso (CC 50). Menor = insolvência (CDC 28 + ambiental).** Maior exige mais para desconsiderar; Menor é mais permissiva.' },
+          { type: 'h', text: 'Desconsideração inversa (art. 50 § 4º)' },
+          { type: 'p', text: 'Possível desde a edição da Lei 13.874/19 (positivou jurisprudência STJ). **Bens da PJ respondem por dívidas pessoais dos sócios.** Hipótese clássica: sócio que esvazia patrimônio pessoal para a PJ (com confusão patrimonial reversa).' },
+          { type: 'h', text: 'Procedimento: IDPJ (CPC arts. 133-137)' },
+          { type: 'p', text: 'Desconsideração exige **incidente de desconsideração da personalidade jurídica (IDPJ)** no processo civil, com contraditório, instrução, decisão (recurso: agravo de instrumento — CPC art. 1.015 IV). Sem IDPJ, atingir patrimônio do sócio é nulo. Apenas em CDC e ambiental admite-se "desconsideração in radice" sem IDPJ pleno (controvertido).' },
+          { type: 'box', kind: 'atencao', text: '**Sem IDPJ, desconsideração é NULA** (CPC arts. 133-137). Mero pedido em fase de execução, sem incidente, não basta.' },
+          { type: 'h', text: 'Personalidade da PJ × dos seus integrantes' },
+          { type: 'p', text: 'PJ tem **autonomia patrimonial** (art. 49-A) — patrimônio próprio. Sócios respondem nas dimensões da participação societária (LTDA: limitação ao capital social — Lei 6.404). Desconsideração rompe essa proteção, mas é EXCEPCIONAL.' },
+          { type: 'h', text: 'Direitos da personalidade da PJ' },
+          { type: 'p', text: 'PJ NÃO tem todos os direitos da personalidade da PF — apenas alguns: **honra OBJETIVA** (reputação — Súmula 227/STJ), nome/marca (art. 1.155+), imagem corporativa. NÃO tem direito à privacidade pessoal nem integridade física (são "imateriais por natureza").' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 227:** "A pessoa jurídica pode sofrer dano moral." Reconhecimento da honra objetiva.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Desconsideração — DD: Desvio de finalidade + cumprimento Duplicado de obrigações = abuso (Maior).**' },
+          { type: 'box', kind: 'macete', text: '**Maior = CC 50 (abuso). Menor = CDC 28 / Lei 9.605 (insolvência).**' },
+          { type: 'box', kind: 'macete', text: '**EIRELI EXTINTA** (Lei 14.382/22). Hoje só existe SLU (sociedade limitada unipessoal).' },
+          { type: 'box', kind: 'macete', text: '**Fundação privada — 4 fins: religioso, moral, cultural, assistencial (art. 62).** MP fiscaliza.' },
+          { type: 'box', kind: 'macete', text: '**Lei 13.874/19 — Liberdade Econômica.** Reformou desconsideração (art. 50) + autonomia patrimonial (49-A) + introduziu SLU.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**EIRELI NÃO EXISTE MAIS** (extinta pela Lei 14.382/22). Substituída pela SLU (Sociedade Limitada Unipessoal) automaticamente.' },
+          { type: 'box', kind: 'atencao', text: '**Mera INSOLVÊNCIA não autoriza desconsideração (Teoria Maior — art. 50).** Banca arma: "PJ insolvente → sócios respondem". Falso, em direito civil geral. Em CDC sim (Teoria Menor).' },
+          { type: 'box', kind: 'atencao', text: '**Desconsideração exige IDPJ** (CPC 133-137). Pedido direto na execução = nulo.' },
+          { type: 'box', kind: 'atencao', text: '**Direitos da personalidade da PJ — limitados.** Tem honra OBJETIVA (S. 227/STJ), mas não privacidade ou integridade física.' },
+          { type: 'box', kind: 'atencao', text: '**Mero crescimento ou alteração de objeto social NÃO é desvio de finalidade** (art. 50 §5º). Proteção positivada pela Lei 13.874/19.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 4 (intervenção de terceiros):** IDPJ é incidente do art. 133-137 CPC.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP):** MP fiscaliza fundações (CC art. 66) — função clássica do Promotor de Justiça.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 12 (empresa):** sociedades empresárias seguem Lei 6.404 (S.A.) e CC arts. 1.052+ (LTDA). SLU é unipessoal limitada.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Administrativo:** PJs de direito público interno (União, autarquias) seguem regime distinto, com prerrogativas (impenhorabilidade, prescrição).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-04-bens',
@@ -4022,16 +4296,101 @@ topics: [
     title: 'Bens',
     edital: '3.1.4',
     editalText: 'Conceito de bens. Classificação. Bens públicos. Bem de família legal e voluntário (Lei 8.009/90).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Classificação — corpóreos/incorpóreos, móveis/imóveis, fungíveis/infungíveis',
-      'Acessões e benfeitorias',
-      'Bens públicos — uso comum, uso especial, dominicais',
-      'Imprescritibilidade e impenhorabilidade dos bens públicos',
-      'Bem de família legal (Lei 8.009/90) — limites e exceções',
-      'Bem de família voluntário (CC arts. 1.711-1.722)'
-    ],
-    sections: []
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Bens são "tudo o que pode ser objeto de uma relação jurídica". O CC classifica os bens em **móveis/imóveis** (arts. 79-84), **fungíveis/infungíveis e consumíveis/inconsumíveis** (arts. 85-86), **divisíveis/indivisíveis** (arts. 87-88), **singulares/coletivos** (arts. 89-91), **principais/acessórios** (arts. 92-97), **PÚBLICOS** (arts. 98-103) e **bem de família** (arts. 1.711+ + Lei 8.009/90).' },
+          { type: 'p', text: 'Para concurso de Promotor, dois núcleos pesam: (1) **Bens públicos** — classificação por destinação (uso comum, uso especial, dominicais), prerrogativas (inalienabilidade relativa, impenhorabilidade, imprescritibilidade); (2) **Bem de família** — distinção entre legal (Lei 8.009/90 — automático) e voluntário (CC 1.711+ — escritura registrada). Exceções à impenhorabilidade.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Classificação geral (arts. 79-91)' },
+          { type: 'list', items: [
+            '**Art. 79** — móveis: suscetíveis de movimento próprio ou remoção sem alteração da substância',
+            '**Art. 80** — imóveis: solo + tudo que se incorpora natural/artificialmente. **Direitos reais** sobre imóveis também são imóveis (regra IMPORTANTE)',
+            '**Art. 81** — bens MÓVEIS POR DETERMINAÇÃO LEGAL: energias com valor econômico, direitos reais sobre objetos móveis, ações de sociedades, etc.',
+            '**Art. 82** — móveis por NATUREZA + por antecipação (frutos pendentes destinados ao corte)',
+            '**Art. 85** — fungíveis: substituíveis por outros do mesmo gênero, qualidade, quantidade (dinheiro, grãos)',
+            '**Art. 86** — consumíveis: cujo uso importa destruição imediata (alimentos)',
+            '**Art. 91** — universalidade DE FATO: pluralidade de bens singulares com unidade econômica (rebanho, biblioteca)'
+          ] },
+          { type: 'h', text: 'Bens públicos (arts. 98-103)' },
+          { type: 'list', items: [
+            '**Art. 98** — bens públicos: pertencem às PJs de direito público interno; demais são particulares',
+            '**Art. 99** — três espécies: (I) USO COMUM do povo: rios, mares, estradas, ruas, praças; (II) USO ESPECIAL: edifícios e terrenos destinados a serviço público; (III) DOMINICAIS: patrimônio das PJs públicas, como objeto de direito real ou pessoal',
+            '**Art. 100** — bens de uso comum e uso especial são INALIENÁVEIS enquanto conservarem essa qualificação. Dominicais podem ser alienados, observados os requisitos legais',
+            '**Art. 101** — desafetação possível por lei (uso especial → dominical, depois alienar)',
+            '**Art. 102** — bens públicos NÃO ESTÃO sujeitos a USUCAPIÃO',
+            '**Art. 103** — uso comum pode ser gratuito ou retribuído, conforme estabelecido em lei'
+          ] },
+          { type: 'h', text: 'Bem de família (CC arts. 1.711-1.722 + Lei 8.009/90)' },
+          { type: 'list', items: [
+            '**CC art. 1.711** — pode-se destinar parte do patrimônio para bem de família, máximo 1/3 do patrimônio líquido. Inscrito no registro imobiliário',
+            '**CC art. 1.712** — bem de família abrange prédio residencial + valores mobiliários para conservação/sustento da família',
+            '**CC art. 1.715** — bem de família é IMPENHORÁVEL e isento de execução por dívidas posteriores à instituição',
+            '**Lei 8.009/90 art. 1º** — IMÓVEL RESIDENCIAL próprio do casal/entidade familiar é IMPENHORÁVEL automaticamente, não respondendo por dívida civil/comercial/fiscal/previdenciária do casal/famílias',
+            '**Lei 8.009/90 art. 3º** — exceções (rol TAXATIVO): I (revogado); II — créditos de empregados domésticos; III — credor de financiamento do próprio imóvel; IV — pensão alimentícia (decisão judicial); V — IPTU/cotas condominiais do imóvel; VI — execução de hipoteca dada em garantia ao casal; VII — civil de fiança em locação (julgado constitucional pelo STF)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Bem de família LEGAL × VOLUNTÁRIO' },
+          { type: 'table', headers: ['Critério', 'Legal (Lei 8.009)', 'Voluntário (CC 1.711)'],
+            rows: [
+              ['Constituição', 'AUTOMÁTICA — basta residência', 'Escritura pública + REGISTRO'],
+              ['Limite valor', 'Sem limite no imóvel residencial', 'Até 1/3 do patrimônio líquido'],
+              ['Exceções', 'Rol taxativo do art. 3º (Lei 8.009)', 'Tributos do imóvel + pensão alimentícia'],
+              ['Atinge', 'Imóvel residencial + alguns móveis essenciais', 'Imóvel + valores mobiliários']
+            ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 449:** "A vaga de garagem que possui matrícula própria no registro de imóveis NÃO constitui bem de família para efeito de penhora." Tem matrícula = é bem distinto, penhorável.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 486:** "É impenhorável o único imóvel residencial do devedor que esteja LOCADO a terceiros, desde que a renda obtida com a locação seja revertida para a subsistência da família ou para o pagamento de aluguel da residência onde a família reside."' },
+          { type: 'h', text: 'Bens PÚBLICOS — 3 prerrogativas (clássicas)' },
+          { type: 'p', text: '**INALIENABILIDADE** (relativa — desafetação permite venda); **IMPENHORABILIDADE** (absoluta — bens públicos não podem ser penhorados; pagamento por precatórios/RPVs); **IMPRESCRITIBILIDADE** (não admitem usucapião — art. 102 + Súmula 340/STF). Forma o "tripé" da proteção dos bens públicos.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 340:** "Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, NÃO PODEM ser adquiridos por usucapião." Aplicação ampla a todas as espécies de bens públicos.' },
+          { type: 'h', text: 'Fiança locatícia — exceção controvertida' },
+          { type: 'p', text: '**Lei 8.009/90 art. 3º VII** permite penhora do bem de família do FIADOR em LOCAÇÃO. STF reconheceu constitucionalidade (RE 612.360 — Tema 295). Crítica doutrinária: viola direito à moradia (CF art. 6º). Tema clássico de prova oral.' },
+          { type: 'h', text: 'Bens dominicais e desafetação' },
+          { type: 'p', text: 'Dominicais são "bens públicos sem destinação pública específica" — patrimônio disponível. Podem ser alienados (com requisitos: avaliação, autorização legislativa, licitação — Lei 14.133/21). **Uso comum/especial** exigem **desafetação** prévia (lei ou ato administrativo) para virarem dominicais e poderem ser alienados.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Bens públicos: 3 espécies (USO COMUM · USO ESPECIAL · DOMINICAIS) + 3 prerrogativas (INALIENÁVEL · IMPENHORÁVEL · IMPRESCRITÍVEL).**' },
+          { type: 'box', kind: 'macete', text: '**Bem família LEGAL = AUTOMÁTICO (Lei 8.009/90). VOLUNTÁRIO = registro (CC 1.711).**' },
+          { type: 'box', kind: 'macete', text: '**Lei 8.009 art. 3º — 7 EXCEÇÕES:** doméstico, financiamento, alimentos, IPTU/condomínio, hipoteca, fiança locatícia, etc.' },
+          { type: 'box', kind: 'macete', text: '**Súmula 340/STF: bens públicos = SEM USUCAPIÃO.** Universal.' },
+          { type: 'box', kind: 'macete', text: '**Móveis por DETERMINAÇÃO LEGAL: energia, direitos reais sobre móveis, ações** (art. 81).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Bem de família LEGAL é AUTOMÁTICO** — não precisa registro nem declaração. A residência do casal é protegida ipso facto (Lei 8.009 art. 1º).' },
+          { type: 'box', kind: 'atencao', text: '**Imóvel residencial LOCADO PODE ser bem de família** se renda for usada para subsistência ou aluguel residencial (Súmula 486/STJ). Erro: assumir que locação afasta proteção.' },
+          { type: 'box', kind: 'atencao', text: '**Vaga de garagem com matrícula PRÓPRIA = penhorável** (Súmula 449/STJ). Diferente da unidade autônoma como um todo.' },
+          { type: 'box', kind: 'atencao', text: '**Fiança locatícia PENHORA bem de família do fiador** (Lei 8.009 art. 3º VII + STF Tema 295). Exceção amplamente cobrada.' },
+          { type: 'box', kind: 'atencao', text: '**Bem público é IMPRESCRITÍVEL — NÃO admite usucapião** (Súmula 340/STF + CC 102). Banca arma: "dominicais sem afetação podem ser usucapidos" — falso.' },
+          { type: 'box', kind: 'atencao', text: '**Direitos reais sobre IMÓVEIS são IMÓVEIS** (art. 80 II). Direitos reais sobre móveis são móveis. Pegadinha clássica.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 13 (direitos reais — posse e propriedade):** usucapião. Bem público nunca é usucapido (Súmula 340/STF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** impenhorabilidade do bem de família é defesa do devedor; STJ tem jurisprudência ampla sobre exceções.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (família — alimentos):** pensão alimentícia é exceção que permite penhora do bem de família (Lei 8.009 art. 3º IV).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-05-fatos-juridicos',
@@ -4039,18 +4398,131 @@ topics: [
     title: 'Fatos jurídicos, prescrição e decadência',
     edital: '3.1.5',
     editalText: 'Fato, ato e negócio jurídico. Defeitos do negócio jurídico. Validade, eficácia, nulidade e anulabilidade. Prescrição e decadência.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Fato × ato × negócio jurídico — escala Pontes de Miranda',
-      'Plano da existência, validade e eficácia',
-      'Defeitos — erro, dolo, coação, lesão, estado de perigo, fraude',
-      'Simulação — nulidade absoluta',
-      'Nulidade × anulabilidade — diferenças e prazos',
-      'Prescrição (art. 189-206) — causas suspensivas e interruptivas',
-      'Decadência — convencional e legal',
-      'Diferenças prescrição × decadência'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 1 da Fase 3 (dez/2026) — semana 2-3',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Fato jurídico (lato sensu) é qualquer acontecimento que produza efeitos jurídicos. **Pontes de Miranda** estruturou a escala: **fato jurídico stricto sensu** (acontecimento da natureza — nascimento, morte) → **ato-fato jurídico** (conduta humana sem vontade dirigida — achar tesouro) → **ato jurídico stricto sensu** (vontade que produz efeitos predeterminados — protesto) → **negócio jurídico** (autonomia plena — contrato, testamento).' },
+          { type: 'p', text: '**Plano da existência, validade e eficácia** (escada ponteana): existir = atender pressupostos mínimos; ser válido = atender requisitos legais (capacidade, forma, objeto lícito); ser eficaz = produzir efeitos. Há atos que existem mas são inválidos (anuláveis); há atos válidos mas ineficazes (sob condição suspensiva).' },
+          { type: 'p', text: '**Prescrição × decadência** é divisor de águas. Prescrição extingue a PRETENSÃO (não o direito); decadência extingue o próprio DIREITO. CC unificou: prescrição com prazos do art. 205 (geral, 10 anos) e 206 (especiais); decadência convencional ou legal (arts. 207-211). Aplicação prática: prescrição admite suspensão/interrupção/renúncia; decadência legal não.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Negócio jurídico (arts. 104-184)' },
+          { type: 'list', items: [
+            '**Art. 104** — requisitos de VALIDADE: I — agente capaz; II — objeto lícito, possível, determinado/determinável; III — forma prescrita ou não defesa em lei',
+            '**Art. 107** — forma livre, salvo quando lei exigir forma especial (negócios solenes)',
+            '**Art. 108** — escritura pública é da SUBSTÂNCIA do ato em negócios sobre IMÓVEIS de valor superior a 30 SM',
+            '**Art. 113** — interpretação: boa-fé objetiva e usos do lugar',
+            '**Art. 114** — negócios benéficos e renúncia interpretam-se restritivamente',
+            '**Art. 121** — condição: cláusula que subordina efeito do negócio a evento FUTURO e INCERTO',
+            '**Art. 131** — termo: evento FUTURO E CERTO. Diferença com condição (futuro INCERTO)'
+          ] },
+          { type: 'h', text: 'Defeitos do negócio jurídico (arts. 138-165)' },
+          { type: 'list', items: [
+            '**Erro substancial (art. 138)** — engano sobre elemento essencial do negócio. Anulabilidade. Prazo: 4 anos da celebração (art. 178 II)',
+            '**Dolo (art. 145)** — engano provocado pela parte ou terceiro. Anulabilidade. Prazo: 4 anos',
+            '**Coação (art. 151)** — ameaça que vicia a vontade. Anulabilidade. Prazo: 4 anos da cessação',
+            '**Estado de perigo (art. 156)** — assumir obrigação excessivamente onerosa em situação de necessidade extrema (parente em risco)',
+            '**Lesão (art. 157)** — desproporção entre prestações por inexperiência ou premente necessidade. Anulabilidade — pode ser COMPLEMENTADA pelo lesado para conservar o negócio (§2º)',
+            '**Fraude contra credores (arts. 158-165)** — alienação que reduz devedor à insolvência. AÇÃO PAULIANA. Anulabilidade — prazo 4 anos',
+            '**Simulação (art. 167)** — declaração não corresponde à vontade real. NULIDADE ABSOLUTA. Não convalida; pode ser arguida a qualquer tempo'
+          ] },
+          { type: 'h', text: 'Nulidade × anulabilidade' },
+          { type: 'list', items: [
+            '**Nulidade ABSOLUTA (art. 166)** — vício gravíssimo: agente absolutamente incapaz, objeto ilícito/impossível, ausência de forma essencial, simulação, etc. **Pode ser arguida por QUALQUER interessado e pelo MP. Não convalida pelo tempo. Imprescritível.**',
+            '**Anulabilidade (art. 171)** — vício menos grave: agente relativamente incapaz, defeitos do negócio jurídico (erro, dolo, coação, lesão, estado de perigo, fraude). **Só pelos interessados. Convalida pelo decurso do prazo (4 anos — art. 178). Prescritível decadencial.**'
+          ] },
+          { type: 'h', text: 'Prescrição (arts. 189-206)' },
+          { type: 'list', items: [
+            '**Art. 189** — violado o direito, nasce para o titular a PRETENSÃO, que se extingue pela PRESCRIÇÃO',
+            '**Art. 190** — prescrição da pretensão extingue a possibilidade de ação',
+            '**Art. 191** — renúncia da prescrição: tácita ou expressa, após consumada e sem prejudicar terceiros',
+            '**Art. 197-201** — causas SUSPENSIVAS (entre cônjuges, ascendentes-descendentes, contra incapazes do art. 3º — apenas absolutamente incapaz)',
+            '**Arts. 202-204** — causas INTERRUPTIVAS — UMA SÓ VEZ pelo mesmo fato (art. 202 caput)',
+            '**Art. 205** — prazo geral: 10 ANOS, se não houver previsão específica',
+            '**Art. 206** — prazos especiais: §3º V — pretensão de reparação civil = 3 ANOS; §5º I — exigir cumprimento de obrigação líquida em instrumento público/particular = 5 ANOS'
+          ] },
+          { type: 'h', text: 'Decadência (arts. 207-211)' },
+          { type: 'list', items: [
+            '**Art. 207** — salvo disposição em contrário, NÃO se aplicam à decadência as normas que impedem, suspendem ou interrompem a prescrição',
+            '**Art. 208** — aplica-se à decadência o art. 195 (proteção dos absolutamente incapazes)',
+            '**Art. 209** — é nula a renúncia à decadência LEGAL',
+            '**Art. 210** — DECADÊNCIA LEGAL conhecível DE OFÍCIO',
+            '**Art. 211** — DECADÊNCIA CONVENCIONAL — só pode ser arguida pela parte beneficiada'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Prescrição × decadência — diferenças essenciais' },
+          { type: 'table', headers: ['Critério', 'Prescrição', 'Decadência'],
+            rows: [
+              ['O que extingue', 'A PRETENSÃO (não o direito)', 'O próprio DIREITO'],
+              ['Suspensão/interrupção', 'Sim (arts. 197-204)', 'NÃO (regra — art. 207). Exceção: art. 195 (incapazes)'],
+              ['Renúncia', 'Possível, após consumada (art. 191)', 'Convencional sim; LEGAL não (art. 209)'],
+              ['Conhecimento de ofício', 'Sim (CPC art. 487 II)', 'Decadência LEGAL: SIM (art. 210). Convencional: NÃO (art. 211)'],
+              ['Aplicação', 'Direitos a prestação', 'Direitos potestativos (formação/desconstituição)']
+            ] },
+          { type: 'box', kind: 'macete', text: '**Prescrição = PRETENSÃO. Decadência = DIREITO.** Prescrição admite suspensão/interrupção; decadência (legal) não.' },
+          { type: 'h', text: 'Simulação — única causa de NULIDADE entre os defeitos' },
+          { type: 'p', text: 'Todos os defeitos do negócio jurídico geram **anulabilidade** (arts. 138, 145, 151, 156, 157, 158) — EXCETO **simulação** (art. 167), que gera **nulidade absoluta**. Por isso pode ser arguida a qualquer tempo, por qualquer interessado ou MP. Doutrina explica: simulação atinge a estrutura mesma do negócio (não há vontade real correspondente).' },
+          { type: 'box', kind: 'atencao', text: '**Simulação = NULIDADE absoluta** (não anulabilidade). Erro frequente: confundir com os outros defeitos.' },
+          { type: 'h', text: 'Prazos prescricionais mais cobrados' },
+          { type: 'list', items: [
+            '**10 anos** (art. 205) — geral, residual',
+            '**5 anos** (206 §5º I) — cobrança de obrigação líquida em instrumento público/particular',
+            '**5 anos** (206 §5º II) — pretensão de honorários de profissionais liberais',
+            '**3 anos** (206 §3º V) — REPARAÇÃO CIVIL (responsabilidade civil)',
+            '**3 anos** (206 §3º IV) — pretensão de ressarcimento por enriquecimento sem causa',
+            '**2 anos** (206 §2º) — alimentos em decorrência de sentença',
+            '**1 ano** (206 §1º) — pretensão de hospedeiros, contra mantenedores de pensões'
+          ] },
+          { type: 'h', text: 'Decadência convencional × legal' },
+          { type: 'p', text: '**LEGAL** — fixada por lei. Conhecível DE OFÍCIO (art. 210). Renúncia é nula (art. 209). Ex: prazo para anular casamento (4 anos — art. 1.560), prazo para reclamar vícios redibitórios (30 dias se evidente, 1 ano se oculto — art. 445).' },
+          { type: 'p', text: '**CONVENCIONAL** — fixada pelas partes. NÃO é conhecível de ofício (art. 211). Pode ser renunciada. Beneficiária deve invocar.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 405:** "A ação de cobrança do seguro obrigatório DPVAT prescreve em 3 anos." Aplicação do art. 206 §3º IX (seguro). Tema cobrado.' },
+          { type: 'h', text: 'Causas que SUSPENDEM × INTERROMPEM' },
+          { type: 'p', text: '**Suspensão (arts. 197-201)** — paralisa o curso, depois retoma de onde parou. Causas: entre cônjuges, ascendentes/descendentes, contra absolutamente incapazes, etc. **Interrupção (arts. 202-204)** — zera o prazo, recomeça do zero. Causas: citação válida (Súmula 106/STJ), protesto (judicial ou extrajudicial), reconhecimento do devedor, etc. **UMA SÓ VEZ** pelo mesmo fato (art. 202 caput).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Defeitos: 6** — Erro · Dolo · Coação · Estado de perigo · Lesão · Fraude. Todos = anulabilidade. **Simulação = NULIDADE.**' },
+          { type: 'box', kind: 'macete', text: '**Prescrição × Decadência = PRETENSÃO × DIREITO.** A pretensão "se extingue" (prescrição); o direito "decai" (decadência).' },
+          { type: 'box', kind: 'macete', text: '**Reparação civil = 3 anos (art. 206 §3º V).** Tema vinculante na prática.' },
+          { type: 'box', kind: 'macete', text: '**Decadência LEGAL = ofício + irrenunciável. CONVENCIONAL = parte + renunciável.**' },
+          { type: 'box', kind: 'macete', text: '**Plano ponteano: existir → válido → eficaz.** Existência mínimo, validade requisitos legais, eficácia produção de efeitos.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Simulação = NULIDADE (art. 167).** Os outros 6 defeitos = anulabilidade. Erro recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Lesão admite COMPLEMENTAÇÃO (art. 157 §2º) — diferente dos outros defeitos.** Lesado pode optar por manter o negócio ajustando preço.' },
+          { type: 'box', kind: 'atencao', text: '**Decadência LEGAL é conhecível DE OFÍCIO** (art. 210). CONVENCIONAL não. Banca confunde.' },
+          { type: 'box', kind: 'atencao', text: '**Renúncia à decadência LEGAL é NULA** (art. 209). À convencional é válida.' },
+          { type: 'box', kind: 'atencao', text: '**Prescrição interrompida UMA ÚNICA VEZ** pelo mesmo fato (art. 202 caput). Pegadinha: dizer que pode ser interrompida várias vezes.' },
+          { type: 'box', kind: 'atencao', text: '**Suspensão da prescrição contra absolutamente incapaz — só MENOR DE 16 ANOS** (art. 198 c/c art. 3º após EPD). Pessoa com deficiência intelectual NÃO é absolutamente incapaz e prescrição corre normalmente contra ela (salvo TDA/curatela).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** prazo prescricional de 3 anos (art. 206 §3º V).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 1 (LINDB):** integração e antinomias relacionam-se com vigência das normas — base para análise de prescrição/decadência por leis sucessivas.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 11 (procedimento comum):** improcedência liminar do pedido por prescrição/decadência (CPC art. 332 §1º). Juiz reconhece de ofício as legais.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 16 (recursos):** pode-se discutir prescrição em qualquer fase recursal (CPC art. 487 par. único).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-06-obrigacoes-geral',
@@ -4058,18 +4530,111 @@ topics: [
     title: 'Obrigações — parte geral',
     edital: '3.1.6',
     editalText: 'Conceito. Modalidades. Efeitos. Transmissão. Adimplemento. Extinção sem pagamento.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Estrutura da obrigação — sujeitos, vínculo, prestação',
-      'Obrigações de dar, fazer, não fazer',
-      'Obrigações alternativas e facultativas',
-      'Obrigações divisíveis × indivisíveis × solidárias',
-      'Cessão de crédito × assunção de dívida × cessão de contrato',
-      'Pagamento — quem paga, a quem, como, onde, quando',
-      'Pagamento em consignação, sub-rogação, imputação, dação',
-      'Compensação, confusão, remissão, novação'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 1',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: '**Obrigação** = relação jurídica pela qual uma parte (devedor) deve prestação econômica à outra (credor). Estrutura: **sujeitos** (credor + devedor) + **vínculo** (relação jurídica) + **prestação** (objeto). É elo de conexão entre direito patrimonial e o trabalho da pessoa para sua satisfação econômica.' },
+          { type: 'p', text: 'Quanto ao OBJETO: obrigações de **dar** (entrega de coisa), **fazer** (prestação de serviço/atividade), **não fazer** (abstenção). Quanto à PLURALIDADE: **divisíveis** × **indivisíveis** (natureza ou disposição), **solidárias** (cada um dos múltiplos sujeitos por toda a dívida — só por lei ou contrato, art. 265). Quanto ao MODO: **alternativas** (escolha entre prestações, art. 252), **facultativas** (uma prestação principal + faculdade de substituir).' },
+          { type: 'p', text: 'A obrigação **se extingue** principalmente pelo PAGAMENTO (forma normal). Há também extinções sem pagamento: **compensação** (créditos recíprocos), **confusão** (mesma pessoa credor e devedor), **remissão** (perdão), **novação** (substitui a obrigação por nova). Há ainda: pagamento em consignação, sub-rogação, dação em pagamento, imputação do pagamento.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Modalidades de obrigações (arts. 233-285)' },
+          { type: 'list', items: [
+            '**Art. 233-242** — obrigação de DAR coisa CERTA: até a tradição, riscos do credor; salvo culpa do devedor',
+            '**Art. 243-246** — obrigação de DAR coisa INCERTA: gênero e quantidade; concentração do crédito',
+            '**Arts. 247-249** — obrigação de FAZER: pessoal (intuitu personae) ou impessoal; recusa = perdas e danos OU prestação por terceiro à custa do devedor',
+            '**Arts. 250-251** — obrigação de NÃO FAZER: extingue-se quando se torna impossível sem culpa; descumprimento = desfazimento à custa do devedor + perdas e danos',
+            '**Arts. 252-256** — alternativas: 2+ prestações; escolha cabe ao devedor (regra), salvo disposição em contrário',
+            '**Arts. 257-263** — divisíveis × indivisíveis: indivisibilidade pode ser por NATUREZA, lei ou disposição',
+            '**Arts. 264-285** — SOLIDÁRIAS: presunção iuris tantum NÃO se presume; resulta da lei ou da vontade (art. 265)',
+            '**Art. 266** — solidariedade ATIVA: cada credor pode exigir TUDO; **PASSIVA**: cada devedor responde por TUDO'
+          ] },
+          { type: 'h', text: 'Transmissão (arts. 286-303)' },
+          { type: 'list', items: [
+            '**Cessão de crédito (286-298)** — credor transfere a outrem o seu crédito; admitida salvo se pessoal, vedada por lei ou contrato; eficácia perante devedor depende de notificação (art. 290)',
+            '**Assunção de dívida (299-303)** — terceiro assume a posição do devedor; depende de CONSENTIMENTO EXPRESSO do credor (art. 299)',
+            '**Cessão de contrato** — não regulada expressamente no CC, mas é construção doutrinária ampla'
+          ] },
+          { type: 'h', text: 'Adimplemento (arts. 304-388)' },
+          { type: 'list', items: [
+            '**Pagamento (304+)** — extinção normal: quem paga, a quem, como, quando, onde',
+            '**Art. 305** — terceiro INTERESSADO pode pagar (e sub-roga-se nos direitos); terceiro NÃO INTERESSADO pode pagar com oposição do devedor',
+            '**Pagamento em consignação (334-345)** — credor sem domicílio certo, recusa, etc. Eficácia retroativa à data da consignação',
+            '**Sub-rogação (346-351)** — substituição na titularidade do crédito, com transferência de todos os direitos acessórios',
+            '**Imputação (352-355)** — devedor pode escolher qual dívida quitar (regra), conforme certas regras',
+            '**Dação em pagamento (356-359)** — credor consente em receber prestação diversa da originária'
+          ] },
+          { type: 'h', text: 'Extinção sem pagamento (arts. 368-388)' },
+          { type: 'list', items: [
+            '**Compensação (368-380)** — duas pessoas reciprocamente devedoras e credoras → extinguem-se até onde se compensarem. Requisitos: dívidas LÍQUIDAS, VENCIDAS, FUNGÍVEIS',
+            '**Confusão (381-384)** — quando na mesma pessoa coincidem credor e devedor (sucessão hereditária)',
+            '**Remissão (385-388)** — perdão da dívida pelo credor; total ou parcial. Pessoal (não atinge co-devedores), salvo se de natureza solidária',
+            '**Novação (360-367)** — extingue obrigação anterior pela criação de nova, com ânimo de novar (animus novandi). Modalidades: objetiva (novo objeto), subjetiva ativa (novo credor) ou passiva (novo devedor)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Solidariedade NÃO se presume (art. 265)' },
+          { type: 'p', text: 'Regra fundamental: a solidariedade **NUNCA** se presume — resulta apenas da LEI ou da VONTADE expressa das partes. Em caso de dúvida sobre se há solidariedade entre múltiplos devedores/credores, presume-se conjunção (cada um responde por sua parte, dividida proporcionalmente).' },
+          { type: 'box', kind: 'macete', text: '**Solidariedade NÃO se presume — só por LEI ou VONTADE expressa (art. 265).** Frase-chave do tema.' },
+          { type: 'h', text: 'Solidariedade passiva — efeitos' },
+          { type: 'p', text: 'Cada devedor solidário responde pelo TODO. Pagamento de qualquer um exonera os demais. Subrogação interna: o que pagou cobra dos demais a quota-parte (art. 283). **Renúncia da solidariedade** pelo credor a um devedor não atinge os demais — solidariedade subsiste contra os outros pelo restante (art. 282).' },
+          { type: 'h', text: 'Cessão de crédito × assunção de dívida' },
+          { type: 'table', headers: ['Critério', 'Cessão de crédito', 'Assunção de dívida'],
+            rows: [
+              ['O que se transfere', 'Posição do CREDOR', 'Posição do DEVEDOR'],
+              ['Consentimento do devedor', 'NÃO necessário (basta notificação)', '— ─'],
+              ['Consentimento do credor', '— ─', 'NECESSÁRIO (expresso — art. 299)'],
+              ['Razão', 'Devedor é indiferente a quem paga', 'Credor pode preferir o devedor original (solvência)']
+            ] },
+          { type: 'h', text: 'Compensação — requisitos cumulativos' },
+          { type: 'p', text: 'Para compensação operar (extinção automática): (a) dívidas RECÍPROCAS; (b) LÍQUIDAS (valor determinado); (c) VENCIDAS; (d) FUNGÍVEIS (mesmo gênero). Faltando UM = não há compensação. Banca cobra a literalidade.' },
+          { type: 'box', kind: 'macete', text: '**Compensação: RLVF — Recíprocas, Líquidas, Vencidas, Fungíveis (art. 369).**' },
+          { type: 'h', text: 'Novação × dação em pagamento × pagamento em consignação' },
+          { type: 'p', text: '**Novação** = extingue obrigação ANTERIOR criando NOVA com animus novandi. **Dação em pagamento** = credor recebe coisa diversa, mas a obrigação se extingue (não nasce nova). **Consignação** = depósito judicial/extrajudicial diante de recusa do credor — extinção retroativa da obrigação à data do depósito.' },
+          { type: 'h', text: 'Adimplemento substancial (criação jurisprudencial)' },
+          { type: 'p', text: 'Quando o devedor cumpriu a maior parte da prestação (substancialmente), o credor NÃO pode resolver o contrato — apenas exigir o saldo. Doutrina italiana adotada pelo STJ (REsp 1.581.505 — alienação fiduciária), com nuances. Tema cobrado em provas modernas.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tese consolidada (REsp 1.622.555):** adimplemento substancial NÃO se aplica a contratos de alienação fiduciária regidos pelo Decreto-Lei 911/69 (mudança de orientação após 2017).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Solidariedade — só LEI ou VONTADE.** Não se presume (art. 265).' },
+          { type: 'box', kind: 'macete', text: '**Compensação RLVF: Recíproca · Líquida · Vencida · Fungível (art. 369).**' },
+          { type: 'box', kind: 'macete', text: '**Cessão CRÉDITO = sem precisar do devedor; Assunção DÍVIDA = precisa do credor.**' },
+          { type: 'box', kind: 'macete', text: '**4 extinções sem pagamento: CCRN — Compensação · Confusão · Remissão · Novação.**' },
+          { type: 'box', kind: 'macete', text: '**Sub-rogação: terceiro INTERESSADO paga, herda direitos.** Não-interessado: sem sub-rogação automática.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Solidariedade NÃO SE PRESUME** (art. 265). Em dúvida = conjuntiva (cada um por sua quota).' },
+          { type: 'box', kind: 'atencao', text: '**Cessão de crédito não precisa do devedor; basta notificá-lo** (art. 290). Erro: confundir com assunção de dívida.' },
+          { type: 'box', kind: 'atencao', text: '**Adimplemento substancial NÃO se aplica em alienação fiduciária** (DL 911/69), conforme STJ (REsp 1.622.555).' },
+          { type: 'box', kind: 'atencao', text: '**Compensação automática NÃO opera com dívida ilíquida** — é requisito cumulativo do art. 369.' },
+          { type: 'box', kind: 'atencao', text: '**Renúncia à solidariedade quanto a UM devedor não dispensa os demais** (art. 282). Banca arma armadilhas com isso.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento):** descumprimento gera mora ou inadimplemento absoluto + perdas e danos. Adimplemento substancial é defesa.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 8 (contratos):** adimplemento substancial relaciona-se à exceção do contrato não cumprido (art. 476).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 12 (cumprimento):** prestações pecuniárias seguem rito próprio (CPC art. 523+).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-07-obrigacoes-inadimplemento',
@@ -4077,18 +4642,118 @@ topics: [
     title: 'Inadimplemento, mora e perdas e danos',
     edital: '3.1.7',
     editalText: 'Inadimplemento absoluto e relativo. Mora. Perdas e danos. Juros, cláusula penal, arras.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Inadimplemento absoluto × relativo (mora)',
-      'Mora do devedor × do credor',
-      'Constituição em mora — ex re × ex persona',
-      'Perdas e danos — danos emergentes e lucros cessantes',
-      'Juros — moratórios × compensatórios; legais × convencionais',
-      'Cláusula penal — moratória × compensatória; limite',
-      'Arras — confirmatórias × penitenciais',
-      'Teoria do adimplemento substancial'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Quando a obrigação não é cumprida, há **inadimplemento**. Pode ser **absoluto** (impossibilidade definitiva — perde sentido a prestação) ou **relativo** (a chamada **MORA** — atraso que não impossibilita o cumprimento ainda útil ao credor).' },
+          { type: 'p', text: '**Mora do devedor** (mora solvendi): regra geral é mora EX RE — automática (caput do art. 397) quando há termo certo. Sem termo, mora EX PERSONA — exige interpelação (judicial ou extrajudicial). **Mora do credor** (mora accipiendi): art. 396 — recusa em receber. Efeito: devedor consigna; credor responde por perdas e danos.' },
+          { type: 'p', text: 'A consequência do inadimplemento (absoluto ou mora) é o pagamento de **PERDAS E DANOS** (arts. 402-405): danos emergentes (o que efetivamente perdeu) + lucros cessantes (o que razoavelmente deixou de ganhar). Juros + cláusula penal + arras são institutos que **fortalecem a obrigação** ou **liquidam previamente** os danos.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Inadimplemento e mora (arts. 389-401)' },
+          { type: 'list', items: [
+            '**Art. 389** — não cumprida obrigação: devedor responde por PERDAS E DANOS, MAIS juros + atualização monetária + honorários',
+            '**Art. 393** — devedor não responde por CASO FORTUITO ou FORÇA MAIOR, salvo se expressamente assumiu o risco',
+            '**Art. 394** — em mora o devedor que não efetuar pagamento; o credor que não quiser recebê-lo no tempo, lugar e forma',
+            '**Art. 397** — inadimplemento da obrigação POSITIVA E LÍQUIDA, no termo, constitui de pleno direito em mora o devedor (mora **EX RE**)',
+            '**Art. 397 par. único** — não havendo termo, a mora se constitui mediante interpelação (mora **EX PERSONA**)',
+            '**Art. 398** — obrigações ILÍCITAS (responsabilidade extracontratual) → mora desde o ato ilícito',
+            '**Arts. 399-401** — devedor em mora responde até por caso fortuito; mora pode ser purgada (purgação) com pagamento + danos'
+          ] },
+          { type: 'h', text: 'Perdas e danos (arts. 402-405)' },
+          { type: 'list', items: [
+            '**Art. 402** — perdas e danos compreendem: (a) o que o credor EFETIVAMENTE PERDEU (DANO EMERGENTE) + (b) o que RAZOAVELMENTE deixou de lucrar (LUCROS CESSANTES)',
+            '**Art. 403** — danos diretos e imediatos; danos remotos NÃO',
+            '**Art. 404** — perdas e danos em obrigações pecuniárias = juros + correção monetária + honorários, salvo cláusula penal',
+            '**Art. 405** — juros de mora correm desde a CITAÇÃO inicial em obrigações ilíquidas (sem termo certo)'
+          ] },
+          { type: 'h', text: 'Juros (arts. 406-407)' },
+          { type: 'list', items: [
+            '**Art. 406** — juros NÃO convencionados (legais): taxa em vigor para mora dos impostos federais (SELIC). STJ tem aplicação variada — tendência recente: art. 406 = SELIC',
+            '**Distinção:** juros COMPENSATÓRIOS (remuneração do capital, prévio convencional) × juros MORATÓRIOS (sanção pelo atraso)',
+            'Juros convencionais: Lei de Usura (Decreto 22.626/33) limita a 12% a.a., salvo instituições financeiras (Súmula 596/STF)'
+          ] },
+          { type: 'h', text: 'Cláusula penal (arts. 408-416)' },
+          { type: 'list', items: [
+            '**Art. 408** — cláusula penal: pena convencional, prefixação dos danos',
+            '**Art. 409** — pode ser estipulada para o caso de TOTAL inadimplemento (compensatória) ou simples MORA (moratória)',
+            '**Art. 410** — cláusula penal COMPENSATÓRIA: alternativa a benefício do credor (escolhe entre executar a obrigação ou cobrar a multa)',
+            '**Art. 411** — cláusula penal MORATÓRIA: cumulativa ao desempenho da obrigação',
+            '**Art. 412** — cláusula penal NÃO pode exceder o valor da OBRIGAÇÃO PRINCIPAL',
+            '**Art. 413** — penalidade deve ser REDUZIDA EQUITATIVAMENTE pelo juiz se: (a) obrigação cumprida em parte; (b) montante manifestamente excessivo'
+          ] },
+          { type: 'h', text: 'Arras (arts. 417-420)' },
+          { type: 'list', items: [
+            '**Arras CONFIRMATÓRIAS (art. 417)** — sinal dado em garantia da firmeza do contrato; em caso de descumprimento, arras servem como mínimo de perdas e danos',
+            '**Art. 418** — descumprimento por quem deu as arras: outro pode reter o sinal. Descumprimento por quem recebeu: deve restituir + igual valor (em dobro)',
+            '**Arras PENITENCIAIS (art. 420)** — concedem direito de arrependimento; quem deu pode arrepender-se perdendo as arras; quem recebeu pode arrepender-se devolvendo em dobro. NÃO há direito a perdas e danos suplementares'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Mora EX RE × EX PERSONA' },
+          { type: 'p', text: '**EX RE** — automática, "decorre da coisa". Aplicável a obrigações com termo certo (art. 397 caput). "Dies interpellat pro homine" — o dia interpela pelo homem.' },
+          { type: 'p', text: '**EX PERSONA** — exige interpelação (judicial ou extrajudicial — notificação cartorária, e-mail, comunicação registrada). Sem interpelação, não há mora. Aplicável quando a obrigação NÃO tem termo certo (art. 397 par. único).' },
+          { type: 'box', kind: 'macete', text: '**EX RE = Récorde (data fixa); EX PERSONA = Pessoa precisa interpelar.**' },
+          { type: 'h', text: 'Cláusula penal compensatória × moratória' },
+          { type: 'table', headers: ['Critério', 'Compensatória', 'Moratória'],
+            rows: [
+              ['Hipótese', 'Inadimplemento TOTAL', 'Atraso (mora)'],
+              ['Efeito', 'ALTERNATIVA (credor escolhe: executar OU cobrar pena)', 'CUMULATIVA (cobrança da pena + cumprimento)'],
+              ['Limite', 'Não pode exceder valor da obrigação (art. 412)', 'Idem'],
+              ['Redução', 'Pode pelo juiz (art. 413)', 'Idem']
+            ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 616:** "A indenização decorrente de seguro de vida em garantia de mútuo NÃO é considerada cláusula penal."' },
+          { type: 'h', text: 'Arras confirmatórias × penitenciais' },
+          { type: 'p', text: '**CONFIRMATÓRIAS (art. 417)** — REGRA. Reforçam o vínculo; descumprimento = perda das arras (mais perdas e danos suplementares se provados — art. 419). NÃO há arrependimento.' },
+          { type: 'p', text: '**PENITENCIAIS (art. 420)** — exigem cláusula EXPRESSA. Concedem direito de arrependimento. Limitação dos danos: máximo é o valor das arras (em dobro) — sem suplemento.' },
+          { type: 'box', kind: 'macete', text: '**Confirmatórias = REGRA, sem arrependimento. Penitenciais = exceção, COM arrependimento + limite.**' },
+          { type: 'h', text: 'Adimplemento substancial' },
+          { type: 'p', text: 'Construção jurisprudencial (origem: Direito inglês — substantial performance). Quando o devedor cumpriu a parte essencial da prestação, mesmo com falhas menores, o credor NÃO pode resolver o contrato — apenas exigir o saldo + perdas e danos. Razão: boa-fé + função social do contrato + vedação ao abuso.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.622.555 (2017):** adimplemento substancial NÃO se aplica a alienação fiduciária regida pelo Decreto-Lei 911/69. Mudança de orientação relevante.' },
+          { type: 'h', text: 'Caso fortuito × força maior (art. 393)' },
+          { type: 'p', text: 'Doutrina diverge na distinção: **fortuito** = evento humano imprevisível (greve geral); **força maior** = evento da natureza inevitável (terremoto). Mas o efeito é IDÊNTICO (art. 393): excluem responsabilidade do devedor, salvo se assumiu expressamente o risco. Em concursos, atenção à **interpretação literal** do CC.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Mora — EX RE = data certa, automática. EX PERSONA = sem termo, interpelação.**' },
+          { type: 'box', kind: 'macete', text: '**Cláusula penal compensatória ALTERNATIVA, moratória CUMULATIVA.**' },
+          { type: 'box', kind: 'macete', text: '**Cláusula penal limite: valor da OBRIGAÇÃO PRINCIPAL (art. 412). Manifestamente excessivo: REDUÇÃO equitativa pelo juiz (art. 413).**' },
+          { type: 'box', kind: 'macete', text: '**Arras: confirmatória SEM arrependimento; penitencial COM arrependimento.**' },
+          { type: 'box', kind: 'macete', text: '**Perdas e danos: dano EMERGENTE + lucros CESSANTES** (art. 402).' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Mora EX RE quando há TERMO CERTO** — aplicação automática, sem necessidade de interpelação.' },
+          { type: 'box', kind: 'atencao', text: '**Cláusula penal compensatória NÃO se cumula com obrigação principal** — é alternativa. Já a moratória cumula.' },
+          { type: 'box', kind: 'atencao', text: '**Caso fortuito EXCLUI responsabilidade, SALVO se devedor estava em mora** (art. 399) ou expressamente assumiu o risco (art. 393).' },
+          { type: 'box', kind: 'atencao', text: '**Lei de Usura (Decreto 22.626/33) limita juros convencionais a 12% a.a. — exceção: instituições financeiras (Súmula 596/STF).**' },
+          { type: 'box', kind: 'atencao', text: '**Arras CONFIRMATÓRIAS são a regra do CC** (art. 417); penitenciais (art. 420) exigem disposição EXPRESSA.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 6 (obrigações geral):** o inadimplemento se conecta à compensação, novação, remissão.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** dano emergente + lucros cessantes são noções comuns à responsabilidade extracontratual.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 8 (contratos):** exceção do contrato não cumprido (art. 476) é defesa diante do inadimplemento; resolução por inadimplemento é típica.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 12 (cumprimento):** título executivo judicial líquido pode ser cobrado por cumprimento de sentença.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-08-contratos-geral',
@@ -4096,18 +4761,112 @@ topics: [
     title: 'Contratos — parte geral',
     edital: '3.1.8',
     editalText: 'Princípios. Formação. Classificação. Vícios redibitórios. Evicção. Extinção. Função social. Boa-fé objetiva.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Princípios — autonomia, função social, boa-fé objetiva, equivalência',
-      'Formação — proposta, aceitação, retratação',
-      'Classificação dos contratos',
-      'Cláusulas implícitas — duty to mitigate, supressio, surrectio, venire contra factum proprium',
-      'Vícios redibitórios — prazos decadenciais',
-      'Evicção — requisitos e efeitos',
-      'Extinção — resolução, resilição, rescisão',
-      'Onerosidade excessiva (arts. 478-480)'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 3-4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Contrato é **negócio jurídico bilateral** que cria obrigações entre as partes. CC/02 atualizou três princípios fundamentais: **AUTONOMIA DA VONTADE** (clássico, mas relativizada), **FUNÇÃO SOCIAL DO CONTRATO** (art. 421 — limite ao dirigismo contratual), **BOA-FÉ OBJETIVA** (arts. 113, 187, 422). Esses três pilares regem a interpretação e execução de todo contrato.' },
+          { type: 'p', text: 'A **boa-fé objetiva** (modelo de conduta) impõe deveres laterais: informar, cooperar, lealdade, sigilo. Tem três funções: **INTERPRETATIVA** (art. 113 — interpretar negócios à luz da boa-fé), **INTEGRATIVA** (art. 422 — deveres anexos não escritos) e **CONTROLADORA** (art. 187 — abuso de direito). Dela derivam institutos: **venire contra factum proprium**, **supressio/surrectio**, **duty to mitigate the loss**, **tu quoque**.' },
+          { type: 'p', text: 'O CC/02 também reformou as **excludentes da execução do contrato**: extinção pode dar-se por **resolução** (descumprimento), **resilição** (manifestação de vontade — arts. 472-473), **rescisão** (defeitos que viciam o negócio). Há ainda a **onerosidade excessiva** (arts. 478-480) — fato superveniente e imprevisível torna a prestação extremamente onerosa.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Princípios e formação (arts. 421-435)' },
+          { type: 'list', items: [
+            '**Art. 421** — liberdade de contratar exercida em razão e nos LIMITES da função social do contrato',
+            '**Art. 421-A (Lei 13.874/19)** — contratos paritários presumem-se PARITÁRIOS, com inferência de que respeitam a autonomia da vontade',
+            '**Art. 422** — contraentes obrigados a observar BOA-FÉ tanto na conclusão quanto na execução do contrato',
+            '**Art. 423** — contratos de adesão: cláusulas DUVIDOSAS interpretam-se a favor do aderente',
+            '**Art. 424** — contratos de adesão: NULAS cláusulas que estipulem renúncia antecipada de direito da natureza do negócio',
+            '**Art. 427** — proposta vincula o proponente, salvo disposição em contrário',
+            '**Art. 428** — proposta perde vigor quando: I — feita sem prazo a presente; II — feita sem prazo por escrito + tempo razoável; etc.',
+            '**Art. 433** — aceitação de contrato entre PRESENTES: imediata. ENTRE AUSENTES (à distância): tornam-se obrigatórias quando expedida (teoria da expedição — art. 434)'
+          ] },
+          { type: 'h', text: 'Vícios redibitórios e evicção (arts. 441-457)' },
+          { type: 'list', items: [
+            '**VÍCIO REDIBITÓRIO (art. 441)** — coisa adquirida tem defeito OCULTO que a torna IMPRÓPRIA ao uso ou diminui valor. Adquirente pode redibir (rescindir) ou pedir abatimento do preço',
+            '**Art. 444** — responsabilidade do alienante ainda que ignorasse o vício; mas se ignorava, restitui apenas o preço; se conhecia, paga perdas e danos',
+            '**Art. 445 — PRAZOS DECADENCIAIS:** redibitória ou estimatória → 30 DIAS para coisa MÓVEL, 1 ANO para IMÓVEL (vício APARENTE/EVIDENTE no uso normal). Vício OCULTO: prazo conta a partir da CIÊNCIA',
+            '**EVICÇÃO (arts. 447-457)** — perda da coisa adquirida em virtude de sentença que a atribui a terceiro com direito anterior à aquisição',
+            '**Art. 448** — partes podem reforçar, diminuir ou EXCLUIR a responsabilidade pela evicção (mas exclusão exige cláusula expressa e ciência)',
+            '**Art. 450** — alienante responde por evicção: restituição preço + frutos restituídos pelo adquirente + despesas + benfeitorias necessárias e úteis'
+          ] },
+          { type: 'h', text: 'Extinção dos contratos (arts. 472-480)' },
+          { type: 'list', items: [
+            '**Art. 472** — extinção por DISTRATO: mesma forma do contrato',
+            '**Art. 473** — RESILIÇÃO unilateral nos casos em que a lei expressa ou implicitamente permitir, mediante denúncia notificada à outra parte',
+            '**RESOLUÇÃO** (arts. 474-480) — extingue por descumprimento: cláusula resolutiva expressa (operação automática) OU implícita (pede-se em juízo, com possibilidade de cumprir)',
+            '**Art. 476** — EXCEÇÃO DO CONTRATO NÃO CUMPRIDO (exceptio non adimpleti contractus): nos contratos bilaterais, nenhum contraente pode exigir antes de cumprir sua parte',
+            '**Art. 478** — ONEROSIDADE EXCESSIVA: prestação tornar-se EXCESSIVAMENTE ONEROSA por fatos EXTRAORDINÁRIOS e IMPREVISÍVEIS = parte pode pedir RESOLUÇÃO',
+            '**Art. 479** — outra parte pode evitar resolução modificando equitativamente as condições do contrato (revisão)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Boa-fé objetiva — funções e deveres laterais' },
+          { type: 'p', text: 'Modelo de conduta probo, não estado psicológico. **Funções:** (i) **interpretativa** (art. 113); (ii) **integrativa** (art. 422 — deveres anexos); (iii) **controle** (art. 187 — abuso de direito). **Deveres anexos:** informação, lealdade, cooperação, cuidado, sigilo.' },
+          { type: 'h', text: 'Institutos derivados da boa-fé objetiva' },
+          { type: 'list', items: [
+            '**Venire contra factum proprium** — vedação à conduta contraditória; partes não podem agir de modo a frustrar expectativas legítimas criadas',
+            '**Supressio** — perda de direito pelo seu não-exercício prolongado, com efeito de criar legítima expectativa na outra parte',
+            '**Surrectio** — surgimento de direito decorrente de prática reiterada que cria expectativa de continuidade',
+            '**Duty to mitigate the loss** — credor tem dever de minimizar suas próprias perdas, sob pena de não obter ressarcimento integral (jurisprudência STJ)',
+            '**Tu quoque** — quem desrespeitou regra contratual não pode invocá-la em seu benefício'
+          ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.273.811:** duty to mitigate the loss aplica-se ao Direito brasileiro como decorrência da boa-fé objetiva (art. 422). Credor que poderia mitigar dano e não o fez, não obtém indenização integral.' },
+          { type: 'h', text: 'Vícios redibitórios — prazos' },
+          { type: 'p', text: 'Prazos DECADENCIAIS (art. 445): **móvel = 30 dias; imóvel = 1 ano** para vício APARENTE/EVIDENTE no uso normal. Vício OCULTO conta da CIÊNCIA do vício, com PRAZO MÁXIMO: 180 dias para móvel + 1 ano para imóvel após a aquisição.' },
+          { type: 'box', kind: 'macete', text: '**Vícios redibitórios: 30 dias móvel · 1 ano imóvel (aparente).** Oculto = ciência + prazo máximo (180d móvel · 1 ano imóvel).' },
+          { type: 'h', text: 'Evicção × vício redibitório' },
+          { type: 'table', headers: ['Critério', 'Vício redibitório', 'Evicção'],
+            rows: [
+              ['Origem', 'Defeito FÍSICO oculto da coisa', 'Defeito JURÍDICO (terceiro com direito anterior)'],
+              ['Pressuposto', 'Coisa imprópria ao uso ou diminuída de valor', 'Sentença que atribui a coisa a terceiro'],
+              ['Direitos', 'Redibitória OU estimatória', 'Restituição preço + indenização (art. 450)'],
+              ['Prazo', '30 dias móvel; 1 ano imóvel (art. 445)', 'Prazo prescricional comum, não decadencial']
+            ] },
+          { type: 'h', text: 'Onerosidade excessiva (rebus sic stantibus)' },
+          { type: 'p', text: 'Reflete a **teoria da imprevisão**: contrato vincula apenas enquanto as condições permanecem iguais (cláusula REBUS SIC STANTIBUS). Para revisar/resolver: **(i) fato superveniente; (ii) extraordinário e imprevisível; (iii) que torne a prestação excessivamente onerosa para uma parte; (iv) com vantagem extrema para outra.** Distintos da TEORIA DO RISCO PRÓPRIO em CDC (art. 6º V: basta a onerosidade superveniente, sem imprevisibilidade).' },
+          { type: 'box', kind: 'atencao', text: '**CDC adota teoria mais ampla** (art. 6º V) — basta o desequilíbrio superveniente, dispensando imprevisibilidade. CC exige extraordinariedade + imprevisibilidade (art. 478).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**3 princípios contratuais: AUTONOMIA · FUNÇÃO SOCIAL · BOA-FÉ OBJETIVA.**' },
+          { type: 'box', kind: 'macete', text: '**Boa-fé objetiva = modelo de conduta. Subjetiva = estado mental.**' },
+          { type: 'box', kind: 'macete', text: '**Vícios redibitórios: 30/1 ano (aparente). Cuidado com OCULTO: ciência + máximo legal.**' },
+          { type: 'box', kind: 'macete', text: '**Resolução (descumprimento) × Resilição (vontade) × Rescisão (vícios).**' },
+          { type: 'box', kind: 'macete', text: '**Onerosidade CC: extraordinário + imprevisível. CDC: basta excessivamente onerosa.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Vícios redibitórios: 30 dias móvel · 1 ANO imóvel (aparente).** NÃO se conta da venda — conta-se desde a entrega (art. 445).' },
+          { type: 'box', kind: 'atencao', text: '**Evicção é defeito JURÍDICO** (terceiro com direito anterior); vício redibitório é FÍSICO. Confusão recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Cláusula que exclui evicção exige FORMA EXPRESSA e ciência do adquirente** (art. 448). Ausentes esses requisitos, é nula.' },
+          { type: 'box', kind: 'atencao', text: '**Onerosidade excessiva exige IMPREVISIBILIDADE** no CC (art. 478). Em contratos de consumo, não — CDC art. 6º V basta o desequilíbrio.' },
+          { type: 'box', kind: 'atencao', text: '**Aceitação entre AUSENTES: teoria da EXPEDIÇÃO (art. 434).** Ao expedir aceitação, contrato torna-se obrigatório, salvo retratação tempestiva.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento):** descumprimento contratual gera mora ou inadimplemento absoluto + resolução por descumprimento.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 9 (contratos em espécie):** princípios gerais aplicáveis a todos os tipos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** descumprimento = perdas e danos. Responsabilidade contratual.' },
+          { type: 'box', kind: 'conexao', text: '**CDC:** princípios contratuais reforçados (transparência, vulnerabilidade), mais protetivos ao consumidor.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-09-contratos-especie',
@@ -4115,18 +4874,116 @@ topics: [
     title: 'Contratos em espécie',
     edital: '3.1.9',
     editalText: 'Compra e venda, troca, doação, locação, comodato, mútuo, prestação de serviço, empreitada, mandato, fiança, transação.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Compra e venda — preço, coisa, consentimento; cláusulas especiais',
-      'Doação — modalidades, revogação por ingratidão',
-      'Locação — Lei 8.245/91 (resumo)',
-      'Comodato e mútuo',
-      'Prestação de serviço × empreitada',
-      'Mandato — formal × tácito; substabelecimento',
-      'Fiança — características; benefício de ordem',
-      'Transação como negócio jurídico'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **contratos em espécie** (CC arts. 481-853) detalham os tipos contratuais mais comuns. Para concurso, a banca cobra repetidamente: COMPRA E VENDA (cláusulas especiais — retrovenda, preempção, reserva de domínio), DOAÇÃO (revogação por ingratidão), LOCAÇÃO (Lei 8.245/91), MÚTUO/COMODATO, FIANÇA (benefício de ordem), MANDATO. Os demais (transporte, depósito, seguro, jogo) tendem a ser menos cobrados.' },
+          { type: 'p', text: 'Atenção a três pontos cruciais: (1) **fiança não admite interpretação extensiva** (art. 819) — protege o fiador; (2) **doação pura é irrevogável**, salvo INGRATIDÃO (art. 555) — rol taxativo; (3) **locação residencial** segue Lei 8.245/91 (lei especial) e não o CC. CC trata locação de coisas em geral (arts. 565+), aplicável quando 8.245 não cobre.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Compra e venda (arts. 481-535)' },
+          { type: 'list', items: [
+            '**Art. 481** — pelo contrato de compra e venda, um dos contratantes obriga-se a transferir o domínio de certa coisa, e o outro, a pagar-lhe o preço',
+            '**Art. 484** — preço deve ser certo, determinado ou determinável; arbitramento por terceiro vale (art. 485)',
+            '**Art. 486-488** — preço pode ser fixado por bolsa de valores OU em referência ao MERCADO',
+            '**Art. 489** — cláusula leonina (preço a critério de uma das partes): NULA',
+            '**RETROVENDA (arts. 505-508)** — vendedor pode reservar o direito de recobrar o imóvel em prazo até 3 anos (decadencial)',
+            '**PREEMPÇÃO/PREFERÊNCIA (arts. 513-520)** — compromisso de oferecer preferência ao alienante em caso de revenda',
+            '**RESERVA DE DOMÍNIO (arts. 521-528)** — vendedor pode reservar para si o domínio até pagamento integral (móveis)'
+          ] },
+          { type: 'h', text: 'Doação (arts. 538-564)' },
+          { type: 'list', items: [
+            '**Art. 538** — doação é contrato pelo qual uma pessoa, por liberalidade, transfere bens a outra que os aceita',
+            '**Art. 540** — doação remuneratória ou modal: parte gratuita + parte onerosa',
+            '**Art. 549** — NULA a doação que exceder o que o doador poderia DISPOR em testamento (50% — proteção da legítima)',
+            '**Art. 555** — doação pode ser REVOGADA por INGRATIDÃO (art. 557 — rol TAXATIVO: atentar contra vida, ofensa física, injúria grave, recusa de alimentos) ou inexecução do encargo',
+            '**Art. 559** — direito de revogar é do DOADOR — incomunicável e não passa aos herdeiros'
+          ] },
+          { type: 'h', text: 'Locação (arts. 565-578 + Lei 8.245/91 — residencial/comercial)' },
+          { type: 'list', items: [
+            '**Lei 8.245/91** — locação predial urbana RESIDENCIAL e NÃO RESIDENCIAL (lei especial)',
+            'CC arts. 565-578 — locação de coisas em geral (móveis e imóveis rurais)',
+            '**Lei 8.245 art. 7º** — locação por prazo igual ou superior a 30 meses: resilição automática ao final do prazo. Inferior a 30 meses: prorroga automaticamente',
+            '**Lei 8.245 art. 47** — locação RESIDENCIAL sem prazo: pode ser denunciada após 5 anos contínuos OU sob determinadas hipóteses',
+            '**Bem de família do FIADOR de locação é PENHORÁVEL** (Lei 8.009/90 art. 3º VII — STF Tema 295)'
+          ] },
+          { type: 'h', text: 'Mútuo, comodato e mandato' },
+          { type: 'list', items: [
+            '**MÚTUO (arts. 586-592)** — empréstimo de coisa FUNGÍVEL (transferência de propriedade); muito usado para empréstimo de dinheiro',
+            '**COMODATO (arts. 579-585)** — empréstimo GRATUITO de coisa INFUNGÍVEL; somente uso',
+            '**MANDATO (arts. 653-692)** — alguém recebe poderes para praticar atos em nome de outrem; pode ser GRATUITO ou ONEROSO; expresso, tácito, geral, especial; SUBSTABELECIMENTO admitido salvo vedação'
+          ] },
+          { type: 'h', text: 'Fiança (arts. 818-839)' },
+          { type: 'list', items: [
+            '**Art. 818** — pelo contrato de fiança, uma pessoa garante satisfazer ao credor obrigação assumida pelo devedor, caso este não a cumpra',
+            '**Art. 819** — interpretação RESTRITIVA — não admite extensão',
+            '**Art. 820** — pode ser estipulada SEM o consentimento do devedor ou contra a vontade dele',
+            '**Art. 822** — fiança NÃO admite EXIGIBILIDADE em obrigações nulas',
+            '**Art. 827 — BENEFÍCIO DE ORDEM:** fiador goza do direito de exigir, antes da execução, sejam executados os bens do DEVEDOR. Renunciável (art. 828)',
+            '**Art. 838** — fiador exonera-se se for chamado a pagar e provar mudança da situação econômica do devedor'
+          ] },
+          { type: 'h', text: 'Transação (arts. 840-850)' },
+          { type: 'list', items: [
+            '**Art. 840** — transação previne ou termina litígios mediante CONCESSÕES MÚTUAS',
+            '**Art. 842** — transação por escrito (instrumento público se direitos imobiliários, particular se outros)',
+            '**Art. 849** — transação SÓ pode ser rescindida por DOLO, COAÇÃO ou ERRO ESSENCIAL quanto à pessoa ou coisa controvertida — não por simples ignorância de fatos'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Doação — revogação por ingratidão (rol taxativo)' },
+          { type: 'p', text: 'CC art. 557 traz **rol TAXATIVO** das hipóteses de ingratidão: I — atentar contra a vida; II — ofensa física; III — injúria grave ou calúnia; IV — recusa de alimentos quando devidos. Outras condutas, mesmo reprováveis, NÃO autorizam revogação. Doação pura é IRREVOGÁVEL fora dessas hipóteses.' },
+          { type: 'box', kind: 'atencao', text: '**Rol do art. 557 é TAXATIVO** (numerus clausus). Conduta que não se enquadra = não revoga, ainda que reprovável.' },
+          { type: 'h', text: 'Fiança — interpretação restritiva (art. 819)' },
+          { type: 'p', text: 'Fiança é contrato de natureza acessória, gratuita (em regra) e protetora do fiador. Não admite extensão — se o contrato afiançado é prorrogado SEM concordância do fiador, a fiança não se estende ao novo prazo (Súmula 214/STJ — para locação). Princípio: **fiança = estrita interpretação**.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 214:** "O fiador na locação NÃO responde por obrigações resultantes de aditamento ao qual NÃO ANUIU."' },
+          { type: 'h', text: 'Benefício de ordem (art. 827)' },
+          { type: 'p', text: 'Fiador pode exigir que primeiro sejam executados os bens do **DEVEDOR PRINCIPAL**. Renunciável (art. 828). Não cabe se: (a) renunciado expressamente; (b) fiador for tutor, curador, ou se obrigou como devedor principal; (c) devedor for insolvente ou falido. Em locação, costuma haver renúncia expressa (art. 828 II — fiador "principal pagador").' },
+          { type: 'h', text: 'Reserva de domínio × alienação fiduciária' },
+          { type: 'p', text: '**Reserva de domínio** (CC arts. 521-528) — vendedor mantém propriedade até pagamento integral; comprador tem POSSE. Forma de garantia em compra e venda de móveis. **Alienação fiduciária** (Decreto-Lei 911/69 e Lei 9.514/97) — comprador transfere ao credor a propriedade RESOLÚVEL como garantia; muito usada em automóveis e imóveis. Distinção é cobrada.' },
+          { type: 'h', text: 'Locação — denúncia vazia × cheia' },
+          { type: 'p', text: '**DENÚNCIA VAZIA** = locador retoma sem motivo, ao final do prazo determinado de 30 meses (Lei 8.245 art. 47 I) ou após 5 anos de prazo indeterminado. **DENÚNCIA CHEIA** = motivada (uso próprio, demolição, etc.). Distinção essencial para entender retomada.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Doação — ROL TAXATIVO de ingratidão (art. 557): VIDA · OFENSA FÍSICA · INJÚRIA · RECUSA DE ALIMENTOS.**' },
+          { type: 'box', kind: 'macete', text: '**Mútuo = FUNGÍVEL (transfere propriedade). Comodato = INFUNGÍVEL (só uso, gratuito).**' },
+          { type: 'box', kind: 'macete', text: '**Fiança = INTERPRETAÇÃO RESTRITIVA (819). Súmula 214: aditamento sem fiador = não responde.**' },
+          { type: 'box', kind: 'macete', text: '**Benefício de ordem = renunciável (828). "Principal pagador" = renúncia.**' },
+          { type: 'box', kind: 'macete', text: '**Locação 30 meses ou +: denúncia vazia ao final. Menos: prorroga automática.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Doação rol de ingratidão é TAXATIVO** (art. 557). Outras condutas reprováveis NÃO autorizam revogação.' },
+          { type: 'box', kind: 'atencao', text: '**Mútuo é FUNGÍVEL** (transfere propriedade — mutuário tem que devolver coisa do mesmo gênero). Comodato é INFUNGÍVEL.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 214/STJ — fiador NÃO responde por aditamento sem sua anuência.** Aplicação à locação.' },
+          { type: 'box', kind: 'atencao', text: '**Bem de família do fiador de locação É PENHORÁVEL** (Lei 8.009 art. 3º VII + STF Tema 295).' },
+          { type: 'box', kind: 'atencao', text: '**Doação que excede ½ do patrimônio = NULA (art. 549)** — proteção da legítima.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 8 (contratos geral):** princípios e regras gerais aplicam-se a TODOS os contratos em espécie.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 4 (bens):** bem de família do fiador é penhorável (exceção Lei 8.009 art. 3º VII).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento):** vícios redibitórios e evicção são institutos relacionados a defeitos contratuais.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 17 (sucessões):** doação não pode exceder o que poderia dispor em testamento (art. 549).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-10-atos-unilaterais',
@@ -4134,15 +4991,86 @@ topics: [
     title: 'Atos unilaterais e enriquecimento sem causa',
     edital: '3.1.10',
     editalText: 'Promessa de recompensa. Gestão de negócios. Pagamento indevido. Enriquecimento sem causa.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Promessa de recompensa',
-      'Gestão de negócios',
-      'Pagamento indevido — repetição',
-      'Enriquecimento sem causa — pressupostos e subsidiariedade',
-      'Diferença com responsabilidade civil'
-    ],
-    sections: []
+    size: 'Pequeno-Médio',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **atos unilaterais** são fontes de obrigações que decorrem da manifestação de vontade de UMA SÓ pessoa, sem necessidade de aceitação. CC/02 trata: **promessa de recompensa** (arts. 854-860), **gestão de negócios** (arts. 861-875), **pagamento indevido** (arts. 876-883), **enriquecimento sem causa** (arts. 884-886).' },
+          { type: 'p', text: 'O **enriquecimento sem causa** (arts. 884-886) é norma fundamental: aquele que se enriqueceu à custa de outrem deve restituir o indevidamente auferido. **CARÁTER SUBSIDIÁRIO** (art. 886): só cabe quando NÃO houver outra ação específica. É "última fronteira" da reparação patrimonial — fonte autônoma de obrigação.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Promessa de recompensa (arts. 854-860)' },
+          { type: 'list', items: [
+            '**Art. 854** — quem, por anúncios públicos, prometer recompensa por algo, fica obrigado a cumprir',
+            '**Art. 855** — promessa pode ser revogada ANTES da prestação do serviço (mesma forma do anúncio)',
+            '**Art. 858** — em concursos, a recompensa cabe a quem cumprir conforme o anúncio'
+          ] },
+          { type: 'h', text: 'Gestão de negócios (arts. 861-875)' },
+          { type: 'list', items: [
+            '**Art. 861** — quem, sem autorização, gere negócio alheio, dirigir-se-á segundo a vontade presumível do dono',
+            '**Art. 862** — gerir negócios contra a vontade manifesta do dono → responde por perdas e danos, salvo se a vontade fosse contrária à lei',
+            '**Art. 869** — gestão útil e bem conduzida obriga o dono a indenizar despesas necessárias e úteis'
+          ] },
+          { type: 'h', text: 'Pagamento indevido (arts. 876-883)' },
+          { type: 'list', items: [
+            '**Art. 876** — todo aquele que recebeu o que NÃO LHE ERA DEVIDO fica obrigado a restituir',
+            '**Art. 877** — quem voluntariamente pagou o indevido tem o ônus da prova — deve provar que pagou por erro',
+            '**Art. 878** — irrecuperável a quantia paga conscientemente para fim ilícito (regra rigorosa)',
+            '**Art. 882** — não se pode repetir o que se pagou em razão de prescrição (dívida prescrita) — embora extinta a pretensão, a dívida persiste'
+          ] },
+          { type: 'h', text: 'Enriquecimento sem causa (arts. 884-886)' },
+          { type: 'list', items: [
+            '**Art. 884** — aquele que, sem JUSTA CAUSA, se enriquecer à custa de outrem, deve restituir o que indevidamente auferiu',
+            '**Art. 884 par. único** — restituição se faz pela coisa, ou pela quantia equivalente',
+            '**Art. 885** — restituição é INDEVIDA quando o enriquecimento se basear em causa juridicamente legítima (ex: doação válida)',
+            '**Art. 886** — NÃO caberá ação de enriquecimento sem causa quando a lei conferir ao lesado outros meios para se ressarcir do prejuízo (CARÁTER SUBSIDIÁRIO)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Pagamento indevido — ônus da prova' },
+          { type: 'p', text: 'Quem alega ter pago indevidamente tem **ÔNUS DE PROVAR O ERRO** (art. 877). Pagamento voluntário é presumidamente devido — quem se diz lesado deve quebrar essa presunção.' },
+          { type: 'h', text: 'Enriquecimento sem causa — subsidiariedade (art. 886)' },
+          { type: 'p', text: 'A ação de enriquecimento sem causa é **SUBSIDIÁRIA**: só cabe quando não há outra ação específica. Hipótese típica: quando a parte não tem ação contratual nem de responsabilidade civil — então invoca o enriquecimento como "fundo último" de tutela.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.304.061:** ação por enriquecimento sem causa é subsidiária; tendo a parte ação contratual ou de responsabilidade, não cabe a do art. 884.' },
+          { type: 'h', text: 'Pagamento de dívida PRESCRITA' },
+          { type: 'p', text: '**Art. 882** — quem paga DÍVIDA PRESCRITA não pode pedir de volta. A prescrição extingue a PRETENSÃO (art. 189), mas a dívida persiste como obrigação natural. Pagamento espontâneo de dívida prescrita = válido e irretratável.' },
+          { type: 'h', text: 'Diferença com responsabilidade civil' },
+          { type: 'p', text: 'Responsabilidade civil pressupõe **ATO ILÍCITO** (art. 186) ou ATIVIDADE DE RISCO (art. 927 par. único). Enriquecimento sem causa **NÃO** exige ilicitude — pode haver enriquecimento por fato lícito (recebimento de coisa por engano, p. ex.). Respondem a fontes distintas de obrigação.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**4 atos unilaterais: PROMESSA · GESTÃO · PAGAMENTO INDEVIDO · ENRIQUECIMENTO SEM CAUSA.**' },
+          { type: 'box', kind: 'macete', text: '**Enriquecimento sem causa = SUBSIDIÁRIO (art. 886). Sem outra ação = pode invocar.**' },
+          { type: 'box', kind: 'macete', text: '**Dívida PRESCRITA paga = NÃO se restitui (art. 882).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Enriquecimento é SUBSIDIÁRIO** (art. 886). Tendo ação específica = não cabe.' },
+          { type: 'box', kind: 'atencao', text: '**Pagamento de dívida PRESCRITA = irretratável** (art. 882). Pagador não recupera.' },
+          { type: 'box', kind: 'atencao', text: '**Quem paga indevido tem ônus da prova do erro** (art. 877). Pagamento voluntário é presumidamente devido.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** institutos distintos — responsabilidade exige ilicitude; enriquecimento basta a falta de causa.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (prescrição):** dívida prescrita paga não se repete (art. 882) — exceção ao princípio.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-11-responsabilidade-civil',
@@ -4150,19 +5078,124 @@ topics: [
     title: 'Responsabilidade civil',
     edital: '3.1.11',
     editalText: 'Subjetiva e objetiva. Atos ilícitos. Dano material e moral. Quantificação. Responsabilidade do Estado, do empregador, dos pais.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Pressupostos — conduta, dano, nexo causal, culpa (na subjetiva)',
-      'Responsabilidade subjetiva × objetiva',
-      'Cláusula geral de risco (art. 927 § único)',
-      'Excludentes — caso fortuito, força maior, fato exclusivo da vítima/terceiro',
-      'Dano material — emergente e lucros cessantes',
-      'Dano moral — quantificação, dano in re ipsa',
-      'Dano estético, dano existencial',
-      'Responsabilidade dos pais, empregador, empresário, do Estado',
-      'Súmulas STJ relevantes'
-    ],
-    sections: []
+    size: 'Gigante',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 1-2',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A responsabilidade civil é instituto que **obriga ao ressarcimento** quem causa dano a outrem. Pressupostos clássicos: **conduta** (ação/omissão) + **dano** (prejuízo material ou moral) + **nexo causal** (conexão causa-efeito). A **culpa** entra como pressuposto na **responsabilidade SUBJETIVA**; é dispensada na **OBJETIVA** (basta a relação dano-conduta).' },
+          { type: 'p', text: 'O CC/02 introduziu inovação radical: o **art. 927 par. único** (cláusula geral de risco) — atividades habitualmente desenvolvidas que impliquem RISCO aos direitos de outrem geram responsabilidade OBJETIVA. Isso alargou enormemente o rol de hipóteses (antes restrito a leis específicas: CDC art. 12-14, ambiental Lei 6.938 art. 14 §1º, transporte de pessoas etc.).' },
+          { type: 'p', text: 'Responsabilidade civil **EXTRACONTRATUAL** (aquiliana — arts. 186 + 927) e **CONTRATUAL** (decorre do descumprimento de obrigação — arts. 389+). CC/02 unificou tratamento em muitos pontos. Distinção mais relevante hoje: prazo prescricional (3 anos para extracontratual — art. 206 §3º V; 10 anos para contratual — art. 205, regra geral). Com o STJ tendendo a aplicar 3 anos a ambas em muitos casos (responsabilidade civil em sentido amplo).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Ato ilícito e responsabilidade — bases (arts. 186, 187, 927)' },
+          { type: 'list', items: [
+            '**Art. 186** — aquele que, por AÇÃO ou OMISSÃO voluntária, NEGLIGÊNCIA ou IMPRUDÊNCIA, violar direito e causar dano a outrem, comete ATO ILÍCITO',
+            '**Art. 187** — comete ato ilícito o titular de um direito que, ao exercê-lo, EXCEDE manifestamente os limites impostos por seu fim econômico/social, pela boa-fé ou pelos bons costumes (ABUSO DE DIREITO)',
+            '**Art. 188** — NÃO constituem atos ilícitos: legítima defesa, exercício regular de direito, estado de necessidade',
+            '**Art. 927 caput** — aquele que por ato ilícito (arts. 186 e 187) causar dano a outrem, fica obrigado a repará-lo',
+            '**Art. 927 par. único** — RESPONSABILIDADE OBJETIVA quando: (a) lei especificar; (b) atividade NORMALMENTE desenvolvida pelo autor implicar, POR SUA NATUREZA, RISCO para os direitos de outrem (TEORIA DO RISCO CRIADO)'
+          ] },
+          { type: 'h', text: 'Responsabilidade indireta (art. 932)' },
+          { type: 'list', items: [
+            '**I — pais** pelos filhos menores que estiverem sob sua autoridade',
+            '**II — tutor** ou curador pelo pupilo ou curatelado',
+            '**III — empregador** pelos atos dos empregados, no exercício do trabalho ou em razão dele',
+            '**IV — donos de hotéis, hospedarias, estabelecimentos** onde se hospede ou aloje',
+            '**V — os que gratuitamente houverem participado nos produtos do crime**',
+            '**Art. 933** — responsabilidade do art. 932 é **OBJETIVA** (independe de culpa do responsável)'
+          ] },
+          { type: 'h', text: 'Quantificação dos danos (arts. 944-954)' },
+          { type: 'list', items: [
+            '**Art. 944 caput** — indenização mede-se pela EXTENSÃO do dano',
+            '**Art. 944 par. único** — havendo excessiva DESPROPORÇÃO entre gravidade da culpa e dano, juiz pode REDUZIR equitativamente a indenização',
+            '**Art. 945** — culpa CONCORRENTE da vítima atenua a indenização',
+            '**Art. 948** — homicídio: indenização inclui despesas com tratamento + funeral + alimentos para dependentes (art. 948 II)',
+            '**Art. 949** — lesão à saúde: despesas + lucros cessantes até o fim da convalescência + qualquer outro dano',
+            '**Art. 950** — defeito que diminua capacidade laboral: pensão correspondente à inabilitação permanente',
+            '**Art. 953** — calúnia, difamação, injúria: indenização pelo prejuízo + juiz pode arbitrar dano moral'
+          ] },
+          { type: 'h', text: 'Dano moral, estético, existencial' },
+          { type: 'list', items: [
+            'CF art. 5º X — direito à indenização por dano moral (constitucional)',
+            'CC art. 186 — dano patrimonial OU MORAL pode caracterizar ato ilícito',
+            '**Súmula 387/STJ** — é lícita a CUMULAÇÃO de indenizações de dano ESTÉTICO e MORAL',
+            '**Súmula 227/STJ** — pessoa JURÍDICA pode sofrer dano moral (honra objetiva)',
+            '**Súmula 326/STJ** — dano moral fixado abaixo do pedido NÃO importa sucumbência recíproca'
+          ] },
+          { type: 'h', text: 'Excludentes (responsabilidade subjetiva)' },
+          { type: 'list', items: [
+            '**Caso fortuito / força maior** (art. 393) — eventos imprevisíveis e inevitáveis',
+            '**Fato exclusivo da vítima** — afasta o nexo causal (Súmula 145/STJ — transporte gratuito por relação de cortesia)',
+            '**Fato exclusivo de terceiro** — afasta nexo, salvo se previsível',
+            '**Legítima defesa, exercício regular de direito, estado de necessidade** (CC art. 188) — atos lícitos, embora possam gerar dever de indenizar em hipóteses do art. 929-930'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Subjetiva × objetiva — diferenças' },
+          { type: 'table', headers: ['Aspecto', 'Subjetiva', 'Objetiva'],
+            rows: [
+              ['Pressupostos', 'Conduta + dano + nexo + CULPA', 'Conduta + dano + nexo (sem culpa)'],
+              ['Base normativa', 'Art. 186 + 927 caput', 'Art. 927 par. único + leis específicas'],
+              ['Defesa', 'Negar culpa, romper nexo', 'Romper nexo (caso fortuito, fato vítima)'],
+              ['Hipóteses clássicas', 'Acidentes em geral entre particulares', 'CDC, ambiental, transporte, atividade de risco']
+            ] },
+          { type: 'h', text: 'Cláusula geral de risco (art. 927 par. único)' },
+          { type: 'p', text: 'Inovação do CC/02. Não exige lei específica — basta que a atividade normalmente desenvolvida implique risco aos direitos de outrem POR SUA NATUREZA. STJ aplicou a: empresa de transporte ferroviário, atividade de manuseio de explosivos, geração de energia, transporte rodoviário de cargas perigosas. Crítica doutrinária: indeterminação semântica.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.366.587:** atividades de produção de cerveja são objetivas (atividade industrial perigosa). Mostra a aplicação ampla do art. 927 par. único.' },
+          { type: 'h', text: 'Dano in re ipsa' },
+          { type: 'p', text: 'Em situações específicas, o dano dispensa prova — DECORRE DA PRÓPRIA SITUAÇÃO. Hipóteses clássicas: protesto indevido, inscrição indevida em SPC/SERASA (Súmula 297/STJ), atraso na devolução de imóvel locado, abandono afetivo ostensivo (controvertido — STJ tem mudado posição). Banca cobra a literalidade.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 385:** "Da anotação irregular em cadastro de proteção ao crédito, NÃO cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento." Limita o dano in re ipsa.' },
+          { type: 'h', text: 'Responsabilidade indireta — pais pelos filhos' },
+          { type: 'p', text: '**Pais respondem OBJETIVAMENTE** pelos atos do filho menor sob sua autoridade (art. 932 I + art. 933). NÃO precisam ter culpa — basta a condição de pai. Tem natureza SOLIDÁRIA com o filho, mas há regra especial: o filho menor responde SUBSIDIARIAMENTE (art. 928). Os pais respondem em primeiro lugar.' },
+          { type: 'box', kind: 'atencao', text: '**Pais respondem OBJETIVAMENTE pelos filhos** (art. 932 I + 933). Erro frequente: assumir responsabilidade subjetiva.' },
+          { type: 'h', text: 'Reparação por excessiva desproporção (art. 944 par. único)' },
+          { type: 'p', text: 'Inovação relevante: indenização mede-se pela EXTENSÃO do dano (caput), MAS havendo excessiva desproporção entre culpa e dano, juiz pode REDUZIR. Aplicação: caso clássico do "Maradona vs criança" — culpa leve, dano enorme = redução. Crítica: enfraquece reparação integral. Aplicado com parcimônia pelo STJ.' },
+          { type: 'h', text: 'Responsabilidade civil do Estado' },
+          { type: 'p', text: '**CF art. 37 § 6º** — responsabilidade OBJETIVA das pessoas jurídicas de direito público (e privadas prestadoras de serviço público) pelos danos que seus agentes causem a terceiros. Direito de REGRESSO contra agente nos casos de dolo ou culpa. Modalidade: **TEORIA DO RISCO ADMINISTRATIVO** (com excludentes — fortuito, fato exclusivo da vítima/terceiro), não risco integral.' },
+          { type: 'p', text: '**Omissão estatal:** STF (Tema 366 — RE 841.526) consolidou tese híbrida: omissão GENÉRICA (falta de policiamento generalizado) = subjetiva (faute du service); omissão ESPECÍFICA (já existente dever de agir) = objetiva. Tema controverso e cobrado.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Pressupostos: 4 — Conduta · Dano · Nexo · Culpa (na subjetiva).** Objetiva: 3 — sem culpa.' },
+          { type: 'box', kind: 'macete', text: '**Cláusula geral de risco — art. 927 par. único.** Atividade que NORMALMENTE implica risco = OBJETIVA.' },
+          { type: 'box', kind: 'macete', text: '**Pais OBJETIVOS (932 I + 933). Filho subsidiário (928).**' },
+          { type: 'box', kind: 'macete', text: '**Estado: art. 37 §6º CF — OBJETIVA por ATO COMISSIVO; OMISSÃO GENÉRICA = subjetiva.**' },
+          { type: 'box', kind: 'macete', text: '**Súmula 387/STJ: dano moral + estético = CUMULA.** Súmula 227: PJ TEM dano moral.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Reparação civil — prazo prescricional 3 ANOS** (art. 206 §3º V). Tema vinculante na prática.' },
+          { type: 'box', kind: 'atencao', text: '**Pais respondem OBJETIVAMENTE pelos filhos** — independe de culpa (arts. 932 I + 933).' },
+          { type: 'box', kind: 'atencao', text: '**Filho menor responde SUBSIDIARIAMENTE — só se os pais não tiverem condição de reparar** (art. 928). Erro: dizer que responsabilidade é solidária.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 385/STJ — preexistente legítima inscrição em SPC = sem dano moral.** Limita o dano in re ipsa.' },
+          { type: 'box', kind: 'atencao', text: '**Estado responde por OMISSÃO GENÉRICA de forma SUBJETIVA** (faute du service). Por ATO COMISSIVO ou omissão ESPECÍFICA, OBJETIVA.' },
+          { type: 'box', kind: 'atencao', text: '**Atividade de risco (art. 927 par. único) = OBJETIVA mesmo sem lei específica.** Inovação do CC/02.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (fatos jurídicos):** prescrição da reparação civil = 3 anos (art. 206 §3º V).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento contratual):** responsabilidade contratual segue regras próprias (arts. 389+); STJ tende a aplicar 3 anos a ambas (recurso repetitivo).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 2 (pessoas naturais):** menor responde subsidiariamente (928); pais objetivamente (932 I + 933).' },
+          { type: 'box', kind: 'conexao', text: '**Direito Administrativo:** responsabilidade do Estado (art. 37 §6º CF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 20 (ACP):** ações coletivas frequentemente tratam de responsabilidade civil (improbidade, ambiental, consumidor).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-12-empresa',
@@ -4170,17 +5203,97 @@ topics: [
     title: 'Direito de empresa',
     edital: '3.1.12',
     editalText: 'Empresário. Sociedade. Estabelecimento. Nome empresarial. EIRELI/SLU. Falência e recuperação (noções).',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Empresário individual × sociedade empresária',
-      'Sociedades simples × empresárias',
-      'Tipos societários — Ltda, S.A. (parte geral)',
-      'Sociedade limitada unipessoal',
-      'Estabelecimento — trespasse',
-      'Nome empresarial — firma × denominação',
-      'Lei 11.101/05 — recuperação judicial e falência (linhas gerais)'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 2-3',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O CC/02 absorveu o **Direito Empresarial** no Livro II da Parte Especial (arts. 966-1.195) — adotou a **TEORIA DA EMPRESA** (italiana) em substituição à teoria dos atos de comércio. Empresário é "quem exerce profissionalmente atividade econômica organizada para a produção ou circulação de bens ou de serviços" (art. 966).' },
+          { type: 'p', text: 'Cinco temas centrais: (1) **Empresário individual × sociedade empresária × sociedade simples**; (2) **Tipos societários** (Ltda, S.A., SLU); (3) **Estabelecimento** (universalidade de fato, art. 1.142+); (4) **Nome empresarial** (firma × denominação); (5) **Falência/recuperação** (noções gerais — Lei 11.101/05).' },
+          { type: 'p', text: 'A Lei 13.874/19 introduziu a **SLU (Sociedade Limitada Unipessoal)** e a Lei 14.382/22 extinguiu a EIRELI. Reformas do "Marco Legal" buscam simplificar a vida empresarial.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Empresário (arts. 966-980)' },
+          { type: 'list', items: [
+            '**Art. 966 caput** — empresário: profissionalmente, atividade econômica organizada para produção ou circulação de bens/serviços',
+            '**Art. 966 par. único** — NÃO é empresário quem exerce profissão INTELECTUAL, científica, literária, artística, ainda com auxiliares — salvo se elemento de empresa',
+            '**Art. 967** — registro do empresário individual no Registro Público de Empresas Mercantis (Junta Comercial)',
+            '**Art. 970** — tratamento favorecido a ME e EPP (LC 123/06)'
+          ] },
+          { type: 'h', text: 'Sociedades (arts. 981-1.094)' },
+          { type: 'list', items: [
+            '**Art. 981** — sociedade = pessoas que mutuamente se obrigam a contribuir para exercer atividade econômica e partilhar resultados',
+            '**Art. 982** — sociedade EMPRESÁRIA: tem por objeto exercício de atividade própria de empresário (registro na Junta). SIMPLES: demais (registro no Cartório de PJs)',
+            '**Tipos:** sociedade EM COMUM (irregular — sem registro), EM CONTA DE PARTICIPAÇÃO, SIMPLES (cartório), LIMITADA (LTDA), por AÇÕES (Lei 6.404/76 — S.A.), em NOME COLETIVO, em COMANDITA SIMPLES e por AÇÕES, COOPERATIVA',
+            '**Art. 1.052** — LIMITADA: responsabilidade limitada ao capital social; sócios respondem solidariamente pela integralização',
+            '**Art. 1.052 §1º (Lei 13.874/19)** — Sociedade Limitada Unipessoal (SLU) — limitada com 1 sócio'
+          ] },
+          { type: 'h', text: 'Estabelecimento (arts. 1.142-1.149)' },
+          { type: 'list', items: [
+            '**Art. 1.142** — estabelecimento = complexo de bens organizados para exercício da empresa, por empresário ou sociedade',
+            '**Trespasse (art. 1.144)** — alienação do estabelecimento; eficácia perante credores depende de PUBLICAÇÃO + ANUÊNCIA expressa OU tácita (em 30 dias)',
+            '**Art. 1.146** — adquirente do estabelecimento responde pelo pagamento dos débitos anteriores ao trespasse, regularmente CONTABILIZADOS',
+            '**Art. 1.147** — não havendo permissão expressa, alienante NÃO PODE concorrer com o adquirente em prazo de 5 anos (cláusula de não-concorrência implícita)'
+          ] },
+          { type: 'h', text: 'Nome empresarial (arts. 1.155-1.168)' },
+          { type: 'list', items: [
+            '**Art. 1.155** — nome empresarial = firma OU denominação',
+            '**FIRMA:** nome do empresário (individual) ou de UM ou MAIS sócios (firma social)',
+            '**DENOMINAÇÃO:** designação genérica + indicação do objeto social — usada nas S.A., obrigatoriamente; LTDA pode ser firma ou denominação',
+            '**Princípios:** novidade (art. 1.163) + veracidade'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Empresário × profissional intelectual (art. 966 par. único)' },
+          { type: 'p', text: 'O CC/02 RETIROU os profissionais intelectuais (médicos, advogados, escritores, artistas) do conceito de empresário. Exceção: quando o exercício da profissão **constituir elemento de empresa** — quando a atividade pessoal se subordina a uma organização empresarial (ex: clínica médica organizada como empresa). Cobrado em provas.' },
+          { type: 'box', kind: 'atencao', text: '**Profissional intelectual NÃO é empresário** (art. 966 par. único), salvo se constituir elemento de empresa. Banca arma essa pegadinha.' },
+          { type: 'h', text: 'EIRELI extinta — SLU substituiu' },
+          { type: 'p', text: '**Lei 14.382/22** revogou expressamente a EIRELI (CC art. 980-A). EIRELIs existentes foram automaticamente convertidas em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19). SLU NÃO exige capital mínimo (diferente da antiga EIRELI, que exigia 100 SM).' },
+          { type: 'box', kind: 'atencao', text: '**EIRELI NÃO EXISTE MAIS** (Lei 14.382/22). Hoje só SLU. Erro frequente em concursos.' },
+          { type: 'h', text: 'Trespasse — anuência dos credores' },
+          { type: 'p', text: 'Para o trespasse (alienação do estabelecimento) ser eficaz perante credores: publicação no Diário Oficial + ANUÊNCIA dos credores (expressa ou tácita — silêncio em 30 dias = anuência). Sem isso, contratos pendentes não se transferem automaticamente.' },
+          { type: 'h', text: 'Cláusula de não-concorrência (art. 1.147)' },
+          { type: 'p', text: 'A lei cria por DEFAULT uma cláusula de não-concorrência: alienante de estabelecimento não pode concorrer com o adquirente por 5 anos. Pode ser afastada por cláusula expressa em sentido contrário.' },
+          { type: 'h', text: 'Falência e recuperação (Lei 11.101/05)' },
+          { type: 'p', text: 'Aplicáveis ao EMPRESÁRIO E SOCIEDADE EMPRESÁRIA — não a sociedades simples nem a profissionais liberais. **3 institutos:** (1) **Recuperação JUDICIAL** (art. 47-69) — devedor em crise apresenta plano para credores aprovarem; (2) **Recuperação EXTRAJUDICIAL** (art. 161-167) — acordo direto com credores, homologado pelo juiz; (3) **FALÊNCIA** (art. 75+) — execução coletiva concursal — devedor empresário insolvente.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Profissional intelectual NÃO é empresário** (art. 966 par. único). Salvo se elemento de empresa.' },
+          { type: 'box', kind: 'macete', text: '**EIRELI extinta. SLU vigente.** (Lei 14.382/22 + 13.874/19).' },
+          { type: 'box', kind: 'macete', text: '**Trespasse: PUBLICAÇÃO + anuência (expressa ou silêncio em 30 dias).**' },
+          { type: 'box', kind: 'macete', text: '**Não-concorrência implícita: 5 anos** (art. 1.147).' },
+          { type: 'box', kind: 'macete', text: '**Falência só para EMPRESÁRIO/sociedade empresária.** Sociedade simples NÃO falir.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Profissional intelectual (advogado, médico) NÃO é empresário** — salvo elemento de empresa.' },
+          { type: 'box', kind: 'atencao', text: '**SLU não tem capital mínimo** — diferente da extinta EIRELI (que exigia 100 SM).' },
+          { type: 'box', kind: 'atencao', text: '**Sociedade simples NÃO falir** — só empresária/empresário individual está sujeito ao regime falimentar.' },
+          { type: 'box', kind: 'atencao', text: '**Adquirente do estabelecimento responde por débitos CONTABILIZADOS** (art. 1.146); por dívidas trabalhistas e tributárias, regras especiais ampliam responsabilidade.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 3 (PJ):** SLU é tipo societário unipessoal limitado. Personalidade jurídica e desconsideração aplicam-se.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** falência é execução coletiva concursal; rege-se pela Lei 11.101/05.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Tributário:** sucessão de empresas tem regime tributário específico (CTN art. 133).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-13-direitos-reais',
@@ -4188,18 +5301,117 @@ topics: [
     title: 'Direitos reais — posse e propriedade',
     edital: '3.1.13',
     editalText: 'Posse. Propriedade. Aquisição e perda. Função social. Usucapião. Direitos de vizinhança.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Posse — teorias (Savigny, Ihering); classificação',
-      'Efeitos da posse — proteção, frutos, benfeitorias, indenização',
-      'Ações possessórias — fungibilidade',
-      'Propriedade — atributos e função social',
-      'Aquisição da propriedade imóvel — registro, acessão, usucapião',
-      'Usucapião — espécies (extraordinária, ordinária, especial urbana, rural, familiar, coletiva)',
-      'Perda da propriedade',
-      'Direitos de vizinhança — uso anormal, passagem forçada, águas, limites'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 3-4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **direitos reais** são poderes diretos sobre coisas, oponíveis ERGA OMNES (contra todos). CC art. 1.225 traz rol TAXATIVO: propriedade, superfície, servidões, usufruto, uso, habitação, direito do promitente comprador, penhor, hipoteca, anticrese, concessão de uso especial para fins de moradia, concessão de direito real de uso, laje, etc.' },
+          { type: 'p', text: '**POSSE** (arts. 1.196-1.224) — situação de fato; tutela autônoma. CC adota a teoria de Ihering (objetiva — basta a aparência de direito real). Possuidor de boa-fé tem direito a frutos colhidos, indenização por benfeitorias úteis e necessárias. Mau-fé responde pelos frutos percebidos e perdas e danos.' },
+          { type: 'p', text: '**PROPRIEDADE** (arts. 1.228-1.368) — direito real máximo. Atributos: USAR · GOZAR · DISPOR · REIVINDICAR (jus utendi, fruendi, abutendi, reivindicandi). Limitada pela **FUNÇÃO SOCIAL** (CF art. 5º XXIII e CC 1.228 §1º). Aquisição: registro (imóveis), tradição (móveis), acessão, usucapião, sucessão hereditária.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Posse (arts. 1.196-1.224)' },
+          { type: 'list', items: [
+            '**Art. 1.196** — possuidor é todo aquele que tem, de fato, o exercício pleno ou não, de algum dos poderes inerentes à propriedade',
+            '**Art. 1.197** — composse: posse comum a duas ou mais pessoas',
+            '**Art. 1.200** — posse JUSTA (não-violenta, não-clandestina, não-precária) × INJUSTA',
+            '**Art. 1.201** — posse de BOA-FÉ: ignora o vício; MÁ-FÉ: conhece-o',
+            '**Art. 1.210** — protegida posse mediante AÇÕES POSSESSÓRIAS — manutenção (turbação), reintegração (esbulho), interdito proibitório (ameaça). Fungibilidade entre essas ações',
+            '**Art. 1.211** — quem tinha a posse há menos de 1 ano e dia: força nova; mais: força velha',
+            '**Art. 1.214** — possuidor de BOA-FÉ tem direito aos frutos colhidos. Após citação, todos os frutos são restituídos (perde a boa-fé)',
+            '**Art. 1.219-1.220** — possuidor de BOA-FÉ direito a indenização por benfeitorias NECESSÁRIAS + ÚTEIS, com direito de RETENÇÃO. Voluptuárias: levantar se possível, sem dano. Possuidor de MÁ-FÉ: só necessárias'
+          ] },
+          { type: 'h', text: 'Propriedade (arts. 1.228-1.368)' },
+          { type: 'list', items: [
+            '**Art. 1.228 caput** — proprietário tem faculdades de USAR, GOZAR, DISPOR e REIVINDICAR',
+            '**Art. 1.228 §1º** — propriedade deve atender FUNÇÃO SOCIAL — finalidades econômicas e sociais, ambiental, conservação dos recursos',
+            '**Art. 1.228 §§ 4-5** — desapropriação judicial (PROPRIEDADE PRIVADA): possuidores de boa-fé que a tornaram produtiva (5+ anos, > 10 famílias) podem adquirir mediante indenização — verdadeira USUCAPIÃO COLETIVA',
+            '**Art. 1.231** — propriedade é EXCLUSIVA, salvo disposição em contrário',
+            '**Art. 1.275** — perda da propriedade: alienação, renúncia, abandono, perecimento, desapropriação'
+          ] },
+          { type: 'h', text: 'Usucapião (arts. 1.238-1.244)' },
+          { type: 'list', items: [
+            '**EXTRAORDINÁRIA (art. 1.238)** — 15 ANOS, sem título nem boa-fé. Reduzido a 10 ANOS se posse-trabalho ou habitação',
+            '**ORDINÁRIA (art. 1.242)** — 10 ANOS, com TÍTULO + BOA-FÉ. Reduzido a 5 ANOS se posse-trabalho ou aquisição onerosa registrada e cancelada',
+            '**ESPECIAL URBANA — Pro Misero (CF 183 + CC 1.240)** — 5 ANOS, área de até 250 m², não tem outro imóvel, posse + uso para sua moradia/família',
+            '**ESPECIAL RURAL (CF 191 + CC 1.239)** — 5 ANOS, área de até 50 hectares (módulo rural), produtiva (trabalho do agricultor)',
+            '**FAMILIAR (Lei 12.424/11 + CC 1.240-A)** — 2 ANOS, ex-cônjuge/companheiro abandonado, imóvel urbano até 250 m²',
+            '**COLETIVA (Estatuto da Cidade — Lei 10.257/01 art. 10)** — > 5 anos, área urbana ocupada por famílias de baixa renda'
+          ] },
+          { type: 'h', text: 'Direitos de vizinhança (arts. 1.277-1.313)' },
+          { type: 'list', items: [
+            '**Art. 1.277** — uso ANORMAL da propriedade: pode-se exigir cessação ou redução; intolerável, prejudicial, segurança',
+            '**Art. 1.285** — passagem FORÇADA: prédio encravado tem direito a passagem mediante indenização',
+            '**Arts. 1.297-1.298** — limites entre prédios: ação demarcatória; uso comum de meios divisórios'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Posse — teoria de Ihering (objetiva)' },
+          { type: 'p', text: 'CC adota teoria OBJETIVA (Ihering) — posse é exteriorização do direito de propriedade; basta a aparência. NÃO é necessário ânimo de dono (animus domini), salvo para usucapião. Diferente de Savigny (subjetiva) que exige animus + corpus.' },
+          { type: 'h', text: 'Fungibilidade das ações possessórias (art. 1.211)' },
+          { type: 'p', text: 'CPC art. 554: a propositura de uma possessória pelo lesado em outra modalidade não obsta a concessão da tutela; juiz dá a proteção adequada à situação. Manutenção/reintegração/interdito proibitório são FUNGÍVEIS — juiz adapta.' },
+          { type: 'h', text: 'Usucapião — quadro comparativo' },
+          { type: 'table', headers: ['Espécie', 'Prazo', 'Requisitos', 'Base legal'],
+            rows: [
+              ['Extraordinária', '15a (10a se posse-trabalho)', 'Sem título nem boa-fé', 'CC 1.238'],
+              ['Ordinária', '10a (5a se onerosa)', 'Com título + boa-fé', 'CC 1.242'],
+              ['Especial urbana', '5a', '≤ 250 m² + moradia + sem outro imóvel', 'CF 183 + CC 1.240'],
+              ['Especial rural', '5a', '≤ 50 ha + produtiva + trabalho', 'CF 191 + CC 1.239'],
+              ['Familiar', '2a', 'Cônjuge/comp abandonado + ≤ 250m² + sem outro', 'CC 1.240-A'],
+              ['Coletiva', '> 5a', 'Área urbana + famílias baixa renda', 'Estatuto da Cidade 10.257']
+            ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 340:** bens públicos NÃO admitem usucapião. CC art. 102 reforça. Usucapião especial urbana/rural NÃO atinge bens públicos.' },
+          { type: 'h', text: 'Função social da propriedade (CF e CC)' },
+          { type: 'p', text: 'Não é mera limitação — é elemento ESTRUTURAL do direito de propriedade. Propriedade que não cumpre função social pode ser objeto de desapropriação por interesse social (CF art. 184), ou da "desapropriação judicial" do CC art. 1.228 §§ 4-5 (usucapião coletiva sui generis).' },
+          { type: 'h', text: 'Indenização por benfeitorias — boa-fé × má-fé' },
+          { type: 'table', headers: ['Tipo de benfeitoria', 'Boa-fé', 'Má-fé'],
+            rows: [
+              ['Necessárias', 'INDENIZÁVEIS + RETENÇÃO', 'INDENIZÁVEIS (sem retenção)'],
+              ['Úteis', 'INDENIZÁVEIS + retenção', 'NÃO indenizáveis'],
+              ['Voluptuárias', 'Levantamento se possível sem dano; sem indenização', 'NÃO indenizáveis']
+            ] }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**4 atributos da propriedade: USAR · GOZAR · DISPOR · REIVINDICAR.**' },
+          { type: 'box', kind: 'macete', text: '**Posse: teoria de IHERING (objetiva).** CC adotou. Sem necessidade de animus.' },
+          { type: 'box', kind: 'macete', text: '**Usucapião extraordinária = 15a sem título; ordinária = 10a com título + boa-fé.**' },
+          { type: 'box', kind: 'macete', text: '**Especial urbana = 250m² + 5a + sem outro imóvel + moradia.**' },
+          { type: 'box', kind: 'macete', text: '**Bens públicos = SEM USUCAPIÃO** (Súmula 340/STF).' },
+          { type: 'box', kind: 'macete', text: '**Boa-fé: necessárias + úteis + retenção. Má-fé: só necessárias, sem retenção.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Posse não exige animus domini** (teoria de Ihering). Salvo para usucapião — onde se exige.' },
+          { type: 'box', kind: 'atencao', text: '**Usucapião familiar (1.240-A) = 2 ANOS**, abandono do lar pelo cônjuge/companheiro. Prazo curto cobrado.' },
+          { type: 'box', kind: 'atencao', text: '**Bens públicos NÃO se usucapem** (Súmula 340/STF + CC 102) — TODOS, mesmo dominicais.' },
+          { type: 'box', kind: 'atencao', text: '**Possuidor de boa-fé tem direito de RETENÇÃO** por benfeitorias necessárias e úteis (art. 1.219). Má-fé: sem retenção.' },
+          { type: 'box', kind: 'atencao', text: '**Frutos COLHIDOS na boa-fé pertencem ao possuidor (art. 1.214). Após citação, perde a boa-fé.**' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 4 (bens):** bens públicos não admitem usucapião (Súmula 340/STF).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 14 (direitos reais — garantias):** outros direitos reais limitados (servidão, usufruto, hipoteca).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 14 (procedimentos especiais):** ações possessórias (CPC arts. 554-568); rito específico.' },
+          { type: 'box', kind: 'conexao', text: '**Direito Constitucional:** função social da propriedade (CF art. 5º XXIII + 184 + 191).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-14-direitos-reais-garantia',
@@ -4207,15 +5419,98 @@ topics: [
     title: 'Direitos reais sobre coisa alheia e direitos reais de garantia',
     edital: '3.1.14',
     editalText: 'Superfície, servidões, usufruto, uso, habitação, concessão de uso. Penhor, hipoteca, anticrese. Alienação fiduciária.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Direitos reais sobre coisa alheia — superfície, servidões, usufruto, uso, habitação',
-      'Concessão de uso especial para fins de moradia',
-      'Direitos reais de garantia — penhor, hipoteca, anticrese',
-      'Alienação fiduciária em garantia — móvel (Lei 4.728/65) e imóvel (Lei 9.514/97)',
-      'Princípios — publicidade, especialidade'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 3 da Fase 3 (fev/2027) — semana 4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **direitos reais sobre coisa alheia** (jura in re aliena) limitam a propriedade plena de outrem. Subdividem-se em (a) **direitos de fruição/gozo** (superfície, servidão, usufruto, uso, habitação) e (b) **direitos de garantia** (penhor, hipoteca, anticrese). A **alienação fiduciária** é direito real de garantia ATÍPICO (regida por leis especiais: 4.728/65, 9.514/97).' },
+          { type: 'p', text: 'Princípios estruturais: **PUBLICIDADE** (registro imobiliário para imóveis); **ESPECIALIDADE** (descrição precisa do bem onerado); **ABSOLUTISMO** (eficácia erga omnes — oponível a todos); **ACESSORIEDADE** (garantias seguem a obrigação principal); **INDIVISIBILIDADE** (garantia não se divide automaticamente, salvo regra especial).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Direitos de fruição (arts. 1.369-1.416)' },
+          { type: 'list', items: [
+            '**SUPERFÍCIE (1.369-1.377)** — proprietário concede a outrem direito de construir/plantar em seu terreno; pode ser GRATUITA ou ONEROSA',
+            '**SERVIDÃO (1.378-1.389)** — predial; um prédio (dominante) usa o outro (serviente) para passagem, aqueduto, etc. Constitui-se por escritura + registro',
+            '**USUFRUTO (1.390-1.411)** — direito de USAR e FRUIR coisa alheia, sem alterá-la; intransmissível por morte (extingue-se)',
+            '**USO (1.412-1.413)** — gozar direito de fruição da coisa alheia, em medida limitada às necessidades do usuário e família',
+            '**HABITAÇÃO (1.414-1.416)** — direito real de morar gratuitamente em casa alheia, sem ceder a outrem',
+            '**LAJE (Lei 13.465/17 — CC 1.510-A a 1.510-E)** — direito real autônomo de superfície sobre laje superior/inferior'
+          ] },
+          { type: 'h', text: 'Direitos reais de garantia (arts. 1.419-1.510)' },
+          { type: 'list', items: [
+            '**PENHOR (1.431-1.472)** — coisa MÓVEL é entregue ao credor como garantia (regra). Subespécies: penhor RURAL (sem deslocamento), INDUSTRIAL, MERCANTIL, etc.',
+            '**HIPOTECA (1.473-1.505)** — coisa IMÓVEL afetada como garantia, sem transferência de posse. Constituída por registro. Bens hipotecáveis: art. 1.473 (imóveis, navios/aeronaves)',
+            '**ANTICRESE (1.506-1.510)** — credor recebe imóvel para perceber FRUTOS e quitar a dívida com eles. Pouco usada hoje',
+            '**ALIENAÇÃO FIDUCIÁRIA EM GARANTIA**: (a) Bens MÓVEIS — Lei 4.728/65 + Decreto-Lei 911/69 (consumo: CDC); (b) Bens IMÓVEIS — Lei 9.514/97'
+          ] },
+          { type: 'h', text: 'Princípios das garantias' },
+          { type: 'list', items: [
+            '**Art. 1.419** — pertencimento ao credor de poder de excutir bem alheio para se pagar',
+            '**Art. 1.420** — só pode oferecer em garantia quem tem poder de aliená-la',
+            '**Art. 1.421** — pagamento de dívida garantida por mais de uma coisa, total ou parcial, NÃO desonera as outras (princípio da indivisibilidade)',
+            '**Art. 1.428** — VEDADO o PACTO COMISSÓRIO — credor não pode ficar com o bem em pagamento se a dívida não for paga (deve haver leilão)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Vedação do pacto comissório (art. 1.428)' },
+          { type: 'p', text: 'Cláusula que permite ao credor TICAR COM O BEM em garantia se a dívida não for paga = NULA. O credor deve LEILOAR a coisa (ou na alienação fiduciária, fazer a CONSOLIDAÇÃO da propriedade — peculiar). É proteção contra abuso. **EXCEÇÃO: alienação fiduciária imobiliária (Lei 9.514/97 art. 26)** — credor consolida propriedade em seu nome após mora, com leilão SUBSEQUENTE.' },
+          { type: 'box', kind: 'atencao', text: '**Pacto comissório é VEDADO (art. 1.428).** Mas alienação fiduciária imobiliária permite consolidação (Lei 9.514) — exceção legal.' },
+          { type: 'h', text: 'Usufruto — características' },
+          { type: 'p', text: 'Direito real PERSONALÍSSIMO — extingue-se com a MORTE do usufrutuário (art. 1.410 I), não passa aos herdeiros. Pode ser por TEMPO determinado (não exceder a vida) ou VITALÍCIO. Dois sujeitos: NU-PROPRIETÁRIO (titular do domínio sem o uso) + USUFRUTUÁRIO (usa e frui).' },
+          { type: 'h', text: 'Servidão × usufruto' },
+          { type: 'table', headers: ['Critério', 'Servidão', 'Usufruto'],
+            rows: [
+              ['Sujeito', 'PRÉDIO (sobre prédio)', 'PESSOA (titular)'],
+              ['Foco', 'Vantagem entre prédios', 'Direito de fruir coisa'],
+              ['Constituição', 'Registro + escritura', 'Registro (imóvel) ou contrato'],
+              ['Duração', 'Permanente até desconstituição', 'Pessoal — extingue com morte do usufrutuário']
+            ] },
+          { type: 'h', text: 'Alienação fiduciária — móvel × imóvel' },
+          { type: 'p', text: '**MÓVEL (DL 911/69 + Lei 4.728/65)** — credor consolida propriedade após inadimplemento, leiloa coisa; eventual saldo positivo entrega ao devedor. Usado em automóveis. **IMÓVEL (Lei 9.514/97)** — devedor transfere propriedade ao credor SOB CONDIÇÃO RESOLUTIVA (paga = volta ao devedor); se não paga, credor consolida e leiloa em 60 dias (em duas hastas públicas). Usado em financiamento habitacional.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.622.555:** adimplemento substancial NÃO se aplica à alienação fiduciária regida pelo DL 911/69. Mudança de orientação relevante.' },
+          { type: 'h', text: 'Concessão de uso especial para fins de moradia (CUEM)' },
+          { type: 'p', text: 'Lei 11.481/07 + MP 2.220/01: ocupação de imóvel PÚBLICO (mais de 250 m² urbano) por mais de 5 anos para moradia, sem outro imóvel = direito real de uso administrativo. Não é usucapião (bens públicos não se usucapem), mas tem efeitos similares de proteção da posse.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Direitos reais de garantia: PHA — Penhor (móvel) · Hipoteca (imóvel) · Anticrese (frutos imóvel).**' },
+          { type: 'box', kind: 'macete', text: '**Pacto comissório VEDADO** (1.428). Exceção: alienação fiduciária imobiliária.' },
+          { type: 'box', kind: 'macete', text: '**Usufruto = PERSONALÍSSIMO. Extingue com a morte.**' },
+          { type: 'box', kind: 'macete', text: '**Princípios: PUBLICIDADE · ESPECIALIDADE · ABSOLUTISMO · ACESSORIEDADE · INDIVISIBILIDADE.**' },
+          { type: 'box', kind: 'macete', text: '**Alienação fiduciária IMÓVEL = consolida + 2 hastas públicas (Lei 9.514).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Pacto comissório é VEDADO** (CC 1.428) na maior parte dos casos. Exceção legal: alienação fiduciária imobiliária (Lei 9.514).' },
+          { type: 'box', kind: 'atencao', text: '**Usufruto NÃO se transmite por sucessão hereditária** — extingue-se com a morte do usufrutuário (art. 1.410 I).' },
+          { type: 'box', kind: 'atencao', text: '**Servidão é entre PRÉDIOS** (real); usufruto é entre PESSOA e coisa. Confusão recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Adimplemento substancial NÃO se aplica em alienação fiduciária** (STJ 1.622.555).' },
+          { type: 'box', kind: 'atencao', text: '**CUEM (concessão de uso especial para moradia) NÃO é usucapião** — é direito real administrativo sobre imóvel público.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 13 (posse e propriedade):** direitos reais limitam a propriedade plena.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 4 (bens):** alienação fiduciária imobiliária × bem de família (Lei 8.009 art. 3º V — exceção pela hipoteca).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (família):** usufruto vidual entre cônjuges (formas históricas substituídas pelo regime atual).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 15 (execução):** penhora segue regras dos direitos reais e da impenhorabilidade.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-15-familia-geral',
@@ -4223,18 +5518,104 @@ topics: [
     title: 'Direito de família — casamento, união estável, regime de bens',
     edital: '3.1.15',
     editalText: 'Casamento — capacidade, impedimentos, formalidades, efeitos. União estável. Regime de bens.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Casamento — habilitação, celebração, prova',
-      'Capacidade núbil; impedimentos × causas suspensivas',
-      'Efeitos pessoais e patrimoniais',
-      'Regimes de bens — comunhão parcial, universal, separação, participação final',
-      'Pacto antenupcial',
-      'União estável — requisitos (CC art. 1.723) e efeitos',
-      'Casamento e união homoafetiva (ADI 4.277, RE 646.721)',
-      'Dissolução — divórcio direto (EC 66/2010)'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 4 da Fase 3 (mar/2027) — semana 1',
+    advantage: 'Candidata é Analista MP — Promotor atua extensamente em família (incapazes, alimentos, ECA)',
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O Direito de Família, regulado pelo Livro IV do CC (arts. 1.511-1.783), foi profundamente alterado por leis especiais e jurisprudência constitucional. **EC 66/2010** acabou com a separação judicial e o prazo do divórcio. **STF (ADI 4.277 e RE 646.721)** reconheceu a união homoafetiva como família. **EPD (Lei 13.146/15)** alterou capacidade civil — repercute em casamento, curatela, tomada de decisão apoiada.' },
+          { type: 'p', text: 'O **CASAMENTO** (arts. 1.511-1.582) é instituição pessoal e patrimonial. Pressupostos: capacidade núbil (16 anos com autorização ou após emancipação), ausência de impedimentos (rol taxativo — art. 1.521), formalidades (habilitação + celebração — art. 1.525+). Efeitos: pessoais (art. 1.565+) e patrimoniais (regime de bens — arts. 1.639-1.688).' },
+          { type: 'p', text: 'A **UNIÃO ESTÁVEL** (CF art. 226 §3º + CC arts. 1.723-1.727) é entidade familiar paralela ao casamento, com requisitos: convivência **PÚBLICA, CONTÍNUA e DURADOURA**, com objetivo de constituir família. **NÃO exige tempo mínimo** (jurisprudência STJ). Aplica-se subsidiariamente o regime do casamento; padrão = comunhão parcial (art. 1.725).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Casamento — habilitação, impedimentos, celebração' },
+          { type: 'list', items: [
+            '**Art. 1.517** — capacidade núbil: 16 anos (homem e mulher), com autorização dos pais ou representante. Idade nupcial NÃO pode ser inferior a 16 — Lei 13.811/19 retirou exceções',
+            '**Art. 1.521 — IMPEDIMENTOS** (rol TAXATIVO): I — ascendentes e descendentes; II — afins em linha reta; III — adotante com filho do adotado; IV — irmãos; V — adotado com filho do adotante; VI — pessoas casadas; VII — cônjuge sobrevivente com condenado por homicídio do consorte',
+            '**Art. 1.523 — CAUSAS SUSPENSIVAS** — não impedem mas geram regime especial: divorciado antes de partilha; viúvo com filho; entre tutor/curatelado; entre afins em linha colateral até 3º grau (irmã do cônjuge falecido)',
+            '**Art. 1.525-1.542** — habilitação no cartório + celebração civil ou religiosa com efeitos civis (art. 1.515)',
+            '**Art. 1.567** — dever pessoal: fidelidade, vida em comum, mútua assistência, sustento, criação dos filhos, respeito'
+          ] },
+          { type: 'h', text: 'Regime de bens (arts. 1.639-1.688)' },
+          { type: 'list', items: [
+            '**Art. 1.639** — partes podem escolher regime livremente em pacto antenupcial; ausente, aplica-se COMUNHÃO PARCIAL (regra desde 1977)',
+            '**COMUNHÃO PARCIAL (arts. 1.658-1.666)** — comunicam-se bens adquiridos onerosamente NA constância; particulares: anteriores ao casamento, doados/herdados, sub-rogados, etc.',
+            '**COMUNHÃO UNIVERSAL (arts. 1.667-1.671)** — comunicam-se TODOS os bens (presentes, futuros, adquiridos antes); excetuam-se os incomunicáveis (art. 1.668)',
+            '**SEPARAÇÃO (arts. 1.687-1.688)** — convencional ou OBRIGATÓRIA (art. 1.641): casamento de quem tem 70+ anos; quem casou sem causas suspensivas observadas; quem dependeu de suprimento judicial',
+            '**PARTICIPAÇÃO FINAL NOS AQUESTOS (arts. 1.672-1.686)** — durante o casamento separação total; ao final, partilha "como se fosse" comunhão parcial sobre o patrimônio adquirido'
+          ] },
+          { type: 'h', text: 'União estável (arts. 1.723-1.727)' },
+          { type: 'list', items: [
+            '**Art. 1.723** — entidade familiar entre HOMEM e MULHER (interpretado pelo STF como inclui homoafetiva — ADI 4.277), configurada na convivência PÚBLICA, CONTÍNUA e DURADOURA com objetivo de constituir família',
+            '**Art. 1.723 § 1º** — não se constitui se houver impedimento do art. 1.521, salvo separados de fato/divorciados',
+            '**Art. 1.725** — aplica-se à união estável o regime de COMUNHÃO PARCIAL, salvo contrato escrito',
+            '**Art. 1.727** — concubinato (não eventual, pessoas impedidas de casar) NÃO constitui união estável'
+          ] },
+          { type: 'h', text: 'Dissolução (arts. 1.571-1.582 + EC 66/2010)' },
+          { type: 'list', items: [
+            '**EC 66/2010** acabou com prazo de separação judicial. Hoje: **DIVÓRCIO DIRETO**, sem necessidade de prévia separação',
+            'Modalidades: divórcio JUDICIAL CONSENSUAL/LITIGIOSO, EXTRAJUDICIAL (cartório — Lei 11.441/07, sem incapazes nem questão controvertida)',
+            '**Art. 1.580** par. único (revogado pela EC 66/2010 quanto a prazo)',
+            '**Art. 1.582** — competência para julgar dissolução: Justiça Comum estadual (Vara de Família)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Casamento — impedimentos × causas suspensivas' },
+          { type: 'table', headers: ['Critério', 'Impedimentos (1.521)', 'Causas Suspensivas (1.523)'],
+            rows: [
+              ['Efeito', 'NULIDADE (art. 1.548)', 'Casamento celebra com REGIME OBRIGATÓRIO de separação (1.641 III)'],
+              ['Hipóteses', 'Ascendentes, descendentes, irmãos, casados', 'Divorciado sem partilha, viúvo com filho'],
+              ['Natureza', 'Absoluta — proteção do interesse social', 'Relativa — proteção patrimonial']
+            ] },
+          { type: 'box', kind: 'atencao', text: '**Impedimentos = NULIDADE. Causas suspensivas = regime OBRIGATÓRIO de SEPARAÇÃO.** Confusão recorrente.' },
+          { type: 'h', text: 'União estável — STJ não exige tempo mínimo' },
+          { type: 'p', text: 'CC art. 1.723 não estabelece prazo. **STJ (REsp 1.094.957)** — não há prazo mínimo; basta verificar PUBLICIDADE, CONTINUIDADE, DURABILIDADE e ÂNIMO de constituir família. A duração concreta entra no juízo de "durabilidade", mas não há regra fixa.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.094.957:** união estável NÃO exige tempo mínimo. Critério é qualitativo, não cronológico.' },
+          { type: 'h', text: 'União homoafetiva' },
+          { type: 'p', text: '**STF — ADI 4.277 + ADPF 132 (2011)** reconheceu a união entre pessoas do mesmo sexo como entidade familiar (interpretação conforme a CF do CC art. 1.723). **CNJ Resolução 175/2013** determinou aos cartórios que celebrassem casamento entre pessoas do mesmo sexo. **STF — RE 646.721** reconheceu equiparação de direitos sucessórios.' },
+          { type: 'h', text: 'Regime obrigatório de separação (art. 1.641)' },
+          { type: 'p', text: '**Pessoas com 70 anos ou mais** (art. 1.641 II — após Lei 12.344/10): casamento OBRIGATORIAMENTE em regime de separação, salvo se firmarem **pacto antenupcial em sentido diverso? NÃO!** A imposição é norma cogente. **STJ — Súmula 377:** "No regime de separação legal de bens, comunicam-se os adquiridos na constância do casamento" — atenuação por ESFORÇO COMUM (mitigação da rigidez). MUITO COBRADO.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 377:** No regime de separação LEGAL de bens, comunicam-se os adquiridos na constância do casamento. Atenua a rigidez do regime obrigatório.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Casamento: 16 anos com autorização. Lei 13.811/19 acabou com exceções.**' },
+          { type: 'box', kind: 'macete', text: '**Impedimentos = NULIDADE. Causas Suspensivas = SEPARAÇÃO obrigatória.**' },
+          { type: 'box', kind: 'macete', text: '**Regime padrão sem pacto antenupcial = COMUNHÃO PARCIAL (1.640).**' },
+          { type: 'box', kind: 'macete', text: '**70+ = SEPARAÇÃO OBRIGATÓRIA + Súmula 377/STJ atenua.**' },
+          { type: 'box', kind: 'macete', text: '**União estável: PÚBLICA · CONTÍNUA · DURADOURA + ânimo. Sem prazo mínimo (STJ).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**EC 66/2010 acabou com SEPARAÇÃO JUDICIAL** — hoje só divórcio. Erro: confundir com sistema antigo.' },
+          { type: 'box', kind: 'atencao', text: '**70 anos = separação OBRIGATÓRIA** (art. 1.641 II). Súmula 377/STJ atenua para os bens adquiridos na constância — comunicam-se.' },
+          { type: 'box', kind: 'atencao', text: '**União estável NÃO exige tempo mínimo** (STJ REsp 1.094.957). Mas exige durabilidade qualitativa.' },
+          { type: 'box', kind: 'atencao', text: '**Concubinato (1.727) NÃO é união estável** — pessoas impedidas de casar (casado morando com amante). STJ tem decisões pontuais reconhecendo certos efeitos patrimoniais (concubinato adulterino), mas regra geral nega.' },
+          { type: 'box', kind: 'atencao', text: '**Casamento entre pessoas do mesmo sexo é VÁLIDO** (STF ADI 4.277 + CNJ 175/2013). Concursos modernos cobram.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (alimentos, tutela, curatela):** complementa o estudo de família.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 17 (sucessões):** cônjuge/companheiro têm direitos sucessórios — RE 878.694 equiparou-os (companheiro = cônjuge para fins sucessórios).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP):** atuação obrigatória em causas de família com incapazes (CPC art. 178 II).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 2 (pessoas naturais):** tomada de decisão apoiada × curatela (Lei 13.146 + CC 1.767).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-16-familia-especifico',
@@ -4242,19 +5623,109 @@ topics: [
     title: 'Família — alimentos, filiação, tutela e curatela',
     edital: '3.1.16',
     editalText: 'Filiação. Reconhecimento. Adoção. Poder familiar. Alimentos. Tutela, curatela, guarda.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Filiação — presunções (art. 1.597); socioafetividade; multiparentalidade (RE 898.060)',
-      'Reconhecimento de filhos',
-      'Adoção (Lei 12.010/09) — requisitos',
-      'Poder familiar — exercício, suspensão, destituição',
-      'Alimentos — pressupostos, espécies (provisionais, provisórios, definitivos)',
-      'Binômio necessidade × possibilidade × razoabilidade',
-      'Prisão civil do alimentante (Súmula 309/STJ)',
-      'Tutela × curatela × guarda',
-      'Tomada de decisão apoiada (Lei 13.146/15)'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 4 da Fase 3 (mar/2027) — semana 2-3',
+    advantage: 'Promotor MP atua extensamente — alimentos, abandono afetivo, tutela, ECA',
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Aqui se concentram alguns dos temas mais cobrados em concurso de Promotor: **filiação** (presunções, socioafetiva, multiparentalidade), **reconhecimento**, **adoção** (Lei 12.010/09), **poder familiar**, **alimentos** (pressupostos, espécies, binômio necessidade-possibilidade-razoabilidade), **prisão civil**, **tutela/curatela/guarda**.' },
+          { type: 'p', text: 'O **STF (RE 898.060 — Tema 622)** reconheceu a **multiparentalidade** — possibilidade de dupla maternidade ou paternidade (biológica + socioafetiva). A Lei 13.146/15 (EPD) reformou a curatela — só para atos negociais e patrimoniais, não para "vida em geral". **TDA (tomada de decisão apoiada)** é alternativa autonomista à curatela.' },
+          { type: 'p', text: 'Em **ALIMENTOS**, a tríade clássica: **NECESSIDADE** do alimentado + **POSSIBILIDADE** do alimentante + **RAZOABILIDADE** (proporcionalidade). Espécies: provisionais (cautelar), provisórios (Lei 5.478/68 — concedidos liminarmente em ação de alimentos), definitivos (sentença de mérito). Prisão civil = único caso constitucional (CF 5º LXVII + Súmula 309/STJ).' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Filiação (arts. 1.596-1.629)' },
+          { type: 'list', items: [
+            '**Art. 1.596** — filhos havidos no casamento OU FORA dele, ou por adoção, têm os MESMOS direitos. Vedada qualquer designação discriminatória',
+            '**Art. 1.597** — presumem-se concebidos na constância do casamento: I — nascidos 180+ dias após estabelecimento conjugal; II — 300 dias após dissolução; III — fecundação artificial homóloga; IV — havidos por inseminação artificial heteróloga (consentimento do marido); V — embriões excedentários (concepção homóloga in vitro)',
+            '**Art. 1.601** — direito de IMPUGNAR paternidade pertence ao marido; PRESCRITÍVEL (na CC original era imprescritível — atenção!)',
+            '**Art. 1.609** — reconhecimento voluntário: por escritura pública/particular, testamento, manifestação direta no termo de nascimento, ou em qualquer documento',
+            '**Art. 1.614** — filho maior NÃO pode ser reconhecido sem seu consentimento. Menor pode impugnar dentro de 4 anos seguintes à maioridade'
+          ] },
+          { type: 'h', text: 'Adoção (Lei 12.010/09 + ECA)' },
+          { type: 'list', items: [
+            'Disciplina: ECA (Lei 8.069/90) arts. 39-52-D + Lei 12.010/09 alterações',
+            'Adoção é IRREVOGÁVEL (regra) — equipara o adotado ao filho biológico, com mesmos direitos',
+            'Idade do adotante: 18 anos + 16 anos a mais que o adotado',
+            'Cadastro nacional de adoção; preferência aos cadastrados',
+            'Natureza JUDICIAL — ato constitutivo'
+          ] },
+          { type: 'h', text: 'Poder familiar (arts. 1.630-1.638)' },
+          { type: 'list', items: [
+            '**Art. 1.630** — filhos sujeitos ao poder familiar enquanto menores',
+            '**Art. 1.631** — exercício pelos PAIS, em pé de IGUALDADE',
+            '**Art. 1.634** — competência: criação, educação, companhia, autorização, representação/assistência, etc.',
+            '**Art. 1.638** — perda do poder familiar (por sentença): castigos imoderados, abandono, atos contrários à moral/bons costumes, faltas reiteradas dos deveres do art. 1.634, alienação parental, conduta criminosa contra o filho'
+          ] },
+          { type: 'h', text: 'Alimentos (arts. 1.694-1.710)' },
+          { type: 'list', items: [
+            '**Art. 1.694** — alimentos: necessidade do alimentado, possibilidade do alimentante, proporcionalidade',
+            '**Art. 1.694 § 2º** — alimentos serão IRRENUNCIÁVEIS (mas pode haver renúncia entre cônjuges em certos casos — STJ tem temperado)',
+            '**Art. 1.696** — direito de pedir alimentos é RECÍPROCO entre pais e filhos, parentes (em ordem)',
+            '**Art. 1.700** — obrigação alimentar TRANSMITE-SE aos herdeiros do devedor (até as forças da herança)',
+            '**Art. 1.703** — alimentos para os filhos, com observância do regime jurídico aplicável',
+            '**Art. 1.708** — cessão por casamento, união estável ou concubinato do credor; OU procedimento indigno'
+          ] },
+          { type: 'h', text: 'Tutela e curatela (arts. 1.728-1.783-A)' },
+          { type: 'list', items: [
+            '**TUTELA (1.728-1.766)** — proteção de MENOR não emancipado (sem pais ou com pais impedidos). Tutor é nomeado por testamento, lei (parente próximo) ou juiz',
+            '**CURATELA (1.767-1.783)** — proteção de pessoa que NÃO PODE EXPRIMIR vontade (causa transitória ou permanente — após Lei 13.146/15)',
+            '**Art. 1.772 (após EPD)** — curatela RESTRITA aos atos negociais e patrimoniais; não atinge "vida pessoal" (autonomia preservada)',
+            '**Art. 1.783-A** — TOMADA DE DECISÃO APOIADA: pessoa com deficiência elege apoiadores. Alternativa autonomista à curatela'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Multiparentalidade (RE 898.060)' },
+          { type: 'p', text: 'STF (Tema 622, RE 898.060) reconheceu a possibilidade de **DUPLA MATERNIDADE OU PATERNIDADE** (biológica + socioafetiva). Filho pode ter, no registro civil, mãe biológica + mãe socioafetiva (ou pai biológico + pai socioafetivo). Tese: "A paternidade socioafetiva, declarada ou não em registro, NÃO impede o reconhecimento concomitante do vínculo biológico." Tema vinculante.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 898.060 (Tema 622):** multiparentalidade é compatível com o ordenamento jurídico — vínculo socioafetivo NÃO afasta o biológico, e vice-versa.' },
+          { type: 'h', text: 'Alimentos — binômio (na verdade trinômio)' },
+          { type: 'p', text: '**Necessidade** (do alimentado) + **possibilidade** (do alimentante) + **proporcionalidade/razoabilidade** (CC art. 1.694 §1º). Critério clássico chamado às vezes de "binômio" (necessidade × possibilidade), mas hoje há tendência ao "trinômio" com proporcionalidade.' },
+          { type: 'h', text: 'Prisão civil do alimentante — Súmula 309/STJ' },
+          { type: 'p', text: '**Súmula 309/STJ:** débito alimentar que autoriza prisão civil compreende as **3 PRESTAÇÕES ANTERIORES** ao ajuizamento + as que vencerem no curso. Único caso CONSTITUCIONAL de prisão civil (CF 5º LXVII + SV 25/STF — depositário infiel acabou). Prisão é em regime FECHADO, 1 a 3 meses.' },
+          { type: 'h', text: 'EPD e curatela' },
+          { type: 'p', text: 'Após Lei 13.146/15, deficiência intelectual ou psíquica NÃO acarreta automaticamente incapacidade. Pessoa com deficiência tem PLENA CAPACIDADE. Curatela é EXCEPCIONAL e LIMITADA aos atos patrimoniais (art. 1.772). **Tomada de decisão apoiada** (1.783-A) é instrumento autonomista — pessoa elege apoiadores que assistem nas decisões sem retirar capacidade.' },
+          { type: 'h', text: 'Adoção — irrevogabilidade' },
+          { type: 'p', text: 'A adoção é IRREVOGÁVEL — regra clássica. Adotado tem mesmos direitos do filho biológico (CF art. 227 §6º — filhos havidos ou não da relação do casamento, ou por adoção, terão os mesmos direitos). Veda-se discriminação. STJ tem flexibilizado em casos excepcionais (adoção em interesse próprio, sem vínculo afetivo verdadeiro), mas a regra é firme.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Alimentos: trinômio NECESSIDADE × POSSIBILIDADE × PROPORCIONALIDADE.**' },
+          { type: 'box', kind: 'macete', text: '**Prisão civil: SÚMULA 309/STJ — 3 últimas + vincendas.** Único caso constitucional (CF 5º LXVII).' },
+          { type: 'box', kind: 'macete', text: '**Multiparentalidade: STF Tema 622 (RE 898.060).** Bio + sócioafetivo CONVIVEM.' },
+          { type: 'box', kind: 'macete', text: '**Curatela após EPD — só atos negociais e patrimoniais (1.772). Vida pessoal preservada.**' },
+          { type: 'box', kind: 'macete', text: '**Adoção = IRREVOGÁVEL (regra). Mesmos direitos do filho biológico (CF 227 §6º).**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Vínculo socioafetivo NÃO AFASTA biológico** (STF Tema 622). Multiparentalidade reconhecida.' },
+          { type: 'box', kind: 'atencao', text: '**Filhos havidos FORA do casamento têm MESMOS direitos** (CC 1.596 + CF 227 §6º). Vedada qualquer discriminação.' },
+          { type: 'box', kind: 'atencao', text: '**Prisão civil só do alimentante** — depositário infiel NÃO mais (SV 25/STF).' },
+          { type: 'box', kind: 'atencao', text: '**Pessoa com deficiência tem CAPACIDADE PLENA** após EPD. Curatela excepcional, limitada (1.772).' },
+          { type: 'box', kind: 'atencao', text: '**Alimentos transmitem-se aos herdeiros** (até forças da herança — art. 1.700). Não morre com o devedor.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 17 (sucessões):** alimentos transmitem-se aos herdeiros (art. 1.700, até as forças).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (prescrição):** prazo prescricional para alimentos = 2 ANOS (art. 206 §2º).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 5 (MP):** intervenção em causas de família com incapazes (CPC 178 II); ECA + Estatuto do Idoso.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 13 (cumprimento alimentos):** prisão civil — Súmula 309/STJ (dívida das 3 últimas + vincendas).' },
+          { type: 'box', kind: 'conexao', text: '**Direito Constitucional:** CF arts. 226-230 (ordem familiar).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-17-sucessoes',
@@ -4262,19 +5733,114 @@ topics: [
     title: 'Sucessões',
     edital: '3.1.17',
     editalText: 'Sucessão legítima e testamentária. Inventário. Partilha. Colação. Sonegados. Petição de herança.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Abertura — saisine (CC art. 1.784)',
-      'Ordem de vocação hereditária',
-      'Direito do cônjuge × companheiro (RE 878.694)',
-      'Sucessão testamentária — formas (público, cerrado, particular)',
-      'Legítima × disponível; deserdação',
-      'Inventário judicial × extrajudicial (Lei 11.441/07)',
-      'Partilha amigável × judicial',
-      'Colação, sonegados, petição de herança',
-      'Cessão de direitos hereditários'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 4 da Fase 3 (mar/2027) — semana 3-4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'O Direito das Sucessões (CC arts. 1.784-2.027) trata da TRANSMISSÃO PATRIMONIAL pela morte. Princípio fundamental: **SAISINE** (art. 1.784) — com a abertura da sucessão (morte), a herança transmite-se DESDE LOGO aos herdeiros legítimos e testamentários, AUTOMATICAMENTE. Independe de inventário ou partilha — esses apenas formalizam.' },
+          { type: 'p', text: '**Sucessão LEGÍTIMA** (decorre da lei — ordem de vocação hereditária do art. 1.829) × **TESTAMENTÁRIA** (decorre de testamento). Os herdeiros NECESSÁRIOS (descendentes, ascendentes, cônjuge — art. 1.845) têm direito à LEGÍTIMA (50% do patrimônio — art. 1.846). Pode-se dispor por testamento da PARTE DISPONÍVEL (50%).' },
+          { type: 'p', text: '**STF — RE 878.694 (Tema 809)** equiparou companheiro ao cônjuge para fins sucessórios — declarando inconstitucional o art. 1.790 do CC, que dava menos direitos ao companheiro. Companheiro hoje sucede como cônjuge (art. 1.829). Tema vinculante e cobrado.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Abertura da sucessão e saisine (arts. 1.784-1.792)' },
+          { type: 'list', items: [
+            '**Art. 1.784** — saisine: ABERTA a sucessão, herança transmite-se DESDE LOGO aos herdeiros legítimos e testamentários',
+            '**Art. 1.785** — sucessão abre-se no lugar do último DOMICÍLIO do falecido',
+            '**Art. 1.787** — lei aplicável: a vigente AO TEMPO DA ABERTURA. Lei nova retroage para alterar regras de testamento já existentes? Em regra não — respeita-se a lei do tempo da feitura',
+            '**Art. 1.788** — herda quem é HERDEIRO ou LEGATÁRIO ao tempo da abertura'
+          ] },
+          { type: 'h', text: 'Ordem de vocação hereditária (art. 1.829)' },
+          { type: 'list', items: [
+            '**I — descendentes, em concorrência com o CÔNJUGE** (salvo se casado com comunhão universal, separação obrigatória — separação CONVENCIONAL concorre — STJ tem orientação)',
+            '**II — ascendentes, em concorrência com o cônjuge**',
+            '**III — cônjuge sobrevivente** (sozinho)',
+            '**IV — colaterais** (até 4º grau)',
+            '**Após RE 878.694 — companheiro EQUIPARADO ao cônjuge** em todos os incisos'
+          ] },
+          { type: 'h', text: 'Herdeiros necessários e legítima (arts. 1.845-1.847)' },
+          { type: 'list', items: [
+            '**Art. 1.845** — herdeiros NECESSÁRIOS: descendentes, ascendentes, cônjuge. NÃO incluem colaterais',
+            '**Art. 1.846** — pertence aos herdeiros necessários, de pleno direito, a METADE do patrimônio (LEGÍTIMA). Outra metade = parte DISPONÍVEL',
+            '**Art. 1.847** — para cálculo da legítima, soma-se valor dos bens existentes ao tempo da abertura + valor das doações (colação)'
+          ] },
+          { type: 'h', text: 'Sucessão testamentária' },
+          { type: 'list', items: [
+            'Formas ORDINÁRIAS de testamento: PÚBLICO (art. 1.864 — feito em cartório, mais usado), CERRADO (art. 1.868 — confiado ao tabelião em envelope lacrado), PARTICULAR (art. 1.876 — escrito de próprio punho, com 3 testemunhas)',
+            'Formas ESPECIAIS: marítimo, aeronáutico, militar (situações específicas — exigem confirmação)',
+            '**Art. 1.857** — disposições testamentárias: instituição de herdeiros e legatários',
+            '**Art. 1.864 § 1º** — testamento público lavrado pelo tabelião + 2 testemunhas',
+            '**Art. 1.876** — testamento particular: escrito + assinatura + 3 testemunhas (pode ser DIGITADO desde Lei 14.382/22)'
+          ] },
+          { type: 'h', text: 'Inventário e partilha (arts. 1.991-2.027)' },
+          { type: 'list', items: [
+            '**Art. 2.013** — partilha pode ser feita por escritura pública (consensual) ou judicial',
+            '**Lei 11.441/07** — INVENTÁRIO EXTRAJUDICIAL (cartório): possível se houver consenso, partes capazes (sem incapazes), nenhuma controvérsia, todos com advogado',
+            '**Inventário judicial** — necessário com incapazes ou litígio',
+            'Prazo: 60 dias da abertura para iniciar inventário (CPC art. 611). Sentença em 12 meses ideal (mas raramente cumpre)',
+            '**ITCMD** — imposto de transmissão "causa mortis" — competência estadual (CF 155 I)'
+          ] },
+          { type: 'h', text: 'Colação, sonegados, petição de herança' },
+          { type: 'list', items: [
+            '**COLAÇÃO (arts. 2.002-2.012)** — descendentes que receberam doações em vida devem trazer à colação para igualar com os demais (proteção da legítima)',
+            '**SONEGAÇÃO (arts. 1.992-1.996)** — herdeiro que esconde bens da herança perde o direito sobre eles + responde por perdas e danos',
+            '**PETIÇÃO DE HERANÇA (arts. 1.824-1.828)** — ação para reivindicação da herança contra quem a possui sem direito; PRESCRITÍVEL (10 anos — art. 205, conforme entendimento STJ); em alguns casos imprescritível'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Saisine (art. 1.784)' },
+          { type: 'p', text: 'Princípio MEDIEVAL francês ("Le mort saisit le vif" — o morto investe o vivo). Com a abertura da sucessão (= morte), a herança transmite-se AUTOMATICAMENTE aos herdeiros, no estado em que se encontram. Inventário e partilha apenas FORMALIZAM. Importância prática: herdeiros são proprietários desde o óbito; antes da partilha = condomínio entre eles (mancomunhão hereditária).' },
+          { type: 'h', text: 'Companheiro = cônjuge (RE 878.694)' },
+          { type: 'p', text: 'Antes do RE 878.694: art. 1.790 do CC dava direitos sucessórios LIMITADOS ao companheiro (em geral, somente quanto a bens onerosamente adquiridos). STF (Tema 809, 2017) declarou INCONSTITUCIONAL o art. 1.790, equiparando companheiro a cônjuge para todos os fins sucessórios (art. 1.829). HOJE: companheiro herda como cônjuge.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 878.694 (Tema 809):** companheiro tem MESMOS direitos sucessórios que o cônjuge. Inconstitucional o art. 1.790 do CC (que estabelecia tratamento inferior).' },
+          { type: 'h', text: 'Concorrência cônjuge × descendentes (art. 1.829 I)' },
+          { type: 'p', text: 'Cônjuge concorre com descendentes EM REGRA. Exceções (não concorre): (a) comunhão UNIVERSAL; (b) separação OBRIGATÓRIA; (c) comunhão parcial sem bens particulares do falecido. Se o cônjuge concorre, recebe quota igual à dos descendentes que sucederem por cabeça (mínimo de 1/4 se concorrer com seus próprios descendentes — art. 1.832).' },
+          { type: 'h', text: 'Sucessão testamentária — teste da capacidade do testador' },
+          { type: 'p', text: 'A capacidade aferi-se NO MOMENTO DA FEITURA do testamento (art. 1.861). Se feito quando capaz, mantém-se válido ainda que o testador depois se torne incapaz. Inversamente: testamento de incapaz é NULO, mesmo que ele depois recupere capacidade. Lei aplicável: a vigente ao tempo da CONFECÇÃO (art. 1.787, in fine).' },
+          { type: 'h', text: 'Inventário extrajudicial (Lei 11.441/07)' },
+          { type: 'p', text: 'Requisitos: (a) consenso entre todos os interessados; (b) partes capazes; (c) sem incapazes envolvidos; (d) sem testamento (Lei 11.441 — alterada pela Lei 14.382/22 que admitiu nas hipóteses sem litígio); (e) com advogado (todos representados ou compartilhando o mesmo advogado, se houver consenso); (f) por escritura pública.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**SAISINE — herança transmite AUTOMÁTICA com a morte** (art. 1.784).' },
+          { type: 'box', kind: 'macete', text: '**Vocação hereditária — DAC C: Descendentes · Ascendentes · Cônjuge sozinho · Colaterais.**' },
+          { type: 'box', kind: 'macete', text: '**Companheiro = cônjuge** (STF Tema 809). Art. 1.790 do CC inconstitucional.' },
+          { type: 'box', kind: 'macete', text: '**Legítima = 50% (herdeiros necessários: D-A-C). Disponível = 50%.**' },
+          { type: 'box', kind: 'macete', text: '**3 formas ordinárias de testamento: PÚBLICO · CERRADO · PARTICULAR.**' },
+          { type: 'box', kind: 'macete', text: '**Inventário extrajudicial: 11.441/07 — sem incapazes, com consenso e advogado.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Companheiro herda como cônjuge** (STF RE 878.694). Antes não era — atualizou-se em 2017.' },
+          { type: 'box', kind: 'atencao', text: '**Saisine — herança transmite automaticamente** (art. 1.784). Antes do inventário, herdeiros já são proprietários (mancomunhão).' },
+          { type: 'box', kind: 'atencao', text: '**Colaterais NÃO são herdeiros necessários** (art. 1.845). Apenas descendentes, ascendentes, cônjuge.' },
+          { type: 'box', kind: 'atencao', text: '**Cônjuge NÃO concorre** com descendentes em comunhão UNIVERSAL nem em separação OBRIGATÓRIA. Confusão recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Capacidade do testador afere-se NO MOMENTO da feitura** (art. 1.861). Decisão posterior do testador como incapaz não invalida.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 16 (família):** alimentos transmitem-se aos herdeiros (art. 1.700, até as forças da herança).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 9 (contratos em espécie):** doação não excede o valor disponível em testamento (art. 549 — proteção da legítima).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 5 (prescrição):** petição de herança em geral em 10 anos (regra geral).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico PC 14 (procedimentos especiais):** inventário judicial = procedimento especial (CPC arts. 610-673).' },
+          { type: 'box', kind: 'conexao', text: '**Direito Tributário:** ITCMD — competência estadual (CF 155 I); fato gerador na abertura da sucessão.' }
+        ]
+      }
+    ]
   }
 ],
 
@@ -4478,7 +6044,131 @@ flashcards: [
   { id: 160, topic: 30, q: 'Honorários Fazenda — sistema do art. 85 §3º?', a: 'ESCALONADO em 5 faixas: 10-20% (até 200 SM); 8-10% (200-2.000); 5-8% (2.000-20.000); 3-5% (20.000-100.000); 1-3% (>100.000). Quanto maior o valor, MENOR o percentual.', tags: ['fase2', 'honorarios', 'fazenda'] },
   { id: 161, topic: 30, q: 'O que são honorários recursais (§11)?', a: 'MAJORAÇÃO dos honorários quando recurso é desprovido (não conhecido OU julgado improcedente). NÃO é novo honorário; é majoração do existente. Soma respeita limite máximo do caput/§3º. Aplica-se à Fazenda também.', tags: ['fase2', 'honorarios', 'recursos'] },
   { id: 162, topic: 30, q: 'Dano moral fixado abaixo do pedido = sucumbência recíproca?', a: 'NÃO (Súmula 326/STJ). Apenas o réu paga honorários. A "redução" pelo juiz é exercício de proporcionalidade — não importa decadência do autor.', tags: ['fase2', 'honorarios', 'sucumbencia'] },
-  { id: 163, topic: 30, q: 'Multa por ato atentatório — destinatário?', a: 'União/Estado (CPC art. 77 §2º — até 20% do valor da causa). Diferente de: litigância de má-fé (parte contrária — art. 81); astreintes (exequente — art. 537); execução protelatória (exequente — art. 918).', tags: ['fase2', 'multas'] }
+  { id: 163, topic: 30, q: 'Multa por ato atentatório — destinatário?', a: 'União/Estado (CPC art. 77 §2º — até 20% do valor da causa). Diferente de: litigância de má-fé (parte contrária — art. 81); astreintes (exequente — art. 537); execução protelatória (exequente — art. 918).', tags: ['fase2', 'multas'] },
+
+  // ============ Bloco 11 — Fase 3 (Civil 1-5 — Parte Geral) ============
+  // Civ 1 — LINDB
+  { id: 164, topic: 1, materia: 'civil', q: 'O que é repristinação no direito brasileiro?', a: 'Restauração da lei revogada quando a lei revogadora é ela mesma revogada. NÃO é automática (LINDB art. 2º §3º) — só acontece se a nova lei dispuser EXPRESSAMENTE.', tags: ['fase3', 'LINDB'] },
+  { id: 165, topic: 1, materia: 'civil', q: 'Quando se aplica vacatio legis de 45 dias (LINDB)?', a: 'Quando a lei NÃO fixa data própria de vigência (regra supletiva — art. 1º). Ex: lei sem cláusula de vigência → 45 dias no Brasil + 3 meses no exterior. Códigos costumam fixar vacatio longa (ex: 1 ano).', tags: ['fase3', 'LINDB', 'vigencia'] },
+  { id: 166, topic: 1, materia: 'civil', q: 'Quais os critérios para resolver antinomias?', a: 'Bobbio: (1) Hierárquico (lei superior); (2) Cronológico (lei posterior); (3) Especialidade (lei específica). Em conflito entre critérios: hierárquico vence cronológico; cronológico geral cede à especialidade.', tags: ['fase3', 'LINDB', 'antinomias'] },
+  { id: 167, topic: 1, materia: 'civil', q: 'O que diz o art. 28 da LINDB sobre responsabilização do agente público?', a: 'Agente público responde PESSOALMENTE apenas por DOLO ou ERRO GROSSEIRO. Lei 13.655/18 protege administrador de divergência razoável de opinião — não é culpa simples.', tags: ['fase3', 'LINDB', 'consequencialismo'] },
+  { id: 168, topic: 1, materia: 'civil', q: 'Lei nova GERAL revoga lei especial anterior?', a: 'NÃO, salvo disposição expressa (LINDB art. 2º §2º). Lex specialis derogat generali — princípio da especialidade. A relação especial-geral mantém-se.', tags: ['fase3', 'LINDB'] },
+
+  // Civ 2 — Pessoas naturais
+  { id: 169, topic: 2, materia: 'civil', q: 'Quem são os ABSOLUTAMENTE incapazes após a Lei 13.146/15 (EPD)?', a: 'APENAS os menores de 16 anos (CC art. 3º — único inciso após EPD). Pessoa com deficiência mental NÃO é mais absolutamente incapaz; pode ser relativa (art. 4º III) ou usar tomada de decisão apoiada.', tags: ['fase3', 'pessoas-naturais', 'EPD'] },
+  { id: 170, topic: 2, materia: 'civil', q: 'Quais as três fases da ausência?', a: '(1) CURADORIA — declaração + curador (art. 22). (2) SUCESSÃO PROVISÓRIA — após 1 ano da arrecadação (ou 3 anos com representante) — arts. 26-27. (3) SUCESSÃO DEFINITIVA — após 10 anos da provisória (ou 5 anos das últimas notícias se tinha 80+ anos) — art. 37.', tags: ['fase3', 'pessoas-naturais', 'ausencia'] },
+  { id: 171, topic: 2, materia: 'civil', q: 'Quais os modos de emancipação legal (art. 5º par. único)?', a: 'Casamento, emprego público efetivo, colação de grau em ensino superior, estabelecimento civil/comercial, economia própria do menor com 16+ anos. Voluntária: pais ou tutor (judicial).', tags: ['fase3', 'pessoas-naturais', 'emancipacao'] },
+  { id: 172, topic: 2, materia: 'civil', q: 'Características dos direitos da personalidade?', a: 'ABSOLUTOS · INDISPONÍVEIS · IRRENUNCIÁVEIS · INTRANSMISSÍVEIS · IMPRESCRITÍVEIS · VITALÍCIOS. Tutela cível autônoma — basta lesão ou ameaça (art. 12).', tags: ['fase3', 'pessoas-naturais', 'personalidade'] },
+  { id: 173, topic: 2, materia: 'civil', q: 'Qual a teoria adotada pelo STJ sobre o status jurídico do nascituro?', a: 'Tendência CONCEPCIONISTA para direitos da personalidade (REsp 1.415.727 — indenização ao nascituro por morte do pai). CC art. 2º caput sugere natalista, mas jurisprudência avança.', tags: ['fase3', 'pessoas-naturais', 'nascituro'] },
+
+  // Civ 3 — Pessoas jurídicas
+  { id: 174, topic: 3, materia: 'civil', q: 'Diferença entre Teoria Maior e Teoria Menor da desconsideração?', a: 'MAIOR (CC art. 50): exige ABUSO da personalidade — desvio de finalidade ou confusão patrimonial. MENOR (CDC art. 28; ambiental Lei 9.605): basta a INSOLVÊNCIA ou obstaculização ao ressarcimento.', tags: ['fase3', 'PJ', 'desconsideracao'] },
+  { id: 175, topic: 3, materia: 'civil', q: 'O que mudou na desconsideração com a Lei 13.874/19?', a: 'Detalhou os requisitos do art. 50: definiu desvio de finalidade (§1º) e confusão patrimonial (§2º), positivou a desconsideração INVERSA (§4º), e protegeu a expansão lícita da finalidade original (§5º).', tags: ['fase3', 'PJ', 'desconsideracao'] },
+  { id: 176, topic: 3, materia: 'civil', q: 'A EIRELI ainda existe no direito brasileiro?', a: 'NÃO (extinta pela Lei 14.382/22 — Marco Legal das Garantias). EIRELIs existentes foram convertidas automaticamente em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19).', tags: ['fase3', 'PJ'] },
+  { id: 177, topic: 3, materia: 'civil', q: 'Procedimento para desconsiderar a personalidade jurídica?', a: 'IDPJ — Incidente de Desconsideração da Personalidade Jurídica (CPC arts. 133-137). Exige contraditório, instrução, decisão (recurso: agravo de instrumento — art. 1.015 IV). Sem IDPJ, desconsideração é nula.', tags: ['fase3', 'PJ', 'IDPJ'] },
+  { id: 178, topic: 3, materia: 'civil', q: 'PJ pode sofrer dano moral?', a: 'SIM — Súmula 227/STJ. Tutela a honra OBJETIVA (reputação no mercado/sociedade). Não tem direito à privacidade pessoal, integridade física ou direitos personalíssimos individuais.', tags: ['fase3', 'PJ', 'personalidade'] },
+
+  // Civ 4 — Bens
+  { id: 179, topic: 4, materia: 'civil', q: 'Quais as 3 espécies de bens públicos (CC art. 99)?', a: 'I — USO COMUM do povo (rios, ruas, praças); II — USO ESPECIAL (edifícios destinados a serviço público); III — DOMINICAIS (patrimônio das PJs públicas, sem destinação específica).', tags: ['fase3', 'bens', 'publicos'] },
+  { id: 180, topic: 4, materia: 'civil', q: 'Bem público admite usucapião?', a: 'NÃO. Súmula 340/STF e CC art. 102 — TODOS os bens públicos (mesmo dominicais) são imprescritíveis. Junto com inalienabilidade e impenhorabilidade, formam o tripé da proteção.', tags: ['fase3', 'bens', 'publicos'] },
+  { id: 181, topic: 4, materia: 'civil', q: 'Diferença entre bem de família LEGAL e VOLUNTÁRIO?', a: 'LEGAL (Lei 8.009/90): AUTOMÁTICO — basta residência. VOLUNTÁRIO (CC 1.711+): exige escritura + REGISTRO; limite de 1/3 do patrimônio; abrange imóvel + valores mobiliários.', tags: ['fase3', 'bens', 'bem-familia'] },
+  { id: 182, topic: 4, materia: 'civil', q: 'Imóvel residencial LOCADO pode ser bem de família?', a: 'SIM — Súmula 486/STJ. Único imóvel residencial locado a terceiros é impenhorável SE a renda for usada para subsistência da família ou para pagar aluguel residencial. Súmula 449: vaga de garagem com matrícula PRÓPRIA é penhorável.', tags: ['fase3', 'bens', 'bem-familia'] },
+  { id: 183, topic: 4, materia: 'civil', q: 'Bem de família do FIADOR em locação pode ser penhorado?', a: 'SIM — Lei 8.009/90 art. 3º VII + STF Tema 295 (RE 612.360). Exceção controvertida (viola direito à moradia segundo crítica), mas constitucional.', tags: ['fase3', 'bens', 'bem-familia'] },
+
+  // Civ 5 — Fatos jurídicos
+  { id: 184, topic: 5, materia: 'civil', q: 'Diferença entre prescrição e decadência?', a: 'PRESCRIÇÃO extingue a PRETENSÃO (não o direito); admite suspensão/interrupção/renúncia. DECADÊNCIA extingue o próprio DIREITO; legal NÃO admite suspensão/interrupção/renúncia (art. 207 + 209). Pretensão = prestação; decadência = direito potestativo.', tags: ['fase3', 'fatos', 'prescricao'] },
+  { id: 185, topic: 5, materia: 'civil', q: 'Qual é o defeito do negócio jurídico que gera NULIDADE absoluta?', a: 'SIMULAÇÃO (CC art. 167). É a ÚNICA exceção entre os defeitos — todos os outros (erro, dolo, coação, lesão, estado de perigo, fraude contra credores) geram apenas anulabilidade.', tags: ['fase3', 'fatos', 'simulacao'] },
+  { id: 186, topic: 5, materia: 'civil', q: 'Prazo prescricional para reparação civil (responsabilidade civil)?', a: '3 ANOS (CC art. 206 §3º V). Conta-se da ciência inequívoca do dano. Vinculante na prática forense; tema cobrado em quase toda prova.', tags: ['fase3', 'fatos', 'prescricao'] },
+  { id: 187, topic: 5, materia: 'civil', q: 'Decadência LEGAL pode ser conhecida de ofício?', a: 'SIM (CC art. 210). Juiz deve reconhecer mesmo sem alegação da parte. CONVENCIONAL (art. 211): apenas pela parte beneficiada.', tags: ['fase3', 'fatos', 'decadencia'] },
+  { id: 188, topic: 5, materia: 'civil', q: 'A prescrição pode ser interrompida várias vezes pelo mesmo fato?', a: 'NÃO. CC art. 202 caput: a interrupção só ocorre UMA ÚNICA VEZ pelo mesmo fato. Após interrompida, recomeça a contagem por inteiro.', tags: ['fase3', 'fatos', 'prescricao'] },
+
+  // ============ Bloco 12 — Fase 3 (Civil 6-7 — Obrigações) ============
+  // Civ 6 — Obrigações parte geral
+  { id: 189, topic: 6, materia: 'civil', q: 'A solidariedade obrigacional pode ser presumida?', a: 'NÃO (CC art. 265). Solidariedade decorre apenas da LEI ou da VONTADE expressa. Em dúvida = obrigação conjuntiva (cada um por sua quota proporcional).', tags: ['fase3', 'obrigacoes', 'solidariedade'] },
+  { id: 190, topic: 6, materia: 'civil', q: 'Quais os requisitos cumulativos para compensação operar (art. 369)?', a: 'RLVF: dívidas RECÍPROCAS, LÍQUIDAS, VENCIDAS, FUNGÍVEIS. Faltando um, não há compensação. Mais comum em Direito Tributário e Civil.', tags: ['fase3', 'obrigacoes', 'compensacao'] },
+  { id: 191, topic: 6, materia: 'civil', q: 'Cessão de crédito × assunção de dívida — qual exige consentimento do credor?', a: 'ASSUNÇÃO DE DÍVIDA exige consentimento expresso do credor (art. 299). Cessão de crédito NÃO precisa do devedor — basta NOTIFICAÇÃO (art. 290). Razão: credor pode ter interesse na solvência do devedor; devedor é indiferente a quem paga.', tags: ['fase3', 'obrigacoes', 'cessao'] },
+  { id: 192, topic: 6, materia: 'civil', q: 'O que diferencia novação, dação em pagamento e consignação?', a: 'NOVAÇÃO: extingue obrigação anterior CRIANDO NOVA (animus novandi). DAÇÃO: credor recebe coisa diversa, mas a obrigação se EXTINGUE (sem nova). CONSIGNAÇÃO: depósito diante de recusa do credor — extinção retroativa.', tags: ['fase3', 'obrigacoes', 'extincao'] },
+  { id: 193, topic: 6, materia: 'civil', q: 'Adimplemento substancial aplica-se a alienação fiduciária?', a: 'NÃO mais (STJ — REsp 1.622.555, 2017). Em outras espécies de contratos sim, mas em alienação fiduciária regida pelo Decreto-Lei 911/69 a teoria não se aplica — credor pode acionar regimes próprios.', tags: ['fase3', 'obrigacoes', 'adimplemento'] },
+
+  // Civ 7 — Inadimplemento
+  { id: 194, topic: 7, materia: 'civil', q: 'Diferença entre mora ex re e mora ex persona?', a: 'EX RE (art. 397 caput): obrigação POSITIVA E LÍQUIDA com TERMO CERTO. Mora automática (dies interpellat pro homine). EX PERSONA (par. único): sem termo certo. Exige interpelação judicial ou extrajudicial.', tags: ['fase3', 'mora'] },
+  { id: 195, topic: 7, materia: 'civil', q: 'Quais elementos compõem as perdas e danos (art. 402)?', a: 'DANO EMERGENTE (o que efetivamente perdeu) + LUCROS CESSANTES (o que razoavelmente deixou de lucrar). Devem ser danos diretos e imediatos (art. 403) — danos remotos não são indenizáveis.', tags: ['fase3', 'perdas-danos'] },
+  { id: 196, topic: 7, materia: 'civil', q: 'Cláusula penal compensatória × moratória — qual a diferença?', a: 'COMPENSATÓRIA (inadimplemento total): ALTERNATIVA — credor escolhe entre executar a obrigação OU cobrar a multa. MORATÓRIA (mero atraso): CUMULATIVA — pode cobrar multa + cumprimento. Limite: não excede valor da obrigação principal (art. 412).', tags: ['fase3', 'clausula-penal'] },
+  { id: 197, topic: 7, materia: 'civil', q: 'Arras confirmatórias × penitenciais?', a: 'CONFIRMATÓRIAS (regra — art. 417): reforçam o vínculo, sem arrependimento, descumprimento = perda das arras + perdas e danos suplementares (art. 419). PENITENCIAIS (exceção — art. 420): permitem arrependimento; limite máximo é o valor das arras em dobro.', tags: ['fase3', 'arras'] },
+  { id: 198, topic: 7, materia: 'civil', q: 'Devedor em mora responde por caso fortuito?', a: 'SIM (art. 399). Em regra, devedor não responde por caso fortuito/força maior (art. 393); MAS se já estava em mora, responde até por isso, salvo se provar que o evento ocorreria mesmo sem o atraso.', tags: ['fase3', 'mora', 'fortuito'] },
+
+  // ============ Bloco 13 — Fase 3 (Civil 11 — Responsabilidade Civil) ============
+  { id: 199, topic: 11, materia: 'civil', q: 'Quais os pressupostos da responsabilidade civil subjetiva?', a: 'CONDUTA (ação/omissão) + DANO (material ou moral) + NEXO CAUSAL + CULPA (dolo, negligência ou imprudência — art. 186). Objetiva: dispensa culpa.', tags: ['fase3', 'resp-civil'] },
+  { id: 200, topic: 11, materia: 'civil', q: 'O que estabelece o art. 927 par. único do CC?', a: 'Cláusula geral de risco — atividade NORMALMENTE desenvolvida que, POR SUA NATUREZA, implique risco aos direitos de outrem gera responsabilidade OBJETIVA, independentemente de culpa. Inovação radical do CC/02.', tags: ['fase3', 'resp-civil', 'risco'] },
+  { id: 201, topic: 11, materia: 'civil', q: 'Pais respondem por atos dos filhos menores — responsabilidade subjetiva ou objetiva?', a: 'OBJETIVA (CC arts. 932 I + 933). Independem de culpa dos pais. Pais respondem em primeiro lugar; filho menor responde SUBSIDIARIAMENTE (art. 928), salvo se atos foram praticados sem assistência ou já fora do âmbito familiar.', tags: ['fase3', 'resp-civil', 'pais'] },
+  { id: 202, topic: 11, materia: 'civil', q: 'Dano moral e estético podem ser cumulados?', a: 'SIM — Súmula 387/STJ. Dano estético (lesão à integridade física que afeta aparência) é AUTÔNOMO ao dano moral (lesão à dignidade/imagem). Hipótese clássica: vítima de queimadura grave.', tags: ['fase3', 'resp-civil', 'dano'] },
+  { id: 203, topic: 11, materia: 'civil', q: 'Pessoa jurídica pode sofrer dano moral?', a: 'SIM — Súmula 227/STJ. Tutela a HONRA OBJETIVA (reputação no mercado). NÃO cobre direitos da personalidade individuais (privacidade, integridade física). Inscrição indevida em SPC contra PJ pode gerar dano moral.', tags: ['fase3', 'resp-civil', 'PJ', 'dano'] },
+  { id: 204, topic: 11, materia: 'civil', q: 'O Estado responde objetivamente por OMISSÃO?', a: 'DEPENDE. STF Tema 366: omissão GENÉRICA (falta de policiamento generalizado) = SUBJETIVA (faute du service). Omissão ESPECÍFICA (existindo dever específico de agir, ex: chuva e árvore caindo na via) = OBJETIVA. Distinção essencial.', tags: ['fase3', 'resp-civil', 'estado'] },
+  { id: 205, topic: 11, materia: 'civil', q: 'Súmula 385/STJ — qual a regra?', a: 'Anotação irregular em cadastro de proteção ao crédito NÃO gera dano moral, quando preexistente legítima inscrição (anterior). Limita o dano in re ipsa. Apenas direito ao cancelamento.', tags: ['fase3', 'resp-civil', 'sumula'] },
+
+  // ============ Bloco 14 — Fase 3 (Civil 8-9 — Contratos) ============
+  // Civ 8 — Contratos parte geral
+  { id: 206, topic: 8, materia: 'civil', q: 'Quais as 3 funções da boa-fé objetiva?', a: 'INTERPRETATIVA (art. 113 — interpretar negócios à luz da boa-fé); INTEGRATIVA (art. 422 — deveres anexos: informar, lealdade, cooperação); CONTROLE (art. 187 — abuso de direito).', tags: ['fase3', 'contratos', 'boa-fe'] },
+  { id: 207, topic: 8, materia: 'civil', q: 'O que é venire contra factum proprium?', a: 'Vedação à conduta contraditória — partes não podem agir de modo a frustrar expectativas legítimas que elas mesmas criaram. Decorre da boa-fé objetiva. Junto com supressio, surrectio, duty to mitigate e tu quoque, é instituto derivado.', tags: ['fase3', 'contratos', 'boa-fe'] },
+  { id: 208, topic: 8, materia: 'civil', q: 'Prazo decadencial para arguir vícios redibitórios?', a: 'CC art. 445: APARENTE — 30 dias para móvel, 1 ANO para imóvel. OCULTO: prazo conta da CIÊNCIA, com máximo legal (180 dias móvel, 1 ano imóvel após aquisição).', tags: ['fase3', 'contratos', 'vicios'] },
+  { id: 209, topic: 8, materia: 'civil', q: 'Diferença entre vício redibitório e evicção?', a: 'VÍCIO REDIBITÓRIO = defeito FÍSICO oculto da coisa (imprópria ao uso). EVICÇÃO = defeito JURÍDICO (sentença atribui a coisa a terceiro com direito anterior à aquisição). Cláusula que exclui evicção exige forma expressa + ciência.', tags: ['fase3', 'contratos', 'evicao'] },
+  { id: 210, topic: 8, materia: 'civil', q: 'Onerosidade excessiva no CC vs CDC — diferença?', a: 'CC art. 478: exige fato EXTRAORDINÁRIO + IMPREVISÍVEL + excessivamente oneroso + vantagem extrema para outra parte. CDC art. 6º V: basta o desequilíbrio superveniente — DISPENSA imprevisibilidade. Mais protetor ao consumidor.', tags: ['fase3', 'contratos', 'onerosidade'] },
+
+  // Civ 9 — Contratos espécie
+  { id: 211, topic: 9, materia: 'civil', q: 'Doação pura admite revogação?', a: 'NÃO, em regra. Apenas por INGRATIDÃO (art. 557 — rol TAXATIVO: atentar contra vida, ofensa física, injúria grave, recusa de alimentos) ou inexecução do encargo. Outras condutas, mesmo reprováveis, NÃO revogam.', tags: ['fase3', 'doacao'] },
+  { id: 212, topic: 9, materia: 'civil', q: 'Mútuo × comodato — diferença essencial?', a: 'MÚTUO: empréstimo de coisa FUNGÍVEL (dinheiro, grãos) — TRANSFERE propriedade; mutuário devolve do mesmo gênero. COMODATO: empréstimo GRATUITO de coisa INFUNGÍVEL — apenas USO, sem transferência de propriedade.', tags: ['fase3', 'mutuo', 'comodato'] },
+  { id: 213, topic: 9, materia: 'civil', q: 'O que é o benefício de ordem na fiança?', a: 'Direito do FIADOR de exigir que sejam executados PRIMEIRO os bens do DEVEDOR PRINCIPAL (art. 827). RENUNCIÁVEL (art. 828). Não cabe se: renunciou expressamente, é "principal pagador", devedor é insolvente/falido.', tags: ['fase3', 'fianca'] },
+  { id: 214, topic: 9, materia: 'civil', q: 'Súmula 214/STJ — qual a regra?', a: 'Fiador na locação NÃO responde por obrigações resultantes de aditamento ao qual NÃO ANUIU. Aplica princípio da interpretação RESTRITIVA da fiança (art. 819).', tags: ['fase3', 'fianca'] },
+  { id: 215, topic: 9, materia: 'civil', q: 'Bem de família do fiador locatício pode ser penhorado?', a: 'SIM (Lei 8.009/90 art. 3º VII + STF Tema 295 — RE 612.360). Exceção controversa (viola direito à moradia segundo crítica), mas constitucional.', tags: ['fase3', 'fianca', 'bem-familia'] },
+
+  // ============ Bloco 15 — Fase 3 (Civil 10 + 12) ============
+  // Civ 10 — Atos unilaterais
+  { id: 216, topic: 10, materia: 'civil', q: 'O que caracteriza o enriquecimento sem causa (CC art. 884)?', a: 'Aquele que se enriquece SEM JUSTA CAUSA à custa de outrem deve restituir. Ação tem CARÁTER SUBSIDIÁRIO (art. 886) — só cabe quando NÃO houver outra ação específica para o lesado.', tags: ['fase3', 'enriquecimento'] },
+  { id: 217, topic: 10, materia: 'civil', q: 'Pagamento de dívida prescrita pode ser repetido?', a: 'NÃO (art. 882). Prescrição extingue a PRETENSÃO, mas a dívida persiste como obrigação natural. Pagamento espontâneo é válido e irretratável.', tags: ['fase3', 'pagamento-indevido'] },
+  { id: 218, topic: 10, materia: 'civil', q: 'Quem alega ter pago indevidamente tem o ônus da prova de quê?', a: 'Do ERRO (art. 877). Pagamento voluntário é presumidamente devido. Quem alega indevido deve provar que pagou por engano.', tags: ['fase3', 'pagamento-indevido'] },
+  { id: 219, topic: 10, materia: 'civil', q: 'Diferença entre enriquecimento sem causa e responsabilidade civil?', a: 'Responsabilidade exige ATO ILÍCITO (art. 186). Enriquecimento sem causa NÃO exige ilicitude — basta a ausência de causa juridicamente legítima. São fontes autônomas de obrigação.', tags: ['fase3', 'enriquecimento'] },
+
+  // Civ 12 — Empresa
+  { id: 220, topic: 12, materia: 'civil', q: 'Profissional intelectual (advogado, médico) é empresário?', a: 'NÃO (art. 966 par. único). Profissão intelectual, científica, literária, artística — ainda com auxiliares — não é empresarial. EXCEÇÃO: quando constituir ELEMENTO DE EMPRESA (organização empresarial subordinante).', tags: ['fase3', 'empresa'] },
+  { id: 221, topic: 12, materia: 'civil', q: 'EIRELI ainda existe no direito brasileiro?', a: 'NÃO (extinta pela Lei 14.382/22). EIRELIs existentes foram convertidas automaticamente em SLU (Sociedade Limitada Unipessoal — Lei 13.874/19). SLU NÃO tem capital mínimo (diferente da antiga EIRELI).', tags: ['fase3', 'empresa', 'EIRELI'] },
+  { id: 222, topic: 12, materia: 'civil', q: 'O que é trespasse?', a: 'Alienação do ESTABELECIMENTO empresarial (CC art. 1.144). Eficácia perante credores depende de PUBLICAÇÃO + ANUÊNCIA (expressa ou tácita — silêncio por 30 dias). Adquirente responde por débitos CONTABILIZADOS (art. 1.146).', tags: ['fase3', 'empresa', 'trespasse'] },
+  { id: 223, topic: 12, materia: 'civil', q: 'Falência aplica-se à sociedade simples?', a: 'NÃO. Lei 11.101/05 aplica-se apenas a EMPRESÁRIO INDIVIDUAL e SOCIEDADE EMPRESÁRIA. Sociedade simples e profissionais liberais não estão sujeitos ao regime falimentar.', tags: ['fase3', 'empresa', 'falencia'] },
+
+  // ============ Bloco 16 — Fase 3 (Civil 13-14 — Direitos Reais) ============
+  // Civ 13 — Posse e propriedade
+  { id: 224, topic: 13, materia: 'civil', q: 'Qual a teoria adotada pelo CC sobre a posse?', a: 'Teoria OBJETIVA de IHERING — posse é exteriorização da propriedade, basta a aparência. NÃO exige animus domini, salvo para usucapião. Distinta de Savigny (subjetiva — exigia corpus + animus).', tags: ['fase3', 'posse'] },
+  { id: 225, topic: 13, materia: 'civil', q: 'Quais os 4 atributos da propriedade?', a: 'USAR · GOZAR · DISPOR · REIVINDICAR (jus utendi, fruendi, abutendi e reivindicandi). Limitados pela FUNÇÃO SOCIAL (CF 5º XXIII + CC 1.228 §1º).', tags: ['fase3', 'propriedade'] },
+  { id: 226, topic: 13, materia: 'civil', q: 'Prazo da usucapião extraordinária?', a: '15 ANOS (CC art. 1.238) — sem necessidade de título nem boa-fé. Reduzido a 10 ANOS se houve posse-trabalho ou habitação no imóvel.', tags: ['fase3', 'usucapiao'] },
+  { id: 227, topic: 13, materia: 'civil', q: 'Quais os requisitos da usucapião especial urbana?', a: 'CF 183 + CC 1.240: 5 ANOS + área ≤ 250 m² + posse para moradia própria/família + sem outro imóvel urbano/rural. Pro Misero — instrumento de tutela do direito à moradia.', tags: ['fase3', 'usucapiao'] },
+  { id: 228, topic: 13, materia: 'civil', q: 'Indenização ao possuidor de boa-fé por benfeitorias?', a: 'NECESSÁRIAS + ÚTEIS = indenizáveis com direito de RETENÇÃO (art. 1.219). Voluptuárias = pode levantar se sem dano. Possuidor de MÁ-FÉ: só indenizado por necessárias, sem retenção (art. 1.220).', tags: ['fase3', 'posse', 'benfeitorias'] },
+
+  // Civ 14 — Direitos reais sobre coisa alheia + garantias
+  { id: 229, topic: 14, materia: 'civil', q: 'O que é o pacto comissório (CC art. 1.428)?', a: 'Cláusula que permite ao credor FICAR COM O BEM dado em garantia se a dívida não for paga. É VEDADA pelo CC — credor deve LEILOAR. EXCEÇÃO: alienação fiduciária imobiliária (Lei 9.514/97 art. 26 — credor consolida + 2 hastas).', tags: ['fase3', 'garantias'] },
+  { id: 230, topic: 14, materia: 'civil', q: 'O usufruto é transmissível por sucessão hereditária?', a: 'NÃO. Usufruto é PERSONALÍSSIMO — extingue-se com a MORTE do usufrutuário (CC art. 1.410 I). Não passa aos herdeiros. Pode ser vitalício ou por tempo determinado (não excedendo a vida).', tags: ['fase3', 'usufruto'] },
+  { id: 231, topic: 14, materia: 'civil', q: 'Diferença entre servidão e usufruto?', a: 'SERVIDÃO é direito real entre PRÉDIOS (dominante e serviente — passagem, aqueduto). USUFRUTO é direito real entre PESSOA (usufrutuário) e COISA. Servidão é permanente; usufruto é pessoal e extingue com morte.', tags: ['fase3', 'servidao', 'usufruto'] },
+  { id: 232, topic: 14, materia: 'civil', q: 'Alienação fiduciária imobiliária — como funciona em caso de inadimplemento?', a: 'Lei 9.514/97 art. 26-27: devedor inadimplente é intimado; persistindo a mora, credor CONSOLIDA propriedade em seu nome (registro). Em 60 dias, deve realizar 2 LEILÕES PÚBLICOS (1º com lance mínimo do valor do imóvel; 2º livre).', tags: ['fase3', 'alienacao-fiduciaria'] },
+  { id: 233, topic: 14, materia: 'civil', q: 'A CUEM (Concessão de Uso Especial para Moradia) é usucapião?', a: 'NÃO. Bens PÚBLICOS não se usucapem (Súmula 340/STF). CUEM é direito real ADMINISTRATIVO regido pela MP 2.220/01 — ocupação de imóvel público até 250m² urbano por 5+ anos para moradia, sem outro imóvel.', tags: ['fase3', 'CUEM'] },
+
+  // ============ Bloco 17 — Fase 3 (Civil 15-17 — Família e Sucessões) ============
+  // Civ 15 — Família geral
+  { id: 234, topic: 15, materia: 'civil', q: 'Diferença entre impedimentos e causas suspensivas para o casamento?', a: 'IMPEDIMENTOS (art. 1.521): rol taxativo — geram NULIDADE se desrespeitados. CAUSAS SUSPENSIVAS (art. 1.523): casamento celebra-se mas em REGIME OBRIGATÓRIO de separação de bens (art. 1.641 III).', tags: ['fase3', 'familia', 'casamento'] },
+  { id: 235, topic: 15, materia: 'civil', q: 'União estável tem prazo mínimo?', a: 'NÃO (STJ REsp 1.094.957). CC art. 1.723 não fixa prazo — exige convivência PÚBLICA, CONTÍNUA, DURADOURA com objetivo de constituir família. Critério é qualitativo, não cronológico.', tags: ['fase3', 'familia', 'uniao-estavel'] },
+  { id: 236, topic: 15, materia: 'civil', q: 'Pessoas com 70+ anos: regime obrigatório?', a: 'SIM — separação OBRIGATÓRIA de bens (art. 1.641 II — Lei 12.344/10). Súmula 377/STJ ATENUA: bens adquiridos na constância do casamento se comunicam por esforço comum.', tags: ['fase3', 'familia', 'regime-bens'] },
+  { id: 237, topic: 15, materia: 'civil', q: 'União homoafetiva é entidade familiar?', a: 'SIM. STF (ADI 4.277 + ADPF 132, 2011) reconheceu união entre pessoas do mesmo sexo como entidade familiar. CNJ Resolução 175/2013 determinou aos cartórios celebrar casamento. STF RE 646.721 equiparou direitos sucessórios.', tags: ['fase3', 'familia', 'homoafetiva'] },
+
+  // Civ 16 — Família específico (alimentos, filiação, tutela)
+  { id: 238, topic: 16, materia: 'civil', q: 'STF — Tema 622 (RE 898.060) — qual tese?', a: 'MULTIPARENTALIDADE — paternidade socioafetiva NÃO impede o reconhecimento concomitante do vínculo biológico. Filho pode ter no registro pai/mãe biológicos + socioafetivos. Tese vinculante.', tags: ['fase3', 'filiacao', 'multiparentalidade'] },
+  { id: 239, topic: 16, materia: 'civil', q: 'Critério para fixação de alimentos (art. 1.694 §1º)?', a: 'TRINÔMIO: NECESSIDADE do alimentado + POSSIBILIDADE do alimentante + PROPORCIONALIDADE (razoabilidade). Aplica-se em qualquer modalidade — provisional, provisória, definitiva.', tags: ['fase3', 'alimentos'] },
+  { id: 240, topic: 16, materia: 'civil', q: 'Súmula 309/STJ — qual a regra para prisão civil?', a: 'Débito alimentar que autoriza prisão civil = 3 PRESTAÇÕES ANTERIORES ao ajuizamento + as que vencerem no curso do processo. Único caso constitucional de prisão civil (CF 5º LXVII). Regime FECHADO, 1-3 meses.', tags: ['fase3', 'alimentos', 'prisao-civil'] },
+  { id: 241, topic: 16, materia: 'civil', q: 'Curatela após o EPD (Lei 13.146/15) tem que escopo?', a: 'RESTRITA aos atos NEGOCIAIS e PATRIMONIAIS (art. 1.772). NÃO atinge "vida em geral" — autonomia da pessoa preservada. Tomada de Decisão Apoiada (TDA — art. 1.783-A) é alternativa autonomista.', tags: ['fase3', 'curatela', 'EPD'] },
+  { id: 242, topic: 16, materia: 'civil', q: 'Prazo prescricional para alimentos?', a: '2 ANOS (art. 206 §2º) para pretensão de alimentos VENCIDOS. Prazo curto cobrado em prova.', tags: ['fase3', 'alimentos', 'prescricao'] },
+
+  // Civ 17 — Sucessões
+  { id: 243, topic: 17, materia: 'civil', q: 'O que é o princípio da SAISINE (CC art. 1.784)?', a: 'Com a abertura da sucessão (morte), a herança transmite-se DESDE LOGO aos herdeiros legítimos e testamentários, AUTOMATICAMENTE. Inventário e partilha apenas FORMALIZAM. Princípio medieval francês ("Le mort saisit le vif").', tags: ['fase3', 'sucessoes', 'saisine'] },
+  { id: 244, topic: 17, materia: 'civil', q: 'STF — Tema 809 — companheiro tem direitos sucessórios iguais aos do cônjuge?', a: 'SIM (RE 878.694, 2017). STF declarou inconstitucional o art. 1.790 do CC que dava direitos limitados ao companheiro. Hoje companheiro herda nos mesmos termos do cônjuge (art. 1.829).', tags: ['fase3', 'sucessoes', 'companheiro'] },
+  { id: 245, topic: 17, materia: 'civil', q: 'Quem são os herdeiros NECESSÁRIOS (art. 1.845)?', a: 'DESCENDENTES, ASCENDENTES e CÔNJUGE (após RE 878.694, equipara-se companheiro). NÃO incluem colaterais. Têm direito à LEGÍTIMA (50% do patrimônio — art. 1.846).', tags: ['fase3', 'sucessoes', 'herdeiros'] },
+  { id: 246, topic: 17, materia: 'civil', q: 'Quando cabe inventário extrajudicial?', a: 'Lei 11.441/07: consenso entre interessados + partes capazes + SEM incapazes + advogado (mesmo se compartilhado) + por escritura pública. Sem litígio. Lei 14.382/22 admitiu nas hipóteses sem litígio mesmo com testamento.', tags: ['fase3', 'sucessoes', 'inventario'] },
+  { id: 247, topic: 17, materia: 'civil', q: 'Quais as 3 formas ordinárias de testamento?', a: 'PÚBLICO (art. 1.864 — em cartório, mais usado), CERRADO (art. 1.868 — entregue lacrado ao tabelião), PARTICULAR (art. 1.876 — escrito + 3 testemunhas; pode ser digitado pela Lei 14.382/22).', tags: ['fase3', 'sucessoes', 'testamento'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -5508,6 +7198,449 @@ questions: [
     ],
     correct: 'D',
     explanation: 'CPC art. 334 §8º: ausência à audiência = ato atentatório, multa até 2% à União/Estado. (A) Falso — má-fé reverte à PARTE CONTRÁRIA + indenização (art. 81). (B) Falso — astreintes vão ao EXEQUENTE. (C) Falso — atentatório ao art. 77 §2º vai à União/Estado. (E) Falso — protelação execução = exequente.'
+  },
+
+  // ============ Bloco 11 — Fase 3 (Civil 1-5 — Parte Geral) ============
+  {
+    id: 69, topic: 1, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Lei de Introdução às Normas do Direito Brasileiro (LINDB), é correto afirmar:',
+    alternatives: [
+      'A revogação da lei revogadora restaura automaticamente a vigência da lei original revogada (repristinação).',
+      'Lei nova de caráter geral revoga automaticamente lei especial anterior, em razão do critério cronológico.',
+      'A vacatio legis de 45 dias é norma cogente, não admitindo prazo diverso fixado pela própria lei.',
+      'Os arts. 20 a 30 da LINDB, introduzidos pela Lei 13.655/18, exigem que decisões considerem consequências práticas e zelem pela segurança jurídica.',
+      'Em caso de antinomia entre normas, prevalece sempre o critério cronológico, ainda que conflite com hierárquico ou de especialidade.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 13.655/18 acrescentou arts. 20-30 — consequencialismo + segurança jurídica. (A) Falso — repristinação NÃO é automática (art. 2º §3º). (B) Falso — lei nova GERAL não revoga lei especial salvo disposição expressa (art. 2º §2º). (C) Falso — 45 dias é supletiva. (E) Falso — Bobbio: hierárquico vence cronológico; especialidade vence cronológico geral.'
+  },
+  {
+    id: 70, topic: 1, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a responsabilização do agente público à luz do art. 28 da LINDB (incluído pela Lei 13.655/18), assinale a alternativa correta:',
+    alternatives: [
+      'O agente público responde pessoalmente por todos os atos que praticar, independentemente de culpa ou dolo.',
+      'O agente público responde pessoalmente apenas em caso de dolo ou erro grosseiro.',
+      'O agente público é absolutamente irresponsável por seus atos administrativos, em razão da imunidade funcional.',
+      'A responsabilidade do agente é objetiva, dispensada a comprovação de dolo ou culpa.',
+      'Mera divergência razoável de opinião gera responsabilidade pessoal do agente, em razão do princípio da legalidade.'
+    ],
+    correct: 'B',
+    explanation: 'LINDB art. 28: responsabilização pessoal apenas por DOLO ou ERRO GROSSEIRO. Lei 13.655/18 protege administrador honesto que diverge razoavelmente. (A), (D), (E) ampliam indevidamente; (C) imunidade absoluta inexiste.'
+  },
+  {
+    id: 71, topic: 2, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Após a Lei 13.146/15 (Estatuto da Pessoa com Deficiência), são absolutamente incapazes:',
+    alternatives: [
+      'Os menores de 18 anos e as pessoas com deficiência intelectual ou mental.',
+      'Apenas os menores de 16 anos.',
+      'Os maiores de 16 e menores de 18 anos.',
+      'Os ébrios habituais e os pródigos.',
+      'Apenas as pessoas que não puderem exprimir sua vontade, por causa transitória ou permanente.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 3º (após EPD): apenas menores de 16 anos são absolutamente incapazes. Pessoa com deficiência mental ou intelectual NÃO é mais absolutamente incapaz — pode ser relativamente incapaz (art. 4º III) ou usar tomada de decisão apoiada (art. 1.783-A). (C) e (D) são relativamente incapazes (art. 4º).'
+  },
+  {
+    id: 72, topic: 2, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a ausência (CC arts. 22-39), é correto afirmar:',
+    alternatives: [
+      'A sucessão definitiva pode ser aberta imediatamente, sem qualquer fase intermediária.',
+      'A ausência tem três fases: curadoria, sucessão provisória e sucessão definitiva.',
+      'Após a abertura da sucessão definitiva, o ausente que retornar tem direito à reposição integral de todos os bens, nos exatos termos em que se encontravam.',
+      'A declaração de ausência exige prévia ação penal pela polícia.',
+      'A sucessão provisória abre-se 5 anos após a declaração de ausência, em qualquer hipótese.'
+    ],
+    correct: 'B',
+    explanation: 'Ausência tem 3 fases: (1) curadoria (art. 22); (2) sucessão provisória — após 1 ano da arrecadação ou 3 anos com representante (arts. 26-27); (3) sucessão definitiva — após 10 anos da provisória ou 5 das últimas notícias se tinha 80+ anos (art. 37). (C) Falso — art. 39: bens NO ESTADO em que se acharem, não integralmente.'
+  },
+  {
+    id: 73, topic: 3, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a desconsideração da personalidade jurídica no direito brasileiro, assinale a alternativa correta:',
+    alternatives: [
+      'O Código Civil adota a Teoria Menor da desconsideração, bastando a insolvência da pessoa jurídica para atingir os sócios.',
+      'O CDC e a legislação ambiental adotam a Teoria Maior, exigindo abuso da personalidade caracterizado por desvio de finalidade ou confusão patrimonial.',
+      'O Código Civil (art. 50) adota a Teoria Maior — exige abuso da personalidade caracterizado por desvio de finalidade ou confusão patrimonial.',
+      'A Lei 13.874/19 (Liberdade Econômica) eliminou a possibilidade de desconsideração no direito civil brasileiro.',
+      'A desconsideração inversa, em que bens da PJ respondem por dívidas pessoais dos sócios, é vedada no ordenamento.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 50 adota Teoria MAIOR: exige abuso (desvio de finalidade ou confusão patrimonial). (A) Inverte — Maior é CC. (B) Inverte — Menor é CDC e ambiental. (D) Falso — Lei 13.874/19 detalhou a desconsideração. (E) Falso — desconsideração inversa positivada no §4º (Lei 13.874).'
+  },
+  {
+    id: 74, topic: 3, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a EIRELI (Empresa Individual de Responsabilidade Limitada) no direito brasileiro atual, é correto afirmar:',
+    alternatives: [
+      'A EIRELI permanece em pleno vigor como tipo societário unipessoal, com capital social mínimo de 100 salários-mínimos.',
+      'A EIRELI foi extinta pela Lei 14.382/22 (Marco Legal das Garantias), tendo as existentes sido convertidas automaticamente em Sociedade Limitada Unipessoal (SLU).',
+      'A EIRELI passou a ser denominada microempresa individual, com regime tributário simplificado.',
+      'A EIRELI é exclusiva para atividades empresariais, vedada para sociedades simples.',
+      'A EIRELI exige no mínimo dois sócios, perdendo a característica unipessoal após a Lei 13.874/19.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 14.382/22 extinguiu a EIRELI; SLU (Sociedade Limitada Unipessoal — Lei 13.874/19) absorveu a função unipessoal limitada. (A) e (E) Falso — EIRELI já não existe. (C) Falso — não houve renomeação. (D) Falso — EIRELI valia para qualquer atividade.'
+  },
+  {
+    id: 75, topic: 4, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o bem de família legal (Lei 8.009/90), considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'Sua constituição depende de escritura pública e registro no Cartório de Imóveis, sob pena de não produzir efeitos.',
+      'É instituído automaticamente pela mera residência, sendo o imóvel residencial impenhorável independentemente de declaração formal.',
+      'Limita-se ao imóvel residencial cujo valor não ultrapasse 1/3 do patrimônio líquido do casal.',
+      'A impenhorabilidade é absoluta, sem qualquer exceção legal.',
+      'Não se aplica a imóvel residencial locado a terceiros, mesmo que a renda obtida seja revertida para subsistência da família.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 8.009/90 art. 1º: bem de família legal é AUTOMÁTICO — basta residência. (A) Falso — voluntário (CC 1.711) é que exige registro. (C) Falso — limite de 1/3 é do bem de família VOLUNTÁRIO. (D) Falso — art. 3º traz exceções (alimentos, financiamento, fiança locatícia etc.). (E) Falso — Súmula 486/STJ: imóvel locado pode ser bem de família se renda usada para subsistência.'
+  },
+  {
+    id: 76, topic: 4, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os bens públicos no direito brasileiro, é INCORRETO afirmar:',
+    alternatives: [
+      'Os bens de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem essa qualificação.',
+      'Os bens dominicais podem ser alienados, observados os requisitos legais.',
+      'Bens públicos não estão sujeitos a usucapião, conforme Súmula 340 do STF.',
+      'A desafetação permite a transformação de bem de uso comum ou especial em dominical, viabilizando posterior alienação.',
+      'Os bens dominicais, por não terem destinação pública específica, admitem prescrição aquisitiva por particulares que comprovem posse mansa e pacífica por longo período.'
+    ],
+    correct: 'E',
+    explanation: 'Súmula 340/STF + CC art. 102: TODOS os bens públicos (inclusive dominicais) são IMPRESCRITÍVEIS. Não admitem usucapião por particular. (A), (B), (C), (D) corretas — alinhadas ao CC arts. 100-103.'
+  },
+  {
+    id: 77, topic: 5, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito da prescrição e da decadência no Código Civil, é correto afirmar:',
+    alternatives: [
+      'A prescrição extingue o próprio direito; a decadência extingue apenas a pretensão.',
+      'A decadência legal pode ser conhecida de ofício pelo juiz; a decadência convencional, somente mediante alegação da parte interessada.',
+      'A prescrição admite interrupção repetida pelos mesmos fatos, em razão do princípio da inafastabilidade da jurisdição.',
+      'A renúncia à decadência legal é válida quando feita antes da consumação do prazo.',
+      'O prazo prescricional para a pretensão de reparação civil é de 5 anos, conforme regra geral do art. 205 do Código Civil.'
+    ],
+    correct: 'B',
+    explanation: 'CC arts. 210-211: legal de ofício; convencional só por alegação. (A) Inverte — prescrição extingue PRETENSÃO; decadência extingue DIREITO. (C) Falso — interrupção UMA SÓ VEZ (art. 202 caput). (D) Falso — renúncia à decadência legal é NULA (art. 209). (E) Falso — reparação civil prescreve em 3 ANOS (art. 206 §3º V).'
+  },
+  {
+    id: 78, topic: 5, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os defeitos do negócio jurídico e suas consequências, assinale a alternativa correta:',
+    alternatives: [
+      'Todos os defeitos do negócio jurídico (erro, dolo, coação, lesão, estado de perigo, fraude e simulação) geram a anulabilidade do ato.',
+      'A simulação gera nulidade absoluta, podendo ser arguida a qualquer tempo, por qualquer interessado ou pelo Ministério Público.',
+      'A lesão somente pode ser alegada pela parte lesada na ação anulatória, sem possibilidade de complementação para preservar o negócio.',
+      'A fraude contra credores caracteriza-se por mera diminuição do patrimônio do devedor, independentemente de redução à insolvência.',
+      'O erro substancial admite suprimento pelos sucessores, em razão do princípio da boa-fé objetiva.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 167: simulação = NULIDADE absoluta. Pode ser arguida por qualquer interessado, MP, conhecida de ofício. (A) Falso — simulação é NULIDADE, não anulabilidade. (C) Falso — art. 157 §2º: lesão admite COMPLEMENTAÇÃO para conservar o negócio. (D) Falso — fraude exige redução à INSOLVÊNCIA (art. 158). (E) Falso — erro substancial gera anulabilidade, não suprimento por sucessores.'
+  },
+
+  // ============ Bloco 12 — Fase 3 (Civil 6-7 — Obrigações) ============
+  {
+    id: 79, topic: 6, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a solidariedade obrigacional no Direito Civil brasileiro, é correto afirmar:',
+    alternatives: [
+      'A solidariedade presume-se quando há multiplicidade de devedores ou de credores em uma mesma obrigação.',
+      'A solidariedade decorre apenas da lei ou da vontade expressa das partes; não se presume.',
+      'A solidariedade ativa permite que o credor escolha qual devedor pagará a dívida proporcional.',
+      'A renúncia da solidariedade pelo credor a um dos devedores extingue automaticamente a solidariedade em relação a todos.',
+      'A solidariedade entre devedores impede a sub-rogação interna entre eles.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 265: solidariedade NÃO se presume — só por LEI ou VONTADE expressa. (A) Falso — em dúvida, obrigação conjuntiva. (C) Falso — solidariedade ATIVA refere-se a vários CREDORES, não devedores. (D) Falso — art. 282: renúncia a um devedor não dispensa demais. (E) Falso — devedor que paga sub-roga-se nos direitos do credor (art. 283).'
+  },
+  {
+    id: 80, topic: 6, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a cessão de crédito e a assunção de dívida no Código Civil, é INCORRETO afirmar:',
+    alternatives: [
+      'A cessão de crédito tem eficácia perante o devedor a partir da notificação, dispensando seu consentimento.',
+      'A assunção de dívida exige consentimento expresso do credor para que o terceiro possa substituir o devedor original.',
+      'O credor cessionário tem os mesmos direitos do credor cedente, podendo opor ao devedor as exceções que este teria.',
+      'A assunção de dívida é vedada em qualquer hipótese, em razão da pessoalidade do vínculo obrigacional.',
+      'O devedor pode opor ao cessionário as exceções pessoais que tinha ao cedente, desde que existentes ao tempo da notificação.'
+    ],
+    correct: 'D',
+    explanation: 'Assunção de dívida é PERMITIDA (CC arts. 299-303), exigindo apenas consentimento expresso do credor. As demais alternativas são corretas: (A) art. 290; (B) art. 299; (C)/(E) art. 294 — devedor pode opor exceções pessoais ao cessionário.'
+  },
+  {
+    id: 81, topic: 7, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a mora no Direito Civil, é correto afirmar:',
+    alternatives: [
+      'Toda obrigação, independentemente de termo, exige interpelação para constituição em mora.',
+      'A mora ex re ocorre automaticamente em obrigações positivas e líquidas, com termo certo, dispensando interpelação.',
+      'A mora do credor (mora accipiendi) impossibilita a posterior consignação em pagamento.',
+      'O devedor em mora não responde por caso fortuito ocorrido durante o atraso.',
+      'A mora ex persona incide automaticamente em obrigações ilícitas (responsabilidade extracontratual).'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 397 caput: mora EX RE em obrigação positiva e líquida com termo. (A) Falso — sem termo é EX PERSONA. (C) Falso — credor em mora viabiliza consignação pelo devedor. (D) Falso — devedor em mora responde até por fortuito (art. 399). (E) Falso — em obrigações ILÍCITAS mora desde o ATO ILÍCITO (art. 398), não é ex persona.'
+  },
+  {
+    id: 82, topic: 7, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a cláusula penal no Código Civil, considere as proposições e marque a CORRETA:',
+    alternatives: [
+      'A cláusula penal compensatória é cumulativa à execução da obrigação principal, em razão do princípio da reparação integral.',
+      'A cláusula penal moratória é alternativa, podendo o credor escolher entre cobrar a pena ou exigir o cumprimento da obrigação.',
+      'O valor da cláusula penal pode exceder o valor da obrigação principal, desde que estipulado expressamente pelas partes.',
+      'A cláusula penal compensatória opera em caso de inadimplemento total e é alternativa; a cláusula penal moratória opera em caso de mora e é cumulativa.',
+      'A cláusula penal manifestamente excessiva NÃO pode ser reduzida pelo juiz, em razão da autonomia da vontade.'
+    ],
+    correct: 'D',
+    explanation: 'CC arts. 410-411: compensatória (inadimplemento total) é ALTERNATIVA; moratória (atraso) é CUMULATIVA. (A) Inverte: compensatória é alternativa. (B) Inverte: moratória é cumulativa. (C) Falso — art. 412: limite é o valor da obrigação principal. (E) Falso — art. 413: juiz REDUZ equitativamente se manifestamente excessivo.'
+  },
+
+  // ============ Bloco 13 — Fase 3 (Civil 11 — Responsabilidade Civil) ============
+  {
+    id: 83, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a responsabilidade civil objetiva no direito brasileiro, é correto afirmar:',
+    alternatives: [
+      'Aplica-se exclusivamente nas hipóteses expressamente previstas em lei especial, sendo vedada a aplicação por cláusula geral.',
+      'A vítima fica dispensada de provar o dano e o nexo causal.',
+      'O CC/02 adotou cláusula geral de risco no art. 927 par. único, gerando responsabilidade objetiva quando a atividade normalmente desenvolvida implicar risco aos direitos de outrem por sua natureza.',
+      'A responsabilidade objetiva é incompatível com o ordenamento jurídico brasileiro, que adota a teoria da culpa em todos os casos.',
+      'Apenas a responsabilidade do Estado prevista no art. 37 §6º da Constituição é objetiva no direito brasileiro.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 927 par. único: cláusula geral de risco — atividade que normalmente implique risco POR SUA NATUREZA = responsabilidade OBJETIVA. (A) Falso — cláusula geral expandiu hipóteses. (B) Falso — vítima ainda prova dano e nexo. (D) Falso — sistema brasileiro admite ambas. (E) Falso — há objetiva também em CDC, ambiental, atividade de risco etc.'
+  },
+  {
+    id: 84, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito da responsabilidade dos pais por atos dos filhos menores, é INCORRETO afirmar:',
+    alternatives: [
+      'Os pais respondem objetivamente pelos atos dos filhos menores que estiverem sob sua autoridade (CC arts. 932 I + 933).',
+      'A responsabilidade dos pais independe de demonstração de culpa em sua atuação educacional.',
+      'O filho menor responde de forma SOLIDÁRIA com os pais, podendo ser executado independentemente da falta de patrimônio dos pais.',
+      'O filho menor responde de forma SUBSIDIÁRIA, somente se os pais não tiverem condições econômicas para arcar com a indenização (art. 928).',
+      'Se o ato for praticado pelo filho menor sem assistência ou conhecimento dos pais, e estiver fora da esfera familiar, a responsabilidade pode ser afastada.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 928: filho menor responde SUBSIDIARIAMENTE — só se os pais não tiverem condições. NÃO é solidária. As demais alternativas estão corretas conforme CC arts. 928, 932 I e 933.'
+  },
+  {
+    id: 85, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o dano moral e o dano estético no direito brasileiro, é correto afirmar:',
+    alternatives: [
+      'Dano moral e dano estético são institutos idênticos, vedando-se sua cumulação para evitar bis in idem.',
+      'A pessoa jurídica não pode sofrer dano moral, em razão da incompatibilidade com a natureza das pessoas jurídicas.',
+      'É lícita a cumulação de indenizações de dano moral e dano estético, desde que decorrentes do mesmo fato (Súmula 387/STJ).',
+      'O dano in re ipsa (presumido) aplica-se a toda inscrição em cadastro de proteção ao crédito, ainda que existam inscrições anteriores legítimas.',
+      'O dano moral só é indenizável quando há prova específica do sofrimento da vítima, mediante perícia psicológica.'
+    ],
+    correct: 'C',
+    explanation: 'Súmula 387/STJ: cumulação possível. Estético (lesão à aparência) e moral (lesão à dignidade) são autônomos. (A) Errado — institutos distintos. (B) Errado — Súmula 227/STJ. (D) Errado — Súmula 385/STJ: anotação preexistente legítima afasta dano moral. (E) Errado — alguns danos morais são in re ipsa.'
+  },
+  {
+    id: 86, topic: 11, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a responsabilidade civil do Estado, conforme jurisprudência do STF, marque a alternativa CORRETA:',
+    alternatives: [
+      'A responsabilidade do Estado é sempre subjetiva, fundada na teoria do risco administrativo.',
+      'A omissão genérica do Estado (falta de policiamento amplo) gera responsabilidade objetiva, equiparada a ato comissivo.',
+      'Por ato comissivo do agente, a responsabilidade é OBJETIVA (art. 37 §6º CF); a omissão GENÉRICA é SUBJETIVA (faute du service); a omissão ESPECÍFICA (existindo dever determinado de agir) volta a ser OBJETIVA.',
+      'O Estado adota a teoria do risco integral, sem qualquer excludente de responsabilidade.',
+      'O direito de regresso do Estado contra o agente é absoluto, independendo de comprovação de dolo ou culpa.'
+    ],
+    correct: 'C',
+    explanation: 'STF Tema 366 (RE 841.526) — responsabilidade do Estado: comissivo OBJETIVO (art. 37 §6º); omissão genérica SUBJETIVA (faute du service); omissão específica OBJETIVA. (A) Falso — comissivo é objetivo. (B) Falso — omissão genérica é SUBJETIVA. (D) Falso — teoria adotada é RISCO ADMINISTRATIVO (com excludentes). (E) Falso — regresso depende de DOLO ou CULPA do agente (CF 37 §6º final).'
+  },
+
+  // ============ Bloco 14 — Fase 3 (Civil 8-9 — Contratos) ============
+  {
+    id: 87, topic: 8, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios contratuais no direito brasileiro, é correto afirmar:',
+    alternatives: [
+      'A autonomia da vontade é princípio absoluto, não admitindo qualquer limitação por outros princípios.',
+      'A função social do contrato (CC art. 421) limita a autonomia da vontade, vedando contratos que conflitem com os interesses sociais.',
+      'A boa-fé objetiva é estado psicológico do contratante, exigindo prova da intenção positiva.',
+      'A boa-fé objetiva tem apenas função interpretativa, não impondo deveres anexos às partes.',
+      'O princípio da pacta sunt servanda foi totalmente abandonado pelo CC/02, em razão da função social.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 421: liberdade de contratar exercida nos LIMITES da função social. (A) Falso — autonomia é relativizada. (C) Falso — boa-fé OBJETIVA é modelo de conduta, não estado psicológico (que seria a SUBJETIVA). (D) Falso — três funções: interpretativa, integrativa e controle. (E) Falso — pacta sunt servanda mantém-se como base, com mitigações.'
+  },
+  {
+    id: 88, topic: 8, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a teoria da imprevisão e a onerosidade excessiva, conforme o CC e o CDC, é correto afirmar:',
+    alternatives: [
+      'O CC e o CDC adotam a mesma fórmula para revisão contratual, exigindo fato extraordinário e imprevisível.',
+      'O CC exige fato extraordinário e imprevisível para resolver/revisar contrato (art. 478); o CDC dispensa imprevisibilidade — basta a onerosidade superveniente (art. 6º V).',
+      'Apenas o CDC permite revisão contratual; no direito civil, vigora pacta sunt servanda absoluto.',
+      'A onerosidade excessiva no CC autoriza apenas a resolução, vedada a revisão para reequilíbrio.',
+      'A teoria da imprevisão foi expressamente afastada pelo CC/02, em homenagem à autonomia da vontade.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 478 vs CDC art. 6º V: CC exige IMPREVISIBILIDADE; CDC basta o desequilíbrio. (A) Falso — fórmulas distintas. (C) Falso — CC também admite (art. 478). (D) Falso — art. 479 permite revisão pela outra parte. (E) Falso — CC/02 expressamente positivou a teoria.'
+  },
+  {
+    id: 89, topic: 9, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a doação no Código Civil, assinale a alternativa correta:',
+    alternatives: [
+      'A doação pura é sempre revogável a critério do doador.',
+      'O rol de hipóteses de ingratidão (art. 557) é exemplificativo, podendo o juiz adicionar outras condutas reprováveis.',
+      'A doação que excede o limite de disposição testamentária (1/2 do patrimônio) é NULA, independentemente de boa-fé do donatário.',
+      'A doação não admite cláusula modal, devendo ser pura ou condicional.',
+      'O direito de revogar por ingratidão pode ser exercido pelos herdeiros do doador a qualquer tempo.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 549: doação que excede 1/2 do patrimônio (limite testamentário) é NULA — proteção da legítima. (A) Falso — pura é IRREVOGÁVEL salvo ingratidão. (B) Falso — rol é TAXATIVO (art. 557). (D) Falso — doação MODAL é admitida (art. 540). (E) Falso — direito de revogar é do DOADOR, incomunicável aos herdeiros (art. 559).'
+  },
+  {
+    id: 90, topic: 9, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a fiança no direito brasileiro, assinale a alternativa correta:',
+    alternatives: [
+      'A fiança admite interpretação extensiva, em razão da garantia integral pretendida pelo credor.',
+      'O benefício de ordem é IRRENUNCIÁVEL pelo fiador, sob pena de nulidade da cláusula.',
+      'O fiador na locação responde por obrigações decorrentes de aditamento contratual, ainda que não tenha anuído.',
+      'O bem de família do fiador locatício é impenhorável em qualquer hipótese, em razão do direito constitucional à moradia.',
+      'A fiança é interpretada restritivamente (art. 819) e o fiador não responde por aditamento sem sua anuência (Súmula 214/STJ).'
+    ],
+    correct: 'E',
+    explanation: 'CC art. 819 + Súmula 214/STJ: interpretação RESTRITIVA da fiança; sem anuência ao aditamento, não responde. (A) Falso — interpretação restritiva. (B) Falso — benefício de ordem é RENUNCIÁVEL (art. 828). (C) Falso — Súmula 214 STJ. (D) Falso — Lei 8.009/90 art. 3º VII + STF Tema 295: penhorável.'
+  },
+
+  // ============ Bloco 15 — Fase 3 (Civil 10 + 12) ============
+  {
+    id: 91, topic: 10, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o enriquecimento sem causa no Código Civil, é correto afirmar:',
+    alternatives: [
+      'A ação por enriquecimento sem causa pode ser usada concorrentemente com outras ações disponíveis ao lesado, em razão da reparação integral.',
+      'A ação por enriquecimento sem causa é subsidiária — somente cabe quando a lei não conferir ao lesado outros meios para se ressarcir do prejuízo (art. 886).',
+      'O enriquecimento sem causa exige a comprovação de ato ilícito por parte do beneficiado.',
+      'A ação por enriquecimento sem causa é imprescritível, em razão da gravidade do desequilíbrio.',
+      'Quem paga dívida prescrita pode pleitear sua repetição com base no enriquecimento sem causa.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 886: subsidiariedade. (A) Falso — só quando NÃO há outra ação específica. (C) Falso — não exige ilicitude. (D) Falso — submete-se ao prazo geral (10 anos — art. 205) ou específicos. (E) Falso — art. 882: pagamento de dívida prescrita NÃO se repete.'
+  },
+  {
+    id: 92, topic: 12, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o conceito de empresário no CC/02 e sua aplicação a profissionais intelectuais, é correto afirmar:',
+    alternatives: [
+      'Todo profissional que exerce atividade econômica organizada é considerado empresário, independentemente da natureza da profissão.',
+      'Profissionais intelectuais (médicos, advogados, escritores, artistas) NÃO são considerados empresários, salvo se o exercício da profissão constituir ELEMENTO DE EMPRESA.',
+      'Profissionais liberais sempre são empresários, em razão da remuneração pela atividade.',
+      'O CC/02 manteve a teoria dos atos de comércio adotada pelo CCom/1850.',
+      'O empresário, mesmo individual, é obrigatoriamente registrado no Cartório de Pessoas Jurídicas.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 966 par. único: profissional intelectual NÃO é empresário, salvo se elemento de empresa. (A) Falso — exclui intelectuais. (C) Falso — só se for elemento de empresa. (D) Falso — CC/02 adotou TEORIA DA EMPRESA (italiana). (E) Falso — empresário individual registra-se na JUNTA COMERCIAL (art. 967).'
+  },
+
+  // ============ Bloco 16 — Fase 3 (Civil 13-14) ============
+  {
+    id: 93, topic: 13, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a posse no direito civil brasileiro, é correto afirmar:',
+    alternatives: [
+      'O Código Civil adota a teoria subjetiva de Savigny, exigindo corpus e animus para configurar a posse.',
+      'O Código Civil adota a teoria objetiva de Ihering — basta a exteriorização do direito de propriedade, dispensando animus domini, salvo para usucapião.',
+      'A composse é vedada no direito brasileiro, em razão da exclusividade da posse.',
+      'A posse é direito real, integrando o rol taxativo do art. 1.225 do CC.',
+      'O possuidor de boa-fé não tem direito a frutos colhidos durante a posse.'
+    ],
+    correct: 'B',
+    explanation: 'CC adota teoria OBJETIVA de Ihering. (A) Falso — Savigny não foi adotado. (C) Falso — composse é admitida (art. 1.197). (D) Falso — posse é direito PESSOAL/situação de fato; rol do 1.225 traz direitos reais (propriedade etc.). (E) Falso — possuidor de boa-fé tem direito aos frutos colhidos (art. 1.214).'
+  },
+  {
+    id: 94, topic: 13, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as modalidades de usucapião previstas no CC e na CF, assinale a alternativa correta:',
+    alternatives: [
+      'A usucapião extraordinária exige título e boa-fé, com prazo de 10 anos.',
+      'A usucapião especial urbana (pro misero) exige posse de 5 anos, área de até 250 m², moradia e ausência de outro imóvel.',
+      'Bens públicos podem ser objeto de usucapião especial urbana ou rural, em razão do princípio da função social da propriedade.',
+      'A usucapião familiar exige prazo de 10 anos de abandono do lar pelo cônjuge ou companheiro.',
+      'A usucapião ordinária dispensa título e boa-fé.'
+    ],
+    correct: 'B',
+    explanation: 'CF 183 + CC 1.240: 5 anos + 250m² + moradia + sem outro imóvel. (A) Falso — extraordinária dispensa título e boa-fé (15a — art. 1.238). (C) Falso — Súmula 340/STF + CC 102: bens públicos NÃO se usucapem. (D) Falso — usucapião familiar = 2 ANOS (art. 1.240-A). (E) Falso — ordinária EXIGE título + boa-fé (art. 1.242).'
+  },
+  {
+    id: 95, topic: 14, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o pacto comissório nos direitos reais de garantia, é correto afirmar:',
+    alternatives: [
+      'O pacto comissório é amplamente admitido no direito brasileiro, como exercício da autonomia da vontade.',
+      'O pacto comissório é VEDADO pelo CC (art. 1.428), salvo exceções legais expressas, como a alienação fiduciária imobiliária (Lei 9.514/97).',
+      'O pacto comissório só é vedado em contratos de consumo, sendo permitido em relações empresariais.',
+      'A alienação fiduciária aplica integralmente o pacto comissório, dispensando qualquer leilão público.',
+      'A vedação ao pacto comissório foi revogada pelo CC/02 e não tem mais aplicação prática.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 1.428 veda pacto comissório como regra; alienação fiduciária imobiliária (Lei 9.514/97 art. 26-27) é exceção, permitindo consolidação seguida de DOIS leilões obrigatórios. (A) Falso — vedado. (C) Falso — vedação geral, não só consumo. (D) Falso — exige 2 leilões. (E) Falso — vedação mantida pelo CC/02.'
+  },
+  {
+    id: 96, topic: 14, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o usufruto no Código Civil, é INCORRETO afirmar:',
+    alternatives: [
+      'É direito real personalíssimo, extinguindo-se com a morte do usufrutuário.',
+      'Pode ser estabelecido por tempo determinado, desde que não exceda a vida do usufrutuário.',
+      'O usufrutuário tem direito a usar e fruir a coisa alheia.',
+      'O usufruto pode ser livremente transmitido por sucessão hereditária aos herdeiros do usufrutuário.',
+      'A constituição de usufruto sobre imóvel exige registro no Cartório de Registro de Imóveis.'
+    ],
+    correct: 'D',
+    explanation: 'CC art. 1.410 I: usufruto extingue-se com a MORTE do usufrutuário — NÃO se transmite aos herdeiros. (A), (B), (C), (E) — todas corretas conforme CC arts. 1.390-1.411.'
+  },
+
+  // ============ Bloco 17 — Fase 3 (Civil 15-17 — Família e Sucessões) ============
+  {
+    id: 97, topic: 15, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os efeitos jurídicos do casamento e da união estável após a CF/88, é correto afirmar:',
+    alternatives: [
+      'A união estável exige prazo mínimo de 5 anos para configurar entidade familiar.',
+      'A união entre pessoas do mesmo sexo NÃO é reconhecida como entidade familiar pelo ordenamento brasileiro.',
+      'A EC 66/2010 acabou com a separação judicial e o prazo do divórcio, instituindo o divórcio direto.',
+      'O regime obrigatório de separação de bens para pessoas com 70+ anos NÃO admite a Súmula 377/STJ.',
+      'O concubinato impuro (entre pessoas impedidas de casar) constitui sempre união estável.'
+    ],
+    correct: 'C',
+    explanation: 'EC 66/2010: divórcio direto, sem separação judicial nem prazo mínimo. (A) Falso — STJ não exige prazo mínimo. (B) Falso — STF ADI 4.277 reconheceu união homoafetiva. (D) Falso — Súmula 377/STJ aplica-se ao 1.641 (separação obrigatória), atenuando rigor. (E) Falso — concubinato (1.727) NÃO é união estável.'
+  },
+  {
+    id: 98, topic: 16, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os alimentos no direito civil brasileiro, é correto afirmar:',
+    alternatives: [
+      'A obrigação alimentar extingue-se com a morte do alimentante, não se transmitindo aos herdeiros.',
+      'O critério para fixação dos alimentos é apenas a necessidade do alimentado, dispensando análise da possibilidade do alimentante.',
+      'A prisão civil do alimentante é cabível pelo débito relativo às 3 prestações anteriores ao ajuizamento e às vincendas no curso do processo (Súmula 309/STJ).',
+      'O prazo prescricional para a pretensão de alimentos vencidos é de 5 anos.',
+      'Os alimentos são livremente renunciáveis, em razão do princípio da autonomia da vontade.'
+    ],
+    correct: 'C',
+    explanation: 'Súmula 309/STJ: 3 prestações anteriores + vincendas. (A) Falso — art. 1.700: transmite-se aos herdeiros (forças da herança). (B) Falso — trinômio: necessidade + possibilidade + proporcionalidade. (D) Falso — prazo é 2 ANOS (art. 206 §2º). (E) Falso — alimentos são IRRENUNCIÁVEIS (art. 1.694 §2º), com mitigações.'
+  },
+  {
+    id: 99, topic: 16, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a multiparentalidade conforme entendimento do STF (RE 898.060 — Tema 622), é correto afirmar:',
+    alternatives: [
+      'A paternidade socioafetiva exclui o reconhecimento concomitante do vínculo biológico.',
+      'Apenas a paternidade biológica gera efeitos jurídicos plenos, sendo a socioafetiva mera "afeição moral".',
+      'A paternidade socioafetiva, declarada ou não em registro, NÃO impede o reconhecimento concomitante do vínculo biológico — admite-se a multiparentalidade.',
+      'O reconhecimento da multiparentalidade depende de autorização judicial específica em cada caso, sem caráter geral.',
+      'A multiparentalidade é vedada pelo CC/02, que estabelece a unicidade do vínculo de filiação.'
+    ],
+    correct: 'C',
+    explanation: 'STF Tema 622 (RE 898.060): tese vinculante reconhecendo multiparentalidade. (A), (B), (D), (E) contradizem o entendimento.'
+  },
+  {
+    id: 100, topic: 17, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o princípio da saisine e a ordem de vocação hereditária, é correto afirmar:',
+    alternatives: [
+      'A herança transmite-se aos herdeiros somente após a partilha judicial, em razão do princípio da formalização.',
+      'Pelo princípio da saisine (CC art. 1.784), a herança transmite-se desde logo aos herdeiros legítimos e testamentários no momento da abertura da sucessão.',
+      'Os colaterais até o 4º grau são considerados herdeiros necessários, possuindo direito à legítima.',
+      'O companheiro tem direitos sucessórios inferiores aos do cônjuge, conforme art. 1.790 do Código Civil.',
+      'A capacidade do testador é aferida no momento da execução do testamento, e não no momento de sua feitura.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 1.784: saisine — transmissão automática com a morte. (A) Falso — partilha apenas formaliza. (C) Falso — colaterais NÃO são necessários (art. 1.845). (D) Falso — STF Tema 809 (RE 878.694) declarou inconstitucional o art. 1.790; companheiro = cônjuge. (E) Falso — capacidade afere-se no momento da FEITURA (art. 1.861).'
+  },
+  {
+    id: 101, topic: 17, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'A respeito do inventário extrajudicial (Lei 11.441/07 e alterações), é correto afirmar:',
+    alternatives: [
+      'É obrigatório em qualquer hipótese de sucessão, em razão do princípio da celeridade.',
+      'Pode ser realizado em cartório quando todos os interessados forem capazes, houver consenso, sem incapazes envolvidos, com advogado, por escritura pública.',
+      'Dispensa a presença de advogado, em razão da natureza puramente administrativa do procedimento.',
+      'Aplica-se quando há litígio entre os herdeiros, pois substitui o procedimento judicial pelo arbitral.',
+      'A Lei 14.382/22 reduziu as hipóteses de inventário extrajudicial, restringindo seu uso.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 11.441/07: inventário extrajudicial requer consenso + capacidade + sem incapazes + advogado + escritura pública. (A) Falso — opção, não obrigação. (C) Falso — exige advogado. (D) Falso — exige consenso, não cabe litígio. (E) Falso — Lei 14.382/22 AMPLIOU as hipóteses (admitindo até com testamento sem litígio).'
   }
 ],
 

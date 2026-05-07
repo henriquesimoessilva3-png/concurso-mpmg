@@ -47,17 +47,16 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **20 tópicos COMPLETOS** de Processo Civil com sinopse Juspodivm-like (~3000 palavras/tópico, ~62k totais)
-  - Estrutura por tópico: Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
-  - Renderização suporta blocos tipados (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-  - 968 blocos tipados no total
-- **+10 esqueletos PC 21-30** (Fase 2) — `materia: 'pc'`, `sections: []`, `outline[]` com sumário previsto
-- **+17 esqueletos Direito Civil** (Fase 3) — `materia: 'civil'`, numeração própria 1-17 (LINDB → Sucessões)
-- **Flashcards** (117) cobrindo armadilhas e jurisprudência consolidada
-- **Questões simuladas** (45) com gabarito comentado, no estilo IBGP/MPMG
-- **Súmulas STF/STJ** (48) mapeadas por tópico
+- **30 tópicos COMPLETOS de Processo Civil** (PC 1-30) com sinopse Juspodivm-like — Fase 1 e Fase 2 com conteúdo aprofundado
+- **17 tópicos COMPLETOS de Direito Civil** (Civ 1-17) — Fase 3 completa: LINDB, pessoas naturais/jurídicas, bens, fatos jurídicos, obrigações geral/inadimplemento, contratos parte geral/espécie, atos unilaterais, responsabilidade civil, empresa, direitos reais (posse/propriedade + garantias), família geral/específico, sucessões
+- **Estrutura por tópico:** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
+- **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
+- **247 flashcards** (164 PC + 84 Civil — campo `materia: 'civil'` para Civil)
+- **101 questões simuladas** com gabarito comentado, no estilo IBGP/MPMG
+- **48 súmulas STF/STJ** mapeadas por tópico
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
-- Campo `materia` opcional (default `'pc'` se ausente — backward-compat com os 20 PC originais)
+- Campo `materia` (`'pc'` ou `'civil'`) — backward-compat: ausente = `'pc'`
+- Quick check inline em `topicos.html` filtra flashcards/questões por matéria E tópico
 
 ## Renderer tipado em `topicos.html`
 
@@ -88,11 +87,11 @@ CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`
 
 ## Próximas tasks possíveis
 
-1. **Conteúdo da Fase 2** — preencher PC 21-30 (mediação/arbitragem/juizados/precedentes) com mesma profundidade dos 20 atuais
-2. **Conteúdo da Fase 3** — preencher Direito Civil (LINDB → Sucessões) usando os outlines como guia
-3. **Mais súmulas** — chegar a 60+ adicionando STJ 2, 38, 41, 121, 153, 168, 211 (já), 380 etc; STF 282 (já), 631, 736
-4. **Iniciar Mês 1** — abrir tópico 1 no app, marcar status, fazer flashcards
-5. **TOC interno por tópico** — sumário lateral linkando para cada `<h2>` do tópico
+1. **Mais flashcards/questões** — segunda passada nos tópicos com poucos cards (PC 21-30 e Civil em geral). Hoje muitos têm 4-7 cards e 2-4 questões; o ideal seria 8-12 cards e 4-6 questões por tópico
+2. **Mais súmulas** — chegar a 60+ adicionando STJ 14, 38, 41, 121, 150 (já), 153, 168; STF 282 (já), 631, 736
+3. **Iniciar Mês 1 do estudo** — abrir tópico 1 PC, marcar status, fazer flashcards, registrar primeiro estudo no log
+4. **TOC interno por tópico** — sumário lateral linkando para cada `<h2>` do tópico
+5. **Importar conteúdo de PDF** — se candidata quiser, posso indexar súmulas direto do informativo STJ/STF mais recente
 
 ## Como subir mudanças (auto-deploy via GitHub Pages)
 
