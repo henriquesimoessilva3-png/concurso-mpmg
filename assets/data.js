@@ -6168,7 +6168,48 @@ flashcards: [
   { id: 244, topic: 17, materia: 'civil', q: 'STF — Tema 809 — companheiro tem direitos sucessórios iguais aos do cônjuge?', a: 'SIM (RE 878.694, 2017). STF declarou inconstitucional o art. 1.790 do CC que dava direitos limitados ao companheiro. Hoje companheiro herda nos mesmos termos do cônjuge (art. 1.829).', tags: ['fase3', 'sucessoes', 'companheiro'] },
   { id: 245, topic: 17, materia: 'civil', q: 'Quem são os herdeiros NECESSÁRIOS (art. 1.845)?', a: 'DESCENDENTES, ASCENDENTES e CÔNJUGE (após RE 878.694, equipara-se companheiro). NÃO incluem colaterais. Têm direito à LEGÍTIMA (50% do patrimônio — art. 1.846).', tags: ['fase3', 'sucessoes', 'herdeiros'] },
   { id: 246, topic: 17, materia: 'civil', q: 'Quando cabe inventário extrajudicial?', a: 'Lei 11.441/07: consenso entre interessados + partes capazes + SEM incapazes + advogado (mesmo se compartilhado) + por escritura pública. Sem litígio. Lei 14.382/22 admitiu nas hipóteses sem litígio mesmo com testamento.', tags: ['fase3', 'sucessoes', 'inventario'] },
-  { id: 247, topic: 17, materia: 'civil', q: 'Quais as 3 formas ordinárias de testamento?', a: 'PÚBLICO (art. 1.864 — em cartório, mais usado), CERRADO (art. 1.868 — entregue lacrado ao tabelião), PARTICULAR (art. 1.876 — escrito + 3 testemunhas; pode ser digitado pela Lei 14.382/22).', tags: ['fase3', 'sucessoes', 'testamento'] }
+  { id: 247, topic: 17, materia: 'civil', q: 'Quais as 3 formas ordinárias de testamento?', a: 'PÚBLICO (art. 1.864 — em cartório, mais usado), CERRADO (art. 1.868 — entregue lacrado ao tabelião), PARTICULAR (art. 1.876 — escrito + 3 testemunhas; pode ser digitado pela Lei 14.382/22).', tags: ['fase3', 'sucessoes', 'testamento'] },
+
+  // ============ Reforço PC 21-30 (segunda passada) ============
+  // Tópico 21 — Mediação adicional
+  { id: 248, topic: 21, q: 'CEJUSC — o que é e qual sua base normativa?', a: 'Centro Judiciário de Solução de Conflitos e Cidadania. Base: Resolução CNJ 125/2010 (Política Judiciária Nacional de Tratamento Adequado de Conflitos). Funciona dentro dos tribunais para conciliação/mediação pré-processual e processual.', tags: ['fase2', 'mediacao', 'CEJUSC'] },
+  { id: 249, topic: 21, q: 'Mediação em direitos difusos coletivos é admitida?', a: 'NÃO em sentido próprio (Lei 13.140 art. 3º). A mediação se limita a direitos disponíveis ou indisponíveis transigíveis individuais. Para difusos/coletivos, há outras formas (TAC, ACP).', tags: ['fase2', 'mediacao'] },
+
+  // Tópico 22 — Arbitragem adicional
+  { id: 250, topic: 22, q: 'Carta arbitral — o que é e quando é usada?', a: 'Lei 9.307 art. 22-C. Árbitro requisita ao Judiciário a prática de ato coercitivo (penhora, condução de testemunha) que não pode realizar diretamente. Quarta espécie ao lado de precatória, de ordem e rogatória.', tags: ['fase2', 'arbitragem', 'cartas'] },
+  { id: 251, topic: 22, q: 'Tutela cautelar antes da instalação da arbitragem — quem decide?', a: 'O JUDICIÁRIO (Lei 9.307 art. 22-A). Após instaurada a arbitragem, o ÁRBITRO pode manter, modificar ou revogar a cautelar (art. 22-B).', tags: ['fase2', 'arbitragem', 'cautelar'] },
+
+  // Tópico 23 — JEC adicional
+  { id: 252, topic: 23, q: 'Jus postulandi no JEC — limite e exceções?', a: 'Capacidade postulatória pela própria parte até 20 SM (art. 9º). NÃO se estende ao recurso inominado — sempre exige advogado (FONAJE 36 + STJ Tema 1.111).', tags: ['fase2', 'JEC'] },
+  { id: 253, topic: 23, q: 'Embargos de declaração no JEC — prazo e efeito?', a: '5 DIAS (art. 49 Lei 9.099). SUSPENDEM o prazo para outros recursos (Súmula 640/STJ analogamente). Atenção: NÃO interrompem (diferente do CPC art. 1.026).', tags: ['fase2', 'JEC', 'recursos'] },
+
+  // Tópico 24 — JEFP adicional
+  { id: 254, topic: 24, q: 'Antecipação de tutela contra a Fazenda no JEFP — admissível?', a: 'SIM (art. 16 Lei 12.153). Decisões liminares podem ser proferidas sem necessidade de prévia manifestação da Fazenda em todos os casos. Ente público cumpre em 5 dias (art. 11 da Lei 10.259, aplicável subsidiariamente).', tags: ['fase2', 'JEFP', 'tutela'] },
+  { id: 255, topic: 24, q: 'JEFP julga ações de improbidade administrativa?', a: 'NÃO (art. 2º §1º Lei 12.153). Improbidade está EXCLUÍDA do JEFP — vai para vara especializada ou comum, conforme organização local. Tema cobrado.', tags: ['fase2', 'JEFP'] },
+
+  // Tópico 25 — JEF adicional
+  { id: 256, topic: 25, q: 'JEF Criminal — competência e leis aplicáveis?', a: 'Infrações de menor potencial ofensivo (até 2 anos de pena máxima). Aplica-se subsidiariamente Lei 9.099/95 (transação penal, suspensão condicional do processo, ANPP). Lei 10.259 arts. 20-26.', tags: ['fase2', 'JEF', 'criminal'] },
+  { id: 257, topic: 25, q: 'Decisão da TNU contrária a súmula do STJ — o que cabe?', a: 'Incidente perante o STJ (art. 14 §4º Lei 10.259). Não é REsp comum — é mecanismo específico para uniformização da jurisprudência federal.', tags: ['fase2', 'JEF', 'TNU'] },
+
+  // Tópico 26 — Gratuidade adicional
+  { id: 258, topic: 26, q: 'Defensoria Pública x Justiça gratuita — distinção?', a: 'DEFENSORIA = órgão constitucional (CF 134) que presta assistência jurídica integral e gratuita. JUSTIÇA GRATUITA (CPC 98+) = isenção de custas, despesas e honorários. Pode-se ter advogado particular E gozar de gratuidade (não precisa de Defensoria).', tags: ['fase2', 'gratuidade', 'defensoria'] },
+  { id: 259, topic: 26, q: 'Honorários sucumbenciais do beneficiário da gratuidade — exigibilidade?', a: 'CPC art. 98 §3º: SUSPENSA por 5 anos. Se nesse período houver melhora econômica = exigíveis. Após 5 anos = prescrita a obrigação. NÃO há dispensa absoluta.', tags: ['fase2', 'gratuidade', 'honorarios'] },
+
+  // Tópico 27 — Cooperação adicional
+  { id: 260, topic: 27, q: 'Quem é a autoridade central brasileira para cooperação internacional?', a: 'Ministério da Justiça e Segurança Pública (DRCI — Departamento de Recuperação de Ativos e Cooperação Jurídica Internacional). Centraliza os pedidos passivos e ativos.', tags: ['fase2', 'cooperacao'] },
+  { id: 261, topic: 27, q: 'Sentença arbitral estrangeira — onde é homologada?', a: 'STJ (CF art. 105 I i + Lei 9.307 art. 35). Aplica-se a Convenção de Nova York/1958. Recusa só por motivos taxativos (art. 39 Lei 9.307).', tags: ['fase2', 'cooperacao', 'arbitragem'] },
+
+  // Tópico 28 — Precedentes adicional
+  { id: 262, topic: 28, q: 'Modulação dos efeitos do precedente — base legal?', a: 'CPC art. 927 §3º. Quando houver alteração de jurisprudência consolidada, juiz pode modular efeitos (limitar retroatividade) por interesse social e segurança jurídica. Trazida do controle de constitucionalidade.', tags: ['fase2', 'precedentes', 'modulacao'] },
+  { id: 263, topic: 28, q: 'Reclamação contra inobservância de RG (repercussão geral) — exige esgotamento?', a: 'SIM (CPC art. 988 §5º II). Diferente da SV (que admite reclamação direta), repetitivos e RG exigem esgotamento das instâncias ordinárias antes da reclamação.', tags: ['fase2', 'precedentes', 'reclamacao'] },
+
+  // Tópico 29 — CNJ/CNMP adicional
+  { id: 264, topic: 29, q: 'Resolução CNMP 181/2017 — qual seu objeto?', a: 'Acordo de Não Persecução Penal (ANPP) — instrumento de Justiça Restaurativa criminal. Disciplina os requisitos, limites e procedimento. Tema mais penal que civil, mas exigido em concurso.', tags: ['fase2', 'CNMP', 'ANPP'] },
+  { id: 265, topic: 29, q: 'Resolução CNMP 230/2021 — qual seu tema?', a: 'LGPD aplicada ao Ministério Público. MP é controlador de dados pessoais; atividades persecutórias têm regime próprio. Tema novo, possível em concurso 2027/2028.', tags: ['fase2', 'CNMP', 'LGPD'] },
+
+  // Tópico 30 — Honorários adicional
+  { id: 266, topic: 30, q: 'Honorários sucumbenciais em cumprimento de sentença NÃO impugnado?', a: 'NÃO há honorários (CPC art. 85 §7º). Apenas no cumprimento de sentença IMPUGNADO. Para evitar onerar o devedor que paga voluntariamente.', tags: ['fase2', 'honorarios', 'cumprimento'] },
+  { id: 267, topic: 30, q: 'Multa cominatória (astreintes) — base legal e destinatário?', a: 'CPC art. 537. Por descumprimento de obrigação de fazer/não fazer/entregar coisa. Destinatário: EXEQUENTE/credor (não União). Pode ser modificada/revogada de ofício pelo juiz.', tags: ['fase2', 'multas', 'astreintes'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -7641,6 +7682,60 @@ questions: [
     ],
     correct: 'B',
     explanation: 'Lei 11.441/07: inventário extrajudicial requer consenso + capacidade + sem incapazes + advogado + escritura pública. (A) Falso — opção, não obrigação. (C) Falso — exige advogado. (D) Falso — exige consenso, não cabe litígio. (E) Falso — Lei 14.382/22 AMPLIOU as hipóteses (admitindo até com testamento sem litígio).'
+  },
+
+  // ============ Reforço PC 21-30 (segunda passada) ============
+  {
+    id: 102, topic: 21, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios da mediação previstos na Lei 13.140/15, é correto afirmar:',
+    alternatives: [
+      'A imparcialidade do mediador, isonomia entre as partes e oralidade são princípios FACULTATIVOS, podendo ser dispensados por convenção das partes.',
+      'A confidencialidade é absoluta, abrangendo até informações relativas a crimes de ação pública praticados pelas partes.',
+      'A imparcialidade do mediador, isonomia, oralidade, informalidade, autonomia da vontade, busca do consenso, confidencialidade e boa-fé são princípios cogentes da mediação (art. 2º).',
+      'O mediador pode atuar como árbitro em arbitragem subsequente sobre o mesmo conflito, em razão da continuidade do trabalho.',
+      'A mediação somente se admite em direitos patrimoniais disponíveis, sendo vedada em direitos indisponíveis.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 13.140 art. 2º: princípios cogentes. (A) Falso — são cogentes. (B) Falso — art. 30 ressalva crime de ação pública (deve denunciar). (D) Falso — art. 7º veda atuar como árbitro/testemunha por 1 ano. (E) Falso — admite-se em indisponíveis transigíveis (art. 3º).'
+  },
+  {
+    id: 103, topic: 23, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Em relação aos embargos de declaração no JEC (Lei 9.099/95), é correto afirmar:',
+    alternatives: [
+      'O prazo é de 15 dias úteis, conforme aplicação subsidiária do CPC art. 1.023.',
+      'Os embargos de declaração no JEC têm prazo de 5 dias e SUSPENDEM o prazo para outros recursos.',
+      'Os embargos de declaração no JEC têm prazo de 5 dias e INTERROMPEM o prazo para outros recursos, em paralelo ao CPC art. 1.026.',
+      'Os embargos de declaração não cabem no JEC, em razão da natureza simplificada do procedimento.',
+      'Os embargos de declaração no JEC têm efeito modificativo e podem ser interpostos por qualquer interessado, mesmo terceiro.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 9.099 arts. 49-50: ED têm prazo de 5 DIAS e SUSPENDEM prazo para outros recursos (não interrompem como no CPC). (A) Falso — 5 dias contínuos (não dias úteis). (C) Falso — suspendem, não interrompem. (D) Falso — cabem (art. 48). (E) Falso — somente partes ou MP.'
+  },
+  {
+    id: 104, topic: 26, banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a distinção entre Defensoria Pública e justiça gratuita, é correto afirmar:',
+    alternatives: [
+      'A Defensoria Pública e a justiça gratuita são institutos idênticos, aplicáveis indistintamente.',
+      'A Defensoria Pública é órgão constitucional que presta assistência jurídica integral e gratuita; a justiça gratuita é benefício processual de isenção de custas e honorários, podendo o beneficiário ter advogado particular.',
+      'A justiça gratuita somente pode ser concedida a quem é assistido pela Defensoria Pública.',
+      'A Defensoria Pública atua apenas na esfera criminal, sendo a esfera civil reservada à justiça gratuita.',
+      'O beneficiário da justiça gratuita NÃO pode ter advogado particular, sob pena de revogação automática do benefício.'
+    ],
+    correct: 'B',
+    explanation: 'CF art. 134 + CPC arts. 98-102: institutos distintos. Defensoria = órgão; gratuidade = benefício processual. Pode-se ter advogado particular e gozar de gratuidade. (A), (C), (D), (E) confundem ou restringem indevidamente.'
+  },
+  {
+    id: 105, topic: 28, banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a reclamação no microssistema de precedentes do CPC/15, é correto afirmar:',
+    alternatives: [
+      'Cabe reclamação direta contra inobservância de qualquer súmula do STJ ou STF, ainda que não vinculante.',
+      'A reclamação contra inobservância de tese fixada em recursos repetitivos ou repercussão geral exige o esgotamento das instâncias ordinárias (CPC art. 988 §5º II).',
+      'A reclamação tem natureza recursal, com prazo de 15 dias úteis a partir da decisão impugnada.',
+      'A reclamação substitui o recurso especial e o recurso extraordinário em qualquer hipótese de inobservância de precedente.',
+      'A reclamação somente cabe contra atos judiciais, sendo vedada contra atos administrativos.'
+    ],
+    correct: 'B',
+    explanation: 'CPC art. 988 §5º II: reclamação contra inobservância de RG/repetitivo exige esgotamento ordinário. (A) Falso — Súmula 734/STF: só vinculante. (C) Falso — reclamação não tem natureza recursal típica; não há prazo de 15 dias (sua tutela é constitucional). (D) Falso — não substitui RE/REsp; é instrumento próprio. (E) Falso — pode ser contra ato administrativo (art. 988 II).'
   }
 ],
 
