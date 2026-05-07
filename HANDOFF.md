@@ -1,6 +1,6 @@
 # HANDOFF — Projeto Concurso MPMG
 
-> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-07.
+> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-07 (após Blocos 18-23).
 
 ## Como abrir o próximo chat
 
@@ -15,8 +15,8 @@ Cole esta frase no início:
 - **Candidata:** esposa do usuário Henrique. Já é **Analista do MP em Ouro Branco-MG**. Vantagem em Teoria do MP, Material/Processual Coletivo, ACP, tutelas.
 - **Carga:** **1h/dia útil** + 4h sábado + 4h domingo = ~15h/semana
 - **Horizonte:** 1-2 anos
-- **Foco atual:** Fase 1 (PC 1-20), Fase 2 (PC 21-30) e Fase 3 (Direito Civil 1-17) com **CONTEÚDO COMPLETO**
-- **Decisão recente:** o app agora é compartilhado com outras pessoas — outras pessoas podem atacar OUTROS GRUPOS de estudo (Constitucional, Administrativo, Penal, etc.). Isso muda prioridades para o próximo bate.
+- **Foco atual:** Fase 1 (PC 1-20), Fase 2 (PC 21-30) e Fase 3 (Direito Civil 1-17) com **CONTEÚDO COMPLETO**. Demais matérias (9 áreas) com **esqueletos** prontos para contribuição.
+- **App compartilhado:** outras pessoas podem fork → preencher uma matéria → PR. Ver [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Está deployado
 
@@ -48,16 +48,18 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **30 tópicos COMPLETOS de Processo Civil** (PC 1-30) com sinopse Juspodivm-like — Fase 1 e Fase 2 com conteúdo aprofundado
-- **17 tópicos COMPLETOS de Direito Civil** (Civ 1-17) — Fase 3 completa: LINDB, pessoas naturais/jurídicas, bens, fatos jurídicos, obrigações geral/inadimplemento, contratos parte geral/espécie, atos unilaterais, responsabilidade civil, empresa, direitos reais (posse/propriedade + garantias), família geral/específico, sucessões
-- **Estrutura por tópico:** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
+- **47 tópicos com CONTEÚDO COMPLETO**: 30 PC (Fase 1 + 2) + 17 Civil (Fase 3) com sinopse Juspodivm-like
+- **96 esqueletos prontos** distribuídos em 9 matérias (12 const, 12 adm, 8 elei, 10 trib, 8 mp, 14 penal, 12 pp, 12 colmat, 8 colproc) — cada um com `outline[]` e `editalText` preenchidos. Falta apenas escrever `sections: []`.
+- **Total: 143 tópicos** em 11 matérias.
+- **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **247 flashcards** (164 PC + 84 Civil — campo `materia: 'civil'` para Civil)
-- **101 questões simuladas** com gabarito comentado, no estilo IBGP/MPMG
-- **48 súmulas STF/STJ** mapeadas por tópico
+- **287 flashcards** (164 PC + 84 Civil + reforços PC e Civil)
+- **115 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **63 súmulas STF/STJ** mapeadas por tópico — algumas já cobrem matérias novas (Penal, Tributário, P. Penal, Adm.) via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
-- Campo `materia` (`'pc'` ou `'civil'`) — backward-compat: ausente = `'pc'`
+- Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
 - Quick check inline em `topicos.html` filtra flashcards/questões por matéria E tópico
+- **TOC interno (sumário lateral)** em `topicos.html` — fica fixo à direita em telas ≥ 1280px, com scroll-spy
 
 ## Renderer tipado em `topicos.html`
 
@@ -88,22 +90,35 @@ CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`
 
 ## Próximas tasks possíveis (em ordem de prioridade no próximo chat)
 
-### Alta prioridade — viabilizar uso compartilhado por outros candidatos
+### Alta prioridade — preencher esqueletos das 9 matérias
 
-1. **Esqueletos das 9 áreas restantes do edital** (~85 tópicos novos). Materia keys sugeridas: `'const'` (Constitucional), `'adm'` (Administrativo), `'elei'` (Eleitoral), `'trib'` (Tributário/Financeiro), `'mp'` (Teoria do MP), `'penal'` (Penal/Criminologia), `'pp'` (Proc. Penal), `'colmat'` (Material Coletivo), `'colproc'` (Processual Coletivo). Cada esqueleto: `id`, `num`, `materia`, `title`, `edital`, `editalText`, `outline[]`, `sections: []`. Ver `00-EDITAL-E-DOCS/analise-edital.md`.
-2. **Filtro de matéria no hub `index.html`** — com 47+ tópicos cadastrados, e mais 85 esqueletos por adicionar, o hub precisa de seletor/abas por matéria. Hoje só Fase 1 (PC 1-20), Fase 2 (PC 21-30 stub) e Fase 3 (Civil stub) aparecem em `<details>`.
-3. **README de contribuição** — explicar como outros candidatos podem fork → editar `data.js` (preencher um esqueleto) → PR. App é estático (HTML+JS), zero build.
+Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata pode escolher uma matéria onde tem vantagem (Material e Processual Coletivo, Teoria do MP) ou uma matéria fraca (Tributário, Eleitoral). Outras pessoas podem atacar áreas em paralelo via PR.
+
+| Matéria | Tópicos esqueleto |
+|---------|-------------------|
+| Constitucional | 12 |
+| Administrativo | 12 |
+| Eleitoral | 8 |
+| Tributário/Financeiro | 10 |
+| Teoria do MP | 8 |
+| Penal/Criminologia | 14 |
+| Processo Penal | 12 |
+| Material Coletivo | 12 |
+| Processual Coletivo | 8 |
+
+Padrão para preencher: ver `assets/data.js:11-113` (PC 1) ou `assets/data.js:5076-5200` (Civ 11). Estrutura: `Foco central · Lei seca · Pontos críticos · Macetes · Pegadinhas · Conexões`.
 
 ### Média prioridade — refinamento
 
-4. **Reforço de densidade** — vários tópicos PC 21-30 e Civil têm 4-7 cards e 2-4 questões. Ideal: 8-12 cards e 4-6 questões. Adicionar gradualmente.
-5. **+15 súmulas** para chegar a 60+ (STJ 14, 38, 41, 121, 153, 168, 380, 423, 545, 643, 711; STF SV 8, 631, 736).
-6. **TOC interno por tópico** — sumário lateral linkando os `<h2>` de cada tópico (útil em tópicos grandes como Civ 11, 13; PC 11, 16, 28).
+1. **Reforço de densidade contínuo** — alvo: 8-12 cards e 4-6 questões por tópico preenchido. Hoje média de PC 21-30 e Civil é ~5-6 cards e 2-3 questões.
+2. **+30 súmulas** para chegar a 90+ (cobrir mais áreas — Constitucional, Administrativo, Coletivo).
+3. **Súmulas de informativos recentes** — STF/STJ 2024-2026.
+4. **Modo dark / acessibilidade** — opção pelo menos para texto.
 
 ### Iniciar uso
 
-7. **Iniciar Mês 1 do estudo** — abrir tópico 1 PC, marcar status, fazer flashcards, registrar primeiro estudo no log.
-8. **Importar súmulas de informativos recentes** — se candidata quiser conteúdo atualizado, indexar STJ/STF.
+5. **Iniciar Mês 1 do estudo** — abrir PC 1, marcar status, fazer flashcards, registrar primeiro estudo no log.
+6. **Divulgar para outros candidatos** — compartilhar URL e CONTRIBUTING.md.
 
 ## Como subir mudanças (auto-deploy via GitHub Pages)
 
@@ -157,14 +172,16 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #2** (ee4e99e) — Fase 2 completa: PC 21-30 com conteúdo (Blocos 8, 9, 10)
 - **PR #3** (8566a40) — Fase 3 completa: Civil 1-17 com conteúdo (Blocos 11-17)
 - **PR #4** (950f2c0) — Reforço PC 21-30: +20 flashcards e +4 questões
+- **PR #5** (2ac267f) — Atualização HANDOFF
+- **PR #6** (este) — Compartilhamento: esqueletos das 9 áreas (+96 tópicos), filtro de matéria no hub, CONTRIBUTING.md, +15 súmulas, +20 cards, +10 questões, TOC interno
 
 ## Stats atuais
 
-- **47 tópicos com conteúdo** (30 PC + 17 Civil)
-- **267 flashcards** (164 PC + 84 Civil + 19 reforço PC)
-- **105 questões** com gabarito comentado
-- **48 súmulas** STF/STJ mapeadas
-- ~7.500 linhas em `assets/data.js` (~120k palavras)
+- **143 tópicos** (47 com conteúdo + 96 esqueletos com outline)
+- **287 flashcards** (267 PC/Civil anteriores + 20 reforço Bloco 19)
+- **115 questões** com gabarito comentado
+- **63 súmulas** STF/STJ mapeadas (algumas com `materia` para Penal/Trib./Adm./PP)
+- ~8.100 linhas em `assets/data.js`
 
 ## Memória persistente do Claude Code
 
