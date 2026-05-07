@@ -4761,18 +4761,112 @@ topics: [
     title: 'Contratos — parte geral',
     edital: '3.1.8',
     editalText: 'Princípios. Formação. Classificação. Vícios redibitórios. Evicção. Extinção. Função social. Boa-fé objetiva.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Princípios — autonomia, função social, boa-fé objetiva, equivalência',
-      'Formação — proposta, aceitação, retratação',
-      'Classificação dos contratos',
-      'Cláusulas implícitas — duty to mitigate, supressio, surrectio, venire contra factum proprium',
-      'Vícios redibitórios — prazos decadenciais',
-      'Evicção — requisitos e efeitos',
-      'Extinção — resolução, resilição, rescisão',
-      'Onerosidade excessiva (arts. 478-480)'
-    ],
-    sections: []
+    size: 'Grande',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 3-4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Contrato é **negócio jurídico bilateral** que cria obrigações entre as partes. CC/02 atualizou três princípios fundamentais: **AUTONOMIA DA VONTADE** (clássico, mas relativizada), **FUNÇÃO SOCIAL DO CONTRATO** (art. 421 — limite ao dirigismo contratual), **BOA-FÉ OBJETIVA** (arts. 113, 187, 422). Esses três pilares regem a interpretação e execução de todo contrato.' },
+          { type: 'p', text: 'A **boa-fé objetiva** (modelo de conduta) impõe deveres laterais: informar, cooperar, lealdade, sigilo. Tem três funções: **INTERPRETATIVA** (art. 113 — interpretar negócios à luz da boa-fé), **INTEGRATIVA** (art. 422 — deveres anexos não escritos) e **CONTROLADORA** (art. 187 — abuso de direito). Dela derivam institutos: **venire contra factum proprium**, **supressio/surrectio**, **duty to mitigate the loss**, **tu quoque**.' },
+          { type: 'p', text: 'O CC/02 também reformou as **excludentes da execução do contrato**: extinção pode dar-se por **resolução** (descumprimento), **resilição** (manifestação de vontade — arts. 472-473), **rescisão** (defeitos que viciam o negócio). Há ainda a **onerosidade excessiva** (arts. 478-480) — fato superveniente e imprevisível torna a prestação extremamente onerosa.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Princípios e formação (arts. 421-435)' },
+          { type: 'list', items: [
+            '**Art. 421** — liberdade de contratar exercida em razão e nos LIMITES da função social do contrato',
+            '**Art. 421-A (Lei 13.874/19)** — contratos paritários presumem-se PARITÁRIOS, com inferência de que respeitam a autonomia da vontade',
+            '**Art. 422** — contraentes obrigados a observar BOA-FÉ tanto na conclusão quanto na execução do contrato',
+            '**Art. 423** — contratos de adesão: cláusulas DUVIDOSAS interpretam-se a favor do aderente',
+            '**Art. 424** — contratos de adesão: NULAS cláusulas que estipulem renúncia antecipada de direito da natureza do negócio',
+            '**Art. 427** — proposta vincula o proponente, salvo disposição em contrário',
+            '**Art. 428** — proposta perde vigor quando: I — feita sem prazo a presente; II — feita sem prazo por escrito + tempo razoável; etc.',
+            '**Art. 433** — aceitação de contrato entre PRESENTES: imediata. ENTRE AUSENTES (à distância): tornam-se obrigatórias quando expedida (teoria da expedição — art. 434)'
+          ] },
+          { type: 'h', text: 'Vícios redibitórios e evicção (arts. 441-457)' },
+          { type: 'list', items: [
+            '**VÍCIO REDIBITÓRIO (art. 441)** — coisa adquirida tem defeito OCULTO que a torna IMPRÓPRIA ao uso ou diminui valor. Adquirente pode redibir (rescindir) ou pedir abatimento do preço',
+            '**Art. 444** — responsabilidade do alienante ainda que ignorasse o vício; mas se ignorava, restitui apenas o preço; se conhecia, paga perdas e danos',
+            '**Art. 445 — PRAZOS DECADENCIAIS:** redibitória ou estimatória → 30 DIAS para coisa MÓVEL, 1 ANO para IMÓVEL (vício APARENTE/EVIDENTE no uso normal). Vício OCULTO: prazo conta a partir da CIÊNCIA',
+            '**EVICÇÃO (arts. 447-457)** — perda da coisa adquirida em virtude de sentença que a atribui a terceiro com direito anterior à aquisição',
+            '**Art. 448** — partes podem reforçar, diminuir ou EXCLUIR a responsabilidade pela evicção (mas exclusão exige cláusula expressa e ciência)',
+            '**Art. 450** — alienante responde por evicção: restituição preço + frutos restituídos pelo adquirente + despesas + benfeitorias necessárias e úteis'
+          ] },
+          { type: 'h', text: 'Extinção dos contratos (arts. 472-480)' },
+          { type: 'list', items: [
+            '**Art. 472** — extinção por DISTRATO: mesma forma do contrato',
+            '**Art. 473** — RESILIÇÃO unilateral nos casos em que a lei expressa ou implicitamente permitir, mediante denúncia notificada à outra parte',
+            '**RESOLUÇÃO** (arts. 474-480) — extingue por descumprimento: cláusula resolutiva expressa (operação automática) OU implícita (pede-se em juízo, com possibilidade de cumprir)',
+            '**Art. 476** — EXCEÇÃO DO CONTRATO NÃO CUMPRIDO (exceptio non adimpleti contractus): nos contratos bilaterais, nenhum contraente pode exigir antes de cumprir sua parte',
+            '**Art. 478** — ONEROSIDADE EXCESSIVA: prestação tornar-se EXCESSIVAMENTE ONEROSA por fatos EXTRAORDINÁRIOS e IMPREVISÍVEIS = parte pode pedir RESOLUÇÃO',
+            '**Art. 479** — outra parte pode evitar resolução modificando equitativamente as condições do contrato (revisão)'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Boa-fé objetiva — funções e deveres laterais' },
+          { type: 'p', text: 'Modelo de conduta probo, não estado psicológico. **Funções:** (i) **interpretativa** (art. 113); (ii) **integrativa** (art. 422 — deveres anexos); (iii) **controle** (art. 187 — abuso de direito). **Deveres anexos:** informação, lealdade, cooperação, cuidado, sigilo.' },
+          { type: 'h', text: 'Institutos derivados da boa-fé objetiva' },
+          { type: 'list', items: [
+            '**Venire contra factum proprium** — vedação à conduta contraditória; partes não podem agir de modo a frustrar expectativas legítimas criadas',
+            '**Supressio** — perda de direito pelo seu não-exercício prolongado, com efeito de criar legítima expectativa na outra parte',
+            '**Surrectio** — surgimento de direito decorrente de prática reiterada que cria expectativa de continuidade',
+            '**Duty to mitigate the loss** — credor tem dever de minimizar suas próprias perdas, sob pena de não obter ressarcimento integral (jurisprudência STJ)',
+            '**Tu quoque** — quem desrespeitou regra contratual não pode invocá-la em seu benefício'
+          ] },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.273.811:** duty to mitigate the loss aplica-se ao Direito brasileiro como decorrência da boa-fé objetiva (art. 422). Credor que poderia mitigar dano e não o fez, não obtém indenização integral.' },
+          { type: 'h', text: 'Vícios redibitórios — prazos' },
+          { type: 'p', text: 'Prazos DECADENCIAIS (art. 445): **móvel = 30 dias; imóvel = 1 ano** para vício APARENTE/EVIDENTE no uso normal. Vício OCULTO conta da CIÊNCIA do vício, com PRAZO MÁXIMO: 180 dias para móvel + 1 ano para imóvel após a aquisição.' },
+          { type: 'box', kind: 'macete', text: '**Vícios redibitórios: 30 dias móvel · 1 ano imóvel (aparente).** Oculto = ciência + prazo máximo (180d móvel · 1 ano imóvel).' },
+          { type: 'h', text: 'Evicção × vício redibitório' },
+          { type: 'table', headers: ['Critério', 'Vício redibitório', 'Evicção'],
+            rows: [
+              ['Origem', 'Defeito FÍSICO oculto da coisa', 'Defeito JURÍDICO (terceiro com direito anterior)'],
+              ['Pressuposto', 'Coisa imprópria ao uso ou diminuída de valor', 'Sentença que atribui a coisa a terceiro'],
+              ['Direitos', 'Redibitória OU estimatória', 'Restituição preço + indenização (art. 450)'],
+              ['Prazo', '30 dias móvel; 1 ano imóvel (art. 445)', 'Prazo prescricional comum, não decadencial']
+            ] },
+          { type: 'h', text: 'Onerosidade excessiva (rebus sic stantibus)' },
+          { type: 'p', text: 'Reflete a **teoria da imprevisão**: contrato vincula apenas enquanto as condições permanecem iguais (cláusula REBUS SIC STANTIBUS). Para revisar/resolver: **(i) fato superveniente; (ii) extraordinário e imprevisível; (iii) que torne a prestação excessivamente onerosa para uma parte; (iv) com vantagem extrema para outra.** Distintos da TEORIA DO RISCO PRÓPRIO em CDC (art. 6º V: basta a onerosidade superveniente, sem imprevisibilidade).' },
+          { type: 'box', kind: 'atencao', text: '**CDC adota teoria mais ampla** (art. 6º V) — basta o desequilíbrio superveniente, dispensando imprevisibilidade. CC exige extraordinariedade + imprevisibilidade (art. 478).' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**3 princípios contratuais: AUTONOMIA · FUNÇÃO SOCIAL · BOA-FÉ OBJETIVA.**' },
+          { type: 'box', kind: 'macete', text: '**Boa-fé objetiva = modelo de conduta. Subjetiva = estado mental.**' },
+          { type: 'box', kind: 'macete', text: '**Vícios redibitórios: 30/1 ano (aparente). Cuidado com OCULTO: ciência + máximo legal.**' },
+          { type: 'box', kind: 'macete', text: '**Resolução (descumprimento) × Resilição (vontade) × Rescisão (vícios).**' },
+          { type: 'box', kind: 'macete', text: '**Onerosidade CC: extraordinário + imprevisível. CDC: basta excessivamente onerosa.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Vícios redibitórios: 30 dias móvel · 1 ANO imóvel (aparente).** NÃO se conta da venda — conta-se desde a entrega (art. 445).' },
+          { type: 'box', kind: 'atencao', text: '**Evicção é defeito JURÍDICO** (terceiro com direito anterior); vício redibitório é FÍSICO. Confusão recorrente.' },
+          { type: 'box', kind: 'atencao', text: '**Cláusula que exclui evicção exige FORMA EXPRESSA e ciência do adquirente** (art. 448). Ausentes esses requisitos, é nula.' },
+          { type: 'box', kind: 'atencao', text: '**Onerosidade excessiva exige IMPREVISIBILIDADE** no CC (art. 478). Em contratos de consumo, não — CDC art. 6º V basta o desequilíbrio.' },
+          { type: 'box', kind: 'atencao', text: '**Aceitação entre AUSENTES: teoria da EXPEDIÇÃO (art. 434).** Ao expedir aceitação, contrato torna-se obrigatório, salvo retratação tempestiva.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento):** descumprimento contratual gera mora ou inadimplemento absoluto + resolução por descumprimento.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 9 (contratos em espécie):** princípios gerais aplicáveis a todos os tipos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 11 (responsabilidade civil):** descumprimento = perdas e danos. Responsabilidade contratual.' },
+          { type: 'box', kind: 'conexao', text: '**CDC:** princípios contratuais reforçados (transparência, vulnerabilidade), mais protetivos ao consumidor.' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-09-contratos-especie',
@@ -4780,18 +4874,116 @@ topics: [
     title: 'Contratos em espécie',
     edital: '3.1.9',
     editalText: 'Compra e venda, troca, doação, locação, comodato, mútuo, prestação de serviço, empreitada, mandato, fiança, transação.',
-    size: '', schedule: '', advantage: null,
-    outline: [
-      'Compra e venda — preço, coisa, consentimento; cláusulas especiais',
-      'Doação — modalidades, revogação por ingratidão',
-      'Locação — Lei 8.245/91 (resumo)',
-      'Comodato e mútuo',
-      'Prestação de serviço × empreitada',
-      'Mandato — formal × tácito; substabelecimento',
-      'Fiança — características; benefício de ordem',
-      'Transação como negócio jurídico'
-    ],
-    sections: []
+    size: 'Médio',
+    schedule: 'Mês 2 da Fase 3 (jan/2027) — semana 4',
+    advantage: null,
+    sections: [
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'Os **contratos em espécie** (CC arts. 481-853) detalham os tipos contratuais mais comuns. Para concurso, a banca cobra repetidamente: COMPRA E VENDA (cláusulas especiais — retrovenda, preempção, reserva de domínio), DOAÇÃO (revogação por ingratidão), LOCAÇÃO (Lei 8.245/91), MÚTUO/COMODATO, FIANÇA (benefício de ordem), MANDATO. Os demais (transporte, depósito, seguro, jogo) tendem a ser menos cobrados.' },
+          { type: 'p', text: 'Atenção a três pontos cruciais: (1) **fiança não admite interpretação extensiva** (art. 819) — protege o fiador; (2) **doação pura é irrevogável**, salvo INGRATIDÃO (art. 555) — rol taxativo; (3) **locação residencial** segue Lei 8.245/91 (lei especial) e não o CC. CC trata locação de coisas em geral (arts. 565+), aplicável quando 8.245 não cobre.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Compra e venda (arts. 481-535)' },
+          { type: 'list', items: [
+            '**Art. 481** — pelo contrato de compra e venda, um dos contratantes obriga-se a transferir o domínio de certa coisa, e o outro, a pagar-lhe o preço',
+            '**Art. 484** — preço deve ser certo, determinado ou determinável; arbitramento por terceiro vale (art. 485)',
+            '**Art. 486-488** — preço pode ser fixado por bolsa de valores OU em referência ao MERCADO',
+            '**Art. 489** — cláusula leonina (preço a critério de uma das partes): NULA',
+            '**RETROVENDA (arts. 505-508)** — vendedor pode reservar o direito de recobrar o imóvel em prazo até 3 anos (decadencial)',
+            '**PREEMPÇÃO/PREFERÊNCIA (arts. 513-520)** — compromisso de oferecer preferência ao alienante em caso de revenda',
+            '**RESERVA DE DOMÍNIO (arts. 521-528)** — vendedor pode reservar para si o domínio até pagamento integral (móveis)'
+          ] },
+          { type: 'h', text: 'Doação (arts. 538-564)' },
+          { type: 'list', items: [
+            '**Art. 538** — doação é contrato pelo qual uma pessoa, por liberalidade, transfere bens a outra que os aceita',
+            '**Art. 540** — doação remuneratória ou modal: parte gratuita + parte onerosa',
+            '**Art. 549** — NULA a doação que exceder o que o doador poderia DISPOR em testamento (50% — proteção da legítima)',
+            '**Art. 555** — doação pode ser REVOGADA por INGRATIDÃO (art. 557 — rol TAXATIVO: atentar contra vida, ofensa física, injúria grave, recusa de alimentos) ou inexecução do encargo',
+            '**Art. 559** — direito de revogar é do DOADOR — incomunicável e não passa aos herdeiros'
+          ] },
+          { type: 'h', text: 'Locação (arts. 565-578 + Lei 8.245/91 — residencial/comercial)' },
+          { type: 'list', items: [
+            '**Lei 8.245/91** — locação predial urbana RESIDENCIAL e NÃO RESIDENCIAL (lei especial)',
+            'CC arts. 565-578 — locação de coisas em geral (móveis e imóveis rurais)',
+            '**Lei 8.245 art. 7º** — locação por prazo igual ou superior a 30 meses: resilição automática ao final do prazo. Inferior a 30 meses: prorroga automaticamente',
+            '**Lei 8.245 art. 47** — locação RESIDENCIAL sem prazo: pode ser denunciada após 5 anos contínuos OU sob determinadas hipóteses',
+            '**Bem de família do FIADOR de locação é PENHORÁVEL** (Lei 8.009/90 art. 3º VII — STF Tema 295)'
+          ] },
+          { type: 'h', text: 'Mútuo, comodato e mandato' },
+          { type: 'list', items: [
+            '**MÚTUO (arts. 586-592)** — empréstimo de coisa FUNGÍVEL (transferência de propriedade); muito usado para empréstimo de dinheiro',
+            '**COMODATO (arts. 579-585)** — empréstimo GRATUITO de coisa INFUNGÍVEL; somente uso',
+            '**MANDATO (arts. 653-692)** — alguém recebe poderes para praticar atos em nome de outrem; pode ser GRATUITO ou ONEROSO; expresso, tácito, geral, especial; SUBSTABELECIMENTO admitido salvo vedação'
+          ] },
+          { type: 'h', text: 'Fiança (arts. 818-839)' },
+          { type: 'list', items: [
+            '**Art. 818** — pelo contrato de fiança, uma pessoa garante satisfazer ao credor obrigação assumida pelo devedor, caso este não a cumpra',
+            '**Art. 819** — interpretação RESTRITIVA — não admite extensão',
+            '**Art. 820** — pode ser estipulada SEM o consentimento do devedor ou contra a vontade dele',
+            '**Art. 822** — fiança NÃO admite EXIGIBILIDADE em obrigações nulas',
+            '**Art. 827 — BENEFÍCIO DE ORDEM:** fiador goza do direito de exigir, antes da execução, sejam executados os bens do DEVEDOR. Renunciável (art. 828)',
+            '**Art. 838** — fiador exonera-se se for chamado a pagar e provar mudança da situação econômica do devedor'
+          ] },
+          { type: 'h', text: 'Transação (arts. 840-850)' },
+          { type: 'list', items: [
+            '**Art. 840** — transação previne ou termina litígios mediante CONCESSÕES MÚTUAS',
+            '**Art. 842** — transação por escrito (instrumento público se direitos imobiliários, particular se outros)',
+            '**Art. 849** — transação SÓ pode ser rescindida por DOLO, COAÇÃO ou ERRO ESSENCIAL quanto à pessoa ou coisa controvertida — não por simples ignorância de fatos'
+          ] }
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Doação — revogação por ingratidão (rol taxativo)' },
+          { type: 'p', text: 'CC art. 557 traz **rol TAXATIVO** das hipóteses de ingratidão: I — atentar contra a vida; II — ofensa física; III — injúria grave ou calúnia; IV — recusa de alimentos quando devidos. Outras condutas, mesmo reprováveis, NÃO autorizam revogação. Doação pura é IRREVOGÁVEL fora dessas hipóteses.' },
+          { type: 'box', kind: 'atencao', text: '**Rol do art. 557 é TAXATIVO** (numerus clausus). Conduta que não se enquadra = não revoga, ainda que reprovável.' },
+          { type: 'h', text: 'Fiança — interpretação restritiva (art. 819)' },
+          { type: 'p', text: 'Fiança é contrato de natureza acessória, gratuita (em regra) e protetora do fiador. Não admite extensão — se o contrato afiançado é prorrogado SEM concordância do fiador, a fiança não se estende ao novo prazo (Súmula 214/STJ — para locação). Princípio: **fiança = estrita interpretação**.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 214:** "O fiador na locação NÃO responde por obrigações resultantes de aditamento ao qual NÃO ANUIU."' },
+          { type: 'h', text: 'Benefício de ordem (art. 827)' },
+          { type: 'p', text: 'Fiador pode exigir que primeiro sejam executados os bens do **DEVEDOR PRINCIPAL**. Renunciável (art. 828). Não cabe se: (a) renunciado expressamente; (b) fiador for tutor, curador, ou se obrigou como devedor principal; (c) devedor for insolvente ou falido. Em locação, costuma haver renúncia expressa (art. 828 II — fiador "principal pagador").' },
+          { type: 'h', text: 'Reserva de domínio × alienação fiduciária' },
+          { type: 'p', text: '**Reserva de domínio** (CC arts. 521-528) — vendedor mantém propriedade até pagamento integral; comprador tem POSSE. Forma de garantia em compra e venda de móveis. **Alienação fiduciária** (Decreto-Lei 911/69 e Lei 9.514/97) — comprador transfere ao credor a propriedade RESOLÚVEL como garantia; muito usada em automóveis e imóveis. Distinção é cobrada.' },
+          { type: 'h', text: 'Locação — denúncia vazia × cheia' },
+          { type: 'p', text: '**DENÚNCIA VAZIA** = locador retoma sem motivo, ao final do prazo determinado de 30 meses (Lei 8.245 art. 47 I) ou após 5 anos de prazo indeterminado. **DENÚNCIA CHEIA** = motivada (uso próprio, demolição, etc.). Distinção essencial para entender retomada.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Doação — ROL TAXATIVO de ingratidão (art. 557): VIDA · OFENSA FÍSICA · INJÚRIA · RECUSA DE ALIMENTOS.**' },
+          { type: 'box', kind: 'macete', text: '**Mútuo = FUNGÍVEL (transfere propriedade). Comodato = INFUNGÍVEL (só uso, gratuito).**' },
+          { type: 'box', kind: 'macete', text: '**Fiança = INTERPRETAÇÃO RESTRITIVA (819). Súmula 214: aditamento sem fiador = não responde.**' },
+          { type: 'box', kind: 'macete', text: '**Benefício de ordem = renunciável (828). "Principal pagador" = renúncia.**' },
+          { type: 'box', kind: 'macete', text: '**Locação 30 meses ou +: denúncia vazia ao final. Menos: prorroga automática.**' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Doação rol de ingratidão é TAXATIVO** (art. 557). Outras condutas reprováveis NÃO autorizam revogação.' },
+          { type: 'box', kind: 'atencao', text: '**Mútuo é FUNGÍVEL** (transfere propriedade — mutuário tem que devolver coisa do mesmo gênero). Comodato é INFUNGÍVEL.' },
+          { type: 'box', kind: 'atencao', text: '**Súmula 214/STJ — fiador NÃO responde por aditamento sem sua anuência.** Aplicação à locação.' },
+          { type: 'box', kind: 'atencao', text: '**Bem de família do fiador de locação É PENHORÁVEL** (Lei 8.009 art. 3º VII + STF Tema 295).' },
+          { type: 'box', kind: 'atencao', text: '**Doação que excede ½ do patrimônio = NULA (art. 549)** — proteção da legítima.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 8 (contratos geral):** princípios e regras gerais aplicam-se a TODOS os contratos em espécie.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 4 (bens):** bem de família do fiador é penhorável (exceção Lei 8.009 art. 3º VII).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 7 (inadimplemento):** vícios redibitórios e evicção são institutos relacionados a defeitos contratuais.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico Civ 17 (sucessões):** doação não pode exceder o que poderia dispor em testamento (art. 549).' }
+        ]
+      }
+    ]
   },
   {
     id: 'civ-10-atos-unilaterais',
@@ -5308,7 +5500,22 @@ flashcards: [
   { id: 202, topic: 11, materia: 'civil', q: 'Dano moral e estético podem ser cumulados?', a: 'SIM — Súmula 387/STJ. Dano estético (lesão à integridade física que afeta aparência) é AUTÔNOMO ao dano moral (lesão à dignidade/imagem). Hipótese clássica: vítima de queimadura grave.', tags: ['fase3', 'resp-civil', 'dano'] },
   { id: 203, topic: 11, materia: 'civil', q: 'Pessoa jurídica pode sofrer dano moral?', a: 'SIM — Súmula 227/STJ. Tutela a HONRA OBJETIVA (reputação no mercado). NÃO cobre direitos da personalidade individuais (privacidade, integridade física). Inscrição indevida em SPC contra PJ pode gerar dano moral.', tags: ['fase3', 'resp-civil', 'PJ', 'dano'] },
   { id: 204, topic: 11, materia: 'civil', q: 'O Estado responde objetivamente por OMISSÃO?', a: 'DEPENDE. STF Tema 366: omissão GENÉRICA (falta de policiamento generalizado) = SUBJETIVA (faute du service). Omissão ESPECÍFICA (existindo dever específico de agir, ex: chuva e árvore caindo na via) = OBJETIVA. Distinção essencial.', tags: ['fase3', 'resp-civil', 'estado'] },
-  { id: 205, topic: 11, materia: 'civil', q: 'Súmula 385/STJ — qual a regra?', a: 'Anotação irregular em cadastro de proteção ao crédito NÃO gera dano moral, quando preexistente legítima inscrição (anterior). Limita o dano in re ipsa. Apenas direito ao cancelamento.', tags: ['fase3', 'resp-civil', 'sumula'] }
+  { id: 205, topic: 11, materia: 'civil', q: 'Súmula 385/STJ — qual a regra?', a: 'Anotação irregular em cadastro de proteção ao crédito NÃO gera dano moral, quando preexistente legítima inscrição (anterior). Limita o dano in re ipsa. Apenas direito ao cancelamento.', tags: ['fase3', 'resp-civil', 'sumula'] },
+
+  // ============ Bloco 14 — Fase 3 (Civil 8-9 — Contratos) ============
+  // Civ 8 — Contratos parte geral
+  { id: 206, topic: 8, materia: 'civil', q: 'Quais as 3 funções da boa-fé objetiva?', a: 'INTERPRETATIVA (art. 113 — interpretar negócios à luz da boa-fé); INTEGRATIVA (art. 422 — deveres anexos: informar, lealdade, cooperação); CONTROLE (art. 187 — abuso de direito).', tags: ['fase3', 'contratos', 'boa-fe'] },
+  { id: 207, topic: 8, materia: 'civil', q: 'O que é venire contra factum proprium?', a: 'Vedação à conduta contraditória — partes não podem agir de modo a frustrar expectativas legítimas que elas mesmas criaram. Decorre da boa-fé objetiva. Junto com supressio, surrectio, duty to mitigate e tu quoque, é instituto derivado.', tags: ['fase3', 'contratos', 'boa-fe'] },
+  { id: 208, topic: 8, materia: 'civil', q: 'Prazo decadencial para arguir vícios redibitórios?', a: 'CC art. 445: APARENTE — 30 dias para móvel, 1 ANO para imóvel. OCULTO: prazo conta da CIÊNCIA, com máximo legal (180 dias móvel, 1 ano imóvel após aquisição).', tags: ['fase3', 'contratos', 'vicios'] },
+  { id: 209, topic: 8, materia: 'civil', q: 'Diferença entre vício redibitório e evicção?', a: 'VÍCIO REDIBITÓRIO = defeito FÍSICO oculto da coisa (imprópria ao uso). EVICÇÃO = defeito JURÍDICO (sentença atribui a coisa a terceiro com direito anterior à aquisição). Cláusula que exclui evicção exige forma expressa + ciência.', tags: ['fase3', 'contratos', 'evicao'] },
+  { id: 210, topic: 8, materia: 'civil', q: 'Onerosidade excessiva no CC vs CDC — diferença?', a: 'CC art. 478: exige fato EXTRAORDINÁRIO + IMPREVISÍVEL + excessivamente oneroso + vantagem extrema para outra parte. CDC art. 6º V: basta o desequilíbrio superveniente — DISPENSA imprevisibilidade. Mais protetor ao consumidor.', tags: ['fase3', 'contratos', 'onerosidade'] },
+
+  // Civ 9 — Contratos espécie
+  { id: 211, topic: 9, materia: 'civil', q: 'Doação pura admite revogação?', a: 'NÃO, em regra. Apenas por INGRATIDÃO (art. 557 — rol TAXATIVO: atentar contra vida, ofensa física, injúria grave, recusa de alimentos) ou inexecução do encargo. Outras condutas, mesmo reprováveis, NÃO revogam.', tags: ['fase3', 'doacao'] },
+  { id: 212, topic: 9, materia: 'civil', q: 'Mútuo × comodato — diferença essencial?', a: 'MÚTUO: empréstimo de coisa FUNGÍVEL (dinheiro, grãos) — TRANSFERE propriedade; mutuário devolve do mesmo gênero. COMODATO: empréstimo GRATUITO de coisa INFUNGÍVEL — apenas USO, sem transferência de propriedade.', tags: ['fase3', 'mutuo', 'comodato'] },
+  { id: 213, topic: 9, materia: 'civil', q: 'O que é o benefício de ordem na fiança?', a: 'Direito do FIADOR de exigir que sejam executados PRIMEIRO os bens do DEVEDOR PRINCIPAL (art. 827). RENUNCIÁVEL (art. 828). Não cabe se: renunciou expressamente, é "principal pagador", devedor é insolvente/falido.', tags: ['fase3', 'fianca'] },
+  { id: 214, topic: 9, materia: 'civil', q: 'Súmula 214/STJ — qual a regra?', a: 'Fiador na locação NÃO responde por obrigações resultantes de aditamento ao qual NÃO ANUIU. Aplica princípio da interpretação RESTRITIVA da fiança (art. 819).', tags: ['fase3', 'fianca'] },
+  { id: 215, topic: 9, materia: 'civil', q: 'Bem de família do fiador locatício pode ser penhorado?', a: 'SIM (Lei 8.009/90 art. 3º VII + STF Tema 295 — RE 612.360). Exceção controversa (viola direito à moradia segundo crítica), mas constitucional.', tags: ['fase3', 'fianca', 'bem-familia'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -6578,6 +6785,60 @@ questions: [
     ],
     correct: 'C',
     explanation: 'STF Tema 366 (RE 841.526) — responsabilidade do Estado: comissivo OBJETIVO (art. 37 §6º); omissão genérica SUBJETIVA (faute du service); omissão específica OBJETIVA. (A) Falso — comissivo é objetivo. (B) Falso — omissão genérica é SUBJETIVA. (D) Falso — teoria adotada é RISCO ADMINISTRATIVO (com excludentes). (E) Falso — regresso depende de DOLO ou CULPA do agente (CF 37 §6º final).'
+  },
+
+  // ============ Bloco 14 — Fase 3 (Civil 8-9 — Contratos) ============
+  {
+    id: 87, topic: 8, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios contratuais no direito brasileiro, é correto afirmar:',
+    alternatives: [
+      'A autonomia da vontade é princípio absoluto, não admitindo qualquer limitação por outros princípios.',
+      'A função social do contrato (CC art. 421) limita a autonomia da vontade, vedando contratos que conflitem com os interesses sociais.',
+      'A boa-fé objetiva é estado psicológico do contratante, exigindo prova da intenção positiva.',
+      'A boa-fé objetiva tem apenas função interpretativa, não impondo deveres anexos às partes.',
+      'O princípio da pacta sunt servanda foi totalmente abandonado pelo CC/02, em razão da função social.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 421: liberdade de contratar exercida nos LIMITES da função social. (A) Falso — autonomia é relativizada. (C) Falso — boa-fé OBJETIVA é modelo de conduta, não estado psicológico (que seria a SUBJETIVA). (D) Falso — três funções: interpretativa, integrativa e controle. (E) Falso — pacta sunt servanda mantém-se como base, com mitigações.'
+  },
+  {
+    id: 88, topic: 8, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a teoria da imprevisão e a onerosidade excessiva, conforme o CC e o CDC, é correto afirmar:',
+    alternatives: [
+      'O CC e o CDC adotam a mesma fórmula para revisão contratual, exigindo fato extraordinário e imprevisível.',
+      'O CC exige fato extraordinário e imprevisível para resolver/revisar contrato (art. 478); o CDC dispensa imprevisibilidade — basta a onerosidade superveniente (art. 6º V).',
+      'Apenas o CDC permite revisão contratual; no direito civil, vigora pacta sunt servanda absoluto.',
+      'A onerosidade excessiva no CC autoriza apenas a resolução, vedada a revisão para reequilíbrio.',
+      'A teoria da imprevisão foi expressamente afastada pelo CC/02, em homenagem à autonomia da vontade.'
+    ],
+    correct: 'B',
+    explanation: 'CC art. 478 vs CDC art. 6º V: CC exige IMPREVISIBILIDADE; CDC basta o desequilíbrio. (A) Falso — fórmulas distintas. (C) Falso — CC também admite (art. 478). (D) Falso — art. 479 permite revisão pela outra parte. (E) Falso — CC/02 expressamente positivou a teoria.'
+  },
+  {
+    id: 89, topic: 9, materia: 'civil', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a doação no Código Civil, assinale a alternativa correta:',
+    alternatives: [
+      'A doação pura é sempre revogável a critério do doador.',
+      'O rol de hipóteses de ingratidão (art. 557) é exemplificativo, podendo o juiz adicionar outras condutas reprováveis.',
+      'A doação que excede o limite de disposição testamentária (1/2 do patrimônio) é NULA, independentemente de boa-fé do donatário.',
+      'A doação não admite cláusula modal, devendo ser pura ou condicional.',
+      'O direito de revogar por ingratidão pode ser exercido pelos herdeiros do doador a qualquer tempo.'
+    ],
+    correct: 'C',
+    explanation: 'CC art. 549: doação que excede 1/2 do patrimônio (limite testamentário) é NULA — proteção da legítima. (A) Falso — pura é IRREVOGÁVEL salvo ingratidão. (B) Falso — rol é TAXATIVO (art. 557). (D) Falso — doação MODAL é admitida (art. 540). (E) Falso — direito de revogar é do DOADOR, incomunicável aos herdeiros (art. 559).'
+  },
+  {
+    id: 90, topic: 9, materia: 'civil', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a fiança no direito brasileiro, assinale a alternativa correta:',
+    alternatives: [
+      'A fiança admite interpretação extensiva, em razão da garantia integral pretendida pelo credor.',
+      'O benefício de ordem é IRRENUNCIÁVEL pelo fiador, sob pena de nulidade da cláusula.',
+      'O fiador na locação responde por obrigações decorrentes de aditamento contratual, ainda que não tenha anuído.',
+      'O bem de família do fiador locatício é impenhorável em qualquer hipótese, em razão do direito constitucional à moradia.',
+      'A fiança é interpretada restritivamente (art. 819) e o fiador não responde por aditamento sem sua anuência (Súmula 214/STJ).'
+    ],
+    correct: 'E',
+    explanation: 'CC art. 819 + Súmula 214/STJ: interpretação RESTRITIVA da fiança; sem anuência ao aditamento, não responde. (A) Falso — interpretação restritiva. (B) Falso — benefício de ordem é RENUNCIÁVEL (art. 828). (C) Falso — Súmula 214 STJ. (D) Falso — Lei 8.009/90 art. 3º VII + STF Tema 295: penhorável.'
   }
 ],
 
