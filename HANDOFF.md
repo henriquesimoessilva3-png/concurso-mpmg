@@ -6,7 +6,7 @@
 
 Cole esta frase no início:
 
-> *Estou retomando o Projeto Concurso MPMG. Leia o HANDOFF.md em `/Users/henriquesimoessilva/Meu Drive/arquivos pessoais/Projeto Concurso/HANDOFF.md` para se contextualizar.*
+> *Estou retomando o Projeto Concurso MPMG. Leia `/Users/henriquesimoessilva/Meu Drive/arquivos pessoais/Projeto Concurso/HANDOFF.md` para se contextualizar — não execute nada antes de eu te dizer o próximo passo.*
 
 ## Quick facts
 
@@ -15,7 +15,8 @@ Cole esta frase no início:
 - **Candidata:** esposa do usuário Henrique. Já é **Analista do MP em Ouro Branco-MG**. Vantagem em Teoria do MP, Material/Processual Coletivo, ACP, tutelas.
 - **Carga:** **1h/dia útil** + 4h sábado + 4h domingo = ~15h/semana
 - **Horizonte:** 1-2 anos
-- **Foco atual:** Fase 1 — Direito Processual Civil, itens 1 a 20 ✅ **CONTEÚDO COMPLETO**
+- **Foco atual:** Fase 1 (PC 1-20), Fase 2 (PC 21-30) e Fase 3 (Direito Civil 1-17) com **CONTEÚDO COMPLETO**
+- **Decisão recente:** o app agora é compartilhado com outras pessoas — outras pessoas podem atacar OUTROS GRUPOS de estudo (Constitucional, Administrativo, Penal, etc.). Isso muda prioridades para o próximo bate.
 
 ## Está deployado
 
@@ -85,13 +86,24 @@ CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`
 - Status, Notas, Audio, Quick check e Ações rápidas ficam ocultos em stubs (não fazem sentido sem conteúdo)
 - Navegação prev/next filtra por matéria — não atravessa fronteira PC ↔ Civil
 
-## Próximas tasks possíveis
+## Próximas tasks possíveis (em ordem de prioridade no próximo chat)
 
-1. **Mais flashcards/questões** — segunda passada nos tópicos com poucos cards (PC 21-30 e Civil em geral). Hoje muitos têm 4-7 cards e 2-4 questões; o ideal seria 8-12 cards e 4-6 questões por tópico
-2. **Mais súmulas** — chegar a 60+ adicionando STJ 14, 38, 41, 121, 150 (já), 153, 168; STF 282 (já), 631, 736
-3. **Iniciar Mês 1 do estudo** — abrir tópico 1 PC, marcar status, fazer flashcards, registrar primeiro estudo no log
-4. **TOC interno por tópico** — sumário lateral linkando para cada `<h2>` do tópico
-5. **Importar conteúdo de PDF** — se candidata quiser, posso indexar súmulas direto do informativo STJ/STF mais recente
+### Alta prioridade — viabilizar uso compartilhado por outros candidatos
+
+1. **Esqueletos das 9 áreas restantes do edital** (~85 tópicos novos). Materia keys sugeridas: `'const'` (Constitucional), `'adm'` (Administrativo), `'elei'` (Eleitoral), `'trib'` (Tributário/Financeiro), `'mp'` (Teoria do MP), `'penal'` (Penal/Criminologia), `'pp'` (Proc. Penal), `'colmat'` (Material Coletivo), `'colproc'` (Processual Coletivo). Cada esqueleto: `id`, `num`, `materia`, `title`, `edital`, `editalText`, `outline[]`, `sections: []`. Ver `00-EDITAL-E-DOCS/analise-edital.md`.
+2. **Filtro de matéria no hub `index.html`** — com 47+ tópicos cadastrados, e mais 85 esqueletos por adicionar, o hub precisa de seletor/abas por matéria. Hoje só Fase 1 (PC 1-20), Fase 2 (PC 21-30 stub) e Fase 3 (Civil stub) aparecem em `<details>`.
+3. **README de contribuição** — explicar como outros candidatos podem fork → editar `data.js` (preencher um esqueleto) → PR. App é estático (HTML+JS), zero build.
+
+### Média prioridade — refinamento
+
+4. **Reforço de densidade** — vários tópicos PC 21-30 e Civil têm 4-7 cards e 2-4 questões. Ideal: 8-12 cards e 4-6 questões. Adicionar gradualmente.
+5. **+15 súmulas** para chegar a 60+ (STJ 14, 38, 41, 121, 153, 168, 380, 423, 545, 643, 711; STF SV 8, 631, 736).
+6. **TOC interno por tópico** — sumário lateral linkando os `<h2>` de cada tópico (útil em tópicos grandes como Civ 11, 13; PC 11, 16, 28).
+
+### Iniciar uso
+
+7. **Iniciar Mês 1 do estudo** — abrir tópico 1 PC, marcar status, fazer flashcards, registrar primeiro estudo no log.
+8. **Importar súmulas de informativos recentes** — se candidata quiser conteúdo atualizado, indexar STJ/STF.
 
 ## Como subir mudanças (auto-deploy via GitHub Pages)
 
@@ -129,9 +141,30 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - ✅ Conteúdo embutido em `data.js` (não via fetch — file:// causaria CORS)
 - ✅ GitHub Pages como deploy
 - ✅ Tópico viewer parametrizado (`topicos.html?id=...`)
-- ✅ Foco atual: só Processo Civil 1-20 (Fase 1)
 - ✅ Profundidade dos tópicos: sinopse Juspodivm-like (~3000 palavras/tópico)
 - ✅ Estrutura tipada de items (p, h, list, table, box) com fallback para strings
+- ✅ Quick check inline em cada tópico (mini-flashcard SM-2 + mini-questão), interopera com `flashcards-state` e `log-erros`
+- ✅ Empty-state automático para tópicos com `sections: []` (mostra outline)
+- ✅ Campo `materia` por tópico/flashcard/questão — filtragem por matéria em todos os pontos do app
+- ✅ Smart-back: `?topic=N` volta ao tópico de origem
+- ✅ Modo áudio (TTS) com seleção de vozes pt-BR
+- ✅ App é compartilhado — múltiplos candidatos podem usar; cada um tem progresso próprio em localStorage do seu navegador
+- ✅ Numeração de tópicos por matéria (PC: 1-30; Civil: 1-17; demais matérias terão numeração própria)
+
+## PRs recentes (2026-05-07)
+
+- **PR #1** (cd4576f) — Estrutura inicial: 20 tópicos PC + Quick check + súmulas + esqueletos PC 21-30 e Civil 1-17
+- **PR #2** (ee4e99e) — Fase 2 completa: PC 21-30 com conteúdo (Blocos 8, 9, 10)
+- **PR #3** (8566a40) — Fase 3 completa: Civil 1-17 com conteúdo (Blocos 11-17)
+- **PR #4** (950f2c0) — Reforço PC 21-30: +20 flashcards e +4 questões
+
+## Stats atuais
+
+- **47 tópicos com conteúdo** (30 PC + 17 Civil)
+- **267 flashcards** (164 PC + 84 Civil + 19 reforço PC)
+- **105 questões** com gabarito comentado
+- **48 súmulas** STF/STJ mapeadas
+- ~7.500 linhas em `assets/data.js` (~120k palavras)
 
 ## Memória persistente do Claude Code
 
