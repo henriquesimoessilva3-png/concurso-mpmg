@@ -1276,21 +1276,129 @@ topics: [
     schedule: 'Mês 3, Semana 1',
     advantage: null,
     sections: [
-      { h: 'Foco central', items: [
-        'Formação: propositura pela distribuição/despacho (CPC art. 312); efeitos da litispendência só com citação válida',
-        'Hipóteses de suspensão (CPC art. 313): morte/incapacidade da parte, convenção, prejudicial externa, etc.',
-        'Extinção sem resolução do mérito (CPC art. 485) × com resolução (art. 487)',
-        'Sentenças do art. 487: I) acolhe/rejeita pedido; II) decadência ou prescrição; III) homologação de transação/renúncia/reconhecimento',
-        'Perempção, litispendência e coisa julgada — defesas processuais peremptórias (CPC art. 337)'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 312-317; 313-315; 485-487'
-      ]},
-      { h: 'Pontos críticos', items: [
-        'Extinção por abandono unilateral (485 III): só após intimação pessoal em 5 dias',
-        'Súmula 240/STJ — extinção por abandono depende de pedido do réu',
-        'Perda do objeto × perda superveniente do interesse'
-      ]}
+      {
+        h: 'Foco central',
+        items: [
+          { type: 'p', text: 'A relação jurídica processual nasce, desenvolve-se e extingue-se segundo regras próprias que delimitam três grandes momentos: **formação** (arts. 312-317), **suspensão** (arts. 313-315) e **extinção** (arts. 485-487). É um capítulo curto mas estratégico — toca em institutos transversais como litispendência, coisa julgada, perempção, prescrição e decadência.' },
+          {
+            type: 'table',
+            headers: ['Momento', 'Marco', 'Efeitos'],
+            rows: [
+              ['Formação para o autor', 'Propositura (protocolo da PI ou distribuição) — art. 312', 'Interrompe prescrição retroativamente (art. 240 §1º), em relação ao autor'],
+              ['Formação para o réu', 'Citação válida — arts. 238-239', 'Litispendência, coisa litigiosa, mora; interrompe prescrição (em relação ao réu)'],
+              ['Suspensão', 'Hipóteses do art. 313', 'Pausa o processo; prazos param e retomam'],
+              ['Extinção sem mérito', 'Hipóteses do art. 485', 'Não impede repropositura (salvo perempção)'],
+              ['Extinção com mérito', 'Hipóteses do art. 487', 'Faz coisa julgada material — impede repropositura']
+            ]
+          },
+          { type: 'p', text: '**Formação:** a propositura ocorre com o protocolo (ou distribuição, onde houver — art. 312). Do ponto de vista do autor, gera efeitos imediatos (interrupção da prescrição, prevenção do juízo). Do ponto de vista do réu, só com a citação válida há litispendência, coisa litigiosa e os demais efeitos do art. 240.' },
+          { type: 'p', text: '**Suspensão (art. 313):** o processo pausa, prazos não correm. Diferentes da extinção (que põe fim ao processo). Hipóteses principais: morte/perda de capacidade de parte ou advogado; convenção das partes (até 6 meses); arguição de impedimento ou suspeição; admissão de IRDR; força maior; parto/adoção da advogada (art. 313 §6º — Lei 13.363/16 + Lei 14.752/23).' },
+          { type: 'p', text: '**Extinção:** o CPC distingue claramente:' },
+          { type: 'list', items: [
+            '**SEM resolução de mérito (art. 485)** — 10 hipóteses; gera apenas coisa julgada FORMAL; cabe repropositura (salvo no caso de perempção, art. 486 §3º)',
+            '**COM resolução de mérito (art. 487)** — 3 hipóteses; gera coisa julgada MATERIAL; impede repropositura'
+          ]}
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'h', text: 'Formação (arts. 312-317)' },
+          { type: 'list', items: [
+            '**Art. 312** — propositura para o autor (protocolo)',
+            '**Art. 240** — efeitos da citação (litispendência, coisa litigiosa, mora, interrupção da prescrição)',
+            '**Art. 240 §1º** — interrupção da prescrição RETROAGE à data da propositura',
+            '**Art. 317** — antes de extinguir, juiz deve dar oportunidade de sanar vício'
+          ]},
+          { type: 'h', text: 'Suspensão (arts. 313-315)' },
+          { type: 'list', items: [
+            '**Art. 313 I** — morte ou perda de capacidade processual da parte/advogado',
+            '**Art. 313 II** — convenção das partes (até 6 meses, art. 313 §4º)',
+            '**Art. 313 III** — arguição de impedimento ou suspeição',
+            '**Art. 313 IV** — admissão de IRDR ou IAC',
+            '**Art. 313 V** — prejudicial externa (até 1 ano, art. 313 §4º)',
+            '**Art. 313 VI** — força maior',
+            '**Art. 313 VII** — concessão de parto/adoção (Lei 14.752/23)',
+            '**Art. 314** — durante a suspensão, vedados atos processuais; salvo urgentes'
+          ]},
+          { type: 'h', text: 'Extinção (arts. 485-487)' },
+          { type: 'list', items: [
+            '**Art. 485** — extinção SEM mérito (10 incisos)',
+            '**Art. 485 III** — abandono pelo autor (intimação pessoal + 5 dias para suprir)',
+            '**Art. 485 IV** — falta de pressupostos processuais',
+            '**Art. 485 V** — perempção, litispendência ou coisa julgada',
+            '**Art. 485 VI** — falta de legitimidade ou interesse',
+            '**Art. 485 VIII** — desistência da ação (precisa de anuência do réu se já contestou — §4º)',
+            '**Art. 486** — impede repropositura (perempção — §3º)',
+            '**Art. 487** — extinção COM mérito',
+            '**Art. 487 I** — acolher/rejeitar pedido',
+            '**Art. 487 II** — decadência ou prescrição',
+            '**Art. 487 III** — homologação: transação, renúncia, reconhecimento'
+          ]}
+        ]
+      },
+      {
+        h: 'Pontos críticos para prova',
+        items: [
+          { type: 'h', text: 'Marcos de formação — autor × réu' },
+          { type: 'p', text: 'Para o **autor**, o processo se forma com a **propositura** (protocolo da PI — art. 312). Já produz efeitos: interrupção da prescrição retroativa à propositura, prevenção do juízo, dever de boa-fé. Para o **réu**, só há processo com **citação válida** (art. 240). Antes disso, ainda não está em juízo.' },
+
+          { type: 'h', text: 'Suspensão — duas categorias' },
+          { type: 'p', text: 'Hipóteses **necessárias** (independem de juízo): morte da parte/advogado, força maior, parto/adoção da advogada. Hipóteses **dependentes de juízo** ou requerimento: convenção das partes, prejudicial externa, IRDR. **Limites temporais:** convenção das partes — até 6 meses (art. 313 §4º); prejudicial externa — até 1 ano. Findos, processo retoma.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.114 (REsp 1.957.301):** o CPC/15 estendeu a suspensão por parto da advogada também à advogada autônoma — não apenas empregada. Lei 14.752/23 consolidou a interpretação.' },
+
+          { type: 'h', text: 'Extinção sem mérito (art. 485) — pontos críticos' },
+          { type: 'p', text: '**Inciso III — abandono pelo autor:** depende de DUPLO requisito: (a) intimação PESSOAL do autor para suprir em 5 dias; (b) requerimento do RÉU (Súmula 240/STJ — não pode ser de ofício após contestação). Lógica: se o réu já contestou, tem interesse em prosseguir.' },
+          { type: 'p', text: '**Inciso V — perempção, litispendência, coisa julgada:** matérias de ordem pública, declaráveis de ofício em qualquer grau (art. 485 §3º).' },
+          { type: 'p', text: '**Inciso VIII — desistência:** se já contestou, precisa do consentimento do réu (art. 485 §4º). Se não contestou, basta o ato unilateral do autor.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 240:** "A extinção do processo, por abandono da causa pelo autor, depende de requerimento do réu." Princípio basilar — vedado o juiz extinguir de ofício após a contestação.' },
+
+          { type: 'h', text: 'Perempção (art. 486 §3º)' },
+          { type: 'p', text: 'Sanção processual: o autor que **3 vezes** der causa à extinção por abandono (art. 485 III) **NÃO PODERÁ** propor nova ação contra o mesmo réu, com o mesmo objeto. Exceção única à regra de que extinção sem mérito permite repropositura. Embora rara na prática, é tema clássico de prova.' },
+
+          { type: 'h', text: 'Extinção COM mérito (art. 487)' },
+          { type: 'p', text: 'Três hipóteses TAXATIVAS:' },
+          { type: 'list', items: [
+            '**I — Acolhe ou rejeita o pedido** (sentença de procedência ou improcedência)',
+            '**II — Decadência ou prescrição** — embora extingam o direito material, o art. 487 II expressamente as classifica como sentença de mérito (geram coisa julgada material!)',
+            '**III — Homologação:** transação, renúncia ao direito, reconhecimento da procedência do pedido'
+          ]},
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — sentença que pronuncia prescrição/decadência (art. 487 II) gera coisa julgada material.** Embora a parte não chegue a discutir o mérito propriamente dito, a decisão impede a repropositura. Diferença CRUCIAL em relação à extinção sem mérito.' },
+
+          { type: 'h', text: 'Princípio da primazia do mérito (art. 317)' },
+          { type: 'p', text: 'Antes de extinguir o processo sem mérito por vício sanável, o juiz **deve oportunizar a correção** (art. 317). Concretiza a primazia do mérito (art. 4º) e a cooperação (art. 6º). Exemplos: emenda da inicial (art. 321), suprimento da capacidade processual (art. 76), regularização de representação.' }
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Marcos da formação — "autor PROtocola, réu CIta":** **PRO**positura = autor (efeitos imediatos). **CI**tação = réu (litispendência, coisa litigiosa, mora).' },
+          { type: 'box', kind: 'macete', text: '**Suspensão (art. 313) — 7 hipóteses memorizáveis "MOSAICO":** **M**orte ou incapacidade, **O**bservância de prejudicial, **S**uspensão por convenção, **A**rguição de impedimento/suspeição, **I**RDR/IAC, **C**aso fortuito/força maior, parto/adoção (**O**bstetrícia).' },
+          { type: 'box', kind: 'macete', text: '**Art. 487 — extinção COM mérito (3 hipóteses) "AHP":** **A**colhe/rejeita pedido, **H**omologa transação/renúncia/reconhecimento, **P**rescrição/decadência.' },
+          { type: 'box', kind: 'macete', text: '**Perempção — "3 strikes":** 3 abandonos = autor PROIBIDO de repropor. Sanção processual única.' },
+          { type: 'box', kind: 'macete', text: '**Extinção sem × com mérito:** SEM = formal (repropõe); COM = material (não repropõe). Decadência/prescrição estão na 2ª categoria — armadilha clássica.' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Decadência e prescrição GERAM COISA JULGADA MATERIAL** (art. 487 II) — extinguem o direito material. Banca tenta colocar como extinção sem mérito (errado).' },
+          { type: 'box', kind: 'atencao', text: '**Abandono pelo autor (art. 485 III)** depende de DUAS coisas: intimação pessoal + requerimento do réu (Súmula 240). Não é automático.' },
+          { type: 'box', kind: 'atencao', text: '**Desistência após contestação** precisa do consentimento do réu (art. 485 §4º). Antes da contestação, basta a vontade do autor.' },
+          { type: 'box', kind: 'atencao', text: '**Convenção de suspensão — máximo 6 meses** (art. 313 §4º). Findo o prazo, processo retoma automaticamente.' },
+          { type: 'box', kind: 'atencao', text: '**Antes de extinguir por vício SANÁVEL, juiz DEVE intimar para sanar** (art. 317 + primazia do mérito). Extinção direta é nulidade.' },
+          { type: 'box', kind: 'atencao', text: '**Perempção (art. 486 §3º) impede REPROPOSIÇÃO contra o MESMO réu, com o MESMO objeto.** Não impede ação contra outro réu ou com objeto diverso.' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 3 (jurisdição/ação):** condições da ação (legitimidade, interesse) — sua ausência leva à extinção sem mérito (art. 485 VI).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 8 (atos processuais):** durante a suspensão (art. 313), prazos param. Atos urgentes admitidos.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 11 (procedimento comum):** o art. 487 é o desfecho típico do procedimento comum — sentença de mérito.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** sentenças de mérito (art. 487) e sem mérito (art. 485) são apeláveis. Da extinção, é típica a apelação (art. 1.009).' }
+        ]
+      }
     ]
   },
   {
@@ -1303,45 +1411,254 @@ topics: [
     schedule: 'Mês 3',
     advantage: 'Coisa julgada coletiva e ACP = vivência da candidata',
     sections: [
-      { h: 'Estratégia', items: [
-        'Tópico massivo. Quebrar em sub-temas: petição inicial, audiência, contestação/reconvenção, revelia, saneamento, AIJ, provas, sentença, coisa julgada, processo estrutural, liquidação.',
-        'Fazer questão a cada sub-tema; revisar acumulado a cada semana'
-      ]},
-      { h: 'Petição inicial e improcedência liminar', items: [
-        'Requisitos da PI (CPC art. 319) — endereçamento, partes, fatos, fundamentos, pedido, valor, provas, opção por audiência',
-        'Improcedência liminar (CPC art. 332): contraria SV, RE/REsp repetitivo, IRDR, IAC, súmula STF/STJ; ou consumação de prescrição/decadência',
-        'Emenda da PI (15 dias) antes do indeferimento'
-      ]},
-      { h: 'Audiência de conciliação/mediação, contestação e reconvenção', items: [
-        'Audiência obrigatória se ambas as partes aceitarem (CPC art. 334)',
-        'Não comparecimento injustificado: ato atentatório (multa de até 2% do valor da causa)',
-        'Contestação em 15 dias (CPC art. 335) — concentração das defesas (337)',
-        'Reconvenção: na própria contestação (não mais peça autônoma)',
-        'Revelia: presunção de veracidade dos fatos (337 §1º), com mitigações'
-      ]},
-      { h: 'Saneamento, AIJ e provas', items: [
-        'Saneamento (CPC art. 357): fixa pontos controvertidos, distribuição do ônus da prova, agenda AIJ',
-        'Distribuição dinâmica do ônus da prova (357 §5º)',
-        'AIJ: alegações finais por escrito (memoriais) ou oralmente',
-        'Provas em espécie: depoimento pessoal, testemunhas, documental, pericial, inspeção judicial'
-      ]},
-      { h: 'Sentença e consequencialismo', items: [
-        'Requisitos da sentença (489) — fundamentação concreta',
-        'CPC art. 489 §1º — fundamentação inadequada (5 hipóteses)',
-        'Consequencialismo (LINDB arts. 20-21) — decisão em sede pública deve considerar consequências práticas'
-      ]},
-      { h: 'Coisa julgada', items: [
-        'Coisa julgada formal (no processo) × material (fora do processo)',
-        'Limites objetivos (parte dispositiva); subjetivos (partes)',
-        'Coisa julgada coletiva secundum eventum litis (CDC art. 103) e secundum eventum probationis (ação popular)',
-        'Relativização da coisa julgada — debate; STF cauteloso (RE 730.462)',
-        'Processo estrutural: tutelas de implementação de políticas públicas'
-      ]},
-      { h: 'Lei seca primária', items: [
-        'CPC arts. 318-512 (Procedimento Comum + Sentença + Coisa julgada)',
-        'CDC art. 103 (coisa julgada coletiva)',
-        'LINDB arts. 20-21 (consequencialismo)'
-      ]}
+      {
+        h: 'Estratégia',
+        items: [
+          { type: 'box', kind: 'info', text: '**Tópico GIGANTE.** Estude por sub-temas, com questões a cada bloco. Sequência sugerida: (1) PI + improcedência liminar; (2) audiência + contestação + reconvenção + revelia; (3) saneamento + AIJ; (4) provas (geral + cada espécie); (5) sentença + remessa necessária; (6) coisa julgada + relativização; (7) processo estrutural + liquidação. Reserve o Mês 3 INTEIRO para este tópico.' },
+          { type: 'p', text: 'O procedimento comum é a marcha-padrão do CPC (art. 318) — aplicável a todas as causas que não têm rito especial. Conhecer o "caminho do gato" (PI → audiência → contestação → saneamento → AIJ → sentença) é INDISPENSÁVEL para entender qualquer outro tópico.' }
+        ]
+      },
+      {
+        h: 'Petição inicial e improcedência liminar',
+        items: [
+          { type: 'h', text: 'Requisitos da PI (art. 319)' },
+          { type: 'p', text: 'A petição inicial deve conter: (I) juízo a que é dirigida; (II) qualificação completa das partes; (III) fato e fundamentos jurídicos do pedido; (IV) pedido com suas especificações; (V) valor da causa; (VI) provas pretendidas; (VII) opção (sim/não) pela audiência de conciliação/mediação. Documentos indispensáveis devem acompanhar (art. 320).' },
+          { type: 'p', text: '**Pedido (art. 322):** deve ser certo (objeto delimitado) e determinado (extensão delimitada). Pedido genérico admitido excepcionalmente (art. 324: ações universais; consequências de ato/fato a apurar; valor depende de ato a ser praticado pelo réu).' },
+          { type: 'h', text: 'Emenda da inicial (art. 321)' },
+          { type: 'p', text: 'Antes de indeferir a PI por defeito ou irregularidade sanável, o juiz **DEVE** determinar emenda em 15 dias. Materialização do princípio da primazia do mérito (art. 4º). Inércia → indeferimento (art. 330 IV).' },
+          { type: 'h', text: 'Indeferimento (art. 330)' },
+          { type: 'p', text: 'Hipóteses: (I) inépcia; (II) parte ilegítima; (III) falta de interesse; (IV) não emenda; (V) verba autoral acima do art. 292. **Inépcia (art. 330 §1º):** falta pedido ou causa de pedir; pedido indeterminado fora das hipóteses do art. 324; conclusão não decorre da narração; pedidos incompatíveis.' },
+          { type: 'h', text: 'Improcedência liminar (art. 332) — mecanismo CRUCIAL' },
+          { type: 'p', text: 'Permite ao juiz julgar IMPROCEDENTE o pedido SEM CITAR o réu, desde que a causa dispense fase probatória e o pedido contrarie:' },
+          { type: 'list', items: [
+            '**I** — enunciado de súmula do STF ou STJ',
+            '**II** — acórdão proferido em julgamento de RE/REsp REPETITIVOS',
+            '**III** — entendimento firmado em IRDR ou IAC',
+            '**IV** — enunciado de súmula de tribunal local sobre direito local',
+            '**Art. 332 §1º** — também quando pronunciar decadência ou prescrição'
+          ]},
+          { type: 'p', text: 'Recurso: APELAÇÃO em 15 dias. Se não houver retratação (art. 332 §3º — único caso de retratação na apelação), o réu é citado para apresentar contrarrazões.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.806.946:** a improcedência liminar do art. 332 é técnica de aceleração, não de cerceamento. O juiz só pode aplicá-la se a tese contrariada estiver bem delimitada e a causa dispensar dilação probatória. Falta de fundamentação adequada gera nulidade.' }
+        ]
+      },
+      {
+        h: 'Audiência, contestação, reconvenção e revelia',
+        items: [
+          { type: 'h', text: 'Audiência de conciliação/mediação (art. 334)' },
+          { type: 'p', text: 'Recebida a PI e não sendo caso de improcedência liminar, o juiz designa audiência de conciliação/mediação **OBRIGATORIAMENTE**. Só dispensa se (art. 334 §4º): (I) **AMBAS** as partes manifestarem desinteresse expresso; (II) não admitir autocomposição (matérias indisponíveis sem flexibilização). Não basta a manifestação de uma parte.' },
+          { type: 'p', text: '**Não comparecimento injustificado:** ato atentatório à dignidade da Justiça — multa de até **2% da vantagem econômica pretendida ou do valor da causa** (art. 334 §8º). Sanção rara mas real.' },
+          { type: 'h', text: 'Contestação (art. 335)' },
+          { type: 'p', text: 'Prazo: **15 DIAS ÚTEIS**. Termo inicial:' },
+          { type: 'list', items: [
+            '**I** — audiência conciliação infrutífera ou cancelada (do dia da última sessão)',
+            '**II** — protocolo do desinteresse pelo réu (se foi quem o manifestou)',
+            '**III** — citação válida, nas hipóteses em que NÃO houve audiência'
+          ]},
+          { type: 'p', text: '**Concentração das defesas (art. 337):** TODAS as defesas processuais (preliminares) reúnem-se na contestação. Rol do art. 337 (15 incisos) — taxativo. Ausência de arguição = preclusão (salvo matérias de ordem pública: incompetência absoluta, coisa julgada, litispendência, perempção, etc.).' },
+          { type: 'p', text: '**Defesa de mérito:** ônus da impugnação ESPECÍFICA (art. 341) — fato não impugnado é PRESUMIDAMENTE verdadeiro, salvo: (i) defesa por advogado dativo, curador especial ou MP (negativa geral); (ii) fato sobre o qual não cabe confissão; (iii) fato em contradição com a defesa.' },
+          { type: 'h', text: 'Reconvenção (arts. 343-346)' },
+          { type: 'p', text: 'No CPC/15 a reconvenção é apresentada **NA PRÓPRIA CONTESTAÇÃO** (não mais em peça autônoma). Requisitos: (i) conexão com a ação ou com fundamento da defesa; (ii) competência absoluta do juízo. Pode ser proposta contra terceiro (art. 343 §3º) — ampliação subjetiva.' },
+          { type: 'p', text: 'Desistência da ação NÃO IMPEDE prosseguimento da reconvenção (art. 343 §2º). Pagam-se honorários autônomos pelo julgamento de cada uma.' },
+          { type: 'h', text: 'Revelia (arts. 344-346)' },
+          { type: 'p', text: '**Conceito:** ausência de contestação. **Efeito MATERIAL:** presumem-se verdadeiros os fatos alegados pelo autor (art. 344). **Efeito PROCESSUAL:** independência de intimação dos atos posteriores (art. 346 — exceção: ato cuja eficácia depende de intimação).' },
+          { type: 'p', text: '**Mitigações ao efeito material (art. 345):** (I) pluralidade de réus, com defesa de algum (mas só sobre fatos comuns); (II) direitos indisponíveis; (III) PI desacompanhada de instrumento que a lei considere indispensável; (IV) inverossimilhança ou contradição com prova nos autos.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 231:** "A incidência da revelia não dispensa o juiz de produzir as provas que considerar relevantes para o seu convencimento." Princípio da busca da verdade real continua vigente mesmo com revelia.' }
+        ]
+      },
+      {
+        h: 'Providências preliminares e saneamento',
+        items: [
+          { type: 'h', text: 'Providências preliminares (arts. 347-353)' },
+          { type: 'p', text: 'Após a contestação, o juiz pode determinar: réplica do autor (art. 350 — em caso de defesa indireta de mérito); réplica para impugnar documentos novos (art. 351); especificação de provas (art. 348). É a fase de "saneamento prévio" — checar se está apto para julgamento.' },
+          { type: 'h', text: 'Julgamento conforme o estado do processo (arts. 354-357)' },
+          { type: 'p', text: 'Possibilidades:' },
+          { type: 'list', items: [
+            '**Art. 354** — extinção (sem ou com mérito por homologação)',
+            '**Art. 355** — JULGAMENTO ANTECIPADO DE MÉRITO (causa madura, dispensa instrução): I) só direito ou fato provado documentalmente; II) revelia com efeito material e sem necessidade de outras provas',
+            '**Art. 356** — JULGAMENTO ANTECIPADO PARCIAL (sentença sobre parcela incontroversa ou já madura, prosseguindo nas demais)',
+            '**Art. 357** — DECISÃO DE SANEAMENTO E ORGANIZAÇÃO'
+          ]},
+          { type: 'p', text: '**Julgamento antecipado parcial (art. 356)** é uma das maiores inovações do CPC/15. Permite "satisfazer já o que se pode satisfazer", enquanto o restante segue. Recurso: **agravo de instrumento** (art. 1.015 II).' },
+          { type: 'h', text: 'Decisão de saneamento (art. 357) — momento-chave' },
+          { type: 'p', text: 'Quando NÃO for caso de extinção ou julgamento antecipado, o juiz profere decisão organizando o processo:' },
+          { type: 'list', items: [
+            '**I** — Resolve as questões processuais pendentes',
+            '**II** — Delimita as questões de fato controvertidas, definindo o objeto da prova',
+            '**III** — Define a distribuição do ÔNUS DA PROVA (regra do art. 373 ou DINÂMICA — §5º)',
+            '**IV** — Delimita as questões de direito relevantes para a decisão',
+            '**V** — Designa AIJ se necessária'
+          ]},
+          { type: 'p', text: '**Saneamento cooperativo (art. 357 §3º):** em causas complexas, o juiz pode designar audiência DE saneamento, ouvindo as partes. **Saneamento consensual (art. 357 §2º):** as partes podem apresentar saneamento conjunto, que se torna VINCULANTE — exemplo de NJP típico.' },
+          { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.846.109:** a distribuição dinâmica do ônus da prova exige decisão FUNDAMENTADA, oportunidade prévia de manifestação às partes (contraditório efetivo, art. 357 §1º) e demonstração da impossibilidade ou maior dificuldade de cumprir o ônus pela parte originalmente onerada. Sem isso, há nulidade.' }
+        ]
+      },
+      {
+        h: 'AIJ, teorias da verdade e provas',
+        items: [
+          { type: 'h', text: 'Audiência de instrução e julgamento (arts. 358-368)' },
+          { type: 'p', text: 'Sequência típica: (1) tentativa de conciliação; (2) esclarecimentos do perito; (3) depoimento pessoal das partes; (4) inquirição de testemunhas; (5) debates orais (20min cada, prorrogáveis por 10) ou alegações finais por memoriais escritos (15 dias).' },
+          { type: 'h', text: 'Teorias da verdade no processo' },
+          { type: 'p', text: 'O CPC/15 abandona a dicotomia VERDADE FORMAL × VERDADE MATERIAL — adota visão moderna: verdade processual como construção COOPERATIVA, sempre aproximativa. Princípios:' },
+          { type: 'list', items: [
+            '**Verdade aproximativa** (Marinoni, Mitidiero) — verdade absoluta é inalcançável; importa a verdade JUSTIFICÁVEL no contraditório',
+            '**Cooperação na produção da prova** (art. 6º) — ônus dinâmico (art. 373 §1º)',
+            '**Ampla iniciativa probatória do juiz** (art. 370 — pode determinar provas de ofício, com limites do contraditório e fundamentação)'
+          ]},
+          { type: 'h', text: 'Provas — disposições gerais (arts. 369-380)' },
+          { type: 'p', text: '**Direito à prova (art. 369):** as partes têm direito de empregar TODOS os meios legais e moralmente legítimos para provar suas alegações. **Atipicidade probatória** — admissível qualquer meio que respeite a lei e a moral.' },
+          { type: 'p', text: '**Ônus da prova (art. 373):**' },
+          {
+            type: 'table',
+            headers: ['Quem', 'O que prova', 'Base'],
+            rows: [
+              ['Autor', 'Fato CONSTITUTIVO de seu direito', 'Art. 373 I'],
+              ['Réu', 'Fato IMPEDITIVO, MODIFICATIVO ou EXTINTIVO do direito do autor', 'Art. 373 II'],
+              ['Quem o juiz fixar (DINÂMICA)', 'Conforme peculiaridades; impossibilidade ou dificuldade do ônus padrão', 'Art. 373 §1º (CPC/15)']
+            ]
+          },
+          { type: 'p', text: '**Convenção sobre o ônus (art. 373 §3º):** admitida em direitos disponíveis, salvo se tornar excessivamente difícil a prova para uma parte (NJP probatório).' },
+          { type: 'p', text: '**Privilégios e sigilos (art. 388):** ninguém é obrigado a depor sobre fatos: (I) cuja revelação cause grave dano à própria parte ou parente; (II) protegidos por sigilo profissional; (III) que importem desonra; (IV) sobre cuja guarda a lei imponha sigilo. Conexão com privacidade (CF art. 5º X) e devido processo.' },
+          { type: 'h', text: 'Provas em espécie' },
+          { type: 'list', items: [
+            '**Ata notarial (art. 384)** — moderna; comprovação de fato pelo tabelião (capturas de tela, conteúdo de redes, etc.)',
+            '**Depoimento pessoal (arts. 385-388)** — pode resultar em CONFISSÃO',
+            '**Confissão (arts. 389-395)** — judicial ou extrajudicial; cinde-se quando contiver fato modificativo',
+            '**Exibição de documento ou coisa (arts. 396-404)** — recusa pode gerar admissão dos fatos (art. 400)',
+            '**Documental (arts. 405-441)** — escrito ou qualquer suporte; público (presunção de veracidade) × particular (fé entre as partes)',
+            '**Documentos eletrônicos (arts. 439-441)** — Lei 11.419/06 + ICP-Brasil; força probante reconhecida',
+            '**Testemunhal (arts. 442-463)** — máximo 10 por parte (art. 357 §6º); ROL no prazo do saneamento; intimação pela parte (art. 455)',
+            '**Pericial (arts. 464-480)** — perito com confiança técnica; quesitos e assistente técnico; laudo NÃO vincula o juiz (art. 479; livre convencimento motivado — art. 371)',
+            '**Inspeção judicial (arts. 481-484)** — juiz inspeciona pessoa, coisa ou lugar'
+          ]}
+        ]
+      },
+      {
+        h: 'Sentença, qualidade da decisão e tutela específica',
+        items: [
+          { type: 'h', text: 'Requisitos da sentença (art. 489)' },
+          { type: 'p', text: 'A sentença é o ato pelo qual o juiz: (i) extingue o processo sem mérito (art. 485); (ii) resolve o mérito (art. 487). Estrutura obrigatória (art. 489):' },
+          { type: 'list', items: [
+            '**I — Relatório** — síntese da causa',
+            '**II — Fundamentos** — análise das questões de fato e de direito',
+            '**III — Dispositivo** — resposta aos pedidos'
+          ]},
+          { type: 'h', text: 'Fundamentação substancial (art. 489 §1º) — INOVAÇÃO RADICAL' },
+          { type: 'p', text: 'NÃO se considera fundamentada decisão que:' },
+          { type: 'list', items: [
+            '**I** — limitar-se à indicação, reprodução ou paráfrase do ato normativo',
+            '**II** — empregar conceitos jurídicos indeterminados sem explicar a aplicação ao caso',
+            '**III** — invocar motivos que se prestariam a justificar qualquer outra decisão',
+            '**IV** — não enfrentar todos os argumentos deduzidos no processo CAPAZES de infirmar a conclusão',
+            '**V** — limitar-se a invocar precedente ou súmula sem demonstrar a adequação ao caso',
+            '**VI** — deixar de seguir precedente ou súmula sem demonstrar distinção (DISTINGUISHING) ou superação (OVERRULING)'
+          ]},
+          { type: 'p', text: 'Pioneira no mundo. Eleva o ônus de fundamentação a patamar inédito. Aplicada com firmeza pelo STJ — sentença que descumpre é NULA (art. 489 §1º + CF art. 93 IX).' },
+          { type: 'h', text: 'Consequencialismo (LINDB arts. 20-21, Lei 13.655/18)' },
+          { type: 'p', text: 'Em decisões nas esferas administrativa, controladora e judicial sobre direito público, o decisor **NÃO** decidirá com base em valores jurídicos abstratos sem considerar as **CONSEQUÊNCIAS PRÁTICAS** da decisão. Deve indicar a necessidade e a adequação da medida, considerando alternativas. Aplica-se ao MP em pareceres de controle de políticas públicas e em ACPs estruturais.' },
+          { type: 'h', text: 'Princípio da congruência (arts. 141 e 492)' },
+          { type: 'p', text: 'Decisão NOS LIMITES do pedido — vedados extra, ultra ou citra petita. Pedidos implícitos (juros legais, correção monetária, custas, honorários) integram a condenação independentemente de pedido (arts. 322 §1º e 491).' },
+          { type: 'h', text: 'Tutela específica das obrigações (arts. 497-501)' },
+          { type: 'p', text: 'Em obrigações de fazer/não-fazer e de entregar coisa, o juiz deve buscar o resultado prático equivalente — multa diária, busca e apreensão, remoção de pessoas/coisas, desfazimento de obras, impedimento de atividade nociva. Conversão em perdas e danos só se solicitada pelo autor ou impossível.' },
+          { type: 'h', text: 'Remessa necessária (art. 496)' },
+          { type: 'p', text: 'Sentença contra a Fazenda Pública só transita em julgado após confirmação pelo tribunal — duplo grau OBRIGATÓRIO. Hipóteses de NÃO submissão (art. 496 §3º):' },
+          { type: 'list', items: [
+            '**União** — condenação até 1.000 SM',
+            '**Estados/DF/capitais** — até 500 SM',
+            '**Municípios não-capitais** — até 100 SM',
+            'Sentença fundada em jurisprudência STF/STJ; tese de RE/REsp repetitivo; IRDR; IAC; SV (art. 496 §4º)'
+          ]}
+        ]
+      },
+      {
+        h: 'Coisa julgada, relativização e processo coletivo',
+        items: [
+          { type: 'h', text: 'Coisa julgada formal × material' },
+          { type: 'p', text: '**Formal:** imutabilidade DENTRO do mesmo processo; gerada por TODA decisão preclusa, mesmo as sem mérito. **Material:** imutabilidade FORA do processo; impede repropositura. Gerada apenas por sentença de mérito (art. 502).' },
+          { type: 'h', text: 'Limites da coisa julgada (arts. 503-505)' },
+          { type: 'p', text: '**Objetivos (art. 503):** parte DISPOSITIVA da sentença. Inovação CPC/15 (§§1º-2º): alcança questão prejudicial decidida expressa e incidentalmente, **se** (a) houver contraditório prévio; (b) o juízo for competente em razão da matéria e da pessoa; (c) não houver restrições probatórias.' },
+          { type: 'p', text: '**Subjetivos (art. 506):** entre as partes — não beneficia nem prejudica terceiros (regra). Exceção em ações coletivas (CDC art. 103 + LACP).' },
+          { type: 'h', text: 'Relativização da coisa julgada' },
+          { type: 'p', text: 'Tema controverso. Hipóteses LEGAIS de revisão: ação rescisória (art. 966), querela nullitatis (vícios transrescisórios — sentença sem citação, p. ex.), revisão criminal (CPP art. 621). Hipóteses DOUTRINÁRIAS de relativização: violação grave a princípios constitucionais; injustiça flagrante (Cândido Dinamarco); coisa julgada inconstitucional. STF é CAUTELOSO — RE 730.462 (Tema 733): coisa julgada não é inconstitucional pelo só fato de embasada em norma posteriormente declarada inconstitucional.' },
+          { type: 'h', text: 'Coletivização da coisa julgada' },
+          { type: 'p', text: 'No processo coletivo, a coisa julgada tem regime ESPECIAL — eficácia *erga omnes* (atinge todos) ou *ultra partes* (atinge grupo) **secundum eventum litis** (no resultado do mérito) e/ou **secundum eventum probationis** (no resultado da prova).' },
+          {
+            type: 'table',
+            headers: ['Direito coletivo', 'Eficácia subjetiva', 'Tipo'],
+            rows: [
+              ['Difuso (CDC 81 I)', 'Erga omnes, salvo improcedência por insuficiência de provas', 'Secundum eventum probationis'],
+              ['Coletivo stricto sensu (CDC 81 II)', 'Ultra partes, limitado ao grupo, exceto improc. por insuf. de provas', 'Secundum eventum probationis'],
+              ['Individual homogêneo (CDC 81 III)', 'Erga omnes, mas só beneficia (não prejudica) a esfera individual', 'Secundum eventum litis (in utilibus)']
+            ]
+          },
+          { type: 'p', text: '**Princípio da extensão in utilibus (CDC art. 103 §3º):** improcedência da ação coletiva NÃO impede ações individuais. Procedência beneficia individuais (transporte). Sistemática garante o autor coletivo sem onerar individuais com derrota alheia.' },
+
+          { type: 'h', text: 'Processo estrutural' },
+          { type: 'p', text: 'Categoria emergente (Edilson Vitorelli, Sérgio Cruz Arenhart): processo voltado à reorganização de uma estrutura (política pública, instituição) para sanar ilegalidade ou ineficiência. Características: complexidade fática; multipolaridade; tutela colaborativa (mandamentos progressivos); supervisão judicial contínua; flexibilização da congruência. Casos paradigmáticos: ADPF 347 (estado de coisas inconstitucional — sistema penitenciário); Brown vs. Board of Education (EUA, 1954). MP é ator central via ACP estrutural.' },
+          { type: 'h', text: 'Liquidação de sentença (arts. 509-512)' },
+          { type: 'p', text: 'Quando a sentença for ilíquida (sem definir o valor exato), antes do cumprimento, faz-se a liquidação. Modalidades:' },
+          { type: 'list', items: [
+            '**Por arbitramento (art. 509 I)** — quando depender de avaliação ou cálculo técnico',
+            '**Pelo procedimento comum (art. 509 II)** — quando demandar prova de fato novo (alegação superveniente)',
+            '**Por simples cálculo (art. 509 §2º)** — quando bastar operação aritmética'
+          ]},
+          { type: 'p', text: '**Liquidação coletiva (art. 511):** liquidação por habilitação no processo coletivo (ACP, ação popular). Cada interessado prova individualmente seu prejuízo.' }
+        ]
+      },
+      {
+        h: 'Lei seca primária',
+        items: [
+          { type: 'list', items: [
+            '**CPC arts. 318-512** — Procedimento Comum (TODO o "miolo" do CPC)',
+            '**Art. 319** — requisitos da PI; **Art. 320** — documentos indispensáveis',
+            '**Art. 332** — improcedência liminar',
+            '**Art. 334** — audiência conciliação/mediação',
+            '**Arts. 335-342** — contestação',
+            '**Arts. 343-346** — reconvenção e revelia',
+            '**Art. 357** — saneamento e organização',
+            '**Arts. 369-484** — provas',
+            '**Art. 489** — requisitos da sentença',
+            '**Arts. 502-508** — coisa julgada',
+            '**Arts. 509-512** — liquidação',
+            '**CDC art. 103** — coisa julgada coletiva',
+            '**LINDB arts. 20-21** — consequencialismo',
+            '**Lei 7.347/85** — LACP (estudo conjunto com Tópico 20)'
+          ]}
+        ]
+      },
+      {
+        h: 'Macetes e mnemônicos',
+        items: [
+          { type: 'box', kind: 'macete', text: '**Marcha do procedimento comum — "PIIASIS":** **PI** → **I**mpugnação liminar (332) → **A**udiência (334) → **S**aneamento (357) → **I**nstrução (AIJ) → **S**entença.' },
+          { type: 'box', kind: 'macete', text: '**Sentença (art. 489) — "RFD":** **R**elatório, **F**undamentos, **D**ispositivo.' },
+          { type: 'box', kind: 'macete', text: '**6 hipóteses de fundamentação inadequada (489 §1º) — "PCMNAQ":** **P**aráfrase normativa, **C**onceito indeterminado sem aplicação, **M**otivação genérica, **N**ão enfrentamento de argumentos, **A**plicação de precedente sem demonstração, **Q**uestão da inaplicação de precedente sem distinção.' },
+          { type: 'box', kind: 'macete', text: '**Coisa julgada coletiva — "DIPR":** **D**ifuso e coletivo = secundum eventum **PR**obationis. **Individual homogêneo** = secundum eventum **LI**tis (só beneficia o particular).' },
+          { type: 'box', kind: 'macete', text: '**Liquidação — 3 vias "CAP":** **C**álculo (aritmético), **A**rbitramento, **P**rocedimento comum (fato novo).' },
+          { type: 'box', kind: 'macete', text: '**Remessa necessária — limites de SM:** **U**nião 1.000 / **EDC** (Estados, DF, Capitais) 500 / **M**unicípios não-capitais 100. Mnemônico: "1000-500-100, escala U-EDC-M".' }
+        ]
+      },
+      {
+        h: 'Pegadinhas de prova',
+        items: [
+          { type: 'box', kind: 'atencao', text: '**Audiência do art. 334 só dispensa se AMBAS as partes manifestarem desinteresse.** Apenas uma não basta. Pegadinha clássica.' },
+          { type: 'box', kind: 'atencao', text: '**Reconvenção é APRESENTADA NA contestação** (art. 343), não em peça separada — mudança em relação ao CPC/73 ainda confunde.' },
+          { type: 'box', kind: 'atencao', text: '**Revelia NÃO É absoluta** — 4 mitigações do art. 345 (litisconsorte, indisponível, falta de instrumento, inverossimilhança).' },
+          { type: 'box', kind: 'atencao', text: '**Distribuição dinâmica do ônus exige fundamentação E contraditório PRÉVIO** (art. 357 §1º). Fixar de surpresa é nulidade.' },
+          { type: 'box', kind: 'atencao', text: '**Improcedência liminar (art. 332) — apelação ADMITE retratação** (§3º) — único caso na apelação.' },
+          { type: 'box', kind: 'atencao', text: '**Coisa julgada material × formal:** material só por sentença de mérito (art. 487); decisão sem mérito gera só formal.' },
+          { type: 'box', kind: 'atencao', text: '**Decadência e prescrição (art. 487 II) geram coisa julgada MATERIAL.** Erro frequente classificar como sem mérito.' },
+          { type: 'box', kind: 'atencao', text: '**Coisa julgada coletiva NÃO PREJUDICA o particular (CDC 103 §1º)** — extensão é só *in utilibus* nos individuais homogêneos. O autor individual sempre pode tentar.' },
+          { type: 'box', kind: 'atencao', text: '**Limites objetivos da coisa julgada — agora alcançam questão prejudicial decidida** (art. 503 §1º), MAS sob requisitos cumulativos (contraditório, competência, sem restrição probatória).' }
+        ]
+      },
+      {
+        h: 'Conexões com outros tópicos',
+        items: [
+          { type: 'box', kind: 'conexao', text: '**Tópico 8 (atos processuais):** os atos do procedimento comum são as instâncias concretas do regime de prazos, comunicações e nulidades.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 12 (cumprimento de sentença):** a sentença líquida do procedimento comum é o título executivo judicial cumprido lá.' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 16 (recursos):** apelação contra sentença do procedimento comum (art. 1.009); agravo de instrumento contra interlocutórias específicas (art. 1.015).' },
+          { type: 'box', kind: 'conexao', text: '**Tópico 20 (ACP):** a coisa julgada coletiva (CDC 103) e o processo estrutural são pão diário do MP. Estudo conjunto com este tópico aprofunda a vantagem.' }
+        ]
+      }
     ]
   },
   {
