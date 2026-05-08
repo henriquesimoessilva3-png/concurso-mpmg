@@ -7149,12 +7149,492 @@ topics: [
       ]
     }
   ] },
-  { id: 'adm-03-poderes-administrativos', num: 3, materia: 'adm', title: 'Poderes administrativos', edital: '1.2.3', editalText: 'Vinculado, discricionário, hierárquico, disciplinar, regulamentar, polícia.', size: 'Médio', schedule: null, advantage: null, outline: ['Poder vinculado × discricionário', 'Poder hierárquico', 'Poder disciplinar', 'Poder regulamentar', 'Poder de polícia (atributos, ciclo, prescrição)', 'Abuso de poder (excesso e desvio)'], sections: [] },
-  { id: 'adm-04-servidores-publicos', num: 4, materia: 'adm', title: 'Servidores públicos', edital: '1.2.4', editalText: 'Regime jurídico, direitos, deveres, responsabilidades. CF arts. 37-41.', size: 'Grande', schedule: null, advantage: null, outline: ['Regimes (estatutário, celetista, especial)', 'Cargo, emprego e função', 'Acessibilidade e concurso público', 'Estabilidade e estágio probatório', 'Direitos (remuneração, férias, licenças)', 'Deveres e proibições', 'Responsabilidades (civil, penal, administrativa)', 'Aposentadoria e regime previdenciário (EC 103/19)'], sections: [] },
-  { id: 'adm-05-bens-publicos', num: 5, materia: 'adm', title: 'Bens públicos', edital: '1.2.5', editalText: 'Classificação, afetação, alienação, uso especial, prescrição.', size: 'Médio', schedule: null, advantage: null, outline: ['Classificação (uso comum, uso especial, dominicais)', 'Características (impenhorabilidade, imprescritibilidade, inalienabilidade relativa)', 'Afetação e desafetação', 'Formas de alienação (Lei 14.133/21)', 'Uso especial (autorização, permissão, concessão de uso)', 'Bens das pessoas administrativas indiretas'], sections: [] },
-  { id: 'adm-06-licitacoes-contratos', num: 6, materia: 'adm', title: 'Licitações e contratos administrativos (Lei 14.133/21)', edital: '1.2.6', editalText: 'Nova Lei de Licitações e Contratos. Modalidades, fases, contratação direta, contratos.', size: 'Gigante', schedule: null, advantage: null, outline: ['Princípios e regime', 'Modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo)', 'Fases do procedimento', 'Critérios de julgamento', 'Contratação direta (dispensa e inexigibilidade)', 'Contratos administrativos — características e cláusulas exorbitantes', 'Equilíbrio econômico-financeiro', 'Sanções administrativas (Lei 14.133, arts. 155-163)', 'Lei 8.666/93 — vigência transitória'], sections: [] },
-  { id: 'adm-07-servicos-publicos-concessoes', num: 7, materia: 'adm', title: 'Serviços públicos e concessões', edital: '1.2.7', editalText: 'Conceito, princípios, modos de prestação. Lei 8.987/95 e PPP.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito e princípios', 'Classificações', 'Concessão (Lei 8.987/95)', 'Permissão e autorização', 'Parcerias público-privadas (Lei 11.079/04)', 'Agências reguladoras', 'Direitos do usuário (Lei 13.460/17)'], sections: [] },
-  { id: 'adm-08-responsabilidade-civil-estado', num: 8, materia: 'adm', title: 'Responsabilidade civil do Estado', edital: '1.2.8', editalText: 'Teoria do risco. CF art. 37 §6º. Excludentes. Ação regressiva.', size: 'Médio', schedule: null, advantage: null, outline: ['Teorias (subjetiva, objetiva — risco administrativo, risco integral)', 'Pressupostos (conduta, dano, nexo)', 'Excludentes (caso fortuito, força maior, culpa exclusiva da vítima)', 'Responsabilidade por omissão', 'Responsabilidade por atos legislativos e judiciais', 'Ação regressiva contra agente (denúncia da lide)', 'Prescrição (Súmula 647 STJ — quinquenal)'], sections: [] },
+  { id: 'adm-03-poderes-administrativos', num: 3, materia: 'adm', title: 'Poderes administrativos', edital: '1.2.3', editalText: 'Vinculado, discricionário, hierárquico, disciplinar, regulamentar, polícia.', size: 'Médio', schedule: 'Mês 9-10', advantage: null, outline: ['Poder vinculado × discricionário', 'Poder hierárquico', 'Poder disciplinar', 'Poder regulamentar', 'Poder de polícia (atributos, ciclo, prescrição)', 'Abuso de poder (excesso e desvio)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PODERES ADMINISTRATIVOS** são as PRERROGATIVAS conferidas à Adm. para o cumprimento da função pública. São DEVERES-PODERES (poder-dever) — não simples faculdade. Os mais cobrados: **VINCULADO × DISCRICIONÁRIO**, **HIERÁRQUICO**, **DISCIPLINAR**, **REGULAMENTAR**, **POLÍCIA**.' },
+        { type: 'p', text: 'Cada poder tem limites — quem extrapola comete **ABUSO DE PODER**, que pode ser por **EXCESSO DE PODER** (vício de competência) ou **DESVIO DE PODER/FINALIDADE** (vício de finalidade). Ambos geram nulidade do ato.' }
+      ]
+    },
+    {
+      h: 'Poderes — análise',
+      items: [
+        { type: 'h', text: 'Vinculado × Discricionário' },
+        { type: 'p', text: '**VINCULADO:** lei prevê todos os elementos. Adm. obrigada a praticar conforme lei (sem juízo). Ex: aposentadoria por idade.' },
+        { type: 'p', text: '**DISCRICIONÁRIO:** lei deixa margem de escolha (mérito) ao administrador. Adm. analisa CONVENIÊNCIA e OPORTUNIDADE. Ex: nomear servidor para cargo em comissão. STF/STJ: discricionariedade NÃO é arbitrariedade — deve respeitar razoabilidade e proporcionalidade.' },
+
+        { type: 'h', text: 'Hierárquico' },
+        { type: 'p', text: 'Permite ao superior ORDENAR, FISCALIZAR, REVISAR atos do subordinado. Manifestações: dar ordens, delegar competência, avocar atribuições, aplicar sanções leves, dirimir conflitos. Vincula em PARALELO o dever de obediência do subordinado (salvo ordens manifestamente ilegais).' },
+
+        { type: 'h', text: 'Disciplinar' },
+        { type: 'p', text: 'Permite à Adm. PUNIR servidores (e contratados — Lei 14.133/21) por irregularidades. Discricionário na DOSIMETRIA (graduação da pena), VINCULADO na decisão (havendo prova, deve punir — não é facultativo). Sanções: advertência, suspensão, demissão, cassação, etc.' },
+
+        { type: 'h', text: 'Regulamentar' },
+        { type: 'p', text: 'Permite ao Executivo expedir atos normativos para EXECUÇÃO da lei. CF 84 IV: PR pode expedir DECRETOS para fiel execução das leis. **NÃO pode INOVAR** o ordenamento — não cria direitos nem deveres. EC 32/01 inseriu DECRETO AUTÔNOMO (CF 84 VI), em hipóteses restritas (organização e funcionamento da Adm.).' },
+
+        { type: 'h', text: 'Polícia administrativa' },
+        { type: 'list', items: [
+          'Faculdade da Adm. de CONDICIONAR e RESTRINGIR direitos individuais em nome do interesse coletivo',
+          'CTN art. 78: define poder de polícia (para fins de cobrança de taxa)',
+          '**4 ATRIBUTOS**: DISCRICIONARIEDADE · COERCIBILIDADE · AUTOEXECUTORIEDADE · indelegabilidade (em regra)',
+          '**CICLO** (4 fases): ORDEM (norma geral) · CONSENTIMENTO (alvará, licença) · FISCALIZAÇÃO · SANÇÃO',
+          '**STF — RE 633.782 (Tema 532, 2020):** atos de fiscalização e CONSENTIMENTO de polícia podem ser DELEGADOS a entidades de direito privado (exceto poder originário e sancionatório)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF Tema 532:** distinção entre 4 ciclos da polícia. Apenas ORDEM e SANÇÃO são INDELEGÁVEIS. Consentimento e fiscalização podem ser delegados (em parte) a privados.' }
+      ]
+    },
+    {
+      h: 'Abuso de poder',
+      items: [
+        { type: 'list', items: [
+          '**EXCESSO DE PODER:** vício na COMPETÊNCIA — agente atua além de suas atribuições',
+          '**DESVIO DE PODER/FINALIDADE:** vício na FINALIDADE — agente atua para fim diverso do legalmente previsto',
+          'Ambos geram NULIDADE absoluta do ato (vícios insanáveis)',
+          'Remédio: HC, MS, ação ordinária'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Discricionariedade ≠ arbitrariedade.** Discricionariedade respeita razoabilidade.' },
+        { type: 'box', kind: 'macete', text: '**Polícia: 4 atributos (DICA-D): Discricionariedade · Coercibilidade · Autoexecutoriedade · indelegabilidade (parcial).**' },
+        { type: 'box', kind: 'macete', text: '**Polícia: 4 ciclos: ORDEM · CONSENTIMENTO · FISCALIZAÇÃO · SANÇÃO.** STF Tema 532: consentimento e fiscalização delegáveis.' },
+        { type: 'box', kind: 'macete', text: '**Excesso de PODER (competência) × Desvio de PODER (finalidade).** Ambos = nulidade.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Discricionariedade não é arbitrariedade — limita-se pela razoabilidade.** STF/STJ.' },
+        { type: 'box', kind: 'atencao', text: '**STF Tema 532 (2020): consentimento e fiscalização de polícia podem ser DELEGADOS a privados (parcialmente).** Ordem e sanção são indelegáveis.' },
+        { type: 'box', kind: 'atencao', text: '**Decreto regulamentar não pode INOVAR o ordenamento.** Apenas detalha lei. Decreto autônomo é exceção restrita (CF 84 VI).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** legalidade limita o poder discricionário.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 2 (Atos):** abuso de poder = vício no ato.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** poder de polícia restringe direitos individuais.' }
+      ]
+    }
+  ] },
+  { id: 'adm-04-servidores-publicos', num: 4, materia: 'adm', title: 'Servidores públicos', edital: '1.2.4', editalText: 'Regime jurídico, direitos, deveres, responsabilidades. CF arts. 37-41.', size: 'Grande', schedule: 'Mês 9-10', advantage: null, outline: ['Regimes (estatutário, celetista, especial)', 'Cargo, emprego e função', 'Acessibilidade e concurso público', 'Estabilidade e estágio probatório', 'Direitos (remuneração, férias, licenças)', 'Deveres e proibições', 'Responsabilidades (civil, penal, administrativa)', 'Aposentadoria e regime previdenciário (EC 103/19)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **SERVIDORES PÚBLICOS** integram a Adm. direta e indireta. Disciplina constitucional principal: CF arts. 37-41. Regimes: **ESTATUTÁRIO** (servidores efetivos — Lei 8.112/90 e estaduais), **CELETISTA** (empregados públicos de empresas estatais e contratos por prazo determinado) e **ESPECIAL** (militares, magistrados, MP).' },
+        { type: 'p', text: 'Para o concurso: (a) **CONCURSO PÚBLICO** (CF 37 II) — regra geral; (b) **ESTABILIDADE** (3 anos — CF 41); (c) **TETO REMUNERATÓRIO** (CF 37 XI); (d) **ACUMULAÇÃO** (CF 37 XVI — vedações e exceções); (e) **APOSENTADORIA** após EC 103/19 (idade mínima 65/62, regras de transição); (f) **RESPONSABILIDADES** (civil, penal, administrativa — independentes).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 37 — regime geral' },
+        { type: 'list', items: [
+          '**I** — cargos, empregos e funções acessíveis aos brasileiros e estrangeiros (na forma da lei)',
+          '**II** — investidura por CONCURSO PÚBLICO de provas ou provas e títulos',
+          '**III** — prazo de validade do concurso: até 2 ANOS, prorrogável uma vez por igual período',
+          '**V** — funções de confiança e cargos em comissão (excepcionais — vedada a "vacância" de carreira)',
+          '**VII** — direito de greve do servidor (lei específica, hoje não há — STF MI 670/708/712)',
+          '**VIII** — reserva de vagas para PCD',
+          '**XI** — TETO REMUNERATÓRIO (subsídio dos Min. STF, com tetos parciais)',
+          '**XVI** — vedação à acumulação remunerada de cargos públicos (exceções nas alíneas a, b, c)',
+          '**XXI** — licitação como regra para contratação',
+          '**§4º** — improbidade administrativa',
+          '**§5º** — imprescritibilidade do ressarcimento ao erário'
+        ]},
+
+        { type: 'h', text: 'Estabilidade (CF art. 41)' },
+        { type: 'list', items: [
+          'APÓS 3 ANOS de efetivo exercício',
+          'Adquirida em CARGO efetivo (não em comissão)',
+          '**Causas de perda da estabilidade:** (i) sentença judicial transitada; (ii) PAD com ampla defesa; (iii) avaliação periódica de desempenho insatisfatória (CF 41 §1º — depende de LC); (iv) excesso de despesa com pessoal (CF 169)'
+        ]},
+
+        { type: 'h', text: 'Aposentadoria (EC 103/19)' },
+        { type: 'list', items: [
+          'IDADE MÍNIMA: 65 anos (homem) · 62 anos (mulher)',
+          'TEMPO DE CONTRIBUIÇÃO: 25 anos (homem) · 20 anos (mulher)',
+          'COMPULSÓRIA: 75 anos (todos)',
+          'REGIMES PRÓPRIOS DE PREVIDÊNCIA (RPPS) com regras adicionais e contribuições mais altas'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Concurso público — regra e exceções' },
+        { type: 'p', text: 'Concurso é REGRA (CF 37 II). EXCEÇÕES: (i) cargos em comissão e funções de confiança (CF 37 V); (ii) contratação temporária por excepcional interesse público (CF 37 IX — Lei 8.745/93); (iii) provimento derivado interno (provimento por promoção, transferência, redistribuição — STF restringiu).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula Vinculante 43:** "É inconstitucional toda modalidade de provimento que propicie ao servidor INVESTIR-SE, sem prévia aprovação em concurso público destinado ao seu provimento, em cargo que NÃO INTEGRE a carreira na qual anteriormente investido."' },
+
+        { type: 'h', text: 'Acumulação de cargos (CF 37 XVI)' },
+        { type: 'list', items: [
+          'REGRA: VEDADA',
+          'EXCEÇÕES (com compatibilidade de horários e respeito ao teto):',
+          '(a) 2 cargos de PROFESSOR',
+          '(b) 1 cargo de professor + 1 técnico/científico',
+          '(c) 2 cargos privativos de PROFISSIONAIS DE SAÚDE com profissões regulamentadas',
+          'STF — não admite ampliação por analogia'
+        ]},
+
+        { type: 'h', text: 'Responsabilidades' },
+        { type: 'p', text: 'CIVIL · PENAL · ADMINISTRATIVA — INDEPENDENTES. Servidor que comete infração pode responder em todas as esferas. Exceção: absolvição penal por NEGATIVA DE AUTORIA ou INEXISTÊNCIA DO FATO repercute nas demais (CPP 386 I e IV). Indenização ao erário (improbidade) é IMPRESCRITÍVEL (CF 37 §5º).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Concurso: prazo até 2+2 = 4 anos no máximo.** Validade da homologação.' },
+        { type: 'box', kind: 'macete', text: '**Estabilidade: 3 anos · Vitaliciedade: 2 anos (MP/Magistratura) ou 3 (Defensoria).**' },
+        { type: 'box', kind: 'macete', text: '**Acumulação (3 hipóteses): 2 PROF · 1 PROF + 1 TÉC/CIENT · 2 SAÚDE.** Compatibilidade de horários + teto.' },
+        { type: 'box', kind: 'macete', text: '**Aposentadoria EC 103/19: 65/62 anos · 25/20 contribuição · 75 compulsória.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Estabilidade só em CARGO EFETIVO — não em comissão.** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**SV 43 STF: vedada \"transposição\" para cargo de carreira diferente.**' },
+        { type: 'box', kind: 'atencao', text: '**Acumulação: PROFESSOR + PROFESSOR ou PROFESSOR + TÉCNICO/CIENTÍFICO ou 2 SAÚDE.** Não há outras hipóteses.' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade SÓ do ressarcimento ao erário (CF 37 §5º + STF Tema 897).** Sancionatório prescreve.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** legalidade, moralidade, impessoalidade norteiam concurso e disciplina.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 8 (Responsabilidade Civil):** responsabilidade do agente x do Estado (denunciação da lide).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** servidor é sujeito ativo principal.' }
+      ]
+    }
+  ] },
+  { id: 'adm-05-bens-publicos', num: 5, materia: 'adm', title: 'Bens públicos', edital: '1.2.5', editalText: 'Classificação, afetação, alienação, uso especial, prescrição.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Classificação (uso comum, uso especial, dominicais)', 'Características (impenhorabilidade, imprescritibilidade, inalienabilidade relativa)', 'Afetação e desafetação', 'Formas de alienação (Lei 14.133/21)', 'Uso especial (autorização, permissão, concessão de uso)', 'Bens das pessoas administrativas indiretas'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **BENS PÚBLICOS** (CC arts. 98-103) pertencem à Administração direta, autarquias e fundações de direito público. Têm regime jurídico especial — IMPENHORABILIDADE, IMPRESCRITIBILIDADE, INALIENABILIDADE RELATIVA, NÃO ONERABILIDADE.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Classificação (CC art. 99)' },
+        { type: 'list', items: [
+          '**USO COMUM DO POVO:** rios, mares, estradas, ruas, praças. Acesso geral e gratuito (em regra)',
+          '**USO ESPECIAL:** edifícios públicos (escolas, hospitais, prefeituras). Destinados ao serviço',
+          '**DOMINICAIS:** patrimônio das pessoas jurídicas de direito público, sem destinação especial. Podem ser alienados (após desafetação)'
+        ]},
+
+        { type: 'h', text: 'Características' },
+        { type: 'list', items: [
+          '**INALIENABILIDADE RELATIVA:** uso comum e especial são INALIENÁVEIS enquanto afetados. Dominicais podem ser alienados',
+          '**IMPRESCRITIBILIDADE:** NÃO ADMITEM USUCAPIÃO (CF 191 § único, 183 §3º; Súm. 340 STF)',
+          '**IMPENHORABILIDADE:** não podem ser penhorados. Pagamento de débitos por PRECATÓRIO (CF 100)',
+          '**NÃO ONERABILIDADE:** não podem ser objeto de hipoteca, penhor, anticrese'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos',
+      items: [
+        { type: 'h', text: 'Afetação × Desafetação' },
+        { type: 'p', text: '**AFETAÇÃO:** destinação a uso público específico (formaliza-se com lei, ato administrativo, fato jurídico). **DESAFETAÇÃO:** retirada da destinação. Bem desafetado torna-se DOMINICAL e pode ser alienado.' },
+
+        { type: 'h', text: 'Uso especial por particular' },
+        { type: 'list', items: [
+          '**AUTORIZAÇÃO DE USO:** ato precário, discricionário. Ex: autorização para ocupação de calçada',
+          '**PERMISSÃO DE USO:** ato precário, mas mais formal. Ex: permissão de uso de quiosque em praça',
+          '**CONCESSÃO DE USO:** contrato administrativo, com prazo. Ex: concessão de uso de imóvel público'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 categorias (CC 99): USO COMUM · USO ESPECIAL · DOMINICAIS.** Apenas dominicais alienáveis (após desafetação).' },
+        { type: 'box', kind: 'macete', text: '**4 características: IMPENHORABILIDADE · IMPRESCRITIBILIDADE · INALIENABILIDADE relativa · NÃO ONERABILIDADE.**' },
+        { type: 'box', kind: 'macete', text: '**Bem público NÃO usucapiável (Súm. 340 STF, CF 191/183).**' },
+        { type: 'box', kind: 'macete', text: '**Pagamento de débitos: PRECATÓRIO (CF 100).** Não há penhora.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Bens públicos NÃO admitem usucapião (Súm. 340 STF).** Mesmo dominicais.' },
+        { type: 'box', kind: 'atencao', text: '**Inalienabilidade é RELATIVA — bens dominicais podem ser alienados** após desafetação.' },
+        { type: 'box', kind: 'atencao', text: '**Empresas estatais (econômicas) NÃO têm bens públicos típicos** — seguem regime privado, exceto serviços públicos delegados.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 6 (Licitações):** alienação de bens dominicais segue Lei 14.133/21.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** usucapião urbana NÃO se aplica a bens públicos (CF 183 §3º).' }
+      ]
+    }
+  ] },
+  { id: 'adm-06-licitacoes-contratos', num: 6, materia: 'adm', title: 'Licitações e contratos administrativos (Lei 14.133/21)', edital: '1.2.6', editalText: 'Nova Lei de Licitações e Contratos. Modalidades, fases, contratação direta, contratos.', size: 'Grande', schedule: 'Mês 10', advantage: null, outline: ['Princípios e regime', 'Modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo)', 'Fases do procedimento', 'Critérios de julgamento', 'Contratação direta (dispensa e inexigibilidade)', 'Contratos administrativos — características e cláusulas exorbitantes', 'Equilíbrio econômico-financeiro', 'Sanções administrativas (Lei 14.133, arts. 155-163)', 'Lei 8.666/93 — vigência transitória'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **LEI 14.133/2021** é a NOVA Lei de Licitações e Contratos, substituindo a Lei 8.666/93, a Lei do Pregão (Lei 10.520/02) e o RDC (Lei 12.462/11). **Vigência: a partir de 1º/04/2023** — período de transição (Lei 8.666/93 admitida até 31/12/2023). Para o concurso (especialmente concursos pós-2023): dominar a Lei 14.133/21, mas conhecer Lei 8.666/93 ainda é útil em provas que cobram comparativos.' }
+      ]
+    },
+    {
+      h: 'Lei 14.133/21 — visão geral',
+      items: [
+        { type: 'h', text: 'Princípios (art. 5º — 18 princípios listados)' },
+        { type: 'list', items: [
+          'Legalidade · impessoalidade · moralidade · publicidade · eficiência · interesse público · probidade administrativa · igualdade · planejamento · transparência · eficácia · segregação de funções · motivação · vinculação ao edital · julgamento objetivo · segurança jurídica · razoabilidade · competitividade · proporcionalidade · celeridade · economicidade · desenvolvimento nacional sustentável'
+        ]},
+
+        { type: 'h', text: 'Modalidades (art. 28 — 5 modalidades + procedimentos auxiliares)' },
+        { type: 'list', items: [
+          '**PREGÃO** — para bens e serviços comuns, qualquer valor',
+          '**CONCORRÊNCIA** — para os demais casos, qualquer valor (substituiu modalidades por valor)',
+          '**CONCURSO** — para escolha de trabalho técnico, científico ou artístico',
+          '**LEILÃO** — para alienação de bens',
+          '**DIÁLOGO COMPETITIVO** — para inovação ou complexidade técnica (novidade da Lei 14.133)',
+          'Não há mais Tomada de Preços, Convite (extintas)'
+        ]},
+
+        { type: 'h', text: 'Fases do procedimento (art. 17 — fases unificadas)' },
+        { type: 'list', items: [
+          'PREPARATÓRIA (planejamento, pesquisa de preços)',
+          'DIVULGAÇÃO DO EDITAL',
+          'APRESENTAÇÃO DE PROPOSTAS E LANCES',
+          'JULGAMENTO',
+          'HABILITAÇÃO',
+          'RECURSAL',
+          'HOMOLOGAÇÃO'
+        ]},
+
+        { type: 'h', text: 'Critérios de julgamento (art. 33)' },
+        { type: 'list', items: [
+          'MENOR PREÇO',
+          'MAIOR DESCONTO',
+          'MELHOR TÉCNICA OU CONTEÚDO ARTÍSTICO',
+          'TÉCNICA E PREÇO',
+          'MAIOR LANCE (leilão)',
+          'MAIOR RETORNO ECONÔMICO (PPP)'
+        ]},
+
+        { type: 'h', text: 'Contratação direta (arts. 74-75)' },
+        { type: 'list', items: [
+          '**DISPENSA DE LICITAÇÃO (art. 75):** rol taxativo (situação emergencial, valor abaixo de limite, contratação de remanescente, etc.)',
+          '**INEXIGIBILIDADE (art. 74):** competição inviável (fornecedor exclusivo, serviços técnicos especializados de notória especialização, contratação de profissional do setor artístico)'
+        ]}
+      ]
+    },
+    {
+      h: 'Contratos administrativos',
+      items: [
+        { type: 'h', text: 'Cláusulas exorbitantes' },
+        { type: 'list', items: [
+          'ALTERAÇÃO unilateral do contrato pela Adm.',
+          'RESCISÃO unilateral',
+          'FISCALIZAÇÃO permanente',
+          'APLICAÇÃO DE SANÇÕES',
+          'OCUPAÇÃO PROVISÓRIA do contratado em casos de calamidade'
+        ]},
+
+        { type: 'h', text: 'Equilíbrio econômico-financeiro' },
+        { type: 'list', items: [
+          'CF 37 XXI — manutenção das condições efetivas da proposta',
+          '**TEORIA DA IMPREVISÃO** — fato extraordinário e imprevisível que altera o equilíbrio',
+          '**FATO DO PRÍNCIPE** — ato geral do Poder Público que afeta indiretamente o contrato',
+          '**FATO DA ADMINISTRAÇÃO** — ato específico que dificulta diretamente a execução'
+        ]},
+
+        { type: 'h', text: 'Sanções (arts. 155-163)' },
+        { type: 'list', items: [
+          'ADVERTÊNCIA',
+          'MULTA',
+          'IMPEDIMENTO DE LICITAR E CONTRATAR (3 anos)',
+          'DECLARAÇÃO DE INIDONEIDADE (3-6 anos)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Lei 14.133/21 substituiu: Lei 8.666/93 (geral) + Lei 10.520/02 (pregão) + Lei 12.462/11 (RDC).**' },
+        { type: 'box', kind: 'macete', text: '**5 modalidades: PREGÃO · CONCORRÊNCIA · CONCURSO · LEILÃO · DIÁLOGO COMPETITIVO.** Tomada de Preços e Convite EXTINTAS.' },
+        { type: 'box', kind: 'macete', text: '**Diálogo competitivo é NOVIDADE da Lei 14.133.** Para inovação ou complexidade.' },
+        { type: 'box', kind: 'macete', text: '**Sanções: ADVERTÊNCIA · MULTA · IMPEDIMENTO (3 anos) · INIDONEIDADE (3-6 anos).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Lei 14.133/21 EXTINGUIU Tomada de Preços e Convite.** Pegadinha clássica em provas pós-2021.' },
+        { type: 'box', kind: 'atencao', text: '**Pregão pode ser usado para QUALQUER VALOR — bens e serviços comuns.** Não há mais limite de valor.' },
+        { type: 'box', kind: 'atencao', text: '**Diálogo competitivo: novidade — para casos de inovação tecnológica.**' },
+        { type: 'box', kind: 'atencao', text: '**Cláusulas exorbitantes: dão à Adm. PRERROGATIVAS unilaterais.** Diferentes do contrato privado.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** licitação concretiza legalidade, impessoalidade, moralidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 5 (Bens):** alienação de bens dominicais segue Lei 14.133.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** fraude à licitação (LIA art. 10 VIII).' }
+      ]
+    }
+  ] },
+  { id: 'adm-07-servicos-publicos-concessoes', num: 7, materia: 'adm', title: 'Serviços públicos e concessões', edital: '1.2.7', editalText: 'Conceito, princípios, modos de prestação. Lei 8.987/95 e PPP.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Conceito e princípios', 'Classificações', 'Concessão (Lei 8.987/95)', 'Permissão e autorização', 'Parcerias público-privadas (Lei 11.079/04)', 'Agências reguladoras', 'Direitos do usuário (Lei 13.460/17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **SERVIÇO PÚBLICO** é atividade que o Estado se obriga a prestar (diretamente ou por delegação) à coletividade. CF 175: incumbência do Poder Público, podendo ser delegado por **CONCESSÃO** ou **PERMISSÃO**, mediante licitação. Diferente da atividade econômica do Estado (CF 173).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 175' },
+        { type: 'p', text: 'Caput: incumbe ao Poder Público a prestação de serviços públicos, diretamente ou sob regime de concessão ou permissão. § único: lei disporá sobre regime de concessão/permissão.' },
+
+        { type: 'h', text: 'Princípios do serviço público' },
+        { type: 'list', items: [
+          'GENERALIDADE — todos têm direito',
+          'CONTINUIDADE — não pode haver interrupção arbitrária',
+          'EFICIÊNCIA',
+          'MODICIDADE TARIFÁRIA — tarifas razoáveis',
+          'CORTESIA — atendimento adequado',
+          'ATUALIDADE/MUTABILIDADE — adaptação às novas tecnologias'
+        ]},
+
+        { type: 'h', text: 'Lei 8.987/95 — Concessões e Permissões' },
+        { type: 'list', items: [
+          '**CONCESSÃO:** delegação por contrato à PJ ou consórcio, mediante LICITAÇÃO na modalidade CONCORRÊNCIA',
+          '**PERMISSÃO:** delegação por contrato a PJ ou PF, modalidade ainda CONCORRÊNCIA (sem prazo determinado, mas formal)',
+          '**AUTORIZAÇÃO:** ato unilateral, precário, discricionário (CF 21 XII)',
+          'Direitos do usuário: serviço adequado, informações, indenização por má prestação'
+        ]},
+
+        { type: 'h', text: 'Lei 11.079/04 — PPPs (Parcerias Público-Privadas)' },
+        { type: 'list', items: [
+          'CONCESSÃO PATROCINADA: tarifa do usuário + contraprestação do Poder Público',
+          'CONCESSÃO ADMINISTRATIVA: contraprestação INTEGRAL do Poder Público (usuário não paga)',
+          'Valor mínimo: R$ 10 milhões',
+          'Prazo: 5 a 35 anos',
+          'Contrato único; objeto não pode ser fornecimento de mão de obra ou de bens'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos',
+      items: [
+        { type: 'h', text: 'Continuidade × interrupção do serviço' },
+        { type: 'p', text: 'Continuidade não é absoluta. Lei 8.987/95 art. 6º §3º: pode ser interrompido em razão de ordem técnica/segurança ou INADIMPLEMENTO do usuário (após aviso). STJ — Súmula 339: a interrupção por inadimplência é regular se preceder aviso. Interrupção em SERVIÇOS ESSENCIAIS (saúde, segurança) requer cuidado redobrado.' },
+
+        { type: 'h', text: 'Agências reguladoras' },
+        { type: 'p', text: 'Autarquias em regime ESPECIAL — autonomia reforçada. Setores: ANATEL, ANEEL, ANP, ANTT, ANS, ANVISA, ANCINE, ANTAQ. Lei 13.848/19 (Lei Geral): mandato fixo dos diretores, vedação à exoneração ad nutum.' },
+
+        { type: 'h', text: 'Direitos do usuário (Lei 13.460/17)' },
+        { type: 'p', text: 'Lei do Usuário do Serviço Público. Direitos: serviço adequado, atendimento por ordem de chegada (com exceções), tempo de espera razoável, ouvidoria, etc. Norma específica que se cumula com o CDC.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Concessão = contrato + concorrência. Permissão = contrato + concorrência. Autorização = ato unilateral.**' },
+        { type: 'box', kind: 'macete', text: '**PPP: PATROCINADA (tarifa + contraprestação) · ADMINISTRATIVA (só contraprestação).** Lei 11.079/04.' },
+        { type: 'box', kind: 'macete', text: '**Princípios: GENERALIDADE · CONTINUIDADE · EFICIÊNCIA · MODICIDADE · CORTESIA · ATUALIDADE.**' },
+        { type: 'box', kind: 'macete', text: '**Continuidade NÃO é absoluta — admite suspensão por inadimplência (com aviso).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Concessão e Permissão = CONTRATO. Autorização = ATO UNILATERAL.** Diferença essencial.' },
+        { type: 'box', kind: 'atencao', text: '**STJ Súm. 339: interrupção por inadimplência é regular após aviso.** Não é abuso.' },
+        { type: 'box', kind: 'atencao', text: '**PPP exige valor mínimo de R$ 10 milhões e prazo 5-35 anos.**' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (Ordem econômica):** CF 175 — serviços públicos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (Consumidor):** CDC aplica-se ao usuário do serviço público (CDC 22).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 6 (Licitações):** delegação exige licitação prévia.' }
+      ]
+    }
+  ] },
+  { id: 'adm-08-responsabilidade-civil-estado', num: 8, materia: 'adm', title: 'Responsabilidade civil do Estado', edital: '1.2.8', editalText: 'Teoria do risco. CF art. 37 §6º. Excludentes. Ação regressiva.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Teorias (subjetiva, objetiva — risco administrativo, risco integral)', 'Pressupostos (conduta, dano, nexo)', 'Excludentes (caso fortuito, força maior, culpa exclusiva da vítima)', 'Responsabilidade por omissão', 'Responsabilidade por atos legislativos e judiciais', 'Ação regressiva contra agente (denúncia da lide)', 'Prescrição (Súmula 647 STJ — quinquenal)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **RESPONSABILIDADE CIVIL DO ESTADO** é, em regra, **OBJETIVA** (CF 37 §6º) — independe de culpa ou dolo. Adotou-se a **TEORIA DO RISCO ADMINISTRATIVO** (não risco integral, em regra) — admite excludentes. Aplica-se a pessoas jurídicas de direito público + delegatários de serviços públicos.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 37 §6º' },
+        { type: 'p', text: 'As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, ASSEGURADO o direito de regresso contra o responsável nos casos de DOLO ou CULPA.' }
+      ]
+    },
+    {
+      h: 'Pontos críticos',
+      items: [
+        { type: 'h', text: 'Risco administrativo × risco integral' },
+        { type: 'list', items: [
+          '**RISCO ADMINISTRATIVO (regra):** responsabilidade objetiva, MAS admite excludentes (caso fortuito, força maior, culpa exclusiva da vítima)',
+          '**RISCO INTEGRAL (excepcional):** responsabilidade objetiva ABSOLUTA, sem excludentes. Aplica-se em: dano ambiental (Lei 6.938/81), dano nuclear (CF 21 XXIII "d"), atividade hostil de aeronaves'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade por omissão' },
+        { type: 'p', text: 'Doutrina e jurisprudência divergem. STF tem entendimento majoritário: responsabilidade por OMISSÃO é SUBJETIVA — depende de prova de FALTA DO SERVIÇO (faute du service). Mas STJ admite responsabilidade objetiva em alguns casos. Tema em movimento. STF — Tema 366 (RE 841.526, 2016) — adotou teoria SUBJETIVA com inversão presuntiva: ônus do Estado provar que agiu adequadamente.' },
+
+        { type: 'h', text: 'Pressupostos da responsabilidade objetiva' },
+        { type: 'list', items: [
+          'CONDUTA do agente público',
+          'DANO',
+          'NEXO DE CAUSALIDADE entre a conduta e o dano',
+          'NÃO se exige culpa ou dolo (regra geral)'
+        ]},
+
+        { type: 'h', text: 'Ação regressiva (denúncia da lide)' },
+        { type: 'p', text: 'O Estado, condenado, pode acionar regressivamente o agente em caso de DOLO ou CULPA. STF — Tema 940: a ação de indenização DEVE ser proposta contra o ESTADO, não contra o agente individualmente. STF posteriormente firmou em RE 1.027.633 (Tema 940, 2019).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.027.633 (Tema 940, 2019):** "A teor do disposto no art. 37, § 6º, da CF/88, a ação por danos causados por agente público deve ser ajuizada CONTRA O ESTADO ou pessoa jurídica de direito privado prestadora de serviço público, sendo PARTE ILEGÍTIMA para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."' },
+
+        { type: 'h', text: 'Prescrição' },
+        { type: 'p', text: '**5 ANOS** (Decreto 20.910/32 + STJ Súm. 647 — pretensão indenizatória contra Adm. Pública prescreve em 5 anos).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**CF 37 §6º: responsabilidade OBJETIVA do Estado, com REGRESSO em caso de dolo ou culpa do agente.**' },
+        { type: 'box', kind: 'macete', text: '**Risco ADMINISTRATIVO (regra) admite excludentes. Risco INTEGRAL (exceção: ambiental, nuclear) NÃO admite.**' },
+        { type: 'box', kind: 'macete', text: '**Omissão: SUBJETIVA (regra majoritária — STF Tema 366). Ação omissiva: faute du service.**' },
+        { type: 'box', kind: 'macete', text: '**Ação contra ESTADO (não contra agente — STF Tema 940). Regresso em separado.**' },
+        { type: 'box', kind: 'macete', text: '**Prescrição: 5 anos (STJ Súm. 647).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Risco INTEGRAL é EXCEÇÃO — em regra é risco ADMINISTRATIVO (admite excludentes).**' },
+        { type: 'box', kind: 'atencao', text: '**STF Tema 940 (2019): vítima ajuíza CONTRA O ESTADO, não contra o agente.** Mudança jurisprudencial.' },
+        { type: 'box', kind: 'atencao', text: '**Omissão: STF tende a SUBJETIVA, mas há divergência.** STJ admite objetiva em casos específicos.' },
+        { type: 'box', kind: 'atencao', text: '**Empresa pública econômica em regime privado NÃO se enquadra no §6º** — apenas estatais prestadoras de serviço público.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** responsabilidade civil do agente em ação regressiva.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** RC ambiental adota risco INTEGRAL.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 12 (responsabilidade civil):** regramento geral.' }
+      ]
+    }
+  ] },
   { id: 'adm-09-improbidade-administrativa', num: 9, materia: 'adm', title: 'Improbidade administrativa (Lei 8.429/92, alterações Lei 14.230/21)', edital: '1.2.9', editalText: 'Atos de improbidade. Sanções. Procedimento. Reforma de 2021.', size: 'Grande', schedule: null, advantage: null, outline: ['Sujeitos (ativo e passivo)', 'Atos de improbidade — enriquecimento ilícito, prejuízo ao erário, atentado a princípios', 'Lei 14.230/21 — exigência de dolo específico', 'Sanções (CF art. 37 §4º + LIA arts. 12 e ss.)', 'Procedimento — ação de responsabilidade', 'Prescrição', 'Acordo de não persecução cível'], sections: [] },
   { id: 'adm-10-controle-administracao', num: 10, materia: 'adm', title: 'Controle da Administração', edital: '1.2.10', editalText: 'Controle interno, externo, judicial, social. TCU.', size: 'Médio', schedule: null, advantage: null, outline: ['Classificações (interno × externo, prévio × concomitante × posterior)', 'Controle administrativo (autotutela)', 'Controle legislativo e do TCU', 'Controle judicial (limites)', 'Controle social', 'Lei de Acesso à Informação (12.527/11)'], sections: [] },
   { id: 'adm-11-intervencao-propriedade', num: 11, materia: 'adm', title: 'Intervenção do Estado na propriedade', edital: '1.2.11', editalText: 'Desapropriação, requisição, ocupação temporária, servidão, limitação, tombamento.', size: 'Médio', schedule: null, advantage: null, outline: ['Desapropriação (DL 3.365/41 e Lei 4.132/62)', 'Modalidades (necessidade pública, utilidade pública, interesse social)', 'Desapropriação por interesse social para reforma agrária e urbana', 'Tredestinação e retrocessão', 'Requisição administrativa', 'Servidão administrativa', 'Limitação administrativa', 'Tombamento (DL 25/37)', 'Ocupação temporária'], sections: [] },
@@ -10967,7 +11447,25 @@ flashcards: [
   { id: 490, topic: 1, materia: 'adm', q: 'Lei 9.784/99 art. 54 — prazo decadencial?', a: '5 ANOS contados da data do ato beneficiário, para a Adm. anular atos administrativos favoráveis. Salvo MÁ-FÉ comprovada (em que o prazo é estendido).', tags: ['adm', 'prazo', 'decadencia'] },
   { id: 491, topic: 2, materia: 'adm', q: '5 requisitos do ato administrativo (CO-FI-FO-MO-OB)?', a: 'COMPETÊNCIA · FINALIDADE · FORMA · MOTIVO · OBJETO. Os 3 primeiros são SEMPRE VINCULADOS. Motivo e Objeto podem ser DISCRICIONÁRIOS.', tags: ['adm', 'atos', 'requisitos'] },
   { id: 492, topic: 2, materia: 'adm', q: '4 atributos do ato administrativo (PIAT)?', a: 'PRESUNÇÃO de legitimidade (relativa) · IMPERATIVIDADE · AUTOEXECUTORIEDADE · TIPICIDADE. Nem todos os atos têm imperatividade ou autoexecutoriedade.', tags: ['adm', 'atos', 'atributos'] },
-  { id: 493, topic: 2, materia: 'adm', q: 'Anulação × Revogação — distinção?', a: 'ANULAÇÃO: vício de legalidade · ex TUNC · pode ser feita pelo Judiciário e pela Adm. REVOGAÇÃO: conveniência/oportunidade · ex NUNC · APENAS pela Adm. (Judiciário não revoga).', tags: ['adm', 'extincao', 'anulacao'] }
+  { id: 493, topic: 2, materia: 'adm', q: 'Anulação × Revogação — distinção?', a: 'ANULAÇÃO: vício de legalidade · ex TUNC · pode ser feita pelo Judiciário e pela Adm. REVOGAÇÃO: conveniência/oportunidade · ex NUNC · APENAS pela Adm. (Judiciário não revoga).', tags: ['adm', 'extincao', 'anulacao'] },
+
+  // === Cards Rodada 8 — Adm 3-8 ===
+  { id: 494, topic: 3, materia: 'adm', q: 'Poder de polícia — 4 atributos (DICA-D)?', a: 'DISCRICIONARIEDADE · COERCIBILIDADE · AUTOEXECUTORIEDADE · indelegabilidade (parcial). STF Tema 532: consentimento e fiscalização DELEGÁVEIS a privados; ordem e sanção INDELEGÁVEIS.', tags: ['adm', 'polícia'] },
+  { id: 495, topic: 3, materia: 'adm', q: '4 ciclos do poder de polícia?', a: 'ORDEM (norma geral) · CONSENTIMENTO (alvará/licença) · FISCALIZAÇÃO · SANÇÃO. STF RE 633.782 (Tema 532, 2020) — só ordem e sanção são indelegáveis.', tags: ['adm', 'polícia', 'ciclos'] },
+  { id: 496, topic: 3, materia: 'adm', q: 'Excesso × Desvio de poder?', a: 'EXCESSO = vício de COMPETÊNCIA (agente atua além de suas atribuições). DESVIO = vício de FINALIDADE (agente atua para fim diverso do legalmente previsto). Ambos = nulidade.', tags: ['adm', 'abuso-poder'] },
+  { id: 497, topic: 4, materia: 'adm', q: 'Estabilidade do servidor (CF 41) — quando se adquire?', a: 'Após 3 ANOS de efetivo exercício em CARGO EFETIVO (não em comissão). Causas de perda: sentença judicial · PAD · avaliação periódica insatisfatória · excesso de despesa com pessoal.', tags: ['adm', 'estabilidade'] },
+  { id: 498, topic: 4, materia: 'adm', q: 'Acumulação de cargos públicos (CF 37 XVI) — exceções?', a: '3 hipóteses (com compatibilidade de horários e teto): (a) 2 cargos de PROFESSOR; (b) 1 PROFESSOR + 1 técnico/científico; (c) 2 PROFISSIONAIS DA SAÚDE (regulamentados). Não há outras.', tags: ['adm', 'acumulacao'] },
+  { id: 499, topic: 4, materia: 'adm', q: 'EC 103/19 — idades mínimas para aposentadoria?', a: '65 anos (homem) · 62 anos (mulher) · 25 anos contribuição (h) · 20 anos (m). Compulsória: 75 anos. Regras de transição para servidores antigos.', tags: ['adm', 'aposentadoria', 'EC-103'] },
+  { id: 500, topic: 5, materia: 'adm', q: '3 categorias de bens públicos (CC 99)?', a: 'USO COMUM DO POVO (rios, ruas, praças) · USO ESPECIAL (edifícios públicos) · DOMINICAIS (patrimônio sem destinação). Apenas DOMINICAIS são alienáveis (após desafetação).', tags: ['adm', 'bens-publicos'] },
+  { id: 501, topic: 5, materia: 'adm', q: 'Bens públicos — 4 características?', a: 'IMPENHORABILIDADE · IMPRESCRITIBILIDADE (não usucapíveis — Súm. 340 STF) · INALIENABILIDADE relativa · NÃO ONERABILIDADE. Pagamento por PRECATÓRIO (CF 100).', tags: ['adm', 'bens-publicos', 'caracteristicas'] },
+  { id: 502, topic: 6, materia: 'adm', q: 'Lei 14.133/21 — 5 modalidades de licitação?', a: 'PREGÃO · CONCORRÊNCIA · CONCURSO · LEILÃO · DIÁLOGO COMPETITIVO. Tomada de Preços e Convite EXTINTAS. Diálogo competitivo é novidade.', tags: ['adm', 'licitacao', 'modalidades'] },
+  { id: 503, topic: 6, materia: 'adm', q: 'Diálogo competitivo — quando se aplica?', a: 'NOVIDADE da Lei 14.133/21. Para casos de INOVAÇÃO TECNOLÓGICA ou COMPLEXIDADE TÉCNICA, em que a Adm. precisa "dialogar" com licitantes para definir o objeto.', tags: ['adm', 'licitacao', 'dialogo'] },
+  { id: 504, topic: 6, materia: 'adm', q: 'Sanções da Lei 14.133/21?', a: '4 sanções: ADVERTÊNCIA · MULTA · IMPEDIMENTO de licitar e contratar (até 3 anos) · DECLARAÇÃO DE INIDONEIDADE (3-6 anos). Arts. 155-163.', tags: ['adm', 'sancoes'] },
+  { id: 505, topic: 7, materia: 'adm', q: 'Concessão × Permissão × Autorização?', a: 'CONCESSÃO: contrato administrativo a PJ ou consórcio (concorrência). PERMISSÃO: contrato administrativo a PJ ou PF (concorrência). AUTORIZAÇÃO: ato unilateral, precário, discricionário (CF 21 XII).', tags: ['adm', 'servicos-publicos'] },
+  { id: 506, topic: 7, materia: 'adm', q: 'PPPs — modalidades (Lei 11.079/04)?', a: 'CONCESSÃO PATROCINADA (tarifa do usuário + contraprestação do Poder Público) · CONCESSÃO ADMINISTRATIVA (só contraprestação, sem tarifa do usuário). Valor mínimo: R$ 10 milhões. Prazo: 5-35 anos.', tags: ['adm', 'PPP'] },
+  { id: 507, topic: 8, materia: 'adm', q: 'Responsabilidade civil do Estado (CF 37 §6º) — natureza?', a: 'OBJETIVA — Teoria do RISCO ADMINISTRATIVO (admite excludentes: caso fortuito, força maior, culpa exclusiva da vítima). Risco INTEGRAL (sem excludentes) é EXCEÇÃO: ambiental, nuclear.', tags: ['adm', 'rc-estado'] },
+  { id: 508, topic: 8, materia: 'adm', q: 'STF Tema 940 — quem responde pelo dano causado por agente público?', a: 'O ESTADO (não o agente individualmente). Vítima ajuíza ação contra o Estado, que tem regresso contra o agente em caso de DOLO ou CULPA. RE 1.027.633 (2019).', tags: ['adm', 'rc-estado', 'tema-940'] },
+  { id: 509, topic: 8, materia: 'adm', q: 'Prescrição de pretensão indenizatória contra Adm.?', a: '5 ANOS (Decreto 20.910/32 + STJ Súm. 647). Pegadinha: alternativa diz 3 anos (CC art. 206 §3º V — pretensão privada). Para Adm., prescrição é específica = 5 anos.', tags: ['adm', 'prescricao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -13385,6 +13883,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'Doutrina clássica do ato administrativo. (A) Falso — presunção é RELATIVA. (B) Falso — atos enunciativos (atestado, certidão) e negociais não têm imperatividade. (D) Falso — Judiciário NÃO pode revogar; só anular. (E) Falso — convalidação só de FORMA e COMPETÊNCIA (não de matéria privativa).'
+  },
+
+  // === Questões Rodada 8 — Adm 3-8 ===
+  {
+    id: 173, topic: 3, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os poderes administrativos e o poder de polícia:',
+    alternatives: [
+      'O poder de polícia, em todos os seus 4 ciclos (ordem, consentimento, fiscalização e sanção), é INDELEGÁVEL a entidades privadas, conforme entendimento pacífico do STF.',
+      'O STF, no Tema 532 (RE 633.782, 2020), firmou entendimento de que os ciclos de CONSENTIMENTO e FISCALIZAÇÃO podem ser delegados a entidades de direito privado, mantendo-se INDELEGÁVEIS o poder originário (ordem) e o sancionatório.',
+      'A discricionariedade administrativa é sinônimo de arbitrariedade, permitindo ao agente escolher a solução que melhor lhe convier, sem limites.',
+      'O excesso de poder caracteriza-se pelo desvio de finalidade da atuação administrativa.',
+      'O poder regulamentar do Executivo permite a inovação primária no ordenamento jurídico, ainda que sem lei autorizativa.'
+    ],
+    correct: 'B',
+    explanation: 'STF Tema 532 (RE 633.782, 2020). (A) Falso — só ordem e sanção indelegáveis. (C) Falso — discricionariedade ≠ arbitrariedade (limites: razoabilidade, proporcionalidade). (D) Falso — excesso = vício de COMPETÊNCIA; desvio = vício de FINALIDADE. (E) Falso — decreto regulamentar NÃO inova; apenas detalha lei.'
+  },
+  {
+    id: 174, topic: 4, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os servidores públicos:',
+    alternatives: [
+      'A estabilidade é adquirida após 3 anos de exercício em qualquer cargo, inclusive em comissão, conforme o art. 41 da CF/88.',
+      'A acumulação de cargos públicos é vedada em regra, admitindo, como exceções com compatibilidade de horários: 2 cargos de professor; 1 cargo de professor + 1 técnico/científico; 2 cargos privativos de profissionais da saúde regulamentados.',
+      'A reforma da previdência (EC 103/19) fixou a aposentadoria voluntária aos 60 anos para o homem e 55 anos para a mulher, sem exigência de contribuição mínima.',
+      'A imprescritibilidade do ressarcimento ao erário (CF 37 §5º) abrange todas as sanções aplicáveis ao agente público, incluindo a perda da função e suspensão de direitos políticos.',
+      'A SV 43 do STF admite a transposição de servidor para cargo de carreira diversa, desde que mediante avaliação de desempenho.'
+    ],
+    correct: 'B',
+    explanation: 'CF 37 XVI. (A) Falso — estabilidade só em CARGO EFETIVO (não comissão). (C) Falso — EC 103/19: 65/62 anos. (D) Falso — imprescritibilidade SÓ do ressarcimento (STF Tema 897). (E) Falso — SV 43 VEDA a transposição.'
+  },
+  {
+    id: 175, topic: 5, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca dos bens públicos:',
+    alternatives: [
+      'Os bens públicos podem ser adquiridos por usucapião, desde que cessada sua afetação por mais de 10 anos.',
+      'Os bens dominicais podem ser alienados, desde que respeitadas as exigências legais, especialmente o procedimento licitatório.',
+      'Os bens de uso comum do povo podem ser objeto de penhora para satisfação de dívidas da Administração.',
+      'A inalienabilidade dos bens públicos é absoluta, mesmo após a desafetação.',
+      'Bens de empresas estatais que exploram atividade econômica são considerados bens públicos para todos os efeitos.'
+    ],
+    correct: 'B',
+    explanation: 'CC 100-101 + Lei 14.133/21. (A) Falso — bens públicos não admitem usucapião (Súm. 340 STF, CF 183 §3º). (C) Falso — impenhorabilidade absoluta; pagamento por precatório. (D) Falso — inalienabilidade é RELATIVA (dominicais alienáveis). (E) Falso — empresas econômicas têm bens privados, salvo afetados ao serviço público.'
+  },
+  {
+    id: 176, topic: 6, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a Lei 14.133/21 (Nova Lei de Licitações e Contratos):',
+    alternatives: [
+      'A nova lei manteve as 6 modalidades licitatórias da Lei 8.666/93 e acrescentou o pregão, totalizando 7 modalidades.',
+      'A Lei 14.133/21 manteve a Tomada de Preços e o Convite, modificando apenas seus limites de valor.',
+      'A Lei 14.133/21 substituiu integralmente a Lei 8.666/93, a Lei do Pregão (10.520/02) e o RDC; instituiu 5 modalidades (PREGÃO · CONCORRÊNCIA · CONCURSO · LEILÃO · DIÁLOGO COMPETITIVO) e EXTINGUIU a Tomada de Preços e o Convite.',
+      'A modalidade pregão pode ser utilizada apenas para contratos abaixo de R$ 100.000, conforme regra geral de valor.',
+      'A modalidade Concurso destina-se à alienação de bens móveis, em substituição ao Leilão.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 14.133/21 art. 28. (A) Falso — 5 modalidades, não 7. (B) Falso — extinta TP e Convite. (D) Falso — pregão para qualquer valor (bens e serviços comuns). (E) Falso — Concurso é para escolha de trabalho técnico/científico/artístico; Leilão para alienação.'
+  },
+  {
+    id: 177, topic: 7, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre serviços públicos e PPPs:',
+    alternatives: [
+      'A concessão e a permissão são atos unilaterais discricionários da Administração; a autorização é contrato administrativo formal.',
+      'A continuidade do serviço público é princípio absoluto, não admitindo qualquer hipótese de suspensão.',
+      'A PPP-Patrocinada combina tarifa do usuário com contraprestação do Poder Público; a PPP-Administrativa prevê contraprestação INTEGRAL do Poder Público (usuário não paga). Valor mínimo: R$ 10 milhões. Prazo: 5 a 35 anos.',
+      'As agências reguladoras são autarquias comuns, sem qualquer regime especial de autonomia.',
+      'A Lei 13.460/17 (Lei do Usuário do Serviço Público) revogou completamente o CDC quanto aos serviços públicos.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 11.079/04. (A) Falso — concessão/permissão são CONTRATOS; autorização é ato unilateral. (B) Falso — admite suspensão por inadimplência (Súm. 339 STJ). (D) Falso — autarquias em regime ESPECIAL (Lei 13.848/19). (E) Falso — Lei 13.460/17 cumula com CDC, não revoga.'
+  },
+  {
+    id: 178, topic: 8, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a responsabilidade civil do Estado (CF 37 §6º):',
+    alternatives: [
+      'A responsabilidade civil do Estado é, em regra, SUBJETIVA, exigindo prova de dolo ou culpa do agente.',
+      'A teoria do risco INTEGRAL é a regra geral, não admitindo qualquer espécie de excludente de responsabilidade.',
+      'A responsabilidade civil do Estado é OBJETIVA (CF 37 §6º), adotando-se a teoria do RISCO ADMINISTRATIVO (admite excludentes: caso fortuito, força maior, culpa exclusiva da vítima); o STF (Tema 940, RE 1.027.633, 2019) firmou que a vítima deve ajuizar ação CONTRA O ESTADO, não contra o agente.',
+      'Empresas públicas que exploram atividade econômica respondem objetivamente pelos danos causados, conforme CF 37 §6º.',
+      'A prescrição da pretensão indenizatória contra a Administração é de 3 anos, conforme regra geral do CC.'
+    ],
+    correct: 'C',
+    explanation: 'CF 37 §6º + STF Tema 940. (A) Falso — OBJETIVA. (B) Falso — risco ADMINISTRATIVO (admite excludentes); INTEGRAL é exceção. (D) Falso — apenas prestadoras de serviço público (não atividade econômica). (E) Falso — 5 anos (Decreto 20.910/32, Súm. 647 STJ).'
   }
 ],
 

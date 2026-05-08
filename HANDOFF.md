@@ -48,13 +48,13 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **89 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 2 Adm com sinopse Juspodivm-like
-- **54 esqueletos prontos** distribuídos em 5 matérias (10 adm, 8 elei, 10 trib, 14 penal, 12 pp).
+- **95 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 8 Adm com sinopse Juspodivm-like
+- **48 esqueletos prontos** distribuídos em 5 matérias (4 adm, 8 elei, 10 trib, 14 penal, 12 pp).
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **493 flashcards**
-- **172 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **509 flashcards**
+- **178 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
 - **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
@@ -97,7 +97,7 @@ Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata
 | Matéria | Esqueletos restantes |
 |---------|-------------------|
 | ~~Constitucional~~ | ✅ 0 (100% completo) |
-| Administrativo | 10 (de 12 — adm-01 e 02 prontos) |
+| Administrativo | 4 (de 12 — adm-01 a 08 prontos) |
 | Eleitoral | 8 |
 | Tributário/Financeiro | 10 |
 | ~~Teoria do MP~~ | ✅ 0 (100% completo) |
@@ -181,25 +181,26 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #11** — Rodada 4: 6 esqueletos de Material Coletivo preenchidos (colmat-03 Pessoa Idosa, colmat-04 PCD/LBI, colmat-05 Educação, colmat-06 Saúde/SUS, colmat-07 Consumidor/CDC, colmat-08 Meio Ambiente). +30 cards e +6 questões. Total: 71 preenchidos.
 - **PR #12** — Rodada 5: **ColMat 100% completa** (colmat-09 Urbanístico, colmat-10 Patrimônio Cultural, colmat-11 Improbidade, colmat-12 Comunidades Tradicionais) + **Const 2/12 iniciado** (const-01 Teoria, const-02 Eficácia). +30 cards e +6 questões. Total: 77 preenchidos.
 - **PR #13** — Rodada 6: **Const 8/12**. +20 cards e +6 questões. Total: 83 preenchidos.
-- **PR #14** (este) — Rodada 7: **Const 100% completo** (const-09 funções essenciais, const-10 controle, const-11 ordem econômica, const-12 ordem social) + **Adm 2/12 iniciado** (adm-01 princípios, adm-02 atos administrativos). +16 cards e +6 questões. Total: **89 preenchidos**.
+- **PR #14** — Rodada 7: **Const 100%** + Adm 2/12. Total: 89.
+- **PR #15** (este) — Rodada 8: **Adm 8/12** (adm-03 Poderes administrativos, adm-04 Servidores, adm-05 Bens públicos, adm-06 Licitações Lei 14.133, adm-07 Serviços públicos, adm-08 RC Estado). +16 cards e +6 questões. Total: **95 preenchidos**.
 
 ## Stats atuais
 
-- **143 tópicos** (**89 com conteúdo** + 54 esqueletos com outline)
-- **493 flashcards**
-- **172 questões** com gabarito comentado
-- **88 súmulas** STF/STJ mapeadas
-- ~18.500 linhas em `assets/data.js`
+- **143 tópicos** (**95 com conteúdo** + 48 esqueletos com outline)
+- **509 flashcards**
+- **178 questões** com gabarito comentado
+- **88 súmulas** STF/STJ
+- ~21.000 linhas em `assets/data.js`
 
-### Tópicos preenchidos (89)
+### Tópicos preenchidos (95)
 
 - **Processo Civil 1-30** (30)
 - **Direito Civil 1-17** (17)
 - **Processual Coletivo 1-8** (8) — **100%**
 - **Teoria do MP 1-8** (8) — **100%**
 - **Material Coletivo 1-12** (12) — **100%**
-- **Constitucional 1-12** (12) — **100% COMPLETO**: Teoria, Eficácia, Hermenêutica, Princípios fundamentais, Direitos individuais, Direitos sociais, Federalismo, Poderes, Funções essenciais, Controle, Ordem econômica, Ordem social
-- **Administrativo 1-2** (2 de 12): Princípios da Adm., Atos administrativos. Faltam: adm-03 a 12
+- **Constitucional 1-12** (12) — **100%**
+- **Administrativo 1-8** (8 de 12): Princípios, Atos, Poderes, Servidores, Bens, Licitações, Serviços públicos, RC Estado. Faltam: adm-09 a 12
 
 ### Próxima rodada sugerida (Rodada 6)
 
