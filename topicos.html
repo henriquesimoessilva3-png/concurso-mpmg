@@ -662,7 +662,12 @@
               statusEl.textContent = `⬇️ Voz Premium ${pct}% (${mb}MB)`;
             }
           },
-          logger: (msg) => console.log('[Piper]', msg)
+          logger: (msg) => console.log('[Piper]', msg),
+          wasmPaths: {
+            onnxWasm: 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.19.2/dist/',
+            piperWasm: 'https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.wasm',
+            piperData: 'https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.data'
+          }
         });
         // session.waitReady é Promise<void> | boolean — só await se for promise
         if (session.waitReady && typeof session.waitReady.then === 'function') {
