@@ -8659,12 +8659,353 @@ topics: [
       ]
     }
   ] },
-  { id: 'trib-05-credito-tributario', num: 5, materia: 'trib', title: 'Crédito tributário (constituição, suspensão, extinção, exclusão)', edital: '1.4.5', editalText: 'Lançamento. Causas suspensivas, extintivas e excludentes do crédito.', size: 'Grande', schedule: null, advantage: null, outline: ['Lançamento (de ofício, declaração, homologação)', 'Suspensão da exigibilidade (CTN art. 151)', 'Extinção (CTN art. 156) — pagamento, compensação, transação, prescrição, decadência, etc.', 'Exclusão — isenção e anistia (CTN arts. 175-182)', 'Decadência × prescrição', 'Garantias e privilégios do crédito'], sections: [] },
-  { id: 'trib-06-administracao-tributaria', num: 6, materia: 'trib', title: 'Administração tributária e processo administrativo fiscal', edital: '1.4.6', editalText: 'Fiscalização. Dívida ativa. Certidões. PAF (Decreto 70.235/72).', size: 'Médio', schedule: null, advantage: null, outline: ['Fiscalização (CTN arts. 194-200)', 'Inscrição em dívida ativa', 'Certidões negativa, positiva e CPEN', 'Processo administrativo fiscal — Decreto 70.235/72', 'Sigilo fiscal (CTN art. 198)'], sections: [] },
-  { id: 'trib-07-execucao-fiscal-processo-judicial', num: 7, materia: 'trib', title: 'Execução fiscal e processo judicial tributário', edital: '1.4.7', editalText: 'Lei 6.830/80. Embargos. Exceção de pré-executividade. Anulatória, declaratória, consignação, MS.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 6.830/80 (LEF) — execução fiscal', 'Petição inicial e CDA', 'Citação, garantia, penhora', 'Embargos do devedor', 'Exceção de pré-executividade (Súmula 393 STJ)', 'Ações antiexacionais (anulatória, declaratória, consignação, repetição, MS)', 'Redirecionamento (Súmula 435 STJ)'], sections: [] },
-  { id: 'trib-08-reforma-tributaria-ec-132', num: 8, materia: 'trib', title: 'Reforma Tributária (EC 132/23)', edital: '1.4.8', editalText: 'IBS (estadual/municipal), CBS (federal), IS (seletivo). Transição.', size: 'Médio', schedule: null, advantage: null, outline: ['EC 132/23 — visão geral', 'IBS (Imposto sobre Bens e Serviços) — estadual e municipal', 'CBS (Contribuição sobre Bens e Serviços) — federal', 'IS (Imposto Seletivo) — federal', 'Cashback constitucional', 'Período de transição (2026-2033)', 'Comitê Gestor do IBS'], sections: [] },
-  { id: 'trib-09-direito-financeiro-lrf', num: 9, materia: 'trib', title: 'Direito Financeiro (LRF, orçamento)', edital: '1.4.9', editalText: 'Lei 4.320/64. LC 101/00 (LRF). Orçamento (PPA, LDO, LOA). Receita e despesa.', size: 'Médio', schedule: null, advantage: null, outline: ['Atividade financeira do Estado', 'Orçamento (PPA, LDO, LOA)', 'Princípios orçamentários', 'Receita e despesa pública', 'Lei 4.320/64', 'LRF (LC 101/00) — limites e responsabilidades', 'Crimes contra finanças públicas (Lei 10.028/00)'], sections: [] },
-  { id: 'trib-10-crimes-ordem-tributaria', num: 10, materia: 'trib', title: 'Crimes contra a ordem tributária', edital: '1.4.10', editalText: 'Lei 8.137/90. Sonegação fiscal. Apropriação indébita. Extinção pelo pagamento.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 8.137/90 — crimes contra a ordem tributária', 'Sonegação fiscal (art. 1º)', 'Apropriação indébita tributária', 'Extinção da punibilidade pelo pagamento (Súmula Vinculante 24)', 'Parcelamento e suspensão da pretensão punitiva', 'Crimes previdenciários (CP art. 168-A)'], sections: [] },
+  { id: 'trib-05-credito-tributario', num: 5, materia: 'trib', title: 'Crédito tributário (constituição, suspensão, extinção, exclusão)', edital: '1.4.5', editalText: 'Lançamento. Causas suspensivas, extintivas e excludentes do crédito.', size: 'Grande', schedule: 'Mês 17', advantage: null, outline: ['Lançamento (de ofício, declaração, homologação)', 'Suspensão da exigibilidade (CTN art. 151)', 'Extinção (CTN art. 156) — pagamento, compensação, transação, prescrição, decadência, etc.', 'Exclusão — isenção e anistia (CTN arts. 175-182)', 'Decadência × prescrição', 'Garantias e privilégios do crédito'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CRÉDITO TRIBUTÁRIO** é constituído pelo LANÇAMENTO (CTN 142). Pode ter sua exigibilidade SUSPENSA (151), ser EXTINTO (156) ou EXCLUÍDO (175). Tópico denso, com muitas modalidades. Domínio das listas é dever de prova.' }
+      ]
+    },
+    {
+      h: 'Lançamento',
+      items: [
+        { type: 'list', items: [
+          '**DE OFÍCIO/DIRETO (CTN 149):** Adm. tem todos os elementos. Ex: IPTU, IPVA',
+          '**POR DECLARAÇÃO/MISTO (CTN 147):** contribuinte declara, Adm. lança. Ex: ITBI, ITCMD',
+          '**POR HOMOLOGAÇÃO/AUTOLANÇAMENTO (CTN 150):** contribuinte calcula e paga; Adm. homologa. Ex: ICMS, IR'
+        ]}
+      ]
+    },
+    {
+      h: 'Suspensão (CTN 151) — mnemônico MO-DE-RE-CO-PA',
+      items: [
+        { type: 'list', items: [
+          '**MO** — moratória',
+          '**DE** — depósito do montante integral',
+          '**RE** — reclamações e recursos',
+          '**CO** — concessão de medida liminar (MS, antecipação)',
+          '**PA** — parcelamento'
+        ]}
+      ]
+    },
+    {
+      h: 'Extinção (CTN 156) — 11 hipóteses',
+      items: [
+        { type: 'list', items: [
+          'Pagamento · Compensação · Transação · Remissão · Decadência · Prescrição · Conversão de depósito em renda · Pagamento antecipado e homologação · Consignação em pagamento · Decisão administrativa irreformável · Decisão judicial passada em julgado · Dação em pagamento de bens imóveis'
+        ]}
+      ]
+    },
+    {
+      h: 'Decadência × Prescrição',
+      items: [
+        { type: 'list', items: [
+          '**DECADÊNCIA (CTN 173):** 5 anos para a Adm. CONSTITUIR o crédito',
+          '**PRESCRIÇÃO (CTN 174):** 5 anos para a Adm. COBRAR o crédito (após constituição)',
+          'Súm. Vinculante 8 STF: prazos de prescrição/decadência tributária só por LEI COMPLEMENTAR'
+        ]}
+      ]
+    },
+    {
+      h: 'Exclusão — Isenção × Anistia',
+      items: [
+        { type: 'list', items: [
+          '**ISENÇÃO (CTN 176):** dispensa do tributo (mas não da obrigação acessória)',
+          '**ANISTIA (CTN 180):** dispensa de penalidade (multa, infração)',
+          'Ambas devem decorrer de LEI'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Suspensão (CTN 151): MO-DE-RE-CO-PA. Moratória · Depósito · Recursos · Concessão liminar · Parcelamento.**' },
+        { type: 'box', kind: 'macete', text: '**Extinção: 11 hipóteses (CTN 156).**' },
+        { type: 'box', kind: 'macete', text: '**DECADÊNCIA = constituir (CTN 173). PRESCRIÇÃO = cobrar (CTN 174). Ambos 5 anos.**' },
+        { type: 'box', kind: 'macete', text: '**ISENÇÃO (tributo) × ANISTIA (penalidade). Ambas exigem LEI.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 7:** execução fiscal — após não pagamento.' }
+      ]
+    }
+  ] },
+  { id: 'trib-06-administracao-tributaria', num: 6, materia: 'trib', title: 'Administração tributária e processo administrativo fiscal', edital: '1.4.6', editalText: 'Fiscalização. Dívida ativa. Certidões. PAF (Decreto 70.235/72).', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Fiscalização (CTN arts. 194-200)', 'Inscrição em dívida ativa', 'Certidões negativa, positiva e CPEN', 'Processo administrativo fiscal — Decreto 70.235/72', 'Sigilo fiscal (CTN art. 198)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ADMINISTRAÇÃO TRIBUTÁRIA** é constitucionalmente protegida (CF 37 XVIII e XXII — atividades essenciais ao funcionamento do Estado, prioritárias). Disciplinada pelo CTN arts. 194-208 e Decreto 70.235/72 (PAF federal).' }
+      ]
+    },
+    {
+      h: 'Aspectos centrais',
+      items: [
+        { type: 'h', text: 'Fiscalização (CTN 194-200)' },
+        { type: 'list', items: [
+          'Servidor com competência específica',
+          '**Sigilo fiscal (CTN 198):** dados protegidos. Exceções: requisição judicial, intercâmbio com outras administrações',
+          'Lei Complementar 105/01: regula sigilo bancário'
+        ]},
+
+        { type: 'h', text: 'Dívida ativa (CTN 201-204 + Lei 6.830/80 art. 2º)' },
+        { type: 'list', items: [
+          'Crédito não pago é inscrito em dívida ativa pela Procuradoria',
+          'Constitui TÍTULO EXECUTIVO EXTRAJUDICIAL — CDA (Certidão de Dívida Ativa)',
+          'Requisitos do art. 202 CTN: nome do devedor, valor, fundamento legal, etc.'
+        ]},
+
+        { type: 'h', text: 'Certidões (CTN 205-208)' },
+        { type: 'list', items: [
+          'CND — Certidão Negativa de Débitos',
+          'CPEN — Certidão Positiva com Efeito de Negativa (suspensão da exigibilidade)',
+          'Exigida em vários atos (registro de imóveis, transações com Adm., licitações, etc.)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**CDA (Certidão de Dívida Ativa) = TÍTULO EXECUTIVO EXTRAJUDICIAL — base da execução fiscal.**' },
+        { type: 'box', kind: 'macete', text: '**CND × CPEN: a positiva COM efeito de negativa indica suspensão (parcelamento, depósito).**' },
+        { type: 'box', kind: 'macete', text: '**Sigilo fiscal (CTN 198): protegido — exceções por lei.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 7:** execução fiscal usa CDA como título.' }
+      ]
+    }
+  ] },
+  { id: 'trib-07-execucao-fiscal-processo-judicial', num: 7, materia: 'trib', title: 'Execução fiscal e processo judicial tributário', edital: '1.4.7', editalText: 'Lei 6.830/80. Embargos. Exceção de pré-executividade. Anulatória, declaratória, consignação, MS.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Lei 6.830/80 (LEF) — execução fiscal', 'Petição inicial e CDA', 'Citação, garantia, penhora', 'Embargos do devedor', 'Exceção de pré-executividade (Súmula 393 STJ)', 'Ações antiexacionais (anulatória, declaratória, consignação, repetição, MS)', 'Redirecionamento (Súmula 435 STJ)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **EXECUÇÃO FISCAL** (Lei 6.830/80 — LEF) é o instrumento processual de cobrança da dívida ativa. **Ações ANTIEXACIONAIS** (defesa do contribuinte): anulatória, declaratória, consignação, repetição de indébito, MS.' }
+      ]
+    },
+    {
+      h: 'Aspectos centrais',
+      items: [
+        { type: 'h', text: 'LEF — Lei 6.830/80' },
+        { type: 'list', items: [
+          'Petição inicial + CDA (título)',
+          'CITAÇÃO do executado (5 dias para pagar ou garantir o juízo)',
+          'GARANTIA (depósito, fiança bancária, seguro, penhora)',
+          'EMBARGOS DO DEVEDOR (30 dias após garantia integral)'
+        ]},
+
+        { type: 'h', text: 'Exceção de pré-executividade' },
+        { type: 'list', items: [
+          'STJ Súm. 393: cabível para alegar matérias conhecíveis de OFÍCIO, sem dilação probatória',
+          'NÃO exige garantia do juízo',
+          'Vedada para discutir matéria que demanda prova'
+        ]},
+
+        { type: 'h', text: 'Redirecionamento (STJ Súm. 435)' },
+        { type: 'list', items: [
+          'Empresa que muda de endereço sem comunicação à Receita: presume-se DISSOLUÇÃO IRREGULAR',
+          'Permite redirecionamento contra sócios-gerentes',
+          'Tema cobrado em provas tributárias'
+        ]},
+
+        { type: 'h', text: 'Ações antiexacionais' },
+        { type: 'list', items: [
+          'ANULATÓRIA: anular ato ou cobrança',
+          'DECLARATÓRIA: declarar relação tributária',
+          'CONSIGNAÇÃO em pagamento (em casos de dúvida)',
+          'REPETIÇÃO DE INDÉBITO (CTN 165): restituição de tributo pago indevidamente',
+          'MS: contra ato ilegal ou abuso de poder em matéria tributária'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LEF (Lei 6.830/80): execução fiscal com base em CDA.**' },
+        { type: 'box', kind: 'macete', text: '**Exceção de pré-executividade (Súm. 393 STJ): matérias de ofício, sem dilação probatória, sem garantia.**' },
+        { type: 'box', kind: 'macete', text: '**Súm. 435 STJ: dissolução irregular = redirecionamento contra sócios.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 5:** crédito tributário é base da execução.' }
+      ]
+    }
+  ] },
+  { id: 'trib-08-reforma-tributaria-ec-132', num: 8, materia: 'trib', title: 'Reforma Tributária (EC 132/23)', edital: '1.4.8', editalText: 'IBS (estadual/municipal), CBS (federal), IS (seletivo). Transição.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['EC 132/23 — visão geral', 'IBS (Imposto sobre Bens e Serviços) — estadual e municipal', 'CBS (Contribuição sobre Bens e Serviços) — federal', 'IS (Imposto Seletivo) — federal', 'Cashback constitucional', 'Período de transição (2026-2033)', 'Comitê Gestor do IBS'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **EC 132/2023** é a maior reforma tributária da história recente. Promulgada em 20/12/2023. Substitui ICMS · ISS · PIS · COFINS · IPI por **3 NOVOS TRIBUTOS**: IBS, CBS, IS. **DUAL VAT** (IVA dual). Vigência gradual entre 2026-2033 (regime de transição).' }
+      ]
+    },
+    {
+      h: 'Estrutura da reforma',
+      items: [
+        { type: 'list', items: [
+          '**IBS — Imposto sobre Bens e Serviços (ESTADUAL e MUNICIPAL):** substitui ICMS + ISS. Lei Complementar 214/2025 disciplina. Comitê Gestor (CGIBS) administra',
+          '**CBS — Contribuição sobre Bens e Serviços (FEDERAL):** substitui PIS + COFINS. Lei Complementar 214/2025',
+          '**IS — Imposto Seletivo (FEDERAL):** substitui IPI parcialmente. Aplica-se a bens e serviços PREJUDICIAIS à saúde ou meio ambiente (cigarros, bebidas, automóveis poluentes)',
+          '**Princípios novos:** simplicidade, transparência, justiça tributária, cooperação, defesa do meio ambiente',
+          'Não-cumulativo amplo (crédito financeiro)',
+          'CASHBACK: devolução de tributo a famílias de baixa renda'
+        ]}
+      ]
+    },
+    {
+      h: 'Período de transição (2026-2033)',
+      items: [
+        { type: 'list', items: [
+          '**2026:** começa a cobrança "teste" de CBS e IBS (alíquotas reduzidas)',
+          '**2027:** CBS substitui PIS/COFINS plenamente',
+          '**2027:** IS começa',
+          '**2029-2032:** transição gradual para IBS (redução progressiva ICMS/ISS)',
+          '**2033:** IBS plenamente em vigor; ICMS/ISS extintos'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**EC 132/23: substitui ICMS + ISS por IBS · PIS + COFINS por CBS · IPI parcialmente por IS.**' },
+        { type: 'box', kind: 'macete', text: '**IBS: estadual + municipal (gestão conjunta — Comitê Gestor).** CBS: federal. IS: federal seletivo.**' },
+        { type: 'box', kind: 'macete', text: '**Transição 2026-2033.** Em 2033, ICMS/ISS extintos.' },
+        { type: 'box', kind: 'macete', text: '**Tema novo, em alta — provas pós-2024 cobram com frequência.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios constitucionais — reforma respeitou cláusulas pétreas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 3:** novas espécies tributárias.' }
+      ]
+    }
+  ] },
+  { id: 'trib-09-direito-financeiro-lrf', num: 9, materia: 'trib', title: 'Direito Financeiro (LRF, orçamento)', edital: '1.4.9', editalText: 'Lei 4.320/64. LC 101/00 (LRF). Orçamento (PPA, LDO, LOA). Receita e despesa.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Atividade financeira do Estado', 'Orçamento (PPA, LDO, LOA)', 'Princípios orçamentários', 'Receita e despesa pública', 'Lei 4.320/64', 'LRF (LC 101/00) — limites e responsabilidades', 'Crimes contra finanças públicas (Lei 10.028/00)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **DIREITO FINANCEIRO** rege as receitas, despesas, orçamento e crédito do Estado. CF 165 + Lei 4.320/64 + LC 101/00 (LRF). Para o concurso: dominar PPA, LDO, LOA + LRF (limites com pessoal, dívida).' }
+      ]
+    },
+    {
+      h: 'Orçamento (CF 165)',
+      items: [
+        { type: 'list', items: [
+          '**PPA — Plano Plurianual:** 4 anos. Diretrizes, objetivos, metas, programas',
+          '**LDO — Lei de Diretrizes Orçamentárias:** anual. Metas e prioridades. Orienta a LOA',
+          '**LOA — Lei Orçamentária Anual:** anual. Operacional. Receitas e despesas concretas'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios orçamentários',
+      items: [
+        { type: 'list', items: [
+          '**UNIDADE:** uma única lei orçamentária',
+          '**UNIVERSALIDADE:** todas as receitas e despesas',
+          '**ANUALIDADE:** vigência anual',
+          '**EXCLUSIVIDADE:** matérias estranhas vedadas',
+          '**LEGALIDADE:** somente por lei',
+          '**PUBLICIDADE / TRANSPARÊNCIA**',
+          '**PROIBIÇÃO de estorno** sem autorização legislativa'
+        ]}
+      ]
+    },
+    {
+      h: 'LRF (LC 101/00)',
+      items: [
+        { type: 'list', items: [
+          '**Limites com despesa de pessoal (CF 169):** União 50% RCL · Estados 60% · Municípios 60%',
+          '**Subteto por Poder:** Executivo 49% (União 40,9%) · Legislativo 3% · Judiciário 6% · MP 2% · Defensoria 2%',
+          '**Limites com dívida pública:** Resolução do Senado',
+          '**Renúncia de receita:** estimativa de impacto + medidas compensatórias',
+          '**Crimes da Lei 10.028/00** (crimes contra as finanças públicas)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Orçamento: PPA (4 anos) · LDO (anual) · LOA (anual). CF 165.**' },
+        { type: 'box', kind: 'macete', text: '**LRF — limites pessoal: 50% (U) · 60% (E/M) da RCL.**' },
+        { type: 'box', kind: 'macete', text: '**Lei 10.028/00: crimes contra finanças públicas (gerar despesa não autorizada, oferecer garantia indevida, etc.).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11:** ordem econômica e financeira (CF 163-169).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4:** servidores e teto remuneratório.' }
+      ]
+    }
+  ] },
+  { id: 'trib-10-crimes-ordem-tributaria', num: 10, materia: 'trib', title: 'Crimes contra a ordem tributária', edital: '1.4.10', editalText: 'Lei 8.137/90. Sonegação fiscal. Apropriação indébita. Extinção pelo pagamento.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Lei 8.137/90 — crimes contra a ordem tributária', 'Sonegação fiscal (art. 1º)', 'Apropriação indébita tributária', 'Extinção da punibilidade pelo pagamento (Súmula Vinculante 24)', 'Parcelamento e suspensão da pretensão punitiva', 'Crimes previdenciários (CP art. 168-A)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **CRIMES CONTRA A ORDEM TRIBUTÁRIA** estão na Lei 8.137/90. **STF — SV 24** marco fundamental: crimes do art. 1º (materiais) só se consumam após CONSTITUIÇÃO DEFINITIVA do crédito (lançamento + esgotamento das vias administrativas). Pagamento extingue a punibilidade.' }
+      ]
+    },
+    {
+      h: 'Lei 8.137/90 — espécies',
+      items: [
+        { type: 'h', text: 'Art. 1º — crimes materiais (sonegação fiscal)' },
+        { type: 'list', items: [
+          'Suprimir ou reduzir tributo mediante fraude (omitir informação, inserir elemento inexato, falsificar nota, etc.)',
+          'Pena: 2-5 anos + multa',
+          'Crimes MATERIAIS — exigem resultado (efetiva supressão/redução)'
+        ]},
+
+        { type: 'h', text: 'Art. 2º — crimes formais' },
+        { type: 'list', items: [
+          'Fazer declaração falsa, deixar de aplicar, etc.',
+          'Pena: 6 meses-2 anos + multa',
+          'Crimes FORMAIS — não exigem resultado'
+        ]},
+
+        { type: 'h', text: 'Apropriação indébita tributária (CP 168-A para PREVIDENCIÁRIO)' },
+        { type: 'list', items: [
+          'Deixar de repassar contribuições previdenciárias retidas',
+          'Crime omissivo próprio',
+          'STF: requer DOLO de não recolher (não basta inadimplência)'
+        ]}
+      ]
+    },
+    {
+      h: 'SV 24 STF e extinção pela pagamento',
+      items: [
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — SV 24:** "Não se tipifica crime material contra a ordem tributária, previsto no art. 1º, incisos I a IV, da Lei 8.137/90, antes do lançamento definitivo do tributo." Marco fundamental — crime só após constituição do crédito.' },
+
+        { type: 'h', text: 'Extinção da punibilidade' },
+        { type: 'list', items: [
+          'Lei 10.684/03: PAGAMENTO INTEGRAL extingue a punibilidade A QUALQUER TEMPO (mesmo após denúncia ou condenação)',
+          'PARCELAMENTO: SUSPENDE a pretensão punitiva enquanto cumprido',
+          'Cumprimento integral do parcelamento: extingue'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Lei 8.137/90: art. 1º (materiais — sonegação) × art. 2º (formais).**' },
+        { type: 'box', kind: 'macete', text: '**SV 24 STF: crime material só após CONSTITUIÇÃO DEFINITIVA do crédito (lançamento + via admin esgotada).**' },
+        { type: 'box', kind: 'macete', text: '**Pagamento INTEGRAL = extingue punibilidade A QUALQUER TEMPO (Lei 10.684/03).**' },
+        { type: 'box', kind: 'macete', text: '**Apropriação indébita previdenciária: CP 168-A.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 12 (crimes Adm./fé pública):** crime tributário convive com crimes funcionais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 5 (crédito):** constituição do crédito é pressuposto do crime material.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — TEORIA DO MP (8) ============
   { id: 'mp-01-historico-constituicoes', num: 1, materia: 'mp', title: 'Histórico do MP e MP nas Constituições', edital: '1.5.1', editalText: 'Origem do MP. MP nas Constituições brasileiras. CF/88 — refundação institucional.', size: 'Pequeno', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — vivência institucional facilita a leitura histórica).', outline: ['Origens do MP (Egito, França, Portugal)', 'MP nas Constituições brasileiras (1824, 1891, 1934, 1937, 1946, 1967/69)', 'CF/88 — refundação institucional (arts. 127-130)', 'Evolução pós-1988'], sections: [
@@ -14345,7 +14686,23 @@ flashcards: [
   { id: 604, topic: 3, materia: 'trib', q: 'Teoria pentapartida (STF) — 5 espécies?', a: 'IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS (sociais, CIDE, profissionais, CIP). STF firmou (RE 138.284, 1992).', tags: ['trib', 'especies'] },
   { id: 605, topic: 3, materia: 'trib', q: 'Impostos federais × estaduais × municipais?', a: 'FEDERAIS (CF 153): II · IE · IR · IPI · IOF · ITR · IGF. ESTADUAIS (CF 155): ITCMD · ICMS · IPVA. MUNICIPAIS (CF 156): IPTU · ITBI · ISS.', tags: ['trib', 'impostos'] },
   { id: 606, topic: 4, materia: 'trib', q: 'Obrigação tributária — fato gerador (CTN 114)?', a: 'Situação definida em LEI como necessária e suficiente para a OBRIGAÇÃO PRINCIPAL. CTN 118: princípio "NON OLET" — ganho ilícito é tributável (STF aplica).', tags: ['trib', 'fato-gerador'] },
-  { id: 607, topic: 4, materia: 'trib', q: 'Solidariedade tributária (CTN 124-125)?', a: 'Pessoas com INTERESSE COMUM no fato gerador OU designadas por lei. NÃO admite BENEFÍCIO DE ORDEM (CTN 124 § único). Cada um pode ser cobrado pelo total.', tags: ['trib', 'solidariedade'] }
+  { id: 607, topic: 4, materia: 'trib', q: 'Solidariedade tributária (CTN 124-125)?', a: 'Pessoas com INTERESSE COMUM no fato gerador OU designadas por lei. NÃO admite BENEFÍCIO DE ORDEM (CTN 124 § único). Cada um pode ser cobrado pelo total.', tags: ['trib', 'solidariedade'] },
+
+  // === Cards Rodada 16 — Trib 5-10 (FECHAMENTO 100%) ===
+  { id: 608, topic: 5, materia: 'trib', q: 'Suspensão da exigibilidade do crédito (CTN 151) — mnemônico?', a: 'MO-DE-RE-CO-PA: MOratória · DEpósito do montante integral · REclamações e recursos · COncessão de medida liminar/antecipação · PArcelamento.', tags: ['trib', 'suspensao'] },
+  { id: 609, topic: 5, materia: 'trib', q: 'Decadência × prescrição tributária?', a: 'DECADÊNCIA (CTN 173): 5 ANOS para a Adm. CONSTITUIR o crédito. PRESCRIÇÃO (CTN 174): 5 ANOS para COBRAR (após constituição). SV 8 STF: prazos só por LEI COMPLEMENTAR.', tags: ['trib', 'decadencia-prescricao'] },
+  { id: 610, topic: 5, materia: 'trib', q: 'Isenção × Anistia?', a: 'ISENÇÃO (CTN 176): dispensa do TRIBUTO (mas NÃO da obrigação acessória). ANISTIA (CTN 180): dispensa de PENALIDADE/multa. Ambas exigem LEI.', tags: ['trib', 'isencao-anistia'] },
+  { id: 611, topic: 6, materia: 'trib', q: 'CDA — Certidão de Dívida Ativa?', a: 'TÍTULO EXECUTIVO EXTRAJUDICIAL emitido pela Procuradoria. Base da execução fiscal (Lei 6.830/80). Requisitos no CTN art. 202: nome do devedor, valor, fundamento legal, data inscrição.', tags: ['trib', 'CDA'] },
+  { id: 612, topic: 7, materia: 'trib', q: 'STJ Súm. 393 — exceção de pré-executividade?', a: 'Cabível para alegar matérias conhecíveis de OFÍCIO, sem dilação probatória. NÃO exige garantia do juízo. Vedada para questões que dependam de produção de prova.', tags: ['trib', 'pre-executividade'] },
+  { id: 613, topic: 7, materia: 'trib', q: 'STJ Súm. 435 — redirecionamento?', a: 'Empresa que muda de endereço sem comunicar à Receita: presume-se DISSOLUÇÃO IRREGULAR. Permite redirecionamento da execução fiscal contra os SÓCIOS-GERENTES (CTN 135 III).', tags: ['trib', 'redirecionamento'] },
+  { id: 614, topic: 8, materia: 'trib', q: 'EC 132/23 — Reforma Tributária — 3 novos tributos?', a: 'IBS (Imposto sobre Bens e Serviços — estadual+municipal — substitui ICMS+ISS) · CBS (Contribuição sobre Bens e Serviços — federal — substitui PIS+COFINS) · IS (Imposto Seletivo — federal — substitui parte do IPI, focado em saúde/meio ambiente).', tags: ['trib', 'reforma', 'EC-132'] },
+  { id: 615, topic: 8, materia: 'trib', q: 'Reforma tributária — período de transição?', a: '2026 (cobrança teste IBS/CBS) → 2027 (CBS substitui PIS/COFINS) → 2027 (IS começa) → 2029-2032 (transição IBS) → 2033 (IBS pleno; ICMS/ISS extintos).', tags: ['trib', 'reforma', 'transicao'] },
+  { id: 616, topic: 9, materia: 'trib', q: 'Orçamento (CF 165) — 3 instrumentos?', a: 'PPA (Plano Plurianual — 4 anos: diretrizes, objetivos, metas) · LDO (Lei de Diretrizes Orçamentárias — anual: prioridades) · LOA (Lei Orçamentária Anual — operacional: receitas e despesas).', tags: ['trib', 'orcamento'] },
+  { id: 617, topic: 9, materia: 'trib', q: 'LRF — limites com despesa de pessoal?', a: 'União 50% RCL · Estados 60% · Municípios 60%. Subteto por Poder. LRF (LC 101/00). CF 169.', tags: ['trib', 'LRF'] },
+  { id: 618, topic: 10, materia: 'trib', q: 'STF SV 24 — crime material contra ordem tributária?', a: 'Não se tipifica crime material (Lei 8.137/90 art. 1º) ANTES do LANÇAMENTO DEFINITIVO do tributo. Crime exige constituição definitiva do crédito (esgotada via administrativa).', tags: ['trib', 'crimes', 'SV-24'] },
+  { id: 619, topic: 10, materia: 'trib', q: 'Pagamento e parcelamento — efeitos penais?', a: 'PAGAMENTO INTEGRAL: extingue a punibilidade A QUALQUER TEMPO (Lei 10.684/03). PARCELAMENTO: SUSPENDE a pretensão punitiva enquanto cumprido. Cumprimento integral: extingue.', tags: ['trib', 'crimes', 'pagamento'] },
+  { id: 620, topic: 10, materia: 'trib', q: 'Apropriação indébita previdenciária (CP 168-A)?', a: 'Deixar de repassar contribuições previdenciárias retidas. Crime OMISSIVO PRÓPRIO. STF: requer DOLO de não recolher (não basta inadimplência por dificuldade financeira).', tags: ['trib', 'apropriacao-previdenciaria'] },
+  { id: 621, topic: 9, materia: 'trib', q: 'Princípios orçamentários?', a: 'UNIDADE · UNIVERSALIDADE · ANUALIDADE · EXCLUSIVIDADE · LEGALIDADE · PUBLICIDADE/TRANSPARÊNCIA · PROIBIÇÃO de estorno sem autorização. CF 165-167.', tags: ['trib', 'orcamento', 'principios'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -17403,6 +17760,86 @@ questions: [
     ],
     correct: 'D',
     explanation: 'CTN 114-125. (A) Falso — depende de lei (princípio da legalidade). (B) Falso — non olet TRIBUTA o ilícito. (C) Falso — não admite benefício de ordem. (E) Falso — contribuinte é DIRETO (relação direta com o fato gerador).'
+  },
+
+  // === Questões Rodada 16 — Trib 5-10 (FECHAMENTO 100%) ===
+  {
+    id: 221, topic: 5, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o crédito tributário:',
+    alternatives: [
+      'A decadência do direito de constituir o crédito é de 3 anos, contados do fato gerador, conforme regra geral do CTN.',
+      'A isenção dispensa o tributo e a obrigação acessória, configurando exoneração total.',
+      'A suspensão da exigibilidade do crédito tributário (CTN 151) ocorre por: MORATÓRIA, DEPÓSITO do montante integral, RECLAMAÇÕES e RECURSOS, CONCESSÃO de medida liminar/antecipação e PARCELAMENTO; a DECADÊNCIA (CTN 173, prazo 5 anos) atinge o direito de constituir; a PRESCRIÇÃO (CTN 174, prazo 5 anos) atinge o direito de cobrar.',
+      'A anistia tributária dispensa o tributo, mas não a multa.',
+      'A compensação tributária só pode ocorrer mediante autorização do contribuinte, em qualquer caso.'
+    ],
+    correct: 'C',
+    explanation: 'CTN 151, 173, 174. (A) Falso — decadência tributária é 5 anos. (B) Falso — isenção dispensa só o TRIBUTO (não a obrigação acessória). (D) Falso — anistia dispensa MULTA. (E) Falso — compensação requer LEI (CTN 170).'
+  },
+  {
+    id: 222, topic: 6, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Administração tributária:',
+    alternatives: [
+      'A Certidão de Dívida Ativa (CDA) é título executivo JUDICIAL, exigindo homologação do juízo.',
+      'A inscrição em dívida ativa é ato realizado pelo Poder Judiciário.',
+      'A CND (Certidão Negativa de Débitos) e a CPEN (Certidão Positiva com Efeito de Negativa) são equivalentes em todos os efeitos.',
+      'O sigilo fiscal (CTN 198) é absoluto, não admitindo qualquer compartilhamento.',
+      'A Certidão de Dívida Ativa (CDA) é TÍTULO EXECUTIVO EXTRAJUDICIAL emitido pela Procuradoria, baseado na inscrição em dívida ativa, e constitui base da execução fiscal (Lei 6.830/80); a CPEN (Certidão Positiva com Efeito de Negativa) é emitida quando há suspensão da exigibilidade (parcelamento, depósito, liminar).'
+    ],
+    correct: 'E',
+    explanation: 'CTN 201-205 + Lei 6.830/80. (A) Falso — CDA é EXTRAJUDICIAL. (B) Falso — Procuradoria. (C) Falso — CPEN tem efeitos próprios (não absolutamente equivalentes). (D) Falso — sigilo admite exceções (requisição judicial, intercâmbio).'
+  },
+  {
+    id: 223, topic: 7, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca da execução fiscal e ações antiexacionais:',
+    alternatives: [
+      'A exceção de pré-executividade exige garantia integral do juízo, conforme entendimento STJ.',
+      'A repetição de indébito (CTN 165) não admite a restituição de tributo pago indevidamente, em razão da indisponibilidade do crédito tributário.',
+      'A execução fiscal (Lei 6.830/80) é proposta com base na CDA; a EXCEÇÃO DE PRÉ-EXECUTIVIDADE (Súm. 393 STJ) cabe para matérias de OFÍCIO sem dilação probatória, sem necessidade de garantia; a Súm. 435 STJ permite REDIRECIONAMENTO contra sócios-gerentes em caso de DISSOLUÇÃO IRREGULAR (mudança de endereço sem comunicação).',
+      'O mandado de segurança em matéria tributária é vedado pela jurisprudência do STF.',
+      'A ação anulatória requer prévia garantia do juízo, sob pena de extinção sem julgamento de mérito.'
+    ],
+    correct: 'C',
+    explanation: 'STJ Súm. 393 + Súm. 435 + Lei 6.830/80. (A) Falso — pré-executividade não exige garantia. (B) Falso — CTN 165 admite repetição. (D) Falso — MS é cabível. (E) Falso — anulatória NÃO exige garantia (não é execução).'
+  },
+  {
+    id: 224, topic: 8, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a Reforma Tributária (EC 132/23):',
+    alternatives: [
+      'A EC 132/23 manteve o ICMS, ISS, PIS e COFINS, apenas criando novas alíquotas.',
+      'O IBS é tributo federal, gerido pela Receita Federal.',
+      'A transição da reforma vai de 2024 a 2026, com extinção integral dos tributos antigos em 2026.',
+      'A EC 132/23 substitui ICMS+ISS por IBS (estadual+municipal); PIS+COFINS por CBS (federal); cria o IS (Imposto Seletivo, federal, sobre bens prejudiciais à saúde/meio ambiente); o período de transição vai de 2026 a 2033, quando ICMS/ISS serão extintos; prevê CASHBACK para famílias de baixa renda.',
+      'O IS (Imposto Seletivo) substitui integralmente o IPI desde a promulgação da EC.'
+    ],
+    correct: 'D',
+    explanation: 'EC 132/23 + LC 214/2025. (A) Falso — substitui ICMS, ISS, PIS, COFINS, parte do IPI. (B) Falso — IBS é estadual+municipal (federal é CBS). (C) Falso — transição 2026-2033. (E) Falso — IS substitui parte do IPI, não integralmente.'
+  },
+  {
+    id: 225, topic: 9, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Direito Financeiro:',
+    alternatives: [
+      'O orçamento brasileiro é regido por uma única lei: a LDO (Lei de Diretrizes Orçamentárias), anual.',
+      'A LRF (LC 101/00) estabelece o limite de despesa de pessoal de 80% da RCL para todos os entes federativos.',
+      'O orçamento brasileiro tem 3 instrumentos (CF 165): PPA (Plano Plurianual — 4 anos, com diretrizes, objetivos e metas), LDO (Lei de Diretrizes Orçamentárias — anual, prioridades), LOA (Lei Orçamentária Anual — operacional, receitas e despesas); a LRF (LC 101/00) estabelece limites de despesa de pessoal: 50% RCL para União, 60% para Estados e Municípios.',
+      'O princípio da exclusividade orçamentária permite a inclusão de matérias estranhas no orçamento, desde que justificadas.',
+      'A Lei 4.320/64 foi revogada integralmente pela LRF (LC 101/00).'
+    ],
+    correct: 'C',
+    explanation: 'CF 165 + LRF. (A) Falso — 3 instrumentos. (B) Falso — 50% (U), 60% (E/M). (D) Falso — exclusividade VEDA matérias estranhas. (E) Falso — Lei 4.320/64 segue vigente, complementada pela LRF.'
+  },
+  {
+    id: 226, topic: 10, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os crimes contra a ordem tributária:',
+    alternatives: [
+      'O crime de sonegação fiscal (Lei 8.137/90 art. 1º) consuma-se com a simples omissão de receitas, dispensando a constituição definitiva do crédito.',
+      'O pagamento integral do tributo após o recebimento da denúncia NÃO extingue a punibilidade do crime de sonegação fiscal.',
+      'A Súmula Vinculante 24 do STF estabelece que o crime MATERIAL contra a ordem tributária (Lei 8.137/90 art. 1º, I-IV) só se tipifica APÓS o LANÇAMENTO DEFINITIVO do tributo (esgotamento das vias administrativas); o PAGAMENTO INTEGRAL extingue a punibilidade A QUALQUER TEMPO (Lei 10.684/03), e o PARCELAMENTO suspende a pretensão punitiva enquanto cumprido.',
+      'A apropriação indébita previdenciária (CP 168-A) caracteriza-se pela mera inadimplência das contribuições, dispensando dolo.',
+      'O parcelamento do débito tributário, por si só, extingue a punibilidade do crime de sonegação fiscal.'
+    ],
+    correct: 'C',
+    explanation: 'STF SV 24 + Lei 10.684/03. (A) Falso — crime material exige constituição definitiva (SV 24). (B) Falso — Lei 10.684/03: pagamento extingue A QUALQUER TEMPO. (D) Falso — STF: requer DOLO de não recolher. (E) Falso — parcelamento SUSPENDE; pagamento integral extingue.'
   }
 ],
 

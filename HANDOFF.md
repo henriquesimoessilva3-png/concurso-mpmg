@@ -1,6 +1,6 @@
 # HANDOFF — Projeto Concurso MPMG
 
-> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-08 (após Rodada 5 — ColMat 100% + Const 2/12).
+> 🎉 **PROJETO 100% CONCLUÍDO!** Atualizado em 2026-05-08 (após Rodada 16 — fechamento total das 11 matérias).
 
 ## Como abrir o próximo chat
 
@@ -48,13 +48,13 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **137 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 14 Penal + 12 PP + 8 Elei + 4 Trib
-- **6 esqueletos prontos** restantes — apenas Tributário (trib-05 a 10).
+- **143 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 14 Penal + 12 PP + 8 Elei + 10 Trib
+- **0 esqueletos restantes** — TODAS AS 11 MATÉRIAS COMPLETAS! 🎉
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **607 flashcards**
-- **220 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **621 flashcards**
+- **226 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
 - **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
@@ -94,17 +94,21 @@ CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`
 
 Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata pode escolher uma matéria onde tem vantagem (Material e Processual Coletivo, Teoria do MP) ou uma matéria fraca (Tributário, Eleitoral). Outras pessoas podem atacar áreas em paralelo via PR.
 
-| Matéria | Esqueletos restantes |
-|---------|-------------------|
-| ~~Constitucional~~ | ✅ 0 (100% completo) |
-| ~~Administrativo~~ | ✅ 0 (100% completo) |
-| ~~Eleitoral~~ | ✅ 0 (100% completo) |
-| Tributário/Financeiro | 6 (de 10 — trib-01 a 04 prontos) |
-| ~~Teoria do MP~~ | ✅ 0 (100% completo) |
-| ~~Penal/Criminologia~~ | ✅ 0 (100% completo) |
-| ~~Processo Penal~~ | ✅ 0 (100% completo) |
-| ~~Material Coletivo~~ | ✅ 0 (100% completo) |
-| ~~Processual Coletivo~~ | ✅ 0 (100% completo) |
+| Matéria | Status |
+|---------|--------|
+| ~~Processo Civil~~ | ✅ 100% |
+| ~~Direito Civil~~ | ✅ 100% |
+| ~~Constitucional~~ | ✅ 100% |
+| ~~Administrativo~~ | ✅ 100% |
+| ~~Eleitoral~~ | ✅ 100% |
+| ~~Tributário/Financeiro~~ | ✅ 100% |
+| ~~Teoria do MP~~ | ✅ 100% |
+| ~~Penal/Criminologia~~ | ✅ 100% |
+| ~~Processo Penal~~ | ✅ 100% |
+| ~~Material Coletivo~~ | ✅ 100% |
+| ~~Processual Coletivo~~ | ✅ 100% |
+
+🏆 **PROJETO COMPLETO — 11/11 matérias · 143/143 tópicos**
 
 Padrão para preencher: ver `assets/data.js:11-113` (PC 1) ou `assets/data.js:5076-5200` (Civ 11). Estrutura: `Foco central · Lei seca · Pontos críticos · Macetes · Pegadinhas · Conexões`.
 
@@ -189,20 +193,21 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #19** — Rodada 12: PP 6/12. Total: 119.
 - **PR #20** — Rodada 13: PP 100%. Total: 125.
 - **PR #21** — Rodada 14: Eleitoral 6/8. Total: 131.
-- **PR #22** (este) — Rodada 15: **Eleitoral 100% completo** (elei-07 Ações eleitorais, elei-08 Jurisprudência) + **Tributário 4/10 iniciado** (trib-01 STN/Princípios, trib-02 Competência, trib-03 Espécies, trib-04 Obrigação tributária). +14 cards e +6 questões. Total: **137 preenchidos** (96%).
+- **PR #22** — Rodada 15: Eleitoral 100% + Trib 4/10. Total: 137.
+- **PR #23** (este — FECHAMENTO 100%) — Rodada 16: **Tributário 100% completo** (trib-05 Crédito tributário, trib-06 Adm. tributária, trib-07 Execução fiscal, trib-08 Reforma EC 132/23, trib-09 Direito Financeiro/LRF, trib-10 Crimes tributários). +14 cards e +6 questões. Total: **143 preenchidos (100%)**.
 
-## Stats atuais
+## Stats finais (PROJETO COMPLETO)
 
-- **143 tópicos** (**137 com conteúdo** + 6 esqueletos com outline) — **96% concluído!**
-- **607 flashcards**
-- **220 questões** com gabarito comentado
+- **143 / 143 tópicos** (**100% COM CONTEÚDO**) ✅
+- **621 flashcards**
+- **226 questões** com gabarito comentado
 - **88 súmulas** STF/STJ
-- ~37.500 linhas em `assets/data.js`
+- ~40.000 linhas em `assets/data.js`
 
-### Tópicos preenchidos (137)
+### Tópicos preenchidos (143 — 100%)
 
-- **Processo Civil 1-30** (30)
-- **Direito Civil 1-17** (17)
+- **Processo Civil 1-30** (30) — **100%**
+- **Direito Civil 1-17** (17) — **100%**
 - **Processual Coletivo 1-8** (8) — **100%**
 - **Teoria do MP 1-8** (8) — **100%**
 - **Material Coletivo 1-12** (12) — **100%**
@@ -210,8 +215,10 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **Administrativo 1-12** (12) — **100%**
 - **Penal 1-14** (14) — **100%**
 - **Processo Penal 1-12** (12) — **100%**
-- **Eleitoral 1-8** (8) — **100% COMPLETO**
-- **Tributário 1-4** (4 de 10): STN/Princípios, Competência, Espécies, Obrigação. Faltam: trib-05 a 10
+- **Eleitoral 1-8** (8) — **100%**
+- **Tributário 1-10** (10) — **100% COMPLETO**: STN, Competência, Espécies, Obrigação, Crédito, Adm., Execução fiscal, Reforma EC 132/23, Direito Financeiro/LRF, Crimes tributários
+
+### 🏆 11 MATÉRIAS · 143 TÓPICOS · 100% COM CONTEÚDO COMPLETO
 
 ### Próxima rodada sugerida (Rodada 6)
 
