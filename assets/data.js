@@ -8328,14 +8328,337 @@ topics: [
       ]
     }
   ] },
-  { id: 'elei-07-acoes-eleitorais', num: 7, materia: 'elei', title: 'Ações eleitorais (AIJE, AIME, AIRC, RCED)', edital: '1.3.7', editalText: 'Ações de impugnação e investigação. Recurso contra expedição de diploma.', size: 'Médio', schedule: null, advantage: null, outline: ['AIRC — Ação de Impugnação ao Registro de Candidatura', 'AIJE — Ação de Investigação Judicial Eleitoral', 'AIME — Ação de Impugnação ao Mandato Eletivo', 'RCED — Recurso Contra Expedição de Diploma', 'Representações (art. 96 da Lei 9.504/97)', 'Ação rescisória eleitoral'], sections: [] },
-  { id: 'elei-08-jurisprudencia-tse', num: 8, materia: 'elei', title: 'Jurisprudência TSE recente', edital: '1.3.8', editalText: 'Resoluções, Súmulas, decisões recentes do TSE e STF em matéria eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Súmulas TSE consolidadas', 'Resoluções recentes (eleições 2024 e seguintes)', 'Temas STF relevantes (cláusula de barreira, fidelidade, financiamento)', 'Cota de gênero e cota racial', 'Inelegibilidades — STF jurisprudência'], sections: [] },
+  { id: 'elei-07-acoes-eleitorais', num: 7, materia: 'elei', title: 'Ações eleitorais (AIJE, AIME, AIRC, RCED)', edital: '1.3.7', editalText: 'Ações de impugnação e investigação. Recurso contra expedição de diploma.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['AIRC — Ação de Impugnação ao Registro de Candidatura', 'AIJE — Ação de Investigação Judicial Eleitoral', 'AIME — Ação de Impugnação ao Mandato Eletivo', 'RCED — Recurso Contra Expedição de Diploma', 'Representações (art. 96 da Lei 9.504/97)', 'Ação rescisória eleitoral'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'As **AÇÕES ELEITORAIS** disciplinam a impugnação de candidaturas, atos de campanha e mandatos. Cada uma tem objeto, prazo e legitimidade próprios. Decorar a sigla, a finalidade e o prazo é dever de prova.' }
+      ]
+    },
+    {
+      h: 'Quadro comparativo das principais ações',
+      items: [
+        { type: 'table',
+          headers: ['Ação', 'Objeto', 'Prazo', 'Lei'],
+          rows: [
+            ['AIRC', 'Impugnar registro de candidatura', '5 dias após edital', 'LC 64/90 art. 3º'],
+            ['AIJE', 'Investigar abuso poder econômico/político/uso indevido meios de comunicação', 'Até a diplomação', 'LC 64/90 art. 22'],
+            ['AIME', 'Impugnar mandato eletivo (abuso, corrupção, fraude)', '15 dias após diplomação', 'CF 14 §10'],
+            ['RCED', 'Recurso contra expedição de diploma', '3 dias após diplomação', 'Cód. Eleit. art. 262'],
+            ['Representação 96', 'Descumprimento da Lei 9.504/97 (propaganda)', 'Durante a campanha', 'Lei 9.504/97 art. 96']
+          ]
+        }
+      ]
+    },
+    {
+      h: 'Detalhes',
+      items: [
+        { type: 'h', text: 'AIJE (LC 64/90 art. 22)' },
+        { type: 'p', text: 'Investiga ABUSO de poder ECONÔMICO, POLÍTICO ou de USO INDEVIDO DE MEIOS DE COMUNICAÇÃO. Pode ser proposta até a diplomação. Sanções: cassação do registro/diploma, inelegibilidade por 8 anos.' },
+
+        { type: 'h', text: 'AIME (CF 14 §10)' },
+        { type: 'p', text: 'Impugna MANDATO ELETIVO. Cabe APÓS a diplomação. Hipóteses: abuso de poder, corrupção ou fraude. Tramita em SEGREDO DE JUSTIÇA. Prazo: 15 dias da diplomação.' },
+
+        { type: 'h', text: 'RCED (Cód. Eleit. art. 262)' },
+        { type: 'p', text: 'Recurso contra a expedição do diploma. Hipóteses: inelegibilidade superveniente, falta de condição de elegibilidade, erro de direito ou de fato. Prazo: 3 dias da diplomação.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 ações principais: AIRC (5d edital) · AIJE (até diplomação) · AIME (15d após diplomação) · RCED (3d após).**' },
+        { type: 'box', kind: 'macete', text: '**AIME tramita em SEGREDO de justiça (CF 14 §10).**' },
+        { type: 'box', kind: 'macete', text: '**Representação 96 (Lei 9.504/97): descumprimento de lei eleitoral durante campanha.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1:** inelegibilidade gerada por AIJE (8 anos).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 5:** financiamento ilícito enseja AIJE.' }
+      ]
+    }
+  ] },
+  { id: 'elei-08-jurisprudencia-tse', num: 8, materia: 'elei', title: 'Jurisprudência TSE recente', edital: '1.3.8', editalText: 'Resoluções, Súmulas, decisões recentes do TSE e STF em matéria eleitoral.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Súmulas TSE consolidadas', 'Resoluções recentes (eleições 2024 e seguintes)', 'Temas STF relevantes (cláusula de barreira, fidelidade, financiamento)', 'Cota de gênero e cota racial', 'Inelegibilidades — STF jurisprudência'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico de atualização jurisprudencial. STF e TSE definem rumos. Domínio das principais decisões recentes é crucial: cláusula de barreira, fidelidade, financiamento, cotas, inelegibilidades, Ficha Limpa, Tema 1.111.' }
+      ]
+    },
+    {
+      h: 'Marcos jurisprudenciais centrais',
+      items: [
+        { type: 'list', items: [
+          '**STF ADC 29 e 30 (2012):** validou Lei da Ficha Limpa (LC 135/10), com aplicação a fatos anteriores',
+          '**STF ADI 4.650 (2015):** VEDOU doações de PJ a partidos e campanhas',
+          '**STF ADI 5.081 (2015):** fidelidade partidária NÃO se aplica a majoritários',
+          '**STF Tema 1.111 (RE 1.108.061, 2019):** crime comum CONEXO com eleitoral é da Justiça Eleitoral',
+          '**STF — ARE 1.054.490 (2017):** Brasil NÃO admite candidato avulso (filiação obrigatória)',
+          '**STF ADO 32:** falta de regulamentação adequada da cota racial nas eleições',
+          '**TSE Cota de gênero:** mínimo 30% candidaturas de cada gênero (Lei 9.504/97 art. 10 §3º)',
+          '**TSE Cota racial (2020):** distribuição proporcional do FEFC entre candidaturas brancas, pretas e pardas, conforme proporção de candidaturas'
+        ]}
+      ]
+    },
+    {
+      h: 'Súmulas TSE relevantes',
+      items: [
+        { type: 'list', items: [
+          '**Súm. 5 TSE:** Inelegibilidade por improbidade — basta condenação por colegiado',
+          '**Súm. 6 TSE:** Cassação do registro por art. 41-A da Lei 9.504/97 — captação ilícita',
+          '**Súm. 9 TSE:** Domicílio eleitoral × residência (não se confundem)',
+          '**Súm. 11 TSE:** Improbidade — basta a sentença, mesmo se pendente recurso',
+          '**Súm. 24 TSE:** AIJE pode ser proposta antes do registro de candidatura'
+        ]}
+      ]
+    },
+    {
+      h: 'Cota de gênero e racial',
+      items: [
+        { type: 'h', text: 'Cota de gênero (Lei 9.504/97 art. 10 §3º)' },
+        { type: 'p', text: 'Em proporcionais: mínimo 30% candidaturas de cada gênero. Aplicação por partido (ou federação). TSE: aplicação rigorosa, sob pena de invalidação da chapa.' },
+
+        { type: 'h', text: 'Cota racial' },
+        { type: 'p', text: 'TSE Resolução 23.609/2019 e jurisprudência: divisão proporcional do FEFC e do tempo de propaganda entre candidaturas brancas, pretas e pardas, conforme proporção das candidaturas. STF firmou tese (ADO 32).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Marcos STF: ADC 29/30 (Ficha Limpa) · ADI 4.650 (PJ vedada) · ADI 5.081 (fidelidade não majoritários) · Tema 1.111 (conexão).**' },
+        { type: 'box', kind: 'macete', text: '**Cota de gênero: 30% por partido (Lei 9.504/97 art. 10 §3º).**' },
+        { type: 'box', kind: 'macete', text: '**Brasil NÃO admite candidato avulso (STF ARE 1.054.490, 2017).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1-7:** todas as áreas eleitorais cobradas pela jurisprudência.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO TRIBUTÁRIO E FINANCEIRO (10) ============
-  { id: 'trib-01-sistema-tributario-principios', num: 1, materia: 'trib', title: 'Sistema Tributário Nacional e princípios constitucionais', edital: '1.4.1', editalText: 'CF arts. 145-162. Princípios constitucionais tributários.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistema Tributário Nacional (CF arts. 145-162)', 'Princípios (legalidade, isonomia, irretroatividade, anterioridade, vedação ao confisco, capacidade contributiva)', 'Imunidades tributárias (CF art. 150 VI)', 'Repartição de receitas (arts. 157-162)'], sections: [] },
-  { id: 'trib-02-competencia-tributaria', num: 2, materia: 'trib', title: 'Competência tributária e limitações', edital: '1.4.2', editalText: 'Competência privativa, comum, residual, extraordinária. Bitributação × bis in idem.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Competência privativa, comum, residual, cumulativa, extraordinária', 'Limitações ao poder de tributar (CF art. 150)', 'Bitributação × bis in idem', 'Não-cumulatividade'], sections: [] },
-  { id: 'trib-03-tributos-conceito-especies', num: 3, materia: 'trib', title: 'Tributos: conceito e espécies', edital: '1.4.3', editalText: 'Conceito (CTN art. 3º). Impostos, taxas, contribuições, empréstimos compulsórios.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito (CTN art. 3º)', 'Espécies — teoria pentapartida (STF)', 'Impostos (federais, estaduais, municipais)', 'Taxas (poder de polícia × serviço público)', 'Contribuições de melhoria', 'Empréstimos compulsórios', 'Contribuições especiais (sociais, CIDE, profissionais)'], sections: [] },
-  { id: 'trib-04-obrigacao-tributaria', num: 4, materia: 'trib', title: 'Obrigação tributária', edital: '1.4.4', editalText: 'Fato gerador. Sujeitos. Solidariedade. Capacidade tributária. Domicílio.', size: 'Médio', schedule: null, advantage: null, outline: ['Fato gerador (CTN arts. 114-118)', 'Obrigação principal × acessória', 'Sujeito ativo e passivo', 'Solidariedade (CTN arts. 124-125)', 'Capacidade tributária passiva', 'Domicílio tributário', 'Responsabilidade tributária (sucessores, terceiros, infrações)'], sections: [] },
+  { id: 'trib-01-sistema-tributario-principios', num: 1, materia: 'trib', title: 'Sistema Tributário Nacional e princípios constitucionais', edital: '1.4.1', editalText: 'CF arts. 145-162. Princípios constitucionais tributários.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Sistema Tributário Nacional (CF arts. 145-162)', 'Princípios (legalidade, isonomia, irretroatividade, anterioridade, vedação ao confisco, capacidade contributiva)', 'Imunidades tributárias (CF art. 150 VI)', 'Repartição de receitas (arts. 157-162)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **SISTEMA TRIBUTÁRIO NACIONAL** (CF arts. 145-162) define princípios, espécies e competências. **PRINCÍPIOS CONSTITUCIONAIS TRIBUTÁRIOS** (CF 150) são limites ao poder de tributar — cláusulas pétreas (CF 60 §4º IV).' }
+      ]
+    },
+    {
+      h: 'Princípios (CF 150)',
+      items: [
+        { type: 'list', items: [
+          '**LEGALIDADE (I):** tributo só por lei. Exceções: alteração de alíquota de II, IE, IPI, IOF (CF 153 §1º) — por decreto',
+          '**ISONOMIA (II):** tratamento igual a contribuintes em situação equivalente',
+          '**IRRETROATIVIDADE (III a):** lei tributária não retroage para alcançar fatos passados',
+          '**ANTERIORIDADE (III b):** lei só vigora no exercício seguinte',
+          '**ANTERIORIDADE NONAGESIMAL/NOVENTENA (III c):** lei só vigora 90 dias após publicação',
+          '**VEDAÇÃO AO CONFISCO (IV):** tributo não pode ser confiscatório',
+          '**CAPACIDADE CONTRIBUTIVA (CF 145 §1º):** impostos pessoais devem considerar capacidade econômica',
+          '**LIBERDADE DE TRÁFEGO (V):** vedação a tributos que limitem livre circulação interestadual'
+        ]}
+      ]
+    },
+    {
+      h: 'Imunidades tributárias (CF 150 VI)',
+      items: [
+        { type: 'list', items: [
+          '**RECÍPROCA (a):** entes federativos não podem tributar uns aos outros (impostos)',
+          '**TEMPLOS DE QUALQUER CULTO (b)**',
+          '**PARTIDOS POLÍTICOS, SINDICATOS, EDUCAÇÃO, ASSISTÊNCIA SOCIAL (c)**',
+          '**LIVROS, JORNAIS, PERIÓDICOS, papel para imprimi-los (d)** — STF: imunidade alcança LIVROS DIGITAIS (RE 330.817 — Tema 593)',
+          '**FONOGRAMAS E VIDEOFONOGRAMAS de músicos brasileiros (e)** — EC 75/13'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 330.817 (Tema 593, 2017):** imunidade dos livros (CF 150 VI d) ALCANÇA livros digitais (e-books) e equipamentos exclusivos para sua leitura.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Princípios CF 150: LEGALIDADE · ISONOMIA · IRRETROATIVIDADE · ANTERIORIDADE · NOVENTENA · NÃO-CONFISCO · CAP. CONTRIBUTIVA · LIBERDADE TRÁFEGO.**' },
+        { type: 'box', kind: 'macete', text: '**Imunidades (CF 150 VI): RECÍPROCA · TEMPLOS · PART/SIND/EDUC/ASSIST · LIVROS · FONOGRAMAS.**' },
+        { type: 'box', kind: 'macete', text: '**Anterioridade do exercício + noventena (90 dias) = anterioridade qualificada.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11:** ordem econômica e tributária.' }
+      ]
+    }
+  ] },
+  { id: 'trib-02-competencia-tributaria', num: 2, materia: 'trib', title: 'Competência tributária e limitações', edital: '1.4.2', editalText: 'Competência privativa, comum, residual, extraordinária. Bitributação × bis in idem.', size: 'Pequeno', schedule: 'Mês 16', advantage: null, outline: ['Competência privativa, comum, residual, cumulativa, extraordinária', 'Limitações ao poder de tributar (CF art. 150)', 'Bitributação × bis in idem', 'Não-cumulatividade'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **COMPETÊNCIA TRIBUTÁRIA** é a aptidão para INSTITUIR tributos. Distingue-se da CAPACIDADE TRIBUTÁRIA ATIVA (cobrar). Modalidades: privativa, comum, residual, cumulativa, extraordinária.' }
+      ]
+    },
+    {
+      h: 'Modalidades',
+      items: [
+        { type: 'list', items: [
+          '**PRIVATIVA:** cada ente tem competência exclusiva para certos impostos. União: II, IE, IR, IPI, IOF, ITR, IGF (CF 153). Estados/DF: ITCMD, ICMS, IPVA (CF 155). Municípios: IPTU, ITBI, ISS (CF 156)',
+          '**COMUM:** taxas e contribuições de melhoria (todos os entes) — CF 145 II e III',
+          '**RESIDUAL:** apenas a União pode criar novos impostos (CF 154 I — LC, não-cumulativos, fato gerador e BC novos)',
+          '**CUMULATIVA:** DF e Territórios acumulam competências estadual e municipal',
+          '**EXTRAORDINÁRIA:** União em caso de guerra (CF 154 II)'
+        ]}
+      ]
+    },
+    {
+      h: 'Bitributação × Bis in idem',
+      items: [
+        { type: 'list', items: [
+          '**BITRIBUTAÇÃO:** dois entes diferentes tributando o MESMO fato (em regra, vedada — invasão de competência)',
+          '**BIS IN IDEM:** o MESMO ente tributando o MESMO fato com mais de um tributo (admitido se não previsto vedação na CF — ex: CSLL + IRPJ ambos da União)'
+        ]}
+      ]
+    },
+    {
+      h: 'Não-cumulatividade',
+      items: [
+        { type: 'p', text: '**ICMS, IPI** são NÃO-CUMULATIVOS por determinação constitucional (CF 155 §2º; 153 §3º). Compensação do que devido com o que já pago em operações anteriores. PIS e COFINS podem ser ou não, conforme regime.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Competência: PRIVATIVA (impostos por ente) · COMUM (taxas/contribuições) · RESIDUAL (União, novos impostos) · EXTRAORDINÁRIA (guerra).**' },
+        { type: 'box', kind: 'macete', text: '**BITRIBUTAÇÃO (entes diferentes — vedada) × BIS IN IDEM (mesmo ente — em regra admitido).**' },
+        { type: 'box', kind: 'macete', text: '**ICMS e IPI: NÃO-CUMULATIVOS por força constitucional.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 7:** repartição de competências federativas.' }
+      ]
+    }
+  ] },
+  { id: 'trib-03-tributos-conceito-especies', num: 3, materia: 'trib', title: 'Tributos: conceito e espécies', edital: '1.4.3', editalText: 'Conceito (CTN art. 3º). Impostos, taxas, contribuições, empréstimos compulsórios.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Conceito (CTN art. 3º)', 'Espécies — teoria pentapartida (STF)', 'Impostos (federais, estaduais, municipais)', 'Taxas (poder de polícia × serviço público)', 'Contribuições de melhoria', 'Empréstimos compulsórios', 'Contribuições especiais (sociais, CIDE, profissionais)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CTN art. 3º** define tributo: prestação PECUNIÁRIA, COMPULSÓRIA, em moeda ou cujo valor nela se possa exprimir, INSTITUÍDA EM LEI, NÃO constitui sanção de ato ilícito, COBRADA mediante atividade administrativa plenamente vinculada. STF adota TEORIA PENTAPARTIDA: 5 espécies.' }
+      ]
+    },
+    {
+      h: '5 espécies (teoria pentapartida — STF)',
+      items: [
+        { type: 'list', items: [
+          '**IMPOSTOS** (CF 145 I, 153, 155, 156): tributos NÃO VINCULADOS a contraprestação estatal específica',
+          '**TAXAS** (CF 145 II): VINCULADAS — exercício do PODER DE POLÍCIA ou utilização de SERVIÇO PÚBLICO específico e divisível',
+          '**CONTRIBUIÇÕES DE MELHORIA** (CF 145 III): decorrentes de obra pública que gere VALORIZAÇÃO IMOBILIÁRIA',
+          '**EMPRÉSTIMOS COMPULSÓRIOS** (CF 148): Lei Complementar; calamidade, guerra, investimento público urgente',
+          '**CONTRIBUIÇÕES ESPECIAIS** (CF 149): sociais (INSS, PIS, COFINS), CIDE, profissionais (anuidade OAB), iluminação pública (CIP — CF 149-A)'
+        ]}
+      ]
+    },
+    {
+      h: 'Impostos',
+      items: [
+        { type: 'h', text: 'Impostos federais (CF 153)' },
+        { type: 'list', items: [
+          'II — Importação',
+          'IE — Exportação',
+          'IR — Renda',
+          'IPI — Produtos Industrializados',
+          'IOF — Operações Financeiras',
+          'ITR — Territorial Rural',
+          'IGF — Grandes Fortunas (não regulamentado)'
+        ]},
+
+        { type: 'h', text: 'Impostos estaduais (CF 155)' },
+        { type: 'list', items: [
+          'ITCMD — Transmissão Causa Mortis e Doação',
+          'ICMS — Circulação Mercadorias e Serviços',
+          'IPVA — Veículos Automotores'
+        ]},
+
+        { type: 'h', text: 'Impostos municipais (CF 156)' },
+        { type: 'list', items: [
+          'IPTU — Predial e Territorial Urbano',
+          'ITBI — Transmissão Bens Imóveis (inter vivos onerosa)',
+          'ISS — Sobre Serviços'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**5 espécies (STF pentapartida): IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS.**' },
+        { type: 'box', kind: 'macete', text: '**Impostos federais (mnemônico II-IE-IR-IPI-IOF-ITR-IGF) · estaduais (ITCMD-ICMS-IPVA) · municipais (IPTU-ITBI-ISS).**' },
+        { type: 'box', kind: 'macete', text: '**Empréstimo compulsório: LEI COMPLEMENTAR (CF 148).**' },
+        { type: 'box', kind: 'macete', text: '**Taxa = vinculada (poder polícia ou serviço público específico/divisível). Imposto = não-vinculada.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios constitucionais aplicáveis.' }
+      ]
+    }
+  ] },
+  { id: 'trib-04-obrigacao-tributaria', num: 4, materia: 'trib', title: 'Obrigação tributária', edital: '1.4.4', editalText: 'Fato gerador. Sujeitos. Solidariedade. Capacidade tributária. Domicílio.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Fato gerador (CTN arts. 114-118)', 'Obrigação principal × acessória', 'Sujeito ativo e passivo', 'Solidariedade (CTN arts. 124-125)', 'Capacidade tributária passiva', 'Domicílio tributário', 'Responsabilidade tributária (sucessores, terceiros, infrações)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **OBRIGAÇÃO TRIBUTÁRIA** nasce com o FATO GERADOR (CTN 114). É PRINCIPAL (pagar tributo ou penalidade) ou ACESSÓRIA (deveres instrumentais — emitir nota, declarar). Sujeitos: ATIVO (ente competente, capacidade tributária) e PASSIVO (contribuinte ou responsável).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária (CTN)',
+      items: [
+        { type: 'h', text: 'Fato gerador (CTN 114-118)' },
+        { type: 'list', items: [
+          'OBRIGAÇÃO PRINCIPAL: situação definida em LEI como necessária e suficiente à sua ocorrência (CTN 114)',
+          'OBRIGAÇÃO ACESSÓRIA: qualquer situação que, na forma da legislação, imponha prestação positiva ou negativa (CTN 115)',
+          'CTN 118: definição legal do fato gerador é interpretada abstraindo-se: validade jurídica dos atos (princípio do "non olet" — STF: ganho ilícito é tributável)'
+        ]},
+
+        { type: 'h', text: 'Sujeitos (CTN 119-121)' },
+        { type: 'list', items: [
+          '**ATIVO:** PJ de direito público, com competência ou capacidade tributária (CTN 119)',
+          '**PASSIVO:** contribuinte (relação direta com o fato) ou responsável (sem ser contribuinte, lei impõe a obrigação)'
+        ]},
+
+        { type: 'h', text: 'Solidariedade (CTN 124-125)' },
+        { type: 'list', items: [
+          'Pessoas com interesse comum no fato',
+          'Designadas pela lei',
+          'NÃO se admite benefício de ordem'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade tributária' },
+        { type: 'list', items: [
+          'POR SUCESSÃO (CTN 129-133)',
+          'DE TERCEIROS (CTN 134-135) — pais, tutores, sócios em hipótese específica',
+          'POR INFRAÇÕES (CTN 136-138)',
+          'Substituição tributária PARA TRÁS (regressiva — diferimento) e PARA FRENTE (progressiva)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**OB principal (pagar) × OB acessória (instrumental — declarar, emitir nota).**' },
+        { type: 'box', kind: 'macete', text: '**Sujeito passivo: CONTRIBUINTE (direto) × RESPONSÁVEL (indireto, por lei).**' },
+        { type: 'box', kind: 'macete', text: '**Solidariedade tributária NÃO admite benefício de ordem (CTN 124 § único).**' },
+        { type: 'box', kind: 'macete', text: '**Princípio non olet (CTN 118): ganho ilícito é tributável.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios aplicáveis.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 3:** espécies tributárias.' }
+      ]
+    }
+  ] },
   { id: 'trib-05-credito-tributario', num: 5, materia: 'trib', title: 'Crédito tributário (constituição, suspensão, extinção, exclusão)', edital: '1.4.5', editalText: 'Lançamento. Causas suspensivas, extintivas e excludentes do crédito.', size: 'Grande', schedule: null, advantage: null, outline: ['Lançamento (de ofício, declaração, homologação)', 'Suspensão da exigibilidade (CTN art. 151)', 'Extinção (CTN art. 156) — pagamento, compensação, transação, prescrição, decadência, etc.', 'Exclusão — isenção e anistia (CTN arts. 175-182)', 'Decadência × prescrição', 'Garantias e privilégios do crédito'], sections: [] },
   { id: 'trib-06-administracao-tributaria', num: 6, materia: 'trib', title: 'Administração tributária e processo administrativo fiscal', edital: '1.4.6', editalText: 'Fiscalização. Dívida ativa. Certidões. PAF (Decreto 70.235/72).', size: 'Médio', schedule: null, advantage: null, outline: ['Fiscalização (CTN arts. 194-200)', 'Inscrição em dívida ativa', 'Certidões negativa, positiva e CPEN', 'Processo administrativo fiscal — Decreto 70.235/72', 'Sigilo fiscal (CTN art. 198)'], sections: [] },
   { id: 'trib-07-execucao-fiscal-processo-judicial', num: 7, materia: 'trib', title: 'Execução fiscal e processo judicial tributário', edital: '1.4.7', editalText: 'Lei 6.830/80. Embargos. Exceção de pré-executividade. Anulatória, declaratória, consignação, MS.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 6.830/80 (LEF) — execução fiscal', 'Petição inicial e CDA', 'Citação, garantia, penhora', 'Embargos do devedor', 'Exceção de pré-executividade (Súmula 393 STJ)', 'Ações antiexacionais (anulatória, declaratória, consignação, repetição, MS)', 'Redirecionamento (Súmula 435 STJ)'], sections: [] },
@@ -14004,7 +14327,25 @@ flashcards: [
   { id: 590, topic: 5, materia: 'elei', q: 'STF ADI 4.650 (2015) — doações de PJ?', a: 'VEDADAS doações de pessoa JURÍDICA a candidatos e partidos. Apenas: pessoas FÍSICAS (limite 10% rendimentos), recursos próprios do candidato, Partido (Fundo Partidário) e FEFC.', tags: ['elei', 'financiamento', 'STF'] },
   { id: 591, topic: 5, materia: 'elei', q: 'Ações eleitorais — AIJE × AIME × AIRC?', a: 'AIJE (LC 64/90 art. 22): Ação de Investigação Judicial Eleitoral, durante a campanha. AIME (CF 14 §10): Ação de Impugnação de Mandato Eletivo, após a diplomação. AIRC (LC 64/90 art. 3º): Impugnação ao Registro.', tags: ['elei', 'acoes-eleitorais'] },
   { id: 592, topic: 6, materia: 'elei', q: 'Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A)?', a: 'Doar, oferecer, prometer ou entregar bem ou vantagem em troca de voto. Sanções: CASSAÇÃO do registro ou diploma + multa. Crime eleitoral (Cód. Eleit. art. 299 — corrupção eleitoral).', tags: ['elei', 'captacao-ilicita'] },
-  { id: 593, topic: 6, materia: 'elei', q: 'STF Tema 1.111 — competência criminal?', a: 'STF RE 1.108.061 (2019): crime COMUM CONEXO com crime ELEITORAL é da JUSTIÇA ELEITORAL. Marco da firmeza da competência eleitoral em casos de conexão.', tags: ['elei', 'competencia', 'STF'] }
+  { id: 593, topic: 6, materia: 'elei', q: 'STF Tema 1.111 — competência criminal?', a: 'STF RE 1.108.061 (2019): crime COMUM CONEXO com crime ELEITORAL é da JUSTIÇA ELEITORAL. Marco da firmeza da competência eleitoral em casos de conexão.', tags: ['elei', 'competencia', 'STF'] },
+
+  // === Cards Rodada 15 — Elei 7-8 + Trib 1-4 ===
+  { id: 594, topic: 7, materia: 'elei', q: '4 ações eleitorais principais — prazo?', a: 'AIRC (5 dias após edital — LC 64/90 art. 3º) · AIJE (até diplomação — LC 64/90 art. 22) · AIME (15 dias após diplomação — CF 14 §10) · RCED (3 dias após diplomação — Cód. Eleit. 262).', tags: ['elei', 'acoes-eleitorais'] },
+  { id: 595, topic: 7, materia: 'elei', q: 'AIME — características?', a: 'CF 14 §10. Impugna mandato eletivo APÓS a diplomação. Hipóteses: abuso de poder, corrupção, fraude. Tramita em SEGREDO de justiça. Prazo: 15 dias após diplomação.', tags: ['elei', 'AIME'] },
+  { id: 596, topic: 7, materia: 'elei', q: 'AIJE × representação 96?', a: 'AIJE (LC 64/90 art. 22): investiga ABUSO de poder econômico/político/uso indevido de meios de comunicação. Pode até a diplomação. REPRESENTAÇÃO 96 (Lei 9.504/97): descumprimento de lei eleitoral durante a campanha (propaganda irregular).', tags: ['elei', 'AIJE', 'representacao'] },
+  { id: 597, topic: 8, materia: 'elei', q: 'STF — Brasil admite candidato avulso?', a: 'NÃO. STF ARE 1.054.490 (2017): filiação partidária é OBRIGATÓRIA. Não há candidatura avulsa. Marco jurisprudencial relevante.', tags: ['elei', 'candidatura-avulsa', 'STF'] },
+  { id: 598, topic: 8, materia: 'elei', q: 'Cota de gênero — Lei 9.504/97 art. 10 §3º?', a: 'Mínimo 30% e máximo 70% de candidaturas de cada gênero. Aplicação por partido (ou federação). TSE: rigorosa, sob pena de invalidação da chapa. Cota racial: distribuição proporcional do FEFC (TSE Res. 23.609/2019).', tags: ['elei', 'cota-genero'] },
+  { id: 599, topic: 8, materia: 'elei', q: 'TSE Súm. 11 — sentença pendente de recurso?', a: 'Para fins de inelegibilidade por improbidade, basta a sentença CONDENATÓRIA, mesmo se pendente recurso. Aplicação da Ficha Limpa.', tags: ['elei', 'TSE-Sumula', 'improbidade'] },
+
+  // Trib 1-4
+  { id: 600, topic: 1, materia: 'trib', q: '8 princípios constitucionais tributários (CF 150)?', a: 'LEGALIDADE · ISONOMIA · IRRETROATIVIDADE · ANTERIORIDADE (do exercício) · NOVENTENA (90 dias) · NÃO-CONFISCO · CAPACIDADE CONTRIBUTIVA · LIBERDADE DE TRÁFEGO. Cláusulas pétreas (CF 60 §4º IV).', tags: ['trib', 'principios'] },
+  { id: 601, topic: 1, materia: 'trib', q: 'Imunidades tributárias (CF 150 VI)?', a: '5 hipóteses: (a) RECÍPROCA · (b) TEMPLOS · (c) PARTIDOS/SINDICATOS/EDUCAÇÃO/ASSISTÊNCIA · (d) LIVROS, jornais, periódicos (STF: alcança e-books — Tema 593) · (e) FONOGRAMAS de músicos brasileiros (EC 75/13).', tags: ['trib', 'imunidades'] },
+  { id: 602, topic: 2, materia: 'trib', q: 'Bitributação × Bis in idem?', a: 'BITRIBUTAÇÃO: 2 entes diferentes tributando o mesmo fato — VEDADA (invasão de competência). BIS IN IDEM: o MESMO ente tributando 2 vezes o mesmo fato — admitido se não houver vedação CF (ex: CSLL + IRPJ — União).', tags: ['trib', 'bitributacao'] },
+  { id: 603, topic: 2, materia: 'trib', q: 'Competência RESIDUAL?', a: 'Só da UNIÃO (CF 154 I). Para criar novos impostos, exige: LEI COMPLEMENTAR · NÃO-CUMULATIVOS · FATO GERADOR e BASE DE CÁLCULO NOVOS (não previstos em outros impostos).', tags: ['trib', 'competencia-residual'] },
+  { id: 604, topic: 3, materia: 'trib', q: 'Teoria pentapartida (STF) — 5 espécies?', a: 'IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS (sociais, CIDE, profissionais, CIP). STF firmou (RE 138.284, 1992).', tags: ['trib', 'especies'] },
+  { id: 605, topic: 3, materia: 'trib', q: 'Impostos federais × estaduais × municipais?', a: 'FEDERAIS (CF 153): II · IE · IR · IPI · IOF · ITR · IGF. ESTADUAIS (CF 155): ITCMD · ICMS · IPVA. MUNICIPAIS (CF 156): IPTU · ITBI · ISS.', tags: ['trib', 'impostos'] },
+  { id: 606, topic: 4, materia: 'trib', q: 'Obrigação tributária — fato gerador (CTN 114)?', a: 'Situação definida em LEI como necessária e suficiente para a OBRIGAÇÃO PRINCIPAL. CTN 118: princípio "NON OLET" — ganho ilícito é tributável (STF aplica).', tags: ['trib', 'fato-gerador'] },
+  { id: 607, topic: 4, materia: 'trib', q: 'Solidariedade tributária (CTN 124-125)?', a: 'Pessoas com INTERESSE COMUM no fato gerador OU designadas por lei. NÃO admite BENEFÍCIO DE ORDEM (CTN 124 § único). Cada um pode ser cobrado pelo total.', tags: ['trib', 'solidariedade'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -16982,6 +17323,86 @@ questions: [
     ],
     correct: 'D',
     explanation: 'STF Tema 1.111 + Cód. Eleit. (A) Falso — Justiça ELEITORAL (CF 109 IV exclui). (B) Falso — gera CASSAÇÃO + multa. (C) Falso — Justiça Eleitoral atrai. (E) Falso — Cód. Eleit. art. 39 §5º: detenção 6 meses a 1 ano + multa.'
+  },
+
+  // === Questões Rodada 15 — Elei 7-8 + Trib 1-4 ===
+  {
+    id: 215, topic: 7, materia: 'elei', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as ações eleitorais:',
+    alternatives: [
+      'A AIRC (Ação de Impugnação ao Registro de Candidatura) tem prazo de 30 dias após a publicação do edital de candidaturas.',
+      'A AIME (Ação de Impugnação ao Mandato Eletivo — CF 14 §10) deve ser proposta APÓS a diplomação, em até 15 dias, em SEGREDO DE JUSTIÇA, com fundamento em abuso de poder, corrupção ou fraude; a AIJE (LC 64/90 art. 22) cabe até a diplomação para investigar abuso de poder econômico/político/uso indevido de meios de comunicação.',
+      'O RCED (Recurso Contra Expedição de Diploma) é cabível até a posse do candidato, conforme Código Eleitoral.',
+      'A AIJE só pode ser proposta após a diplomação do candidato.',
+      'A AIME admite proposição por qualquer cidadão, conforme princípio da soberania popular.'
+    ],
+    correct: 'B',
+    explanation: 'CF 14 §10 + LC 64/90. (A) Falso — 5 dias (LC 64/90 art. 3º). (C) Falso — 3 dias após diplomação (Cód. Eleit. art. 262). (D) Falso — AIJE cabe até a diplomação. (E) Falso — AIME tem legitimidade restrita (candidato, partido, MP).'
+  },
+  {
+    id: 216, topic: 8, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a jurisprudência eleitoral recente:',
+    alternatives: [
+      'O Brasil admite candidaturas avulsas, sem filiação partidária, conforme entendimento do STF.',
+      'A cota de gênero nas eleições proporcionais é de 50% para cada gênero, conforme Lei 9.504/97.',
+      'A Lei da Ficha Limpa (LC 135/10) foi declarada inconstitucional pelo STF, por violação à presunção de inocência.',
+      'O STF (ARE 1.054.490, 2017) firmou que o Brasil NÃO admite candidaturas avulsas — a filiação partidária é OBRIGATÓRIA; a cota de gênero é de 30% mínimo e 70% máximo de cada gênero (Lei 9.504/97 art. 10 §3º); a Lei da Ficha Limpa foi VALIDADA pelo STF (ADC 29 e 30, 2012), com aplicação a fatos anteriores.',
+      'A fidelidade partidária aplica-se obrigatoriamente a candidatos majoritários, conforme Súmula vinculante do STF.'
+    ],
+    correct: 'D',
+    explanation: 'STF ARE 1.054.490 + ADC 29/30 + Lei 9.504/97 art. 10 §3º. (A) Falso — não admite. (B) Falso — 30% mínimo cada gênero. (C) Falso — STF VALIDOU (ADC 29 e 30). (E) Falso — STF ADI 5.081: NÃO se aplica a majoritários.'
+  },
+  {
+    id: 217, topic: 1, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios constitucionais tributários:',
+    alternatives: [
+      'O princípio da anterioridade (CF 150 III b) exige que a lei tributária seja publicada com antecedência mínima de 90 dias antes de sua vigência.',
+      'A imunidade tributária recíproca (CF 150 VI a) impede que os entes federativos tributem uns aos outros mediante TODOS os tributos.',
+      'A imunidade dos livros (CF 150 VI d) NÃO alcança livros digitais (e-books), conforme entendimento do STF.',
+      'Os princípios constitucionais tributários (CF 150) são CLÁUSULAS PÉTREAS (CF 60 §4º IV — direitos individuais); a anterioridade do EXERCÍCIO (III b) e a NOVENTENA/anterioridade nonagesimal (III c) são distintas e cumulativas; a imunidade recíproca é apenas para IMPOSTOS, não outros tributos.',
+      'O princípio da capacidade contributiva aplica-se a todos os tributos, inclusive taxas e contribuições.'
+    ],
+    correct: 'D',
+    explanation: 'CF 150 + STF jurisprudência. (A) Falso — anterioridade do exercício seguinte (III b). 90 dias é noventena (III c). (B) Falso — imunidade recíproca é apenas para IMPOSTOS. (C) Falso — STF Tema 593: alcança e-books. (E) Falso — CF 145 §1º refere-se a IMPOSTOS pessoais.'
+  },
+  {
+    id: 218, topic: 2, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a competência tributária:',
+    alternatives: [
+      'A competência residual para criar novos impostos é exercida indistintamente por União, Estados e Municípios.',
+      'A bitributação caracteriza-se quando o mesmo ente federativo cria dois tributos sobre o mesmo fato gerador.',
+      'A competência residual (CF 154 I) é EXCLUSIVA da UNIÃO, exigindo: lei complementar, não-cumulatividade, e fato gerador/base de cálculo NOVOS; a BITRIBUTAÇÃO ocorre quando 2 ENTES DIFERENTES tributam o mesmo fato (vedada, em regra); o BIS IN IDEM é o MESMO ENTE tributando 2 vezes o mesmo fato (admissível se sem vedação CF).',
+      'A competência cumulativa pertence à União em todos os territórios federais.',
+      'O DF não acumula competências estadual e municipal.'
+    ],
+    correct: 'C',
+    explanation: 'CF 154 + competências. (A) Falso — só União. (B) Falso — bis in idem (mesmo ente); bitributação (entes diferentes). (D) Falso — competência cumulativa: DF e União nos Territórios. (E) Falso — CF 32 §1º: DF acumula (Estado + Município).'
+  },
+  {
+    id: 219, topic: 3, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as espécies tributárias:',
+    alternatives: [
+      'O empréstimo compulsório é instituído por LEI ORDINÁRIA, em casos de calamidade.',
+      'A taxa é tributo NÃO-VINCULADO a qualquer contraprestação estatal.',
+      'O IGF (Imposto sobre Grandes Fortunas) é da competência dos Estados.',
+      'O STF adota a TEORIA PENTAPARTIDA (5 espécies tributárias): IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS; o ITCMD é estadual; o ITBI é municipal; o ITR é federal.',
+      'A contribuição de melhoria é tributo cobrado pela mera prestação de serviço público.'
+    ],
+    correct: 'D',
+    explanation: 'STF teoria pentapartida + CF 153, 155, 156. (A) Falso — empréstimo compulsório exige LC (CF 148). (B) Falso — taxa é VINCULADA. (C) Falso — IGF é federal (CF 153 VII). (E) Falso — contribuição de melhoria pressupõe VALORIZAÇÃO IMOBILIÁRIA por obra pública.'
+  },
+  {
+    id: 220, topic: 4, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a obrigação tributária:',
+    alternatives: [
+      'A obrigação tributária acessória pode ser instituída por meio de decreto, dispensando lei.',
+      'O princípio "non olet" (CTN 118) impede a tributação de rendimentos provenientes de atividades ilícitas.',
+      'A solidariedade tributária admite benefício de ordem ao devedor solidário.',
+      'A obrigação tributária PRINCIPAL (pagar tributo ou penalidade) decorre do FATO GERADOR (CTN 114); a ACESSÓRIA é qualquer dever instrumental (declarar, emitir nota); a SOLIDARIEDADE NÃO admite benefício de ordem (CTN 124 § único); o princípio "NON OLET" (CTN 118) determina que ganhos ilícitos SÃO TRIBUTÁVEIS.',
+      'O contribuinte é o sujeito passivo INDIRETO da obrigação tributária.'
+    ],
+    correct: 'D',
+    explanation: 'CTN 114-125. (A) Falso — depende de lei (princípio da legalidade). (B) Falso — non olet TRIBUTA o ilícito. (C) Falso — não admite benefício de ordem. (E) Falso — contribuinte é DIRETO (relação direta com o fato gerador).'
   }
 ],
 
