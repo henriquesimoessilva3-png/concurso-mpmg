@@ -194,7 +194,8 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #20** — Rodada 13: PP 100%. Total: 125.
 - **PR #21** — Rodada 14: Eleitoral 6/8. Total: 131.
 - **PR #22** — Rodada 15: Eleitoral 100% + Trib 4/10. Total: 137.
-- **PR #23** (este — FECHAMENTO 100%) — Rodada 16: **Tributário 100% completo** (trib-05 Crédito tributário, trib-06 Adm. tributária, trib-07 Execução fiscal, trib-08 Reforma EC 132/23, trib-09 Direito Financeiro/LRF, trib-10 Crimes tributários). +14 cards e +6 questões. Total: **143 preenchidos (100%)**.
+- **PR #23** (closed, superseded por #24) — Rodada 16: **Tributário 100% completo** (trib-05 Crédito tributário, trib-06 Adm. tributária, trib-07 Execução fiscal, trib-08 Reforma EC 132/23, trib-09 Direito Financeiro/LRF, trib-10 Crimes tributários). +14 cards e +6 questões.
+- **PR #24** (FECHAMENTO 100%, mergeado em 2026-05-08) — Consolidação em main: PRs #11-23 estavam empilhados em stack; após merge do #10 com `--delete-branch`, GitHub auto-fechou #11 e os demais ficaram órfãos. Branch da Rodada 16 foi rebaseada sobre main (descartando commit duplicado da Rodada 3) e mergeada via fast-forward, preservando os 13 commits originais (Rodadas 4-16). PRs #11-23 fechados sem merge (conteúdo já em main). Total: **143 preenchidos (100%)**.
 
 ## Stats finais (PROJETO COMPLETO)
 
@@ -220,21 +221,16 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 
 ### 🏆 11 MATÉRIAS · 143 TÓPICOS · 100% COM CONTEÚDO COMPLETO
 
-### Próxima rodada sugerida (Rodada 6)
+### Próximos passos (pós-fechamento)
 
-Continuar Constitucional — 6 tópicos (const-03 a 08): Hermenêutica, Princípios fundamentais, Direitos e garantias fundamentais (CF art. 5º), Direitos sociais/Nacionalidade/Políticos, Organização do Estado, Organização dos Poderes.
+Conteúdo está completo. Possíveis tarefas a partir daqui:
 
-Roadmap restante:
-1. Rodada 6 — Const-03 a 08 (6 tópicos)
-2. Rodada 7 — Const-09 a 12 (4) + iniciar Adm (2) = 6
-3. Rodada 8 — Adm-03 a 08 (6)
-4. Rodada 9 — Adm-09 a 12 (4) + iniciar Penal (2) = 6
-5. Rodadas 10-12 — Penal (12 restantes)
-6. Rodadas 13-14 — Processo Penal (12)
-7. Rodada 15 — Eleitoral (8)
-8. Rodada 16-17 — Tributário (10)
-
-Em ~11-12 chats deste tamanho, os 66 esqueletos restantes ficam preenchidos.
+1. **Iniciar uso real** — abrir PC 1, marcar status, fazer flashcards, registrar primeiro estudo no log.
+2. **Reforço de densidade** — alvo 8-12 cards e 4-6 questões por tópico (PC 21-30 e Civil estão em ~5-6 cards e 2-3 questões).
+3. **+30 súmulas** para chegar a 90+ (priorizar Const./Adm./Coletivo).
+4. **Súmulas de informativos recentes STF/STJ 2024-2026.**
+5. **Modo dark / acessibilidade.**
+6. **Divulgar** para outros candidatos (URL e CONTRIBUTING.md).
 
 ## Memória persistente do Claude Code
 
