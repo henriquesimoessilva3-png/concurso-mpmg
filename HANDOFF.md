@@ -48,13 +48,13 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **125 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 14 Penal + 12 PP
-- **18 esqueletos prontos** distribuídos em 2 matérias (8 elei, 10 trib).
+- **131 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 14 Penal + 12 PP + 6 Elei
+- **12 esqueletos prontos** distribuídos em 2 matérias (2 elei, 10 trib).
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **579 flashcards**
-- **208 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **593 flashcards**
+- **214 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
 - **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
@@ -98,7 +98,7 @@ Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata
 |---------|-------------------|
 | ~~Constitucional~~ | ✅ 0 (100% completo) |
 | ~~Administrativo~~ | ✅ 0 (100% completo) |
-| Eleitoral | 8 |
+| Eleitoral | 2 (de 8 — elei-01 a 06 prontos) |
 | Tributário/Financeiro | 10 |
 | ~~Teoria do MP~~ | ✅ 0 (100% completo) |
 | ~~Penal/Criminologia~~ | ✅ 0 (100% completo) |
@@ -187,17 +187,18 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #17** — Rodada 10: Penal 8/14. Total: 107.
 - **PR #18** — Rodada 11: Penal 100%. Total: 113.
 - **PR #19** — Rodada 12: PP 6/12. Total: 119.
-- **PR #20** (este) — Rodada 13: **PP 100% completo** (pp-07 Prisão e cautelares, pp-08 Procedimentos, pp-09 Júri, pp-10 Sentença/recursos, pp-11 LEP, pp-12 Leis especiais). +14 cards e +6 questões. Total: **125 preenchidos** (87%).
+- **PR #20** — Rodada 13: PP 100%. Total: 125.
+- **PR #21** (este) — Rodada 14: **Eleitoral 6/8** (elei-01 Direitos políticos, elei-02 Sistema/JustEleitoral, elei-03 Partidos, elei-04 Registro/candidatura, elei-05 Campanha/financiamento, elei-06 Crimes eleitorais). +14 cards e +6 questões. Total: **131 preenchidos** (92%).
 
 ## Stats atuais
 
-- **143 tópicos** (**125 com conteúdo** + 18 esqueletos com outline) — **87% concluído!**
-- **579 flashcards**
-- **208 questões** com gabarito comentado
+- **143 tópicos** (**131 com conteúdo** + 12 esqueletos com outline) — **92% concluído!**
+- **593 flashcards**
+- **214 questões** com gabarito comentado
 - **88 súmulas** STF/STJ
-- ~32.500 linhas em `assets/data.js`
+- ~35.000 linhas em `assets/data.js`
 
-### Tópicos preenchidos (125)
+### Tópicos preenchidos (131)
 
 - **Processo Civil 1-30** (30)
 - **Direito Civil 1-17** (17)
@@ -207,7 +208,8 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **Constitucional 1-12** (12) — **100%**
 - **Administrativo 1-12** (12) — **100%**
 - **Penal 1-14** (14) — **100%**
-- **Processo Penal 1-12** (12) — **100% COMPLETO**: Princípios, IP/PIC/ANPP, Ação penal, Sujeitos, Competência, Provas, Prisão/cautelares, Procedimentos, Júri, Sentença/recursos, LEP, Leis especiais
+- **Processo Penal 1-12** (12) — **100%**
+- **Eleitoral 1-6** (6 de 8): Direitos políticos, Sistema/JustEleitoral, Partidos, Registro, Campanha, Crimes. Faltam: elei-07, 08
 
 ### Próxima rodada sugerida (Rodada 6)
 

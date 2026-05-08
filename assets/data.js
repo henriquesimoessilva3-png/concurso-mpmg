@@ -7930,12 +7930,404 @@ topics: [
   ] },
 
   // ============ ESQUELETOS — DIREITO ELEITORAL (8) ============
-  { id: 'elei-01-direitos-politicos', num: 1, materia: 'elei', title: 'Direitos políticos e elegibilidade', edital: '1.3.1', editalText: 'Capacidade eleitoral ativa e passiva. Inelegibilidades. LC 64/90.', size: 'Médio', schedule: null, advantage: null, outline: ['Capacidade eleitoral ativa (alistamento)', 'Capacidade eleitoral passiva (elegibilidade)', 'Condições de elegibilidade (CF art. 14 §3º)', 'Inelegibilidades absolutas e relativas (CF art. 14 §§ 4º-7º)', 'LC 64/90 (Lei das Inelegibilidades) e LC 135/10 (Ficha Limpa)', 'Perda e suspensão dos direitos políticos'], sections: [] },
-  { id: 'elei-02-sistema-justica-eleitorais', num: 2, materia: 'elei', title: 'Sistema eleitoral e Justiça Eleitoral', edital: '1.3.2', editalText: 'Sistemas majoritário e proporcional. Estrutura da Justiça Eleitoral. MP Eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistemas eleitorais (majoritário simples e absoluto, proporcional, misto)', 'Cálculo proporcional (quociente eleitoral e partidário)', 'Justiça Eleitoral — TSE, TREs, juízes e juntas', 'MP Eleitoral (LC 75/93 art. 78)', 'Coligações e federações partidárias'], sections: [] },
-  { id: 'elei-03-partidos-politicos', num: 3, materia: 'elei', title: 'Partidos políticos', edital: '1.3.3', editalText: 'Lei 9.096/95. Criação, registro, fidelidade, fundo partidário, fundo eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 9.096/95 — Lei dos Partidos', 'Criação, organização e funcionamento', 'Filiação partidária', 'Fidelidade e disciplina', 'Fundo Especial de Assistência Financeira (Fundo Partidário)', 'Fundo Especial de Financiamento de Campanha (FEFC)', 'Cláusula de desempenho (EC 97/17)'], sections: [] },
-  { id: 'elei-04-alistamento-candidatura-registro', num: 4, materia: 'elei', title: 'Alistamento, candidatura e registro', edital: '1.3.4', editalText: 'Domicílio eleitoral. Convenções. Registro de candidatura. Substituição.', size: 'Médio', schedule: null, advantage: null, outline: ['Alistamento eleitoral', 'Domicílio eleitoral e filiação', 'Convenções partidárias', 'Registro de candidatura (Lei 9.504/97 art. 11)', 'Documentos exigidos', 'Impugnação ao registro (AIRC — LC 64/90 art. 3º)', 'Substituição de candidatos'], sections: [] },
-  { id: 'elei-05-campanha-financiamento-propaganda', num: 5, materia: 'elei', title: 'Campanha eleitoral, financiamento e propaganda', edital: '1.3.5', editalText: 'Lei 9.504/97. Financiamento, prestação de contas, propaganda eleitoral.', size: 'Grande', schedule: null, advantage: null, outline: ['Arrecadação e gastos (Lei 9.504/97 arts. 17-27)', 'Financiamento — fontes proibidas, doações, autofinanciamento', 'Prestação de contas', 'Propaganda eleitoral (intra e extrapartidária)', 'Propaganda na internet', 'Propaganda irregular — sanções'], sections: [] },
-  { id: 'elei-06-crimes-eleitorais', num: 6, materia: 'elei', title: 'Crimes eleitorais', edital: '1.3.6', editalText: 'Código Eleitoral (Lei 4.737/65). Crimes em espécie. Processo penal eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Código Eleitoral (Lei 4.737/65) arts. 283-364', 'Crimes em espécie (corrupção eleitoral, captação ilícita, etc.)', 'Lei 9.504/97 — crimes específicos', 'Competência criminal eleitoral', 'Procedimento penal eleitoral', 'Aplicação subsidiária do CPP'], sections: [] },
+  { id: 'elei-01-direitos-politicos', num: 1, materia: 'elei', title: 'Direitos políticos e elegibilidade', edital: '1.3.1', editalText: 'Capacidade eleitoral ativa e passiva. Inelegibilidades. LC 64/90.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Capacidade eleitoral ativa (alistamento)', 'Capacidade eleitoral passiva (elegibilidade)', 'Condições de elegibilidade (CF art. 14 §3º)', 'Inelegibilidades absolutas e relativas (CF art. 14 §§ 4º-7º)', 'LC 64/90 (Lei das Inelegibilidades) e LC 135/10 (Ficha Limpa)', 'Perda e suspensão dos direitos políticos'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **DIREITOS POLÍTICOS** (CF arts. 14-16) são prerrogativas para participação política. Subdividem-se em: ATIVOS (alistamento, voto, plebiscito, referendo, iniciativa popular) e PASSIVOS (elegibilidade, ocupação de cargos eletivos). Inelegibilidades são restrições à elegibilidade — absolutas (vedam todos os cargos) ou relativas (vedam alguns).' }
+      ]
+    },
+    {
+      h: 'Capacidade eleitoral',
+      items: [
+        { type: 'h', text: 'Ativa (alistamento e voto)' },
+        { type: 'list', items: [
+          'OBRIGATÓRIO: 18-70 anos',
+          'FACULTATIVO: analfabetos · maiores de 70 · entre 16 e 18 anos',
+          'INALISTÁVEIS: estrangeiros e conscritos militares (CF 14 §2º)',
+          'Voto: DIRETO · SECRETO · UNIVERSAL · PERIÓDICO · IGUAL'
+        ]},
+
+        { type: 'h', text: 'Passiva (elegibilidade — CF 14 §3º)' },
+        { type: 'list', items: [
+          'Nacionalidade brasileira',
+          'Pleno exercício dos direitos políticos',
+          'Alistamento eleitoral',
+          'Domicílio eleitoral na circunscrição',
+          'Filiação partidária',
+          'Idade mínima: 35/30/21/18 (PR-Sen / Gov / Dep-Pref / Ver)'
+        ]}
+      ]
+    },
+    {
+      h: 'Inelegibilidades (CF 14 §§ 4º-9º + LC 64/90 + LC 135/10)',
+      items: [
+        { type: 'h', text: 'Absolutas (§4º)' },
+        { type: 'list', items: [
+          'Inalistáveis (estrangeiros, conscritos)',
+          'Analfabetos',
+          'Vedam TODOS os cargos'
+        ]},
+
+        { type: 'h', text: 'Relativas' },
+        { type: 'list', items: [
+          '**§5º — Reeleição UMA VEZ** (Pres./Gov./Pref.)',
+          '**§6º — Cargo do qual deva afastar-se 6 meses antes** (renúncia anterior)',
+          '**§7º — Parentesco até 2º grau** com Presidente, Governador, Prefeito (cônjuges, filhos, irmãos)',
+          '**§8º — Militar em atividade**'
+        ]},
+
+        { type: 'h', text: 'Lei da Ficha Limpa (LC 135/10)' },
+        { type: 'list', items: [
+          'Acrescentou hipóteses à LC 64/90',
+          'Inelegibilidade por 8 anos para condenados por órgão colegiado em crimes contra a Adm., crimes hediondos, etc.',
+          'STF (ADC 29 e 30, 2012): validou a Ficha Limpa, com aplicação a fatos anteriores'
+        ]}
+      ]
+    },
+    {
+      h: 'Perda e suspensão de direitos políticos (CF 15)',
+      items: [
+        { type: 'list', items: [
+          'PERDA: cancelamento de naturalização · recusa de obrigação imposta a todos · perda da nacionalidade',
+          'SUSPENSÃO: condenação criminal transitada · improbidade administrativa (CF 37 §4º) · incapacidade civil absoluta'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Voto: 18-70 obrigatório · 16-18, +70, analfabetos facultativo · estrangeiros e conscritos INALISTÁVEIS.**' },
+        { type: 'box', kind: 'macete', text: '**Idades: 35-30-21-18 (PR/Sen-Gov-Dep/Pref-Ver).**' },
+        { type: 'box', kind: 'macete', text: '**LC 135/10 (Ficha Limpa) acrescentou hipóteses à LC 64/90.** STF ADC 29 e 30: validou.' },
+        { type: 'box', kind: 'macete', text: '**CF 15: PERDA × SUSPENSÃO de direitos políticos. Não há CASSAÇÃO (CF 15 caput).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**É VEDADA a CASSAÇÃO de direitos políticos (CF 15 caput) — apenas perda ou suspensão.**' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição: UMA ÚNICA VEZ (CF 14 §5º).**' },
+        { type: 'box', kind: 'atencao', text: '**Improbidade administrativa: SUSPENDE direitos políticos (CF 37 §4º), com prazo definido em lei.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 6:** detalhamento dos direitos políticos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11:** improbidade — suspensão de direitos políticos.' }
+      ]
+    }
+  ] },
+  { id: 'elei-02-sistema-justica-eleitorais', num: 2, materia: 'elei', title: 'Sistema eleitoral e Justiça Eleitoral', edital: '1.3.2', editalText: 'Sistemas majoritário e proporcional. Estrutura da Justiça Eleitoral. MP Eleitoral.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Sistemas eleitorais (majoritário simples e absoluto, proporcional, misto)', 'Cálculo proporcional (quociente eleitoral e partidário)', 'Justiça Eleitoral — TSE, TREs, juízes e juntas', 'MP Eleitoral (LC 75/93 art. 78)', 'Coligações e federações partidárias'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **SISTEMA ELEITORAL BRASILEIRO** combina dois modelos: **MAJORITÁRIO** (PR, Gov., Pref. de cidades > 200 mil hab — 2 turnos / Pref. de cidades < 200 mil — turno único / Senadores) e **PROPORCIONAL** (Dep. Federais, Estaduais, Vereadores). A **JUSTIÇA ELEITORAL** é especializada e híbrida (CF 118-121).' }
+      ]
+    },
+    {
+      h: 'Sistemas eleitorais',
+      items: [
+        { type: 'h', text: 'Majoritário' },
+        { type: 'list', items: [
+          'SIMPLES: maioria simples (mais votos). Aplica-se a senador (1 vaga) e prefeito de cidades < 200 mil',
+          'ABSOLUTO: 50% + 1. PR/Gov./Pref. cidades > 200 mil — admite 2º turno se ninguém atinge no 1º'
+        ]},
+
+        { type: 'h', text: 'Proporcional' },
+        { type: 'list', items: [
+          'Para Dep. Federais, Estaduais, Vereadores',
+          '**Quociente Eleitoral (QE):** votos válidos ÷ vagas',
+          '**Quociente Partidário (QP):** votos do partido ÷ QE = vagas iniciais',
+          'Sobras: distribuídas pelas maiores médias',
+          'CF 14 §3º + Lei 9.504/97'
+        ]}
+      ]
+    },
+    {
+      h: 'Justiça Eleitoral (CF 118-121)',
+      items: [
+        { type: 'list', items: [
+          '**TSE (Tribunal Superior Eleitoral):** 7 ministros (3 STF + 2 STJ + 2 advogados nomeados pelo PR)',
+          '**TREs (Tribunais Regionais Eleitorais):** 7 juízes (2 desembargadores TJ + 2 juízes TJ + 1 juiz federal + 2 advogados)',
+          '**Juízes Eleitorais:** juízes de direito designados',
+          '**Juntas Eleitorais:** órgãos auxiliares na apuração',
+          'TODOS os ÓRGÃOS são EMPRESTADOS — não há carreira própria de juiz eleitoral'
+        ]}
+      ]
+    },
+    {
+      h: 'MP Eleitoral',
+      items: [
+        { type: 'p', text: 'O **MP Eleitoral** (LC 75/93 art. 78) é exercido pelos membros do MPU (PGR perante o TSE; Procuradores Regionais Eleitorais — designados pelo PGR perante TREs; Promotores Eleitorais — designados pelo MP estadual perante juízes eleitorais).' }
+      ]
+    },
+    {
+      h: 'Coligações e federações',
+      items: [
+        { type: 'list', items: [
+          '**EC 97/17:** VEDOU coligações em eleições proporcionais',
+          '**Federações partidárias** (Lei 14.208/21): partidos podem se federar com obrigação de atuação conjunta por pelo menos 4 anos. Inovação para superar a vedação a coligações'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Sistemas: MAJORITÁRIO (PR, Gov., Pref., Senador) × PROPORCIONAL (Dep., Vereador).**' },
+        { type: 'box', kind: 'macete', text: '**Justiça Eleitoral: órgãos EMPRESTADOS — não há juiz eleitoral de carreira.**' },
+        { type: 'box', kind: 'macete', text: '**EC 97/17: VEDOU coligações em PROPORCIONAIS.** Lei 14.208/21 criou FEDERAÇÕES.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** MP Eleitoral é exercido pelo MPU.' }
+      ]
+    }
+  ] },
+  { id: 'elei-03-partidos-politicos', num: 3, materia: 'elei', title: 'Partidos políticos', edital: '1.3.3', editalText: 'Lei 9.096/95. Criação, registro, fidelidade, fundo partidário, fundo eleitoral.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Lei 9.096/95 — Lei dos Partidos', 'Criação, organização e funcionamento', 'Filiação partidária', 'Fidelidade e disciplina', 'Fundo Especial de Assistência Financeira (Fundo Partidário)', 'Fundo Especial de Financiamento de Campanha (FEFC)', 'Cláusula de desempenho (EC 97/17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PARTIDOS POLÍTICOS** (CF 17 + Lei 9.096/95) são pessoas jurídicas de direito PRIVADO. Caráter NACIONAL (vedados regionais — CF 17 I). Liberdade de criação, fusão, incorporação. EC 97/2017 introduziu **CLÁUSULA DE DESEMPENHO** (barreira) e VEDOU coligações em proporcionais.' }
+      ]
+    },
+    {
+      h: 'Lei 9.096/95 — Lei dos Partidos',
+      items: [
+        { type: 'h', text: 'Princípios (CF 17)' },
+        { type: 'list', items: [
+          'Caráter NACIONAL',
+          'Vedação ao recebimento de recursos de governos/entidades estrangeiros',
+          'Prestação de contas à Justiça Eleitoral',
+          'Funcionamento parlamentar nos termos da lei'
+        ]},
+
+        { type: 'h', text: 'Filiação partidária' },
+        { type: 'list', items: [
+          'PRAZO MÍNIMO: 6 MESES antes das eleições (Lei 13.488/17)',
+          'Lei 9.096/95 art. 18',
+          'Para candidato: filiação prévia exigida'
+        ]},
+
+        { type: 'h', text: 'Fidelidade partidária' },
+        { type: 'list', items: [
+          'STF — ADI 5.081 (2015): fidelidade NÃO se aplica a cargos majoritários (Pres., Gov., Pref., Sen.)',
+          'Para PROPORCIONAIS: mandato pertence ao partido, salvo exceções (mudança programática, perseguição)',
+          'Lei 9.096/95 art. 22-A'
+        ]}
+      ]
+    },
+    {
+      h: 'Fundos e cláusula de desempenho',
+      items: [
+        { type: 'h', text: 'Fundos' },
+        { type: 'list', items: [
+          '**FUNDO PARTIDÁRIO (Lei 9.096/95 art. 38):** assistência financeira anual aos partidos. Multas, recursos, dotações orçamentárias',
+          '**FEFC (Fundo Especial de Financiamento de Campanha — Lei 13.487/17):** específico para campanha eleitoral. Substituiu doações de PJ (proibidas pelo STF — ADI 4.650, 2015)'
+        ]},
+
+        { type: 'h', text: 'Cláusula de desempenho (EC 97/17)' },
+        { type: 'p', text: 'Partido só tem direito a fundo partidário e tempo de propaganda no rádio/TV se atingir desempenho mínimo nas eleições. Limita a fragmentação. Aplicação progressiva. Atual (eleições 2022 em diante): 3% válidos em 11 estados, com mínimo de 2% em cada · OU · 15 deputados em 9 estados.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**CF 17 + Lei 9.096/95.** Partidos = PJ de direito PRIVADO, caráter NACIONAL.' },
+        { type: 'box', kind: 'macete', text: '**Filiação prévia: 6 MESES antes das eleições.**' },
+        { type: 'box', kind: 'macete', text: '**Fidelidade partidária: NÃO se aplica a majoritários (STF ADI 5.081). Aplica-se a PROPORCIONAIS.**' },
+        { type: 'box', kind: 'macete', text: '**EC 97/17: cláusula de desempenho + VEDAÇÃO de coligações em proporcionais.**' },
+        { type: 'box', kind: 'macete', text: '**STF ADI 4.650 (2015): VEDADAS doações de PJ a partidos e candidatos.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 6:** partidos políticos no rol da CF.' }
+      ]
+    }
+  ] },
+  { id: 'elei-04-alistamento-candidatura-registro', num: 4, materia: 'elei', title: 'Alistamento, candidatura e registro', edital: '1.3.4', editalText: 'Domicílio eleitoral. Convenções. Registro de candidatura. Substituição.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Alistamento eleitoral', 'Domicílio eleitoral e filiação', 'Convenções partidárias', 'Registro de candidatura (Lei 9.504/97 art. 11)', 'Documentos exigidos', 'Impugnação ao registro (AIRC — LC 64/90 art. 3º)', 'Substituição de candidatos'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **REGISTRO DE CANDIDATURA** é o ato pelo qual o candidato pleiteia formalmente a participação na eleição. Disciplinado pela Lei 9.504/97 art. 11. Pré-requisitos: alistamento, filiação prévia (6 meses), domicílio eleitoral, escolha em convenção partidária.' }
+      ]
+    },
+    {
+      h: 'Etapas',
+      items: [
+        { type: 'h', text: 'Alistamento e domicílio' },
+        { type: 'list', items: [
+          'Alistamento: registro do eleitor na zona eleitoral (Código Eleitoral)',
+          'DOMICÍLIO ELEITORAL: residência ou vínculo continuado. Antes era 1 ano; Lei 13.488/17 reduziu para 6 MESES'
+        ]},
+
+        { type: 'h', text: 'Convenções partidárias (Lei 9.504/97 art. 8º)' },
+        { type: 'list', items: [
+          'Realizadas entre 20/07 e 05/08 do ano da eleição',
+          'Escolha dos candidatos pelo partido',
+          'Aprovação de coligação (apenas em majoritárias após EC 97/17)',
+          'Lavratura da ata'
+        ]},
+
+        { type: 'h', text: 'Registro de candidatura (Lei 9.504/97 art. 11)' },
+        { type: 'list', items: [
+          'PRAZO: até 15/08 do ano eleitoral',
+          'Documentos: cópia certidão eleitoral, CPF, fotografia, declaração de bens, certidão criminal',
+          '**AIRC (Ação de Impugnação ao Registro de Candidatura) — LC 64/90 art. 3º:** prazo de 5 dias após publicação do edital'
+        ]}
+      ]
+    },
+    {
+      h: 'Substituição de candidatos',
+      items: [
+        { type: 'p', text: 'Lei 9.504/97 art. 13. Possível por morte, renúncia, indeferimento de registro. Prazos: 10 dias antes do pleito (majoritárias) ou até 60 dias antes (proporcionais).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Domicílio eleitoral: 6 MESES (Lei 13.488/17). Antes era 1 ano.**' },
+        { type: 'box', kind: 'macete', text: '**Convenções: 20/07 a 05/08 · Registro: até 15/08.**' },
+        { type: 'box', kind: 'macete', text: '**AIRC (LC 64/90 art. 3º): 5 dias após edital.** Para impugnar candidatura.' },
+        { type: 'box', kind: 'macete', text: '**Filiação prévia: 6 MESES antes do pleito.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1:** condições de elegibilidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 3:** filiação partidária.' }
+      ]
+    }
+  ] },
+  { id: 'elei-05-campanha-financiamento-propaganda', num: 5, materia: 'elei', title: 'Campanha eleitoral, financiamento e propaganda', edital: '1.3.5', editalText: 'Lei 9.504/97. Financiamento, prestação de contas, propaganda eleitoral.', size: 'Grande', schedule: 'Mês 15-16', advantage: null, outline: ['Arrecadação e gastos (Lei 9.504/97 arts. 17-27)', 'Financiamento — fontes proibidas, doações, autofinanciamento', 'Prestação de contas', 'Propaganda eleitoral (intra e extrapartidária)', 'Propaganda na internet', 'Propaganda irregular — sanções'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: '**CAMPANHA ELEITORAL** é o conjunto de atos para divulgar candidatura e angariar votos. Lei 9.504/97 disciplina arrecadação, gastos, prestação de contas e propaganda. Marco transformador: **STF ADI 4.650 (2015)** declarou inconstitucionais as DOAÇÕES DE PJ a campanhas — só PESSOAS FÍSICAS e o FEFC.' }
+      ]
+    },
+    {
+      h: 'Financiamento',
+      items: [
+        { type: 'h', text: 'Fontes admitidas' },
+        { type: 'list', items: [
+          'Recursos próprios do candidato (autofinanciamento)',
+          'Doações de PESSOAS FÍSICAS (limite: 10% dos rendimentos brutos do ano anterior)',
+          'Recursos do PARTIDO (Fundo Partidário)',
+          'FEFC (Fundo Especial de Financiamento de Campanha — Lei 13.487/17)'
+        ]},
+
+        { type: 'h', text: 'Fontes VEDADAS (Lei 9.504/97 art. 24)' },
+        { type: 'list', items: [
+          'Pessoas JURÍDICAS (STF ADI 4.650, 2015)',
+          'Origens estrangeiras',
+          'Concessionárias de serviços públicos',
+          'Sociedades fictícias / pessoas jurídicas, etc.',
+          'Fundos sindicais com mais de 50% de origem pública'
+        ]},
+
+        { type: 'h', text: 'Prestação de contas' },
+        { type: 'list', items: [
+          'OBRIGATÓRIA à Justiça Eleitoral',
+          'Apresentação parcial e final',
+          'Aprovação, aprovação com ressalvas, rejeição (com possíveis sanções)',
+          'Rejeição: pode levar à inelegibilidade (Ficha Limpa)'
+        ]}
+      ]
+    },
+    {
+      h: 'Propaganda eleitoral',
+      items: [
+        { type: 'h', text: 'Modalidades' },
+        { type: 'list', items: [
+          '**INTRAPARTIDÁRIA:** durante a pré-campanha, dentro do partido (até a convenção)',
+          '**EXTRAPARTIDÁRIA:** após convenção e registro, dirigida ao eleitorado',
+          '**Propaganda no rádio/TV:** GRATUITA, com base no Fundo Partidário e tempo proporcional ao desempenho do partido',
+          '**INTERNET:** Lei 9.504/97 + Lei 13.488/17. Propaganda paga em redes sociais NÃO ADMITIDA (regra)',
+          '**Comícios:** permitidos com autorização (Lei 9.504/97 art. 39)',
+          '**Boca de urna:** PROIBIDA no dia da eleição'
+        ]}
+      ]
+    },
+    {
+      h: 'Sanções e responsabilidades',
+      items: [
+        { type: 'list', items: [
+          'AIJE (Ação de Investigação Judicial Eleitoral) — LC 64/90 art. 22',
+          'AIME (Ação de Impugnação de Mandato Eletivo) — CF 14 §10',
+          'Multas, cassação do registro/diploma, inelegibilidade'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**STF ADI 4.650 (2015): VEDADAS doações de PJ a campanhas. Só PF (limite 10% rendimentos) + Partido + FEFC.**' },
+        { type: 'box', kind: 'macete', text: '**Boca de urna: PROIBIDA no dia da eleição.**' },
+        { type: 'box', kind: 'macete', text: '**Ações eleitorais: AIJE (investigação) · AIME (mandato) · AIRC (registro).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 3:** Fundos partidário e FEFC.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 6:** crimes eleitorais (corrupção eleitoral, captação ilícita).' }
+      ]
+    }
+  ] },
+  { id: 'elei-06-crimes-eleitorais', num: 6, materia: 'elei', title: 'Crimes eleitorais', edital: '1.3.6', editalText: 'Código Eleitoral (Lei 4.737/65). Crimes em espécie. Processo penal eleitoral.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Código Eleitoral (Lei 4.737/65) arts. 283-364', 'Crimes em espécie (corrupção eleitoral, captação ilícita, etc.)', 'Lei 9.504/97 — crimes específicos', 'Competência criminal eleitoral', 'Procedimento penal eleitoral', 'Aplicação subsidiária do CPP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **CRIMES ELEITORAIS** estão no Código Eleitoral (Lei 4.737/65 arts. 283-364) e em leis especiais (Lei 9.504/97). Competência: **JUSTIÇA ELEITORAL**. Procedimento: aplica-se subsidiariamente o CPP. STF — RE 1.108.061 (Tema 1.111): conexão entre crime comum e eleitoral atrai a Justiça Eleitoral.' }
+      ]
+    },
+    {
+      h: 'Crimes em espécie',
+      items: [
+        { type: 'list', items: [
+          '**CORRUPÇÃO ELEITORAL (Cód. Eleit. art. 299):** dar, oferecer, prometer, solicitar dinheiro ou vantagem para conseguir voto',
+          '**CAPTAÇÃO ILÍCITA DE SUFRÁGIO (Lei 9.504/97 art. 41-A):** doar, oferecer, prometer bem ou vantagem em troca de voto. Leva à CASSAÇÃO do registro/diploma',
+          '**TRANSPORTE DE ELEITORES (Lei 6.091/74):** crime se feito sem autorização',
+          '**BOCA DE URNA (Cód. Eleit. art. 39 §5º):** detenção 6 meses a 1 ano + multa',
+          '**Falsidade ideológica eleitoral (Cód. Eleit. art. 350):** doação acima do permitido, declaração falsa',
+          '**Lei das Fake News (Lei 14.197/21):** alterou crimes eleitorais relativos à divulgação de informações falsas'
+        ]}
+      ]
+    },
+    {
+      h: 'Competência e procedimento',
+      items: [
+        { type: 'list', items: [
+          '**Justiça Eleitoral** julga crimes eleitorais (CF 109 IV exclui)',
+          '**STF — Tema 1.111 (RE 1.108.061, 2019):** crime comum CONEXO com eleitoral é da Justiça Eleitoral',
+          'Procedimento sumário (Cód. Eleit. arts. 355-364) ou comum',
+          'Aplicação SUBSIDIÁRIA do CPP'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Crimes eleitorais: Cód. Eleitoral (Lei 4.737/65) + Lei 9.504/97.**' },
+        { type: 'box', kind: 'macete', text: '**Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A) leva a CASSAÇÃO de registro/diploma.**' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 1.111: crime comum CONEXO com eleitoral é da Justiça Eleitoral.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 12 (crimes Adm.):** dialoga com corrupção eleitoral.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 5:** propaganda irregular pode levar a crimes.' }
+      ]
+    }
+  ] },
   { id: 'elei-07-acoes-eleitorais', num: 7, materia: 'elei', title: 'Ações eleitorais (AIJE, AIME, AIRC, RCED)', edital: '1.3.7', editalText: 'Ações de impugnação e investigação. Recurso contra expedição de diploma.', size: 'Médio', schedule: null, advantage: null, outline: ['AIRC — Ação de Impugnação ao Registro de Candidatura', 'AIJE — Ação de Investigação Judicial Eleitoral', 'AIME — Ação de Impugnação ao Mandato Eletivo', 'RCED — Recurso Contra Expedição de Diploma', 'Representações (art. 96 da Lei 9.504/97)', 'Ação rescisória eleitoral'], sections: [] },
   { id: 'elei-08-jurisprudencia-tse', num: 8, materia: 'elei', title: 'Jurisprudência TSE recente', edital: '1.3.8', editalText: 'Resoluções, Súmulas, decisões recentes do TSE e STF em matéria eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Súmulas TSE consolidadas', 'Resoluções recentes (eleições 2024 e seguintes)', 'Temas STF relevantes (cláusula de barreira, fidelidade, financiamento)', 'Cota de gênero e cota racial', 'Inelegibilidades — STF jurisprudência'], sections: [] },
 
@@ -13596,7 +13988,23 @@ flashcards: [
   { id: 576, topic: 11, materia: 'pp', q: 'SV 56 STF — falta de vagas?', a: 'Falta de vagas em estabelecimento adequado autoriza CUMPRIMENTO DOMICILIAR (não regressão). Marco protetivo do encarcerado.', tags: ['pp', 'lep', 'SV-56'] },
   { id: 577, topic: 12, materia: 'pp', q: 'JECrim — transação penal × suspensão condicional do processo?', a: 'TRANSAÇÃO (Lei 9.099/95 art. 76): acordo ANTES da denúncia, pena restritiva ou multa. SURSIS PROCESSUAL (89): pena MÍNIMA ≤ 1 ano, suspensão de 2-4 anos. Cumprido = extinta punibilidade.', tags: ['pp', 'jecrim'] },
   { id: 578, topic: 12, materia: 'pp', q: 'Maria da Penha e JECrim?', a: 'JECrim VEDADO (art. 41 — Lei 11.340/06). Crimes em contexto doméstico contra mulher seguem rito ordinário, nos Juizados de Violência Doméstica.', tags: ['pp', 'maria-da-penha'] },
-  { id: 579, topic: 12, materia: 'pp', q: 'Interceptação telefônica (Lei 9.296/96)?', a: 'RESERVA DE JURISDIÇÃO (CF 5º XII). Crimes punidos com RECLUSÃO. Prazo 15 DIAS, prorrogáveis sucessivamente. Indispensável para a investigação. Conversa flagrada (encontro fortuito) NÃO é interceptação.', tags: ['pp', 'interceptacao'] }
+  { id: 579, topic: 12, materia: 'pp', q: 'Interceptação telefônica (Lei 9.296/96)?', a: 'RESERVA DE JURISDIÇÃO (CF 5º XII). Crimes punidos com RECLUSÃO. Prazo 15 DIAS, prorrogáveis sucessivamente. Indispensável para a investigação. Conversa flagrada (encontro fortuito) NÃO é interceptação.', tags: ['pp', 'interceptacao'] },
+
+  // === Cards Rodada 14 — Eleitoral 1-6 ===
+  { id: 580, topic: 1, materia: 'elei', q: 'Capacidade eleitoral ATIVA × PASSIVA?', a: 'ATIVA: alistamento e voto. Obrigatório 18-70, facultativo (16-18, +70, analfabetos), inalistáveis (estrangeiros, conscritos). PASSIVA: elegibilidade (CF 14 §3º — nacionalidade, pleno exercício, alistamento, domicílio, filiação, idade mínima).', tags: ['elei', 'capacidade'] },
+  { id: 581, topic: 1, materia: 'elei', q: 'Inelegibilidades absolutas × relativas?', a: 'ABSOLUTAS (§4º): inalistáveis e analfabetos — vedam TODOS os cargos. RELATIVAS: reeleição (§5º), parentesco (§7º), militar (§8º), cargos do qual deva afastar-se (§6º) — vedam ALGUNS cargos.', tags: ['elei', 'inelegibilidades'] },
+  { id: 582, topic: 1, materia: 'elei', q: 'Lei da Ficha Limpa (LC 135/10) — STF?', a: 'STF ADC 29 e 30 (2012): VALIDOU a Ficha Limpa, com aplicação a fatos ANTERIORES. Inelegibilidade por 8 anos para condenados por órgão colegiado em crimes contra Adm., hediondos, etc.', tags: ['elei', 'ficha-limpa'] },
+  { id: 583, topic: 2, materia: 'elei', q: 'Sistemas eleitorais (Brasil)?', a: 'MAJORITÁRIO: PR, Gov., Pref. (>200 mil habs em 2 turnos; <200 mil em turno único), Senadores. PROPORCIONAL: Dep. Federais, Estaduais, Vereadores. Cálculo: QE (votos válidos ÷ vagas) e QP (votos partido ÷ QE).', tags: ['elei', 'sistemas'] },
+  { id: 584, topic: 2, materia: 'elei', q: 'TSE e TREs — composição?', a: 'TSE: 7 ministros (3 STF + 2 STJ + 2 advogados nomeados pelo PR). TREs: 7 juízes (2 desemb. TJ + 2 juízes TJ + 1 juiz federal + 2 advogados). Justiça Eleitoral é EMPRESTADA — sem carreira própria.', tags: ['elei', 'TSE-TRE'] },
+  { id: 585, topic: 2, materia: 'elei', q: 'EC 97/17 — coligações?', a: 'VEDOU coligações em eleições PROPORCIONAIS. Lei 14.208/21 criou FEDERAÇÕES PARTIDÁRIAS — partidos podem se federar com obrigação de atuação conjunta por pelo menos 4 anos.', tags: ['elei', 'coligacoes', 'federacoes'] },
+  { id: 586, topic: 3, materia: 'elei', q: 'Cláusula de desempenho (EC 97/17)?', a: 'Partido só tem direito ao Fundo Partidário e tempo de propaganda no rádio/TV se atingir desempenho mínimo nas eleições. Atual: 3% válidos em 11 estados (mín. 2% em cada) OU 15 deputados em 9 estados.', tags: ['elei', 'clausula-desempenho'] },
+  { id: 587, topic: 3, materia: 'elei', q: 'Fidelidade partidária — STF ADI 5.081?', a: 'Fidelidade partidária NÃO se aplica a cargos MAJORITÁRIOS (PR, Gov., Pref., Sen.) — STF ADI 5.081 (2015). Aplica-se a PROPORCIONAIS — mandato pertence ao partido (salvo exceções: mudança programática, perseguição).', tags: ['elei', 'fidelidade', 'STF'] },
+  { id: 588, topic: 4, materia: 'elei', q: 'Domicílio eleitoral — prazo?', a: '6 MESES (Lei 13.488/17). Antes era 1 ano. Filiação prévia também é 6 meses. Convenções: 20/07 a 05/08. Registro: até 15/08. AIRC: 5 dias após edital.', tags: ['elei', 'domicilio', 'prazos'] },
+  { id: 589, topic: 4, materia: 'elei', q: 'AIRC (LC 64/90 art. 3º)?', a: 'Ação de Impugnação ao Registro de Candidatura. Prazo: 5 DIAS após publicação do edital de candidaturas. Legitimados: candidato, partido, coligação, MP. Visa impugnar a candidatura.', tags: ['elei', 'AIRC'] },
+  { id: 590, topic: 5, materia: 'elei', q: 'STF ADI 4.650 (2015) — doações de PJ?', a: 'VEDADAS doações de pessoa JURÍDICA a candidatos e partidos. Apenas: pessoas FÍSICAS (limite 10% rendimentos), recursos próprios do candidato, Partido (Fundo Partidário) e FEFC.', tags: ['elei', 'financiamento', 'STF'] },
+  { id: 591, topic: 5, materia: 'elei', q: 'Ações eleitorais — AIJE × AIME × AIRC?', a: 'AIJE (LC 64/90 art. 22): Ação de Investigação Judicial Eleitoral, durante a campanha. AIME (CF 14 §10): Ação de Impugnação de Mandato Eletivo, após a diplomação. AIRC (LC 64/90 art. 3º): Impugnação ao Registro.', tags: ['elei', 'acoes-eleitorais'] },
+  { id: 592, topic: 6, materia: 'elei', q: 'Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A)?', a: 'Doar, oferecer, prometer ou entregar bem ou vantagem em troca de voto. Sanções: CASSAÇÃO do registro ou diploma + multa. Crime eleitoral (Cód. Eleit. art. 299 — corrupção eleitoral).', tags: ['elei', 'captacao-ilicita'] },
+  { id: 593, topic: 6, materia: 'elei', q: 'STF Tema 1.111 — competência criminal?', a: 'STF RE 1.108.061 (2019): crime COMUM CONEXO com crime ELEITORAL é da JUSTIÇA ELEITORAL. Marco da firmeza da competência eleitoral em casos de conexão.', tags: ['elei', 'competencia', 'STF'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -16494,6 +16902,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'Lei 11.340/06 art. 41 + Lei 9.296/96. (A) Falso — JECrim VEDADO. (B) Falso — JECrim: até 2 anos. (D) Falso — reserva de jurisdição. (E) Falso — colaboração é meio de OBTENÇÃO; STJ: condenação NÃO se baseia exclusivamente na colaboração — exige outros elementos (Lei 12.850/13 art. 4º §16).'
+  },
+
+  // === Questões Rodada 14 — Eleitoral 1-6 ===
+  {
+    id: 209, topic: 1, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os direitos políticos:',
+    alternatives: [
+      'A reeleição para o cargo de Presidente da República pode ocorrer por até 3 mandatos consecutivos.',
+      'A inelegibilidade absoluta é prevista para inalistáveis e analfabetos (CF 14 §4º), vedando todos os cargos; as inelegibilidades relativas são previstas para reeleição (§5º), parentesco (§7º) e militares (§8º), entre outras; a Lei da Ficha Limpa (LC 135/10) acrescentou hipóteses, validadas pelo STF (ADC 29 e 30, 2012) com aplicação a fatos anteriores.',
+      'A perda dos direitos políticos pode ocorrer por suspensão temporária ou cassação, conforme a CF/88.',
+      'A improbidade administrativa, embora gere sanções, NÃO suspende direitos políticos.',
+      'O conscrito militar tem direito ao voto, sendo apenas inelegível.'
+    ],
+    correct: 'B',
+    explanation: 'CF 14 §§ 4º-8º + LC 135/10 + STF ADC 29/30. (A) Falso — reeleição UMA VEZ (CF 14 §5º). (C) Falso — CF 15 caput VEDA cassação (apenas perda ou suspensão). (D) Falso — improbidade SUSPENDE direitos (CF 37 §4º). (E) Falso — conscrito é INALISTÁVEL (CF 14 §2º).'
+  },
+  {
+    id: 210, topic: 2, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o sistema eleitoral e a Justiça Eleitoral:',
+    alternatives: [
+      'O Brasil adota exclusivamente o sistema majoritário, em que se elege o candidato com maior número de votos.',
+      'A Justiça Eleitoral possui carreira própria, com juízes eleitorais de carreira e nomeação por concurso público.',
+      'A EC 97/17 vedou as coligações em eleições MAJORITÁRIAS, mantendo-as nas proporcionais.',
+      'O sistema eleitoral brasileiro combina o MAJORITÁRIO (Pres., Gov., Pref. e Senadores) e o PROPORCIONAL (Dep. Federais, Estaduais e Vereadores); a Justiça Eleitoral é COMPOSTA POR ÓRGÃOS EMPRESTADOS, sem carreira própria; a EC 97/17 vedou COLIGAÇÕES EM ELEIÇÕES PROPORCIONAIS, e a Lei 14.208/21 criou as FEDERAÇÕES PARTIDÁRIAS.',
+      'O Tribunal Superior Eleitoral é composto por 11 ministros, todos do STF.'
+    ],
+    correct: 'D',
+    explanation: 'CF 118-121 + EC 97/17 + Lei 14.208/21. (A) Falso — combina majoritário e proporcional. (B) Falso — sem carreira própria (justiça emprestada). (C) Falso — vedou em PROPORCIONAIS. (E) Falso — TSE: 7 ministros (3 STF + 2 STJ + 2 advogados).'
+  },
+  {
+    id: 211, topic: 3, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca dos partidos políticos:',
+    alternatives: [
+      'A fidelidade partidária aplica-se indistintamente a cargos majoritários e proporcionais, conforme entendimento do STF.',
+      'O STF, na ADI 5.081 (2015), firmou que a FIDELIDADE PARTIDÁRIA NÃO se aplica a cargos MAJORITÁRIOS (PR, Gov., Pref., Sen.); aplica-se a cargos PROPORCIONAIS (Dep., Vereadores), com exceções como mudança programática do partido ou perseguição.',
+      'A doação de pessoa jurídica para partidos políticos foi permitida pelo STF na ADI 4.650 (2015).',
+      'A cláusula de desempenho (EC 97/17) impede a criação de novos partidos políticos.',
+      'O prazo de filiação partidária mínima para candidatura é de 12 meses antes da eleição.'
+    ],
+    correct: 'B',
+    explanation: 'STF ADI 5.081. (A) Falso — fidelidade não se aplica a majoritários. (C) Falso — STF VEDOU doações de PJ. (D) Falso — apenas restringe acesso a fundo/propaganda gratuita. (E) Falso — 6 meses (Lei 13.488/17).'
+  },
+  {
+    id: 212, topic: 4, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o registro de candidatura e prazos eleitorais:',
+    alternatives: [
+      'O domicílio eleitoral mínimo, segundo a Lei 13.488/17, é de 1 ano antes da eleição.',
+      'A AIRC (Ação de Impugnação ao Registro de Candidatura — LC 64/90 art. 3º) tem prazo de 30 dias após publicação do edital.',
+      'As convenções partidárias devem ocorrer entre 20/07 e 05/08; o registro de candidatura, até 15/08; o domicílio eleitoral mínimo é de 6 MESES (Lei 13.488/17); a AIRC (LC 64/90 art. 3º) tem prazo de 5 DIAS após edital.',
+      'A substituição de candidato em eleições proporcionais pode ocorrer até a véspera do pleito.',
+      'A filiação partidária mínima é dispensável para candidatos avulsos.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.504/97 + Lei 13.488/17 + LC 64/90. (A) Falso — 6 meses. (B) Falso — 5 dias. (D) Falso — prazo até 60 dias antes do pleito (proporcionais). (E) Falso — Brasil NÃO admite candidato avulso (filiação obrigatória — STF ARE 1.054.490/2017).'
+  },
+  {
+    id: 213, topic: 5, materia: 'elei', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do financiamento de campanha e propaganda eleitoral:',
+    alternatives: [
+      'O financiamento de campanhas no Brasil admite doações de pessoas jurídicas, conforme Lei 9.504/97.',
+      'A "boca de urna" é permitida no dia da eleição como forma de panfletagem informativa.',
+      'O STF (ADI 4.650/2015) declarou inconstitucionais as DOAÇÕES de PESSOAS JURÍDICAS a partidos e campanhas; o financiamento se faz por: pessoas físicas (limite 10% rendimentos), recursos próprios do candidato, Fundo Partidário e FEFC; a boca de urna é PROIBIDA no dia da eleição.',
+      'A propaganda paga em redes sociais é permitida a qualquer momento da campanha.',
+      'A AIME (Ação de Impugnação de Mandato Eletivo) deve ser proposta antes do registro da candidatura.'
+    ],
+    correct: 'C',
+    explanation: 'STF ADI 4.650 + Lei 9.504/97. (A) Falso — STF VEDOU. (B) Falso — boca de urna PROIBIDA. (D) Falso — propaganda paga em redes sociais é VEDADA em regra. (E) Falso — AIME é proposta APÓS a diplomação (CF 14 §10).'
+  },
+  {
+    id: 214, topic: 6, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os crimes eleitorais:',
+    alternatives: [
+      'Os crimes eleitorais são da competência da Justiça Federal, conforme CF 109.',
+      'A captação ilícita de sufrágio (Lei 9.504/97 art. 41-A) gera apenas multa, sem cassação.',
+      'Em caso de conexão entre crime comum e crime eleitoral, a competência é, em regra, da Justiça Comum.',
+      'Os crimes eleitorais estão tipificados no Código Eleitoral (Lei 4.737/65, arts. 283-364) e em leis especiais (Lei 9.504/97); a competência é da JUSTIÇA ELEITORAL; o STF (Tema 1.111, RE 1.108.061, 2019) firmou que crime comum CONEXO com eleitoral é da Justiça Eleitoral.',
+      'A boca de urna NÃO constitui crime eleitoral, sendo apenas infração administrativa.'
+    ],
+    correct: 'D',
+    explanation: 'STF Tema 1.111 + Cód. Eleit. (A) Falso — Justiça ELEITORAL (CF 109 IV exclui). (B) Falso — gera CASSAÇÃO + multa. (C) Falso — Justiça Eleitoral atrai. (E) Falso — Cód. Eleit. art. 39 §5º: detenção 6 meses a 1 ano + multa.'
   }
 ],
 
