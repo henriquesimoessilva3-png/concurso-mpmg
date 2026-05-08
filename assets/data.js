@@ -5894,7 +5894,113 @@ topics: [
   { id: 'trib-10-crimes-ordem-tributaria', num: 10, materia: 'trib', title: 'Crimes contra a ordem tributária', edital: '1.4.10', editalText: 'Lei 8.137/90. Sonegação fiscal. Apropriação indébita. Extinção pelo pagamento.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 8.137/90 — crimes contra a ordem tributária', 'Sonegação fiscal (art. 1º)', 'Apropriação indébita tributária', 'Extinção da punibilidade pelo pagamento (Súmula Vinculante 24)', 'Parcelamento e suspensão da pretensão punitiva', 'Crimes previdenciários (CP art. 168-A)'], sections: [] },
 
   // ============ ESQUELETOS — TEORIA DO MP (8) ============
-  { id: 'mp-01-historico-constituicoes', num: 1, materia: 'mp', title: 'Histórico do MP e MP nas Constituições', edital: '1.5.1', editalText: 'Origem do MP. MP nas Constituições brasileiras. CF/88 — refundação institucional.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Origens do MP (Egito, França, Portugal)', 'MP nas Constituições brasileiras (1824, 1891, 1934, 1937, 1946, 1967/69)', 'CF/88 — refundação institucional (arts. 127-130)', 'Evolução pós-1988'], sections: [] },
+  { id: 'mp-01-historico-constituicoes', num: 1, materia: 'mp', title: 'Histórico do MP e MP nas Constituições', edital: '1.5.1', editalText: 'Origem do MP. MP nas Constituições brasileiras. CF/88 — refundação institucional.', size: 'Pequeno', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — vivência institucional facilita a leitura histórica).', outline: ['Origens do MP (Egito, França, Portugal)', 'MP nas Constituições brasileiras (1824, 1891, 1934, 1937, 1946, 1967/69)', 'CF/88 — refundação institucional (arts. 127-130)', 'Evolução pós-1988'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O Ministério Público é uma instituição com **raízes antigas** mas com **identidade constitucional moderna**. A doutrina majoritária identifica os mais remotos antecedentes no **Egito faraônico** (magiaí — funcionários reais que fiscalizavam tributos e perseguiam criminosos), passando pelos **procuradores do rei** da França medieval (les gens du roi, séc. XIV) e chegando ao **Promotor de Justiça** lusitano (Ordenações Manuelinas e Filipinas).' },
+        { type: 'p', text: 'No Brasil, o MP atravessou seis Constituições antes de ser **REFUNDADO** pela Constituição de 1988 — que rompeu com o modelo de mero "advogado do Estado" e o erigiu em **instituição permanente, essencial à função jurisdicional do Estado**, com autonomia funcional, administrativa e financeira (CF art. 127). A CF/88 é o marco zero do MP brasileiro contemporâneo.' },
+        { type: 'p', text: 'Para a prova, importam: (a) origens remotas no direito comparado; (b) trajetória do MP brasileiro nas Constituições, com destaque para a posição institucional em cada uma; (c) compreensão de POR QUE a CF/88 representa uma refundação; (d) evolução pós-88 — Lei 8.625/93 (LONMP), LC 75/93 (MPU), EC 45/04 (CNMP, subsídio em parcela única), EC 19/98, EC 41/03, EC 103/19.' }
+      ]
+    },
+    {
+      h: 'Origens históricas (direito comparado)',
+      items: [
+        { type: 'h', text: 'Antiguidade — Egito faraônico' },
+        { type: 'p', text: 'Os **magiaí** eram agentes do faraó com função de fiscalizar a arrecadação de tributos e perseguir criminosos — embrião do MP em sua dimensão fazendária e acusatória. Doutrina (Hugo Nigro Mazzilli) cita também antecedentes em **Roma** (procuradores do imperador, advocatus fisci) e na **Grécia clássica** (thesmotetes — fiscais da legalidade).' },
+
+        { type: 'h', text: 'Idade Média — França (origem mais aceita)' },
+        { type: 'p', text: 'Na França do **séc. XIV** surgem os **procureurs du roi** (procuradores do rei) e os **avocats du roi** (advogados do rei) — funcionários encarregados de defender os interesses da Coroa em juízo. A **Ordonnance de Filipe IV, o Belo (1302)** é apontada como o primeiro diploma que organiza essa atividade — daí a expressão "ministério" público (ministerium publicum) ter forte associação com a tradição francesa.' },
+        { type: 'p', text: 'Com a Revolução Francesa, o MP é **republicanizado** — deixa de ser "agente do rei" e passa a ser "agente da lei". A Lei francesa de 1810 organiza a magistrature debout (magistratura em pé), em contraposição à magistrature assise (magistratura sentada — juízes), simbolizando que o MP fala em pé, ao lado do juiz, como parte.' },
+
+        { type: 'h', text: 'Portugal — antecedente direto do MP brasileiro' },
+        { type: 'p', text: 'No direito lusitano, as **Ordenações Manuelinas (1521)** e **Filipinas (1603)** já mencionavam o **Promotor de Justiça** com atribuições investigatórias e acusatórias. Como o Brasil colonial seguiu o ordenamento português, essas figuras foram transplantadas para a colônia. Ainda hoje a denominação "Promotor de Justiça" usada nos MPs estaduais brasileiros tem essa raiz lusitana.' },
+        { type: 'box', kind: 'info', text: '**Por que importa para a prova:** o exame em direito comparado mostra que o MP NÃO é instituição inventada pela CF/88. Tem raízes seculares. O que a CF/88 fez foi DAR-LHE PERFIL CONSTITUCIONAL AUTÔNOMO — diferente da função meramente acusatória ou fazendária dos modelos antigos.' }
+      ]
+    },
+    {
+      h: 'MP nas Constituições brasileiras',
+      items: [
+        { type: 'h', text: 'Constituição de 1824 (Império)' },
+        { type: 'p', text: 'NÃO previu o MP como instituição. Apenas mencionou o **Procurador da Coroa, Soberania e Fazenda Nacional** (art. 48), com função de defender os interesses da Coroa. Modelo centralizado, vinculado ao Imperador. Promotores de Justiça existiam apenas por leis ordinárias, sem dignidade constitucional.' },
+
+        { type: 'h', text: 'Constituição de 1891 (Primeira República)' },
+        { type: 'p', text: 'Tratamento INDIRETO — citou apenas o **Procurador-Geral da República** (art. 58 §2º), nomeado pelo Presidente entre os ministros do STF. MPs estaduais ficaram a cargo de leis estaduais. Modelo "embrionário" — o MP federal era basicamente "advogado da União".' },
+        { type: 'box', kind: 'info', text: 'Anotação: Decreto 848/1890 (anterior à Constituição) já organizava a Justiça Federal e mencionava promotores. Mas a CF/91 não lhes deu status constitucional autônomo.' },
+
+        { type: 'h', text: 'Constituição de 1934 (Era Vargas — primeira fase)' },
+        { type: 'p', text: 'Primeira a tratar do MP **EXPRESSAMENTE como instituição** (arts. 95-98), em capítulo próprio sob o título "Dos Órgãos de Cooperação nas Atividades Governamentais". Previu: estabilidade dos membros após 2 anos, promoção por merecimento ou antiguidade, proibição de exercer advocacia. Avanço significativo.' },
+
+        { type: 'h', text: 'Constituição de 1937 (Estado Novo)' },
+        { type: 'p', text: '**RETROCESSO**. Tratou o MP de forma fragmentada — mencionou apenas o PGR (art. 99) e fez referências esparsas. Eliminou as garantias e o tratamento orgânico. Reflexo do autoritarismo do Estado Novo: o MP passou a ser instrumento do Executivo, sem autonomia.' },
+
+        { type: 'h', text: 'Constituição de 1946 (Redemocratização)' },
+        { type: 'p', text: '**RECUPERAÇÃO**. Previu o MP em **título próprio** (arts. 125-128), com regras de ingresso por concurso, promoção por antiguidade e merecimento, estabilidade após 2 anos, vedação a outras atividades. Modelo já bastante próximo do atual em estrutura, mas o MP ainda era vinculado ao Poder Executivo.' },
+
+        { type: 'h', text: 'Constituição de 1967 e EC 1/1969 (Regime Militar)' },
+        { type: 'p', text: 'A CF/67 colocou o MP no Capítulo do **PODER JUDICIÁRIO** (arts. 137-139) — primeira (e única) vez que o MP foi formalmente vinculado ao Judiciário. A EC 1/69, porém, **TRANSFERIU** o MP para o Capítulo do **PODER EXECUTIVO** (art. 94), retrocesso autoritário típico do regime militar. Manteve garantias mínimas, mas a vinculação ao Executivo permaneceu até 1988.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Marco doutrinário:** a Lei Complementar 40/1981 (Lei Orgânica Nacional do MP — primeiro diploma nacional) conferiu unidade normativa, organizou carreiras e atribuições, antecipando vários elementos depois constitucionalizados em 1988.' },
+
+        { type: 'h', text: 'Constituição de 1988 — REFUNDAÇÃO' },
+        { type: 'p', text: 'A CF/88 **REFUNDA** o MP. Coloca-o em **CAPÍTULO PRÓPRIO** (arts. 127-130), fora dos três Poderes — instituição PERMANENTE, ESSENCIAL à função jurisdicional, com **autonomia funcional, administrativa e financeira**. Erige princípios institucionais (UNIDADE, INDIVISIBILIDADE, INDEPENDÊNCIA FUNCIONAL — art. 127 §1º), garantias (art. 128 §5º I) e atribuições (art. 129) ao status constitucional.' },
+        { type: 'p', text: 'Doutrina (Mazzilli, Carvalho Filho) chama esse modelo de **"MP de quarta dimensão"** ou **"MP refundado"** — instituição que extrapola a função acusatória e assume protagonismo na defesa do regime democrático, da ordem jurídica e dos interesses sociais e individuais indisponíveis.' }
+      ]
+    },
+    {
+      h: 'Evolução pós-1988',
+      items: [
+        { type: 'h', text: 'Diplomas estruturantes' },
+        { type: 'list', items: [
+          '**Lei 8.625/93 (LONMP)** — Lei Orgânica Nacional do MP. Organiza os MPs estaduais em âmbito nacional',
+          '**LC 75/93** — Lei Orgânica do MPU (MPF, MPT, MPM, MPDFT)',
+          '**LC 34/94 (MG)** — Lei Orgânica do MPMG',
+          '**Lei 7.347/85 (LACP)** — antecedente importante; ACP já era do MP, foi recepcionada e ampliada pela CF/88',
+          '**CDC (Lei 8.078/90)** — ampliou a tutela coletiva, integrando o microssistema'
+        ]},
+
+        { type: 'h', text: 'Emendas constitucionais relevantes' },
+        { type: 'list', items: [
+          '**EC 19/98** — Reforma Administrativa. Subteto, regras de remuneração',
+          '**EC 41/03** — Reforma da Previdência (1ª). Aposentadoria proporcional, contribuição de inativos',
+          '**EC 45/04** — REFORMA DO JUDICIÁRIO. Cria o **CNMP** (art. 130-A), institui subsídio em parcela única para membros, amplia foro por prerrogativa de função',
+          '**EC 103/19** — Reforma da Previdência (2ª). Idade mínima 65/62, regras de transição'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**EC 45/04 é o segundo marco** depois da CF/88 — cria o CNMP, dá controle externo administrativo/disciplinar à instituição. Leitura obrigatória junto com o art. 130-A.' },
+
+        { type: 'h', text: 'Dimensões funcionais ampliadas' },
+        { type: 'p', text: 'O MP pós-88 passou a atuar fortemente em: **(i) defesa do meio ambiente** (LACP + CF 225); **(ii) consumidor** (CDC); **(iii) crianças e adolescentes** (ECA); **(iv) idosos** (Lei 10.741/03); **(v) probidade administrativa** (LIA — Lei 8.429/92, alterada pela Lei 14.230/21); **(vi) controle externo da polícia** (CF 129 VII); **(vii) acordos** (ANPP — CPP 28-A, ANPC — LIA 17-B). Cada vetor amplia a função "guardião da sociedade".' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 Constituições anteriores à CF/88: 1824 · 1891 · 1934 · 1937 · 1946 · 1967 (+ EC 1/69).** Mnemônico: **"24-91-34-37-46-67"**.' },
+        { type: 'box', kind: 'macete', text: '**Marco do MP institucional = 1934.** Antes (1824, 1891), tratamento incidental. Depois de 34, oscilou (caiu em 37, voltou em 46, voltou ao Executivo em 69, refundado em 88).' },
+        { type: 'box', kind: 'macete', text: '**A CF/67 colocou o MP no JUDICIÁRIO. A EC 1/69 transferiu para o EXECUTIVO. A CF/88 deu CAPÍTULO PRÓPRIO.** Trajetória zigue-zague.' },
+        { type: 'box', kind: 'macete', text: '**LONMP (Lei 8.625/93) e LC 75/93** são os dois diplomas estruturantes pós-88. EC 45/04 cria o CNMP.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MP nasceu na CF/88? NÃO.** Nasceu em diplomas anteriores (Ordenações Filipinas; CF/1934). A CF/88 o REFUNDOU — não criou.' },
+        { type: 'box', kind: 'atencao', text: '**Origem mais aceita: França (séc. XIV — procureurs du roi).** Egito é antecedente remoto, não origem direta. Banca pode trocar.' },
+        { type: 'box', kind: 'atencao', text: '**A CF/67 colocou o MP no PODER JUDICIÁRIO.** Pegadinha: muitos pensam que sempre esteve no Executivo. Houve uma exceção em 67. A EC 1/69 reverteu.' },
+        { type: 'box', kind: 'atencao', text: '**O CNMP NÃO foi criado pela CF/88, mas pela EC 45/04.** Pegadinha frequente. Antes de 2004 não havia CNMP — controle administrativo era apenas interno.' },
+        { type: 'box', kind: 'atencao', text: '**LC 40/81 é o primeiro diploma nacional de organização** — antes de 1988, com isso, já havia integração legal entre MPs estaduais (depois substituída pela Lei 8.625/93).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios):** princípios da CF/88 (UNIDADE, INDIVISIBILIDADE, INDEPENDÊNCIA FUNCIONAL) são produto direto da refundação de 88.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 4 (CNMP):** EC 45/04 — segundo grande marco institucional, complementa a CF/88.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** estatuto orgânico do MPU, fruto direto da CF/88.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 6 (LC 34/94):** estatuto orgânico do MPMG — promulgado em sequência à CF/88.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais à justiça):** MP integra esse núcleo (CF 127-135) — leitura sistemática.' }
+      ]
+    }
+  ] },
   { id: 'mp-02-principios-institucionais', num: 2, materia: 'mp', title: 'Princípios institucionais do MP', edital: '1.5.2', editalText: 'Unidade, indivisibilidade, independência funcional. Promotor natural.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP).', outline: ['Unidade institucional', 'Indivisibilidade', 'Independência funcional', 'Princípio do promotor natural', 'Princípio da obrigatoriedade × disponibilidade regrada', 'Devido processo legal e contraditório'], sections: [
     {
       h: 'Foco central',
@@ -6072,9 +6178,365 @@ topics: [
       ]
     }
   ] },
-  { id: 'mp-04-cnmp', num: 4, materia: 'mp', title: 'CNMP — composição e atribuições', edital: '1.5.4', editalText: 'CF art. 130-A. Composição, competências, atos normativos.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Composição (CF art. 130-A)', 'Competências (controle administrativo, financeiro e disciplinar)', 'Resoluções e atos normativos do CNMP', 'Procedimentos disciplinares', 'Relação com tribunais e MPs estaduais'], sections: [] },
-  { id: 'mp-05-lc-75-mpu', num: 5, materia: 'mp', title: 'LC 75/93 — Ministério Público da União', edital: '1.5.5', editalText: 'Estrutura do MPU. MPF, MPT, MPM, MPDFT. Atribuições.', size: 'Médio', schedule: null, advantage: null, outline: ['Estrutura do MPU', 'MPF — Procurador-Geral da República', 'MPT, MPM, MPDFT', 'Atribuições por ramo', 'Câmaras de Coordenação e Revisão', 'Conselho Superior do MPF'], sections: [] },
-  { id: 'mp-06-lc-34-mpmg', num: 6, materia: 'mp', title: 'LC 34/94 — MP de Minas Gerais', edital: '1.5.6', editalText: 'Lei Orgânica do MPMG. Estrutura, órgãos, atribuições, carreira.', size: 'Médio', schedule: null, advantage: null, outline: ['Estrutura do MPMG', 'Órgãos da administração superior (PGJ, CSMP, Corregedoria)', 'Órgãos de execução (Procuradorias e Promotorias)', 'Carreira (Promotor Substituto → Procurador de Justiça)', 'Atribuições por nível', 'Resoluções PGJ relevantes'], sections: [] },
+  { id: 'mp-04-cnmp', num: 4, materia: 'mp', title: 'CNMP — composição e atribuições', edital: '1.5.4', editalText: 'CF art. 130-A. Composição, competências, atos normativos.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — convive diariamente com Resoluções CNMP).', outline: ['Composição (CF art. 130-A)', 'Competências (controle administrativo, financeiro e disciplinar)', 'Resoluções e atos normativos do CNMP', 'Procedimentos disciplinares', 'Relação com tribunais e MPs estaduais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Conselho Nacional do Ministério Público (CNMP)** é órgão de **controle externo administrativo, financeiro e disciplinar** do MP, criado pela **EC 45/04** e disciplinado no **art. 130-A da CF/88**. Está sediado em Brasília e é integrado por 14 conselheiros, com mandato de 2 anos (admitida 1 recondução).' },
+        { type: 'p', text: 'Sua **NATUREZA** é de órgão administrativo do próprio MP — não pertence a nenhum dos três Poderes nem é "tribunal". Não exerce função jurisdicional, nem revisa atos finalísticos (acusações, pareceres, ICs em andamento). Limita-se ao **controle externo administrativo**: legalidade dos atos, fiscalização da atuação dos membros, edição de atos normativos gerais.' },
+        { type: 'p', text: 'A CRIAÇÃO do CNMP foi sintônica com a do **CNJ** (mesmo art. da EC 45/04) — ambos respondem ao diagnóstico de que magistratura e MP precisavam de controle administrativo externo, depois das críticas dos anos 1990-2000 sobre opacidade e ausência de accountability.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 130-A — Composição (14 membros)' },
+        { type: 'list', items: [
+          '**I — PGR**, que preside (não conta no quórum genérico, mas é membro)',
+          '**II — 4 membros do MPU**: 1 do MPF, 1 do MPT, 1 do MPM, 1 do MPDFT',
+          '**III — 3 membros do MP estadual** (escolhidos pelos respectivos órgãos colegiados)',
+          '**IV — 2 juízes** (1 indicado pelo STF, 1 indicado pelo STJ)',
+          '**V — 2 advogados** (indicados pelo Conselho Federal da OAB)',
+          '**VI — 2 cidadãos** de notável saber jurídico e reputação ilibada (1 indicado pela Câmara, 1 pelo Senado)'
+        ]},
+        { type: 'box', kind: 'info', text: '**Total: PGR + 4 MPU + 3 MPEs + 2 juízes + 2 advogados + 2 cidadãos = 14 conselheiros.** Maioria é do MP (PGR + 4 + 3 = 8 de 14).' },
+
+        { type: 'h', text: 'CF art. 130-A §2º — Competências' },
+        { type: 'list', items: [
+          '**I** — zelar pela autonomia funcional e administrativa do MP, expedindo atos regulamentares e recomendações',
+          '**II** — zelar pela observância do art. 37 e apreciar a legalidade dos atos administrativos do MP',
+          '**III** — receber reclamações contra membros e servidores do MP, podendo avocar processos disciplinares em curso, determinar a remoção, disponibilidade ou aposentadoria com subsídios proporcionais ao tempo de serviço, aplicar outras sanções administrativas',
+          '**IV** — rever, de ofício ou mediante provocação, os processos disciplinares de membros do MP julgados há menos de 1 ano',
+          '**V** — elaborar relatório anual com proposições e enviá-lo ao Congresso',
+          '**§3º** — Corregedor Nacional (CN) — eleito pelo CNMP entre seus membros, mandato de 2 anos, vedada a recondução'
+        ]},
+
+        { type: 'h', text: 'Outras normas' },
+        { type: 'list', items: [
+          '**Lei 11.372/06** — funcionamento do CNMP',
+          '**Regimento Interno do CNMP** (RICNMP) — disciplina sessões, quórum, procedimentos disciplinares',
+          '**Resoluções CNMP** — normativa infralegal de aplicação a todos os MPs (estaduais e MPU)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Composição — atenção aos números' },
+        { type: 'p', text: 'Memorize: **14 conselheiros · 2 anos · 1 recondução**. PGR preside. Maioria do MP (8 de 14). Indicações por: STF (1 juiz), STJ (1 juiz), OAB (2 advogados), Câmara (1 cidadão), Senado (1 cidadão). Nomeados pelo **Presidente da República** após aprovação pela maioria absoluta do Senado.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 4.638:** validou a constitucionalidade do CNMP. Não há violação à autonomia do MP — o controle é EXTERNO administrativo, não interfere em atos finalísticos.' },
+
+        { type: 'h', text: 'Competências — o que o CNMP PODE e o que NÃO PODE' },
+        { type: 'p', text: '**PODE:** (i) editar resoluções de caráter geral, (ii) apreciar legalidade de atos administrativos do MP, (iii) receber e julgar reclamações disciplinares, (iv) avocar PADs em curso, (v) rever PADs julgados há menos de 1 ano, (vi) determinar remoção/disponibilidade/aposentadoria proporcional, (vii) aplicar sanções administrativas (advertência, censura, aposentadoria proporcional).' },
+        { type: 'p', text: '**NÃO PODE:** (i) interferir em atos finalísticos (denúncia, parecer, instauração de IC), (ii) revisar a manifestação jurídica do membro no exercício da independência funcional, (iii) determinar a perda do cargo (vitaliciedade — só por sentença judicial), (iv) atuar como tribunal recursal de decisões judiciais.' },
+        { type: 'box', kind: 'atencao', text: '**Distinção crucial: CNMP controla a ATUAÇÃO ADMINISTRATIVA do membro (cumprimento de prazos, deveres funcionais, condutas), mas NÃO revisa o MÉRITO da manifestação jurídica.** Independência funcional intocável.' },
+
+        { type: 'h', text: 'Avocação e revisão de PADs' },
+        { type: 'p', text: 'O CNMP pode AVOCAR processos disciplinares em curso nas Corregedorias dos MPs (atribuição CONCORRENTE — não exclusiva). Pode também REVISAR (de ofício ou por provocação) PADs já julgados, desde que dentro de 1 ANO do julgamento. Após 1 ano, há prescrição da revisão.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — MS 28.108:** confirmou que o CNMP tem competência ORIGINÁRIA e CONCORRENTE para PADs. Não precisa esperar esgotamento da via interna corregedora.' },
+
+        { type: 'h', text: 'Resoluções do CNMP — natureza' },
+        { type: 'p', text: 'Resoluções têm caráter de **ATO NORMATIVO PRIMÁRIO** (segundo o STF) — são editadas com base direta na CF (art. 130-A §2º I). Vinculam todos os MPs e seus membros. Não confundir com lei em sentido formal — não substituem atribuição do legislativo, mas regulam matéria administrativa interna do MP.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADC 12 (relativa ao CNJ, mas aplicável):** validou natureza primária dos atos do Conselho. CNMP segue mesma lógica.' },
+
+        { type: 'h', text: 'Resoluções mais relevantes para a prova' },
+        { type: 'list', items: [
+          '**Res. 23/2007** — INQUÉRITO CIVIL (essencial)',
+          '**Res. 174/2017** — NOTÍCIA DE FATO',
+          '**Res. 181/2017** — PIC (Procedimento Investigatório Criminal)',
+          '**Res. 164/2017** — Recomendação ministerial',
+          '**Res. 13/2006** — disciplina antiga do PIC',
+          '**Res. 215/2018** — Plano Geral de Atuação',
+          '**Res. 230/2021** — saúde do membro',
+          '**Res. 277/2024** — Política Nacional de Comunicação do MP brasileiro'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**14 conselheiros · 2 anos · 1 recondução · presidido pelo PGR.** Maioria do MP (8 = PGR + 4 MPU + 3 MPEs).' },
+        { type: 'box', kind: 'macete', text: '**Composição (memorizar): PGR + 4 MPU (1 MPF, 1 MPT, 1 MPM, 1 MPDFT) + 3 MPEs + 2 juízes (STF/STJ) + 2 advogados (OAB) + 2 cidadãos (Câmara/Senado).**' },
+        { type: 'box', kind: 'macete', text: '**Revisão de PADs: prazo de 1 ANO** (após julgamento). Avocação: pode a qualquer tempo (PAD em curso).' },
+        { type: 'box', kind: 'macete', text: '**CNMP NÃO interfere em atos finalísticos.** Controle é ADMINISTRATIVO, não jurídico-substantivo. Independência funcional preservada.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**CNMP foi criado pela CF/88? NÃO — pela EC 45/04.** Pegadinha frequente: candidato pensa que sempre existiu.' },
+        { type: 'box', kind: 'atencao', text: '**CNMP é Tribunal? NÃO — é órgão administrativo do MP.** Não exerce função jurisdicional. Decisões cabem MS no STF.' },
+        { type: 'box', kind: 'atencao', text: '**CNMP pode determinar perda do cargo do vitaliciado? NÃO — apenas sentença judicial (CF 128 §5º I "a").** Pode determinar aposentadoria PROPORCIONAL como sanção máxima.' },
+        { type: 'box', kind: 'atencao', text: '**CNMP pode revisar tese jurídica adotada pelo membro? NÃO — independência funcional.** Só pode controlar conduta administrativa/funcional.' },
+        { type: 'box', kind: 'atencao', text: '**Prazo de revisão de PAD: 1 ano** (CF 130-A §2º IV). Banca confunde com prazos diversos (5 anos, 2 anos, etc.).' },
+        { type: 'box', kind: 'atencao', text: '**Indicação dos juízes do CNMP:** 1 pelo STF, 1 pelo STJ. NÃO pelo PGR.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 1 (histórico):** EC 45/04 cria o CNMP — segundo grande marco depois da CF/88.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios):** CNMP NÃO viola independência funcional — só controla atuação ADMINISTRATIVA.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 3 (garantias):** vitaliciedade impede CNMP de determinar perda do cargo (só ação judicial).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** Resoluções 23 (IC), 174 (notícia de fato), 181 (PIC), 164 (recomendação) são editadas pelo CNMP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (CNJ):** estrutura paralela. Mesma EC 45/04. Lógica análoga.' }
+      ]
+    }
+  ] },
+  { id: 'mp-05-lc-75-mpu', num: 5, materia: 'mp', title: 'LC 75/93 — Ministério Público da União', edital: '1.5.5', editalText: 'Estrutura do MPU. MPF, MPT, MPM, MPDFT. Atribuições.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — vivência institucional permite leitura comparativa MPU × MPMG).', outline: ['Estrutura do MPU', 'MPF — Procurador-Geral da República', 'MPT, MPM, MPDFT', 'Atribuições por ramo', 'Câmaras de Coordenação e Revisão', 'Conselho Superior do MPF'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Lei Complementar 75/1993** é o **estatuto orgânico do MPU**, expedida com fundamento na CF art. 128 §5º. Disciplina a organização, atribuições e estatuto dos quatro ramos do MPU: **MPF** (Federal), **MPT** (Trabalho), **MPM** (Militar) e **MPDFT** (Distrito Federal e Territórios).' },
+        { type: 'p', text: 'O MPU é **chefiado pelo Procurador-Geral da República**, que é simultaneamente o chefe do MPF e do MPU como um todo. Cada um dos quatro ramos tem sua estrutura própria, com chefe específico (Procurador-Geral do Trabalho, Procurador-Geral da Justiça Militar, Procurador-Geral de Justiça do DF e Territórios), mas todos vinculados administrativamente ao PGR.' },
+        { type: 'p', text: 'Para o concurso do MPMG, esse tópico é importante para: (a) **diferenciar** os ramos do MPU; (b) compreender a **autonomia** entre MPU e MPs estaduais (não há subordinação); (c) entender as atribuições do **MPF** especialmente (que dialogam com competências da Justiça Federal); (d) reconhecer estruturas paralelas (MPMG ↔ MPU).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'LC 75/93 — Estrutura geral' },
+        { type: 'list', items: [
+          '**Art. 1º** — MPU compreende: MPF · MPT · MPM · MPDFT',
+          '**Art. 2º** — chefiado pelo PGR (também é o chefe do MPF)',
+          '**Art. 3º** — autonomia funcional, administrativa e financeira',
+          '**Art. 4º** — princípios institucionais (replica CF 127 §1º): unidade, indivisibilidade, independência funcional',
+          '**Art. 5º** — funções institucionais (replica CF 129)',
+          '**Art. 17** — vedações dos membros (similar a CF 128 §5º II)'
+        ]},
+
+        { type: 'h', text: 'MPF — Ministério Público Federal (arts. 37-82)' },
+        { type: 'list', items: [
+          '**Art. 37** — atua perante a Justiça Federal',
+          '**Art. 38** — Procurador-Geral da República (chefe), nomeado pelo Presidente após aprovação do Senado, mandato 2 anos, recondução permitida',
+          '**Art. 43** — Conselho Superior do MPF (CSMPF)',
+          '**Art. 50** — Câmaras de Coordenação e Revisão (CCR)',
+          '**Art. 55** — Corregedoria do MPF',
+          '**Art. 70** — Subprocuradores-Gerais da República (atuam perante STF e STJ)',
+          '**Art. 73** — Procuradores Regionais da República (atuam perante TRFs)',
+          '**Art. 76** — Procuradores da República (atuam em 1ª instância — Justiça Federal)'
+        ]},
+
+        { type: 'h', text: 'MPT — Ministério Público do Trabalho (arts. 83-115)' },
+        { type: 'list', items: [
+          '**Art. 83** — atua perante a Justiça do Trabalho',
+          '**Art. 88** — Procurador-Geral do Trabalho (chefe), designado pelo PGR',
+          '**Art. 89** — Conselho Superior do MPT',
+          '**Arts. 90-91** — Câmaras de Coordenação e Revisão',
+          '**Art. 110** — Procuradores do Trabalho (1ª instância)',
+          '**Arts. 107-109** — Procuradores Regionais do Trabalho (perante TRTs)',
+          '**Arts. 105-106** — Subprocuradores-Gerais do Trabalho (perante TST)'
+        ]},
+
+        { type: 'h', text: 'MPM — Ministério Público Militar (arts. 116-148)' },
+        { type: 'list', items: [
+          '**Art. 116** — atua perante a Justiça Militar da União',
+          '**Art. 121** — Procurador-Geral da Justiça Militar (chefe), designado pelo PGR',
+          '**Art. 122** — Conselho Superior do MPM',
+          '**Arts. 124-126** — Subprocuradores-Gerais (perante STM)',
+          '**Art. 130** — Procuradores e Promotores da Justiça Militar (1ª instância)'
+        ]},
+
+        { type: 'h', text: 'MPDFT — Ministério Público do DF e Territórios (arts. 149-195)' },
+        { type: 'list', items: [
+          '**Art. 149** — atua perante a Justiça do DF e dos Territórios',
+          '**Art. 156** — Procurador-Geral de Justiça do DFT (chefe), nomeado pelo Presidente da República',
+          '**Art. 158** — Colégio de Procuradores e Promotores',
+          '**Art. 159** — Conselho Superior do MPDFT',
+          '**Art. 161** — Corregedoria-Geral do MPDFT',
+          '**Arts. 165-167** — carreira: Promotor Adjunto → Promotor → Procurador'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'PGR — investidura, mandato, destituição' },
+        { type: 'p', text: 'O **PGR** é nomeado pelo Presidente da República dentre integrantes da carreira do MPF, com idade mínima de 35 anos, após aprovação por **MAIORIA ABSOLUTA** do Senado Federal (CF art. 128 §1º). Mandato de **2 anos**, recondução permitida (sem limite expresso, embora a prática seja no máximo 2 mandatos). Destituição: por iniciativa do Presidente, autorizada por maioria absoluta do Senado.' },
+        { type: 'box', kind: 'atencao', text: '**Diferença com PGJ estadual:** PGJ do MPMG é nomeado pelo Governador a partir de LISTA TRÍPLICE do MP (CF 128 §3º). PGR NÃO precisa de lista tríplice — é escolha discricionária do Presidente entre membros do MPF.' },
+
+        { type: 'h', text: 'Atribuições por ramo — separação por jurisdição' },
+        { type: 'p', text: '**MPF** — atua perante: Justiça Federal (1ª instância — Procuradores da República; TRFs — Procuradores Regionais; STF e STJ — Subprocuradores-Gerais). Atribuições: ações de competência federal, ACPs federais (meio ambiente em terra federal, indígenas, fundações federais), ADIs e ADCs (PGR é legitimado universal), causas envolvendo a União.' },
+        { type: 'p', text: '**MPT** — atua perante: Justiça do Trabalho (Procuradores do Trabalho — 1ª; Regionais — TRT; Subprocuradores — TST). ACP em matéria trabalhista (trabalho infantil, escravo, terceirização, assédio moral), defesa de direitos sociais coletivos do trabalho.' },
+        { type: 'p', text: '**MPM** — atua perante: Justiça Militar da União (crimes militares de militares federais — Marinha, Exército, Aeronáutica). Pequeno em tamanho. Não confundir com MP estadual atuando em justiça militar estadual.' },
+        { type: 'p', text: '**MPDFT** — atua perante: Justiça do DF (criminal, cível, família, infância, agrária, etc.). Funciona como MP estadual do DF. Estrutura própria com atribuições semelhantes às de um MP estadual.' },
+        { type: 'box', kind: 'atencao', text: '**MPDFT vs. MPF: ambos atuam no DF, mas em jurisdições diferentes.** MPDFT = Justiça do DF (matérias estaduais). MPF = Justiça Federal (matérias federais). Não se confundem.' },
+
+        { type: 'h', text: 'Câmaras de Coordenação e Revisão (CCR) e CSMPF' },
+        { type: 'p', text: 'As **Câmaras de Coordenação e Revisão** são órgãos colegiados de cada ramo do MPU, integradas por membros designados pelo PGR, com função de COORDENAR atividades, sugerir orientações, e REVISAR arquivamentos de procedimentos investigatórios criminais (PIC) e inquéritos civis. No MPF há 7 Câmaras (Criminal, Cível, Consumidor, Meio Ambiente, etc.).' },
+        { type: 'p', text: 'O **Conselho Superior do MPF (CSMPF)** é integrado pelo PGR (presidente) + Vice-PGR + 4 Subprocuradores-Gerais + 4 Procuradores (eleitos). Decide sobre: vitaliciamento, promoções, remoções, lista tríplice de PGJ no MPDFT, infrações disciplinares.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Importante:** o arquivamento de IC pelo Promotor é submetido à CCR (no MPU) ou ao CSMP (nos MPs estaduais). Se a CCR/CSMP DISCORDA, designa outro membro para ajuizar a ACP. Isso NÃO viola a independência funcional — é controle institucional próprio do princípio do promotor natural com revisão hierárquica administrativa.' },
+
+        { type: 'h', text: 'Carreira no MPU' },
+        { type: 'p', text: '**MPF:** Procurador da República (1ª instância) → Procurador Regional da República (2ª instância — TRF) → Subprocurador-Geral da República (STF/STJ). Promoção por antiguidade ou merecimento.' },
+        { type: 'p', text: '**MPT:** Procurador do Trabalho → Procurador Regional do Trabalho (TRT) → Subprocurador-Geral do Trabalho (TST). Mesmo modelo.' },
+        { type: 'p', text: '**MPM:** Promotor da Justiça Militar → Procurador da Justiça Militar → Subprocurador-Geral da Justiça Militar (STM).' },
+        { type: 'p', text: '**MPDFT:** Promotor de Justiça Adjunto (estágio probatório) → Promotor de Justiça → Procurador de Justiça (entrância especial). Modelo similar ao dos MPs estaduais.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**MPU = 4 ramos: MPF · MPT · MPM · MPDFT.** Mnemônico: **F-T-M-DFT** ("Federal, Trabalho, Militar, DFT").' },
+        { type: 'box', kind: 'macete', text: '**Chefe do MPU = PGR.** Acumula chefia do MPF. Designa chefes dos outros 3 ramos (PGT, PGJM, PGJDFT — este último nomeado pelo Presidente).' },
+        { type: 'box', kind: 'macete', text: '**PGR: 35 anos · Senado por maioria absoluta · 2 anos · recondução permitida.** Sem lista tríplice (≠ PGJ).' },
+        { type: 'box', kind: 'macete', text: '**3 níveis no MPF: Procurador da República → Regional → Subprocurador-Geral.** Atuam em JF, TRF, STF/STJ.' },
+        { type: 'box', kind: 'macete', text: '**MPDFT funciona como MP "estadual" do DF.** Estrutura paralela aos MPs estaduais.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MPU é UMA INSTITUIÇÃO ÚNICA com 4 ramos? OU 4 instituições autônomas?** Resposta: UMA INSTITUIÇÃO com 4 ramos especializados (LC 75/93 art. 1º). PGR chefia o todo.' },
+        { type: 'box', kind: 'atencao', text: '**MPU e MPs estaduais NÃO são unidade entre si.** São autônomos (CF 127 §2º).' },
+        { type: 'box', kind: 'atencao', text: '**PGR não precisa de LISTA TRÍPLICE.** Diferente do PGJ estadual, que precisa. Nomeação direta do Presidente (com Senado).' },
+        { type: 'box', kind: 'atencao', text: '**MPDFT não pertence a nenhum estado — é da União (LC 75/93).** Embora atue como MP estadual do DF, formalmente integra o MPU.' },
+        { type: 'box', kind: 'atencao', text: '**CCR pode revisar arquivamento de IC e PIC.** Se discorda, designa outro membro. NÃO viola independência funcional.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 1 (histórico):** LC 75/93 é estatuto orgânico pós-CF/88, materializa o desenho institucional refundado.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 4 (CNMP):** o CNMP é integrado por 4 membros do MPU (1 de cada ramo).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 6 (LC 34/94 — MPMG):** estatuto paralelo. Comparar estruturas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** funções do art. 129 CF aplicáveis a todos os ramos do MPU, com adaptações.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** PGR é legitimado UNIVERSAL para ADI/ADC/ADO/ADPF.' }
+      ]
+    }
+  ] },
+  { id: 'mp-06-lc-34-mpmg', num: 6, materia: 'mp', title: 'LC 34/94 — MP de Minas Gerais', edital: '1.5.6', editalText: 'Lei Orgânica do MPMG. Estrutura, órgãos, atribuições, carreira.', size: 'Grande', schedule: 'Mês 6 — vantagem MÁXIMA da candidata (lei orgânica do MP em que trabalha)', advantage: 'Vantagem MÁXIMA (Analista MPMG — vivência cotidiana da estrutura, órgãos e atos da PGJ).', outline: ['Estrutura do MPMG', 'Órgãos da administração superior (PGJ, CSMP, Corregedoria)', 'Órgãos de execução (Procuradorias e Promotorias)', 'Carreira (Promotor Substituto → Procurador de Justiça)', 'Atribuições por nível', 'Resoluções PGJ relevantes'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Lei Complementar 34/1994** é o **ESTATUTO ORGÂNICO DO MPMG** — Lei Orgânica do Ministério Público de Minas Gerais. Foi publicada em 12 de setembro de 1994, em sequência à Lei 8.625/93 (LONMP), e reflete o desenho institucional refundado pela CF/88.' },
+        { type: 'p', text: 'Disciplina: (i) **organização** do MPMG — órgãos da administração superior, órgãos de execução, órgãos auxiliares; (ii) **carreira** dos membros — ingresso, vitaliciamento, promoção, remoção; (iii) **atribuições** — por nível (Promotorias, Procuradorias) e por especialização (criminal, cível, infância, etc.); (iv) **direitos e deveres** — garantias, vedações, responsabilidades.' },
+        { type: 'p', text: 'Esse é o tópico **MAIS ESTRATÉGICO** para o concurso do MPMG — a banca cobra com profundidade. Para a candidata, vivência diária. Memorize números (anos de carreira, prazos, quóruns), nomes dos órgãos e as atribuições básicas. Combine com a leitura da Lei 8.625/93 (LONMP), que se aplica em caráter geral, e com Resoluções PGJ específicas.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária — estrutura geral',
+      items: [
+        { type: 'h', text: 'LC 34/94 — Disposições gerais (arts. 1º-13)' },
+        { type: 'list', items: [
+          '**Art. 1º** — MPMG é instituição permanente, essencial à função jurisdicional. Replica CF 127',
+          '**Art. 2º** — princípios institucionais (CF 127 §1º): unidade, indivisibilidade, independência funcional',
+          '**Art. 3º** — autonomias: funcional, administrativa e financeira',
+          '**Art. 4º** — autonomia financeira: orçamento próprio (CF 127 §3º)',
+          '**Art. 5º** — funções institucionais (CF 129)',
+          '**Art. 6º** — atuação perante todos os juízos e tribunais',
+          '**Arts. 7º-13** — prerrogativas, deveres, responsabilidades'
+        ]},
+
+        { type: 'h', text: 'Órgãos (art. 14 e seguintes)' },
+        { type: 'list', items: [
+          '**ÓRGÃOS DA ADMINISTRAÇÃO SUPERIOR** (arts. 14-50): Procurador-Geral de Justiça (PGJ) · Colégio de Procuradores · Conselho Superior do MP (CSMP) · Corregedoria-Geral',
+          '**ÓRGÃOS DE EXECUÇÃO** (arts. 51-60): Procurador-Geral de Justiça (no exercício de suas atribuições) · Procuradores de Justiça · Promotores de Justiça',
+          '**ÓRGÃOS AUXILIARES** (arts. 61-66): Centros de Apoio Operacional (CAOPs) · Comissões · Procuradorias e Promotorias especializadas · Servidores'
+        ]}
+      ]
+    },
+    {
+      h: 'Órgãos da administração superior',
+      items: [
+        { type: 'h', text: 'Procurador-Geral de Justiça (PGJ) — arts. 15-25' },
+        { type: 'p', text: 'Chefe do MPMG. Nomeado pelo **Governador** dentre LISTA TRÍPLICE elaborada por escrutínio secreto pelos integrantes da carreira (art. 16). Mandato de **2 anos**, permitida 1 recondução. Idade mínima de 35 anos.' },
+        { type: 'p', text: 'Atribuições principais: representação do MPMG; expedição de atos normativos (Resoluções PGJ); designação de Promotores; instauração de PADs; proposição de leis sobre MP; relatório anual à Assembleia Legislativa.' },
+        { type: 'box', kind: 'atencao', text: '**Diferença com PGR:** PGR não precisa de lista tríplice (escolha discricionária do Presidente). PGJ exige lista tríplice formada pelos próprios membros. Pegadinha frequente.' },
+
+        { type: 'h', text: 'Colégio de Procuradores de Justiça — arts. 26-31' },
+        { type: 'p', text: 'Composto por **TODOS os Procuradores de Justiça** em atividade. Atribuições: opinar sobre matérias relevantes, deliberar sobre alterações estruturais, manifestar-se sobre proposta orçamentária. Funciona como instância máxima deliberativa em assuntos institucionais.' },
+
+        { type: 'h', text: 'Conselho Superior do MP (CSMP) — arts. 32-44' },
+        { type: 'p', text: 'Órgão colegiado mais importante para a vida funcional do membro. **Composição (LC 34/94 art. 32):** PGJ (presidente) + Corregedor-Geral + 4 Procuradores de Justiça eleitos + 4 Promotores de Justiça eleitos = total **10 membros**.' },
+        { type: 'p', text: 'Principais atribuições: vitaliciamento dos membros (após 2 anos); decidir promoções e remoções por merecimento e antiguidade; aprovar arquivamentos de Inquéritos Civis (art. 9º LACP); manifestar-se em matéria disciplinar; elaborar lista de Procuradores aptos para nomeação ao PGJ.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — entendimento consolidado:** o CSMP é o "guardião institucional" do membro do MP. Suas decisões em matéria disciplinar e funcional vinculam — desafios cabem MS no TJ ou em última instância no STF.' },
+
+        { type: 'h', text: 'Corregedoria-Geral do MP — arts. 45-50' },
+        { type: 'p', text: 'Chefiada pelo **Corregedor-Geral**, eleito pelo Colégio de Procuradores entre os Procuradores de Justiça (mandato 2 anos, recondução permitida). Atribuições: orientar e fiscalizar atividades funcionais e a conduta dos membros; instaurar PADs; realizar correições nas Promotorias.' },
+        { type: 'p', text: 'Importante distinção: **independência FUNCIONAL** dos membros impede a Corregedoria de revisar TESES jurídicas, mas autoriza fiscalização da REGULARIDADE FUNCIONAL (cumprimento de prazos, deveres administrativos, ética).' }
+      ]
+    },
+    {
+      h: 'Órgãos de execução e carreira',
+      items: [
+        { type: 'h', text: 'Órgãos de execução' },
+        { type: 'p', text: 'São os órgãos que **EXERCEM** as atribuições finalísticas do MP em casos concretos: PGJ (em ações de competência originária), Procuradores de Justiça (perante 2ª instância — TJMG), Promotores de Justiça (1ª instância — comarcas).' },
+        { type: 'p', text: 'Cada Promotoria de Justiça tem **atribuição** definida em ato normativo da PGJ (lei + Resolução PGJ). Promotorias podem ser: comum (única na comarca, atribuição plena) · especializada (criminal, cível, família, infância, idoso, ambiental, defesa do consumidor, etc.).' },
+
+        { type: 'h', text: 'Carreira no MPMG' },
+        { type: 'p', text: '**Estrutura:** Promotor de Justiça SUBSTITUTO (estágio probatório, 2 anos) → Promotor de Justiça (entrâncias INICIAL, INTERMEDIÁRIA, FINAL) → Procurador de Justiça (entrância especial — atua em 2ª instância no TJMG).' },
+        { type: 'list', items: [
+          '**Ingresso:** concurso público, com prova objetiva, dissertativa, oral e título',
+          '**Estágio probatório:** 2 anos (vitaliciamento depende do CSMP)',
+          '**Promoção:** alternada — antiguidade e merecimento (por entrância, em listas)',
+          '**Remoção:** voluntária (a pedido) ou compulsória (por interesse público — maioria absoluta do CSMP, com ampla defesa)',
+          '**Aposentadoria compulsória:** 75 anos (EC 88/15)'
+        ]},
+        { type: 'box', kind: 'info', text: '**Promotor Substituto** é o cargo inicial da carreira no MPMG. Após 2 anos, vitalícia (se aprovado pelo CSMP) e passa para Promotor de Justiça de entrância inicial. Promoções subsequentes podem levar até 15-25 anos para alcançar Procurador de Justiça (a depender de aposentadorias e merecimento).' },
+
+        { type: 'h', text: 'Atribuições das Promotorias por nível' },
+        { type: 'p', text: '**Entrância inicial:** comarcas menores. Atribuição plena (todas as áreas — criminal, cível, infância, família). Foco em formação prática.' },
+        { type: 'p', text: '**Entrância intermediária:** comarcas médias. Possível especialização inicial. Acúmulo de áreas.' },
+        { type: 'p', text: '**Entrância final:** comarcas grandes (metropolitanas — incluindo Belo Horizonte). Especialização típica (Criminal, Cível, Infância, Idoso, Patrimônio Público, Meio Ambiente, etc.).' },
+        { type: 'p', text: '**Procuradoria de Justiça (entrância especial):** atuam perante TJMG (2ª instância). Pareceres em recursos cíveis, criminais, incidentes processuais.' }
+      ]
+    },
+    {
+      h: 'Órgãos auxiliares e atribuições especializadas',
+      items: [
+        { type: 'h', text: 'Centros de Apoio Operacional (CAOPs)' },
+        { type: 'p', text: 'Os **CAOPs** são órgãos auxiliares de COORDENAÇÃO. Apoiam Promotorias e Procuradorias em áreas especializadas: CAOP Criminal, CAOP Cível, CAOP Infância e Juventude, CAOP Idoso, CAOP Meio Ambiente, CAOP Patrimônio Público, CAOP Defesa do Consumidor, CAOP Saúde, CAOP Educação. Não atuam diretamente em casos — orientam, capacitam, fornecem subsídios técnicos.' },
+
+        { type: 'h', text: 'Procuradorias e Promotorias especializadas' },
+        { type: 'p', text: 'O MPMG tem **Procuradorias especializadas** atuando em todo o estado (Procuradoria Estadual de Combate ao Crime Organizado, Procuradoria Estadual da Cidadania, Procuradoria de Direitos Humanos) e Promotorias regionais especializadas (Promotoria Regional Metropolitana de Combate à Corrupção, p. ex.).' },
+        { type: 'p', text: '**GAECOs (Grupos de Atuação Especial de Combate ao Crime Organizado):** estrutura intermediária regional para atuação contra crime organizado, com Promotores designados pelo PGJ.' },
+
+        { type: 'h', text: 'Resoluções PGJ relevantes — leitura recomendada' },
+        { type: 'list', items: [
+          '**Resolução PGJ-MPMG 21/2010** — disciplina o Inquérito Civil no MPMG (complementa Res. CNMP 23)',
+          '**Resolução PGJ-MPMG sobre PIC** — disciplina o Procedimento Investigatório Criminal',
+          '**Resolução PGJ-MPMG sobre Recomendação Ministerial**',
+          '**Resolução PGJ-MPMG de Plano Geral de Atuação** — bienal',
+          '**Resolução PGJ-MPMG sobre criação e extinção de Promotorias**'
+        ]},
+        { type: 'box', kind: 'info', text: 'O acervo de Resoluções PGJ-MPMG é vasto (mais de 200 vigentes). Para a prova, foque nas que disciplinam IC, PIC, Recomendação, plantão, lotação. A candidata, como Analista, tem acesso e familiaridade — vantagem direta.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LC 34/94 — Lei Orgânica do MPMG.** Diploma central. Combina com Lei 8.625/93 (LONMP) e CF arts. 127-130.' },
+        { type: 'box', kind: 'macete', text: '**3 grupos de órgãos: ADMINISTRAÇÃO SUPERIOR · EXECUÇÃO · AUXILIARES.** Mnemônico **A-E-A**.' },
+        { type: 'box', kind: 'macete', text: '**Adm. superior 4 órgãos: PGJ · Colégio · CSMP · Corregedoria.**' },
+        { type: 'box', kind: 'macete', text: '**CSMP MPMG = 10 membros (PGJ + Corregedor + 4 Proc. + 4 Prom.).** Mais "alargado" que outros MPs.' },
+        { type: 'box', kind: 'macete', text: '**Carreira: SUBSTITUTO → PROMOTOR (Inicial → Intermediária → Final) → PROCURADOR.** 5 entrâncias.' },
+        { type: 'box', kind: 'macete', text: '**PGJ: 35 anos · LISTA TRÍPLICE (≠ PGR) · Governador nomeia · 2 anos · 1 recondução.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**PGJ MPMG depende de LISTA TRÍPLICE (CF 128 §3º + LC 34/94 art. 16).** PGR não precisa. Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Vitaliciamento NÃO é automático após 2 anos — depende de aprovação do CSMP** (LC 34/94 art. 33). Decisão fundamentada.' },
+        { type: 'box', kind: 'atencao', text: '**Arquivamento de IC vai para o CSMP — não para o juiz.** Se o CSMP rejeitar, designa outro Promotor (lógica do art. 9º §4º LACP).' },
+        { type: 'box', kind: 'atencao', text: '**Promotor Substituto NÃO é vitaliciado.** Pode perder o cargo em PAD (procedimento administrativo). Após 2 anos + aprovação do CSMP = vitalício.' },
+        { type: 'box', kind: 'atencao', text: '**Independência FUNCIONAL ≠ independência ADMINISTRATIVA.** Corregedoria fiscaliza conduta funcional, mas não revisa teses jurídicas.' },
+        { type: 'box', kind: 'atencao', text: '**CAOP NÃO é órgão de execução** — é órgão auxiliar. Não atua em caso concreto. Apenas apoia tecnicamente.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 1 (histórico):** LC 34/94 é fruto direto da CF/88 (refundação institucional).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios) e MP 3 (garantias):** princípios e garantias da CF/88 são reproduzidos na LC 34/94 (arts. 2º e 119+).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 4 (CNMP):** CSMP MPMG está sujeito a controle externo do CNMP (avocação, revisão).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93 — MPU):** estatuto paralelo. Comparar PGR × PGJ, CCR × CAOP, Câmaras × Procuradorias especializadas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** atribuições do art. 129 CF aplicadas via Promotorias especializadas e CAOPs.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** Resoluções PGJ-MPMG disciplinam IC, PIC, Recomendação na prática.' }
+      ]
+    }
+  ] },
   { id: 'mp-07-atribuicoes-constitucionais', num: 7, materia: 'mp', title: 'Atribuições constitucionais do MP', edital: '1.5.7', editalText: 'CF art. 129. Defesa do regime democrático, ordem jurídica, interesses sociais.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — atribuições vivenciadas no dia a dia).', outline: ['Funções institucionais (CF art. 129)', 'Defesa do regime democrático e da ordem jurídica', 'Defesa dos interesses sociais e individuais indisponíveis', 'Promoção da ação penal pública', 'Defesa dos direitos difusos e coletivos', 'Controle externo da atividade policial', 'Requisição de diligências e inquéritos'], sections: [
     {
       h: 'Foco central',
@@ -6157,7 +6619,176 @@ topics: [
       ]
     }
   ] },
-  { id: 'mp-08-atuacao-extrajudicial', num: 8, materia: 'mp', title: 'Atuação extrajudicial do MP', edital: '1.5.8', editalText: 'PIC, IC, recomendação, TAC, audiências públicas. Resoluções CNMP 23 e 174.', size: 'Médio', schedule: null, advantage: null, outline: ['Inquérito Civil (Resolução CNMP 23)', 'Procedimento Investigatório Criminal (PIC) — Resolução CNMP 181', 'Recomendação ministerial (Resolução CNMP 164)', 'Termo de Ajustamento de Conduta (TAC)', 'Audiências públicas e mediação', 'Notícia de fato (Resolução CNMP 174)'], sections: [] },
+  { id: 'mp-08-atuacao-extrajudicial', num: 8, materia: 'mp', title: 'Atuação extrajudicial do MP', edital: '1.5.8', editalText: 'PIC, IC, recomendação, TAC, audiências públicas. Resoluções CNMP 23 e 174.', size: 'Grande', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MPMG — opera Inquéritos Civis, PICs e TACs no dia a dia).', outline: ['Inquérito Civil (Resolução CNMP 23)', 'Procedimento Investigatório Criminal (PIC) — Resolução CNMP 181', 'Recomendação ministerial (Resolução CNMP 164)', 'Termo de Ajustamento de Conduta (TAC)', 'Audiências públicas e mediação', 'Notícia de fato (Resolução CNMP 174)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **atuação extrajudicial do MP** é um dos vetores mais expressivos do modelo institucional pós-CF/88. O MP NÃO é apenas litigante em juízo — é, sobretudo, agente RESOLUTIVO que opera fora do processo, tentando consenso, expedindo recomendações, conduzindo investigações próprias e firmando ajustes de conduta.' },
+        { type: 'p', text: 'Os principais instrumentos extrajudiciais são: **(i) Notícia de Fato** — porta de entrada de qualquer demanda (Res. CNMP 174); **(ii) Inquérito Civil (IC)** — investigação para tutela coletiva (Res. CNMP 23); **(iii) Procedimento Investigatório Criminal (PIC)** — investigação criminal direta (Res. CNMP 181); **(iv) Termo de Ajustamento de Conduta (TAC)** — solução negociada com força de título executivo extrajudicial; **(v) Recomendação ministerial** — ato persuasivo, não vinculante; **(vi) audiências públicas, mediação, conferências** — atuação dialógica.' },
+        { type: 'p', text: 'O eixo regulatório é o **CNMP**, que edita resoluções nacionais de aplicação obrigatória aos MPs. Em MG, **Resoluções PGJ-MPMG** complementam (não revogam) as do CNMP. Em todos os instrumentos, a **independência funcional** do membro orienta a discricionariedade — escolher arquivar, ajuizar ou ajustar é decisão privativa do Promotor, com revisão por colegiado quando arquivamento.' }
+      ]
+    },
+    {
+      h: 'Notícia de Fato (Res. CNMP 174/2017)',
+      items: [
+        { type: 'h', text: 'Conceito e função' },
+        { type: 'p', text: 'A **Notícia de Fato (NF)** é o **PORTAL DE ENTRADA** das demandas no MP. Toda manifestação que chega ao MP — denúncia, representação, ofício, requisição — é cadastrada como NF antes de qualquer providência. Tem natureza de procedimento PRELIMINAR (durante 30 dias) para juízo de admissibilidade.' },
+        { type: 'p', text: 'Após a análise: (a) **arquivamento liminar** (manifestação anônima sem indícios mínimos, fato manifestamente atípico, etc.); (b) **instauração de IC** (se há matéria coletiva e necessidade de investigação aprofundada); (c) **instauração de PIC** (se há matéria criminal); (d) **TAC** (se há solução negociada possível); (e) **encaminhamento** a outro órgão (se a matéria não é do MP).' },
+
+        { type: 'h', text: 'Disciplina principal — Res. CNMP 174/2017' },
+        { type: 'list', items: [
+          '**Art. 1º** — toda demanda é cadastrada como Notícia de Fato',
+          '**Art. 2º** — prazo de 30 dias para apreciação (prorrogável uma vez por 90 dias, fundamentadamente)',
+          '**Art. 3º** — arquivamento liminar com remessa ao CSMP em 3 dias',
+          '**Arts. 4º-6º** — comunicação ao noticiante e a quem teve direitos atingidos'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**Arquivamento de NF NÃO segue rito do art. 9º LACP.** Diferente do IC. Aqui, basta despacho fundamentado com remessa ao CSMP em 3 dias para homologação. Mais célere.' }
+      ]
+    },
+    {
+      h: 'Inquérito Civil (Res. CNMP 23/2007)',
+      items: [
+        { type: 'h', text: 'Conceito e natureza' },
+        { type: 'p', text: 'O **Inquérito Civil (IC)** é **procedimento investigatório administrativo PRIVATIVO do MP** (LACP art. 8º §1º) destinado a colher elementos para eventual ajuizamento de Ação Civil Pública, celebração de TAC ou expedição de Recomendação. Tem natureza INQUISITORIAL (não há ampla defesa nem contraditório, embora seja respeitada a presunção de inocência) e é PÚBLICO em regra, com sigilo apenas se justificado.' },
+        { type: 'p', text: 'Disciplinado pela **Lei 7.347/85 (LACP)** e pela **Resolução CNMP 23/2007** (MG complementa pela Resolução PGJ-MPMG 21/2010 e atualizações). É o principal instrumento da atuação coletiva do MP.' },
+
+        { type: 'h', text: 'Disciplina (Res. CNMP 23/2007)' },
+        { type: 'list', items: [
+          '**Art. 1º** — IC para tutela de interesses difusos, coletivos e individuais homogêneos',
+          '**Art. 2º** — instaurado por portaria fundamentada do membro',
+          '**Art. 4º** — sujeito a publicação (transparência) — exceção: sigilo justificado',
+          '**Art. 9º** — prazo de 1 ano (prorrogável fundamentadamente)',
+          '**Art. 10** — arquivamento → remessa obrigatória ao CSMP em 3 dias (art. 9º LACP)',
+          '**Art. 11** — CSMP pode homologar, requisitar diligências, ou rejeitar e designar outro membro'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 593.727 (Tema 184):** confirmou os poderes investigatórios do MP, inclusive em matéria criminal (PIC). Inquérito Civil já era pacífico. STJ Súm. 470 (cancelada): MP NÃO tem legitimidade para defender consumidor em pretensão individual disponível — só coletiva.' },
+
+        { type: 'h', text: 'Poderes investigatórios no IC' },
+        { type: 'list', items: [
+          'Notificar testemunhas e ouvi-las',
+          'Requisitar documentos a órgãos públicos e privados',
+          'Realizar inspeções e diligências',
+          'Requisitar perícias técnicas',
+          'Convocar audiências públicas',
+          'Determinar buscas e apreensões? **NÃO** — depende de autorização judicial (cláusula de reserva de jurisdição)'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**Limites: o MP NÃO pode quebrar sigilos protegidos por reserva de jurisdição (telefônico, bancário, fiscal — depende de autorização judicial).** Pode requisitar dados cadastrais e pode receber dados quebrados em outras ações.' }
+      ]
+    },
+    {
+      h: 'PIC — Procedimento Investigatório Criminal (Res. CNMP 181/2017)',
+      items: [
+        { type: 'h', text: 'Conceito e fundamento' },
+        { type: 'p', text: 'O **Procedimento Investigatório Criminal (PIC)** é a investigação CRIMINAL direta conduzida pelo MP, sem necessidade de tramitar pela polícia. Fundamento constitucional: **CF art. 129 VI, VIII e IX** + **STF RE 593.727 (Tema 184, 2015)**, que reconheceu definitivamente os poderes investigatórios criminais do MP.' },
+        { type: 'p', text: 'Disciplinado pela **Resolução CNMP 181/2017** (revogou a anterior Res. 13/2006). É instrumento autônomo — não substitui o inquérito policial, mas pode ser conduzido em paralelo ou alternativamente. Arquivamento submetido a controle interno do MP (CSMP) e homologação JUDICIAL nos termos do CPP (art. 28 reformado pela Lei 13.964/19 — Pacote Anticrime).' },
+
+        { type: 'h', text: 'Características (Res. CNMP 181/2017)' },
+        { type: 'list', items: [
+          '**Art. 1º** — PIC para apuração de fatos com possível repercussão criminal',
+          '**Arts. 3º-7º** — instauração por portaria, com prazo de 90 dias (prorrogável)',
+          '**Art. 9º** — poderes investigatórios próximos aos do IC',
+          '**Art. 10** — arquivamento → comunicação ao CSMP + JUIZ (CPP art. 28 reformado)',
+          '**Acordo de Não Persecução Penal (ANPP)** — pode ser proposto no PIC (CPP 28-A, Lei 13.964/19)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 593.727 (Tema 184, 2015):** "O Ministério Público dispõe de competência para promover, por autoridade própria, e por prazo razoável, investigações de natureza penal, desde que respeitados os direitos e garantias que assistem a qualquer indiciado ou a qualquer pessoa sob investigação do Estado, observadas, sempre, por seus agentes, as hipóteses de reserva constitucional de jurisdição e, também, as prerrogativas profissionais de que se acham investidos, em nosso País, os Advogados (Lei 8.906/94, art. 7º)".' },
+
+        { type: 'h', text: 'PIC × Inquérito Policial × IC' },
+        { type: 'table',
+          headers: ['Aspecto', 'IC', 'PIC', 'IP'],
+          rows: [
+            ['Natureza', 'Coletivo (cível)', 'Criminal', 'Criminal'],
+            ['Quem conduz', 'MP (privativo)', 'MP', 'Polícia Judiciária'],
+            ['Norma principal', 'LACP + Res. 23', 'Res. CNMP 181', 'CPP'],
+            ['Arquivamento', 'CSMP (LACP 9º)', 'CSMP + Juiz (CPP 28)', 'Juiz (CPP 28)'],
+            ['Resultado', 'ACP, TAC, recomendação', 'Denúncia, ANPP, arquivamento', 'Denúncia ou arquivamento']
+          ]
+        }
+      ]
+    },
+    {
+      h: 'TAC — Termo de Ajustamento de Conduta',
+      items: [
+        { type: 'h', text: 'Conceito e fundamento (LACP art. 5º §6º)' },
+        { type: 'p', text: 'O **Termo de Ajustamento de Conduta (TAC)** é instrumento por meio do qual o MP (ou outros legitimados — CDC art. 82, LACP art. 5º) celebra acordo com o causador do dano coletivo, fixando obrigações de fazer/não fazer, indenização, prazo. **NATUREZA: TÍTULO EXECUTIVO EXTRAJUDICIAL** (LACP art. 5º §6º + CPC art. 784 XII).' },
+        { type: 'p', text: 'O TAC pressupõe **VOLUNTARIEDADE** do compromissário, mas o MP pode exercer pressão lícita (ameaça de ACP, recomendação, audiência pública). O conteúdo deve respeitar: (a) **núcleo do interesse coletivo** (não pode dispor); (b) **multa cominatória** suficiente para garantir cumprimento; (c) **prazos compatíveis** com a complexidade da obrigação.' },
+
+        { type: 'h', text: 'Características' },
+        { type: 'list', items: [
+          'Pode ser firmado em qualquer fase: antes do IC, durante o IC, ou mesmo durante a ACP',
+          'Cumpre função negocial e coletiva — solução consensual',
+          'NÃO admite transação sobre o NÚCLEO do direito coletivo (irrenunciabilidade)',
+          'Pode prever multa cominatória (astreintes) e prazo',
+          'Executa-se em juízo se descumprido (LACP art. 5º §6º)',
+          'Não exige homologação judicial para sua eficácia (extrajudicial)',
+          'Submete-se a controle do CSMP (homologação institucional, em geral)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 877/REsp 1.586.515:** descumprimento de TAC enseja execução autônoma. As multas e obrigações se exigem como título executivo extrajudicial. Prazo prescricional de 5 anos (Decreto 20.910/32, por aplicação analógica em matéria pública).' }
+      ]
+    },
+    {
+      h: 'Recomendação ministerial (Res. CNMP 164/2017)',
+      items: [
+        { type: 'h', text: 'Conceito e natureza' },
+        { type: 'p', text: 'A **Recomendação Ministerial** é ato pelo qual o MP **EXPÕE** sua compreensão sobre matéria de interesse público e SUGERE a adoção de providências por agente público ou privado. Tem natureza PERSUASIVA, **NÃO VINCULANTE** — mas o destinatário, se discordar, deve responder fundamentadamente, sob pena de motivação implícita para ACP.' },
+        { type: 'p', text: 'Disciplinada pela **Resolução CNMP 164/2017**. Marca importante: a recomendação NÃO substitui ACP nem TAC — é instrumento PRELIMINAR, dialógico. Após sua expedição, o MP avalia a resposta e decide entre: arquivamento, ACP, TAC ou nova recomendação.' },
+
+        { type: 'h', text: 'Disciplina principal' },
+        { type: 'list', items: [
+          'Não é vinculante — destinatário pode discordar (mas deve responder)',
+          'Prazo de resposta razoável (em geral 30 dias, conforme cada caso)',
+          'Deve ser fundamentada em fatos concretos e direito aplicável',
+          'Pode ser publicada — caráter educativo institucional',
+          'Não exige procedimento prévio (IC) — pode ser autônoma',
+          'Reiteração com novos fatos é possível'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**Pegadinha: recomendação NÃO vincula.** Banca pode afirmar que destinatário "deve obrigatoriamente cumprir". Errado — só deve responder fundamentadamente. Quem vincula é decisão judicial (ACP procedente) ou TAC celebrado.' }
+      ]
+    },
+    {
+      h: 'Audiências públicas, mediação e outros instrumentos',
+      items: [
+        { type: 'h', text: 'Audiências públicas' },
+        { type: 'p', text: 'Mecanismo de **PARTICIPAÇÃO POPULAR** convocado pelo MP no curso de IC ou independentemente. Permite oitiva de cidadãos, especialistas, autoridades. Útil em matérias de **alto impacto social** (meio ambiente, saúde, educação, mobilidade). Subsidia a decisão do membro sobre prosseguimento, TAC ou ACP. Disciplinada na Lei 9.784/99 (subsidiariamente) e em resoluções específicas (Lei 10.257/01 — Estatuto da Cidade — também a prevê).' },
+
+        { type: 'h', text: 'Mediação e conciliação extrajudicial' },
+        { type: 'p', text: 'O MP pode atuar como **MEDIADOR** ou **FACILITADOR DE CONCILIAÇÃO** em conflitos coletivos. Resolução CNMP 118/2014 disciplina. Aplica-se em: conflitos fundiários, conflitos ambientais com múltiplos atores, conflitos entre Poder Público e cidadãos. Não é função adjudicativa — é dialógica.' },
+        { type: 'box', kind: 'info', text: '**CEJUSCs (Centros Judiciários de Solução de Conflitos)** podem receber demandas de mediação coletiva propostas pelo MP, em parceria. Atuação cooperativa Judiciário-MP.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 instrumentos extrajudiciais: NF · IC · PIC · TAC · RECOMENDAÇÃO · AUDIÊNCIA PÚBLICA.** Mnemônico **N-I-P-T-R-A**.' },
+        { type: 'box', kind: 'macete', text: '**Resoluções CNMP-chave: 23 (IC) · 174 (NF) · 181 (PIC) · 164 (Recomendação) · 118 (Mediação).**' },
+        { type: 'box', kind: 'macete', text: '**TAC = TÍTULO EXECUTIVO EXTRAJUDICIAL** (LACP 5º §6º + CPC 784 XII). Não precisa de homologação judicial.' },
+        { type: 'box', kind: 'macete', text: '**Arquivamento de IC: CSMP** (LACP 9º). Arquivamento de PIC: CSMP + JUIZ (CPP 28 reformado). Arquivamento de NF: CSMP em 3 dias (Res. 174).' },
+        { type: 'box', kind: 'macete', text: '**Recomendação NÃO vincula.** Apenas exige resposta fundamentada do destinatário.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Inquérito Civil é PRIVATIVO do MP.** Outros legitimados (Defensoria, ações civis) propõem ACP, mas NÃO conduzem IC. Pegadinha frequente.' },
+        { type: 'box', kind: 'atencao', text: '**MP pode investigar criminalmente (PIC) — STF RE 593.727 (Tema 184, 2015).** Tese pacificada. Não confundir com inquérito policial.' },
+        { type: 'box', kind: 'atencao', text: '**TAC NÃO precisa de homologação judicial.** É título executivo extrajudicial pela própria LACP.' },
+        { type: 'box', kind: 'atencao', text: '**Recomendação NÃO obriga, mas a falta de resposta fundamentada do destinatário pode ser usada como motivação para ACP.** Banca cobra essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**Notícia de Fato é PROCEDIMENTO, não inquérito.** Tem prazo de 30 dias (prorrogável 90). Mais célere que IC.' },
+        { type: 'box', kind: 'atencao', text: '**MP pode quebrar sigilos sem ordem judicial? NÃO — sigilos protegidos por reserva de jurisdição (bancário, fiscal, telefônico) exigem decisão judicial.** STF é firme. Cuidado com pegadinhas.' },
+        { type: 'box', kind: 'atencao', text: '**Pacote Anticrime (Lei 13.964/19) alterou o art. 28 CPP — arquivamento de IP/PIC depende agora de comunicação ao JUIZ (eficácia suspensa por liminar do STF, mas o tema é cobrado).** Acompanhar evolução.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 4 (CNMP):** edita as Resoluções 23, 174, 181, 164 — bases normativas dos instrumentos extrajudiciais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 6 (LC 34/94 — MPMG):** Resoluções PGJ-MPMG complementam Res. CNMP. Ex: Res. PGJ-MPMG 21/2010 (IC).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** funções do art. 129 CF (II, III, VI) ganham concretude pelos instrumentos extrajudiciais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** IC é antecedente lógico da ACP. TAC é alternativa consensual à ACP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 6 (TAC e atuação extrajudicial):** aprofundamento operacional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 2-3 (inquérito e ação penal):** PIC dialoga com inquérito policial e ANPP (CPP 28-A).' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO PENAL E CRIMINOLOGIA (14) ============
   { id: 'penal-01-principios', num: 1, materia: 'penal', title: 'Princípios do Direito Penal', edital: '2.1.1', editalText: 'Legalidade, anterioridade, intervenção mínima, lesividade, culpabilidade, humanidade, individualização.', size: 'Médio', schedule: null, advantage: null, outline: ['Legalidade (CF art. 5º XXXIX, CP art. 1º)', 'Anterioridade da lei penal', 'Intervenção mínima (subsidiariedade e fragmentariedade)', 'Lesividade/ofensividade', 'Culpabilidade', 'Humanidade', 'Individualização da pena', 'Insignificância (STF)'], sections: [] },
@@ -7753,7 +8384,43 @@ flashcards: [
   { id: 369, topic: 2, materia: 'colmat', q: 'Internação — quando é cabível (ECA art. 122)?', a: 'TAXATIVAMENTE em 3 hipóteses: (I) ato infracional com VIOLÊNCIA OU GRAVE AMEAÇA; (II) REITERAÇÃO de outras infrações graves; (III) DESCUMPRIMENTO REITERADO de outra medida. Tempo máximo: 3 anos. Liberação compulsória aos 21.', tags: ['colmat', 'ECA', 'internacao'] },
   { id: 370, topic: 2, materia: 'colmat', q: 'Súmula 492 STJ — qual a tese?', a: '"O ato infracional análogo ao tráfico de drogas, por si só, não conduz obrigatoriamente à imposição da medida socioeducativa de internação." Internação é EXCEPCIONAL — princípio da brevidade.', tags: ['colmat', 'ECA', 'STJ'] },
   { id: 371, topic: 2, materia: 'colmat', q: 'Família substituta — modalidades?', a: 'GUARDA (não rompe poder familiar; temporária ou definitiva) · TUTELA (pressupõe perda/suspensão do poder familiar) · ADOÇÃO (irrevogável, vínculo de filiação). Mnemônico GTA.', tags: ['colmat', 'ECA', 'familia'] },
-  { id: 372, topic: 2, materia: 'colmat', q: 'Adoção é revogável?', a: 'NÃO. ECA art. 39 §1º — IRREVOGÁVEL. Atribui condição de filho, com mesmos direitos e deveres dos demais filhos (art. 41). Diferente de guarda e tutela, que podem ser revogadas.', tags: ['colmat', 'ECA', 'adocao'] }
+  { id: 372, topic: 2, materia: 'colmat', q: 'Adoção é revogável?', a: 'NÃO. ECA art. 39 §1º — IRREVOGÁVEL. Atribui condição de filho, com mesmos direitos e deveres dos demais filhos (art. 41). Diferente de guarda e tutela, que podem ser revogadas.', tags: ['colmat', 'ECA', 'adocao'] },
+
+  // === Cards Rodada 3 — Teoria do MP completa (mp-01, 04, 05, 06, 08) ===
+  // mp-01 — Histórico
+  { id: 373, topic: 1, materia: 'mp', q: 'Origem mais aceita do MP no direito comparado?', a: 'França — séc. XIV — procureurs du roi (procuradores do rei). Ordonnance de Filipe IV, o Belo (1302). Origem direta do termo "ministério público" (ministerium publicum). Egito faraônico (magiaí) é antecedente remoto, não origem.', tags: ['mp', 'historico', 'origem'] },
+  { id: 374, topic: 1, materia: 'mp', q: 'Quais Constituições brasileiras tiveram MP em capítulo próprio?', a: '1934 (capítulo "Órgãos de Cooperação"), 1946 (Título próprio — arts. 125-128), 1988 (arts. 127-130 — REFUNDAÇÃO). 1937 retrocedeu, 1967 colocou no Judiciário, EC 1/69 transferiu ao Executivo.', tags: ['mp', 'historico', 'constituicoes'] },
+  { id: 375, topic: 1, materia: 'mp', q: 'Por que a CF/88 é considerada uma "refundação" do MP?', a: 'Erigiu o MP a INSTITUIÇÃO PERMANENTE essencial à função jurisdicional (CF 127), com AUTONOMIA (funcional, administrativa, financeira), princípios institucionais (UII), garantias (vitaliciedade, inamovibilidade, irredutibilidade) e atribuições constitucionais ampliadas (art. 129).', tags: ['mp', 'historico', 'CF88'] },
+  { id: 376, topic: 1, materia: 'mp', q: 'O CNMP foi criado por qual diploma?', a: 'EC 45/04 (Reforma do Judiciário) inseriu o art. 130-A na CF. ANTES dessa emenda, NÃO havia CNMP — pegadinha clássica. Mesma EC criou o CNJ.', tags: ['mp', 'CNMP', 'EC-45'] },
+  { id: 377, topic: 1, materia: 'mp', q: 'Qual o primeiro diploma nacional de organização do MP no Brasil?', a: 'LC 40/1981 — Lei Orgânica Nacional do MP (anterior à CF/88). Substituída pela Lei 8.625/93 (LONMP) após a refundação constitucional.', tags: ['mp', 'historico', 'LC-40'] },
+
+  // mp-04 — CNMP
+  { id: 378, topic: 4, materia: 'mp', q: 'CNMP — composição (números)?', a: '14 conselheiros · presidido pelo PGR · mandato 2 anos · permitida 1 recondução. Composição: PGR + 4 MPU (1 MPF, 1 MPT, 1 MPM, 1 MPDFT) + 3 MPEs + 2 juízes (STF/STJ) + 2 advogados (OAB) + 2 cidadãos (Câmara/Senado).', tags: ['mp', 'CNMP', 'composicao'] },
+  { id: 379, topic: 4, materia: 'mp', q: 'O CNMP pode determinar a perda do cargo de membro vitalício?', a: 'NÃO. Vitaliciedade impede perda administrativa — só sentença judicial transitada (CF 128 §5º I "a"). CNMP pode aplicar, no máximo, APOSENTADORIA PROPORCIONAL como sanção.', tags: ['mp', 'CNMP', 'vitaliciedade'] },
+  { id: 380, topic: 4, materia: 'mp', q: 'Prazo para o CNMP rever PADs julgados pelas Corregedorias dos MPs?', a: '1 ANO do julgamento (CF 130-A §2º IV). Após esse prazo, há prescrição da revisão. NÃO se confunde com avocação (PAD em curso) que pode ocorrer a qualquer tempo.', tags: ['mp', 'CNMP', 'PAD'] },
+  { id: 381, topic: 4, materia: 'mp', q: 'O CNMP pode revisar tese jurídica adotada pelo membro?', a: 'NÃO. CNMP controla atuação ADMINISTRATIVA e funcional, não revisa MÉRITO da manifestação jurídica (independência funcional). STF é firme: limite intransponível.', tags: ['mp', 'CNMP', 'independencia'] },
+  { id: 382, topic: 4, materia: 'mp', q: 'Resoluções CNMP — natureza jurídica?', a: 'ATO NORMATIVO PRIMÁRIO (STF — analogia ao CNJ, ADC 12). Editadas com base direta na CF (art. 130-A §2º I). Vinculam todos os MPs e seus membros. Não confundir com lei formal.', tags: ['mp', 'CNMP', 'resolucoes'] },
+
+  // mp-05 — LC 75/93
+  { id: 383, topic: 5, materia: 'mp', q: 'Quais os 4 ramos do MPU?', a: 'MPF (Federal — Justiça Federal) · MPT (Trabalho — JT) · MPM (Militar — Justiça Militar da União) · MPDFT (DF e Territórios — Justiça do DF). Mnemônico F-T-M-DFT.', tags: ['mp', 'MPU', 'ramos'] },
+  { id: 384, topic: 5, materia: 'mp', q: 'PGR depende de lista tríplice para nomeação?', a: 'NÃO (≠ PGJ estadual). PGR é de escolha discricionária do Presidente entre membros do MPF (35 anos+), com aprovação do Senado por MAIORIA ABSOLUTA (CF 128 §1º). Mandato 2 anos, recondução permitida.', tags: ['mp', 'PGR'] },
+  { id: 385, topic: 5, materia: 'mp', q: 'Carreira no MPF — 3 níveis?', a: 'PROCURADOR DA REPÚBLICA (1ª instância — JF) → PROCURADOR REGIONAL DA REPÚBLICA (2ª — TRF) → SUBPROCURADOR-GERAL DA REPÚBLICA (STF/STJ). Promoção por antiguidade ou merecimento.', tags: ['mp', 'MPF', 'carreira'] },
+  { id: 386, topic: 5, materia: 'mp', q: 'CCR — Câmaras de Coordenação e Revisão — função?', a: 'Órgãos colegiados de cada ramo do MPU. Coordenam atividades, sugerem orientações e REVISAM arquivamentos de IC e PIC. Análoga ao CSMP nos MPs estaduais. CCR pode designar outro membro se discordar do arquivamento.', tags: ['mp', 'CCR'] },
+  { id: 387, topic: 5, materia: 'mp', q: 'MPDFT é da União ou do DF?', a: 'Da UNIÃO. Integra o MPU (LC 75/93 art. 1º). Embora atue como MP "estadual" do DF (matérias estaduais), formalmente faz parte do Ministério Público da União. Pegadinha frequente.', tags: ['mp', 'MPDFT'] },
+
+  // mp-06 — LC 34/94 MPMG
+  { id: 388, topic: 6, materia: 'mp', q: 'PGJ-MPMG — investidura?', a: 'Nomeado pelo Governador a partir de LISTA TRÍPLICE elaborada pelos próprios membros (CF 128 §3º + LC 34/94 art. 16). 35 anos+. Mandato 2 anos, 1 recondução permitida. Diferente do PGR (sem lista tríplice).', tags: ['mp', 'MPMG', 'PGJ'] },
+  { id: 389, topic: 6, materia: 'mp', q: 'CSMP do MPMG — composição?', a: '10 membros: PGJ (presidente) + Corregedor-Geral + 4 Procuradores de Justiça eleitos + 4 Promotores de Justiça eleitos. Decide vitaliciamento, promoções, remoções, arquivamentos de IC.', tags: ['mp', 'MPMG', 'CSMP'] },
+  { id: 390, topic: 6, materia: 'mp', q: 'Carreira do MPMG — entrâncias?', a: 'Promotor SUBSTITUTO (probatório 2 anos) → Promotor de Justiça INICIAL → INTERMEDIÁRIA → FINAL → Procurador de Justiça (entrância especial — atua perante TJMG). 5 níveis.', tags: ['mp', 'MPMG', 'carreira'] },
+  { id: 391, topic: 6, materia: 'mp', q: 'CAOPs — Centros de Apoio Operacional — função e natureza?', a: 'Órgãos AUXILIARES (não de execução). Apoiam Promotorias em áreas especializadas (Criminal, Cível, Infância, Idoso, Meio Ambiente, Patrimônio Público, Saúde, Educação). NÃO atuam em casos concretos — apenas tecnicamente.', tags: ['mp', 'MPMG', 'CAOP'] },
+  { id: 392, topic: 6, materia: 'mp', q: 'Vitaliciamento no MPMG é automático após 2 anos?', a: 'NÃO. Depende de aprovação do CSMP (LC 34/94 art. 33), com decisão fundamentada após avaliação do desempenho do Promotor Substituto durante o estágio probatório. Pegadinha frequente.', tags: ['mp', 'MPMG', 'vitaliciamento'] },
+
+  // mp-08 — Atuação extrajudicial
+  { id: 393, topic: 8, materia: 'mp', q: 'Quais os 6 instrumentos extrajudiciais centrais do MP?', a: 'NOTÍCIA DE FATO (NF — Res. 174) · INQUÉRITO CIVIL (IC — Res. 23) · PIC (Res. 181) · TAC (LACP 5º §6º) · RECOMENDAÇÃO (Res. 164) · AUDIÊNCIA PÚBLICA. Mnemônico N-I-P-T-R-A.', tags: ['mp', 'extrajudicial'] },
+  { id: 394, topic: 8, materia: 'mp', q: 'Inquérito Civil — natureza e exclusividade?', a: 'Procedimento investigatório administrativo PRIVATIVO do MP (LACP art. 8º §1º). Prepara ACP, TAC ou Recomendação. Outros legitimados (Defensoria, associações) propõem ACP, mas NÃO conduzem IC.', tags: ['mp', 'IC'] },
+  { id: 395, topic: 8, materia: 'mp', q: 'PIC — fundamento constitucional?', a: 'CF art. 129 VI, VIII e IX + STF RE 593.727 (Tema 184, 2015) — MP tem competência para investigação criminal direta. Disciplina: Resolução CNMP 181/2017. Não substitui IP — atua paralela ou alternativamente.', tags: ['mp', 'PIC', 'STF'] },
+  { id: 396, topic: 8, materia: 'mp', q: 'TAC — natureza jurídica?', a: 'TÍTULO EXECUTIVO EXTRAJUDICIAL (LACP art. 5º §6º + CPC art. 784 XII). NÃO precisa de homologação judicial. Descumprimento gera execução autônoma (STJ Tema 877).', tags: ['mp', 'TAC'] },
+  { id: 397, topic: 8, materia: 'mp', q: 'Recomendação ministerial vincula o destinatário?', a: 'NÃO. É ato PERSUASIVO. Destinatário pode discordar, mas DEVE responder fundamentadamente. A não-resposta ou resposta insuficiente pode motivar ACP. Disciplina: Res. CNMP 164/2017.', tags: ['mp', 'recomendacao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -9771,6 +10438,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'ECA art. 122 + Súmula 492 STJ. (A) Falso — internação é excepcional. (B) Falso — Súmula 492 STJ. (D) Falso — Súmula 605 STJ + ECA art. 121 §5º (cessa aos 21). (E) Falso — adoção é IRREVOGÁVEL (art. 39 §1º).'
+  },
+
+  // === Questões Rodada 3 — Teoria do MP completa ===
+  {
+    id: 143, topic: 1, materia: 'mp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a evolução histórica do MP nas Constituições brasileiras, assinale a correta:',
+    alternatives: [
+      'A CF/88 criou o MP no Brasil — antes não havia previsão institucional sequer em lei ordinária.',
+      'A CF/67 colocou o MP no capítulo do Poder Judiciário, mas a EC 1/69 transferiu-o para o capítulo do Poder Executivo.',
+      'A CF/1934 não fez qualquer referência ao MP, restringindo-se à figura do Procurador da Coroa.',
+      'O CNMP foi criado pela CF/88, na redação original do art. 130-A.',
+      'A LC 40/1981 revogou o capítulo do MP da CF/88 e organizou os MPs estaduais.'
+    ],
+    correct: 'B',
+    explanation: 'Trajetória institucional. (A) Falso — Ordenações Filipinas, CF/1934, CF/1946 já tratavam do MP; CF/88 REFUNDOU. (C) Falso — CF/1934 foi a primeira a tratar expressamente o MP em capítulo (Procurador da Coroa é da CF/1824). (D) Falso — CNMP foi criado pela EC 45/04. (E) Falso — LC 40/81 é ANTERIOR à CF/88 (foi parcialmente recepcionada, depois substituída pela Lei 8.625/93).'
+  },
+  {
+    id: 144, topic: 4, materia: 'mp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do CNMP (CF art. 130-A), é correto afirmar:',
+    alternatives: [
+      'O CNMP é integrado por 15 conselheiros, com mandato de 3 anos, vedada a recondução.',
+      'O CNMP pode determinar a perda do cargo de membro vitalício, em decorrência de gravidade da falta apurada em PAD.',
+      'O CNMP pode rever, de ofício ou mediante provocação, processos disciplinares julgados há menos de 1 ano, e avocar PADs em curso, sem prejuízo da independência funcional do membro quanto ao mérito de suas manifestações jurídicas.',
+      'As resoluções do CNMP têm natureza de mero ato administrativo interno, sem caráter normativo primário.',
+      'A maioria dos integrantes do CNMP é composta por advogados, magistrados e cidadãos, refletindo o controle externo predominantemente social da instituição.'
+    ],
+    correct: 'C',
+    explanation: 'CF 130-A §2º + jurisprudência STF. (A) Falso — 14 conselheiros, mandato 2 anos, 1 recondução permitida. (B) Falso — vitaliciedade impede perda administrativa (só sentença judicial); CNMP pode aplicar até aposentadoria proporcional. (D) Falso — STF (analogia ADC 12) reconheceu natureza primária. (E) Falso — maioria é do MP (8 de 14: PGR + 4 MPU + 3 MPEs).'
+  },
+  {
+    id: 145, topic: 5, materia: 'mp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Ministério Público da União (LC 75/93):',
+    alternatives: [
+      'O MPU é instituição autônoma e independente em relação ao MPF, que constitui órgão paralelo.',
+      'O Procurador-Geral da República é escolhido pelo Presidente da República a partir de lista tríplice elaborada pelos membros do MPF, com aprovação do Senado.',
+      'O MPDFT integra o Ministério Público da União e atua perante a Justiça do Distrito Federal e dos Territórios.',
+      'As Câmaras de Coordenação e Revisão (CCR) revisam decisões judiciais em sede recursal, com efeito vinculante.',
+      'O Procurador-Geral do Trabalho é nomeado pelo Presidente da República, vedada a indicação pelo PGR.'
+    ],
+    correct: 'C',
+    explanation: 'LC 75/93 art. 1º + arts. 149+. (A) Falso — MPU é UNIDADE com 4 ramos (MPF, MPT, MPM, MPDFT). (B) Falso — PGR NÃO depende de lista tríplice (CF 128 §1º — escolha discricionária). (D) Falso — CCRs revisam arquivamentos administrativos de IC e PIC, não decisões judiciais. (E) Falso — PGT é designado pelo PGR.'
+  },
+  {
+    id: 146, topic: 6, materia: 'mp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Conforme a LC 34/94 (Lei Orgânica do MPMG):',
+    alternatives: [
+      'O Procurador-Geral de Justiça do MPMG é nomeado livremente pelo Governador, sem necessidade de lista tríplice.',
+      'O Conselho Superior do Ministério Público é composto pelo PGJ, pelo Corregedor-Geral e por 8 membros eleitos (4 Procuradores e 4 Promotores).',
+      'O Centro de Apoio Operacional (CAOP) é órgão de execução, atuando diretamente em casos concretos como Promotoria especializada.',
+      'O vitaliciamento do Promotor de Justiça Substituto opera automaticamente após dois anos de exercício, independentemente de manifestação do CSMP.',
+      'A Corregedoria-Geral pode revisar o mérito das manifestações jurídicas dos membros, conforme a hierarquia interna do MPMG.'
+    ],
+    correct: 'B',
+    explanation: 'LC 34/94 art. 32 — CSMP do MPMG tem 10 membros (PGJ + Corregedor + 4 Procuradores + 4 Promotores). (A) Falso — PGJ depende de lista tríplice (CF 128 §3º + LC 34/94 art. 16). (C) Falso — CAOP é órgão AUXILIAR, não de execução. (D) Falso — vitaliciamento depende de aprovação do CSMP. (E) Falso — independência funcional veda revisão do mérito jurídico.'
+  },
+  {
+    id: 147, topic: 8, materia: 'mp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os instrumentos extrajudiciais de atuação do MP:',
+    alternatives: [
+      'O Inquérito Civil pode ser conduzido pelo MP ou pela Defensoria Pública, conforme a natureza do interesse em jogo.',
+      'O Termo de Ajustamento de Conduta exige homologação judicial para constituir título executivo.',
+      'A Recomendação ministerial vincula obrigatoriamente o destinatário, sob pena de improbidade administrativa.',
+      'O Procedimento Investigatório Criminal (PIC) é instrumento autônomo do MP, fundamentado no art. 129 da CF e validado pelo STF (RE 593.727 / Tema 184).',
+      'A Notícia de Fato deve necessariamente ser convertida em Inquérito Civil, vedado o arquivamento liminar.'
+    ],
+    correct: 'D',
+    explanation: 'CF 129 + STF Tema 184. (A) Falso — IC é PRIVATIVO do MP (LACP art. 8º §1º). (B) Falso — TAC é título executivo extrajudicial, sem homologação (LACP 5º §6º + CPC 784 XII). (C) Falso — Recomendação NÃO vincula; destinatário deve responder fundamentadamente. (E) Falso — Res. CNMP 174 admite arquivamento liminar com remessa ao CSMP em 3 dias.'
+  },
+  {
+    id: 148, topic: 6, materia: 'mp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Promotor Substituto do MPMG, durante o estágio probatório, enquadra-se na seguinte situação jurídica:',
+    alternatives: [
+      'Goza de vitaliciedade plena desde a posse, podendo ser destituído apenas por sentença judicial transitada em julgado.',
+      'Está em estabilidade comum (3 anos), com perda admitida por PAD após esse prazo, conforme regra geral dos servidores.',
+      'Cumpre estágio probatório de 2 anos, ao final do qual o vitaliciamento depende de aprovação fundamentada do CSMP. Antes desse marco, pode ser destituído mediante procedimento administrativo, com observância do contraditório.',
+      'Pode acumular dois cargos de magistério (escolas pública e privada), sem incidência das vedações constitucionais ainda no período probatório.',
+      'Está sujeito apenas à independência administrativa, podendo o PGJ designá-lo discricionariamente para casos concretos.'
+    ],
+    correct: 'C',
+    explanation: 'CF 128 §5º I "a" + LC 34/94 art. 33. Vitaliciedade no MP é após 2 anos, mediante decisão fundamentada do CSMP. Antes, perda em PAD é admissível. (A) Falso — vitaliciedade não é desde a posse. (B) Falso — não é estabilidade comum (3 anos), é vitaliciedade (2 anos). (D) Falso — vedações se aplicam desde a posse; magistério permitido só UM. (E) Falso — promotor natural veda designações casuísticas.'
   }
 ],
 
