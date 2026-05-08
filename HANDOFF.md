@@ -197,13 +197,14 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #23** (closed, superseded por #24) — Rodada 16: **Tributário 100% completo** (trib-05 Crédito tributário, trib-06 Adm. tributária, trib-07 Execução fiscal, trib-08 Reforma EC 132/23, trib-09 Direito Financeiro/LRF, trib-10 Crimes tributários). +14 cards e +6 questões.
 - **PR #24** (FECHAMENTO 100%, mergeado em 2026-05-08) — Consolidação em main: PRs #11-23 estavam empilhados em stack; após merge do #10 com `--delete-branch`, GitHub auto-fechou #11 e os demais ficaram órfãos. Branch da Rodada 16 foi rebaseada sobre main (descartando commit duplicado da Rodada 3) e mergeada via fast-forward, preservando os 13 commits originais (Rodadas 4-16). PRs #11-23 fechados sem merge (conteúdo já em main). Total: **143 preenchidos (100%)**.
 
-## Stats finais (PROJETO COMPLETO)
+## Stats finais (PROJETO COMPLETO + REFORÇO)
 
 - **143 / 143 tópicos** (**100% COM CONTEÚDO**) ✅
-- **621 flashcards**
-- **226 questões** com gabarito comentado
+- **653 flashcards** (+32 no reforço)
+- **236 questões** com gabarito comentado (+10 no reforço)
 - **88 súmulas** STF/STJ
-- ~40.000 linhas em `assets/data.js`
+- ~40.000+ linhas em `assets/data.js`
+- **Reforço de densidade aplicado em 19 tópicos magros** (Trib 7 · Elei 4 · PP 4 · Penal 3 · Adm 1) — adicionadas seções "Pontos críticos para prova" + "Pegadinhas de prova" com jurisprudência consolidada (Súm STF/STJ, RE de tema, AP) — densidade subiu de ~3k chars/tópico para 6-10k chars/tópico
 
 ### Tópicos preenchidos (143 — 100%)
 
