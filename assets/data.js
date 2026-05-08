@@ -9834,12 +9834,414 @@ topics: [
   ] },
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL PENAL (12) ============
-  { id: 'pp-01-principios-fontes', num: 1, materia: 'pp', title: 'Princípios e fontes do CPP', edital: '2.2.1', editalText: 'Sistema acusatório (Lei 13.964/19). Princípios constitucionais e infraconstitucionais.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistemas processuais (inquisitório, acusatório, misto)', 'Sistema acusatório no Brasil (CPP art. 3º-A — Pacote Anticrime)', 'Princípios constitucionais (devido processo, contraditório, ampla defesa, presunção de inocência)', 'Princípios infraconstitucionais (oficialidade, oficiosidade, indisponibilidade, etc.)', 'Aplicação da lei processual penal no tempo'], sections: [] },
-  { id: 'pp-02-inquerito-investigacao', num: 2, materia: 'pp', title: 'Inquérito policial e investigação criminal', edital: '2.2.2', editalText: 'CPP arts. 4º-23. PIC. Cadeia de custódia. Acordo de não persecução penal.', size: 'Médio', schedule: null, advantage: null, outline: ['Inquérito policial (CPP arts. 4º-23)', 'Investigação criminal pelo MP (PIC) — Res. CNMP 181', 'Indiciamento', 'Cadeia de custódia (CPP arts. 158-A a 158-F)', 'Juiz das garantias (CPP art. 3º-B — Pacote Anticrime)', 'Acordo de não persecução penal (CPP art. 28-A)', 'Arquivamento do inquérito'], sections: [] },
-  { id: 'pp-03-acao-penal', num: 3, materia: 'pp', title: 'Ação penal', edital: '2.2.3', editalText: 'Pública incondicionada, condicionada, privada. Denúncia e queixa.', size: 'Médio', schedule: null, advantage: null, outline: ['Espécies de ação penal', 'Ação penal pública incondicionada', 'Ação penal pública condicionada (representação, requisição)', 'Ação penal privada (exclusiva, personalíssima, subsidiária)', 'Denúncia e queixa — requisitos (CPP art. 41)', 'Aditamento', 'Princípios da ação penal pública'], sections: [] },
-  { id: 'pp-04-sujeitos-processo', num: 4, materia: 'pp', title: 'Sujeitos do processo penal', edital: '2.2.4', editalText: 'Juiz, MP, querelante, réu, defensor, vítima, assistente de acusação.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Juiz e juiz das garantias', 'MP no processo penal', 'Acusado e defensor', 'Querelante e querelado', 'Vítima — Lei 13.431/17 e CPP', 'Assistente de acusação (CPP arts. 268-273)', 'Auxiliares da Justiça'], sections: [] },
-  { id: 'pp-05-competencia-criminal', num: 5, materia: 'pp', title: 'Competência criminal', edital: '2.2.5', editalText: 'CPP arts. 69-91. Foro por prerrogativa. Conexão e continência.', size: 'Médio', schedule: null, advantage: null, outline: ['Critérios de competência (lugar, natureza, prevenção, prerrogativa de função)', 'Competência da Justiça Federal × Estadual', 'Foro por prerrogativa de função (STF/STJ)', 'Conexão (CPP art. 76) e continência (art. 77)', 'Prorrogação e modificação', 'Conflito de competência'], sections: [] },
-  { id: 'pp-06-provas', num: 6, materia: 'pp', title: 'Provas no processo penal', edital: '2.2.6', editalText: 'Princípios. Meios de prova. Provas ilícitas. Lei 13.964/19.', size: 'Grande', schedule: null, advantage: null, outline: ['Princípios da prova (livre convencimento motivado, contraditório)', 'Ônus da prova (CPP art. 156)', 'Meios de prova (perícia, interrogatório, confissão, testemunhas, documentos, busca e apreensão)', 'Provas ilícitas (CF art. 5º LVI; CPP art. 157)', 'Teoria dos frutos da árvore envenenada', 'Limites — descoberta inevitável, fonte independente', 'Cadeia de custódia da prova', 'Colaboração premiada (Lei 12.850/13)'], sections: [] },
+  { id: 'pp-01-principios-fontes', num: 1, materia: 'pp', title: 'Princípios e fontes do CPP', edital: '2.2.1', editalText: 'Sistema acusatório (Lei 13.964/19). Princípios constitucionais e infraconstitucionais.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Sistemas processuais (inquisitório, acusatório, misto)', 'Sistema acusatório no Brasil (CPP art. 3º-A — Pacote Anticrime)', 'Princípios constitucionais (devido processo, contraditório, ampla defesa, presunção de inocência)', 'Princípios infraconstitucionais (oficialidade, oficiosidade, indisponibilidade, etc.)', 'Aplicação da lei processual penal no tempo'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CPP** (Decreto-Lei 3.689/1941) é a base do processo penal brasileiro, com inúmeras alterações pontuais. O **PACOTE ANTICRIME (Lei 13.964/19)** consolidou o **SISTEMA ACUSATÓRIO** (CPP art. 3º-A) — separação entre acusação, defesa e julgamento. Princípios constitucionais (CF 5º) regem o processo: devido processo legal, contraditório, ampla defesa, presunção de inocência.' }
+      ]
+    },
+    {
+      h: 'Sistemas processuais',
+      items: [
+        { type: 'list', items: [
+          '**INQUISITÓRIO:** mesmo órgão acusa e julga. Não há contraditório. Inquisição medieval',
+          '**ACUSATÓRIO:** separação entre acusação (MP/querelante), defesa e julgamento. Contraditório, ampla defesa',
+          '**MISTO:** combina elementos. Ex: investigação inquisitória + ação acusatória',
+          '**Brasil pós-Pacote Anticrime:** SISTEMA ACUSATÓRIO consolidado (CPP 3º-A). Antes, doutrina divergia entre misto e acusatório'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios constitucionais e infraconstitucionais',
+      items: [
+        { type: 'h', text: 'Constitucionais (CF 5º)' },
+        { type: 'list', items: [
+          'DEVIDO PROCESSO LEGAL (LIV)',
+          'CONTRADITÓRIO E AMPLA DEFESA (LV)',
+          'PRESUNÇÃO DE INOCÊNCIA (LVII)',
+          'PROVAS ILÍCITAS — vedação (LVI)',
+          'JÚRI (XXXVIII)',
+          'JUIZ NATURAL E PROMOTOR NATURAL'
+        ]},
+
+        { type: 'h', text: 'Infraconstitucionais' },
+        { type: 'list', items: [
+          'OFICIALIDADE (Estado promove)',
+          'OFICIOSIDADE (MP age de ofício)',
+          'INDISPONIBILIDADE (em regra, MP não pode dispor — temperado pela ANPP)',
+          'INDIVISIBILIDADE da ação (alcança todos os autores conhecidos)',
+          'INTRANSCENDÊNCIA (não passa da pessoa do réu)'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei processual penal no tempo',
+      items: [
+        { type: 'p', text: '**APLICAÇÃO IMEDIATA (CPP 2º — tempus regit actum):** lei processual penal aplica-se IMEDIATAMENTE aos processos em curso, respeitados os atos já praticados. Diferente da lei material penal (irretroatividade salvo lex mitior).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime (Lei 13.964/19) consolidou sistema ACUSATÓRIO no Brasil (CPP 3º-A).**' },
+        { type: 'box', kind: 'macete', text: '**Lei processual penal: aplicação IMEDIATA (CPP 2º — tempus regit actum). ≠ lei MATERIAL penal (irretroatividade salvo benefício).**' },
+        { type: 'box', kind: 'macete', text: '**Princípios CF: DEVIDO PROCESSO · CONTRADITÓRIO · AMPLA DEFESA · PRESUNÇÃO INOCÊNCIA · JUIZ NATURAL · PROVAS ILÍCITAS vedadas.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** garantias processuais penais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios):** promotor natural decorre do art. 5º LIII.' }
+      ]
+    }
+  ] },
+  { id: 'pp-02-inquerito-investigacao', num: 2, materia: 'pp', title: 'Inquérito policial e investigação criminal', edital: '2.2.2', editalText: 'CPP arts. 4º-23. PIC. Cadeia de custódia. Acordo de não persecução penal.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Inquérito policial (CPP arts. 4º-23)', 'Investigação criminal pelo MP (PIC) — Res. CNMP 181', 'Indiciamento', 'Cadeia de custódia (CPP arts. 158-A a 158-F)', 'Juiz das garantias (CPP art. 3º-B — Pacote Anticrime)', 'Acordo de não persecução penal (CPP art. 28-A)', 'Arquivamento do inquérito'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **INQUÉRITO POLICIAL** (CPP 4º-23) é procedimento inquisitorial, presidido por delegado, destinado a apurar autoria e materialidade. Para o concurso: características, prazos, indiciamento, cadeia de custódia, juiz de garantias, ANPP, arquivamento.' }
+      ]
+    },
+    {
+      h: 'Inquérito policial — características',
+      items: [
+        { type: 'list', items: [
+          'Inquisitorial (não há contraditório nem ampla defesa)',
+          'Escrito · Sigiloso · Indisponível pela polícia',
+          'Discricionário (delegado decide diligências)',
+          'Procedimento ADMINISTRATIVO (não judicial)',
+          '**Prazo:** 10 dias (preso) · 30 dias (solto), prorrogáveis por delegado',
+          'Pode ser INSTAURADO por: portaria de delegado, requisição do juiz/MP, requerimento da vítima, auto de prisão em flagrante'
+        ]}
+      ]
+    },
+    {
+      h: 'Investigação direta pelo MP (PIC)',
+      items: [
+        { type: 'p', text: '**STF — RE 593.727 (Tema 184, 2015):** MP pode investigar criminalmente diretamente. Disciplina: Resolução CNMP 181/2017. PIC (Procedimento Investigatório Criminal) é instrumento autônomo do MP, paralelo ao IP.' }
+      ]
+    },
+    {
+      h: 'Cadeia de custódia (CPP 158-A a 158-F — Pacote Anticrime)',
+      items: [
+        { type: 'p', text: 'Documenta o ITINERÁRIO da prova material (fluxo de custódia). 10 etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento, descarte. Quebra da cadeia: NULIDADE da prova.' }
+      ]
+    },
+    {
+      h: 'Juiz de Garantias (CPP 3º-B — Pacote Anticrime)',
+      items: [
+        { type: 'p', text: 'Lei 13.964/19 criou o JUIZ DE GARANTIAS — atua na fase pré-processual (investigação), distinto do juiz que julga o mérito. Visa preservar imparcialidade. STF — ADI 6.298 (2023): suspensa eficácia em parte. Tema dinâmico — acompanhar.' }
+      ]
+    },
+    {
+      h: 'ANPP (Acordo de Não Persecução Penal — CPP 28-A)',
+      items: [
+        { type: 'list', items: [
+          'Pacote Anticrime (Lei 13.964/19)',
+          'Crime SEM violência ou grave ameaça, com pena MÍNIMA INFERIOR a 4 anos',
+          'Réu CONFESSA · MP propõe acordo · Juiz HOMOLOGA',
+          'Cláusulas: reparação do dano + prestação de serviços ou pecuniária + outras condições',
+          'Cumprido = extinta punibilidade. Descumprimento = denúncia',
+          'STF — ADI 6.298: validou ANPP'
+        ]}
+      ]
+    },
+    {
+      h: 'Arquivamento (CPP 28 — pós-Pacote Anticrime)',
+      items: [
+        { type: 'p', text: 'Lei 13.964/19 alterou o CPP 28: arquivamento do MP é COMUNICADO ao JUIZ que apenas TOMA CIÊNCIA. Antes, juiz REVISAVA. STF — ADI 6.298 SUSPENDEU PARCIALMENTE a eficácia. Tema em movimento.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**IP é INQUISITORIAL: sem contraditório nem ampla defesa.** Prazos: 10 dias preso, 30 solto.' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime trouxe: JUIZ DE GARANTIAS · ANPP · CADEIA DE CUSTÓDIA · novo art. 28 (arquivamento).**' },
+        { type: 'box', kind: 'macete', text: '**ANPP: SEM violência, pena mínima < 4 anos, confissão.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**STF (ADI 6.298, 2023): juiz de garantias e novo CPP 28 com eficácia parcialmente suspensa.** Tema dinâmico.' },
+        { type: 'box', kind: 'atencao', text: '**ANPP exige confissão do réu — não funciona à revelia.**' },
+        { type: 'box', kind: 'atencao', text: '**STF Tema 184 (RE 593.727, 2015): MP PODE investigar diretamente (PIC).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** PIC e ANPP — instrumentos do MP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13 (legislação especial):** Pacote Anticrime modificou várias áreas.' }
+      ]
+    }
+  ] },
+  { id: 'pp-03-acao-penal', num: 3, materia: 'pp', title: 'Ação penal', edital: '2.2.3', editalText: 'Pública incondicionada, condicionada, privada. Denúncia e queixa.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Espécies de ação penal', 'Ação penal pública incondicionada', 'Ação penal pública condicionada (representação, requisição)', 'Ação penal privada (exclusiva, personalíssima, subsidiária)', 'Denúncia e queixa — requisitos (CPP art. 41)', 'Aditamento', 'Princípios da ação penal pública'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **AÇÃO PENAL** é o instrumento pelo qual se postula a punição. CF 129 I: privativa do MP (a pública). Já vista no Penal 9 (material). Aqui foco: denúncia, queixa, requisitos do art. 41 CPP, aditamento, princípios.' }
+      ]
+    },
+    {
+      h: 'Espécies (já vistas em Penal 9)',
+      items: [
+        { type: 'list', items: [
+          'PÚBLICA INCONDICIONADA (regra)',
+          'PÚBLICA CONDICIONADA À REPRESENTAÇÃO (vítima ou representante)',
+          'PÚBLICA CONDICIONADA À REQUISIÇÃO (Ministro da Justiça)',
+          'PRIVADA EXCLUSIVA (querelante)',
+          'PRIVADA SUBSIDIÁRIA DA PÚBLICA (CF 5º LIX)'
+        ]}
+      ]
+    },
+    {
+      h: 'Denúncia e queixa (CPP 41)',
+      items: [
+        { type: 'h', text: 'Requisitos (CPP 41)' },
+        { type: 'list', items: [
+          'EXPOSIÇÃO do fato criminoso, com todas as circunstâncias',
+          'QUALIFICAÇÃO do acusado ou esclarecimentos sobre identificação',
+          'CLASSIFICAÇÃO do crime',
+          'ROL DE TESTEMUNHAS quando necessário'
+        ]},
+
+        { type: 'h', text: 'Diferenças' },
+        { type: 'list', items: [
+          '**DENÚNCIA:** ação pública. Pelo MP',
+          '**QUEIXA-CRIME:** ação privada. Pelo querelante',
+          '**Receberá ou rejeitará** (CPP 395-397) — pelo juiz competente'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios da ação penal pública',
+      items: [
+        { type: 'list', items: [
+          '**OFICIALIDADE:** órgão estatal (MP) titular',
+          '**OBRIGATORIEDADE:** MP deve denunciar quando há justa causa (temperada pelo ANPP)',
+          '**INDISPONIBILIDADE:** MP não pode dispor (temperada)',
+          '**INTRANSCENDÊNCIA:** ação não passa da pessoa do réu',
+          '**INDIVISIBILIDADE:** alcança todos os autores conhecidos',
+          '**OFICIOSIDADE:** MP age de ofício'
+        ]}
+      ]
+    },
+    {
+      h: 'Aditamento',
+      items: [
+        { type: 'list', items: [
+          'ESPONTÂNEO ou PROVOCADO (mutatio libelli — CPP 384)',
+          'Para incluir nova circunstância, agente ou novo fato',
+          'Aditamento que altere o fato (mutatio): exige nova citação e ampla defesa',
+          'CPP 384: nova definição jurídica que NÃO conste da denúncia/queixa — necessidade de aditamento'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Denúncia × Queixa: ação pública × privada.**' },
+        { type: 'box', kind: 'macete', text: '**6 princípios da ação pública: OFICIALIDADE · OBRIGATORIEDADE · INDISPONIBILIDADE · INTRANSCENDÊNCIA · INDIVISIBILIDADE · OFICIOSIDADE.**' },
+        { type: 'box', kind: 'macete', text: '**ANPP temperou a obrigatoriedade — o MP pode propor acordo em vez de denunciar.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Subsidiária só cabe à VÍTIMA — não a qualquer cidadão.**' },
+        { type: 'box', kind: 'atencao', text: '**Aditamento provocado (mutatio libelli — CPP 384): nova citação obrigatória.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 9:** espécies de ação penal (material).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** ação penal pública é privativa do MP.' }
+      ]
+    }
+  ] },
+  { id: 'pp-04-sujeitos-processo', num: 4, materia: 'pp', title: 'Sujeitos do processo penal', edital: '2.2.4', editalText: 'Juiz, MP, querelante, réu, defensor, vítima, assistente de acusação.', size: 'Pequeno', schedule: 'Mês 13', advantage: null, outline: ['Juiz e juiz das garantias', 'MP no processo penal', 'Acusado e defensor', 'Querelante e querelado', 'Vítima — Lei 13.431/17 e CPP', 'Assistente de acusação (CPP arts. 268-273)', 'Auxiliares da Justiça'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **SUJEITOS DO PROCESSO PENAL** são os atores principais: JUIZ (princ.), MP, ACUSADO, DEFENSOR, QUERELANTE, VÍTIMA, ASSISTENTE de acusação. Cada um com papel próprio.' }
+      ]
+    },
+    {
+      h: 'Sujeitos principais',
+      items: [
+        { type: 'list', items: [
+          '**JUIZ:** órgão imparcial. Pacote Anticrime: separação entre juiz das GARANTIAS (fase pré-processual) e juiz da INSTRUÇÃO (mérito) — CPP 3º-B',
+          '**MP:** titular da ação penal pública (CF 129 I). Promotor natural',
+          '**QUERELANTE:** titular da ação privada (vítima ou representante)',
+          '**ACUSADO/RÉU:** sujeito passivo da pretensão punitiva. Direitos: ampla defesa, contraditório, presunção de inocência, calar-se',
+          '**DEFENSOR:** advogado constituído ou Defensoria Pública (necessário em todos os processos — CF 5º LXIII e LXXIV)',
+          '**VÍTIMA:** Lei 13.431/17 — direitos da vítima (acompanhamento, indenização, assistência)',
+          '**ASSISTENTE DE ACUSAÇÃO (CPP 268-273):** ofendido ou representante. Pode ingressar em qualquer fase, atua ao lado do MP. NÃO substitui o MP'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime: Juiz das GARANTIAS (pré-processual) × Juiz da INSTRUÇÃO (mérito).** STF ADI 6.298: eficácia parcialmente suspensa.' },
+        { type: 'box', kind: 'macete', text: '**Assistente de acusação (CPP 268-273): atua ao lado do MP, não o substitui. Pode ingressar a qualquer tempo.**' },
+        { type: 'box', kind: 'macete', text: '**Defesa técnica é OBRIGATÓRIA — Defensoria atua se réu não tem advogado.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5/6 (LCs):** estatutos do MP detalham atuação no processo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** Defensoria, MP, advocacia.' }
+      ]
+    }
+  ] },
+  { id: 'pp-05-competencia-criminal', num: 5, materia: 'pp', title: 'Competência criminal', edital: '2.2.5', editalText: 'CPP arts. 69-91. Foro por prerrogativa. Conexão e continência.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Critérios de competência (lugar, natureza, prevenção, prerrogativa de função)', 'Competência da Justiça Federal × Estadual', 'Foro por prerrogativa de função (STF/STJ)', 'Conexão (CPP art. 76) e continência (art. 77)', 'Prorrogação e modificação', 'Conflito de competência'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **COMPETÊNCIA CRIMINAL** define qual juízo é apto a julgar. Critérios constitucionais (Justiça Federal × Estadual) e legais (lugar, natureza, etc.). CPP 69-91. **STF AP 937 (2018)** restringiu o foro por prerrogativa.' }
+      ]
+    },
+    {
+      h: 'Critérios e competências',
+      items: [
+        { type: 'h', text: 'Critérios (CPP 69)' },
+        { type: 'list', items: [
+          'LUGAR DA INFRAÇÃO (CPP 70 — teoria do RESULTADO, diferente do penal material que adota ubiquidade)',
+          'DOMICÍLIO DO RÉU (residual, CPP 72)',
+          'NATUREZA DA INFRAÇÃO',
+          'DISTRIBUIÇÃO E CONEXÃO/CONTINÊNCIA',
+          'PRERROGATIVA DE FUNÇÃO'
+        ]},
+
+        { type: 'h', text: 'Justiça Federal × Estadual' },
+        { type: 'list', items: [
+          '**JUSTIÇA FEDERAL (CF 109):** crimes contra bens, serviços ou interesses da União; tráfico internacional; crimes em embarcações/aeronaves; crimes contra a organização do trabalho; crimes políticos; etc.',
+          '**JUSTIÇA ESTADUAL:** competência residual'
+        ]},
+
+        { type: 'h', text: 'Foro por prerrogativa (STF AP 937, 2018)' },
+        { type: 'p', text: '**Restringido:** foro só se aplica a crimes praticados DURANTE e EM RAZÃO do cargo. Antes era amplo. Pacote Anticrime e jurisprudência STF moldaram a interpretação.' }
+      ]
+    },
+    {
+      h: 'Conexão e continência (CPP 76-77)',
+      items: [
+        { type: 'list', items: [
+          '**CONEXÃO (76):** intersubjetiva (mesma autoria), objetiva (mesmo fato), instrumental (uma é prova da outra)',
+          '**CONTINÊNCIA (77):** união de pessoas (concurso) ou de causas (continuada)',
+          'Efeito: REUNIÃO DE PROCESSOS (CPP 78)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Lugar do crime no CPP: TEORIA DO RESULTADO (CPP 70). ≠ CP material: ubiquidade.**' },
+        { type: 'box', kind: 'macete', text: '**STF AP 937 (2018): foro por prerrogativa restringido a crimes praticados DURANTE e EM RAZÃO do cargo.**' },
+        { type: 'box', kind: 'macete', text: '**CONEXÃO (CPP 76) e CONTINÊNCIA (77) → REUNIÃO de processos.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 2 (aplicação da lei):** lugar do crime para o CP é UBIQUIDADE; para o CPP é RESULTADO.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** STF/STJ — competências constitucionais.' }
+      ]
+    }
+  ] },
+  { id: 'pp-06-provas', num: 6, materia: 'pp', title: 'Provas no processo penal', edital: '2.2.6', editalText: 'Princípios. Meios de prova. Provas ilícitas. Lei 13.964/19.', size: 'Grande', schedule: 'Mês 13', advantage: null, outline: ['Princípios da prova (livre convencimento motivado, contraditório)', 'Ônus da prova (CPP art. 156)', 'Meios de prova (perícia, interrogatório, confissão, testemunhas, documentos, busca e apreensão)', 'Provas ilícitas (CF art. 5º LVI; CPP art. 157)', 'Teoria dos frutos da árvore envenenada', 'Limites — descoberta inevitável, fonte independente', 'Cadeia de custódia da prova', 'Colaboração premiada (Lei 12.850/13)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **PROVA NO PROCESSO PENAL** é instrumento essencial para a busca da verdade processual. CF 5º LVI veda PROVAS ILÍCITAS. CPP 157: vedação + frutos da árvore envenenada (com exceções: descoberta inevitável, fonte independente).' }
+      ]
+    },
+    {
+      h: 'Princípios e ônus',
+      items: [
+        { type: 'list', items: [
+          '**LIVRE CONVENCIMENTO MOTIVADO** (CPP 155 — sistema do livre convencimento motivado/persuasão racional)',
+          '**CONTRADITÓRIO** (CF 5º LV)',
+          '**ÔNUS DA PROVA (CPP 156):** acusação prova fato constitutivo; defesa prova excludentes',
+          '**IN DUBIO PRO REO:** dúvida = absolvição'
+        ]}
+      ]
+    },
+    {
+      h: 'Meios de prova',
+      items: [
+        { type: 'list', items: [
+          'PERÍCIA (CPP 158-184)',
+          'INTERROGATÓRIO do acusado (CPP 185-196)',
+          'CONFISSÃO (CPP 197-200)',
+          'TESTEMUNHAS (CPP 202-225)',
+          'DOCUMENTOS (CPP 231-238)',
+          'BUSCA E APREENSÃO (CPP 240-250)',
+          'INTERCEPTAÇÃO TELEFÔNICA (Lei 9.296/96 — exige autorização judicial)',
+          'INFILTRAÇÃO POLICIAL (Lei 12.850/13)',
+          'COLABORAÇÃO PREMIADA (Lei 12.850/13)'
+        ]}
+      ]
+    },
+    {
+      h: 'Provas ilícitas (CF 5º LVI; CPP 157)',
+      items: [
+        { type: 'h', text: 'Vedação' },
+        { type: 'p', text: 'CF 5º LVI: "são inadmissíveis, no processo, as provas obtidas por meios ilícitos". Implica DESENTRANHAMENTO. CPP 157: provas ilícitas e DERIVADAS (frutos da árvore envenenada).' },
+
+        { type: 'h', text: 'Frutos da árvore envenenada' },
+        { type: 'list', items: [
+          'Provas DERIVADAS de prova ilícita são também ilícitas',
+          '**EXCEÇÕES:** descoberta INEVITÁVEL, fonte INDEPENDENTE, atenuação do nexo'
+        ]},
+
+        { type: 'h', text: 'Provas ilícitas em favor do réu (pro reo)' },
+        { type: 'p', text: 'Doutrina e STF admitem prova obtida ilicitamente desde que para PROVAR INOCÊNCIA (princípio da proporcionalidade). Excepcionalmente.' }
+      ]
+    },
+    {
+      h: 'Colaboração premiada (Lei 12.850/13)',
+      items: [
+        { type: 'list', items: [
+          'Acordo entre MP e investigado/réu',
+          'Réu COLABORA EFETIVAMENTE com a investigação',
+          'Em troca, recebe BENEFÍCIO (perdão judicial, redução, substituição)',
+          'STF: NÃO é meio de prova autônomo — é MEIO DE OBTENÇÃO de prova'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Provas ilícitas: CF 5º LVI + CPP 157 — INADMISSÍVEIS.** Frutos da árvore envenenada.' },
+        { type: 'box', kind: 'macete', text: '**Exceções aos frutos: DESCOBERTA INEVITÁVEL · FONTE INDEPENDENTE · ATENUAÇÃO DO NEXO.**' },
+        { type: 'box', kind: 'macete', text: '**Sistema brasileiro: LIVRE CONVENCIMENTO MOTIVADO (persuasão racional) — CPP 155.**' },
+        { type: 'box', kind: 'macete', text: '**Colaboração premiada (Lei 12.850/13): MEIO DE OBTENÇÃO de prova, não meio de prova autônomo.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Provas ilícitas pro reo: admitidas excepcionalmente em favor da defesa (proporcionalidade).**' },
+        { type: 'box', kind: 'atencao', text: '**Confissão isolada NÃO basta para condenação — precisa de outros elementos (CPP 197).**' },
+        { type: 'box', kind: 'atencao', text: '**Interceptação telefônica EXIGE autorização judicial (Lei 9.296/96 + reserva de jurisdição).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** vedação a provas ilícitas (CF 5º LVI).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 2 (inquérito):** cadeia de custódia (CPP 158-A).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13 (legislação especial):** colaboração premiada — Lei 12.850/13.' }
+      ]
+    }
+  ] },
   { id: 'pp-07-prisao-cautelares', num: 7, materia: 'pp', title: 'Prisão e medidas cautelares', edital: '2.2.7', editalText: 'CPP arts. 282-350. Lei 12.403/11. Lei 13.964/19. Audiência de custódia.', size: 'Grande', schedule: null, advantage: null, outline: ['Prisão em flagrante', 'Prisão temporária (Lei 7.960/89)', 'Prisão preventiva (CPP arts. 311-316)', 'Audiência de custódia (CPP art. 310)', 'Liberdade provisória', 'Medidas cautelares diversas (CPP art. 319)', 'Reanálise periódica (CPP art. 316 § único)'], sections: [] },
   { id: 'pp-08-procedimentos', num: 8, materia: 'pp', title: 'Procedimentos comum e especiais', edital: '2.2.8', editalText: 'Ordinário, sumário, sumaríssimo. Especiais. Citação e defesa preliminar.', size: 'Grande', schedule: null, advantage: null, outline: ['Procedimento comum (ordinário, sumário, sumaríssimo)', 'Citação (real, hora certa, edital)', 'Resposta à acusação (CPP art. 396)', 'Audiência de instrução e julgamento', 'Procedimentos especiais (júri, crimes funcionais, drogas, JECrim)'], sections: [] },
   { id: 'pp-09-tribunal-juri', num: 9, materia: 'pp', title: 'Tribunal do Júri', edital: '2.2.9', editalText: 'CPP arts. 406-497. Procedimento bifásico (judicium accusationis e causae).', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios constitucionais (CF art. 5º XXXVIII)', 'Competência (crimes dolosos contra a vida)', 'Judicium accusationis — pronúncia, impronúncia, absolvição sumária, desclassificação', 'Preparação para o plenário', 'Sessão de julgamento', 'Quesitação', 'Recursos (apelação, protesto por novo júri — extinto)'], sections: [] },
@@ -12773,7 +13175,23 @@ flashcards: [
   { id: 548, topic: 13, materia: 'penal', q: 'Organização Criminosa (Lei 12.850/13) — conceito?', a: 'Associação de 4+ pessoas, estruturalmente ordenada, com divisão de tarefas, visando vantagem ilícita, mediante prática de infrações com penas máximas SUPERIORES a 4 anos. Permite COLABORAÇÃO PREMIADA e INFILTRAÇÃO.', tags: ['penal', 'organizacao-criminosa'] },
   { id: 549, topic: 14, materia: 'penal', q: 'Escolas criminológicas — sequência histórica?', a: 'CLÁSSICA (Beccaria — livre-arbítrio) → POSITIVA (Lombroso, Ferri, Garofalo — determinismo) → SOCIOLÓGICAS (Chicago, Sutherland, Merton) → LABELLING APPROACH (rotulação) → CRIMINOLOGIA CRÍTICA (Baratta).', tags: ['penal', 'criminologia'] },
   { id: 550, topic: 14, materia: 'penal', q: 'Prevenção criminal — 3 níveis?', a: 'PRIMÁRIA (atua sobre CAUSAS — educação, emprego, moradia) · SECUNDÁRIA (atua sobre GRUPOS de risco) · TERCIÁRIA (atua sobre quem já delinquiu — ressocialização).', tags: ['penal', 'prevencao'] },
-  { id: 551, topic: 14, materia: 'penal', q: 'Funções da pena no Brasil — qual teoria?', a: 'TEORIA MISTA/UNIÃO. CP art. 59 + LEP combinam: RETRIBUIÇÃO + PREVENÇÃO GERAL (intimidar coletividade) + PREVENÇÃO ESPECIAL (ressocializar agente). Doutrina dominante.', tags: ['penal', 'funcoes-pena'] }
+  { id: 551, topic: 14, materia: 'penal', q: 'Funções da pena no Brasil — qual teoria?', a: 'TEORIA MISTA/UNIÃO. CP art. 59 + LEP combinam: RETRIBUIÇÃO + PREVENÇÃO GERAL (intimidar coletividade) + PREVENÇÃO ESPECIAL (ressocializar agente). Doutrina dominante.', tags: ['penal', 'funcoes-pena'] },
+
+  // === Cards Rodada 12 — PP 1-6 ===
+  { id: 552, topic: 1, materia: 'pp', q: 'Sistema processual penal no Brasil pós-Pacote Anticrime?', a: 'ACUSATÓRIO (CPP art. 3º-A — Lei 13.964/19). Separação entre acusação (MP/querelante), defesa e julgamento. Antes, doutrina divergia entre misto e acusatório.', tags: ['pp', 'sistema-acusatorio'] },
+  { id: 553, topic: 1, materia: 'pp', q: 'Lei processual penal no tempo (CPP 2º)?', a: 'APLICAÇÃO IMEDIATA — tempus regit actum. Aplica-se aos processos em curso, respeitando atos já praticados. Diferente da lei MATERIAL penal (irretroatividade salvo benefício — CF 5º XL).', tags: ['pp', 'lei-temporal'] },
+  { id: 554, topic: 2, materia: 'pp', q: 'IP — características essenciais?', a: 'INQUISITORIAL (sem contraditório nem ampla defesa) · ESCRITO · SIGILOSO · INDISPONÍVEL · DISCRICIONÁRIO · ADMINISTRATIVO. Prazos: 10 dias preso, 30 solto.', tags: ['pp', 'inquerito'] },
+  { id: 555, topic: 2, materia: 'pp', q: 'ANPP (CPP 28-A) — requisitos?', a: 'Crime SEM violência ou grave ameaça · pena MÍNIMA inferior a 4 anos · CONFISSÃO do réu · proposta do MP + homologação judicial. Cláusulas: reparação, prestação de serviços/pecuniária. Cumprido = extingue punibilidade.', tags: ['pp', 'ANPP'] },
+  { id: 556, topic: 2, materia: 'pp', q: 'Cadeia de custódia (CPP 158-A — Pacote Anticrime)?', a: 'Documenta o ITINERÁRIO da prova material. 10 etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento, descarte. Quebra = NULIDADE.', tags: ['pp', 'cadeia-custodia'] },
+  { id: 557, topic: 3, materia: 'pp', q: 'Princípios da ação penal pública?', a: 'OFICIALIDADE · OBRIGATORIEDADE (temperada por ANPP) · INDISPONIBILIDADE · INTRANSCENDÊNCIA · INDIVISIBILIDADE · OFICIOSIDADE.', tags: ['pp', 'acao-penal-principios'] },
+  { id: 558, topic: 3, materia: 'pp', q: 'Requisitos da denúncia (CPP 41)?', a: 'EXPOSIÇÃO do fato + circunstâncias · QUALIFICAÇÃO do acusado · CLASSIFICAÇÃO do crime · ROL DE TESTEMUNHAS quando necessário. Falta = inépcia (CPP 395).', tags: ['pp', 'denuncia'] },
+  { id: 559, topic: 4, materia: 'pp', q: 'Assistente de acusação (CPP 268-273)?', a: 'OFENDIDO ou representante. Pode ingressar em qualquer fase. Atua AO LADO do MP — não o substitui. Pode interpor recursos. Atribuições limitadas.', tags: ['pp', 'assistente'] },
+  { id: 560, topic: 4, materia: 'pp', q: 'Juiz de garantias × Juiz da instrução (Pacote Anticrime)?', a: 'Lei 13.964/19 criou (CPP 3º-B): JUIZ DAS GARANTIAS atua na fase pré-processual; JUIZ DA INSTRUÇÃO julga o mérito. STF — ADI 6.298 (2023): eficácia parcialmente suspensa. Tema dinâmico.', tags: ['pp', 'juiz-garantias'] },
+  { id: 561, topic: 5, materia: 'pp', q: 'Lugar do crime — CPP × CP material?', a: 'CPP 70: TEORIA DO RESULTADO (lugar onde se produziu o resultado). CP MATERIAL 6º: TEORIA DA UBIQUIDADE/MISTA (lugar da ação OU do resultado). Pegadinha clássica.', tags: ['pp', 'lugar-crime'] },
+  { id: 562, topic: 5, materia: 'pp', q: 'STF AP 937 — foro por prerrogativa?', a: 'Foro por prerrogativa de função RESTRINGIDO a crimes praticados DURANTE e EM RAZÃO do cargo. Antes da AP 937 (2018), foro era amplo. Mudança de paradigma.', tags: ['pp', 'foro-prerrogativa'] },
+  { id: 563, topic: 6, materia: 'pp', q: 'Provas ilícitas — CF 5º LVI + CPP 157?', a: 'INADMISSÍVEIS. Devem ser DESENTRANHADAS. Frutos da árvore envenenada (provas derivadas) também são ilícitas. EXCEÇÕES: descoberta inevitável · fonte independente · atenuação do nexo.', tags: ['pp', 'provas-ilicitas'] },
+  { id: 564, topic: 6, materia: 'pp', q: 'Sistema brasileiro de valoração da prova?', a: 'LIVRE CONVENCIMENTO MOTIVADO (persuasão racional — CPP 155). Juiz é livre para apreciar a prova, mas DEVE FUNDAMENTAR sua decisão. Não há prova com valor predeterminado (salvo exceções como exame de corpo de delito).', tags: ['pp', 'valoracao-prova'] },
+  { id: 565, topic: 6, materia: 'pp', q: 'Colaboração premiada — natureza?', a: 'MEIO DE OBTENÇÃO de prova (não meio de prova autônomo — STF). Lei 12.850/13. Acordo MP × réu, com benefícios (perdão, redução, substituição). Homologação judicial obrigatória.', tags: ['pp', 'colaboracao-premiada'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -15511,6 +15929,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'Doutrina criminológica clássica. (A) Falso — Clássica = livre-arbítrio. (B) Falso — Positiva = determinismo. (D) Falso — Brasil adota teoria MISTA (retribuição + prevenção). (E) Falso — Criminologia crítica defende DIREITO PENAL MÍNIMO, não aumento de penas.'
+  },
+
+  // === Questões Rodada 12 — PP 1-6 ===
+  {
+    id: 197, topic: 1, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios e o sistema processual penal:',
+    alternatives: [
+      'O Brasil adota o sistema INQUISITÓRIO, em que o mesmo órgão investiga, acusa e julga.',
+      'O Pacote Anticrime (Lei 13.964/19) consolidou o SISTEMA ACUSATÓRIO no Brasil (CPP art. 3º-A), com separação clara entre acusação, defesa e julgamento.',
+      'A lei processual penal segue a regra da irretroatividade absoluta, conforme aplicação analógica do CF 5º XL.',
+      'A presunção de inocência (CF 5º LVII) impede a aplicação de medidas cautelares, ainda que fundamentadas.',
+      'O princípio do juiz natural permite a designação ad hoc de magistrado para julgamento de caso específico.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 13.964/19 (CPP 3º-A). (A) Falso — Brasil adota acusatório. (C) Falso — lei processual aplica-se IMEDIATAMENTE (CPP 2º — tempus regit actum). (D) Falso — presunção de inocência não impede cautelares fundamentadas. (E) Falso — juiz natural VEDA designação ad hoc.'
+  },
+  {
+    id: 198, topic: 2, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do inquérito policial e da investigação criminal:',
+    alternatives: [
+      'O inquérito policial é procedimento JUDICIAL, presidido por juiz, com observância plena do contraditório e ampla defesa.',
+      'O ANPP (Acordo de Não Persecução Penal — CPP 28-A, Pacote Anticrime) cabe em crimes COM violência ou grave ameaça, desde que pena máxima não superior a 4 anos.',
+      'O Ministério Público NÃO pode realizar investigação criminal direta, em razão da privatividade da polícia judiciária.',
+      'O inquérito policial é INQUISITORIAL (sem contraditório nem ampla defesa); o ANPP cabe em crimes SEM violência, com pena MÍNIMA INFERIOR a 4 anos, mediante CONFISSÃO do réu; STF (RE 593.727/Tema 184, 2015) reconhece o poder investigatório direto do MP (PIC).',
+      'A cadeia de custódia (CPP 158-A — Pacote Anticrime) aplica-se exclusivamente à prova testemunhal.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 4º + CPP 28-A + STF Tema 184. (A) Falso — IP é administrativo, inquisitorial. (B) Falso — ANPP: SEM violência, pena MÍNIMA inferior a 4. (C) Falso — STF Tema 184: MP investiga (PIC). (E) Falso — cadeia de custódia é da prova MATERIAL.'
+  },
+  {
+    id: 199, topic: 3, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ação penal:',
+    alternatives: [
+      'A denúncia, na ação pública, deve ser ofertada por qualquer cidadão, conforme princípio da subsidiariedade.',
+      'A ação penal privada exclusiva é proposta pelo Ministério Público.',
+      'O aditamento que altera a definição jurídica do fato (mutatio libelli — CPP 384) dispensa nova citação do acusado.',
+      'A ação penal pública incondicionada não exige a representação da vítima nem a requisição do Ministro da Justiça, sendo o MP o titular natural; a ação privada subsidiária da pública (CF 5º LIX) compete à vítima ou seu representante quando o MP for omisso.',
+      'Os princípios da intranscendência e indivisibilidade são aplicáveis somente à ação penal privada.'
+    ],
+    correct: 'D',
+    explanation: 'CPP + CF 5º LIX. (A) Falso — denúncia é privativa do MP. (B) Falso — privada exclusiva é proposta pelo querelante (vítima). (C) Falso — mutatio libelli exige nova citação. (E) Falso — princípios aplicam-se a ambas (com nuances).'
+  },
+  {
+    id: 200, topic: 4, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os sujeitos do processo penal:',
+    alternatives: [
+      'O assistente de acusação (CPP 268-273) substitui integralmente o Ministério Público em sua atuação processual.',
+      'A defesa técnica é dispensável quando o réu manifestar expressamente o desejo de se defender pessoalmente.',
+      'O juiz das garantias, criado pelo Pacote Anticrime (CPP art. 3º-B), tem como função atuar na fase de INSTRUÇÃO E JULGAMENTO do processo penal.',
+      'O assistente de acusação é o ofendido (ou seu representante) que ingressa no processo AO LADO do MP — não o substitui; pode atuar em qualquer fase. A defesa técnica é OBRIGATÓRIA. O juiz das garantias atua na fase PRÉ-PROCESSUAL (Pacote Anticrime — CPP 3º-B), com eficácia parcialmente suspensa pelo STF (ADI 6.298, 2023).',
+      'O Ministério Público atua exclusivamente na ação penal privada subsidiária.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 268-273 + CPP 3º-B + STF ADI 6.298. (A) Falso — não substitui. (B) Falso — defesa técnica é obrigatória. (C) Falso — juiz de garantias atua na PRÉ-PROCESSUAL. (E) Falso — MP é titular da ação pública.'
+  },
+  {
+    id: 201, topic: 5, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a competência criminal:',
+    alternatives: [
+      'O lugar do crime, para fins de competência territorial, é definido pela teoria da ATIVIDADE, conforme CPP art. 70.',
+      'O foro por prerrogativa de função, conforme STF (AP 937, 2018), aplica-se a TODOS os crimes praticados pelo agente, independentemente de relação com o cargo.',
+      'A conexão entre processos (CPP 76) leva à reunião dos processos.',
+      'A competência da Justiça Federal abrange crimes contra bens, serviços ou interesses da União (CF 109); o lugar do crime, para o CPP (art. 70), adota a teoria do RESULTADO, distinta da ubiquidade do CP material; o foro por prerrogativa, após STF AP 937 (2018), restringe-se a crimes praticados durante e em razão do cargo.',
+      'A continência (CPP 77) determina o desmembramento dos processos.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 70, 76, 77 + CF 109 + STF AP 937. (A) Falso — CPP adota RESULTADO (atividade é do CP material). (B) Falso — STF AP 937: só durante e em razão. (C) Verdadeiro mas incompleto — D é mais abrangente. (E) Falso — continência leva a REUNIÃO.'
+  },
+  {
+    id: 202, topic: 6, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as provas no processo penal:',
+    alternatives: [
+      'A confissão isolada do acusado é suficiente para a condenação, conforme princípio do livre convencimento.',
+      'As provas obtidas por meios ilícitos são, em regra, ADMISSÍVEIS no processo, salvo quando obtidas com violência.',
+      'A teoria dos frutos da árvore envenenada (CPP art. 157) implica a NULIDADE de todas as provas DERIVADAS de prova ilícita; admite-se exceção em casos de descoberta INEVITÁVEL, fonte INDEPENDENTE ou atenuação do nexo causal.',
+      'A interceptação telefônica pode ser realizada diretamente pela polícia judiciária, sem necessidade de autorização judicial, em situações de urgência.',
+      'A colaboração premiada (Lei 12.850/13) constitui meio de prova autônomo, não dependendo de homologação judicial.'
+    ],
+    correct: 'C',
+    explanation: 'CPP 157 + CF 5º LVI. (A) Falso — confissão isolada NÃO basta (CPP 197). (B) Falso — CF 5º LVI: inadmissíveis. (D) Falso — interceptação EXIGE autorização judicial (Lei 9.296/96 + reserva de jurisdição). (E) Falso — colaboração é MEIO DE OBTENÇÃO de prova; exige homologação judicial.'
   }
 ],
 
