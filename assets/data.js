@@ -6044,12 +6044,535 @@ topics: [
       ]
     }
   ] },
-  { id: 'const-03-hermeneutica-constitucional', num: 3, materia: 'const', title: 'Hermenêutica e interpretação constitucional', edital: '1.1.3', editalText: 'Métodos e princípios de interpretação. Filtragem constitucional. Concretização.', size: 'Médio', schedule: null, advantage: null, outline: ['Métodos clássicos × específicos', 'Princípios da interpretação (unidade, máxima efetividade, concordância prática, força normativa)', 'Interpretação conforme × declaração de nulidade parcial sem redução', 'Filtragem constitucional', 'Bloco de constitucionalidade'], sections: [] },
-  { id: 'const-04-principios-fundamentais', num: 4, materia: 'const', title: 'Princípios fundamentais (CF arts. 1º a 4º)', edital: '1.1.4', editalText: 'Fundamentos da República. Objetivos. Princípios das relações internacionais.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Fundamentos da República (art. 1º)', 'Separação dos poderes (art. 2º)', 'Objetivos fundamentais (art. 3º)', 'Princípios das relações internacionais (art. 4º)', 'Dignidade da pessoa humana — núcleo'], sections: [] },
-  { id: 'const-05-direitos-garantias-fundamentais', num: 5, materia: 'const', title: 'Direitos e garantias fundamentais (CF art. 5º)', edital: '1.1.5', editalText: 'Direitos individuais e coletivos. Remédios constitucionais. Tratados de DH.', size: 'Grande', schedule: null, advantage: null, outline: ['Geração/dimensão dos direitos fundamentais', 'Características (universalidade, historicidade, etc.)', 'Direitos individuais (art. 5º, I-LXXVIII)', 'Remédios constitucionais (HC, MS, MI, HD, ação popular)', 'Tratados internacionais de DH (art. 5º §§ 2º, 3º, 4º)', 'Eficácia horizontal dos direitos fundamentais'], sections: [] },
-  { id: 'const-06-direitos-sociais-nacionalidade-politicos', num: 6, materia: 'const', title: 'Direitos sociais, nacionalidade, direitos políticos e partidos', edital: '1.1.6', editalText: 'Arts. 6º a 17 da CF. Direitos sociais, trabalhadores, brasileiros, eleitores, partidos.', size: 'Médio', schedule: null, advantage: null, outline: ['Direitos sociais (art. 6º) e do trabalhador (arts. 7º-11)', 'Nacionalidade (art. 12) — nato × naturalizado', 'Direitos políticos (arts. 14-16) — capacidade eleitoral ativa e passiva', 'Inelegibilidades absolutas e relativas', 'Partidos políticos (art. 17)'], sections: [] },
-  { id: 'const-07-organizacao-estado', num: 7, materia: 'const', title: 'Organização do Estado (federalismo)', edital: '1.1.7', editalText: 'Federalismo brasileiro. União, Estados, Municípios, DF, territórios. Repartição de competências.', size: 'Médio', schedule: null, advantage: null, outline: ['Federalismo brasileiro — características', 'União (arts. 20-24)', 'Estados (arts. 25-28)', 'Municípios (arts. 29-31)', 'DF e territórios (arts. 32-33)', 'Repartição de competências (material e legislativa)', 'Intervenção federal e estadual'], sections: [] },
-  { id: 'const-08-organizacao-poderes', num: 8, materia: 'const', title: 'Organização dos Poderes', edital: '1.1.8', editalText: 'Legislativo, Executivo, Judiciário. Processo legislativo. STF, STJ, CNJ.', size: 'Grande', schedule: null, advantage: null, outline: ['Poder Legislativo (arts. 44-75) — Câmara, Senado, CN', 'Processo legislativo (arts. 59-69) — espécies normativas', 'Imunidades parlamentares', 'Poder Executivo (arts. 76-91) — Presidente, Ministros', 'Poder Judiciário (arts. 92-126) — STF, STJ, TST, TSE, STM', 'CNJ — composição e atribuições', 'Garantias da magistratura'], sections: [] },
+  { id: 'const-03-hermeneutica-constitucional', num: 3, materia: 'const', title: 'Hermenêutica e interpretação constitucional', edital: '1.1.3', editalText: 'Métodos e princípios de interpretação. Filtragem constitucional. Concretização.', size: 'Médio', schedule: 'Mês 8', advantage: null, outline: ['Métodos clássicos × específicos', 'Princípios da interpretação (unidade, máxima efetividade, concordância prática, força normativa)', 'Interpretação conforme × declaração de nulidade parcial sem redução', 'Filtragem constitucional', 'Bloco de constitucionalidade'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **HERMENÊUTICA CONSTITUCIONAL** ocupa-se da interpretação da Constituição. Distingue-se da hermenêutica tradicional pela natureza ESPECÍFICA do texto: princípios abertos, valores plurais, papel da realidade social. A doutrina (Konrad Hesse, Friedrich Müller, Häberle, Canotilho) desenvolveu **métodos próprios** e **princípios específicos** de interpretação constitucional.' },
+        { type: 'p', text: 'Para o concurso: (a) **métodos** clássicos (gramatical, sistemático, teleológico, histórico) e os **específicos** da CF (jurídico, científico-espiritual, tópico, normativo-estruturante, concretista, comparativo); (b) **princípios** (unidade, concordância prática, máxima efetividade, força normativa, conformidade funcional, efeito integrador); (c) técnicas de decisão (interpretação conforme, declaração de nulidade parcial sem redução, modulação); (d) **bloco de constitucionalidade** e **filtragem constitucional**.' }
+      ]
+    },
+    {
+      h: 'Métodos e princípios de interpretação',
+      items: [
+        { type: 'h', text: 'Métodos clássicos (Savigny)' },
+        { type: 'list', items: [
+          '**GRAMATICAL/LITERAL** — letra do texto',
+          '**SISTEMÁTICO** — norma no contexto do ordenamento',
+          '**TELEOLÓGICO** — finalidade da norma',
+          '**HISTÓRICO** — contexto de elaboração'
+        ]},
+
+        { type: 'h', text: 'Métodos específicos (constitucionalistas modernos)' },
+        { type: 'list', items: [
+          '**JURÍDICO (Forsthoff)** — Constituição é lei, aplicam-se métodos clássicos',
+          '**CIENTÍFICO-ESPIRITUAL (Smend)** — interpretação valorativa, integradora',
+          '**TÓPICO-PROBLEMÁTICO (Viehweg)** — parte do problema, busca tópicos para solucioná-lo',
+          '**HERMENÊUTICO-CONCRETIZADOR (Hesse)** — concretiza norma a partir de pré-compreensão e do problema',
+          '**NORMATIVO-ESTRUTURANTE (F. Müller)** — distingue programa normativo (texto) e domínio normativo (realidade)',
+          '**COMPARATIVO/COMPARATIVO-CONSTITUCIONAL (Häberle)** — Constituição lida em diálogo com outras Constituições'
+        ]},
+
+        { type: 'h', text: 'Princípios específicos da interpretação' },
+        { type: 'list', items: [
+          '**UNIDADE** — CF lida como TODO HARMÔNICO; sem hierarquia entre normas constitucionais',
+          '**CONCORDÂNCIA PRÁTICA / HARMONIZAÇÃO** — em colisões, otimização recíproca, sem sacrifício total',
+          '**FORÇA NORMATIVA (Hesse)** — interpretar de modo a maximizar a eficácia',
+          '**MÁXIMA EFETIVIDADE** — extrair o máximo dos direitos fundamentais',
+          '**CONFORMIDADE FUNCIONAL** — respeitar a repartição de competências entre órgãos',
+          '**EFEITO INTEGRADOR** — favorecer integração política e social',
+          '**INTERPRETAÇÃO CONFORME** — entre interpretações possíveis, escolher a compatível com a CF'
+        ]},
+        { type: 'box', kind: 'macete', text: '**7 princípios: U-CP-FN-ME-CF-EI-IC.** Decorar.' }
+      ]
+    },
+    {
+      h: 'Técnicas de decisão e bloco de constitucionalidade',
+      items: [
+        { type: 'h', text: 'Interpretação conforme × declaração de nulidade parcial sem redução de texto' },
+        { type: 'p', text: '**INTERPRETAÇÃO CONFORME:** norma é mantida, mas com determinada interpretação compatível com a CF. Ex: STF mantém um artigo, mas exclui interpretação X.' },
+        { type: 'p', text: '**DECLARAÇÃO DE NULIDADE PARCIAL SEM REDUÇÃO DE TEXTO:** norma é mantida intacta no texto, mas algumas hipóteses de aplicação são declaradas inconstitucionais. STF afirma que NÃO se aplica em determinados casos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — exemplo de interpretação conforme:** ADI 4.277 e ADPF 132 (2011) — união homoafetiva. STF deu interpretação conforme ao CC art. 1.723 — sem retirar texto, incluiu casais homoafetivos no conceito de união estável.' },
+
+        { type: 'h', text: 'Modulação dos efeitos (Lei 9.868/99 art. 27)' },
+        { type: 'p', text: 'STF pode, por **maioria de 2/3**, restringir efeitos da declaração de inconstitucionalidade ou decidir que valha a partir do trânsito em julgado (ex nunc) ou de outro momento. Aplicável em razão de **segurança jurídica** ou **excepcional interesse social**.' },
+
+        { type: 'h', text: 'Bloco de constitucionalidade e filtragem' },
+        { type: 'p', text: '**BLOCO DE CONSTITUCIONALIDADE:** conjunto de normas com status constitucional — CF + ADCT + tratados de DH pelo rito §3º (Convenção de NY, Tratado de Marraquexe). **FILTRAGEM CONSTITUCIONAL:** todo o ordenamento deve ser lido sob as lentes da CF — interpretação conforme + invalidação do incompatível.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 métodos clássicos (Savigny): GRAMATICAL · SISTEMÁTICO · TELEOLÓGICO · HISTÓRICO.**' },
+        { type: 'box', kind: 'macete', text: '**6 métodos específicos: JURÍDICO · CIENTÍFICO-ESPIRITUAL · TÓPICO · CONCRETIZADOR · NORMATIVO-ESTRUTURANTE · COMPARATIVO.**' },
+        { type: 'box', kind: 'macete', text: '**7 princípios da interpretação constitucional.** UCFMCEI = Unidade, Concordância, Força normativa, Máxima efetividade, Conformidade, Efeito integrador, Interpretação conforme.' },
+        { type: 'box', kind: 'macete', text: '**Modulação: 2/3 dos ministros do STF (Lei 9.868/99 art. 27).** Pegadinha: maioria absoluta basta para declarar inconstitucionalidade, mas modulação exige 2/3.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Princípio da unidade: NÃO há hierarquia entre normas constitucionais.** Mesmo cláusulas pétreas e demais normas estão no mesmo nível formal.' },
+        { type: 'box', kind: 'atencao', text: '**Modulação exige 2/3 dos ministros — NÃO maioria absoluta.** Banca cobra essa fração.' },
+        { type: 'box', kind: 'atencao', text: '**Interpretação conforme ≠ declaração de nulidade parcial sem redução.** Conforme: escolhe interpretação. Nulidade parcial: exclui hipóteses.' },
+        { type: 'box', kind: 'atencao', text: '**Tratados de DH com status de EC integram o BLOCO DE CONSTITUCIONALIDADE.** Tratados pelo rito comum (supralegais) NÃO integram.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** força normativa (Hesse) decorre da concepção de Constituição como norma ativa.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 2 (Eficácia):** princípios de interpretação influenciam a aplicação das normas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (Controle):** modulação de efeitos é instrumento da hermenêutica.' }
+      ]
+    }
+  ] },
+  { id: 'const-04-principios-fundamentais', num: 4, materia: 'const', title: 'Princípios fundamentais (CF arts. 1º a 4º)', edital: '1.1.4', editalText: 'Fundamentos da República. Objetivos. Princípios das relações internacionais.', size: 'Pequeno', schedule: 'Mês 8', advantage: null, outline: ['Fundamentos da República (art. 1º)', 'Separação dos poderes (art. 2º)', 'Objetivos fundamentais (art. 3º)', 'Princípios das relações internacionais (art. 4º)', 'Dignidade da pessoa humana — núcleo'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **arts. 1º a 4º da CF/88** abrigam os **PRINCÍPIOS FUNDAMENTAIS** da República — núcleo axiológico que estrutura todo o ordenamento. São DECISÕES POLÍTICAS FUNDAMENTAIS (Schmitt) — irradiam força sobre todas as demais normas. Para o concurso: dominar literalmente a redação dos quatro artigos é dever — banca explora frequentemente a memorização exata.' },
+        { type: 'p', text: 'O art. 1º traz a **forma de Estado** (República Federativa), os **fundamentos** (5 incisos) e o **parágrafo único** (poder emana do povo). O art. 2º consagra a **separação dos poderes**. O art. 3º elenca os **objetivos fundamentais** (4 incisos). O art. 4º estabelece os **princípios das relações internacionais** (10 incisos).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Art. 1º — Fundamentos (mnemônico SO-CI-DI-VA-PLU)' },
+        { type: 'list', items: [
+          '**I — SOBERANIA**',
+          '**II — CIDADANIA**',
+          '**III — DIGNIDADE DA PESSOA HUMANA** (princípio matriz, "metaprincípio")',
+          '**IV — VALORES SOCIAIS DO TRABALHO E DA LIVRE INICIATIVA**',
+          '**V — PLURALISMO POLÍTICO**',
+          '**§ único** — todo o poder emana do povo, que o exerce por representantes eleitos ou diretamente'
+        ]},
+
+        { type: 'h', text: 'Art. 3º — Objetivos (mnemônico CO-GA-ER-PRO)' },
+        { type: 'list', items: [
+          '**I — CONSTRUIR** sociedade livre, justa e solidária',
+          '**II — GARANTIR** o desenvolvimento nacional',
+          '**III — ERRADICAR** a pobreza e a marginalização e reduzir as desigualdades',
+          '**IV — PROMOVER** o bem de todos, sem preconceitos'
+        ]},
+
+        { type: 'h', text: 'Art. 4º — Princípios das relações internacionais (10 incisos)' },
+        { type: 'list', items: [
+          '**I** — independência nacional',
+          '**II** — prevalência dos direitos humanos',
+          '**III** — autodeterminação dos povos',
+          '**IV** — não-intervenção',
+          '**V** — igualdade entre os Estados',
+          '**VI** — defesa da paz',
+          '**VII** — solução pacífica dos conflitos',
+          '**VIII** — repúdio ao terrorismo e ao racismo',
+          '**IX** — cooperação entre os povos para o progresso da humanidade',
+          '**X** — concessão de asilo político',
+          '**§ único** — Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Dignidade da pessoa humana (art. 1º III)' },
+        { type: 'p', text: 'Princípio MATRIZ — núcleo do constitucionalismo brasileiro. Tem dupla natureza: VALOR (axiológico) e NORMA (jurídica). É vetor de interpretação de todos os demais direitos. STF utiliza com frequência como parâmetro para invalidação de atos lesivos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — utilização como parâmetro:** ADPF 132/ADI 4.277 (união homoafetiva), ADPF 54 (anencéfalos), HC 152.752 (caso Lula). A dignidade fundamenta interpretações ampliativas.' },
+
+        { type: 'h', text: 'Verbos do art. 3º' },
+        { type: 'p', text: '**CONSTRUIR · GARANTIR · ERRADICAR · PROMOVER** — verbos típicos de norma PROGRAMÁTICA (eficácia limitada). Definem programas de ação a serem executados pelo Estado, vinculando o legislador.' },
+
+        { type: 'h', text: 'Estado Federado × Estado-membro' },
+        { type: 'p', text: 'Brasil é **REPÚBLICA FEDERATIVA**. Federalismo brasileiro tem características próprias: 3 esferas (União, Estados, Municípios), com DF; competências repartidas (CF arts. 21-32); cláusula pétrea (art. 60 §4º I); intervenção federal e estadual (CF 34-36). Diferente de Estado UNITÁRIO (centralizado) ou CONFEDERAÇÃO (Estados independentes).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Fundamentos (art. 1º): SO-CI-DI-VA-PLU.** Soberania · Cidadania · Dignidade · Valores · Pluralismo.' },
+        { type: 'box', kind: 'macete', text: '**Objetivos (art. 3º): CO-GA-ER-PRO.** Construir · Garantir · Erradicar · Promover. Verbos.' },
+        { type: 'box', kind: 'macete', text: '**Dignidade da pessoa humana = METAPRINCÍPIO.** Vetor de interpretação de todos os demais.' },
+        { type: 'box', kind: 'macete', text: '**Brasil = REPÚBLICA FEDERATIVA (art. 1º caput) com 3 ESFERAS.** Não é unitário nem confederação.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Soberania ≠ Soberania popular.** Inciso I é da NACIONAL (Estado independente). Soberania popular está no § único.' },
+        { type: 'box', kind: 'atencao', text: '**Forma de governo (CF art. 1º caput): REPÚBLICA. Forma de Estado: FEDERAÇÃO.** Distinção. República não é cláusula pétrea expressa.' },
+        { type: 'box', kind: 'atencao', text: '**Plebiscito de 1993** (ADCT 2º) confirmou: forma REPUBLICANA + sistema PRESIDENCIALISTA.' },
+        { type: 'box', kind: 'atencao', text: '**Princípios das relações internacionais (art. 4º) tem 10 incisos + § único** sobre integração latino-americana.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** dignidade fundamenta todo o catálogo do art. 5º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 7 (federalismo):** organização federativa (art. 1º + arts. 18+).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** prevalência dos DH (CF 4º II) e diálogo com tratados internacionais.' }
+      ]
+    }
+  ] },
+  { id: 'const-05-direitos-garantias-fundamentais', num: 5, materia: 'const', title: 'Direitos e garantias fundamentais (CF art. 5º)', edital: '1.1.5', editalText: 'Direitos individuais e coletivos. Remédios constitucionais. Tratados de DH.', size: 'Grande', schedule: 'Mês 8', advantage: null, outline: ['Geração/dimensão dos direitos fundamentais', 'Características (universalidade, historicidade, etc.)', 'Direitos individuais (art. 5º, I-LXXVIII)', 'Remédios constitucionais (HC, MS, MI, HD, ação popular)', 'Tratados internacionais de DH (art. 5º §§ 2º, 3º, 4º)', 'Eficácia horizontal dos direitos fundamentais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **art. 5º da CF/88** é o coração dos direitos individuais e coletivos. Conta com **78 incisos** + **§§ 1º a 4º** + **EC 45/04** (rito específico para tratados de DH). É o mais cobrado dispositivo da Constituição em concursos. Domínio literal dos remédios constitucionais e dos parágrafos é dever de prova.' },
+        { type: 'p', text: 'A doutrina classifica os direitos fundamentais em **DIMENSÕES (gerações)**: 1ª — liberdades civis e políticas (séc. XVIII); 2ª — direitos sociais (séc. XX, pós-2ª Guerra); 3ª — direitos transindividuais/difusos (meio ambiente, paz, desenvolvimento); 4ª — biotecnologia, democracia direta (Bobbio, Bonavides); 5ª — paz, fraternidade, segurança jurídica (Bonavides). Cada dimensão SOMA-SE às anteriores — não substitui.' },
+        { type: 'p', text: 'Características: **UNIVERSALIDADE · HISTORICIDADE · IRRENUNCIABILIDADE · INALIENABILIDADE · IMPRESCRITIBILIDADE · LIMITAÇÃO RECÍPROCA · APLICABILIDADE IMEDIATA (CF 5º §1º) · CONCORRÊNCIA · COMPLEMENTARIDADE · EFETIVIDADE.** Decorar.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Art. 5º caput' },
+        { type: 'list', items: [
+          'Todos são iguais perante a lei, sem distinção de qualquer natureza',
+          'Garantia aos brasileiros e estrangeiros residentes — STF estende a estrangeiros não-residentes para direitos básicos'
+        ]},
+
+        { type: 'h', text: 'Remédios constitucionais (decorar 5)' },
+        { type: 'list', items: [
+          '**HC — HABEAS CORPUS (LXVIII):** liberdade de locomoção · gratuito · qualquer pessoa pode impetrar · contra ATO ILEGAL ou ABUSO DE PODER',
+          '**MS — MANDADO DE SEGURANÇA (LXIX):** direito LÍQUIDO E CERTO não amparado por HC ou HD · contra autoridade pública · prazo 120 dias (Lei 12.016/09 art. 23)',
+          '**MS COLETIVO (LXX):** legitimados — partido político (TSE), sindicato/entidade de classe/associação com 1 ano (CF + STF Súm. 629)',
+          '**MI — MANDADO DE INJUNÇÃO (LXXI):** falta de norma regulamentadora torne inviável exercício de direito constitucional · STF Lei 13.300/16 — concretista individual',
+          '**HD — HABEAS DATA (LXXII):** conhecer/retificar informações pessoais em registros · gratuito · Lei 9.507/97',
+          '**Ação Popular (LXXIII):** qualquer cidadão · ato lesivo ao patrimônio público, moralidade, meio ambiente, patrimônio histórico e cultural · gratuita · Lei 4.717/65'
+        ]},
+
+        { type: 'h', text: '§§ do art. 5º' },
+        { type: 'list', items: [
+          '**§1º** — direitos fundamentais têm aplicação IMEDIATA',
+          '**§2º** — direitos não excluem outros decorrentes do regime, princípios, tratados internacionais — CLÁUSULA DE ABERTURA',
+          '**§3º** — tratados de DH aprovados em 2 turnos, 3/5 em cada Casa = EQUIVALÊNCIA À EC',
+          '**§4º** — Brasil submete-se à JURISDIÇÃO DO TPI (Tribunal Penal Internacional)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Dimensões dos direitos fundamentais' },
+        { type: 'list', items: [
+          '**1ª — LIBERDADE:** civis e políticas (vida, igualdade, propriedade, voto). Estado mínimo, abstenção',
+          '**2ª — IGUALDADE:** sociais e econômicos (saúde, educação, trabalho). Estado prestacional',
+          '**3ª — FRATERNIDADE:** difusos (meio ambiente, paz, patrimônio comum)',
+          '**4ª — BOBBIO/BONAVIDES:** biotecnologia, democracia direta, informação',
+          '**5ª — BONAVIDES:** paz, fraternidade global'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Lema da Revolução Francesa: LIBERDADE · IGUALDADE · FRATERNIDADE = 1ª-2ª-3ª dimensões.**' },
+
+        { type: 'h', text: 'Direitos NÃO escritos no caput — STF estende a estrangeiros' },
+        { type: 'p', text: 'Embora o caput do art. 5º se refira a "brasileiros e estrangeiros residentes no País", o STF estende a proteção dos direitos fundamentais BÁSICOS (vida, dignidade, devido processo) a TODOS os estrangeiros, residentes ou não. Distinção pode existir em direitos políticos e em alguns direitos específicos (alistamento, cargos públicos).' },
+
+        { type: 'h', text: 'Tratados de DH — hierarquia (3 status)' },
+        { type: 'list', items: [
+          '**EC formal (rito §3º):** Convenção de NY (PCD), Tratado de Marraquexe',
+          '**SUPRALEGAL (rito comum):** demais tratados de DH (CADH, ICCPR) — STF RE 466.343 (2008)',
+          '**LEGAL (tratados comuns, não DH):** mesmo nível de lei ordinária'
+        ]},
+
+        { type: 'h', text: 'Princípio da reserva legal × reserva de jurisdição' },
+        { type: 'p', text: '**Reserva LEGAL:** matéria deve ser tratada por LEI (CF 5º II — princípio da legalidade ampla; reserva legal em sentido estrito quando a CF exige LEI específica). **Reserva DE JURISDIÇÃO:** atos só podem ser praticados por DECISÃO JUDICIAL. Exemplos: prisão (CF 5º LXI), interceptação telefônica (CF 5º XII), violação de domicílio à noite (CF 5º XI).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 remédios: HC · MS · MS COLETIVO · MI · HD · AÇÃO POPULAR.** Decorar incisos LXVIII a LXXIII.' },
+        { type: 'box', kind: 'macete', text: '**Características dos direitos fundamentais (10): U-H-IRR-INA-IMP-LR-AI-CC-CP-EF.** Universalidade · Historicidade · Irrenunciabilidade · Inalienabilidade · Imprescritibilidade · Limitação Recíproca · Aplicação Imediata · Concorrência · Complementaridade · Efetividade.' },
+        { type: 'box', kind: 'macete', text: '**Dimensões: LIB · IGU · FRA + 4ª (Bobbio/Bonavides) + 5ª (Bonavides).**' },
+        { type: 'box', kind: 'macete', text: '**Status de tratados: EC (rito §3º) · SUPRALEGAL (DH comum) · LEGAL (não-DH).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MS prazo: 120 DIAS (decadencial).** Não admite suspensão/interrupção. Pegadinha clássica trocando para 30/60/180.' },
+        { type: 'box', kind: 'atencao', text: '**Ação popular = só CIDADÃO (com título de eleitor) pode propor.** Estrangeiros e PJ não podem.' },
+        { type: 'box', kind: 'atencao', text: '**HC é GRATUITO e qualquer pessoa pode impetrar — não precisa advogado.**' },
+        { type: 'box', kind: 'atencao', text: '**§3º do art. 5º exige 3/5 em CADA Casa, em 2 turnos. Se for tratado comum, status SUPRALEGAL.**' },
+        { type: 'box', kind: 'atencao', text: '**Direitos fundamentais são IRRENUNCIÁVEIS, mas admitem AUTOLIMITAÇÃO em situações específicas.** Ex: pessoa renuncia à privacidade ao aceitar reality show.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 4 (MS Coletivo) e ColProc 5 (MI/ADPF):** detalhamento dos remédios.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** §§ 2º, 3º e 4º do art. 5º regulam tratados de DH.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 4 (princípios fundamentais):** dignidade da pessoa humana fundamenta todos os direitos do art. 5º.' }
+      ]
+    }
+  ] },
+  { id: 'const-06-direitos-sociais-nacionalidade-politicos', num: 6, materia: 'const', title: 'Direitos sociais, nacionalidade, direitos políticos e partidos', edital: '1.1.6', editalText: 'Arts. 6º a 17 da CF. Direitos sociais, trabalhadores, brasileiros, eleitores, partidos.', size: 'Médio', schedule: 'Mês 8', advantage: null, outline: ['Direitos sociais (art. 6º) e do trabalhador (arts. 7º-11)', 'Nacionalidade (art. 12) — nato × naturalizado', 'Direitos políticos (arts. 14-16) — capacidade eleitoral ativa e passiva', 'Inelegibilidades absolutas e relativas', 'Partidos políticos (art. 17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **arts. 6º a 17** abrigam os direitos sociais (art. 6º — rol em ampliação progressiva), trabalhistas (arts. 7º-11), de nacionalidade (art. 12), políticos (arts. 14-16) e a disciplina dos partidos (art. 17). Domínio das hipóteses de PERDA da nacionalidade, das condições de elegibilidade e das inelegibilidades é dever de prova.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Direitos sociais (CF art. 6º — rol expandido)' },
+        { type: 'list', items: [
+          'Educação · saúde · alimentação · trabalho · moradia · transporte · lazer · segurança · previdência social · proteção à maternidade e à infância · assistência aos desamparados',
+          '**EC 64/10** acrescentou ALIMENTAÇÃO',
+          '**EC 90/15** acrescentou TRANSPORTE',
+          '**EC 114/21** ampliou para incluir SEGURANÇA ALIMENTAR (decorre de alimentação)'
+        ]},
+
+        { type: 'h', text: 'Nacionalidade (CF art. 12)' },
+        { type: 'list', items: [
+          '**NATO (I):** (a) nascidos no Brasil (jus solis); (b) nascidos no exterior, filhos de pai/mãe brasileiros a serviço; (c) nascidos no exterior, filhos de brasileiros, registrados em consulado OU vindo ao Brasil + opção a qualquer tempo após maioridade',
+          '**NATURALIZADO (II):** (a) na forma da lei + 1 ano de residência (originários de países de língua portuguesa: Lei 13.445/17); (b) estrangeiros residentes há +15 anos sem condenação, requerendo',
+          '**§ 3º** — cargos privativos de brasileiro NATO: PR, VPR, Pres. Câmara, Pres. Senado, Min. STF, carreira diplomática, oficial das Forças Armadas, Min. de Estado da Defesa',
+          '**§ 4º** — perda da nacionalidade: (i) cancelamento por sentença judicial (atividade nociva); (ii) aquisição voluntária de outra nacionalidade (com exceções)'
+        ]},
+
+        { type: 'h', text: 'Direitos políticos (CF arts. 14-16)' },
+        { type: 'list', items: [
+          '**Voto:** DIRETO · SECRETO · UNIVERSAL · PERIÓDICO · com valor IGUAL para todos',
+          '**Alistamento e voto:**',
+          '  · OBRIGATÓRIO: maiores de 18 e menores de 70',
+          '  · FACULTATIVO: analfabetos · maiores de 70 · entre 16 e 18',
+          '**Condições de elegibilidade (§3º):** nacionalidade brasileira · pleno exercício dos direitos políticos · alistamento eleitoral · domicílio eleitoral na circunscrição · filiação partidária · idade mínima',
+          '**Idade mínima:** 35 (Pres./VPres./Senador) · 30 (Gov./VGov.) · 21 (Dep. Fed./Dep. Est./Prefeito/V. Prefeito/Juiz de Paz) · 18 (Vereador)',
+          '**Inelegibilidades absolutas:** inalistáveis e analfabetos (§4º)',
+          '**Inelegibilidades relativas:** Presidente/Governador/Prefeito ÷ reeleição uma única vez (§5º); cônjuges e parentes até 2º grau de Pres./Gov./Pref. (§7º); militar conscrito (§8º)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Brasileiro nato × naturalizado — distinções práticas' },
+        { type: 'p', text: '**Distinção entre brasileiro nato e naturalizado SÓ pode ser feita pela CF** (art. 12 §2º — "lei não pode estabelecer distinções"). Cargos PRIVATIVOS de brasileiro nato listados expressamente. **Extradição:** brasileiro nato JAMAIS extraditado; naturalizado SÓ pode ser extraditado por crime comum praticado ANTES da naturalização ou por tráfico de drogas (CF 5º LI).' },
+
+        { type: 'h', text: 'Inelegibilidades absolutas × relativas' },
+        { type: 'p', text: '**ABSOLUTAS (§4º):** inalistáveis (estrangeiros, conscritos) e analfabetos. Vedação a TODOS os cargos.' },
+        { type: 'p', text: '**RELATIVAS:** vedação a determinados cargos (reeleição limitada §5º; parentesco §7º; militar §8º; cargo do qual deva afastar-se §6º).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Lei Complementar 64/90 (Lei das Inelegibilidades) + LC 135/10 (Ficha Limpa):** ampliam inelegibilidades além da CF. STF — ADC 29 e ADC 30 (2012): validou Ficha Limpa.' },
+
+        { type: 'h', text: 'Partidos políticos (CF art. 17)' },
+        { type: 'p', text: 'Liberdade de criação, fusão, incorporação. Caráter NACIONAL (vedados regionais). Acesso a recursos do fundo partidário e tempo de propaganda gratuita. Funcionamento parlamentar nos termos da lei. Após EC 97/17, **CLÁUSULA DE BARREIRA:** partido só tem direito ao fundo partidário e ao acesso ao rádio/TV se atingir desempenho mínimo nas eleições.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Direitos sociais (art. 6º): SAÚDE · EDUCAÇÃO · ALIMENTAÇÃO · TRABALHO · MORADIA · TRANSPORTE · LAZER · SEGURANÇA · PREVIDÊNCIA · MATERNIDADE/INFÂNCIA · DESAMPARADOS.**' },
+        { type: 'box', kind: 'macete', text: '**Cargos privativos de NATO (mnemônico MP3.com): Ministro STF · Presidente da República · Presidente da Câmara · Presidente do Senado · carreira Diplomática · Oficial das Forças Armadas · Ministro Defesa.**' },
+        { type: 'box', kind: 'macete', text: '**Idades mínimas: 35-30-21-18 (Pres-Gov-Dep/Pref-Ver).**' },
+        { type: 'box', kind: 'macete', text: '**Voto: DSU-P-IGUAL.** Direto · Secreto · Universal · Periódico · Igual.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Brasileiro NATO jamais é extraditado.** Naturalizado pode (5º LI: crime comum antes da naturalização ou tráfico).' },
+        { type: 'box', kind: 'atencao', text: '**Voto OBRIGATÓRIO 18-70 · FACULTATIVO 16-18, +70, analfabetos.** Decorar.' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição: UMA ÚNICA VEZ para o mesmo cargo (Presidente/Gov./Pref.) — CF 14 §5º com EC 16/97.** Pegadinha: alternativa diz "duas reeleições".' },
+        { type: 'box', kind: 'atencao', text: '**EC 90/15 incluiu TRANSPORTE no art. 6º.** EC 64/10 incluiu ALIMENTAÇÃO. Decorar.' },
+        { type: 'box', kind: 'atencao', text: '**Estrangeiros NÃO podem se alistar como eleitores no Brasil.** Inalistáveis (CF 14 §2º).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** direitos sociais integram o catálogo amplo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Eleitoral (matéria específica):** direitos políticos e partidos são detalhados.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** voto direto/secreto/universal/periódico = cláusula pétrea (60 §4º II).' }
+      ]
+    }
+  ] },
+  { id: 'const-07-organizacao-estado', num: 7, materia: 'const', title: 'Organização do Estado (federalismo)', edital: '1.1.7', editalText: 'Federalismo brasileiro. União, Estados, Municípios, DF, territórios. Repartição de competências.', size: 'Médio', schedule: 'Mês 8', advantage: null, outline: ['Federalismo brasileiro — características', 'União (arts. 20-24)', 'Estados (arts. 25-28)', 'Municípios (arts. 29-31)', 'DF e territórios (arts. 32-33)', 'Repartição de competências (material e legislativa)', 'Intervenção federal e estadual'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **federalismo brasileiro** é um dos temas mais cobrados em prova. CF/88 estrutura o Estado em **TRÊS ESFERAS** (União, Estados, Municípios) + DF (com natureza híbrida). É forma de Estado **CLÁUSULA PÉTREA** (CF 60 §4º I). Para o concurso: dominar a **REPARTIÇÃO DE COMPETÊNCIAS** (CF arts. 21-32) é dever; STF cobra constantemente competências privativas, concorrentes e comuns.' },
+        { type: 'p', text: 'Características do federalismo brasileiro: (i) **descentralização política** (não administrativa); (ii) **rigidez constitucional** (cláusula pétrea); (iii) **autonomia** dos entes (capacidades de auto-organização, autogoverno, autoadministração e autolegislação); (iv) **órgão guardião** (STF); (v) **órgão representativo dos Estados** (Senado Federal); (vi) **repartição constitucional de competências**.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária — Repartição de competências',
+      items: [
+        { type: 'h', text: 'União — Competências MATERIAIS PRIVATIVAS (CF art. 21)' },
+        { type: 'p', text: '25 incisos. Manter relações exteriores (I), declarar guerra (II), emitir moeda (VII), elaborar planos nacionais (IX), prestar serviços de telecom (XI), legislar penal/civil/processual e demais matérias do art. 22, etc.' },
+
+        { type: 'h', text: 'União — LEGISLATIVA PRIVATIVA (CF art. 22)' },
+        { type: 'list', items: [
+          'Direito CIVIL · COMERCIAL · PENAL · PROCESSUAL · ELEITORAL · AGRÁRIO · MARÍTIMO · AERONÁUTICO · ESPACIAL · DO TRABALHO',
+          'Águas, energia, informática, telecomunicações',
+          '§ único — LC pode AUTORIZAR Estados a legislarem sobre questões específicas dessas matérias'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Mnemônico CAPACETES DE PM (matérias privativas da União): Civil · Agrário · Penal · Aeronáutico · Comercial · Eleitorais · Trabalho · Espacial · Seguridade · Direito de Propaganda · Marítimo.**' },
+
+        { type: 'h', text: 'Competências COMUNS (CF art. 23)' },
+        { type: 'p', text: 'União, Estados, DF e Municípios EM CONJUNTO. Educação, saúde, meio ambiente, patrimônio cultural, combate ao analfabetismo, etc. § único: LC fixa normas de cooperação.' },
+
+        { type: 'h', text: 'Competências CONCORRENTES (CF art. 24)' },
+        { type: 'list', items: [
+          'União, Estados e DF (NÃO inclui Municípios)',
+          'Direito tributário, financeiro, penitenciário, urbanístico · educação, cultura · proteção a infância e juventude · proteção do patrimônio · seguridade social',
+          '**§§ 1º-4º:** União edita normas GERAIS; Estados suplementam; se União não legislar, Estados podem legislar plenamente; advinda lei federal, prevalece esta no que conflitar'
+        ]},
+
+        { type: 'h', text: 'Municípios (CF art. 30)' },
+        { type: 'list', items: [
+          '**I — INTERESSE LOCAL** — competência típica do Município',
+          '**II — SUPLEMENTAR** legislação federal e estadual no que couber',
+          '**III a IX** — tributos próprios (IPTU, ISS, ITBI), serviços públicos locais, ordenamento urbano, transporte, educação infantil e fundamental, saúde, patrimônio histórico local'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Federalismo brasileiro — características' },
+        { type: 'p', text: '**Federação SUI GENERIS** — três esferas (União, Estados, Municípios) + DF (entidade federativa híbrida — CF art. 32, com competências legislativas estaduais e municipais cumuladas). Sem hierarquia entre os entes. Autonomia preservada constitucionalmente. Pacto federativo é cláusula pétrea (CF 60 §4º I).' },
+
+        { type: 'h', text: 'Intervenção federal (CF arts. 34-36)' },
+        { type: 'p', text: '**REGRA: Estados têm autonomia.** Intervenção é EXCEÇÃO. Hipóteses (art. 34): manter integridade nacional, repelir invasão, repelir grave comprometimento da ordem pública, garantir livre exercício dos Poderes, reorganizar finanças, prover execução de lei federal, prover execução de ordem judicial, assegurar princípios constitucionais sensíveis (CF 34 VII).' },
+        { type: 'p', text: '**Procedimento (CF 36):** decreto do Presidente, aprovado pelo CN. Princípios sensíveis (CF 34 VII): forma republicana · sistema representativo · regime democrático · direitos da pessoa humana · autonomia municipal · prestação de contas · aplicação do mínimo da receita em saúde e educação.' },
+
+        { type: 'h', text: 'DF — entidade híbrida' },
+        { type: 'p', text: 'O DF NÃO se confunde com Estado nem com Município, mas tem competências de AMBOS (CF 32 §1º). É VEDADA sua divisão em municípios (§ único). Lei orgânica do DF é a "constituição" do DF. Tem 8 senadores? NÃO — tem 3 senadores e número de deputados conforme CF.' },
+
+        { type: 'h', text: 'STF e a interpretação federativa' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 6.341 (2020):** definiu, durante a pandemia, que União, Estados e Municípios têm COMPETÊNCIAS COMUNS em saúde — Estado e Município podem editar medidas mais restritivas que a União. Marco do federalismo cooperativo.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 esferas + DF: UNIÃO · ESTADOS · DF · MUNICÍPIOS.** Sem hierarquia entre eles.' },
+        { type: 'box', kind: 'macete', text: '**Competências da União: PRIVATIVAS materiais (art. 21) + LEGISLATIVAS privativas (art. 22).**' },
+        { type: 'box', kind: 'macete', text: '**Concorrentes (art. 24): U + E + DF (sem Municípios).** União: normas gerais. Estados: suplementar.' },
+        { type: 'box', kind: 'macete', text: '**Comuns (art. 23): TODOS** os entes em cooperação.' },
+        { type: 'box', kind: 'macete', text: '**Princípios sensíveis (CF 34 VII): RES·SR·RD·DPH·AM·PC·SE.** República · Sistema representativo · Regime democrático · Direitos pessoa humana · Autonomia municipal · Prestação de contas · Saúde/Educação.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Concorrente NÃO inclui Municípios — só U, E e DF (art. 24).** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**DF tem competências de Estado E Município.** Não é Estado puro nem Município puro.' },
+        { type: 'box', kind: 'atencao', text: '**Pacto federativo é CLÁUSULA PÉTREA (CF 60 §4º I).** Não pode ser abolido por emenda.' },
+        { type: 'box', kind: 'atencao', text: '**Intervenção federal: EXCEÇÃO. Estados têm autonomia em regra.**' },
+        { type: 'box', kind: 'atencao', text: '**Município legisla sobre INTERESSE LOCAL (art. 30 I).** Conceito jurisprudencial — em geral, matérias que predominantemente afetam a comunidade local.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** federação é cláusula pétrea.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Organização dos Poderes):** Senado representa os Estados; Câmara, o povo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (Ordem econômica):** competências econômicas são repartidas (arts. 21-24).' }
+      ]
+    }
+  ] },
+  { id: 'const-08-organizacao-poderes', num: 8, materia: 'const', title: 'Organização dos Poderes', edital: '1.1.8', editalText: 'Legislativo, Executivo, Judiciário. Processo legislativo. STF, STJ, CNJ.', size: 'Grande', schedule: 'Mês 8-9', advantage: null, outline: ['Poder Legislativo (arts. 44-75) — Câmara, Senado, CN', 'Processo legislativo (arts. 59-69) — espécies normativas', 'Imunidades parlamentares', 'Poder Executivo (arts. 76-91) — Presidente, Ministros', 'Poder Judiciário (arts. 92-126) — STF, STJ, TST, TSE, STM', 'CNJ — composição e atribuições', 'Garantias da magistratura'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **organização dos Poderes** disciplina a estrutura, atribuições e relações dos três Poderes (Legislativo, Executivo, Judiciário) — CF arts. 44-126. É um dos temas mais densos e cobrados. Para o concurso: domínio do **PROCESSO LEGISLATIVO** (CF 59-69), das **IMUNIDADES PARLAMENTARES** (53-56), das atribuições do PR e dos órgãos de controle (TCU, CNJ).' }
+      ]
+    },
+    {
+      h: 'Poder Legislativo (CF arts. 44-75)',
+      items: [
+        { type: 'h', text: 'Estrutura' },
+        { type: 'p', text: 'Bicameral em âmbito federal: **CÂMARA DOS DEPUTADOS** (representa o povo — proporcional, mandato 4 anos) + **SENADO FEDERAL** (representa Estados — 3 senadores por Estado/DF, mandato 8 anos, renovação alternada de 1/3 e 2/3). Em conjunto: **CONGRESSO NACIONAL**.' },
+
+        { type: 'h', text: 'Processo legislativo (CF art. 59) — 7 espécies' },
+        { type: 'list', items: [
+          '**Emendas à Constituição** — 3/5, em 2 turnos, em cada Casa',
+          '**Leis Complementares** — maioria absoluta · matérias expressamente reservadas',
+          '**Leis Ordinárias** — maioria simples · regra geral',
+          '**Leis Delegadas** — pelo PR, autorização do CN (resolução)',
+          '**Medidas Provisórias** — PR, em casos de relevância e urgência · vigência 60 + 60 dias · convertem-se ou caducam',
+          '**Decretos Legislativos** — matérias do CN (CF 49)',
+          '**Resoluções** — atos internos das Casas'
+        ]},
+
+        { type: 'h', text: 'Imunidades parlamentares (CF art. 53)' },
+        { type: 'list', items: [
+          '**MATERIAL/IRRESPONSABILIDADE:** Deputados e Senadores são INVIOLÁVEIS, civil e penalmente, por opiniões, palavras e votos no exercício do mandato',
+          '**FORMAL/PROCESSUAL:** Não podem ser presos, salvo flagrante de crime inafiançável (com remessa em 24h ao CD/SF, que decide sobre prisão por maioria de seus membros)',
+          '**Prerrogativa de foro:** STF (art. 53 §1º — nos crimes praticados durante e em razão do mandato; STF AP 937 — restringiu)'
+        ]}
+      ]
+    },
+    {
+      h: 'Poder Executivo (CF arts. 76-91)',
+      items: [
+        { type: 'p', text: '**PRESIDENCIALISMO** (CF 76). Mandato de 4 anos (uma reeleição). Eleição em 2 turnos se candidato não obtiver +50% dos votos no 1º.' },
+        { type: 'p', text: '**Atribuições do PR (CF art. 84):** sanção/promulgação/publicação · veto · iniciativa de leis · expedir decretos e regulamentos · nomeação de Ministros, magistrados, comandantes militares · representação externa · soberania · responsabilidade por crime de responsabilidade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Crimes de responsabilidade (Lei 1.079/50):** julgamento pelo Senado Federal, presidido pelo Pres. STF (impeachment). Exemplos: Collor (1992) e Dilma (2016).' }
+      ]
+    },
+    {
+      h: 'Poder Judiciário (CF arts. 92-126)',
+      items: [
+        { type: 'h', text: 'Órgãos do Judiciário' },
+        { type: 'list', items: [
+          '**STF** — guardião da CF',
+          '**CNJ** — controle administrativo e disciplinar',
+          '**STJ** — uniformizador da legislação federal',
+          'Justiça FEDERAL (TRFs e Juízes Federais)',
+          'Justiças especializadas: TRABALHO (TST, TRTs, JT), ELEITORAL (TSE, TREs, Juízes Eleitorais), MILITAR (STM, Justiça Militar)',
+          'Justiça ESTADUAL (TJs e Juízes Estaduais)'
+        ]},
+
+        { type: 'h', text: 'Garantias da magistratura (CF art. 95)' },
+        { type: 'list', items: [
+          'VITALICIEDADE (após 2 anos)',
+          'INAMOVIBILIDADE',
+          'IRREDUTIBILIDADE de subsídios'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Garantias dos magistrados ANÁLOGAS às do MP** (CF 95 × CF 128 §5º).' },
+
+        { type: 'h', text: 'CNJ (CF art. 103-B)' },
+        { type: 'list', items: [
+          '**15 conselheiros** (mandato 2 anos, recondução permitida)',
+          'Pres. STF preside',
+          'Composição: 1 Min. STF (presidente) · 1 Min. STJ · 1 Min. TST · 1 desemb. TJ · 1 juiz estadual · 1 juiz TRF · 1 juiz federal · 1 juiz TRT · 1 juiz trabalho · 1 MP federal · 1 MP estadual · 2 advogados · 2 cidadãos',
+          'Atribuições: controle administrativo e financeiro do Judiciário; controle disciplinar dos juízes (não do MP — esse cabe ao CNMP)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Bicameralismo: CD (povo, 4 anos) + SF (Estados, 8 anos, 3 por UF).**' },
+        { type: 'box', kind: 'macete', text: '**7 espécies do art. 59: EC · LC · LO · LD · MP · DL · RES.**' },
+        { type: 'box', kind: 'macete', text: '**Imunidades: MATERIAL (opiniões/palavras/votos) + FORMAL (prisão somente em flagrante de crime inafiançável).**' },
+        { type: 'box', kind: 'macete', text: '**Garantias da magistratura: VITALICIEDADE + INAMOVIBILIDADE + IRREDUTIBILIDADE.** Iguais ao MP.' },
+        { type: 'box', kind: 'macete', text: '**CNJ: 15 membros · 2 anos · presidido pelo Pres. STF.** CNMP: 14 (presidido pelo PGR).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Senado: 3 por Estado/DF (e não 2 ou 4).** Mandato 8 anos.' },
+        { type: 'box', kind: 'atencao', text: '**STF AP 937 (2018) — foro por prerrogativa restringido a crimes em razão do mandato.** Mudança jurisprudencial.' },
+        { type: 'box', kind: 'atencao', text: '**MP é REEDITADA por 60 + 60 dias (até 120 dias). Após, caduca se não convertida.**' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição: 1 vez para mesmo cargo (PR/Gov./Pref.).** EC 16/97.' },
+        { type: 'box', kind: 'atencao', text: '**Crime de responsabilidade ≠ crime comum.** Crime comum: STF (autorização CD). Crime de responsabilidade: SF (autorização CD).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** prerrogativa de foro como garantia.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 4 (CNMP):** estrutura paralela ao CNJ.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** advocacia pública, Defensoria, MP, advocacia.' }
+      ]
+    }
+  ] },
   { id: 'const-09-funcoes-essenciais', num: 9, materia: 'const', title: 'Funções essenciais à Justiça', edital: '1.1.9', editalText: 'MP, AGU, Defensoria, advocacia. CF arts. 127-135.', size: 'Médio', schedule: null, advantage: null, outline: ['Ministério Público (arts. 127-130-A)', 'Advocacia Pública (arts. 131-132)', 'Advocacia (art. 133)', 'Defensoria Pública (art. 134)', 'CNMP — atribuições'], sections: [] },
   { id: 'const-10-controle-constitucionalidade', num: 10, materia: 'const', title: 'Controle de constitucionalidade', edital: '1.1.10', editalText: 'Controle difuso e concentrado. ADI, ADC, ADPF, ADO. Súmulas vinculantes.', size: 'Grande', schedule: null, advantage: null, outline: ['Modalidades de inconstitucionalidade (formal × material)', 'Controle difuso (incidental)', 'Controle concentrado (ADI, ADC, ADPF, ADO)', 'Legitimados (CF art. 103)', 'Efeitos da declaração (ex tunc, ex nunc, modulação)', 'Súmulas vinculantes (art. 103-A)', 'Reclamação constitucional'], sections: [] },
   { id: 'const-11-ordem-economica-financeira', num: 11, materia: 'const', title: 'Ordem econômica e financeira', edital: '1.1.11', editalText: 'Princípios da ordem econômica. Sistema financeiro nacional. Atividade econômica do Estado.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios gerais da ordem econômica (art. 170)', 'Política urbana (arts. 182-183)', 'Política agrícola e fundiária (arts. 184-191)', 'Sistema financeiro nacional (art. 192)', 'Atividade econômica do Estado (art. 173)', 'Serviços públicos (art. 175)'], sections: [] },
@@ -9836,7 +10359,29 @@ flashcards: [
   { id: 454, topic: 2, materia: 'const', q: 'Norma de eficácia limitada — tem efeito mínimo?', a: 'SIM. Tem EFICÁCIA MÍNIMA: (1) REVOGA normas anteriores incompatíveis; (2) VINCULA o legislador a regulamentar. Não é "destituída de eficácia".', tags: ['const', 'limitada', 'eficacia-minima'] },
   { id: 455, topic: 2, materia: 'const', q: '2 espécies de norma de eficácia limitada?', a: '(1) PROGRAMÁTICAS — definem programas/metas (ex: CF 196 saúde, 205 educação). (2) DE PRINCÍPIO INSTITUTIVO — preveem criação de órgãos/instituições (ex: CF 18 §3º — criação de Estados).', tags: ['const', 'limitada', 'especies'] },
   { id: 456, topic: 2, materia: 'const', q: 'CF 5º §1º — aplicação imediata dos direitos fundamentais?', a: 'Direitos fundamentais têm aplicação IMEDIATA. Mas isso NÃO converte normas LIMITADAS em PLENAS — direitos limitados ainda dependem de regulamentação. Aplicação máxima possível, com remédios (MI, ADO).', tags: ['const', 'eficacia', 'art-5-§1'] },
-  { id: 457, topic: 2, materia: 'const', q: 'Eficácia HORIZONTAL dos direitos fundamentais?', a: 'Aplicação dos direitos fundamentais nas relações ENTRE PARTICULARES (não só Estado × cidadão). STF RE 201.819 (2005, União Brasileira de Compositores). Marco da doutrina moderna.', tags: ['const', 'eficacia', 'horizontal'] }
+  { id: 457, topic: 2, materia: 'const', q: 'Eficácia HORIZONTAL dos direitos fundamentais?', a: 'Aplicação dos direitos fundamentais nas relações ENTRE PARTICULARES (não só Estado × cidadão). STF RE 201.819 (2005, União Brasileira de Compositores). Marco da doutrina moderna.', tags: ['const', 'eficacia', 'horizontal'] },
+
+  // === Cards Rodada 6 — Const 3-8 ===
+  { id: 458, topic: 3, materia: 'const', q: '7 princípios de interpretação constitucional?', a: 'UNIDADE · CONCORDÂNCIA PRÁTICA · FORÇA NORMATIVA · MÁXIMA EFETIVIDADE · CONFORMIDADE FUNCIONAL · EFEITO INTEGRADOR · INTERPRETAÇÃO CONFORME.', tags: ['const', 'hermeneutica'] },
+  { id: 459, topic: 3, materia: 'const', q: 'Modulação dos efeitos — quórum?', a: '2/3 dos ministros do STF (Lei 9.868/99 art. 27). Em razão de segurança jurídica ou excepcional interesse social. NÃO confundir com maioria absoluta para declarar inconstitucionalidade.', tags: ['const', 'modulacao'] },
+  { id: 460, topic: 3, materia: 'const', q: 'Interpretação conforme × declaração de nulidade parcial sem redução?', a: 'CONFORME: norma mantida com determinada interpretação compatível com a CF. NULIDADE PARCIAL SEM REDUÇÃO: norma mantida no texto, mas algumas hipóteses de aplicação são declaradas inconstitucionais.', tags: ['const', 'tecnicas'] },
+  { id: 461, topic: 4, materia: 'const', q: 'Fundamentos da República (CF art. 1º)?', a: 'SOBERANIA · CIDADANIA · DIGNIDADE DA PESSOA HUMANA · VALORES SOCIAIS DO TRABALHO E DA LIVRE INICIATIVA · PLURALISMO POLÍTICO. Mnemônico SO-CI-DI-VA-PLU.', tags: ['const', 'fundamentos'] },
+  { id: 462, topic: 4, materia: 'const', q: 'Objetivos fundamentais (CF art. 3º)?', a: 'CONSTRUIR sociedade livre, justa e solidária · GARANTIR desenvolvimento nacional · ERRADICAR pobreza/marginalização e reduzir desigualdades · PROMOVER bem de todos sem preconceito. Mnemônico CO-GA-ER-PRO.', tags: ['const', 'objetivos'] },
+  { id: 463, topic: 4, materia: 'const', q: 'CF art. 4º — princípio MAIS importante das relações internacionais?', a: 'PREVALÊNCIA DOS DIREITOS HUMANOS (II). Fundamenta a internalização de tratados de DH e a participação no SIDH. § único: integração latino-americana.', tags: ['const', 'relacoes-internacionais'] },
+  { id: 464, topic: 5, materia: 'const', q: 'CF art. 5º §3º — quórum para tratados de DH equivalerem a EC?', a: 'Aprovação em CADA Casa do CN, em DOIS TURNOS, por TRÊS QUINTOS dos votos dos respectivos membros. Apenas Convenção de NY (PCD) e Tratado de Marraquexe foram aprovados por esse rito.', tags: ['const', 'tratados', 'art-5-§3'] },
+  { id: 465, topic: 5, materia: 'const', q: '6 remédios constitucionais (CF art. 5º)?', a: 'HC (LXVIII) · MS (LXIX) · MS COLETIVO (LXX) · MI (LXXI) · HD (LXXII) · AÇÃO POPULAR (LXXIII). Decorar incisos.', tags: ['const', 'remedios'] },
+  { id: 466, topic: 5, materia: 'const', q: 'Dimensões dos direitos fundamentais (1ª-3ª)?', a: '1ª LIBERDADE (civis e políticos — séc. XVIII) · 2ª IGUALDADE (sociais — séc. XX) · 3ª FRATERNIDADE (difusos — meio ambiente, paz). Dimensões SOMAM-SE — não substituem. Lema da Revolução Francesa: lib-igu-frat.', tags: ['const', 'dimensoes'] },
+  { id: 467, topic: 6, materia: 'const', q: 'Brasileiro nato × naturalizado — extradição?', a: 'NATO: jamais extraditado (CF 5º LI). NATURALIZADO: pode ser, mas só por crime comum praticado ANTES da naturalização ou por tráfico de drogas. Distinção fundamental.', tags: ['const', 'nacionalidade'] },
+  { id: 468, topic: 6, materia: 'const', q: 'Idades mínimas para elegibilidade?', a: '35 (PR/VPR/Senador) · 30 (Gov/VGov) · 21 (Dep Fed/Est, Pref/VPref, Juiz de Paz) · 18 (Vereador). CF 14 §3º VI.', tags: ['const', 'eleitoral', 'idade'] },
+  { id: 469, topic: 6, materia: 'const', q: 'Voto — alistamento obrigatório × facultativo?', a: 'OBRIGATÓRIO: maiores de 18 e menores de 70. FACULTATIVO: analfabetos · maiores de 70 · entre 16 e 18 (CF 14 §1º). Voto: DSU-P-IGUAL.', tags: ['const', 'voto'] },
+  { id: 470, topic: 7, materia: 'const', q: 'Competências CONCORRENTES (CF 24)?', a: 'União + Estados + DF (NÃO inclui Municípios). União: normas gerais. Estados: suplementam. Sem norma geral, Estados legislam plenamente. Lei federal superveniente prevalece no que conflitar.', tags: ['const', 'federalismo', 'competencias'] },
+  { id: 471, topic: 7, materia: 'const', q: 'Competência LEGISLATIVA do Município (CF 30)?', a: 'INTERESSE LOCAL (I) e SUPLEMENTAR às leis federais e estaduais no que couber (II). Tributos próprios (III). Serviços públicos locais (V). Conceito de "interesse local" é jurisprudencial.', tags: ['const', 'municipio'] },
+  { id: 472, topic: 7, materia: 'const', q: 'Princípios sensíveis (CF 34 VII)?', a: 'Forma REPUBLICANA · Sistema REPRESENTATIVO · Regime DEMOCRÁTICO · Direitos da PESSOA HUMANA · AUTONOMIA MUNICIPAL · PRESTAÇÃO DE CONTAS · aplicação do mínimo da receita em SAÚDE/EDUCAÇÃO. Violação enseja intervenção federal.', tags: ['const', 'principios-sensiveis'] },
+  { id: 473, topic: 8, materia: 'const', q: '7 espécies do processo legislativo (CF 59)?', a: 'EMENDAS À CF · LEIS COMPLEMENTARES · LEIS ORDINÁRIAS · LEIS DELEGADAS · MEDIDAS PROVISÓRIAS · DECRETOS LEGISLATIVOS · RESOLUÇÕES.', tags: ['const', 'processo-legislativo'] },
+  { id: 474, topic: 8, materia: 'const', q: 'Imunidade material × formal do parlamentar?', a: 'MATERIAL/IRRESPONSABILIDADE: invioláveis civil e penalmente por opiniões/palavras/votos no exercício do mandato. FORMAL/PROCESSUAL: prisão só em flagrante de crime inafiançável (CD/SF decide em 24h por maioria).', tags: ['const', 'imunidades'] },
+  { id: 475, topic: 8, materia: 'const', q: 'Garantias da magistratura (CF 95)?', a: 'VITALICIEDADE (após 2 anos) · INAMOVIBILIDADE · IRREDUTIBILIDADE de subsídios. Idênticas às do MP (CF 128 §5º I).', tags: ['const', 'magistratura'] },
+  { id: 476, topic: 8, materia: 'const', q: 'CNJ — composição?', a: '15 conselheiros · presidido pelo Pres. STF · mandato 2 anos · recondução permitida. Composição: 1 STF + 1 STJ + 1 TST + 4 juízes (TJ, estadual, TRF, federal) + 2 magistrados trabalhistas + 1 MP federal + 1 MP estadual + 2 advogados + 2 cidadãos.', tags: ['const', 'CNJ'] },
+  { id: 477, topic: 8, materia: 'const', q: 'Senado Federal — composição?', a: '3 SENADORES POR ESTADO E DF (CF 46 §1º). Mandato 8 anos. Renovação alternada (1/3 e 2/3). Total: 81 senadores (3 × 27 unidades federativas).', tags: ['const', 'senado'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -12094,6 +12639,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'Classificação clássica de J. A. Silva. (A) Falso — limitada tem eficácia MÍNIMA. (B) Falso — contida vale plenamente até virem restrições. (D) Falso — CF 5º §1º não converte limitadas em plenas. (E) Falso — STF RE 201.819 reconheceu a eficácia horizontal.'
+  },
+
+  // === Questões Rodada 6 — Const 3-8 ===
+  {
+    id: 161, topic: 3, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a hermenêutica constitucional:',
+    alternatives: [
+      'Há hierarquia entre as normas constitucionais, devendo ser observada quando houver tensão entre dispositivos.',
+      'A modulação dos efeitos da declaração de inconstitucionalidade exige maioria simples dos ministros do STF.',
+      'O princípio da unidade postula que a Constituição deve ser interpretada como um todo harmônico, sem hierarquia entre as normas; a concordância prática orienta a otimização recíproca em casos de colisão.',
+      'A interpretação conforme a CF é técnica que retira parte do texto da norma, deixando-a com redação reduzida.',
+      'A modulação só é cabível em ADC, jamais em ADI.'
+    ],
+    correct: 'C',
+    explanation: 'Princípios da hermenêutica constitucional. (A) Falso — não há hierarquia. (B) Falso — modulação exige 2/3 (Lei 9.868/99 art. 27). (D) Falso — interpretação conforme NÃO retira texto; declaração de nulidade parcial sem redução TAMBÉM não retira. (E) Falso — modulação aplicável em ADI, ADC, ADPF.'
+  },
+  {
+    id: 162, topic: 4, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios fundamentais da CF/88 (arts. 1º a 4º):',
+    alternatives: [
+      'Os fundamentos da República (art. 1º) incluem a soberania, a cidadania, a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa, e o pluralismo religioso.',
+      'Os objetivos da República (art. 3º) são apresentados em verbos no infinitivo (CONSTRUIR, GARANTIR, ERRADICAR, PROMOVER) e configuram típicas normas programáticas.',
+      'A forma de governo republicana é cláusula pétrea expressa no art. 60 §4º.',
+      'A prevalência dos direitos humanos (CF 4º II) constitui mero princípio orientador, sem efeito jurídico vinculante.',
+      'O parágrafo único do art. 1º consagra a representação política exclusiva, vedando o exercício direto do poder pelo povo.'
+    ],
+    correct: 'B',
+    explanation: 'CF art. 3º — verbos: CONSTRUIR · GARANTIR · ERRADICAR · PROMOVER. (A) Falso — pluralismo POLÍTICO (não religioso). (C) Falso — forma de governo (República) NÃO é cláusula pétrea expressa; forma federativa, sim. (D) Falso — prevalência dos DH é vinculante (STF RE 466.343). (E) Falso — § único: poder exercido por representantes eleitos OU diretamente.'
+  },
+  {
+    id: 163, topic: 5, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do art. 5º da CF/88 e dos remédios constitucionais:',
+    alternatives: [
+      'O mandado de segurança coletivo pode ser impetrado por partido político SEM representação no Congresso Nacional, desde que tenha mais de 1 ano de existência.',
+      'O habeas data é gratuito e admite a impetração para conhecer informações constantes de banco público OU privado, com finalidade de retificação ou anotação de explicações.',
+      'O mandado de injunção, conforme a Lei 13.300/16, segue regra geral concretista geral, com efeitos erga omnes.',
+      'A ação popular é remédio coletivo cabível por qualquer pessoa, brasileira ou estrangeira, em defesa de patrimônio público.',
+      'O habeas corpus é remédio gratuito, mas exige assistência de advogado para sua impetração.'
+    ],
+    correct: 'B',
+    explanation: 'CF 5º LXXII + Lei 9.507/97. (A) Falso — partido político precisa de representação no CN (CF 5º LXX a). (C) Falso — Lei 13.300/16 art. 9º: regra é concretista INDIVIDUAL (entre as partes). (D) Falso — só CIDADÃO pode propor (CF 5º LXXIII). (E) Falso — HC é gratuito e dispensa advogado.'
+  },
+  {
+    id: 164, topic: 6, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre nacionalidade e direitos políticos:',
+    alternatives: [
+      'O brasileiro naturalizado pode ser extraditado por crime comum praticado antes da naturalização ou por envolvimento em tráfico ilícito de drogas.',
+      'A idade mínima para o cargo de Senador é de 30 anos.',
+      'O voto é facultativo para os maiores de 65 anos, conforme o art. 14 §1º da CF/88.',
+      'É vedada ao militar conscrito o alistamento eleitoral.',
+      'A reeleição para o cargo de Presidente da República pode ocorrer por até dois mandatos consecutivos, totalizando 12 anos no cargo.'
+    ],
+    correct: 'A',
+    explanation: 'CF 5º LI. (B) Falso — Senador é 35 anos. (C) Falso — voto facultativo aos maiores de 70 (não 65). (D) Falso — conscrito é INALISTÁVEL (CF 14 §2º). (E) Falso — reeleição é UMA ÚNICA VEZ (8 anos máximo, CF 14 §5º).'
+  },
+  {
+    id: 165, topic: 7, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a organização do Estado brasileiro e a repartição de competências:',
+    alternatives: [
+      'A competência concorrente prevista no art. 24 da CF/88 envolve União, Estados, DF e Municípios.',
+      'O DF pode ser dividido em municípios, desde que mediante lei complementar federal.',
+      'No caso de competência concorrente, a União edita normas gerais e os Estados podem suplementá-las; na ausência de lei federal, os Estados podem legislar plenamente, e a superveniência de lei federal suspende a eficácia da lei estadual no que conflitar.',
+      'A intervenção federal é regra no federalismo brasileiro, sendo a autonomia dos Estados a exceção constitucional.',
+      'A forma federativa de Estado pode ser abolida por emenda constitucional aprovada por 4/5 dos membros do Congresso Nacional.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 24 §§ 1º-4º. (A) Falso — concorrente NÃO inclui Municípios. (B) Falso — DF NÃO pode ser dividido em municípios (CF 32 caput). (D) Falso — autonomia é regra; intervenção, exceção. (E) Falso — forma federativa é cláusula pétrea (CF 60 §4º I), não pode ser abolida.'
+  },
+  {
+    id: 166, topic: 8, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca da organização dos Poderes:',
+    alternatives: [
+      'Os parlamentares federais gozam de imunidade material e formal; pela imunidade material, são invioláveis por suas opiniões, palavras e votos no exercício do mandato.',
+      'A medida provisória possui prazo de vigência de 30 dias, prorrogáveis automaticamente pela Mesa do CN.',
+      'O CNJ é integrado por 14 conselheiros e presidido pelo Procurador-Geral da República.',
+      'O Senado Federal é composto por 4 senadores por Estado e por 2 pelo DF, conforme o art. 46 da CF/88.',
+      'A garantia da vitaliciedade dos magistrados se aperfeiçoa após 3 anos de exercício, conforme regra geral dos servidores públicos.'
+    ],
+    correct: 'A',
+    explanation: 'CF art. 53 caput. (B) Falso — MP tem 60 + 60 dias (CF 62 §§ 3º-7º). (C) Falso — CNJ tem 15 conselheiros e é presidido pelo Pres. do STF (CF 103-B). (D) Falso — Senado: 3 por Estado e DF (CF 46 §1º). (E) Falso — vitaliciedade dos magistrados após 2 anos (CF 95 I).'
   }
 ],
 

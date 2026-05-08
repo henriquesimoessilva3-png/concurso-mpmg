@@ -48,13 +48,13 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **77 tópicos com CONTEÚDO COMPLETO**: 30 PC (Fase 1 + 2) + 17 Civil (Fase 3) + 8 ColProc (100%) + 8 Teoria do MP (100%) + 12 ColMat (100%) + 2 Const com sinopse Juspodivm-like
-- **66 esqueletos prontos** distribuídos em 6 matérias (10 const, 12 adm, 8 elei, 10 trib, 14 penal, 12 pp) — cada um com `outline[]` e `editalText` preenchidos. Falta apenas escrever `sections: []`.
+- **83 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 8 Const com sinopse Juspodivm-like
+- **60 esqueletos prontos** distribuídos em 6 matérias (4 const, 12 adm, 8 elei, 10 trib, 14 penal, 12 pp).
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **457 flashcards** (164 PC + 84 Civil + 209 das demais matérias com vantagem da candidata e reforços)
-- **160 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **477 flashcards** (164 PC + 84 Civil + 229 das demais matérias)
+- **166 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
 - **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
@@ -96,7 +96,7 @@ Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata
 
 | Matéria | Esqueletos restantes |
 |---------|-------------------|
-| Constitucional | 10 (de 12 — const-01 e 02 prontos) |
+| Constitucional | 4 (de 12 — const-01 a 08 prontos) |
 | Administrativo | 12 |
 | Eleitoral | 8 |
 | Tributário/Financeiro | 10 |
@@ -179,24 +179,25 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #9** — Rodada 2: ColProc 100% completo (4 esqueletos restantes — MS Coletivo, MI/ADPF, coisa julgada, SIDH) + 2 ColMat (DH e ECA). +27 cards e +6 questões. Total: 60 preenchidos.
 - **PR #10** — Rodada 3: **Teoria do MP 100% COMPLETA** (5 esqueletos restantes — mp-01 histórico, mp-04 CNMP, mp-05 LC 75/93 MPU, mp-06 LC 34/94 MPMG, mp-08 atuação extrajudicial). +25 cards e +6 questões. Total: 65 preenchidos.
 - **PR #11** — Rodada 4: 6 esqueletos de Material Coletivo preenchidos (colmat-03 Pessoa Idosa, colmat-04 PCD/LBI, colmat-05 Educação, colmat-06 Saúde/SUS, colmat-07 Consumidor/CDC, colmat-08 Meio Ambiente). +30 cards e +6 questões. Total: 71 preenchidos.
-- **PR #12** (este) — Rodada 5: **ColMat 100% completa** (colmat-09 Urbanístico, colmat-10 Patrimônio Cultural, colmat-11 Improbidade, colmat-12 Comunidades Tradicionais) + **Const 2/12 iniciado** (const-01 Teoria, const-02 Eficácia). +30 cards e +6 questões. Total: **77 preenchidos**.
+- **PR #12** — Rodada 5: **ColMat 100% completa** (colmat-09 Urbanístico, colmat-10 Patrimônio Cultural, colmat-11 Improbidade, colmat-12 Comunidades Tradicionais) + **Const 2/12 iniciado** (const-01 Teoria, const-02 Eficácia). +30 cards e +6 questões. Total: 77 preenchidos.
+- **PR #13** (este) — Rodada 6: **Const 8/12** (const-03 Hermenêutica, const-04 Princípios fundamentais, const-05 Direitos e garantias fundamentais, const-06 Direitos sociais/Nacionalidade/Políticos, const-07 Federalismo, const-08 Poderes). +20 cards e +6 questões. Total: **83 preenchidos**.
 
 ## Stats atuais
 
-- **143 tópicos** (**77 com conteúdo** + 66 esqueletos com outline)
-- **457 flashcards**
-- **160 questões** com gabarito comentado
+- **143 tópicos** (**83 com conteúdo** + 60 esqueletos com outline)
+- **477 flashcards**
+- **166 questões** com gabarito comentado
 - **88 súmulas** STF/STJ mapeadas, distribuídas em 8 matérias via campo `materia`
-- ~14.000 linhas em `assets/data.js`
+- ~16.000 linhas em `assets/data.js`
 
-### Tópicos preenchidos (77)
+### Tópicos preenchidos (83)
 
 - **Processo Civil 1-30** (30) — Fase 1 e Fase 2 completas
 - **Direito Civil 1-17** (17) — Fase 3 completa
 - **Processual Coletivo 1-8** (8) — **100% COMPLETO**
 - **Teoria do MP 1-8** (8) — **100% COMPLETO**
-- **Material Coletivo 1-12** (12) — **100% COMPLETO**: DH, ECA, Pessoa Idosa, PCD, Educação, Saúde, Consumidor, Meio Ambiente, Urbanístico, Patrimônio Cultural, Improbidade, Comunidades Tradicionais
-- **Constitucional 1-2** (2 de 12): Teoria, Eficácia das normas. Faltam: const-03 a 12
+- **Material Coletivo 1-12** (12) — **100% COMPLETO**
+- **Constitucional 1-8** (8 de 12): Teoria, Eficácia, Hermenêutica, Princípios fundamentais, Direitos individuais, Direitos sociais/Nac/Políticos, Federalismo, Poderes. Faltam: const-09 a 12
 
 ### Próxima rodada sugerida (Rodada 6)
 
