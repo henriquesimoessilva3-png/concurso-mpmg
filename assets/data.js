@@ -6573,14 +6573,582 @@ topics: [
       ]
     }
   ] },
-  { id: 'const-09-funcoes-essenciais', num: 9, materia: 'const', title: 'Funções essenciais à Justiça', edital: '1.1.9', editalText: 'MP, AGU, Defensoria, advocacia. CF arts. 127-135.', size: 'Médio', schedule: null, advantage: null, outline: ['Ministério Público (arts. 127-130-A)', 'Advocacia Pública (arts. 131-132)', 'Advocacia (art. 133)', 'Defensoria Pública (art. 134)', 'CNMP — atribuições'], sections: [] },
-  { id: 'const-10-controle-constitucionalidade', num: 10, materia: 'const', title: 'Controle de constitucionalidade', edital: '1.1.10', editalText: 'Controle difuso e concentrado. ADI, ADC, ADPF, ADO. Súmulas vinculantes.', size: 'Grande', schedule: null, advantage: null, outline: ['Modalidades de inconstitucionalidade (formal × material)', 'Controle difuso (incidental)', 'Controle concentrado (ADI, ADC, ADPF, ADO)', 'Legitimados (CF art. 103)', 'Efeitos da declaração (ex tunc, ex nunc, modulação)', 'Súmulas vinculantes (art. 103-A)', 'Reclamação constitucional'], sections: [] },
-  { id: 'const-11-ordem-economica-financeira', num: 11, materia: 'const', title: 'Ordem econômica e financeira', edital: '1.1.11', editalText: 'Princípios da ordem econômica. Sistema financeiro nacional. Atividade econômica do Estado.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios gerais da ordem econômica (art. 170)', 'Política urbana (arts. 182-183)', 'Política agrícola e fundiária (arts. 184-191)', 'Sistema financeiro nacional (art. 192)', 'Atividade econômica do Estado (art. 173)', 'Serviços públicos (art. 175)'], sections: [] },
-  { id: 'const-12-ordem-social', num: 12, materia: 'const', title: 'Ordem social', edital: '1.1.12', editalText: 'Seguridade, educação, cultura, esporte, comunicação, meio ambiente, família, idoso, criança, índios.', size: 'Grande', schedule: null, advantage: null, outline: ['Seguridade social (saúde, previdência, assistência)', 'Educação, cultura e desporto', 'Comunicação social', 'Meio ambiente (art. 225)', 'Família, criança, adolescente, jovem, idoso (arts. 226-230)', 'Índios (arts. 231-232)'], sections: [] },
+  { id: 'const-09-funcoes-essenciais', num: 9, materia: 'const', title: 'Funções essenciais à Justiça', edital: '1.1.9', editalText: 'MP, AGU, Defensoria, advocacia. CF arts. 127-135.', size: 'Médio', schedule: 'Mês 8-9', advantage: 'Vantagem direta (Analista MP — convive com as funções essenciais).', outline: ['Ministério Público (arts. 127-130-A)', 'Advocacia Pública (arts. 131-132)', 'Advocacia (art. 133)', 'Defensoria Pública (art. 134)', 'CNMP — atribuições'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A CF/88 dedicou um CAPÍTULO PRÓPRIO (arts. 127-135) às **FUNÇÕES ESSENCIAIS À JUSTIÇA** — quatro instituições que, embora não integrem nenhum dos três Poderes, são INDISPENSÁVEIS à atuação jurisdicional: **MP** (arts. 127-130-A), **ADVOCACIA PÚBLICA** (arts. 131-132), **ADVOCACIA** (art. 133) e **DEFENSORIA PÚBLICA** (arts. 134-135).' },
+        { type: 'p', text: 'Para o concurso (atenção MPMG): (a) MP é o tópico maior — já abordado em detalhes na seção MP; (b) Advocacia Pública (AGU + Procuradorias) tem PAPEL DIVERSO do MP — defende interesses do ente federativo, não da sociedade; (c) Defensoria foi REFUNDADA com EC 80/2014 — autonomia funcional, administrativa e financeira, similar ao MP; (d) advocacia é função INDISPENSÁVEL (CF 133), com imunidade nos limites da lei.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Ministério Público (arts. 127-130-A)' },
+        { type: 'list', items: [
+          'Já detalhado nos tópicos MP 1-8',
+          'CF 127: definição (instituição permanente, essencial à função jurisdicional)',
+          'CF 128: estrutura (MPU + MPs estaduais)',
+          'CF 129: atribuições',
+          'CF 130-A: CNMP'
+        ]},
+
+        { type: 'h', text: 'Advocacia Pública (arts. 131-132)' },
+        { type: 'list', items: [
+          '**Art. 131** — AGU: representa a UNIÃO judicial e extrajudicialmente. Cabem-lhe atividades de consultoria e assessoramento jurídico do Poder Executivo. Dirigida pelo AGU (Advogado-Geral da União), nomeado pelo PR entre cidadãos com requisitos do Min. STF',
+          '**Art. 131 §1º** — LC organiza a AGU',
+          '**Art. 131 §3º** — representação da União junto à execução de dívida ativa de natureza tributária cabe à PROCURADORIA-GERAL DA FAZENDA NACIONAL',
+          '**Art. 132** — Procuradores dos Estados e do DF: representam o ente federativo · garantia: estabilidade após 3 anos (não vitaliciedade!) + concurso · subsídio · regime jurídico próprio'
+        ]},
+
+        { type: 'h', text: 'Advocacia (art. 133)' },
+        { type: 'list', items: [
+          'Advogado é INDISPENSÁVEL à administração da justiça',
+          'É inviolável por seus atos e manifestações no exercício da profissão, NOS LIMITES DA LEI',
+          'Disciplina: Lei 8.906/94 (EOAB)',
+          'Imunidade NÃO é absoluta — STF: limita-se a manifestações no exercício profissional, não cobre injúria pessoal'
+        ]},
+
+        { type: 'h', text: 'Defensoria Pública (art. 134-135)' },
+        { type: 'list', items: [
+          '**Art. 134** — INSTITUIÇÃO PERMANENTE, essencial à função jurisdicional. Incumbe-lhe a ORIENTAÇÃO JURÍDICA e a DEFESA, em todos os graus, judicial e extrajudicialmente, dos NECESSITADOS (CF 5º LXXIV)',
+          '**Art. 134 §1º** — LC sobre organização',
+          '**Art. 134 §2º** — autonomia FUNCIONAL e ADMINISTRATIVA + iniciativa orçamentária — EC 45/04',
+          '**Art. 134 §4º** — autonomia FUNCIONAL · ADMINISTRATIVA · INICIATIVA ORÇAMENTÁRIA · estende-se à Defensoria Pública dos Estados (EC 80/2014)',
+          '**Art. 135** — princípios institucionais: UNIDADE, INDIVISIBILIDADE e INDEPENDÊNCIA FUNCIONAL · garantias: VITALICIEDADE (após 3 anos), INAMOVIBILIDADE, IRREDUTIBILIDADE'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'MP × Advocacia Pública — distinção essencial' },
+        { type: 'p', text: 'O MP defende a SOCIEDADE (ordem jurídica, regime democrático, interesses sociais e individuais indisponíveis). Advocacia Pública (AGU, Procuradorias) defende o ENTE FEDERATIVO (União, Estados, DF, Municípios). Não se confundem. Vedação ao MP: representar judicialmente entidade pública (CF 129 IX final).' },
+
+        { type: 'h', text: 'Defensoria — refundação pela EC 80/2014' },
+        { type: 'p', text: 'A EC 80/2014 promoveu a Defensoria a status equivalente ao do MP — autonomia funcional, administrativa e financeira; princípios institucionais idênticos (unidade, indivisibilidade, independência funcional); garantias dos membros (vitaliciedade após 3 anos, inamovibilidade, irredutibilidade). Mas note: VITALICIEDADE da Defensoria é após 3 ANOS (não 2 como no MP).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 3.943 (2015):** reconheceu legitimidade ATIVA da Defensoria para ACP em defesa de NECESSITADOS. Marco da expansão da atuação coletiva da Defensoria. Convivência com legitimidade do MP.' },
+
+        { type: 'h', text: 'Imunidade do advogado — limites' },
+        { type: 'p', text: 'O advogado é INVIOLÁVEL nos LIMITES DA LEI por suas manifestações. STF: imunidade é PROFISSIONAL, não pessoal — não cobre injúria gratuita ou ofensa que ultrapasse o necessário ao exercício da profissão. Lei 8.906/94 art. 7º §2º regula com mais detalhe.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 funções essenciais à Justiça: MP · ADVOCACIA PÚBLICA · ADVOCACIA · DEFENSORIA.** CF arts. 127-135.' },
+        { type: 'box', kind: 'macete', text: '**Vitaliciedade: MP/MAGISTRATURA = 2 ANOS · DEFENSORIA = 3 ANOS · PROCURADORES DO ESTADO = ESTABILIDADE 3 ANOS (não vitaliciedade).**' },
+        { type: 'box', kind: 'macete', text: '**EC 80/2014 deu à Defensoria autonomia equivalente ao MP.** Marco refundacional.' },
+        { type: 'box', kind: 'macete', text: '**MP defende sociedade · Advocacia Pública defende ente federativo.** Não se confundem.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Procuradores do Estado têm ESTABILIDADE (após 3 anos), não vitaliciedade.** Diferença com MP e Magistratura.' },
+        { type: 'box', kind: 'atencao', text: '**Defensoria tem VITALICIEDADE após 3 anos** (não 2 como MP).' },
+        { type: 'box', kind: 'atencao', text: '**Defensoria pode propor ACP (STF ADI 3.943)** em defesa de necessitados.' },
+        { type: 'box', kind: 'atencao', text: '**Imunidade do advogado é nos LIMITES DA LEI** — não absoluta.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópicos MP 1-8:** detalhamento exclusivo do Ministério Público.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** legitimidade de MP, Defensoria, União, Estados.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** funções essenciais não integram os 3 Poderes — capítulo próprio.' }
+      ]
+    }
+  ] },
+  { id: 'const-10-controle-constitucionalidade', num: 10, materia: 'const', title: 'Controle de constitucionalidade', edital: '1.1.10', editalText: 'Controle difuso e concentrado. ADI, ADC, ADPF, ADO. Súmulas vinculantes.', size: 'Grande', schedule: 'Mês 9', advantage: null, outline: ['Modalidades de inconstitucionalidade (formal × material)', 'Controle difuso (incidental)', 'Controle concentrado (ADI, ADC, ADPF, ADO)', 'Legitimados (CF art. 103)', 'Efeitos da declaração (ex tunc, ex nunc, modulação)', 'Súmulas vinculantes (art. 103-A)', 'Reclamação constitucional'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CONTROLE DE CONSTITUCIONALIDADE** é o mecanismo de verificação da compatibilidade dos atos normativos com a CF. No Brasil, há duas modalidades coexistentes: **DIFUSO** (qualquer juiz pode declarar a inconstitucionalidade no caso concreto, com efeitos inter partes) e **CONCENTRADO** (apenas o STF, em ADI, ADC, ADPF e ADO, com efeitos erga omnes e vinculantes).' },
+        { type: 'p', text: 'Para o concurso: (a) **modalidades** de inconstitucionalidade (formal, material, total, parcial, originária, superveniente, por ação, por omissão); (b) **legitimados** (CF 103 — 9 categorias); (c) **efeitos** (ex tunc, ex nunc, modulação 2/3); (d) **súmulas vinculantes** (CF 103-A — quórum 2/3); (e) **reclamação** (preserva competência ou autoridade de decisão); (f) **STF é guardião da CF** (CF 102).' }
+      ]
+    },
+    {
+      h: 'Modalidades de inconstitucionalidade',
+      items: [
+        { type: 'h', text: 'Por critério' },
+        { type: 'list', items: [
+          '**FORMAL:** vício no PROCESSO de elaboração (ex: lei estadual que invade competência da União)',
+          '**MATERIAL:** vício no CONTEÚDO da norma (ex: lei que viola direito fundamental)',
+          '**TOTAL:** norma inteira é inconstitucional',
+          '**PARCIAL:** parte da norma é inconstitucional',
+          '**ORIGINÁRIA:** desde o início',
+          '**SUPERVENIENTE:** torna-se inconstitucional depois (ex: alteração da CF)',
+          '**POR AÇÃO:** lei contraria CF',
+          '**POR OMISSÃO:** falta de lei regulamentadora torna direito ineficaz'
+        ]}
+      ]
+    },
+    {
+      h: 'Modalidades — Difuso e Concentrado',
+      items: [
+        { type: 'h', text: 'Controle DIFUSO (incidental)' },
+        { type: 'list', items: [
+          'Qualquer juiz ou tribunal pode declarar a inconstitucionalidade',
+          'É **INCIDENTER TANTUM** — questão prejudicial ao mérito',
+          'Efeito **INTER PARTES** (entre as partes do processo)',
+          '**Cláusula de reserva de plenário (CF 97):** somente pelo voto da MAIORIA ABSOLUTA dos membros do Tribunal ou de seu órgão especial',
+          'Súm. Vinculante 10: a decisão de órgão fracionário que afasta lei sem declarar a inconstitucionalidade VIOLA reserva de plenário'
+        ]},
+
+        { type: 'h', text: 'Controle CONCENTRADO' },
+        { type: 'list', items: [
+          'Apenas no STF (em relação à CF) e nos TJs (em relação à Constituição estadual)',
+          'Modalidades: **ADI · ADC · ADPF · ADO**',
+          'Efeitos **ERGA OMNES · EX TUNC** (regra) com possibilidade de modulação · **EFEITO VINCULANTE** para o Judiciário e a Adm. Pública direta e indireta (CF 102 §2º)'
+        ]},
+
+        { type: 'h', text: 'ADI — Ação Direta de Inconstitucionalidade' },
+        { type: 'list', items: [
+          'Lei 9.868/99',
+          'Objetivo: declarar inconstitucionalidade de lei ou ato normativo federal ou estadual',
+          'Não cabe contra lei MUNICIPAL (cabe ADPF)',
+          'Quórum: maioria absoluta dos membros (6 dos 11) para procedência'
+        ]},
+
+        { type: 'h', text: 'ADC — Ação Declaratória de Constitucionalidade' },
+        { type: 'list', items: [
+          'Lei 9.868/99',
+          'Objetivo: declarar a CONSTITUCIONALIDADE de lei federal',
+          'Pressupõe controvérsia jurisprudencial',
+          'Apenas leis FEDERAIS (não estaduais ou municipais)'
+        ]},
+
+        { type: 'h', text: 'ADPF — Arguição de Descumprimento de Preceito Fundamental' },
+        { type: 'list', items: [
+          'Lei 9.882/99',
+          'PRINCÍPIO DA SUBSIDIARIEDADE (art. 4º §1º): só cabe se não houver outro meio eficaz',
+          'Cabe contra ATO do Poder Público (não só lei) — incluindo LEI MUNICIPAL e ATO PRÉ-CONSTITUCIONAL',
+          'Único meio para questionar normas pré-constitucionais e leis municipais'
+        ]},
+
+        { type: 'h', text: 'ADO — Ação Direta de Inconstitucionalidade por Omissão' },
+        { type: 'list', items: [
+          'CF art. 103 §2º + Lei 12.063/09',
+          'Cabe quando a OMISSÃO LEGISLATIVA torne ineficaz norma constitucional',
+          'Resultado: STF dá ciência ao Poder competente para tomar providências (não há prazo fixo, salvo para órgão administrativo: 30 dias)'
+        ]},
+
+        { type: 'h', text: 'Legitimados (CF 103) — 9 categorias' },
+        { type: 'list', items: [
+          'I — Presidente da República',
+          'II — Mesa do Senado Federal',
+          'III — Mesa da Câmara dos Deputados',
+          'IV — Mesa da Assembleia Legislativa ou da Câmara Legislativa do DF',
+          'V — Governador de Estado ou do DF',
+          'VI — Procurador-Geral da República',
+          'VII — Conselho Federal da OAB',
+          'VIII — partido político com representação no CN',
+          'IX — confederação sindical ou entidade de classe de âmbito nacional',
+          'PERTINÊNCIA TEMÁTICA: exigida para IV, V e IX (legitimados ESPECIAIS)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Súmulas Vinculantes (CF 103-A)' },
+        { type: 'p', text: 'EC 45/04. STF, de ofício ou mediante provocação, mediante DECISÃO DE 2/3 dos membros, após reiteradas decisões sobre matéria constitucional, pode aprovar súmula com efeito VINCULANTE em relação aos demais órgãos do Poder Judiciário e à Adm. Pública direta e indireta. Reclamação cabível em caso de descumprimento.' },
+
+        { type: 'h', text: 'Modulação dos efeitos (Lei 9.868/99 art. 27)' },
+        { type: 'p', text: 'STF pode, por **maioria de 2/3**, restringir os efeitos da declaração ou decidir que valha a partir do trânsito em julgado (ex nunc) ou de outro momento. Em razão de **segurança jurídica** ou **excepcional interesse social**.' },
+
+        { type: 'h', text: 'Reclamação Constitucional (CF 102 I "l")' },
+        { type: 'p', text: 'Preserva competência do STF e garante autoridade de suas decisões. Cabível contra: (a) violação de decisão vinculante (ADI, ADC, ADPF, ADO); (b) violação de SV; (c) usurpação de competência. Não substitui recursos ordinários.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 ações concentradas: ADI · ADC · ADPF · ADO.**' },
+        { type: 'box', kind: 'macete', text: '**ADPF é única via para LEI MUNICIPAL e ATO PRÉ-CONSTITUCIONAL** (Lei 9.882/99 art. 1º § único).' },
+        { type: 'box', kind: 'macete', text: '**9 legitimados (CF 103). Pertinência temática só para IV, V e IX (especiais).**' },
+        { type: 'box', kind: 'macete', text: '**Súmula vinculante: 2/3 do STF (CF 103-A).** Modulação: 2/3 (Lei 9.868/99 art. 27).' },
+        { type: 'box', kind: 'macete', text: '**Reserva de plenário (CF 97 + SV 10):** maioria absoluta.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**ADI NÃO cabe contra lei MUNICIPAL — cabe ADPF.** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Pertinência temática só para legitimados ESPECIAIS (IV, V, IX).** Universais (I, II, III, VI, VII, VIII) dispensam.' },
+        { type: 'box', kind: 'atencao', text: '**Súmula vinculante exige REITERADAS DECISÕES + 2/3.** Não basta decisão única.' },
+        { type: 'box', kind: 'atencao', text: '**Modulação: 2/3 do STF (Lei 9.868/99 art. 27).** Diferente da maioria absoluta para declarar inconstitucionalidade.' },
+        { type: 'box', kind: 'atencao', text: '**Cláusula de reserva de plenário (CF 97):** maioria ABSOLUTA dos membros do tribunal/órgão especial. SV 10 reforça.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** controle de emendas (limite ao poder reformador).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 3 (Hermenêutica):** modulação é técnica decisória.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 5 (MI/ADPF):** detalhamento da ADPF.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** PGR é legitimado universal.' }
+      ]
+    }
+  ] },
+  { id: 'const-11-ordem-economica-financeira', num: 11, materia: 'const', title: 'Ordem econômica e financeira', edital: '1.1.11', editalText: 'Princípios da ordem econômica. Sistema financeiro nacional. Atividade econômica do Estado.', size: 'Médio', schedule: 'Mês 9', advantage: null, outline: ['Princípios gerais da ordem econômica (art. 170)', 'Política urbana (arts. 182-183)', 'Política agrícola e fundiária (arts. 184-191)', 'Sistema financeiro nacional (art. 192)', 'Atividade econômica do Estado (art. 173)', 'Serviços públicos (art. 175)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ORDEM ECONÔMICA E FINANCEIRA** (CF arts. 170-192) estrutura a economia brasileira sobre dois fundamentos: a **VALORIZAÇÃO DO TRABALHO HUMANO** e a **LIVRE INICIATIVA** (CF 170 caput). Tem 9 PRINCÍPIOS expressos. É de natureza CAPITALISTA, mas com forte dirigismo social — propriedade tem função social, intervenção estatal possível em hipóteses constitucionais, defesa do consumidor, do meio ambiente, redução das desigualdades regionais.' },
+        { type: 'p', text: 'Para o concurso: (a) **9 princípios** do art. 170; (b) **atividade econômica do Estado** (CF 173 — exceção ao princípio da subsidiariedade); (c) **serviços públicos** (CF 175 — concessões); (d) **política urbana** (já visto); (e) **política agrícola** e fundiária; (f) **sistema financeiro nacional** (CF 192 — Lei 4.595/64 + EC 40/03).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 170 — Princípios da ordem econômica' },
+        { type: 'list', items: [
+          'Caput: VALORIZAÇÃO DO TRABALHO HUMANO + LIVRE INICIATIVA. Fim: assegurar a todos existência digna, conforme os ditames da JUSTIÇA SOCIAL',
+          'I — soberania nacional',
+          'II — propriedade privada',
+          'III — função social da propriedade',
+          'IV — livre concorrência',
+          'V — defesa do consumidor',
+          'VI — defesa do meio ambiente, inclusive mediante TRATAMENTO DIFERENCIADO',
+          'VII — redução das desigualdades regionais e sociais',
+          'VIII — busca do pleno emprego',
+          'IX — tratamento favorecido para empresas de pequeno porte (ME e EPP)',
+          '§ único: livre exercício de qualquer atividade econômica, independentemente de autorização (salvo casos de lei)'
+        ]},
+
+        { type: 'h', text: 'CF art. 173 — Atividade econômica do Estado' },
+        { type: 'list', items: [
+          'Estado só pode explorar atividade econômica DIRETAMENTE em casos de SEGURANÇA NACIONAL ou RELEVANTE INTERESSE COLETIVO',
+          'Empresas estatais (públicas e mistas) sujeitam-se ao REGIME PRIVADO (direito empresarial)',
+          'Princípio da SUBSIDIARIEDADE — Estado atua subsidiariamente'
+        ]},
+
+        { type: 'h', text: 'CF art. 175 — Serviços públicos' },
+        { type: 'list', items: [
+          'Caput: incumbe ao Poder Público a prestação de serviços públicos, diretamente OU sob regime de CONCESSÃO ou PERMISSÃO',
+          'Lei 8.987/95 — Lei das Concessões',
+          'Lei 11.079/04 — PPPs (Parcerias Público-Privadas)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios — análise dirigida' },
+        { type: 'p', text: '**Livre concorrência (IV)** e **defesa do consumidor (V)** são pilares do direito econômico-comercial. STF: o capitalismo brasileiro é REGULADO — não vale o "vale tudo". CADE (Lei 12.529/11) é o órgão antitruste.' },
+
+        { type: 'h', text: 'Atividade econômica do Estado (CF 173)' },
+        { type: 'p', text: 'É EXCEPCIONAL. Estado só atua diretamente quando: (i) SEGURANÇA NACIONAL; (ii) RELEVANTE INTERESSE COLETIVO. Empresas públicas e sociedades de economia mista submetem-se ao REGIME EMPRESARIAL (não público) — para evitar competição desleal com a iniciativa privada.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 760.931 (2017):** afastou aplicação do REGIME PÚBLICO em empresa estatal exploradora de atividade econômica em concorrência com a iniciativa privada (caso CORREIOS — entendimento posterior excepcionou).' },
+
+        { type: 'h', text: 'Serviços públicos × atividades econômicas' },
+        { type: 'p', text: '**SERVIÇO PÚBLICO (CF 175):** atividade que o Estado se obriga a prestar (saúde no SUS, educação, segurança). Pode ser delegado por concessão ou permissão.' },
+        { type: 'p', text: '**ATIVIDADE ECONÔMICA (CF 173):** o Estado pode entrar como agente econômico, mas em REGIME PRIVADO. Concorre com iniciativa privada.' },
+
+        { type: 'h', text: 'Política agrícola e reforma agrária (CF 184-191)' },
+        { type: 'p', text: '**REFORMA AGRÁRIA:** desapropriação por interesse social, com indenização em TÍTULOS DA DÍVIDA AGRÁRIA (CF 184) — exceção à regra do art. 5º XXIV. **PROPRIEDADE PRODUTIVA é INSUSCETÍVEL de desapropriação para reforma agrária** (CF 185 II). **Função social da propriedade rural (CF 186):** uso racional + preservação + relações de trabalho + bem-estar.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Fundamentos da ordem econômica: VALORIZAÇÃO DO TRABALHO + LIVRE INICIATIVA. Fim: existência digna conforme JUSTIÇA SOCIAL.**' },
+        { type: 'box', kind: 'macete', text: '**9 princípios (art. 170 I-IX): SOBERANIA · PROPRIEDADE · FUNÇÃO SOCIAL · LIVRE CONCORRÊNCIA · CONSUMIDOR · MEIO AMBIENTE · REDUÇÃO DESIGUALDADES · PLENO EMPREGO · ME/EPP.**' },
+        { type: 'box', kind: 'macete', text: '**Estado só atua em atividade econômica em SEGURANÇA NACIONAL ou RELEVANTE INTERESSE COLETIVO (CF 173).**' },
+        { type: 'box', kind: 'macete', text: '**Reforma agrária: TÍTULOS da dívida agrária. Propriedade produtiva: INSUSCETÍVEL.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reforma agrária: indenização em TÍTULOS, não dinheiro. Propriedade produtiva é INSUSCETÍVEL.**' },
+        { type: 'box', kind: 'atencao', text: '**Estado SUBSIDIÁRIO em atividade econômica (CF 173) — só atua em casos excepcionais.**' },
+        { type: 'box', kind: 'atencao', text: '**Empresas estatais econômicas seguem regime PRIVADO** (não público) — para não desequilibrar competição.' },
+        { type: 'box', kind: 'atencao', text: '**Serviço público ≠ atividade econômica.** Diferentes regimes (CF 175 × 173).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 4 (princípios fundamentais):** valorização do trabalho e livre iniciativa são fundamentos da República (CF 1º IV).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (Consumidor):** defesa do consumidor é princípio da ordem econômica (CF 170 V).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** defesa ambiental é princípio (CF 170 VI).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** política urbana (CF 182-183).' }
+      ]
+    }
+  ] },
+  { id: 'const-12-ordem-social', num: 12, materia: 'const', title: 'Ordem social', edital: '1.1.12', editalText: 'Seguridade, educação, cultura, esporte, comunicação, meio ambiente, família, idoso, criança, índios.', size: 'Grande', schedule: 'Mês 9', advantage: null, outline: ['Seguridade social (saúde, previdência, assistência)', 'Educação, cultura e desporto', 'Comunicação social', 'Meio ambiente (art. 225)', 'Família, criança, adolescente, jovem, idoso (arts. 226-230)', 'Índios (arts. 231-232)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ORDEM SOCIAL** (CF arts. 193-232) é o título mais EXTENSO da CF/88. Tem como base o **PRIMADO DO TRABALHO** e como objetivos o **BEM-ESTAR e a JUSTIÇA SOCIAIS** (CF 193). Disciplina seguridade social, educação, cultura, desporto, comunicação social, meio ambiente, família, criança, adolescente, jovem, idoso e índios.' },
+        { type: 'p', text: 'Para o concurso: domínio do **TRIPÉ DA SEGURIDADE SOCIAL** (saúde, previdência, assistência — CF 194); educação (já visto em ColMat); meio ambiente (já visto); família e proteção de grupos vulneráveis (já vistos em ColMat); índios (já visto em ColMat). Aqui consolidamos a leitura constitucional desses temas.' }
+      ]
+    },
+    {
+      h: 'Seguridade Social (CF arts. 194-204)',
+      items: [
+        { type: 'h', text: 'Tripé da seguridade' },
+        { type: 'list', items: [
+          '**SAÚDE (arts. 196-200):** UNIVERSAL · GRATUITA · não exige contribuição. SUS já abordado em colmat-06',
+          '**PREVIDÊNCIA SOCIAL (arts. 201-202):** RGPS (regra geral) — exige CONTRIBUIÇÃO + tempo de contribuição/idade. Aposentadoria, pensão por morte, auxílio-doença, etc.',
+          '**ASSISTÊNCIA SOCIAL (arts. 203-204):** para quem dela necessitar, INDEPENDENTE de contribuição. BPC à pessoa idosa (65+) e PCD (LOAS art. 20)'
+        ]},
+
+        { type: 'h', text: 'Princípios da seguridade (CF 194)' },
+        { type: 'list', items: [
+          'I — universalidade da cobertura e do atendimento',
+          'II — uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais',
+          'III — seletividade e distributividade na prestação dos benefícios',
+          'IV — irredutibilidade do valor dos benefícios',
+          'V — equidade na forma de participação no custeio',
+          'VI — diversidade da base de financiamento',
+          'VII — caráter democrático e descentralizado da administração',
+          'EC 103/19 acrescentou ainda equilíbrio financeiro e atuarial'
+        ]},
+        { type: 'box', kind: 'macete', text: '**SAÚDE (todos sem contribuição) · PREVIDÊNCIA (com contribuição) · ASSISTÊNCIA (necessitados sem contribuição).**' }
+      ]
+    },
+    {
+      h: 'Demais áreas da ordem social',
+      items: [
+        { type: 'h', text: 'Educação, cultura, esporte (arts. 205-217)' },
+        { type: 'p', text: 'Já abordado em colmat-05. Direito de todos, dever do Estado e família. Investimento mínimo (CF 212): U 18%, E/M 25%. Educação obrigatória 4-17 (EC 59/09).' },
+
+        { type: 'h', text: 'Comunicação social (arts. 220-224)' },
+        { type: 'p', text: '**Liberdade de imprensa** (220 caput). Vedação à censura (220 §2º). Princípios da programação (regional, cultural, valores éticos). STF — ADPF 130 (2009): NÃO RECEPCIONOU a Lei de Imprensa (Lei 5.250/67).' },
+
+        { type: 'h', text: 'Meio ambiente (CF 225)' },
+        { type: 'p', text: 'Já abordado em colmat-08. Direito difuso, transindividual, intergeracional. Tríplice responsabilização. Princípios (precaução, prevenção, poluidor-pagador, desenvolvimento sustentável). STF Tema 999 (imprescritibilidade da reparação).' },
+
+        { type: 'h', text: 'Família e proteção de vulneráveis (arts. 226-230)' },
+        { type: 'list', items: [
+          '**Art. 226** — família é base da sociedade. Casamento civil. União estável. Família monoparental. Casamento religioso com efeito civil',
+          '**Art. 227** — DIREITOS DA CRIANÇA, ADOLESCENTE e JOVEM (EC 65/10): vida, saúde, alimentação, educação, lazer, profissionalização, cultura, dignidade, respeito, liberdade, convivência familiar e comunitária, com PRIORIDADE ABSOLUTA',
+          '**Art. 228** — inimputabilidade penal: menores de 18 anos. Lei especial (ECA + SINASE)',
+          '**Art. 229** — pais cuidam dos filhos menores · filhos maiores ajudam os pais na velhice/carência',
+          '**Art. 230** — DEVER da família, sociedade e Estado de amparar os IDOSOS'
+        ]},
+
+        { type: 'h', text: 'Índios (arts. 231-232)' },
+        { type: 'p', text: 'Já abordado em colmat-12. Reconhecidas organização social, costumes, línguas, crenças e tradições. Direitos ORIGINÁRIOS sobre as terras tradicionalmente ocupadas. STF Tema 1031 (marco temporal inconstitucional, 2023).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Tripé da seguridade: SAÚDE · PREVIDÊNCIA · ASSISTÊNCIA.**' },
+        { type: 'box', kind: 'macete', text: '**Saúde: UNIVERSAL · sem contribuição. Previdência: COM contribuição. Assistência: NECESSITADOS, sem contribuição.**' },
+        { type: 'box', kind: 'macete', text: '**Inimputabilidade penal: 18 anos (CF 228 + CP 27).** Cláusula pétrea? Há divergência — STF admite alteração por EC.' },
+        { type: 'box', kind: 'macete', text: '**Comunicação social: STF ADPF 130 (2009) — Lei de Imprensa (5.250/67) NÃO RECEPCIONADA.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Saúde NÃO depende de contribuição.** Universal e gratuita.' },
+        { type: 'box', kind: 'atencao', text: '**Previdência DEPENDE de contribuição (RGPS — Lei 8.213/91).**' },
+        { type: 'box', kind: 'atencao', text: '**BPC (LOAS) = ASSISTÊNCIA, não previdência.** Sem contribuição.' },
+        { type: 'box', kind: 'atencao', text: '**Inimputabilidade (CF 228 — 18 anos):** se é cláusula pétrea — divergência. STF: pode ser alterada por EC, doutrina majoritária diverge.' },
+        { type: 'box', kind: 'atencao', text: '**STF ADPF 130 (2009): Lei de Imprensa NÃO recepcionada — em bloco.** Outras leis regulam matérias específicas (Marco Civil da Internet, etc.).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 6 (Saúde):** SUS — detalhamento.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 5 (Educação):** detalhamento.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** CF 225.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** crianças e adolescentes.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** CF 230.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 12 (Comunidades Tradicionais):** índios.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO ADMINISTRATIVO (12) ============
-  { id: 'adm-01-principios-administrativos', num: 1, materia: 'adm', title: 'Princípios da Administração Pública', edital: '1.2.1', editalText: 'LIMPE + princípios implícitos. Regime jurídico-administrativo.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios constitucionais expressos (LIMPE — art. 37)', 'Princípios implícitos (razoabilidade, proporcionalidade, motivação, autotutela, etc.)', 'Regime jurídico-administrativo', 'Supremacia e indisponibilidade do interesse público'], sections: [] },
-  { id: 'adm-02-atos-administrativos', num: 2, materia: 'adm', title: 'Atos administrativos', edital: '1.2.2', editalText: 'Conceito, requisitos, atributos, classificações, espécies, vícios, extinção.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito e requisitos (competência, finalidade, forma, motivo, objeto)', 'Atributos (presunção, imperatividade, autoexecutoriedade, tipicidade)', 'Classificações', 'Espécies (normativos, ordinatórios, negociais, enunciativos, punitivos)', 'Vícios e teoria das nulidades', 'Extinção (revogação, anulação, cassação, caducidade)'], sections: [] },
+  { id: 'adm-01-principios-administrativos', num: 1, materia: 'adm', title: 'Princípios da Administração Pública', edital: '1.2.1', editalText: 'LIMPE + princípios implícitos. Regime jurídico-administrativo.', size: 'Médio', schedule: 'Mês 9-10', advantage: null, outline: ['Princípios constitucionais expressos (LIMPE — art. 37)', 'Princípios implícitos (razoabilidade, proporcionalidade, motivação, autotutela, etc.)', 'Regime jurídico-administrativo', 'Supremacia e indisponibilidade do interesse público'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA** são o pórtico do Direito Administrativo. CF/88 art. 37 caput consagra os EXPRESSOS — mnemônico **LIMPE: LEGALIDADE · IMPESSOALIDADE · MORALIDADE · PUBLICIDADE · EFICIÊNCIA** (eficiência adicionada pela EC 19/98). Doutrina e jurisprudência reconhecem dezenas de princípios IMPLÍCITOS — razoabilidade, proporcionalidade, motivação, autotutela, especialidade, hierarquia, continuidade do serviço público, segurança jurídica, etc.' },
+        { type: 'p', text: 'O **REGIME JURÍDICO-ADMINISTRATIVO** é construído sobre dois pilares (Bandeira de Mello): **SUPREMACIA DO INTERESSE PÚBLICO** sobre o privado e **INDISPONIBILIDADE DO INTERESSE PÚBLICO**. Esses dois princípios mestres irradiam suas consequências por todo o direito administrativo.' }
+      ]
+    },
+    {
+      h: 'Princípios EXPRESSOS (LIMPE — CF 37)',
+      items: [
+        { type: 'h', text: 'L — LEGALIDADE' },
+        { type: 'p', text: 'Para a Adm., a legalidade é mais ESTRITA que para o particular. **Particular pode tudo o que a lei NÃO PROÍBE.** **Adm. só pode o que a lei AUTORIZA.** Distinção fundamental — princípio da legalidade administrativa = legalidade estrita.' },
+
+        { type: 'h', text: 'I — IMPESSOALIDADE' },
+        { type: 'p', text: 'A Adm. atua de forma OBJETIVA, sem favorecimentos pessoais. Manifestações: (a) finalidade pública (não pode atos para perseguir ou favorecer pessoas); (b) imputação dos atos à pessoa jurídica (não ao agente — STF ADI 6.529/2020); (c) proibição de promoção pessoal de governantes (CF 37 §1º).' },
+
+        { type: 'h', text: 'M — MORALIDADE' },
+        { type: 'p', text: 'A atuação administrativa deve ser ÉTICA. Não basta legalidade formal — é exigida moralidade material. Lei 8.429/92 (LIA) é instrumento. Atos imorais são ANULÁVEIS.' },
+
+        { type: 'h', text: 'P — PUBLICIDADE' },
+        { type: 'p', text: 'Atos da Adm. são, em REGRA, públicos. EXCEÇÕES: sigilo necessário à segurança da sociedade e do Estado (CF 5º XXXIII e LX) ou intimidade. Lei de Acesso à Informação (Lei 12.527/11) regulamenta.' },
+
+        { type: 'h', text: 'E — EFICIÊNCIA' },
+        { type: 'p', text: 'Acrescentado pela EC 19/98. A Adm. deve atuar com QUALIDADE e PRODUTIVIDADE. Cobra resultado, não só procedimento. Aproxima-se do conceito gerencial.' }
+      ]
+    },
+    {
+      h: 'Princípios IMPLÍCITOS',
+      items: [
+        { type: 'list', items: [
+          '**RAZOABILIDADE/PROPORCIONALIDADE:** atos administrativos devem ser razoáveis e proporcionais',
+          '**MOTIVAÇÃO:** atos devem ser motivados (Lei 9.784/99 art. 50). Motivação INSUFICIENTE = vício',
+          '**AUTOTUTELA:** Adm. pode anular atos ilegais (de ofício) ou revogar atos inconvenientes (Súm. 473 STF)',
+          '**ESPECIALIDADE:** Adm. indireta tem atribuições específicas',
+          '**HIERARQUIA:** vínculo de subordinação',
+          '**CONTINUIDADE DO SERVIÇO PÚBLICO:** serviços essenciais não podem ser interrompidos arbitrariamente',
+          '**SEGURANÇA JURÍDICA:** vedação à mudança brusca de orientação. Lei 9.784/99 art. 54: prazo decadencial de 5 anos para anulação de atos beneficiários',
+          '**CONTRADITÓRIO E AMPLA DEFESA:** em PADs e atos restritivos (CF 5º LV)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Supremacia × Indisponibilidade do interesse público' },
+        { type: 'p', text: '**SUPREMACIA:** prevalência do interesse público sobre o privado em conflitos. Justifica prerrogativas da Adm. (autoexecutoriedade, presunção de legitimidade, cláusulas exorbitantes).' },
+        { type: 'p', text: '**INDISPONIBILIDADE:** o interesse público NÃO pode ser disposto livremente pelo administrador. Adm. age vinculada à lei e ao interesse público — não como dono.' },
+
+        { type: 'h', text: 'Súmula 473 STF (autotutela)' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 473:** "A Administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial."' },
+
+        { type: 'h', text: 'Prazo para anulação (Lei 9.784/99 art. 54)' },
+        { type: 'p', text: '5 ANOS, contados da data do ato beneficiário, se MÁ-FÉ não comprovada. Após, decai o direito da Adm. de anular. Salvo má-fé, hipótese em que o prazo é maior.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LIMPE = LEGALIDADE · IMPESSOALIDADE · MORALIDADE · PUBLICIDADE · EFICIÊNCIA.** EC 19/98 acrescentou Eficiência.' },
+        { type: 'box', kind: 'macete', text: '**Particular: pode tudo que a lei não proíbe. Adm.: só o que a lei autoriza.** Diferença na legalidade.' },
+        { type: 'box', kind: 'macete', text: '**Súm. 473 STF: anula vícios + revoga inconveniência (autotutela).**' },
+        { type: 'box', kind: 'macete', text: '**Lei 9.784/99 art. 54: prazo decadencial de 5 anos para anular atos beneficiários (sem má-fé).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Eficiência foi acrescentada pela EC 19/98 — não estava no texto original.**' },
+        { type: 'box', kind: 'atencao', text: '**Adm. pode anular (vícios — efeitos ex tunc) ou revogar (conveniência — ex nunc).** Distinção essencial.' },
+        { type: 'box', kind: 'atencao', text: '**Atos anulados NÃO geram direito adquirido — atos revogados sim, em parte.** STF/STJ.' },
+        { type: 'box', kind: 'atencao', text: '**Princípios implícitos têm a mesma força dos expressos.** Não há hierarquia.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** contraditório e ampla defesa em atos administrativos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** moralidade administrativa é vetor central da LIA.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 2 (Atos):** princípios disciplinam validade dos atos.' }
+      ]
+    }
+  ] },
+  { id: 'adm-02-atos-administrativos', num: 2, materia: 'adm', title: 'Atos administrativos', edital: '1.2.2', editalText: 'Conceito, requisitos, atributos, classificações, espécies, vícios, extinção.', size: 'Grande', schedule: 'Mês 9-10', advantage: null, outline: ['Conceito e requisitos (competência, finalidade, forma, motivo, objeto)', 'Atributos (presunção, imperatividade, autoexecutoriedade, tipicidade)', 'Classificações', 'Espécies (normativos, ordinatórios, negociais, enunciativos, punitivos)', 'Vícios e teoria das nulidades', 'Extinção (revogação, anulação, cassação, caducidade)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **ATO ADMINISTRATIVO** é manifestação UNILATERAL de vontade da Adm. (ou de quem lhe faça as vezes), no exercício da função administrativa, sob regime de direito público, visando produzir efeitos JURÍDICOS. Distingue-se de FATO administrativo (acontecimento natural com efeitos jurídicos), de ATO de gestão privada e de ATO normativo (lei).' },
+        { type: 'p', text: 'Para o concurso: (a) **5 REQUISITOS** (competência, finalidade, forma, motivo, objeto — mnemônico **CO-FI-FO-MO-OB**); (b) **4 ATRIBUTOS** (presunção de legitimidade, imperatividade, autoexecutoriedade, tipicidade — mnemônico **PIAT**); (c) **CLASSIFICAÇÕES** (vinculados × discricionários, simples × complexos × compostos, gerais × individuais); (d) **VÍCIOS** e teoria das NULIDADES (atos NULOS e ANULÁVEIS); (e) **EXTINÇÃO** (revogação, anulação, cassação, caducidade, contraposição).' }
+      ]
+    },
+    {
+      h: 'Requisitos e atributos',
+      items: [
+        { type: 'h', text: '5 Requisitos (CO-FI-FO-MO-OB)' },
+        { type: 'list', items: [
+          '**COMPETÊNCIA:** atribuição legal do agente. Competência é REQUISITO VINCULADO',
+          '**FINALIDADE:** interesse público específico previsto em lei. Vinculada',
+          '**FORMA:** modo de exteriorização. Em regra, escrita. Vinculada',
+          '**MOTIVO:** fundamento de fato e de direito. Pode ser vinculado ou discricionário',
+          '**OBJETO:** efeito jurídico produzido. Pode ser vinculado ou discricionário'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Vinculado SEMPRE: Competência, Finalidade, Forma. Discricionário pode ser: Motivo e Objeto.**' },
+
+        { type: 'h', text: '4 Atributos (PIAT)' },
+        { type: 'list', items: [
+          '**PRESUNÇÃO DE LEGITIMIDADE:** ato é presumido legal e veraz. RELATIVA (juris tantum) — admite prova em contrário',
+          '**IMPERATIVIDADE:** impõe-se a terceiros, mesmo sem concordância. Não está em todos os atos (ex: alvará é declaratório)',
+          '**AUTOEXECUTORIEDADE:** Adm. executa diretamente, sem necessidade de manifestação judicial prévia. Em hipóteses previstas em lei ou em situações de urgência',
+          '**TIPICIDADE:** ato administrativo deve corresponder a figura definida em lei. Princípio garantista'
+        ]}
+      ]
+    },
+    {
+      h: 'Classificações e espécies',
+      items: [
+        { type: 'h', text: 'Classificações' },
+        { type: 'list', items: [
+          'VINCULADOS × DISCRICIONÁRIOS',
+          'SIMPLES (1 órgão) × COMPLEXOS (vontade de mais de 1) × COMPOSTOS (1 ato + outro confirmatório)',
+          'GERAIS × INDIVIDUAIS',
+          'INTERNOS × EXTERNOS',
+          'CONSTITUTIVOS × DECLARATÓRIOS × MODIFICATIVOS × EXTINTIVOS'
+        ]},
+
+        { type: 'h', text: 'Espécies (rol clássico)' },
+        { type: 'list', items: [
+          '**NORMATIVOS:** decretos, regulamentos, instruções normativas',
+          '**ORDINATÓRIOS:** circulares, ofícios, ordens internas',
+          '**NEGOCIAIS:** licença, autorização, permissão, aprovação',
+          '**ENUNCIATIVOS:** atestado, certidão, parecer',
+          '**PUNITIVOS:** multa, demolição, interdição'
+        ]}
+      ]
+    },
+    {
+      h: 'Vícios, nulidades e extinção',
+      items: [
+        { type: 'h', text: 'Vícios — teoria das nulidades' },
+        { type: 'p', text: '**ATO NULO:** vício insanável. Anulação ex tunc. Não gera direito adquirido. **ATO ANULÁVEL:** vício sanável, possível convalidação. Lei 9.784/99 admite convalidação em casos de vícios em FORMA e COMPETÊNCIA (não sobre matéria privativa).' },
+
+        { type: 'h', text: 'Extinção dos atos' },
+        { type: 'list', items: [
+          '**ANULAÇÃO:** atos ilegais. Efeitos EX TUNC. Pelo Judiciário ou pela Adm. (autotutela)',
+          '**REVOGAÇÃO:** atos legais inconvenientes. Efeitos EX NUNC. Apenas pela Adm. — não pelo Judiciário',
+          '**CASSAÇÃO:** descumprimento de condição pelo beneficiário (ex: cassação de licença por descumprimento de norma)',
+          '**CADUCIDADE:** ato torna-se incompatível com nova legislação',
+          '**CONTRAPOSIÇÃO:** novo ato administrativo extingue o anterior',
+          'Renúncia (raras hipóteses)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Requisitos (CO-FI-FO-MO-OB): Competência · Finalidade · Forma · Motivo · Objeto.**' },
+        { type: 'box', kind: 'macete', text: '**Atributos (PIAT): Presunção · Imperatividade · Autoexecutoriedade · Tipicidade.** Nem todos têm imperatividade ou autoexecutoriedade.' },
+        { type: 'box', kind: 'macete', text: '**Anulação: ex TUNC (vício de origem). Revogação: ex NUNC (conveniência).**' },
+        { type: 'box', kind: 'macete', text: '**Súm. 473 STF: autotutela administrativa = anular OU revogar.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Adm. ANULA atos ilegais (vínculo). REVOGA por conveniência (discricionariedade).** Não confundir.' },
+        { type: 'box', kind: 'atencao', text: '**Judiciário NÃO pode revogar — só anular** (separação dos poderes). Súm. 473 STF.' },
+        { type: 'box', kind: 'atencao', text: '**Presunção de legitimidade é RELATIVA — admite prova em contrário.**' },
+        { type: 'box', kind: 'atencao', text: '**Convalidação só de vícios em FORMA ou COMPETÊNCIA** (Lei 9.784/99 art. 55).' },
+        { type: 'box', kind: 'atencao', text: '**Anulação tem prazo de 5 anos (art. 54 Lei 9.784) — salvo má-fé.** Após, decai.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** legalidade, autotutela, segurança jurídica fundamentam a teoria dos atos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** ato administrativo viciado pode caracterizar improbidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (Controle):** declarado inconstitucional o ato normativo, atos individuais derivados podem ser anulados.' }
+      ]
+    }
+  ] },
   { id: 'adm-03-poderes-administrativos', num: 3, materia: 'adm', title: 'Poderes administrativos', edital: '1.2.3', editalText: 'Vinculado, discricionário, hierárquico, disciplinar, regulamentar, polícia.', size: 'Médio', schedule: null, advantage: null, outline: ['Poder vinculado × discricionário', 'Poder hierárquico', 'Poder disciplinar', 'Poder regulamentar', 'Poder de polícia (atributos, ciclo, prescrição)', 'Abuso de poder (excesso e desvio)'], sections: [] },
   { id: 'adm-04-servidores-publicos', num: 4, materia: 'adm', title: 'Servidores públicos', edital: '1.2.4', editalText: 'Regime jurídico, direitos, deveres, responsabilidades. CF arts. 37-41.', size: 'Grande', schedule: null, advantage: null, outline: ['Regimes (estatutário, celetista, especial)', 'Cargo, emprego e função', 'Acessibilidade e concurso público', 'Estabilidade e estágio probatório', 'Direitos (remuneração, férias, licenças)', 'Deveres e proibições', 'Responsabilidades (civil, penal, administrativa)', 'Aposentadoria e regime previdenciário (EC 103/19)'], sections: [] },
   { id: 'adm-05-bens-publicos', num: 5, materia: 'adm', title: 'Bens públicos', edital: '1.2.5', editalText: 'Classificação, afetação, alienação, uso especial, prescrição.', size: 'Médio', schedule: null, advantage: null, outline: ['Classificação (uso comum, uso especial, dominicais)', 'Características (impenhorabilidade, imprescritibilidade, inalienabilidade relativa)', 'Afetação e desafetação', 'Formas de alienação (Lei 14.133/21)', 'Uso especial (autorização, permissão, concessão de uso)', 'Bens das pessoas administrativas indiretas'], sections: [] },
@@ -10381,7 +10949,25 @@ flashcards: [
   { id: 474, topic: 8, materia: 'const', q: 'Imunidade material × formal do parlamentar?', a: 'MATERIAL/IRRESPONSABILIDADE: invioláveis civil e penalmente por opiniões/palavras/votos no exercício do mandato. FORMAL/PROCESSUAL: prisão só em flagrante de crime inafiançável (CD/SF decide em 24h por maioria).', tags: ['const', 'imunidades'] },
   { id: 475, topic: 8, materia: 'const', q: 'Garantias da magistratura (CF 95)?', a: 'VITALICIEDADE (após 2 anos) · INAMOVIBILIDADE · IRREDUTIBILIDADE de subsídios. Idênticas às do MP (CF 128 §5º I).', tags: ['const', 'magistratura'] },
   { id: 476, topic: 8, materia: 'const', q: 'CNJ — composição?', a: '15 conselheiros · presidido pelo Pres. STF · mandato 2 anos · recondução permitida. Composição: 1 STF + 1 STJ + 1 TST + 4 juízes (TJ, estadual, TRF, federal) + 2 magistrados trabalhistas + 1 MP federal + 1 MP estadual + 2 advogados + 2 cidadãos.', tags: ['const', 'CNJ'] },
-  { id: 477, topic: 8, materia: 'const', q: 'Senado Federal — composição?', a: '3 SENADORES POR ESTADO E DF (CF 46 §1º). Mandato 8 anos. Renovação alternada (1/3 e 2/3). Total: 81 senadores (3 × 27 unidades federativas).', tags: ['const', 'senado'] }
+  { id: 477, topic: 8, materia: 'const', q: 'Senado Federal — composição?', a: '3 SENADORES POR ESTADO E DF (CF 46 §1º). Mandato 8 anos. Renovação alternada (1/3 e 2/3). Total: 81 senadores (3 × 27 unidades federativas).', tags: ['const', 'senado'] },
+
+  // === Cards Rodada 7 — Const 9-12 + Adm 1-2 ===
+  { id: 478, topic: 9, materia: 'const', q: '4 funções essenciais à Justiça?', a: 'MP (CF 127-130-A) · ADVOCACIA PÚBLICA — AGU/Procuradorias (131-132) · ADVOCACIA (133) · DEFENSORIA PÚBLICA (134-135).', tags: ['const', 'funcoes-essenciais'] },
+  { id: 479, topic: 9, materia: 'const', q: 'Defensoria Pública — vitaliciedade?', a: '3 ANOS (CF 134 + EC 80/14). Diferente do MP/Magistratura (2 anos). Após EC 80/14, autonomia funcional, administrativa e iniciativa orçamentária — equivalente ao MP.', tags: ['const', 'defensoria'] },
+  { id: 480, topic: 9, materia: 'const', q: 'Procurador do Estado — garantia?', a: 'ESTABILIDADE após 3 anos (CF 132 § único). NÃO é vitaliciedade. Distinção com MP/Magistratura/Defensoria.', tags: ['const', 'advocacia-publica'] },
+  { id: 481, topic: 10, materia: 'const', q: '4 ações do controle concentrado?', a: 'ADI · ADC · ADPF · ADO. Apenas no STF (em relação à CF). Efeitos: ERGA OMNES · vinculantes · ex tunc (regra) com possível modulação (2/3).', tags: ['const', 'controle', 'concentrado'] },
+  { id: 482, topic: 10, materia: 'const', q: '9 legitimados (CF 103) — quem precisa de pertinência temática?', a: '9 categorias: PR · Mesas SF/CD/AL · Gov Estado/DF · PGR · CFOAB · partido com representação CN · confederação/entidade nacional. Pertinência temática SÓ para legitimados ESPECIAIS (IV — Mesa AL/CD; V — Gov; IX — confederação/entidade).', tags: ['const', 'controle', 'legitimados'] },
+  { id: 483, topic: 10, materia: 'const', q: 'ADPF — quando é única via?', a: 'Lei MUNICIPAL e ATO PRÉ-CONSTITUCIONAL (Lei 9.882/99 art. 1º § único). ADI/ADC só atacam leis ou atos federais/estaduais pós-CF.', tags: ['const', 'ADPF'] },
+  { id: 484, topic: 11, materia: 'const', q: '9 princípios da ordem econômica (CF 170)?', a: 'SOBERANIA NACIONAL · PROPRIEDADE PRIVADA · FUNÇÃO SOCIAL · LIVRE CONCORRÊNCIA · CONSUMIDOR · MEIO AMBIENTE · REDUÇÃO DESIGUALDADES · PLENO EMPREGO · ME/EPP. Fundamentos: valorização do trabalho + livre iniciativa.', tags: ['const', 'ordem-economica'] },
+  { id: 485, topic: 11, materia: 'const', q: 'Quando o Estado pode atuar diretamente em atividade econômica?', a: 'Em casos de SEGURANÇA NACIONAL ou RELEVANTE INTERESSE COLETIVO (CF 173). Empresas estatais econômicas seguem REGIME PRIVADO — para não desequilibrar a competição.', tags: ['const', 'estado-economia'] },
+  { id: 486, topic: 12, materia: 'const', q: 'Tripé da seguridade social (CF 194)?', a: 'SAÚDE (universal, sem contribuição) · PREVIDÊNCIA (com contribuição — RGPS) · ASSISTÊNCIA (necessitados, sem contribuição). Princípios: universalidade, uniformidade, seletividade, irredutibilidade, etc.', tags: ['const', 'seguridade'] },
+  { id: 487, topic: 12, materia: 'const', q: 'STF ADPF 130 (2009)?', a: 'Lei de Imprensa (5.250/67) NÃO RECEPCIONADA pela CF/88, em bloco. Liberdade de imprensa garantida pela própria CF (art. 220). Outras leis regulam matérias específicas.', tags: ['const', 'imprensa'] },
+  { id: 488, topic: 1, materia: 'adm', q: 'LIMPE — princípios constitucionais expressos da Adm. Pública?', a: 'LEGALIDADE · IMPESSOALIDADE · MORALIDADE · PUBLICIDADE · EFICIÊNCIA. CF 37 caput. Eficiência foi acrescentada pela EC 19/98.', tags: ['adm', 'principios', 'LIMPE'] },
+  { id: 489, topic: 1, materia: 'adm', q: 'Princípio da autotutela — Súm. 473 STF?', a: '"A Administração pode anular seus próprios atos quando ilegais [...] ou revogá-los por conveniência." Anulação = vício (ex tunc). Revogação = inconveniência (ex nunc). Respeitados direitos adquiridos e apreciação judicial.', tags: ['adm', 'autotutela', 'sumula-473'] },
+  { id: 490, topic: 1, materia: 'adm', q: 'Lei 9.784/99 art. 54 — prazo decadencial?', a: '5 ANOS contados da data do ato beneficiário, para a Adm. anular atos administrativos favoráveis. Salvo MÁ-FÉ comprovada (em que o prazo é estendido).', tags: ['adm', 'prazo', 'decadencia'] },
+  { id: 491, topic: 2, materia: 'adm', q: '5 requisitos do ato administrativo (CO-FI-FO-MO-OB)?', a: 'COMPETÊNCIA · FINALIDADE · FORMA · MOTIVO · OBJETO. Os 3 primeiros são SEMPRE VINCULADOS. Motivo e Objeto podem ser DISCRICIONÁRIOS.', tags: ['adm', 'atos', 'requisitos'] },
+  { id: 492, topic: 2, materia: 'adm', q: '4 atributos do ato administrativo (PIAT)?', a: 'PRESUNÇÃO de legitimidade (relativa) · IMPERATIVIDADE · AUTOEXECUTORIEDADE · TIPICIDADE. Nem todos os atos têm imperatividade ou autoexecutoriedade.', tags: ['adm', 'atos', 'atributos'] },
+  { id: 493, topic: 2, materia: 'adm', q: 'Anulação × Revogação — distinção?', a: 'ANULAÇÃO: vício de legalidade · ex TUNC · pode ser feita pelo Judiciário e pela Adm. REVOGAÇÃO: conveniência/oportunidade · ex NUNC · APENAS pela Adm. (Judiciário não revoga).', tags: ['adm', 'extincao', 'anulacao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -12719,6 +13305,86 @@ questions: [
     ],
     correct: 'A',
     explanation: 'CF art. 53 caput. (B) Falso — MP tem 60 + 60 dias (CF 62 §§ 3º-7º). (C) Falso — CNJ tem 15 conselheiros e é presidido pelo Pres. do STF (CF 103-B). (D) Falso — Senado: 3 por Estado e DF (CF 46 §1º). (E) Falso — vitaliciedade dos magistrados após 2 anos (CF 95 I).'
+  },
+
+  // === Questões Rodada 7 — Const 9-12 + Adm 1-2 ===
+  {
+    id: 167, topic: 9, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as funções essenciais à Justiça (CF arts. 127-135):',
+    alternatives: [
+      'O MP, a Defensoria, a AGU e a OAB integram o capítulo das funções essenciais à Justiça e a todos é assegurada autonomia funcional, administrativa e financeira equivalente.',
+      'A Defensoria Pública, após a EC 80/2014, possui autonomia funcional, administrativa e iniciativa orçamentária, com vitaliciedade dos membros após 3 anos de exercício.',
+      'Os Procuradores dos Estados são vitalícios após 2 anos, conforme regra geral análoga à dos membros do MP.',
+      'O MP pode prestar consultoria jurídica a entidades públicas, em razão de sua função ampla de defesa da ordem jurídica.',
+      'A advocacia, por ser função privada, não é considerada função essencial à Justiça pela CF/88.'
+    ],
+    correct: 'B',
+    explanation: 'EC 80/2014 + CF 134 §4º + 135. (A) Falso — OAB não tem autonomia equivalente à do MP/Defensoria. (C) Falso — Procuradores do Estado têm ESTABILIDADE (não vitaliciedade) após 3 anos (CF 132 § único). (D) Falso — CF 129 IX final VEDA representação/consultoria do MP. (E) Falso — CF 133 reconhece advogado como indispensável.'
+  },
+  {
+    id: 168, topic: 10, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do controle de constitucionalidade:',
+    alternatives: [
+      'A ADI cabe contra leis federais, estaduais e municipais, em razão da supremacia constitucional.',
+      'A modulação dos efeitos da declaração de inconstitucionalidade (Lei 9.868/99 art. 27) exige maioria simples dos ministros do STF.',
+      'Apenas os legitimados especiais (Mesa de AL/CD-DF, Governador e confederação/entidade nacional) precisam demonstrar pertinência temática.',
+      'A Súmula Vinculante (CF 103-A) é aprovada por maioria absoluta do STF, em razão da regra geral de quórum.',
+      'A reclamação constitucional é cabível para preservar a competência do STF, mas NÃO se aplica a violação de Súmulas Vinculantes.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 103. (A) Falso — ADI NÃO cabe contra lei MUNICIPAL (cabe ADPF). (B) Falso — modulação exige 2/3. (D) Falso — SV exige 2/3 (CF 103-A). (E) Falso — reclamação cabe contra violação de SV (CF 103-A §3º).'
+  },
+  {
+    id: 169, topic: 11, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ordem econômica e financeira (CF arts. 170-192):',
+    alternatives: [
+      'A ordem econômica brasileira tem como fundamentos a livre iniciativa e a soberania nacional, sendo a propriedade privada princípio que se sobrepõe aos demais.',
+      'O Estado pode explorar diretamente atividade econômica em qualquer hipótese, em razão da supremacia do interesse público.',
+      'A ordem econômica brasileira tem como fundamentos a VALORIZAÇÃO DO TRABALHO HUMANO e a LIVRE INICIATIVA, e é regida por 9 princípios constitucionalmente expressos (CF 170), entre eles a função social da propriedade, a defesa do consumidor e a defesa do meio ambiente.',
+      'A propriedade rural produtiva pode ser desapropriada para fins de reforma agrária, mediante prévia indenização em dinheiro.',
+      'As empresas estatais que explorem atividade econômica submetem-se ao regime jurídico-administrativo público, com prerrogativas idênticas à Administração direta.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 170. (A) Falso — fundamentos: trabalho humano + livre iniciativa. Não há sobreposição entre princípios. (B) Falso — Estado só atua em segurança nacional ou relevante interesse coletivo (CF 173). (D) Falso — propriedade produtiva é INSUSCETÍVEL de desapropriação para reforma agrária (CF 185 II); reforma agrária é em títulos (não dinheiro). (E) Falso — empresas estatais econômicas seguem regime PRIVADO.'
+  },
+  {
+    id: 170, topic: 12, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ordem social (CF arts. 193-232):',
+    alternatives: [
+      'A seguridade social brasileira é sustentada por dois pilares: saúde e previdência, sendo a assistência social parte integrante da previdência.',
+      'O direito à saúde no SUS depende de prévia contribuição do beneficiário, conforme regra geral da seguridade social.',
+      'A seguridade social no Brasil é estruturada em três pilares — SAÚDE (universal, sem contribuição), PREVIDÊNCIA (mediante contribuição) e ASSISTÊNCIA SOCIAL (aos necessitados, sem contribuição).',
+      'A Lei de Imprensa (Lei 5.250/67) foi recepcionada pela CF/88 e continua a regular a atividade jornalística no Brasil.',
+      'A inimputabilidade penal dos menores de 18 anos é meramente legal, podendo ser alterada por lei ordinária.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 194 + 196 + 201 + 203. (A) Falso — tripé: saúde, previdência, assistência (CF 194). (B) Falso — saúde NÃO depende de contribuição (CF 196). (D) Falso — STF ADPF 130 (2009): NÃO recepcionada. (E) Falso — inimputabilidade está na CF 228, e há controvérsia sobre se é cláusula pétrea.'
+  },
+  {
+    id: 171, topic: 1, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios da Administração Pública:',
+    alternatives: [
+      'O princípio da legalidade aplica-se igualmente ao particular e à Administração, ambos podendo fazer tudo o que a lei não proíbe.',
+      'O princípio da eficiência foi positivado pela CF/88 desde sua promulgação em 1988.',
+      'A Súmula 473 do STF consagra a autotutela administrativa: a Administração pode ANULAR seus próprios atos quando ilegais ou REVOGÁ-LOS por conveniência e oportunidade, respeitados os direitos adquiridos.',
+      'O prazo decadencial para a Administração anular atos administrativos beneficiários é de 10 anos, conforme a Lei 9.784/99.',
+      'O princípio da publicidade é absoluto, não comportando exceções no ordenamento.'
+    ],
+    correct: 'C',
+    explanation: 'Súm. 473 STF. (A) Falso — particular pode tudo que a lei não proíbe; Adm. só o que a lei autoriza (legalidade estrita). (B) Falso — eficiência foi inserida pela EC 19/98. (D) Falso — Lei 9.784/99 art. 54: 5 anos. (E) Falso — exceções em CF 5º XXXIII e LX (segurança e intimidade).'
+  },
+  {
+    id: 172, topic: 2, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os atos administrativos:',
+    alternatives: [
+      'Os atos administrativos têm presunção ABSOLUTA de legitimidade, não admitindo prova em contrário.',
+      'A imperatividade é atributo presente em TODOS os atos administrativos.',
+      'Os requisitos COMPETÊNCIA, FINALIDADE e FORMA são sempre vinculados; MOTIVO e OBJETO podem ser discricionários.',
+      'O Judiciário pode tanto anular quanto revogar atos administrativos em caso de inconveniência ou ilegalidade.',
+      'A convalidação (Lei 9.784/99 art. 55) é cabível para vícios de motivo e objeto.'
+    ],
+    correct: 'C',
+    explanation: 'Doutrina clássica do ato administrativo. (A) Falso — presunção é RELATIVA. (B) Falso — atos enunciativos (atestado, certidão) e negociais não têm imperatividade. (D) Falso — Judiciário NÃO pode revogar; só anular. (E) Falso — convalidação só de FORMA e COMPETÊNCIA (não de matéria privativa).'
   }
 ],
 
