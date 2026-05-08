@@ -123,9 +123,8 @@
       <select id="audio-voice"><option>Carregando…</option></select>
       <button class="btn btn-sm" id="voice-piper" title="🎙️ Voz neural Premium (Piper) — download único ~30MB, depois funciona offline. Vozes: Faber (M) / Edresson (M) / Joana (F).">🎙️ Premium</button>
       <select id="voice-piper-id" style="display:none;">
-        <option value="pt_BR-faber-medium" selected>Faber [M] — Premium 32MB</option>
-        <option value="pt_BR-edresson-low">Edresson [M] — Lite 24MB</option>
-        <option value="pt_BR-cadu-medium">Cadu [M] — Premium 28MB</option>
+        <option value="pt_BR-faber-medium" selected>Faber [M] — Premium ~63MB</option>
+        <option value="pt_BR-edresson-low">Edresson [M] — Lite ~28MB</option>
       </select>
       <span class="audio-status" id="audio-status"></span>
       <details class="audio-help">
@@ -648,21 +647,29 @@
       if (piperSession && piperSession._voiceId === voiceId) return piperSession;
       // Voz mudou ou primeira carga
       piperSession = null;
-      statusEl.textContent = '⬇️ Carregando voz Premium…';
+      statusEl.textContent = '⬇️ Carregando biblioteca Premium…';
       try {
-        const mod = await import('https://cdn.jsdelivr.net/npm/@mintplex-labs/piper-tts-web@0.0.5/+esm');
+        const mod = await import('https://esm.sh/@mintplex-labs/piper-tts-web@1.0.4');
         const TtsSession = mod.TtsSession || mod.default?.TtsSession || mod.default;
         if (!TtsSession) throw new Error('Biblioteca Piper sem TtsSession');
+        statusEl.textContent = '⬇️ Carregando voz Premium…';
         const session = new TtsSession({
           voiceId,
           progress: (event) => {
             if (event && event.loaded != null && event.total) {
               const pct = Math.round((event.loaded / event.total) * 100);
-              statusEl.textContent = `⬇️ Voz Premium ${pct}%`;
+              const mb = (event.total / 1024 / 1024).toFixed(0);
+              statusEl.textContent = `⬇️ Voz Premium ${pct}% (${mb}MB)`;
             }
-          }
+          },
+          logger: (msg) => console.log('[Piper]', msg)
         });
-        if (session.ready) await session.ready;
+        // session.waitReady é Promise<void> | boolean — só await se for promise
+        if (session.waitReady && typeof session.waitReady.then === 'function') {
+          await session.waitReady;
+        } else if (typeof session.init === 'function') {
+          await session.init();
+        }
         session._voiceId = voiceId;
         piperSession = session;
         statusEl.textContent = '✅ Voz Premium pronta';
