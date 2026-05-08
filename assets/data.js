@@ -5844,54 +5844,3168 @@ topics: [
   },
 
   // ============ ESQUELETOS — DIREITO CONSTITUCIONAL (12) ============
-  { id: 'const-01-teoria-constituicao', num: 1, materia: 'const', title: 'Teoria da Constituição', edital: '1.1.1', editalText: 'Conceito de Constituição. Classificações. Poder constituinte originário e derivado (reformador, decorrente, revisor). Mutação constitucional.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito de Constituição (sentidos sociológico, político, jurídico)', 'Classificações (quanto à forma, origem, extensão, conteúdo, estabilidade, finalidade)', 'Poder constituinte originário — características', 'Poder constituinte derivado reformador, decorrente e revisor', 'Limites materiais (cláusulas pétreas) e formais', 'Mutação constitucional × reforma'], sections: [] },
-  { id: 'const-02-aplicabilidade-normas', num: 2, materia: 'const', title: 'Aplicabilidade e eficácia das normas constitucionais', edital: '1.1.2', editalText: 'Classificação de José Afonso da Silva. Normas de eficácia plena, contida e limitada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Classificação de José Afonso da Silva', 'Eficácia plena', 'Eficácia contida (restringível)', 'Eficácia limitada (programática e de princípio institutivo)', 'Aplicabilidade imediata × diferida'], sections: [] },
-  { id: 'const-03-hermeneutica-constitucional', num: 3, materia: 'const', title: 'Hermenêutica e interpretação constitucional', edital: '1.1.3', editalText: 'Métodos e princípios de interpretação. Filtragem constitucional. Concretização.', size: 'Médio', schedule: null, advantage: null, outline: ['Métodos clássicos × específicos', 'Princípios da interpretação (unidade, máxima efetividade, concordância prática, força normativa)', 'Interpretação conforme × declaração de nulidade parcial sem redução', 'Filtragem constitucional', 'Bloco de constitucionalidade'], sections: [] },
-  { id: 'const-04-principios-fundamentais', num: 4, materia: 'const', title: 'Princípios fundamentais (CF arts. 1º a 4º)', edital: '1.1.4', editalText: 'Fundamentos da República. Objetivos. Princípios das relações internacionais.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Fundamentos da República (art. 1º)', 'Separação dos poderes (art. 2º)', 'Objetivos fundamentais (art. 3º)', 'Princípios das relações internacionais (art. 4º)', 'Dignidade da pessoa humana — núcleo'], sections: [] },
-  { id: 'const-05-direitos-garantias-fundamentais', num: 5, materia: 'const', title: 'Direitos e garantias fundamentais (CF art. 5º)', edital: '1.1.5', editalText: 'Direitos individuais e coletivos. Remédios constitucionais. Tratados de DH.', size: 'Grande', schedule: null, advantage: null, outline: ['Geração/dimensão dos direitos fundamentais', 'Características (universalidade, historicidade, etc.)', 'Direitos individuais (art. 5º, I-LXXVIII)', 'Remédios constitucionais (HC, MS, MI, HD, ação popular)', 'Tratados internacionais de DH (art. 5º §§ 2º, 3º, 4º)', 'Eficácia horizontal dos direitos fundamentais'], sections: [] },
-  { id: 'const-06-direitos-sociais-nacionalidade-politicos', num: 6, materia: 'const', title: 'Direitos sociais, nacionalidade, direitos políticos e partidos', edital: '1.1.6', editalText: 'Arts. 6º a 17 da CF. Direitos sociais, trabalhadores, brasileiros, eleitores, partidos.', size: 'Médio', schedule: null, advantage: null, outline: ['Direitos sociais (art. 6º) e do trabalhador (arts. 7º-11)', 'Nacionalidade (art. 12) — nato × naturalizado', 'Direitos políticos (arts. 14-16) — capacidade eleitoral ativa e passiva', 'Inelegibilidades absolutas e relativas', 'Partidos políticos (art. 17)'], sections: [] },
-  { id: 'const-07-organizacao-estado', num: 7, materia: 'const', title: 'Organização do Estado (federalismo)', edital: '1.1.7', editalText: 'Federalismo brasileiro. União, Estados, Municípios, DF, territórios. Repartição de competências.', size: 'Médio', schedule: null, advantage: null, outline: ['Federalismo brasileiro — características', 'União (arts. 20-24)', 'Estados (arts. 25-28)', 'Municípios (arts. 29-31)', 'DF e territórios (arts. 32-33)', 'Repartição de competências (material e legislativa)', 'Intervenção federal e estadual'], sections: [] },
-  { id: 'const-08-organizacao-poderes', num: 8, materia: 'const', title: 'Organização dos Poderes', edital: '1.1.8', editalText: 'Legislativo, Executivo, Judiciário. Processo legislativo. STF, STJ, CNJ.', size: 'Grande', schedule: null, advantage: null, outline: ['Poder Legislativo (arts. 44-75) — Câmara, Senado, CN', 'Processo legislativo (arts. 59-69) — espécies normativas', 'Imunidades parlamentares', 'Poder Executivo (arts. 76-91) — Presidente, Ministros', 'Poder Judiciário (arts. 92-126) — STF, STJ, TST, TSE, STM', 'CNJ — composição e atribuições', 'Garantias da magistratura'], sections: [] },
-  { id: 'const-09-funcoes-essenciais', num: 9, materia: 'const', title: 'Funções essenciais à Justiça', edital: '1.1.9', editalText: 'MP, AGU, Defensoria, advocacia. CF arts. 127-135.', size: 'Médio', schedule: null, advantage: null, outline: ['Ministério Público (arts. 127-130-A)', 'Advocacia Pública (arts. 131-132)', 'Advocacia (art. 133)', 'Defensoria Pública (art. 134)', 'CNMP — atribuições'], sections: [] },
-  { id: 'const-10-controle-constitucionalidade', num: 10, materia: 'const', title: 'Controle de constitucionalidade', edital: '1.1.10', editalText: 'Controle difuso e concentrado. ADI, ADC, ADPF, ADO. Súmulas vinculantes.', size: 'Grande', schedule: null, advantage: null, outline: ['Modalidades de inconstitucionalidade (formal × material)', 'Controle difuso (incidental)', 'Controle concentrado (ADI, ADC, ADPF, ADO)', 'Legitimados (CF art. 103)', 'Efeitos da declaração (ex tunc, ex nunc, modulação)', 'Súmulas vinculantes (art. 103-A)', 'Reclamação constitucional'], sections: [] },
-  { id: 'const-11-ordem-economica-financeira', num: 11, materia: 'const', title: 'Ordem econômica e financeira', edital: '1.1.11', editalText: 'Princípios da ordem econômica. Sistema financeiro nacional. Atividade econômica do Estado.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios gerais da ordem econômica (art. 170)', 'Política urbana (arts. 182-183)', 'Política agrícola e fundiária (arts. 184-191)', 'Sistema financeiro nacional (art. 192)', 'Atividade econômica do Estado (art. 173)', 'Serviços públicos (art. 175)'], sections: [] },
-  { id: 'const-12-ordem-social', num: 12, materia: 'const', title: 'Ordem social', edital: '1.1.12', editalText: 'Seguridade, educação, cultura, esporte, comunicação, meio ambiente, família, idoso, criança, índios.', size: 'Grande', schedule: null, advantage: null, outline: ['Seguridade social (saúde, previdência, assistência)', 'Educação, cultura e desporto', 'Comunicação social', 'Meio ambiente (art. 225)', 'Família, criança, adolescente, jovem, idoso (arts. 226-230)', 'Índios (arts. 231-232)'], sections: [] },
+  { id: 'const-01-teoria-constituicao', num: 1, materia: 'const', title: 'Teoria da Constituição', edital: '1.1.1', editalText: 'Conceito de Constituição. Classificações. Poder constituinte originário e derivado (reformador, decorrente, revisor). Mutação constitucional.', size: 'Médio', schedule: 'Mês 8 — base do constitucional', advantage: null, outline: ['Conceito de Constituição (sentidos sociológico, político, jurídico)', 'Classificações (quanto à forma, origem, extensão, conteúdo, estabilidade, finalidade)', 'Poder constituinte originário — características', 'Poder constituinte derivado reformador, decorrente e revisor', 'Limites materiais (cláusulas pétreas) e formais', 'Mutação constitucional × reforma'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Teoria da Constituição** estuda o que é uma Constituição, como se classifica, como nasce, como muda e quais seus limites. É o pórtico de entrada do Direito Constitucional — sem dominar a teoria, os demais tópicos perdem sustento. Para o concurso, três blocos estruturam o estudo: (i) **CONCEITOS** de Constituição (Lassalle, Schmitt, Kelsen); (ii) **CLASSIFICAÇÕES** (formal, material, rígida, flexível, etc.); (iii) **PODER CONSTITUINTE** (originário, derivado, mutações).' },
+        { type: 'p', text: 'A **CF/88** é classificada como: **escrita · formal · dogmática · promulgada · rígida · analítica · normativa · principiológica · eclética/compromissória · social · dirigente**. Decorar essas classificações é dever de prova. Cada classificação tem implicação prática (rigidez exige rito reforçado de emenda; analítica permite controle abstrato amplo; principiológica exige aplicação ponderada).' },
+        { type: 'p', text: 'O **PODER CONSTITUINTE** é o poder de FAZER a Constituição. **Originário** é INICIAL, ILIMITADO juridicamente, INCONDICIONADO, AUTÔNOMO. **Derivado** (criado pelo originário) é LIMITADO e CONDICIONADO — desdobra-se em **REFORMADOR** (emendas), **DECORRENTE** (constituições estaduais) e **REVISOR** (revisão de 1993, esgotada). A **mutação constitucional** é mecanismo informal — mudança de SENTIDO sem mudança de TEXTO (interpretação evolutiva).' }
+      ]
+    },
+    {
+      h: 'Conceitos e classificações',
+      items: [
+        { type: 'h', text: 'Sentidos de Constituição (clássicos doutrinários)' },
+        { type: 'list', items: [
+          '**SOCIOLÓGICO (Lassalle, 1862):** Constituição é a SOMA dos fatores reais de poder na sociedade (forças políticas, econômicas, militares). A Constituição escrita é apenas "folha de papel" se não corresponder a esses fatores',
+          '**POLÍTICO (Carl Schmitt):** Constituição é a DECISÃO POLÍTICA FUNDAMENTAL do titular do poder — distinto das "leis constitucionais" (matérias acidentais)',
+          '**JURÍDICO (Kelsen):** Constituição é o NÍVEL MAIS ALTO da pirâmide normativa (norma fundamental hipotética). Plano LÓGICO-JURÍDICO (norma fundamental hipotética) e JURÍDICO-POSITIVO (Constituição positivada)'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Conceitos: LASSALLE (sociológico) · SCHMITT (político) · KELSEN (jurídico).** Mnemônico **L-S-K**.' },
+
+        { type: 'h', text: 'Classificações (memorizar)' },
+        { type: 'table',
+          headers: ['Critério', 'Categorias', 'CF/88'],
+          rows: [
+            ['Forma', 'Escrita / Não escrita (costumeira)', 'ESCRITA'],
+            ['Sistemática', 'Codificada / Legal (esparsa)', 'CODIFICADA (em um único documento)'],
+            ['Origem', 'Promulgada (democrática) / Outorgada / Cesarista / Pactuada', 'PROMULGADA'],
+            ['Modo de elaboração', 'Dogmática / Histórica', 'DOGMÁTICA'],
+            ['Estabilidade', 'Rígida / Flexível / Semirrígida / Imutável / Super-rígida', 'RÍGIDA (alguns: SUPER-RÍGIDA por ter cláusulas pétreas)'],
+            ['Conteúdo', 'Material / Formal', 'FORMAL (todo conteúdo da CF é constitucional, mesmo se não material)'],
+            ['Extensão', 'Sintética / Analítica', 'ANALÍTICA (250+ artigos + ADCT)'],
+            ['Finalidade', 'Garantia / Balanço / Dirigente', 'DIRIGENTE (estabelece programas)'],
+            ['Correspondência com a realidade (Loewenstein)', 'Normativa / Nominal / Semântica', 'NORMATIVA (ideal: real correspondência)'],
+            ['Ideologia', 'Eclética/compromissória / Ortodoxa', 'ECLÉTICA (compromisso entre forças plurais)'],
+            ['Função', 'Liberal/negativa / Social', 'SOCIAL']
+          ]
+        },
+        { type: 'box', kind: 'info', text: '**CF/88 = ESCRITA, FORMAL, DOGMÁTICA, PROMULGADA, RÍGIDA, ANALÍTICA, NORMATIVA, PRINCIPIOLÓGICA, ECLÉTICA, SOCIAL, DIRIGENTE.** Decorar essa "ficha técnica" é obrigatório.' }
+      ]
+    },
+    {
+      h: 'Poder Constituinte',
+      items: [
+        { type: 'h', text: 'Originário — INICIAL · ILIMITADO (juridicamente) · INCONDICIONADO · AUTÔNOMO' },
+        { type: 'p', text: 'O **PODER CONSTITUINTE ORIGINÁRIO** é a expressão máxima da soberania popular — quem cria uma nova Constituição, rompendo com a anterior. Características: **(i) INICIAL** — instaura nova ordem jurídica; **(ii) ILIMITADO juridicamente** (no plano interno) — mas tem limites EXTRAJURÍDICOS (valores, direitos humanos no plano internacional, condicionamentos sociais e históricos); **(iii) INCONDICIONADO** — não se vincula a formas pré-estabelecidas; **(iv) AUTÔNOMO** — fixa as próprias regras.' },
+        { type: 'p', text: '**Modalidades históricas:** Originário FUNDACIONAL (primeira Constituição) × PÓS-FUNDACIONAL (constituições subsequentes). HISTÓRICO (gerado por luta) × REVOLUCIONÁRIO (rompimento abrupto).' },
+        { type: 'box', kind: 'atencao', text: '**Originário é ilimitado JURIDICAMENTE — mas tem limites EXTRAJURÍDICOS (jusnaturalistas, sociológicos, ideológicos).** Banca explora a nuance: alternativa que diz "absolutamente ilimitado" pode estar imprecisa.' },
+
+        { type: 'h', text: 'Derivado — LIMITADO e CONDICIONADO' },
+        { type: 'p', text: 'O **PODER CONSTITUINTE DERIVADO** é criação do originário. Subdivide-se em três:' },
+        { type: 'list', items: [
+          '**(i) REFORMADOR** — emenda à Constituição (CF art. 60). Limites FORMAIS (rito: 3/5 em cada Casa, 2 turnos, propositura por 1/3, etc.), CIRCUNSTANCIAIS (vedação durante intervenção, estado de defesa, estado de sítio — art. 60 §1º), MATERIAIS (cláusulas pétreas — art. 60 §4º: forma federativa, voto direto/secreto/universal/periódico, separação dos poderes, direitos e garantias individuais)',
+          '**(ii) DECORRENTE** — Estados-membros elaboram suas constituições estaduais (CF art. 25 + ADCT art. 11). Limita-se aos princípios da CF/88 (princípios sensíveis — CF 34 VII; estabelecidos; extensíveis)',
+          '**(iii) REVISOR** — previsto no ADCT art. 3º. Foi exercido em 1993, com 6 emendas de revisão, e está ESGOTADO. Não pode ser reativado'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Derivado tem 3 modalidades: REFORMADOR · DECORRENTE · REVISOR.** Reformador é o único PERMANENTE; Revisor está esgotado.' },
+
+        { type: 'h', text: 'Cláusulas pétreas (CF art. 60 §4º)' },
+        { type: 'p', text: 'Limites MATERIAIS ao poder reformador. Não podem ser objeto de emenda TENDENTE A ABOLIR: (i) **forma federativa** de Estado; (ii) **voto direto, secreto, universal e periódico**; (iii) **separação dos Poderes**; (iv) **direitos e garantias individuais**. STF: a vedação alcança não só a abolição expressa, mas qualquer modificação que TENDA A REDUZIR o núcleo essencial dessas matérias.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 939 (1993):** "Art. 60 §4º IV protege direitos e garantias INDIVIDUAIS — não apenas os do art. 5º, mas também os esparsos (ex: princípio da anterioridade tributária — art. 150 III "b" — é direito individual do contribuinte, cláusula pétrea)."' },
+
+        { type: 'h', text: 'Mutação constitucional' },
+        { type: 'p', text: 'É mecanismo INFORMAL de mudança da Constituição — alteração do SENTIDO sem alteração do TEXTO. Diferentemente da REFORMA (mudança formal pelo poder reformador), a mutação opera por VIA INTERPRETATIVA (jurisprudência, doutrina, novas práticas sociais). É legítima desde que respeite os limites do TEXTO (não pode contrariá-lo).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — exemplo paradigmático: HC 82.959 (2006):** Mutação constitucional para admitir progressão de regime em crimes hediondos, antes vedada. STF reformulou interpretação do art. 5º XLIII sem alterar o texto.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 conceitos clássicos: LASSALLE (sociológico) · SCHMITT (político) · KELSEN (jurídico).** Mnemônico **L-S-K**.' },
+        { type: 'box', kind: 'macete', text: '**Características do Originário: I-I-I-A** (Inicial · Ilimitado juridicamente · Incondicionado · Autônomo).' },
+        { type: 'box', kind: 'macete', text: '**Derivado: REFORMADOR (CF 60) · DECORRENTE (CF 25) · REVISOR (ADCT 3 — esgotado).**' },
+        { type: 'box', kind: 'macete', text: '**Cláusulas pétreas (CF 60 §4º): FORMA FEDERATIVA · VOTO DSUP · SEPARAÇÃO DOS PODERES · DIREITOS INDIVIDUAIS.** Mnemônico **F-V-S-D**.' },
+        { type: 'box', kind: 'macete', text: '**CF/88: 11 classificações = ESCRITA · FORMAL · DOGMÁTICA · PROMULGADA · RÍGIDA · ANALÍTICA · NORMATIVA · PRINCIPIOLÓGICA · ECLÉTICA · SOCIAL · DIRIGENTE.**' },
+        { type: 'box', kind: 'macete', text: '**Mutação ≠ Reforma.** Mutação muda SENTIDO (informal); Reforma muda TEXTO (formal).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Originário é ilimitado JURIDICAMENTE, não absolutamente.** Banca explora alternativa que diz "absolutamente ilimitado" — pode estar imprecisa pelos limites extrajurídicos.' },
+        { type: 'box', kind: 'atencao', text: '**Cláusulas pétreas vedam EMENDA TENDENTE A ABOLIR — não só abolição expressa.** Núcleo essencial é intocável.' },
+        { type: 'box', kind: 'atencao', text: '**Direitos e garantias INDIVIDUAIS (cláusula pétrea) — não inclui direitos sociais COLETIVOS.** Polêmica doutrinária, mas STF restringe ao art. 5º e equiparados.' },
+        { type: 'box', kind: 'atencao', text: '**Poder revisor está ESGOTADO desde 1994.** Não pode ser reativado por emenda. Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**CF/88 é DIRIGENTE — estabelece programas a serem cumpridos pelo Estado.** Não confundir com nominal/semântica (Loewenstein).' },
+        { type: 'box', kind: 'atencao', text: '**Mutação constitucional NÃO altera o texto.** Apenas o sentido. Banca cobra essa distinção.' },
+        { type: 'box', kind: 'atencao', text: '**Constituição estadual (poder DECORRENTE) deve respeitar princípios sensíveis (CF 34 VII), estabelecidos e extensíveis da CF/88.** Não é livre.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 2 (eficácia das normas):** classificação de José Afonso da Silva (plena, contida, limitada) decorre da força normativa.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 3 (hermenêutica):** princípios de interpretação (unidade, máxima efetividade, força normativa) são instrumentos da Teoria.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 4 (princípios fundamentais):** CF arts. 1º-4º são fundamento da decisão política fundamental (Schmitt).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** controle de emendas (limite ao poder reformador).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — supremacia da CF:** Adm. Pública vinculada à legalidade e à constitucionalidade.' }
+      ]
+    }
+  ] },
+  { id: 'const-02-aplicabilidade-normas', num: 2, materia: 'const', title: 'Aplicabilidade e eficácia das normas constitucionais', edital: '1.1.2', editalText: 'Classificação de José Afonso da Silva. Normas de eficácia plena, contida e limitada.', size: 'Pequeno', schedule: 'Mês 8 — base do constitucional', advantage: null, outline: ['Classificação de José Afonso da Silva', 'Eficácia plena', 'Eficácia contida (restringível)', 'Eficácia limitada (programática e de princípio institutivo)', 'Aplicabilidade imediata × diferida'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **APLICABILIDADE** e **EFICÁCIA** das normas constitucionais é tema de fronteira entre teoria e prática — define a operacionalidade direta de cada artigo da CF. A classificação clássica brasileira é de **José Afonso da Silva** (1967, em obra que influencia o tema desde então), tripartite: **PLENA · CONTIDA · LIMITADA**. Domínio absoluto das três categorias é dever de prova.' },
+        { type: 'p', text: 'Os conceitos de **EFICÁCIA** e **APLICABILIDADE** não se confundem. **EFICÁCIA** é a aptidão da norma para produzir efeitos jurídicos. **APLICABILIDADE** é a possibilidade prática de aplicação. Norma de eficácia plena tem aplicabilidade direta e imediata; norma de eficácia limitada depende de regulamentação para alcançar plena aplicação.' },
+        { type: 'p', text: 'Para o concurso: (a) **3 categorias** de José Afonso da Silva e seus exemplos típicos; (b) **classificação de Maria Helena Diniz** (4 categorias — alternativa); (c) classificação alemã de **Canotilho** (princípios e regras); (d) **eficácia horizontal** dos direitos fundamentais; (e) **aplicabilidade imediata** dos direitos individuais (CF 5º §1º) — interpretação polêmica.' }
+      ]
+    },
+    {
+      h: 'Classificação de José Afonso da Silva (clássica)',
+      items: [
+        { type: 'h', text: '1. Eficácia PLENA' },
+        { type: 'p', text: '**Conceito:** norma de aplicabilidade DIRETA, IMEDIATA e INTEGRAL. NÃO depende de regulamentação para produzir todos os seus efeitos. A norma "se basta" — opera por si mesma, completa.' },
+        { type: 'p', text: '**Exemplos:** CF art. 1º (fundamentos da República), art. 2º (separação dos Poderes), art. 5º caput (igualdade), art. 14 §1º (idade para alistamento eleitoral aos 18 — hoje aos 16 facultativo).' },
+        { type: 'box', kind: 'macete', text: '**PLENA = D-I-I (Direta · Imediata · Integral).** Aplica-se completamente desde a vigência.' },
+
+        { type: 'h', text: '2. Eficácia CONTIDA (ou restringível)' },
+        { type: 'p', text: '**Conceito:** norma de aplicabilidade DIRETA, IMEDIATA, mas **POSSIVELMENTE RESTRINGÍVEL** por lei posterior, ato normativo ou pela própria CF. Enquanto não houver restrição, a norma vale plenamente.' },
+        { type: 'p', text: '**Exemplos clássicos:** CF art. 5º XIII (livre exercício de qualquer trabalho — pode ser restringido por exigências de qualificação, ex: OAB para advogados, CRM para médicos); art. 5º LXVII (prisão civil do depositário infiel — restringida pela jurisprudência, hoje vedada por força do controle de convencionalidade).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Pegadinha frequente:** alternativa diz que norma de eficácia contida é IMPRODUTIVA até regulamentação. Errado — vale plenamente até que venha restrição.' },
+
+        { type: 'h', text: '3. Eficácia LIMITADA' },
+        { type: 'p', text: '**Conceito:** norma de aplicabilidade INDIRETA, MEDIATA e REDUZIDA. Depende de regulamentação POSTERIOR para produzir TODOS os seus efeitos. Tem APENAS EFICÁCIA MÍNIMA: gera efeito NEGATIVO (revoga normas anteriores incompatíveis) e VINCULA o legislador (obrigação de legislar).' },
+        { type: 'p', text: 'Subdivide-se em duas espécies:' },
+        { type: 'list', items: [
+          '**(a) PROGRAMÁTICAS** — definem PROGRAMAS, METAS, FINS a serem alcançados pelo Estado. Ex: CF art. 3º (objetivos da República), art. 196 (direito à saúde), art. 205 (direito à educação)',
+          '**(b) DE PRINCÍPIO INSTITUTIVO** — preveem CRIAÇÃO DE ÓRGÃOS ou INSTITUIÇÕES, dependentes de lei. Ex: CF art. 18 §3º (criação de Estados — depende de LC), art. 22 § único (delegação de competências mediante LC)'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**Norma de eficácia limitada NÃO é destituída de eficácia — tem EFICÁCIA MÍNIMA (revoga incompatíveis e vincula o legislador).** Pegadinha clássica.' }
+      ]
+    },
+    {
+      h: 'Outras classificações',
+      items: [
+        { type: 'h', text: 'Classificação de Maria Helena Diniz (4 categorias)' },
+        { type: 'list', items: [
+          '**1. Eficácia ABSOLUTA (supereficaz):** corresponde às CLÁUSULAS PÉTREAS. Aplicabilidade direta, imediata e integral. Não pode ser modificada nem mesmo por emenda',
+          '**2. Eficácia PLENA:** equivalente à de J.A. da Silva',
+          '**3. Eficácia RELATIVA RESTRINGÍVEL:** equivalente à contida',
+          '**4. Eficácia RELATIVA COMPLEMENTÁVEL:** equivalente à limitada'
+        ]},
+        { type: 'box', kind: 'info', text: '**Diniz acrescenta a categoria das normas SUPER-EFICAZES (cláusulas pétreas).** No mais, é equivalente. José Afonso é a classificação dominante.' },
+
+        { type: 'h', text: 'Aplicabilidade imediata dos direitos fundamentais (CF 5º §1º)' },
+        { type: 'p', text: '**CF art. 5º §1º:** "As normas definidoras dos direitos e garantias fundamentais têm APLICAÇÃO IMEDIATA."' },
+        { type: 'p', text: '**Doutrina majoritária:** essa aplicação imediata abrange direitos de eficácia PLENA e CONTIDA — direitos LIMITADOS dependem de regulamentação. Mas há autores (Canotilho) que defendem aplicação imediata MÁXIMA possível, mesmo das normas limitadas — exigindo ativação judicial.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — entendimento prevalente:** art. 5º §1º não converte automaticamente direitos limitados em plenamente aplicáveis. Mas o legislador omisso pode ser pressionado via mandado de injunção (Lei 13.300/16) ou ADO.' }
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Eficácia horizontal dos direitos fundamentais' },
+        { type: 'p', text: 'Tradicionalmente, direitos fundamentais incidiriam apenas na relação ESTADO × INDIVÍDUO (eficácia VERTICAL). A doutrina moderna (Canotilho, Sarlet) e o STF reconhecem a **EFICÁCIA HORIZONTAL** — aplicação dos direitos fundamentais nas relações ENTRE PARTICULARES.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 201.819 (2005):** caso da União Brasileira de Compositores. Associação privada que excluiu sócio sem ampla defesa violou direito fundamental — STF aplicou diretamente a CF na relação privada. Marco da eficácia horizontal.' },
+
+        { type: 'h', text: 'Recepção, repristinação e vacatio constitucionalis' },
+        { type: 'p', text: '**RECEPÇÃO:** normas anteriores à CF/88 que com ela são MATERIALMENTE COMPATÍVEIS são RECEBIDAS no novo ordenamento (ainda que tenham status diferente do original). Ex: Código Civil de 1916 (recepcionado em 1988); Código Penal de 1940 (recepcionado).' },
+        { type: 'p', text: '**REPRISTINAÇÃO:** revogação de uma norma revogadora NÃO restaura automaticamente a norma originalmente revogada (LINDB art. 2º §3º). Salvo previsão expressa.' },
+        { type: 'p', text: '**Vacatio constitucionalis:** período entre a promulgação da nova Constituição e sua plena vigência. CF/88 não tem vacatio expresso (entrou em vigor na data da promulgação).' },
+
+        { type: 'h', text: 'Bloco de constitucionalidade' },
+        { type: 'p', text: 'Conjunto de normas com STATUS CONSTITUCIONAL — não apenas a CF formal. Composição: (i) **CF/88** (texto principal); (ii) **ADCT**; (iii) **Tratados de DH aprovados pelo rito do art. 5º §3º** (Convenção de NY, Tratado de Marraquexe — status formal de EC); (iv) **Súmulas Vinculantes** (controvertido).' },
+        { type: 'box', kind: 'info', text: '**STF — entendimento majoritário:** tratados de DH aprovados pelo rito comum têm status SUPRALEGAL (não integram bloco). Tratados pelo §3º integram materialmente.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 categorias clássicas (J. A. Silva): PLENA · CONTIDA · LIMITADA.**' },
+        { type: 'box', kind: 'macete', text: '**PLENA = D-I-I (Direta-Imediata-Integral) · CONTIDA = D-I-I até restrição · LIMITADA = INDIRETA-MEDIATA-REDUZIDA.**' },
+        { type: 'box', kind: 'macete', text: '**Limitada subdivide: PROGRAMÁTICAS (programas/metas) · INSTITUTIVAS (criam órgãos/instituições).**' },
+        { type: 'box', kind: 'macete', text: '**Eficácia mínima da limitada: REVOGA incompatíveis + VINCULA legislador.** Não é "zero".' },
+        { type: 'box', kind: 'macete', text: '**Maria Helena Diniz acrescenta SUPER-EFICAZES (cláusulas pétreas).**' },
+        { type: 'box', kind: 'macete', text: '**CF 5º §1º — aplicação imediata dos direitos fundamentais (mas com exceções para limitadas).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Norma de eficácia LIMITADA NÃO é "sem eficácia" — tem eficácia MÍNIMA** (revoga incompatíveis e vincula o legislador).' },
+        { type: 'box', kind: 'atencao', text: '**Norma de eficácia CONTIDA vale PLENAMENTE até que venha restrição.** Pegadinha: alternativa diz que precisa de regulamentação para valer.' },
+        { type: 'box', kind: 'atencao', text: '**CF 5º §1º (aplicação imediata) NÃO converte normas limitadas em plenas.** Direitos limitados ainda dependem de regulamentação.' },
+        { type: 'box', kind: 'atencao', text: '**Repristinação NÃO ocorre automaticamente** (LINDB 2º §3º) — salvo previsão expressa.' },
+        { type: 'box', kind: 'atencao', text: '**Recepção é MATERIAL — basta compatibilidade de conteúdo** (não exige rito constitucional).' },
+        { type: 'box', kind: 'atencao', text: '**Eficácia HORIZONTAL aplica direitos fundamentais entre PARTICULARES** (STF RE 201.819).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** classificação se relaciona com a força normativa da Constituição (Hesse).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 3 (hermenêutica):** princípios da máxima efetividade e força normativa influenciam a interpretação dessas categorias.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** CF 5º §1º — aplicação imediata.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** ADO (ação direta de inconstitucionalidade por OMISSÃO) — instrumento contra omissão de regulamentação de norma limitada.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 5 (MI/ADPF):** mandado de injunção combate omissão legislativa que inviabilize direito previsto em norma limitada.' }
+      ]
+    }
+  ] },
+  { id: 'const-03-hermeneutica-constitucional', num: 3, materia: 'const', title: 'Hermenêutica e interpretação constitucional', edital: '1.1.3', editalText: 'Métodos e princípios de interpretação. Filtragem constitucional. Concretização.', size: 'Médio', schedule: 'Mês 8', advantage: null, outline: ['Métodos clássicos × específicos', 'Princípios da interpretação (unidade, máxima efetividade, concordância prática, força normativa)', 'Interpretação conforme × declaração de nulidade parcial sem redução', 'Filtragem constitucional', 'Bloco de constitucionalidade'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **HERMENÊUTICA CONSTITUCIONAL** ocupa-se da interpretação da Constituição. Distingue-se da hermenêutica tradicional pela natureza ESPECÍFICA do texto: princípios abertos, valores plurais, papel da realidade social. A doutrina (Konrad Hesse, Friedrich Müller, Häberle, Canotilho) desenvolveu **métodos próprios** e **princípios específicos** de interpretação constitucional.' },
+        { type: 'p', text: 'Para o concurso: (a) **métodos** clássicos (gramatical, sistemático, teleológico, histórico) e os **específicos** da CF (jurídico, científico-espiritual, tópico, normativo-estruturante, concretista, comparativo); (b) **princípios** (unidade, concordância prática, máxima efetividade, força normativa, conformidade funcional, efeito integrador); (c) técnicas de decisão (interpretação conforme, declaração de nulidade parcial sem redução, modulação); (d) **bloco de constitucionalidade** e **filtragem constitucional**.' }
+      ]
+    },
+    {
+      h: 'Métodos e princípios de interpretação',
+      items: [
+        { type: 'h', text: 'Métodos clássicos (Savigny)' },
+        { type: 'list', items: [
+          '**GRAMATICAL/LITERAL** — letra do texto',
+          '**SISTEMÁTICO** — norma no contexto do ordenamento',
+          '**TELEOLÓGICO** — finalidade da norma',
+          '**HISTÓRICO** — contexto de elaboração'
+        ]},
+
+        { type: 'h', text: 'Métodos específicos (constitucionalistas modernos)' },
+        { type: 'list', items: [
+          '**JURÍDICO (Forsthoff)** — Constituição é lei, aplicam-se métodos clássicos',
+          '**CIENTÍFICO-ESPIRITUAL (Smend)** — interpretação valorativa, integradora',
+          '**TÓPICO-PROBLEMÁTICO (Viehweg)** — parte do problema, busca tópicos para solucioná-lo',
+          '**HERMENÊUTICO-CONCRETIZADOR (Hesse)** — concretiza norma a partir de pré-compreensão e do problema',
+          '**NORMATIVO-ESTRUTURANTE (F. Müller)** — distingue programa normativo (texto) e domínio normativo (realidade)',
+          '**COMPARATIVO/COMPARATIVO-CONSTITUCIONAL (Häberle)** — Constituição lida em diálogo com outras Constituições'
+        ]},
+
+        { type: 'h', text: 'Princípios específicos da interpretação' },
+        { type: 'list', items: [
+          '**UNIDADE** — CF lida como TODO HARMÔNICO; sem hierarquia entre normas constitucionais',
+          '**CONCORDÂNCIA PRÁTICA / HARMONIZAÇÃO** — em colisões, otimização recíproca, sem sacrifício total',
+          '**FORÇA NORMATIVA (Hesse)** — interpretar de modo a maximizar a eficácia',
+          '**MÁXIMA EFETIVIDADE** — extrair o máximo dos direitos fundamentais',
+          '**CONFORMIDADE FUNCIONAL** — respeitar a repartição de competências entre órgãos',
+          '**EFEITO INTEGRADOR** — favorecer integração política e social',
+          '**INTERPRETAÇÃO CONFORME** — entre interpretações possíveis, escolher a compatível com a CF'
+        ]},
+        { type: 'box', kind: 'macete', text: '**7 princípios: U-CP-FN-ME-CF-EI-IC.** Decorar.' }
+      ]
+    },
+    {
+      h: 'Técnicas de decisão e bloco de constitucionalidade',
+      items: [
+        { type: 'h', text: 'Interpretação conforme × declaração de nulidade parcial sem redução de texto' },
+        { type: 'p', text: '**INTERPRETAÇÃO CONFORME:** norma é mantida, mas com determinada interpretação compatível com a CF. Ex: STF mantém um artigo, mas exclui interpretação X.' },
+        { type: 'p', text: '**DECLARAÇÃO DE NULIDADE PARCIAL SEM REDUÇÃO DE TEXTO:** norma é mantida intacta no texto, mas algumas hipóteses de aplicação são declaradas inconstitucionais. STF afirma que NÃO se aplica em determinados casos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — exemplo de interpretação conforme:** ADI 4.277 e ADPF 132 (2011) — união homoafetiva. STF deu interpretação conforme ao CC art. 1.723 — sem retirar texto, incluiu casais homoafetivos no conceito de união estável.' },
+
+        { type: 'h', text: 'Modulação dos efeitos (Lei 9.868/99 art. 27)' },
+        { type: 'p', text: 'STF pode, por **maioria de 2/3**, restringir efeitos da declaração de inconstitucionalidade ou decidir que valha a partir do trânsito em julgado (ex nunc) ou de outro momento. Aplicável em razão de **segurança jurídica** ou **excepcional interesse social**.' },
+
+        { type: 'h', text: 'Bloco de constitucionalidade e filtragem' },
+        { type: 'p', text: '**BLOCO DE CONSTITUCIONALIDADE:** conjunto de normas com status constitucional — CF + ADCT + tratados de DH pelo rito §3º (Convenção de NY, Tratado de Marraquexe). **FILTRAGEM CONSTITUCIONAL:** todo o ordenamento deve ser lido sob as lentes da CF — interpretação conforme + invalidação do incompatível.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 métodos clássicos (Savigny): GRAMATICAL · SISTEMÁTICO · TELEOLÓGICO · HISTÓRICO.**' },
+        { type: 'box', kind: 'macete', text: '**6 métodos específicos: JURÍDICO · CIENTÍFICO-ESPIRITUAL · TÓPICO · CONCRETIZADOR · NORMATIVO-ESTRUTURANTE · COMPARATIVO.**' },
+        { type: 'box', kind: 'macete', text: '**7 princípios da interpretação constitucional.** UCFMCEI = Unidade, Concordância, Força normativa, Máxima efetividade, Conformidade, Efeito integrador, Interpretação conforme.' },
+        { type: 'box', kind: 'macete', text: '**Modulação: 2/3 dos ministros do STF (Lei 9.868/99 art. 27).** Pegadinha: maioria absoluta basta para declarar inconstitucionalidade, mas modulação exige 2/3.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Princípio da unidade: NÃO há hierarquia entre normas constitucionais.** Mesmo cláusulas pétreas e demais normas estão no mesmo nível formal.' },
+        { type: 'box', kind: 'atencao', text: '**Modulação exige 2/3 dos ministros — NÃO maioria absoluta.** Banca cobra essa fração.' },
+        { type: 'box', kind: 'atencao', text: '**Interpretação conforme ≠ declaração de nulidade parcial sem redução.** Conforme: escolhe interpretação. Nulidade parcial: exclui hipóteses.' },
+        { type: 'box', kind: 'atencao', text: '**Tratados de DH com status de EC integram o BLOCO DE CONSTITUCIONALIDADE.** Tratados pelo rito comum (supralegais) NÃO integram.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** força normativa (Hesse) decorre da concepção de Constituição como norma ativa.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 2 (Eficácia):** princípios de interpretação influenciam a aplicação das normas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (Controle):** modulação de efeitos é instrumento da hermenêutica.' }
+      ]
+    }
+  ] },
+  { id: 'const-04-principios-fundamentais', num: 4, materia: 'const', title: 'Princípios fundamentais (CF arts. 1º a 4º)', edital: '1.1.4', editalText: 'Fundamentos da República. Objetivos. Princípios das relações internacionais.', size: 'Pequeno', schedule: 'Mês 8', advantage: null, outline: ['Fundamentos da República (art. 1º)', 'Separação dos poderes (art. 2º)', 'Objetivos fundamentais (art. 3º)', 'Princípios das relações internacionais (art. 4º)', 'Dignidade da pessoa humana — núcleo'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **arts. 1º a 4º da CF/88** abrigam os **PRINCÍPIOS FUNDAMENTAIS** da República — núcleo axiológico que estrutura todo o ordenamento. São DECISÕES POLÍTICAS FUNDAMENTAIS (Schmitt) — irradiam força sobre todas as demais normas. Para o concurso: dominar literalmente a redação dos quatro artigos é dever — banca explora frequentemente a memorização exata.' },
+        { type: 'p', text: 'O art. 1º traz a **forma de Estado** (República Federativa), os **fundamentos** (5 incisos) e o **parágrafo único** (poder emana do povo). O art. 2º consagra a **separação dos poderes**. O art. 3º elenca os **objetivos fundamentais** (4 incisos). O art. 4º estabelece os **princípios das relações internacionais** (10 incisos).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Art. 1º — Fundamentos (mnemônico SO-CI-DI-VA-PLU)' },
+        { type: 'list', items: [
+          '**I — SOBERANIA**',
+          '**II — CIDADANIA**',
+          '**III — DIGNIDADE DA PESSOA HUMANA** (princípio matriz, "metaprincípio")',
+          '**IV — VALORES SOCIAIS DO TRABALHO E DA LIVRE INICIATIVA**',
+          '**V — PLURALISMO POLÍTICO**',
+          '**§ único** — todo o poder emana do povo, que o exerce por representantes eleitos ou diretamente'
+        ]},
+
+        { type: 'h', text: 'Art. 3º — Objetivos (mnemônico CO-GA-ER-PRO)' },
+        { type: 'list', items: [
+          '**I — CONSTRUIR** sociedade livre, justa e solidária',
+          '**II — GARANTIR** o desenvolvimento nacional',
+          '**III — ERRADICAR** a pobreza e a marginalização e reduzir as desigualdades',
+          '**IV — PROMOVER** o bem de todos, sem preconceitos'
+        ]},
+
+        { type: 'h', text: 'Art. 4º — Princípios das relações internacionais (10 incisos)' },
+        { type: 'list', items: [
+          '**I** — independência nacional',
+          '**II** — prevalência dos direitos humanos',
+          '**III** — autodeterminação dos povos',
+          '**IV** — não-intervenção',
+          '**V** — igualdade entre os Estados',
+          '**VI** — defesa da paz',
+          '**VII** — solução pacífica dos conflitos',
+          '**VIII** — repúdio ao terrorismo e ao racismo',
+          '**IX** — cooperação entre os povos para o progresso da humanidade',
+          '**X** — concessão de asilo político',
+          '**§ único** — Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Dignidade da pessoa humana (art. 1º III)' },
+        { type: 'p', text: 'Princípio MATRIZ — núcleo do constitucionalismo brasileiro. Tem dupla natureza: VALOR (axiológico) e NORMA (jurídica). É vetor de interpretação de todos os demais direitos. STF utiliza com frequência como parâmetro para invalidação de atos lesivos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — utilização como parâmetro:** ADPF 132/ADI 4.277 (união homoafetiva), ADPF 54 (anencéfalos), HC 152.752 (caso Lula). A dignidade fundamenta interpretações ampliativas.' },
+
+        { type: 'h', text: 'Verbos do art. 3º' },
+        { type: 'p', text: '**CONSTRUIR · GARANTIR · ERRADICAR · PROMOVER** — verbos típicos de norma PROGRAMÁTICA (eficácia limitada). Definem programas de ação a serem executados pelo Estado, vinculando o legislador.' },
+
+        { type: 'h', text: 'Estado Federado × Estado-membro' },
+        { type: 'p', text: 'Brasil é **REPÚBLICA FEDERATIVA**. Federalismo brasileiro tem características próprias: 3 esferas (União, Estados, Municípios), com DF; competências repartidas (CF arts. 21-32); cláusula pétrea (art. 60 §4º I); intervenção federal e estadual (CF 34-36). Diferente de Estado UNITÁRIO (centralizado) ou CONFEDERAÇÃO (Estados independentes).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Fundamentos (art. 1º): SO-CI-DI-VA-PLU.** Soberania · Cidadania · Dignidade · Valores · Pluralismo.' },
+        { type: 'box', kind: 'macete', text: '**Objetivos (art. 3º): CO-GA-ER-PRO.** Construir · Garantir · Erradicar · Promover. Verbos.' },
+        { type: 'box', kind: 'macete', text: '**Dignidade da pessoa humana = METAPRINCÍPIO.** Vetor de interpretação de todos os demais.' },
+        { type: 'box', kind: 'macete', text: '**Brasil = REPÚBLICA FEDERATIVA (art. 1º caput) com 3 ESFERAS.** Não é unitário nem confederação.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Soberania ≠ Soberania popular.** Inciso I é da NACIONAL (Estado independente). Soberania popular está no § único.' },
+        { type: 'box', kind: 'atencao', text: '**Forma de governo (CF art. 1º caput): REPÚBLICA. Forma de Estado: FEDERAÇÃO.** Distinção. República não é cláusula pétrea expressa.' },
+        { type: 'box', kind: 'atencao', text: '**Plebiscito de 1993** (ADCT 2º) confirmou: forma REPUBLICANA + sistema PRESIDENCIALISTA.' },
+        { type: 'box', kind: 'atencao', text: '**Princípios das relações internacionais (art. 4º) tem 10 incisos + § único** sobre integração latino-americana.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** dignidade fundamenta todo o catálogo do art. 5º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 7 (federalismo):** organização federativa (art. 1º + arts. 18+).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** prevalência dos DH (CF 4º II) e diálogo com tratados internacionais.' }
+      ]
+    }
+  ] },
+  { id: 'const-05-direitos-garantias-fundamentais', num: 5, materia: 'const', title: 'Direitos e garantias fundamentais (CF art. 5º)', edital: '1.1.5', editalText: 'Direitos individuais e coletivos. Remédios constitucionais. Tratados de DH.', size: 'Grande', schedule: 'Mês 8', advantage: null, outline: ['Geração/dimensão dos direitos fundamentais', 'Características (universalidade, historicidade, etc.)', 'Direitos individuais (art. 5º, I-LXXVIII)', 'Remédios constitucionais (HC, MS, MI, HD, ação popular)', 'Tratados internacionais de DH (art. 5º §§ 2º, 3º, 4º)', 'Eficácia horizontal dos direitos fundamentais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **art. 5º da CF/88** é o coração dos direitos individuais e coletivos. Conta com **78 incisos** + **§§ 1º a 4º** + **EC 45/04** (rito específico para tratados de DH). É o mais cobrado dispositivo da Constituição em concursos. Domínio literal dos remédios constitucionais e dos parágrafos é dever de prova.' },
+        { type: 'p', text: 'A doutrina classifica os direitos fundamentais em **DIMENSÕES (gerações)**: 1ª — liberdades civis e políticas (séc. XVIII); 2ª — direitos sociais (séc. XX, pós-2ª Guerra); 3ª — direitos transindividuais/difusos (meio ambiente, paz, desenvolvimento); 4ª — biotecnologia, democracia direta (Bobbio, Bonavides); 5ª — paz, fraternidade, segurança jurídica (Bonavides). Cada dimensão SOMA-SE às anteriores — não substitui.' },
+        { type: 'p', text: 'Características: **UNIVERSALIDADE · HISTORICIDADE · IRRENUNCIABILIDADE · INALIENABILIDADE · IMPRESCRITIBILIDADE · LIMITAÇÃO RECÍPROCA · APLICABILIDADE IMEDIATA (CF 5º §1º) · CONCORRÊNCIA · COMPLEMENTARIDADE · EFETIVIDADE.** Decorar.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Art. 5º caput' },
+        { type: 'list', items: [
+          'Todos são iguais perante a lei, sem distinção de qualquer natureza',
+          'Garantia aos brasileiros e estrangeiros residentes — STF estende a estrangeiros não-residentes para direitos básicos'
+        ]},
+
+        { type: 'h', text: 'Remédios constitucionais (decorar 5)' },
+        { type: 'list', items: [
+          '**HC — HABEAS CORPUS (LXVIII):** liberdade de locomoção · gratuito · qualquer pessoa pode impetrar · contra ATO ILEGAL ou ABUSO DE PODER',
+          '**MS — MANDADO DE SEGURANÇA (LXIX):** direito LÍQUIDO E CERTO não amparado por HC ou HD · contra autoridade pública · prazo 120 dias (Lei 12.016/09 art. 23)',
+          '**MS COLETIVO (LXX):** legitimados — partido político (TSE), sindicato/entidade de classe/associação com 1 ano (CF + STF Súm. 629)',
+          '**MI — MANDADO DE INJUNÇÃO (LXXI):** falta de norma regulamentadora torne inviável exercício de direito constitucional · STF Lei 13.300/16 — concretista individual',
+          '**HD — HABEAS DATA (LXXII):** conhecer/retificar informações pessoais em registros · gratuito · Lei 9.507/97',
+          '**Ação Popular (LXXIII):** qualquer cidadão · ato lesivo ao patrimônio público, moralidade, meio ambiente, patrimônio histórico e cultural · gratuita · Lei 4.717/65'
+        ]},
+
+        { type: 'h', text: '§§ do art. 5º' },
+        { type: 'list', items: [
+          '**§1º** — direitos fundamentais têm aplicação IMEDIATA',
+          '**§2º** — direitos não excluem outros decorrentes do regime, princípios, tratados internacionais — CLÁUSULA DE ABERTURA',
+          '**§3º** — tratados de DH aprovados em 2 turnos, 3/5 em cada Casa = EQUIVALÊNCIA À EC',
+          '**§4º** — Brasil submete-se à JURISDIÇÃO DO TPI (Tribunal Penal Internacional)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Dimensões dos direitos fundamentais' },
+        { type: 'list', items: [
+          '**1ª — LIBERDADE:** civis e políticas (vida, igualdade, propriedade, voto). Estado mínimo, abstenção',
+          '**2ª — IGUALDADE:** sociais e econômicos (saúde, educação, trabalho). Estado prestacional',
+          '**3ª — FRATERNIDADE:** difusos (meio ambiente, paz, patrimônio comum)',
+          '**4ª — BOBBIO/BONAVIDES:** biotecnologia, democracia direta, informação',
+          '**5ª — BONAVIDES:** paz, fraternidade global'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Lema da Revolução Francesa: LIBERDADE · IGUALDADE · FRATERNIDADE = 1ª-2ª-3ª dimensões.**' },
+
+        { type: 'h', text: 'Direitos NÃO escritos no caput — STF estende a estrangeiros' },
+        { type: 'p', text: 'Embora o caput do art. 5º se refira a "brasileiros e estrangeiros residentes no País", o STF estende a proteção dos direitos fundamentais BÁSICOS (vida, dignidade, devido processo) a TODOS os estrangeiros, residentes ou não. Distinção pode existir em direitos políticos e em alguns direitos específicos (alistamento, cargos públicos).' },
+
+        { type: 'h', text: 'Tratados de DH — hierarquia (3 status)' },
+        { type: 'list', items: [
+          '**EC formal (rito §3º):** Convenção de NY (PCD), Tratado de Marraquexe',
+          '**SUPRALEGAL (rito comum):** demais tratados de DH (CADH, ICCPR) — STF RE 466.343 (2008)',
+          '**LEGAL (tratados comuns, não DH):** mesmo nível de lei ordinária'
+        ]},
+
+        { type: 'h', text: 'Princípio da reserva legal × reserva de jurisdição' },
+        { type: 'p', text: '**Reserva LEGAL:** matéria deve ser tratada por LEI (CF 5º II — princípio da legalidade ampla; reserva legal em sentido estrito quando a CF exige LEI específica). **Reserva DE JURISDIÇÃO:** atos só podem ser praticados por DECISÃO JUDICIAL. Exemplos: prisão (CF 5º LXI), interceptação telefônica (CF 5º XII), violação de domicílio à noite (CF 5º XI).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 remédios: HC · MS · MS COLETIVO · MI · HD · AÇÃO POPULAR.** Decorar incisos LXVIII a LXXIII.' },
+        { type: 'box', kind: 'macete', text: '**Características dos direitos fundamentais (10): U-H-IRR-INA-IMP-LR-AI-CC-CP-EF.** Universalidade · Historicidade · Irrenunciabilidade · Inalienabilidade · Imprescritibilidade · Limitação Recíproca · Aplicação Imediata · Concorrência · Complementaridade · Efetividade.' },
+        { type: 'box', kind: 'macete', text: '**Dimensões: LIB · IGU · FRA + 4ª (Bobbio/Bonavides) + 5ª (Bonavides).**' },
+        { type: 'box', kind: 'macete', text: '**Status de tratados: EC (rito §3º) · SUPRALEGAL (DH comum) · LEGAL (não-DH).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**MS prazo: 120 DIAS (decadencial).** Não admite suspensão/interrupção. Pegadinha clássica trocando para 30/60/180.' },
+        { type: 'box', kind: 'atencao', text: '**Ação popular = só CIDADÃO (com título de eleitor) pode propor.** Estrangeiros e PJ não podem.' },
+        { type: 'box', kind: 'atencao', text: '**HC é GRATUITO e qualquer pessoa pode impetrar — não precisa advogado.**' },
+        { type: 'box', kind: 'atencao', text: '**§3º do art. 5º exige 3/5 em CADA Casa, em 2 turnos. Se for tratado comum, status SUPRALEGAL.**' },
+        { type: 'box', kind: 'atencao', text: '**Direitos fundamentais são IRRENUNCIÁVEIS, mas admitem AUTOLIMITAÇÃO em situações específicas.** Ex: pessoa renuncia à privacidade ao aceitar reality show.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 4 (MS Coletivo) e ColProc 5 (MI/ADPF):** detalhamento dos remédios.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** §§ 2º, 3º e 4º do art. 5º regulam tratados de DH.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 4 (princípios fundamentais):** dignidade da pessoa humana fundamenta todos os direitos do art. 5º.' }
+      ]
+    }
+  ] },
+  { id: 'const-06-direitos-sociais-nacionalidade-politicos', num: 6, materia: 'const', title: 'Direitos sociais, nacionalidade, direitos políticos e partidos', edital: '1.1.6', editalText: 'Arts. 6º a 17 da CF. Direitos sociais, trabalhadores, brasileiros, eleitores, partidos.', size: 'Médio', schedule: 'Mês 8', advantage: null, outline: ['Direitos sociais (art. 6º) e do trabalhador (arts. 7º-11)', 'Nacionalidade (art. 12) — nato × naturalizado', 'Direitos políticos (arts. 14-16) — capacidade eleitoral ativa e passiva', 'Inelegibilidades absolutas e relativas', 'Partidos políticos (art. 17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **arts. 6º a 17** abrigam os direitos sociais (art. 6º — rol em ampliação progressiva), trabalhistas (arts. 7º-11), de nacionalidade (art. 12), políticos (arts. 14-16) e a disciplina dos partidos (art. 17). Domínio das hipóteses de PERDA da nacionalidade, das condições de elegibilidade e das inelegibilidades é dever de prova.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Direitos sociais (CF art. 6º — rol expandido)' },
+        { type: 'list', items: [
+          'Educação · saúde · alimentação · trabalho · moradia · transporte · lazer · segurança · previdência social · proteção à maternidade e à infância · assistência aos desamparados',
+          '**EC 64/10** acrescentou ALIMENTAÇÃO',
+          '**EC 90/15** acrescentou TRANSPORTE',
+          '**EC 114/21** ampliou para incluir SEGURANÇA ALIMENTAR (decorre de alimentação)'
+        ]},
+
+        { type: 'h', text: 'Nacionalidade (CF art. 12)' },
+        { type: 'list', items: [
+          '**NATO (I):** (a) nascidos no Brasil (jus solis); (b) nascidos no exterior, filhos de pai/mãe brasileiros a serviço; (c) nascidos no exterior, filhos de brasileiros, registrados em consulado OU vindo ao Brasil + opção a qualquer tempo após maioridade',
+          '**NATURALIZADO (II):** (a) na forma da lei + 1 ano de residência (originários de países de língua portuguesa: Lei 13.445/17); (b) estrangeiros residentes há +15 anos sem condenação, requerendo',
+          '**§ 3º** — cargos privativos de brasileiro NATO: PR, VPR, Pres. Câmara, Pres. Senado, Min. STF, carreira diplomática, oficial das Forças Armadas, Min. de Estado da Defesa',
+          '**§ 4º** — perda da nacionalidade: (i) cancelamento por sentença judicial (atividade nociva); (ii) aquisição voluntária de outra nacionalidade (com exceções)'
+        ]},
+
+        { type: 'h', text: 'Direitos políticos (CF arts. 14-16)' },
+        { type: 'list', items: [
+          '**Voto:** DIRETO · SECRETO · UNIVERSAL · PERIÓDICO · com valor IGUAL para todos',
+          '**Alistamento e voto:**',
+          '  · OBRIGATÓRIO: maiores de 18 e menores de 70',
+          '  · FACULTATIVO: analfabetos · maiores de 70 · entre 16 e 18',
+          '**Condições de elegibilidade (§3º):** nacionalidade brasileira · pleno exercício dos direitos políticos · alistamento eleitoral · domicílio eleitoral na circunscrição · filiação partidária · idade mínima',
+          '**Idade mínima:** 35 (Pres./VPres./Senador) · 30 (Gov./VGov.) · 21 (Dep. Fed./Dep. Est./Prefeito/V. Prefeito/Juiz de Paz) · 18 (Vereador)',
+          '**Inelegibilidades absolutas:** inalistáveis e analfabetos (§4º)',
+          '**Inelegibilidades relativas:** Presidente/Governador/Prefeito ÷ reeleição uma única vez (§5º); cônjuges e parentes até 2º grau de Pres./Gov./Pref. (§7º); militar conscrito (§8º)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Brasileiro nato × naturalizado — distinções práticas' },
+        { type: 'p', text: '**Distinção entre brasileiro nato e naturalizado SÓ pode ser feita pela CF** (art. 12 §2º — "lei não pode estabelecer distinções"). Cargos PRIVATIVOS de brasileiro nato listados expressamente. **Extradição:** brasileiro nato JAMAIS extraditado; naturalizado SÓ pode ser extraditado por crime comum praticado ANTES da naturalização ou por tráfico de drogas (CF 5º LI).' },
+
+        { type: 'h', text: 'Inelegibilidades absolutas × relativas' },
+        { type: 'p', text: '**ABSOLUTAS (§4º):** inalistáveis (estrangeiros, conscritos) e analfabetos. Vedação a TODOS os cargos.' },
+        { type: 'p', text: '**RELATIVAS:** vedação a determinados cargos (reeleição limitada §5º; parentesco §7º; militar §8º; cargo do qual deva afastar-se §6º).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Lei Complementar 64/90 (Lei das Inelegibilidades) + LC 135/10 (Ficha Limpa):** ampliam inelegibilidades além da CF. STF — ADC 29 e ADC 30 (2012): validou Ficha Limpa.' },
+
+        { type: 'h', text: 'Partidos políticos (CF art. 17)' },
+        { type: 'p', text: 'Liberdade de criação, fusão, incorporação. Caráter NACIONAL (vedados regionais). Acesso a recursos do fundo partidário e tempo de propaganda gratuita. Funcionamento parlamentar nos termos da lei. Após EC 97/17, **CLÁUSULA DE BARREIRA:** partido só tem direito ao fundo partidário e ao acesso ao rádio/TV se atingir desempenho mínimo nas eleições.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Direitos sociais (art. 6º): SAÚDE · EDUCAÇÃO · ALIMENTAÇÃO · TRABALHO · MORADIA · TRANSPORTE · LAZER · SEGURANÇA · PREVIDÊNCIA · MATERNIDADE/INFÂNCIA · DESAMPARADOS.**' },
+        { type: 'box', kind: 'macete', text: '**Cargos privativos de NATO (mnemônico MP3.com): Ministro STF · Presidente da República · Presidente da Câmara · Presidente do Senado · carreira Diplomática · Oficial das Forças Armadas · Ministro Defesa.**' },
+        { type: 'box', kind: 'macete', text: '**Idades mínimas: 35-30-21-18 (Pres-Gov-Dep/Pref-Ver).**' },
+        { type: 'box', kind: 'macete', text: '**Voto: DSU-P-IGUAL.** Direto · Secreto · Universal · Periódico · Igual.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Brasileiro NATO jamais é extraditado.** Naturalizado pode (5º LI: crime comum antes da naturalização ou tráfico).' },
+        { type: 'box', kind: 'atencao', text: '**Voto OBRIGATÓRIO 18-70 · FACULTATIVO 16-18, +70, analfabetos.** Decorar.' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição: UMA ÚNICA VEZ para o mesmo cargo (Presidente/Gov./Pref.) — CF 14 §5º com EC 16/97.** Pegadinha: alternativa diz "duas reeleições".' },
+        { type: 'box', kind: 'atencao', text: '**EC 90/15 incluiu TRANSPORTE no art. 6º.** EC 64/10 incluiu ALIMENTAÇÃO. Decorar.' },
+        { type: 'box', kind: 'atencao', text: '**Estrangeiros NÃO podem se alistar como eleitores no Brasil.** Inalistáveis (CF 14 §2º).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** direitos sociais integram o catálogo amplo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Eleitoral (matéria específica):** direitos políticos e partidos são detalhados.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** voto direto/secreto/universal/periódico = cláusula pétrea (60 §4º II).' }
+      ]
+    }
+  ] },
+  { id: 'const-07-organizacao-estado', num: 7, materia: 'const', title: 'Organização do Estado (federalismo)', edital: '1.1.7', editalText: 'Federalismo brasileiro. União, Estados, Municípios, DF, territórios. Repartição de competências.', size: 'Médio', schedule: 'Mês 8', advantage: null, outline: ['Federalismo brasileiro — características', 'União (arts. 20-24)', 'Estados (arts. 25-28)', 'Municípios (arts. 29-31)', 'DF e territórios (arts. 32-33)', 'Repartição de competências (material e legislativa)', 'Intervenção federal e estadual'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **federalismo brasileiro** é um dos temas mais cobrados em prova. CF/88 estrutura o Estado em **TRÊS ESFERAS** (União, Estados, Municípios) + DF (com natureza híbrida). É forma de Estado **CLÁUSULA PÉTREA** (CF 60 §4º I). Para o concurso: dominar a **REPARTIÇÃO DE COMPETÊNCIAS** (CF arts. 21-32) é dever; STF cobra constantemente competências privativas, concorrentes e comuns.' },
+        { type: 'p', text: 'Características do federalismo brasileiro: (i) **descentralização política** (não administrativa); (ii) **rigidez constitucional** (cláusula pétrea); (iii) **autonomia** dos entes (capacidades de auto-organização, autogoverno, autoadministração e autolegislação); (iv) **órgão guardião** (STF); (v) **órgão representativo dos Estados** (Senado Federal); (vi) **repartição constitucional de competências**.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária — Repartição de competências',
+      items: [
+        { type: 'h', text: 'União — Competências MATERIAIS PRIVATIVAS (CF art. 21)' },
+        { type: 'p', text: '25 incisos. Manter relações exteriores (I), declarar guerra (II), emitir moeda (VII), elaborar planos nacionais (IX), prestar serviços de telecom (XI), legislar penal/civil/processual e demais matérias do art. 22, etc.' },
+
+        { type: 'h', text: 'União — LEGISLATIVA PRIVATIVA (CF art. 22)' },
+        { type: 'list', items: [
+          'Direito CIVIL · COMERCIAL · PENAL · PROCESSUAL · ELEITORAL · AGRÁRIO · MARÍTIMO · AERONÁUTICO · ESPACIAL · DO TRABALHO',
+          'Águas, energia, informática, telecomunicações',
+          '§ único — LC pode AUTORIZAR Estados a legislarem sobre questões específicas dessas matérias'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Mnemônico CAPACETES DE PM (matérias privativas da União): Civil · Agrário · Penal · Aeronáutico · Comercial · Eleitorais · Trabalho · Espacial · Seguridade · Direito de Propaganda · Marítimo.**' },
+
+        { type: 'h', text: 'Competências COMUNS (CF art. 23)' },
+        { type: 'p', text: 'União, Estados, DF e Municípios EM CONJUNTO. Educação, saúde, meio ambiente, patrimônio cultural, combate ao analfabetismo, etc. § único: LC fixa normas de cooperação.' },
+
+        { type: 'h', text: 'Competências CONCORRENTES (CF art. 24)' },
+        { type: 'list', items: [
+          'União, Estados e DF (NÃO inclui Municípios)',
+          'Direito tributário, financeiro, penitenciário, urbanístico · educação, cultura · proteção a infância e juventude · proteção do patrimônio · seguridade social',
+          '**§§ 1º-4º:** União edita normas GERAIS; Estados suplementam; se União não legislar, Estados podem legislar plenamente; advinda lei federal, prevalece esta no que conflitar'
+        ]},
+
+        { type: 'h', text: 'Municípios (CF art. 30)' },
+        { type: 'list', items: [
+          '**I — INTERESSE LOCAL** — competência típica do Município',
+          '**II — SUPLEMENTAR** legislação federal e estadual no que couber',
+          '**III a IX** — tributos próprios (IPTU, ISS, ITBI), serviços públicos locais, ordenamento urbano, transporte, educação infantil e fundamental, saúde, patrimônio histórico local'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Federalismo brasileiro — características' },
+        { type: 'p', text: '**Federação SUI GENERIS** — três esferas (União, Estados, Municípios) + DF (entidade federativa híbrida — CF art. 32, com competências legislativas estaduais e municipais cumuladas). Sem hierarquia entre os entes. Autonomia preservada constitucionalmente. Pacto federativo é cláusula pétrea (CF 60 §4º I).' },
+
+        { type: 'h', text: 'Intervenção federal (CF arts. 34-36)' },
+        { type: 'p', text: '**REGRA: Estados têm autonomia.** Intervenção é EXCEÇÃO. Hipóteses (art. 34): manter integridade nacional, repelir invasão, repelir grave comprometimento da ordem pública, garantir livre exercício dos Poderes, reorganizar finanças, prover execução de lei federal, prover execução de ordem judicial, assegurar princípios constitucionais sensíveis (CF 34 VII).' },
+        { type: 'p', text: '**Procedimento (CF 36):** decreto do Presidente, aprovado pelo CN. Princípios sensíveis (CF 34 VII): forma republicana · sistema representativo · regime democrático · direitos da pessoa humana · autonomia municipal · prestação de contas · aplicação do mínimo da receita em saúde e educação.' },
+
+        { type: 'h', text: 'DF — entidade híbrida' },
+        { type: 'p', text: 'O DF NÃO se confunde com Estado nem com Município, mas tem competências de AMBOS (CF 32 §1º). É VEDADA sua divisão em municípios (§ único). Lei orgânica do DF é a "constituição" do DF. Tem 8 senadores? NÃO — tem 3 senadores e número de deputados conforme CF.' },
+
+        { type: 'h', text: 'STF e a interpretação federativa' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 6.341 (2020):** definiu, durante a pandemia, que União, Estados e Municípios têm COMPETÊNCIAS COMUNS em saúde — Estado e Município podem editar medidas mais restritivas que a União. Marco do federalismo cooperativo.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 esferas + DF: UNIÃO · ESTADOS · DF · MUNICÍPIOS.** Sem hierarquia entre eles.' },
+        { type: 'box', kind: 'macete', text: '**Competências da União: PRIVATIVAS materiais (art. 21) + LEGISLATIVAS privativas (art. 22).**' },
+        { type: 'box', kind: 'macete', text: '**Concorrentes (art. 24): U + E + DF (sem Municípios).** União: normas gerais. Estados: suplementar.' },
+        { type: 'box', kind: 'macete', text: '**Comuns (art. 23): TODOS** os entes em cooperação.' },
+        { type: 'box', kind: 'macete', text: '**Princípios sensíveis (CF 34 VII): RES·SR·RD·DPH·AM·PC·SE.** República · Sistema representativo · Regime democrático · Direitos pessoa humana · Autonomia municipal · Prestação de contas · Saúde/Educação.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Concorrente NÃO inclui Municípios — só U, E e DF (art. 24).** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**DF tem competências de Estado E Município.** Não é Estado puro nem Município puro.' },
+        { type: 'box', kind: 'atencao', text: '**Pacto federativo é CLÁUSULA PÉTREA (CF 60 §4º I).** Não pode ser abolido por emenda.' },
+        { type: 'box', kind: 'atencao', text: '**Intervenção federal: EXCEÇÃO. Estados têm autonomia em regra.**' },
+        { type: 'box', kind: 'atencao', text: '**Município legisla sobre INTERESSE LOCAL (art. 30 I).** Conceito jurisprudencial — em geral, matérias que predominantemente afetam a comunidade local.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** federação é cláusula pétrea.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Organização dos Poderes):** Senado representa os Estados; Câmara, o povo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (Ordem econômica):** competências econômicas são repartidas (arts. 21-24).' }
+      ]
+    }
+  ] },
+  { id: 'const-08-organizacao-poderes', num: 8, materia: 'const', title: 'Organização dos Poderes', edital: '1.1.8', editalText: 'Legislativo, Executivo, Judiciário. Processo legislativo. STF, STJ, CNJ.', size: 'Grande', schedule: 'Mês 8-9', advantage: null, outline: ['Poder Legislativo (arts. 44-75) — Câmara, Senado, CN', 'Processo legislativo (arts. 59-69) — espécies normativas', 'Imunidades parlamentares', 'Poder Executivo (arts. 76-91) — Presidente, Ministros', 'Poder Judiciário (arts. 92-126) — STF, STJ, TST, TSE, STM', 'CNJ — composição e atribuições', 'Garantias da magistratura'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **organização dos Poderes** disciplina a estrutura, atribuições e relações dos três Poderes (Legislativo, Executivo, Judiciário) — CF arts. 44-126. É um dos temas mais densos e cobrados. Para o concurso: domínio do **PROCESSO LEGISLATIVO** (CF 59-69), das **IMUNIDADES PARLAMENTARES** (53-56), das atribuições do PR e dos órgãos de controle (TCU, CNJ).' }
+      ]
+    },
+    {
+      h: 'Poder Legislativo (CF arts. 44-75)',
+      items: [
+        { type: 'h', text: 'Estrutura' },
+        { type: 'p', text: 'Bicameral em âmbito federal: **CÂMARA DOS DEPUTADOS** (representa o povo — proporcional, mandato 4 anos) + **SENADO FEDERAL** (representa Estados — 3 senadores por Estado/DF, mandato 8 anos, renovação alternada de 1/3 e 2/3). Em conjunto: **CONGRESSO NACIONAL**.' },
+
+        { type: 'h', text: 'Processo legislativo (CF art. 59) — 7 espécies' },
+        { type: 'list', items: [
+          '**Emendas à Constituição** — 3/5, em 2 turnos, em cada Casa',
+          '**Leis Complementares** — maioria absoluta · matérias expressamente reservadas',
+          '**Leis Ordinárias** — maioria simples · regra geral',
+          '**Leis Delegadas** — pelo PR, autorização do CN (resolução)',
+          '**Medidas Provisórias** — PR, em casos de relevância e urgência · vigência 60 + 60 dias · convertem-se ou caducam',
+          '**Decretos Legislativos** — matérias do CN (CF 49)',
+          '**Resoluções** — atos internos das Casas'
+        ]},
+
+        { type: 'h', text: 'Imunidades parlamentares (CF art. 53)' },
+        { type: 'list', items: [
+          '**MATERIAL/IRRESPONSABILIDADE:** Deputados e Senadores são INVIOLÁVEIS, civil e penalmente, por opiniões, palavras e votos no exercício do mandato',
+          '**FORMAL/PROCESSUAL:** Não podem ser presos, salvo flagrante de crime inafiançável (com remessa em 24h ao CD/SF, que decide sobre prisão por maioria de seus membros)',
+          '**Prerrogativa de foro:** STF (art. 53 §1º — nos crimes praticados durante e em razão do mandato; STF AP 937 — restringiu)'
+        ]}
+      ]
+    },
+    {
+      h: 'Poder Executivo (CF arts. 76-91)',
+      items: [
+        { type: 'p', text: '**PRESIDENCIALISMO** (CF 76). Mandato de 4 anos (uma reeleição). Eleição em 2 turnos se candidato não obtiver +50% dos votos no 1º.' },
+        { type: 'p', text: '**Atribuições do PR (CF art. 84):** sanção/promulgação/publicação · veto · iniciativa de leis · expedir decretos e regulamentos · nomeação de Ministros, magistrados, comandantes militares · representação externa · soberania · responsabilidade por crime de responsabilidade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Crimes de responsabilidade (Lei 1.079/50):** julgamento pelo Senado Federal, presidido pelo Pres. STF (impeachment). Exemplos: Collor (1992) e Dilma (2016).' }
+      ]
+    },
+    {
+      h: 'Poder Judiciário (CF arts. 92-126)',
+      items: [
+        { type: 'h', text: 'Órgãos do Judiciário' },
+        { type: 'list', items: [
+          '**STF** — guardião da CF',
+          '**CNJ** — controle administrativo e disciplinar',
+          '**STJ** — uniformizador da legislação federal',
+          'Justiça FEDERAL (TRFs e Juízes Federais)',
+          'Justiças especializadas: TRABALHO (TST, TRTs, JT), ELEITORAL (TSE, TREs, Juízes Eleitorais), MILITAR (STM, Justiça Militar)',
+          'Justiça ESTADUAL (TJs e Juízes Estaduais)'
+        ]},
+
+        { type: 'h', text: 'Garantias da magistratura (CF art. 95)' },
+        { type: 'list', items: [
+          'VITALICIEDADE (após 2 anos)',
+          'INAMOVIBILIDADE',
+          'IRREDUTIBILIDADE de subsídios'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Garantias dos magistrados ANÁLOGAS às do MP** (CF 95 × CF 128 §5º).' },
+
+        { type: 'h', text: 'CNJ (CF art. 103-B)' },
+        { type: 'list', items: [
+          '**15 conselheiros** (mandato 2 anos, recondução permitida)',
+          'Pres. STF preside',
+          'Composição: 1 Min. STF (presidente) · 1 Min. STJ · 1 Min. TST · 1 desemb. TJ · 1 juiz estadual · 1 juiz TRF · 1 juiz federal · 1 juiz TRT · 1 juiz trabalho · 1 MP federal · 1 MP estadual · 2 advogados · 2 cidadãos',
+          'Atribuições: controle administrativo e financeiro do Judiciário; controle disciplinar dos juízes (não do MP — esse cabe ao CNMP)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Bicameralismo: CD (povo, 4 anos) + SF (Estados, 8 anos, 3 por UF).**' },
+        { type: 'box', kind: 'macete', text: '**7 espécies do art. 59: EC · LC · LO · LD · MP · DL · RES.**' },
+        { type: 'box', kind: 'macete', text: '**Imunidades: MATERIAL (opiniões/palavras/votos) + FORMAL (prisão somente em flagrante de crime inafiançável).**' },
+        { type: 'box', kind: 'macete', text: '**Garantias da magistratura: VITALICIEDADE + INAMOVIBILIDADE + IRREDUTIBILIDADE.** Iguais ao MP.' },
+        { type: 'box', kind: 'macete', text: '**CNJ: 15 membros · 2 anos · presidido pelo Pres. STF.** CNMP: 14 (presidido pelo PGR).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Senado: 3 por Estado/DF (e não 2 ou 4).** Mandato 8 anos.' },
+        { type: 'box', kind: 'atencao', text: '**STF AP 937 (2018) — foro por prerrogativa restringido a crimes em razão do mandato.** Mudança jurisprudencial.' },
+        { type: 'box', kind: 'atencao', text: '**MP é REEDITADA por 60 + 60 dias (até 120 dias). Após, caduca se não convertida.**' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição: 1 vez para mesmo cargo (PR/Gov./Pref.).** EC 16/97.' },
+        { type: 'box', kind: 'atencao', text: '**Crime de responsabilidade ≠ crime comum.** Crime comum: STF (autorização CD). Crime de responsabilidade: SF (autorização CD).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** prerrogativa de foro como garantia.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 4 (CNMP):** estrutura paralela ao CNJ.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** advocacia pública, Defensoria, MP, advocacia.' }
+      ]
+    }
+  ] },
+  { id: 'const-09-funcoes-essenciais', num: 9, materia: 'const', title: 'Funções essenciais à Justiça', edital: '1.1.9', editalText: 'MP, AGU, Defensoria, advocacia. CF arts. 127-135.', size: 'Médio', schedule: 'Mês 8-9', advantage: 'Vantagem direta (Analista MP — convive com as funções essenciais).', outline: ['Ministério Público (arts. 127-130-A)', 'Advocacia Pública (arts. 131-132)', 'Advocacia (art. 133)', 'Defensoria Pública (art. 134)', 'CNMP — atribuições'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A CF/88 dedicou um CAPÍTULO PRÓPRIO (arts. 127-135) às **FUNÇÕES ESSENCIAIS À JUSTIÇA** — quatro instituições que, embora não integrem nenhum dos três Poderes, são INDISPENSÁVEIS à atuação jurisdicional: **MP** (arts. 127-130-A), **ADVOCACIA PÚBLICA** (arts. 131-132), **ADVOCACIA** (art. 133) e **DEFENSORIA PÚBLICA** (arts. 134-135).' },
+        { type: 'p', text: 'Para o concurso (atenção MPMG): (a) MP é o tópico maior — já abordado em detalhes na seção MP; (b) Advocacia Pública (AGU + Procuradorias) tem PAPEL DIVERSO do MP — defende interesses do ente federativo, não da sociedade; (c) Defensoria foi REFUNDADA com EC 80/2014 — autonomia funcional, administrativa e financeira, similar ao MP; (d) advocacia é função INDISPENSÁVEL (CF 133), com imunidade nos limites da lei.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Ministério Público (arts. 127-130-A)' },
+        { type: 'list', items: [
+          'Já detalhado nos tópicos MP 1-8',
+          'CF 127: definição (instituição permanente, essencial à função jurisdicional)',
+          'CF 128: estrutura (MPU + MPs estaduais)',
+          'CF 129: atribuições',
+          'CF 130-A: CNMP'
+        ]},
+
+        { type: 'h', text: 'Advocacia Pública (arts. 131-132)' },
+        { type: 'list', items: [
+          '**Art. 131** — AGU: representa a UNIÃO judicial e extrajudicialmente. Cabem-lhe atividades de consultoria e assessoramento jurídico do Poder Executivo. Dirigida pelo AGU (Advogado-Geral da União), nomeado pelo PR entre cidadãos com requisitos do Min. STF',
+          '**Art. 131 §1º** — LC organiza a AGU',
+          '**Art. 131 §3º** — representação da União junto à execução de dívida ativa de natureza tributária cabe à PROCURADORIA-GERAL DA FAZENDA NACIONAL',
+          '**Art. 132** — Procuradores dos Estados e do DF: representam o ente federativo · garantia: estabilidade após 3 anos (não vitaliciedade!) + concurso · subsídio · regime jurídico próprio'
+        ]},
+
+        { type: 'h', text: 'Advocacia (art. 133)' },
+        { type: 'list', items: [
+          'Advogado é INDISPENSÁVEL à administração da justiça',
+          'É inviolável por seus atos e manifestações no exercício da profissão, NOS LIMITES DA LEI',
+          'Disciplina: Lei 8.906/94 (EOAB)',
+          'Imunidade NÃO é absoluta — STF: limita-se a manifestações no exercício profissional, não cobre injúria pessoal'
+        ]},
+
+        { type: 'h', text: 'Defensoria Pública (art. 134-135)' },
+        { type: 'list', items: [
+          '**Art. 134** — INSTITUIÇÃO PERMANENTE, essencial à função jurisdicional. Incumbe-lhe a ORIENTAÇÃO JURÍDICA e a DEFESA, em todos os graus, judicial e extrajudicialmente, dos NECESSITADOS (CF 5º LXXIV)',
+          '**Art. 134 §1º** — LC sobre organização',
+          '**Art. 134 §2º** — autonomia FUNCIONAL e ADMINISTRATIVA + iniciativa orçamentária — EC 45/04',
+          '**Art. 134 §4º** — autonomia FUNCIONAL · ADMINISTRATIVA · INICIATIVA ORÇAMENTÁRIA · estende-se à Defensoria Pública dos Estados (EC 80/2014)',
+          '**Art. 135** — princípios institucionais: UNIDADE, INDIVISIBILIDADE e INDEPENDÊNCIA FUNCIONAL · garantias: VITALICIEDADE (após 3 anos), INAMOVIBILIDADE, IRREDUTIBILIDADE'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'MP × Advocacia Pública — distinção essencial' },
+        { type: 'p', text: 'O MP defende a SOCIEDADE (ordem jurídica, regime democrático, interesses sociais e individuais indisponíveis). Advocacia Pública (AGU, Procuradorias) defende o ENTE FEDERATIVO (União, Estados, DF, Municípios). Não se confundem. Vedação ao MP: representar judicialmente entidade pública (CF 129 IX final).' },
+
+        { type: 'h', text: 'Defensoria — refundação pela EC 80/2014' },
+        { type: 'p', text: 'A EC 80/2014 promoveu a Defensoria a status equivalente ao do MP — autonomia funcional, administrativa e financeira; princípios institucionais idênticos (unidade, indivisibilidade, independência funcional); garantias dos membros (vitaliciedade após 3 anos, inamovibilidade, irredutibilidade). Mas note: VITALICIEDADE da Defensoria é após 3 ANOS (não 2 como no MP).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 3.943 (2015):** reconheceu legitimidade ATIVA da Defensoria para ACP em defesa de NECESSITADOS. Marco da expansão da atuação coletiva da Defensoria. Convivência com legitimidade do MP.' },
+
+        { type: 'h', text: 'Imunidade do advogado — limites' },
+        { type: 'p', text: 'O advogado é INVIOLÁVEL nos LIMITES DA LEI por suas manifestações. STF: imunidade é PROFISSIONAL, não pessoal — não cobre injúria gratuita ou ofensa que ultrapasse o necessário ao exercício da profissão. Lei 8.906/94 art. 7º §2º regula com mais detalhe.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 funções essenciais à Justiça: MP · ADVOCACIA PÚBLICA · ADVOCACIA · DEFENSORIA.** CF arts. 127-135.' },
+        { type: 'box', kind: 'macete', text: '**Vitaliciedade: MP/MAGISTRATURA = 2 ANOS · DEFENSORIA = 3 ANOS · PROCURADORES DO ESTADO = ESTABILIDADE 3 ANOS (não vitaliciedade).**' },
+        { type: 'box', kind: 'macete', text: '**EC 80/2014 deu à Defensoria autonomia equivalente ao MP.** Marco refundacional.' },
+        { type: 'box', kind: 'macete', text: '**MP defende sociedade · Advocacia Pública defende ente federativo.** Não se confundem.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Procuradores do Estado têm ESTABILIDADE (após 3 anos), não vitaliciedade.** Diferença com MP e Magistratura.' },
+        { type: 'box', kind: 'atencao', text: '**Defensoria tem VITALICIEDADE após 3 anos** (não 2 como MP).' },
+        { type: 'box', kind: 'atencao', text: '**Defensoria pode propor ACP (STF ADI 3.943)** em defesa de necessitados.' },
+        { type: 'box', kind: 'atencao', text: '**Imunidade do advogado é nos LIMITES DA LEI** — não absoluta.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópicos MP 1-8:** detalhamento exclusivo do Ministério Público.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** legitimidade de MP, Defensoria, União, Estados.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** funções essenciais não integram os 3 Poderes — capítulo próprio.' }
+      ]
+    }
+  ] },
+  { id: 'const-10-controle-constitucionalidade', num: 10, materia: 'const', title: 'Controle de constitucionalidade', edital: '1.1.10', editalText: 'Controle difuso e concentrado. ADI, ADC, ADPF, ADO. Súmulas vinculantes.', size: 'Grande', schedule: 'Mês 9', advantage: null, outline: ['Modalidades de inconstitucionalidade (formal × material)', 'Controle difuso (incidental)', 'Controle concentrado (ADI, ADC, ADPF, ADO)', 'Legitimados (CF art. 103)', 'Efeitos da declaração (ex tunc, ex nunc, modulação)', 'Súmulas vinculantes (art. 103-A)', 'Reclamação constitucional'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CONTROLE DE CONSTITUCIONALIDADE** é o mecanismo de verificação da compatibilidade dos atos normativos com a CF. No Brasil, há duas modalidades coexistentes: **DIFUSO** (qualquer juiz pode declarar a inconstitucionalidade no caso concreto, com efeitos inter partes) e **CONCENTRADO** (apenas o STF, em ADI, ADC, ADPF e ADO, com efeitos erga omnes e vinculantes).' },
+        { type: 'p', text: 'Para o concurso: (a) **modalidades** de inconstitucionalidade (formal, material, total, parcial, originária, superveniente, por ação, por omissão); (b) **legitimados** (CF 103 — 9 categorias); (c) **efeitos** (ex tunc, ex nunc, modulação 2/3); (d) **súmulas vinculantes** (CF 103-A — quórum 2/3); (e) **reclamação** (preserva competência ou autoridade de decisão); (f) **STF é guardião da CF** (CF 102).' }
+      ]
+    },
+    {
+      h: 'Modalidades de inconstitucionalidade',
+      items: [
+        { type: 'h', text: 'Por critério' },
+        { type: 'list', items: [
+          '**FORMAL:** vício no PROCESSO de elaboração (ex: lei estadual que invade competência da União)',
+          '**MATERIAL:** vício no CONTEÚDO da norma (ex: lei que viola direito fundamental)',
+          '**TOTAL:** norma inteira é inconstitucional',
+          '**PARCIAL:** parte da norma é inconstitucional',
+          '**ORIGINÁRIA:** desde o início',
+          '**SUPERVENIENTE:** torna-se inconstitucional depois (ex: alteração da CF)',
+          '**POR AÇÃO:** lei contraria CF',
+          '**POR OMISSÃO:** falta de lei regulamentadora torna direito ineficaz'
+        ]}
+      ]
+    },
+    {
+      h: 'Modalidades — Difuso e Concentrado',
+      items: [
+        { type: 'h', text: 'Controle DIFUSO (incidental)' },
+        { type: 'list', items: [
+          'Qualquer juiz ou tribunal pode declarar a inconstitucionalidade',
+          'É **INCIDENTER TANTUM** — questão prejudicial ao mérito',
+          'Efeito **INTER PARTES** (entre as partes do processo)',
+          '**Cláusula de reserva de plenário (CF 97):** somente pelo voto da MAIORIA ABSOLUTA dos membros do Tribunal ou de seu órgão especial',
+          'Súm. Vinculante 10: a decisão de órgão fracionário que afasta lei sem declarar a inconstitucionalidade VIOLA reserva de plenário'
+        ]},
+
+        { type: 'h', text: 'Controle CONCENTRADO' },
+        { type: 'list', items: [
+          'Apenas no STF (em relação à CF) e nos TJs (em relação à Constituição estadual)',
+          'Modalidades: **ADI · ADC · ADPF · ADO**',
+          'Efeitos **ERGA OMNES · EX TUNC** (regra) com possibilidade de modulação · **EFEITO VINCULANTE** para o Judiciário e a Adm. Pública direta e indireta (CF 102 §2º)'
+        ]},
+
+        { type: 'h', text: 'ADI — Ação Direta de Inconstitucionalidade' },
+        { type: 'list', items: [
+          'Lei 9.868/99',
+          'Objetivo: declarar inconstitucionalidade de lei ou ato normativo federal ou estadual',
+          'Não cabe contra lei MUNICIPAL (cabe ADPF)',
+          'Quórum: maioria absoluta dos membros (6 dos 11) para procedência'
+        ]},
+
+        { type: 'h', text: 'ADC — Ação Declaratória de Constitucionalidade' },
+        { type: 'list', items: [
+          'Lei 9.868/99',
+          'Objetivo: declarar a CONSTITUCIONALIDADE de lei federal',
+          'Pressupõe controvérsia jurisprudencial',
+          'Apenas leis FEDERAIS (não estaduais ou municipais)'
+        ]},
+
+        { type: 'h', text: 'ADPF — Arguição de Descumprimento de Preceito Fundamental' },
+        { type: 'list', items: [
+          'Lei 9.882/99',
+          'PRINCÍPIO DA SUBSIDIARIEDADE (art. 4º §1º): só cabe se não houver outro meio eficaz',
+          'Cabe contra ATO do Poder Público (não só lei) — incluindo LEI MUNICIPAL e ATO PRÉ-CONSTITUCIONAL',
+          'Único meio para questionar normas pré-constitucionais e leis municipais'
+        ]},
+
+        { type: 'h', text: 'ADO — Ação Direta de Inconstitucionalidade por Omissão' },
+        { type: 'list', items: [
+          'CF art. 103 §2º + Lei 12.063/09',
+          'Cabe quando a OMISSÃO LEGISLATIVA torne ineficaz norma constitucional',
+          'Resultado: STF dá ciência ao Poder competente para tomar providências (não há prazo fixo, salvo para órgão administrativo: 30 dias)'
+        ]},
+
+        { type: 'h', text: 'Legitimados (CF 103) — 9 categorias' },
+        { type: 'list', items: [
+          'I — Presidente da República',
+          'II — Mesa do Senado Federal',
+          'III — Mesa da Câmara dos Deputados',
+          'IV — Mesa da Assembleia Legislativa ou da Câmara Legislativa do DF',
+          'V — Governador de Estado ou do DF',
+          'VI — Procurador-Geral da República',
+          'VII — Conselho Federal da OAB',
+          'VIII — partido político com representação no CN',
+          'IX — confederação sindical ou entidade de classe de âmbito nacional',
+          'PERTINÊNCIA TEMÁTICA: exigida para IV, V e IX (legitimados ESPECIAIS)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Súmulas Vinculantes (CF 103-A)' },
+        { type: 'p', text: 'EC 45/04. STF, de ofício ou mediante provocação, mediante DECISÃO DE 2/3 dos membros, após reiteradas decisões sobre matéria constitucional, pode aprovar súmula com efeito VINCULANTE em relação aos demais órgãos do Poder Judiciário e à Adm. Pública direta e indireta. Reclamação cabível em caso de descumprimento.' },
+
+        { type: 'h', text: 'Modulação dos efeitos (Lei 9.868/99 art. 27)' },
+        { type: 'p', text: 'STF pode, por **maioria de 2/3**, restringir os efeitos da declaração ou decidir que valha a partir do trânsito em julgado (ex nunc) ou de outro momento. Em razão de **segurança jurídica** ou **excepcional interesse social**.' },
+
+        { type: 'h', text: 'Reclamação Constitucional (CF 102 I "l")' },
+        { type: 'p', text: 'Preserva competência do STF e garante autoridade de suas decisões. Cabível contra: (a) violação de decisão vinculante (ADI, ADC, ADPF, ADO); (b) violação de SV; (c) usurpação de competência. Não substitui recursos ordinários.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 ações concentradas: ADI · ADC · ADPF · ADO.**' },
+        { type: 'box', kind: 'macete', text: '**ADPF é única via para LEI MUNICIPAL e ATO PRÉ-CONSTITUCIONAL** (Lei 9.882/99 art. 1º § único).' },
+        { type: 'box', kind: 'macete', text: '**9 legitimados (CF 103). Pertinência temática só para IV, V e IX (especiais).**' },
+        { type: 'box', kind: 'macete', text: '**Súmula vinculante: 2/3 do STF (CF 103-A).** Modulação: 2/3 (Lei 9.868/99 art. 27).' },
+        { type: 'box', kind: 'macete', text: '**Reserva de plenário (CF 97 + SV 10):** maioria absoluta.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**ADI NÃO cabe contra lei MUNICIPAL — cabe ADPF.** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Pertinência temática só para legitimados ESPECIAIS (IV, V, IX).** Universais (I, II, III, VI, VII, VIII) dispensam.' },
+        { type: 'box', kind: 'atencao', text: '**Súmula vinculante exige REITERADAS DECISÕES + 2/3.** Não basta decisão única.' },
+        { type: 'box', kind: 'atencao', text: '**Modulação: 2/3 do STF (Lei 9.868/99 art. 27).** Diferente da maioria absoluta para declarar inconstitucionalidade.' },
+        { type: 'box', kind: 'atencao', text: '**Cláusula de reserva de plenário (CF 97):** maioria ABSOLUTA dos membros do tribunal/órgão especial. SV 10 reforça.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** controle de emendas (limite ao poder reformador).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 3 (Hermenêutica):** modulação é técnica decisória.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 5 (MI/ADPF):** detalhamento da ADPF.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** PGR é legitimado universal.' }
+      ]
+    }
+  ] },
+  { id: 'const-11-ordem-economica-financeira', num: 11, materia: 'const', title: 'Ordem econômica e financeira', edital: '1.1.11', editalText: 'Princípios da ordem econômica. Sistema financeiro nacional. Atividade econômica do Estado.', size: 'Médio', schedule: 'Mês 9', advantage: null, outline: ['Princípios gerais da ordem econômica (art. 170)', 'Política urbana (arts. 182-183)', 'Política agrícola e fundiária (arts. 184-191)', 'Sistema financeiro nacional (art. 192)', 'Atividade econômica do Estado (art. 173)', 'Serviços públicos (art. 175)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ORDEM ECONÔMICA E FINANCEIRA** (CF arts. 170-192) estrutura a economia brasileira sobre dois fundamentos: a **VALORIZAÇÃO DO TRABALHO HUMANO** e a **LIVRE INICIATIVA** (CF 170 caput). Tem 9 PRINCÍPIOS expressos. É de natureza CAPITALISTA, mas com forte dirigismo social — propriedade tem função social, intervenção estatal possível em hipóteses constitucionais, defesa do consumidor, do meio ambiente, redução das desigualdades regionais.' },
+        { type: 'p', text: 'Para o concurso: (a) **9 princípios** do art. 170; (b) **atividade econômica do Estado** (CF 173 — exceção ao princípio da subsidiariedade); (c) **serviços públicos** (CF 175 — concessões); (d) **política urbana** (já visto); (e) **política agrícola** e fundiária; (f) **sistema financeiro nacional** (CF 192 — Lei 4.595/64 + EC 40/03).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 170 — Princípios da ordem econômica' },
+        { type: 'list', items: [
+          'Caput: VALORIZAÇÃO DO TRABALHO HUMANO + LIVRE INICIATIVA. Fim: assegurar a todos existência digna, conforme os ditames da JUSTIÇA SOCIAL',
+          'I — soberania nacional',
+          'II — propriedade privada',
+          'III — função social da propriedade',
+          'IV — livre concorrência',
+          'V — defesa do consumidor',
+          'VI — defesa do meio ambiente, inclusive mediante TRATAMENTO DIFERENCIADO',
+          'VII — redução das desigualdades regionais e sociais',
+          'VIII — busca do pleno emprego',
+          'IX — tratamento favorecido para empresas de pequeno porte (ME e EPP)',
+          '§ único: livre exercício de qualquer atividade econômica, independentemente de autorização (salvo casos de lei)'
+        ]},
+
+        { type: 'h', text: 'CF art. 173 — Atividade econômica do Estado' },
+        { type: 'list', items: [
+          'Estado só pode explorar atividade econômica DIRETAMENTE em casos de SEGURANÇA NACIONAL ou RELEVANTE INTERESSE COLETIVO',
+          'Empresas estatais (públicas e mistas) sujeitam-se ao REGIME PRIVADO (direito empresarial)',
+          'Princípio da SUBSIDIARIEDADE — Estado atua subsidiariamente'
+        ]},
+
+        { type: 'h', text: 'CF art. 175 — Serviços públicos' },
+        { type: 'list', items: [
+          'Caput: incumbe ao Poder Público a prestação de serviços públicos, diretamente OU sob regime de CONCESSÃO ou PERMISSÃO',
+          'Lei 8.987/95 — Lei das Concessões',
+          'Lei 11.079/04 — PPPs (Parcerias Público-Privadas)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios — análise dirigida' },
+        { type: 'p', text: '**Livre concorrência (IV)** e **defesa do consumidor (V)** são pilares do direito econômico-comercial. STF: o capitalismo brasileiro é REGULADO — não vale o "vale tudo". CADE (Lei 12.529/11) é o órgão antitruste.' },
+
+        { type: 'h', text: 'Atividade econômica do Estado (CF 173)' },
+        { type: 'p', text: 'É EXCEPCIONAL. Estado só atua diretamente quando: (i) SEGURANÇA NACIONAL; (ii) RELEVANTE INTERESSE COLETIVO. Empresas públicas e sociedades de economia mista submetem-se ao REGIME EMPRESARIAL (não público) — para evitar competição desleal com a iniciativa privada.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 760.931 (2017):** afastou aplicação do REGIME PÚBLICO em empresa estatal exploradora de atividade econômica em concorrência com a iniciativa privada (caso CORREIOS — entendimento posterior excepcionou).' },
+
+        { type: 'h', text: 'Serviços públicos × atividades econômicas' },
+        { type: 'p', text: '**SERVIÇO PÚBLICO (CF 175):** atividade que o Estado se obriga a prestar (saúde no SUS, educação, segurança). Pode ser delegado por concessão ou permissão.' },
+        { type: 'p', text: '**ATIVIDADE ECONÔMICA (CF 173):** o Estado pode entrar como agente econômico, mas em REGIME PRIVADO. Concorre com iniciativa privada.' },
+
+        { type: 'h', text: 'Política agrícola e reforma agrária (CF 184-191)' },
+        { type: 'p', text: '**REFORMA AGRÁRIA:** desapropriação por interesse social, com indenização em TÍTULOS DA DÍVIDA AGRÁRIA (CF 184) — exceção à regra do art. 5º XXIV. **PROPRIEDADE PRODUTIVA é INSUSCETÍVEL de desapropriação para reforma agrária** (CF 185 II). **Função social da propriedade rural (CF 186):** uso racional + preservação + relações de trabalho + bem-estar.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Fundamentos da ordem econômica: VALORIZAÇÃO DO TRABALHO + LIVRE INICIATIVA. Fim: existência digna conforme JUSTIÇA SOCIAL.**' },
+        { type: 'box', kind: 'macete', text: '**9 princípios (art. 170 I-IX): SOBERANIA · PROPRIEDADE · FUNÇÃO SOCIAL · LIVRE CONCORRÊNCIA · CONSUMIDOR · MEIO AMBIENTE · REDUÇÃO DESIGUALDADES · PLENO EMPREGO · ME/EPP.**' },
+        { type: 'box', kind: 'macete', text: '**Estado só atua em atividade econômica em SEGURANÇA NACIONAL ou RELEVANTE INTERESSE COLETIVO (CF 173).**' },
+        { type: 'box', kind: 'macete', text: '**Reforma agrária: TÍTULOS da dívida agrária. Propriedade produtiva: INSUSCETÍVEL.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reforma agrária: indenização em TÍTULOS, não dinheiro. Propriedade produtiva é INSUSCETÍVEL.**' },
+        { type: 'box', kind: 'atencao', text: '**Estado SUBSIDIÁRIO em atividade econômica (CF 173) — só atua em casos excepcionais.**' },
+        { type: 'box', kind: 'atencao', text: '**Empresas estatais econômicas seguem regime PRIVADO** (não público) — para não desequilibrar competição.' },
+        { type: 'box', kind: 'atencao', text: '**Serviço público ≠ atividade econômica.** Diferentes regimes (CF 175 × 173).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 4 (princípios fundamentais):** valorização do trabalho e livre iniciativa são fundamentos da República (CF 1º IV).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (Consumidor):** defesa do consumidor é princípio da ordem econômica (CF 170 V).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** defesa ambiental é princípio (CF 170 VI).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** política urbana (CF 182-183).' }
+      ]
+    }
+  ] },
+  { id: 'const-12-ordem-social', num: 12, materia: 'const', title: 'Ordem social', edital: '1.1.12', editalText: 'Seguridade, educação, cultura, esporte, comunicação, meio ambiente, família, idoso, criança, índios.', size: 'Grande', schedule: 'Mês 9', advantage: null, outline: ['Seguridade social (saúde, previdência, assistência)', 'Educação, cultura e desporto', 'Comunicação social', 'Meio ambiente (art. 225)', 'Família, criança, adolescente, jovem, idoso (arts. 226-230)', 'Índios (arts. 231-232)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ORDEM SOCIAL** (CF arts. 193-232) é o título mais EXTENSO da CF/88. Tem como base o **PRIMADO DO TRABALHO** e como objetivos o **BEM-ESTAR e a JUSTIÇA SOCIAIS** (CF 193). Disciplina seguridade social, educação, cultura, desporto, comunicação social, meio ambiente, família, criança, adolescente, jovem, idoso e índios.' },
+        { type: 'p', text: 'Para o concurso: domínio do **TRIPÉ DA SEGURIDADE SOCIAL** (saúde, previdência, assistência — CF 194); educação (já visto em ColMat); meio ambiente (já visto); família e proteção de grupos vulneráveis (já vistos em ColMat); índios (já visto em ColMat). Aqui consolidamos a leitura constitucional desses temas.' }
+      ]
+    },
+    {
+      h: 'Seguridade Social (CF arts. 194-204)',
+      items: [
+        { type: 'h', text: 'Tripé da seguridade' },
+        { type: 'list', items: [
+          '**SAÚDE (arts. 196-200):** UNIVERSAL · GRATUITA · não exige contribuição. SUS já abordado em colmat-06',
+          '**PREVIDÊNCIA SOCIAL (arts. 201-202):** RGPS (regra geral) — exige CONTRIBUIÇÃO + tempo de contribuição/idade. Aposentadoria, pensão por morte, auxílio-doença, etc.',
+          '**ASSISTÊNCIA SOCIAL (arts. 203-204):** para quem dela necessitar, INDEPENDENTE de contribuição. BPC à pessoa idosa (65+) e PCD (LOAS art. 20)'
+        ]},
+
+        { type: 'h', text: 'Princípios da seguridade (CF 194)' },
+        { type: 'list', items: [
+          'I — universalidade da cobertura e do atendimento',
+          'II — uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais',
+          'III — seletividade e distributividade na prestação dos benefícios',
+          'IV — irredutibilidade do valor dos benefícios',
+          'V — equidade na forma de participação no custeio',
+          'VI — diversidade da base de financiamento',
+          'VII — caráter democrático e descentralizado da administração',
+          'EC 103/19 acrescentou ainda equilíbrio financeiro e atuarial'
+        ]},
+        { type: 'box', kind: 'macete', text: '**SAÚDE (todos sem contribuição) · PREVIDÊNCIA (com contribuição) · ASSISTÊNCIA (necessitados sem contribuição).**' }
+      ]
+    },
+    {
+      h: 'Demais áreas da ordem social',
+      items: [
+        { type: 'h', text: 'Educação, cultura, esporte (arts. 205-217)' },
+        { type: 'p', text: 'Já abordado em colmat-05. Direito de todos, dever do Estado e família. Investimento mínimo (CF 212): U 18%, E/M 25%. Educação obrigatória 4-17 (EC 59/09).' },
+
+        { type: 'h', text: 'Comunicação social (arts. 220-224)' },
+        { type: 'p', text: '**Liberdade de imprensa** (220 caput). Vedação à censura (220 §2º). Princípios da programação (regional, cultural, valores éticos). STF — ADPF 130 (2009): NÃO RECEPCIONOU a Lei de Imprensa (Lei 5.250/67).' },
+
+        { type: 'h', text: 'Meio ambiente (CF 225)' },
+        { type: 'p', text: 'Já abordado em colmat-08. Direito difuso, transindividual, intergeracional. Tríplice responsabilização. Princípios (precaução, prevenção, poluidor-pagador, desenvolvimento sustentável). STF Tema 999 (imprescritibilidade da reparação).' },
+
+        { type: 'h', text: 'Família e proteção de vulneráveis (arts. 226-230)' },
+        { type: 'list', items: [
+          '**Art. 226** — família é base da sociedade. Casamento civil. União estável. Família monoparental. Casamento religioso com efeito civil',
+          '**Art. 227** — DIREITOS DA CRIANÇA, ADOLESCENTE e JOVEM (EC 65/10): vida, saúde, alimentação, educação, lazer, profissionalização, cultura, dignidade, respeito, liberdade, convivência familiar e comunitária, com PRIORIDADE ABSOLUTA',
+          '**Art. 228** — inimputabilidade penal: menores de 18 anos. Lei especial (ECA + SINASE)',
+          '**Art. 229** — pais cuidam dos filhos menores · filhos maiores ajudam os pais na velhice/carência',
+          '**Art. 230** — DEVER da família, sociedade e Estado de amparar os IDOSOS'
+        ]},
+
+        { type: 'h', text: 'Índios (arts. 231-232)' },
+        { type: 'p', text: 'Já abordado em colmat-12. Reconhecidas organização social, costumes, línguas, crenças e tradições. Direitos ORIGINÁRIOS sobre as terras tradicionalmente ocupadas. STF Tema 1031 (marco temporal inconstitucional, 2023).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Tripé da seguridade: SAÚDE · PREVIDÊNCIA · ASSISTÊNCIA.**' },
+        { type: 'box', kind: 'macete', text: '**Saúde: UNIVERSAL · sem contribuição. Previdência: COM contribuição. Assistência: NECESSITADOS, sem contribuição.**' },
+        { type: 'box', kind: 'macete', text: '**Inimputabilidade penal: 18 anos (CF 228 + CP 27).** Cláusula pétrea? Há divergência — STF admite alteração por EC.' },
+        { type: 'box', kind: 'macete', text: '**Comunicação social: STF ADPF 130 (2009) — Lei de Imprensa (5.250/67) NÃO RECEPCIONADA.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Saúde NÃO depende de contribuição.** Universal e gratuita.' },
+        { type: 'box', kind: 'atencao', text: '**Previdência DEPENDE de contribuição (RGPS — Lei 8.213/91).**' },
+        { type: 'box', kind: 'atencao', text: '**BPC (LOAS) = ASSISTÊNCIA, não previdência.** Sem contribuição.' },
+        { type: 'box', kind: 'atencao', text: '**Inimputabilidade (CF 228 — 18 anos):** se é cláusula pétrea — divergência. STF: pode ser alterada por EC, doutrina majoritária diverge.' },
+        { type: 'box', kind: 'atencao', text: '**STF ADPF 130 (2009): Lei de Imprensa NÃO recepcionada — em bloco.** Outras leis regulam matérias específicas (Marco Civil da Internet, etc.).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 6 (Saúde):** SUS — detalhamento.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 5 (Educação):** detalhamento.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** CF 225.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** crianças e adolescentes.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** CF 230.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 12 (Comunidades Tradicionais):** índios.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO ADMINISTRATIVO (12) ============
-  { id: 'adm-01-principios-administrativos', num: 1, materia: 'adm', title: 'Princípios da Administração Pública', edital: '1.2.1', editalText: 'LIMPE + princípios implícitos. Regime jurídico-administrativo.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios constitucionais expressos (LIMPE — art. 37)', 'Princípios implícitos (razoabilidade, proporcionalidade, motivação, autotutela, etc.)', 'Regime jurídico-administrativo', 'Supremacia e indisponibilidade do interesse público'], sections: [] },
-  { id: 'adm-02-atos-administrativos', num: 2, materia: 'adm', title: 'Atos administrativos', edital: '1.2.2', editalText: 'Conceito, requisitos, atributos, classificações, espécies, vícios, extinção.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito e requisitos (competência, finalidade, forma, motivo, objeto)', 'Atributos (presunção, imperatividade, autoexecutoriedade, tipicidade)', 'Classificações', 'Espécies (normativos, ordinatórios, negociais, enunciativos, punitivos)', 'Vícios e teoria das nulidades', 'Extinção (revogação, anulação, cassação, caducidade)'], sections: [] },
-  { id: 'adm-03-poderes-administrativos', num: 3, materia: 'adm', title: 'Poderes administrativos', edital: '1.2.3', editalText: 'Vinculado, discricionário, hierárquico, disciplinar, regulamentar, polícia.', size: 'Médio', schedule: null, advantage: null, outline: ['Poder vinculado × discricionário', 'Poder hierárquico', 'Poder disciplinar', 'Poder regulamentar', 'Poder de polícia (atributos, ciclo, prescrição)', 'Abuso de poder (excesso e desvio)'], sections: [] },
-  { id: 'adm-04-servidores-publicos', num: 4, materia: 'adm', title: 'Servidores públicos', edital: '1.2.4', editalText: 'Regime jurídico, direitos, deveres, responsabilidades. CF arts. 37-41.', size: 'Grande', schedule: null, advantage: null, outline: ['Regimes (estatutário, celetista, especial)', 'Cargo, emprego e função', 'Acessibilidade e concurso público', 'Estabilidade e estágio probatório', 'Direitos (remuneração, férias, licenças)', 'Deveres e proibições', 'Responsabilidades (civil, penal, administrativa)', 'Aposentadoria e regime previdenciário (EC 103/19)'], sections: [] },
-  { id: 'adm-05-bens-publicos', num: 5, materia: 'adm', title: 'Bens públicos', edital: '1.2.5', editalText: 'Classificação, afetação, alienação, uso especial, prescrição.', size: 'Médio', schedule: null, advantage: null, outline: ['Classificação (uso comum, uso especial, dominicais)', 'Características (impenhorabilidade, imprescritibilidade, inalienabilidade relativa)', 'Afetação e desafetação', 'Formas de alienação (Lei 14.133/21)', 'Uso especial (autorização, permissão, concessão de uso)', 'Bens das pessoas administrativas indiretas'], sections: [] },
-  { id: 'adm-06-licitacoes-contratos', num: 6, materia: 'adm', title: 'Licitações e contratos administrativos (Lei 14.133/21)', edital: '1.2.6', editalText: 'Nova Lei de Licitações e Contratos. Modalidades, fases, contratação direta, contratos.', size: 'Gigante', schedule: null, advantage: null, outline: ['Princípios e regime', 'Modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo)', 'Fases do procedimento', 'Critérios de julgamento', 'Contratação direta (dispensa e inexigibilidade)', 'Contratos administrativos — características e cláusulas exorbitantes', 'Equilíbrio econômico-financeiro', 'Sanções administrativas (Lei 14.133, arts. 155-163)', 'Lei 8.666/93 — vigência transitória'], sections: [] },
-  { id: 'adm-07-servicos-publicos-concessoes', num: 7, materia: 'adm', title: 'Serviços públicos e concessões', edital: '1.2.7', editalText: 'Conceito, princípios, modos de prestação. Lei 8.987/95 e PPP.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito e princípios', 'Classificações', 'Concessão (Lei 8.987/95)', 'Permissão e autorização', 'Parcerias público-privadas (Lei 11.079/04)', 'Agências reguladoras', 'Direitos do usuário (Lei 13.460/17)'], sections: [] },
-  { id: 'adm-08-responsabilidade-civil-estado', num: 8, materia: 'adm', title: 'Responsabilidade civil do Estado', edital: '1.2.8', editalText: 'Teoria do risco. CF art. 37 §6º. Excludentes. Ação regressiva.', size: 'Médio', schedule: null, advantage: null, outline: ['Teorias (subjetiva, objetiva — risco administrativo, risco integral)', 'Pressupostos (conduta, dano, nexo)', 'Excludentes (caso fortuito, força maior, culpa exclusiva da vítima)', 'Responsabilidade por omissão', 'Responsabilidade por atos legislativos e judiciais', 'Ação regressiva contra agente (denúncia da lide)', 'Prescrição (Súmula 647 STJ — quinquenal)'], sections: [] },
-  { id: 'adm-09-improbidade-administrativa', num: 9, materia: 'adm', title: 'Improbidade administrativa (Lei 8.429/92, alterações Lei 14.230/21)', edital: '1.2.9', editalText: 'Atos de improbidade. Sanções. Procedimento. Reforma de 2021.', size: 'Grande', schedule: null, advantage: null, outline: ['Sujeitos (ativo e passivo)', 'Atos de improbidade — enriquecimento ilícito, prejuízo ao erário, atentado a princípios', 'Lei 14.230/21 — exigência de dolo específico', 'Sanções (CF art. 37 §4º + LIA arts. 12 e ss.)', 'Procedimento — ação de responsabilidade', 'Prescrição', 'Acordo de não persecução cível'], sections: [] },
-  { id: 'adm-10-controle-administracao', num: 10, materia: 'adm', title: 'Controle da Administração', edital: '1.2.10', editalText: 'Controle interno, externo, judicial, social. TCU.', size: 'Médio', schedule: null, advantage: null, outline: ['Classificações (interno × externo, prévio × concomitante × posterior)', 'Controle administrativo (autotutela)', 'Controle legislativo e do TCU', 'Controle judicial (limites)', 'Controle social', 'Lei de Acesso à Informação (12.527/11)'], sections: [] },
-  { id: 'adm-11-intervencao-propriedade', num: 11, materia: 'adm', title: 'Intervenção do Estado na propriedade', edital: '1.2.11', editalText: 'Desapropriação, requisição, ocupação temporária, servidão, limitação, tombamento.', size: 'Médio', schedule: null, advantage: null, outline: ['Desapropriação (DL 3.365/41 e Lei 4.132/62)', 'Modalidades (necessidade pública, utilidade pública, interesse social)', 'Desapropriação por interesse social para reforma agrária e urbana', 'Tredestinação e retrocessão', 'Requisição administrativa', 'Servidão administrativa', 'Limitação administrativa', 'Tombamento (DL 25/37)', 'Ocupação temporária'], sections: [] },
-  { id: 'adm-12-lgpd-lindb-publica', num: 12, materia: 'adm', title: 'LGPD aplicada à Administração e LINDB pública', edital: '1.2.12', editalText: 'Lei 13.709/18 (LGPD) e arts. 20-30 da LINDB (Lei 13.655/18).', size: 'Médio', schedule: null, advantage: null, outline: ['LGPD — fundamentos e princípios', 'Bases legais para tratamento pelo Poder Público', 'ANPD', 'LINDB arts. 20-30 — segurança jurídica e eficiência na criação e aplicação do direito público', 'Consequencialismo', 'Responsabilidade do agente público (art. 28)'], sections: [] },
+  { id: 'adm-01-principios-administrativos', num: 1, materia: 'adm', title: 'Princípios da Administração Pública', edital: '1.2.1', editalText: 'LIMPE + princípios implícitos. Regime jurídico-administrativo.', size: 'Médio', schedule: 'Mês 9-10', advantage: null, outline: ['Princípios constitucionais expressos (LIMPE — art. 37)', 'Princípios implícitos (razoabilidade, proporcionalidade, motivação, autotutela, etc.)', 'Regime jurídico-administrativo', 'Supremacia e indisponibilidade do interesse público'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA** são o pórtico do Direito Administrativo. CF/88 art. 37 caput consagra os EXPRESSOS — mnemônico **LIMPE: LEGALIDADE · IMPESSOALIDADE · MORALIDADE · PUBLICIDADE · EFICIÊNCIA** (eficiência adicionada pela EC 19/98). Doutrina e jurisprudência reconhecem dezenas de princípios IMPLÍCITOS — razoabilidade, proporcionalidade, motivação, autotutela, especialidade, hierarquia, continuidade do serviço público, segurança jurídica, etc.' },
+        { type: 'p', text: 'O **REGIME JURÍDICO-ADMINISTRATIVO** é construído sobre dois pilares (Bandeira de Mello): **SUPREMACIA DO INTERESSE PÚBLICO** sobre o privado e **INDISPONIBILIDADE DO INTERESSE PÚBLICO**. Esses dois princípios mestres irradiam suas consequências por todo o direito administrativo.' }
+      ]
+    },
+    {
+      h: 'Princípios EXPRESSOS (LIMPE — CF 37)',
+      items: [
+        { type: 'h', text: 'L — LEGALIDADE' },
+        { type: 'p', text: 'Para a Adm., a legalidade é mais ESTRITA que para o particular. **Particular pode tudo o que a lei NÃO PROÍBE.** **Adm. só pode o que a lei AUTORIZA.** Distinção fundamental — princípio da legalidade administrativa = legalidade estrita.' },
+
+        { type: 'h', text: 'I — IMPESSOALIDADE' },
+        { type: 'p', text: 'A Adm. atua de forma OBJETIVA, sem favorecimentos pessoais. Manifestações: (a) finalidade pública (não pode atos para perseguir ou favorecer pessoas); (b) imputação dos atos à pessoa jurídica (não ao agente — STF ADI 6.529/2020); (c) proibição de promoção pessoal de governantes (CF 37 §1º).' },
+
+        { type: 'h', text: 'M — MORALIDADE' },
+        { type: 'p', text: 'A atuação administrativa deve ser ÉTICA. Não basta legalidade formal — é exigida moralidade material. Lei 8.429/92 (LIA) é instrumento. Atos imorais são ANULÁVEIS.' },
+
+        { type: 'h', text: 'P — PUBLICIDADE' },
+        { type: 'p', text: 'Atos da Adm. são, em REGRA, públicos. EXCEÇÕES: sigilo necessário à segurança da sociedade e do Estado (CF 5º XXXIII e LX) ou intimidade. Lei de Acesso à Informação (Lei 12.527/11) regulamenta.' },
+
+        { type: 'h', text: 'E — EFICIÊNCIA' },
+        { type: 'p', text: 'Acrescentado pela EC 19/98. A Adm. deve atuar com QUALIDADE e PRODUTIVIDADE. Cobra resultado, não só procedimento. Aproxima-se do conceito gerencial.' }
+      ]
+    },
+    {
+      h: 'Princípios IMPLÍCITOS',
+      items: [
+        { type: 'list', items: [
+          '**RAZOABILIDADE/PROPORCIONALIDADE:** atos administrativos devem ser razoáveis e proporcionais',
+          '**MOTIVAÇÃO:** atos devem ser motivados (Lei 9.784/99 art. 50). Motivação INSUFICIENTE = vício',
+          '**AUTOTUTELA:** Adm. pode anular atos ilegais (de ofício) ou revogar atos inconvenientes (Súm. 473 STF)',
+          '**ESPECIALIDADE:** Adm. indireta tem atribuições específicas',
+          '**HIERARQUIA:** vínculo de subordinação',
+          '**CONTINUIDADE DO SERVIÇO PÚBLICO:** serviços essenciais não podem ser interrompidos arbitrariamente',
+          '**SEGURANÇA JURÍDICA:** vedação à mudança brusca de orientação. Lei 9.784/99 art. 54: prazo decadencial de 5 anos para anulação de atos beneficiários',
+          '**CONTRADITÓRIO E AMPLA DEFESA:** em PADs e atos restritivos (CF 5º LV)'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Supremacia × Indisponibilidade do interesse público' },
+        { type: 'p', text: '**SUPREMACIA:** prevalência do interesse público sobre o privado em conflitos. Justifica prerrogativas da Adm. (autoexecutoriedade, presunção de legitimidade, cláusulas exorbitantes).' },
+        { type: 'p', text: '**INDISPONIBILIDADE:** o interesse público NÃO pode ser disposto livremente pelo administrador. Adm. age vinculada à lei e ao interesse público — não como dono.' },
+
+        { type: 'h', text: 'Súmula 473 STF (autotutela)' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 473:** "A Administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial."' },
+
+        { type: 'h', text: 'Prazo para anulação (Lei 9.784/99 art. 54)' },
+        { type: 'p', text: '5 ANOS, contados da data do ato beneficiário, se MÁ-FÉ não comprovada. Após, decai o direito da Adm. de anular. Salvo má-fé, hipótese em que o prazo é maior.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LIMPE = LEGALIDADE · IMPESSOALIDADE · MORALIDADE · PUBLICIDADE · EFICIÊNCIA.** EC 19/98 acrescentou Eficiência.' },
+        { type: 'box', kind: 'macete', text: '**Particular: pode tudo que a lei não proíbe. Adm.: só o que a lei autoriza.** Diferença na legalidade.' },
+        { type: 'box', kind: 'macete', text: '**Súm. 473 STF: anula vícios + revoga inconveniência (autotutela).**' },
+        { type: 'box', kind: 'macete', text: '**Lei 9.784/99 art. 54: prazo decadencial de 5 anos para anular atos beneficiários (sem má-fé).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Eficiência foi acrescentada pela EC 19/98 — não estava no texto original.**' },
+        { type: 'box', kind: 'atencao', text: '**Adm. pode anular (vícios — efeitos ex tunc) ou revogar (conveniência — ex nunc).** Distinção essencial.' },
+        { type: 'box', kind: 'atencao', text: '**Atos anulados NÃO geram direito adquirido — atos revogados sim, em parte.** STF/STJ.' },
+        { type: 'box', kind: 'atencao', text: '**Princípios implícitos têm a mesma força dos expressos.** Não há hierarquia.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** contraditório e ampla defesa em atos administrativos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** moralidade administrativa é vetor central da LIA.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 2 (Atos):** princípios disciplinam validade dos atos.' }
+      ]
+    }
+  ] },
+  { id: 'adm-02-atos-administrativos', num: 2, materia: 'adm', title: 'Atos administrativos', edital: '1.2.2', editalText: 'Conceito, requisitos, atributos, classificações, espécies, vícios, extinção.', size: 'Grande', schedule: 'Mês 9-10', advantage: null, outline: ['Conceito e requisitos (competência, finalidade, forma, motivo, objeto)', 'Atributos (presunção, imperatividade, autoexecutoriedade, tipicidade)', 'Classificações', 'Espécies (normativos, ordinatórios, negociais, enunciativos, punitivos)', 'Vícios e teoria das nulidades', 'Extinção (revogação, anulação, cassação, caducidade)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **ATO ADMINISTRATIVO** é manifestação UNILATERAL de vontade da Adm. (ou de quem lhe faça as vezes), no exercício da função administrativa, sob regime de direito público, visando produzir efeitos JURÍDICOS. Distingue-se de FATO administrativo (acontecimento natural com efeitos jurídicos), de ATO de gestão privada e de ATO normativo (lei).' },
+        { type: 'p', text: 'Para o concurso: (a) **5 REQUISITOS** (competência, finalidade, forma, motivo, objeto — mnemônico **CO-FI-FO-MO-OB**); (b) **4 ATRIBUTOS** (presunção de legitimidade, imperatividade, autoexecutoriedade, tipicidade — mnemônico **PIAT**); (c) **CLASSIFICAÇÕES** (vinculados × discricionários, simples × complexos × compostos, gerais × individuais); (d) **VÍCIOS** e teoria das NULIDADES (atos NULOS e ANULÁVEIS); (e) **EXTINÇÃO** (revogação, anulação, cassação, caducidade, contraposição).' }
+      ]
+    },
+    {
+      h: 'Requisitos e atributos',
+      items: [
+        { type: 'h', text: '5 Requisitos (CO-FI-FO-MO-OB)' },
+        { type: 'list', items: [
+          '**COMPETÊNCIA:** atribuição legal do agente. Competência é REQUISITO VINCULADO',
+          '**FINALIDADE:** interesse público específico previsto em lei. Vinculada',
+          '**FORMA:** modo de exteriorização. Em regra, escrita. Vinculada',
+          '**MOTIVO:** fundamento de fato e de direito. Pode ser vinculado ou discricionário',
+          '**OBJETO:** efeito jurídico produzido. Pode ser vinculado ou discricionário'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Vinculado SEMPRE: Competência, Finalidade, Forma. Discricionário pode ser: Motivo e Objeto.**' },
+
+        { type: 'h', text: '4 Atributos (PIAT)' },
+        { type: 'list', items: [
+          '**PRESUNÇÃO DE LEGITIMIDADE:** ato é presumido legal e veraz. RELATIVA (juris tantum) — admite prova em contrário',
+          '**IMPERATIVIDADE:** impõe-se a terceiros, mesmo sem concordância. Não está em todos os atos (ex: alvará é declaratório)',
+          '**AUTOEXECUTORIEDADE:** Adm. executa diretamente, sem necessidade de manifestação judicial prévia. Em hipóteses previstas em lei ou em situações de urgência',
+          '**TIPICIDADE:** ato administrativo deve corresponder a figura definida em lei. Princípio garantista'
+        ]}
+      ]
+    },
+    {
+      h: 'Classificações e espécies',
+      items: [
+        { type: 'h', text: 'Classificações' },
+        { type: 'list', items: [
+          'VINCULADOS × DISCRICIONÁRIOS',
+          'SIMPLES (1 órgão) × COMPLEXOS (vontade de mais de 1) × COMPOSTOS (1 ato + outro confirmatório)',
+          'GERAIS × INDIVIDUAIS',
+          'INTERNOS × EXTERNOS',
+          'CONSTITUTIVOS × DECLARATÓRIOS × MODIFICATIVOS × EXTINTIVOS'
+        ]},
+
+        { type: 'h', text: 'Espécies (rol clássico)' },
+        { type: 'list', items: [
+          '**NORMATIVOS:** decretos, regulamentos, instruções normativas',
+          '**ORDINATÓRIOS:** circulares, ofícios, ordens internas',
+          '**NEGOCIAIS:** licença, autorização, permissão, aprovação',
+          '**ENUNCIATIVOS:** atestado, certidão, parecer',
+          '**PUNITIVOS:** multa, demolição, interdição'
+        ]}
+      ]
+    },
+    {
+      h: 'Vícios, nulidades e extinção',
+      items: [
+        { type: 'h', text: 'Vícios — teoria das nulidades' },
+        { type: 'p', text: '**ATO NULO:** vício insanável. Anulação ex tunc. Não gera direito adquirido. **ATO ANULÁVEL:** vício sanável, possível convalidação. Lei 9.784/99 admite convalidação em casos de vícios em FORMA e COMPETÊNCIA (não sobre matéria privativa).' },
+
+        { type: 'h', text: 'Extinção dos atos' },
+        { type: 'list', items: [
+          '**ANULAÇÃO:** atos ilegais. Efeitos EX TUNC. Pelo Judiciário ou pela Adm. (autotutela)',
+          '**REVOGAÇÃO:** atos legais inconvenientes. Efeitos EX NUNC. Apenas pela Adm. — não pelo Judiciário',
+          '**CASSAÇÃO:** descumprimento de condição pelo beneficiário (ex: cassação de licença por descumprimento de norma)',
+          '**CADUCIDADE:** ato torna-se incompatível com nova legislação',
+          '**CONTRAPOSIÇÃO:** novo ato administrativo extingue o anterior',
+          'Renúncia (raras hipóteses)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Requisitos (CO-FI-FO-MO-OB): Competência · Finalidade · Forma · Motivo · Objeto.**' },
+        { type: 'box', kind: 'macete', text: '**Atributos (PIAT): Presunção · Imperatividade · Autoexecutoriedade · Tipicidade.** Nem todos têm imperatividade ou autoexecutoriedade.' },
+        { type: 'box', kind: 'macete', text: '**Anulação: ex TUNC (vício de origem). Revogação: ex NUNC (conveniência).**' },
+        { type: 'box', kind: 'macete', text: '**Súm. 473 STF: autotutela administrativa = anular OU revogar.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Adm. ANULA atos ilegais (vínculo). REVOGA por conveniência (discricionariedade).** Não confundir.' },
+        { type: 'box', kind: 'atencao', text: '**Judiciário NÃO pode revogar — só anular** (separação dos poderes). Súm. 473 STF.' },
+        { type: 'box', kind: 'atencao', text: '**Presunção de legitimidade é RELATIVA — admite prova em contrário.**' },
+        { type: 'box', kind: 'atencao', text: '**Convalidação só de vícios em FORMA ou COMPETÊNCIA** (Lei 9.784/99 art. 55).' },
+        { type: 'box', kind: 'atencao', text: '**Anulação tem prazo de 5 anos (art. 54 Lei 9.784) — salvo má-fé.** Após, decai.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** legalidade, autotutela, segurança jurídica fundamentam a teoria dos atos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** ato administrativo viciado pode caracterizar improbidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (Controle):** declarado inconstitucional o ato normativo, atos individuais derivados podem ser anulados.' }
+      ]
+    }
+  ] },
+  { id: 'adm-03-poderes-administrativos', num: 3, materia: 'adm', title: 'Poderes administrativos', edital: '1.2.3', editalText: 'Vinculado, discricionário, hierárquico, disciplinar, regulamentar, polícia.', size: 'Médio', schedule: 'Mês 9-10', advantage: null, outline: ['Poder vinculado × discricionário', 'Poder hierárquico', 'Poder disciplinar', 'Poder regulamentar', 'Poder de polícia (atributos, ciclo, prescrição)', 'Abuso de poder (excesso e desvio)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PODERES ADMINISTRATIVOS** são as PRERROGATIVAS conferidas à Adm. para o cumprimento da função pública. São DEVERES-PODERES (poder-dever) — não simples faculdade. Os mais cobrados: **VINCULADO × DISCRICIONÁRIO**, **HIERÁRQUICO**, **DISCIPLINAR**, **REGULAMENTAR**, **POLÍCIA**.' },
+        { type: 'p', text: 'Cada poder tem limites — quem extrapola comete **ABUSO DE PODER**, que pode ser por **EXCESSO DE PODER** (vício de competência) ou **DESVIO DE PODER/FINALIDADE** (vício de finalidade). Ambos geram nulidade do ato.' }
+      ]
+    },
+    {
+      h: 'Poderes — análise',
+      items: [
+        { type: 'h', text: 'Vinculado × Discricionário' },
+        { type: 'p', text: '**VINCULADO:** lei prevê todos os elementos. Adm. obrigada a praticar conforme lei (sem juízo). Ex: aposentadoria por idade.' },
+        { type: 'p', text: '**DISCRICIONÁRIO:** lei deixa margem de escolha (mérito) ao administrador. Adm. analisa CONVENIÊNCIA e OPORTUNIDADE. Ex: nomear servidor para cargo em comissão. STF/STJ: discricionariedade NÃO é arbitrariedade — deve respeitar razoabilidade e proporcionalidade.' },
+
+        { type: 'h', text: 'Hierárquico' },
+        { type: 'p', text: 'Permite ao superior ORDENAR, FISCALIZAR, REVISAR atos do subordinado. Manifestações: dar ordens, delegar competência, avocar atribuições, aplicar sanções leves, dirimir conflitos. Vincula em PARALELO o dever de obediência do subordinado (salvo ordens manifestamente ilegais).' },
+
+        { type: 'h', text: 'Disciplinar' },
+        { type: 'p', text: 'Permite à Adm. PUNIR servidores (e contratados — Lei 14.133/21) por irregularidades. Discricionário na DOSIMETRIA (graduação da pena), VINCULADO na decisão (havendo prova, deve punir — não é facultativo). Sanções: advertência, suspensão, demissão, cassação, etc.' },
+
+        { type: 'h', text: 'Regulamentar' },
+        { type: 'p', text: 'Permite ao Executivo expedir atos normativos para EXECUÇÃO da lei. CF 84 IV: PR pode expedir DECRETOS para fiel execução das leis. **NÃO pode INOVAR** o ordenamento — não cria direitos nem deveres. EC 32/01 inseriu DECRETO AUTÔNOMO (CF 84 VI), em hipóteses restritas (organização e funcionamento da Adm.).' },
+
+        { type: 'h', text: 'Polícia administrativa' },
+        { type: 'list', items: [
+          'Faculdade da Adm. de CONDICIONAR e RESTRINGIR direitos individuais em nome do interesse coletivo',
+          'CTN art. 78: define poder de polícia (para fins de cobrança de taxa)',
+          '**4 ATRIBUTOS**: DISCRICIONARIEDADE · COERCIBILIDADE · AUTOEXECUTORIEDADE · indelegabilidade (em regra)',
+          '**CICLO** (4 fases): ORDEM (norma geral) · CONSENTIMENTO (alvará, licença) · FISCALIZAÇÃO · SANÇÃO',
+          '**STF — RE 633.782 (Tema 532, 2020):** atos de fiscalização e CONSENTIMENTO de polícia podem ser DELEGADOS a entidades de direito privado (exceto poder originário e sancionatório)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF Tema 532:** distinção entre 4 ciclos da polícia. Apenas ORDEM e SANÇÃO são INDELEGÁVEIS. Consentimento e fiscalização podem ser delegados (em parte) a privados.' }
+      ]
+    },
+    {
+      h: 'Abuso de poder',
+      items: [
+        { type: 'list', items: [
+          '**EXCESSO DE PODER:** vício na COMPETÊNCIA — agente atua além de suas atribuições',
+          '**DESVIO DE PODER/FINALIDADE:** vício na FINALIDADE — agente atua para fim diverso do legalmente previsto',
+          'Ambos geram NULIDADE absoluta do ato (vícios insanáveis)',
+          'Remédio: HC, MS, ação ordinária'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Discricionariedade ≠ arbitrariedade.** Discricionariedade respeita razoabilidade.' },
+        { type: 'box', kind: 'macete', text: '**Polícia: 4 atributos (DICA-D): Discricionariedade · Coercibilidade · Autoexecutoriedade · indelegabilidade (parcial).**' },
+        { type: 'box', kind: 'macete', text: '**Polícia: 4 ciclos: ORDEM · CONSENTIMENTO · FISCALIZAÇÃO · SANÇÃO.** STF Tema 532: consentimento e fiscalização delegáveis.' },
+        { type: 'box', kind: 'macete', text: '**Excesso de PODER (competência) × Desvio de PODER (finalidade).** Ambos = nulidade.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Discricionariedade não é arbitrariedade — limita-se pela razoabilidade.** STF/STJ.' },
+        { type: 'box', kind: 'atencao', text: '**STF Tema 532 (2020): consentimento e fiscalização de polícia podem ser DELEGADOS a privados (parcialmente).** Ordem e sanção são indelegáveis.' },
+        { type: 'box', kind: 'atencao', text: '**Decreto regulamentar não pode INOVAR o ordenamento.** Apenas detalha lei. Decreto autônomo é exceção restrita (CF 84 VI).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** legalidade limita o poder discricionário.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 2 (Atos):** abuso de poder = vício no ato.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** poder de polícia restringe direitos individuais.' }
+      ]
+    }
+  ] },
+  { id: 'adm-04-servidores-publicos', num: 4, materia: 'adm', title: 'Servidores públicos', edital: '1.2.4', editalText: 'Regime jurídico, direitos, deveres, responsabilidades. CF arts. 37-41.', size: 'Grande', schedule: 'Mês 9-10', advantage: null, outline: ['Regimes (estatutário, celetista, especial)', 'Cargo, emprego e função', 'Acessibilidade e concurso público', 'Estabilidade e estágio probatório', 'Direitos (remuneração, férias, licenças)', 'Deveres e proibições', 'Responsabilidades (civil, penal, administrativa)', 'Aposentadoria e regime previdenciário (EC 103/19)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **SERVIDORES PÚBLICOS** integram a Adm. direta e indireta. Disciplina constitucional principal: CF arts. 37-41. Regimes: **ESTATUTÁRIO** (servidores efetivos — Lei 8.112/90 e estaduais), **CELETISTA** (empregados públicos de empresas estatais e contratos por prazo determinado) e **ESPECIAL** (militares, magistrados, MP).' },
+        { type: 'p', text: 'Para o concurso: (a) **CONCURSO PÚBLICO** (CF 37 II) — regra geral; (b) **ESTABILIDADE** (3 anos — CF 41); (c) **TETO REMUNERATÓRIO** (CF 37 XI); (d) **ACUMULAÇÃO** (CF 37 XVI — vedações e exceções); (e) **APOSENTADORIA** após EC 103/19 (idade mínima 65/62, regras de transição); (f) **RESPONSABILIDADES** (civil, penal, administrativa — independentes).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 37 — regime geral' },
+        { type: 'list', items: [
+          '**I** — cargos, empregos e funções acessíveis aos brasileiros e estrangeiros (na forma da lei)',
+          '**II** — investidura por CONCURSO PÚBLICO de provas ou provas e títulos',
+          '**III** — prazo de validade do concurso: até 2 ANOS, prorrogável uma vez por igual período',
+          '**V** — funções de confiança e cargos em comissão (excepcionais — vedada a "vacância" de carreira)',
+          '**VII** — direito de greve do servidor (lei específica, hoje não há — STF MI 670/708/712)',
+          '**VIII** — reserva de vagas para PCD',
+          '**XI** — TETO REMUNERATÓRIO (subsídio dos Min. STF, com tetos parciais)',
+          '**XVI** — vedação à acumulação remunerada de cargos públicos (exceções nas alíneas a, b, c)',
+          '**XXI** — licitação como regra para contratação',
+          '**§4º** — improbidade administrativa',
+          '**§5º** — imprescritibilidade do ressarcimento ao erário'
+        ]},
+
+        { type: 'h', text: 'Estabilidade (CF art. 41)' },
+        { type: 'list', items: [
+          'APÓS 3 ANOS de efetivo exercício',
+          'Adquirida em CARGO efetivo (não em comissão)',
+          '**Causas de perda da estabilidade:** (i) sentença judicial transitada; (ii) PAD com ampla defesa; (iii) avaliação periódica de desempenho insatisfatória (CF 41 §1º — depende de LC); (iv) excesso de despesa com pessoal (CF 169)'
+        ]},
+
+        { type: 'h', text: 'Aposentadoria (EC 103/19)' },
+        { type: 'list', items: [
+          'IDADE MÍNIMA: 65 anos (homem) · 62 anos (mulher)',
+          'TEMPO DE CONTRIBUIÇÃO: 25 anos (homem) · 20 anos (mulher)',
+          'COMPULSÓRIA: 75 anos (todos)',
+          'REGIMES PRÓPRIOS DE PREVIDÊNCIA (RPPS) com regras adicionais e contribuições mais altas'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Concurso público — regra e exceções' },
+        { type: 'p', text: 'Concurso é REGRA (CF 37 II). EXCEÇÕES: (i) cargos em comissão e funções de confiança (CF 37 V); (ii) contratação temporária por excepcional interesse público (CF 37 IX — Lei 8.745/93); (iii) provimento derivado interno (provimento por promoção, transferência, redistribuição — STF restringiu).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula Vinculante 43:** "É inconstitucional toda modalidade de provimento que propicie ao servidor INVESTIR-SE, sem prévia aprovação em concurso público destinado ao seu provimento, em cargo que NÃO INTEGRE a carreira na qual anteriormente investido."' },
+
+        { type: 'h', text: 'Acumulação de cargos (CF 37 XVI)' },
+        { type: 'list', items: [
+          'REGRA: VEDADA',
+          'EXCEÇÕES (com compatibilidade de horários e respeito ao teto):',
+          '(a) 2 cargos de PROFESSOR',
+          '(b) 1 cargo de professor + 1 técnico/científico',
+          '(c) 2 cargos privativos de PROFISSIONAIS DE SAÚDE com profissões regulamentadas',
+          'STF — não admite ampliação por analogia'
+        ]},
+
+        { type: 'h', text: 'Responsabilidades' },
+        { type: 'p', text: 'CIVIL · PENAL · ADMINISTRATIVA — INDEPENDENTES. Servidor que comete infração pode responder em todas as esferas. Exceção: absolvição penal por NEGATIVA DE AUTORIA ou INEXISTÊNCIA DO FATO repercute nas demais (CPP 386 I e IV). Indenização ao erário (improbidade) é IMPRESCRITÍVEL (CF 37 §5º).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Concurso: prazo até 2+2 = 4 anos no máximo.** Validade da homologação.' },
+        { type: 'box', kind: 'macete', text: '**Estabilidade: 3 anos · Vitaliciedade: 2 anos (MP/Magistratura) ou 3 (Defensoria).**' },
+        { type: 'box', kind: 'macete', text: '**Acumulação (3 hipóteses): 2 PROF · 1 PROF + 1 TÉC/CIENT · 2 SAÚDE.** Compatibilidade de horários + teto.' },
+        { type: 'box', kind: 'macete', text: '**Aposentadoria EC 103/19: 65/62 anos · 25/20 contribuição · 75 compulsória.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Estabilidade só em CARGO EFETIVO — não em comissão.** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**SV 43 STF: vedada \"transposição\" para cargo de carreira diferente.**' },
+        { type: 'box', kind: 'atencao', text: '**Acumulação: PROFESSOR + PROFESSOR ou PROFESSOR + TÉCNICO/CIENTÍFICO ou 2 SAÚDE.** Não há outras hipóteses.' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade SÓ do ressarcimento ao erário (CF 37 §5º + STF Tema 897).** Sancionatório prescreve.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** legalidade, moralidade, impessoalidade norteiam concurso e disciplina.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 8 (Responsabilidade Civil):** responsabilidade do agente x do Estado (denunciação da lide).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** servidor é sujeito ativo principal.' }
+      ]
+    }
+  ] },
+  { id: 'adm-05-bens-publicos', num: 5, materia: 'adm', title: 'Bens públicos', edital: '1.2.5', editalText: 'Classificação, afetação, alienação, uso especial, prescrição.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Classificação (uso comum, uso especial, dominicais)', 'Características (impenhorabilidade, imprescritibilidade, inalienabilidade relativa)', 'Afetação e desafetação', 'Formas de alienação (Lei 14.133/21)', 'Uso especial (autorização, permissão, concessão de uso)', 'Bens das pessoas administrativas indiretas'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **BENS PÚBLICOS** (CC arts. 98-103) pertencem à Administração direta, autarquias e fundações de direito público. Têm regime jurídico especial — IMPENHORABILIDADE, IMPRESCRITIBILIDADE, INALIENABILIDADE RELATIVA, NÃO ONERABILIDADE.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Classificação (CC art. 99)' },
+        { type: 'list', items: [
+          '**USO COMUM DO POVO:** rios, mares, estradas, ruas, praças. Acesso geral e gratuito (em regra)',
+          '**USO ESPECIAL:** edifícios públicos (escolas, hospitais, prefeituras). Destinados ao serviço',
+          '**DOMINICAIS:** patrimônio das pessoas jurídicas de direito público, sem destinação especial. Podem ser alienados (após desafetação)'
+        ]},
+
+        { type: 'h', text: 'Características' },
+        { type: 'list', items: [
+          '**INALIENABILIDADE RELATIVA:** uso comum e especial são INALIENÁVEIS enquanto afetados. Dominicais podem ser alienados',
+          '**IMPRESCRITIBILIDADE:** NÃO ADMITEM USUCAPIÃO (CF 191 § único, 183 §3º; Súm. 340 STF)',
+          '**IMPENHORABILIDADE:** não podem ser penhorados. Pagamento de débitos por PRECATÓRIO (CF 100)',
+          '**NÃO ONERABILIDADE:** não podem ser objeto de hipoteca, penhor, anticrese'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos',
+      items: [
+        { type: 'h', text: 'Afetação × Desafetação' },
+        { type: 'p', text: '**AFETAÇÃO:** destinação a uso público específico (formaliza-se com lei, ato administrativo, fato jurídico). **DESAFETAÇÃO:** retirada da destinação. Bem desafetado torna-se DOMINICAL e pode ser alienado.' },
+
+        { type: 'h', text: 'Uso especial por particular' },
+        { type: 'list', items: [
+          '**AUTORIZAÇÃO DE USO:** ato precário, discricionário. Ex: autorização para ocupação de calçada',
+          '**PERMISSÃO DE USO:** ato precário, mas mais formal. Ex: permissão de uso de quiosque em praça',
+          '**CONCESSÃO DE USO:** contrato administrativo, com prazo. Ex: concessão de uso de imóvel público'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 categorias (CC 99): USO COMUM · USO ESPECIAL · DOMINICAIS.** Apenas dominicais alienáveis (após desafetação).' },
+        { type: 'box', kind: 'macete', text: '**4 características: IMPENHORABILIDADE · IMPRESCRITIBILIDADE · INALIENABILIDADE relativa · NÃO ONERABILIDADE.**' },
+        { type: 'box', kind: 'macete', text: '**Bem público NÃO usucapiável (Súm. 340 STF, CF 191/183).**' },
+        { type: 'box', kind: 'macete', text: '**Pagamento de débitos: PRECATÓRIO (CF 100).** Não há penhora.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Bens públicos NÃO admitem usucapião (Súm. 340 STF).** Mesmo dominicais.' },
+        { type: 'box', kind: 'atencao', text: '**Inalienabilidade é RELATIVA — bens dominicais podem ser alienados** após desafetação.' },
+        { type: 'box', kind: 'atencao', text: '**Empresas estatais (econômicas) NÃO têm bens públicos típicos** — seguem regime privado, exceto serviços públicos delegados.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 6 (Licitações):** alienação de bens dominicais segue Lei 14.133/21.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** usucapião urbana NÃO se aplica a bens públicos (CF 183 §3º).' }
+      ]
+    }
+  ] },
+  { id: 'adm-06-licitacoes-contratos', num: 6, materia: 'adm', title: 'Licitações e contratos administrativos (Lei 14.133/21)', edital: '1.2.6', editalText: 'Nova Lei de Licitações e Contratos. Modalidades, fases, contratação direta, contratos.', size: 'Grande', schedule: 'Mês 10', advantage: null, outline: ['Princípios e regime', 'Modalidades (pregão, concorrência, concurso, leilão, diálogo competitivo)', 'Fases do procedimento', 'Critérios de julgamento', 'Contratação direta (dispensa e inexigibilidade)', 'Contratos administrativos — características e cláusulas exorbitantes', 'Equilíbrio econômico-financeiro', 'Sanções administrativas (Lei 14.133, arts. 155-163)', 'Lei 8.666/93 — vigência transitória'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **LEI 14.133/2021** é a NOVA Lei de Licitações e Contratos, substituindo a Lei 8.666/93, a Lei do Pregão (Lei 10.520/02) e o RDC (Lei 12.462/11). **Vigência: a partir de 1º/04/2023** — período de transição (Lei 8.666/93 admitida até 31/12/2023). Para o concurso (especialmente concursos pós-2023): dominar a Lei 14.133/21, mas conhecer Lei 8.666/93 ainda é útil em provas que cobram comparativos.' }
+      ]
+    },
+    {
+      h: 'Lei 14.133/21 — visão geral',
+      items: [
+        { type: 'h', text: 'Princípios (art. 5º — 18 princípios listados)' },
+        { type: 'list', items: [
+          'Legalidade · impessoalidade · moralidade · publicidade · eficiência · interesse público · probidade administrativa · igualdade · planejamento · transparência · eficácia · segregação de funções · motivação · vinculação ao edital · julgamento objetivo · segurança jurídica · razoabilidade · competitividade · proporcionalidade · celeridade · economicidade · desenvolvimento nacional sustentável'
+        ]},
+
+        { type: 'h', text: 'Modalidades (art. 28 — 5 modalidades + procedimentos auxiliares)' },
+        { type: 'list', items: [
+          '**PREGÃO** — para bens e serviços comuns, qualquer valor',
+          '**CONCORRÊNCIA** — para os demais casos, qualquer valor (substituiu modalidades por valor)',
+          '**CONCURSO** — para escolha de trabalho técnico, científico ou artístico',
+          '**LEILÃO** — para alienação de bens',
+          '**DIÁLOGO COMPETITIVO** — para inovação ou complexidade técnica (novidade da Lei 14.133)',
+          'Não há mais Tomada de Preços, Convite (extintas)'
+        ]},
+
+        { type: 'h', text: 'Fases do procedimento (art. 17 — fases unificadas)' },
+        { type: 'list', items: [
+          'PREPARATÓRIA (planejamento, pesquisa de preços)',
+          'DIVULGAÇÃO DO EDITAL',
+          'APRESENTAÇÃO DE PROPOSTAS E LANCES',
+          'JULGAMENTO',
+          'HABILITAÇÃO',
+          'RECURSAL',
+          'HOMOLOGAÇÃO'
+        ]},
+
+        { type: 'h', text: 'Critérios de julgamento (art. 33)' },
+        { type: 'list', items: [
+          'MENOR PREÇO',
+          'MAIOR DESCONTO',
+          'MELHOR TÉCNICA OU CONTEÚDO ARTÍSTICO',
+          'TÉCNICA E PREÇO',
+          'MAIOR LANCE (leilão)',
+          'MAIOR RETORNO ECONÔMICO (PPP)'
+        ]},
+
+        { type: 'h', text: 'Contratação direta (arts. 74-75)' },
+        { type: 'list', items: [
+          '**DISPENSA DE LICITAÇÃO (art. 75):** rol taxativo (situação emergencial, valor abaixo de limite, contratação de remanescente, etc.)',
+          '**INEXIGIBILIDADE (art. 74):** competição inviável (fornecedor exclusivo, serviços técnicos especializados de notória especialização, contratação de profissional do setor artístico)'
+        ]}
+      ]
+    },
+    {
+      h: 'Contratos administrativos',
+      items: [
+        { type: 'h', text: 'Cláusulas exorbitantes' },
+        { type: 'list', items: [
+          'ALTERAÇÃO unilateral do contrato pela Adm.',
+          'RESCISÃO unilateral',
+          'FISCALIZAÇÃO permanente',
+          'APLICAÇÃO DE SANÇÕES',
+          'OCUPAÇÃO PROVISÓRIA do contratado em casos de calamidade'
+        ]},
+
+        { type: 'h', text: 'Equilíbrio econômico-financeiro' },
+        { type: 'list', items: [
+          'CF 37 XXI — manutenção das condições efetivas da proposta',
+          '**TEORIA DA IMPREVISÃO** — fato extraordinário e imprevisível que altera o equilíbrio',
+          '**FATO DO PRÍNCIPE** — ato geral do Poder Público que afeta indiretamente o contrato',
+          '**FATO DA ADMINISTRAÇÃO** — ato específico que dificulta diretamente a execução'
+        ]},
+
+        { type: 'h', text: 'Sanções (arts. 155-163)' },
+        { type: 'list', items: [
+          'ADVERTÊNCIA',
+          'MULTA',
+          'IMPEDIMENTO DE LICITAR E CONTRATAR (3 anos)',
+          'DECLARAÇÃO DE INIDONEIDADE (3-6 anos)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Lei 14.133/21 substituiu: Lei 8.666/93 (geral) + Lei 10.520/02 (pregão) + Lei 12.462/11 (RDC).**' },
+        { type: 'box', kind: 'macete', text: '**5 modalidades: PREGÃO · CONCORRÊNCIA · CONCURSO · LEILÃO · DIÁLOGO COMPETITIVO.** Tomada de Preços e Convite EXTINTAS.' },
+        { type: 'box', kind: 'macete', text: '**Diálogo competitivo é NOVIDADE da Lei 14.133.** Para inovação ou complexidade.' },
+        { type: 'box', kind: 'macete', text: '**Sanções: ADVERTÊNCIA · MULTA · IMPEDIMENTO (3 anos) · INIDONEIDADE (3-6 anos).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Lei 14.133/21 EXTINGUIU Tomada de Preços e Convite.** Pegadinha clássica em provas pós-2021.' },
+        { type: 'box', kind: 'atencao', text: '**Pregão pode ser usado para QUALQUER VALOR — bens e serviços comuns.** Não há mais limite de valor.' },
+        { type: 'box', kind: 'atencao', text: '**Diálogo competitivo: novidade — para casos de inovação tecnológica.**' },
+        { type: 'box', kind: 'atencao', text: '**Cláusulas exorbitantes: dão à Adm. PRERROGATIVAS unilaterais.** Diferentes do contrato privado.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** licitação concretiza legalidade, impessoalidade, moralidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 5 (Bens):** alienação de bens dominicais segue Lei 14.133.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** fraude à licitação (LIA art. 10 VIII).' }
+      ]
+    }
+  ] },
+  { id: 'adm-07-servicos-publicos-concessoes', num: 7, materia: 'adm', title: 'Serviços públicos e concessões', edital: '1.2.7', editalText: 'Conceito, princípios, modos de prestação. Lei 8.987/95 e PPP.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Conceito e princípios', 'Classificações', 'Concessão (Lei 8.987/95)', 'Permissão e autorização', 'Parcerias público-privadas (Lei 11.079/04)', 'Agências reguladoras', 'Direitos do usuário (Lei 13.460/17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **SERVIÇO PÚBLICO** é atividade que o Estado se obriga a prestar (diretamente ou por delegação) à coletividade. CF 175: incumbência do Poder Público, podendo ser delegado por **CONCESSÃO** ou **PERMISSÃO**, mediante licitação. Diferente da atividade econômica do Estado (CF 173).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 175' },
+        { type: 'p', text: 'Caput: incumbe ao Poder Público a prestação de serviços públicos, diretamente ou sob regime de concessão ou permissão. § único: lei disporá sobre regime de concessão/permissão.' },
+
+        { type: 'h', text: 'Princípios do serviço público' },
+        { type: 'list', items: [
+          'GENERALIDADE — todos têm direito',
+          'CONTINUIDADE — não pode haver interrupção arbitrária',
+          'EFICIÊNCIA',
+          'MODICIDADE TARIFÁRIA — tarifas razoáveis',
+          'CORTESIA — atendimento adequado',
+          'ATUALIDADE/MUTABILIDADE — adaptação às novas tecnologias'
+        ]},
+
+        { type: 'h', text: 'Lei 8.987/95 — Concessões e Permissões' },
+        { type: 'list', items: [
+          '**CONCESSÃO:** delegação por contrato à PJ ou consórcio, mediante LICITAÇÃO na modalidade CONCORRÊNCIA',
+          '**PERMISSÃO:** delegação por contrato a PJ ou PF, modalidade ainda CONCORRÊNCIA (sem prazo determinado, mas formal)',
+          '**AUTORIZAÇÃO:** ato unilateral, precário, discricionário (CF 21 XII)',
+          'Direitos do usuário: serviço adequado, informações, indenização por má prestação'
+        ]},
+
+        { type: 'h', text: 'Lei 11.079/04 — PPPs (Parcerias Público-Privadas)' },
+        { type: 'list', items: [
+          'CONCESSÃO PATROCINADA: tarifa do usuário + contraprestação do Poder Público',
+          'CONCESSÃO ADMINISTRATIVA: contraprestação INTEGRAL do Poder Público (usuário não paga)',
+          'Valor mínimo: R$ 10 milhões',
+          'Prazo: 5 a 35 anos',
+          'Contrato único; objeto não pode ser fornecimento de mão de obra ou de bens'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos',
+      items: [
+        { type: 'h', text: 'Continuidade × interrupção do serviço' },
+        { type: 'p', text: 'Continuidade não é absoluta. Lei 8.987/95 art. 6º §3º: pode ser interrompido em razão de ordem técnica/segurança ou INADIMPLEMENTO do usuário (após aviso). STJ — Súmula 339: a interrupção por inadimplência é regular se preceder aviso. Interrupção em SERVIÇOS ESSENCIAIS (saúde, segurança) requer cuidado redobrado.' },
+
+        { type: 'h', text: 'Agências reguladoras' },
+        { type: 'p', text: 'Autarquias em regime ESPECIAL — autonomia reforçada. Setores: ANATEL, ANEEL, ANP, ANTT, ANS, ANVISA, ANCINE, ANTAQ. Lei 13.848/19 (Lei Geral): mandato fixo dos diretores, vedação à exoneração ad nutum.' },
+
+        { type: 'h', text: 'Direitos do usuário (Lei 13.460/17)' },
+        { type: 'p', text: 'Lei do Usuário do Serviço Público. Direitos: serviço adequado, atendimento por ordem de chegada (com exceções), tempo de espera razoável, ouvidoria, etc. Norma específica que se cumula com o CDC.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Concessão = contrato + concorrência. Permissão = contrato + concorrência. Autorização = ato unilateral.**' },
+        { type: 'box', kind: 'macete', text: '**PPP: PATROCINADA (tarifa + contraprestação) · ADMINISTRATIVA (só contraprestação).** Lei 11.079/04.' },
+        { type: 'box', kind: 'macete', text: '**Princípios: GENERALIDADE · CONTINUIDADE · EFICIÊNCIA · MODICIDADE · CORTESIA · ATUALIDADE.**' },
+        { type: 'box', kind: 'macete', text: '**Continuidade NÃO é absoluta — admite suspensão por inadimplência (com aviso).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Concessão e Permissão = CONTRATO. Autorização = ATO UNILATERAL.** Diferença essencial.' },
+        { type: 'box', kind: 'atencao', text: '**STJ Súm. 339: interrupção por inadimplência é regular após aviso.** Não é abuso.' },
+        { type: 'box', kind: 'atencao', text: '**PPP exige valor mínimo de R$ 10 milhões e prazo 5-35 anos.**' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (Ordem econômica):** CF 175 — serviços públicos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (Consumidor):** CDC aplica-se ao usuário do serviço público (CDC 22).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 6 (Licitações):** delegação exige licitação prévia.' }
+      ]
+    }
+  ] },
+  { id: 'adm-08-responsabilidade-civil-estado', num: 8, materia: 'adm', title: 'Responsabilidade civil do Estado', edital: '1.2.8', editalText: 'Teoria do risco. CF art. 37 §6º. Excludentes. Ação regressiva.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Teorias (subjetiva, objetiva — risco administrativo, risco integral)', 'Pressupostos (conduta, dano, nexo)', 'Excludentes (caso fortuito, força maior, culpa exclusiva da vítima)', 'Responsabilidade por omissão', 'Responsabilidade por atos legislativos e judiciais', 'Ação regressiva contra agente (denúncia da lide)', 'Prescrição (Súmula 647 STJ — quinquenal)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **RESPONSABILIDADE CIVIL DO ESTADO** é, em regra, **OBJETIVA** (CF 37 §6º) — independe de culpa ou dolo. Adotou-se a **TEORIA DO RISCO ADMINISTRATIVO** (não risco integral, em regra) — admite excludentes. Aplica-se a pessoas jurídicas de direito público + delegatários de serviços públicos.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 37 §6º' },
+        { type: 'p', text: 'As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, ASSEGURADO o direito de regresso contra o responsável nos casos de DOLO ou CULPA.' }
+      ]
+    },
+    {
+      h: 'Pontos críticos',
+      items: [
+        { type: 'h', text: 'Risco administrativo × risco integral' },
+        { type: 'list', items: [
+          '**RISCO ADMINISTRATIVO (regra):** responsabilidade objetiva, MAS admite excludentes (caso fortuito, força maior, culpa exclusiva da vítima)',
+          '**RISCO INTEGRAL (excepcional):** responsabilidade objetiva ABSOLUTA, sem excludentes. Aplica-se em: dano ambiental (Lei 6.938/81), dano nuclear (CF 21 XXIII "d"), atividade hostil de aeronaves'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade por omissão' },
+        { type: 'p', text: 'Doutrina e jurisprudência divergem. STF tem entendimento majoritário: responsabilidade por OMISSÃO é SUBJETIVA — depende de prova de FALTA DO SERVIÇO (faute du service). Mas STJ admite responsabilidade objetiva em alguns casos. Tema em movimento. STF — Tema 366 (RE 841.526, 2016) — adotou teoria SUBJETIVA com inversão presuntiva: ônus do Estado provar que agiu adequadamente.' },
+
+        { type: 'h', text: 'Pressupostos da responsabilidade objetiva' },
+        { type: 'list', items: [
+          'CONDUTA do agente público',
+          'DANO',
+          'NEXO DE CAUSALIDADE entre a conduta e o dano',
+          'NÃO se exige culpa ou dolo (regra geral)'
+        ]},
+
+        { type: 'h', text: 'Ação regressiva (denúncia da lide)' },
+        { type: 'p', text: 'O Estado, condenado, pode acionar regressivamente o agente em caso de DOLO ou CULPA. STF — Tema 940: a ação de indenização DEVE ser proposta contra o ESTADO, não contra o agente individualmente. STF posteriormente firmou em RE 1.027.633 (Tema 940, 2019).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.027.633 (Tema 940, 2019):** "A teor do disposto no art. 37, § 6º, da CF/88, a ação por danos causados por agente público deve ser ajuizada CONTRA O ESTADO ou pessoa jurídica de direito privado prestadora de serviço público, sendo PARTE ILEGÍTIMA para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."' },
+
+        { type: 'h', text: 'Prescrição' },
+        { type: 'p', text: '**5 ANOS** (Decreto 20.910/32 + STJ Súm. 647 — pretensão indenizatória contra Adm. Pública prescreve em 5 anos).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**CF 37 §6º: responsabilidade OBJETIVA do Estado, com REGRESSO em caso de dolo ou culpa do agente.**' },
+        { type: 'box', kind: 'macete', text: '**Risco ADMINISTRATIVO (regra) admite excludentes. Risco INTEGRAL (exceção: ambiental, nuclear) NÃO admite.**' },
+        { type: 'box', kind: 'macete', text: '**Omissão: SUBJETIVA (regra majoritária — STF Tema 366). Ação omissiva: faute du service.**' },
+        { type: 'box', kind: 'macete', text: '**Ação contra ESTADO (não contra agente — STF Tema 940). Regresso em separado.**' },
+        { type: 'box', kind: 'macete', text: '**Prescrição: 5 anos (STJ Súm. 647).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Risco INTEGRAL é EXCEÇÃO — em regra é risco ADMINISTRATIVO (admite excludentes).**' },
+        { type: 'box', kind: 'atencao', text: '**STF Tema 940 (2019): vítima ajuíza CONTRA O ESTADO, não contra o agente.** Mudança jurisprudencial.' },
+        { type: 'box', kind: 'atencao', text: '**Omissão: STF tende a SUBJETIVA, mas há divergência.** STJ admite objetiva em casos específicos.' },
+        { type: 'box', kind: 'atencao', text: '**Empresa pública econômica em regime privado NÃO se enquadra no §6º** — apenas estatais prestadoras de serviço público.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** responsabilidade civil do agente em ação regressiva.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** RC ambiental adota risco INTEGRAL.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 12 (responsabilidade civil):** regramento geral.' }
+      ]
+    }
+  ] },
+  { id: 'adm-09-improbidade-administrativa', num: 9, materia: 'adm', title: 'Improbidade administrativa (Lei 8.429/92, alterações Lei 14.230/21)', edital: '1.2.9', editalText: 'Atos de improbidade. Sanções. Procedimento. Reforma de 2021.', size: 'Médio', schedule: 'Mês 10', advantage: 'Vantagem direta (Analista MPMG — área core do MP).', outline: ['Sujeitos (ativo e passivo)', 'Atos de improbidade — enriquecimento ilícito, prejuízo ao erário, atentado a princípios', 'Lei 14.230/21 — exigência de dolo específico', 'Sanções (CF art. 37 §4º + LIA arts. 12 e ss.)', 'Procedimento — ação de responsabilidade', 'Prescrição', 'Acordo de não persecução cível'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico **DUPLICADO INTENCIONALMENTE com colmat-11** — neste capítulo de Adm. focamos no aspecto PROCESSUAL/SANCIONATÓRIO. O conteúdo material (sujeitos, espécies, dolo específico, prescrição) está em colmat-11. Ver tópico cruzado para detalhamento substantivo.' },
+        { type: 'p', text: 'Visão administrativa: **CF 37 §4º** + **Lei 8.429/92 com Lei 14.230/21**. Para o concurso (visão Administrativa): rito da ação de improbidade, aplicação das sanções pelo magistrado, ANPC, controle judicial, indisponibilidade de bens, tutela de urgência.' }
+      ]
+    },
+    {
+      h: 'Aspectos processuais — ação de improbidade',
+      items: [
+        { type: 'h', text: 'Rito (LIA art. 17 com Lei 14.230/21)' },
+        { type: 'list', items: [
+          'Procedimento autônomo, regido pela LIA',
+          '**Legitimação ATIVA:** MP (preferencial) ou pessoa jurídica interessada (entes federativos). Limitada após Lei 14.230/21',
+          'Petição inicial deve detalhar fatos, fundamentação jurídica, requerimentos, indicação de provas',
+          'NOTIFICAÇÃO PRÉVIA do réu (5 dias) para apresentar manifestação',
+          'Decisão sobre RECEBIMENTO da inicial',
+          'Citação · contestação · réplica',
+          'Audiência de instrução · alegações finais',
+          'Sentença'
+        ]},
+
+        { type: 'h', text: 'Tutelas de urgência' },
+        { type: 'list', items: [
+          '**INDISPONIBILIDADE DE BENS** (LIA art. 16) — pode ser requerida desde o IC, mediante demonstração',
+          '**AFASTAMENTO do agente** — em casos de prejuízo ao desenvolvimento do processo',
+          '**SEQUESTRO de bens**'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 897 (RE 852.475, 2018):** ações de RESSARCIMENTO ao erário decorrentes de atos de improbidade são IMPRESCRITÍVEIS (CF 37 §5º). Sancionatório prescreve em 8 anos (LIA art. 23 com Lei 14.230/21).' },
+
+        { type: 'h', text: 'ANPC (Acordo de Não Persecução Cível)' },
+        { type: 'list', items: [
+          'Lei 14.230/21 introduziu LIA art. 17 §10-A',
+          'MP (ou ente interessado) celebra acordo com réu',
+          'Réu se obriga a: ressarcir o dano, cumprir obrigações, pagar multa',
+          'Em troca: suspende ou extingue a ação',
+          'Pressupõe: comprovação dos fatos, anuência das vítimas, homologação JUDICIAL',
+          'Pode ser celebrado em qualquer fase'
+        ]},
+
+        { type: 'h', text: 'Controle judicial' },
+        { type: 'p', text: 'Apenas o JUDICIÁRIO impõe as sanções da LIA — não há sanção administrativa por improbidade (a Adm. pode apenas aplicar PADs por outras razões disciplinares). A ação tramita em vara especializada (em algumas comarcas) ou comum.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Improbidade = sanção CIVIL-POLÍTICA imposta pelo JUDICIÁRIO.** Não é PAD — é ação judicial.' },
+        { type: 'box', kind: 'macete', text: '**Indisponibilidade de bens (LIA 16): cautelar típica.** Pode ser requerida desde o IC.' },
+        { type: 'box', kind: 'macete', text: '**ANPC: substitui ou termina a ação.** Homologação judicial obrigatória.' },
+        { type: 'box', kind: 'macete', text: '**Imprescritibilidade APENAS do RESSARCIMENTO (CF 37 §5º).** Sancionatório: 8 anos (Lei 14.230/21).' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11:** detalhamento material (sujeitos, espécies, sanções).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** ANPC dialoga com TAC e Recomendação.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** servidor é sujeito ativo principal.' }
+      ]
+    }
+  ] },
+  { id: 'adm-10-controle-administracao', num: 10, materia: 'adm', title: 'Controle da Administração', edital: '1.2.10', editalText: 'Controle interno, externo, judicial, social. TCU.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Classificações (interno × externo, prévio × concomitante × posterior)', 'Controle administrativo (autotutela)', 'Controle legislativo e do TCU', 'Controle judicial (limites)', 'Controle social', 'Lei de Acesso à Informação (12.527/11)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CONTROLE DA ADMINISTRAÇÃO** assegura que a Adm. atua dentro dos limites legais e constitucionais. Múltiplas modalidades coexistem: interno, externo, judicial, social. O controle é PERMANENTE — antes, durante e depois dos atos administrativos.' }
+      ]
+    },
+    {
+      h: 'Modalidades',
+      items: [
+        { type: 'h', text: 'Por origem' },
+        { type: 'list', items: [
+          '**INTERNO:** dentro do mesmo Poder. Ex: Corregedoria, AGU, Procuradorias',
+          '**EXTERNO:** por outro Poder ou órgão. Ex: Legislativo (TCU), Judiciário'
+        ]},
+
+        { type: 'h', text: 'Por momento' },
+        { type: 'list', items: [
+          '**PRÉVIO:** antes do ato (consulta, parecer obrigatório)',
+          '**CONCOMITANTE:** durante a execução (auditoria contínua)',
+          '**POSTERIOR:** após o ato (revisão, anulação)'
+        ]},
+
+        { type: 'h', text: 'Por aspecto' },
+        { type: 'list', items: [
+          '**LEGALIDADE:** verificação de conformidade com a lei',
+          '**MÉRITO:** verificação de conveniência e oportunidade'
+        ]}
+      ]
+    },
+    {
+      h: 'TCU e controle externo',
+      items: [
+        { type: 'p', text: 'O **TCU** (Tribunal de Contas da União — CF 71) auxilia o Congresso no controle externo da Adm. Federal. Atribuições: apreciar contas do PR, julgar contas dos administradores, aplicar sanções, fiscalizar receitas e despesas. Súmula Vinculante 3 STF: contraditório nos PADs.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — SV 3:** "Nos processos perante o Tribunal de Contas da União asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, EXCETUADA a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão."' }
+      ]
+    },
+    {
+      h: 'Controle judicial — limites',
+      items: [
+        { type: 'p', text: 'O Judiciário pode controlar a LEGALIDADE dos atos administrativos. Quanto ao MÉRITO (conveniência e oportunidade), em REGRA não pode interferir. Mas STF flexibilizou: judiciário pode controlar mérito quando: (i) violação a princípios constitucionais (razoabilidade, proporcionalidade); (ii) reserva do possível ÷ mínimo existencial.' }
+      ]
+    },
+    {
+      h: 'Controle social e LAI',
+      items: [
+        { type: 'p', text: '**Controle SOCIAL:** participação direta dos cidadãos. Instrumentos: (i) Lei 12.527/11 (LAI — Lei de Acesso à Informação); (ii) Conselhos Municipais (Saúde, Educação); (iii) participação em audiências públicas; (iv) Ação Popular (CF 5º LXXIII); (v) Código de Defesa do Usuário (Lei 13.460/17).' },
+        { type: 'p', text: '**LAI (Lei 12.527/11):** transparência ATIVA (Adm. publica espontaneamente) + PASSIVA (atende solicitação do cidadão). Prazos: 20 dias prorrogáveis por 10. Negativa fundamentada.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**5 modalidades de controle: ADMINISTRATIVO · LEGISLATIVO · JUDICIAL · SOCIAL · MP.**' },
+        { type: 'box', kind: 'macete', text: '**TCU é AUXILIAR do Congresso (CF 71).** Não pertence ao Judiciário, apesar do nome "Tribunal".' },
+        { type: 'box', kind: 'macete', text: '**Judiciário NÃO pode revogar (mérito) — só anular (legalidade).**' },
+        { type: 'box', kind: 'macete', text: '**LAI: transparência ativa + passiva. Prazos: 20+10 dias.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**TCU NÃO pertence ao Judiciário** — auxilia Legislativo (CF 71). Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**SV 3 STF: contraditório obrigatório no TCU**, salvo concessão inicial de aposentadoria/pensão.' },
+        { type: 'box', kind: 'atencao', text: '**Judiciário PODE controlar mérito quando há violação a princípios constitucionais** — entendimento moderno.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** autotutela = controle interno.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 / Adm 9 (Improbidade):** controle judicial sancionatório.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** TCU integra estrutura do Legislativo.' }
+      ]
+    }
+  ] },
+  { id: 'adm-11-intervencao-propriedade', num: 11, materia: 'adm', title: 'Intervenção do Estado na propriedade', edital: '1.2.11', editalText: 'Desapropriação, requisição, ocupação temporária, servidão, limitação, tombamento.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Desapropriação (DL 3.365/41 e Lei 4.132/62)', 'Modalidades (necessidade pública, utilidade pública, interesse social)', 'Desapropriação por interesse social para reforma agrária e urbana', 'Tredestinação e retrocessão', 'Requisição administrativa', 'Servidão administrativa', 'Limitação administrativa', 'Tombamento (DL 25/37)', 'Ocupação temporária'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **INTERVENÇÃO DO ESTADO NA PROPRIEDADE** é manifestação da supremacia do interesse público — limita a propriedade privada em prol do bem coletivo. CF 5º XXIV (desapropriação por necessidade ou utilidade pública/interesse social, com prévia e justa indenização em dinheiro) e XXV (requisição em iminente perigo público).' },
+        { type: 'p', text: 'Modalidades: (i) **DESAPROPRIAÇÃO** (transfere a propriedade); (ii) **REQUISIÇÃO** (uso temporário em situação de perigo); (iii) **OCUPAÇÃO TEMPORÁRIA** (uso para realizar obra); (iv) **SERVIDÃO ADMINISTRATIVA** (direito real sobre coisa alheia); (v) **LIMITAÇÃO ADMINISTRATIVA** (norma geral); (vi) **TOMBAMENTO** (proteção patrimônio cultural).' }
+      ]
+    },
+    {
+      h: 'Desapropriação',
+      items: [
+        { type: 'h', text: 'Modalidades' },
+        { type: 'list', items: [
+          '**Necessidade pública** — em situação de urgência (DL 3.365/41 art. 5º)',
+          '**Utilidade pública** — caráter conveniente (mesma lei)',
+          '**Interesse social** — função social da propriedade (Lei 4.132/62)',
+          '**Reforma agrária** — CF 184. Indenização em TÍTULOS da dívida agrária. Propriedade produtiva é INSUSCETÍVEL',
+          '**Reforma urbana** — CF 182 §4º III. Indenização em TÍTULOS da dívida pública (sanção)',
+          '**Confisco (CF 243)** — propriedade onde se cultivam plantas psicotrópicas ilegais ou utilizada para trabalho escravo. SEM INDENIZAÇÃO'
+        ]},
+
+        { type: 'h', text: 'Procedimento' },
+        { type: 'list', items: [
+          'Fase declaratória — DECRETO declarando utilidade pública/interesse social',
+          'Fase executória — administrativa ou judicial',
+          'Indenização: prévia, justa e em DINHEIRO (regra). Imissão na posse só após pagamento',
+          'Tredestinação: alteração da finalidade. Lícita se mantida finalidade pública geral'
+        ]}
+      ]
+    },
+    {
+      h: 'Outras modalidades',
+      items: [
+        { type: 'h', text: 'Requisição (CF 5º XXV)' },
+        { type: 'p', text: 'Em iminente perigo público, autoridade competente pode usar propriedade particular, assegurada indenização ULTERIOR se houver dano. Caráter PROVISÓRIO. Ex: requisição de viaturas em emergências.' },
+
+        { type: 'h', text: 'Ocupação temporária (DL 3.365/41 art. 36)' },
+        { type: 'p', text: 'Uso de imóvel não edificado para realizar OBRA pública (depósito de materiais, alojamento operários). Caráter TEMPORÁRIO, sem transferência de propriedade. Indenização eventual.' },
+
+        { type: 'h', text: 'Servidão administrativa' },
+        { type: 'p', text: 'Direito REAL sobre coisa alheia. Imóvel privado fica gravado em prol de coisa pública (ex: passagem de fios elétricos). Lei 11.428/06.' },
+
+        { type: 'h', text: 'Limitação administrativa' },
+        { type: 'p', text: 'NORMA GERAL que limita o exercício do direito de propriedade. Ex: lei municipal que limita altura dos prédios. Não há indenização (em regra) — afetação genérica.' },
+
+        { type: 'h', text: 'Tombamento (já abordado em colmat-10)' },
+        { type: 'p', text: 'Bens MATERIAIS de valor histórico/cultural. Limita uso, não propriedade. Em regra, sem indenização.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 modalidades: DESAPROPRIAÇÃO · REQUISIÇÃO · OCUPAÇÃO TEMPORÁRIA · SERVIDÃO · LIMITAÇÃO · TOMBAMENTO.** Apenas a desapropriação transfere a propriedade.' },
+        { type: 'box', kind: 'macete', text: '**Desapropriação ordinária: prévia + justa + DINHEIRO** (CF 5º XXIV).' },
+        { type: 'box', kind: 'macete', text: '**Reforma agrária e urbana: TÍTULOS da dívida pública.** Confisco (CF 243): SEM indenização.' },
+        { type: 'box', kind: 'macete', text: '**Requisição: PROVISÓRIA + indenização ULTERIOR (se houver dano).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reforma agrária: indenização em TÍTULOS, não dinheiro.** Propriedade produtiva = insuscetível.' },
+        { type: 'box', kind: 'atencao', text: '**Confisco (CF 243): SEM indenização** — para áreas com cultivos ilegais ou trabalho escravo.' },
+        { type: 'box', kind: 'atencao', text: '**Tredestinação ilícita gera RETROCESSÃO** (direito de retomar o bem). Lícita: mantém finalidade pública.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** desapropriação-sanção urbana.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 10 (Patrimônio Cultural):** tombamento.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil — propriedade:** intervenção limita o direito real.' }
+      ]
+    }
+  ] },
+  { id: 'adm-12-lgpd-lindb-publica', num: 12, materia: 'adm', title: 'LGPD aplicada à Administração e LINDB pública', edital: '1.2.12', editalText: 'Lei 13.709/18 (LGPD) e arts. 20-30 da LINDB (Lei 13.655/18).', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['LGPD — fundamentos e princípios', 'Bases legais para tratamento pelo Poder Público', 'ANPD', 'LINDB arts. 20-30 — segurança jurídica e eficiência na criação e aplicação do direito público', 'Consequencialismo', 'Responsabilidade do agente público (art. 28)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tema relativamente novo no edital. Combina dois eixos: **LGPD aplicada à Adm. Pública** (Lei 13.709/2018, com alterações da Lei 13.853/19) e **LINDB pública — Lei 13.655/2018** (acrescentou arts. 20-30 à LINDB, sobre segurança jurídica em direito público).' }
+      ]
+    },
+    {
+      h: 'LGPD na Administração Pública',
+      items: [
+        { type: 'h', text: 'Aplicação' },
+        { type: 'list', items: [
+          'Lei 13.709/18 aplica-se à Adm. Pública direta e indireta (LGPD art. 23-30)',
+          '**Bases legais para tratamento (art. 23):** atendimento da finalidade pública, execução de políticas públicas, em matérias do art. 7º (consentimento, cumprimento de obrigação legal/regulatória, etc.)',
+          '**ANPD (Autoridade Nacional de Proteção de Dados):** órgão regulador (Lei 13.853/19)',
+          'Princípios: finalidade, adequação, necessidade, livre acesso, qualidade, transparência, segurança, prevenção, não discriminação, responsabilização e prestação de contas (art. 6º)'
+        ]},
+
+        { type: 'h', text: 'Direitos do titular dos dados' },
+        { type: 'list', items: [
+          'Confirmação de tratamento',
+          'Acesso aos dados',
+          'Correção de dados incompletos/inexatos',
+          'Anonimização ou eliminação',
+          'Portabilidade',
+          'Eliminação dos dados pessoais tratados com consentimento'
+        ]}
+      ]
+    },
+    {
+      h: 'LINDB pública (arts. 20-30) — Lei 13.655/18',
+      items: [
+        { type: 'h', text: 'Marcos da reforma' },
+        { type: 'list', items: [
+          '**Art. 20** — vedação a decisões com base em valores jurídicos abstratos sem considerar consequências práticas',
+          '**Art. 21** — em decisão que decretar invalidação, devem ser indicadas consequências jurídicas e administrativas',
+          '**Art. 22** — interpretação de normas considerará obstáculos e dificuldades reais',
+          '**Art. 23** — decisão sobre nova interpretação prevê regime de transição',
+          '**Art. 24** — revisão de orientação jurídica geral leva em conta orientação à época',
+          '**Art. 25** — atos públicos com regulamentação suficiente, podem fixar compromissos',
+          '**Art. 26** — celebrar compromisso com interessados (TAC, acordo)',
+          '**Art. 27** — decisão pode definir consequências jurídicas claras',
+          '**Art. 28** — RESPONSABILIDADE DO AGENTE PÚBLICO: por dolo ou erro grosseiro (NÃO por mero erro de avaliação)',
+          '**Arts. 29-30** — consultas e audiências públicas; transparência'
+        ]},
+
+        { type: 'h', text: 'Consequencialismo (art. 20 e 21)' },
+        { type: 'p', text: 'Princípio fundamental da LINDB pública. Decisões devem considerar CONSEQUÊNCIAS PRÁTICAS. Não basta abstração jurídica — exige análise de impactos reais. Aplicação ampla em controle de políticas públicas (TCU, Judiciário).' },
+
+        { type: 'h', text: 'Responsabilidade do agente (art. 28)' },
+        { type: 'p', text: 'Marco interessante: AGENTE PÚBLICO não responde por opiniões técnicas em CASOS DE INCERTEZA — apenas por DOLO ou ERRO GROSSEIRO (não por erro de avaliação técnica plausível). Tutela a tomada de decisões em ambiente de complexidade.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LGPD aplica-se à Adm. Pública (LGPD arts. 23-30 + ANPD).**' },
+        { type: 'box', kind: 'macete', text: '**LINDB pública (arts. 20-30) = Lei 13.655/18.** Marco da segurança jurídica em direito público.' },
+        { type: 'box', kind: 'macete', text: '**LINDB art. 20 — CONSEQUENCIALISMO: decisões consideram efeitos práticos.**' },
+        { type: 'box', kind: 'macete', text: '**LINDB art. 28 — agente responde por DOLO ou ERRO GROSSEIRO (não por erro de avaliação plausível).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**LGPD aplicação à Adm. — base legal SEM consentimento (art. 7º + 23).** Adm. trata dados em razão de finalidade pública, não precisa do consentimento individual em regra.' },
+        { type: 'box', kind: 'atencao', text: '**LINDB art. 28: agente responde por DOLO ou ERRO GROSSEIRO.** Pegadinha: alternativa diz que responde por mero erro de avaliação. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**ANPD: Autoridade Nacional de Proteção de Dados.** Vinculada ao MJ, mas em regime ESPECIAL.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** LINDB consagra segurança jurídica e eficiência.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** dolo específico (Lei 14.230/21) dialoga com art. 28 LINDB.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** LGPD protege intimidade e dados pessoais.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO ELEITORAL (8) ============
-  { id: 'elei-01-direitos-politicos', num: 1, materia: 'elei', title: 'Direitos políticos e elegibilidade', edital: '1.3.1', editalText: 'Capacidade eleitoral ativa e passiva. Inelegibilidades. LC 64/90.', size: 'Médio', schedule: null, advantage: null, outline: ['Capacidade eleitoral ativa (alistamento)', 'Capacidade eleitoral passiva (elegibilidade)', 'Condições de elegibilidade (CF art. 14 §3º)', 'Inelegibilidades absolutas e relativas (CF art. 14 §§ 4º-7º)', 'LC 64/90 (Lei das Inelegibilidades) e LC 135/10 (Ficha Limpa)', 'Perda e suspensão dos direitos políticos'], sections: [] },
-  { id: 'elei-02-sistema-justica-eleitorais', num: 2, materia: 'elei', title: 'Sistema eleitoral e Justiça Eleitoral', edital: '1.3.2', editalText: 'Sistemas majoritário e proporcional. Estrutura da Justiça Eleitoral. MP Eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistemas eleitorais (majoritário simples e absoluto, proporcional, misto)', 'Cálculo proporcional (quociente eleitoral e partidário)', 'Justiça Eleitoral — TSE, TREs, juízes e juntas', 'MP Eleitoral (LC 75/93 art. 78)', 'Coligações e federações partidárias'], sections: [] },
-  { id: 'elei-03-partidos-politicos', num: 3, materia: 'elei', title: 'Partidos políticos', edital: '1.3.3', editalText: 'Lei 9.096/95. Criação, registro, fidelidade, fundo partidário, fundo eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 9.096/95 — Lei dos Partidos', 'Criação, organização e funcionamento', 'Filiação partidária', 'Fidelidade e disciplina', 'Fundo Especial de Assistência Financeira (Fundo Partidário)', 'Fundo Especial de Financiamento de Campanha (FEFC)', 'Cláusula de desempenho (EC 97/17)'], sections: [] },
-  { id: 'elei-04-alistamento-candidatura-registro', num: 4, materia: 'elei', title: 'Alistamento, candidatura e registro', edital: '1.3.4', editalText: 'Domicílio eleitoral. Convenções. Registro de candidatura. Substituição.', size: 'Médio', schedule: null, advantage: null, outline: ['Alistamento eleitoral', 'Domicílio eleitoral e filiação', 'Convenções partidárias', 'Registro de candidatura (Lei 9.504/97 art. 11)', 'Documentos exigidos', 'Impugnação ao registro (AIRC — LC 64/90 art. 3º)', 'Substituição de candidatos'], sections: [] },
-  { id: 'elei-05-campanha-financiamento-propaganda', num: 5, materia: 'elei', title: 'Campanha eleitoral, financiamento e propaganda', edital: '1.3.5', editalText: 'Lei 9.504/97. Financiamento, prestação de contas, propaganda eleitoral.', size: 'Grande', schedule: null, advantage: null, outline: ['Arrecadação e gastos (Lei 9.504/97 arts. 17-27)', 'Financiamento — fontes proibidas, doações, autofinanciamento', 'Prestação de contas', 'Propaganda eleitoral (intra e extrapartidária)', 'Propaganda na internet', 'Propaganda irregular — sanções'], sections: [] },
-  { id: 'elei-06-crimes-eleitorais', num: 6, materia: 'elei', title: 'Crimes eleitorais', edital: '1.3.6', editalText: 'Código Eleitoral (Lei 4.737/65). Crimes em espécie. Processo penal eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Código Eleitoral (Lei 4.737/65) arts. 283-364', 'Crimes em espécie (corrupção eleitoral, captação ilícita, etc.)', 'Lei 9.504/97 — crimes específicos', 'Competência criminal eleitoral', 'Procedimento penal eleitoral', 'Aplicação subsidiária do CPP'], sections: [] },
-  { id: 'elei-07-acoes-eleitorais', num: 7, materia: 'elei', title: 'Ações eleitorais (AIJE, AIME, AIRC, RCED)', edital: '1.3.7', editalText: 'Ações de impugnação e investigação. Recurso contra expedição de diploma.', size: 'Médio', schedule: null, advantage: null, outline: ['AIRC — Ação de Impugnação ao Registro de Candidatura', 'AIJE — Ação de Investigação Judicial Eleitoral', 'AIME — Ação de Impugnação ao Mandato Eletivo', 'RCED — Recurso Contra Expedição de Diploma', 'Representações (art. 96 da Lei 9.504/97)', 'Ação rescisória eleitoral'], sections: [] },
-  { id: 'elei-08-jurisprudencia-tse', num: 8, materia: 'elei', title: 'Jurisprudência TSE recente', edital: '1.3.8', editalText: 'Resoluções, Súmulas, decisões recentes do TSE e STF em matéria eleitoral.', size: 'Médio', schedule: null, advantage: null, outline: ['Súmulas TSE consolidadas', 'Resoluções recentes (eleições 2024 e seguintes)', 'Temas STF relevantes (cláusula de barreira, fidelidade, financiamento)', 'Cota de gênero e cota racial', 'Inelegibilidades — STF jurisprudência'], sections: [] },
+  { id: 'elei-01-direitos-politicos', num: 1, materia: 'elei', title: 'Direitos políticos e elegibilidade', edital: '1.3.1', editalText: 'Capacidade eleitoral ativa e passiva. Inelegibilidades. LC 64/90.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Capacidade eleitoral ativa (alistamento)', 'Capacidade eleitoral passiva (elegibilidade)', 'Condições de elegibilidade (CF art. 14 §3º)', 'Inelegibilidades absolutas e relativas (CF art. 14 §§ 4º-7º)', 'LC 64/90 (Lei das Inelegibilidades) e LC 135/10 (Ficha Limpa)', 'Perda e suspensão dos direitos políticos'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **DIREITOS POLÍTICOS** (CF arts. 14-16) são prerrogativas para participação política. Subdividem-se em: ATIVOS (alistamento, voto, plebiscito, referendo, iniciativa popular) e PASSIVOS (elegibilidade, ocupação de cargos eletivos). Inelegibilidades são restrições à elegibilidade — absolutas (vedam todos os cargos) ou relativas (vedam alguns).' }
+      ]
+    },
+    {
+      h: 'Capacidade eleitoral',
+      items: [
+        { type: 'h', text: 'Ativa (alistamento e voto)' },
+        { type: 'list', items: [
+          'OBRIGATÓRIO: 18-70 anos',
+          'FACULTATIVO: analfabetos · maiores de 70 · entre 16 e 18 anos',
+          'INALISTÁVEIS: estrangeiros e conscritos militares (CF 14 §2º)',
+          'Voto: DIRETO · SECRETO · UNIVERSAL · PERIÓDICO · IGUAL'
+        ]},
+
+        { type: 'h', text: 'Passiva (elegibilidade — CF 14 §3º)' },
+        { type: 'list', items: [
+          'Nacionalidade brasileira',
+          'Pleno exercício dos direitos políticos',
+          'Alistamento eleitoral',
+          'Domicílio eleitoral na circunscrição',
+          'Filiação partidária',
+          'Idade mínima: 35/30/21/18 (PR-Sen / Gov / Dep-Pref / Ver)'
+        ]}
+      ]
+    },
+    {
+      h: 'Inelegibilidades (CF 14 §§ 4º-9º + LC 64/90 + LC 135/10)',
+      items: [
+        { type: 'h', text: 'Absolutas (§4º)' },
+        { type: 'list', items: [
+          'Inalistáveis (estrangeiros, conscritos)',
+          'Analfabetos',
+          'Vedam TODOS os cargos'
+        ]},
+
+        { type: 'h', text: 'Relativas' },
+        { type: 'list', items: [
+          '**§5º — Reeleição UMA VEZ** (Pres./Gov./Pref.)',
+          '**§6º — Cargo do qual deva afastar-se 6 meses antes** (renúncia anterior)',
+          '**§7º — Parentesco até 2º grau** com Presidente, Governador, Prefeito (cônjuges, filhos, irmãos)',
+          '**§8º — Militar em atividade**'
+        ]},
+
+        { type: 'h', text: 'Lei da Ficha Limpa (LC 135/10)' },
+        { type: 'list', items: [
+          'Acrescentou hipóteses à LC 64/90',
+          'Inelegibilidade por 8 anos para condenados por órgão colegiado em crimes contra a Adm., crimes hediondos, etc.',
+          'STF (ADC 29 e 30, 2012): validou a Ficha Limpa, com aplicação a fatos anteriores'
+        ]}
+      ]
+    },
+    {
+      h: 'Perda e suspensão de direitos políticos (CF 15)',
+      items: [
+        { type: 'list', items: [
+          'PERDA: cancelamento de naturalização · recusa de obrigação imposta a todos · perda da nacionalidade',
+          'SUSPENSÃO: condenação criminal transitada · improbidade administrativa (CF 37 §4º) · incapacidade civil absoluta'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Voto: 18-70 obrigatório · 16-18, +70, analfabetos facultativo · estrangeiros e conscritos INALISTÁVEIS.**' },
+        { type: 'box', kind: 'macete', text: '**Idades: 35-30-21-18 (PR/Sen-Gov-Dep/Pref-Ver).**' },
+        { type: 'box', kind: 'macete', text: '**LC 135/10 (Ficha Limpa) acrescentou hipóteses à LC 64/90.** STF ADC 29 e 30: validou.' },
+        { type: 'box', kind: 'macete', text: '**CF 15: PERDA × SUSPENSÃO de direitos políticos. Não há CASSAÇÃO (CF 15 caput).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**É VEDADA a CASSAÇÃO de direitos políticos (CF 15 caput) — apenas perda ou suspensão.**' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição: UMA ÚNICA VEZ (CF 14 §5º).**' },
+        { type: 'box', kind: 'atencao', text: '**Improbidade administrativa: SUSPENDE direitos políticos (CF 37 §4º), com prazo definido em lei.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 6:** detalhamento dos direitos políticos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11:** improbidade — suspensão de direitos políticos.' }
+      ]
+    }
+  ] },
+  { id: 'elei-02-sistema-justica-eleitorais', num: 2, materia: 'elei', title: 'Sistema eleitoral e Justiça Eleitoral', edital: '1.3.2', editalText: 'Sistemas majoritário e proporcional. Estrutura da Justiça Eleitoral. MP Eleitoral.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Sistemas eleitorais (majoritário simples e absoluto, proporcional, misto)', 'Cálculo proporcional (quociente eleitoral e partidário)', 'Justiça Eleitoral — TSE, TREs, juízes e juntas', 'MP Eleitoral (LC 75/93 art. 78)', 'Coligações e federações partidárias'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **SISTEMA ELEITORAL BRASILEIRO** combina dois modelos: **MAJORITÁRIO** (PR, Gov., Pref. de cidades > 200 mil hab — 2 turnos / Pref. de cidades < 200 mil — turno único / Senadores) e **PROPORCIONAL** (Dep. Federais, Estaduais, Vereadores). A **JUSTIÇA ELEITORAL** é especializada e híbrida (CF 118-121).' }
+      ]
+    },
+    {
+      h: 'Sistemas eleitorais',
+      items: [
+        { type: 'h', text: 'Majoritário' },
+        { type: 'list', items: [
+          'SIMPLES: maioria simples (mais votos). Aplica-se a senador (1 vaga) e prefeito de cidades < 200 mil',
+          'ABSOLUTO: 50% + 1. PR/Gov./Pref. cidades > 200 mil — admite 2º turno se ninguém atinge no 1º'
+        ]},
+
+        { type: 'h', text: 'Proporcional' },
+        { type: 'list', items: [
+          'Para Dep. Federais, Estaduais, Vereadores',
+          '**Quociente Eleitoral (QE):** votos válidos ÷ vagas',
+          '**Quociente Partidário (QP):** votos do partido ÷ QE = vagas iniciais',
+          'Sobras: distribuídas pelas maiores médias',
+          'CF 14 §3º + Lei 9.504/97'
+        ]}
+      ]
+    },
+    {
+      h: 'Justiça Eleitoral (CF 118-121)',
+      items: [
+        { type: 'list', items: [
+          '**TSE (Tribunal Superior Eleitoral):** 7 ministros (3 STF + 2 STJ + 2 advogados nomeados pelo PR)',
+          '**TREs (Tribunais Regionais Eleitorais):** 7 juízes (2 desembargadores TJ + 2 juízes TJ + 1 juiz federal + 2 advogados)',
+          '**Juízes Eleitorais:** juízes de direito designados',
+          '**Juntas Eleitorais:** órgãos auxiliares na apuração',
+          'TODOS os ÓRGÃOS são EMPRESTADOS — não há carreira própria de juiz eleitoral'
+        ]}
+      ]
+    },
+    {
+      h: 'MP Eleitoral',
+      items: [
+        { type: 'p', text: 'O **MP Eleitoral** (LC 75/93 art. 78) é exercido pelos membros do MPU (PGR perante o TSE; Procuradores Regionais Eleitorais — designados pelo PGR perante TREs; Promotores Eleitorais — designados pelo MP estadual perante juízes eleitorais).' }
+      ]
+    },
+    {
+      h: 'Coligações e federações',
+      items: [
+        { type: 'list', items: [
+          '**EC 97/17:** VEDOU coligações em eleições proporcionais',
+          '**Federações partidárias** (Lei 14.208/21): partidos podem se federar com obrigação de atuação conjunta por pelo menos 4 anos. Inovação para superar a vedação a coligações'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Sistemas: MAJORITÁRIO (PR, Gov., Pref., Senador) × PROPORCIONAL (Dep., Vereador).**' },
+        { type: 'box', kind: 'macete', text: '**Justiça Eleitoral: órgãos EMPRESTADOS — não há juiz eleitoral de carreira.**' },
+        { type: 'box', kind: 'macete', text: '**EC 97/17: VEDOU coligações em PROPORCIONAIS.** Lei 14.208/21 criou FEDERAÇÕES.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** MP Eleitoral é exercido pelo MPU.' }
+      ]
+    }
+  ] },
+  { id: 'elei-03-partidos-politicos', num: 3, materia: 'elei', title: 'Partidos políticos', edital: '1.3.3', editalText: 'Lei 9.096/95. Criação, registro, fidelidade, fundo partidário, fundo eleitoral.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Lei 9.096/95 — Lei dos Partidos', 'Criação, organização e funcionamento', 'Filiação partidária', 'Fidelidade e disciplina', 'Fundo Especial de Assistência Financeira (Fundo Partidário)', 'Fundo Especial de Financiamento de Campanha (FEFC)', 'Cláusula de desempenho (EC 97/17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PARTIDOS POLÍTICOS** (CF 17 + Lei 9.096/95) são pessoas jurídicas de direito PRIVADO. Caráter NACIONAL (vedados regionais — CF 17 I). Liberdade de criação, fusão, incorporação. EC 97/2017 introduziu **CLÁUSULA DE DESEMPENHO** (barreira) e VEDOU coligações em proporcionais.' }
+      ]
+    },
+    {
+      h: 'Lei 9.096/95 — Lei dos Partidos',
+      items: [
+        { type: 'h', text: 'Princípios (CF 17)' },
+        { type: 'list', items: [
+          'Caráter NACIONAL',
+          'Vedação ao recebimento de recursos de governos/entidades estrangeiros',
+          'Prestação de contas à Justiça Eleitoral',
+          'Funcionamento parlamentar nos termos da lei'
+        ]},
+
+        { type: 'h', text: 'Filiação partidária' },
+        { type: 'list', items: [
+          'PRAZO MÍNIMO: 6 MESES antes das eleições (Lei 13.488/17)',
+          'Lei 9.096/95 art. 18',
+          'Para candidato: filiação prévia exigida'
+        ]},
+
+        { type: 'h', text: 'Fidelidade partidária' },
+        { type: 'list', items: [
+          'STF — ADI 5.081 (2015): fidelidade NÃO se aplica a cargos majoritários (Pres., Gov., Pref., Sen.)',
+          'Para PROPORCIONAIS: mandato pertence ao partido, salvo exceções (mudança programática, perseguição)',
+          'Lei 9.096/95 art. 22-A'
+        ]}
+      ]
+    },
+    {
+      h: 'Fundos e cláusula de desempenho',
+      items: [
+        { type: 'h', text: 'Fundos' },
+        { type: 'list', items: [
+          '**FUNDO PARTIDÁRIO (Lei 9.096/95 art. 38):** assistência financeira anual aos partidos. Multas, recursos, dotações orçamentárias',
+          '**FEFC (Fundo Especial de Financiamento de Campanha — Lei 13.487/17):** específico para campanha eleitoral. Substituiu doações de PJ (proibidas pelo STF — ADI 4.650, 2015)'
+        ]},
+
+        { type: 'h', text: 'Cláusula de desempenho (EC 97/17)' },
+        { type: 'p', text: 'Partido só tem direito a fundo partidário e tempo de propaganda no rádio/TV se atingir desempenho mínimo nas eleições. Limita a fragmentação. Aplicação progressiva. Atual (eleições 2022 em diante): 3% válidos em 11 estados, com mínimo de 2% em cada · OU · 15 deputados em 9 estados.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**CF 17 + Lei 9.096/95.** Partidos = PJ de direito PRIVADO, caráter NACIONAL.' },
+        { type: 'box', kind: 'macete', text: '**Filiação prévia: 6 MESES antes das eleições.**' },
+        { type: 'box', kind: 'macete', text: '**Fidelidade partidária: NÃO se aplica a majoritários (STF ADI 5.081). Aplica-se a PROPORCIONAIS.**' },
+        { type: 'box', kind: 'macete', text: '**EC 97/17: cláusula de desempenho + VEDAÇÃO de coligações em proporcionais.**' },
+        { type: 'box', kind: 'macete', text: '**STF ADI 4.650 (2015): VEDADAS doações de PJ a partidos e candidatos.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 6:** partidos políticos no rol da CF.' }
+      ]
+    }
+  ] },
+  { id: 'elei-04-alistamento-candidatura-registro', num: 4, materia: 'elei', title: 'Alistamento, candidatura e registro', edital: '1.3.4', editalText: 'Domicílio eleitoral. Convenções. Registro de candidatura. Substituição.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Alistamento eleitoral', 'Domicílio eleitoral e filiação', 'Convenções partidárias', 'Registro de candidatura (Lei 9.504/97 art. 11)', 'Documentos exigidos', 'Impugnação ao registro (AIRC — LC 64/90 art. 3º)', 'Substituição de candidatos'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **REGISTRO DE CANDIDATURA** é o ato pelo qual o candidato pleiteia formalmente a participação na eleição. Disciplinado pela Lei 9.504/97 art. 11. Pré-requisitos: alistamento, filiação prévia (6 meses), domicílio eleitoral, escolha em convenção partidária.' }
+      ]
+    },
+    {
+      h: 'Etapas',
+      items: [
+        { type: 'h', text: 'Alistamento e domicílio' },
+        { type: 'list', items: [
+          'Alistamento: registro do eleitor na zona eleitoral (Código Eleitoral)',
+          'DOMICÍLIO ELEITORAL: residência ou vínculo continuado. Antes era 1 ano; Lei 13.488/17 reduziu para 6 MESES'
+        ]},
+
+        { type: 'h', text: 'Convenções partidárias (Lei 9.504/97 art. 8º)' },
+        { type: 'list', items: [
+          'Realizadas entre 20/07 e 05/08 do ano da eleição',
+          'Escolha dos candidatos pelo partido',
+          'Aprovação de coligação (apenas em majoritárias após EC 97/17)',
+          'Lavratura da ata'
+        ]},
+
+        { type: 'h', text: 'Registro de candidatura (Lei 9.504/97 art. 11)' },
+        { type: 'list', items: [
+          'PRAZO: até 15/08 do ano eleitoral',
+          'Documentos: cópia certidão eleitoral, CPF, fotografia, declaração de bens, certidão criminal',
+          '**AIRC (Ação de Impugnação ao Registro de Candidatura) — LC 64/90 art. 3º:** prazo de 5 dias após publicação do edital'
+        ]}
+      ]
+    },
+    {
+      h: 'Substituição de candidatos',
+      items: [
+        { type: 'p', text: 'Lei 9.504/97 art. 13. Possível por morte, renúncia, indeferimento de registro. Prazos: 10 dias antes do pleito (majoritárias) ou até 60 dias antes (proporcionais).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Domicílio eleitoral: 6 MESES (Lei 13.488/17). Antes era 1 ano.**' },
+        { type: 'box', kind: 'macete', text: '**Convenções: 20/07 a 05/08 · Registro: até 15/08.**' },
+        { type: 'box', kind: 'macete', text: '**AIRC (LC 64/90 art. 3º): 5 dias após edital.** Para impugnar candidatura.' },
+        { type: 'box', kind: 'macete', text: '**Filiação prévia: 6 MESES antes do pleito.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1:** condições de elegibilidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 3:** filiação partidária.' }
+      ]
+    }
+  ] },
+  { id: 'elei-05-campanha-financiamento-propaganda', num: 5, materia: 'elei', title: 'Campanha eleitoral, financiamento e propaganda', edital: '1.3.5', editalText: 'Lei 9.504/97. Financiamento, prestação de contas, propaganda eleitoral.', size: 'Grande', schedule: 'Mês 15-16', advantage: null, outline: ['Arrecadação e gastos (Lei 9.504/97 arts. 17-27)', 'Financiamento — fontes proibidas, doações, autofinanciamento', 'Prestação de contas', 'Propaganda eleitoral (intra e extrapartidária)', 'Propaganda na internet', 'Propaganda irregular — sanções'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: '**CAMPANHA ELEITORAL** é o conjunto de atos para divulgar candidatura e angariar votos. Lei 9.504/97 disciplina arrecadação, gastos, prestação de contas e propaganda. Marco transformador: **STF ADI 4.650 (2015)** declarou inconstitucionais as DOAÇÕES DE PJ a campanhas — só PESSOAS FÍSICAS e o FEFC.' }
+      ]
+    },
+    {
+      h: 'Financiamento',
+      items: [
+        { type: 'h', text: 'Fontes admitidas' },
+        { type: 'list', items: [
+          'Recursos próprios do candidato (autofinanciamento)',
+          'Doações de PESSOAS FÍSICAS (limite: 10% dos rendimentos brutos do ano anterior)',
+          'Recursos do PARTIDO (Fundo Partidário)',
+          'FEFC (Fundo Especial de Financiamento de Campanha — Lei 13.487/17)'
+        ]},
+
+        { type: 'h', text: 'Fontes VEDADAS (Lei 9.504/97 art. 24)' },
+        { type: 'list', items: [
+          'Pessoas JURÍDICAS (STF ADI 4.650, 2015)',
+          'Origens estrangeiras',
+          'Concessionárias de serviços públicos',
+          'Sociedades fictícias / pessoas jurídicas, etc.',
+          'Fundos sindicais com mais de 50% de origem pública'
+        ]},
+
+        { type: 'h', text: 'Prestação de contas' },
+        { type: 'list', items: [
+          'OBRIGATÓRIA à Justiça Eleitoral',
+          'Apresentação parcial e final',
+          'Aprovação, aprovação com ressalvas, rejeição (com possíveis sanções)',
+          'Rejeição: pode levar à inelegibilidade (Ficha Limpa)'
+        ]}
+      ]
+    },
+    {
+      h: 'Propaganda eleitoral',
+      items: [
+        { type: 'h', text: 'Modalidades' },
+        { type: 'list', items: [
+          '**INTRAPARTIDÁRIA:** durante a pré-campanha, dentro do partido (até a convenção)',
+          '**EXTRAPARTIDÁRIA:** após convenção e registro, dirigida ao eleitorado',
+          '**Propaganda no rádio/TV:** GRATUITA, com base no Fundo Partidário e tempo proporcional ao desempenho do partido',
+          '**INTERNET:** Lei 9.504/97 + Lei 13.488/17. Propaganda paga em redes sociais NÃO ADMITIDA (regra)',
+          '**Comícios:** permitidos com autorização (Lei 9.504/97 art. 39)',
+          '**Boca de urna:** PROIBIDA no dia da eleição'
+        ]}
+      ]
+    },
+    {
+      h: 'Sanções e responsabilidades',
+      items: [
+        { type: 'list', items: [
+          'AIJE (Ação de Investigação Judicial Eleitoral) — LC 64/90 art. 22',
+          'AIME (Ação de Impugnação de Mandato Eletivo) — CF 14 §10',
+          'Multas, cassação do registro/diploma, inelegibilidade'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**STF ADI 4.650 (2015): VEDADAS doações de PJ a campanhas. Só PF (limite 10% rendimentos) + Partido + FEFC.**' },
+        { type: 'box', kind: 'macete', text: '**Boca de urna: PROIBIDA no dia da eleição.**' },
+        { type: 'box', kind: 'macete', text: '**Ações eleitorais: AIJE (investigação) · AIME (mandato) · AIRC (registro).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 3:** Fundos partidário e FEFC.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 6:** crimes eleitorais (corrupção eleitoral, captação ilícita).' }
+      ]
+    }
+  ] },
+  { id: 'elei-06-crimes-eleitorais', num: 6, materia: 'elei', title: 'Crimes eleitorais', edital: '1.3.6', editalText: 'Código Eleitoral (Lei 4.737/65). Crimes em espécie. Processo penal eleitoral.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Código Eleitoral (Lei 4.737/65) arts. 283-364', 'Crimes em espécie (corrupção eleitoral, captação ilícita, etc.)', 'Lei 9.504/97 — crimes específicos', 'Competência criminal eleitoral', 'Procedimento penal eleitoral', 'Aplicação subsidiária do CPP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **CRIMES ELEITORAIS** estão no Código Eleitoral (Lei 4.737/65 arts. 283-364) e em leis especiais (Lei 9.504/97). Competência: **JUSTIÇA ELEITORAL**. Procedimento: aplica-se subsidiariamente o CPP. STF — RE 1.108.061 (Tema 1.111): conexão entre crime comum e eleitoral atrai a Justiça Eleitoral.' }
+      ]
+    },
+    {
+      h: 'Crimes em espécie',
+      items: [
+        { type: 'list', items: [
+          '**CORRUPÇÃO ELEITORAL (Cód. Eleit. art. 299):** dar, oferecer, prometer, solicitar dinheiro ou vantagem para conseguir voto',
+          '**CAPTAÇÃO ILÍCITA DE SUFRÁGIO (Lei 9.504/97 art. 41-A):** doar, oferecer, prometer bem ou vantagem em troca de voto. Leva à CASSAÇÃO do registro/diploma',
+          '**TRANSPORTE DE ELEITORES (Lei 6.091/74):** crime se feito sem autorização',
+          '**BOCA DE URNA (Cód. Eleit. art. 39 §5º):** detenção 6 meses a 1 ano + multa',
+          '**Falsidade ideológica eleitoral (Cód. Eleit. art. 350):** doação acima do permitido, declaração falsa',
+          '**Lei das Fake News (Lei 14.197/21):** alterou crimes eleitorais relativos à divulgação de informações falsas'
+        ]}
+      ]
+    },
+    {
+      h: 'Competência e procedimento',
+      items: [
+        { type: 'list', items: [
+          '**Justiça Eleitoral** julga crimes eleitorais (CF 109 IV exclui)',
+          '**STF — Tema 1.111 (RE 1.108.061, 2019):** crime comum CONEXO com eleitoral é da Justiça Eleitoral',
+          'Procedimento sumário (Cód. Eleit. arts. 355-364) ou comum',
+          'Aplicação SUBSIDIÁRIA do CPP'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Crimes eleitorais: Cód. Eleitoral (Lei 4.737/65) + Lei 9.504/97.**' },
+        { type: 'box', kind: 'macete', text: '**Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A) leva a CASSAÇÃO de registro/diploma.**' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 1.111: crime comum CONEXO com eleitoral é da Justiça Eleitoral.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 12 (crimes Adm.):** dialoga com corrupção eleitoral.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 5:** propaganda irregular pode levar a crimes.' }
+      ]
+    }
+  ] },
+  { id: 'elei-07-acoes-eleitorais', num: 7, materia: 'elei', title: 'Ações eleitorais (AIJE, AIME, AIRC, RCED)', edital: '1.3.7', editalText: 'Ações de impugnação e investigação. Recurso contra expedição de diploma.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['AIRC — Ação de Impugnação ao Registro de Candidatura', 'AIJE — Ação de Investigação Judicial Eleitoral', 'AIME — Ação de Impugnação ao Mandato Eletivo', 'RCED — Recurso Contra Expedição de Diploma', 'Representações (art. 96 da Lei 9.504/97)', 'Ação rescisória eleitoral'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'As **AÇÕES ELEITORAIS** disciplinam a impugnação de candidaturas, atos de campanha e mandatos. Cada uma tem objeto, prazo e legitimidade próprios. Decorar a sigla, a finalidade e o prazo é dever de prova.' }
+      ]
+    },
+    {
+      h: 'Quadro comparativo das principais ações',
+      items: [
+        { type: 'table',
+          headers: ['Ação', 'Objeto', 'Prazo', 'Lei'],
+          rows: [
+            ['AIRC', 'Impugnar registro de candidatura', '5 dias após edital', 'LC 64/90 art. 3º'],
+            ['AIJE', 'Investigar abuso poder econômico/político/uso indevido meios de comunicação', 'Até a diplomação', 'LC 64/90 art. 22'],
+            ['AIME', 'Impugnar mandato eletivo (abuso, corrupção, fraude)', '15 dias após diplomação', 'CF 14 §10'],
+            ['RCED', 'Recurso contra expedição de diploma', '3 dias após diplomação', 'Cód. Eleit. art. 262'],
+            ['Representação 96', 'Descumprimento da Lei 9.504/97 (propaganda)', 'Durante a campanha', 'Lei 9.504/97 art. 96']
+          ]
+        }
+      ]
+    },
+    {
+      h: 'Detalhes',
+      items: [
+        { type: 'h', text: 'AIJE (LC 64/90 art. 22)' },
+        { type: 'p', text: 'Investiga ABUSO de poder ECONÔMICO, POLÍTICO ou de USO INDEVIDO DE MEIOS DE COMUNICAÇÃO. Pode ser proposta até a diplomação. Sanções: cassação do registro/diploma, inelegibilidade por 8 anos.' },
+
+        { type: 'h', text: 'AIME (CF 14 §10)' },
+        { type: 'p', text: 'Impugna MANDATO ELETIVO. Cabe APÓS a diplomação. Hipóteses: abuso de poder, corrupção ou fraude. Tramita em SEGREDO DE JUSTIÇA. Prazo: 15 dias da diplomação.' },
+
+        { type: 'h', text: 'RCED (Cód. Eleit. art. 262)' },
+        { type: 'p', text: 'Recurso contra a expedição do diploma. Hipóteses: inelegibilidade superveniente, falta de condição de elegibilidade, erro de direito ou de fato. Prazo: 3 dias da diplomação.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 ações principais: AIRC (5d edital) · AIJE (até diplomação) · AIME (15d após diplomação) · RCED (3d após).**' },
+        { type: 'box', kind: 'macete', text: '**AIME tramita em SEGREDO de justiça (CF 14 §10).**' },
+        { type: 'box', kind: 'macete', text: '**Representação 96 (Lei 9.504/97): descumprimento de lei eleitoral durante campanha.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1:** inelegibilidade gerada por AIJE (8 anos).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 5:** financiamento ilícito enseja AIJE.' }
+      ]
+    }
+  ] },
+  { id: 'elei-08-jurisprudencia-tse', num: 8, materia: 'elei', title: 'Jurisprudência TSE recente', edital: '1.3.8', editalText: 'Resoluções, Súmulas, decisões recentes do TSE e STF em matéria eleitoral.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Súmulas TSE consolidadas', 'Resoluções recentes (eleições 2024 e seguintes)', 'Temas STF relevantes (cláusula de barreira, fidelidade, financiamento)', 'Cota de gênero e cota racial', 'Inelegibilidades — STF jurisprudência'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico de atualização jurisprudencial. STF e TSE definem rumos. Domínio das principais decisões recentes é crucial: cláusula de barreira, fidelidade, financiamento, cotas, inelegibilidades, Ficha Limpa, Tema 1.111.' }
+      ]
+    },
+    {
+      h: 'Marcos jurisprudenciais centrais',
+      items: [
+        { type: 'list', items: [
+          '**STF ADC 29 e 30 (2012):** validou Lei da Ficha Limpa (LC 135/10), com aplicação a fatos anteriores',
+          '**STF ADI 4.650 (2015):** VEDOU doações de PJ a partidos e campanhas',
+          '**STF ADI 5.081 (2015):** fidelidade partidária NÃO se aplica a majoritários',
+          '**STF Tema 1.111 (RE 1.108.061, 2019):** crime comum CONEXO com eleitoral é da Justiça Eleitoral',
+          '**STF — ARE 1.054.490 (2017):** Brasil NÃO admite candidato avulso (filiação obrigatória)',
+          '**STF ADO 32:** falta de regulamentação adequada da cota racial nas eleições',
+          '**TSE Cota de gênero:** mínimo 30% candidaturas de cada gênero (Lei 9.504/97 art. 10 §3º)',
+          '**TSE Cota racial (2020):** distribuição proporcional do FEFC entre candidaturas brancas, pretas e pardas, conforme proporção de candidaturas'
+        ]}
+      ]
+    },
+    {
+      h: 'Súmulas TSE relevantes',
+      items: [
+        { type: 'list', items: [
+          '**Súm. 5 TSE:** Inelegibilidade por improbidade — basta condenação por colegiado',
+          '**Súm. 6 TSE:** Cassação do registro por art. 41-A da Lei 9.504/97 — captação ilícita',
+          '**Súm. 9 TSE:** Domicílio eleitoral × residência (não se confundem)',
+          '**Súm. 11 TSE:** Improbidade — basta a sentença, mesmo se pendente recurso',
+          '**Súm. 24 TSE:** AIJE pode ser proposta antes do registro de candidatura'
+        ]}
+      ]
+    },
+    {
+      h: 'Cota de gênero e racial',
+      items: [
+        { type: 'h', text: 'Cota de gênero (Lei 9.504/97 art. 10 §3º)' },
+        { type: 'p', text: 'Em proporcionais: mínimo 30% candidaturas de cada gênero. Aplicação por partido (ou federação). TSE: aplicação rigorosa, sob pena de invalidação da chapa.' },
+
+        { type: 'h', text: 'Cota racial' },
+        { type: 'p', text: 'TSE Resolução 23.609/2019 e jurisprudência: divisão proporcional do FEFC e do tempo de propaganda entre candidaturas brancas, pretas e pardas, conforme proporção das candidaturas. STF firmou tese (ADO 32).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Marcos STF: ADC 29/30 (Ficha Limpa) · ADI 4.650 (PJ vedada) · ADI 5.081 (fidelidade não majoritários) · Tema 1.111 (conexão).**' },
+        { type: 'box', kind: 'macete', text: '**Cota de gênero: 30% por partido (Lei 9.504/97 art. 10 §3º).**' },
+        { type: 'box', kind: 'macete', text: '**Brasil NÃO admite candidato avulso (STF ARE 1.054.490, 2017).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Elei 1-7:** todas as áreas eleitorais cobradas pela jurisprudência.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO TRIBUTÁRIO E FINANCEIRO (10) ============
-  { id: 'trib-01-sistema-tributario-principios', num: 1, materia: 'trib', title: 'Sistema Tributário Nacional e princípios constitucionais', edital: '1.4.1', editalText: 'CF arts. 145-162. Princípios constitucionais tributários.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistema Tributário Nacional (CF arts. 145-162)', 'Princípios (legalidade, isonomia, irretroatividade, anterioridade, vedação ao confisco, capacidade contributiva)', 'Imunidades tributárias (CF art. 150 VI)', 'Repartição de receitas (arts. 157-162)'], sections: [] },
-  { id: 'trib-02-competencia-tributaria', num: 2, materia: 'trib', title: 'Competência tributária e limitações', edital: '1.4.2', editalText: 'Competência privativa, comum, residual, extraordinária. Bitributação × bis in idem.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Competência privativa, comum, residual, cumulativa, extraordinária', 'Limitações ao poder de tributar (CF art. 150)', 'Bitributação × bis in idem', 'Não-cumulatividade'], sections: [] },
-  { id: 'trib-03-tributos-conceito-especies', num: 3, materia: 'trib', title: 'Tributos: conceito e espécies', edital: '1.4.3', editalText: 'Conceito (CTN art. 3º). Impostos, taxas, contribuições, empréstimos compulsórios.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito (CTN art. 3º)', 'Espécies — teoria pentapartida (STF)', 'Impostos (federais, estaduais, municipais)', 'Taxas (poder de polícia × serviço público)', 'Contribuições de melhoria', 'Empréstimos compulsórios', 'Contribuições especiais (sociais, CIDE, profissionais)'], sections: [] },
-  { id: 'trib-04-obrigacao-tributaria', num: 4, materia: 'trib', title: 'Obrigação tributária', edital: '1.4.4', editalText: 'Fato gerador. Sujeitos. Solidariedade. Capacidade tributária. Domicílio.', size: 'Médio', schedule: null, advantage: null, outline: ['Fato gerador (CTN arts. 114-118)', 'Obrigação principal × acessória', 'Sujeito ativo e passivo', 'Solidariedade (CTN arts. 124-125)', 'Capacidade tributária passiva', 'Domicílio tributário', 'Responsabilidade tributária (sucessores, terceiros, infrações)'], sections: [] },
-  { id: 'trib-05-credito-tributario', num: 5, materia: 'trib', title: 'Crédito tributário (constituição, suspensão, extinção, exclusão)', edital: '1.4.5', editalText: 'Lançamento. Causas suspensivas, extintivas e excludentes do crédito.', size: 'Grande', schedule: null, advantage: null, outline: ['Lançamento (de ofício, declaração, homologação)', 'Suspensão da exigibilidade (CTN art. 151)', 'Extinção (CTN art. 156) — pagamento, compensação, transação, prescrição, decadência, etc.', 'Exclusão — isenção e anistia (CTN arts. 175-182)', 'Decadência × prescrição', 'Garantias e privilégios do crédito'], sections: [] },
-  { id: 'trib-06-administracao-tributaria', num: 6, materia: 'trib', title: 'Administração tributária e processo administrativo fiscal', edital: '1.4.6', editalText: 'Fiscalização. Dívida ativa. Certidões. PAF (Decreto 70.235/72).', size: 'Médio', schedule: null, advantage: null, outline: ['Fiscalização (CTN arts. 194-200)', 'Inscrição em dívida ativa', 'Certidões negativa, positiva e CPEN', 'Processo administrativo fiscal — Decreto 70.235/72', 'Sigilo fiscal (CTN art. 198)'], sections: [] },
-  { id: 'trib-07-execucao-fiscal-processo-judicial', num: 7, materia: 'trib', title: 'Execução fiscal e processo judicial tributário', edital: '1.4.7', editalText: 'Lei 6.830/80. Embargos. Exceção de pré-executividade. Anulatória, declaratória, consignação, MS.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 6.830/80 (LEF) — execução fiscal', 'Petição inicial e CDA', 'Citação, garantia, penhora', 'Embargos do devedor', 'Exceção de pré-executividade (Súmula 393 STJ)', 'Ações antiexacionais (anulatória, declaratória, consignação, repetição, MS)', 'Redirecionamento (Súmula 435 STJ)'], sections: [] },
-  { id: 'trib-08-reforma-tributaria-ec-132', num: 8, materia: 'trib', title: 'Reforma Tributária (EC 132/23)', edital: '1.4.8', editalText: 'IBS (estadual/municipal), CBS (federal), IS (seletivo). Transição.', size: 'Médio', schedule: null, advantage: null, outline: ['EC 132/23 — visão geral', 'IBS (Imposto sobre Bens e Serviços) — estadual e municipal', 'CBS (Contribuição sobre Bens e Serviços) — federal', 'IS (Imposto Seletivo) — federal', 'Cashback constitucional', 'Período de transição (2026-2033)', 'Comitê Gestor do IBS'], sections: [] },
-  { id: 'trib-09-direito-financeiro-lrf', num: 9, materia: 'trib', title: 'Direito Financeiro (LRF, orçamento)', edital: '1.4.9', editalText: 'Lei 4.320/64. LC 101/00 (LRF). Orçamento (PPA, LDO, LOA). Receita e despesa.', size: 'Médio', schedule: null, advantage: null, outline: ['Atividade financeira do Estado', 'Orçamento (PPA, LDO, LOA)', 'Princípios orçamentários', 'Receita e despesa pública', 'Lei 4.320/64', 'LRF (LC 101/00) — limites e responsabilidades', 'Crimes contra finanças públicas (Lei 10.028/00)'], sections: [] },
-  { id: 'trib-10-crimes-ordem-tributaria', num: 10, materia: 'trib', title: 'Crimes contra a ordem tributária', edital: '1.4.10', editalText: 'Lei 8.137/90. Sonegação fiscal. Apropriação indébita. Extinção pelo pagamento.', size: 'Médio', schedule: null, advantage: null, outline: ['Lei 8.137/90 — crimes contra a ordem tributária', 'Sonegação fiscal (art. 1º)', 'Apropriação indébita tributária', 'Extinção da punibilidade pelo pagamento (Súmula Vinculante 24)', 'Parcelamento e suspensão da pretensão punitiva', 'Crimes previdenciários (CP art. 168-A)'], sections: [] },
+  { id: 'trib-01-sistema-tributario-principios', num: 1, materia: 'trib', title: 'Sistema Tributário Nacional e princípios constitucionais', edital: '1.4.1', editalText: 'CF arts. 145-162. Princípios constitucionais tributários.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Sistema Tributário Nacional (CF arts. 145-162)', 'Princípios (legalidade, isonomia, irretroatividade, anterioridade, vedação ao confisco, capacidade contributiva)', 'Imunidades tributárias (CF art. 150 VI)', 'Repartição de receitas (arts. 157-162)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **SISTEMA TRIBUTÁRIO NACIONAL** (CF arts. 145-162) define princípios, espécies e competências. **PRINCÍPIOS CONSTITUCIONAIS TRIBUTÁRIOS** (CF 150) são limites ao poder de tributar — cláusulas pétreas (CF 60 §4º IV).' }
+      ]
+    },
+    {
+      h: 'Princípios (CF 150)',
+      items: [
+        { type: 'list', items: [
+          '**LEGALIDADE (I):** tributo só por lei. Exceções: alteração de alíquota de II, IE, IPI, IOF (CF 153 §1º) — por decreto',
+          '**ISONOMIA (II):** tratamento igual a contribuintes em situação equivalente',
+          '**IRRETROATIVIDADE (III a):** lei tributária não retroage para alcançar fatos passados',
+          '**ANTERIORIDADE (III b):** lei só vigora no exercício seguinte',
+          '**ANTERIORIDADE NONAGESIMAL/NOVENTENA (III c):** lei só vigora 90 dias após publicação',
+          '**VEDAÇÃO AO CONFISCO (IV):** tributo não pode ser confiscatório',
+          '**CAPACIDADE CONTRIBUTIVA (CF 145 §1º):** impostos pessoais devem considerar capacidade econômica',
+          '**LIBERDADE DE TRÁFEGO (V):** vedação a tributos que limitem livre circulação interestadual'
+        ]}
+      ]
+    },
+    {
+      h: 'Imunidades tributárias (CF 150 VI)',
+      items: [
+        { type: 'list', items: [
+          '**RECÍPROCA (a):** entes federativos não podem tributar uns aos outros (impostos)',
+          '**TEMPLOS DE QUALQUER CULTO (b)**',
+          '**PARTIDOS POLÍTICOS, SINDICATOS, EDUCAÇÃO, ASSISTÊNCIA SOCIAL (c)**',
+          '**LIVROS, JORNAIS, PERIÓDICOS, papel para imprimi-los (d)** — STF: imunidade alcança LIVROS DIGITAIS (RE 330.817 — Tema 593)',
+          '**FONOGRAMAS E VIDEOFONOGRAMAS de músicos brasileiros (e)** — EC 75/13'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 330.817 (Tema 593, 2017):** imunidade dos livros (CF 150 VI d) ALCANÇA livros digitais (e-books) e equipamentos exclusivos para sua leitura.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Princípios CF 150: LEGALIDADE · ISONOMIA · IRRETROATIVIDADE · ANTERIORIDADE · NOVENTENA · NÃO-CONFISCO · CAP. CONTRIBUTIVA · LIBERDADE TRÁFEGO.**' },
+        { type: 'box', kind: 'macete', text: '**Imunidades (CF 150 VI): RECÍPROCA · TEMPLOS · PART/SIND/EDUC/ASSIST · LIVROS · FONOGRAMAS.**' },
+        { type: 'box', kind: 'macete', text: '**Anterioridade do exercício + noventena (90 dias) = anterioridade qualificada.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11:** ordem econômica e tributária.' }
+      ]
+    }
+  ] },
+  { id: 'trib-02-competencia-tributaria', num: 2, materia: 'trib', title: 'Competência tributária e limitações', edital: '1.4.2', editalText: 'Competência privativa, comum, residual, extraordinária. Bitributação × bis in idem.', size: 'Pequeno', schedule: 'Mês 16', advantage: null, outline: ['Competência privativa, comum, residual, cumulativa, extraordinária', 'Limitações ao poder de tributar (CF art. 150)', 'Bitributação × bis in idem', 'Não-cumulatividade'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **COMPETÊNCIA TRIBUTÁRIA** é a aptidão para INSTITUIR tributos. Distingue-se da CAPACIDADE TRIBUTÁRIA ATIVA (cobrar). Modalidades: privativa, comum, residual, cumulativa, extraordinária.' }
+      ]
+    },
+    {
+      h: 'Modalidades',
+      items: [
+        { type: 'list', items: [
+          '**PRIVATIVA:** cada ente tem competência exclusiva para certos impostos. União: II, IE, IR, IPI, IOF, ITR, IGF (CF 153). Estados/DF: ITCMD, ICMS, IPVA (CF 155). Municípios: IPTU, ITBI, ISS (CF 156)',
+          '**COMUM:** taxas e contribuições de melhoria (todos os entes) — CF 145 II e III',
+          '**RESIDUAL:** apenas a União pode criar novos impostos (CF 154 I — LC, não-cumulativos, fato gerador e BC novos)',
+          '**CUMULATIVA:** DF e Territórios acumulam competências estadual e municipal',
+          '**EXTRAORDINÁRIA:** União em caso de guerra (CF 154 II)'
+        ]}
+      ]
+    },
+    {
+      h: 'Bitributação × Bis in idem',
+      items: [
+        { type: 'list', items: [
+          '**BITRIBUTAÇÃO:** dois entes diferentes tributando o MESMO fato (em regra, vedada — invasão de competência)',
+          '**BIS IN IDEM:** o MESMO ente tributando o MESMO fato com mais de um tributo (admitido se não previsto vedação na CF — ex: CSLL + IRPJ ambos da União)'
+        ]}
+      ]
+    },
+    {
+      h: 'Não-cumulatividade',
+      items: [
+        { type: 'p', text: '**ICMS, IPI** são NÃO-CUMULATIVOS por determinação constitucional (CF 155 §2º; 153 §3º). Compensação do que devido com o que já pago em operações anteriores. PIS e COFINS podem ser ou não, conforme regime.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Competência: PRIVATIVA (impostos por ente) · COMUM (taxas/contribuições) · RESIDUAL (União, novos impostos) · EXTRAORDINÁRIA (guerra).**' },
+        { type: 'box', kind: 'macete', text: '**BITRIBUTAÇÃO (entes diferentes — vedada) × BIS IN IDEM (mesmo ente — em regra admitido).**' },
+        { type: 'box', kind: 'macete', text: '**ICMS e IPI: NÃO-CUMULATIVOS por força constitucional.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 7:** repartição de competências federativas.' }
+      ]
+    }
+  ] },
+  { id: 'trib-03-tributos-conceito-especies', num: 3, materia: 'trib', title: 'Tributos: conceito e espécies', edital: '1.4.3', editalText: 'Conceito (CTN art. 3º). Impostos, taxas, contribuições, empréstimos compulsórios.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Conceito (CTN art. 3º)', 'Espécies — teoria pentapartida (STF)', 'Impostos (federais, estaduais, municipais)', 'Taxas (poder de polícia × serviço público)', 'Contribuições de melhoria', 'Empréstimos compulsórios', 'Contribuições especiais (sociais, CIDE, profissionais)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CTN art. 3º** define tributo: prestação PECUNIÁRIA, COMPULSÓRIA, em moeda ou cujo valor nela se possa exprimir, INSTITUÍDA EM LEI, NÃO constitui sanção de ato ilícito, COBRADA mediante atividade administrativa plenamente vinculada. STF adota TEORIA PENTAPARTIDA: 5 espécies.' }
+      ]
+    },
+    {
+      h: '5 espécies (teoria pentapartida — STF)',
+      items: [
+        { type: 'list', items: [
+          '**IMPOSTOS** (CF 145 I, 153, 155, 156): tributos NÃO VINCULADOS a contraprestação estatal específica',
+          '**TAXAS** (CF 145 II): VINCULADAS — exercício do PODER DE POLÍCIA ou utilização de SERVIÇO PÚBLICO específico e divisível',
+          '**CONTRIBUIÇÕES DE MELHORIA** (CF 145 III): decorrentes de obra pública que gere VALORIZAÇÃO IMOBILIÁRIA',
+          '**EMPRÉSTIMOS COMPULSÓRIOS** (CF 148): Lei Complementar; calamidade, guerra, investimento público urgente',
+          '**CONTRIBUIÇÕES ESPECIAIS** (CF 149): sociais (INSS, PIS, COFINS), CIDE, profissionais (anuidade OAB), iluminação pública (CIP — CF 149-A)'
+        ]}
+      ]
+    },
+    {
+      h: 'Impostos',
+      items: [
+        { type: 'h', text: 'Impostos federais (CF 153)' },
+        { type: 'list', items: [
+          'II — Importação',
+          'IE — Exportação',
+          'IR — Renda',
+          'IPI — Produtos Industrializados',
+          'IOF — Operações Financeiras',
+          'ITR — Territorial Rural',
+          'IGF — Grandes Fortunas (não regulamentado)'
+        ]},
+
+        { type: 'h', text: 'Impostos estaduais (CF 155)' },
+        { type: 'list', items: [
+          'ITCMD — Transmissão Causa Mortis e Doação',
+          'ICMS — Circulação Mercadorias e Serviços',
+          'IPVA — Veículos Automotores'
+        ]},
+
+        { type: 'h', text: 'Impostos municipais (CF 156)' },
+        { type: 'list', items: [
+          'IPTU — Predial e Territorial Urbano',
+          'ITBI — Transmissão Bens Imóveis (inter vivos onerosa)',
+          'ISS — Sobre Serviços'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**5 espécies (STF pentapartida): IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS.**' },
+        { type: 'box', kind: 'macete', text: '**Impostos federais (mnemônico II-IE-IR-IPI-IOF-ITR-IGF) · estaduais (ITCMD-ICMS-IPVA) · municipais (IPTU-ITBI-ISS).**' },
+        { type: 'box', kind: 'macete', text: '**Empréstimo compulsório: LEI COMPLEMENTAR (CF 148).**' },
+        { type: 'box', kind: 'macete', text: '**Taxa = vinculada (poder polícia ou serviço público específico/divisível). Imposto = não-vinculada.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios constitucionais aplicáveis.' }
+      ]
+    }
+  ] },
+  { id: 'trib-04-obrigacao-tributaria', num: 4, materia: 'trib', title: 'Obrigação tributária', edital: '1.4.4', editalText: 'Fato gerador. Sujeitos. Solidariedade. Capacidade tributária. Domicílio.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Fato gerador (CTN arts. 114-118)', 'Obrigação principal × acessória', 'Sujeito ativo e passivo', 'Solidariedade (CTN arts. 124-125)', 'Capacidade tributária passiva', 'Domicílio tributário', 'Responsabilidade tributária (sucessores, terceiros, infrações)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **OBRIGAÇÃO TRIBUTÁRIA** nasce com o FATO GERADOR (CTN 114). É PRINCIPAL (pagar tributo ou penalidade) ou ACESSÓRIA (deveres instrumentais — emitir nota, declarar). Sujeitos: ATIVO (ente competente, capacidade tributária) e PASSIVO (contribuinte ou responsável).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária (CTN)',
+      items: [
+        { type: 'h', text: 'Fato gerador (CTN 114-118)' },
+        { type: 'list', items: [
+          'OBRIGAÇÃO PRINCIPAL: situação definida em LEI como necessária e suficiente à sua ocorrência (CTN 114)',
+          'OBRIGAÇÃO ACESSÓRIA: qualquer situação que, na forma da legislação, imponha prestação positiva ou negativa (CTN 115)',
+          'CTN 118: definição legal do fato gerador é interpretada abstraindo-se: validade jurídica dos atos (princípio do "non olet" — STF: ganho ilícito é tributável)'
+        ]},
+
+        { type: 'h', text: 'Sujeitos (CTN 119-121)' },
+        { type: 'list', items: [
+          '**ATIVO:** PJ de direito público, com competência ou capacidade tributária (CTN 119)',
+          '**PASSIVO:** contribuinte (relação direta com o fato) ou responsável (sem ser contribuinte, lei impõe a obrigação)'
+        ]},
+
+        { type: 'h', text: 'Solidariedade (CTN 124-125)' },
+        { type: 'list', items: [
+          'Pessoas com interesse comum no fato',
+          'Designadas pela lei',
+          'NÃO se admite benefício de ordem'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade tributária' },
+        { type: 'list', items: [
+          'POR SUCESSÃO (CTN 129-133)',
+          'DE TERCEIROS (CTN 134-135) — pais, tutores, sócios em hipótese específica',
+          'POR INFRAÇÕES (CTN 136-138)',
+          'Substituição tributária PARA TRÁS (regressiva — diferimento) e PARA FRENTE (progressiva)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**OB principal (pagar) × OB acessória (instrumental — declarar, emitir nota).**' },
+        { type: 'box', kind: 'macete', text: '**Sujeito passivo: CONTRIBUINTE (direto) × RESPONSÁVEL (indireto, por lei).**' },
+        { type: 'box', kind: 'macete', text: '**Solidariedade tributária NÃO admite benefício de ordem (CTN 124 § único).**' },
+        { type: 'box', kind: 'macete', text: '**Princípio non olet (CTN 118): ganho ilícito é tributável.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios aplicáveis.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 3:** espécies tributárias.' }
+      ]
+    }
+  ] },
+  { id: 'trib-05-credito-tributario', num: 5, materia: 'trib', title: 'Crédito tributário (constituição, suspensão, extinção, exclusão)', edital: '1.4.5', editalText: 'Lançamento. Causas suspensivas, extintivas e excludentes do crédito.', size: 'Grande', schedule: 'Mês 17', advantage: null, outline: ['Lançamento (de ofício, declaração, homologação)', 'Suspensão da exigibilidade (CTN art. 151)', 'Extinção (CTN art. 156) — pagamento, compensação, transação, prescrição, decadência, etc.', 'Exclusão — isenção e anistia (CTN arts. 175-182)', 'Decadência × prescrição', 'Garantias e privilégios do crédito'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CRÉDITO TRIBUTÁRIO** é constituído pelo LANÇAMENTO (CTN 142). Pode ter sua exigibilidade SUSPENSA (151), ser EXTINTO (156) ou EXCLUÍDO (175). Tópico denso, com muitas modalidades. Domínio das listas é dever de prova.' }
+      ]
+    },
+    {
+      h: 'Lançamento',
+      items: [
+        { type: 'list', items: [
+          '**DE OFÍCIO/DIRETO (CTN 149):** Adm. tem todos os elementos. Ex: IPTU, IPVA',
+          '**POR DECLARAÇÃO/MISTO (CTN 147):** contribuinte declara, Adm. lança. Ex: ITBI, ITCMD',
+          '**POR HOMOLOGAÇÃO/AUTOLANÇAMENTO (CTN 150):** contribuinte calcula e paga; Adm. homologa. Ex: ICMS, IR'
+        ]}
+      ]
+    },
+    {
+      h: 'Suspensão (CTN 151) — mnemônico MO-DE-RE-CO-PA',
+      items: [
+        { type: 'list', items: [
+          '**MO** — moratória',
+          '**DE** — depósito do montante integral',
+          '**RE** — reclamações e recursos',
+          '**CO** — concessão de medida liminar (MS, antecipação)',
+          '**PA** — parcelamento'
+        ]}
+      ]
+    },
+    {
+      h: 'Extinção (CTN 156) — 11 hipóteses',
+      items: [
+        { type: 'list', items: [
+          'Pagamento · Compensação · Transação · Remissão · Decadência · Prescrição · Conversão de depósito em renda · Pagamento antecipado e homologação · Consignação em pagamento · Decisão administrativa irreformável · Decisão judicial passada em julgado · Dação em pagamento de bens imóveis'
+        ]}
+      ]
+    },
+    {
+      h: 'Decadência × Prescrição',
+      items: [
+        { type: 'list', items: [
+          '**DECADÊNCIA (CTN 173):** 5 anos para a Adm. CONSTITUIR o crédito',
+          '**PRESCRIÇÃO (CTN 174):** 5 anos para a Adm. COBRAR o crédito (após constituição)',
+          'Súm. Vinculante 8 STF: prazos de prescrição/decadência tributária só por LEI COMPLEMENTAR'
+        ]}
+      ]
+    },
+    {
+      h: 'Exclusão — Isenção × Anistia',
+      items: [
+        { type: 'list', items: [
+          '**ISENÇÃO (CTN 176):** dispensa do tributo (mas não da obrigação acessória)',
+          '**ANISTIA (CTN 180):** dispensa de penalidade (multa, infração)',
+          'Ambas devem decorrer de LEI'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Suspensão (CTN 151): MO-DE-RE-CO-PA. Moratória · Depósito · Recursos · Concessão liminar · Parcelamento.**' },
+        { type: 'box', kind: 'macete', text: '**Extinção: 11 hipóteses (CTN 156).**' },
+        { type: 'box', kind: 'macete', text: '**DECADÊNCIA = constituir (CTN 173). PRESCRIÇÃO = cobrar (CTN 174). Ambos 5 anos.**' },
+        { type: 'box', kind: 'macete', text: '**ISENÇÃO (tributo) × ANISTIA (penalidade). Ambas exigem LEI.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 7:** execução fiscal — após não pagamento.' }
+      ]
+    }
+  ] },
+  { id: 'trib-06-administracao-tributaria', num: 6, materia: 'trib', title: 'Administração tributária e processo administrativo fiscal', edital: '1.4.6', editalText: 'Fiscalização. Dívida ativa. Certidões. PAF (Decreto 70.235/72).', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Fiscalização (CTN arts. 194-200)', 'Inscrição em dívida ativa', 'Certidões negativa, positiva e CPEN', 'Processo administrativo fiscal — Decreto 70.235/72', 'Sigilo fiscal (CTN art. 198)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ADMINISTRAÇÃO TRIBUTÁRIA** é constitucionalmente protegida (CF 37 XVIII e XXII — atividades essenciais ao funcionamento do Estado, prioritárias). Disciplinada pelo CTN arts. 194-208 e Decreto 70.235/72 (PAF federal).' }
+      ]
+    },
+    {
+      h: 'Aspectos centrais',
+      items: [
+        { type: 'h', text: 'Fiscalização (CTN 194-200)' },
+        { type: 'list', items: [
+          'Servidor com competência específica',
+          '**Sigilo fiscal (CTN 198):** dados protegidos. Exceções: requisição judicial, intercâmbio com outras administrações',
+          'Lei Complementar 105/01: regula sigilo bancário'
+        ]},
+
+        { type: 'h', text: 'Dívida ativa (CTN 201-204 + Lei 6.830/80 art. 2º)' },
+        { type: 'list', items: [
+          'Crédito não pago é inscrito em dívida ativa pela Procuradoria',
+          'Constitui TÍTULO EXECUTIVO EXTRAJUDICIAL — CDA (Certidão de Dívida Ativa)',
+          'Requisitos do art. 202 CTN: nome do devedor, valor, fundamento legal, etc.'
+        ]},
+
+        { type: 'h', text: 'Certidões (CTN 205-208)' },
+        { type: 'list', items: [
+          'CND — Certidão Negativa de Débitos',
+          'CPEN — Certidão Positiva com Efeito de Negativa (suspensão da exigibilidade)',
+          'Exigida em vários atos (registro de imóveis, transações com Adm., licitações, etc.)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**CDA (Certidão de Dívida Ativa) = TÍTULO EXECUTIVO EXTRAJUDICIAL — base da execução fiscal.**' },
+        { type: 'box', kind: 'macete', text: '**CND × CPEN: a positiva COM efeito de negativa indica suspensão (parcelamento, depósito).**' },
+        { type: 'box', kind: 'macete', text: '**Sigilo fiscal (CTN 198): protegido — exceções por lei.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 7:** execução fiscal usa CDA como título.' }
+      ]
+    }
+  ] },
+  { id: 'trib-07-execucao-fiscal-processo-judicial', num: 7, materia: 'trib', title: 'Execução fiscal e processo judicial tributário', edital: '1.4.7', editalText: 'Lei 6.830/80. Embargos. Exceção de pré-executividade. Anulatória, declaratória, consignação, MS.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Lei 6.830/80 (LEF) — execução fiscal', 'Petição inicial e CDA', 'Citação, garantia, penhora', 'Embargos do devedor', 'Exceção de pré-executividade (Súmula 393 STJ)', 'Ações antiexacionais (anulatória, declaratória, consignação, repetição, MS)', 'Redirecionamento (Súmula 435 STJ)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **EXECUÇÃO FISCAL** (Lei 6.830/80 — LEF) é o instrumento processual de cobrança da dívida ativa. **Ações ANTIEXACIONAIS** (defesa do contribuinte): anulatória, declaratória, consignação, repetição de indébito, MS.' }
+      ]
+    },
+    {
+      h: 'Aspectos centrais',
+      items: [
+        { type: 'h', text: 'LEF — Lei 6.830/80' },
+        { type: 'list', items: [
+          'Petição inicial + CDA (título)',
+          'CITAÇÃO do executado (5 dias para pagar ou garantir o juízo)',
+          'GARANTIA (depósito, fiança bancária, seguro, penhora)',
+          'EMBARGOS DO DEVEDOR (30 dias após garantia integral)'
+        ]},
+
+        { type: 'h', text: 'Exceção de pré-executividade' },
+        { type: 'list', items: [
+          'STJ Súm. 393: cabível para alegar matérias conhecíveis de OFÍCIO, sem dilação probatória',
+          'NÃO exige garantia do juízo',
+          'Vedada para discutir matéria que demanda prova'
+        ]},
+
+        { type: 'h', text: 'Redirecionamento (STJ Súm. 435)' },
+        { type: 'list', items: [
+          'Empresa que muda de endereço sem comunicação à Receita: presume-se DISSOLUÇÃO IRREGULAR',
+          'Permite redirecionamento contra sócios-gerentes',
+          'Tema cobrado em provas tributárias'
+        ]},
+
+        { type: 'h', text: 'Ações antiexacionais' },
+        { type: 'list', items: [
+          'ANULATÓRIA: anular ato ou cobrança',
+          'DECLARATÓRIA: declarar relação tributária',
+          'CONSIGNAÇÃO em pagamento (em casos de dúvida)',
+          'REPETIÇÃO DE INDÉBITO (CTN 165): restituição de tributo pago indevidamente',
+          'MS: contra ato ilegal ou abuso de poder em matéria tributária'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LEF (Lei 6.830/80): execução fiscal com base em CDA.**' },
+        { type: 'box', kind: 'macete', text: '**Exceção de pré-executividade (Súm. 393 STJ): matérias de ofício, sem dilação probatória, sem garantia.**' },
+        { type: 'box', kind: 'macete', text: '**Súm. 435 STJ: dissolução irregular = redirecionamento contra sócios.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 5:** crédito tributário é base da execução.' }
+      ]
+    }
+  ] },
+  { id: 'trib-08-reforma-tributaria-ec-132', num: 8, materia: 'trib', title: 'Reforma Tributária (EC 132/23)', edital: '1.4.8', editalText: 'IBS (estadual/municipal), CBS (federal), IS (seletivo). Transição.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['EC 132/23 — visão geral', 'IBS (Imposto sobre Bens e Serviços) — estadual e municipal', 'CBS (Contribuição sobre Bens e Serviços) — federal', 'IS (Imposto Seletivo) — federal', 'Cashback constitucional', 'Período de transição (2026-2033)', 'Comitê Gestor do IBS'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **EC 132/2023** é a maior reforma tributária da história recente. Promulgada em 20/12/2023. Substitui ICMS · ISS · PIS · COFINS · IPI por **3 NOVOS TRIBUTOS**: IBS, CBS, IS. **DUAL VAT** (IVA dual). Vigência gradual entre 2026-2033 (regime de transição).' }
+      ]
+    },
+    {
+      h: 'Estrutura da reforma',
+      items: [
+        { type: 'list', items: [
+          '**IBS — Imposto sobre Bens e Serviços (ESTADUAL e MUNICIPAL):** substitui ICMS + ISS. Lei Complementar 214/2025 disciplina. Comitê Gestor (CGIBS) administra',
+          '**CBS — Contribuição sobre Bens e Serviços (FEDERAL):** substitui PIS + COFINS. Lei Complementar 214/2025',
+          '**IS — Imposto Seletivo (FEDERAL):** substitui IPI parcialmente. Aplica-se a bens e serviços PREJUDICIAIS à saúde ou meio ambiente (cigarros, bebidas, automóveis poluentes)',
+          '**Princípios novos:** simplicidade, transparência, justiça tributária, cooperação, defesa do meio ambiente',
+          'Não-cumulativo amplo (crédito financeiro)',
+          'CASHBACK: devolução de tributo a famílias de baixa renda'
+        ]}
+      ]
+    },
+    {
+      h: 'Período de transição (2026-2033)',
+      items: [
+        { type: 'list', items: [
+          '**2026:** começa a cobrança "teste" de CBS e IBS (alíquotas reduzidas)',
+          '**2027:** CBS substitui PIS/COFINS plenamente',
+          '**2027:** IS começa',
+          '**2029-2032:** transição gradual para IBS (redução progressiva ICMS/ISS)',
+          '**2033:** IBS plenamente em vigor; ICMS/ISS extintos'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**EC 132/23: substitui ICMS + ISS por IBS · PIS + COFINS por CBS · IPI parcialmente por IS.**' },
+        { type: 'box', kind: 'macete', text: '**IBS: estadual + municipal (gestão conjunta — Comitê Gestor).** CBS: federal. IS: federal seletivo.**' },
+        { type: 'box', kind: 'macete', text: '**Transição 2026-2033.** Em 2033, ICMS/ISS extintos.' },
+        { type: 'box', kind: 'macete', text: '**Tema novo, em alta — provas pós-2024 cobram com frequência.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios constitucionais — reforma respeitou cláusulas pétreas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 3:** novas espécies tributárias.' }
+      ]
+    }
+  ] },
+  { id: 'trib-09-direito-financeiro-lrf', num: 9, materia: 'trib', title: 'Direito Financeiro (LRF, orçamento)', edital: '1.4.9', editalText: 'Lei 4.320/64. LC 101/00 (LRF). Orçamento (PPA, LDO, LOA). Receita e despesa.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Atividade financeira do Estado', 'Orçamento (PPA, LDO, LOA)', 'Princípios orçamentários', 'Receita e despesa pública', 'Lei 4.320/64', 'LRF (LC 101/00) — limites e responsabilidades', 'Crimes contra finanças públicas (Lei 10.028/00)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **DIREITO FINANCEIRO** rege as receitas, despesas, orçamento e crédito do Estado. CF 165 + Lei 4.320/64 + LC 101/00 (LRF). Para o concurso: dominar PPA, LDO, LOA + LRF (limites com pessoal, dívida).' }
+      ]
+    },
+    {
+      h: 'Orçamento (CF 165)',
+      items: [
+        { type: 'list', items: [
+          '**PPA — Plano Plurianual:** 4 anos. Diretrizes, objetivos, metas, programas',
+          '**LDO — Lei de Diretrizes Orçamentárias:** anual. Metas e prioridades. Orienta a LOA',
+          '**LOA — Lei Orçamentária Anual:** anual. Operacional. Receitas e despesas concretas'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios orçamentários',
+      items: [
+        { type: 'list', items: [
+          '**UNIDADE:** uma única lei orçamentária',
+          '**UNIVERSALIDADE:** todas as receitas e despesas',
+          '**ANUALIDADE:** vigência anual',
+          '**EXCLUSIVIDADE:** matérias estranhas vedadas',
+          '**LEGALIDADE:** somente por lei',
+          '**PUBLICIDADE / TRANSPARÊNCIA**',
+          '**PROIBIÇÃO de estorno** sem autorização legislativa'
+        ]}
+      ]
+    },
+    {
+      h: 'LRF (LC 101/00)',
+      items: [
+        { type: 'list', items: [
+          '**Limites com despesa de pessoal (CF 169):** União 50% RCL · Estados 60% · Municípios 60%',
+          '**Subteto por Poder:** Executivo 49% (União 40,9%) · Legislativo 3% · Judiciário 6% · MP 2% · Defensoria 2%',
+          '**Limites com dívida pública:** Resolução do Senado',
+          '**Renúncia de receita:** estimativa de impacto + medidas compensatórias',
+          '**Crimes da Lei 10.028/00** (crimes contra as finanças públicas)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Orçamento: PPA (4 anos) · LDO (anual) · LOA (anual). CF 165.**' },
+        { type: 'box', kind: 'macete', text: '**LRF — limites pessoal: 50% (U) · 60% (E/M) da RCL.**' },
+        { type: 'box', kind: 'macete', text: '**Lei 10.028/00: crimes contra finanças públicas (gerar despesa não autorizada, oferecer garantia indevida, etc.).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11:** ordem econômica e financeira (CF 163-169).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4:** servidores e teto remuneratório.' }
+      ]
+    }
+  ] },
+  { id: 'trib-10-crimes-ordem-tributaria', num: 10, materia: 'trib', title: 'Crimes contra a ordem tributária', edital: '1.4.10', editalText: 'Lei 8.137/90. Sonegação fiscal. Apropriação indébita. Extinção pelo pagamento.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Lei 8.137/90 — crimes contra a ordem tributária', 'Sonegação fiscal (art. 1º)', 'Apropriação indébita tributária', 'Extinção da punibilidade pelo pagamento (Súmula Vinculante 24)', 'Parcelamento e suspensão da pretensão punitiva', 'Crimes previdenciários (CP art. 168-A)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **CRIMES CONTRA A ORDEM TRIBUTÁRIA** estão na Lei 8.137/90. **STF — SV 24** marco fundamental: crimes do art. 1º (materiais) só se consumam após CONSTITUIÇÃO DEFINITIVA do crédito (lançamento + esgotamento das vias administrativas). Pagamento extingue a punibilidade.' }
+      ]
+    },
+    {
+      h: 'Lei 8.137/90 — espécies',
+      items: [
+        { type: 'h', text: 'Art. 1º — crimes materiais (sonegação fiscal)' },
+        { type: 'list', items: [
+          'Suprimir ou reduzir tributo mediante fraude (omitir informação, inserir elemento inexato, falsificar nota, etc.)',
+          'Pena: 2-5 anos + multa',
+          'Crimes MATERIAIS — exigem resultado (efetiva supressão/redução)'
+        ]},
+
+        { type: 'h', text: 'Art. 2º — crimes formais' },
+        { type: 'list', items: [
+          'Fazer declaração falsa, deixar de aplicar, etc.',
+          'Pena: 6 meses-2 anos + multa',
+          'Crimes FORMAIS — não exigem resultado'
+        ]},
+
+        { type: 'h', text: 'Apropriação indébita tributária (CP 168-A para PREVIDENCIÁRIO)' },
+        { type: 'list', items: [
+          'Deixar de repassar contribuições previdenciárias retidas',
+          'Crime omissivo próprio',
+          'STF: requer DOLO de não recolher (não basta inadimplência)'
+        ]}
+      ]
+    },
+    {
+      h: 'SV 24 STF e extinção pela pagamento',
+      items: [
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — SV 24:** "Não se tipifica crime material contra a ordem tributária, previsto no art. 1º, incisos I a IV, da Lei 8.137/90, antes do lançamento definitivo do tributo." Marco fundamental — crime só após constituição do crédito.' },
+
+        { type: 'h', text: 'Extinção da punibilidade' },
+        { type: 'list', items: [
+          'Lei 10.684/03: PAGAMENTO INTEGRAL extingue a punibilidade A QUALQUER TEMPO (mesmo após denúncia ou condenação)',
+          'PARCELAMENTO: SUSPENDE a pretensão punitiva enquanto cumprido',
+          'Cumprimento integral do parcelamento: extingue'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Lei 8.137/90: art. 1º (materiais — sonegação) × art. 2º (formais).**' },
+        { type: 'box', kind: 'macete', text: '**SV 24 STF: crime material só após CONSTITUIÇÃO DEFINITIVA do crédito (lançamento + via admin esgotada).**' },
+        { type: 'box', kind: 'macete', text: '**Pagamento INTEGRAL = extingue punibilidade A QUALQUER TEMPO (Lei 10.684/03).**' },
+        { type: 'box', kind: 'macete', text: '**Apropriação indébita previdenciária: CP 168-A.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 12 (crimes Adm./fé pública):** crime tributário convive com crimes funcionais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Trib 5 (crédito):** constituição do crédito é pressuposto do crime material.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — TEORIA DO MP (8) ============
   { id: 'mp-01-historico-constituicoes', num: 1, materia: 'mp', title: 'Histórico do MP e MP nas Constituições', edital: '1.5.1', editalText: 'Origem do MP. MP nas Constituições brasileiras. CF/88 — refundação institucional.', size: 'Pequeno', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — vivência institucional facilita a leitura histórica).', outline: ['Origens do MP (Egito, França, Portugal)', 'MP nas Constituições brasileiras (1824, 1891, 1934, 1937, 1946, 1967/69)', 'CF/88 — refundação institucional (arts. 127-130)', 'Evolução pós-1988'], sections: [
@@ -6791,34 +9905,1794 @@ topics: [
   ] },
 
   // ============ ESQUELETOS — DIREITO PENAL E CRIMINOLOGIA (14) ============
-  { id: 'penal-01-principios', num: 1, materia: 'penal', title: 'Princípios do Direito Penal', edital: '2.1.1', editalText: 'Legalidade, anterioridade, intervenção mínima, lesividade, culpabilidade, humanidade, individualização.', size: 'Médio', schedule: null, advantage: null, outline: ['Legalidade (CF art. 5º XXXIX, CP art. 1º)', 'Anterioridade da lei penal', 'Intervenção mínima (subsidiariedade e fragmentariedade)', 'Lesividade/ofensividade', 'Culpabilidade', 'Humanidade', 'Individualização da pena', 'Insignificância (STF)'], sections: [] },
-  { id: 'penal-02-aplicacao-lei-penal', num: 2, materia: 'penal', title: 'Aplicação da lei penal (tempo, espaço, pessoa)', edital: '2.1.2', editalText: 'Tempo, território, extraterritorialidade, pessoa. Conflito aparente de normas.', size: 'Médio', schedule: null, advantage: null, outline: ['Tempo do crime (atividade — CP art. 4º)', 'Lei penal no tempo (irretroatividade × retroatividade benéfica)', 'Lugar do crime (ubiquidade — CP art. 6º)', 'Territorialidade (CP art. 5º)', 'Extraterritorialidade incondicionada e condicionada (CP art. 7º)', 'Imunidades penais', 'Conflito aparente de normas (especialidade, subsidiariedade, consunção, alternatividade)'], sections: [] },
-  { id: 'penal-03-fato-tipico', num: 3, materia: 'penal', title: 'Teoria do crime — fato típico', edital: '2.1.3', editalText: 'Conduta, resultado, nexo, tipicidade. Dolo, culpa, erro.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito analítico de crime', 'Conduta (teorias)', 'Resultado (naturalístico × normativo)', 'Nexo causal (CP art. 13)', 'Imputação objetiva', 'Tipicidade formal × material × conglobante', 'Dolo (direto, eventual)', 'Culpa (negligência, imprudência, imperícia)', 'Erro de tipo (essencial × acidental)'], sections: [] },
-  { id: 'penal-04-antijuridicidade', num: 4, materia: 'penal', title: 'Antijuridicidade e excludentes', edital: '2.1.4', editalText: 'Excludentes de ilicitude (CP art. 23). Legítima defesa, estado de necessidade, estrito cumprimento, exercício regular.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito de antijuridicidade', 'Excludentes legais (CP art. 23)', 'Estado de necessidade (CP art. 24)', 'Legítima defesa (CP art. 25)', 'Estrito cumprimento de dever legal', 'Exercício regular de direito', 'Consentimento do ofendido (excludente supralegal)', 'Excesso (CP art. 23 § único)'], sections: [] },
-  { id: 'penal-05-culpabilidade', num: 5, materia: 'penal', title: 'Culpabilidade e excludentes', edital: '2.1.5', editalText: 'Imputabilidade, potencial consciência da ilicitude, exigibilidade. Erro de proibição, coação moral.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito (teoria normativa pura)', 'Imputabilidade (idade, doença mental, embriaguez completa fortuita)', 'Potencial consciência da ilicitude', 'Erro de proibição (CP art. 21)', 'Exigibilidade de conduta diversa', 'Coação moral irresistível e obediência hierárquica', 'Causas supralegais'], sections: [] },
-  { id: 'penal-06-iter-criminis-tentativa', num: 6, materia: 'penal', title: 'Iter criminis, tentativa, desistência, arrependimento', edital: '2.1.6', editalText: 'Fases do crime. Tentativa (CP art. 14). Desistência voluntária e arrependimento eficaz e posterior.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Fases do iter criminis (cogitação, atos preparatórios, execução, consumação, exaurimento)', 'Tentativa (CP art. 14 II)', 'Tentativa imperfeita × perfeita (crime falho)', 'Crimes que não admitem tentativa', 'Desistência voluntária e arrependimento eficaz (CP art. 15)', 'Arrependimento posterior (CP art. 16)', 'Crime impossível (CP art. 17)'], sections: [] },
-  { id: 'penal-07-concurso-pessoas-crimes', num: 7, materia: 'penal', title: 'Concurso de pessoas e concurso de crimes', edital: '2.1.7', editalText: 'Autoria, coautoria, participação. Concurso material, formal, continuado.', size: 'Médio', schedule: null, advantage: null, outline: ['Concurso de pessoas (CP arts. 29-31) — teoria monista', 'Autoria (imediata, mediata, intelectual, colateral)', 'Coautoria e participação', 'Cooperação dolosamente distinta (CP art. 29 § 2º)', 'Concurso material (CP art. 69)', 'Concurso formal (CP art. 70)', 'Crime continuado (CP art. 71)', 'Crime continuado específico (parágrafo único)'], sections: [] },
-  { id: 'penal-08-penas', num: 8, materia: 'penal', title: 'Penas, dosimetria, progressão, livramento', edital: '2.1.8', editalText: 'Espécies de pena. Aplicação trifásica. Substitutiva. Progressão. Livramento. Sursis.', size: 'Grande', schedule: null, advantage: null, outline: ['Espécies (privativas de liberdade, restritivas de direitos, multa)', 'Aplicação da pena — método trifásico (CP art. 68)', 'Circunstâncias (judiciais, agravantes, atenuantes, causas de aumento e diminuição)', 'Penas restritivas de direitos (CP arts. 43-48)', 'Multa', 'Regimes (fechado, semiaberto, aberto)', 'Progressão de regime', 'Livramento condicional (CP arts. 83-90)', 'Sursis (CP arts. 77-82)', 'Detração e remição'], sections: [] },
-  { id: 'penal-09-medidas-seguranca-acao-penal', num: 9, materia: 'penal', title: 'Medidas de segurança e ação penal', edital: '2.1.9', editalText: 'CP arts. 96-97 e 100-106. Inimputabilidade, desinternação, prazo. Ação pública e privada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Medidas de segurança (internação × tratamento ambulatorial)', 'Pressupostos e prazo', 'Desinternação progressiva e condicional', 'Ação penal pública (incondicionada e condicionada)', 'Ação penal privada (exclusiva e subsidiária)', 'Decadência, perempção, renúncia, perdão'], sections: [] },
-  { id: 'penal-10-crimes-contra-pessoa', num: 10, materia: 'penal', title: 'Crimes contra a pessoa', edital: '2.1.10', editalText: 'CP arts. 121-154-A. Vida, integridade, honra, liberdade.', size: 'Grande', schedule: null, advantage: null, outline: ['Crimes contra a vida (homicídio, infanticídio, aborto)', 'Lesões corporais', 'Periclitação da vida e saúde', 'Rixa', 'Crimes contra a honra (calúnia, difamação, injúria)', 'Crimes contra a liberdade individual (constrangimento, ameaça, sequestro)', 'Crimes sexuais (Lei 12.015/09)', 'Feminicídio (Lei 13.104/15)', 'Stalking (CP art. 147-A)'], sections: [] },
-  { id: 'penal-11-crimes-contra-patrimonio', num: 11, materia: 'penal', title: 'Crimes contra o patrimônio', edital: '2.1.11', editalText: 'CP arts. 155-180. Furto, roubo, latrocínio, extorsão, apropriação, estelionato, receptação.', size: 'Grande', schedule: null, advantage: null, outline: ['Furto (simples, qualificado, privilegiado)', 'Roubo (simples, qualificado, latrocínio)', 'Extorsão e extorsão mediante sequestro', 'Apropriação indébita', 'Estelionato e fraudes', 'Estelionato bancário (Lei 14.155/21)', 'Receptação', 'Imunidades penais (CP arts. 181-183)'], sections: [] },
-  { id: 'penal-12-crimes-administracao-fe-publica', num: 12, materia: 'penal', title: 'Crimes contra a Administração Pública e a fé pública', edital: '2.1.12', editalText: 'CP arts. 289-359-H. Peculato, corrupção, prevaricação, falsidade.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito de funcionário público (CP art. 327)', 'Peculato', 'Concussão e excesso de exação', 'Corrupção passiva e ativa', 'Prevaricação', 'Advocacia administrativa', 'Crimes praticados por particular (corrupção ativa, desacato, resistência)', 'Crimes contra a fé pública (moeda falsa, falsidade documental)', 'Lei 12.850/13 e Lei Anticorrupção (12.846/13)'], sections: [] },
-  { id: 'penal-13-legislacao-especial', num: 13, materia: 'penal', title: 'Legislação penal especial', edital: '2.1.13', editalText: 'Drogas (11.343/06), org. criminosa (12.850/13), lavagem (9.613/98), Maria da Penha, ECA, abuso de autoridade.', size: 'Gigante', schedule: null, advantage: null, outline: ['Lei de Drogas (11.343/06)', 'Organização criminosa (Lei 12.850/13)', 'Lavagem de dinheiro (Lei 9.613/98)', 'Lei Maria da Penha (11.340/06)', 'Crimes do ECA (Lei 8.069/90)', 'Estatuto do Desarmamento (Lei 10.826/03)', 'Abuso de autoridade (Lei 13.869/19)', 'Lei de Tortura (9.455/97)', 'Crimes hediondos (Lei 8.072/90)', 'Pacote Anticrime (Lei 13.964/19)'], sections: [] },
-  { id: 'penal-14-criminologia', num: 14, materia: 'penal', title: 'Criminologia', edital: '2.1.14', editalText: 'Escolas, vitimologia, sistemas penitenciários, prevenção, política criminal.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito e métodos da criminologia', 'Escolas (clássica, positiva, sociológicas, crítica)', 'Vitimologia', 'Sistemas penitenciários (filadélfico, auburniano, progressivos)', 'Prevenção primária, secundária, terciária', 'Política criminal e direito penal mínimo', 'Funções da pena (retributiva, preventiva, ressocializadora)'], sections: [] },
+  { id: 'penal-01-principios', num: 1, materia: 'penal', title: 'Princípios do Direito Penal', edital: '2.1.1', editalText: 'Legalidade, anterioridade, intervenção mínima, lesividade, culpabilidade, humanidade, individualização.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Legalidade (CF art. 5º XXXIX, CP art. 1º)', 'Anterioridade da lei penal', 'Intervenção mínima (subsidiariedade e fragmentariedade)', 'Lesividade/ofensividade', 'Culpabilidade', 'Humanidade', 'Individualização da pena', 'Insignificância (STF)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PRINCÍPIOS DO DIREITO PENAL** são as vigas mestras do sistema. Domínio dos princípios é fundamental para responder questões discursivas e objetivas. CF/88 e CP consagram os principais; doutrina e jurisprudência (STF) acrescentam outros.' }
+      ]
+    },
+    {
+      h: 'Princípios constitucionais expressos',
+      items: [
+        { type: 'list', items: [
+          '**LEGALIDADE/RESERVA LEGAL (CF 5º XXXIX + CP 1º):** "não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal" (nullum crimen, nulla poena sine lege)',
+          '**ANTERIORIDADE:** lei deve ser ANTERIOR ao fato',
+          '**IRRETROATIVIDADE DA LEI MAIS GRAVOSA (CF 5º XL):** lei penal não retroage, salvo para BENEFICIAR o réu',
+          '**HUMANIDADE/DIGNIDADE (CF 5º XLVII, XLIX):** vedação a penas cruéis, degradantes, prisão perpétua, morte (salvo guerra), trabalhos forçados, banimento',
+          '**INDIVIDUALIZAÇÃO DA PENA (CF 5º XLVI):** lei regulará a individualização e a execução. STF — ADI 4.768: critérios objetivos e subjetivos',
+          '**PESSOALIDADE/INTRANSCENDÊNCIA (CF 5º XLV):** pena não pode passar da pessoa do condenado'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios doutrinários e jurisprudenciais',
+      items: [
+        { type: 'list', items: [
+          '**INTERVENÇÃO MÍNIMA / ÚLTIMA RATIO:** Direito Penal é a ÚLTIMA medida; deve ser SUBSIDIÁRIO (só atua quando outros ramos falham) e FRAGMENTÁRIO (só os bens jurídicos mais relevantes)',
+          '**LESIVIDADE/OFENSIVIDADE:** crime exige LESÃO ou PERIGO concreto a bem jurídico — não há crime sem dano (princípio da lesividade)',
+          '**CULPABILIDADE:** ninguém pode ser punido sem CULPA (responsabilidade subjetiva). Não há responsabilidade objetiva no Direito Penal',
+          '**INSIGNIFICÂNCIA / BAGATELA (criação STF):** condutas que causam lesão ÍNFIMA são atípicas. STF — HC 84.412: 4 vetores cumulativos = (1) mínima ofensividade; (2) ausência de periculosidade social; (3) reduzido grau de reprovabilidade; (4) inexpressividade da lesão jurídica',
+          '**PROPORCIONALIDADE:** pena deve ser PROPORCIONAL ao crime',
+          '**ADEQUAÇÃO SOCIAL:** condutas socialmente aceitas não são típicas (ex: pequenos furos em orelha)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 84.412 (2004):** vetores da insignificância. CRIME DE BAGATELA é atípico — desimporta, no entanto, se houver: (a) reincidência; (b) habitualidade; (c) violência ou grave ameaça; (d) crime com vítima específica vulnerável.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Legalidade: nullum crimen, nulla poena sine lege.** CF 5º XXXIX + CP 1º.' },
+        { type: 'box', kind: 'macete', text: '**Lei penal: irretroatividade EXCETO para BENEFICIAR o réu (CF 5º XL).**' },
+        { type: 'box', kind: 'macete', text: '**Insignificância (STF HC 84.412): 4 vetores M-A-R-I (Mínima ofensividade · Ausência periculosidade social · Reduzida reprovabilidade · Inexpressividade da lesão).**' },
+        { type: 'box', kind: 'macete', text: '**Direito Penal é ULTIMA RATIO + SUBSIDIÁRIO + FRAGMENTÁRIO.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Lei penal retroage SÓ para beneficiar o réu (CF 5º XL).** Princípio da retroatividade benéfica.' },
+        { type: 'box', kind: 'atencao', text: '**Insignificância: 4 vetores cumulativos.** STF afasta em casos de reincidência, habitualidade, violência.' },
+        { type: 'box', kind: 'atencao', text: '**Não há responsabilidade objetiva no Direito Penal — princípio da culpabilidade.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** garantias penais (CF 5º).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 2 (aplicação da lei):** legalidade material e temporal.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** lesividade integra a tipicidade material.' }
+      ]
+    }
+  ] },
+  { id: 'penal-02-aplicacao-lei-penal', num: 2, materia: 'penal', title: 'Aplicação da lei penal (tempo, espaço, pessoa)', edital: '2.1.2', editalText: 'Tempo, território, extraterritorialidade, pessoa. Conflito aparente de normas.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Tempo do crime (atividade — CP art. 4º)', 'Lei penal no tempo (irretroatividade × retroatividade benéfica)', 'Lugar do crime (ubiquidade — CP art. 6º)', 'Territorialidade (CP art. 5º)', 'Extraterritorialidade incondicionada e condicionada (CP art. 7º)', 'Imunidades penais', 'Conflito aparente de normas (especialidade, subsidiariedade, consunção, alternatividade)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico técnico que cobre a aplicação da lei penal no TEMPO, no ESPAÇO e em relação à PESSOA. Domínio das teorias é obrigatório.' }
+      ]
+    },
+    {
+      h: 'Lei penal no TEMPO',
+      items: [
+        { type: 'h', text: 'Tempo do crime (CP art. 4º — TEORIA DA ATIVIDADE)' },
+        { type: 'p', text: 'Considera-se praticado o crime no momento da AÇÃO ou OMISSÃO, ainda que outro seja o momento do resultado. Outras teorias rejeitadas: do resultado, mista.' },
+
+        { type: 'h', text: 'Sucessão de leis penais' },
+        { type: 'list', items: [
+          '**ABOLITIO CRIMINIS:** lei nova descriminaliza fato. Retroage para extinguir punibilidade (CF 5º XL + CP 2º)',
+          '**LEX MITIOR (lei mais benéfica):** aplica-se a todos os fatos anteriores',
+          '**LEX GRAVIOR (lei mais gravosa):** apenas para fatos POSTERIORES (irretroatividade)',
+          '**NOVATIO LEGIS IN MELLIUS / IN PEJUS:** mesma lógica',
+          '**Combinatio legis (combinação de leis):** STF — vedada em geral (RE 596.152, 2011) — não pode combinar partes de leis distintas para criar uma lei nova mais favorável'
+        ]},
+
+        { type: 'h', text: 'Lei intermediária' },
+        { type: 'p', text: 'Quando entre o fato e o julgamento há sucessão (lei A → lei B → lei C), aplica-se a MAIS BENÉFICA, ainda que seja a INTERMEDIÁRIA (B). Princípio da retroatividade da lei mais favorável.' }
+      ]
+    },
+    {
+      h: 'Lei penal no ESPAÇO',
+      items: [
+        { type: 'h', text: 'Lugar do crime (CP art. 6º — TEORIA DA UBIQUIDADE/MISTA)' },
+        { type: 'p', text: 'Considera-se praticado o crime no lugar em que OCORREU A AÇÃO/OMISSÃO ou ONDE SE PRODUZIU O RESULTADO. Diferente do CPP (teoria do resultado para fixação de competência).' },
+        { type: 'box', kind: 'macete', text: '**Tempo: ATIVIDADE (CP 4º). Lugar: UBIQUIDADE (CP 6º). Não confundir!**' },
+
+        { type: 'h', text: 'Territorialidade (CP art. 5º)' },
+        { type: 'p', text: 'REGRA: lei brasileira aplica-se aos crimes praticados em TERRITÓRIO NACIONAL. Inclui: solo, mar territorial (12 milhas), espaço aéreo, embarcações e aeronaves brasileiras (públicas em qualquer lugar; privadas em alto-mar ou espaço aéreo correspondente).' },
+
+        { type: 'h', text: 'Extraterritorialidade (CP art. 7º)' },
+        { type: 'list', items: [
+          '**INCONDICIONADA (art. 7º I):** crime contra o Presidente, Patrimônio Público, fé pública, contra brasileiro fora do território, em embarcação/aeronave brasileira, etc.',
+          '**CONDICIONADA (art. 7º II):** depende de condições (entrar no território, ser punido lá e cá, etc.). Crimes contra brasileiros em sentido amplo'
+        ]}
+      ]
+    },
+    {
+      h: 'Imunidades e conflito aparente de normas',
+      items: [
+        { type: 'h', text: 'Imunidades' },
+        { type: 'list', items: [
+          '**DIPLOMÁTICA (Convenção de Viena):** imunidade absoluta a embaixadores · relativa a outros agentes',
+          '**PARLAMENTAR (CF 53):** material (opiniões, palavras, votos no exercício) e formal (prisão só em flagrante de crime inafiançável)',
+          '**PRESIDENCIAL (CF 86):** PR responde por crimes COMUNS perante STF (com autorização CD)'
+        ]},
+
+        { type: 'h', text: 'Conflito aparente de normas' },
+        { type: 'list', items: [
+          '**ESPECIALIDADE:** norma especial prevalece sobre geral. Ex: infanticídio (especial) sobre homicídio (geral)',
+          '**SUBSIDIARIEDADE:** norma subsidiária só se aplica se a principal não couber. Ex: lesão corporal aplicada subsidiariamente quando o crime principal não pode ser configurado',
+          '**CONSUNÇÃO:** crime maior absorve o menor. Ex: homicídio absorve a lesão corporal causada no mesmo ato',
+          '**ALTERNATIVIDADE:** entre crimes mutuamente excludentes — escolha conforme adequação'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Tempo: ATIVIDADE (CP 4º). Lugar: UBIQUIDADE (CP 6º).** Decorar.' },
+        { type: 'box', kind: 'macete', text: '**Lei retroage SÓ para beneficiar (CF 5º XL).** Lex mitior + abolitio criminis.' },
+        { type: 'box', kind: 'macete', text: '**Conflito aparente: ESP-SUB-CON-ALT** (Especialidade · Subsidiariedade · Consunção · Alternatividade).' },
+        { type: 'box', kind: 'macete', text: '**Extraterritorialidade INCONDICIONADA (art. 7º I) × CONDICIONADA (II).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Tempo do crime: ATIVIDADE. Lugar: UBIQUIDADE.** Pegadinha clássica trocando.' },
+        { type: 'box', kind: 'atencao', text: '**STF VEDA combinatio legis (RE 596.152, 2011).** Não pode combinar partes de leis para criar uma terceira mais favorável.' },
+        { type: 'box', kind: 'atencao', text: '**Lei intermediária: aplica-se a MAIS BENÉFICA das três** (anterior, intermediária, posterior).' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** legalidade temporal e irretroatividade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP — competência:** lugar do crime para CPP (teoria do resultado).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** CF 5º XL — irretroatividade.' }
+      ]
+    }
+  ] },
+  { id: 'penal-03-fato-tipico', num: 3, materia: 'penal', title: 'Teoria do crime — fato típico', edital: '2.1.3', editalText: 'Conduta, resultado, nexo, tipicidade. Dolo, culpa, erro.', size: 'Grande', schedule: 'Mês 11', advantage: null, outline: ['Conceito analítico de crime', 'Conduta (teorias)', 'Resultado (naturalístico × normativo)', 'Nexo causal (CP art. 13)', 'Imputação objetiva', 'Tipicidade formal × material × conglobante', 'Dolo (direto, eventual)', 'Culpa (negligência, imprudência, imperícia)', 'Erro de tipo (essencial × acidental)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CONCEITO ANALÍTICO DE CRIME** (Welzel, finalismo) define-o como **FATO TÍPICO + ANTIJURÍDICO + CULPÁVEL** — tripartite. Cada elemento tem subdivisões. Para o concurso: domínio do fato típico (conduta, resultado, nexo, tipicidade), das modalidades de dolo e culpa, do erro de tipo.' }
+      ]
+    },
+    {
+      h: 'Fato típico — elementos',
+      items: [
+        { type: 'h', text: '4 elementos do fato típico' },
+        { type: 'list', items: [
+          'CONDUTA (ação ou omissão voluntária)',
+          'RESULTADO (naturalístico ou normativo)',
+          'NEXO CAUSAL (CP art. 13 — teoria da equivalência das condições com correção pela imputação objetiva)',
+          'TIPICIDADE (FORMAL × MATERIAL × CONGLOBANTE)'
+        ]},
+
+        { type: 'h', text: 'Tipicidade — 3 dimensões' },
+        { type: 'list', items: [
+          '**FORMAL:** subsunção do fato à norma',
+          '**MATERIAL:** lesão a bem jurídico (princípio da lesividade)',
+          '**CONGLOBANTE (Zaffaroni):** análise da ANTINORMATIVIDADE — fato deve violar a norma considerada em conjunto com todo o ordenamento. Exclui condutas socialmente adequadas, situações em que a norma aparentemente proíbe o que outra autoriza'
+        ]},
+
+        { type: 'h', text: 'Imputação objetiva (Roxin)' },
+        { type: 'p', text: 'Modernização da teoria da causalidade. Para imputar resultado: (a) criação de RISCO PROIBIDO; (b) realização desse risco no resultado; (c) o resultado deve estar no ALCANCE DA NORMA. Limita a equivalência das condições.' }
+      ]
+    },
+    {
+      h: 'Dolo, culpa, erro',
+      items: [
+        { type: 'h', text: 'Dolo (CP art. 18 I)' },
+        { type: 'list', items: [
+          '**DIRETO:** vontade dirigida ao resultado',
+          '**EVENTUAL:** assume o risco do resultado (assentir, "que se dane")',
+          '**Teoria volitiva (Welzel):** dolo é VONTADE',
+          '**Diferença com culpa consciente:** no dolo eventual, agente ASSUME O RISCO; na culpa consciente, agente CONFIA na não ocorrência'
+        ]},
+
+        { type: 'h', text: 'Culpa (CP art. 18 II)' },
+        { type: 'list', items: [
+          '**NEGLIGÊNCIA:** omissão de cuidado',
+          '**IMPRUDÊNCIA:** ação descuidada',
+          '**IMPERÍCIA:** falta de aptidão técnica',
+          '**Modalidades:** culpa CONSCIENTE (prevê resultado mas confia que não ocorrerá) × INCONSCIENTE (não prevê)'
+        ]},
+
+        { type: 'h', text: 'Erro de tipo (CP art. 20)' },
+        { type: 'list', items: [
+          '**ESSENCIAL:** sobre elementar do tipo. Exclui o DOLO, podendo subsistir culpa se inevitável',
+          '**ACIDENTAL:** sobre objeto, pessoa ou execução. NÃO exclui dolo',
+          '**ESCUSÁVEL (inevitável):** exclui dolo e culpa',
+          '**INESCUSÁVEL (evitável):** exclui dolo, mas pode haver culpa'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Crime tripartite (finalismo): TÍPICO + ANTIJURÍDICO + CULPÁVEL.**' },
+        { type: 'box', kind: 'macete', text: '**Fato típico = CONDUTA + RESULTADO + NEXO + TIPICIDADE.** 4 elementos.' },
+        { type: 'box', kind: 'macete', text: '**Tipicidade: FORMAL × MATERIAL × CONGLOBANTE (Zaffaroni).**' },
+        { type: 'box', kind: 'macete', text: '**Dolo eventual (assume o risco) × Culpa consciente (confia).** Diferença sutil mas crucial.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Dolo eventual ≠ culpa consciente.** Assumir o risco × confiar que não ocorrerá.' },
+        { type: 'box', kind: 'atencao', text: '**Erro de tipo ESSENCIAL exclui o DOLO** (e a culpa se inevitável). Acidental NÃO exclui.' },
+        { type: 'box', kind: 'atencao', text: '**Imputação objetiva (Roxin) limita a equivalência das condições** — exige criação de risco proibido e alcance da norma.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** lesividade integra a tipicidade material.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 4 (Antijuridicidade):** segundo elemento do crime.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (Culpabilidade):** terceiro elemento, com erro de proibição (≠ erro de tipo).' }
+      ]
+    }
+  ] },
+  { id: 'penal-04-antijuridicidade', num: 4, materia: 'penal', title: 'Antijuridicidade e excludentes', edital: '2.1.4', editalText: 'Excludentes de ilicitude (CP art. 23). Legítima defesa, estado de necessidade, estrito cumprimento, exercício regular.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Conceito de antijuridicidade', 'Excludentes legais (CP art. 23)', 'Estado de necessidade (CP art. 24)', 'Legítima defesa (CP art. 25)', 'Estrito cumprimento de dever legal', 'Exercício regular de direito', 'Consentimento do ofendido (excludente supralegal)', 'Excesso (CP art. 23 § único)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ANTIJURIDICIDADE** (ilicitude) é o segundo elemento do crime. Fato típico é, em regra, antijurídico — salvo se houver EXCLUDENTE. CP art. 23 lista 4 excludentes legais; doutrina admite supralegais (consentimento do ofendido).' }
+      ]
+    },
+    {
+      h: 'Excludentes legais (CP art. 23)',
+      items: [
+        { type: 'h', text: 'Estado de necessidade (CP 24)' },
+        { type: 'p', text: 'Sacrifício de bem jurídico para SALVAR direito próprio ou alheio. Requisitos: situação de perigo atual; não provocação intencional; impossibilidade de evitar; bem sacrificado de menor ou igual valor (no Brasil — teoria UNITÁRIA, art. 24 §2º). Se bem maior é sacrificado, redução de pena ou crime mais leve.' },
+
+        { type: 'h', text: 'Legítima defesa (CP 25)' },
+        { type: 'p', text: 'Repulsa a AGRESSÃO INJUSTA atual ou iminente, a direito próprio ou alheio, com MEIOS NECESSÁRIOS e MODERAÇÃO. Pacote Anticrime (Lei 13.964/19): inseriu § único — "considera-se também em legítima defesa o agente de segurança pública que, em conflito armado ou em risco iminente de conflito armado, previne agressão ou risco de agressão a vítima mantida refém".' },
+
+        { type: 'h', text: 'Estrito cumprimento de dever legal' },
+        { type: 'p', text: 'Agente público que, no exercício de função, pratica fato típico, em razão de DEVER. Ex: policial que prende em flagrante. Não é causa de justificação para o particular.' },
+
+        { type: 'h', text: 'Exercício regular de direito' },
+        { type: 'p', text: 'Pratica fato típico no exercício de DIREITO. Ex: pais que exercem poder familiar (correção moderada). Esportes contato (boxe). Disciplinar.' },
+
+        { type: 'h', text: 'Consentimento do ofendido (supralegal)' },
+        { type: 'p', text: 'Vítima consente com a lesão a bem jurídico DISPONÍVEL. Ex: tatuagem (lesão consentida). Doutrina e jurisprudência reconhecem como excludente supralegal.' }
+      ]
+    },
+    {
+      h: 'Excesso (CP art. 23 § único)',
+      items: [
+        { type: 'p', text: 'Se o agente, em qualquer das hipóteses, EXCEDER os limites da excludente — DOLOSAMENTE ou CULPOSAMENTE — responderá pelo excesso. NÃO há mais excludente; agente responde pelo crime.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 excludentes legais (CP 23): EN · LD · ECDL · ERD.** Estado de necessidade · Legítima defesa · Estrito cumprimento de dever legal · Exercício regular de direito.' },
+        { type: 'box', kind: 'macete', text: '**Legítima defesa: agressão INJUSTA, ATUAL ou IMINENTE, MEIOS NECESSÁRIOS, MODERAÇÃO.**' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime (Lei 13.964/19): nova LD para segurança pública em conflito armado.**' },
+        { type: 'box', kind: 'macete', text: '**Excesso = responde pelo excesso (DOLOSO ou CULPOSO).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Estado de necessidade no Brasil: TEORIA UNITÁRIA — bem sacrificado deve ser MENOR ou IGUAL.** Diferenciada (Alemanha) admite desproporção.' },
+        { type: 'box', kind: 'atencao', text: '**Excesso descaracteriza a excludente — agente responde.**' },
+        { type: 'box', kind: 'atencao', text: '**Consentimento do ofendido NÃO está em CP — é supralegal.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** antijuridicidade pressupõe tipicidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (culpabilidade):** após antijuridicidade, vem culpabilidade.' }
+      ]
+    }
+  ] },
+  { id: 'penal-05-culpabilidade', num: 5, materia: 'penal', title: 'Culpabilidade e excludentes', edital: '2.1.5', editalText: 'Imputabilidade, potencial consciência da ilicitude, exigibilidade. Erro de proibição, coação moral.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Conceito (teoria normativa pura)', 'Imputabilidade (idade, doença mental, embriaguez completa fortuita)', 'Potencial consciência da ilicitude', 'Erro de proibição (CP art. 21)', 'Exigibilidade de conduta diversa', 'Coação moral irresistível e obediência hierárquica', 'Causas supralegais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **CULPABILIDADE** é o terceiro elemento do crime (sistema tripartite). Doutrina majoritária (finalismo): teoria NORMATIVA PURA — culpabilidade é JUÍZO DE REPROVAÇÃO sobre o agente (não sobre o fato). Tem 3 elementos: IMPUTABILIDADE · POTENCIAL CONSCIÊNCIA DA ILICITUDE · EXIGIBILIDADE DE CONDUTA DIVERSA.' }
+      ]
+    },
+    {
+      h: '3 elementos da culpabilidade',
+      items: [
+        { type: 'h', text: 'Imputabilidade (CP arts. 26-28)' },
+        { type: 'list', items: [
+          'Capacidade de entender e querer',
+          '**Excludentes:** menor de 18 anos (CF 228 + CP 27); doença mental ou desenvolvimento mental incompleto/retardado (CP 26); embriaguez completa, fortuita ou de força maior (CP 28 II)',
+          '**Semi-imputabilidade (CP 26 § único):** redução de pena',
+          '**Embriaguez voluntária ou culposa: NÃO exclui** (CP 28 II — actio libera in causa)'
+        ]},
+
+        { type: 'h', text: 'Potencial consciência da ilicitude' },
+        { type: 'p', text: 'Capacidade de saber que o fato é ilícito. Não é a consciência atual, mas a POTENCIAL. Exclui: ERRO DE PROIBIÇÃO (CP 21).' },
+        { type: 'list', items: [
+          '**Erro de proibição ESCUSÁVEL (inevitável):** ISENTA de pena',
+          '**Erro de proibição INESCUSÁVEL (evitável):** redução de pena (1/6 a 1/3)',
+          '**Diferença com erro de tipo:** tipo = erro sobre FATO; proibição = erro sobre LEI'
+        ]},
+
+        { type: 'h', text: 'Exigibilidade de conduta diversa' },
+        { type: 'p', text: 'Reprovação se podia o agente agir conforme o Direito. Excludentes: COAÇÃO MORAL IRRESISTÍVEL (CP 22); OBEDIÊNCIA HIERÁRQUICA (CP 22 — quando ordem não manifestamente ilegal); inexigibilidade SUPRALEGAL (causas extraordinárias).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Culpabilidade tem 3 elementos: IMPUTABILIDADE · POTENCIAL CONSCIÊNCIA DA ILICITUDE · EXIGIBILIDADE de conduta diversa.**' },
+        { type: 'box', kind: 'macete', text: '**Imputabilidade: 18 anos · doença mental · embriaguez fortuita completa.** Embriaguez voluntária NÃO exclui.' },
+        { type: 'box', kind: 'macete', text: '**Erro de TIPO (sobre FATO) × Erro de PROIBIÇÃO (sobre LEI).** Não confundir.' },
+        { type: 'box', kind: 'macete', text: '**Coação MORAL irresistível exclui CULPABILIDADE. Coação FÍSICA irresistível exclui CONDUTA (não chega à culpabilidade).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Embriaguez voluntária NÃO exclui imputabilidade (CP 28 II — actio libera in causa).**' },
+        { type: 'box', kind: 'atencao', text: '**Erro de tipo: exclui DOLO. Erro de proibição: exclui CULPABILIDADE.** Distinção essencial.' },
+        { type: 'box', kind: 'atencao', text: '**Menor de 18 anos é INIMPUTÁVEL** (CF 228). Resposta pelo ECA — medidas socioeducativas.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** erro de tipo — relação com erro de proibição.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** menores de 18 anos respondem pelo ECA.' }
+      ]
+    }
+  ] },
+  { id: 'penal-06-iter-criminis-tentativa', num: 6, materia: 'penal', title: 'Iter criminis, tentativa, desistência, arrependimento', edital: '2.1.6', editalText: 'Fases do crime. Tentativa (CP art. 14). Desistência voluntária e arrependimento eficaz e posterior.', size: 'Pequeno', schedule: 'Mês 11', advantage: null, outline: ['Fases do iter criminis (cogitação, atos preparatórios, execução, consumação, exaurimento)', 'Tentativa (CP art. 14 II)', 'Tentativa imperfeita × perfeita (crime falho)', 'Crimes que não admitem tentativa', 'Desistência voluntária e arrependimento eficaz (CP art. 15)', 'Arrependimento posterior (CP art. 16)', 'Crime impossível (CP art. 17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **ITER CRIMINIS** é o caminho do crime — desde a ideia até a consumação. Para o concurso: dominar fases, tentativa (CP 14 II), desistência voluntária e arrependimento eficaz (CP 15), arrependimento posterior (CP 16), crime impossível (CP 17).' }
+      ]
+    },
+    {
+      h: 'Fases do iter criminis',
+      items: [
+        { type: 'list', items: [
+          '**COGITAÇÃO:** ideia. NÃO é punível (cogitationis poenam nemo patitur)',
+          '**ATOS PREPARATÓRIOS:** medidas para a execução. Em REGRA não puníveis (salvo se constitui crime autônomo, ex: porte de arma)',
+          '**EXECUÇÃO:** início da realização do tipo',
+          '**CONSUMAÇÃO:** completa a realização',
+          '**EXAURIMENTO:** efeitos posteriores à consumação (em alguns crimes)'
+        ]}
+      ]
+    },
+    {
+      h: 'Tentativa (CP art. 14 II)',
+      items: [
+        { type: 'list', items: [
+          'Crime tentado quando, INICIADA a execução, NÃO se consuma por circunstâncias ALHEIAS à vontade do agente',
+          '**Pena:** redução de 1/3 a 2/3 (proporcional à proximidade da consumação)',
+          '**Imperfeita (inacabada):** agente NÃO terminou os atos de execução',
+          '**Perfeita (acabada / crime falho):** agente terminou os atos, mas não houve consumação',
+          'Crimes que NÃO admitem tentativa: CULPOSOS (em regra, exceto culpa imprópria), HABITUAIS, OMISSIVOS PRÓPRIOS, UNISSUBSISTENTES (de única ação), CONTRAVENÇÕES (regra geral)'
+        ]}
+      ]
+    },
+    {
+      h: 'Desistência, arrependimento, crime impossível',
+      items: [
+        { type: 'h', text: 'Desistência voluntária e arrependimento eficaz (CP 15)' },
+        { type: 'list', items: [
+          '**DESISTÊNCIA VOLUNTÁRIA:** agente desiste DURANTE a execução, voluntariamente',
+          '**ARREPENDIMENTO EFICAZ:** após terminados os atos de execução, agente impede o resultado',
+          'Em ambos: agente RESPONDE PELOS ATOS PRATICADOS (se constituem crime autônomo), mas NÃO pelo crime maior. Não há tentativa'
+        ]},
+
+        { type: 'h', text: 'Arrependimento posterior (CP 16)' },
+        { type: 'list', items: [
+          'Após CONSUMADO o crime, MAS antes do recebimento da denúncia',
+          'Crimes SEM violência ou grave ameaça',
+          'REPARAÇÃO ou RESTITUIÇÃO da coisa pelo agente, voluntariamente',
+          'Pena REDUZIDA de 1/3 a 2/3'
+        ]},
+
+        { type: 'h', text: 'Crime impossível (CP 17)' },
+        { type: 'p', text: 'Tentativa por meio absolutamente INIDÔNEO ou objeto absolutamente IMPRÓPRIO. Não há crime. STJ Súm. 567: não se aplica em furto/roubo se há vigilância.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Iter criminis (5 fases): COGITAÇÃO · ATOS PREPARATÓRIOS · EXECUÇÃO · CONSUMAÇÃO · EXAURIMENTO.**' },
+        { type: 'box', kind: 'macete', text: '**Tentativa: redução de 1/3 a 2/3 (CP 14 § único).**' },
+        { type: 'box', kind: 'macete', text: '**Desistência voluntária + Arrependimento eficaz (CP 15) = NÃO há tentativa, agente responde pelos atos praticados.**' },
+        { type: 'box', kind: 'macete', text: '**Arrependimento posterior (CP 16): só crimes SEM violência, antes da denúncia, redução 1/3 a 2/3.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Atos preparatórios em regra NÃO são puníveis (cogitationis poenam nemo patitur).**' },
+        { type: 'box', kind: 'atencao', text: '**Crimes culposos NÃO admitem tentativa (em regra).**' },
+        { type: 'box', kind: 'atencao', text: '**Arrependimento posterior NÃO se aplica a crimes com violência/grave ameaça.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** tentativa pressupõe início da execução.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8 (penas):** redução pela tentativa influencia a dosimetria.' }
+      ]
+    }
+  ] },
+  { id: 'penal-07-concurso-pessoas-crimes', num: 7, materia: 'penal', title: 'Concurso de pessoas e concurso de crimes', edital: '2.1.7', editalText: 'Autoria, coautoria, participação. Concurso material, formal, continuado.', size: 'Médio', schedule: 'Mês 11-12', advantage: null, outline: ['Concurso de pessoas (CP arts. 29-31) — teoria monista', 'Autoria (imediata, mediata, intelectual, colateral)', 'Coautoria e participação', 'Cooperação dolosamente distinta (CP art. 29 § 2º)', 'Concurso material (CP art. 69)', 'Concurso formal (CP art. 70)', 'Crime continuado (CP art. 71)', 'Crime continuado específico (parágrafo único)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico técnico que cobre duas disciplinas distintas: (i) **CONCURSO DE PESSOAS** (multiplicidade de agentes em um crime — CP arts. 29-31); (ii) **CONCURSO DE CRIMES** (multiplicidade de crimes praticados pelo mesmo agente — CP arts. 69-71).' }
+      ]
+    },
+    {
+      h: 'Concurso de pessoas (CP 29-31)',
+      items: [
+        { type: 'h', text: 'Teoria MONISTA (regra)' },
+        { type: 'p', text: 'Quem concorre para o crime incide nas penas a este cominadas, na medida de sua CULPABILIDADE (CP 29). REGRA: TODOS respondem pelo MESMO crime, com penas individualizadas.' },
+
+        { type: 'h', text: 'Tipos de autoria' },
+        { type: 'list', items: [
+          '**IMEDIATA:** quem pratica diretamente o tipo',
+          '**MEDIATA:** usa terceiro como instrumento (ex: induz pessoa em erro)',
+          '**INTELECTUAL:** planeja sem executar diretamente (mandante)',
+          '**COLATERAL:** vários autores agem independentemente, contemporaneamente'
+        ]},
+
+        { type: 'h', text: 'Coautoria × Participação' },
+        { type: 'list', items: [
+          '**COAUTORIA:** pluralidade de autores que praticam o tipo',
+          '**PARTICIPAÇÃO:** auxílio (material, moral, psíquica) sem prática do verbo do tipo',
+          '**Pluralidade de pessoas + Pluralidade de fatos + Vínculo subjetivo + Identidade de infração** = concurso'
+        ]},
+
+        { type: 'h', text: 'Cooperação dolosamente distinta (CP 29 §2º)' },
+        { type: 'p', text: 'Se um quis crime menos grave, responde pelo MENOS GRAVE. Pena pode ser aumentada até a 1/2 se o RESULTADO mais grave for previsível.' }
+      ]
+    },
+    {
+      h: 'Concurso de crimes (CP 69-71)',
+      items: [
+        { type: 'h', text: 'Material (CP 69)' },
+        { type: 'p', text: 'Mesmo agente pratica MAIS DE UMA AÇÃO/OMISSÃO, e desses fatos resultam DOIS OU MAIS CRIMES, idênticos ou não. Penas SOMADAS (cúmulo material).' },
+
+        { type: 'h', text: 'Formal (CP 70)' },
+        { type: 'p', text: 'Uma SÓ AÇÃO ou OMISSÃO pratica DOIS OU MAIS CRIMES. Pena MAIS GRAVE com EXASPERAÇÃO de 1/6 a 1/2 (formal próprio); pena cumulada se DESÍGNIOS AUTÔNOMOS (formal impróprio — art. 70 §único).' },
+
+        { type: 'h', text: 'Continuado (CP 71)' },
+        { type: 'p', text: 'Mais de uma ação/omissão, MESMA ESPÉCIE de crime, MESMAS CONDIÇÕES (tempo, lugar, modo). Considerados COMO SE FOSSE UM SÓ. Pena UMA das penas com aumento de 1/6 a 2/3.' },
+        { type: 'p', text: '**Continuado específico (CP 71 § único):** crimes dolosos, contra vítimas DIFERENTES, com violência ou grave ameaça. Aumento maior: até o triplo.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Concurso de PESSOAS: teoria MONISTA (CP 29) — todos respondem pelo MESMO crime.**' },
+        { type: 'box', kind: 'macete', text: '**Cooperação dolosamente distinta (CP 29 §2º): quem quis menos, responde pelo menos.**' },
+        { type: 'box', kind: 'macete', text: '**Concurso de CRIMES: MATERIAL (somar) · FORMAL (exasperar 1/6 a 1/2) · CONTINUADO (1/6 a 2/3).**' },
+        { type: 'box', kind: 'macete', text: '**Continuado específico (71 § único): crimes dolosos, vítimas diferentes, violência — até TRIPLO.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Teoria MONISTA — todos respondem pelo MESMO crime, na medida da culpabilidade individual.**' },
+        { type: 'box', kind: 'atencao', text: '**Concurso material: SOMA. Formal: EXASPERA. Continuado: EXASPERA com critério especial.**' },
+        { type: 'box', kind: 'atencao', text: '**Crime continuado precisa: mesma espécie + mesmas condições temporais/espaciais/modais.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8 (penas):** dosimetria afetada pelo concurso de crimes.' }
+      ]
+    }
+  ] },
+  { id: 'penal-08-penas', num: 8, materia: 'penal', title: 'Penas, dosimetria, progressão, livramento', edital: '2.1.8', editalText: 'Espécies de pena. Aplicação trifásica. Substitutiva. Progressão. Livramento. Sursis.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Espécies (privativas de liberdade, restritivas de direitos, multa)', 'Aplicação da pena — método trifásico (CP art. 68)', 'Circunstâncias (judiciais, agravantes, atenuantes, causas de aumento e diminuição)', 'Penas restritivas de direitos (CP arts. 43-48)', 'Multa', 'Regimes (fechado, semiaberto, aberto)', 'Progressão de regime', 'Livramento condicional (CP arts. 83-90)', 'Sursis (CP arts. 77-82)', 'Detração e remição'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico denso e cobrado. **3 espécies de pena (CP 32):** privativa de liberdade, restritiva de direitos, multa. **Aplicação trifásica (CP 68):** pena-base · circunstâncias · causas de aumento/diminuição. **Progressão**, **livramento** e **sursis** disciplinam o cumprimento.' }
+      ]
+    },
+    {
+      h: 'Espécies e aplicação',
+      items: [
+        { type: 'h', text: '3 espécies (CP 32)' },
+        { type: 'list', items: [
+          '**PRIVATIVA DE LIBERDADE:** RECLUSÃO (regimes F/S/A) · DETENÇÃO (regimes S/A) · PRISÃO SIMPLES (contravenções)',
+          '**RESTRITIVA DE DIREITOS (CP 43-48):** prestação de serviços, interdição temporária, limitação de fim de semana, prestação pecuniária, perda de bens',
+          '**MULTA:** dia-multa (CP 49 — entre 10 e 360 dias-multa, valor entre 1/30 e 5x o SM)'
+        ]},
+
+        { type: 'h', text: 'Aplicação trifásica (CP 68)' },
+        { type: 'list', items: [
+          '**1ª FASE — PENA-BASE:** circunstâncias judiciais (CP 59 — 8 vetores: culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias, consequências, comportamento da vítima)',
+          '**2ª FASE — CIRCUNSTÂNCIAS LEGAIS:** agravantes (CP 61) e atenuantes (CP 65)',
+          '**3ª FASE — CAUSAS DE AUMENTO E DIMINUIÇÃO:** previstas em parte especial ou geral'
+        ]}
+      ]
+    },
+    {
+      h: 'Cumprimento',
+      items: [
+        { type: 'h', text: 'Regimes (CP 33)' },
+        { type: 'list', items: [
+          '**FECHADO:** estabelecimento de segurança máxima/média',
+          '**SEMIABERTO:** colônia agrícola, industrial',
+          '**ABERTO:** casa de albergado',
+          '**Critério:** quantum + reincidência'
+        ]},
+
+        { type: 'h', text: 'Progressão (CP 33 §2º + LEP)' },
+        { type: 'list', items: [
+          'REGRA GERAL: 16% (primário, crime sem violência)',
+          '20% (primário, crime com violência ou hediondo)',
+          '25% (reincidente, crime sem violência)',
+          '30% (reincidente, crime hediondo sem morte)',
+          '40% (primário, crime hediondo com morte)',
+          '50% (reincidente, crime hediondo com morte; chefe organização criminosa)',
+          '60% (reincidente, crime hediondo com morte)',
+          '70% (chefe de organização criminosa armada)',
+          'Lei 13.964/19 (Pacote Anticrime) reescreveu LEP art. 112'
+        ]},
+
+        { type: 'h', text: 'Livramento condicional (CP 83-90)' },
+        { type: 'list', items: [
+          'Após 1/3 da pena (primário) ou 1/2 (reincidente em crime doloso)',
+          'Após 2/3 (crime hediondo, primário); vedado em casos extremos',
+          'Boa conduta carcerária + reparação do dano (se possível)'
+        ]},
+
+        { type: 'h', text: 'Sursis (CP 77-82)' },
+        { type: 'list', items: [
+          'Suspensão condicional da pena',
+          'Cabe em pena privativa de liberdade NÃO superior a 2 anos',
+          'Período de prova: 2 a 4 anos',
+          'Em alguns casos, sursis ETÁRIO (maior de 70 anos) ou HUMANITÁRIO (saúde)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 espécies de pena (CP 32): PRIVATIVA · RESTRITIVA · MULTA.**' },
+        { type: 'box', kind: 'macete', text: '**Aplicação trifásica (CP 68): JUDICIAIS (CP 59) · LEGAIS · CAUSAS especiais.**' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime (Lei 13.964/19) reescreveu progressão.** Frações em LEP 112.' },
+        { type: 'box', kind: 'macete', text: '**Sursis: pena ≤ 2 anos, prova 2-4 anos.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Pacote Anticrime mudou frações de progressão. Decorar números atuais.**' },
+        { type: 'box', kind: 'atencao', text: '**Reclusão admite F/S/A. Detenção: S/A (não fechado).** Diferença essencial.' },
+        { type: 'box', kind: 'atencao', text: '**Sursis cabe em pena ≤ 2 anos.** Não admite progressão (alternativa à pena privativa).' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 11 (execução penal):** LEP detalhada.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** individualização da pena.' }
+      ]
+    }
+  ] },
+  { id: 'penal-09-medidas-seguranca-acao-penal', num: 9, materia: 'penal', title: 'Medidas de segurança e ação penal', edital: '2.1.9', editalText: 'CP arts. 96-97 e 100-106. Inimputabilidade, desinternação, prazo. Ação pública e privada.', size: 'Pequeno', schedule: 'Mês 12', advantage: null, outline: ['Medidas de segurança (internação × tratamento ambulatorial)', 'Pressupostos e prazo', 'Desinternação progressiva e condicional', 'Ação penal pública (incondicionada e condicionada)', 'Ação penal privada (exclusiva e subsidiária)', 'Decadência, perempção, renúncia, perdão'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico que combina dois temas: (i) **MEDIDAS DE SEGURANÇA** (CP 96-97) — sanção aplicável a inimputáveis (doença mental); (ii) **AÇÃO PENAL** (CP 100-106) — disciplina dos titulares e prazos.' }
+      ]
+    },
+    {
+      h: 'Medidas de segurança (CP 96-97)',
+      items: [
+        { type: 'list', items: [
+          '**INTERNAÇÃO** (em hospital de custódia) — para crimes punidos com reclusão',
+          '**TRATAMENTO AMBULATORIAL** — para crimes com detenção',
+          'Pressuposto: PRÁTICA DE FATO TÍPICO E ANTIJURÍDICO + PERICULOSIDADE',
+          '**PRAZO MÍNIMO:** 1 a 3 anos',
+          '**STF — REsp 1.174.535 (Súm. 527 STJ):** prazo MÁXIMO = pena máxima do crime praticado',
+          '**STF — Súm. Vinculante 56:** falta de vagas em estabelecimento adequado autoriza desinternação progressiva ou liberdade'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ Súm. 527:** "O tempo de duração da medida de segurança não deve ultrapassar o limite máximo da pena abstratamente cominada ao delito praticado."' }
+      ]
+    },
+    {
+      h: 'Ação penal',
+      items: [
+        { type: 'h', text: 'Espécies (CP 100)' },
+        { type: 'list', items: [
+          '**PÚBLICA INCONDICIONADA (regra):** MP age de ofício',
+          '**PÚBLICA CONDICIONADA À REPRESENTAÇÃO:** MP depende de representação da vítima',
+          '**PÚBLICA CONDICIONADA À REQUISIÇÃO:** Ministro da Justiça (raríssima)',
+          '**PRIVADA EXCLUSIVA:** vítima ou representante legal (queixa-crime)',
+          '**PRIVADA SUBSIDIÁRIA DA PÚBLICA (CF 5º LIX):** quando MP não age no prazo'
+        ]},
+
+        { type: 'h', text: 'Causas extintivas da punibilidade (CP 107)' },
+        { type: 'list', items: [
+          'Morte do agente · anistia, graça, indulto · abolitio criminis · prescrição · decadência (6 meses) · perempção (em ação privada) · renúncia · perdão aceito · retratação · perdão judicial · cumprimento de pena'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Medida de segurança: prazo máximo = pena máxima do crime (Súm. 527 STJ).**' },
+        { type: 'box', kind: 'macete', text: '**Ação penal: PÚBLICA é regra. PRIVADA é exceção. SUBSIDIÁRIA quando MP omite.**' },
+        { type: 'box', kind: 'macete', text: '**Decadência (em ação privada): 6 meses (CP 103).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (Culpabilidade):** inimputabilidade fundamenta medida de segurança.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** ação penal pública é privativa do MP.' }
+      ]
+    }
+  ] },
+  { id: 'penal-10-crimes-contra-pessoa', num: 10, materia: 'penal', title: 'Crimes contra a pessoa', edital: '2.1.10', editalText: 'CP arts. 121-154-A. Vida, integridade, honra, liberdade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Crimes contra a vida (homicídio, infanticídio, aborto)', 'Lesões corporais', 'Periclitação da vida e saúde', 'Rixa', 'Crimes contra a honra (calúnia, difamação, injúria)', 'Crimes contra a liberdade individual (constrangimento, ameaça, sequestro)', 'Crimes sexuais (Lei 12.015/09)', 'Feminicídio (Lei 13.104/15)', 'Stalking (CP art. 147-A)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Capítulo extenso do CP (arts. 121-154-B) — divide-se em: (i) crimes contra a VIDA; (ii) lesões; (iii) periclitação; (iv) rixa; (v) honra; (vi) liberdade individual; (vii) sexuais (após Lei 12.015/09); (viii) crimes contra dignidade sexual.' }
+      ]
+    },
+    {
+      h: 'Crimes contra a vida',
+      items: [
+        { type: 'list', items: [
+          '**HOMICÍDIO (CP 121):** simples (6-20 anos), qualificado (12-30), culposo (1-3 anos)',
+          '**Lei 13.104/15 — FEMINICÍDIO** como qualificadora (CP 121 §2º VI)',
+          '**Lei 14.811/24 — homicídio qualificado contra crianças, adolescentes e idosos** (X)',
+          '**INFANTICÍDIO (CP 123):** mãe sob estado puerperal, durante ou logo após o parto. 2-6 anos',
+          '**ABORTO (CP 124-128):** provocado pela gestante (124), provocado por terceiro (125-126). Excludentes (CP 128): aborto necessário e sentimental. STF — ADPF 54: anencéfalos. ADPF 442 (em julgamento)',
+          'Júri: competência para crimes dolosos contra a vida (CF 5º XXXVIII d)'
+        ]}
+      ]
+    },
+    {
+      h: 'Outros crimes contra a pessoa',
+      items: [
+        { type: 'list', items: [
+          '**LESÃO CORPORAL (CP 129):** simples, grave, gravíssima, seguida de morte',
+          '**Lei 11.340/06 (Maria da Penha):** qualificadora violência doméstica (§9º)',
+          '**HONRA (138-140):** CALÚNIA (atribuir crime falso) · DIFAMAÇÃO (atribuir fato ofensivo) · INJÚRIA (qualidade negativa)',
+          '**Injúria racial (CP 140 §3º):** STJ HC 154.819 + Lei 14.532/23 — passou a ser RACISMO (Lei 7.716/89)',
+          '**LIBERDADE INDIVIDUAL (146-154-B):** constrangimento, ameaça, sequestro, violação domicílio',
+          '**STALKING (CP 147-A — Lei 14.132/21):** perseguição reiterada que ameace a integridade física, psicológica, restrinja capacidade de locomoção',
+          '**CRIMES SEXUAIS (213-218-C):** estupro, importunação sexual (Lei 13.718/18 — CP 215-A)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 442 (em julgamento, sobre descriminalização parcial do aborto até 12 semanas).** Tese ainda sem definição final.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Crimes contra a vida = competência do JÚRI (CF 5º XXXVIII d).**' },
+        { type: 'box', kind: 'macete', text: '**Feminicídio (CP 121 §2º VI — Lei 13.104/15) é QUALIFICADORA, não tipo autônomo.**' },
+        { type: 'box', kind: 'macete', text: '**Honra: CDI = Calúnia (crime) · Difamação (fato) · Injúria (qualidade).**' },
+        { type: 'box', kind: 'macete', text: '**Lei 14.532/23: injúria racial passou a ser RACISMO (Lei 7.716/89) — IMPRESCRITÍVEL.**' },
+        { type: 'box', kind: 'macete', text: '**Stalking (CP 147-A — Lei 14.132/21): perseguição reiterada.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Aborto: 3 hipóteses excludentes (CP 128 — necessário, sentimental + STF anencéfalos ADPF 54).** ADPF 442 ainda pendente.' },
+        { type: 'box', kind: 'atencao', text: '**Injúria racial AGORA é RACISMO (Lei 14.532/23) — imprescritível, inafiançável.**' },
+        { type: 'box', kind: 'atencao', text: '**Feminicídio é qualificadora — não tipo autônomo.** Pena base do homicídio qualificado.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** vida e dignidade são bens supremos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP — competência:** Tribunal do Júri.' }
+      ]
+    }
+  ] },
+  { id: 'penal-11-crimes-contra-patrimonio', num: 11, materia: 'penal', title: 'Crimes contra o patrimônio', edital: '2.1.11', editalText: 'CP arts. 155-180. Furto, roubo, latrocínio, extorsão, apropriação, estelionato, receptação.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Furto (simples, qualificado, privilegiado)', 'Roubo (simples, qualificado, latrocínio)', 'Extorsão e extorsão mediante sequestro', 'Apropriação indébita', 'Estelionato e fraudes', 'Estelionato bancário (Lei 14.155/21)', 'Receptação', 'Imunidades penais (CP arts. 181-183)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'CP arts. 155-180. Crimes patrimoniais são frequentemente cobrados — especialmente FURTO × ROUBO × LATROCÍNIO (distinções), ESTELIONATO (Lei 14.155/21 sobre estelionato bancário) e IMUNIDADES PENAIS (181-183).' }
+      ]
+    },
+    {
+      h: 'Crimes principais',
+      items: [
+        { type: 'list', items: [
+          '**FURTO (CP 155):** subtrair coisa alheia móvel SEM violência ou grave ameaça. Qualificado (§4º): com destruição/rompimento, abuso de confiança, escalada, etc. Privilegiado (§2º): primário + coisa de pequeno valor',
+          '**ROUBO (CP 157):** subtração com VIOLÊNCIA, GRAVE AMEAÇA ou redução à impossibilidade de resistência',
+          '**LATROCÍNIO (CP 157 §3º II):** roubo com resultado MORTE. Pena 20-30 anos. Crime contra o PATRIMÔNIO (não contra a vida — competência da Justiça Comum, não Júri — STF Súm. 603)',
+          '**EXTORSÃO (CP 158):** constranger alguém a fazer/não fazer/tolerar mediante violência ou ameaça, com vantagem econômica',
+          '**EXTORSÃO MEDIANTE SEQUESTRO (CP 159):** crime hediondo. Pena 8-15 anos',
+          '**APROPRIAÇÃO INDÉBITA (CP 168):** apropriar-se de coisa alheia móvel de que tem a posse ou detenção',
+          '**ESTELIONATO (CP 171):** obter vantagem ilícita induzindo ou mantendo em erro mediante artifício, ardil ou fraude. Pacote Anticrime: estelionato é AÇÃO PENAL PÚBLICA CONDICIONADA À REPRESENTAÇÃO (CP 171 §5º)',
+          '**Lei 14.155/21 — estelionato bancário (CP 171 §2º-A) e §2º-B:** majora pena',
+          '**RECEPTAÇÃO (CP 180):** adquirir, receber, transportar, conduzir, ocultar coisa que sabe ser produto de crime'
+        ]}
+      ]
+    },
+    {
+      h: 'Imunidades penais (CP 181-183)',
+      items: [
+        { type: 'list', items: [
+          '**ABSOLUTA (181):** isenta de pena cônjuge na constância do casamento; ascendente/descendente em linha reta',
+          '**RELATIVA (182):** ação dependente de representação da vítima — entre cônjuge desquitado, irmão, tio que coabite com vítima',
+          '**Não se aplicam (183):** crimes com violência/grave ameaça, vítima maior de 60 anos (idoso), pessoa com deficiência'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**FURTO = sem violência. ROUBO = com violência. LATROCÍNIO = roubo + morte.**' },
+        { type: 'box', kind: 'macete', text: '**Súm. 603 STF: latrocínio é da Justiça COMUM, não Júri.** Embora haja morte, é crime contra patrimônio.' },
+        { type: 'box', kind: 'macete', text: '**Estelionato (Pacote Anticrime — CP 171 §5º): AÇÃO PENAL PÚBLICA CONDICIONADA À REPRESENTAÇÃO.**' },
+        { type: 'box', kind: 'macete', text: '**Imunidades penais NÃO se aplicam contra IDOSO (>60 anos), PCD ou em crimes com violência.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Latrocínio: competência da Justiça COMUM (Súm. 603 STF), não Júri.**' },
+        { type: 'box', kind: 'atencao', text: '**Estelionato (Pacote Anticrime, 2019): condicionada à representação.** Mudança importante.' },
+        { type: 'box', kind: 'atencao', text: '**Imunidades penais NÃO se aplicam contra IDOSO (CP 183 III) ou PCD.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (Consumidor):** estelionato relaciona-se com fraudes ao consumidor.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** vedação de imunidades + crimes específicos.' }
+      ]
+    }
+  ] },
+  { id: 'penal-12-crimes-administracao-fe-publica', num: 12, materia: 'penal', title: 'Crimes contra a Administração Pública e a fé pública', edital: '2.1.12', editalText: 'CP arts. 289-359-H. Peculato, corrupção, prevaricação, falsidade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Conceito de funcionário público (CP art. 327)', 'Peculato', 'Concussão e excesso de exação', 'Corrupção passiva e ativa', 'Prevaricação', 'Advocacia administrativa', 'Crimes praticados por particular (corrupção ativa, desacato, resistência)', 'Crimes contra a fé pública (moeda falsa, falsidade documental)', 'Lei 12.850/13 e Lei Anticorrupção (12.846/13)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'CP arts. 289-359-H. Crimes contra a Administração Pública (312-359-H) e contra a Fé Pública (289-311). Para o concurso (especialmente MPMG): domínio dos crimes funcionais (peculato, corrupção, prevaricação) e da extensão do conceito de "funcionário público" (CP 327).' }
+      ]
+    },
+    {
+      h: 'Funcionário público (CP 327)',
+      items: [
+        { type: 'p', text: 'Considera-se funcionário público, para efeitos penais, quem, embora transitoriamente ou sem remuneração, exerce CARGO, EMPREGO OU FUNÇÃO PÚBLICA. § 1º (Lei 9.983/00): equiparação para empregados de empresa estatal e empresa contratada para a Adm. § 2º: aumento de 1/3 quando autores de crimes funcionais são ocupantes de cargos de DIREÇÃO.' }
+      ]
+    },
+    {
+      h: 'Crimes funcionais principais',
+      items: [
+        { type: 'list', items: [
+          '**PECULATO (CP 312):** apropriar-se ou desviar dinheiro/bem de que tem posse em razão do cargo. Modalidades: próprio, impróprio, culposo, mediante erro. Pena 2-12 anos',
+          '**CONCUSSÃO (CP 316):** exigir vantagem indevida em razão do cargo (extorsão funcional). Pena 2-12 anos',
+          '**EXCESSO DE EXAÇÃO (316 §1º):** cobrar tributo indevido ou em excesso, com violência',
+          '**CORRUPÇÃO PASSIVA (CP 317):** SOLICITAR ou RECEBER vantagem indevida em razão da função. Pena 2-12 anos',
+          '**CORRUPÇÃO ATIVA (CP 333 — particular):** OFERECER ou PROMETER vantagem indevida a funcionário público',
+          '**PREVARICAÇÃO (CP 319):** retardar/deixar de praticar ato de ofício para SATISFAZER INTERESSE OU SENTIMENTO PESSOAL',
+          '**ADVOCACIA ADMINISTRATIVA (CP 321):** patrocinar interesse privado perante a Adm., utilizando-se de sua qualidade de funcionário'
+        ]}
+      ]
+    },
+    {
+      h: 'Crimes praticados por particular contra Adm.',
+      items: [
+        { type: 'list', items: [
+          '**CORRUPÇÃO ATIVA (333):** já visto',
+          '**RESISTÊNCIA (329):** opor-se à execução de ato legal de funcionário público com violência',
+          '**DESACATO (331):** desacatar funcionário público no exercício da função',
+          '**CONTRABANDO (334-A) e DESCAMINHO (334)**'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei Anticorrupção (12.846/13)',
+      items: [
+        { type: 'p', text: 'Responsabiliza ADMINISTRATIVA e CIVILMENTE pessoas jurídicas por atos de corrupção contra a Adm. Pública. Sanções: multa, publicação extraordinária da decisão, dissolução compulsória. Aplicada por entes federativos.' },
+        { type: 'p', text: 'PROGRAMAS DE INTEGRIDADE (Compliance): redução de penas. ACORDO DE LENIÊNCIA: cooperação substancial pode reduzir até 2/3.' }
+      ]
+    },
+    {
+      h: 'Crimes contra a fé pública',
+      items: [
+        { type: 'list', items: [
+          'MOEDA FALSA (CP 289-292)',
+          'FALSIDADE DOCUMENTAL (CP 296-305)',
+          'USO DE DOCUMENTO FALSO (304)',
+          'FALSO RECONHECIMENTO DE FIRMA (300)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Funcionário público (CP 327): qualquer cargo/emprego/função pública, transitória, sem remuneração — extensão amplíssima.**' },
+        { type: 'box', kind: 'macete', text: '**PECULATO (apropriar/desviar) · CONCUSSÃO (exigir) · CORRUPÇÃO PASSIVA (solicitar/receber) · PREVARICAÇÃO (sentimento pessoal).**' },
+        { type: 'box', kind: 'macete', text: '**Lei Anticorrupção (12.846/13): responsabiliza PJ — não substitui a responsabilidade penal de pessoas físicas.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**CORRUPÇÃO PASSIVA pode ser por SOLICITAR ou RECEBER. Não precisa que vantagem efetivamente chegue.**' },
+        { type: 'box', kind: 'atencao', text: '**PREVARICAÇÃO exige interesse/sentimento PESSOAL — diferente de simples desídia (corrupção é interesse alheio com vantagem para si).**' },
+        { type: 'box', kind: 'atencao', text: '**Lei 12.846/13 NÃO substitui responsabilidade penal — é responsabilidade da PJ, paralela.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** crimes funcionais convivem com improbidade — esferas independentes.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** servidor é sujeito ativo principal.' }
+      ]
+    }
+  ] },
+  { id: 'penal-13-legislacao-especial', num: 13, materia: 'penal', title: 'Legislação penal especial', edital: '2.1.13', editalText: 'Drogas (11.343/06), org. criminosa (12.850/13), lavagem (9.613/98), Maria da Penha, ECA, abuso de autoridade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Lei de Drogas (11.343/06)', 'Organização criminosa (Lei 12.850/13)', 'Lavagem de dinheiro (Lei 9.613/98)', 'Lei Maria da Penha (11.340/06)', 'Crimes do ECA (Lei 8.069/90)', 'Estatuto do Desarmamento (Lei 10.826/03)', 'Abuso de autoridade (Lei 13.869/19)', 'Lei de Tortura (9.455/97)', 'Crimes hediondos (Lei 8.072/90)', 'Pacote Anticrime (Lei 13.964/19)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Conjunto de leis penais especiais cobradas. Para o concurso: dominar Lei de Drogas (tráfico × uso), Organização Criminosa (12.850/13), Lavagem (9.613/98), Maria da Penha, Hediondos (8.072/90), Pacote Anticrime (13.964/19).' }
+      ]
+    },
+    {
+      h: 'Leis-chave',
+      items: [
+        { type: 'h', text: 'Lei de Drogas (11.343/06)' },
+        { type: 'list', items: [
+          'TRÁFICO (art. 33): 5-15 anos. Equiparado a hediondo (Lei 8.072/90 art. 2º)',
+          'TRÁFICO PRIVILEGIADO (33 §4º): se primário, bons antecedentes, não dedicado, não membro de organização — reduz 1/6 a 2/3. STF (HC 118.533): NÃO é hediondo',
+          'PORTE PARA USO (28): NÃO há prisão. Penas alternativas. STF — RE 635.659 (em julgamento, 2024): possível descriminalização para porte de maconha em pequena quantidade'
+        ]},
+
+        { type: 'h', text: 'Crimes hediondos (Lei 8.072/90)' },
+        { type: 'list', items: [
+          'Rol TAXATIVO (art. 1º): homicídio qualificado, latrocínio, extorsão qualificada, sequestro, estupro, etc.',
+          'Equiparados: tortura, tráfico, terrorismo (TTT)',
+          'Insuscetíveis de anistia, graça e indulto',
+          'Pacote Anticrime: progressão diferenciada (LEP 112)'
+        ]},
+
+        { type: 'h', text: 'Lei 12.850/13 — Organização Criminosa' },
+        { type: 'list', items: [
+          'Conceito (art. 1º §1º): 4+ pessoas, estruturalmente ordenadas, divisão de tarefas, vantagem ilícita, infrações com penas máximas superiores a 4 anos',
+          'COLABORAÇÃO PREMIADA (arts. 4º-7º): instrumento processual',
+          'INFILTRAÇÃO POLICIAL (10-14)'
+        ]},
+
+        { type: 'h', text: 'Lei 9.613/98 — Lavagem de dinheiro' },
+        { type: 'list', items: [
+          'Lei 12.683/12 ampliou: qualquer infração penal pode ser antecedente',
+          '3 fases: COLOCAÇÃO · OCULTAÇÃO · INTEGRAÇÃO',
+          'Pena 3-10 anos + multa'
+        ]},
+
+        { type: 'h', text: 'Lei Maria da Penha (11.340/06)' },
+        { type: 'list', items: [
+          'Mecanismos de PROTEÇÃO da mulher contra violência DOMÉSTICA E FAMILIAR',
+          'JECrim NÃO se aplica (art. 41)',
+          'MEDIDAS PROTETIVAS DE URGÊNCIA (arts. 22-24)',
+          'Crimes contra MULHER no contexto doméstico têm rito específico'
+        ]},
+
+        { type: 'h', text: 'Lei 13.869/19 — Abuso de Autoridade' },
+        { type: 'p', text: 'Substituiu a antiga Lei 4.898/65. Tipifica condutas de agentes públicos. Exige DOLO ESPECÍFICO (finalidade de prejudicar, beneficiar-se ou por mero capricho). Crimes de ação penal pública incondicionada.' },
+
+        { type: 'h', text: 'Pacote Anticrime (Lei 13.964/19)' },
+        { type: 'list', items: [
+          'Reescreveu LEP 112 (progressão)',
+          'Inseriu ANPP (CPP 28-A)',
+          'Alterou prescrição em improbidade (mas LIA depois reescrita pela Lei 14.230/21)',
+          'Juiz de garantias (CPP 3º-A — eficácia suspensa parcialmente pelo STF)',
+          'Banco Nacional de Perfis Genéticos'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**TTT equiparados a hediondos: TORTURA · TRÁFICO · TERRORISMO.**' },
+        { type: 'box', kind: 'macete', text: '**Tráfico privilegiado (33 §4º) NÃO é hediondo (STF HC 118.533).**' },
+        { type: 'box', kind: 'macete', text: '**Lavagem (9.613/98) — 3 fases: COLOCAÇÃO · OCULTAÇÃO · INTEGRAÇÃO.**' },
+        { type: 'box', kind: 'macete', text: '**Organização Criminosa: 4+ pessoas (Lei 12.850/13).**' },
+        { type: 'box', kind: 'macete', text: '**Maria da Penha — JECrim NÃO se aplica.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 11 (patrimônio):** receptação cumula com lavagem.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** Maria da Penha decorre de condenação na CIDH.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP — provas:** colaboração premiada, infiltração.' }
+      ]
+    }
+  ] },
+  { id: 'penal-14-criminologia', num: 14, materia: 'penal', title: 'Criminologia', edital: '2.1.14', editalText: 'Escolas, vitimologia, sistemas penitenciários, prevenção, política criminal.', size: 'Médio', schedule: 'Mês 12', advantage: null, outline: ['Conceito e métodos da criminologia', 'Escolas (clássica, positiva, sociológicas, crítica)', 'Vitimologia', 'Sistemas penitenciários (filadélfico, auburniano, progressivos)', 'Prevenção primária, secundária, terciária', 'Política criminal e direito penal mínimo', 'Funções da pena (retributiva, preventiva, ressocializadora)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: '**CRIMINOLOGIA** é ciência empírica e interdisciplinar que estuda o CRIME, o CRIMINOSO, a VÍTIMA e o CONTROLE SOCIAL. Distinta do Direito Penal (dogmática) e da Política Criminal (estratégias). Para o concurso: dominar escolas e modelos, vitimologia, sistemas penitenciários, prevenção.' }
+      ]
+    },
+    {
+      h: 'Escolas criminológicas',
+      items: [
+        { type: 'list', items: [
+          '**ESCOLA CLÁSSICA (Beccaria, Carrara, séc. XVIII-XIX):** crime é fruto do LIVRE-ARBÍTRIO. Pena retributiva, proporcional, certa. Princípio da legalidade',
+          '**ESCOLA POSITIVA (Lombroso, Ferri, Garofalo, séc. XIX):** crime é determinado por fatores BIOLÓGICOS, PSICOLÓGICOS e SOCIAIS. "Criminoso nato" (Lombroso). Pena terapêutica, individualizada',
+          '**ESCOLAS SOCIOLÓGICAS (séc. XX):** Escola de CHICAGO (Park, Burgess) — desorganização social urbana. Sutherland — ASSOCIAÇÃO DIFERENCIAL. Merton — TENSÃO/ANOMIA',
+          '**LABELLING APPROACH (Becker, Lemert):** crime é ROTULAÇÃO social. Foco no CONTROLE, não no agente',
+          '**CRIMINOLOGIA CRÍTICA (Baratta, Zaffaroni):** crime é construção social, classes dominantes definem desviante. Direito Penal mínimo'
+        ]}
+      ]
+    },
+    {
+      h: 'Vitimologia, prevenção, sistemas',
+      items: [
+        { type: 'h', text: 'Vitimologia (Mendelsohn, Von Hentig)' },
+        { type: 'p', text: 'Estuda a VÍTIMA do crime. Tipologias (vítima ideal, provocadora, voluntária, etc.). Direitos da vítima: assistência, indenização, participação no processo. Lei 11.690/08 ampliou direitos no CPP.' },
+
+        { type: 'h', text: 'Sistemas penitenciários históricos' },
+        { type: 'list', items: [
+          '**FILADÉLFICO/PENSILVÂNICO:** isolamento celular total',
+          '**AUBURNIANO:** trabalho coletivo de dia, isolamento à noite',
+          '**PROGRESSIVO (atual):** progressão de regimes conforme conduta'
+        ]},
+
+        { type: 'h', text: 'Prevenção (3 níveis)' },
+        { type: 'list', items: [
+          '**PRIMÁRIA:** atua sobre causas (educação, emprego, moradia) — eliminar fontes',
+          '**SECUNDÁRIA:** atua sobre grupos de risco (jovens em vulnerabilidade)',
+          '**TERCIÁRIA:** atua sobre quem já delinquiu (ressocialização)'
+        ]}
+      ]
+    },
+    {
+      h: 'Funções da pena',
+      items: [
+        { type: 'list', items: [
+          '**RETRIBUTIVA:** punir o mal pelo mal (Kant, Hegel)',
+          '**PREVENTIVA GERAL NEGATIVA:** intimidar a coletividade',
+          '**PREVENTIVA GERAL POSITIVA:** afirmar a vigência do direito',
+          '**PREVENTIVA ESPECIAL NEGATIVA:** neutralizar o agente',
+          '**PREVENTIVA ESPECIAL POSITIVA:** ressocializar (LEP)',
+          '**TEORIA DA UNIÃO/MISTA (CP 59 + LEP):** combina retribuição + prevenção'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Escolas: CLÁSSICA (livre-arbítrio) · POSITIVA (determinismo) · SOCIOLÓGICAS · LABELLING · CRÍTICA.**' },
+        { type: 'box', kind: 'macete', text: '**Prevenção: PRIMÁRIA (causas) · SECUNDÁRIA (grupos de risco) · TERCIÁRIA (ressocialização).**' },
+        { type: 'box', kind: 'macete', text: '**Funções da pena (Brasil — teoria mista): RETRIBUIÇÃO + PREVENÇÃO GERAL + PREVENÇÃO ESPECIAL.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** intervenção mínima é resultado da política criminal.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8 (Penas):** funções da pena fundamentam a dosimetria.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL PENAL (12) ============
-  { id: 'pp-01-principios-fontes', num: 1, materia: 'pp', title: 'Princípios e fontes do CPP', edital: '2.2.1', editalText: 'Sistema acusatório (Lei 13.964/19). Princípios constitucionais e infraconstitucionais.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistemas processuais (inquisitório, acusatório, misto)', 'Sistema acusatório no Brasil (CPP art. 3º-A — Pacote Anticrime)', 'Princípios constitucionais (devido processo, contraditório, ampla defesa, presunção de inocência)', 'Princípios infraconstitucionais (oficialidade, oficiosidade, indisponibilidade, etc.)', 'Aplicação da lei processual penal no tempo'], sections: [] },
-  { id: 'pp-02-inquerito-investigacao', num: 2, materia: 'pp', title: 'Inquérito policial e investigação criminal', edital: '2.2.2', editalText: 'CPP arts. 4º-23. PIC. Cadeia de custódia. Acordo de não persecução penal.', size: 'Médio', schedule: null, advantage: null, outline: ['Inquérito policial (CPP arts. 4º-23)', 'Investigação criminal pelo MP (PIC) — Res. CNMP 181', 'Indiciamento', 'Cadeia de custódia (CPP arts. 158-A a 158-F)', 'Juiz das garantias (CPP art. 3º-B — Pacote Anticrime)', 'Acordo de não persecução penal (CPP art. 28-A)', 'Arquivamento do inquérito'], sections: [] },
-  { id: 'pp-03-acao-penal', num: 3, materia: 'pp', title: 'Ação penal', edital: '2.2.3', editalText: 'Pública incondicionada, condicionada, privada. Denúncia e queixa.', size: 'Médio', schedule: null, advantage: null, outline: ['Espécies de ação penal', 'Ação penal pública incondicionada', 'Ação penal pública condicionada (representação, requisição)', 'Ação penal privada (exclusiva, personalíssima, subsidiária)', 'Denúncia e queixa — requisitos (CPP art. 41)', 'Aditamento', 'Princípios da ação penal pública'], sections: [] },
-  { id: 'pp-04-sujeitos-processo', num: 4, materia: 'pp', title: 'Sujeitos do processo penal', edital: '2.2.4', editalText: 'Juiz, MP, querelante, réu, defensor, vítima, assistente de acusação.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Juiz e juiz das garantias', 'MP no processo penal', 'Acusado e defensor', 'Querelante e querelado', 'Vítima — Lei 13.431/17 e CPP', 'Assistente de acusação (CPP arts. 268-273)', 'Auxiliares da Justiça'], sections: [] },
-  { id: 'pp-05-competencia-criminal', num: 5, materia: 'pp', title: 'Competência criminal', edital: '2.2.5', editalText: 'CPP arts. 69-91. Foro por prerrogativa. Conexão e continência.', size: 'Médio', schedule: null, advantage: null, outline: ['Critérios de competência (lugar, natureza, prevenção, prerrogativa de função)', 'Competência da Justiça Federal × Estadual', 'Foro por prerrogativa de função (STF/STJ)', 'Conexão (CPP art. 76) e continência (art. 77)', 'Prorrogação e modificação', 'Conflito de competência'], sections: [] },
-  { id: 'pp-06-provas', num: 6, materia: 'pp', title: 'Provas no processo penal', edital: '2.2.6', editalText: 'Princípios. Meios de prova. Provas ilícitas. Lei 13.964/19.', size: 'Grande', schedule: null, advantage: null, outline: ['Princípios da prova (livre convencimento motivado, contraditório)', 'Ônus da prova (CPP art. 156)', 'Meios de prova (perícia, interrogatório, confissão, testemunhas, documentos, busca e apreensão)', 'Provas ilícitas (CF art. 5º LVI; CPP art. 157)', 'Teoria dos frutos da árvore envenenada', 'Limites — descoberta inevitável, fonte independente', 'Cadeia de custódia da prova', 'Colaboração premiada (Lei 12.850/13)'], sections: [] },
-  { id: 'pp-07-prisao-cautelares', num: 7, materia: 'pp', title: 'Prisão e medidas cautelares', edital: '2.2.7', editalText: 'CPP arts. 282-350. Lei 12.403/11. Lei 13.964/19. Audiência de custódia.', size: 'Grande', schedule: null, advantage: null, outline: ['Prisão em flagrante', 'Prisão temporária (Lei 7.960/89)', 'Prisão preventiva (CPP arts. 311-316)', 'Audiência de custódia (CPP art. 310)', 'Liberdade provisória', 'Medidas cautelares diversas (CPP art. 319)', 'Reanálise periódica (CPP art. 316 § único)'], sections: [] },
-  { id: 'pp-08-procedimentos', num: 8, materia: 'pp', title: 'Procedimentos comum e especiais', edital: '2.2.8', editalText: 'Ordinário, sumário, sumaríssimo. Especiais. Citação e defesa preliminar.', size: 'Grande', schedule: null, advantage: null, outline: ['Procedimento comum (ordinário, sumário, sumaríssimo)', 'Citação (real, hora certa, edital)', 'Resposta à acusação (CPP art. 396)', 'Audiência de instrução e julgamento', 'Procedimentos especiais (júri, crimes funcionais, drogas, JECrim)'], sections: [] },
-  { id: 'pp-09-tribunal-juri', num: 9, materia: 'pp', title: 'Tribunal do Júri', edital: '2.2.9', editalText: 'CPP arts. 406-497. Procedimento bifásico (judicium accusationis e causae).', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios constitucionais (CF art. 5º XXXVIII)', 'Competência (crimes dolosos contra a vida)', 'Judicium accusationis — pronúncia, impronúncia, absolvição sumária, desclassificação', 'Preparação para o plenário', 'Sessão de julgamento', 'Quesitação', 'Recursos (apelação, protesto por novo júri — extinto)'], sections: [] },
-  { id: 'pp-10-sentenca-recursos-impugnacoes', num: 10, materia: 'pp', title: 'Sentença, recursos e ações de impugnação', edital: '2.2.10', editalText: 'Sentença e seus efeitos. Recursos do CPP. HC, RvC, MS criminal.', size: 'Grande', schedule: null, advantage: null, outline: ['Sentença (absolutória, condenatória, terminativa)', 'Efeitos da condenação (CP arts. 91-92)', 'Princípios recursais', 'Recursos em espécie (apelação, RESE, agravo, embargos, especial, extraordinário)', 'Habeas corpus (CPP arts. 647-667)', 'Revisão criminal (CPP arts. 621-631)', 'Mandado de segurança em matéria penal'], sections: [] },
-  { id: 'pp-11-execucao-penal', num: 11, materia: 'pp', title: 'Execução penal (LEP)', edital: '2.2.11', editalText: 'Lei 7.210/84. Direitos e deveres do preso. Progressão. Livramento. Falta grave.', size: 'Grande', schedule: null, advantage: null, outline: ['Princípios da execução penal', 'Órgãos da execução (juízo, MP, Conselho, etc.)', 'Direitos e deveres do preso', 'Trabalho e remição', 'Progressão de regime (LEP art. 112 — Lei 13.964/19)', 'Livramento condicional', 'Faltas (leves, médias, graves)', 'RDD (Regime Disciplinar Diferenciado)', 'Súmulas Vinculantes 26 e 56'], sections: [] },
-  { id: 'pp-12-leis-especiais', num: 12, materia: 'pp', title: 'Leis especiais (Org. Criminosa, Drogas, JECrim, Maria da Penha)', edital: '2.2.12', editalText: 'Procedimentos especiais. Colaboração premiada. Audiência una.', size: 'Grande', schedule: null, advantage: null, outline: ['Lei 12.850/13 — Org. Criminosa (procedimento, colaboração premiada, ações controladas)', 'Lei 11.343/06 — Drogas (procedimento)', 'Lei 9.099/95 — JECrim (transação, suspensão condicional do processo)', 'Lei 11.340/06 — Maria da Penha (medidas protetivas)', 'Lei 9.296/96 — Interceptação telefônica', 'Pacote Anticrime — alterações processuais'], sections: [] },
+  { id: 'pp-01-principios-fontes', num: 1, materia: 'pp', title: 'Princípios e fontes do CPP', edital: '2.2.1', editalText: 'Sistema acusatório (Lei 13.964/19). Princípios constitucionais e infraconstitucionais.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Sistemas processuais (inquisitório, acusatório, misto)', 'Sistema acusatório no Brasil (CPP art. 3º-A — Pacote Anticrime)', 'Princípios constitucionais (devido processo, contraditório, ampla defesa, presunção de inocência)', 'Princípios infraconstitucionais (oficialidade, oficiosidade, indisponibilidade, etc.)', 'Aplicação da lei processual penal no tempo'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CPP** (Decreto-Lei 3.689/1941) é a base do processo penal brasileiro, com inúmeras alterações pontuais. O **PACOTE ANTICRIME (Lei 13.964/19)** consolidou o **SISTEMA ACUSATÓRIO** (CPP art. 3º-A) — separação entre acusação, defesa e julgamento. Princípios constitucionais (CF 5º) regem o processo: devido processo legal, contraditório, ampla defesa, presunção de inocência.' }
+      ]
+    },
+    {
+      h: 'Sistemas processuais',
+      items: [
+        { type: 'list', items: [
+          '**INQUISITÓRIO:** mesmo órgão acusa e julga. Não há contraditório. Inquisição medieval',
+          '**ACUSATÓRIO:** separação entre acusação (MP/querelante), defesa e julgamento. Contraditório, ampla defesa',
+          '**MISTO:** combina elementos. Ex: investigação inquisitória + ação acusatória',
+          '**Brasil pós-Pacote Anticrime:** SISTEMA ACUSATÓRIO consolidado (CPP 3º-A). Antes, doutrina divergia entre misto e acusatório'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios constitucionais e infraconstitucionais',
+      items: [
+        { type: 'h', text: 'Constitucionais (CF 5º)' },
+        { type: 'list', items: [
+          'DEVIDO PROCESSO LEGAL (LIV)',
+          'CONTRADITÓRIO E AMPLA DEFESA (LV)',
+          'PRESUNÇÃO DE INOCÊNCIA (LVII)',
+          'PROVAS ILÍCITAS — vedação (LVI)',
+          'JÚRI (XXXVIII)',
+          'JUIZ NATURAL E PROMOTOR NATURAL'
+        ]},
+
+        { type: 'h', text: 'Infraconstitucionais' },
+        { type: 'list', items: [
+          'OFICIALIDADE (Estado promove)',
+          'OFICIOSIDADE (MP age de ofício)',
+          'INDISPONIBILIDADE (em regra, MP não pode dispor — temperado pela ANPP)',
+          'INDIVISIBILIDADE da ação (alcança todos os autores conhecidos)',
+          'INTRANSCENDÊNCIA (não passa da pessoa do réu)'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei processual penal no tempo',
+      items: [
+        { type: 'p', text: '**APLICAÇÃO IMEDIATA (CPP 2º — tempus regit actum):** lei processual penal aplica-se IMEDIATAMENTE aos processos em curso, respeitados os atos já praticados. Diferente da lei material penal (irretroatividade salvo lex mitior).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime (Lei 13.964/19) consolidou sistema ACUSATÓRIO no Brasil (CPP 3º-A).**' },
+        { type: 'box', kind: 'macete', text: '**Lei processual penal: aplicação IMEDIATA (CPP 2º — tempus regit actum). ≠ lei MATERIAL penal (irretroatividade salvo benefício).**' },
+        { type: 'box', kind: 'macete', text: '**Princípios CF: DEVIDO PROCESSO · CONTRADITÓRIO · AMPLA DEFESA · PRESUNÇÃO INOCÊNCIA · JUIZ NATURAL · PROVAS ILÍCITAS vedadas.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** garantias processuais penais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 2 (princípios):** promotor natural decorre do art. 5º LIII.' }
+      ]
+    }
+  ] },
+  { id: 'pp-02-inquerito-investigacao', num: 2, materia: 'pp', title: 'Inquérito policial e investigação criminal', edital: '2.2.2', editalText: 'CPP arts. 4º-23. PIC. Cadeia de custódia. Acordo de não persecução penal.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Inquérito policial (CPP arts. 4º-23)', 'Investigação criminal pelo MP (PIC) — Res. CNMP 181', 'Indiciamento', 'Cadeia de custódia (CPP arts. 158-A a 158-F)', 'Juiz das garantias (CPP art. 3º-B — Pacote Anticrime)', 'Acordo de não persecução penal (CPP art. 28-A)', 'Arquivamento do inquérito'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **INQUÉRITO POLICIAL** (CPP 4º-23) é procedimento inquisitorial, presidido por delegado, destinado a apurar autoria e materialidade. Para o concurso: características, prazos, indiciamento, cadeia de custódia, juiz de garantias, ANPP, arquivamento.' }
+      ]
+    },
+    {
+      h: 'Inquérito policial — características',
+      items: [
+        { type: 'list', items: [
+          'Inquisitorial (não há contraditório nem ampla defesa)',
+          'Escrito · Sigiloso · Indisponível pela polícia',
+          'Discricionário (delegado decide diligências)',
+          'Procedimento ADMINISTRATIVO (não judicial)',
+          '**Prazo:** 10 dias (preso) · 30 dias (solto), prorrogáveis por delegado',
+          'Pode ser INSTAURADO por: portaria de delegado, requisição do juiz/MP, requerimento da vítima, auto de prisão em flagrante'
+        ]}
+      ]
+    },
+    {
+      h: 'Investigação direta pelo MP (PIC)',
+      items: [
+        { type: 'p', text: '**STF — RE 593.727 (Tema 184, 2015):** MP pode investigar criminalmente diretamente. Disciplina: Resolução CNMP 181/2017. PIC (Procedimento Investigatório Criminal) é instrumento autônomo do MP, paralelo ao IP.' }
+      ]
+    },
+    {
+      h: 'Cadeia de custódia (CPP 158-A a 158-F — Pacote Anticrime)',
+      items: [
+        { type: 'p', text: 'Documenta o ITINERÁRIO da prova material (fluxo de custódia). 10 etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento, descarte. Quebra da cadeia: NULIDADE da prova.' }
+      ]
+    },
+    {
+      h: 'Juiz de Garantias (CPP 3º-B — Pacote Anticrime)',
+      items: [
+        { type: 'p', text: 'Lei 13.964/19 criou o JUIZ DE GARANTIAS — atua na fase pré-processual (investigação), distinto do juiz que julga o mérito. Visa preservar imparcialidade. STF — ADI 6.298 (2023): suspensa eficácia em parte. Tema dinâmico — acompanhar.' }
+      ]
+    },
+    {
+      h: 'ANPP (Acordo de Não Persecução Penal — CPP 28-A)',
+      items: [
+        { type: 'list', items: [
+          'Pacote Anticrime (Lei 13.964/19)',
+          'Crime SEM violência ou grave ameaça, com pena MÍNIMA INFERIOR a 4 anos',
+          'Réu CONFESSA · MP propõe acordo · Juiz HOMOLOGA',
+          'Cláusulas: reparação do dano + prestação de serviços ou pecuniária + outras condições',
+          'Cumprido = extinta punibilidade. Descumprimento = denúncia',
+          'STF — ADI 6.298: validou ANPP'
+        ]}
+      ]
+    },
+    {
+      h: 'Arquivamento (CPP 28 — pós-Pacote Anticrime)',
+      items: [
+        { type: 'p', text: 'Lei 13.964/19 alterou o CPP 28: arquivamento do MP é COMUNICADO ao JUIZ que apenas TOMA CIÊNCIA. Antes, juiz REVISAVA. STF — ADI 6.298 SUSPENDEU PARCIALMENTE a eficácia. Tema em movimento.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**IP é INQUISITORIAL: sem contraditório nem ampla defesa.** Prazos: 10 dias preso, 30 solto.' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime trouxe: JUIZ DE GARANTIAS · ANPP · CADEIA DE CUSTÓDIA · novo art. 28 (arquivamento).**' },
+        { type: 'box', kind: 'macete', text: '**ANPP: SEM violência, pena mínima < 4 anos, confissão.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**STF (ADI 6.298, 2023): juiz de garantias e novo CPP 28 com eficácia parcialmente suspensa.** Tema dinâmico.' },
+        { type: 'box', kind: 'atencao', text: '**ANPP exige confissão do réu — não funciona à revelia.**' },
+        { type: 'box', kind: 'atencao', text: '**STF Tema 184 (RE 593.727, 2015): MP PODE investigar diretamente (PIC).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** PIC e ANPP — instrumentos do MP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13 (legislação especial):** Pacote Anticrime modificou várias áreas.' }
+      ]
+    }
+  ] },
+  { id: 'pp-03-acao-penal', num: 3, materia: 'pp', title: 'Ação penal', edital: '2.2.3', editalText: 'Pública incondicionada, condicionada, privada. Denúncia e queixa.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Espécies de ação penal', 'Ação penal pública incondicionada', 'Ação penal pública condicionada (representação, requisição)', 'Ação penal privada (exclusiva, personalíssima, subsidiária)', 'Denúncia e queixa — requisitos (CPP art. 41)', 'Aditamento', 'Princípios da ação penal pública'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **AÇÃO PENAL** é o instrumento pelo qual se postula a punição. CF 129 I: privativa do MP (a pública). Já vista no Penal 9 (material). Aqui foco: denúncia, queixa, requisitos do art. 41 CPP, aditamento, princípios.' }
+      ]
+    },
+    {
+      h: 'Espécies (já vistas em Penal 9)',
+      items: [
+        { type: 'list', items: [
+          'PÚBLICA INCONDICIONADA (regra)',
+          'PÚBLICA CONDICIONADA À REPRESENTAÇÃO (vítima ou representante)',
+          'PÚBLICA CONDICIONADA À REQUISIÇÃO (Ministro da Justiça)',
+          'PRIVADA EXCLUSIVA (querelante)',
+          'PRIVADA SUBSIDIÁRIA DA PÚBLICA (CF 5º LIX)'
+        ]}
+      ]
+    },
+    {
+      h: 'Denúncia e queixa (CPP 41)',
+      items: [
+        { type: 'h', text: 'Requisitos (CPP 41)' },
+        { type: 'list', items: [
+          'EXPOSIÇÃO do fato criminoso, com todas as circunstâncias',
+          'QUALIFICAÇÃO do acusado ou esclarecimentos sobre identificação',
+          'CLASSIFICAÇÃO do crime',
+          'ROL DE TESTEMUNHAS quando necessário'
+        ]},
+
+        { type: 'h', text: 'Diferenças' },
+        { type: 'list', items: [
+          '**DENÚNCIA:** ação pública. Pelo MP',
+          '**QUEIXA-CRIME:** ação privada. Pelo querelante',
+          '**Receberá ou rejeitará** (CPP 395-397) — pelo juiz competente'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios da ação penal pública',
+      items: [
+        { type: 'list', items: [
+          '**OFICIALIDADE:** órgão estatal (MP) titular',
+          '**OBRIGATORIEDADE:** MP deve denunciar quando há justa causa (temperada pelo ANPP)',
+          '**INDISPONIBILIDADE:** MP não pode dispor (temperada)',
+          '**INTRANSCENDÊNCIA:** ação não passa da pessoa do réu',
+          '**INDIVISIBILIDADE:** alcança todos os autores conhecidos',
+          '**OFICIOSIDADE:** MP age de ofício'
+        ]}
+      ]
+    },
+    {
+      h: 'Aditamento',
+      items: [
+        { type: 'list', items: [
+          'ESPONTÂNEO ou PROVOCADO (mutatio libelli — CPP 384)',
+          'Para incluir nova circunstância, agente ou novo fato',
+          'Aditamento que altere o fato (mutatio): exige nova citação e ampla defesa',
+          'CPP 384: nova definição jurídica que NÃO conste da denúncia/queixa — necessidade de aditamento'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Denúncia × Queixa: ação pública × privada.**' },
+        { type: 'box', kind: 'macete', text: '**6 princípios da ação pública: OFICIALIDADE · OBRIGATORIEDADE · INDISPONIBILIDADE · INTRANSCENDÊNCIA · INDIVISIBILIDADE · OFICIOSIDADE.**' },
+        { type: 'box', kind: 'macete', text: '**ANPP temperou a obrigatoriedade — o MP pode propor acordo em vez de denunciar.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Subsidiária só cabe à VÍTIMA — não a qualquer cidadão.**' },
+        { type: 'box', kind: 'atencao', text: '**Aditamento provocado (mutatio libelli — CPP 384): nova citação obrigatória.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 9:** espécies de ação penal (material).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** ação penal pública é privativa do MP.' }
+      ]
+    }
+  ] },
+  { id: 'pp-04-sujeitos-processo', num: 4, materia: 'pp', title: 'Sujeitos do processo penal', edital: '2.2.4', editalText: 'Juiz, MP, querelante, réu, defensor, vítima, assistente de acusação.', size: 'Pequeno', schedule: 'Mês 13', advantage: null, outline: ['Juiz e juiz das garantias', 'MP no processo penal', 'Acusado e defensor', 'Querelante e querelado', 'Vítima — Lei 13.431/17 e CPP', 'Assistente de acusação (CPP arts. 268-273)', 'Auxiliares da Justiça'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **SUJEITOS DO PROCESSO PENAL** são os atores principais: JUIZ (princ.), MP, ACUSADO, DEFENSOR, QUERELANTE, VÍTIMA, ASSISTENTE de acusação. Cada um com papel próprio.' }
+      ]
+    },
+    {
+      h: 'Sujeitos principais',
+      items: [
+        { type: 'list', items: [
+          '**JUIZ:** órgão imparcial. Pacote Anticrime: separação entre juiz das GARANTIAS (fase pré-processual) e juiz da INSTRUÇÃO (mérito) — CPP 3º-B',
+          '**MP:** titular da ação penal pública (CF 129 I). Promotor natural',
+          '**QUERELANTE:** titular da ação privada (vítima ou representante)',
+          '**ACUSADO/RÉU:** sujeito passivo da pretensão punitiva. Direitos: ampla defesa, contraditório, presunção de inocência, calar-se',
+          '**DEFENSOR:** advogado constituído ou Defensoria Pública (necessário em todos os processos — CF 5º LXIII e LXXIV)',
+          '**VÍTIMA:** Lei 13.431/17 — direitos da vítima (acompanhamento, indenização, assistência)',
+          '**ASSISTENTE DE ACUSAÇÃO (CPP 268-273):** ofendido ou representante. Pode ingressar em qualquer fase, atua ao lado do MP. NÃO substitui o MP'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime: Juiz das GARANTIAS (pré-processual) × Juiz da INSTRUÇÃO (mérito).** STF ADI 6.298: eficácia parcialmente suspensa.' },
+        { type: 'box', kind: 'macete', text: '**Assistente de acusação (CPP 268-273): atua ao lado do MP, não o substitui. Pode ingressar a qualquer tempo.**' },
+        { type: 'box', kind: 'macete', text: '**Defesa técnica é OBRIGATÓRIA — Defensoria atua se réu não tem advogado.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5/6 (LCs):** estatutos do MP detalham atuação no processo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** Defensoria, MP, advocacia.' }
+      ]
+    }
+  ] },
+  { id: 'pp-05-competencia-criminal', num: 5, materia: 'pp', title: 'Competência criminal', edital: '2.2.5', editalText: 'CPP arts. 69-91. Foro por prerrogativa. Conexão e continência.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Critérios de competência (lugar, natureza, prevenção, prerrogativa de função)', 'Competência da Justiça Federal × Estadual', 'Foro por prerrogativa de função (STF/STJ)', 'Conexão (CPP art. 76) e continência (art. 77)', 'Prorrogação e modificação', 'Conflito de competência'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **COMPETÊNCIA CRIMINAL** define qual juízo é apto a julgar. Critérios constitucionais (Justiça Federal × Estadual) e legais (lugar, natureza, etc.). CPP 69-91. **STF AP 937 (2018)** restringiu o foro por prerrogativa.' }
+      ]
+    },
+    {
+      h: 'Critérios e competências',
+      items: [
+        { type: 'h', text: 'Critérios (CPP 69)' },
+        { type: 'list', items: [
+          'LUGAR DA INFRAÇÃO (CPP 70 — teoria do RESULTADO, diferente do penal material que adota ubiquidade)',
+          'DOMICÍLIO DO RÉU (residual, CPP 72)',
+          'NATUREZA DA INFRAÇÃO',
+          'DISTRIBUIÇÃO E CONEXÃO/CONTINÊNCIA',
+          'PRERROGATIVA DE FUNÇÃO'
+        ]},
+
+        { type: 'h', text: 'Justiça Federal × Estadual' },
+        { type: 'list', items: [
+          '**JUSTIÇA FEDERAL (CF 109):** crimes contra bens, serviços ou interesses da União; tráfico internacional; crimes em embarcações/aeronaves; crimes contra a organização do trabalho; crimes políticos; etc.',
+          '**JUSTIÇA ESTADUAL:** competência residual'
+        ]},
+
+        { type: 'h', text: 'Foro por prerrogativa (STF AP 937, 2018)' },
+        { type: 'p', text: '**Restringido:** foro só se aplica a crimes praticados DURANTE e EM RAZÃO do cargo. Antes era amplo. Pacote Anticrime e jurisprudência STF moldaram a interpretação.' }
+      ]
+    },
+    {
+      h: 'Conexão e continência (CPP 76-77)',
+      items: [
+        { type: 'list', items: [
+          '**CONEXÃO (76):** intersubjetiva (mesma autoria), objetiva (mesmo fato), instrumental (uma é prova da outra)',
+          '**CONTINÊNCIA (77):** união de pessoas (concurso) ou de causas (continuada)',
+          'Efeito: REUNIÃO DE PROCESSOS (CPP 78)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Lugar do crime no CPP: TEORIA DO RESULTADO (CPP 70). ≠ CP material: ubiquidade.**' },
+        { type: 'box', kind: 'macete', text: '**STF AP 937 (2018): foro por prerrogativa restringido a crimes praticados DURANTE e EM RAZÃO do cargo.**' },
+        { type: 'box', kind: 'macete', text: '**CONEXÃO (CPP 76) e CONTINÊNCIA (77) → REUNIÃO de processos.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 2 (aplicação da lei):** lugar do crime para o CP é UBIQUIDADE; para o CPP é RESULTADO.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** STF/STJ — competências constitucionais.' }
+      ]
+    }
+  ] },
+  { id: 'pp-06-provas', num: 6, materia: 'pp', title: 'Provas no processo penal', edital: '2.2.6', editalText: 'Princípios. Meios de prova. Provas ilícitas. Lei 13.964/19.', size: 'Grande', schedule: 'Mês 13', advantage: null, outline: ['Princípios da prova (livre convencimento motivado, contraditório)', 'Ônus da prova (CPP art. 156)', 'Meios de prova (perícia, interrogatório, confissão, testemunhas, documentos, busca e apreensão)', 'Provas ilícitas (CF art. 5º LVI; CPP art. 157)', 'Teoria dos frutos da árvore envenenada', 'Limites — descoberta inevitável, fonte independente', 'Cadeia de custódia da prova', 'Colaboração premiada (Lei 12.850/13)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **PROVA NO PROCESSO PENAL** é instrumento essencial para a busca da verdade processual. CF 5º LVI veda PROVAS ILÍCITAS. CPP 157: vedação + frutos da árvore envenenada (com exceções: descoberta inevitável, fonte independente).' }
+      ]
+    },
+    {
+      h: 'Princípios e ônus',
+      items: [
+        { type: 'list', items: [
+          '**LIVRE CONVENCIMENTO MOTIVADO** (CPP 155 — sistema do livre convencimento motivado/persuasão racional)',
+          '**CONTRADITÓRIO** (CF 5º LV)',
+          '**ÔNUS DA PROVA (CPP 156):** acusação prova fato constitutivo; defesa prova excludentes',
+          '**IN DUBIO PRO REO:** dúvida = absolvição'
+        ]}
+      ]
+    },
+    {
+      h: 'Meios de prova',
+      items: [
+        { type: 'list', items: [
+          'PERÍCIA (CPP 158-184)',
+          'INTERROGATÓRIO do acusado (CPP 185-196)',
+          'CONFISSÃO (CPP 197-200)',
+          'TESTEMUNHAS (CPP 202-225)',
+          'DOCUMENTOS (CPP 231-238)',
+          'BUSCA E APREENSÃO (CPP 240-250)',
+          'INTERCEPTAÇÃO TELEFÔNICA (Lei 9.296/96 — exige autorização judicial)',
+          'INFILTRAÇÃO POLICIAL (Lei 12.850/13)',
+          'COLABORAÇÃO PREMIADA (Lei 12.850/13)'
+        ]}
+      ]
+    },
+    {
+      h: 'Provas ilícitas (CF 5º LVI; CPP 157)',
+      items: [
+        { type: 'h', text: 'Vedação' },
+        { type: 'p', text: 'CF 5º LVI: "são inadmissíveis, no processo, as provas obtidas por meios ilícitos". Implica DESENTRANHAMENTO. CPP 157: provas ilícitas e DERIVADAS (frutos da árvore envenenada).' },
+
+        { type: 'h', text: 'Frutos da árvore envenenada' },
+        { type: 'list', items: [
+          'Provas DERIVADAS de prova ilícita são também ilícitas',
+          '**EXCEÇÕES:** descoberta INEVITÁVEL, fonte INDEPENDENTE, atenuação do nexo'
+        ]},
+
+        { type: 'h', text: 'Provas ilícitas em favor do réu (pro reo)' },
+        { type: 'p', text: 'Doutrina e STF admitem prova obtida ilicitamente desde que para PROVAR INOCÊNCIA (princípio da proporcionalidade). Excepcionalmente.' }
+      ]
+    },
+    {
+      h: 'Colaboração premiada (Lei 12.850/13)',
+      items: [
+        { type: 'list', items: [
+          'Acordo entre MP e investigado/réu',
+          'Réu COLABORA EFETIVAMENTE com a investigação',
+          'Em troca, recebe BENEFÍCIO (perdão judicial, redução, substituição)',
+          'STF: NÃO é meio de prova autônomo — é MEIO DE OBTENÇÃO de prova'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Provas ilícitas: CF 5º LVI + CPP 157 — INADMISSÍVEIS.** Frutos da árvore envenenada.' },
+        { type: 'box', kind: 'macete', text: '**Exceções aos frutos: DESCOBERTA INEVITÁVEL · FONTE INDEPENDENTE · ATENUAÇÃO DO NEXO.**' },
+        { type: 'box', kind: 'macete', text: '**Sistema brasileiro: LIVRE CONVENCIMENTO MOTIVADO (persuasão racional) — CPP 155.**' },
+        { type: 'box', kind: 'macete', text: '**Colaboração premiada (Lei 12.850/13): MEIO DE OBTENÇÃO de prova, não meio de prova autônomo.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Provas ilícitas pro reo: admitidas excepcionalmente em favor da defesa (proporcionalidade).**' },
+        { type: 'box', kind: 'atencao', text: '**Confissão isolada NÃO basta para condenação — precisa de outros elementos (CPP 197).**' },
+        { type: 'box', kind: 'atencao', text: '**Interceptação telefônica EXIGE autorização judicial (Lei 9.296/96 + reserva de jurisdição).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** vedação a provas ilícitas (CF 5º LVI).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 2 (inquérito):** cadeia de custódia (CPP 158-A).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13 (legislação especial):** colaboração premiada — Lei 12.850/13.' }
+      ]
+    }
+  ] },
+  { id: 'pp-07-prisao-cautelares', num: 7, materia: 'pp', title: 'Prisão e medidas cautelares', edital: '2.2.7', editalText: 'CPP arts. 282-350. Lei 12.403/11. Lei 13.964/19. Audiência de custódia.', size: 'Grande', schedule: 'Mês 13-14', advantage: null, outline: ['Prisão em flagrante', 'Prisão temporária (Lei 7.960/89)', 'Prisão preventiva (CPP arts. 311-316)', 'Audiência de custódia (CPP art. 310)', 'Liberdade provisória', 'Medidas cautelares diversas (CPP art. 319)', 'Reanálise periódica (CPP art. 316 § único)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **PRISÃO** no Brasil é, em regra, EXCEÇÃO. CF 5º LXI: ninguém será preso senão em flagrante, por ordem escrita e fundamentada de juiz. Modalidades cautelares: flagrante, temporária, preventiva. **AUDIÊNCIA DE CUSTÓDIA** (CPP 310 — Pacote Anticrime) reforça controle. **MEDIDAS CAUTELARES DIVERSAS** (CPP 319) — alternativas à prisão.' }
+      ]
+    },
+    {
+      h: 'Modalidades de prisão',
+      items: [
+        { type: 'h', text: 'Prisão em flagrante (CPP 301-310)' },
+        { type: 'list', items: [
+          'Em qualquer caso, "estiver cometendo" ou "acabou de cometer" o crime',
+          '4 espécies: PRÓPRIO, IMPRÓPRIO (perseguido), PRESUMIDO (encontrado), DIFERIDO (delegado retarda — Lei 12.850/13)',
+          'COMUNICAÇÃO em 24h ao juiz, MP, defensoria, família',
+          'Audiência de custódia em 24h (CPP 310)'
+        ]},
+
+        { type: 'h', text: 'Prisão temporária (Lei 7.960/89)' },
+        { type: 'list', items: [
+          'Para crimes específicos (rol taxativo, art. 1º III + Lei 8.072/90 art. 2º §3º)',
+          'PRAZO: 5 dias, prorrogável por mais 5 (10 total) · CRIMES HEDIONDOS: 30 + 30 dias',
+          'Decretada na FASE INVESTIGATÓRIA · Apenas a requerimento do MP ou representação da autoridade policial'
+        ]},
+
+        { type: 'h', text: 'Prisão preventiva (CPP 311-316)' },
+        { type: 'list', items: [
+          'Pode ser decretada em qualquer fase (após o IP)',
+          '**Pressupostos:** prova da existência do crime + indícios suficientes de autoria',
+          '**Fundamentos (CPP 312):** garantia da ORDEM PÚBLICA · garantia da ORDEM ECONÔMICA · conveniência da INSTRUÇÃO CRIMINAL · APLICAÇÃO da LEI PENAL',
+          '**Pacote Anticrime — CPP 316 § único:** REANÁLISE OBRIGATÓRIA a cada 90 dias'
+        ]}
+      ]
+    },
+    {
+      h: 'Audiência de custódia e medidas cautelares diversas',
+      items: [
+        { type: 'h', text: 'Audiência de custódia (CPP 310)' },
+        { type: 'p', text: '**24 HORAS** após a prisão. Apresentação do preso ao juiz, com MP e defesa. Decisão: relaxa (ilegal), converte em preventiva (legal mas necessária), concede liberdade provisória ou aplica cautelares diversas. Marco protetivo importante.' },
+
+        { type: 'h', text: 'Medidas cautelares diversas (CPP 319)' },
+        { type: 'list', items: [
+          'COMPARECIMENTO periódico em juízo',
+          'PROIBIÇÃO de acesso a determinados lugares',
+          'PROIBIÇÃO de manter contato com determinada pessoa',
+          'PROIBIÇÃO de ausentar-se da Comarca',
+          'RECOLHIMENTO domiciliar',
+          'SUSPENSÃO do exercício de função pública',
+          'INTERNAÇÃO provisória (inimputável)',
+          'FIANÇA',
+          'MONITORAMENTO eletrônico'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Pressupostos da preventiva: PROVA do crime + INDÍCIOS de autoria.**' },
+        { type: 'box', kind: 'macete', text: '**Fundamentos (CPP 312): ORDEM PÚBLICA · ORDEM ECONÔMICA · INSTRUÇÃO · LEI PENAL.**' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime: REANÁLISE da preventiva a cada 90 DIAS (CPP 316 § único).**' },
+        { type: 'box', kind: 'macete', text: '**Audiência de CUSTÓDIA: 24h (CPP 310).** Marco protetivo.' },
+        { type: 'box', kind: 'macete', text: '**Temporária: 5+5 (regra) · 30+30 (hediondo).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reanálise da preventiva: 90 dias. Antes do Pacote Anticrime, não havia esse prazo expresso.**' },
+        { type: 'box', kind: 'atencao', text: '**Temporária: ROL TAXATIVO (Lei 7.960/89). Não cabe em qualquer crime.**' },
+        { type: 'box', kind: 'atencao', text: '**STF mudou entendimento sobre presunção de inocência (2019, ADC 43, 44, 54): execução só após trânsito em julgado.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** CF 5º LXI, LXIV, LXV.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 11 (LEP):** prisão provisória × pena.' }
+      ]
+    }
+  ] },
+  { id: 'pp-08-procedimentos', num: 8, materia: 'pp', title: 'Procedimentos comum e especiais', edital: '2.2.8', editalText: 'Ordinário, sumário, sumaríssimo. Especiais. Citação e defesa preliminar.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Procedimento comum (ordinário, sumário, sumaríssimo)', 'Citação (real, hora certa, edital)', 'Resposta à acusação (CPP art. 396)', 'Audiência de instrução e julgamento', 'Procedimentos especiais (júri, crimes funcionais, drogas, JECrim)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PROCEDIMENTOS** dividem-se em COMUM (ordinário, sumário, sumaríssimo) e ESPECIAIS (Júri, crimes funcionais, drogas, JECrim, etc.). Critério: PENA MÁXIMA cominada.' }
+      ]
+    },
+    {
+      h: 'Procedimento comum',
+      items: [
+        { type: 'list', items: [
+          '**ORDINÁRIO:** pena máxima ≥ 4 anos. CPP arts. 394-405',
+          '**SUMÁRIO:** pena máxima < 4 anos. CPP arts. 531-538',
+          '**SUMARÍSSIMO:** infrações de menor potencial ofensivo (≤ 2 anos). Lei 9.099/95 (JECrim)'
+        ]}
+      ]
+    },
+    {
+      h: 'Citação e defesa preliminar',
+      items: [
+        { type: 'list', items: [
+          '**CITAÇÃO REAL** (pessoal — CPP 351)',
+          '**CITAÇÃO POR HORA CERTA** (CPP 362 — Lei 11.719/08)',
+          '**CITAÇÃO POR EDITAL** (CPP 361)',
+          '**RESPOSTA À ACUSAÇÃO** (CPP 396 — pelo defensor, em 10 dias). Permite preliminares e mérito',
+          '**AUDIÊNCIA UNA** (CPP 400 — Pacote Anticrime): instrução em uma audiência'
+        ]}
+      ]
+    },
+    {
+      h: 'Procedimentos especiais',
+      items: [
+        { type: 'list', items: [
+          '**JÚRI** (CPP 406-497): crimes dolosos contra a vida',
+          '**CRIMES FUNCIONAIS** (CPP 513-518): defesa preliminar',
+          '**DROGAS** (Lei 11.343/06)',
+          '**JECrim** (Lei 9.099/95): transação penal, suspensão condicional do processo',
+          '**Maria da Penha** (Lei 11.340/06): rito específico'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Procedimento comum: ORDINÁRIO (≥4) · SUMÁRIO (<4) · SUMARÍSSIMO (≤2 — JECrim).** Pela pena máxima.' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime: AUDIÊNCIA UNA de instrução (CPP 400).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 9 (Júri):** procedimento especial bifásico.' }
+      ]
+    }
+  ] },
+  { id: 'pp-09-tribunal-juri', num: 9, materia: 'pp', title: 'Tribunal do Júri', edital: '2.2.9', editalText: 'CPP arts. 406-497. Procedimento bifásico (judicium accusationis e causae).', size: 'Médio', schedule: 'Mês 14', advantage: null, outline: ['Princípios constitucionais (CF art. 5º XXXVIII)', 'Competência (crimes dolosos contra a vida)', 'Judicium accusationis — pronúncia, impronúncia, absolvição sumária, desclassificação', 'Preparação para o plenário', 'Sessão de julgamento', 'Quesitação', 'Recursos (apelação, protesto por novo júri — extinto)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **TRIBUNAL DO JÚRI** é instituição clássica do processo penal brasileiro (CF 5º XXXVIII). Competência para crimes DOLOSOS CONTRA A VIDA (homicídio, infanticídio, aborto, induzimento a suicídio). PROCEDIMENTO BIFÁSICO: judicium accusationis (pronúncia) + judicium causae (plenário).' }
+      ]
+    },
+    {
+      h: 'Princípios constitucionais (CF 5º XXXVIII)',
+      items: [
+        { type: 'list', items: [
+          'PLENITUDE da DEFESA',
+          'SIGILO das VOTAÇÕES',
+          'SOBERANIA dos VEREDICTOS',
+          'COMPETÊNCIA para crimes DOLOSOS contra a vida'
+        ]}
+      ]
+    },
+    {
+      h: 'Procedimento bifásico',
+      items: [
+        { type: 'h', text: '1ª Fase — Judicium Accusationis (CPP 406-421)' },
+        { type: 'list', items: [
+          'Decisão do juiz singular ao final da 1ª fase: PRONÚNCIA (passa para plenário) · IMPRONÚNCIA · ABSOLVIÇÃO SUMÁRIA · DESCLASSIFICAÇÃO',
+          'PRONÚNCIA: requer indícios de autoria + materialidade · NÃO pode ser excessiva (vedação à eloquência acusatória)'
+        ]},
+
+        { type: 'h', text: '2ª Fase — Judicium Causae (CPP 422-497)' },
+        { type: 'list', items: [
+          'PLENÁRIO de julgamento',
+          'Conselho de Sentença: 7 jurados',
+          'QUESITOS: votação SECRETA',
+          'Sentença pelo juiz-presidente conforme veredicto'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 princípios do Júri (CF 5º XXXVIII): PLENITUDE de defesa · SIGILO · SOBERANIA · COMPETÊNCIA crimes vida.**' },
+        { type: 'box', kind: 'macete', text: '**Procedimento BIFÁSICO: pronúncia → plenário.**' },
+        { type: 'box', kind: 'macete', text: '**Latrocínio NÃO é crime contra vida (Súm. 603 STF) — vai à Justiça Comum.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 10:** crimes contra a vida.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 11:** latrocínio NÃO é Júri.' }
+      ]
+    }
+  ] },
+  { id: 'pp-10-sentenca-recursos-impugnacoes', num: 10, materia: 'pp', title: 'Sentença, recursos e ações de impugnação', edital: '2.2.10', editalText: 'Sentença e seus efeitos. Recursos do CPP. HC, RvC, MS criminal.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Sentença (absolutória, condenatória, terminativa)', 'Efeitos da condenação (CP arts. 91-92)', 'Princípios recursais', 'Recursos em espécie (apelação, RESE, agravo, embargos, especial, extraordinário)', 'Habeas corpus (CPP arts. 647-667)', 'Revisão criminal (CPP arts. 621-631)', 'Mandado de segurança em matéria penal'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico denso. **SENTENÇA** = ato decisório que põe fim ao processo. Pode ser ABSOLUTÓRIA, CONDENATÓRIA, TERMINATIVA. **RECURSOS:** apelação, RESE, agravo, embargos. **AÇÕES DE IMPUGNAÇÃO** (autônomas): HC, RvC (revisão criminal), MS criminal.' }
+      ]
+    },
+    {
+      h: 'Sentença e efeitos',
+      items: [
+        { type: 'list', items: [
+          'ABSOLUTÓRIA (CPP 386 — 7 incisos): inexistência do fato; não constitui crime; etc.',
+          'CONDENATÓRIA: efeitos do CP 91-92 (perda de cargo, indignidade para sucessão, etc.)',
+          'TERMINATIVA: encerra sem julgamento de mérito (extinção da punibilidade, decadência, perempção)'
+        ]}
+      ]
+    },
+    {
+      h: 'Recursos',
+      items: [
+        { type: 'h', text: 'Princípios recursais' },
+        { type: 'list', items: [
+          'TAXATIVIDADE (CPP 593-647)',
+          'UNIRRECORRIBILIDADE',
+          'FUNGIBILIDADE (CPP 579) — admite recurso errado se não há má-fé',
+          'NON REFORMATIO IN PEJUS (CPP 617): recurso da defesa não pode prejudicar'
+        ]},
+
+        { type: 'h', text: 'Recursos em espécie' },
+        { type: 'list', items: [
+          '**APELAÇÃO** (CPP 593-606): contra sentença final',
+          '**RESE — RECURSO EM SENTIDO ESTRITO** (CPP 581): contra decisões interlocutórias',
+          '**AGRAVO** em execução penal (LEP 197)',
+          '**EMBARGOS DE DECLARAÇÃO**',
+          '**ESPECIAL** (STJ) e **EXTRAORDINÁRIO** (STF)',
+          '**REVISÃO CRIMINAL** (CPP 621-631) — somente em favor do réu, após trânsito',
+          '**HC** (CPP 647-667) — proteção da liberdade'
+        ]}
+      ]
+    },
+    {
+      h: 'Ações de impugnação autônomas',
+      items: [
+        { type: 'list', items: [
+          '**HABEAS CORPUS** (CPP 647-667): liberdade de locomoção. Impugna prisão ilegal',
+          '**REVISÃO CRIMINAL** (CPP 621-631): somente PRO REO, após trânsito em julgado. Hipóteses: sentença contrária à lei, prova falsa, fato novo',
+          '**MS CRIMINAL**: contra ato judicial em matéria penal não recorrível por outra via'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Recursos: APELAÇÃO (sentença final) · RESE (interlocutórias) · AGRAVO (execução).**' },
+        { type: 'box', kind: 'macete', text: '**Revisão criminal: SOMENTE PRO REO, após trânsito (CPP 621).**' },
+        { type: 'box', kind: 'macete', text: '**Reformatio in pejus VEDADA em recurso da defesa (CPP 617).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** HC e remédios constitucionais.' }
+      ]
+    }
+  ] },
+  { id: 'pp-11-execucao-penal', num: 11, materia: 'pp', title: 'Execução penal (LEP)', edital: '2.2.11', editalText: 'Lei 7.210/84. Direitos e deveres do preso. Progressão. Livramento. Falta grave.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Princípios da execução penal', 'Órgãos da execução (juízo, MP, Conselho, etc.)', 'Direitos e deveres do preso', 'Trabalho e remição', 'Progressão de regime (LEP art. 112 — Lei 13.964/19)', 'Livramento condicional', 'Faltas (leves, médias, graves)', 'RDD (Regime Disciplinar Diferenciado)', 'Súmulas Vinculantes 26 e 56'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **EXECUÇÃO PENAL** (Lei 7.210/84 — LEP) disciplina o cumprimento da pena. **Pacote Anticrime (Lei 13.964/19)** reescreveu o art. 112 (progressão). Princípios: RESSOCIALIZAÇÃO, INDIVIDUALIZAÇÃO, HUMANIDADE, JURISDICIONALIDADE.' }
+      ]
+    },
+    {
+      h: 'Aspectos centrais',
+      items: [
+        { type: 'h', text: 'Órgãos da execução (LEP arts. 61-64)' },
+        { type: 'list', items: [
+          'JUÍZO da Execução · MP (atua em todos os atos) · Conselho Penitenciário · CNPC · Departamento Penitenciário · Patronato · Conselho da Comunidade · Defensoria Pública'
+        ]},
+
+        { type: 'h', text: 'Direitos do preso (LEP 41)' },
+        { type: 'list', items: [
+          'Alimentação suficiente, vestuário, atendimento médico, igualdade de tratamento, exercício profissional, contato com mundo exterior, etc.'
+        ]},
+
+        { type: 'h', text: 'Trabalho e remição' },
+        { type: 'list', items: [
+          'TRABALHO obrigatório (LEP 31). Remunerado',
+          'REMIÇÃO: 3 dias trabalhados = 1 dia de pena (art. 126). 1 dia estudo (12h em 3 dias) = 1 dia',
+          'Súmula 562 STJ: prática de falta grave INTERROMPE prazo da remição'
+        ]},
+
+        { type: 'h', text: 'Progressão (LEP 112 — Pacote Anticrime)' },
+        { type: 'list', items: [
+          '16% (primário sem violência)',
+          '20% (primário com violência ou hediondo sem morte)',
+          '25% (reincidente sem violência)',
+          '30% (reincidente em hediondo sem morte)',
+          '40% (primário em hediondo com morte)',
+          '50% (reincidente em hediondo com morte)',
+          '70% (chefe de organização criminosa armada)'
+        ]},
+
+        { type: 'h', text: 'Faltas e RDD' },
+        { type: 'list', items: [
+          'Faltas: LEVES, MÉDIAS, GRAVES (LEP 50)',
+          'GRAVE: interrompe prazo, regredir regime, perda de remição (1/3)',
+          '**RDD (Regime Disciplinar Diferenciado — LEP 52):** crime hediondo, falta grave que ponha em risco ordem ou sociedade. Até 720 dias (renováveis)',
+          'Súm. Vinculante 56 STF: falta de vagas em regime adequado autoriza prisão domiciliar'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LEP é Lei 7.210/84. Pacote Anticrime (Lei 13.964/19) reescreveu o art. 112 (progressão).**' },
+        { type: 'box', kind: 'macete', text: '**Remição: 3:1 (trabalho) ou 12h:3 dias estudo:1 dia pena.**' },
+        { type: 'box', kind: 'macete', text: '**RDD (LEP 52): até 720 dias, renováveis. Falta grave que põe em risco a ordem.**' },
+        { type: 'box', kind: 'macete', text: '**SV 56 STF: falta de vagas autoriza domiciliar.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8:** dosimetria + progressão.' }
+      ]
+    }
+  ] },
+  { id: 'pp-12-leis-especiais', num: 12, materia: 'pp', title: 'Leis especiais (Org. Criminosa, Drogas, JECrim, Maria da Penha)', edital: '2.2.12', editalText: 'Procedimentos especiais. Colaboração premiada. Audiência una.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Lei 12.850/13 — Org. Criminosa (procedimento, colaboração premiada, ações controladas)', 'Lei 11.343/06 — Drogas (procedimento)', 'Lei 9.099/95 — JECrim (transação, suspensão condicional do processo)', 'Lei 11.340/06 — Maria da Penha (medidas protetivas)', 'Lei 9.296/96 — Interceptação telefônica', 'Pacote Anticrime — alterações processuais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico que cobre os procedimentos especiais de leis penais com normas processuais próprias. Para o concurso: dominar JECrim (Lei 9.099/95 — transação penal, suspensão condicional do processo), Org. Criminosa (Lei 12.850/13 — colaboração premiada), Maria da Penha (rito específico, vedação ao JECrim), Lei de Drogas, Lei de Interceptação.' }
+      ]
+    },
+    {
+      h: 'JECrim (Lei 9.099/95)',
+      items: [
+        { type: 'list', items: [
+          'INFRAÇÕES de menor potencial ofensivo: contravenções + crimes com pena MÁXIMA até 2 anos',
+          '**TRANSAÇÃO PENAL (art. 76):** acordo MP-réu sobre pena restritiva ou multa, antes da denúncia',
+          '**SUSPENSÃO CONDICIONAL DO PROCESSO (art. 89 — sursis processual):** pena MÍNIMA até 1 ano. MP propõe suspensão por 2-4 anos. Réu cumpre condições. Cumprido = extingue punibilidade'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 12.850/13 — Organização Criminosa',
+      items: [
+        { type: 'list', items: [
+          'Procedimento próprio (audiência una)',
+          '**COLABORAÇÃO PREMIADA (arts. 4º-7º):** acordo, benefícios, homologação judicial',
+          '**INFILTRAÇÃO POLICIAL (10-14)**',
+          '**AÇÃO CONTROLADA**',
+          'Pacote Anticrime alterou alguns dispositivos'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 11.340/06 — Maria da Penha',
+      items: [
+        { type: 'list', items: [
+          'Violência DOMÉSTICA E FAMILIAR contra MULHER',
+          '**JECrim VEDADO** (art. 41) — não se aplica',
+          'MEDIDAS PROTETIVAS DE URGÊNCIA (arts. 22-24)',
+          'Procedimento especial nos Juizados de Violência Doméstica',
+          'Crimes em contexto doméstico têm rito ordinário, não JECrim'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 11.343/06 — Drogas',
+      items: [
+        { type: 'list', items: [
+          'TRÁFICO (33): hediondo (Lei 8.072/90)',
+          'TRÁFICO PRIVILEGIADO (33 §4º): NÃO hediondo (STF HC 118.533)',
+          'PORTE para uso (28): NÃO há prisão. Penas alternativas',
+          'Procedimento especial: arts. 50-59'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 9.296/96 — Interceptação telefônica',
+      items: [
+        { type: 'list', items: [
+          'Cláusula de RESERVA DE JURISDIÇÃO — exige autorização judicial (CF 5º XII)',
+          'Crimes punidos com RECLUSÃO',
+          'Prazo: 15 dias, prorrogáveis sucessivamente',
+          'Indispensável para a investigação criminal',
+          'Conversa criminosa flagrada não é interceptação (encontro fortuito)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**JECrim: até 2 anos pena máxima. Transação (76) · Sursis processual (89 — pena mínima até 1 ano).**' },
+        { type: 'box', kind: 'macete', text: '**Maria da Penha: VEDADO o JECrim (art. 41).**' },
+        { type: 'box', kind: 'macete', text: '**Interceptação telefônica: RESERVA DE JURISDIÇÃO + RECLUSÃO + 15 dias prorrogáveis.**' },
+        { type: 'box', kind: 'macete', text: '**Tráfico privilegiado NÃO é hediondo (STF HC 118.533).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13:** legislação especial (visão material).' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO MATERIAL COLETIVO (12) ============
   { id: 'colmat-01-direitos-humanos', num: 1, materia: 'colmat', title: 'Direitos humanos e fundamentais', edital: '4.1.1', editalText: 'Tratados internacionais de DH. Sistemas global e interamericano. CF/88.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: null, outline: ['Conceito e dimensões dos direitos humanos', 'Sistema global (ONU)', 'Sistema interamericano (CIDH, Corte IDH)', 'Tratados internacionais e CF (art. 5º §§ 2º, 3º)', 'Mínimo existencial e reserva do possível', 'Eficácia dos direitos fundamentais'], sections: [
@@ -7052,16 +11926,1148 @@ topics: [
       ]
     }
   ] },
-  { id: 'colmat-03-estatuto-idoso', num: 3, materia: 'colmat', title: 'Estatuto do Idoso e Estatuto da Pessoa Idosa', edital: '4.1.3', editalText: 'Lei 10.741/03 (atual Estatuto da Pessoa Idosa). Direitos, prioridade, tutela.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios e direitos fundamentais', 'Prioridade absoluta', 'Atendimento à saúde (SUS)', 'BPC/LOAS', 'Violência contra pessoa idosa', 'Crimes do estatuto', 'Medidas protetivas e atuação do MP'], sections: [] },
-  { id: 'colmat-04-pessoa-com-deficiencia', num: 4, materia: 'colmat', title: 'Pessoa com Deficiência (Lei 13.146/15)', edital: '4.1.4', editalText: 'LBI. Convenção de NY (status de EC). Capacidade civil. Acessibilidade.', size: 'Médio', schedule: null, advantage: null, outline: ['Convenção de NY (Decreto 6.949/09 — status de EC)', 'Lei 13.146/15 (LBI)', 'Capacidade civil (alterações no CC arts. 3º e 4º)', 'Tomada de decisão apoiada (CC art. 1.783-A)', 'Curatela compartilhada', 'Acessibilidade', 'Inclusão escolar e profissional', 'BPC à PCD'], sections: [] },
-  { id: 'colmat-05-educacao', num: 5, materia: 'colmat', title: 'Educação', edital: '4.1.5', editalText: 'CF arts. 205-214. LDB (9.394/96). FUNDEB. Educação especial e inclusiva.', size: 'Médio', schedule: null, advantage: null, outline: ['Direito à educação (CF arts. 205-214)', 'LDB (Lei 9.394/96)', 'FUNDEB (EC 108/20)', 'Educação especial e inclusiva', 'Vagas em creche — direito subjetivo (STJ Tema 548)', 'Educação domiciliar', 'Atuação do MP (vagas, reserva de vagas, acompanhamento)'], sections: [] },
-  { id: 'colmat-06-saude', num: 6, materia: 'colmat', title: 'Saúde (SUS)', edital: '4.1.6', editalText: 'CF arts. 196-200. Lei 8.080/90. Lei 8.142/90. Judicialização.', size: 'Médio', schedule: null, advantage: null, outline: ['CF arts. 196-200 — direito à saúde', 'Lei 8.080/90 — SUS (princípios, organização)', 'Lei 8.142/90 — controle social', 'Judicialização da saúde — Tema 793 STF', 'NATs e Resolução CNJ 238', 'Medicamentos (Tema 6, Tema 793)', 'Plano de saúde (Lei 9.656/98)'], sections: [] },
-  { id: 'colmat-07-consumidor', num: 7, materia: 'colmat', title: 'Direito do Consumidor (CDC)', edital: '4.1.7', editalText: 'Lei 8.078/90. Conceito de consumidor. Vícios e fato. Práticas abusivas. Coletivo.', size: 'Grande', schedule: null, advantage: null, outline: ['Princípios e conceito de consumidor (CDC arts. 2º, 17, 29)', 'Fornecedor, produto e serviço', 'Direitos básicos (CDC art. 6º)', 'Responsabilidade pelo fato e pelo vício', 'Práticas comerciais (oferta, publicidade, abusiva, cobrança)', 'Cláusulas abusivas (CDC art. 51)', 'Tutela individual e coletiva', 'Convenção coletiva de consumo'], sections: [] },
-  { id: 'colmat-08-meio-ambiente', num: 8, materia: 'colmat', title: 'Meio Ambiente', edital: '4.1.8', editalText: 'CF art. 225. Lei 6.938/81. PNMA. Princípios. Tutela civil, administrativa, penal.', size: 'Grande', schedule: null, advantage: null, outline: ['CF art. 225 — meio ambiente ecologicamente equilibrado', 'Princípios (precaução, prevenção, poluidor-pagador, desenvolvimento sustentável)', 'Lei 6.938/81 — PNMA e SISNAMA', 'Responsabilidade civil ambiental — objetiva', 'Tríplice responsabilização (civil, adm., penal)', 'Lei 9.605/98 — crimes ambientais', 'Áreas de preservação permanente e reserva legal (Lei 12.651/12)', 'Atuação do MP (TAC, ACP)'], sections: [] },
-  { id: 'colmat-09-direito-urbanistico', num: 9, materia: 'colmat', title: 'Direito Urbanístico', edital: '4.1.9', editalText: 'CF arts. 182-183. Estatuto da Cidade (Lei 10.257/01). Plano diretor. IPTU progressivo.', size: 'Médio', schedule: null, advantage: null, outline: ['Política urbana (CF arts. 182-183)', 'Estatuto da Cidade (Lei 10.257/01)', 'Plano diretor', 'Instrumentos (IPTU progressivo, edificação compulsória, desapropriação-sanção)', 'Usucapião urbana', 'Regularização fundiária (Lei 13.465/17 — REURB)', 'Atuação do MP'], sections: [] },
-  { id: 'colmat-10-patrimonio-cultural', num: 10, materia: 'colmat', title: 'Patrimônio Cultural e Histórico', edital: '4.1.10', editalText: 'CF art. 216. DL 25/37. Tombamento, registro, inventário.', size: 'Pequeno', schedule: null, advantage: null, outline: ['CF arts. 215-216 — direitos culturais', 'DL 25/37 — tombamento', 'Registro de bens imateriais', 'Patrimônio arqueológico', 'IPHAN', 'Tutela coletiva do patrimônio cultural'], sections: [] },
-  { id: 'colmat-11-improbidade-material', num: 11, materia: 'colmat', title: 'Improbidade administrativa (material)', edital: '4.1.11', editalText: 'Lei 8.429/92 com Lei 14.230/21. Atos. Sanções. Sujeitos.', size: 'Médio', schedule: null, advantage: null, outline: ['Sujeitos (ativo — agente público, particular cooperando; passivo)', 'Atos de improbidade — espécies', 'Necessidade de dolo específico (Lei 14.230/21)', 'Sanções (CF art. 37 §4º + LIA)', 'ANPC — Acordo de Não Persecução Cível', 'Prescrição', 'Concomitância com outras esferas'], sections: [] },
-  { id: 'colmat-12-comunidades-tradicionais', num: 12, materia: 'colmat', title: 'Direitos das comunidades tradicionais', edital: '4.1.12', editalText: 'Indígenas, quilombolas, povos tradicionais. CF arts. 231-232. Convenção 169 OIT.', size: 'Médio', schedule: null, advantage: null, outline: ['CF arts. 231-232 — indígenas', 'Demarcação de terras indígenas', 'Marco temporal — STF Tema 1031', 'Convenção 169 OIT (consulta livre, prévia e informada)', 'Quilombolas (CF ADCT art. 68 + Decreto 4.887/03)', 'Comunidades tradicionais (povos extrativistas, ribeirinhos, etc.)', 'Atuação do MPF e MP estadual'], sections: [] },
+  { id: 'colmat-03-estatuto-idoso', num: 3, materia: 'colmat', title: 'Estatuto do Idoso e Estatuto da Pessoa Idosa', edital: '4.1.3', editalText: 'Lei 10.741/03 (atual Estatuto da Pessoa Idosa). Direitos, prioridade, tutela.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — atende denúncias de violência contra idosos via IC/ACP).', outline: ['Princípios e direitos fundamentais', 'Prioridade absoluta', 'Atendimento à saúde (SUS)', 'BPC/LOAS', 'Violência contra pessoa idosa', 'Crimes do estatuto', 'Medidas protetivas e atuação do MP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Lei 10.741/2003** — originalmente "Estatuto do Idoso", **renomeada pela Lei 14.423/2022 como "Estatuto da Pessoa Idosa"** — é o microssistema de tutela dos direitos da população com **60 anos ou mais** (art. 1º). Combina elementos de direitos fundamentais, direito civil (curatela, alimentos), direito penal (crimes específicos), processual (prioridade) e administrativo (políticas públicas).' },
+        { type: 'p', text: 'Inspira-se na **doutrina da PROTEÇÃO INTEGRAL** (assemelhada à do ECA, mas com adaptações: a pessoa idosa é, em regra, plenamente capaz). Seu vetor central é a **PRIORIDADE ABSOLUTA** (art. 3º, replicada do ECA art. 4º), com adaptação para considerar a vulnerabilidade etária. Atribui também à **família, à sociedade e ao Estado** a tutela compartilhada (art. 3º).' },
+        { type: 'p', text: 'Para o concurso, atenção a: (a) **prioridade absoluta** e suas dimensões (atendimento, tramitação processual); (b) **direito à saúde** (SUS, medicamentos, geriatria); (c) **BPC/LOAS** — benefício assistencial; (d) **violência** — modalidades, denúncia, medidas protetivas; (e) **crimes do estatuto** (rol amplo); (f) **atuação do MP** — IC, ACP, intervenção em ações onde haja idoso.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Lei 10.741/03 — Disposições gerais' },
+        { type: 'list', items: [
+          '**Art. 1º** — pessoa idosa: 60 anos ou mais',
+          '**Art. 2º** — direitos fundamentais com prioridade',
+          '**Art. 3º** — PRIORIDADE ABSOLUTA + responsabilidade compartilhada (família, sociedade, Estado)',
+          '**Art. 3º §1º** — extensão da prioridade: atendimento preferencial, preferência em políticas públicas, destinação de recursos',
+          '**Art. 3º §2º** — entre os IDOSOS: prioridade especial aos com 80 anos ou mais (Lei 13.466/17)',
+          '**Art. 4º** — vedação a discriminação, violência, opressão'
+        ]},
+
+        { type: 'h', text: 'Direitos fundamentais (Capítulos II-X)' },
+        { type: 'list', items: [
+          '**Vida** (art. 9º) — proteção integral',
+          '**Liberdade, respeito e dignidade** (arts. 10-13)',
+          '**Alimentos** (arts. 11-14) — solidariedade na obrigação alimentar',
+          '**Saúde** (arts. 15-19) — atendimento integral pelo SUS, medicamentos gratuitos, geriatria',
+          '**Educação, cultura, esporte e lazer** (arts. 20-25)',
+          '**Profissionalização e trabalho** (arts. 26-28)',
+          '**Previdência social** (arts. 29-32)',
+          '**Assistência social** (arts. 33-36) — BPC',
+          '**Habitação** (arts. 37-38) — desconto, programas habitacionais',
+          '**Transporte** (arts. 39-42) — gratuidade, reserva, prioridade'
+        ]},
+
+        { type: 'h', text: 'Tutela e medidas protetivas (arts. 43-55)' },
+        { type: 'list', items: [
+          '**Art. 43** — medidas aplicáveis quando direitos violados (ação ou omissão)',
+          '**Art. 45** — rol exemplificativo: encaminhamento à família, abrigamento temporário, inclusão em programas',
+          'Idoso em SITUAÇÃO DE RISCO (analógico ao ECA art. 98)',
+          '**Atuação do MP** (arts. 71-78) — legitimado para ACP, IC, intervenção em causas onde haja idoso'
+        ]},
+
+        { type: 'h', text: 'Crimes (arts. 96-110)' },
+        { type: 'list', items: [
+          '**Art. 96** — discriminar idoso',
+          '**Art. 97** — não prestar assistência',
+          '**Art. 98** — abandonar em hospital, casa de saúde',
+          '**Art. 99** — expor a perigo a integridade e saúde física ou psíquica',
+          '**Art. 102** — apropriar-se ou desviar bens, proventos, pensão',
+          '**Art. 105-107** — exibir/apresentar imagens degradantes; coagir a doação',
+          '**Art. 110-A** — Lei 14.811/24 — qualificadora de homicídio quando vítima é idoso'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Conceito etário e prioridade especial dos 80+' },
+        { type: 'p', text: 'Pessoa idosa = **60 anos completos ou mais** (art. 1º). Atenção: definição da OMS (60+ países em desenvolvimento, 65+ países desenvolvidos) é diferente — a lei brasileira fixou em 60 para todos. **Lei 13.466/17 inseriu o §2º do art. 3º:** entre os idosos, há ainda a **prioridade ESPECIAL para os com 80 anos ou mais** — em filas, atendimento, processos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.069 (REsp 1.937.407):** prioridade dos 80+ aplica-se também à prevalência em pagamento de precatórios (CF 100 §2º). Banca explora.' },
+
+        { type: 'h', text: 'Saúde — direitos específicos' },
+        { type: 'p', text: '**SUS** assegura atenção integral, com prioridade. Idoso tem direito a **medicamentos gratuitos** (continuidade) — incluindo de uso continuado. Inserção em **GERIATRIA/GERONTOLOGIA** especializada. Recusa indevida ao atendimento configura crime (art. 97) ou improbidade administrativa.' },
+        { type: 'p', text: '**Plano de saúde:** Lei 9.656/98 com Lei 13.003/14 e a **Súmula 597/STJ** vedam a recusa a contratar com idoso ou a aplicar reajustes desproporcionais por idade. Cláusula contratual abusiva é nula (CDC 51 + LCC).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 597:** "A cláusula contratual de plano de saúde que prevê reajuste por mudança de faixa etária do idoso é abusiva, salvo se demonstrada a justificativa técnica e atuarial."' },
+
+        { type: 'h', text: 'BPC / LOAS — benefício assistencial' },
+        { type: 'p', text: 'Lei 8.742/93 (LOAS) art. 20: **BPC = 1 salário mínimo mensal** ao idoso (65 anos+) ou PCD em situação de hipossuficiência (renda per capita inferior a 1/4 do SM, com gradações). NÃO é aposentadoria — é assistencial. Não exige contribuição prévia. Não gera 13º. Pode ser cumulado em algumas situações (estudo do critério renda).' },
+        { type: 'box', kind: 'atencao', text: '**BPC: 65 anos** (não 60). Diferença com a definição de idoso (60). Pegadinha frequente. Critério LOAS art. 20.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 567.985 (Tema 27):** afastou rigidez do critério de 1/4 do SM como único parâmetro de hipossuficiência. Pode haver flexibilização pelo juiz com base em outros elementos. Cobrança certa.' },
+
+        { type: 'h', text: 'Violência contra pessoa idosa' },
+        { type: 'p', text: 'Modalidades: **física, psicológica, sexual, financeira (mais comum), negligência, abandono**. Notificação compulsória aos órgãos de proteção. Medidas protetivas analógicas à Lei Maria da Penha quando a violência ocorre em contexto familiar. Lei 14.811/24 ampliou tipificação penal (homicídio qualificado).' },
+        { type: 'box', kind: 'info', text: '**Disque 100** — canal nacional de denúncia. **Delegacia do Idoso** — em alguns estados. **Promotorias do Idoso** (em MG, há CAOP do Idoso).' },
+
+        { type: 'h', text: 'Atuação do MP' },
+        { type: 'p', text: 'O MP é legitimado para: (a) **ACP** em defesa de interesses difusos, coletivos ou individuais homogêneos (art. 74); (b) **IC** prévio; (c) **TAC**; (d) **intervenção** obrigatória em ações onde haja idoso vulnerável (analogia art. 178 CPC); (e) **medidas protetivas** (art. 43); (f) **substituição processual** em casos de incapacidade de fato (curatela).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Idoso = 60 anos+. Idoso 80+ = prioridade ESPECIAL (Lei 13.466/17).** Não confundir com BPC (65 anos+).' },
+        { type: 'box', kind: 'macete', text: '**Tutela compartilhada: FAMÍLIA · SOCIEDADE · ESTADO** (art. 3º). Mesmo trio do ECA art. 4º.' },
+        { type: 'box', kind: 'macete', text: '**Estatuto renomeado (Lei 14.423/22): "Estatuto da PESSOA IDOSA".** Antes: Estatuto do Idoso. Conteúdo idêntico.' },
+        { type: 'box', kind: 'macete', text: '**Súmula 597 STJ — reajuste por faixa etária do idoso em plano de saúde é ABUSIVO** (salvo justificativa técnica/atuarial).' },
+        { type: 'box', kind: 'macete', text: '**BPC = 1 SM · 65 anos+ ou PCD · LOAS art. 20 · sem contribuição.** Não confundir com aposentadoria.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Idoso é 60 anos OU MAIS — não 65, nem 70.** Pegadinha do enunciado pode trocar idade.' },
+        { type: 'box', kind: 'atencao', text: '**BPC exige 65 anos**, não 60. Critério da LOAS art. 20, NÃO do Estatuto.' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa idosa é, EM REGRA, PLENAMENTE CAPAZ.** A vulnerabilidade não retira a capacidade civil. Curatela é exceção, e mesmo assim ampliada pela LBI (Lei 13.146/15) — apenas curatela patrimonial, em regra.' },
+        { type: 'box', kind: 'atencao', text: '**Crimes do Estatuto da Pessoa Idosa: ação penal PÚBLICA INCONDICIONADA.** Diferente de alguns crimes contra honra (Lei 7.716/89 vs. CP 138-140).' },
+        { type: 'box', kind: 'atencao', text: '**Estatuto NÃO substitui medidas do Código Penal** — em concurso aparente, pode haver consunção, especialidade ou cúmulo material conforme o caso. Crimes do Estatuto são em regra ESPECIAIS em relação aos do CP quando a vítima é idosa.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** prioridade absoluta tem matriz no princípio da DIGNIDADE DA PESSOA HUMANA (CF 1º III).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** estrutura paralela — proteção integral, prioridade absoluta, tutela compartilhada.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 6 (Saúde):** SUS prioritário ao idoso; judicialização frequente.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 7 (incapacidades):** pessoa idosa é, em regra, capaz. Curatela é exceção (CC 1.767+ com LBI).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP legitimado para ACP em defesa de idosos — Estatuto art. 74.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — crimes contra a pessoa:** Lei 14.811/24 inseriu qualificadora no homicídio quando vítima é idoso (CP 121 §2º X).' }
+      ]
+    }
+  ] },
+  { id: 'colmat-04-pessoa-com-deficiencia', num: 4, materia: 'colmat', title: 'Pessoa com Deficiência (Lei 13.146/15)', edital: '4.1.4', editalText: 'LBI. Convenção de NY (status de EC). Capacidade civil. Acessibilidade.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — atua em ACP de inclusão escolar e BPC).', outline: ['Convenção de NY (Decreto 6.949/09 — status de EC)', 'Lei 13.146/15 (LBI)', 'Capacidade civil (alterações no CC arts. 3º e 4º)', 'Tomada de decisão apoiada (CC art. 1.783-A)', 'Curatela compartilhada', 'Acessibilidade', 'Inclusão escolar e profissional', 'BPC à PCD'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A tutela da **Pessoa com Deficiência (PCD)** é estruturada sobre dois eixos normativos centrais: (i) a **Convenção sobre os Direitos das Pessoas com Deficiência (Convenção de Nova York, ONU, 2007)**, internalizada pelo **Decreto 6.949/2009**; e (ii) a **Lei Brasileira de Inclusão (LBI — Lei 13.146/2015)**, conhecida também como Estatuto da Pessoa com Deficiência.' },
+        { type: 'p', text: 'A Convenção de NY ostenta **STATUS CONSTITUCIONAL FORMAL** — foi o **PRIMEIRO TRATADO** aprovado pelo rito do art. 5º §3º CF (3/5 em 2 turnos em cada Casa). É equivalente a EC. Junto com o **Tratado de Marraquexe** (Decreto 9.522/18 — acesso a obras impressas a PCD com deficiência visual), forma o pequeno grupo de tratados de DH com status constitucional formal no Brasil.' },
+        { type: 'p', text: 'A LBI alterou substancialmente o **Código Civil (arts. 3º e 4º)** — promovendo o que a doutrina chamou de **"REVOLUÇÃO COPERNICANA" da capacidade civil**: a deficiência, isoladamente, deixou de ser causa de incapacidade. Inaugurou a **TOMADA DE DECISÃO APOIADA (TDA)** (CC 1.783-A) e reservou a **curatela** apenas para atos PATRIMONIAIS, mantendo plena capacidade existencial.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Convenção de NY (Decreto 6.949/09) — destaques' },
+        { type: 'list', items: [
+          '**Art. 1º** — propósito: promover, proteger e assegurar direitos humanos e liberdades fundamentais',
+          '**Art. 2º** — definições (deficiência, comunicação, discriminação)',
+          '**Art. 3º** — princípios (autonomia, não-discriminação, inclusão plena)',
+          '**Art. 5º** — igualdade e não-discriminação',
+          '**Art. 9º** — acessibilidade',
+          '**Art. 12** — reconhecimento igual perante a lei (capacidade jurídica)',
+          '**Art. 24** — educação inclusiva',
+          '**Art. 27** — trabalho e emprego'
+        ]},
+
+        { type: 'h', text: 'LBI (Lei 13.146/15)' },
+        { type: 'list', items: [
+          '**Art. 2º** — conceito de pessoa com deficiência (modelo BIOPSICOSSOCIAL — não apenas médico)',
+          '**Art. 6º** — **PCD MANTÉM PLENA CAPACIDADE CIVIL** (núcleo da reforma)',
+          '**Art. 84** — apoio para autonomia: TDA, curatela, residência inclusiva',
+          '**Art. 85** — curatela: medida EXTRAORDINÁRIA, restrita a atos PATRIMONIAIS',
+          '**Art. 116** — alterações no CC: art. 3º (incapacidade absoluta restrita aos menores de 16) e art. 4º (incapacidade relativa)',
+          '**Art. 117-127** — alterações no CC, CPC, ECA',
+          '**Art. 28** — educação inclusiva (matrícula obrigatória)',
+          '**Art. 53** — acessibilidade (direito fundamental)',
+          '**Art. 88** — discriminação (crime: 1 a 3 anos + multa)'
+        ]},
+
+        { type: 'h', text: 'Código Civil — pós-LBI' },
+        { type: 'list', items: [
+          '**Art. 3º (REDAÇÃO LBI)** — absolutamente incapazes: APENAS os menores de 16 anos. Excluiu deficientes mentais',
+          '**Art. 4º (REDAÇÃO LBI)** — relativamente incapazes: maiores de 16 e menores de 18, ébrios habituais e viciados em tóxicos, "aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade", pródigos. EXCLUIU deficiência mental como hipótese isolada',
+          '**Art. 1.783-A** — TOMADA DE DECISÃO APOIADA (TDA) — instituto novo trazido pela LBI'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Convenção de NY — primeiro tratado com status constitucional formal' },
+        { type: 'p', text: 'Aprovada pelo Decreto Legislativo 186/2008 e promulgada pelo Decreto 6.949/2009. Foi aprovada pelo **rito do art. 5º §3º** — 3/5 dos votos em 2 turnos de votação em cada Casa do Congresso. Por isso, status de **EMENDA CONSTITUCIONAL**. Tratados de DH aprovados pelo rito comum têm apenas status SUPRALEGAL (STF RE 466.343, 2008).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Importante:** Tratado de Marraquexe (acesso a obras impressas, PCD visual) foi o SEGUNDO aprovado pelo rito §3º (Decreto 9.522/18). Hoje, são esses dois apenas com status formal de EC. Banca explora exclusivamente tabelas comparativas de tratados.' },
+
+        { type: 'h', text: 'Modelo biopsicossocial de deficiência (LBI art. 2º)' },
+        { type: 'p', text: 'Antes da LBI, a deficiência era tratada por **modelo MÉDICO** (impedimento físico/mental como característica intrínseca da pessoa). A LBI consagra o **modelo BIOPSICOSSOCIAL**: deficiência é a **interação entre os impedimentos e as barreiras** existentes na sociedade. Logo, alterar o ambiente (barreiras) reduz/elimina a "deficiência".' },
+        { type: 'p', text: '**Tipos de barreiras (LBI art. 3º IV):** urbanísticas, arquitetônicas, transportes, comunicações, atitudinais, tecnológicas. Não há "uma deficiência" universal — depende do contexto.' },
+
+        { type: 'h', text: 'Capacidade civil — revolução LBI' },
+        { type: 'p', text: 'A LBI **eliminou a deficiência psíquica/intelectual** como causa autônoma de incapacidade. Hoje, são absolutamente incapazes apenas os menores de 16. PCDs adultas, em regra, são PLENAMENTE CAPAZES (LBI art. 6º). Apenas em caso de impossibilidade de manifestar vontade (causa transitória ou permanente — CC 4º III) é que cabe falar em incapacidade relativa.' },
+        { type: 'box', kind: 'atencao', text: '**LBI alterou drasticamente o sistema de incapacidades.** Antes: doença mental + ausência de discernimento = incapaz absoluto. Depois: PCD é regra capaz; incapacidade depende de NÃO PODER EXPRIMIR VONTADE (vontade ausente, não vontade "viciada").' },
+
+        { type: 'h', text: 'Tomada de Decisão Apoiada (TDA) — CC 1.783-A' },
+        { type: 'p', text: 'Instituto NOVO. A PCD escolhe **PELO MENOS 2 PESSOAS DE CONFIANÇA** (apoiadores) que a auxiliam em decisões da vida civil. **Não substituem** a vontade da PCD — apenas a apoiam. Decisões são da PCD; apoiadores acompanham, opinam, fortalecem. Procedimento JUDICIAL — homologação por sentença. Pode ser revogada a qualquer tempo pela PCD.' },
+        { type: 'p', text: '**TDA × CURATELA:** TDA preserva autonomia integral. Curatela retira parcialmente. TDA é **regra**; curatela é **exceção** e medida extraordinária (LBI art. 84 §1º), restrita a atos patrimoniais (LBI art. 85), por prazo determinado (LBI art. 84 §3º).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.927.423 (2021):** TDA pode ser concedida mesmo a quem não tem deficiência formalmente reconhecida — basta diminuição da autonomia. Tendência expansiva.' },
+
+        { type: 'h', text: 'Acessibilidade e inclusão' },
+        { type: 'p', text: '**Acessibilidade arquitetônica e urbanística:** prazos para adaptação. **Educação inclusiva** (LBI art. 28): rede regular obrigada a receber PCDs, com adaptações razoáveis. **Reserva de vagas** em concursos públicos (CF 37 VIII + Lei 7.853/89 + Lei 8.213/91 art. 93). **BPC** (Lei 8.742/93): 1 SM para PCDs hipossuficientes.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula Vinculante 6 (relativa a militares):** não confundir. Para concursos civis: reserva mínima de 5% (Lei 8.112/90 art. 5º §2º). Tema cobrado.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Convenção de NY (Decreto 6.949/09): PRIMEIRO tratado com status de EC (rito §3º).** Marraquexe é o SEGUNDO. São apenas 2.' },
+        { type: 'box', kind: 'macete', text: '**Modelo BIOPSICOSSOCIAL: deficiência = impedimento + BARREIRAS.** Não é só do indivíduo, é da interação com a sociedade.' },
+        { type: 'box', kind: 'macete', text: '**LBI: PCD é PLENAMENTE CAPAZ (regra).** Incapacidade pressupõe NÃO PODER EXPRIMIR VONTADE — não basta deficiência.' },
+        { type: 'box', kind: 'macete', text: '**TDA = ≥2 apoiadores · NÃO substitui · curatela é exceção · só patrimonial.** CC 1.783-A.' },
+        { type: 'box', kind: 'macete', text: '**Reserva 5% em concursos federais (Lei 8.112).** Estaduais variam (em geral 10-20%).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Convenção de NY: status FORMAL de EC.** Outros tratados de DH (CADH, ICCPR) são apenas SUPRALEGAIS (rito comum). Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**LBI revogou totalmente a deficiência como causa de incapacidade absoluta.** Não confundir com a possibilidade de incapacidade relativa por NÃO PODER EXPRIMIR VONTADE (CC 4º III).' },
+        { type: 'box', kind: 'atencao', text: '**Curatela é EXCEPCIONAL e PATRIMONIAL.** PCD continua capaz para atos existenciais (casar, ter filhos, votar, testemunhar) — LBI art. 85.' },
+        { type: 'box', kind: 'atencao', text: '**TDA NÃO substitui vontade da PCD.** Apoiadores acompanham. Diferente da curatela, em que o curador EXPRIME a vontade.' },
+        { type: 'box', kind: 'atencao', text: '**BPC à PCD: 1 SM, sem contribuição prévia. Não confundir com aposentadoria por invalidez.** BPC = LOAS art. 20. Aposentadoria = RGPS.' },
+        { type: 'box', kind: 'atencao', text: '**Discriminação contra PCD = crime (LBI art. 88: 1-3 anos + multa).** Pena aumentada se vítima for criança, idoso ou se decorrer de relação de trabalho.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** Convenção de NY é exemplo paradigmático de tratado de DH com status de EC.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 5 (capacidades):** LBI alterou os arts. 3º e 4º do CC — leitura conjunta obrigatória.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil — TDA e Curatela:** novidades trazidas pela LBI. CC art. 1.783-A e ss.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 5 (Educação):** educação inclusiva (LBI art. 28) — direito subjetivo da PCD.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** sobreposição quando idoso é PCD — concurso de proteções.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACP para garantia de acessibilidade, vagas educacionais, BPC negados.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-05-educacao', num: 5, materia: 'colmat', title: 'Educação', edital: '4.1.5', editalText: 'CF arts. 205-214. LDB (9.394/96). FUNDEB. Educação especial e inclusiva.', size: 'Médio', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — atua em ACP de matrícula em creche e inclusão).', outline: ['Direito à educação (CF arts. 205-214)', 'LDB (Lei 9.394/96)', 'FUNDEB (EC 108/20)', 'Educação especial e inclusiva', 'Vagas em creche — direito subjetivo (STJ Tema 548)', 'Educação domiciliar', 'Atuação do MP (vagas, reserva de vagas, acompanhamento)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **direito à educação** é direito social fundamental (**CF art. 6º**) e direito de TODOS, com responsabilidade compartilhada de **Estado, família e sociedade** (CF art. 205). Tem natureza de **direito subjetivo público**, exigível em juízo, e vinculante para os entes federativos (União, Estados, DF, Municípios — competência concorrente CF 24 IX).' },
+        { type: 'p', text: 'A disciplina legal centra-se na **Lei 9.394/1996 — Lei de Diretrizes e Bases da Educação (LDB)**, que organiza os níveis (educação básica e superior) e modalidades (regular, EJA, especial, profissional, indígena, do campo, à distância, escolar quilombola). O financiamento mínimo está blindado constitucionalmente (CF 212) e operacionalizado pelo **FUNDEB** (Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais — EC 108/2020 tornou permanente).' },
+        { type: 'p', text: 'Para a prova: (a) **direitos subjetivos exigíveis** (creche, ensino fundamental); (b) **piso salarial dos professores** (Lei 11.738/08, STF ADI 4.167); (c) **educação inclusiva** (LBI art. 28); (d) **STF e STJ sobre judicialização da educação** (vagas em creche, transporte escolar, merenda); (e) **atuação do MP** (vetor importantíssimo — Promotorias da Infância e da Educação atuam intensamente).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 205-214 — Educação' },
+        { type: 'list', items: [
+          '**Art. 205** — direito de todos, dever do Estado e da família',
+          '**Art. 206** — princípios: igualdade de acesso, gratuidade no ensino público, gestão democrática, valorização dos profissionais, piso salarial nacional',
+          '**Art. 208** — dever do Estado: educação básica obrigatória e gratuita dos 4 aos 17 anos (EC 59/09)',
+          '**Art. 208 IV** — educação infantil (creche e pré-escola) até 5 anos',
+          '**Art. 208 §1º** — acesso ao ensino obrigatório é DIREITO PÚBLICO SUBJETIVO',
+          '**Art. 208 §2º** — não-oferta enseja responsabilidade do Poder Público',
+          '**Art. 211** — competências (União, Estados, DF, Municípios)',
+          '**Art. 212** — investimento mínimo: União 18%, Estados/DF/Municípios 25% das receitas',
+          '**Art. 213 e 214** — PNE (Plano Nacional de Educação)'
+        ]},
+
+        { type: 'h', text: 'LDB (Lei 9.394/96)' },
+        { type: 'list', items: [
+          '**Art. 4º** — dever do Estado (vagas obrigatórias, transporte, merenda)',
+          '**Art. 5º** — direito público subjetivo: ensino fundamental e médio. Pode ser exigido individual ou coletivamente',
+          '**Art. 21** — níveis: educação básica (infantil, fundamental, médio) + superior',
+          '**Art. 30** — educação infantil: creche (0-3) e pré-escola (4-5)',
+          '**Art. 32** — ensino fundamental obrigatório (9 anos)',
+          '**Art. 35** — ensino médio (3 anos)',
+          '**Art. 58 e ss.** — educação especial (modalidade transversal)'
+        ]},
+
+        { type: 'h', text: 'FUNDEB e financiamento' },
+        { type: 'list', items: [
+          '**EC 108/2020** — tornou o FUNDEB PERMANENTE',
+          '**Lei 14.113/2020** — disciplina',
+          '**CAQ** — Custo Aluno-Qualidade — referência para complementação',
+          '**Lei do Piso (Lei 11.738/08)** — STF ADI 4.167: constitucional, com efeitos prospectivos. Piso reajustado anualmente'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Direito subjetivo público à creche — Tema 548 STF' },
+        { type: 'p', text: 'A vaga em creche (0-3 anos) e na pré-escola (4-5 anos) é **DIREITO SUBJETIVO PÚBLICO** exigível judicialmente — desde a EC 59/09. STF firmou tese no **Tema 548** que SUPEROU a doutrina da reserva do possível em matéria de educação infantil — Estado não pode escusar-se a fornecer vaga sob alegação de insuficiência orçamentária.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 548/RE 956.475 (2017):** "A reserva do possível, como cláusula limitadora dos direitos sociais, NÃO pode ser invocada para AFASTAR direito fundamental tratado pela CF como direito público subjetivo (educação infantil)." Tese vinculante.' },
+
+        { type: 'h', text: 'EC 59/09 — obrigatoriedade dos 4 aos 17 anos' },
+        { type: 'p', text: 'Antes da EC 59/09, a obrigatoriedade era do ensino fundamental (7 a 14). A EC 59/09 EXPANDIU para os 4 a 17 anos (pré-escola, fundamental e médio). Hoje, a evasão escolar é problema de TODOS — Conselho Tutelar (ECA) deve ser comunicado em caso de faltas reiteradas.' },
+        { type: 'box', kind: 'atencao', text: '**Educação obrigatória dos 4 aos 17 anos = pré-escola + fundamental + médio.** Banca cobra esse intervalo. NÃO inclui creche (0-3) — para essa há direito subjetivo, mas não obrigatoriedade dos pais matricularem.' },
+
+        { type: 'h', text: 'Educação inclusiva (LBI art. 28)' },
+        { type: 'p', text: 'Rede REGULAR é obrigada a aceitar PCDs, com **adaptações razoáveis** (currículo, prazos, avaliações). NÃO se admite recusa por alegada falta de estrutura — STF, STJ. Profissional de apoio (cuidador, tradutor de Libras, etc.) é responsabilidade do ESTADO, não da família.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 5.357 (2016):** declarou constitucional o art. 28 §1º da LBI — escolas privadas NÃO podem cobrar a mais por matricular PCDs. A inclusão é dever de TODA a rede de ensino.' },
+
+        { type: 'h', text: 'Lei do Piso (Lei 11.738/08) — STF ADI 4.167' },
+        { type: 'p', text: 'Piso salarial nacional dos professores da educação básica. STF declarou CONSTITUCIONAL — entes federativos devem cumprir. Aplica-se também a 1/3 da carga horária para atividades extra-classe (planejamento, correção). Reajuste anual obrigatório, vinculado ao crescimento do FUNDEB.' },
+
+        { type: 'h', text: 'Educação domiciliar (homeschooling)' },
+        { type: 'p', text: 'STF — RE 888.815 (Tema 822, 2018): a CF NÃO veda nem admite expressamente. Cabe à LEI ORDINÁRIA disciplinar. Sem lei específica, **HOJE a educação domiciliar é VEDADA no Brasil** — pais devem matricular obrigatoriamente. Decreto presidencial regulamentou em 2019, mas declaração de inconstitucionalidade afastou aplicação. Lei federal pendente.' },
+        { type: 'box', kind: 'atencao', text: '**Hoje (2026), educação domiciliar é VEDADA no Brasil — Tema 822 STF.** Aprendizado em casa sem matrícula em rede regular constitui descumprimento dos pais (responsabilidade penal: abandono intelectual — CP 246).' },
+
+        { type: 'h', text: 'Atuação do MP em educação' },
+        { type: 'p', text: 'O MP atua em: (a) **ACP** para vaga em creche/escola; (b) **TAC** com Município sobre transporte escolar, merenda, infraestrutura; (c) **IC** para apurar superlotação, recusa de matrícula, falta de profissional de apoio; (d) **Recomendação** sobre cumprimento de cotas (PCD, raça); (e) atuação no Conselho Tutelar e no Conselho Municipal de Educação.' },
+        { type: 'box', kind: 'info', text: '**Em MG: CAOP da Educação e CAOP da Infância e Juventude** — atuam de forma integrada nessas demandas. Vantagem da candidata: vivência direta das ACPs de vaga em creche.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Educação obrigatória: 4 aos 17 anos (EC 59/09).** Pré-escola + fundamental + médio. Mnemônico: "EC 59/09 expandiu de 7-14 para 4-17".' },
+        { type: 'box', kind: 'macete', text: '**Direito subjetivo público (CF 208 §1º): ensino OBRIGATÓRIO + creche (Tema 548).**' },
+        { type: 'box', kind: 'macete', text: '**Investimento mínimo: União 18% · Estados/Municípios 25%** (CF 212). Educação tem piso constitucional.' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 548:** reserva do possível NÃO afasta direito à creche. Tese firme.' },
+        { type: 'box', kind: 'macete', text: '**FUNDEB permanente (EC 108/20).** Antes era temporário (FUNDEF → FUNDEB). Lei 14.113/20.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Educação obrigatória: 4-17 anos. NÃO inclui creche (0-3).** Mas há direito subjetivo público à creche (não obrigatoriedade aos pais). Distinção sutil.' },
+        { type: 'box', kind: 'atencao', text: '**Reserva do possível NÃO se opõe a direitos sociais quando se trata de mínimo existencial.** STF Tema 548 + ADPF 45. Banca pode trocar.' },
+        { type: 'box', kind: 'atencao', text: '**Educação domiciliar: HOJE VEDADA (Tema 822).** Sem lei federal específica, prevalece a obrigatoriedade da matrícula em rede regular.' },
+        { type: 'box', kind: 'atencao', text: '**Escola privada NÃO pode cobrar a mais por PCD** (STF ADI 5.357). Princípio da inclusão é universal.' },
+        { type: 'box', kind: 'atencao', text: '**Ensino superior NÃO é obrigatório nem gratuito por regra.** Universidades públicas são gratuitas (CF 206 IV) — mas isso é diferente de obrigatório. Formando: ensino superior = oportunidade de acesso, não dever.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** educação é direito humano fundamental — Pacto Internacional (PIDESC art. 13).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** evasão escolar gera atuação do Conselho Tutelar (ECA arts. 56 e 129).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 4 (PCD):** educação inclusiva — LBI art. 28.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACPs de vagas, transporte, infraestrutura — exemplos clássicos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const — direitos sociais:** educação no rol do art. 6º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — improbidade:** desvio de verbas do FUNDEB caracteriza improbidade (LIA art. 11) e ação penal.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-06-saude', num: 6, materia: 'colmat', title: 'Saúde (SUS)', edital: '4.1.6', editalText: 'CF arts. 196-200. Lei 8.080/90. Lei 8.142/90. Judicialização.', size: 'Grande', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — atua em ACP de medicamentos e em IC sobre rede pública).', outline: ['CF arts. 196-200 — direito à saúde', 'Lei 8.080/90 — SUS (princípios, organização)', 'Lei 8.142/90 — controle social', 'Judicialização da saúde — Tema 793 STF', 'NATs e Resolução CNJ 238', 'Medicamentos (Tema 6, Tema 793)', 'Plano de saúde (Lei 9.656/98)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **saúde** é direito de TODOS e dever do Estado (**CF art. 196**), garantida mediante políticas públicas que visem à redução do risco de doença e ao acesso UNIVERSAL e IGUALITÁRIO. Estrutura-se no **SUS — Sistema Único de Saúde** (CF 198), regido pela **Lei 8.080/1990** (Lei Orgânica do SUS) e pela **Lei 8.142/1990** (controle social e financiamento).' },
+        { type: 'p', text: 'O modelo brasileiro é dos mais ambiciosos do mundo: SUS é **UNIVERSAL** (todos têm direito), **GRATUITO** (no ponto de atendimento), **INTEGRAL** (cobre da atenção básica à alta complexidade), **DESCENTRALIZADO** (gestão por estados e municípios) e **PARTICIPATIVO** (Conselhos de Saúde). Convive com a saúde **SUPLEMENTAR** (planos privados — Lei 9.656/98) e a saúde **PRIVADA** (autônoma).' },
+        { type: 'p', text: 'A **JUDICIALIZAÇÃO DA SAÚDE** é tema central. STF e STJ desenvolveram parâmetros para conceder ou negar pedidos individuais de medicamentos/tratamentos não inclusos no SUS — culminando no **Tema 6/STF** (medicamentos não registrados na ANVISA), **Tema 106/STJ** (medicamentos não incorporados ao SUS) e **Tema 793/STF** (responsabilidade solidária dos entes federativos). Conhecer esses temas é OBRIGATÓRIO para a prova.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 196-200' },
+        { type: 'list', items: [
+          '**Art. 196** — saúde é direito de todos e dever do Estado (UNIVERSAL e IGUALITÁRIO)',
+          '**Art. 197** — relevância pública das ações e serviços de saúde',
+          '**Art. 198** — SUS: rede regionalizada e hierarquizada · descentralização · atendimento integral · participação da comunidade',
+          '**Art. 198 §2º** — investimento mínimo: União (variável conforme legislação), Estados 12%, Municípios 15%',
+          '**Art. 199** — assistência à saúde livre à iniciativa privada (saúde suplementar e privada)',
+          '**Art. 200** — atribuições do SUS (controlar produtos, fiscalizar alimentos, sangue, gestão ambiental sanitária)'
+        ]},
+
+        { type: 'h', text: 'Lei 8.080/90 — Lei Orgânica do SUS' },
+        { type: 'list', items: [
+          '**Art. 2º** — saúde é direito fundamental, garantida pelo Estado',
+          '**Art. 4º** — SUS: conjunto de ações e serviços públicos, vinculados a Adm. Pública direta e indireta + fundações',
+          '**Art. 7º** — princípios e diretrizes: UNIVERSALIDADE, INTEGRALIDADE, EQUIDADE, descentralização, participação',
+          '**Arts. 9º-15** — direção do SUS: Ministério da Saúde (federal), SES (estadual), SMS (municipal)',
+          '**Arts. 16-22** — competências por ente federativo',
+          '**Art. 19-M (Lei 12.401/11)** — assistência terapêutica integral: dispensação de medicamentos previstos em protocolos clínicos',
+          '**Lei 12.401/11** — incorporação de tecnologias (CONITEC)'
+        ]},
+
+        { type: 'h', text: 'Lei 8.142/90 — Controle social e financiamento' },
+        { type: 'list', items: [
+          '**Art. 1º** — Conferência de Saúde (4/4 anos) e Conselhos de Saúde (permanente)',
+          '**Art. 2º** — repasses fundo a fundo da União para Estados e Municípios',
+          '**Art. 4º** — requisitos para os entes receberem recursos: Fundo de Saúde · Conselho de Saúde · plano de saúde · etc.'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios do SUS — UIE + DPI' },
+        { type: 'p', text: '**UIE = UNIVERSALIDADE · INTEGRALIDADE · EQUIDADE** — princípios DOUTRINÁRIOS (do "para quem" e "como"). Universalidade = todos têm direito. Integralidade = atendimento da promoção à reabilitação. Equidade = tratar desigualmente os desiguais (priorizar quem mais precisa).' },
+        { type: 'p', text: '**DPI = DESCENTRALIZAÇÃO · PARTICIPAÇÃO · INTEGRAÇÃO** — princípios ORGANIZATIVOS. Descentralização = comando único em cada esfera. Participação = Conselhos e Conferências (Lei 8.142). Integração (regionalização e hierarquização) = redes assistenciais.' },
+        { type: 'box', kind: 'macete', text: '**6 princípios = UIE + DPI.** Mnemônico didático.' },
+
+        { type: 'h', text: 'Judicialização — Tema 6/STF (medicamentos sem registro na ANVISA)' },
+        { type: 'p', text: '**REGRA:** medicamentos sem registro na ANVISA NÃO podem ser fornecidos pelo SUS. **EXCEÇÕES (cumulativas):** (i) registro pendente desde mais de 1 ano, com pedido em curso; (ii) medicamento utilizado em outras agências regulatórias internacionais (FDA, EMA); (iii) inexistência de substituto registrado; (iv) prescrição médica fundamentada; (v) doença comprovadamente grave/incapacitante.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 6/RE 657.718 (2019):** "1. O Estado não pode ser obrigado a fornecer medicamentos experimentais. 2. A ausência de registro na Anvisa impede, como regra geral, o fornecimento de medicamento por decisão judicial." Cinco condições cumulativas para excepcionar.' },
+
+        { type: 'h', text: 'Tema 106/STJ — medicamentos não incorporados ao SUS' },
+        { type: 'p', text: 'Para medicamentos REGISTRADOS na ANVISA mas NÃO incorporados ao SUS (não constam de protocolos): **obrigatoriedade do fornecimento depende de 3 requisitos cumulativos** — (i) imprescindibilidade comprovada por laudo médico fundamentado; (ii) incapacidade financeira do paciente; (iii) registro na ANVISA.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 106/REsp 1.657.156 (2018):** modulação dos efeitos. Após junho/2019, a obrigatoriedade exige os 3 requisitos. Critérios cumulativos. Banca cobra.' },
+
+        { type: 'h', text: 'Tema 793/STF — responsabilidade solidária dos entes' },
+        { type: 'p', text: '**Os entes federativos (União, Estados, DF e Municípios) são SOLIDARIAMENTE responsáveis** pelas ações e serviços de saúde, podendo o cidadão demandar QUALQUER um deles ou TODOS em litisconsórcio. Mas, para racionalizar, o juiz pode chamar o ente competente (organização interna do SUS) para integrar — sem prejuízo da solidariedade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 793/RE 855.178 (2015, com modulação 2019):** "Os entes da federação são solidariamente responsáveis nas demandas prestacionais na área da saúde. (...) o polo passivo deverá ser composto, preferencialmente, pelo ente federativo competente para o tratamento, sem prejuízo do litisconsórcio."' },
+
+        { type: 'h', text: 'NATs e Resolução CNJ 238' },
+        { type: 'p', text: '**NATs = Núcleos de Apoio Técnico** (em geral conveniados com universidades) que produzem PARECERES técnicos para o juiz nas demandas de saúde. Resolução **CNJ 238/2016** padronizou o uso. Hoje é DIFERENÇA QUALITATIVA: juiz com NAT decide com bases técnicas; sem NAT, decisão pode ser apressada e onerosa.' },
+
+        { type: 'h', text: 'Plano de saúde (Lei 9.656/98)' },
+        { type: 'p', text: 'Saúde SUPLEMENTAR. Regulada pela ANS. Súmula 597/STJ: cláusula de reajuste por mudança de faixa etária do idoso é abusiva (salvo justificativa atuarial). **Súmula 608/STJ:** plano de saúde não pode recusar fornecimento de tratamento prescrito por médico. Rol da ANS: STJ Tema 990 → primeiro fixou rol TAXATIVO, depois Lei 14.454/22 instituiu rol EXEMPLIFICATIVO (com critérios). Acompanhar evolução.' },
+        { type: 'box', kind: 'atencao', text: '**Lei 14.454/22 reverteu Tema 990 STJ — rol da ANS é hoje EXEMPLIFICATIVO** (com critérios técnicos para cobertura). Tema dinâmico — checar atualizações.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 princípios SUS = UIE (Universalidade, Integralidade, Equidade) + DPI (Descentralização, Participação, Integração).**' },
+        { type: 'box', kind: 'macete', text: '**Tema 6/STF — medicamento SEM registro ANVISA: 5 condições cumulativas para fornecer.**' },
+        { type: 'box', kind: 'macete', text: '**Tema 106/STJ — medicamento REGISTRADO mas não incorporado: 3 requisitos cumulativos** (laudo · hipossuficiência · registro).' },
+        { type: 'box', kind: 'macete', text: '**Tema 793/STF — responsabilidade SOLIDÁRIA dos entes federativos.** Cidadão pode demandar qualquer um.' },
+        { type: 'box', kind: 'macete', text: '**Investimento mínimo: U variável · E 12% · M 15% (CF 198 §2º).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**SUS é UNIVERSAL — todos têm direito, INDEPENDENTE de contribuição.** Diferente da Previdência (RGPS — depende de contribuição).' },
+        { type: 'box', kind: 'atencao', text: '**Solidariedade dos entes (Tema 793) NÃO impede chamamento do ente competente para racionalizar processo.** Modulação de 2019 trouxe essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**Tema 6/STF — 5 condições para medicamento SEM registro ANVISA. Decorar.** Sem todas, o fornecimento é vedado.' },
+        { type: 'box', kind: 'atencao', text: '**Tema 990/STJ foi REVERTIDO pela Lei 14.454/22 — rol da ANS é EXEMPLIFICATIVO.** Banca pode usar versão antiga (taxativo). Atenção à data da prova.' },
+        { type: 'box', kind: 'atencao', text: '**SUS NÃO inclui medicamentos experimentais.** Mesmo com prescrição médica. STF Tema 6.' },
+        { type: 'box', kind: 'atencao', text: '**Conselhos de Saúde (Lei 8.142): COMPOSIÇÃO PARITÁRIA** — 50% usuários, 25% trabalhadores, 25% gestores/prestadores. Pegadinha do detalhe.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** saúde é direito humano fundamental — PIDESC art. 12.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** SUS prioritário ao idoso (Estatuto art. 15).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 4 (PCD):** medicamentos contínuos para PCD via SUS.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACPs de fornecimento coletivo (não apenas individual).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const — direitos sociais:** saúde no rol do art. 6º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — improbidade:** desvio de verbas da saúde tipifica improbidade e crime (CP 312, Lei 8.137/90).' }
+      ]
+    }
+  ] },
+  { id: 'colmat-07-consumidor', num: 7, materia: 'colmat', title: 'Direito do Consumidor (CDC)', edital: '4.1.7', editalText: 'Lei 8.078/90. Conceito de consumidor. Vícios e fato. Práticas abusivas. Coletivo.', size: 'Grande', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — vivência em IC e ACP de defesa do consumidor).', outline: ['Princípios e conceito de consumidor (CDC arts. 2º, 17, 29)', 'Fornecedor, produto e serviço', 'Direitos básicos (CDC art. 6º)', 'Responsabilidade pelo fato e pelo vício', 'Práticas comerciais (oferta, publicidade, abusiva, cobrança)', 'Cláusulas abusivas (CDC art. 51)', 'Tutela individual e coletiva', 'Convenção coletiva de consumo'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Código de Defesa do Consumidor (Lei 8.078/1990)** é uma das leis mais importantes do ordenamento — combina disciplina material (definições, direitos, responsabilidade) e processual (tutela coletiva). Sua **MATRIZ CONSTITUCIONAL** está nos arts. **5º XXXII** ("o Estado promoverá, na forma da lei, a defesa do consumidor"), **170 V** (defesa do consumidor como princípio da ordem econômica) e **48 ADCT** (que ordenou sua edição em 120 dias).' },
+        { type: 'p', text: 'Os princípios fundamentais são: **VULNERABILIDADE** (CDC art. 4º I — presumida do consumidor), **BOA-FÉ OBJETIVA** (art. 4º III), **EQUILÍBRIO CONTRATUAL** (art. 4º IV), **PROTEÇÃO CONTRA RISCOS** (art. 6º I), **TRANSPARÊNCIA** (art. 4º caput), **HARMONIZAÇÃO** entre consumo e desenvolvimento. Todos integram o **MICROSSISTEMA DA TUTELA COLETIVA** (LACP art. 21 + CDC arts. 81-104) — leitura conjunta obrigatória.' },
+        { type: 'p', text: 'Para o concurso: (a) **conceitos** (consumidor STANDARD, BYSTANDER, equiparado); (b) **responsabilidade civil** (fato × vício; produto × serviço); (c) **prazos** (decadenciais e prescricionais — CDC arts. 26-27); (d) **práticas comerciais** (publicidade enganosa/abusiva, oferta vinculante); (e) **cláusulas abusivas** (CDC 51); (f) **tutela coletiva** (categorias do art. 81 § único; coisa julgada do art. 103); (g) **inversão do ônus da prova** (art. 6º VIII).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Conceitos centrais (CDC arts. 2º, 3º, 17, 29)' },
+        { type: 'list', items: [
+          '**Art. 2º** — CONSUMIDOR: pessoa física ou jurídica que adquire ou utiliza produto/serviço como DESTINATÁRIO FINAL',
+          '**Art. 2º § único** — CONSUMIDOR EQUIPARADO (coletividade): conjunto de pessoas, ainda que indetermináveis, expostas às práticas',
+          '**Art. 3º** — FORNECEDOR: toda pessoa, pública ou privada, nacional ou estrangeira, que desenvolve atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização',
+          '**Art. 3º §1º** — PRODUTO: qualquer bem, móvel ou imóvel, material ou imaterial',
+          '**Art. 3º §2º** — SERVIÇO: qualquer atividade fornecida no mercado mediante remuneração, salvo as decorrentes de relação trabalhista',
+          '**Art. 17** — BYSTANDER: equipara-se ao consumidor a vítima do evento (acidente de consumo)',
+          '**Art. 29** — equipara-se ao consumidor coletividade exposta às práticas comerciais'
+        ]},
+
+        { type: 'h', text: 'Direitos básicos (CDC art. 6º)' },
+        { type: 'list', items: [
+          '**I** — proteção da vida, saúde e segurança',
+          '**II** — educação e divulgação sobre o consumo',
+          '**III** — informação adequada e clara',
+          '**IV** — proteção contra publicidade enganosa e abusiva',
+          '**V** — modificação ou revisão de cláusulas abusivas/onerosas',
+          '**VI** — efetiva prevenção e reparação de danos (patrimoniais e morais, individuais, coletivos e difusos)',
+          '**VII** — acesso à justiça',
+          '**VIII** — facilitação da defesa, INCLUSIVE com INVERSÃO DO ÔNUS DA PROVA (verossimilhança ou hipossuficiência)',
+          '**IX** — adequada e eficaz prestação dos serviços públicos',
+          '**X** — adequação dos produtos e serviços (CDC 18 e ss.)'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade pelo FATO (vício de SEGURANÇA — CDC arts. 12-17)' },
+        { type: 'list', items: [
+          '**Art. 12** — responsabilidade do fabricante, produtor, construtor, importador: OBJETIVA por defeito do produto',
+          '**Art. 14** — responsabilidade do prestador de serviço: OBJETIVA por defeito do serviço',
+          '**Art. 14 §4º** — profissional liberal: SUBJETIVA (apuração de culpa)',
+          '**Art. 27** — PRESCRIÇÃO de 5 anos para reparação do FATO'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade pelo VÍCIO (CDC arts. 18-25)' },
+        { type: 'list', items: [
+          '**Art. 18** — vício de qualidade ou quantidade do PRODUTO',
+          '**Art. 20** — vício de qualidade do SERVIÇO',
+          '**Art. 26** — DECADÊNCIA: 30 dias (não duráveis) ou 90 dias (duráveis), a partir do recebimento ou do aparecimento do vício oculto',
+          '**Art. 18 §1º** — após 30 dias sem solução: RESCISÃO ou ABATIMENTO ou SUBSTITUIÇÃO',
+          '**Art. 25** — vedada cláusula que impossibilite a responsabilidade'
+        ]},
+
+        { type: 'h', text: 'Práticas comerciais (CDC arts. 30-44)' },
+        { type: 'list', items: [
+          '**Art. 30** — OFERTA vincula o fornecedor (princípio da vinculação)',
+          '**Art. 36-38** — PUBLICIDADE: vedação à enganosa e abusiva. Ônus probatório do fornecedor',
+          '**Art. 39** — PRÁTICAS ABUSIVAS (rol exemplificativo): venda casada, recusa de atendimento, prevalência de fraqueza, etc.',
+          '**Art. 49** — DIREITO DE ARREPENDIMENTO: 7 dias para compras fora do estabelecimento (telemarketing, internet, domicílio)'
+        ]},
+
+        { type: 'h', text: 'Cláusulas abusivas (CDC art. 51) e proteção contratual' },
+        { type: 'list', items: [
+          '**Art. 51** — rol exemplificativo de cláusulas NULAS de pleno direito (incompatível com boa-fé, exoneração de responsabilidade, inversão do ônus, etc.)',
+          '**Art. 51 IV** — abuso por iniquidade ou onerosidade excessiva',
+          '**Art. 53** — perda de prestações pagas em contratos com cláusula resolutiva: nula',
+          '**Art. 54** — contratos de adesão: cláusulas que limitem direitos do consumidor devem ser destacadas'
+        ]},
+
+        { type: 'h', text: 'Tutela coletiva (CDC arts. 81-104)' },
+        { type: 'list', items: [
+          '**Art. 81 § único** — três categorias: DIFUSOS · COLETIVOS STRICTO SENSU · INDIVIDUAIS HOMOGÊNEOS',
+          '**Art. 82** — legitimados: MP, União, Estados, DF, Municípios, autarquias, associações com 1 ano e finalidade pertinente',
+          '**Art. 90** — aplicação do CPC subsidiariamente',
+          '**Art. 103** — coisa julgada: erga omnes (difusos), ultra partes (coletivos), erga omnes só na procedência (individuais homogêneos)',
+          '**Art. 104** — ações coletivas NÃO induzem litispendência com individuais'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Quem é consumidor? Teorias' },
+        { type: 'p', text: '**Teoria FINALISTA (clássica):** consumidor é apenas o destinatário FINAL fático e econômico. Adquirir para revenda ou em atividade comercial = NÃO é consumidor. STJ majoritário inicialmente.' },
+        { type: 'p', text: '**Teoria MAXIMALISTA:** consumidor é qualquer destinatário final fático, ainda que insira o produto na cadeia produtiva. Visão mais ampla.' },
+        { type: 'p', text: '**Teoria FINALISTA MITIGADA (atual STJ):** consumidor é o destinatário final, mas EXCEPCIONALMENTE pessoa jurídica em situação de VULNERABILIDADE (técnica, jurídica, fática) pode ser equiparada — mesmo se usar o produto profissionalmente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tese atual (REsp 1.195.642):** finalismo mitigado. Considera vulnerabilidade da PJ no caso concreto. Banca cobra a evolução das teorias.' },
+
+        { type: 'h', text: 'Fato × Vício — distinção fundamental' },
+        { type: 'p', text: '**FATO do produto/serviço:** dano à SAÚDE, SEGURANÇA ou PATRIMÔNIO além do produto (acidente de consumo). Ex: explosão de panela de pressão queimando o consumidor. Prazo: PRESCRIÇÃO de 5 ANOS (art. 27).' },
+        { type: 'p', text: '**VÍCIO do produto/serviço:** defeito intrínseco, INADEQUAÇÃO ao fim ou impróprio para o consumo. Ex: panela que não fecha bem. Prazo: DECADÊNCIA de 30 (não duráveis) ou 90 dias (duráveis) — art. 26.' },
+        { type: 'box', kind: 'macete', text: '**FATO = ACIDENTE (5 anos prescrição). VÍCIO = INADEQUAÇÃO (30/90 dias decadência).** Diferenciar é obrigatório.' },
+
+        { type: 'h', text: 'Responsabilidade objetiva e excludentes' },
+        { type: 'p', text: 'Regra: responsabilidade OBJETIVA (independe de culpa) — art. 12 (fato/produto), 14 (fato/serviço). **Excludentes (art. 12 §3º; art. 14 §3º):** (i) NÃO COLOCAÇÃO no mercado; (ii) defeito INEXISTENTE; (iii) culpa EXCLUSIVA do consumidor ou de terceiro. Caso fortuito interno NÃO afasta (jurisprudência). Profissional liberal: SUBJETIVA (art. 14 §4º).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 130:** "A empresa responde, perante o cliente, pela reparação de dano ou furto de veículo ocorridos em seu estacionamento." Caso clássico de fortuito interno × externo.' },
+
+        { type: 'h', text: 'Inversão do ônus da prova (CDC art. 6º VIII)' },
+        { type: 'p', text: 'É **DIREITO BÁSICO** do consumidor, condicionado a: (a) **VEROSSIMILHANÇA** das alegações; OU (b) **HIPOSSUFICIÊNCIA** (técnica, financeira, probatória). Pode ser de OFÍCIO. Discussão atual: momento da inversão — STJ entende que o juiz deve declarar o ônus invertido na decisão saneadora, dando prazo razoável para o fornecedor produzir a prova.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 802.832 (decisão histórica):** "A inversão do ônus da prova em favor do consumidor é regra de instrução, não de julgamento, devendo ser determinada na fase saneadora do processo" — para garantir contraditório efetivo.' },
+
+        { type: 'h', text: 'Publicidade enganosa × abusiva' },
+        { type: 'p', text: '**Enganosa (art. 37 §1º):** capaz de INDUZIR EM ERRO o consumidor (mesmo por OMISSÃO de dado essencial). Foco: veracidade. **Abusiva (art. 37 §2º):** discriminatória, incita violência, explora medo, desrespeita valores ambientais, induz comportamento prejudicial. Foco: ética.' },
+        { type: 'p', text: 'Princípio da **VINCULAÇÃO**: a oferta integra o contrato (art. 30). Princípio da **VERACIDADE**: ônus do fornecedor provar (art. 38). **Não cumpre? Sanções:** contraproganda às custas do fornecedor; multa administrativa; responsabilidade civil; eventual responsabilidade penal (CDC art. 67).' },
+
+        { type: 'h', text: 'Tutela coletiva — categorias e coisa julgada' },
+        { type: 'p', text: '**Difusos** — titulares INDETERMINÁVEIS, ligados por circunstâncias de fato. Ex: meio ambiente, propaganda enganosa em massa. **Coisa julgada erga omnes** (CDC 103 I), com exceção do *secundum eventum probationis* (improcedência por insuficiência de provas).' },
+        { type: 'p', text: '**Coletivos stricto sensu** — titulares determináveis, ligados por relação jurídica base (associação, classe). Ex: associados de plano de saúde. **Coisa julgada ultra partes** (103 II).' },
+        { type: 'p', text: '**Individuais homogêneos** — titulares determináveis, lesão de origem comum. Ex: vícios em série de aparelho. **Coisa julgada erga omnes só em PROCEDÊNCIA** (103 III). Improcedência NÃO impede ações individuais (104).' },
+        { type: 'box', kind: 'macete', text: '**3 categorias = DIFUSOS · COLETIVOS · INDIVIDUAIS HOMOGÊNEOS.** Mnemônico: "DCI". Decorar é essencial — banca cobra MUITO.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**FATO = ACIDENTE de consumo (prescrição 5 anos — art. 27). VÍCIO = inadequação (decadência 30/90 — art. 26).**' },
+        { type: 'box', kind: 'macete', text: '**3 espécies de consumidor: STANDARD (art. 2º) · BYSTANDER (art. 17) · EQUIPARADO (arts. 2º § único, 29).** Mnemônico: SBE.' },
+        { type: 'box', kind: 'macete', text: '**Inversão do ônus: VEROSSIMILHANÇA OU HIPOSSUFICIÊNCIA.** Não precisam ambas (alternativos).' },
+        { type: 'box', kind: 'macete', text: '**Direito de arrependimento (art. 49): 7 dias para compras FORA do estabelecimento.** Não se aplica a compras presenciais.' },
+        { type: 'box', kind: 'macete', text: '**Categorias coletivas: DIFUSOS · COLETIVOS · INDIVIDUAIS HOMOGÊNEOS.** Coisa julgada do art. 103.' },
+        { type: 'box', kind: 'macete', text: '**Profissional liberal: responsabilidade SUBJETIVA (art. 14 §4º).** Exceção à regra geral (objetiva).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Profissional liberal é responsabilidade SUBJETIVA — exceção à regra geral.** Pegadinha clássica: alternativa diz que "responsabilidade do médico é objetiva como qualquer prestador". Errado.' },
+        { type: 'box', kind: 'atencao', text: '**Inversão do ônus é DECLARAÇÃO no saneamento — não na sentença.** STJ é firme. Banca cobra essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**FATO ≠ VÍCIO. Confundir prazos é erro grave.** Decorar: 30/90 (decadência vício) vs. 5 anos (prescrição fato).' },
+        { type: 'box', kind: 'atencao', text: '**Direito de arrependimento (7 dias) NÃO se aplica a compras presenciais.** Apenas FORA do estabelecimento (telemarketing, internet, ambulante, domicílio).' },
+        { type: 'box', kind: 'atencao', text: '**Bystander (art. 17) é equiparado ao consumidor — terceiro não-contratante atingido por acidente de consumo.** Banca explora.' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa jurídica pode ser consumidora? SIM (CDC art. 2º + finalismo mitigado STJ).** Mas só se houver vulnerabilidade e destinação final.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** CDC + LACP = núcleo do sistema processual coletivo (LACP 21 + CDC 90).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP de consumo é caso típico — clássico do MP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** Súmula 597 STJ — reajuste de plano de saúde por faixa etária do idoso é abusivo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 12 (responsabilidade civil):** CDC traz regramento ESPECIAL de responsabilidade — diferente do CC art. 927+.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const — princípios da ordem econômica:** defesa do consumidor (CF 170 V).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — crimes contra relações de consumo:** Lei 8.137/90 + crimes específicos do CDC arts. 63-80.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-08-meio-ambiente', num: 8, materia: 'colmat', title: 'Meio Ambiente', edital: '4.1.8', editalText: 'CF art. 225. Lei 6.938/81. PNMA. Princípios. Tutela civil, administrativa, penal.', size: 'Grande', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — vivência em ICs e ACPs ambientais).', outline: ['CF art. 225 — meio ambiente ecologicamente equilibrado', 'Princípios (precaução, prevenção, poluidor-pagador, desenvolvimento sustentável)', 'Lei 6.938/81 — PNMA e SISNAMA', 'Responsabilidade civil ambiental — objetiva', 'Tríplice responsabilização (civil, adm., penal)', 'Lei 9.605/98 — crimes ambientais', 'Áreas de preservação permanente e reserva legal (Lei 12.651/12)', 'Atuação do MP (TAC, ACP)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **direito ao meio ambiente ecologicamente equilibrado** é direito fundamental de **TERCEIRA DIMENSÃO** (transindividual e intergeracional). Está consagrado no **CF art. 225** — "Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo e preservá-lo para as presentes e futuras gerações".' },
+        { type: 'p', text: 'A tutela é **TRIPLA E AUTÔNOMA** (CF 225 §3º): **CIVIL** (reparação integral pelo dano — responsabilidade objetiva e solidária), **ADMINISTRATIVA** (multa, embargo, demolição) e **PENAL** (Lei 9.605/98). As três esferas são INDEPENDENTES — pode haver condenação em uma e absolvição em outra. Convivem com a tríplice responsabilização do agente público (improbidade) quando há omissão estatal.' },
+        { type: 'p', text: 'A disciplina legal centra-se na **Lei 6.938/1981** (Política Nacional do Meio Ambiente — PNMA), na **Lei 9.605/1998** (Crimes ambientais), na **Lei 12.651/2012** (Código Florestal — APP, RL, CAR) e na **Lei 9.985/2000** (SNUC — Unidades de Conservação). Para o concurso: princípios (precaução, prevenção, poluidor-pagador, in dubio pro natura), responsabilidade civil objetiva e solidária, IC e ACP ambientais, princípio da reparação integral.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 225' },
+        { type: 'list', items: [
+          '**Caput** — meio ambiente ecologicamente equilibrado, bem de uso comum, essencial à sadia qualidade de vida. Dever do Poder Público e da coletividade',
+          '**§1º** — incumbências do Poder Público (preservar, proteger, definir UCs, exigir EIA, controlar produção)',
+          '**§2º** — recuperação do meio ambiente degradado por mineração',
+          '**§3º** — TRÍPLICE RESPONSABILIZAÇÃO: penal, civil e administrativa (independentes)',
+          '**§4º** — biomas brasileiros como patrimônio nacional (Floresta Amazônica, Mata Atlântica, Serra do Mar, Pantanal, Zona Costeira)',
+          '**§5º** — terras devolutas para preservação',
+          '**§6º** — exigência de licença para atividades nucleares',
+          '**§7º** — vedação a práticas que submetam animais a crueldade'
+        ]},
+
+        { type: 'h', text: 'Lei 6.938/81 — PNMA' },
+        { type: 'list', items: [
+          '**Art. 2º** — princípios: ação governamental, racionalização do uso, planejamento, proteção dos ecossistemas',
+          '**Art. 3º** — definições: meio ambiente, degradação, poluição, poluidor, recursos ambientais',
+          '**Art. 6º** — SISNAMA (Sistema Nacional do Meio Ambiente): órgão superior (CONAMA), órgão executor federal (IBAMA), órgãos seccionais (estaduais), órgãos locais (municipais)',
+          '**Art. 9º** — instrumentos: padrões de qualidade, zoneamento, EIA, licenciamento, incentivos, criação de UCs',
+          '**Art. 14 §1º** — RESPONSABILIDADE CIVIL OBJETIVA pelo dano ambiental, INDEPENDENTE de culpa, pelo princípio da REPARAÇÃO INTEGRAL'
+        ]},
+
+        { type: 'h', text: 'Lei 9.605/98 — Crimes ambientais' },
+        { type: 'list', items: [
+          '**Art. 2º** — quem concorre para o crime ambiental responde também',
+          '**Art. 3º** — RESPONSABILIDADE PENAL DA PESSOA JURÍDICA (única hipótese expressa no Brasil)',
+          '**Arts. 29-37** — crimes contra a fauna',
+          '**Arts. 38-53** — crimes contra a flora',
+          '**Arts. 54-61** — crimes de poluição',
+          '**Arts. 62-65** — crimes contra o ordenamento urbano e patrimônio cultural',
+          '**Arts. 66-69** — crimes contra a Administração Ambiental',
+          '**Arts. 27-28** — TRANSAÇÃO PENAL e SUSPENSÃO CONDICIONAL — só se houver reparação prévia do dano (em geral)'
+        ]},
+
+        { type: 'h', text: 'Lei 12.651/12 — Código Florestal' },
+        { type: 'list', items: [
+          '**Art. 3º** — definições: APP, RL, CAR',
+          '**Arts. 4º-9º** — Áreas de Preservação Permanente (APP)',
+          '**Arts. 12-24** — Reserva Legal (RL): percentuais por bioma (Amazônia 80%, Cerrado 35%, demais 20%)',
+          '**Arts. 29-30** — CAR (Cadastro Ambiental Rural)',
+          '**Arts. 59-68** — PRA (Programa de Regularização Ambiental)'
+        ]},
+
+        { type: 'h', text: 'Lei 9.985/2000 — SNUC' },
+        { type: 'list', items: [
+          '**Unidades de Proteção Integral**: ESTAÇÃO ECOLÓGICA, RESERVA BIOLÓGICA, PARQUE NACIONAL, MONUMENTO NATURAL, REFÚGIO DE VIDA SILVESTRE',
+          '**Unidades de Uso Sustentável**: APA, ARIE, FLORESTA NACIONAL, RESERVA EXTRATIVISTA, RESERVA DE FAUNA, RDS, RPPN'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios ambientais — núcleo da prova' },
+        { type: 'p', text: '**PREVENÇÃO:** atua sobre RISCO CONHECIDO. Há certeza científica do dano potencial — exige medidas para evitá-lo. Ex: licença ambiental para obra que se sabe causar erosão.' },
+        { type: 'p', text: '**PRECAUÇÃO (in dubio pro ambiente):** atua sobre RISCO DESCONHECIDO. Há incerteza científica — mas a possibilidade do dano é grave. Aplicação: agrotóxicos novos, transgênicos, ondas eletromagnéticas. STF aplica firmemente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 4.029 (Mata Atlântica), STJ Tema 957:** princípio da precaução determina inversão do ônus da prova ambiental. Agente que aufere lucro deve provar que sua atividade NÃO causa dano.' },
+
+        { type: 'p', text: '**POLUIDOR-PAGADOR (PPP):** quem causa dano ambiental deve INTERNALIZAR os custos da degradação (não socializar para a sociedade). Distinto do princípio do USUÁRIO-PAGADOR (quem usa recursos paga pelo uso).' },
+        { type: 'p', text: '**DESENVOLVIMENTO SUSTENTÁVEL:** harmoniza desenvolvimento econômico e proteção ambiental, considerando gerações futuras. Conferência Rio-92.' },
+        { type: 'p', text: '**RESPONSABILIDADE COMUM PORÉM DIFERENCIADA:** entre nações desenvolvidas e em desenvolvimento. Aplicação no direito internacional (Acordo de Paris, Convenção do Clima).' },
+
+        { type: 'h', text: 'Responsabilidade civil ambiental — OBJETIVA E SOLIDÁRIA' },
+        { type: 'p', text: 'A responsabilidade civil é **OBJETIVA** (Lei 6.938/81 art. 14 §1º) — dispensa culpa. Adota a teoria do **RISCO INTEGRAL** segundo o STJ (não admite excludentes como caso fortuito ou força maior). É **SOLIDÁRIA** entre poluidor direto e indireto (custo da reparação responsabilidade de todos os envolvidos). É **PROPTER REM** — segue a coisa (proprietário sucessor responde pela degradação anterior, mesmo não tendo causado).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 623:** "As obrigações ambientais possuem natureza propter rem, sendo admissível cobrá-las do proprietário ou possuidor atual e/ou dos anteriores, à escolha do credor."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 467:** "Prescreve em cinco anos, contados do término do processo administrativo, a pretensão da Administração Pública de promover a execução da multa por infração ambiental."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 999 (REsp 1.737.321):** dano ambiental moral coletivo é cumulável com dano material. Reparação integral.' },
+
+        { type: 'h', text: 'Tríplice responsabilização (CF 225 §3º)' },
+        { type: 'p', text: 'CIVIL · ADMINISTRATIVA · PENAL — INDEPENDENTES e CUMULATIVAS. O mesmo fato pode gerar: ação civil (reparação), processo administrativo (multa, embargo) e ação penal (Lei 9.605/98). Ex: empresa polui rio → pagamento integral do dano (civil) + multa do IBAMA (administrativa) + denúncia criminal contra dirigentes e PJ (penal).' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa Jurídica responde PENALMENTE em matéria ambiental** (CF 225 §3º + Lei 9.605/98 art. 3º) — única hipótese expressa. Penas: multa, restritivas de direito (suspensão, interdição) e prestação de serviços.' },
+
+        { type: 'h', text: 'Imprescritibilidade da reparação ambiental' },
+        { type: 'p', text: 'O STF decidiu (RE 654.833 — Tema 999) que a pretensão de reparação do dano ambiental é IMPRESCRITÍVEL — a degradação ambiental é de tal gravidade que ultrapassa o tempo. Tese vinculante. Não confundir com a prescrição da MULTA administrativa (5 anos — Súmula 467 STJ) nem da pretensão penal (regras gerais).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 654.833 (Tema 999, 2020):** "É imprescritível a pretensão de reparação civil de dano ambiental." Tese vinculante. Marco da jurisprudência ambiental brasileira.' },
+
+        { type: 'h', text: 'APP, RL e CAR (Código Florestal)' },
+        { type: 'p', text: '**APP (Área de Preservação Permanente):** áreas em torno de cursos d\'água, nascentes, encostas — protegidas integralmente. Tamanho varia conforme largura do rio (5m até 500m).' },
+        { type: 'p', text: '**RL (Reserva Legal):** porcentagem do imóvel rural mantida como vegetação nativa. Amazônia 80% · Cerrado 35% · demais biomas 20%.' },
+        { type: 'p', text: '**CAR (Cadastro Ambiental Rural):** registro eletrônico OBRIGATÓRIO para todo imóvel rural. Permite controle ambiental, regularização via PRA.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 princípios-chave: PREVENÇÃO · PRECAUÇÃO · POLUIDOR-PAGADOR · DESENVOLVIMENTO SUSTENTÁVEL.** Mnemônico **3P+DS**.' },
+        { type: 'box', kind: 'macete', text: '**PREVENÇÃO = risco CONHECIDO. PRECAUÇÃO = risco DESCONHECIDO (in dubio pro natura).**' },
+        { type: 'box', kind: 'macete', text: '**Tríplice responsabilização (CF 225 §3º): CIVIL · ADM · PENAL.** Independentes. Cumuláveis.' },
+        { type: 'box', kind: 'macete', text: '**RC ambiental: OBJETIVA · SOLIDÁRIA · PROPTER REM · IMPRESCRITÍVEL** (STF Tema 999).' },
+        { type: 'box', kind: 'macete', text: '**Reserva Legal: AMAZÔNIA 80% · CERRADO 35% · DEMAIS 20%.** Decorar.' },
+        { type: 'box', kind: 'macete', text: '**PJ responde PENALMENTE em matéria ambiental — única hipótese expressa no Brasil** (CF 225 §3º + Lei 9.605/98 art. 3º).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reparação ambiental é IMPRESCRITÍVEL (STF Tema 999, 2020).** Pegadinha: alternativa diz que prescreve em 5 anos. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**Responsabilidade ambiental é PROPTER REM — segue a coisa.** Comprador de imóvel degradado responde pela reparação, mesmo não tendo causado (Súmula 623 STJ).' },
+        { type: 'box', kind: 'atencao', text: '**STJ adota TEORIA DO RISCO INTEGRAL — não admite excludentes em matéria ambiental.** Caso fortuito, força maior, fato de terceiro NÃO afastam responsabilidade civil.' },
+        { type: 'box', kind: 'atencao', text: '**Tríplice responsabilização é INDEPENDENTE.** Absolvição na esfera penal NÃO afasta civil ou administrativa (salvo absolvição por NEGATIVA DE AUTORIA ou INEXISTÊNCIA DO FATO — CPP art. 386 I e IV).' },
+        { type: 'box', kind: 'atencao', text: '**Princípio da PRECAUÇÃO ≠ PREVENÇÃO. Decorar a distinção.** Banca cobra muito.' },
+        { type: 'box', kind: 'atencao', text: '**PJ responde penalmente em matéria ambiental — penas alternativas (multa, restritivas).** Banca cobra a especificidade dessa exceção.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** meio ambiente é direito de TERCEIRA DIMENSÃO — transindividual e intergeracional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 12 (comunidades tradicionais):** povos extrativistas, ribeirinhos têm direito específico ao meio ambiente onde vivem (Convenção 169 OIT).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** LACP nasceu para tutela ambiental (Lei 7.347/85).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP é o instrumento por excelência da tutela ambiental.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — Lei 9.605/98:** crimes ambientais (fauna, flora, poluição, ordenamento).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — improbidade:** omissão de fiscalização ambiental pode caracterizar improbidade (LIA 11).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Direito Urbanístico):** integração entre meio ambiente urbano e licenciamento ambiental.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-09-direito-urbanistico', num: 9, materia: 'colmat', title: 'Direito Urbanístico', edital: '4.1.9', editalText: 'CF arts. 182-183. Estatuto da Cidade (Lei 10.257/01). Plano diretor. IPTU progressivo.', size: 'Médio', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — atua em ACPs urbanas e regularização fundiária).', outline: ['Política urbana (CF arts. 182-183)', 'Estatuto da Cidade (Lei 10.257/01)', 'Plano diretor', 'Instrumentos (IPTU progressivo, edificação compulsória, desapropriação-sanção)', 'Usucapião urbana', 'Regularização fundiária (Lei 13.465/17 — REURB)', 'Atuação do MP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Direito Urbanístico** é o ramo que disciplina o **uso e a ocupação do solo urbano**, harmonizando interesses individuais (propriedade) e coletivos (cidade sustentável, função social). Tem matriz constitucional nos **arts. 182 e 183 da CF/88** (capítulo "Da Política Urbana") e foi regulamentado pela **Lei 10.257/2001 (Estatuto da Cidade)**, marco normativo central do tema.' },
+        { type: 'p', text: 'O eixo é a **FUNÇÃO SOCIAL DA PROPRIEDADE URBANA** — propriedade não é direito absoluto: deve atender às exigências do plano diretor municipal. Quem descumpre fica sujeito a **PARCELAMENTO/EDIFICAÇÃO/UTILIZAÇÃO COMPULSÓRIOS** (PEUC), seguidos de **IPTU PROGRESSIVO no tempo** e, em última instância, **DESAPROPRIAÇÃO-SANÇÃO** (mediante títulos da dívida pública, não em dinheiro).' },
+        { type: 'p', text: 'Para o concurso: (a) **plano diretor** — obrigatório para municípios com mais de 20 mil habitantes (CF 182 §1º + Estatuto art. 41); (b) **instrumentos** (IPTU progressivo, PEUC, desapropriação-sanção, ZEIS, outorga onerosa, transferência do direito de construir); (c) **usucapião especial urbana** (CF 183 + Estatuto 9º — 5 anos, 250m², primeira moradia); (d) **REURB** — Lei 13.465/17, regularização fundiária urbana; (e) **atuação do MP** em ACP urbanística (PEU, ZEIS, regularização).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 182-183 (Política Urbana)' },
+        { type: 'list', items: [
+          '**Art. 182** — política urbana executada pelo Poder Público MUNICIPAL, conforme diretrizes da lei',
+          '**Art. 182 §1º** — plano diretor é obrigatório para CIDADES COM MAIS DE 20 MIL HABITANTES',
+          '**Art. 182 §2º** — propriedade urbana cumpre função social ao atender exigências do plano diretor',
+          '**Art. 182 §3º** — desapropriação para fins de reforma urbana com prévia e justa indenização em dinheiro',
+          '**Art. 182 §4º** — em caso de descumprimento da função social: I — parcelamento/edificação compulsórios; II — IPTU progressivo; III — desapropriação-sanção (títulos da dívida pública)',
+          '**Art. 183** — USUCAPIÃO URBANA: 5 ANOS, área de até 250 m², primeira moradia, sem oposição. NÃO se aplica a imóveis públicos'
+        ]},
+
+        { type: 'h', text: 'Lei 10.257/01 — Estatuto da Cidade' },
+        { type: 'list', items: [
+          '**Art. 1º** — normas gerais de direito urbanístico',
+          '**Art. 2º** — diretrizes (16 incisos): garantia do direito à cidade, gestão democrática, planejamento, justa distribuição de ônus e benefícios, recuperação dos investimentos, etc.',
+          '**Art. 3º** — competências da União, Estados, DF e Municípios',
+          '**Art. 4º** — instrumentos da política urbana (planos, IPTU progressivo, PEUC, desapropriação-sanção, ZEIS, outorga onerosa, transferência do direito de construir, etc.)',
+          '**Arts. 5º-8º** — PEUC e IPTU progressivo (até 15%, com possibilidade de desapropriação após 5 anos sem cumprimento)',
+          '**Art. 9º** — usucapião urbana INDIVIDUAL (replica CF 183)',
+          '**Art. 10** — usucapião urbana COLETIVA (área superior a 250 m², famílias de baixa renda, posse por 5 anos sem oposição)',
+          '**Art. 32** — outorga onerosa do direito de construir (solo criado)',
+          '**Art. 35** — transferência do direito de construir',
+          '**Art. 39** — função social do plano diretor — 16 diretrizes',
+          '**Art. 41** — plano diretor obrigatório (mais de 20 mil habs OU regiões metropolitanas)',
+          '**Art. 53** — atuação do MP em defesa da ordem urbanística'
+        ]},
+
+        { type: 'h', text: 'Lei 13.465/17 — REURB' },
+        { type: 'list', items: [
+          '**REURB** = Regularização Fundiária Urbana',
+          'Substituiu Lei 11.977/09 (regulamentava o Programa Minha Casa Minha Vida) e Decreto 9.310/18',
+          'Modalidades: REURB-S (interesse social) e REURB-E (interesse específico)',
+          'Instrumentos: legitimação fundiária, demarcação urbanística, condomínio urbano simples',
+          'STF — ADI 5.771: validou parcialmente a Lei 13.465/17, com ressalvas'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Função social da propriedade urbana' },
+        { type: 'p', text: 'A propriedade urbana **NÃO É DIREITO ABSOLUTO** — deve cumprir função social, definida pelo plano diretor (CF 182 §2º). Descumprimento autoriza intervenção estatal progressiva: PEUC → IPTU progressivo → desapropriação-sanção. Diferente da função social da propriedade RURAL (CF 186), regida pela utilização do imóvel em atividade produtiva e respeito ao meio ambiente.' },
+
+        { type: 'h', text: 'Plano diretor — instrumento básico' },
+        { type: 'p', text: '**Plano diretor** = lei municipal aprovada pela Câmara, com participação popular obrigatória. Estabelece zoneamento, regramentos de uso e ocupação. **Obrigatório** para municípios com mais de 20 mil habs (CF + Estatuto), capitais de estado, integrantes de RM, integrantes de áreas de especial interesse turístico, áreas de empreendimentos de impacto significativo. Revisão a cada 10 anos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 607.940 (Tema 348):** "É inconstitucional a previsão de o plano diretor estabelecer estandardização da edificação". Plano diretor não pode prever DETALHES executivos — deve fixar diretrizes gerais.' },
+
+        { type: 'h', text: 'Instrumentos progressivos — PEUC, IPTU, desapropriação' },
+        { type: 'p', text: '**PEUC** (Estatuto art. 5º): Município notifica proprietário a parcelar/edificar/utilizar imóvel subutilizado. Prazo: 1 ano para protocolar projeto + 2 anos para iniciar obras. Descumprimento abre próxima fase.' },
+        { type: 'p', text: '**IPTU progressivo no tempo** (art. 7º): aumento da alíquota anualmente, máximo de **15%**, por **5 anos**. Após esse período sem cumprimento, abre-se a próxima fase.' },
+        { type: 'p', text: '**Desapropriação-sanção** (art. 8º): Município paga em **TÍTULOS DA DÍVIDA PÚBLICA** (resgate em até 10 anos), não em dinheiro. Diferente da desapropriação ordinária (CF 5º XXIV — "prévia e justa indenização em dinheiro").' },
+        { type: 'box', kind: 'atencao', text: '**Desapropriação-sanção em DINHEIRO ou TÍTULOS? TÍTULOS** (Estatuto art. 8º). Pegadinha clássica.' },
+
+        { type: 'h', text: 'Usucapião especial urbana — individual e coletiva' },
+        { type: 'p', text: '**INDIVIDUAL** (CF 183 + Estatuto 9º): área até 250 m² · posse mansa, pacífica, ininterrupta de 5 anos · primeira moradia · NÃO ser proprietário de outro imóvel · sem oposição. **Não se aplica a imóveis públicos** (Súmula 340 STF).' },
+        { type: 'p', text: '**COLETIVA** (Estatuto 10): área SUPERIOR a 250 m² ocupada por POPULAÇÃO DE BAIXA RENDA, há mais de 5 anos, sem oposição, onde não for possível identificar terrenos individualmente. Sentença declara o domínio coletivo (com frações ideais).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 340:** "Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião." Vale para qualquer modalidade.' },
+
+        { type: 'h', text: 'REURB — regularização fundiária urbana' },
+        { type: 'p', text: 'Lei 13.465/17 disciplina a regularização fundiária urbana. Modalidades: **REURB-S (Interesse Social)** — destinada a famílias de baixa renda; **REURB-E (Interesse Específico)** — demais hipóteses. Instrumentos novos: **legitimação fundiária** (concessão de domínio), **demarcação urbanística** (procedimento administrativo), **condomínio urbano simples**.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 5.771 (parcialmente procedente):** validou parte da Lei 13.465/17 mas declarou inconstitucionais dispositivos sobre desnecessidade de licença ambiental em REURB-E, entre outros.' },
+
+        { type: 'h', text: 'Atuação do MP (Estatuto art. 53)' },
+        { type: 'p', text: 'O MP é legitimado para **ACP em defesa da ordem urbanística** — defesa do plano diretor, controle de empreendimentos de grande impacto, regularização fundiária, defesa de áreas de especial interesse social (ZEIS), combate ao parcelamento ilegal de solo urbano (Lei 6.766/79).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Plano diretor obrigatório: 20 MIL HABS+ (CF 182 §1º).** Mais cidades: capitais, RM, especial interesse turístico, empreendimentos de impacto.' },
+        { type: 'box', kind: 'macete', text: '**Instrumentos progressivos: PEUC → IPTU progressivo (5 anos, até 15%) → DESAPROPRIAÇÃO-SANÇÃO (títulos).** Crescente.' },
+        { type: 'box', kind: 'macete', text: '**Usucapião especial urbana: 5 ANOS · 250 m² · 1ª MORADIA · sem oposição.** Mnemônico **5-250-1**.' },
+        { type: 'box', kind: 'macete', text: '**Desapropriação-sanção: TÍTULOS da dívida pública (não dinheiro).** ≠ desapropriação ordinária (CF 5º XXIV — dinheiro).' },
+        { type: 'box', kind: 'macete', text: '**REURB-S = social (baixa renda) · REURB-E = específico (demais).** Lei 13.465/17.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Plano diretor: obrigatório acima de 20 MIL habs (não 30 mil, nem 50 mil).** Decorar.' },
+        { type: 'box', kind: 'atencao', text: '**Desapropriação-sanção em TÍTULOS da dívida pública.** Pegadinha clássica trocando para "dinheiro".' },
+        { type: 'box', kind: 'atencao', text: '**Usucapião urbana NÃO se aplica a imóveis públicos (Súm. 340 STF).** Imóvel da União, Estado ou Município é insuscetível.' },
+        { type: 'box', kind: 'atencao', text: '**IPTU progressivo até 15%, por 5 ANOS.** Banca cobra os números.' },
+        { type: 'box', kind: 'atencao', text: '**REURB substituiu a antiga Lei 11.977/09 (PMCMV).** Regime atual é da Lei 13.465/17.' },
+        { type: 'box', kind: 'atencao', text: '**MP atua em ACP urbanística (Estatuto art. 53).** Banca pode tentar negar legitimidade — está expressa.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil — propriedade:** função social da propriedade urbana é especialização do art. 5º XXIII CF + CC art. 1.228 §1º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** plano diretor integra licenciamento ambiental urbano.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** desvio de verbas urbanísticas tipifica improbidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP urbanística é instrumento típico do MP (Estatuto art. 53).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (Ordem econômica):** política urbana integra a ordem econômica e financeira (CF arts. 182-183).' }
+      ]
+    }
+  ] },
+  { id: 'colmat-10-patrimonio-cultural', num: 10, materia: 'colmat', title: 'Patrimônio Cultural e Histórico', edital: '4.1.10', editalText: 'CF art. 216. DL 25/37. Tombamento, registro, inventário.', size: 'Pequeno', schedule: 'Mês 7 — área específica do MPMG (cidades históricas)', advantage: 'Vantagem indireta (MG concentra patrimônio histórico — Ouro Branco e região, vivência da candidata).', outline: ['CF arts. 215-216 — direitos culturais', 'DL 25/37 — tombamento', 'Registro de bens imateriais', 'Patrimônio arqueológico', 'IPHAN', 'Tutela coletiva do patrimônio cultural'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Patrimônio Cultural** é o conjunto de bens **MATERIAIS e IMATERIAIS** que registram a memória, identidade e ação dos diferentes grupos formadores da sociedade brasileira (CF art. 216). É bem **DIFUSO** — pertence a todos e à coletividade. Sua tutela é dever do Poder Público e da comunidade (CF 216 §1º).' },
+        { type: 'p', text: 'A disciplina constitucional centra-se nos **arts. 215 e 216 da CF/88**. O **Decreto-Lei 25/1937** (Lei de Tombamento) é o diploma mais antigo em vigor — quase 90 anos. Regula o **TOMBAMENTO** (instrumento clássico para bens materiais). Complementam: **Decreto 3.551/2000** (registro de bens imateriais), **Lei 3.924/61** (patrimônio arqueológico), **Lei 11.483/07** (IPHAN como autarquia).' },
+        { type: 'p', text: 'Para o concurso (especialmente em **MG**, com cidades históricas como Ouro Preto, Diamantina, Tiradentes, São João del-Rei, Mariana, Congonhas): (a) **competência** material e legislativa concorrente; (b) **tombamento** — efeitos, restrições, indenização; (c) **registro** de bens imateriais (festas, expressões); (d) **atuação do MP** em ACP cultural; (e) **patrimônio mundial** — UNESCO (Ouro Preto foi 1º brasileiro, em 1980).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 215-216' },
+        { type: 'list', items: [
+          '**Art. 215** — Estado garante a todos pleno exercício dos direitos culturais e acesso às fontes da cultura nacional',
+          '**Art. 215 §1º** — proteção das manifestações populares, indígenas e afro-brasileiras',
+          '**Art. 215 §2º** — feriados e datas comemorativas significativas para os grupos étnicos nacionais',
+          '**Art. 215 §3º** — Plano Nacional de Cultura',
+          '**Art. 216** — patrimônio cultural brasileiro: bens MATERIAIS e IMATERIAIS portadores de referência à identidade, ação e memória dos diferentes grupos',
+          '**Art. 216 §1º** — meios de proteção: INVENTÁRIO, REGISTRO, VIGILÂNCIA, TOMBAMENTO, DESAPROPRIAÇÃO',
+          '**Art. 216 §4º** — danos e ameaças ao patrimônio sujeitam à punição na forma da lei',
+          '**Art. 216-A** — Sistema Nacional de Cultura'
+        ]},
+
+        { type: 'h', text: 'DL 25/37 — Lei de Tombamento' },
+        { type: 'list', items: [
+          '**Art. 1º** — patrimônio histórico e artístico nacional: bens cuja conservação seja de interesse público',
+          '**Art. 4º** — Livros de Tombamento (4): Arqueológico/Etnográfico, Histórico, das Belas Artes, das Artes Aplicadas',
+          '**Art. 5º** — tombamento de OFÍCIO: bens públicos. **Tombamento por iniciativa privada/POD. Público:** notificação ao proprietário particular',
+          '**Arts. 6º-10** — tombamento voluntário × compulsório',
+          '**Art. 11** — efeitos: imóvel não pode ser destruído, demolido ou mutilado sem autorização do IPHAN',
+          '**Art. 13** — exportação proibida de bem tombado (salvo exposição temporária com autorização)',
+          '**Art. 17** — direito de PREFERÊNCIA dos entes federativos (na alienação) — após Lei 13.105/15 (CPC), há controvérsia sobre se ainda vigora',
+          '**Art. 18** — dever do proprietário de conservar (cabe a Adm. fazer obras se proprietário não tiver recursos)',
+          '**Art. 19** — vizinhança não pode reduzir visibilidade'
+        ]},
+
+        { type: 'h', text: 'Decreto 3.551/2000 — Bens imateriais' },
+        { type: 'list', items: [
+          'Cria o **REGISTRO DE BENS CULTURAIS DE NATUREZA IMATERIAL**',
+          '4 livros: SABERES · CELEBRAÇÕES · FORMAS DE EXPRESSÃO · LUGARES',
+          'Reavaliação a cada 10 anos',
+          'Bens registrados: Samba de Roda do Recôncavo Baiano, Frevo, Capoeira, Festa do Divino, etc.'
+        ]},
+
+        { type: 'h', text: 'Lei 3.924/61 — Patrimônio arqueológico e pré-histórico' },
+        { type: 'list', items: [
+          'Sítios e monumentos arqueológicos pertencem à União (mesmo se em propriedade privada)',
+          'Pesquisas científicas exigem autorização do IPHAN',
+          'Destruição/vandalismo: crime ambiental (Lei 9.605/98 art. 62) ou crime do DL 25/37'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Tombamento × Registro × Inventário' },
+        { type: 'p', text: '**TOMBAMENTO:** ato administrativo declaratório que reconhece valor de bem MATERIAL (móvel ou imóvel) e o submete a regime jurídico especial. NÃO transfere a propriedade — apenas IMPÕE OBRIGAÇÕES (preservação, comunicação, autorização para alterações).' },
+        { type: 'p', text: '**REGISTRO:** ato similar para bens IMATERIAIS (saberes, celebrações, expressões, lugares). Decreto 3.551/00. Reavaliação periódica.' },
+        { type: 'p', text: '**INVENTÁRIO:** identificação e listagem de bens — fase prévia. Pode ser autônomo (não precede tombamento). Tem natureza de proteção PRELIMINAR.' },
+        { type: 'box', kind: 'macete', text: '**TOMBAMENTO = MATERIAL · REGISTRO = IMATERIAL · INVENTÁRIO = LISTAGEM/IDENTIFICAÇÃO.** Mnemônico TIRA.' },
+
+        { type: 'h', text: 'Tombamento — natureza jurídica e indenização' },
+        { type: 'p', text: 'Tombamento é **ATO ADMINISTRATIVO RESTRITIVO**, não confiscatório. Limita o uso, não elimina a propriedade. **NÃO há indenização autônoma**, em regra (STF, STJ) — salvo se o tombamento implicar **ESVAZIAMENTO ECONÔMICO** (perda total do valor de uso) — daí cabe **DESAPROPRIAÇÃO INDIRETA** ou indenização compensatória.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 584:** "As sociedades corretoras de seguros, que não se confundem com as sociedades de valores mobiliários ou com os agentes autônomos de seguro privado, estão fora do rol de entidades constantes do art. 22, parágrafo 1º, da Lei 8.212/91, não se sujeitando à majoração da alíquota da cofins prevista no artigo 18, da Lei 10.684/2003." [Súmula sobre direito tributário, NÃO aplicável aqui — consultando para evitar erro: sobre indenização em tombamento é jurisprudência do STJ majoritária — sem súmula específica]. STF: ARE 740.815 — tombamento não enseja indenização automática.' },
+
+        { type: 'h', text: 'Competências (CF 23 III, IV, V; 24 VII, VIII)' },
+        { type: 'p', text: '**Material (CF 23):** União, Estados, DF e Municípios cuidam EM CONJUNTO da proteção do patrimônio (CF 23 III, IV, V). É competência COMUM.' },
+        { type: 'p', text: '**Legislativa (CF 24):** União, Estados e DF têm competência CONCORRENTE para legislar sobre patrimônio cultural (CF 24 VII, VIII). União: normas gerais. Estados: suplementar. Municípios: legislam SUPLEMENTARMENTE no que couber (CF 30 II).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 121.140:** todos os entes podem TOMBAR — o tombamento estadual não impede o federal e vice-versa. Não há hierarquia entre tombamentos. Competência paralela.' },
+
+        { type: 'h', text: 'Lei estadual MG — patrimônio cultural mineiro' },
+        { type: 'p', text: 'MG tem **Lei 11.726/94** + **Decreto 36.398/94** (regulamenta) — disciplina o tombamento estadual em Minas. **IEPHA-MG** é o órgão executor. **Promotorias do Patrimônio Cultural** atuam em diversas comarcas mineiras (Ouro Preto, Mariana, Diamantina, etc.). A candidata em **Ouro Branco** está em região de concentração de patrimônio (proximidade com Ouro Preto, Itabirito, Mariana).' },
+
+        { type: 'h', text: 'IPHAN e patrimônio mundial UNESCO' },
+        { type: 'p', text: '**IPHAN** = Instituto do Patrimônio Histórico e Artístico Nacional (autarquia federal — Lei 11.483/07). Executa a política federal. **Patrimônio Mundial UNESCO** — Brasil tem 23 sítios reconhecidos (até 2024), entre os quais: Ouro Preto (1980, 1º), Olinda (1982), Salvador (1985), Brasília (1987), Cataratas do Iguaçu (1986), Centro Histórico de Diamantina (1999), Centro Histórico de Goiás (2001), Sítio Arqueológico de São Miguel das Missões (1983).' },
+        { type: 'box', kind: 'info', text: 'Patrimônio Mundial UNESCO em MG: Ouro Preto · Conjunto Moderno da Pampulha · Diamantina · Santuário do Bom Jesus de Matosinhos (Congonhas — Aleijadinho).' },
+
+        { type: 'h', text: 'Atuação do MP em patrimônio cultural' },
+        { type: 'p', text: 'O MP é legitimado para **ACP em defesa do patrimônio cultural** (LACP art. 1º III). Atua em: (a) anulação de licenças que afetem bem tombado; (b) embargo de obras irregulares; (c) reparação por danos a bens tombados; (d) regulamentação por ACP em situações de omissão municipal; (e) intervenção em ACP de terceiros (CDC 5º §1º + LACP).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Tutela do patrimônio cultural (CF 216 §1º): INVENTÁRIO · REGISTRO · VIGILÂNCIA · TOMBAMENTO · DESAPROPRIAÇÃO.** Mnemônico **IRVTD**.' },
+        { type: 'box', kind: 'macete', text: '**4 Livros do Tombamento (DL 25/37 art. 4º): Arqueológico/Etnográfico · Histórico · Belas Artes · Artes Aplicadas.**' },
+        { type: 'box', kind: 'macete', text: '**4 Livros de Registro (Decreto 3.551/00): SABERES · CELEBRAÇÕES · EXPRESSÕES · LUGARES.**' },
+        { type: 'box', kind: 'macete', text: '**Tombamento: NÃO indeniza, em regra** (salvo esvaziamento econômico). Limita o USO, não toma a PROPRIEDADE.' },
+        { type: 'box', kind: 'macete', text: '**Competência: COMUM (material — CF 23) e CONCORRENTE (legislativa — CF 24).** Todos os entes podem TOMBAR.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Tombamento NÃO transfere propriedade — apenas restringe uso.** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Tombamento NÃO indeniza, em regra (STF/STJ).** Salvo se causar esvaziamento econômico.' },
+        { type: 'box', kind: 'atencao', text: '**Patrimônio cultural inclui bens IMATERIAIS** (CF 216 + Decreto 3.551/00). Não confundir com tombamento, que é só para bens materiais.' },
+        { type: 'box', kind: 'atencao', text: '**Patrimônio arqueológico pertence à UNIÃO (Lei 3.924/61), mesmo em propriedade privada.** Particular descobre sítio? Comunica IPHAN.' },
+        { type: 'box', kind: 'atencao', text: '**Tombamento federal NÃO impede tombamento estadual ou municipal — todos podem tombar (STF RE 121.140).**' },
+        { type: 'box', kind: 'atencao', text: '**Em MG: IEPHA-MG (estadual), IPHAN (federal), órgãos municipais (Ouro Preto, Diamantina).** Tombamentos podem coexistir.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** patrimônio cultural é direito coletivo (3ª dimensão).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** integração patrimônio cultural × ambiental (cidades históricas).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** plano diretor deve respeitar bens tombados.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 12 (Comunidades tradicionais):** patrimônio imaterial inclui saberes de comunidades quilombolas, indígenas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP cultural é instrumento típico do MP (LACP art. 1º III).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — Lei 9.605/98 art. 62:** crime de destruição de bem especialmente protegido.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-11-improbidade-material', num: 11, materia: 'colmat', title: 'Improbidade administrativa (material)', edital: '4.1.11', editalText: 'Lei 8.429/92 com Lei 14.230/21. Atos. Sanções. Sujeitos.', size: 'Grande', schedule: 'Mês 7 — área core do MP', advantage: 'Vantagem direta (Analista MPMG — área de atuação central do MP em ACPs).', outline: ['Sujeitos (ativo — agente público, particular cooperando; passivo)', 'Atos de improbidade — espécies', 'Necessidade de dolo específico (Lei 14.230/21)', 'Sanções (CF art. 37 §4º + LIA)', 'ANPC — Acordo de Não Persecução Cível', 'Prescrição', 'Concomitância com outras esferas'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **improbidade administrativa** é o gênero de ilícitos atentatórios contra a moralidade e legalidade da Administração Pública, sancionados na esfera **CIVIL-POLÍTICA** (não penal). Tem matriz constitucional no **CF art. 37 §4º** — "Os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível."' },
+        { type: 'p', text: 'A disciplina infraconstitucional é a **Lei 8.429/1992 (LIA)**, profundamente alterada pela **Lei 14.230/2021** — uma reforma estrutural que inverteu paradigmas: (i) introduziu **DOLO ESPECÍFICO** como elemento subjetivo necessário para qualquer ato de improbidade; (ii) eliminou a **modalidade culposa**; (iii) instituiu o **ANPC** (Acordo de Não Persecução Cível); (iv) modificou prazos prescricionais; (v) limitou a legitimidade do MP.' },
+        { type: 'p', text: 'A área é **CORE** para o MP — Promotorias do Patrimônio Público no MPMG são especializadas. Para o concurso (especialmente em prova de MPMG): (a) **sujeitos** (agente público, particular cooperando, agente político); (b) **3 espécies** de improbidade após Lei 14.230/21 (enriquecimento ilícito, prejuízo ao erário, atentado a princípios); (c) **dolo específico** — mudança substancial; (d) **sanções** e suas gradações; (e) **ANPC** — acordo possível; (f) **prescrição** (8 anos da prática + interrupções); (g) **STF e STJ** — jurisprudência crucial pós-Lei 14.230/21 (RE 843.989, ADI 7.236).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 37 §4º' },
+        { type: 'list', items: [
+          'Atos de improbidade importarão: SUSPENSÃO DOS DIREITOS POLÍTICOS · PERDA DA FUNÇÃO PÚBLICA · INDISPONIBILIDADE DOS BENS · RESSARCIMENTO AO ERÁRIO',
+          'Forma e gradação previstas em lei',
+          'Sem prejuízo da ação penal cabível (independência das esferas)',
+          'CF art. 37 §5º — ressarcimento ao erário é IMPRESCRITÍVEL (segundo STF RE 852.475 — Tema 897)'
+        ]},
+
+        { type: 'h', text: 'Lei 8.429/92 (LIA), com Lei 14.230/21' },
+        { type: 'list', items: [
+          '**Art. 1º** — quem responde por atos de improbidade: agentes públicos (servidores e agentes políticos)',
+          '**Art. 1º §1º** — DOLO ESPECÍFICO (alteração crucial Lei 14.230/21): exige fim ilícito específico, não basta dolo genérico',
+          '**Art. 1º §3º** — não comina o dolo no LATO SENSU — somente DIRETO ou EVENTUAL específico',
+          '**Art. 2º** — agente público: TODO aquele que exerce, ainda que transitoriamente ou sem remuneração, função pública',
+          '**Art. 3º** — particular que se beneficia: pode ser sujeito ativo (cooperante)',
+          '**Art. 9º** — atos que importam ENRIQUECIMENTO ILÍCITO',
+          '**Art. 10** — atos que causam PREJUÍZO AO ERÁRIO',
+          '**Art. 11** — atos que atentam contra os PRINCÍPIOS da Administração',
+          '**Art. 11 §1º** — também exige DOLO ESPECÍFICO (Lei 14.230/21)',
+          '**Art. 12** — sanções (cumulativas ou alternativas)',
+          '**Art. 17** — propositura da ação por MP ou pessoa jurídica interessada',
+          '**Art. 17 §10-A** — ANPC (Acordo de Não Persecução Cível) — Lei 14.230/21 introduziu',
+          '**Art. 23** — prescrição: 8 ANOS da data do fato (Lei 14.230/21 alterou)'
+        ]},
+
+        { type: 'h', text: 'Espécies de improbidade — após Lei 14.230/21' },
+        { type: 'list', items: [
+          '**Art. 9º — ENRIQUECIMENTO ILÍCITO**: aceitar vantagem patrimonial em razão do cargo. Vantagem para SI ou para outrem',
+          '**Art. 10 — PREJUÍZO AO ERÁRIO**: ação ou omissão DOLOSA que cause perda patrimonial. Lei 14.230/21 EXCLUIU a culpa',
+          '**Art. 11 — ATENTADO A PRINCÍPIOS**: ação ou omissão DOLOSA contra honestidade, imparcialidade, legalidade. Lei 14.230/21 reduziu o rol de incisos (de 16 para 8)'
+        ]},
+
+        { type: 'h', text: 'Sanções (art. 12, com gradações por espécie)' },
+        { type: 'list', items: [
+          '**Enriquecimento ilícito (art. 12 I):** perda dos bens · ressarcimento · perda da função · suspensão direitos políticos 8-14 anos · proibição contratar 14 anos · multa de até 3x o acréscimo patrimonial',
+          '**Prejuízo ao erário (art. 12 II):** ressarcimento · perda dos bens (se enriquecimento) · perda da função · suspensão direitos políticos 5-12 anos · proibição contratar 12 anos · multa até 2x o valor do dano',
+          '**Atentado a princípios (art. 12 III):** ressarcimento (se houver) · perda da função · suspensão direitos políticos até 4 anos · proibição contratar até 4 anos · multa civil até 24x o valor da remuneração'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Lei 14.230/21 — reforma estrutural' },
+        { type: 'p', text: 'A Lei 14.230/21 foi a maior alteração da LIA em 30 anos. Mudanças estruturais: **(i) ELIMINOU a culpa** — só responde quem age DOLOSAMENTE; **(ii) DOLO ESPECÍFICO** — não basta dolo genérico, exige fim ilícito específico; **(iii) reduziu o art. 11** (atentado a princípios) — de rol amplo para 8 incisos taxativos; **(iv) ANPC** — acordo possível; **(v) prescrição** — 8 anos do fato (antes era ligada à pena máxima do CPC); **(vi) RETROATIVIDADE BENÉFICA** — alterações benéficas retroagem (STF RE 843.989).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 843.989 (Tema 1199, 2022):** "A nova lei [14.230/21] aplica-se RETROATIVAMENTE em relação às alterações que beneficiem o réu — particularmente, a exigência de dolo específico e a eliminação da modalidade culposa." Tema vinculante. Banca cobra fortemente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 7.236 (2023):** confirmou a constitucionalidade da Lei 14.230/21 — afastou alegações de retrocesso institucional.' },
+
+        { type: 'h', text: 'Sujeitos — ativo e passivo' },
+        { type: 'p', text: '**SUJEITO ATIVO:** (i) agente público (art. 2º) — qualquer pessoa que exerça função pública, ainda que transitoriamente, sem remuneração; (ii) PARTICULAR (art. 3º) que se beneficie ou induza/concorra dolosamente. **Agentes políticos** (Presidente, Governador, Prefeito, Ministros, Secretários): também respondem — STF abandonou tese da "imunidade dos agentes políticos" (RE 803.297, 2014).' },
+        { type: 'p', text: '**SUJEITO PASSIVO:** (i) Adm. Pública DIRETA, INDIRETA (autarquias, fundações, empresas estatais) e FUNDACIONAL; (ii) entidade privada que receba subvenção, benefício ou auxílio público (limitada ao recurso público).' },
+        { type: 'box', kind: 'atencao', text: '**Lei 14.230/21 LIMITOU a legitimidade do MP** — antes, MP e PJ interessada podiam propor; após, MP é o legitimado preferencial. ADI 7.236 manteve a constitucionalidade dessa limitação. Acompanhar evolução.' },
+
+        { type: 'h', text: 'ANPC — Acordo de Não Persecução Cível' },
+        { type: 'p', text: 'Lei 14.230/21 introduziu o **ANPC** (LIA art. 17 §10-A). É acordo entre o MP (ou ente interessado) e o réu, pelo qual este se obriga a: ressarcir o dano · cumprir obrigações · pagar multa. Em troca, suspende-se ou se extingue a ação. Pressupõe: (i) comprovação dos fatos; (ii) anuência das vítimas (Adm.); (iii) homologação JUDICIAL.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Recente:** ANPC pode ser celebrado em qualquer fase — pré-processual (durante IC), durante a ação ou em fase recursal. Modelos similares ao ANPP (CPP 28-A) e ao ANPP-T (acordo trabalhista).' },
+
+        { type: 'h', text: 'Prescrição (art. 23)' },
+        { type: 'p', text: 'Lei 14.230/21 modificou o regime: **8 ANOS** contados da data do fato. Há causas de **INTERRUPÇÃO** (instauração de IC, citação) e de **SUSPENSÃO** (durante negociação de ANPC, durante IC). Após interrupção, o prazo recomeça pela METADE.' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade do RESSARCIMENTO ao erário (CF 37 §5º):** STF RE 852.475 (Tema 897, 2018) firmou que ações de ressarcimento decorrentes de ATOS DE IMPROBIDADE são IMPRESCRITÍVEIS. Mesmo que o sancionatório (suspensão de direitos, multa, proibição) prescreva em 8 anos, o RESSARCIMENTO permanece exigível.' },
+
+        { type: 'h', text: 'Independência das esferas' },
+        { type: 'p', text: 'Improbidade é responsabilidade CIVIL-POLÍTICA. Convive com: (i) **PENAL** (CP arts. 312-326 — peculato, corrupção, prevaricação, etc.); (ii) **ADMINISTRATIVA-DISCIPLINAR** (PAD); (iii) **FISCAL** (PJ tributária); (iv) **POLÍTICA** (cassação de mandato). As esferas são INDEPENDENTES — absolvição em uma não afasta as demais (salvo CPP 386 I e IV).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 espécies de improbidade: ENRIQUECIMENTO ILÍCITO (art. 9) · PREJUÍZO AO ERÁRIO (art. 10) · ATENTADO A PRINCÍPIOS (art. 11).** Mnemônico **EPA**.' },
+        { type: 'box', kind: 'macete', text: '**Lei 14.230/21: DOLO ESPECÍFICO (sem culpa) · RETROATIVIDADE BENÉFICA · ANPC · Prescrição 8 ANOS.** Reforma estrutural.' },
+        { type: 'box', kind: 'macete', text: '**Sanções (art. 12): perda dos bens · ressarcimento · perda da função · suspensão dos direitos políticos · proibição contratar · multa.** Cumulativas ou alternativas.' },
+        { type: 'box', kind: 'macete', text: '**Imprescritibilidade do RESSARCIMENTO** (STF Tema 897). Sancionatório prescreve em 8 anos, ressarcimento NÃO.' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 1199: retroatividade benéfica da Lei 14.230/21.** Atos antes da lei beneficiam-se das mudanças que favoreçam o réu.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Improbidade NÃO admite mais a forma CULPOSA (Lei 14.230/21).** Antes existia. Pegadinha clássica em provas que copiam enunciados antigos.' },
+        { type: 'box', kind: 'atencao', text: '**Dolo ESPECÍFICO (não genérico).** Mudança fundamental. Banca cobra a evolução.' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade APENAS do RESSARCIMENTO.** Sancionatório (suspensão, multa, perda) prescreve em 8 anos.' },
+        { type: 'box', kind: 'atencao', text: '**Particular pode ser sujeito ativo de improbidade (LIA art. 3º) — desde que coopere ou se beneficie.** Sozinho, não — precisa de agente público.' },
+        { type: 'box', kind: 'atencao', text: '**Agentes políticos respondem por improbidade (STF RE 803.297, 2014).** Pegadinha: alternativa diz que agentes políticos só respondem na esfera criminal. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**Lei 14.230/21 retroage para BENEFICIAR (STF Tema 1199).** Não retroage para prejudicar (princípio da legalidade, lex mitior).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — princípios da Adm. Pública:** improbidade é violação à moralidade administrativa (CF 37 caput).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** desvio de verbas ambientais é improbidade (LIA 11) + crime ambiental.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 6 (Saúde):** desvio de verbas do SUS — improbidade + crime peculato.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 5 (Educação):** desvio do FUNDEB — improbidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ação de improbidade tem natureza coletiva — segue rito da LACP no que couber.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — crimes contra a Adm. Pública (CP 312-326):** convivem em independência de esferas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (atuação extrajudicial):** ANPC é instrumento extrajudicial análogo ao TAC, com homologação judicial.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-12-comunidades-tradicionais', num: 12, materia: 'colmat', title: 'Direitos das comunidades tradicionais', edital: '4.1.12', editalText: 'Indígenas, quilombolas, povos tradicionais. CF arts. 231-232. Convenção 169 OIT.', size: 'Médio', schedule: 'Mês 7 — área especializada do MP', advantage: 'Vantagem indireta (Analista MP — convive com demandas em comunidades quilombolas e tradicionais).', outline: ['CF arts. 231-232 — indígenas', 'Demarcação de terras indígenas', 'Marco temporal — STF Tema 1031', 'Convenção 169 OIT (consulta livre, prévia e informada)', 'Quilombolas (CF ADCT art. 68 + Decreto 4.887/03)', 'Comunidades tradicionais (povos extrativistas, ribeirinhos, etc.)', 'Atuação do MPF e MP estadual'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **direitos das comunidades tradicionais** abrangem três grupos principais: (i) **POVOS INDÍGENAS** (CF arts. 231-232); (ii) **QUILOMBOLAS** (ADCT art. 68 + Decreto 4.887/03); (iii) **OUTRAS COMUNIDADES TRADICIONAIS** (povos extrativistas, ribeirinhos, geraizeiros, faxinalenses, ciganos, terreiros, etc. — Decreto 6.040/07 e Convenção 169 OIT).' },
+        { type: 'p', text: 'O eixo dogmático é o **DIREITO À AUTODETERMINAÇÃO** combinado com **PROTEÇÃO TERRITORIAL**, **CONSULTA LIVRE, PRÉVIA E INFORMADA** (CLPI — Convenção 169 OIT) e **DIREITOS CULTURAIS**. Marca histórica: a CF/88 ROMPEU com o paradigma assimilacionista do Estatuto do Índio (Lei 6.001/73) — comunidades não devem ser "integradas" à sociedade nacional, mas RESPEITADAS em sua organização social, costumes, língua e tradições.' },
+        { type: 'p', text: 'A **Convenção 169 OIT** (Decreto 5.051/04, atualizado pelo Decreto 10.088/19) tem status SUPRALEGAL (não foi aprovada pelo rito do art. 5º §3º). Em 2023, o **STF declarou INCONSTITUCIONAL a tese do MARCO TEMPORAL** (RE 1.017.365 — Tema 1031). A **Lei 14.701/2023** (que tentou reinstaurar o marco temporal) foi parcialmente derrubada pelo STF (ADI 7.582 e correlatas).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 231-232 (Povos Indígenas)' },
+        { type: 'list', items: [
+          '**Art. 231 caput** — São RECONHECIDOS aos índios sua organização social, costumes, línguas, crenças e tradições · direitos ORIGINÁRIOS sobre as terras que tradicionalmente ocupam',
+          '**Art. 231 §1º** — terras tradicionalmente ocupadas: habitadas em caráter permanente · utilizadas para suas atividades produtivas · imprescindíveis à preservação dos recursos ambientais necessários ao bem-estar · necessárias à reprodução física e cultural',
+          '**Art. 231 §2º** — terras destinam-se à POSSE PERMANENTE dos índios · USUFRUTO EXCLUSIVO das riquezas do solo, dos rios e dos lagos',
+          '**Art. 231 §3º** — pesquisa e lavra de minerais e hídricas em terras indígenas: somente com AUTORIZAÇÃO DO CONGRESSO NACIONAL, ouvidas as comunidades, asseguradas a participação nos resultados',
+          '**Art. 231 §4º** — terras INALIENÁVEIS, INDISPONÍVEIS e os direitos sobre elas IMPRESCRITÍVEIS',
+          '**Art. 231 §5º** — REMOÇÃO dos índios é VEDADA · salvo em caso de catástrofe ou epidemia (ad referendum CN) ou interesse de soberania (CN)',
+          '**Art. 231 §6º** — atos com ocupação, posse ou domínio de terras tradicionalmente ocupadas pelos índios são NULOS e EXTINTOS',
+          '**Art. 232** — índios, comunidades e organizações são partes legítimas para ingressar em juízo, intervindo o MPF em todos os atos do processo'
+        ]},
+
+        { type: 'h', text: 'ADCT art. 68 e Decreto 4.887/03 (Quilombolas)' },
+        { type: 'list', items: [
+          '**ADCT art. 68** — aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é RECONHECIDA a propriedade definitiva, devendo o Estado emitir-lhes os títulos respectivos',
+          '**Decreto 4.887/03** — regulamenta o procedimento de identificação, reconhecimento, delimitação, demarcação e titulação de terras quilombolas',
+          '**Critério: AUTOATRIBUIÇÃO** (definição da própria comunidade — não é critério genético) — STF ADI 3.239 (2018) validou',
+          'Órgão executor: **INCRA** (não FUNAI)',
+          'Convenção 169 OIT — fundamenta autoidentificação'
+        ]},
+
+        { type: 'h', text: 'Convenção 169 OIT (Decreto 5.051/04 → 10.088/19)' },
+        { type: 'list', items: [
+          '**Aplica-se a:** povos indígenas e tribais (incluindo quilombolas e outras comunidades tradicionais)',
+          '**CLPI — Consulta Livre, Prévia e Informada (arts. 6º e 7º):** OBRIGATÓRIA antes de qualquer medida legislativa ou administrativa que afete diretamente os povos',
+          '**Princípio da AUTOATRIBUIÇÃO** — CF e Convenção',
+          '**STATUS SUPRALEGAL no Brasil** (não foi aprovada pelo rito do art. 5º §3º)',
+          '**Sumarmente:** consulta NÃO é mero "ouvir" — é processo dialógico com poder de influência efetiva nas decisões'
+        ]},
+
+        { type: 'h', text: 'Decreto 6.040/07 (Política de Desenvolvimento Sustentável)' },
+        { type: 'list', items: [
+          'Define **POVOS E COMUNIDADES TRADICIONAIS**: grupos com formas próprias de organização social, identidade cultural, ocupação de territórios e recursos naturais como condição para reprodução cultural',
+          'Cria a CNPCT (Comissão Nacional)',
+          'Lista (exemplificativa): povos indígenas, quilombolas, faxinalenses, geraizeiros, ribeirinhos, extrativistas, caiçaras, ciganos, povos de terreiro, pescadores artesanais, etc.'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Marco Temporal — STF Tema 1031 (RE 1.017.365)' },
+        { type: 'p', text: 'Em 2023, o STF declarou **INCONSTITUCIONAL** a tese do **MARCO TEMPORAL** — segundo a qual indígenas só teriam direito a terras que efetivamente ocupavam em **05/10/1988** (data da CF). O STF firmou: terra tradicionalmente ocupada se afere por critérios PRESENTE-PRETÉRITO mais amplos (ocupação tradicional ao longo do tempo, expulsão violenta como exceção, etc.) — não pela mera presença em data específica.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.017.365 (Tema 1031, 2023):** "A demarcação de terras indígenas e o reconhecimento de direitos territoriais não dependem da efetiva ocupação na data de promulgação da CF/88 (05/10/1988); é inconstitucional a tese do marco temporal." Tese vinculante.' },
+        { type: 'p', text: '**Lei 14.701/2023** tentou reintroduzir o marco temporal por via legislativa. STF (ADI 7.582 e correlatas, 2024) declarou inconstitucionais os principais dispositivos. Tema dinâmico — acompanhar evolução.' },
+
+        { type: 'h', text: 'Demarcação — etapas e órgãos' },
+        { type: 'p', text: 'A **demarcação de terras indígenas** é procedimento administrativo composto de várias fases: (i) **estudos** (FUNAI); (ii) **identificação e delimitação** (FUNAI); (iii) **portaria declaratória** (Ministro da Justiça); (iv) **demarcação física**; (v) **homologação** (Decreto Presidencial); (vi) **registro** (em cartório e na SPU).' },
+        { type: 'p', text: 'A **propriedade** é da **UNIÃO** (CF 20 XI). Os **índios têm POSSE PERMANENTE e USUFRUTO EXCLUSIVO**. Diferença sutil: índios não são proprietários, mas têm o uso pleno garantido constitucionalmente.' },
+        { type: 'box', kind: 'atencao', text: '**Terras indígenas pertencem à UNIÃO (CF 20 XI). Índios têm POSSE e USUFRUTO** (CF 231 §2º). Pegadinha frequente: alternativa diz que indígenas são proprietários. Errado.' },
+
+        { type: 'h', text: 'Quilombolas — autoatribuição e propriedade' },
+        { type: 'p', text: 'Quilombolas são **PROPRIETÁRIOS** das terras (ADCT art. 68 — "propriedade definitiva"). Diferente dos indígenas (que são POSSUIDORES). Critério: **AUTOATRIBUIÇÃO** — comunidade se identifica como remanescente de quilombo. STF ADI 3.239 (2018) validou. **INCRA** é o órgão executor. Procedimento: identificação → RTID → certidão de autodefinição → demarcação → titulação.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 3.239 (2018):** declarou constitucional o Decreto 4.887/03 que regula a titulação de terras quilombolas, INCLUSIVE o critério da AUTOATRIBUIÇÃO (autodefinição da comunidade). Rechaçou a tentativa de critérios genéticos/objetivos.' },
+
+        { type: 'h', text: 'Convenção 169 OIT — CLPI' },
+        { type: 'p', text: 'A **Consulta Livre, Prévia e Informada (CLPI)** é OBRIGATÓRIA antes de QUALQUER medida administrativa ou legislativa que afete diretamente os povos. Características: (a) **LIVRE** — sem coação ou pressão; (b) **PRÉVIA** — antes da decisão final, não meramente posterior; (c) **INFORMADA** — com todas as informações relevantes em linguagem acessível; (d) **DE BOA-FÉ** — com intenção sincera de chegar a acordo.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 709 (2020-2021):** durante a pandemia, determinou medidas de proteção aos povos indígenas, com aplicação da Convenção 169 OIT. Marcos importantes da jurisprudência sobre CLPI.' },
+
+        { type: 'h', text: 'Atuação do MPF — legitimidade exclusiva ou concorrente?' },
+        { type: 'p', text: 'O **MPF** tem legitimidade para atuar em causas indígenas (CF art. 232 — "intervindo o MPF em todos os atos do processo"). É legitimação típica federal. Para quilombolas, MPs estaduais e MPF têm atuação concorrente, conforme localização e natureza da demanda. **Promotorias de Direitos Humanos** (no MPMG) atuam em demandas envolvendo comunidades tradicionais.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 grupos principais: INDÍGENAS (CF 231-232) · QUILOMBOLAS (ADCT 68) · DEMAIS COMUNIDADES TRADICIONAIS (Convenção 169 OIT + Decreto 6.040/07).**' },
+        { type: 'box', kind: 'macete', text: '**Indígenas: terras da UNIÃO · POSSE permanente · USUFRUTO exclusivo. Quilombolas: PROPRIEDADE definitiva (ADCT 68).**' },
+        { type: 'box', kind: 'macete', text: '**Marco Temporal: INCONSTITUCIONAL (STF Tema 1031, 2023).** Lei 14.701/23 foi derrubada parcialmente pelo STF (ADI 7.582).' },
+        { type: 'box', kind: 'macete', text: '**CLPI = LIVRE · PRÉVIA · INFORMADA · DE BOA-FÉ.** Convenção 169 OIT (status supralegal).' },
+        { type: 'box', kind: 'macete', text: '**Critério AUTOATRIBUIÇÃO (STF ADI 3.239, 2018):** comunidade decide se é tradicional, não Estado, não critérios genéticos.' },
+        { type: 'box', kind: 'macete', text: '**Demarcação indígena: FUNAI · MJ · Pres. República.** Demarcação quilombola: INCRA.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Indígenas NÃO são proprietários — são POSSUIDORES (USUFRUTO exclusivo).** Propriedade é da UNIÃO. Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Quilombolas SÃO proprietários (ADCT art. 68 — propriedade definitiva).** Distinção essencial em relação aos indígenas.' },
+        { type: 'box', kind: 'atencao', text: '**Marco Temporal foi DERRUBADO pelo STF em 2023 (Tema 1031).** Pegadinha em provas que copiam enunciados antigos.' },
+        { type: 'box', kind: 'atencao', text: '**Convenção 169 OIT tem status SUPRALEGAL, não constitucional formal** (não foi aprovada pelo rito §3º).' },
+        { type: 'box', kind: 'atencao', text: '**CLPI é OBRIGATÓRIA — não é mera consulta formal.** Processo dialógico com poder de influência efetiva.' },
+        { type: 'box', kind: 'atencao', text: '**Quilombolas: critério AUTOATRIBUIÇÃO** (não genético/biológico). STF ADI 3.239.' },
+        { type: 'box', kind: 'atencao', text: '**FUNAI demarca terras INDÍGENAS · INCRA demarca terras QUILOMBOLAS.** Não confundir.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** comunidades tradicionais têm direitos humanos específicos (PIDESC + Convenção 169 OIT).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** sobreposição com unidades de conservação — UCs com presença de comunidades tradicionais (RDS, Resex).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 10 (Patrimônio Cultural):** patrimônio cultural imaterial de comunidades quilombolas e indígenas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (Direitos fundamentais):** direitos coletivos especiais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP coletiva pode ser proposta em defesa de comunidades.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** MPF tem atribuição constitucional específica (CF 232).' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL COLETIVO (8) ============
   { id: 'colproc-01-microssistema-tutela-coletiva', num: 1, materia: 'colproc', title: 'Microssistema da tutela coletiva', edital: '4.2.1', editalText: 'Diálogo entre LACP, CDC, ECA, Idoso, LIA, etc. Princípios. Direitos coletivos lato sensu.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — campo cotidiano de trabalho).', outline: ['Conceito de microssistema', 'Diálogo das fontes (LACP + CDC + ECA + Idoso + LIA + LBI + LMP)', 'Direitos transindividuais (difusos, coletivos stricto sensu, individuais homogêneos — CDC art. 81)', 'Princípios da tutela coletiva', 'Legitimidade (CF art. 129 + Lei 7.347/85)'], sections: [
@@ -8420,7 +14426,283 @@ flashcards: [
   { id: 394, topic: 8, materia: 'mp', q: 'Inquérito Civil — natureza e exclusividade?', a: 'Procedimento investigatório administrativo PRIVATIVO do MP (LACP art. 8º §1º). Prepara ACP, TAC ou Recomendação. Outros legitimados (Defensoria, associações) propõem ACP, mas NÃO conduzem IC.', tags: ['mp', 'IC'] },
   { id: 395, topic: 8, materia: 'mp', q: 'PIC — fundamento constitucional?', a: 'CF art. 129 VI, VIII e IX + STF RE 593.727 (Tema 184, 2015) — MP tem competência para investigação criminal direta. Disciplina: Resolução CNMP 181/2017. Não substitui IP — atua paralela ou alternativamente.', tags: ['mp', 'PIC', 'STF'] },
   { id: 396, topic: 8, materia: 'mp', q: 'TAC — natureza jurídica?', a: 'TÍTULO EXECUTIVO EXTRAJUDICIAL (LACP art. 5º §6º + CPC art. 784 XII). NÃO precisa de homologação judicial. Descumprimento gera execução autônoma (STJ Tema 877).', tags: ['mp', 'TAC'] },
-  { id: 397, topic: 8, materia: 'mp', q: 'Recomendação ministerial vincula o destinatário?', a: 'NÃO. É ato PERSUASIVO. Destinatário pode discordar, mas DEVE responder fundamentadamente. A não-resposta ou resposta insuficiente pode motivar ACP. Disciplina: Res. CNMP 164/2017.', tags: ['mp', 'recomendacao'] }
+  { id: 397, topic: 8, materia: 'mp', q: 'Recomendação ministerial vincula o destinatário?', a: 'NÃO. É ato PERSUASIVO. Destinatário pode discordar, mas DEVE responder fundamentadamente. A não-resposta ou resposta insuficiente pode motivar ACP. Disciplina: Res. CNMP 164/2017.', tags: ['mp', 'recomendacao'] },
+
+  // === Cards Rodada 4 — Material Coletivo (colmat-03 a 08) ===
+  // colmat-03 — Pessoa Idosa
+  { id: 398, topic: 3, materia: 'colmat', q: 'Lei 10.741/03 — quem é "pessoa idosa"?', a: 'Pessoa com 60 anos completos OU MAIS (art. 1º). NÃO confundir com BPC (65 anos+). Lei 13.466/17 inseriu §2º do art. 3º — entre os idosos, prioridade ESPECIAL para os com 80+.', tags: ['colmat', 'idoso', 'conceito'] },
+  { id: 399, topic: 3, materia: 'colmat', q: 'Estatuto do Idoso × Estatuto da Pessoa Idosa?', a: 'Mesma lei (10.741/03). Foi RENOMEADA pela Lei 14.423/22 para "Estatuto da Pessoa Idosa" — terminologia mais inclusiva e respeitosa. Conteúdo idêntico.', tags: ['colmat', 'idoso', 'nome'] },
+  { id: 400, topic: 3, materia: 'colmat', q: 'BPC à pessoa idosa — requisitos?', a: 'LOAS art. 20: 65 anos+ (NÃO 60) · 1 SM · hipossuficiência (renda per capita inferior a 1/4 do SM, com flexibilização do STF Tema 27) · não cumula com aposentadoria. NÃO depende de contribuição.', tags: ['colmat', 'BPC', 'LOAS'] },
+  { id: 401, topic: 3, materia: 'colmat', q: 'Súmula 597 STJ — qual a tese?', a: '"A cláusula contratual de plano de saúde que prevê reajuste por mudança de faixa etária do idoso é abusiva, salvo se demonstrada a justificativa técnica e atuarial." Limite firme à saúde suplementar.', tags: ['colmat', 'idoso', 'plano-saude'] },
+  { id: 402, topic: 3, materia: 'colmat', q: 'Crimes do Estatuto da Pessoa Idosa — natureza da ação penal?', a: 'PÚBLICA INCONDICIONADA (regra). Diferente de crimes contra honra (CP 145 — em geral privada/condicionada). Atenção: vítima idosa em homicídio passa a ter qualificadora (Lei 14.811/24).', tags: ['colmat', 'idoso', 'crimes'] },
+
+  // colmat-04 — PCD/LBI
+  { id: 403, topic: 4, materia: 'colmat', q: 'Convenção de NY (Decreto 6.949/09) — status?', a: 'PRIMEIRO TRATADO com status de EC no Brasil (rito do art. 5º §3º — 3/5 em 2 turnos em cada Casa). MARRAQUEXE (Decreto 9.522/18) é o segundo. Apenas esses 2 com status formal de EC.', tags: ['colmat', 'PCD', 'tratados'] },
+  { id: 404, topic: 4, materia: 'colmat', q: 'Modelo BIOPSICOSSOCIAL (LBI art. 2º)?', a: 'Deficiência = INTERAÇÃO entre impedimentos e BARREIRAS sociais. Não é só do indivíduo. Alterar o ambiente reduz/elimina a "deficiência". Ruptura com o modelo médico-individualista.', tags: ['colmat', 'PCD', 'modelo'] },
+  { id: 405, topic: 4, materia: 'colmat', q: 'LBI alterou os arts. 3º e 4º do CC — como?', a: 'Excluiu deficiência mental como hipótese AUTÔNOMA de incapacidade. Hoje: art. 3º (absolutos) — apenas menores de 16. Art. 4º (relativos) — inclui "aqueles que, por causa transitória ou permanente, NÃO PUDEREM EXPRIMIR VONTADE" (não basta deficiência).', tags: ['colmat', 'PCD', 'capacidade'] },
+  { id: 406, topic: 4, materia: 'colmat', q: 'Tomada de Decisão Apoiada (TDA — CC 1.783-A) × curatela?', a: 'TDA: ≥2 apoiadores escolhidos pela PCD, NÃO substituem a vontade — apoiam. Decisão é da PCD. Curatela: substitui a vontade. LBI (art. 84) tornou TDA REGRA e curatela EXCEÇÃO (medida extraordinária, restrita a atos PATRIMONIAIS).', tags: ['colmat', 'PCD', 'TDA'] },
+  { id: 407, topic: 4, materia: 'colmat', q: 'Educação inclusiva — escola privada pode cobrar a mais por PCD?', a: 'NÃO (LBI art. 28 §1º + STF ADI 5.357, 2016). Inclusão é dever de TODA a rede de ensino — pública e privada. Cobrança extra é inconstitucional.', tags: ['colmat', 'PCD', 'educacao'] },
+
+  // colmat-05 — Educação
+  { id: 408, topic: 5, materia: 'colmat', q: 'EC 59/09 — o que mudou?', a: 'Educação obrigatória passou de 7-14 (apenas ensino fundamental) para 4-17 anos: pré-escola (4-5) + fundamental (6-14) + médio (15-17). Acompanhada da expansão do FUNDEB.', tags: ['colmat', 'educacao', 'EC-59'] },
+  { id: 409, topic: 5, materia: 'colmat', q: 'STF Tema 548 — vagas em creche?', a: 'Reserva do possível NÃO afasta direito à creche. Vaga em creche (0-3) e pré-escola (4-5) é DIREITO PÚBLICO SUBJETIVO exigível judicialmente. Estado não pode escusar-se por insuficiência orçamentária.', tags: ['colmat', 'educacao', 'STF', 'creche'] },
+  { id: 410, topic: 5, materia: 'colmat', q: 'Investimento mínimo em educação (CF 212)?', a: 'União: 18% das receitas resultantes de impostos. Estados, DF e Municípios: 25%. Verbas vinculadas — desvio configura improbidade e crime.', tags: ['colmat', 'educacao', 'financiamento'] },
+  { id: 411, topic: 5, materia: 'colmat', q: 'FUNDEB — como funciona hoje?', a: 'PERMANENTE desde EC 108/20 (antes era temporário). Lei 14.113/20. Fundo contábil de natureza estadual + complementação da União. Distribuição por número de matrículas. CAQ (Custo Aluno-Qualidade) é referência.', tags: ['colmat', 'educacao', 'FUNDEB'] },
+  { id: 412, topic: 5, materia: 'colmat', q: 'Educação domiciliar (homeschooling) é permitida no Brasil?', a: 'NÃO — STF Tema 822 (RE 888.815, 2018). CF não veda nem admite expressamente; sem lei federal específica, prevalece a obrigatoriedade da matrícula em rede regular. Pais que descumprem podem responder por abandono intelectual (CP 246).', tags: ['colmat', 'educacao', 'homeschooling'] },
+
+  // colmat-06 — Saúde
+  { id: 413, topic: 6, materia: 'colmat', q: 'SUS — 6 princípios (UIE + DPI)?', a: 'UIE = UNIVERSALIDADE · INTEGRALIDADE · EQUIDADE (doutrinários). DPI = DESCENTRALIZAÇÃO · PARTICIPAÇÃO · INTEGRAÇÃO (organizativos). Lei 8.080/90 art. 7º.', tags: ['colmat', 'SUS', 'principios'] },
+  { id: 414, topic: 6, materia: 'colmat', q: 'STF Tema 6 — medicamentos SEM registro na ANVISA?', a: 'REGRA: NÃO podem ser fornecidos. EXCEÇÕES (cumulativas): registro pendente +1 ano · uso aprovado em agências internacionais · sem substituto registrado · prescrição fundamentada · doença grave/incapacitante. RE 657.718 (2019).', tags: ['colmat', 'saude', 'STF', 'tema-6'] },
+  { id: 415, topic: 6, materia: 'colmat', q: 'STJ Tema 106 — medicamentos REGISTRADOS mas não incorporados ao SUS?', a: '3 requisitos cumulativos: imprescindibilidade comprovada por LAUDO médico fundamentado · INCAPACIDADE FINANCEIRA · REGISTRO na ANVISA. REsp 1.657.156 (2018), modulação após junho/2019.', tags: ['colmat', 'saude', 'STJ', 'tema-106'] },
+  { id: 416, topic: 6, materia: 'colmat', q: 'STF Tema 793 — responsabilidade dos entes federativos?', a: 'SOLIDÁRIA. Cidadão pode demandar União, Estado, DF ou Município. Modulação 2019: o juiz pode chamar o ente competente (organização interna SUS) para racionalizar — sem prejuízo da solidariedade.', tags: ['colmat', 'saude', 'STF', 'tema-793'] },
+  { id: 417, topic: 6, materia: 'colmat', q: 'Conselhos de Saúde (Lei 8.142) — composição?', a: 'PARITÁRIA: 50% USUÁRIOS · 25% TRABALHADORES · 25% gestores e prestadores. Dado de detalhe que a banca cobra. Decisões deliberativas obrigatórias para os entes federativos.', tags: ['colmat', 'saude', 'conselhos'] },
+
+  // colmat-07 — Consumidor
+  { id: 418, topic: 7, materia: 'colmat', q: 'CDC — 3 espécies de consumidor?', a: 'STANDARD (art. 2º caput — adquirente direto) · BYSTANDER (art. 17 — vítima de acidente de consumo, terceiro) · EQUIPARADO (arts. 2º § único e 29 — coletividade exposta às práticas). Mnemônico SBE.', tags: ['colmat', 'CDC', 'consumidor'] },
+  { id: 419, topic: 7, materia: 'colmat', q: 'FATO × VÍCIO — diferença e prazos?', a: 'FATO = ACIDENTE de consumo (dano à saúde, segurança ou patrimônio). PRESCRIÇÃO 5 ANOS (CDC 27). VÍCIO = inadequação intrínseca. DECADÊNCIA 30 dias (não duráveis) ou 90 dias (duráveis) — CDC 26.', tags: ['colmat', 'CDC', 'fato-vicio'] },
+  { id: 420, topic: 7, materia: 'colmat', q: 'Profissional liberal — qual a responsabilidade?', a: 'SUBJETIVA — exceção à regra geral do CDC (CDC art. 14 §4º). Apurar CULPA do profissional (médico, advogado, dentista). Demais prestadores: OBJETIVA.', tags: ['colmat', 'CDC', 'profissional-liberal'] },
+  { id: 421, topic: 7, materia: 'colmat', q: 'Inversão do ônus da prova — requisitos?', a: 'CDC art. 6º VIII: VEROSSIMILHANÇA das alegações OU HIPOSSUFICIÊNCIA (técnica, financeira, probatória). Não precisam ambas — alternativos. Pode ser de ofício. STJ: declaração no SANEAMENTO (não na sentença).', tags: ['colmat', 'CDC', 'inversao-onus'] },
+  { id: 422, topic: 7, materia: 'colmat', q: 'Direito de arrependimento (CDC art. 49)?', a: '7 DIAS para compras realizadas FORA do estabelecimento (telemarketing, internet, ambulante, domicílio). NÃO se aplica a compras presenciais. Restituição imediata, monetariamente atualizada.', tags: ['colmat', 'CDC', 'arrependimento'] },
+
+  // colmat-08 — Meio Ambiente
+  { id: 423, topic: 8, materia: 'colmat', q: 'Princípios PREVENÇÃO × PRECAUÇÃO?', a: 'PREVENÇÃO: risco CONHECIDO (certeza científica do dano potencial). PRECAUÇÃO: risco DESCONHECIDO (incerteza científica) — in dubio pro natura. Aplicação: agrotóxicos novos, transgênicos, ondas eletromagnéticas.', tags: ['colmat', 'ambiental', 'principios'] },
+  { id: 424, topic: 8, materia: 'colmat', q: 'STF Tema 999 — prescrição da reparação ambiental?', a: 'IMPRESCRITÍVEL (RE 654.833, 2020). A pretensão de reparação do dano ambiental NÃO prescreve — degradação é grave e ultrapassa o tempo. Não confundir com prescrição da multa adm. (5 anos — Súm. 467 STJ).', tags: ['colmat', 'ambiental', 'STF', 'tema-999'] },
+  { id: 425, topic: 8, materia: 'colmat', q: 'Responsabilidade civil ambiental — natureza?', a: 'OBJETIVA · SOLIDÁRIA · PROPTER REM · IMPRESCRITÍVEL. Lei 6.938/81 art. 14 §1º + Súm. 623 STJ + STF Tema 999. STJ adota teoria do RISCO INTEGRAL (não admite excludentes).', tags: ['colmat', 'ambiental', 'responsabilidade'] },
+  { id: 426, topic: 8, materia: 'colmat', q: 'Tríplice responsabilização ambiental (CF 225 §3º)?', a: 'CIVIL · ADMINISTRATIVA · PENAL. Independentes e cumulativas. Mesmo fato pode gerar ações em todas as esferas. Absolvição em uma não afasta as demais (salvo CPP 386 I e IV).', tags: ['colmat', 'ambiental', 'triplice'] },
+  { id: 427, topic: 8, materia: 'colmat', q: 'PJ responde penalmente em matéria ambiental?', a: 'SIM — única hipótese expressa no Brasil (CF 225 §3º + Lei 9.605/98 art. 3º). Penas: multa, restritivas de direitos (suspensão, interdição), prestação de serviços. Tese consagrada pelo STF.', tags: ['colmat', 'ambiental', 'PJ', 'crime'] },
+
+  // === Cards Rodada 5 — ColMat (9-12 fechando 100%) e Const (1-2) ===
+  // colmat-09 — Direito Urbanístico
+  { id: 428, topic: 9, materia: 'colmat', q: 'Plano diretor — quando é obrigatório?', a: 'Cidades com mais de 20 MIL habitantes (CF 182 §1º). Também: capitais, integrantes de RM ou aglomerações urbanas, áreas de especial interesse turístico, áreas com empreendimentos de impacto. Estatuto da Cidade art. 41.', tags: ['colmat', 'urbanistico', 'plano-diretor'] },
+  { id: 429, topic: 9, materia: 'colmat', q: 'Instrumentos progressivos contra descumprimento da função social?', a: 'Sequência: (1) PEUC — parcelamento/edificação/utilização compulsórios; (2) IPTU progressivo no tempo (até 15%, por 5 anos); (3) DESAPROPRIAÇÃO-SANÇÃO (em TÍTULOS da dívida pública, não dinheiro). Estatuto arts. 5º-8º.', tags: ['colmat', 'urbanistico', 'PEUC'] },
+  { id: 430, topic: 9, materia: 'colmat', q: 'Usucapião especial urbana — requisitos?', a: '5 ANOS · área até 250 m² · primeira moradia · sem oposição · NÃO ser proprietário de outro imóvel · NÃO se aplica a imóveis públicos (Súm. 340 STF). CF art. 183 + Estatuto art. 9º. Mnemônico 5-250-1.', tags: ['colmat', 'urbanistico', 'usucapiao'] },
+  { id: 431, topic: 9, materia: 'colmat', q: 'REURB — modalidades e órgão executor?', a: 'Lei 13.465/17. REURB-S (Social — baixa renda) · REURB-E (Específico — demais hipóteses). Instrumentos: legitimação fundiária, demarcação urbanística, condomínio urbano simples. STF ADI 5.771 validou parcialmente.', tags: ['colmat', 'urbanistico', 'REURB'] },
+  { id: 432, topic: 9, materia: 'colmat', q: 'Atuação do MP em ordem urbanística?', a: 'Estatuto da Cidade art. 53. ACP em defesa do plano diretor, controle de empreendimentos, regularização fundiária, defesa de ZEIS, combate ao parcelamento ilegal de solo (Lei 6.766/79). Instrumento típico do MP.', tags: ['colmat', 'urbanistico', 'MP'] },
+
+  // colmat-10 — Patrimônio Cultural
+  { id: 433, topic: 10, materia: 'colmat', q: 'Tombamento × Registro × Inventário?', a: 'TOMBAMENTO = bens MATERIAIS (DL 25/37). REGISTRO = bens IMATERIAIS (Decreto 3.551/00). INVENTÁRIO = listagem/identificação (CF 216 §1º). Mnemônico TIRA.', tags: ['colmat', 'cultural', 'instrumentos'] },
+  { id: 434, topic: 10, materia: 'colmat', q: 'Tombamento gera direito a indenização?', a: 'EM REGRA NÃO (STF/STJ). Tombamento limita o USO, não toma a PROPRIEDADE. Salvo se causar ESVAZIAMENTO ECONÔMICO (perda total do valor de uso) — daí cabe desapropriação indireta ou indenização compensatória.', tags: ['colmat', 'cultural', 'tombamento'] },
+  { id: 435, topic: 10, materia: 'colmat', q: '4 Livros do Tombamento (DL 25/37 art. 4º)?', a: '(1) Arqueológico/Etnográfico (2) Histórico (3) Belas Artes (4) Artes Aplicadas. NÃO confundir com os 4 Livros de REGISTRO (saberes/celebrações/expressões/lugares).', tags: ['colmat', 'cultural', 'livros'] },
+  { id: 436, topic: 10, materia: 'colmat', q: 'Patrimônio Mundial UNESCO em MG?', a: '4 sítios: Ouro Preto (1980, 1º brasileiro) · Conjunto Moderno da Pampulha · Centro Histórico de Diamantina · Santuário do Bom Jesus de Matosinhos (Congonhas — Aleijadinho). Concentração relevante para o MPMG.', tags: ['colmat', 'cultural', 'UNESCO'] },
+  { id: 437, topic: 10, materia: 'colmat', q: 'Tombamento federal impede tombamento estadual ou municipal?', a: 'NÃO. STF RE 121.140: todos os entes podem TOMBAR — competência paralela. Não há hierarquia entre tombamentos. Em MG: IEPHA-MG (estadual), IPHAN (federal), municipais (Ouro Preto, Diamantina).', tags: ['colmat', 'cultural', 'competencia'] },
+
+  // colmat-11 — Improbidade
+  { id: 438, topic: 11, materia: 'colmat', q: '3 espécies de improbidade (LIA pós-Lei 14.230/21)?', a: 'ENRIQUECIMENTO ILÍCITO (art. 9) · PREJUÍZO AO ERÁRIO (art. 10) · ATENTADO A PRINCÍPIOS (art. 11). Mnemônico EPA. Todas exigem DOLO ESPECÍFICO. Lei 14.230/21 ELIMINOU a modalidade culposa.', tags: ['colmat', 'improbidade', 'especies'] },
+  { id: 439, topic: 11, materia: 'colmat', q: 'Lei 14.230/21 — principais alterações?', a: '(1) DOLO ESPECÍFICO (não basta dolo genérico); (2) ELIMINAÇÃO da modalidade culposa; (3) ANPC — Acordo de Não Persecução Cível; (4) Prescrição 8 ANOS; (5) STF Tema 1199: RETROATIVIDADE BENÉFICA.', tags: ['colmat', 'improbidade', 'lei-14230'] },
+  { id: 440, topic: 11, materia: 'colmat', q: 'STF Tema 897 — imprescritibilidade?', a: 'Apenas o RESSARCIMENTO ao erário é IMPRESCRITÍVEL (CF 37 §5º + RE 852.475, 2018). Sancionatório (suspensão, multa, perda) prescreve em 8 anos. Distinção essencial.', tags: ['colmat', 'improbidade', 'prescricao'] },
+  { id: 441, topic: 11, materia: 'colmat', q: 'Particular pode ser sujeito ativo de improbidade?', a: 'SIM, MAS NÃO SOZINHO. LIA art. 3º: particular que SE BENEFICIA, INDUZ ou CONCORRE dolosamente com agente público. Sem agente público, NÃO há improbidade.', tags: ['colmat', 'improbidade', 'particular'] },
+  { id: 442, topic: 11, materia: 'colmat', q: 'Sanções por improbidade (art. 12)?', a: 'PERDA DOS BENS · RESSARCIMENTO · PERDA DA FUNÇÃO · SUSPENSÃO DOS DIREITOS POLÍTICOS · PROIBIÇÃO DE CONTRATAR · MULTA. Cumulativas ou alternativas conforme a espécie e gravidade.', tags: ['colmat', 'improbidade', 'sancoes'] },
+
+  // colmat-12 — Comunidades Tradicionais
+  { id: 443, topic: 12, materia: 'colmat', q: 'STF Tema 1031 — marco temporal indígena?', a: 'INCONSTITUCIONAL (RE 1.017.365, 2023). Demarcação NÃO depende de ocupação na data da CF (05/10/1988). Lei 14.701/23 tentou reintroduzir; STF derrubou principais dispositivos (ADI 7.582, 2024).', tags: ['colmat', 'indigena', 'STF', 'marco-temporal'] },
+  { id: 444, topic: 12, materia: 'colmat', q: 'Indígenas são proprietários ou possuidores das terras?', a: 'POSSUIDORES com USUFRUTO EXCLUSIVO (CF 231 §2º). Propriedade é da UNIÃO (CF 20 XI). Diferente dos quilombolas, que SÃO PROPRIETÁRIOS (ADCT art. 68).', tags: ['colmat', 'indigena', 'propriedade'] },
+  { id: 445, topic: 12, materia: 'colmat', q: 'Convenção 169 OIT — qual o status no Brasil?', a: 'SUPRALEGAL (Decreto 5.051/04 → 10.088/19). NÃO foi aprovada pelo rito do art. 5º §3º. Disciplina: povos indígenas, tribais, quilombolas e demais comunidades tradicionais. Núcleo: CLPI.', tags: ['colmat', 'OIT-169', 'tratados'] },
+  { id: 446, topic: 12, materia: 'colmat', q: 'CLPI — Consulta Livre, Prévia e Informada?', a: 'OBRIGATÓRIA (Convenção 169 OIT arts. 6º-7º) antes de qualquer medida administrativa ou legislativa que afete povos. Características: LIVRE · PRÉVIA · INFORMADA · DE BOA-FÉ. Processo dialógico, não mero "ouvir".', tags: ['colmat', 'CLPI', 'OIT-169'] },
+  { id: 447, topic: 12, materia: 'colmat', q: 'Quilombolas — critério para reconhecimento?', a: 'AUTOATRIBUIÇÃO (autodefinição da comunidade). STF ADI 3.239 (2018) validou Decreto 4.887/03. Não é critério genético/biológico. Órgão executor: INCRA. Propriedade DEFINITIVA (ADCT art. 68).', tags: ['colmat', 'quilombolas', 'autoatribuicao'] },
+
+  // const-01 — Teoria da Constituição
+  { id: 448, topic: 1, materia: 'const', q: '3 conceitos clássicos de Constituição?', a: 'LASSALLE (sociológico — fatores reais de poder) · SCHMITT (político — decisão política fundamental) · KELSEN (jurídico — norma fundamental). Mnemônico L-S-K.', tags: ['const', 'teoria', 'conceitos'] },
+  { id: 449, topic: 1, materia: 'const', q: 'CF/88 — 11 classificações principais?', a: 'ESCRITA · FORMAL · DOGMÁTICA · PROMULGADA · RÍGIDA · ANALÍTICA · NORMATIVA · PRINCIPIOLÓGICA · ECLÉTICA · SOCIAL · DIRIGENTE. Decorar é dever de prova.', tags: ['const', 'teoria', 'classificacoes'] },
+  { id: 450, topic: 1, materia: 'const', q: 'Características do PCO (Poder Constituinte Originário)?', a: 'INICIAL · ILIMITADO juridicamente (limites EXTRAJURÍDICOS existem) · INCONDICIONADO · AUTÔNOMO. Mnemônico I-I-I-A.', tags: ['const', 'PCO'] },
+  { id: 451, topic: 1, materia: 'const', q: '3 modalidades de poder constituinte derivado?', a: 'REFORMADOR (CF 60 — emenda) · DECORRENTE (CF 25 — Constituições estaduais) · REVISOR (ADCT art. 3 — esgotado em 1994). Apenas o reformador é PERMANENTE.', tags: ['const', 'derivado'] },
+  { id: 452, topic: 1, materia: 'const', q: 'Cláusulas pétreas (CF 60 §4º)?', a: 'Forma FEDERATIVA · VOTO direto/secreto/universal/periódico · SEPARAÇÃO dos Poderes · DIREITOS INDIVIDUAIS. Mnemônico F-V-S-D. Vedam emenda TENDENTE A ABOLIR (não só abolir).', tags: ['const', 'clausulas-petreas'] },
+
+  // const-02 — Eficácia das normas
+  { id: 453, topic: 2, materia: 'const', q: '3 categorias de J. A. da Silva — quais?', a: 'PLENA (D-I-I: direta-imediata-integral) · CONTIDA (D-I-I, mas restringível por lei) · LIMITADA (indireta-mediata-reduzida; depende de regulamentação).', tags: ['const', 'eficacia', 'classificacao'] },
+  { id: 454, topic: 2, materia: 'const', q: 'Norma de eficácia limitada — tem efeito mínimo?', a: 'SIM. Tem EFICÁCIA MÍNIMA: (1) REVOGA normas anteriores incompatíveis; (2) VINCULA o legislador a regulamentar. Não é "destituída de eficácia".', tags: ['const', 'limitada', 'eficacia-minima'] },
+  { id: 455, topic: 2, materia: 'const', q: '2 espécies de norma de eficácia limitada?', a: '(1) PROGRAMÁTICAS — definem programas/metas (ex: CF 196 saúde, 205 educação). (2) DE PRINCÍPIO INSTITUTIVO — preveem criação de órgãos/instituições (ex: CF 18 §3º — criação de Estados).', tags: ['const', 'limitada', 'especies'] },
+  { id: 456, topic: 2, materia: 'const', q: 'CF 5º §1º — aplicação imediata dos direitos fundamentais?', a: 'Direitos fundamentais têm aplicação IMEDIATA. Mas isso NÃO converte normas LIMITADAS em PLENAS — direitos limitados ainda dependem de regulamentação. Aplicação máxima possível, com remédios (MI, ADO).', tags: ['const', 'eficacia', 'art-5-§1'] },
+  { id: 457, topic: 2, materia: 'const', q: 'Eficácia HORIZONTAL dos direitos fundamentais?', a: 'Aplicação dos direitos fundamentais nas relações ENTRE PARTICULARES (não só Estado × cidadão). STF RE 201.819 (2005, União Brasileira de Compositores). Marco da doutrina moderna.', tags: ['const', 'eficacia', 'horizontal'] },
+
+  // === Cards Rodada 6 — Const 3-8 ===
+  { id: 458, topic: 3, materia: 'const', q: '7 princípios de interpretação constitucional?', a: 'UNIDADE · CONCORDÂNCIA PRÁTICA · FORÇA NORMATIVA · MÁXIMA EFETIVIDADE · CONFORMIDADE FUNCIONAL · EFEITO INTEGRADOR · INTERPRETAÇÃO CONFORME.', tags: ['const', 'hermeneutica'] },
+  { id: 459, topic: 3, materia: 'const', q: 'Modulação dos efeitos — quórum?', a: '2/3 dos ministros do STF (Lei 9.868/99 art. 27). Em razão de segurança jurídica ou excepcional interesse social. NÃO confundir com maioria absoluta para declarar inconstitucionalidade.', tags: ['const', 'modulacao'] },
+  { id: 460, topic: 3, materia: 'const', q: 'Interpretação conforme × declaração de nulidade parcial sem redução?', a: 'CONFORME: norma mantida com determinada interpretação compatível com a CF. NULIDADE PARCIAL SEM REDUÇÃO: norma mantida no texto, mas algumas hipóteses de aplicação são declaradas inconstitucionais.', tags: ['const', 'tecnicas'] },
+  { id: 461, topic: 4, materia: 'const', q: 'Fundamentos da República (CF art. 1º)?', a: 'SOBERANIA · CIDADANIA · DIGNIDADE DA PESSOA HUMANA · VALORES SOCIAIS DO TRABALHO E DA LIVRE INICIATIVA · PLURALISMO POLÍTICO. Mnemônico SO-CI-DI-VA-PLU.', tags: ['const', 'fundamentos'] },
+  { id: 462, topic: 4, materia: 'const', q: 'Objetivos fundamentais (CF art. 3º)?', a: 'CONSTRUIR sociedade livre, justa e solidária · GARANTIR desenvolvimento nacional · ERRADICAR pobreza/marginalização e reduzir desigualdades · PROMOVER bem de todos sem preconceito. Mnemônico CO-GA-ER-PRO.', tags: ['const', 'objetivos'] },
+  { id: 463, topic: 4, materia: 'const', q: 'CF art. 4º — princípio MAIS importante das relações internacionais?', a: 'PREVALÊNCIA DOS DIREITOS HUMANOS (II). Fundamenta a internalização de tratados de DH e a participação no SIDH. § único: integração latino-americana.', tags: ['const', 'relacoes-internacionais'] },
+  { id: 464, topic: 5, materia: 'const', q: 'CF art. 5º §3º — quórum para tratados de DH equivalerem a EC?', a: 'Aprovação em CADA Casa do CN, em DOIS TURNOS, por TRÊS QUINTOS dos votos dos respectivos membros. Apenas Convenção de NY (PCD) e Tratado de Marraquexe foram aprovados por esse rito.', tags: ['const', 'tratados', 'art-5-§3'] },
+  { id: 465, topic: 5, materia: 'const', q: '6 remédios constitucionais (CF art. 5º)?', a: 'HC (LXVIII) · MS (LXIX) · MS COLETIVO (LXX) · MI (LXXI) · HD (LXXII) · AÇÃO POPULAR (LXXIII). Decorar incisos.', tags: ['const', 'remedios'] },
+  { id: 466, topic: 5, materia: 'const', q: 'Dimensões dos direitos fundamentais (1ª-3ª)?', a: '1ª LIBERDADE (civis e políticos — séc. XVIII) · 2ª IGUALDADE (sociais — séc. XX) · 3ª FRATERNIDADE (difusos — meio ambiente, paz). Dimensões SOMAM-SE — não substituem. Lema da Revolução Francesa: lib-igu-frat.', tags: ['const', 'dimensoes'] },
+  { id: 467, topic: 6, materia: 'const', q: 'Brasileiro nato × naturalizado — extradição?', a: 'NATO: jamais extraditado (CF 5º LI). NATURALIZADO: pode ser, mas só por crime comum praticado ANTES da naturalização ou por tráfico de drogas. Distinção fundamental.', tags: ['const', 'nacionalidade'] },
+  { id: 468, topic: 6, materia: 'const', q: 'Idades mínimas para elegibilidade?', a: '35 (PR/VPR/Senador) · 30 (Gov/VGov) · 21 (Dep Fed/Est, Pref/VPref, Juiz de Paz) · 18 (Vereador). CF 14 §3º VI.', tags: ['const', 'eleitoral', 'idade'] },
+  { id: 469, topic: 6, materia: 'const', q: 'Voto — alistamento obrigatório × facultativo?', a: 'OBRIGATÓRIO: maiores de 18 e menores de 70. FACULTATIVO: analfabetos · maiores de 70 · entre 16 e 18 (CF 14 §1º). Voto: DSU-P-IGUAL.', tags: ['const', 'voto'] },
+  { id: 470, topic: 7, materia: 'const', q: 'Competências CONCORRENTES (CF 24)?', a: 'União + Estados + DF (NÃO inclui Municípios). União: normas gerais. Estados: suplementam. Sem norma geral, Estados legislam plenamente. Lei federal superveniente prevalece no que conflitar.', tags: ['const', 'federalismo', 'competencias'] },
+  { id: 471, topic: 7, materia: 'const', q: 'Competência LEGISLATIVA do Município (CF 30)?', a: 'INTERESSE LOCAL (I) e SUPLEMENTAR às leis federais e estaduais no que couber (II). Tributos próprios (III). Serviços públicos locais (V). Conceito de "interesse local" é jurisprudencial.', tags: ['const', 'municipio'] },
+  { id: 472, topic: 7, materia: 'const', q: 'Princípios sensíveis (CF 34 VII)?', a: 'Forma REPUBLICANA · Sistema REPRESENTATIVO · Regime DEMOCRÁTICO · Direitos da PESSOA HUMANA · AUTONOMIA MUNICIPAL · PRESTAÇÃO DE CONTAS · aplicação do mínimo da receita em SAÚDE/EDUCAÇÃO. Violação enseja intervenção federal.', tags: ['const', 'principios-sensiveis'] },
+  { id: 473, topic: 8, materia: 'const', q: '7 espécies do processo legislativo (CF 59)?', a: 'EMENDAS À CF · LEIS COMPLEMENTARES · LEIS ORDINÁRIAS · LEIS DELEGADAS · MEDIDAS PROVISÓRIAS · DECRETOS LEGISLATIVOS · RESOLUÇÕES.', tags: ['const', 'processo-legislativo'] },
+  { id: 474, topic: 8, materia: 'const', q: 'Imunidade material × formal do parlamentar?', a: 'MATERIAL/IRRESPONSABILIDADE: invioláveis civil e penalmente por opiniões/palavras/votos no exercício do mandato. FORMAL/PROCESSUAL: prisão só em flagrante de crime inafiançável (CD/SF decide em 24h por maioria).', tags: ['const', 'imunidades'] },
+  { id: 475, topic: 8, materia: 'const', q: 'Garantias da magistratura (CF 95)?', a: 'VITALICIEDADE (após 2 anos) · INAMOVIBILIDADE · IRREDUTIBILIDADE de subsídios. Idênticas às do MP (CF 128 §5º I).', tags: ['const', 'magistratura'] },
+  { id: 476, topic: 8, materia: 'const', q: 'CNJ — composição?', a: '15 conselheiros · presidido pelo Pres. STF · mandato 2 anos · recondução permitida. Composição: 1 STF + 1 STJ + 1 TST + 4 juízes (TJ, estadual, TRF, federal) + 2 magistrados trabalhistas + 1 MP federal + 1 MP estadual + 2 advogados + 2 cidadãos.', tags: ['const', 'CNJ'] },
+  { id: 477, topic: 8, materia: 'const', q: 'Senado Federal — composição?', a: '3 SENADORES POR ESTADO E DF (CF 46 §1º). Mandato 8 anos. Renovação alternada (1/3 e 2/3). Total: 81 senadores (3 × 27 unidades federativas).', tags: ['const', 'senado'] },
+
+  // === Cards Rodada 7 — Const 9-12 + Adm 1-2 ===
+  { id: 478, topic: 9, materia: 'const', q: '4 funções essenciais à Justiça?', a: 'MP (CF 127-130-A) · ADVOCACIA PÚBLICA — AGU/Procuradorias (131-132) · ADVOCACIA (133) · DEFENSORIA PÚBLICA (134-135).', tags: ['const', 'funcoes-essenciais'] },
+  { id: 479, topic: 9, materia: 'const', q: 'Defensoria Pública — vitaliciedade?', a: '3 ANOS (CF 134 + EC 80/14). Diferente do MP/Magistratura (2 anos). Após EC 80/14, autonomia funcional, administrativa e iniciativa orçamentária — equivalente ao MP.', tags: ['const', 'defensoria'] },
+  { id: 480, topic: 9, materia: 'const', q: 'Procurador do Estado — garantia?', a: 'ESTABILIDADE após 3 anos (CF 132 § único). NÃO é vitaliciedade. Distinção com MP/Magistratura/Defensoria.', tags: ['const', 'advocacia-publica'] },
+  { id: 481, topic: 10, materia: 'const', q: '4 ações do controle concentrado?', a: 'ADI · ADC · ADPF · ADO. Apenas no STF (em relação à CF). Efeitos: ERGA OMNES · vinculantes · ex tunc (regra) com possível modulação (2/3).', tags: ['const', 'controle', 'concentrado'] },
+  { id: 482, topic: 10, materia: 'const', q: '9 legitimados (CF 103) — quem precisa de pertinência temática?', a: '9 categorias: PR · Mesas SF/CD/AL · Gov Estado/DF · PGR · CFOAB · partido com representação CN · confederação/entidade nacional. Pertinência temática SÓ para legitimados ESPECIAIS (IV — Mesa AL/CD; V — Gov; IX — confederação/entidade).', tags: ['const', 'controle', 'legitimados'] },
+  { id: 483, topic: 10, materia: 'const', q: 'ADPF — quando é única via?', a: 'Lei MUNICIPAL e ATO PRÉ-CONSTITUCIONAL (Lei 9.882/99 art. 1º § único). ADI/ADC só atacam leis ou atos federais/estaduais pós-CF.', tags: ['const', 'ADPF'] },
+  { id: 484, topic: 11, materia: 'const', q: '9 princípios da ordem econômica (CF 170)?', a: 'SOBERANIA NACIONAL · PROPRIEDADE PRIVADA · FUNÇÃO SOCIAL · LIVRE CONCORRÊNCIA · CONSUMIDOR · MEIO AMBIENTE · REDUÇÃO DESIGUALDADES · PLENO EMPREGO · ME/EPP. Fundamentos: valorização do trabalho + livre iniciativa.', tags: ['const', 'ordem-economica'] },
+  { id: 485, topic: 11, materia: 'const', q: 'Quando o Estado pode atuar diretamente em atividade econômica?', a: 'Em casos de SEGURANÇA NACIONAL ou RELEVANTE INTERESSE COLETIVO (CF 173). Empresas estatais econômicas seguem REGIME PRIVADO — para não desequilibrar a competição.', tags: ['const', 'estado-economia'] },
+  { id: 486, topic: 12, materia: 'const', q: 'Tripé da seguridade social (CF 194)?', a: 'SAÚDE (universal, sem contribuição) · PREVIDÊNCIA (com contribuição — RGPS) · ASSISTÊNCIA (necessitados, sem contribuição). Princípios: universalidade, uniformidade, seletividade, irredutibilidade, etc.', tags: ['const', 'seguridade'] },
+  { id: 487, topic: 12, materia: 'const', q: 'STF ADPF 130 (2009)?', a: 'Lei de Imprensa (5.250/67) NÃO RECEPCIONADA pela CF/88, em bloco. Liberdade de imprensa garantida pela própria CF (art. 220). Outras leis regulam matérias específicas.', tags: ['const', 'imprensa'] },
+  { id: 488, topic: 1, materia: 'adm', q: 'LIMPE — princípios constitucionais expressos da Adm. Pública?', a: 'LEGALIDADE · IMPESSOALIDADE · MORALIDADE · PUBLICIDADE · EFICIÊNCIA. CF 37 caput. Eficiência foi acrescentada pela EC 19/98.', tags: ['adm', 'principios', 'LIMPE'] },
+  { id: 489, topic: 1, materia: 'adm', q: 'Princípio da autotutela — Súm. 473 STF?', a: '"A Administração pode anular seus próprios atos quando ilegais [...] ou revogá-los por conveniência." Anulação = vício (ex tunc). Revogação = inconveniência (ex nunc). Respeitados direitos adquiridos e apreciação judicial.', tags: ['adm', 'autotutela', 'sumula-473'] },
+  { id: 490, topic: 1, materia: 'adm', q: 'Lei 9.784/99 art. 54 — prazo decadencial?', a: '5 ANOS contados da data do ato beneficiário, para a Adm. anular atos administrativos favoráveis. Salvo MÁ-FÉ comprovada (em que o prazo é estendido).', tags: ['adm', 'prazo', 'decadencia'] },
+  { id: 491, topic: 2, materia: 'adm', q: '5 requisitos do ato administrativo (CO-FI-FO-MO-OB)?', a: 'COMPETÊNCIA · FINALIDADE · FORMA · MOTIVO · OBJETO. Os 3 primeiros são SEMPRE VINCULADOS. Motivo e Objeto podem ser DISCRICIONÁRIOS.', tags: ['adm', 'atos', 'requisitos'] },
+  { id: 492, topic: 2, materia: 'adm', q: '4 atributos do ato administrativo (PIAT)?', a: 'PRESUNÇÃO de legitimidade (relativa) · IMPERATIVIDADE · AUTOEXECUTORIEDADE · TIPICIDADE. Nem todos os atos têm imperatividade ou autoexecutoriedade.', tags: ['adm', 'atos', 'atributos'] },
+  { id: 493, topic: 2, materia: 'adm', q: 'Anulação × Revogação — distinção?', a: 'ANULAÇÃO: vício de legalidade · ex TUNC · pode ser feita pelo Judiciário e pela Adm. REVOGAÇÃO: conveniência/oportunidade · ex NUNC · APENAS pela Adm. (Judiciário não revoga).', tags: ['adm', 'extincao', 'anulacao'] },
+
+  // === Cards Rodada 8 — Adm 3-8 ===
+  { id: 494, topic: 3, materia: 'adm', q: 'Poder de polícia — 4 atributos (DICA-D)?', a: 'DISCRICIONARIEDADE · COERCIBILIDADE · AUTOEXECUTORIEDADE · indelegabilidade (parcial). STF Tema 532: consentimento e fiscalização DELEGÁVEIS a privados; ordem e sanção INDELEGÁVEIS.', tags: ['adm', 'polícia'] },
+  { id: 495, topic: 3, materia: 'adm', q: '4 ciclos do poder de polícia?', a: 'ORDEM (norma geral) · CONSENTIMENTO (alvará/licença) · FISCALIZAÇÃO · SANÇÃO. STF RE 633.782 (Tema 532, 2020) — só ordem e sanção são indelegáveis.', tags: ['adm', 'polícia', 'ciclos'] },
+  { id: 496, topic: 3, materia: 'adm', q: 'Excesso × Desvio de poder?', a: 'EXCESSO = vício de COMPETÊNCIA (agente atua além de suas atribuições). DESVIO = vício de FINALIDADE (agente atua para fim diverso do legalmente previsto). Ambos = nulidade.', tags: ['adm', 'abuso-poder'] },
+  { id: 497, topic: 4, materia: 'adm', q: 'Estabilidade do servidor (CF 41) — quando se adquire?', a: 'Após 3 ANOS de efetivo exercício em CARGO EFETIVO (não em comissão). Causas de perda: sentença judicial · PAD · avaliação periódica insatisfatória · excesso de despesa com pessoal.', tags: ['adm', 'estabilidade'] },
+  { id: 498, topic: 4, materia: 'adm', q: 'Acumulação de cargos públicos (CF 37 XVI) — exceções?', a: '3 hipóteses (com compatibilidade de horários e teto): (a) 2 cargos de PROFESSOR; (b) 1 PROFESSOR + 1 técnico/científico; (c) 2 PROFISSIONAIS DA SAÚDE (regulamentados). Não há outras.', tags: ['adm', 'acumulacao'] },
+  { id: 499, topic: 4, materia: 'adm', q: 'EC 103/19 — idades mínimas para aposentadoria?', a: '65 anos (homem) · 62 anos (mulher) · 25 anos contribuição (h) · 20 anos (m). Compulsória: 75 anos. Regras de transição para servidores antigos.', tags: ['adm', 'aposentadoria', 'EC-103'] },
+  { id: 500, topic: 5, materia: 'adm', q: '3 categorias de bens públicos (CC 99)?', a: 'USO COMUM DO POVO (rios, ruas, praças) · USO ESPECIAL (edifícios públicos) · DOMINICAIS (patrimônio sem destinação). Apenas DOMINICAIS são alienáveis (após desafetação).', tags: ['adm', 'bens-publicos'] },
+  { id: 501, topic: 5, materia: 'adm', q: 'Bens públicos — 4 características?', a: 'IMPENHORABILIDADE · IMPRESCRITIBILIDADE (não usucapíveis — Súm. 340 STF) · INALIENABILIDADE relativa · NÃO ONERABILIDADE. Pagamento por PRECATÓRIO (CF 100).', tags: ['adm', 'bens-publicos', 'caracteristicas'] },
+  { id: 502, topic: 6, materia: 'adm', q: 'Lei 14.133/21 — 5 modalidades de licitação?', a: 'PREGÃO · CONCORRÊNCIA · CONCURSO · LEILÃO · DIÁLOGO COMPETITIVO. Tomada de Preços e Convite EXTINTAS. Diálogo competitivo é novidade.', tags: ['adm', 'licitacao', 'modalidades'] },
+  { id: 503, topic: 6, materia: 'adm', q: 'Diálogo competitivo — quando se aplica?', a: 'NOVIDADE da Lei 14.133/21. Para casos de INOVAÇÃO TECNOLÓGICA ou COMPLEXIDADE TÉCNICA, em que a Adm. precisa "dialogar" com licitantes para definir o objeto.', tags: ['adm', 'licitacao', 'dialogo'] },
+  { id: 504, topic: 6, materia: 'adm', q: 'Sanções da Lei 14.133/21?', a: '4 sanções: ADVERTÊNCIA · MULTA · IMPEDIMENTO de licitar e contratar (até 3 anos) · DECLARAÇÃO DE INIDONEIDADE (3-6 anos). Arts. 155-163.', tags: ['adm', 'sancoes'] },
+  { id: 505, topic: 7, materia: 'adm', q: 'Concessão × Permissão × Autorização?', a: 'CONCESSÃO: contrato administrativo a PJ ou consórcio (concorrência). PERMISSÃO: contrato administrativo a PJ ou PF (concorrência). AUTORIZAÇÃO: ato unilateral, precário, discricionário (CF 21 XII).', tags: ['adm', 'servicos-publicos'] },
+  { id: 506, topic: 7, materia: 'adm', q: 'PPPs — modalidades (Lei 11.079/04)?', a: 'CONCESSÃO PATROCINADA (tarifa do usuário + contraprestação do Poder Público) · CONCESSÃO ADMINISTRATIVA (só contraprestação, sem tarifa do usuário). Valor mínimo: R$ 10 milhões. Prazo: 5-35 anos.', tags: ['adm', 'PPP'] },
+  { id: 507, topic: 8, materia: 'adm', q: 'Responsabilidade civil do Estado (CF 37 §6º) — natureza?', a: 'OBJETIVA — Teoria do RISCO ADMINISTRATIVO (admite excludentes: caso fortuito, força maior, culpa exclusiva da vítima). Risco INTEGRAL (sem excludentes) é EXCEÇÃO: ambiental, nuclear.', tags: ['adm', 'rc-estado'] },
+  { id: 508, topic: 8, materia: 'adm', q: 'STF Tema 940 — quem responde pelo dano causado por agente público?', a: 'O ESTADO (não o agente individualmente). Vítima ajuíza ação contra o Estado, que tem regresso contra o agente em caso de DOLO ou CULPA. RE 1.027.633 (2019).', tags: ['adm', 'rc-estado', 'tema-940'] },
+  { id: 509, topic: 8, materia: 'adm', q: 'Prescrição de pretensão indenizatória contra Adm.?', a: '5 ANOS (Decreto 20.910/32 + STJ Súm. 647). Pegadinha: alternativa diz 3 anos (CC art. 206 §3º V — pretensão privada). Para Adm., prescrição é específica = 5 anos.', tags: ['adm', 'prescricao'] },
+
+  // === Cards Rodada 9 — Adm 9-12 + Penal 1-2 ===
+  { id: 510, topic: 9, materia: 'adm', q: 'Improbidade — quem aplica as sanções?', a: 'JUDICIÁRIO (não a Adm.). Ação tramita em vara especializada ou comum. Sanções: perda dos bens, ressarcimento, perda da função, suspensão direitos políticos, proibição contratar, multa. NÃO há sanção administrativa por improbidade.', tags: ['adm', 'improbidade'] },
+  { id: 511, topic: 9, materia: 'adm', q: 'Indisponibilidade de bens em improbidade?', a: 'LIA art. 16. Pode ser requerida desde o IC, mediante demonstração. Visa garantir o ressarcimento futuro. Cautelar típica em improbidade.', tags: ['adm', 'improbidade', 'cautelar'] },
+  { id: 512, topic: 10, materia: 'adm', q: 'TCU — natureza?', a: 'Órgão AUXILIAR do Congresso (CF 71). NÃO pertence ao Judiciário. Atribuições: apreciar contas do PR, julgar contas de administradores, aplicar sanções. SV 3 STF: contraditório obrigatório (salvo concessão inicial de aposentadoria/pensão).', tags: ['adm', 'controle', 'TCU'] },
+  { id: 513, topic: 10, materia: 'adm', q: 'LAI (Lei 12.527/11) — princípios?', a: 'Transparência ATIVA (Adm. publica espontaneamente) + PASSIVA (atende solicitação). Prazos: 20 dias prorrogáveis por 10. Negativa fundamentada. Lei revogada para algumas hipóteses pela Lei 14.129/21 (Governo Digital).', tags: ['adm', 'LAI', 'transparencia'] },
+  { id: 514, topic: 11, materia: 'adm', q: '6 modalidades de intervenção do Estado na propriedade?', a: 'DESAPROPRIAÇÃO · REQUISIÇÃO · OCUPAÇÃO TEMPORÁRIA · SERVIDÃO · LIMITAÇÃO · TOMBAMENTO. Apenas a desapropriação transfere a propriedade.', tags: ['adm', 'intervencao'] },
+  { id: 515, topic: 11, materia: 'adm', q: 'Desapropriação ordinária × reforma agrária × confisco?', a: 'ORDINÁRIA: prévia + justa + DINHEIRO (CF 5º XXIV). REFORMA AGRÁRIA: TÍTULOS dívida agrária (CF 184). CONFISCO (CF 243): SEM indenização (cultivos ilegais, trabalho escravo).', tags: ['adm', 'desapropriacao'] },
+  { id: 516, topic: 12, materia: 'adm', q: 'LINDB pública (arts. 20-30) — Lei 13.655/18 — eixos?', a: 'CONSEQUENCIALISMO (art. 20-21): decisões consideram efeitos práticos. Art. 22: interpretação considera obstáculos reais. Art. 28: agente responde por DOLO ou ERRO GROSSEIRO (não por mero erro de avaliação plausível).', tags: ['adm', 'LINDB', 'consequencialismo'] },
+  { id: 517, topic: 12, materia: 'adm', q: 'LGPD na Adm. Pública — base legal?', a: 'Lei 13.709/18 art. 23: tratamento de dados pela Adm. tem base no atendimento da finalidade pública (sem necessidade de consentimento). ANPD é o órgão regulador (Lei 13.853/19).', tags: ['adm', 'LGPD'] },
+
+  // Penal 1-2
+  { id: 518, topic: 1, materia: 'penal', q: 'Princípio da insignificância — STF HC 84.412 — 4 vetores?', a: '(1) Mínima ofensividade · (2) Ausência de periculosidade social · (3) Reduzido grau de reprovabilidade · (4) Inexpressividade da lesão jurídica. Mnemônico M-A-R-I. Cumulativos. Afastado em reincidência, habitualidade, violência.', tags: ['penal', 'insignificancia', 'STF'] },
+  { id: 519, topic: 1, materia: 'penal', q: 'Direito Penal é fragmentário e subsidiário — o que significa?', a: 'FRAGMENTÁRIO: só os bens jurídicos mais relevantes são protegidos pelo Penal. SUBSIDIÁRIO: Penal é ULTIMA RATIO — só atua quando outros ramos falham. Princípio da intervenção mínima.', tags: ['penal', 'principios', 'ultima-ratio'] },
+  { id: 520, topic: 1, materia: 'penal', q: 'Princípio da culpabilidade no Direito Penal?', a: 'Não há responsabilidade objetiva no Penal — só responde quem agir com DOLO ou CULPA. Ninguém é punido sem culpa (nullum crimen sine culpa).', tags: ['penal', 'culpabilidade'] },
+  { id: 521, topic: 2, materia: 'penal', q: 'Tempo do crime × Lugar do crime?', a: 'TEMPO (CP 4º): Teoria da ATIVIDADE (momento da ação ou omissão). LUGAR (CP 6º): Teoria da UBIQUIDADE/MISTA (lugar da ação OU do resultado). NÃO confundir.', tags: ['penal', 'tempo-lugar'] },
+  { id: 522, topic: 2, materia: 'penal', q: 'Lei intermediária — aplica-se?', a: 'SIM, se for a MAIS BENÉFICA. Princípio da retroatividade da lei mais favorável ao réu. Aplicação direta de qualquer das três (anterior, intermediária, posterior) que beneficiar.', tags: ['penal', 'lei-temporal', 'lex-mitior'] },
+  { id: 523, topic: 2, materia: 'penal', q: 'Conflito aparente de normas — 4 critérios?', a: 'ESPECIALIDADE · SUBSIDIARIEDADE · CONSUNÇÃO · ALTERNATIVIDADE. Esp: especial sobre geral. Sub: subsidiária se principal não couber. Con: maior absorve menor. Alt: mutuamente excludentes.', tags: ['penal', 'conflito-normas'] },
+
+  // === Cards Rodada 10 — Penal 3-8 ===
+  { id: 524, topic: 3, materia: 'penal', q: 'Conceito analítico de crime (finalismo)?', a: 'TRIPARTITE: FATO TÍPICO + ANTIJURÍDICO + CULPÁVEL. Welzel + dominante na doutrina e jurisprudência brasileiras.', tags: ['penal', 'conceito-crime'] },
+  { id: 525, topic: 3, materia: 'penal', q: 'Tipicidade — 3 dimensões?', a: 'FORMAL (subsunção do fato à norma) · MATERIAL (lesão a bem jurídico — princípio da lesividade) · CONGLOBANTE (Zaffaroni — antinormatividade considerando todo o ordenamento).', tags: ['penal', 'tipicidade'] },
+  { id: 526, topic: 3, materia: 'penal', q: 'Dolo eventual × Culpa consciente?', a: 'DOLO EVENTUAL: agente ASSUME O RISCO do resultado (assentir, "que se dane"). CULPA CONSCIENTE: agente prevê o resultado mas CONFIA na não ocorrência. Diferença sutil mas crucial.', tags: ['penal', 'dolo-culpa'] },
+  { id: 527, topic: 4, materia: 'penal', q: '4 excludentes legais de antijuridicidade (CP 23)?', a: 'ESTADO DE NECESSIDADE (CP 24) · LEGÍTIMA DEFESA (CP 25) · ESTRITO CUMPRIMENTO DE DEVER LEGAL · EXERCÍCIO REGULAR DE DIREITO. + Consentimento do ofendido (supralegal).', tags: ['penal', 'excludentes'] },
+  { id: 528, topic: 4, materia: 'penal', q: 'Excesso na excludente (CP 23 § único)?', a: 'Se o agente, em qualquer das hipóteses, EXCEDER os limites — DOLOSAMENTE ou CULPOSAMENTE — responderá pelo EXCESSO. Não há mais excludente.', tags: ['penal', 'excesso'] },
+  { id: 529, topic: 5, materia: 'penal', q: '3 elementos da culpabilidade (teoria normativa pura)?', a: 'IMPUTABILIDADE · POTENCIAL CONSCIÊNCIA DA ILICITUDE · EXIGIBILIDADE de conduta diversa. Falta de qualquer = exclui culpabilidade.', tags: ['penal', 'culpabilidade'] },
+  { id: 530, topic: 5, materia: 'penal', q: 'Erro de tipo × Erro de proibição?', a: 'TIPO (CP 20): erro sobre FATO (elementar do tipo) — exclui DOLO. PROIBIÇÃO (CP 21): erro sobre LEI (existência ou interpretação) — exclui CULPABILIDADE. Distinção essencial.', tags: ['penal', 'erro'] },
+  { id: 531, topic: 6, materia: 'penal', q: '5 fases do iter criminis?', a: 'COGITAÇÃO · ATOS PREPARATÓRIOS · EXECUÇÃO · CONSUMAÇÃO · EXAURIMENTO. Cogitação NÃO é punível.', tags: ['penal', 'iter-criminis'] },
+  { id: 532, topic: 6, materia: 'penal', q: 'Tentativa (CP 14 II) — pena?', a: 'Redução de 1/3 a 2/3, conforme proximidade da consumação. Crimes que NÃO admitem: culposos (em regra), habituais, omissivos próprios, unissubsistentes, contravenções.', tags: ['penal', 'tentativa'] },
+  { id: 533, topic: 6, materia: 'penal', q: 'Desistência voluntária × Arrependimento eficaz × Arrependimento posterior?', a: 'DESISTÊNCIA (CP 15): durante a execução. ARREPENDIMENTO EFICAZ (CP 15): após a execução, IMPEDE o resultado. POSTERIOR (CP 16): após CONSUMADO, antes da denúncia, sem violência, REPARA — redução 1/3 a 2/3.', tags: ['penal', 'arrependimento'] },
+  { id: 534, topic: 7, materia: 'penal', q: 'Concurso de pessoas — teoria adotada?', a: 'TEORIA MONISTA (CP 29). Quem concorre para o crime incide nas penas a ele cominadas, na medida da CULPABILIDADE individual. Todos respondem pelo MESMO crime.', tags: ['penal', 'concurso-pessoas'] },
+  { id: 535, topic: 7, materia: 'penal', q: 'Concurso de crimes — modalidades?', a: 'MATERIAL (CP 69): mais de uma ação, vários crimes — SOMA. FORMAL (CP 70): uma ação, vários crimes — EXASPERAÇÃO 1/6 a 1/2. CONTINUADO (CP 71): mesma espécie + condições — exasperação 1/6 a 2/3.', tags: ['penal', 'concurso-crimes'] },
+  { id: 536, topic: 8, materia: 'penal', q: 'Aplicação da pena — método trifásico (CP 68)?', a: '1ª FASE: pena-base (CP 59 — 8 circunstâncias judiciais). 2ª FASE: agravantes/atenuantes (CP 61, 65). 3ª FASE: causas de aumento/diminuição (parte geral e especial).', tags: ['penal', 'dosimetria'] },
+  { id: 537, topic: 8, materia: 'penal', q: 'Progressão de regime — Pacote Anticrime?', a: 'Lei 13.964/19 reescreveu LEP art. 112. Frações: 16% (primário sem violência) · 20% (primário com violência ou hediondo) · 25% (reincidente sem violência) · 30%, 40%, 50%, 60%, 70% (gradação por tipo de crime e reincidência).', tags: ['penal', 'progressao'] },
+
+  // === Cards Rodada 11 — Penal 9-14 ===
+  { id: 538, topic: 9, materia: 'penal', q: 'Medidas de segurança — prazo máximo?', a: 'STJ Súm. 527: prazo máximo da MS = pena máxima abstratamente cominada ao delito. Prazo mínimo: 1-3 anos. Internação (reclusão) ou tratamento ambulatorial (detenção).', tags: ['penal', 'medida-seguranca'] },
+  { id: 539, topic: 9, materia: 'penal', q: 'Espécies de ação penal (CP 100)?', a: 'PÚBLICA INCONDICIONADA (regra) · PÚBLICA CONDICIONADA À REPRESENTAÇÃO · PÚBLICA CONDICIONADA À REQUISIÇÃO (MJ) · PRIVADA EXCLUSIVA · PRIVADA SUBSIDIÁRIA DA PÚBLICA (CF 5º LIX).', tags: ['penal', 'acao-penal'] },
+  { id: 540, topic: 10, materia: 'penal', q: 'Lei 14.532/23 — injúria racial?', a: 'Passou a ser RACISMO (Lei 7.716/89). IMPRESCRITÍVEL e INAFIANÇÁVEL (CF 5º XLII). Mudança importante — antes era injúria comum.', tags: ['penal', 'injuria-racial', 'racismo'] },
+  { id: 541, topic: 10, materia: 'penal', q: 'Feminicídio — natureza?', a: 'QUALIFICADORA do homicídio (CP 121 §2º VI — Lei 13.104/15), não tipo autônomo. Pena: 12-30 anos. Crime hediondo.', tags: ['penal', 'feminicidio'] },
+  { id: 542, topic: 11, materia: 'penal', q: 'Latrocínio — competência?', a: 'JUSTIÇA COMUM (Súm. 603 STF), NÃO Tribunal do Júri. Embora haja morte, é crime contra o patrimônio. Pena 20-30 anos.', tags: ['penal', 'latrocinio'] },
+  { id: 543, topic: 11, materia: 'penal', q: 'Estelionato — natureza da ação penal pós-Pacote Anticrime?', a: 'AÇÃO PÚBLICA CONDICIONADA À REPRESENTAÇÃO (CP 171 §5º — Lei 13.964/19). Antes: incondicionada. Mudança importante.', tags: ['penal', 'estelionato'] },
+  { id: 544, topic: 12, materia: 'penal', q: 'Funcionário público para fins penais (CP 327)?', a: 'Quem exerce CARGO, EMPREGO OU FUNÇÃO PÚBLICA, ainda que TRANSITORIAMENTE ou SEM REMUNERAÇÃO. Equiparação ampla (Lei 9.983/00 — empresa estatal e contratada).', tags: ['penal', 'funcionario'] },
+  { id: 545, topic: 12, materia: 'penal', q: 'Peculato × Concussão × Corrupção passiva?', a: 'PECULATO (CP 312): apropriar/desviar. CONCUSSÃO (CP 316): EXIGIR vantagem em razão do cargo. CORRUPÇÃO PASSIVA (CP 317): SOLICITAR ou RECEBER vantagem.', tags: ['penal', 'crimes-funcionais'] },
+  { id: 546, topic: 13, materia: 'penal', q: 'TTT equiparados a hediondos?', a: 'TORTURA (Lei 9.455/97) · TRÁFICO (Lei 11.343/06) · TERRORISMO (Lei 13.260/16). Mnemônico TTT. Insuscetíveis de anistia, graça, indulto.', tags: ['penal', 'hediondos'] },
+  { id: 547, topic: 13, materia: 'penal', q: 'Tráfico privilegiado é hediondo?', a: 'NÃO (STF HC 118.533, 2016). Tráfico privilegiado (Lei 11.343/06 art. 33 §4º — primário, bons antecedentes, não dedicado, não membro de organização): redução de 1/6 a 2/3 e NÃO se equipara a hediondo.', tags: ['penal', 'trafico-privilegiado', 'STF'] },
+  { id: 548, topic: 13, materia: 'penal', q: 'Organização Criminosa (Lei 12.850/13) — conceito?', a: 'Associação de 4+ pessoas, estruturalmente ordenada, com divisão de tarefas, visando vantagem ilícita, mediante prática de infrações com penas máximas SUPERIORES a 4 anos. Permite COLABORAÇÃO PREMIADA e INFILTRAÇÃO.', tags: ['penal', 'organizacao-criminosa'] },
+  { id: 549, topic: 14, materia: 'penal', q: 'Escolas criminológicas — sequência histórica?', a: 'CLÁSSICA (Beccaria — livre-arbítrio) → POSITIVA (Lombroso, Ferri, Garofalo — determinismo) → SOCIOLÓGICAS (Chicago, Sutherland, Merton) → LABELLING APPROACH (rotulação) → CRIMINOLOGIA CRÍTICA (Baratta).', tags: ['penal', 'criminologia'] },
+  { id: 550, topic: 14, materia: 'penal', q: 'Prevenção criminal — 3 níveis?', a: 'PRIMÁRIA (atua sobre CAUSAS — educação, emprego, moradia) · SECUNDÁRIA (atua sobre GRUPOS de risco) · TERCIÁRIA (atua sobre quem já delinquiu — ressocialização).', tags: ['penal', 'prevencao'] },
+  { id: 551, topic: 14, materia: 'penal', q: 'Funções da pena no Brasil — qual teoria?', a: 'TEORIA MISTA/UNIÃO. CP art. 59 + LEP combinam: RETRIBUIÇÃO + PREVENÇÃO GERAL (intimidar coletividade) + PREVENÇÃO ESPECIAL (ressocializar agente). Doutrina dominante.', tags: ['penal', 'funcoes-pena'] },
+
+  // === Cards Rodada 12 — PP 1-6 ===
+  { id: 552, topic: 1, materia: 'pp', q: 'Sistema processual penal no Brasil pós-Pacote Anticrime?', a: 'ACUSATÓRIO (CPP art. 3º-A — Lei 13.964/19). Separação entre acusação (MP/querelante), defesa e julgamento. Antes, doutrina divergia entre misto e acusatório.', tags: ['pp', 'sistema-acusatorio'] },
+  { id: 553, topic: 1, materia: 'pp', q: 'Lei processual penal no tempo (CPP 2º)?', a: 'APLICAÇÃO IMEDIATA — tempus regit actum. Aplica-se aos processos em curso, respeitando atos já praticados. Diferente da lei MATERIAL penal (irretroatividade salvo benefício — CF 5º XL).', tags: ['pp', 'lei-temporal'] },
+  { id: 554, topic: 2, materia: 'pp', q: 'IP — características essenciais?', a: 'INQUISITORIAL (sem contraditório nem ampla defesa) · ESCRITO · SIGILOSO · INDISPONÍVEL · DISCRICIONÁRIO · ADMINISTRATIVO. Prazos: 10 dias preso, 30 solto.', tags: ['pp', 'inquerito'] },
+  { id: 555, topic: 2, materia: 'pp', q: 'ANPP (CPP 28-A) — requisitos?', a: 'Crime SEM violência ou grave ameaça · pena MÍNIMA inferior a 4 anos · CONFISSÃO do réu · proposta do MP + homologação judicial. Cláusulas: reparação, prestação de serviços/pecuniária. Cumprido = extingue punibilidade.', tags: ['pp', 'ANPP'] },
+  { id: 556, topic: 2, materia: 'pp', q: 'Cadeia de custódia (CPP 158-A — Pacote Anticrime)?', a: 'Documenta o ITINERÁRIO da prova material. 10 etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento, descarte. Quebra = NULIDADE.', tags: ['pp', 'cadeia-custodia'] },
+  { id: 557, topic: 3, materia: 'pp', q: 'Princípios da ação penal pública?', a: 'OFICIALIDADE · OBRIGATORIEDADE (temperada por ANPP) · INDISPONIBILIDADE · INTRANSCENDÊNCIA · INDIVISIBILIDADE · OFICIOSIDADE.', tags: ['pp', 'acao-penal-principios'] },
+  { id: 558, topic: 3, materia: 'pp', q: 'Requisitos da denúncia (CPP 41)?', a: 'EXPOSIÇÃO do fato + circunstâncias · QUALIFICAÇÃO do acusado · CLASSIFICAÇÃO do crime · ROL DE TESTEMUNHAS quando necessário. Falta = inépcia (CPP 395).', tags: ['pp', 'denuncia'] },
+  { id: 559, topic: 4, materia: 'pp', q: 'Assistente de acusação (CPP 268-273)?', a: 'OFENDIDO ou representante. Pode ingressar em qualquer fase. Atua AO LADO do MP — não o substitui. Pode interpor recursos. Atribuições limitadas.', tags: ['pp', 'assistente'] },
+  { id: 560, topic: 4, materia: 'pp', q: 'Juiz de garantias × Juiz da instrução (Pacote Anticrime)?', a: 'Lei 13.964/19 criou (CPP 3º-B): JUIZ DAS GARANTIAS atua na fase pré-processual; JUIZ DA INSTRUÇÃO julga o mérito. STF — ADI 6.298 (2023): eficácia parcialmente suspensa. Tema dinâmico.', tags: ['pp', 'juiz-garantias'] },
+  { id: 561, topic: 5, materia: 'pp', q: 'Lugar do crime — CPP × CP material?', a: 'CPP 70: TEORIA DO RESULTADO (lugar onde se produziu o resultado). CP MATERIAL 6º: TEORIA DA UBIQUIDADE/MISTA (lugar da ação OU do resultado). Pegadinha clássica.', tags: ['pp', 'lugar-crime'] },
+  { id: 562, topic: 5, materia: 'pp', q: 'STF AP 937 — foro por prerrogativa?', a: 'Foro por prerrogativa de função RESTRINGIDO a crimes praticados DURANTE e EM RAZÃO do cargo. Antes da AP 937 (2018), foro era amplo. Mudança de paradigma.', tags: ['pp', 'foro-prerrogativa'] },
+  { id: 563, topic: 6, materia: 'pp', q: 'Provas ilícitas — CF 5º LVI + CPP 157?', a: 'INADMISSÍVEIS. Devem ser DESENTRANHADAS. Frutos da árvore envenenada (provas derivadas) também são ilícitas. EXCEÇÕES: descoberta inevitável · fonte independente · atenuação do nexo.', tags: ['pp', 'provas-ilicitas'] },
+  { id: 564, topic: 6, materia: 'pp', q: 'Sistema brasileiro de valoração da prova?', a: 'LIVRE CONVENCIMENTO MOTIVADO (persuasão racional — CPP 155). Juiz é livre para apreciar a prova, mas DEVE FUNDAMENTAR sua decisão. Não há prova com valor predeterminado (salvo exceções como exame de corpo de delito).', tags: ['pp', 'valoracao-prova'] },
+  { id: 565, topic: 6, materia: 'pp', q: 'Colaboração premiada — natureza?', a: 'MEIO DE OBTENÇÃO de prova (não meio de prova autônomo — STF). Lei 12.850/13. Acordo MP × réu, com benefícios (perdão, redução, substituição). Homologação judicial obrigatória.', tags: ['pp', 'colaboracao-premiada'] },
+
+  // === Cards Rodada 13 — PP 7-12 ===
+  { id: 566, topic: 7, materia: 'pp', q: 'Pressupostos da prisão preventiva (CPP 312)?', a: 'PRESSUPOSTOS: prova da existência do crime + indícios suficientes de autoria. FUNDAMENTOS: garantia da ORDEM PÚBLICA · ORDEM ECONÔMICA · INSTRUÇÃO CRIMINAL · APLICAÇÃO da LEI PENAL.', tags: ['pp', 'preventiva'] },
+  { id: 567, topic: 7, materia: 'pp', q: 'Pacote Anticrime — reanálise da preventiva?', a: 'A cada 90 DIAS (CPP 316 § único — Lei 13.964/19). Marco protetivo. Antes não havia esse prazo expresso.', tags: ['pp', 'preventiva', 'reanalise'] },
+  { id: 568, topic: 7, materia: 'pp', q: 'Audiência de custódia — prazo?', a: '24 HORAS após a prisão (CPP 310). Apresentação ao juiz, com MP e defesa. Decisão: relaxa, converte em preventiva, concede liberdade provisória ou aplica cautelares diversas.', tags: ['pp', 'audiencia-custodia'] },
+  { id: 569, topic: 8, materia: 'pp', q: 'Procedimentos comuns no CPP — critério?', a: 'PELA PENA MÁXIMA: ORDINÁRIO (≥ 4 anos — CPP 394) · SUMÁRIO (< 4 anos — CPP 531) · SUMARÍSSIMO (≤ 2 anos — Lei 9.099/95).', tags: ['pp', 'procedimentos'] },
+  { id: 570, topic: 9, materia: 'pp', q: '4 princípios constitucionais do Júri (CF 5º XXXVIII)?', a: 'PLENITUDE da DEFESA · SIGILO das VOTAÇÕES · SOBERANIA dos VEREDICTOS · COMPETÊNCIA para crimes DOLOSOS contra a vida.', tags: ['pp', 'juri'] },
+  { id: 571, topic: 9, materia: 'pp', q: 'Procedimento bifásico do Júri?', a: '1ª fase JUDICIUM ACCUSATIONIS (CPP 406-421): pronúncia, impronúncia, absolvição sumária, desclassificação. 2ª fase JUDICIUM CAUSAE (422-497): plenário, 7 jurados, quesitos, sentença.', tags: ['pp', 'juri', 'bifasico'] },
+  { id: 572, topic: 10, materia: 'pp', q: 'Princípios recursais?', a: 'TAXATIVIDADE · UNIRRECORRIBILIDADE · FUNGIBILIDADE (CPP 579) · NON REFORMATIO IN PEJUS (CPP 617 — recurso da defesa não pode prejudicar).', tags: ['pp', 'recursos'] },
+  { id: 573, topic: 10, materia: 'pp', q: 'Revisão criminal — cabimento?', a: 'SOMENTE PRO REO, após trânsito em julgado (CPP 621-631). Hipóteses: sentença contrária à lei, prova falsa, fato novo. NÃO há prazo decadencial.', tags: ['pp', 'revisao-criminal'] },
+  { id: 574, topic: 11, materia: 'pp', q: 'Remição da pena (LEP 126)?', a: 'TRABALHO: 3 dias trabalhados = 1 dia de pena. ESTUDO: 12 horas em 3 dias = 1 dia de pena. Súmula 562 STJ: falta GRAVE INTERROMPE prazo.', tags: ['pp', 'lep', 'remicao'] },
+  { id: 575, topic: 11, materia: 'pp', q: 'RDD — Regime Disciplinar Diferenciado (LEP 52)?', a: 'Crime hediondo, falta grave que ponha em risco ordem ou sociedade. Até 720 DIAS (renováveis). Isolamento, visitas restritas. Pacote Anticrime endureceu.', tags: ['pp', 'lep', 'rdd'] },
+  { id: 576, topic: 11, materia: 'pp', q: 'SV 56 STF — falta de vagas?', a: 'Falta de vagas em estabelecimento adequado autoriza CUMPRIMENTO DOMICILIAR (não regressão). Marco protetivo do encarcerado.', tags: ['pp', 'lep', 'SV-56'] },
+  { id: 577, topic: 12, materia: 'pp', q: 'JECrim — transação penal × suspensão condicional do processo?', a: 'TRANSAÇÃO (Lei 9.099/95 art. 76): acordo ANTES da denúncia, pena restritiva ou multa. SURSIS PROCESSUAL (89): pena MÍNIMA ≤ 1 ano, suspensão de 2-4 anos. Cumprido = extinta punibilidade.', tags: ['pp', 'jecrim'] },
+  { id: 578, topic: 12, materia: 'pp', q: 'Maria da Penha e JECrim?', a: 'JECrim VEDADO (art. 41 — Lei 11.340/06). Crimes em contexto doméstico contra mulher seguem rito ordinário, nos Juizados de Violência Doméstica.', tags: ['pp', 'maria-da-penha'] },
+  { id: 579, topic: 12, materia: 'pp', q: 'Interceptação telefônica (Lei 9.296/96)?', a: 'RESERVA DE JURISDIÇÃO (CF 5º XII). Crimes punidos com RECLUSÃO. Prazo 15 DIAS, prorrogáveis sucessivamente. Indispensável para a investigação. Conversa flagrada (encontro fortuito) NÃO é interceptação.', tags: ['pp', 'interceptacao'] },
+
+  // === Cards Rodada 14 — Eleitoral 1-6 ===
+  { id: 580, topic: 1, materia: 'elei', q: 'Capacidade eleitoral ATIVA × PASSIVA?', a: 'ATIVA: alistamento e voto. Obrigatório 18-70, facultativo (16-18, +70, analfabetos), inalistáveis (estrangeiros, conscritos). PASSIVA: elegibilidade (CF 14 §3º — nacionalidade, pleno exercício, alistamento, domicílio, filiação, idade mínima).', tags: ['elei', 'capacidade'] },
+  { id: 581, topic: 1, materia: 'elei', q: 'Inelegibilidades absolutas × relativas?', a: 'ABSOLUTAS (§4º): inalistáveis e analfabetos — vedam TODOS os cargos. RELATIVAS: reeleição (§5º), parentesco (§7º), militar (§8º), cargos do qual deva afastar-se (§6º) — vedam ALGUNS cargos.', tags: ['elei', 'inelegibilidades'] },
+  { id: 582, topic: 1, materia: 'elei', q: 'Lei da Ficha Limpa (LC 135/10) — STF?', a: 'STF ADC 29 e 30 (2012): VALIDOU a Ficha Limpa, com aplicação a fatos ANTERIORES. Inelegibilidade por 8 anos para condenados por órgão colegiado em crimes contra Adm., hediondos, etc.', tags: ['elei', 'ficha-limpa'] },
+  { id: 583, topic: 2, materia: 'elei', q: 'Sistemas eleitorais (Brasil)?', a: 'MAJORITÁRIO: PR, Gov., Pref. (>200 mil habs em 2 turnos; <200 mil em turno único), Senadores. PROPORCIONAL: Dep. Federais, Estaduais, Vereadores. Cálculo: QE (votos válidos ÷ vagas) e QP (votos partido ÷ QE).', tags: ['elei', 'sistemas'] },
+  { id: 584, topic: 2, materia: 'elei', q: 'TSE e TREs — composição?', a: 'TSE: 7 ministros (3 STF + 2 STJ + 2 advogados nomeados pelo PR). TREs: 7 juízes (2 desemb. TJ + 2 juízes TJ + 1 juiz federal + 2 advogados). Justiça Eleitoral é EMPRESTADA — sem carreira própria.', tags: ['elei', 'TSE-TRE'] },
+  { id: 585, topic: 2, materia: 'elei', q: 'EC 97/17 — coligações?', a: 'VEDOU coligações em eleições PROPORCIONAIS. Lei 14.208/21 criou FEDERAÇÕES PARTIDÁRIAS — partidos podem se federar com obrigação de atuação conjunta por pelo menos 4 anos.', tags: ['elei', 'coligacoes', 'federacoes'] },
+  { id: 586, topic: 3, materia: 'elei', q: 'Cláusula de desempenho (EC 97/17)?', a: 'Partido só tem direito ao Fundo Partidário e tempo de propaganda no rádio/TV se atingir desempenho mínimo nas eleições. Atual: 3% válidos em 11 estados (mín. 2% em cada) OU 15 deputados em 9 estados.', tags: ['elei', 'clausula-desempenho'] },
+  { id: 587, topic: 3, materia: 'elei', q: 'Fidelidade partidária — STF ADI 5.081?', a: 'Fidelidade partidária NÃO se aplica a cargos MAJORITÁRIOS (PR, Gov., Pref., Sen.) — STF ADI 5.081 (2015). Aplica-se a PROPORCIONAIS — mandato pertence ao partido (salvo exceções: mudança programática, perseguição).', tags: ['elei', 'fidelidade', 'STF'] },
+  { id: 588, topic: 4, materia: 'elei', q: 'Domicílio eleitoral — prazo?', a: '6 MESES (Lei 13.488/17). Antes era 1 ano. Filiação prévia também é 6 meses. Convenções: 20/07 a 05/08. Registro: até 15/08. AIRC: 5 dias após edital.', tags: ['elei', 'domicilio', 'prazos'] },
+  { id: 589, topic: 4, materia: 'elei', q: 'AIRC (LC 64/90 art. 3º)?', a: 'Ação de Impugnação ao Registro de Candidatura. Prazo: 5 DIAS após publicação do edital de candidaturas. Legitimados: candidato, partido, coligação, MP. Visa impugnar a candidatura.', tags: ['elei', 'AIRC'] },
+  { id: 590, topic: 5, materia: 'elei', q: 'STF ADI 4.650 (2015) — doações de PJ?', a: 'VEDADAS doações de pessoa JURÍDICA a candidatos e partidos. Apenas: pessoas FÍSICAS (limite 10% rendimentos), recursos próprios do candidato, Partido (Fundo Partidário) e FEFC.', tags: ['elei', 'financiamento', 'STF'] },
+  { id: 591, topic: 5, materia: 'elei', q: 'Ações eleitorais — AIJE × AIME × AIRC?', a: 'AIJE (LC 64/90 art. 22): Ação de Investigação Judicial Eleitoral, durante a campanha. AIME (CF 14 §10): Ação de Impugnação de Mandato Eletivo, após a diplomação. AIRC (LC 64/90 art. 3º): Impugnação ao Registro.', tags: ['elei', 'acoes-eleitorais'] },
+  { id: 592, topic: 6, materia: 'elei', q: 'Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A)?', a: 'Doar, oferecer, prometer ou entregar bem ou vantagem em troca de voto. Sanções: CASSAÇÃO do registro ou diploma + multa. Crime eleitoral (Cód. Eleit. art. 299 — corrupção eleitoral).', tags: ['elei', 'captacao-ilicita'] },
+  { id: 593, topic: 6, materia: 'elei', q: 'STF Tema 1.111 — competência criminal?', a: 'STF RE 1.108.061 (2019): crime COMUM CONEXO com crime ELEITORAL é da JUSTIÇA ELEITORAL. Marco da firmeza da competência eleitoral em casos de conexão.', tags: ['elei', 'competencia', 'STF'] },
+
+  // === Cards Rodada 15 — Elei 7-8 + Trib 1-4 ===
+  { id: 594, topic: 7, materia: 'elei', q: '4 ações eleitorais principais — prazo?', a: 'AIRC (5 dias após edital — LC 64/90 art. 3º) · AIJE (até diplomação — LC 64/90 art. 22) · AIME (15 dias após diplomação — CF 14 §10) · RCED (3 dias após diplomação — Cód. Eleit. 262).', tags: ['elei', 'acoes-eleitorais'] },
+  { id: 595, topic: 7, materia: 'elei', q: 'AIME — características?', a: 'CF 14 §10. Impugna mandato eletivo APÓS a diplomação. Hipóteses: abuso de poder, corrupção, fraude. Tramita em SEGREDO de justiça. Prazo: 15 dias após diplomação.', tags: ['elei', 'AIME'] },
+  { id: 596, topic: 7, materia: 'elei', q: 'AIJE × representação 96?', a: 'AIJE (LC 64/90 art. 22): investiga ABUSO de poder econômico/político/uso indevido de meios de comunicação. Pode até a diplomação. REPRESENTAÇÃO 96 (Lei 9.504/97): descumprimento de lei eleitoral durante a campanha (propaganda irregular).', tags: ['elei', 'AIJE', 'representacao'] },
+  { id: 597, topic: 8, materia: 'elei', q: 'STF — Brasil admite candidato avulso?', a: 'NÃO. STF ARE 1.054.490 (2017): filiação partidária é OBRIGATÓRIA. Não há candidatura avulsa. Marco jurisprudencial relevante.', tags: ['elei', 'candidatura-avulsa', 'STF'] },
+  { id: 598, topic: 8, materia: 'elei', q: 'Cota de gênero — Lei 9.504/97 art. 10 §3º?', a: 'Mínimo 30% e máximo 70% de candidaturas de cada gênero. Aplicação por partido (ou federação). TSE: rigorosa, sob pena de invalidação da chapa. Cota racial: distribuição proporcional do FEFC (TSE Res. 23.609/2019).', tags: ['elei', 'cota-genero'] },
+  { id: 599, topic: 8, materia: 'elei', q: 'TSE Súm. 11 — sentença pendente de recurso?', a: 'Para fins de inelegibilidade por improbidade, basta a sentença CONDENATÓRIA, mesmo se pendente recurso. Aplicação da Ficha Limpa.', tags: ['elei', 'TSE-Sumula', 'improbidade'] },
+
+  // Trib 1-4
+  { id: 600, topic: 1, materia: 'trib', q: '8 princípios constitucionais tributários (CF 150)?', a: 'LEGALIDADE · ISONOMIA · IRRETROATIVIDADE · ANTERIORIDADE (do exercício) · NOVENTENA (90 dias) · NÃO-CONFISCO · CAPACIDADE CONTRIBUTIVA · LIBERDADE DE TRÁFEGO. Cláusulas pétreas (CF 60 §4º IV).', tags: ['trib', 'principios'] },
+  { id: 601, topic: 1, materia: 'trib', q: 'Imunidades tributárias (CF 150 VI)?', a: '5 hipóteses: (a) RECÍPROCA · (b) TEMPLOS · (c) PARTIDOS/SINDICATOS/EDUCAÇÃO/ASSISTÊNCIA · (d) LIVROS, jornais, periódicos (STF: alcança e-books — Tema 593) · (e) FONOGRAMAS de músicos brasileiros (EC 75/13).', tags: ['trib', 'imunidades'] },
+  { id: 602, topic: 2, materia: 'trib', q: 'Bitributação × Bis in idem?', a: 'BITRIBUTAÇÃO: 2 entes diferentes tributando o mesmo fato — VEDADA (invasão de competência). BIS IN IDEM: o MESMO ente tributando 2 vezes o mesmo fato — admitido se não houver vedação CF (ex: CSLL + IRPJ — União).', tags: ['trib', 'bitributacao'] },
+  { id: 603, topic: 2, materia: 'trib', q: 'Competência RESIDUAL?', a: 'Só da UNIÃO (CF 154 I). Para criar novos impostos, exige: LEI COMPLEMENTAR · NÃO-CUMULATIVOS · FATO GERADOR e BASE DE CÁLCULO NOVOS (não previstos em outros impostos).', tags: ['trib', 'competencia-residual'] },
+  { id: 604, topic: 3, materia: 'trib', q: 'Teoria pentapartida (STF) — 5 espécies?', a: 'IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS (sociais, CIDE, profissionais, CIP). STF firmou (RE 138.284, 1992).', tags: ['trib', 'especies'] },
+  { id: 605, topic: 3, materia: 'trib', q: 'Impostos federais × estaduais × municipais?', a: 'FEDERAIS (CF 153): II · IE · IR · IPI · IOF · ITR · IGF. ESTADUAIS (CF 155): ITCMD · ICMS · IPVA. MUNICIPAIS (CF 156): IPTU · ITBI · ISS.', tags: ['trib', 'impostos'] },
+  { id: 606, topic: 4, materia: 'trib', q: 'Obrigação tributária — fato gerador (CTN 114)?', a: 'Situação definida em LEI como necessária e suficiente para a OBRIGAÇÃO PRINCIPAL. CTN 118: princípio "NON OLET" — ganho ilícito é tributável (STF aplica).', tags: ['trib', 'fato-gerador'] },
+  { id: 607, topic: 4, materia: 'trib', q: 'Solidariedade tributária (CTN 124-125)?', a: 'Pessoas com INTERESSE COMUM no fato gerador OU designadas por lei. NÃO admite BENEFÍCIO DE ORDEM (CTN 124 § único). Cada um pode ser cobrado pelo total.', tags: ['trib', 'solidariedade'] },
+
+  // === Cards Rodada 16 — Trib 5-10 (FECHAMENTO 100%) ===
+  { id: 608, topic: 5, materia: 'trib', q: 'Suspensão da exigibilidade do crédito (CTN 151) — mnemônico?', a: 'MO-DE-RE-CO-PA: MOratória · DEpósito do montante integral · REclamações e recursos · COncessão de medida liminar/antecipação · PArcelamento.', tags: ['trib', 'suspensao'] },
+  { id: 609, topic: 5, materia: 'trib', q: 'Decadência × prescrição tributária?', a: 'DECADÊNCIA (CTN 173): 5 ANOS para a Adm. CONSTITUIR o crédito. PRESCRIÇÃO (CTN 174): 5 ANOS para COBRAR (após constituição). SV 8 STF: prazos só por LEI COMPLEMENTAR.', tags: ['trib', 'decadencia-prescricao'] },
+  { id: 610, topic: 5, materia: 'trib', q: 'Isenção × Anistia?', a: 'ISENÇÃO (CTN 176): dispensa do TRIBUTO (mas NÃO da obrigação acessória). ANISTIA (CTN 180): dispensa de PENALIDADE/multa. Ambas exigem LEI.', tags: ['trib', 'isencao-anistia'] },
+  { id: 611, topic: 6, materia: 'trib', q: 'CDA — Certidão de Dívida Ativa?', a: 'TÍTULO EXECUTIVO EXTRAJUDICIAL emitido pela Procuradoria. Base da execução fiscal (Lei 6.830/80). Requisitos no CTN art. 202: nome do devedor, valor, fundamento legal, data inscrição.', tags: ['trib', 'CDA'] },
+  { id: 612, topic: 7, materia: 'trib', q: 'STJ Súm. 393 — exceção de pré-executividade?', a: 'Cabível para alegar matérias conhecíveis de OFÍCIO, sem dilação probatória. NÃO exige garantia do juízo. Vedada para questões que dependam de produção de prova.', tags: ['trib', 'pre-executividade'] },
+  { id: 613, topic: 7, materia: 'trib', q: 'STJ Súm. 435 — redirecionamento?', a: 'Empresa que muda de endereço sem comunicar à Receita: presume-se DISSOLUÇÃO IRREGULAR. Permite redirecionamento da execução fiscal contra os SÓCIOS-GERENTES (CTN 135 III).', tags: ['trib', 'redirecionamento'] },
+  { id: 614, topic: 8, materia: 'trib', q: 'EC 132/23 — Reforma Tributária — 3 novos tributos?', a: 'IBS (Imposto sobre Bens e Serviços — estadual+municipal — substitui ICMS+ISS) · CBS (Contribuição sobre Bens e Serviços — federal — substitui PIS+COFINS) · IS (Imposto Seletivo — federal — substitui parte do IPI, focado em saúde/meio ambiente).', tags: ['trib', 'reforma', 'EC-132'] },
+  { id: 615, topic: 8, materia: 'trib', q: 'Reforma tributária — período de transição?', a: '2026 (cobrança teste IBS/CBS) → 2027 (CBS substitui PIS/COFINS) → 2027 (IS começa) → 2029-2032 (transição IBS) → 2033 (IBS pleno; ICMS/ISS extintos).', tags: ['trib', 'reforma', 'transicao'] },
+  { id: 616, topic: 9, materia: 'trib', q: 'Orçamento (CF 165) — 3 instrumentos?', a: 'PPA (Plano Plurianual — 4 anos: diretrizes, objetivos, metas) · LDO (Lei de Diretrizes Orçamentárias — anual: prioridades) · LOA (Lei Orçamentária Anual — operacional: receitas e despesas).', tags: ['trib', 'orcamento'] },
+  { id: 617, topic: 9, materia: 'trib', q: 'LRF — limites com despesa de pessoal?', a: 'União 50% RCL · Estados 60% · Municípios 60%. Subteto por Poder. LRF (LC 101/00). CF 169.', tags: ['trib', 'LRF'] },
+  { id: 618, topic: 10, materia: 'trib', q: 'STF SV 24 — crime material contra ordem tributária?', a: 'Não se tipifica crime material (Lei 8.137/90 art. 1º) ANTES do LANÇAMENTO DEFINITIVO do tributo. Crime exige constituição definitiva do crédito (esgotada via administrativa).', tags: ['trib', 'crimes', 'SV-24'] },
+  { id: 619, topic: 10, materia: 'trib', q: 'Pagamento e parcelamento — efeitos penais?', a: 'PAGAMENTO INTEGRAL: extingue a punibilidade A QUALQUER TEMPO (Lei 10.684/03). PARCELAMENTO: SUSPENDE a pretensão punitiva enquanto cumprido. Cumprimento integral: extingue.', tags: ['trib', 'crimes', 'pagamento'] },
+  { id: 620, topic: 10, materia: 'trib', q: 'Apropriação indébita previdenciária (CP 168-A)?', a: 'Deixar de repassar contribuições previdenciárias retidas. Crime OMISSIVO PRÓPRIO. STF: requer DOLO de não recolher (não basta inadimplência por dificuldade financeira).', tags: ['trib', 'apropriacao-previdenciaria'] },
+  { id: 621, topic: 9, materia: 'trib', q: 'Princípios orçamentários?', a: 'UNIDADE · UNIVERSALIDADE · ANUALIDADE · EXCLUSIVIDADE · LEGALIDADE · PUBLICIDADE/TRANSPARÊNCIA · PROIBIÇÃO de estorno sem autorização. CF 165-167.', tags: ['trib', 'orcamento', 'principios'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -10518,6 +16800,1046 @@ questions: [
     ],
     correct: 'C',
     explanation: 'CF 128 §5º I "a" + LC 34/94 art. 33. Vitaliciedade no MP é após 2 anos, mediante decisão fundamentada do CSMP. Antes, perda em PAD é admissível. (A) Falso — vitaliciedade não é desde a posse. (B) Falso — não é estabilidade comum (3 anos), é vitaliciedade (2 anos). (D) Falso — vedações se aplicam desde a posse; magistério permitido só UM. (E) Falso — promotor natural veda designações casuísticas.'
+  },
+
+  // === Questões Rodada 4 — Material Coletivo (colmat-03 a 08) ===
+  {
+    id: 149, topic: 3, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Lei 10.741/03 (Estatuto da Pessoa Idosa) e direitos correlatos:',
+    alternatives: [
+      'Considera-se idosa a pessoa com 65 anos ou mais, conforme o art. 1º do Estatuto.',
+      'O BPC (LOAS art. 20) garante 1 SM ao idoso a partir dos 60 anos, exigindo contribuição prévia.',
+      'É pessoa idosa quem tem 60 anos completos ou mais (art. 1º), e a Lei 13.466/17 inseriu prioridade ESPECIAL aos com 80 anos ou mais.',
+      'A cláusula contratual de plano de saúde que reajusta o valor por mudança de faixa etária do idoso é VÁLIDA, desde que prevista em contrato de adesão.',
+      'Pessoa idosa, em razão da idade, é absolutamente incapaz para os atos da vida civil.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 10.741/03 art. 1º + Lei 13.466/17 (§2º art. 3º). (A) Falso — 60 anos. (B) Falso — BPC é 65 anos+, sem contribuição. (D) Falso — Súmula 597 STJ veda. (E) Falso — pessoa idosa, em regra, é PLENAMENTE CAPAZ.'
+  },
+  {
+    id: 150, topic: 4, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca da Pessoa com Deficiência e da Lei Brasileira de Inclusão (LBI — Lei 13.146/15):',
+    alternatives: [
+      'A Convenção de Nova York sobre os Direitos das PCD (Decreto 6.949/09) tem status de lei ordinária e foi aprovada pelo rito comum.',
+      'Após a LBI, a deficiência mental, por si só, configura incapacidade absoluta nos termos do art. 3º do CC.',
+      'A Tomada de Decisão Apoiada (CC art. 1.783-A) substitui a vontade da PCD, equivalendo materialmente à curatela.',
+      'A LBI consagrou o modelo BIOPSICOSSOCIAL de deficiência, segundo o qual deficiência resulta da interação entre os impedimentos da pessoa e as barreiras existentes na sociedade; preserva a regra geral da plena capacidade civil.',
+      'A escola privada pode cobrar valor adicional para matricular PCDs, em razão do esforço institucional necessário.'
+    ],
+    correct: 'D',
+    explanation: 'LBI arts. 2º e 6º + STF ADI 5.357. (A) Falso — Convenção de NY foi aprovada pelo rito do art. 5º §3º (status de EC). (B) Falso — LBI excluiu deficiência mental como hipótese de incapacidade absoluta. (C) Falso — TDA NÃO substitui vontade; apoia. (E) Falso — STF ADI 5.357 vedou cobrança extra.'
+  },
+  {
+    id: 151, topic: 5, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o direito à educação no Brasil:',
+    alternatives: [
+      'A obrigatoriedade da educação se estende dos 7 aos 14 anos, abrangendo apenas o ensino fundamental.',
+      'A vaga em creche para crianças de 0 a 3 anos pode ser negada pelo Município sob alegação de reserva do possível, conforme jurisprudência consolidada do STF.',
+      'A educação domiciliar é hoje permitida no Brasil, desde que com acompanhamento pedagógico dos pais.',
+      'A EC 59/09 expandiu a obrigatoriedade da educação para a faixa de 4 a 17 anos (pré-escola, fundamental e médio); o STF (Tema 548) afastou a alegação de reserva do possível para vagas em educação infantil.',
+      'O FUNDEB é fundo de natureza temporária, vigente apenas até 2020, sem renovação posterior.'
+    ],
+    correct: 'D',
+    explanation: 'EC 59/09 + STF Tema 548 + EC 108/20. (A) Falso — hoje é 4-17 anos. (B) Falso — Tema 548 STF afasta reserva do possível. (C) Falso — Tema 822 STF: hoje vedada (sem lei federal). (E) Falso — EC 108/20 tornou FUNDEB permanente.'
+  },
+  {
+    id: 152, topic: 6, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito da judicialização da saúde, conforme o STF e o STJ:',
+    alternatives: [
+      'O STF (Tema 6) determina o fornecimento de qualquer medicamento prescrito por médico, sem registro na ANVISA, mediante simples laudo.',
+      'O STJ (Tema 106) condiciona o fornecimento de medicamento NÃO incorporado ao SUS a: imprescindibilidade comprovada por laudo, hipossuficiência financeira do paciente e registro na ANVISA, requisitos cumulativos.',
+      'O STF (Tema 793) afirma a responsabilidade SUBSIDIÁRIA dos entes federativos no fornecimento de medicamentos.',
+      'A reserva do possível, segundo o STF, afasta o direito ao mínimo existencial em matéria de saúde, em razão das limitações orçamentárias.',
+      'Conselhos de Saúde têm composição equilibrada entre gestores e usuários, com proporção de 1/3 para cada categoria.'
+    ],
+    correct: 'B',
+    explanation: 'STJ Tema 106 (REsp 1.657.156). (A) Falso — Tema 6 STF: 5 condições cumulativas. (C) Falso — solidária (Tema 793). (D) Falso — reserva do possível NÃO afasta mínimo existencial (ADPF 45, Tema 548). (E) Falso — composição PARITÁRIA: 50% usuários · 25% trabalhadores · 25% gestores/prestadores.'
+  },
+  {
+    id: 153, topic: 7, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Código de Defesa do Consumidor (Lei 8.078/90):',
+    alternatives: [
+      'A responsabilidade do profissional liberal perante o consumidor é OBJETIVA, como regra geral do CDC.',
+      'Os prazos para reclamação por VÍCIO do produto durável (90 dias) e do produto não durável (30 dias) — CDC art. 26 — são prazos PRESCRICIONAIS.',
+      'Considera-se BYSTANDER o terceiro que, embora não tenha contratado o produto/serviço, é vítima de acidente de consumo (CDC art. 17), equiparando-se ao consumidor.',
+      'O direito de arrependimento de 7 dias (CDC art. 49) aplica-se a todas as compras, inclusive presenciais.',
+      'A inversão do ônus da prova em favor do consumidor é vedada pelo princípio dispositivo, salvo expressa concordância do fornecedor.'
+    ],
+    correct: 'C',
+    explanation: 'CDC art. 17 — bystander é equiparado. (A) Falso — profissional liberal é SUBJETIVA (art. 14 §4º). (B) Falso — são prazos DECADENCIAIS (vício). Prescrição de 5 anos só para FATO (art. 27). (D) Falso — apenas compras FORA do estabelecimento. (E) Falso — CDC art. 6º VIII admite, condicionada a verossimilhança ou hipossuficiência.'
+  },
+  {
+    id: 154, topic: 8, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Quanto à tutela jurídica do meio ambiente, é correto afirmar:',
+    alternatives: [
+      'A pretensão de reparação do dano ambiental prescreve em 5 anos, contados da ciência do dano, conforme o STF.',
+      'A responsabilidade civil ambiental é subjetiva, dependendo da prova de culpa ou dolo do agente.',
+      'A pessoa jurídica não responde criminalmente em matéria ambiental, em razão do princípio da pessoalidade da pena (CF 5º XLV).',
+      'O princípio da PRECAUÇÃO atua sobre risco DESCONHECIDO (incerteza científica) — distinguindo-se do princípio da PREVENÇÃO, que atua sobre risco conhecido (certeza científica do dano potencial); ambos integram o núcleo do direito ambiental brasileiro.',
+      'A obrigação ambiental tem natureza pessoal, vinculando exclusivamente o causador direto do dano, sem alcance ao adquirente posterior.'
+    ],
+    correct: 'D',
+    explanation: 'Princípios consagrados pela doutrina e STF/STJ. (A) Falso — STF Tema 999: IMPRESCRITÍVEL. (B) Falso — OBJETIVA (Lei 6.938/81 art. 14 §1º). (C) Falso — CF 225 §3º + Lei 9.605/98 art. 3º (PJ responde). (E) Falso — propter rem (Súmula 623 STJ).'
+  },
+
+  // === Questões Rodada 5 — ColMat (9-12) e Const (1-2) ===
+  {
+    id: 155, topic: 9, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a política urbana e os instrumentos previstos no Estatuto da Cidade (Lei 10.257/01):',
+    alternatives: [
+      'O plano diretor é obrigatório para municípios com mais de 5 mil habitantes, conforme a CF e o Estatuto da Cidade.',
+      'A desapropriação-sanção, prevista como instrumento contra o descumprimento da função social da propriedade urbana, é paga em DINHEIRO, à vista, conforme a regra geral da desapropriação ordinária.',
+      'A usucapião especial urbana exige posse mansa e pacífica de 5 anos, área de até 250 m², primeira moradia e ausência de oposição, e NÃO se aplica a imóveis públicos (Súmula 340 STF).',
+      'O IPTU progressivo no tempo pode ser aplicado por prazo indeterminado, sem teto máximo de alíquota.',
+      'O MP não tem legitimidade para atuar em ACPs urbanísticas, em razão da natureza eminentemente patrimonial do tema.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 183 + Estatuto da Cidade art. 9º + Súm. 340 STF. (A) Falso — 20 mil habs. (B) Falso — em TÍTULOS da dívida pública (Estatuto art. 8º). (D) Falso — alíquota máxima 15%, prazo 5 anos (Estatuto art. 7º). (E) Falso — Estatuto art. 53 prevê expressamente legitimidade do MP.'
+  },
+  {
+    id: 156, topic: 10, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a tutela jurídica do patrimônio cultural brasileiro:',
+    alternatives: [
+      'O tombamento transfere a propriedade do bem do particular para a Administração Pública, garantindo indenização justa em dinheiro.',
+      'O patrimônio cultural brasileiro abrange somente bens MATERIAIS, sendo os bens imateriais protegidos pelo direito de propriedade intelectual.',
+      'O tombamento federal exclui a possibilidade de tombamento estadual ou municipal sobre o mesmo bem, em razão da hierarquia entre os entes federativos.',
+      'Os bens arqueológicos e pré-históricos pertencem à União (Lei 3.924/61), independentemente de estarem em propriedade privada.',
+      'O registro de bens culturais imateriais é regulado pelo DL 25/37 e segue os mesmos quatro Livros do Tombamento.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 3.924/61 + CF 20. (A) Falso — tombamento NÃO transfere propriedade; em regra não indeniza. (B) Falso — CF 216 inclui bens IMATERIAIS (Decreto 3.551/00). (C) Falso — STF RE 121.140: todos os entes podem tombar (paralelismo). (E) Falso — registro é regulado pelo Decreto 3.551/00 (Livros: saberes/celebrações/expressões/lugares), distintos dos Livros do Tombamento.'
+  },
+  {
+    id: 157, topic: 11, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca da Lei 8.429/92 (LIA), com as alterações da Lei 14.230/21:',
+    alternatives: [
+      'Permanece prevista a modalidade CULPOSA de improbidade no art. 10, em casos de prejuízo ao erário decorrente de imperícia administrativa.',
+      'A nova lei aplicasse exclusivamente a fatos praticados após sua vigência (15/10/2021), em respeito ao princípio da segurança jurídica.',
+      'A Lei 14.230/21 exigiu DOLO ESPECÍFICO para a configuração de qualquer ato de improbidade, eliminou a forma culposa, instituiu o ANPC (Acordo de Não Persecução Cível) e o STF (Tema 1199) admitiu a retroatividade benéfica das alterações.',
+      'O CNMP é o legitimado exclusivo para propor ação de improbidade após a Lei 14.230/21.',
+      'A pretensão de RESSARCIMENTO ao erário decorrente de improbidade prescreve em 8 anos da prática do ato.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 14.230/21 + STF Tema 1199 (RE 843.989, 2022). (A) Falso — eliminada a forma culposa. (B) Falso — STF Tema 1199: retroatividade benéfica. (D) Falso — MP é legitimado preferencial; PJ interessada também atua. (E) Falso — STF Tema 897: ressarcimento ao erário é IMPRESCRITÍVEL (CF 37 §5º).'
+  },
+  {
+    id: 158, topic: 12, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os direitos das comunidades tradicionais:',
+    alternatives: [
+      'Os indígenas são proprietários originários das terras que tradicionalmente ocupam, podendo aliená-las após autorização da FUNAI.',
+      'O STF (Tema 1031, 2023) declarou CONSTITUCIONAL a tese do marco temporal, restringindo a demarcação às terras efetivamente ocupadas em 5 de outubro de 1988.',
+      'A Convenção 169 da OIT, internalizada no Brasil pelo Decreto 5.051/04 (atualizado pelo Decreto 10.088/19), tem status SUPRALEGAL e prevê a CLPI (Consulta Livre, Prévia e Informada) como direito obrigatório dos povos indígenas, tribais e demais comunidades tradicionais.',
+      'O reconhecimento de comunidade quilombola depende de critério genético-biológico, conforme exigência da Lei 14.701/23.',
+      'A demarcação de terras quilombolas é atribuição da FUNAI, à semelhança das terras indígenas.'
+    ],
+    correct: 'C',
+    explanation: 'Decreto 5.051/04 + Convenção 169 OIT + STF RE 466.343 (supralegalidade). (A) Falso — propriedade é da UNIÃO (CF 20 XI); índios têm posse e usufruto, terras INALIENÁVEIS. (B) Falso — STF DERRUBOU o marco temporal (Tema 1031, 2023). (D) Falso — STF ADI 3.239: critério é AUTOATRIBUIÇÃO. (E) Falso — INCRA é o órgão executor para quilombolas.'
+  },
+  {
+    id: 159, topic: 1, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Teoria da Constituição e o Poder Constituinte:',
+    alternatives: [
+      'A CF/88, segundo a doutrina majoritária, é classificada como semirrígida, escrita, costumeira, sintética e nominal.',
+      'O Poder Constituinte Originário é absolutamente ilimitado, não admitindo qualquer espécie de limitação, jurídica ou extrajurídica.',
+      'O Poder Constituinte Reformador é PERMANENTE e está disciplinado no art. 60 da CF/88, com limites formais (rito), circunstanciais (estados de exceção) e materiais (cláusulas pétreas — art. 60 §4º).',
+      'O Poder Constituinte Revisor (ADCT art. 3º) pode ser exercido a qualquer tempo, desde que observado o quórum de 3/5 nas duas Casas do Congresso.',
+      'A mutação constitucional opera por meio de emenda à Constituição, alterando o texto da CF/88.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 60. (A) Falso — CF/88 é RÍGIDA, escrita, codificada (não costumeira), ANALÍTICA, normativa. (B) Falso — ilimitado JURIDICAMENTE, mas tem limites EXTRAJURÍDICOS. (D) Falso — Poder Revisor está ESGOTADO desde 1994. (E) Falso — mutação NÃO altera o texto, apenas o sentido (interpretação evolutiva).'
+  },
+  {
+    id: 160, topic: 2, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca da aplicabilidade e eficácia das normas constitucionais:',
+    alternatives: [
+      'Normas de eficácia LIMITADA são destituídas de qualquer eficácia até que sejam regulamentadas por lei posterior.',
+      'A norma de eficácia CONTIDA depende de regulamentação para iniciar sua aplicação, valendo apenas após a edição da norma restritiva.',
+      'A classificação tripartite de José Afonso da Silva (PLENA · CONTIDA · LIMITADA) é a dominante; normas limitadas têm eficácia MÍNIMA — revogam normas anteriores incompatíveis e vinculam o legislador a regulamentar.',
+      'O CF art. 5º §1º (aplicação imediata dos direitos e garantias fundamentais) converte automaticamente todas as normas constitucionais em normas de eficácia plena.',
+      'A eficácia HORIZONTAL dos direitos fundamentais foi rejeitada pelo STF em razão do princípio da separação de poderes.'
+    ],
+    correct: 'C',
+    explanation: 'Classificação clássica de J. A. Silva. (A) Falso — limitada tem eficácia MÍNIMA. (B) Falso — contida vale plenamente até virem restrições. (D) Falso — CF 5º §1º não converte limitadas em plenas. (E) Falso — STF RE 201.819 reconheceu a eficácia horizontal.'
+  },
+
+  // === Questões Rodada 6 — Const 3-8 ===
+  {
+    id: 161, topic: 3, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a hermenêutica constitucional:',
+    alternatives: [
+      'Há hierarquia entre as normas constitucionais, devendo ser observada quando houver tensão entre dispositivos.',
+      'A modulação dos efeitos da declaração de inconstitucionalidade exige maioria simples dos ministros do STF.',
+      'O princípio da unidade postula que a Constituição deve ser interpretada como um todo harmônico, sem hierarquia entre as normas; a concordância prática orienta a otimização recíproca em casos de colisão.',
+      'A interpretação conforme a CF é técnica que retira parte do texto da norma, deixando-a com redação reduzida.',
+      'A modulação só é cabível em ADC, jamais em ADI.'
+    ],
+    correct: 'C',
+    explanation: 'Princípios da hermenêutica constitucional. (A) Falso — não há hierarquia. (B) Falso — modulação exige 2/3 (Lei 9.868/99 art. 27). (D) Falso — interpretação conforme NÃO retira texto; declaração de nulidade parcial sem redução TAMBÉM não retira. (E) Falso — modulação aplicável em ADI, ADC, ADPF.'
+  },
+  {
+    id: 162, topic: 4, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios fundamentais da CF/88 (arts. 1º a 4º):',
+    alternatives: [
+      'Os fundamentos da República (art. 1º) incluem a soberania, a cidadania, a dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa, e o pluralismo religioso.',
+      'Os objetivos da República (art. 3º) são apresentados em verbos no infinitivo (CONSTRUIR, GARANTIR, ERRADICAR, PROMOVER) e configuram típicas normas programáticas.',
+      'A forma de governo republicana é cláusula pétrea expressa no art. 60 §4º.',
+      'A prevalência dos direitos humanos (CF 4º II) constitui mero princípio orientador, sem efeito jurídico vinculante.',
+      'O parágrafo único do art. 1º consagra a representação política exclusiva, vedando o exercício direto do poder pelo povo.'
+    ],
+    correct: 'B',
+    explanation: 'CF art. 3º — verbos: CONSTRUIR · GARANTIR · ERRADICAR · PROMOVER. (A) Falso — pluralismo POLÍTICO (não religioso). (C) Falso — forma de governo (República) NÃO é cláusula pétrea expressa; forma federativa, sim. (D) Falso — prevalência dos DH é vinculante (STF RE 466.343). (E) Falso — § único: poder exercido por representantes eleitos OU diretamente.'
+  },
+  {
+    id: 163, topic: 5, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do art. 5º da CF/88 e dos remédios constitucionais:',
+    alternatives: [
+      'O mandado de segurança coletivo pode ser impetrado por partido político SEM representação no Congresso Nacional, desde que tenha mais de 1 ano de existência.',
+      'O habeas data é gratuito e admite a impetração para conhecer informações constantes de banco público OU privado, com finalidade de retificação ou anotação de explicações.',
+      'O mandado de injunção, conforme a Lei 13.300/16, segue regra geral concretista geral, com efeitos erga omnes.',
+      'A ação popular é remédio coletivo cabível por qualquer pessoa, brasileira ou estrangeira, em defesa de patrimônio público.',
+      'O habeas corpus é remédio gratuito, mas exige assistência de advogado para sua impetração.'
+    ],
+    correct: 'B',
+    explanation: 'CF 5º LXXII + Lei 9.507/97. (A) Falso — partido político precisa de representação no CN (CF 5º LXX a). (C) Falso — Lei 13.300/16 art. 9º: regra é concretista INDIVIDUAL (entre as partes). (D) Falso — só CIDADÃO pode propor (CF 5º LXXIII). (E) Falso — HC é gratuito e dispensa advogado.'
+  },
+  {
+    id: 164, topic: 6, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre nacionalidade e direitos políticos:',
+    alternatives: [
+      'O brasileiro naturalizado pode ser extraditado por crime comum praticado antes da naturalização ou por envolvimento em tráfico ilícito de drogas.',
+      'A idade mínima para o cargo de Senador é de 30 anos.',
+      'O voto é facultativo para os maiores de 65 anos, conforme o art. 14 §1º da CF/88.',
+      'É vedada ao militar conscrito o alistamento eleitoral.',
+      'A reeleição para o cargo de Presidente da República pode ocorrer por até dois mandatos consecutivos, totalizando 12 anos no cargo.'
+    ],
+    correct: 'A',
+    explanation: 'CF 5º LI. (B) Falso — Senador é 35 anos. (C) Falso — voto facultativo aos maiores de 70 (não 65). (D) Falso — conscrito é INALISTÁVEL (CF 14 §2º). (E) Falso — reeleição é UMA ÚNICA VEZ (8 anos máximo, CF 14 §5º).'
+  },
+  {
+    id: 165, topic: 7, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a organização do Estado brasileiro e a repartição de competências:',
+    alternatives: [
+      'A competência concorrente prevista no art. 24 da CF/88 envolve União, Estados, DF e Municípios.',
+      'O DF pode ser dividido em municípios, desde que mediante lei complementar federal.',
+      'No caso de competência concorrente, a União edita normas gerais e os Estados podem suplementá-las; na ausência de lei federal, os Estados podem legislar plenamente, e a superveniência de lei federal suspende a eficácia da lei estadual no que conflitar.',
+      'A intervenção federal é regra no federalismo brasileiro, sendo a autonomia dos Estados a exceção constitucional.',
+      'A forma federativa de Estado pode ser abolida por emenda constitucional aprovada por 4/5 dos membros do Congresso Nacional.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 24 §§ 1º-4º. (A) Falso — concorrente NÃO inclui Municípios. (B) Falso — DF NÃO pode ser dividido em municípios (CF 32 caput). (D) Falso — autonomia é regra; intervenção, exceção. (E) Falso — forma federativa é cláusula pétrea (CF 60 §4º I), não pode ser abolida.'
+  },
+  {
+    id: 166, topic: 8, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca da organização dos Poderes:',
+    alternatives: [
+      'Os parlamentares federais gozam de imunidade material e formal; pela imunidade material, são invioláveis por suas opiniões, palavras e votos no exercício do mandato.',
+      'A medida provisória possui prazo de vigência de 30 dias, prorrogáveis automaticamente pela Mesa do CN.',
+      'O CNJ é integrado por 14 conselheiros e presidido pelo Procurador-Geral da República.',
+      'O Senado Federal é composto por 4 senadores por Estado e por 2 pelo DF, conforme o art. 46 da CF/88.',
+      'A garantia da vitaliciedade dos magistrados se aperfeiçoa após 3 anos de exercício, conforme regra geral dos servidores públicos.'
+    ],
+    correct: 'A',
+    explanation: 'CF art. 53 caput. (B) Falso — MP tem 60 + 60 dias (CF 62 §§ 3º-7º). (C) Falso — CNJ tem 15 conselheiros e é presidido pelo Pres. do STF (CF 103-B). (D) Falso — Senado: 3 por Estado e DF (CF 46 §1º). (E) Falso — vitaliciedade dos magistrados após 2 anos (CF 95 I).'
+  },
+
+  // === Questões Rodada 7 — Const 9-12 + Adm 1-2 ===
+  {
+    id: 167, topic: 9, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as funções essenciais à Justiça (CF arts. 127-135):',
+    alternatives: [
+      'O MP, a Defensoria, a AGU e a OAB integram o capítulo das funções essenciais à Justiça e a todos é assegurada autonomia funcional, administrativa e financeira equivalente.',
+      'A Defensoria Pública, após a EC 80/2014, possui autonomia funcional, administrativa e iniciativa orçamentária, com vitaliciedade dos membros após 3 anos de exercício.',
+      'Os Procuradores dos Estados são vitalícios após 2 anos, conforme regra geral análoga à dos membros do MP.',
+      'O MP pode prestar consultoria jurídica a entidades públicas, em razão de sua função ampla de defesa da ordem jurídica.',
+      'A advocacia, por ser função privada, não é considerada função essencial à Justiça pela CF/88.'
+    ],
+    correct: 'B',
+    explanation: 'EC 80/2014 + CF 134 §4º + 135. (A) Falso — OAB não tem autonomia equivalente à do MP/Defensoria. (C) Falso — Procuradores do Estado têm ESTABILIDADE (não vitaliciedade) após 3 anos (CF 132 § único). (D) Falso — CF 129 IX final VEDA representação/consultoria do MP. (E) Falso — CF 133 reconhece advogado como indispensável.'
+  },
+  {
+    id: 168, topic: 10, materia: 'const', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do controle de constitucionalidade:',
+    alternatives: [
+      'A ADI cabe contra leis federais, estaduais e municipais, em razão da supremacia constitucional.',
+      'A modulação dos efeitos da declaração de inconstitucionalidade (Lei 9.868/99 art. 27) exige maioria simples dos ministros do STF.',
+      'Apenas os legitimados especiais (Mesa de AL/CD-DF, Governador e confederação/entidade nacional) precisam demonstrar pertinência temática.',
+      'A Súmula Vinculante (CF 103-A) é aprovada por maioria absoluta do STF, em razão da regra geral de quórum.',
+      'A reclamação constitucional é cabível para preservar a competência do STF, mas NÃO se aplica a violação de Súmulas Vinculantes.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 103. (A) Falso — ADI NÃO cabe contra lei MUNICIPAL (cabe ADPF). (B) Falso — modulação exige 2/3. (D) Falso — SV exige 2/3 (CF 103-A). (E) Falso — reclamação cabe contra violação de SV (CF 103-A §3º).'
+  },
+  {
+    id: 169, topic: 11, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ordem econômica e financeira (CF arts. 170-192):',
+    alternatives: [
+      'A ordem econômica brasileira tem como fundamentos a livre iniciativa e a soberania nacional, sendo a propriedade privada princípio que se sobrepõe aos demais.',
+      'O Estado pode explorar diretamente atividade econômica em qualquer hipótese, em razão da supremacia do interesse público.',
+      'A ordem econômica brasileira tem como fundamentos a VALORIZAÇÃO DO TRABALHO HUMANO e a LIVRE INICIATIVA, e é regida por 9 princípios constitucionalmente expressos (CF 170), entre eles a função social da propriedade, a defesa do consumidor e a defesa do meio ambiente.',
+      'A propriedade rural produtiva pode ser desapropriada para fins de reforma agrária, mediante prévia indenização em dinheiro.',
+      'As empresas estatais que explorem atividade econômica submetem-se ao regime jurídico-administrativo público, com prerrogativas idênticas à Administração direta.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 170. (A) Falso — fundamentos: trabalho humano + livre iniciativa. Não há sobreposição entre princípios. (B) Falso — Estado só atua em segurança nacional ou relevante interesse coletivo (CF 173). (D) Falso — propriedade produtiva é INSUSCETÍVEL de desapropriação para reforma agrária (CF 185 II); reforma agrária é em títulos (não dinheiro). (E) Falso — empresas estatais econômicas seguem regime PRIVADO.'
+  },
+  {
+    id: 170, topic: 12, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ordem social (CF arts. 193-232):',
+    alternatives: [
+      'A seguridade social brasileira é sustentada por dois pilares: saúde e previdência, sendo a assistência social parte integrante da previdência.',
+      'O direito à saúde no SUS depende de prévia contribuição do beneficiário, conforme regra geral da seguridade social.',
+      'A seguridade social no Brasil é estruturada em três pilares — SAÚDE (universal, sem contribuição), PREVIDÊNCIA (mediante contribuição) e ASSISTÊNCIA SOCIAL (aos necessitados, sem contribuição).',
+      'A Lei de Imprensa (Lei 5.250/67) foi recepcionada pela CF/88 e continua a regular a atividade jornalística no Brasil.',
+      'A inimputabilidade penal dos menores de 18 anos é meramente legal, podendo ser alterada por lei ordinária.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 194 + 196 + 201 + 203. (A) Falso — tripé: saúde, previdência, assistência (CF 194). (B) Falso — saúde NÃO depende de contribuição (CF 196). (D) Falso — STF ADPF 130 (2009): NÃO recepcionada. (E) Falso — inimputabilidade está na CF 228, e há controvérsia sobre se é cláusula pétrea.'
+  },
+  {
+    id: 171, topic: 1, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios da Administração Pública:',
+    alternatives: [
+      'O princípio da legalidade aplica-se igualmente ao particular e à Administração, ambos podendo fazer tudo o que a lei não proíbe.',
+      'O princípio da eficiência foi positivado pela CF/88 desde sua promulgação em 1988.',
+      'A Súmula 473 do STF consagra a autotutela administrativa: a Administração pode ANULAR seus próprios atos quando ilegais ou REVOGÁ-LOS por conveniência e oportunidade, respeitados os direitos adquiridos.',
+      'O prazo decadencial para a Administração anular atos administrativos beneficiários é de 10 anos, conforme a Lei 9.784/99.',
+      'O princípio da publicidade é absoluto, não comportando exceções no ordenamento.'
+    ],
+    correct: 'C',
+    explanation: 'Súm. 473 STF. (A) Falso — particular pode tudo que a lei não proíbe; Adm. só o que a lei autoriza (legalidade estrita). (B) Falso — eficiência foi inserida pela EC 19/98. (D) Falso — Lei 9.784/99 art. 54: 5 anos. (E) Falso — exceções em CF 5º XXXIII e LX (segurança e intimidade).'
+  },
+  {
+    id: 172, topic: 2, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os atos administrativos:',
+    alternatives: [
+      'Os atos administrativos têm presunção ABSOLUTA de legitimidade, não admitindo prova em contrário.',
+      'A imperatividade é atributo presente em TODOS os atos administrativos.',
+      'Os requisitos COMPETÊNCIA, FINALIDADE e FORMA são sempre vinculados; MOTIVO e OBJETO podem ser discricionários.',
+      'O Judiciário pode tanto anular quanto revogar atos administrativos em caso de inconveniência ou ilegalidade.',
+      'A convalidação (Lei 9.784/99 art. 55) é cabível para vícios de motivo e objeto.'
+    ],
+    correct: 'C',
+    explanation: 'Doutrina clássica do ato administrativo. (A) Falso — presunção é RELATIVA. (B) Falso — atos enunciativos (atestado, certidão) e negociais não têm imperatividade. (D) Falso — Judiciário NÃO pode revogar; só anular. (E) Falso — convalidação só de FORMA e COMPETÊNCIA (não de matéria privativa).'
+  },
+
+  // === Questões Rodada 8 — Adm 3-8 ===
+  {
+    id: 173, topic: 3, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os poderes administrativos e o poder de polícia:',
+    alternatives: [
+      'O poder de polícia, em todos os seus 4 ciclos (ordem, consentimento, fiscalização e sanção), é INDELEGÁVEL a entidades privadas, conforme entendimento pacífico do STF.',
+      'O STF, no Tema 532 (RE 633.782, 2020), firmou entendimento de que os ciclos de CONSENTIMENTO e FISCALIZAÇÃO podem ser delegados a entidades de direito privado, mantendo-se INDELEGÁVEIS o poder originário (ordem) e o sancionatório.',
+      'A discricionariedade administrativa é sinônimo de arbitrariedade, permitindo ao agente escolher a solução que melhor lhe convier, sem limites.',
+      'O excesso de poder caracteriza-se pelo desvio de finalidade da atuação administrativa.',
+      'O poder regulamentar do Executivo permite a inovação primária no ordenamento jurídico, ainda que sem lei autorizativa.'
+    ],
+    correct: 'B',
+    explanation: 'STF Tema 532 (RE 633.782, 2020). (A) Falso — só ordem e sanção indelegáveis. (C) Falso — discricionariedade ≠ arbitrariedade (limites: razoabilidade, proporcionalidade). (D) Falso — excesso = vício de COMPETÊNCIA; desvio = vício de FINALIDADE. (E) Falso — decreto regulamentar NÃO inova; apenas detalha lei.'
+  },
+  {
+    id: 174, topic: 4, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os servidores públicos:',
+    alternatives: [
+      'A estabilidade é adquirida após 3 anos de exercício em qualquer cargo, inclusive em comissão, conforme o art. 41 da CF/88.',
+      'A acumulação de cargos públicos é vedada em regra, admitindo, como exceções com compatibilidade de horários: 2 cargos de professor; 1 cargo de professor + 1 técnico/científico; 2 cargos privativos de profissionais da saúde regulamentados.',
+      'A reforma da previdência (EC 103/19) fixou a aposentadoria voluntária aos 60 anos para o homem e 55 anos para a mulher, sem exigência de contribuição mínima.',
+      'A imprescritibilidade do ressarcimento ao erário (CF 37 §5º) abrange todas as sanções aplicáveis ao agente público, incluindo a perda da função e suspensão de direitos políticos.',
+      'A SV 43 do STF admite a transposição de servidor para cargo de carreira diversa, desde que mediante avaliação de desempenho.'
+    ],
+    correct: 'B',
+    explanation: 'CF 37 XVI. (A) Falso — estabilidade só em CARGO EFETIVO (não comissão). (C) Falso — EC 103/19: 65/62 anos. (D) Falso — imprescritibilidade SÓ do ressarcimento (STF Tema 897). (E) Falso — SV 43 VEDA a transposição.'
+  },
+  {
+    id: 175, topic: 5, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca dos bens públicos:',
+    alternatives: [
+      'Os bens públicos podem ser adquiridos por usucapião, desde que cessada sua afetação por mais de 10 anos.',
+      'Os bens dominicais podem ser alienados, desde que respeitadas as exigências legais, especialmente o procedimento licitatório.',
+      'Os bens de uso comum do povo podem ser objeto de penhora para satisfação de dívidas da Administração.',
+      'A inalienabilidade dos bens públicos é absoluta, mesmo após a desafetação.',
+      'Bens de empresas estatais que exploram atividade econômica são considerados bens públicos para todos os efeitos.'
+    ],
+    correct: 'B',
+    explanation: 'CC 100-101 + Lei 14.133/21. (A) Falso — bens públicos não admitem usucapião (Súm. 340 STF, CF 183 §3º). (C) Falso — impenhorabilidade absoluta; pagamento por precatório. (D) Falso — inalienabilidade é RELATIVA (dominicais alienáveis). (E) Falso — empresas econômicas têm bens privados, salvo afetados ao serviço público.'
+  },
+  {
+    id: 176, topic: 6, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a Lei 14.133/21 (Nova Lei de Licitações e Contratos):',
+    alternatives: [
+      'A nova lei manteve as 6 modalidades licitatórias da Lei 8.666/93 e acrescentou o pregão, totalizando 7 modalidades.',
+      'A Lei 14.133/21 manteve a Tomada de Preços e o Convite, modificando apenas seus limites de valor.',
+      'A Lei 14.133/21 substituiu integralmente a Lei 8.666/93, a Lei do Pregão (10.520/02) e o RDC; instituiu 5 modalidades (PREGÃO · CONCORRÊNCIA · CONCURSO · LEILÃO · DIÁLOGO COMPETITIVO) e EXTINGUIU a Tomada de Preços e o Convite.',
+      'A modalidade pregão pode ser utilizada apenas para contratos abaixo de R$ 100.000, conforme regra geral de valor.',
+      'A modalidade Concurso destina-se à alienação de bens móveis, em substituição ao Leilão.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 14.133/21 art. 28. (A) Falso — 5 modalidades, não 7. (B) Falso — extinta TP e Convite. (D) Falso — pregão para qualquer valor (bens e serviços comuns). (E) Falso — Concurso é para escolha de trabalho técnico/científico/artístico; Leilão para alienação.'
+  },
+  {
+    id: 177, topic: 7, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre serviços públicos e PPPs:',
+    alternatives: [
+      'A concessão e a permissão são atos unilaterais discricionários da Administração; a autorização é contrato administrativo formal.',
+      'A continuidade do serviço público é princípio absoluto, não admitindo qualquer hipótese de suspensão.',
+      'A PPP-Patrocinada combina tarifa do usuário com contraprestação do Poder Público; a PPP-Administrativa prevê contraprestação INTEGRAL do Poder Público (usuário não paga). Valor mínimo: R$ 10 milhões. Prazo: 5 a 35 anos.',
+      'As agências reguladoras são autarquias comuns, sem qualquer regime especial de autonomia.',
+      'A Lei 13.460/17 (Lei do Usuário do Serviço Público) revogou completamente o CDC quanto aos serviços públicos.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 11.079/04. (A) Falso — concessão/permissão são CONTRATOS; autorização é ato unilateral. (B) Falso — admite suspensão por inadimplência (Súm. 339 STJ). (D) Falso — autarquias em regime ESPECIAL (Lei 13.848/19). (E) Falso — Lei 13.460/17 cumula com CDC, não revoga.'
+  },
+  {
+    id: 178, topic: 8, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a responsabilidade civil do Estado (CF 37 §6º):',
+    alternatives: [
+      'A responsabilidade civil do Estado é, em regra, SUBJETIVA, exigindo prova de dolo ou culpa do agente.',
+      'A teoria do risco INTEGRAL é a regra geral, não admitindo qualquer espécie de excludente de responsabilidade.',
+      'A responsabilidade civil do Estado é OBJETIVA (CF 37 §6º), adotando-se a teoria do RISCO ADMINISTRATIVO (admite excludentes: caso fortuito, força maior, culpa exclusiva da vítima); o STF (Tema 940, RE 1.027.633, 2019) firmou que a vítima deve ajuizar ação CONTRA O ESTADO, não contra o agente.',
+      'Empresas públicas que exploram atividade econômica respondem objetivamente pelos danos causados, conforme CF 37 §6º.',
+      'A prescrição da pretensão indenizatória contra a Administração é de 3 anos, conforme regra geral do CC.'
+    ],
+    correct: 'C',
+    explanation: 'CF 37 §6º + STF Tema 940. (A) Falso — OBJETIVA. (B) Falso — risco ADMINISTRATIVO (admite excludentes); INTEGRAL é exceção. (D) Falso — apenas prestadoras de serviço público (não atividade econômica). (E) Falso — 5 anos (Decreto 20.910/32, Súm. 647 STJ).'
+  },
+
+  // === Questões Rodada 9 — Adm 9-12 + Penal 1-2 ===
+  {
+    id: 179, topic: 9, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o aspecto processual da ação de improbidade administrativa:',
+    alternatives: [
+      'A Administração Pública pode aplicar diretamente as sanções da LIA, mediante PAD com ampla defesa.',
+      'A sentença penal absolutória sempre afasta a improbidade administrativa, em razão da independência das esferas.',
+      'A indisponibilidade dos bens (LIA art. 16) é cautelar típica e pode ser requerida desde o IC, mediante demonstração de fundamentação.',
+      'O ANPC (Acordo de Não Persecução Cível) só pode ser celebrado após o trânsito em julgado da sentença condenatória.',
+      'A pretensão de ressarcimento ao erário decorrente de improbidade prescreve em 8 anos da prática do ato.'
+    ],
+    correct: 'C',
+    explanation: 'LIA art. 16. (A) Falso — sanções são impostas pelo JUDICIÁRIO. (B) Falso — independência apenas relativa (CPP 386 I e IV: negativa de autoria/inexistência do fato impactam). (D) Falso — ANPC pode ser em qualquer fase. (E) Falso — STF Tema 897: ressarcimento é IMPRESCRITÍVEL.'
+  },
+  {
+    id: 180, topic: 10, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o controle da Administração Pública:',
+    alternatives: [
+      'O TCU integra o Poder Judiciário, exercendo o controle externo da Administração.',
+      'O Judiciário pode revogar atos administrativos por inconveniência, desde que respeitada a separação de poderes.',
+      'O TCU é órgão AUXILIAR do Congresso Nacional (CF 71); a SV 3 do STF assegura contraditório nos PADs do TCU, salvo na apreciação inicial de aposentadoria, reforma ou pensão.',
+      'A Lei de Acesso à Informação (Lei 12.527/11) prevê apenas a transparência ATIVA, não a passiva.',
+      'A autotutela administrativa permite à Administração rever atos por inconveniência somente após autorização judicial.'
+    ],
+    correct: 'C',
+    explanation: 'CF 71 + SV 3 STF. (A) Falso — TCU auxilia o Legislativo. (B) Falso — Judiciário NÃO revoga, só anula. (D) Falso — LAI prevê transparência ATIVA + PASSIVA. (E) Falso — autotutela é direta, sem necessidade de autorização judicial.'
+  },
+  {
+    id: 181, topic: 11, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca da intervenção do Estado na propriedade:',
+    alternatives: [
+      'A desapropriação ordinária (CF 5º XXIV) é paga em títulos da dívida pública, à exceção da reforma agrária, paga em dinheiro.',
+      'O confisco de áreas onde se cultivam plantas psicotrópicas (CF 243) é pago com indenização ao proprietário, em dinheiro.',
+      'A propriedade rural produtiva é insuscetível de desapropriação para fins de reforma agrária (CF 185 II); a desapropriação por reforma agrária é paga em TÍTULOS da dívida agrária; já a desapropriação ordinária é paga em DINHEIRO.',
+      'A requisição administrativa exige indenização prévia em todos os casos.',
+      'A limitação administrativa, por ser geral, sempre enseja indenização ao proprietário.'
+    ],
+    correct: 'C',
+    explanation: 'CF 184-185 + 5º XXIV. (A) Falso — ordinária é em dinheiro; reforma agrária em títulos. (B) Falso — confisco é SEM indenização. (D) Falso — requisição é cautelar, indenização ulterior se houver dano. (E) Falso — limitação administrativa, em regra, NÃO indeniza (afetação genérica).'
+  },
+  {
+    id: 182, topic: 12, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a LGPD aplicada à Administração Pública e a LINDB pública:',
+    alternatives: [
+      'A LGPD não se aplica à Administração Pública direta, em razão da supremacia do interesse público.',
+      'O art. 28 da LINDB (Lei 13.655/18) responsabiliza o agente público por DOLO ou ERRO GROSSEIRO, não por mero erro de avaliação técnica plausível, em decisão tomada em ambiente de complexidade.',
+      'O consentimento do titular é base legal exclusiva para o tratamento de dados pessoais pela Administração.',
+      'A LINDB consagra o princípio da imutabilidade da interpretação jurídica, vedando qualquer alteração de orientação.',
+      'A ANPD (Autoridade Nacional de Proteção de Dados) integra o Poder Judiciário.'
+    ],
+    correct: 'B',
+    explanation: 'LINDB art. 28 (Lei 13.655/18). (A) Falso — LGPD aplica-se à Adm. (arts. 23-30). (C) Falso — Adm. tem outras bases legais (atendimento da finalidade pública, sem consentimento). (D) Falso — LINDB art. 23 prevê regime de transição em mudanças de orientação. (E) Falso — ANPD vinculada ao Min. da Justiça (regime especial — Lei 13.853/19).'
+  },
+  {
+    id: 183, topic: 1, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios do Direito Penal:',
+    alternatives: [
+      'O princípio da legalidade exige que crime e pena sejam definidos por lei, sendo ALÉM dispensável que a lei seja anterior ao fato.',
+      'A retroatividade da lei penal pode ocorrer tanto para beneficiar quanto para prejudicar o réu, conforme determinação legal.',
+      'O princípio da insignificância (STF — HC 84.412) requer 4 vetores cumulativos: mínima ofensividade · ausência de periculosidade social · reduzido grau de reprovabilidade · inexpressividade da lesão jurídica; é afastado em casos de reincidência ou habitualidade.',
+      'No Direito Penal vigora a responsabilidade objetiva, dispensando a comprovação de culpa.',
+      'A intervenção mínima é princípio que prescreve a maximização do uso do Direito Penal em todas as situações de conflito.'
+    ],
+    correct: 'C',
+    explanation: 'STF HC 84.412 (2004). (A) Falso — legalidade exige lei ANTERIOR ao fato (CF 5º XXXIX, CP 1º). (B) Falso — só BENEFICIA o réu (CF 5º XL). (D) Falso — não há responsabilidade objetiva no Penal (princípio da culpabilidade). (E) Falso — intervenção mínima = ULTIMA RATIO (uso restrito, não maximização).'
+  },
+  {
+    id: 184, topic: 2, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a aplicação da lei penal:',
+    alternatives: [
+      'O tempo do crime adota a teoria do RESULTADO (CP art. 4º), considerando-se praticado o crime no momento em que se produz o efeito.',
+      'O lugar do crime adota a teoria da ATIVIDADE (CP art. 6º), considerando-se praticado o crime onde ocorre a ação.',
+      'O tempo do crime adota a teoria da ATIVIDADE (CP art. 4º — momento da ação/omissão); o lugar do crime adota a teoria da UBIQUIDADE (CP art. 6º — lugar da ação OU do resultado).',
+      'A combinação de leis (combinatio legis) é admitida pelo STF, permitindo escolher partes mais benéficas de leis distintas.',
+      'A lei penal intermediária não pode ser aplicada, sendo vedada a aplicação retroativa em qualquer hipótese.'
+    ],
+    correct: 'C',
+    explanation: 'CP arts. 4º e 6º. (A) Falso — atividade (não resultado). (B) Falso — ubiquidade (não atividade). (D) Falso — STF VEDA combinatio legis (RE 596.152, 2011). (E) Falso — lei intermediária aplicável se mais benéfica (lex mitior).'
+  },
+
+  // === Questões Rodada 10 — Penal 3-8 ===
+  {
+    id: 185, topic: 3, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a teoria do crime e o fato típico:',
+    alternatives: [
+      'O conceito analítico de crime, conforme o finalismo (Welzel), é BIPARTITE — fato típico e antijurídico.',
+      'O dolo eventual ocorre quando o agente prevê o resultado mas confia em sua não ocorrência.',
+      'A tipicidade conglobante (Zaffaroni) exige a análise da antinormatividade no contexto do ordenamento jurídico, excluindo a tipicidade quando o fato, embora aparentemente típico, é determinado ou autorizado por outra norma.',
+      'O erro de tipo essencial NÃO afeta o dolo e admite punição plena.',
+      'O nexo causal no Direito Penal brasileiro é regido exclusivamente pela teoria da equivalência das condições, sem qualquer correção.'
+    ],
+    correct: 'C',
+    explanation: 'Doutrina de Zaffaroni. (A) Falso — TRIPARTITE (fato típico + antijurídico + culpável). (B) Falso — culpa consciente (não dolo eventual). (D) Falso — erro de tipo essencial EXCLUI o dolo. (E) Falso — corrigida pela imputação objetiva (Roxin).'
+  },
+  {
+    id: 186, topic: 4, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as excludentes de antijuridicidade (CP art. 23):',
+    alternatives: [
+      'O Brasil adota a teoria DIFERENCIADA do estado de necessidade, admitindo o sacrifício de bem maior em prol de bem menor.',
+      'A legítima defesa exige agressão JUSTA, atual ou iminente, e meios necessários.',
+      'O excesso na excludente, doloso ou culposo, descaracteriza a justificação, e o agente responde pelo excesso (CP 23 § único).',
+      'O consentimento do ofendido é causa expressa de justificação no CP, não havendo causas supralegais.',
+      'O Pacote Anticrime (Lei 13.964/19) revogou a legítima defesa para agentes de segurança pública.'
+    ],
+    correct: 'C',
+    explanation: 'CP 23 § único. (A) Falso — Brasil adota teoria UNITÁRIA (bem sacrificado deve ser menor ou igual). (B) Falso — agressão INJUSTA. (D) Falso — consentimento é supralegal. (E) Falso — Pacote Anticrime AMPLIOU a LD para segurança pública.'
+  },
+  {
+    id: 187, topic: 5, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a culpabilidade:',
+    alternatives: [
+      'A embriaguez voluntária ou culposa exclui a imputabilidade, conforme regra geral do CP art. 28.',
+      'O erro de tipo (CP art. 20) é equivalente ao erro de proibição (CP art. 21), ambos excluindo o dolo.',
+      'A culpabilidade, na teoria normativa pura adotada pelo finalismo, possui três elementos: imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.',
+      'A coação física irresistível exclui a culpabilidade, e não a conduta.',
+      'O menor de 18 anos, autor de ato infracional grave, é imputável conforme regra geral.'
+    ],
+    correct: 'C',
+    explanation: 'Teoria normativa pura (Welzel). (A) Falso — embriaguez voluntária/culposa NÃO exclui (CP 28 II — actio libera in causa). (B) Falso — tipo exclui DOLO; proibição exclui CULPABILIDADE. (D) Falso — coação física irresistível exclui CONDUTA (não chega à culpabilidade). (E) Falso — menor de 18 é INIMPUTÁVEL (CF 228).'
+  },
+  {
+    id: 188, topic: 6, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca do iter criminis e da tentativa:',
+    alternatives: [
+      'Os atos preparatórios são, em regra, puníveis no Direito Penal brasileiro.',
+      'A tentativa é punida com a mesma pena do crime consumado.',
+      'A desistência voluntária e o arrependimento eficaz (CP 15) afastam a tentativa, respondendo o agente apenas pelos atos já praticados, se constituírem crime autônomo.',
+      'O arrependimento posterior (CP 16) aplica-se a todos os crimes, inclusive os com violência ou grave ameaça.',
+      'O crime impossível (CP 17) gera responsabilidade penal por tentativa imprópria.'
+    ],
+    correct: 'C',
+    explanation: 'CP 15 (ponte de ouro). (A) Falso — atos preparatórios em regra NÃO são puníveis. (B) Falso — pena REDUZIDA de 1/3 a 2/3 (CP 14 § único). (D) Falso — só crimes SEM violência ou grave ameaça. (E) Falso — crime impossível NÃO gera responsabilidade.'
+  },
+  {
+    id: 189, topic: 7, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o concurso de pessoas e crimes:',
+    alternatives: [
+      'O CP brasileiro adota, como regra, a teoria PLURALISTA do concurso de pessoas, segundo a qual cada concorrente responde por crime distinto.',
+      'No concurso material (CP 69), as penas são EXASPERADAS (acrescidas de fração), e não somadas.',
+      'O CP brasileiro adota a teoria MONISTA (CP 29) — quem concorre para o crime incide nas penas a este cominadas, na medida da culpabilidade individual; o concurso material (CP 69) determina a SOMA das penas, enquanto o concurso formal (CP 70) determina exasperação de 1/6 a 1/2.',
+      'O crime continuado (CP 71) só se aplica a crimes contra o mesmo bem jurídico e contra a mesma vítima.',
+      'A cooperação dolosamente distinta (CP 29 §2º) responsabiliza o partícipe pelo crime mais grave, ainda que tenha querido o menos grave.'
+    ],
+    correct: 'C',
+    explanation: 'CP 29, 69, 70, 71. (A) Falso — Brasil adota MONISTA. (B) Falso — material é SOMA. (D) Falso — continuado pode ser entre vítimas diferentes (formal específico — § único). (E) Falso — quem quis menos responde pelo MENOS grave (CP 29 §2º).'
+  },
+  {
+    id: 190, topic: 8, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca das penas e dosimetria:',
+    alternatives: [
+      'O CP adota o método BIFÁSICO de aplicação da pena, considerando apenas a pena-base e as circunstâncias legais.',
+      'A reclusão admite os regimes fechado, semiaberto e aberto; a detenção admite os mesmos regimes.',
+      'O Código Penal adota o método TRIFÁSICO (CP art. 68) — pena-base (com base nas 8 circunstâncias do art. 59), circunstâncias legais (agravantes e atenuantes) e causas de aumento e diminuição; o Pacote Anticrime (Lei 13.964/19) reescreveu as frações da progressão de regime na LEP art. 112.',
+      'O sursis cabe em pena privativa de liberdade não superior a 4 anos, com período de prova de 5 anos.',
+      'O livramento condicional para crimes hediondos é admitido com 1/3 de cumprimento da pena.'
+    ],
+    correct: 'C',
+    explanation: 'CP art. 68 + Lei 13.964/19. (A) Falso — método TRIFÁSICO. (B) Falso — detenção NÃO admite fechado (só semiaberto e aberto). (D) Falso — sursis: pena ≤ 2 anos, prova 2-4 anos. (E) Falso — hediondo: 2/3 (primário); reincidente em hediondo: vedado.'
+  },
+
+  // === Questões Rodada 11 — Penal 9-14 ===
+  {
+    id: 191, topic: 9, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as medidas de segurança e a ação penal:',
+    alternatives: [
+      'A medida de segurança não tem prazo máximo, podendo se prolongar enquanto persistir a periculosidade.',
+      'A STJ Súm. 527 fixa que o tempo de duração da medida de segurança NÃO deve ultrapassar o LIMITE MÁXIMO da pena abstratamente cominada ao delito praticado.',
+      'A ação penal pública incondicionada depende de representação da vítima.',
+      'A ação penal privada subsidiária da pública (CF 5º LIX) cabe a qualquer cidadão.',
+      'O prazo decadencial em ação penal privada é de 3 meses, contados da ciência da autoria.'
+    ],
+    correct: 'B',
+    explanation: 'STJ Súm. 527. (A) Falso — Súm. 527 fixou prazo. (C) Falso — incondicionada NÃO depende de representação. (D) Falso — subsidiária só cabe à VÍTIMA ou representante (não qualquer cidadão). (E) Falso — 6 meses (CP 103).'
+  },
+  {
+    id: 192, topic: 10, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os crimes contra a pessoa:',
+    alternatives: [
+      'O feminicídio constitui tipo penal autônomo, com pena de 12 a 30 anos.',
+      'A injúria racial, após a Lei 14.532/23, foi REENQUADRADA como CRIME DE RACISMO (Lei 7.716/89), passando a ser IMPRESCRITÍVEL E INAFIANÇÁVEL (CF 5º XLII).',
+      'O aborto sentimental e o necessário (CP 128) exigem autorização judicial prévia para sua realização.',
+      'O stalking (perseguição reiterada) foi descriminalizado pelo Pacote Anticrime.',
+      'Os crimes de homicídio são julgados pela Justiça Federal.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 14.532/23 + CF 5º XLII. (A) Falso — feminicídio é QUALIFICADORA, não tipo autônomo. (C) Falso — não exige autorização judicial (necessário e sentimental). (D) Falso — Lei 14.132/21 INSERIU stalking (CP 147-A). (E) Falso — homicídio é da Justiça Comum, com competência do Júri (CF 5º XXXVIII d).'
+  },
+  {
+    id: 193, topic: 11, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca dos crimes contra o patrimônio:',
+    alternatives: [
+      'O latrocínio, por envolver morte, é da competência do Tribunal do Júri.',
+      'A imunidade penal absoluta (CP 181) aplica-se aos crimes contra o patrimônio do cônjuge na constância do casamento, mesmo se a vítima for idosa.',
+      'O latrocínio (CP 157 §3º II) é crime contra o PATRIMÔNIO e é da competência da Justiça COMUM (não Júri — Súm. 603 STF); o estelionato, após o Pacote Anticrime (CP 171 §5º), passou a ser AÇÃO PENAL PÚBLICA CONDICIONADA À REPRESENTAÇÃO.',
+      'O furto privilegiado (CP 155 §2º) exige PRIMARIEDADE do agente e GRAVE valor da coisa subtraída.',
+      'A receptação (CP 180) é crime acessório que exige condenação prévia pelo crime antecedente.'
+    ],
+    correct: 'C',
+    explanation: 'STF Súm. 603 + Lei 13.964/19 (CP 171 §5º). (A) Falso — Súm. 603: Justiça Comum. (B) Falso — CP 183 III: imunidade NÃO se aplica contra idoso. (D) Falso — privilegiado exige PEQUENO valor. (E) Falso — receptação é autônoma, não exige condenação prévia.'
+  },
+  {
+    id: 194, topic: 12, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os crimes contra a Administração Pública:',
+    alternatives: [
+      'O conceito de funcionário público para fins penais (CP 327) restringe-se aos servidores estatutários efetivos.',
+      'O crime de PECULATO (CP 312) é cometido por particular que se apropria de bem público.',
+      'A CONCUSSÃO (CP 316) caracteriza-se pelo SOLICITAR vantagem indevida, distinta da corrupção passiva, que se caracteriza pelo EXIGIR.',
+      'Considera-se funcionário público, para efeitos penais (CP 327), quem exerce CARGO, EMPREGO ou FUNÇÃO pública, ainda que transitoriamente ou sem remuneração — extensão amplíssima; a corrupção passiva (CP 317) caracteriza-se por SOLICITAR ou RECEBER vantagem indevida em razão da função.',
+      'A Lei Anticorrupção (12.846/13) atribui responsabilidade penal a pessoas jurídicas por atos contra a Adm. Pública.'
+    ],
+    correct: 'D',
+    explanation: 'CP 327 + 317. (A) Falso — conceito amplíssimo. (B) Falso — peculato é crime FUNCIONAL (autor é o funcionário). (C) Falso — concussão = EXIGIR; corrupção passiva = SOLICITAR/RECEBER. (E) Falso — Lei 12.846 atribui responsabilidade ADMINISTRATIVA e CIVIL (não penal) à PJ.'
+  },
+  {
+    id: 195, topic: 13, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a legislação penal especial:',
+    alternatives: [
+      'O tráfico privilegiado (Lei 11.343/06 art. 33 §4º) constitui crime EQUIPARADO A HEDIONDO, segundo o STF.',
+      'A Organização Criminosa (Lei 12.850/13) requer no mínimo 3 pessoas para sua configuração.',
+      'A Lei Maria da Penha (11.340/06) admite a aplicação dos Juizados Especiais Criminais aos crimes praticados em contexto de violência doméstica.',
+      'O tráfico privilegiado de drogas (art. 33 §4º) NÃO é equiparado a hediondo, conforme entendimento do STF (HC 118.533, 2016); a Organização Criminosa (Lei 12.850/13) exige 4+ pessoas estruturalmente ordenadas; a Lei Maria da Penha VEDA aplicação do JECrim.',
+      'O Pacote Anticrime (Lei 13.964/19) extinguiu o tráfico privilegiado, unificando a pena base do tráfico.'
+    ],
+    correct: 'D',
+    explanation: 'STF HC 118.533 + Lei 12.850/13 art. 1º §1º + Lei 11.340/06 art. 41. (A) Falso — STF: NÃO equiparado. (B) Falso — Lei 12.850: 4+ pessoas. (C) Falso — Maria da Penha VEDA JECrim (art. 41). (E) Falso — privilegiado NÃO foi extinto.'
+  },
+  {
+    id: 196, topic: 14, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Criminologia:',
+    alternatives: [
+      'A Escola Clássica (Beccaria) entende o crime como produto do determinismo biológico do agente.',
+      'A Escola Positiva (Lombroso, Ferri, Garofalo) defende o livre-arbítrio absoluto do criminoso.',
+      'A prevenção PRIMÁRIA atua sobre as causas estruturais do crime (educação, emprego, moradia); a SECUNDÁRIA sobre grupos de risco; a TERCIÁRIA sobre quem já delinquiu (ressocialização).',
+      'O Brasil adota teoria PURAMENTE retributiva da pena, sem incluir prevenção.',
+      'A Criminologia Crítica (Baratta) defende o aumento das penas para combater o crime.'
+    ],
+    correct: 'C',
+    explanation: 'Doutrina criminológica clássica. (A) Falso — Clássica = livre-arbítrio. (B) Falso — Positiva = determinismo. (D) Falso — Brasil adota teoria MISTA (retribuição + prevenção). (E) Falso — Criminologia crítica defende DIREITO PENAL MÍNIMO, não aumento de penas.'
+  },
+
+  // === Questões Rodada 12 — PP 1-6 ===
+  {
+    id: 197, topic: 1, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios e o sistema processual penal:',
+    alternatives: [
+      'O Brasil adota o sistema INQUISITÓRIO, em que o mesmo órgão investiga, acusa e julga.',
+      'O Pacote Anticrime (Lei 13.964/19) consolidou o SISTEMA ACUSATÓRIO no Brasil (CPP art. 3º-A), com separação clara entre acusação, defesa e julgamento.',
+      'A lei processual penal segue a regra da irretroatividade absoluta, conforme aplicação analógica do CF 5º XL.',
+      'A presunção de inocência (CF 5º LVII) impede a aplicação de medidas cautelares, ainda que fundamentadas.',
+      'O princípio do juiz natural permite a designação ad hoc de magistrado para julgamento de caso específico.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 13.964/19 (CPP 3º-A). (A) Falso — Brasil adota acusatório. (C) Falso — lei processual aplica-se IMEDIATAMENTE (CPP 2º — tempus regit actum). (D) Falso — presunção de inocência não impede cautelares fundamentadas. (E) Falso — juiz natural VEDA designação ad hoc.'
+  },
+  {
+    id: 198, topic: 2, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do inquérito policial e da investigação criminal:',
+    alternatives: [
+      'O inquérito policial é procedimento JUDICIAL, presidido por juiz, com observância plena do contraditório e ampla defesa.',
+      'O ANPP (Acordo de Não Persecução Penal — CPP 28-A, Pacote Anticrime) cabe em crimes COM violência ou grave ameaça, desde que pena máxima não superior a 4 anos.',
+      'O Ministério Público NÃO pode realizar investigação criminal direta, em razão da privatividade da polícia judiciária.',
+      'O inquérito policial é INQUISITORIAL (sem contraditório nem ampla defesa); o ANPP cabe em crimes SEM violência, com pena MÍNIMA INFERIOR a 4 anos, mediante CONFISSÃO do réu; STF (RE 593.727/Tema 184, 2015) reconhece o poder investigatório direto do MP (PIC).',
+      'A cadeia de custódia (CPP 158-A — Pacote Anticrime) aplica-se exclusivamente à prova testemunhal.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 4º + CPP 28-A + STF Tema 184. (A) Falso — IP é administrativo, inquisitorial. (B) Falso — ANPP: SEM violência, pena MÍNIMA inferior a 4. (C) Falso — STF Tema 184: MP investiga (PIC). (E) Falso — cadeia de custódia é da prova MATERIAL.'
+  },
+  {
+    id: 199, topic: 3, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a ação penal:',
+    alternatives: [
+      'A denúncia, na ação pública, deve ser ofertada por qualquer cidadão, conforme princípio da subsidiariedade.',
+      'A ação penal privada exclusiva é proposta pelo Ministério Público.',
+      'O aditamento que altera a definição jurídica do fato (mutatio libelli — CPP 384) dispensa nova citação do acusado.',
+      'A ação penal pública incondicionada não exige a representação da vítima nem a requisição do Ministro da Justiça, sendo o MP o titular natural; a ação privada subsidiária da pública (CF 5º LIX) compete à vítima ou seu representante quando o MP for omisso.',
+      'Os princípios da intranscendência e indivisibilidade são aplicáveis somente à ação penal privada.'
+    ],
+    correct: 'D',
+    explanation: 'CPP + CF 5º LIX. (A) Falso — denúncia é privativa do MP. (B) Falso — privada exclusiva é proposta pelo querelante (vítima). (C) Falso — mutatio libelli exige nova citação. (E) Falso — princípios aplicam-se a ambas (com nuances).'
+  },
+  {
+    id: 200, topic: 4, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os sujeitos do processo penal:',
+    alternatives: [
+      'O assistente de acusação (CPP 268-273) substitui integralmente o Ministério Público em sua atuação processual.',
+      'A defesa técnica é dispensável quando o réu manifestar expressamente o desejo de se defender pessoalmente.',
+      'O juiz das garantias, criado pelo Pacote Anticrime (CPP art. 3º-B), tem como função atuar na fase de INSTRUÇÃO E JULGAMENTO do processo penal.',
+      'O assistente de acusação é o ofendido (ou seu representante) que ingressa no processo AO LADO do MP — não o substitui; pode atuar em qualquer fase. A defesa técnica é OBRIGATÓRIA. O juiz das garantias atua na fase PRÉ-PROCESSUAL (Pacote Anticrime — CPP 3º-B), com eficácia parcialmente suspensa pelo STF (ADI 6.298, 2023).',
+      'O Ministério Público atua exclusivamente na ação penal privada subsidiária.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 268-273 + CPP 3º-B + STF ADI 6.298. (A) Falso — não substitui. (B) Falso — defesa técnica é obrigatória. (C) Falso — juiz de garantias atua na PRÉ-PROCESSUAL. (E) Falso — MP é titular da ação pública.'
+  },
+  {
+    id: 201, topic: 5, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a competência criminal:',
+    alternatives: [
+      'O lugar do crime, para fins de competência territorial, é definido pela teoria da ATIVIDADE, conforme CPP art. 70.',
+      'O foro por prerrogativa de função, conforme STF (AP 937, 2018), aplica-se a TODOS os crimes praticados pelo agente, independentemente de relação com o cargo.',
+      'A conexão entre processos (CPP 76) leva à reunião dos processos.',
+      'A competência da Justiça Federal abrange crimes contra bens, serviços ou interesses da União (CF 109); o lugar do crime, para o CPP (art. 70), adota a teoria do RESULTADO, distinta da ubiquidade do CP material; o foro por prerrogativa, após STF AP 937 (2018), restringe-se a crimes praticados durante e em razão do cargo.',
+      'A continência (CPP 77) determina o desmembramento dos processos.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 70, 76, 77 + CF 109 + STF AP 937. (A) Falso — CPP adota RESULTADO (atividade é do CP material). (B) Falso — STF AP 937: só durante e em razão. (C) Verdadeiro mas incompleto — D é mais abrangente. (E) Falso — continência leva a REUNIÃO.'
+  },
+  {
+    id: 202, topic: 6, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as provas no processo penal:',
+    alternatives: [
+      'A confissão isolada do acusado é suficiente para a condenação, conforme princípio do livre convencimento.',
+      'As provas obtidas por meios ilícitos são, em regra, ADMISSÍVEIS no processo, salvo quando obtidas com violência.',
+      'A teoria dos frutos da árvore envenenada (CPP art. 157) implica a NULIDADE de todas as provas DERIVADAS de prova ilícita; admite-se exceção em casos de descoberta INEVITÁVEL, fonte INDEPENDENTE ou atenuação do nexo causal.',
+      'A interceptação telefônica pode ser realizada diretamente pela polícia judiciária, sem necessidade de autorização judicial, em situações de urgência.',
+      'A colaboração premiada (Lei 12.850/13) constitui meio de prova autônomo, não dependendo de homologação judicial.'
+    ],
+    correct: 'C',
+    explanation: 'CPP 157 + CF 5º LVI. (A) Falso — confissão isolada NÃO basta (CPP 197). (B) Falso — CF 5º LVI: inadmissíveis. (D) Falso — interceptação EXIGE autorização judicial (Lei 9.296/96 + reserva de jurisdição). (E) Falso — colaboração é MEIO DE OBTENÇÃO de prova; exige homologação judicial.'
+  },
+
+  // === Questões Rodada 13 — PP 7-12 ===
+  {
+    id: 203, topic: 7, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a prisão e medidas cautelares:',
+    alternatives: [
+      'A prisão temporária (Lei 7.960/89) é cabível em qualquer crime, com prazo de 5 dias prorrogáveis sucessivamente.',
+      'A audiência de custódia deve ser realizada em até 72 horas após a prisão, conforme o CPP art. 310.',
+      'A prisão preventiva pressupõe prova da existência do crime e indícios suficientes de autoria; é fundamentada na garantia da ordem pública, ordem econômica, instrução criminal ou aplicação da lei penal (CPP 312); o Pacote Anticrime determinou a REANÁLISE OBRIGATÓRIA da preventiva a cada 90 dias (CPP 316 § único).',
+      'As medidas cautelares diversas (CPP 319) são alternativas que só podem ser aplicadas após decretada e revogada a prisão.',
+      'O monitoramento eletrônico (CPP 319 IX) só é admitido em substituição à pena, não como medida cautelar.'
+    ],
+    correct: 'C',
+    explanation: 'CPP 312 + 316 § único. (A) Falso — temporária tem rol taxativo (Lei 7.960/89 art. 1º III). (B) Falso — 24 horas (CPP 310). (D) Falso — cautelares são alternativas E PODEM ser aplicadas autonomamente. (E) Falso — monitoramento é cautelar do art. 319.'
+  },
+  {
+    id: 204, topic: 8, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os procedimentos no processo penal:',
+    alternatives: [
+      'O procedimento ORDINÁRIO aplica-se a crimes com pena máxima inferior a 4 anos.',
+      'A citação por edital é cabível em qualquer fase, ainda que o réu seja localizado.',
+      'A audiência de instrução, após o Pacote Anticrime, deve ser fragmentada em múltiplas datas, em respeito à instrução amplificada.',
+      'O CPP prevê 3 procedimentos comuns conforme a pena máxima cominada: ORDINÁRIO (≥ 4 anos), SUMÁRIO (< 4 anos) e SUMARÍSSIMO (infrações de menor potencial ofensivo, até 2 anos — Lei 9.099/95).',
+      'A resposta à acusação (CPP 396) é facultativa, podendo o réu apresentar diretamente alegações finais.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 394 + Lei 9.099/95. (A) Falso — ordinário é ≥ 4 anos. (B) Falso — edital é hipótese subsidiária (CPP 361). (C) Falso — Pacote Anticrime estabeleceu AUDIÊNCIA UNA (CPP 400). (E) Falso — resposta à acusação é OBRIGATÓRIA (CPP 396).'
+  },
+  {
+    id: 205, topic: 9, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Tribunal do Júri:',
+    alternatives: [
+      'A competência do Júri abrange todos os crimes contra a vida, dolosos ou culposos.',
+      'O Júri é regido por 4 princípios constitucionais (CF 5º XXXVIII): plenitude da defesa, sigilo das votações, soberania dos veredictos e competência para crimes DOLOSOS contra a vida; o procedimento é BIFÁSICO — judicium accusationis (1ª fase, com pronúncia ou desclassificação) e judicium causae (plenário com 7 jurados).',
+      'A pronúncia exige certeza quanto à autoria, sob pena de nulidade.',
+      'O Conselho de Sentença é composto por 5 jurados sorteados.',
+      'O latrocínio é da competência do Júri, em razão da morte da vítima.'
+    ],
+    correct: 'B',
+    explanation: 'CF 5º XXXVIII + CPP 406-497. (A) Falso — só DOLOSOS. (C) Falso — pronúncia exige apenas INDÍCIOS de autoria + materialidade. (D) Falso — 7 jurados. (E) Falso — Súm. 603 STF: latrocínio é da Justiça Comum.'
+  },
+  {
+    id: 206, topic: 10, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre sentença, recursos e ações de impugnação:',
+    alternatives: [
+      'A revisão criminal (CPP 621-631) pode ser proposta tanto pelo réu quanto pelo MP, em qualquer fase do processo.',
+      'O princípio da non reformatio in pejus permite que o tribunal piore a situação do réu em recurso da defesa, desde que motivadamente.',
+      'O habeas corpus tem cabimento contra ato ilegal ou abuso de poder que ameace a liberdade de locomoção, sendo gratuito e dispensando assistência de advogado para sua impetração.',
+      'O recurso em sentido estrito (RESE) é cabível contra sentença final condenatória.',
+      'A apelação tem efeito SUSPENSIVO automático em todas as hipóteses, impedindo a execução imediata.'
+    ],
+    correct: 'C',
+    explanation: 'CF 5º LXVIII + CPP 647. (A) Falso — revisão criminal é SOMENTE PRO REO, após trânsito. (B) Falso — non reformatio in pejus VEDA agravamento em recurso da defesa (CPP 617). (D) Falso — RESE é contra interlocutórias (CPP 581); apelação contra sentença final. (E) Falso — efeito suspensivo nem sempre automático (depende do caso).'
+  },
+  {
+    id: 207, topic: 11, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a execução penal (LEP — Lei 7.210/84):',
+    alternatives: [
+      'A remição pelo trabalho na execução penal observa a proporção de 1 dia de pena para cada 1 dia trabalhado.',
+      'A prática de falta grave NÃO interrompe o prazo da remição.',
+      'A LEP (Lei 7.210/84) prevê remição: 3 DIAS DE TRABALHO = 1 DIA DE PENA; 12 horas de estudo (em 3 dias) = 1 dia. A SV 56/STF estabelece que falta de vagas em regime adequado autoriza cumprimento DOMICILIAR. O RDD pode chegar a 720 dias renováveis (LEP 52).',
+      'O regime semiaberto admite trabalho externo sem qualquer restrição, desde a sua imposição.',
+      'O livramento condicional, conforme regra geral pós-Pacote Anticrime, pode ser concedido após 1/3 do cumprimento, mesmo em crime hediondo.'
+    ],
+    correct: 'C',
+    explanation: 'LEP 126 + SV 56 STF + LEP 52. (A) Falso — 3:1 (trabalho), não 1:1. (B) Falso — Súm. 562 STJ: falta grave INTERROMPE. (D) Falso — trabalho externo no semiaberto exige condições. (E) Falso — hediondo: 2/3.'
+  },
+  {
+    id: 208, topic: 12, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca das leis penais especiais com aspectos processuais próprios:',
+    alternatives: [
+      'A Lei Maria da Penha (11.340/06) admite a aplicação dos institutos do JECrim (transação, sursis processual) aos crimes praticados em contexto de violência doméstica.',
+      'O JECrim aplica-se a crimes com pena máxima até 4 anos.',
+      'A Lei Maria da Penha (Lei 11.340/06 art. 41) VEDA a aplicação dos institutos do JECrim (Lei 9.099/95); as medidas protetivas de urgência (arts. 22-24) podem ser deferidas pelo juiz competente; a interceptação telefônica (Lei 9.296/96) requer reserva de jurisdição, crimes punidos com reclusão e prazo de 15 dias prorrogáveis.',
+      'A interceptação telefônica pode ser realizada pela polícia sem autorização judicial em casos de urgência.',
+      'A colaboração premiada (Lei 12.850/13) constitui meio de prova autônomo, dispensando outras corroborações.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 11.340/06 art. 41 + Lei 9.296/96. (A) Falso — JECrim VEDADO. (B) Falso — JECrim: até 2 anos. (D) Falso — reserva de jurisdição. (E) Falso — colaboração é meio de OBTENÇÃO; STJ: condenação NÃO se baseia exclusivamente na colaboração — exige outros elementos (Lei 12.850/13 art. 4º §16).'
+  },
+
+  // === Questões Rodada 14 — Eleitoral 1-6 ===
+  {
+    id: 209, topic: 1, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os direitos políticos:',
+    alternatives: [
+      'A reeleição para o cargo de Presidente da República pode ocorrer por até 3 mandatos consecutivos.',
+      'A inelegibilidade absoluta é prevista para inalistáveis e analfabetos (CF 14 §4º), vedando todos os cargos; as inelegibilidades relativas são previstas para reeleição (§5º), parentesco (§7º) e militares (§8º), entre outras; a Lei da Ficha Limpa (LC 135/10) acrescentou hipóteses, validadas pelo STF (ADC 29 e 30, 2012) com aplicação a fatos anteriores.',
+      'A perda dos direitos políticos pode ocorrer por suspensão temporária ou cassação, conforme a CF/88.',
+      'A improbidade administrativa, embora gere sanções, NÃO suspende direitos políticos.',
+      'O conscrito militar tem direito ao voto, sendo apenas inelegível.'
+    ],
+    correct: 'B',
+    explanation: 'CF 14 §§ 4º-8º + LC 135/10 + STF ADC 29/30. (A) Falso — reeleição UMA VEZ (CF 14 §5º). (C) Falso — CF 15 caput VEDA cassação (apenas perda ou suspensão). (D) Falso — improbidade SUSPENDE direitos (CF 37 §4º). (E) Falso — conscrito é INALISTÁVEL (CF 14 §2º).'
+  },
+  {
+    id: 210, topic: 2, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o sistema eleitoral e a Justiça Eleitoral:',
+    alternatives: [
+      'O Brasil adota exclusivamente o sistema majoritário, em que se elege o candidato com maior número de votos.',
+      'A Justiça Eleitoral possui carreira própria, com juízes eleitorais de carreira e nomeação por concurso público.',
+      'A EC 97/17 vedou as coligações em eleições MAJORITÁRIAS, mantendo-as nas proporcionais.',
+      'O sistema eleitoral brasileiro combina o MAJORITÁRIO (Pres., Gov., Pref. e Senadores) e o PROPORCIONAL (Dep. Federais, Estaduais e Vereadores); a Justiça Eleitoral é COMPOSTA POR ÓRGÃOS EMPRESTADOS, sem carreira própria; a EC 97/17 vedou COLIGAÇÕES EM ELEIÇÕES PROPORCIONAIS, e a Lei 14.208/21 criou as FEDERAÇÕES PARTIDÁRIAS.',
+      'O Tribunal Superior Eleitoral é composto por 11 ministros, todos do STF.'
+    ],
+    correct: 'D',
+    explanation: 'CF 118-121 + EC 97/17 + Lei 14.208/21. (A) Falso — combina majoritário e proporcional. (B) Falso — sem carreira própria (justiça emprestada). (C) Falso — vedou em PROPORCIONAIS. (E) Falso — TSE: 7 ministros (3 STF + 2 STJ + 2 advogados).'
+  },
+  {
+    id: 211, topic: 3, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca dos partidos políticos:',
+    alternatives: [
+      'A fidelidade partidária aplica-se indistintamente a cargos majoritários e proporcionais, conforme entendimento do STF.',
+      'O STF, na ADI 5.081 (2015), firmou que a FIDELIDADE PARTIDÁRIA NÃO se aplica a cargos MAJORITÁRIOS (PR, Gov., Pref., Sen.); aplica-se a cargos PROPORCIONAIS (Dep., Vereadores), com exceções como mudança programática do partido ou perseguição.',
+      'A doação de pessoa jurídica para partidos políticos foi permitida pelo STF na ADI 4.650 (2015).',
+      'A cláusula de desempenho (EC 97/17) impede a criação de novos partidos políticos.',
+      'O prazo de filiação partidária mínima para candidatura é de 12 meses antes da eleição.'
+    ],
+    correct: 'B',
+    explanation: 'STF ADI 5.081. (A) Falso — fidelidade não se aplica a majoritários. (C) Falso — STF VEDOU doações de PJ. (D) Falso — apenas restringe acesso a fundo/propaganda gratuita. (E) Falso — 6 meses (Lei 13.488/17).'
+  },
+  {
+    id: 212, topic: 4, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o registro de candidatura e prazos eleitorais:',
+    alternatives: [
+      'O domicílio eleitoral mínimo, segundo a Lei 13.488/17, é de 1 ano antes da eleição.',
+      'A AIRC (Ação de Impugnação ao Registro de Candidatura — LC 64/90 art. 3º) tem prazo de 30 dias após publicação do edital.',
+      'As convenções partidárias devem ocorrer entre 20/07 e 05/08; o registro de candidatura, até 15/08; o domicílio eleitoral mínimo é de 6 MESES (Lei 13.488/17); a AIRC (LC 64/90 art. 3º) tem prazo de 5 DIAS após edital.',
+      'A substituição de candidato em eleições proporcionais pode ocorrer até a véspera do pleito.',
+      'A filiação partidária mínima é dispensável para candidatos avulsos.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 9.504/97 + Lei 13.488/17 + LC 64/90. (A) Falso — 6 meses. (B) Falso — 5 dias. (D) Falso — prazo até 60 dias antes do pleito (proporcionais). (E) Falso — Brasil NÃO admite candidato avulso (filiação obrigatória — STF ARE 1.054.490/2017).'
+  },
+  {
+    id: 213, topic: 5, materia: 'elei', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca do financiamento de campanha e propaganda eleitoral:',
+    alternatives: [
+      'O financiamento de campanhas no Brasil admite doações de pessoas jurídicas, conforme Lei 9.504/97.',
+      'A "boca de urna" é permitida no dia da eleição como forma de panfletagem informativa.',
+      'O STF (ADI 4.650/2015) declarou inconstitucionais as DOAÇÕES de PESSOAS JURÍDICAS a partidos e campanhas; o financiamento se faz por: pessoas físicas (limite 10% rendimentos), recursos próprios do candidato, Fundo Partidário e FEFC; a boca de urna é PROIBIDA no dia da eleição.',
+      'A propaganda paga em redes sociais é permitida a qualquer momento da campanha.',
+      'A AIME (Ação de Impugnação de Mandato Eletivo) deve ser proposta antes do registro da candidatura.'
+    ],
+    correct: 'C',
+    explanation: 'STF ADI 4.650 + Lei 9.504/97. (A) Falso — STF VEDOU. (B) Falso — boca de urna PROIBIDA. (D) Falso — propaganda paga em redes sociais é VEDADA em regra. (E) Falso — AIME é proposta APÓS a diplomação (CF 14 §10).'
+  },
+  {
+    id: 214, topic: 6, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os crimes eleitorais:',
+    alternatives: [
+      'Os crimes eleitorais são da competência da Justiça Federal, conforme CF 109.',
+      'A captação ilícita de sufrágio (Lei 9.504/97 art. 41-A) gera apenas multa, sem cassação.',
+      'Em caso de conexão entre crime comum e crime eleitoral, a competência é, em regra, da Justiça Comum.',
+      'Os crimes eleitorais estão tipificados no Código Eleitoral (Lei 4.737/65, arts. 283-364) e em leis especiais (Lei 9.504/97); a competência é da JUSTIÇA ELEITORAL; o STF (Tema 1.111, RE 1.108.061, 2019) firmou que crime comum CONEXO com eleitoral é da Justiça Eleitoral.',
+      'A boca de urna NÃO constitui crime eleitoral, sendo apenas infração administrativa.'
+    ],
+    correct: 'D',
+    explanation: 'STF Tema 1.111 + Cód. Eleit. (A) Falso — Justiça ELEITORAL (CF 109 IV exclui). (B) Falso — gera CASSAÇÃO + multa. (C) Falso — Justiça Eleitoral atrai. (E) Falso — Cód. Eleit. art. 39 §5º: detenção 6 meses a 1 ano + multa.'
+  },
+
+  // === Questões Rodada 15 — Elei 7-8 + Trib 1-4 ===
+  {
+    id: 215, topic: 7, materia: 'elei', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre as ações eleitorais:',
+    alternatives: [
+      'A AIRC (Ação de Impugnação ao Registro de Candidatura) tem prazo de 30 dias após a publicação do edital de candidaturas.',
+      'A AIME (Ação de Impugnação ao Mandato Eletivo — CF 14 §10) deve ser proposta APÓS a diplomação, em até 15 dias, em SEGREDO DE JUSTIÇA, com fundamento em abuso de poder, corrupção ou fraude; a AIJE (LC 64/90 art. 22) cabe até a diplomação para investigar abuso de poder econômico/político/uso indevido de meios de comunicação.',
+      'O RCED (Recurso Contra Expedição de Diploma) é cabível até a posse do candidato, conforme Código Eleitoral.',
+      'A AIJE só pode ser proposta após a diplomação do candidato.',
+      'A AIME admite proposição por qualquer cidadão, conforme princípio da soberania popular.'
+    ],
+    correct: 'B',
+    explanation: 'CF 14 §10 + LC 64/90. (A) Falso — 5 dias (LC 64/90 art. 3º). (C) Falso — 3 dias após diplomação (Cód. Eleit. art. 262). (D) Falso — AIJE cabe até a diplomação. (E) Falso — AIME tem legitimidade restrita (candidato, partido, MP).'
+  },
+  {
+    id: 216, topic: 8, materia: 'elei', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a jurisprudência eleitoral recente:',
+    alternatives: [
+      'O Brasil admite candidaturas avulsas, sem filiação partidária, conforme entendimento do STF.',
+      'A cota de gênero nas eleições proporcionais é de 50% para cada gênero, conforme Lei 9.504/97.',
+      'A Lei da Ficha Limpa (LC 135/10) foi declarada inconstitucional pelo STF, por violação à presunção de inocência.',
+      'O STF (ARE 1.054.490, 2017) firmou que o Brasil NÃO admite candidaturas avulsas — a filiação partidária é OBRIGATÓRIA; a cota de gênero é de 30% mínimo e 70% máximo de cada gênero (Lei 9.504/97 art. 10 §3º); a Lei da Ficha Limpa foi VALIDADA pelo STF (ADC 29 e 30, 2012), com aplicação a fatos anteriores.',
+      'A fidelidade partidária aplica-se obrigatoriamente a candidatos majoritários, conforme Súmula vinculante do STF.'
+    ],
+    correct: 'D',
+    explanation: 'STF ARE 1.054.490 + ADC 29/30 + Lei 9.504/97 art. 10 §3º. (A) Falso — não admite. (B) Falso — 30% mínimo cada gênero. (C) Falso — STF VALIDOU (ADC 29 e 30). (E) Falso — STF ADI 5.081: NÃO se aplica a majoritários.'
+  },
+  {
+    id: 217, topic: 1, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios constitucionais tributários:',
+    alternatives: [
+      'O princípio da anterioridade (CF 150 III b) exige que a lei tributária seja publicada com antecedência mínima de 90 dias antes de sua vigência.',
+      'A imunidade tributária recíproca (CF 150 VI a) impede que os entes federativos tributem uns aos outros mediante TODOS os tributos.',
+      'A imunidade dos livros (CF 150 VI d) NÃO alcança livros digitais (e-books), conforme entendimento do STF.',
+      'Os princípios constitucionais tributários (CF 150) são CLÁUSULAS PÉTREAS (CF 60 §4º IV — direitos individuais); a anterioridade do EXERCÍCIO (III b) e a NOVENTENA/anterioridade nonagesimal (III c) são distintas e cumulativas; a imunidade recíproca é apenas para IMPOSTOS, não outros tributos.',
+      'O princípio da capacidade contributiva aplica-se a todos os tributos, inclusive taxas e contribuições.'
+    ],
+    correct: 'D',
+    explanation: 'CF 150 + STF jurisprudência. (A) Falso — anterioridade do exercício seguinte (III b). 90 dias é noventena (III c). (B) Falso — imunidade recíproca é apenas para IMPOSTOS. (C) Falso — STF Tema 593: alcança e-books. (E) Falso — CF 145 §1º refere-se a IMPOSTOS pessoais.'
+  },
+  {
+    id: 218, topic: 2, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a competência tributária:',
+    alternatives: [
+      'A competência residual para criar novos impostos é exercida indistintamente por União, Estados e Municípios.',
+      'A bitributação caracteriza-se quando o mesmo ente federativo cria dois tributos sobre o mesmo fato gerador.',
+      'A competência residual (CF 154 I) é EXCLUSIVA da UNIÃO, exigindo: lei complementar, não-cumulatividade, e fato gerador/base de cálculo NOVOS; a BITRIBUTAÇÃO ocorre quando 2 ENTES DIFERENTES tributam o mesmo fato (vedada, em regra); o BIS IN IDEM é o MESMO ENTE tributando 2 vezes o mesmo fato (admissível se sem vedação CF).',
+      'A competência cumulativa pertence à União em todos os territórios federais.',
+      'O DF não acumula competências estadual e municipal.'
+    ],
+    correct: 'C',
+    explanation: 'CF 154 + competências. (A) Falso — só União. (B) Falso — bis in idem (mesmo ente); bitributação (entes diferentes). (D) Falso — competência cumulativa: DF e União nos Territórios. (E) Falso — CF 32 §1º: DF acumula (Estado + Município).'
+  },
+  {
+    id: 219, topic: 3, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as espécies tributárias:',
+    alternatives: [
+      'O empréstimo compulsório é instituído por LEI ORDINÁRIA, em casos de calamidade.',
+      'A taxa é tributo NÃO-VINCULADO a qualquer contraprestação estatal.',
+      'O IGF (Imposto sobre Grandes Fortunas) é da competência dos Estados.',
+      'O STF adota a TEORIA PENTAPARTIDA (5 espécies tributárias): IMPOSTOS · TAXAS · CONTRIBUIÇÕES DE MELHORIA · EMPRÉSTIMOS COMPULSÓRIOS · CONTRIBUIÇÕES ESPECIAIS; o ITCMD é estadual; o ITBI é municipal; o ITR é federal.',
+      'A contribuição de melhoria é tributo cobrado pela mera prestação de serviço público.'
+    ],
+    correct: 'D',
+    explanation: 'STF teoria pentapartida + CF 153, 155, 156. (A) Falso — empréstimo compulsório exige LC (CF 148). (B) Falso — taxa é VINCULADA. (C) Falso — IGF é federal (CF 153 VII). (E) Falso — contribuição de melhoria pressupõe VALORIZAÇÃO IMOBILIÁRIA por obra pública.'
+  },
+  {
+    id: 220, topic: 4, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a obrigação tributária:',
+    alternatives: [
+      'A obrigação tributária acessória pode ser instituída por meio de decreto, dispensando lei.',
+      'O princípio "non olet" (CTN 118) impede a tributação de rendimentos provenientes de atividades ilícitas.',
+      'A solidariedade tributária admite benefício de ordem ao devedor solidário.',
+      'A obrigação tributária PRINCIPAL (pagar tributo ou penalidade) decorre do FATO GERADOR (CTN 114); a ACESSÓRIA é qualquer dever instrumental (declarar, emitir nota); a SOLIDARIEDADE NÃO admite benefício de ordem (CTN 124 § único); o princípio "NON OLET" (CTN 118) determina que ganhos ilícitos SÃO TRIBUTÁVEIS.',
+      'O contribuinte é o sujeito passivo INDIRETO da obrigação tributária.'
+    ],
+    correct: 'D',
+    explanation: 'CTN 114-125. (A) Falso — depende de lei (princípio da legalidade). (B) Falso — non olet TRIBUTA o ilícito. (C) Falso — não admite benefício de ordem. (E) Falso — contribuinte é DIRETO (relação direta com o fato gerador).'
+  },
+
+  // === Questões Rodada 16 — Trib 5-10 (FECHAMENTO 100%) ===
+  {
+    id: 221, topic: 5, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o crédito tributário:',
+    alternatives: [
+      'A decadência do direito de constituir o crédito é de 3 anos, contados do fato gerador, conforme regra geral do CTN.',
+      'A isenção dispensa o tributo e a obrigação acessória, configurando exoneração total.',
+      'A suspensão da exigibilidade do crédito tributário (CTN 151) ocorre por: MORATÓRIA, DEPÓSITO do montante integral, RECLAMAÇÕES e RECURSOS, CONCESSÃO de medida liminar/antecipação e PARCELAMENTO; a DECADÊNCIA (CTN 173, prazo 5 anos) atinge o direito de constituir; a PRESCRIÇÃO (CTN 174, prazo 5 anos) atinge o direito de cobrar.',
+      'A anistia tributária dispensa o tributo, mas não a multa.',
+      'A compensação tributária só pode ocorrer mediante autorização do contribuinte, em qualquer caso.'
+    ],
+    correct: 'C',
+    explanation: 'CTN 151, 173, 174. (A) Falso — decadência tributária é 5 anos. (B) Falso — isenção dispensa só o TRIBUTO (não a obrigação acessória). (D) Falso — anistia dispensa MULTA. (E) Falso — compensação requer LEI (CTN 170).'
+  },
+  {
+    id: 222, topic: 6, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Administração tributária:',
+    alternatives: [
+      'A Certidão de Dívida Ativa (CDA) é título executivo JUDICIAL, exigindo homologação do juízo.',
+      'A inscrição em dívida ativa é ato realizado pelo Poder Judiciário.',
+      'A CND (Certidão Negativa de Débitos) e a CPEN (Certidão Positiva com Efeito de Negativa) são equivalentes em todos os efeitos.',
+      'O sigilo fiscal (CTN 198) é absoluto, não admitindo qualquer compartilhamento.',
+      'A Certidão de Dívida Ativa (CDA) é TÍTULO EXECUTIVO EXTRAJUDICIAL emitido pela Procuradoria, baseado na inscrição em dívida ativa, e constitui base da execução fiscal (Lei 6.830/80); a CPEN (Certidão Positiva com Efeito de Negativa) é emitida quando há suspensão da exigibilidade (parcelamento, depósito, liminar).'
+    ],
+    correct: 'E',
+    explanation: 'CTN 201-205 + Lei 6.830/80. (A) Falso — CDA é EXTRAJUDICIAL. (B) Falso — Procuradoria. (C) Falso — CPEN tem efeitos próprios (não absolutamente equivalentes). (D) Falso — sigilo admite exceções (requisição judicial, intercâmbio).'
+  },
+  {
+    id: 223, topic: 7, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca da execução fiscal e ações antiexacionais:',
+    alternatives: [
+      'A exceção de pré-executividade exige garantia integral do juízo, conforme entendimento STJ.',
+      'A repetição de indébito (CTN 165) não admite a restituição de tributo pago indevidamente, em razão da indisponibilidade do crédito tributário.',
+      'A execução fiscal (Lei 6.830/80) é proposta com base na CDA; a EXCEÇÃO DE PRÉ-EXECUTIVIDADE (Súm. 393 STJ) cabe para matérias de OFÍCIO sem dilação probatória, sem necessidade de garantia; a Súm. 435 STJ permite REDIRECIONAMENTO contra sócios-gerentes em caso de DISSOLUÇÃO IRREGULAR (mudança de endereço sem comunicação).',
+      'O mandado de segurança em matéria tributária é vedado pela jurisprudência do STF.',
+      'A ação anulatória requer prévia garantia do juízo, sob pena de extinção sem julgamento de mérito.'
+    ],
+    correct: 'C',
+    explanation: 'STJ Súm. 393 + Súm. 435 + Lei 6.830/80. (A) Falso — pré-executividade não exige garantia. (B) Falso — CTN 165 admite repetição. (D) Falso — MS é cabível. (E) Falso — anulatória NÃO exige garantia (não é execução).'
+  },
+  {
+    id: 224, topic: 8, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a Reforma Tributária (EC 132/23):',
+    alternatives: [
+      'A EC 132/23 manteve o ICMS, ISS, PIS e COFINS, apenas criando novas alíquotas.',
+      'O IBS é tributo federal, gerido pela Receita Federal.',
+      'A transição da reforma vai de 2024 a 2026, com extinção integral dos tributos antigos em 2026.',
+      'A EC 132/23 substitui ICMS+ISS por IBS (estadual+municipal); PIS+COFINS por CBS (federal); cria o IS (Imposto Seletivo, federal, sobre bens prejudiciais à saúde/meio ambiente); o período de transição vai de 2026 a 2033, quando ICMS/ISS serão extintos; prevê CASHBACK para famílias de baixa renda.',
+      'O IS (Imposto Seletivo) substitui integralmente o IPI desde a promulgação da EC.'
+    ],
+    correct: 'D',
+    explanation: 'EC 132/23 + LC 214/2025. (A) Falso — substitui ICMS, ISS, PIS, COFINS, parte do IPI. (B) Falso — IBS é estadual+municipal (federal é CBS). (C) Falso — transição 2026-2033. (E) Falso — IS substitui parte do IPI, não integralmente.'
+  },
+  {
+    id: 225, topic: 9, materia: 'trib', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Direito Financeiro:',
+    alternatives: [
+      'O orçamento brasileiro é regido por uma única lei: a LDO (Lei de Diretrizes Orçamentárias), anual.',
+      'A LRF (LC 101/00) estabelece o limite de despesa de pessoal de 80% da RCL para todos os entes federativos.',
+      'O orçamento brasileiro tem 3 instrumentos (CF 165): PPA (Plano Plurianual — 4 anos, com diretrizes, objetivos e metas), LDO (Lei de Diretrizes Orçamentárias — anual, prioridades), LOA (Lei Orçamentária Anual — operacional, receitas e despesas); a LRF (LC 101/00) estabelece limites de despesa de pessoal: 50% RCL para União, 60% para Estados e Municípios.',
+      'O princípio da exclusividade orçamentária permite a inclusão de matérias estranhas no orçamento, desde que justificadas.',
+      'A Lei 4.320/64 foi revogada integralmente pela LRF (LC 101/00).'
+    ],
+    correct: 'C',
+    explanation: 'CF 165 + LRF. (A) Falso — 3 instrumentos. (B) Falso — 50% (U), 60% (E/M). (D) Falso — exclusividade VEDA matérias estranhas. (E) Falso — Lei 4.320/64 segue vigente, complementada pela LRF.'
+  },
+  {
+    id: 226, topic: 10, materia: 'trib', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os crimes contra a ordem tributária:',
+    alternatives: [
+      'O crime de sonegação fiscal (Lei 8.137/90 art. 1º) consuma-se com a simples omissão de receitas, dispensando a constituição definitiva do crédito.',
+      'O pagamento integral do tributo após o recebimento da denúncia NÃO extingue a punibilidade do crime de sonegação fiscal.',
+      'A Súmula Vinculante 24 do STF estabelece que o crime MATERIAL contra a ordem tributária (Lei 8.137/90 art. 1º, I-IV) só se tipifica APÓS o LANÇAMENTO DEFINITIVO do tributo (esgotamento das vias administrativas); o PAGAMENTO INTEGRAL extingue a punibilidade A QUALQUER TEMPO (Lei 10.684/03), e o PARCELAMENTO suspende a pretensão punitiva enquanto cumprido.',
+      'A apropriação indébita previdenciária (CP 168-A) caracteriza-se pela mera inadimplência das contribuições, dispensando dolo.',
+      'O parcelamento do débito tributário, por si só, extingue a punibilidade do crime de sonegação fiscal.'
+    ],
+    correct: 'C',
+    explanation: 'STF SV 24 + Lei 10.684/03. (A) Falso — crime material exige constituição definitiva (SV 24). (B) Falso — Lei 10.684/03: pagamento extingue A QUALQUER TEMPO. (D) Falso — STF: requer DOLO de não recolher. (E) Falso — parcelamento SUSPENDE; pagamento integral extingue.'
   }
 ],
 
