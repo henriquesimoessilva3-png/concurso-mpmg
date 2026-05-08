@@ -116,8 +116,24 @@
         <option value="1.5">1.5x</option>
       </select>
       <label>Voz:</label>
+      <button class="btn btn-sm" id="voice-male" title="Melhor voz masculina pt-BR disponível">♂</button>
+      <button class="btn btn-sm" id="voice-female" title="Melhor voz feminina pt-BR disponível">♀</button>
       <select id="audio-voice"><option>Carregando…</option></select>
       <span class="audio-status" id="audio-status"></span>
+      <details class="audio-help">
+        <summary>Robótica? 💡</summary>
+        <div>
+          <p>A qualidade da voz depende do que está instalado no seu sistema. A Web Speech API só usa vozes locais.</p>
+          <p><b>Para vozes muito mais naturais (Apple Premium / Neural):</b></p>
+          <ul>
+            <li><b>macOS</b>: <i>Ajustes do Sistema → Acessibilidade → Conteúdo Falado → Voz do Sistema → Gerenciar Vozes…</i> → Português (Brasil) → baixar <b>Felipe (Premium)</b> ou <b>Luciana (Premium)</b>. Recarregar a página depois.</li>
+            <li><b>iOS/iPadOS</b>: <i>Ajustes → Acessibilidade → Conteúdo Falado → Vozes → Português → Brasil</i> → escolher e baixar variante "Aprimorada" ou "Premium".</li>
+            <li><b>Chrome</b> (qualquer SO): a voz "Google português do Brasil" costuma ser razoável sem instalação extra.</li>
+            <li><b>Windows</b>: <i>Configurações → Hora e Idioma → Fala</i> → adicionar voz "Antônio" (M) ou "Francisca" (F) Neural.</li>
+          </ul>
+          <p>⭐ na lista = voz com indicação de alta qualidade. [M]/[F] = gênero detectado.</p>
+        </div>
+      </details>
     </div>
   `);
 
@@ -503,6 +519,30 @@
     let chunks = [];
     let idx = 0;
 
+    const VOICE_GENDER = {
+      felipe: 'M', daniel: 'M', ricardo: 'M', antonio: 'M', 'antônio': 'M',
+      diego: 'M', joao: 'M', 'joão': 'M', rafael: 'M', thiago: 'M', fabio: 'M', 'fábio': 'M',
+      luciana: 'F', joana: 'F', maria: 'F', francisca: 'F', helena: 'F',
+      vitoria: 'F', 'vitória': 'F', camila: 'F', isabela: 'F', leticia: 'F', 'letícia': 'F',
+    };
+    function voiceGender(name) {
+      const lower = name.toLowerCase();
+      for (const k in VOICE_GENDER) if (lower.includes(k)) return VOICE_GENDER[k];
+      return null;
+    }
+    function isPremium(name) {
+      return /premium|enhanced|aprimorad|natural|neural|wavenet|cloud/i.test(name);
+    }
+    function qualityScore(v) {
+      let s = 0;
+      if (isPremium(v.name)) s += 1000;
+      if (/google/i.test(v.name)) s += 100;
+      if (/microsoft/i.test(v.name)) s += 80;
+      if (v.localService === false) s += 50;
+      if (/pt[-_]br/i.test(v.lang)) s += 30;
+      return s;
+    }
+
     function loadVoices() {
       const all = window.speechSynthesis.getVoices();
       voices = all.filter(v => /^pt(-|_|$)/i.test(v.lang));
@@ -512,11 +552,38 @@
         playBtn.disabled = true;
         return;
       }
-      voiceEl.innerHTML = voices.map((v, i) => `<option value="${i}">${App.escape(v.name)} (${v.lang})</option>`).join('');
-      // Preferir pt-BR
-      const ptBR = voices.findIndex(v => /pt[-_]br/i.test(v.lang));
-      if (ptBR >= 0) voiceEl.value = String(ptBR);
+      voices = voices.slice().sort((a, b) => qualityScore(b) - qualityScore(a));
+
+      voiceEl.innerHTML = voices.map((v, i) => {
+        const g = voiceGender(v.name);
+        const star = isPremium(v.name) ? '⭐ ' : '';
+        const tag = g ? ` [${g}]` : '';
+        return `<option value="${i}">${star}${App.escape(v.name)}${tag} — ${v.lang}</option>`;
+      }).join('');
+
+      const savedName = localStorage.getItem('concurso-mpmg-voice-name');
+      let pick = -1;
+      if (savedName) pick = voices.findIndex(v => v.name === savedName);
+      if (pick < 0) pick = voices.findIndex(v => /pt[-_]br/i.test(v.lang) && voiceGender(v.name) === 'M');
+      if (pick < 0) pick = voices.findIndex(v => /pt[-_]br/i.test(v.lang));
+      if (pick < 0) pick = 0;
+      voiceEl.value = String(pick);
     }
+
+    function pickGender(g) {
+      let i = voices.findIndex(v => /pt[-_]br/i.test(v.lang) && voiceGender(v.name) === g);
+      if (i < 0) i = voices.findIndex(v => voiceGender(v.name) === g);
+      if (i >= 0) {
+        voiceEl.value = String(i);
+        voiceEl.dispatchEvent(new Event('change'));
+      }
+    }
+    document.getElementById('voice-male').addEventListener('click', () => pickGender('M'));
+    document.getElementById('voice-female').addEventListener('click', () => pickGender('F'));
+    voiceEl.addEventListener('change', () => {
+      const i = parseInt(voiceEl.value);
+      if (!isNaN(i) && voices[i]) localStorage.setItem('concurso-mpmg-voice-name', voices[i].name);
+    });
 
     if (window.speechSynthesis.getVoices().length > 0) loadVoices();
     window.speechSynthesis.onvoiceschanged = loadVoices;
