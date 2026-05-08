@@ -7635,10 +7635,299 @@ topics: [
       ]
     }
   ] },
-  { id: 'adm-09-improbidade-administrativa', num: 9, materia: 'adm', title: 'Improbidade administrativa (Lei 8.429/92, alterações Lei 14.230/21)', edital: '1.2.9', editalText: 'Atos de improbidade. Sanções. Procedimento. Reforma de 2021.', size: 'Grande', schedule: null, advantage: null, outline: ['Sujeitos (ativo e passivo)', 'Atos de improbidade — enriquecimento ilícito, prejuízo ao erário, atentado a princípios', 'Lei 14.230/21 — exigência de dolo específico', 'Sanções (CF art. 37 §4º + LIA arts. 12 e ss.)', 'Procedimento — ação de responsabilidade', 'Prescrição', 'Acordo de não persecução cível'], sections: [] },
-  { id: 'adm-10-controle-administracao', num: 10, materia: 'adm', title: 'Controle da Administração', edital: '1.2.10', editalText: 'Controle interno, externo, judicial, social. TCU.', size: 'Médio', schedule: null, advantage: null, outline: ['Classificações (interno × externo, prévio × concomitante × posterior)', 'Controle administrativo (autotutela)', 'Controle legislativo e do TCU', 'Controle judicial (limites)', 'Controle social', 'Lei de Acesso à Informação (12.527/11)'], sections: [] },
-  { id: 'adm-11-intervencao-propriedade', num: 11, materia: 'adm', title: 'Intervenção do Estado na propriedade', edital: '1.2.11', editalText: 'Desapropriação, requisição, ocupação temporária, servidão, limitação, tombamento.', size: 'Médio', schedule: null, advantage: null, outline: ['Desapropriação (DL 3.365/41 e Lei 4.132/62)', 'Modalidades (necessidade pública, utilidade pública, interesse social)', 'Desapropriação por interesse social para reforma agrária e urbana', 'Tredestinação e retrocessão', 'Requisição administrativa', 'Servidão administrativa', 'Limitação administrativa', 'Tombamento (DL 25/37)', 'Ocupação temporária'], sections: [] },
-  { id: 'adm-12-lgpd-lindb-publica', num: 12, materia: 'adm', title: 'LGPD aplicada à Administração e LINDB pública', edital: '1.2.12', editalText: 'Lei 13.709/18 (LGPD) e arts. 20-30 da LINDB (Lei 13.655/18).', size: 'Médio', schedule: null, advantage: null, outline: ['LGPD — fundamentos e princípios', 'Bases legais para tratamento pelo Poder Público', 'ANPD', 'LINDB arts. 20-30 — segurança jurídica e eficiência na criação e aplicação do direito público', 'Consequencialismo', 'Responsabilidade do agente público (art. 28)'], sections: [] },
+  { id: 'adm-09-improbidade-administrativa', num: 9, materia: 'adm', title: 'Improbidade administrativa (Lei 8.429/92, alterações Lei 14.230/21)', edital: '1.2.9', editalText: 'Atos de improbidade. Sanções. Procedimento. Reforma de 2021.', size: 'Médio', schedule: 'Mês 10', advantage: 'Vantagem direta (Analista MPMG — área core do MP).', outline: ['Sujeitos (ativo e passivo)', 'Atos de improbidade — enriquecimento ilícito, prejuízo ao erário, atentado a princípios', 'Lei 14.230/21 — exigência de dolo específico', 'Sanções (CF art. 37 §4º + LIA arts. 12 e ss.)', 'Procedimento — ação de responsabilidade', 'Prescrição', 'Acordo de não persecução cível'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico **DUPLICADO INTENCIONALMENTE com colmat-11** — neste capítulo de Adm. focamos no aspecto PROCESSUAL/SANCIONATÓRIO. O conteúdo material (sujeitos, espécies, dolo específico, prescrição) está em colmat-11. Ver tópico cruzado para detalhamento substantivo.' },
+        { type: 'p', text: 'Visão administrativa: **CF 37 §4º** + **Lei 8.429/92 com Lei 14.230/21**. Para o concurso (visão Administrativa): rito da ação de improbidade, aplicação das sanções pelo magistrado, ANPC, controle judicial, indisponibilidade de bens, tutela de urgência.' }
+      ]
+    },
+    {
+      h: 'Aspectos processuais — ação de improbidade',
+      items: [
+        { type: 'h', text: 'Rito (LIA art. 17 com Lei 14.230/21)' },
+        { type: 'list', items: [
+          'Procedimento autônomo, regido pela LIA',
+          '**Legitimação ATIVA:** MP (preferencial) ou pessoa jurídica interessada (entes federativos). Limitada após Lei 14.230/21',
+          'Petição inicial deve detalhar fatos, fundamentação jurídica, requerimentos, indicação de provas',
+          'NOTIFICAÇÃO PRÉVIA do réu (5 dias) para apresentar manifestação',
+          'Decisão sobre RECEBIMENTO da inicial',
+          'Citação · contestação · réplica',
+          'Audiência de instrução · alegações finais',
+          'Sentença'
+        ]},
+
+        { type: 'h', text: 'Tutelas de urgência' },
+        { type: 'list', items: [
+          '**INDISPONIBILIDADE DE BENS** (LIA art. 16) — pode ser requerida desde o IC, mediante demonstração',
+          '**AFASTAMENTO do agente** — em casos de prejuízo ao desenvolvimento do processo',
+          '**SEQUESTRO de bens**'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 897 (RE 852.475, 2018):** ações de RESSARCIMENTO ao erário decorrentes de atos de improbidade são IMPRESCRITÍVEIS (CF 37 §5º). Sancionatório prescreve em 8 anos (LIA art. 23 com Lei 14.230/21).' },
+
+        { type: 'h', text: 'ANPC (Acordo de Não Persecução Cível)' },
+        { type: 'list', items: [
+          'Lei 14.230/21 introduziu LIA art. 17 §10-A',
+          'MP (ou ente interessado) celebra acordo com réu',
+          'Réu se obriga a: ressarcir o dano, cumprir obrigações, pagar multa',
+          'Em troca: suspende ou extingue a ação',
+          'Pressupõe: comprovação dos fatos, anuência das vítimas, homologação JUDICIAL',
+          'Pode ser celebrado em qualquer fase'
+        ]},
+
+        { type: 'h', text: 'Controle judicial' },
+        { type: 'p', text: 'Apenas o JUDICIÁRIO impõe as sanções da LIA — não há sanção administrativa por improbidade (a Adm. pode apenas aplicar PADs por outras razões disciplinares). A ação tramita em vara especializada (em algumas comarcas) ou comum.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Improbidade = sanção CIVIL-POLÍTICA imposta pelo JUDICIÁRIO.** Não é PAD — é ação judicial.' },
+        { type: 'box', kind: 'macete', text: '**Indisponibilidade de bens (LIA 16): cautelar típica.** Pode ser requerida desde o IC.' },
+        { type: 'box', kind: 'macete', text: '**ANPC: substitui ou termina a ação.** Homologação judicial obrigatória.' },
+        { type: 'box', kind: 'macete', text: '**Imprescritibilidade APENAS do RESSARCIMENTO (CF 37 §5º).** Sancionatório: 8 anos (Lei 14.230/21).' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11:** detalhamento material (sujeitos, espécies, sanções).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** ANPC dialoga com TAC e Recomendação.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** servidor é sujeito ativo principal.' }
+      ]
+    }
+  ] },
+  { id: 'adm-10-controle-administracao', num: 10, materia: 'adm', title: 'Controle da Administração', edital: '1.2.10', editalText: 'Controle interno, externo, judicial, social. TCU.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Classificações (interno × externo, prévio × concomitante × posterior)', 'Controle administrativo (autotutela)', 'Controle legislativo e do TCU', 'Controle judicial (limites)', 'Controle social', 'Lei de Acesso à Informação (12.527/11)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CONTROLE DA ADMINISTRAÇÃO** assegura que a Adm. atua dentro dos limites legais e constitucionais. Múltiplas modalidades coexistem: interno, externo, judicial, social. O controle é PERMANENTE — antes, durante e depois dos atos administrativos.' }
+      ]
+    },
+    {
+      h: 'Modalidades',
+      items: [
+        { type: 'h', text: 'Por origem' },
+        { type: 'list', items: [
+          '**INTERNO:** dentro do mesmo Poder. Ex: Corregedoria, AGU, Procuradorias',
+          '**EXTERNO:** por outro Poder ou órgão. Ex: Legislativo (TCU), Judiciário'
+        ]},
+
+        { type: 'h', text: 'Por momento' },
+        { type: 'list', items: [
+          '**PRÉVIO:** antes do ato (consulta, parecer obrigatório)',
+          '**CONCOMITANTE:** durante a execução (auditoria contínua)',
+          '**POSTERIOR:** após o ato (revisão, anulação)'
+        ]},
+
+        { type: 'h', text: 'Por aspecto' },
+        { type: 'list', items: [
+          '**LEGALIDADE:** verificação de conformidade com a lei',
+          '**MÉRITO:** verificação de conveniência e oportunidade'
+        ]}
+      ]
+    },
+    {
+      h: 'TCU e controle externo',
+      items: [
+        { type: 'p', text: 'O **TCU** (Tribunal de Contas da União — CF 71) auxilia o Congresso no controle externo da Adm. Federal. Atribuições: apreciar contas do PR, julgar contas dos administradores, aplicar sanções, fiscalizar receitas e despesas. Súmula Vinculante 3 STF: contraditório nos PADs.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — SV 3:** "Nos processos perante o Tribunal de Contas da União asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, EXCETUADA a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão."' }
+      ]
+    },
+    {
+      h: 'Controle judicial — limites',
+      items: [
+        { type: 'p', text: 'O Judiciário pode controlar a LEGALIDADE dos atos administrativos. Quanto ao MÉRITO (conveniência e oportunidade), em REGRA não pode interferir. Mas STF flexibilizou: judiciário pode controlar mérito quando: (i) violação a princípios constitucionais (razoabilidade, proporcionalidade); (ii) reserva do possível ÷ mínimo existencial.' }
+      ]
+    },
+    {
+      h: 'Controle social e LAI',
+      items: [
+        { type: 'p', text: '**Controle SOCIAL:** participação direta dos cidadãos. Instrumentos: (i) Lei 12.527/11 (LAI — Lei de Acesso à Informação); (ii) Conselhos Municipais (Saúde, Educação); (iii) participação em audiências públicas; (iv) Ação Popular (CF 5º LXXIII); (v) Código de Defesa do Usuário (Lei 13.460/17).' },
+        { type: 'p', text: '**LAI (Lei 12.527/11):** transparência ATIVA (Adm. publica espontaneamente) + PASSIVA (atende solicitação do cidadão). Prazos: 20 dias prorrogáveis por 10. Negativa fundamentada.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**5 modalidades de controle: ADMINISTRATIVO · LEGISLATIVO · JUDICIAL · SOCIAL · MP.**' },
+        { type: 'box', kind: 'macete', text: '**TCU é AUXILIAR do Congresso (CF 71).** Não pertence ao Judiciário, apesar do nome "Tribunal".' },
+        { type: 'box', kind: 'macete', text: '**Judiciário NÃO pode revogar (mérito) — só anular (legalidade).**' },
+        { type: 'box', kind: 'macete', text: '**LAI: transparência ativa + passiva. Prazos: 20+10 dias.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**TCU NÃO pertence ao Judiciário** — auxilia Legislativo (CF 71). Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**SV 3 STF: contraditório obrigatório no TCU**, salvo concessão inicial de aposentadoria/pensão.' },
+        { type: 'box', kind: 'atencao', text: '**Judiciário PODE controlar mérito quando há violação a princípios constitucionais** — entendimento moderno.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** autotutela = controle interno.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 / Adm 9 (Improbidade):** controle judicial sancionatório.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** TCU integra estrutura do Legislativo.' }
+      ]
+    }
+  ] },
+  { id: 'adm-11-intervencao-propriedade', num: 11, materia: 'adm', title: 'Intervenção do Estado na propriedade', edital: '1.2.11', editalText: 'Desapropriação, requisição, ocupação temporária, servidão, limitação, tombamento.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Desapropriação (DL 3.365/41 e Lei 4.132/62)', 'Modalidades (necessidade pública, utilidade pública, interesse social)', 'Desapropriação por interesse social para reforma agrária e urbana', 'Tredestinação e retrocessão', 'Requisição administrativa', 'Servidão administrativa', 'Limitação administrativa', 'Tombamento (DL 25/37)', 'Ocupação temporária'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **INTERVENÇÃO DO ESTADO NA PROPRIEDADE** é manifestação da supremacia do interesse público — limita a propriedade privada em prol do bem coletivo. CF 5º XXIV (desapropriação por necessidade ou utilidade pública/interesse social, com prévia e justa indenização em dinheiro) e XXV (requisição em iminente perigo público).' },
+        { type: 'p', text: 'Modalidades: (i) **DESAPROPRIAÇÃO** (transfere a propriedade); (ii) **REQUISIÇÃO** (uso temporário em situação de perigo); (iii) **OCUPAÇÃO TEMPORÁRIA** (uso para realizar obra); (iv) **SERVIDÃO ADMINISTRATIVA** (direito real sobre coisa alheia); (v) **LIMITAÇÃO ADMINISTRATIVA** (norma geral); (vi) **TOMBAMENTO** (proteção patrimônio cultural).' }
+      ]
+    },
+    {
+      h: 'Desapropriação',
+      items: [
+        { type: 'h', text: 'Modalidades' },
+        { type: 'list', items: [
+          '**Necessidade pública** — em situação de urgência (DL 3.365/41 art. 5º)',
+          '**Utilidade pública** — caráter conveniente (mesma lei)',
+          '**Interesse social** — função social da propriedade (Lei 4.132/62)',
+          '**Reforma agrária** — CF 184. Indenização em TÍTULOS da dívida agrária. Propriedade produtiva é INSUSCETÍVEL',
+          '**Reforma urbana** — CF 182 §4º III. Indenização em TÍTULOS da dívida pública (sanção)',
+          '**Confisco (CF 243)** — propriedade onde se cultivam plantas psicotrópicas ilegais ou utilizada para trabalho escravo. SEM INDENIZAÇÃO'
+        ]},
+
+        { type: 'h', text: 'Procedimento' },
+        { type: 'list', items: [
+          'Fase declaratória — DECRETO declarando utilidade pública/interesse social',
+          'Fase executória — administrativa ou judicial',
+          'Indenização: prévia, justa e em DINHEIRO (regra). Imissão na posse só após pagamento',
+          'Tredestinação: alteração da finalidade. Lícita se mantida finalidade pública geral'
+        ]}
+      ]
+    },
+    {
+      h: 'Outras modalidades',
+      items: [
+        { type: 'h', text: 'Requisição (CF 5º XXV)' },
+        { type: 'p', text: 'Em iminente perigo público, autoridade competente pode usar propriedade particular, assegurada indenização ULTERIOR se houver dano. Caráter PROVISÓRIO. Ex: requisição de viaturas em emergências.' },
+
+        { type: 'h', text: 'Ocupação temporária (DL 3.365/41 art. 36)' },
+        { type: 'p', text: 'Uso de imóvel não edificado para realizar OBRA pública (depósito de materiais, alojamento operários). Caráter TEMPORÁRIO, sem transferência de propriedade. Indenização eventual.' },
+
+        { type: 'h', text: 'Servidão administrativa' },
+        { type: 'p', text: 'Direito REAL sobre coisa alheia. Imóvel privado fica gravado em prol de coisa pública (ex: passagem de fios elétricos). Lei 11.428/06.' },
+
+        { type: 'h', text: 'Limitação administrativa' },
+        { type: 'p', text: 'NORMA GERAL que limita o exercício do direito de propriedade. Ex: lei municipal que limita altura dos prédios. Não há indenização (em regra) — afetação genérica.' },
+
+        { type: 'h', text: 'Tombamento (já abordado em colmat-10)' },
+        { type: 'p', text: 'Bens MATERIAIS de valor histórico/cultural. Limita uso, não propriedade. Em regra, sem indenização.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 modalidades: DESAPROPRIAÇÃO · REQUISIÇÃO · OCUPAÇÃO TEMPORÁRIA · SERVIDÃO · LIMITAÇÃO · TOMBAMENTO.** Apenas a desapropriação transfere a propriedade.' },
+        { type: 'box', kind: 'macete', text: '**Desapropriação ordinária: prévia + justa + DINHEIRO** (CF 5º XXIV).' },
+        { type: 'box', kind: 'macete', text: '**Reforma agrária e urbana: TÍTULOS da dívida pública.** Confisco (CF 243): SEM indenização.' },
+        { type: 'box', kind: 'macete', text: '**Requisição: PROVISÓRIA + indenização ULTERIOR (se houver dano).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reforma agrária: indenização em TÍTULOS, não dinheiro.** Propriedade produtiva = insuscetível.' },
+        { type: 'box', kind: 'atencao', text: '**Confisco (CF 243): SEM indenização** — para áreas com cultivos ilegais ou trabalho escravo.' },
+        { type: 'box', kind: 'atencao', text: '**Tredestinação ilícita gera RETROCESSÃO** (direito de retomar o bem). Lícita: mantém finalidade pública.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** desapropriação-sanção urbana.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 10 (Patrimônio Cultural):** tombamento.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil — propriedade:** intervenção limita o direito real.' }
+      ]
+    }
+  ] },
+  { id: 'adm-12-lgpd-lindb-publica', num: 12, materia: 'adm', title: 'LGPD aplicada à Administração e LINDB pública', edital: '1.2.12', editalText: 'Lei 13.709/18 (LGPD) e arts. 20-30 da LINDB (Lei 13.655/18).', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['LGPD — fundamentos e princípios', 'Bases legais para tratamento pelo Poder Público', 'ANPD', 'LINDB arts. 20-30 — segurança jurídica e eficiência na criação e aplicação do direito público', 'Consequencialismo', 'Responsabilidade do agente público (art. 28)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tema relativamente novo no edital. Combina dois eixos: **LGPD aplicada à Adm. Pública** (Lei 13.709/2018, com alterações da Lei 13.853/19) e **LINDB pública — Lei 13.655/2018** (acrescentou arts. 20-30 à LINDB, sobre segurança jurídica em direito público).' }
+      ]
+    },
+    {
+      h: 'LGPD na Administração Pública',
+      items: [
+        { type: 'h', text: 'Aplicação' },
+        { type: 'list', items: [
+          'Lei 13.709/18 aplica-se à Adm. Pública direta e indireta (LGPD art. 23-30)',
+          '**Bases legais para tratamento (art. 23):** atendimento da finalidade pública, execução de políticas públicas, em matérias do art. 7º (consentimento, cumprimento de obrigação legal/regulatória, etc.)',
+          '**ANPD (Autoridade Nacional de Proteção de Dados):** órgão regulador (Lei 13.853/19)',
+          'Princípios: finalidade, adequação, necessidade, livre acesso, qualidade, transparência, segurança, prevenção, não discriminação, responsabilização e prestação de contas (art. 6º)'
+        ]},
+
+        { type: 'h', text: 'Direitos do titular dos dados' },
+        { type: 'list', items: [
+          'Confirmação de tratamento',
+          'Acesso aos dados',
+          'Correção de dados incompletos/inexatos',
+          'Anonimização ou eliminação',
+          'Portabilidade',
+          'Eliminação dos dados pessoais tratados com consentimento'
+        ]}
+      ]
+    },
+    {
+      h: 'LINDB pública (arts. 20-30) — Lei 13.655/18',
+      items: [
+        { type: 'h', text: 'Marcos da reforma' },
+        { type: 'list', items: [
+          '**Art. 20** — vedação a decisões com base em valores jurídicos abstratos sem considerar consequências práticas',
+          '**Art. 21** — em decisão que decretar invalidação, devem ser indicadas consequências jurídicas e administrativas',
+          '**Art. 22** — interpretação de normas considerará obstáculos e dificuldades reais',
+          '**Art. 23** — decisão sobre nova interpretação prevê regime de transição',
+          '**Art. 24** — revisão de orientação jurídica geral leva em conta orientação à época',
+          '**Art. 25** — atos públicos com regulamentação suficiente, podem fixar compromissos',
+          '**Art. 26** — celebrar compromisso com interessados (TAC, acordo)',
+          '**Art. 27** — decisão pode definir consequências jurídicas claras',
+          '**Art. 28** — RESPONSABILIDADE DO AGENTE PÚBLICO: por dolo ou erro grosseiro (NÃO por mero erro de avaliação)',
+          '**Arts. 29-30** — consultas e audiências públicas; transparência'
+        ]},
+
+        { type: 'h', text: 'Consequencialismo (art. 20 e 21)' },
+        { type: 'p', text: 'Princípio fundamental da LINDB pública. Decisões devem considerar CONSEQUÊNCIAS PRÁTICAS. Não basta abstração jurídica — exige análise de impactos reais. Aplicação ampla em controle de políticas públicas (TCU, Judiciário).' },
+
+        { type: 'h', text: 'Responsabilidade do agente (art. 28)' },
+        { type: 'p', text: 'Marco interessante: AGENTE PÚBLICO não responde por opiniões técnicas em CASOS DE INCERTEZA — apenas por DOLO ou ERRO GROSSEIRO (não por erro de avaliação técnica plausível). Tutela a tomada de decisões em ambiente de complexidade.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LGPD aplica-se à Adm. Pública (LGPD arts. 23-30 + ANPD).**' },
+        { type: 'box', kind: 'macete', text: '**LINDB pública (arts. 20-30) = Lei 13.655/18.** Marco da segurança jurídica em direito público.' },
+        { type: 'box', kind: 'macete', text: '**LINDB art. 20 — CONSEQUENCIALISMO: decisões consideram efeitos práticos.**' },
+        { type: 'box', kind: 'macete', text: '**LINDB art. 28 — agente responde por DOLO ou ERRO GROSSEIRO (não por erro de avaliação plausível).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**LGPD aplicação à Adm. — base legal SEM consentimento (art. 7º + 23).** Adm. trata dados em razão de finalidade pública, não precisa do consentimento individual em regra.' },
+        { type: 'box', kind: 'atencao', text: '**LINDB art. 28: agente responde por DOLO ou ERRO GROSSEIRO.** Pegadinha: alternativa diz que responde por mero erro de avaliação. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**ANPD: Autoridade Nacional de Proteção de Dados.** Vinculada ao MJ, mas em regime ESPECIAL.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 1 (Princípios):** LINDB consagra segurança jurídica e eficiência.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** dolo específico (Lei 14.230/21) dialoga com art. 28 LINDB.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** LGPD protege intimidade e dados pessoais.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO ELEITORAL (8) ============
   { id: 'elei-01-direitos-politicos', num: 1, materia: 'elei', title: 'Direitos políticos e elegibilidade', edital: '1.3.1', editalText: 'Capacidade eleitoral ativa e passiva. Inelegibilidades. LC 64/90.', size: 'Médio', schedule: null, advantage: null, outline: ['Capacidade eleitoral ativa (alistamento)', 'Capacidade eleitoral passiva (elegibilidade)', 'Condições de elegibilidade (CF art. 14 §3º)', 'Inelegibilidades absolutas e relativas (CF art. 14 §§ 4º-7º)', 'LC 64/90 (Lei das Inelegibilidades) e LC 135/10 (Ficha Limpa)', 'Perda e suspensão dos direitos políticos'], sections: [] },
@@ -8560,8 +8849,154 @@ topics: [
   ] },
 
   // ============ ESQUELETOS — DIREITO PENAL E CRIMINOLOGIA (14) ============
-  { id: 'penal-01-principios', num: 1, materia: 'penal', title: 'Princípios do Direito Penal', edital: '2.1.1', editalText: 'Legalidade, anterioridade, intervenção mínima, lesividade, culpabilidade, humanidade, individualização.', size: 'Médio', schedule: null, advantage: null, outline: ['Legalidade (CF art. 5º XXXIX, CP art. 1º)', 'Anterioridade da lei penal', 'Intervenção mínima (subsidiariedade e fragmentariedade)', 'Lesividade/ofensividade', 'Culpabilidade', 'Humanidade', 'Individualização da pena', 'Insignificância (STF)'], sections: [] },
-  { id: 'penal-02-aplicacao-lei-penal', num: 2, materia: 'penal', title: 'Aplicação da lei penal (tempo, espaço, pessoa)', edital: '2.1.2', editalText: 'Tempo, território, extraterritorialidade, pessoa. Conflito aparente de normas.', size: 'Médio', schedule: null, advantage: null, outline: ['Tempo do crime (atividade — CP art. 4º)', 'Lei penal no tempo (irretroatividade × retroatividade benéfica)', 'Lugar do crime (ubiquidade — CP art. 6º)', 'Territorialidade (CP art. 5º)', 'Extraterritorialidade incondicionada e condicionada (CP art. 7º)', 'Imunidades penais', 'Conflito aparente de normas (especialidade, subsidiariedade, consunção, alternatividade)'], sections: [] },
+  { id: 'penal-01-principios', num: 1, materia: 'penal', title: 'Princípios do Direito Penal', edital: '2.1.1', editalText: 'Legalidade, anterioridade, intervenção mínima, lesividade, culpabilidade, humanidade, individualização.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Legalidade (CF art. 5º XXXIX, CP art. 1º)', 'Anterioridade da lei penal', 'Intervenção mínima (subsidiariedade e fragmentariedade)', 'Lesividade/ofensividade', 'Culpabilidade', 'Humanidade', 'Individualização da pena', 'Insignificância (STF)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PRINCÍPIOS DO DIREITO PENAL** são as vigas mestras do sistema. Domínio dos princípios é fundamental para responder questões discursivas e objetivas. CF/88 e CP consagram os principais; doutrina e jurisprudência (STF) acrescentam outros.' }
+      ]
+    },
+    {
+      h: 'Princípios constitucionais expressos',
+      items: [
+        { type: 'list', items: [
+          '**LEGALIDADE/RESERVA LEGAL (CF 5º XXXIX + CP 1º):** "não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal" (nullum crimen, nulla poena sine lege)',
+          '**ANTERIORIDADE:** lei deve ser ANTERIOR ao fato',
+          '**IRRETROATIVIDADE DA LEI MAIS GRAVOSA (CF 5º XL):** lei penal não retroage, salvo para BENEFICIAR o réu',
+          '**HUMANIDADE/DIGNIDADE (CF 5º XLVII, XLIX):** vedação a penas cruéis, degradantes, prisão perpétua, morte (salvo guerra), trabalhos forçados, banimento',
+          '**INDIVIDUALIZAÇÃO DA PENA (CF 5º XLVI):** lei regulará a individualização e a execução. STF — ADI 4.768: critérios objetivos e subjetivos',
+          '**PESSOALIDADE/INTRANSCENDÊNCIA (CF 5º XLV):** pena não pode passar da pessoa do condenado'
+        ]}
+      ]
+    },
+    {
+      h: 'Princípios doutrinários e jurisprudenciais',
+      items: [
+        { type: 'list', items: [
+          '**INTERVENÇÃO MÍNIMA / ÚLTIMA RATIO:** Direito Penal é a ÚLTIMA medida; deve ser SUBSIDIÁRIO (só atua quando outros ramos falham) e FRAGMENTÁRIO (só os bens jurídicos mais relevantes)',
+          '**LESIVIDADE/OFENSIVIDADE:** crime exige LESÃO ou PERIGO concreto a bem jurídico — não há crime sem dano (princípio da lesividade)',
+          '**CULPABILIDADE:** ninguém pode ser punido sem CULPA (responsabilidade subjetiva). Não há responsabilidade objetiva no Direito Penal',
+          '**INSIGNIFICÂNCIA / BAGATELA (criação STF):** condutas que causam lesão ÍNFIMA são atípicas. STF — HC 84.412: 4 vetores cumulativos = (1) mínima ofensividade; (2) ausência de periculosidade social; (3) reduzido grau de reprovabilidade; (4) inexpressividade da lesão jurídica',
+          '**PROPORCIONALIDADE:** pena deve ser PROPORCIONAL ao crime',
+          '**ADEQUAÇÃO SOCIAL:** condutas socialmente aceitas não são típicas (ex: pequenos furos em orelha)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 84.412 (2004):** vetores da insignificância. CRIME DE BAGATELA é atípico — desimporta, no entanto, se houver: (a) reincidência; (b) habitualidade; (c) violência ou grave ameaça; (d) crime com vítima específica vulnerável.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Legalidade: nullum crimen, nulla poena sine lege.** CF 5º XXXIX + CP 1º.' },
+        { type: 'box', kind: 'macete', text: '**Lei penal: irretroatividade EXCETO para BENEFICIAR o réu (CF 5º XL).**' },
+        { type: 'box', kind: 'macete', text: '**Insignificância (STF HC 84.412): 4 vetores M-A-R-I (Mínima ofensividade · Ausência periculosidade social · Reduzida reprovabilidade · Inexpressividade da lesão).**' },
+        { type: 'box', kind: 'macete', text: '**Direito Penal é ULTIMA RATIO + SUBSIDIÁRIO + FRAGMENTÁRIO.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Lei penal retroage SÓ para beneficiar o réu (CF 5º XL).** Princípio da retroatividade benéfica.' },
+        { type: 'box', kind: 'atencao', text: '**Insignificância: 4 vetores cumulativos.** STF afasta em casos de reincidência, habitualidade, violência.' },
+        { type: 'box', kind: 'atencao', text: '**Não há responsabilidade objetiva no Direito Penal — princípio da culpabilidade.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** garantias penais (CF 5º).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 2 (aplicação da lei):** legalidade material e temporal.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** lesividade integra a tipicidade material.' }
+      ]
+    }
+  ] },
+  { id: 'penal-02-aplicacao-lei-penal', num: 2, materia: 'penal', title: 'Aplicação da lei penal (tempo, espaço, pessoa)', edital: '2.1.2', editalText: 'Tempo, território, extraterritorialidade, pessoa. Conflito aparente de normas.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Tempo do crime (atividade — CP art. 4º)', 'Lei penal no tempo (irretroatividade × retroatividade benéfica)', 'Lugar do crime (ubiquidade — CP art. 6º)', 'Territorialidade (CP art. 5º)', 'Extraterritorialidade incondicionada e condicionada (CP art. 7º)', 'Imunidades penais', 'Conflito aparente de normas (especialidade, subsidiariedade, consunção, alternatividade)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico técnico que cobre a aplicação da lei penal no TEMPO, no ESPAÇO e em relação à PESSOA. Domínio das teorias é obrigatório.' }
+      ]
+    },
+    {
+      h: 'Lei penal no TEMPO',
+      items: [
+        { type: 'h', text: 'Tempo do crime (CP art. 4º — TEORIA DA ATIVIDADE)' },
+        { type: 'p', text: 'Considera-se praticado o crime no momento da AÇÃO ou OMISSÃO, ainda que outro seja o momento do resultado. Outras teorias rejeitadas: do resultado, mista.' },
+
+        { type: 'h', text: 'Sucessão de leis penais' },
+        { type: 'list', items: [
+          '**ABOLITIO CRIMINIS:** lei nova descriminaliza fato. Retroage para extinguir punibilidade (CF 5º XL + CP 2º)',
+          '**LEX MITIOR (lei mais benéfica):** aplica-se a todos os fatos anteriores',
+          '**LEX GRAVIOR (lei mais gravosa):** apenas para fatos POSTERIORES (irretroatividade)',
+          '**NOVATIO LEGIS IN MELLIUS / IN PEJUS:** mesma lógica',
+          '**Combinatio legis (combinação de leis):** STF — vedada em geral (RE 596.152, 2011) — não pode combinar partes de leis distintas para criar uma lei nova mais favorável'
+        ]},
+
+        { type: 'h', text: 'Lei intermediária' },
+        { type: 'p', text: 'Quando entre o fato e o julgamento há sucessão (lei A → lei B → lei C), aplica-se a MAIS BENÉFICA, ainda que seja a INTERMEDIÁRIA (B). Princípio da retroatividade da lei mais favorável.' }
+      ]
+    },
+    {
+      h: 'Lei penal no ESPAÇO',
+      items: [
+        { type: 'h', text: 'Lugar do crime (CP art. 6º — TEORIA DA UBIQUIDADE/MISTA)' },
+        { type: 'p', text: 'Considera-se praticado o crime no lugar em que OCORREU A AÇÃO/OMISSÃO ou ONDE SE PRODUZIU O RESULTADO. Diferente do CPP (teoria do resultado para fixação de competência).' },
+        { type: 'box', kind: 'macete', text: '**Tempo: ATIVIDADE (CP 4º). Lugar: UBIQUIDADE (CP 6º). Não confundir!**' },
+
+        { type: 'h', text: 'Territorialidade (CP art. 5º)' },
+        { type: 'p', text: 'REGRA: lei brasileira aplica-se aos crimes praticados em TERRITÓRIO NACIONAL. Inclui: solo, mar territorial (12 milhas), espaço aéreo, embarcações e aeronaves brasileiras (públicas em qualquer lugar; privadas em alto-mar ou espaço aéreo correspondente).' },
+
+        { type: 'h', text: 'Extraterritorialidade (CP art. 7º)' },
+        { type: 'list', items: [
+          '**INCONDICIONADA (art. 7º I):** crime contra o Presidente, Patrimônio Público, fé pública, contra brasileiro fora do território, em embarcação/aeronave brasileira, etc.',
+          '**CONDICIONADA (art. 7º II):** depende de condições (entrar no território, ser punido lá e cá, etc.). Crimes contra brasileiros em sentido amplo'
+        ]}
+      ]
+    },
+    {
+      h: 'Imunidades e conflito aparente de normas',
+      items: [
+        { type: 'h', text: 'Imunidades' },
+        { type: 'list', items: [
+          '**DIPLOMÁTICA (Convenção de Viena):** imunidade absoluta a embaixadores · relativa a outros agentes',
+          '**PARLAMENTAR (CF 53):** material (opiniões, palavras, votos no exercício) e formal (prisão só em flagrante de crime inafiançável)',
+          '**PRESIDENCIAL (CF 86):** PR responde por crimes COMUNS perante STF (com autorização CD)'
+        ]},
+
+        { type: 'h', text: 'Conflito aparente de normas' },
+        { type: 'list', items: [
+          '**ESPECIALIDADE:** norma especial prevalece sobre geral. Ex: infanticídio (especial) sobre homicídio (geral)',
+          '**SUBSIDIARIEDADE:** norma subsidiária só se aplica se a principal não couber. Ex: lesão corporal aplicada subsidiariamente quando o crime principal não pode ser configurado',
+          '**CONSUNÇÃO:** crime maior absorve o menor. Ex: homicídio absorve a lesão corporal causada no mesmo ato',
+          '**ALTERNATIVIDADE:** entre crimes mutuamente excludentes — escolha conforme adequação'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Tempo: ATIVIDADE (CP 4º). Lugar: UBIQUIDADE (CP 6º).** Decorar.' },
+        { type: 'box', kind: 'macete', text: '**Lei retroage SÓ para beneficiar (CF 5º XL).** Lex mitior + abolitio criminis.' },
+        { type: 'box', kind: 'macete', text: '**Conflito aparente: ESP-SUB-CON-ALT** (Especialidade · Subsidiariedade · Consunção · Alternatividade).' },
+        { type: 'box', kind: 'macete', text: '**Extraterritorialidade INCONDICIONADA (art. 7º I) × CONDICIONADA (II).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Tempo do crime: ATIVIDADE. Lugar: UBIQUIDADE.** Pegadinha clássica trocando.' },
+        { type: 'box', kind: 'atencao', text: '**STF VEDA combinatio legis (RE 596.152, 2011).** Não pode combinar partes de leis para criar uma terceira mais favorável.' },
+        { type: 'box', kind: 'atencao', text: '**Lei intermediária: aplica-se a MAIS BENÉFICA das três** (anterior, intermediária, posterior).' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** legalidade temporal e irretroatividade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP — competência:** lugar do crime para CPP (teoria do resultado).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** CF 5º XL — irretroatividade.' }
+      ]
+    }
+  ] },
   { id: 'penal-03-fato-tipico', num: 3, materia: 'penal', title: 'Teoria do crime — fato típico', edital: '2.1.3', editalText: 'Conduta, resultado, nexo, tipicidade. Dolo, culpa, erro.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito analítico de crime', 'Conduta (teorias)', 'Resultado (naturalístico × normativo)', 'Nexo causal (CP art. 13)', 'Imputação objetiva', 'Tipicidade formal × material × conglobante', 'Dolo (direto, eventual)', 'Culpa (negligência, imprudência, imperícia)', 'Erro de tipo (essencial × acidental)'], sections: [] },
   { id: 'penal-04-antijuridicidade', num: 4, materia: 'penal', title: 'Antijuridicidade e excludentes', edital: '2.1.4', editalText: 'Excludentes de ilicitude (CP art. 23). Legítima defesa, estado de necessidade, estrito cumprimento, exercício regular.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito de antijuridicidade', 'Excludentes legais (CP art. 23)', 'Estado de necessidade (CP art. 24)', 'Legítima defesa (CP art. 25)', 'Estrito cumprimento de dever legal', 'Exercício regular de direito', 'Consentimento do ofendido (excludente supralegal)', 'Excesso (CP art. 23 § único)'], sections: [] },
   { id: 'penal-05-culpabilidade', num: 5, materia: 'penal', title: 'Culpabilidade e excludentes', edital: '2.1.5', editalText: 'Imputabilidade, potencial consciência da ilicitude, exigibilidade. Erro de proibição, coação moral.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito (teoria normativa pura)', 'Imputabilidade (idade, doença mental, embriaguez completa fortuita)', 'Potencial consciência da ilicitude', 'Erro de proibição (CP art. 21)', 'Exigibilidade de conduta diversa', 'Coação moral irresistível e obediência hierárquica', 'Causas supralegais'], sections: [] },
@@ -11465,7 +11900,25 @@ flashcards: [
   { id: 506, topic: 7, materia: 'adm', q: 'PPPs — modalidades (Lei 11.079/04)?', a: 'CONCESSÃO PATROCINADA (tarifa do usuário + contraprestação do Poder Público) · CONCESSÃO ADMINISTRATIVA (só contraprestação, sem tarifa do usuário). Valor mínimo: R$ 10 milhões. Prazo: 5-35 anos.', tags: ['adm', 'PPP'] },
   { id: 507, topic: 8, materia: 'adm', q: 'Responsabilidade civil do Estado (CF 37 §6º) — natureza?', a: 'OBJETIVA — Teoria do RISCO ADMINISTRATIVO (admite excludentes: caso fortuito, força maior, culpa exclusiva da vítima). Risco INTEGRAL (sem excludentes) é EXCEÇÃO: ambiental, nuclear.', tags: ['adm', 'rc-estado'] },
   { id: 508, topic: 8, materia: 'adm', q: 'STF Tema 940 — quem responde pelo dano causado por agente público?', a: 'O ESTADO (não o agente individualmente). Vítima ajuíza ação contra o Estado, que tem regresso contra o agente em caso de DOLO ou CULPA. RE 1.027.633 (2019).', tags: ['adm', 'rc-estado', 'tema-940'] },
-  { id: 509, topic: 8, materia: 'adm', q: 'Prescrição de pretensão indenizatória contra Adm.?', a: '5 ANOS (Decreto 20.910/32 + STJ Súm. 647). Pegadinha: alternativa diz 3 anos (CC art. 206 §3º V — pretensão privada). Para Adm., prescrição é específica = 5 anos.', tags: ['adm', 'prescricao'] }
+  { id: 509, topic: 8, materia: 'adm', q: 'Prescrição de pretensão indenizatória contra Adm.?', a: '5 ANOS (Decreto 20.910/32 + STJ Súm. 647). Pegadinha: alternativa diz 3 anos (CC art. 206 §3º V — pretensão privada). Para Adm., prescrição é específica = 5 anos.', tags: ['adm', 'prescricao'] },
+
+  // === Cards Rodada 9 — Adm 9-12 + Penal 1-2 ===
+  { id: 510, topic: 9, materia: 'adm', q: 'Improbidade — quem aplica as sanções?', a: 'JUDICIÁRIO (não a Adm.). Ação tramita em vara especializada ou comum. Sanções: perda dos bens, ressarcimento, perda da função, suspensão direitos políticos, proibição contratar, multa. NÃO há sanção administrativa por improbidade.', tags: ['adm', 'improbidade'] },
+  { id: 511, topic: 9, materia: 'adm', q: 'Indisponibilidade de bens em improbidade?', a: 'LIA art. 16. Pode ser requerida desde o IC, mediante demonstração. Visa garantir o ressarcimento futuro. Cautelar típica em improbidade.', tags: ['adm', 'improbidade', 'cautelar'] },
+  { id: 512, topic: 10, materia: 'adm', q: 'TCU — natureza?', a: 'Órgão AUXILIAR do Congresso (CF 71). NÃO pertence ao Judiciário. Atribuições: apreciar contas do PR, julgar contas de administradores, aplicar sanções. SV 3 STF: contraditório obrigatório (salvo concessão inicial de aposentadoria/pensão).', tags: ['adm', 'controle', 'TCU'] },
+  { id: 513, topic: 10, materia: 'adm', q: 'LAI (Lei 12.527/11) — princípios?', a: 'Transparência ATIVA (Adm. publica espontaneamente) + PASSIVA (atende solicitação). Prazos: 20 dias prorrogáveis por 10. Negativa fundamentada. Lei revogada para algumas hipóteses pela Lei 14.129/21 (Governo Digital).', tags: ['adm', 'LAI', 'transparencia'] },
+  { id: 514, topic: 11, materia: 'adm', q: '6 modalidades de intervenção do Estado na propriedade?', a: 'DESAPROPRIAÇÃO · REQUISIÇÃO · OCUPAÇÃO TEMPORÁRIA · SERVIDÃO · LIMITAÇÃO · TOMBAMENTO. Apenas a desapropriação transfere a propriedade.', tags: ['adm', 'intervencao'] },
+  { id: 515, topic: 11, materia: 'adm', q: 'Desapropriação ordinária × reforma agrária × confisco?', a: 'ORDINÁRIA: prévia + justa + DINHEIRO (CF 5º XXIV). REFORMA AGRÁRIA: TÍTULOS dívida agrária (CF 184). CONFISCO (CF 243): SEM indenização (cultivos ilegais, trabalho escravo).', tags: ['adm', 'desapropriacao'] },
+  { id: 516, topic: 12, materia: 'adm', q: 'LINDB pública (arts. 20-30) — Lei 13.655/18 — eixos?', a: 'CONSEQUENCIALISMO (art. 20-21): decisões consideram efeitos práticos. Art. 22: interpretação considera obstáculos reais. Art. 28: agente responde por DOLO ou ERRO GROSSEIRO (não por mero erro de avaliação plausível).', tags: ['adm', 'LINDB', 'consequencialismo'] },
+  { id: 517, topic: 12, materia: 'adm', q: 'LGPD na Adm. Pública — base legal?', a: 'Lei 13.709/18 art. 23: tratamento de dados pela Adm. tem base no atendimento da finalidade pública (sem necessidade de consentimento). ANPD é o órgão regulador (Lei 13.853/19).', tags: ['adm', 'LGPD'] },
+
+  // Penal 1-2
+  { id: 518, topic: 1, materia: 'penal', q: 'Princípio da insignificância — STF HC 84.412 — 4 vetores?', a: '(1) Mínima ofensividade · (2) Ausência de periculosidade social · (3) Reduzido grau de reprovabilidade · (4) Inexpressividade da lesão jurídica. Mnemônico M-A-R-I. Cumulativos. Afastado em reincidência, habitualidade, violência.', tags: ['penal', 'insignificancia', 'STF'] },
+  { id: 519, topic: 1, materia: 'penal', q: 'Direito Penal é fragmentário e subsidiário — o que significa?', a: 'FRAGMENTÁRIO: só os bens jurídicos mais relevantes são protegidos pelo Penal. SUBSIDIÁRIO: Penal é ULTIMA RATIO — só atua quando outros ramos falham. Princípio da intervenção mínima.', tags: ['penal', 'principios', 'ultima-ratio'] },
+  { id: 520, topic: 1, materia: 'penal', q: 'Princípio da culpabilidade no Direito Penal?', a: 'Não há responsabilidade objetiva no Penal — só responde quem agir com DOLO ou CULPA. Ninguém é punido sem culpa (nullum crimen sine culpa).', tags: ['penal', 'culpabilidade'] },
+  { id: 521, topic: 2, materia: 'penal', q: 'Tempo do crime × Lugar do crime?', a: 'TEMPO (CP 4º): Teoria da ATIVIDADE (momento da ação ou omissão). LUGAR (CP 6º): Teoria da UBIQUIDADE/MISTA (lugar da ação OU do resultado). NÃO confundir.', tags: ['penal', 'tempo-lugar'] },
+  { id: 522, topic: 2, materia: 'penal', q: 'Lei intermediária — aplica-se?', a: 'SIM, se for a MAIS BENÉFICA. Princípio da retroatividade da lei mais favorável ao réu. Aplicação direta de qualquer das três (anterior, intermediária, posterior) que beneficiar.', tags: ['penal', 'lei-temporal', 'lex-mitior'] },
+  { id: 523, topic: 2, materia: 'penal', q: 'Conflito aparente de normas — 4 critérios?', a: 'ESPECIALIDADE · SUBSIDIARIEDADE · CONSUNÇÃO · ALTERNATIVIDADE. Esp: especial sobre geral. Sub: subsidiária se principal não couber. Con: maior absorve menor. Alt: mutuamente excludentes.', tags: ['penal', 'conflito-normas'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -13963,6 +14416,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'CF 37 §6º + STF Tema 940. (A) Falso — OBJETIVA. (B) Falso — risco ADMINISTRATIVO (admite excludentes); INTEGRAL é exceção. (D) Falso — apenas prestadoras de serviço público (não atividade econômica). (E) Falso — 5 anos (Decreto 20.910/32, Súm. 647 STJ).'
+  },
+
+  // === Questões Rodada 9 — Adm 9-12 + Penal 1-2 ===
+  {
+    id: 179, topic: 9, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre o aspecto processual da ação de improbidade administrativa:',
+    alternatives: [
+      'A Administração Pública pode aplicar diretamente as sanções da LIA, mediante PAD com ampla defesa.',
+      'A sentença penal absolutória sempre afasta a improbidade administrativa, em razão da independência das esferas.',
+      'A indisponibilidade dos bens (LIA art. 16) é cautelar típica e pode ser requerida desde o IC, mediante demonstração de fundamentação.',
+      'O ANPC (Acordo de Não Persecução Cível) só pode ser celebrado após o trânsito em julgado da sentença condenatória.',
+      'A pretensão de ressarcimento ao erário decorrente de improbidade prescreve em 8 anos da prática do ato.'
+    ],
+    correct: 'C',
+    explanation: 'LIA art. 16. (A) Falso — sanções são impostas pelo JUDICIÁRIO. (B) Falso — independência apenas relativa (CPP 386 I e IV: negativa de autoria/inexistência do fato impactam). (D) Falso — ANPC pode ser em qualquer fase. (E) Falso — STF Tema 897: ressarcimento é IMPRESCRITÍVEL.'
+  },
+  {
+    id: 180, topic: 10, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o controle da Administração Pública:',
+    alternatives: [
+      'O TCU integra o Poder Judiciário, exercendo o controle externo da Administração.',
+      'O Judiciário pode revogar atos administrativos por inconveniência, desde que respeitada a separação de poderes.',
+      'O TCU é órgão AUXILIAR do Congresso Nacional (CF 71); a SV 3 do STF assegura contraditório nos PADs do TCU, salvo na apreciação inicial de aposentadoria, reforma ou pensão.',
+      'A Lei de Acesso à Informação (Lei 12.527/11) prevê apenas a transparência ATIVA, não a passiva.',
+      'A autotutela administrativa permite à Administração rever atos por inconveniência somente após autorização judicial.'
+    ],
+    correct: 'C',
+    explanation: 'CF 71 + SV 3 STF. (A) Falso — TCU auxilia o Legislativo. (B) Falso — Judiciário NÃO revoga, só anula. (D) Falso — LAI prevê transparência ATIVA + PASSIVA. (E) Falso — autotutela é direta, sem necessidade de autorização judicial.'
+  },
+  {
+    id: 181, topic: 11, materia: 'adm', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca da intervenção do Estado na propriedade:',
+    alternatives: [
+      'A desapropriação ordinária (CF 5º XXIV) é paga em títulos da dívida pública, à exceção da reforma agrária, paga em dinheiro.',
+      'O confisco de áreas onde se cultivam plantas psicotrópicas (CF 243) é pago com indenização ao proprietário, em dinheiro.',
+      'A propriedade rural produtiva é insuscetível de desapropriação para fins de reforma agrária (CF 185 II); a desapropriação por reforma agrária é paga em TÍTULOS da dívida agrária; já a desapropriação ordinária é paga em DINHEIRO.',
+      'A requisição administrativa exige indenização prévia em todos os casos.',
+      'A limitação administrativa, por ser geral, sempre enseja indenização ao proprietário.'
+    ],
+    correct: 'C',
+    explanation: 'CF 184-185 + 5º XXIV. (A) Falso — ordinária é em dinheiro; reforma agrária em títulos. (B) Falso — confisco é SEM indenização. (D) Falso — requisição é cautelar, indenização ulterior se houver dano. (E) Falso — limitação administrativa, em regra, NÃO indeniza (afetação genérica).'
+  },
+  {
+    id: 182, topic: 12, materia: 'adm', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a LGPD aplicada à Administração Pública e a LINDB pública:',
+    alternatives: [
+      'A LGPD não se aplica à Administração Pública direta, em razão da supremacia do interesse público.',
+      'O art. 28 da LINDB (Lei 13.655/18) responsabiliza o agente público por DOLO ou ERRO GROSSEIRO, não por mero erro de avaliação técnica plausível, em decisão tomada em ambiente de complexidade.',
+      'O consentimento do titular é base legal exclusiva para o tratamento de dados pessoais pela Administração.',
+      'A LINDB consagra o princípio da imutabilidade da interpretação jurídica, vedando qualquer alteração de orientação.',
+      'A ANPD (Autoridade Nacional de Proteção de Dados) integra o Poder Judiciário.'
+    ],
+    correct: 'B',
+    explanation: 'LINDB art. 28 (Lei 13.655/18). (A) Falso — LGPD aplica-se à Adm. (arts. 23-30). (C) Falso — Adm. tem outras bases legais (atendimento da finalidade pública, sem consentimento). (D) Falso — LINDB art. 23 prevê regime de transição em mudanças de orientação. (E) Falso — ANPD vinculada ao Min. da Justiça (regime especial — Lei 13.853/19).'
+  },
+  {
+    id: 183, topic: 1, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os princípios do Direito Penal:',
+    alternatives: [
+      'O princípio da legalidade exige que crime e pena sejam definidos por lei, sendo ALÉM dispensável que a lei seja anterior ao fato.',
+      'A retroatividade da lei penal pode ocorrer tanto para beneficiar quanto para prejudicar o réu, conforme determinação legal.',
+      'O princípio da insignificância (STF — HC 84.412) requer 4 vetores cumulativos: mínima ofensividade · ausência de periculosidade social · reduzido grau de reprovabilidade · inexpressividade da lesão jurídica; é afastado em casos de reincidência ou habitualidade.',
+      'No Direito Penal vigora a responsabilidade objetiva, dispensando a comprovação de culpa.',
+      'A intervenção mínima é princípio que prescreve a maximização do uso do Direito Penal em todas as situações de conflito.'
+    ],
+    correct: 'C',
+    explanation: 'STF HC 84.412 (2004). (A) Falso — legalidade exige lei ANTERIOR ao fato (CF 5º XXXIX, CP 1º). (B) Falso — só BENEFICIA o réu (CF 5º XL). (D) Falso — não há responsabilidade objetiva no Penal (princípio da culpabilidade). (E) Falso — intervenção mínima = ULTIMA RATIO (uso restrito, não maximização).'
+  },
+  {
+    id: 184, topic: 2, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a aplicação da lei penal:',
+    alternatives: [
+      'O tempo do crime adota a teoria do RESULTADO (CP art. 4º), considerando-se praticado o crime no momento em que se produz o efeito.',
+      'O lugar do crime adota a teoria da ATIVIDADE (CP art. 6º), considerando-se praticado o crime onde ocorre a ação.',
+      'O tempo do crime adota a teoria da ATIVIDADE (CP art. 4º — momento da ação/omissão); o lugar do crime adota a teoria da UBIQUIDADE (CP art. 6º — lugar da ação OU do resultado).',
+      'A combinação de leis (combinatio legis) é admitida pelo STF, permitindo escolher partes mais benéficas de leis distintas.',
+      'A lei penal intermediária não pode ser aplicada, sendo vedada a aplicação retroativa em qualquer hipótese.'
+    ],
+    correct: 'C',
+    explanation: 'CP arts. 4º e 6º. (A) Falso — atividade (não resultado). (B) Falso — ubiquidade (não atividade). (D) Falso — STF VEDA combinatio legis (RE 596.152, 2011). (E) Falso — lei intermediária aplicável se mais benéfica (lex mitior).'
   }
 ],
 

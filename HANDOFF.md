@@ -48,13 +48,13 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **95 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 8 Adm com sinopse Juspodivm-like
-- **48 esqueletos prontos** distribuídos em 5 matérias (4 adm, 8 elei, 10 trib, 14 penal, 12 pp).
+- **101 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 2 Penal
+- **42 esqueletos prontos** distribuídos em 4 matérias (8 elei, 10 trib, 12 penal, 12 pp).
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **509 flashcards**
-- **178 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **523 flashcards**
+- **184 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
 - **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
@@ -97,11 +97,11 @@ Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata
 | Matéria | Esqueletos restantes |
 |---------|-------------------|
 | ~~Constitucional~~ | ✅ 0 (100% completo) |
-| Administrativo | 4 (de 12 — adm-01 a 08 prontos) |
+| ~~Administrativo~~ | ✅ 0 (100% completo) |
 | Eleitoral | 8 |
 | Tributário/Financeiro | 10 |
 | ~~Teoria do MP~~ | ✅ 0 (100% completo) |
-| Penal/Criminologia | 14 |
+| Penal/Criminologia | 12 (de 14 — penal-01 e 02 prontos) |
 | Processo Penal | 12 |
 | ~~Material Coletivo~~ | ✅ 0 (100% completo) |
 | ~~Processual Coletivo~~ | ✅ 0 (100% completo) |
@@ -182,17 +182,18 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #12** — Rodada 5: **ColMat 100% completa** (colmat-09 Urbanístico, colmat-10 Patrimônio Cultural, colmat-11 Improbidade, colmat-12 Comunidades Tradicionais) + **Const 2/12 iniciado** (const-01 Teoria, const-02 Eficácia). +30 cards e +6 questões. Total: 77 preenchidos.
 - **PR #13** — Rodada 6: **Const 8/12**. +20 cards e +6 questões. Total: 83 preenchidos.
 - **PR #14** — Rodada 7: **Const 100%** + Adm 2/12. Total: 89.
-- **PR #15** (este) — Rodada 8: **Adm 8/12** (adm-03 Poderes administrativos, adm-04 Servidores, adm-05 Bens públicos, adm-06 Licitações Lei 14.133, adm-07 Serviços públicos, adm-08 RC Estado). +16 cards e +6 questões. Total: **95 preenchidos**.
+- **PR #15** — Rodada 8: Adm 8/12. Total: 95.
+- **PR #16** (este) — Rodada 9: **Adm 100% completo** (adm-09 Improbidade processual, adm-10 Controle, adm-11 Intervenção propriedade, adm-12 LGPD/LINDB) + **Penal 2/14 iniciado** (penal-01 Princípios, penal-02 Aplicação da lei). +14 cards e +6 questões. Total: **101 preenchidos** (70%).
 
 ## Stats atuais
 
-- **143 tópicos** (**95 com conteúdo** + 48 esqueletos com outline)
-- **509 flashcards**
-- **178 questões** com gabarito comentado
+- **143 tópicos** (**101 com conteúdo** + 42 esqueletos com outline) — **70% concluído!**
+- **523 flashcards**
+- **184 questões** com gabarito comentado
 - **88 súmulas** STF/STJ
-- ~21.000 linhas em `assets/data.js`
+- ~23.000 linhas em `assets/data.js`
 
-### Tópicos preenchidos (95)
+### Tópicos preenchidos (101)
 
 - **Processo Civil 1-30** (30)
 - **Direito Civil 1-17** (17)
@@ -200,7 +201,8 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **Teoria do MP 1-8** (8) — **100%**
 - **Material Coletivo 1-12** (12) — **100%**
 - **Constitucional 1-12** (12) — **100%**
-- **Administrativo 1-8** (8 de 12): Princípios, Atos, Poderes, Servidores, Bens, Licitações, Serviços públicos, RC Estado. Faltam: adm-09 a 12
+- **Administrativo 1-12** (12) — **100%**
+- **Penal 1-2** (2 de 14): Princípios, Aplicação da lei. Faltam: penal-03 a 14
 
 ### Próxima rodada sugerida (Rodada 6)
 
