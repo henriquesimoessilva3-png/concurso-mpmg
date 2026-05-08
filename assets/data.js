@@ -7052,12 +7052,703 @@ topics: [
       ]
     }
   ] },
-  { id: 'colmat-03-estatuto-idoso', num: 3, materia: 'colmat', title: 'Estatuto do Idoso e Estatuto da Pessoa Idosa', edital: '4.1.3', editalText: 'Lei 10.741/03 (atual Estatuto da Pessoa Idosa). Direitos, prioridade, tutela.', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios e direitos fundamentais', 'Prioridade absoluta', 'Atendimento à saúde (SUS)', 'BPC/LOAS', 'Violência contra pessoa idosa', 'Crimes do estatuto', 'Medidas protetivas e atuação do MP'], sections: [] },
-  { id: 'colmat-04-pessoa-com-deficiencia', num: 4, materia: 'colmat', title: 'Pessoa com Deficiência (Lei 13.146/15)', edital: '4.1.4', editalText: 'LBI. Convenção de NY (status de EC). Capacidade civil. Acessibilidade.', size: 'Médio', schedule: null, advantage: null, outline: ['Convenção de NY (Decreto 6.949/09 — status de EC)', 'Lei 13.146/15 (LBI)', 'Capacidade civil (alterações no CC arts. 3º e 4º)', 'Tomada de decisão apoiada (CC art. 1.783-A)', 'Curatela compartilhada', 'Acessibilidade', 'Inclusão escolar e profissional', 'BPC à PCD'], sections: [] },
-  { id: 'colmat-05-educacao', num: 5, materia: 'colmat', title: 'Educação', edital: '4.1.5', editalText: 'CF arts. 205-214. LDB (9.394/96). FUNDEB. Educação especial e inclusiva.', size: 'Médio', schedule: null, advantage: null, outline: ['Direito à educação (CF arts. 205-214)', 'LDB (Lei 9.394/96)', 'FUNDEB (EC 108/20)', 'Educação especial e inclusiva', 'Vagas em creche — direito subjetivo (STJ Tema 548)', 'Educação domiciliar', 'Atuação do MP (vagas, reserva de vagas, acompanhamento)'], sections: [] },
-  { id: 'colmat-06-saude', num: 6, materia: 'colmat', title: 'Saúde (SUS)', edital: '4.1.6', editalText: 'CF arts. 196-200. Lei 8.080/90. Lei 8.142/90. Judicialização.', size: 'Médio', schedule: null, advantage: null, outline: ['CF arts. 196-200 — direito à saúde', 'Lei 8.080/90 — SUS (princípios, organização)', 'Lei 8.142/90 — controle social', 'Judicialização da saúde — Tema 793 STF', 'NATs e Resolução CNJ 238', 'Medicamentos (Tema 6, Tema 793)', 'Plano de saúde (Lei 9.656/98)'], sections: [] },
-  { id: 'colmat-07-consumidor', num: 7, materia: 'colmat', title: 'Direito do Consumidor (CDC)', edital: '4.1.7', editalText: 'Lei 8.078/90. Conceito de consumidor. Vícios e fato. Práticas abusivas. Coletivo.', size: 'Grande', schedule: null, advantage: null, outline: ['Princípios e conceito de consumidor (CDC arts. 2º, 17, 29)', 'Fornecedor, produto e serviço', 'Direitos básicos (CDC art. 6º)', 'Responsabilidade pelo fato e pelo vício', 'Práticas comerciais (oferta, publicidade, abusiva, cobrança)', 'Cláusulas abusivas (CDC art. 51)', 'Tutela individual e coletiva', 'Convenção coletiva de consumo'], sections: [] },
-  { id: 'colmat-08-meio-ambiente', num: 8, materia: 'colmat', title: 'Meio Ambiente', edital: '4.1.8', editalText: 'CF art. 225. Lei 6.938/81. PNMA. Princípios. Tutela civil, administrativa, penal.', size: 'Grande', schedule: null, advantage: null, outline: ['CF art. 225 — meio ambiente ecologicamente equilibrado', 'Princípios (precaução, prevenção, poluidor-pagador, desenvolvimento sustentável)', 'Lei 6.938/81 — PNMA e SISNAMA', 'Responsabilidade civil ambiental — objetiva', 'Tríplice responsabilização (civil, adm., penal)', 'Lei 9.605/98 — crimes ambientais', 'Áreas de preservação permanente e reserva legal (Lei 12.651/12)', 'Atuação do MP (TAC, ACP)'], sections: [] },
+  { id: 'colmat-03-estatuto-idoso', num: 3, materia: 'colmat', title: 'Estatuto do Idoso e Estatuto da Pessoa Idosa', edital: '4.1.3', editalText: 'Lei 10.741/03 (atual Estatuto da Pessoa Idosa). Direitos, prioridade, tutela.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — atende denúncias de violência contra idosos via IC/ACP).', outline: ['Princípios e direitos fundamentais', 'Prioridade absoluta', 'Atendimento à saúde (SUS)', 'BPC/LOAS', 'Violência contra pessoa idosa', 'Crimes do estatuto', 'Medidas protetivas e atuação do MP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Lei 10.741/2003** — originalmente "Estatuto do Idoso", **renomeada pela Lei 14.423/2022 como "Estatuto da Pessoa Idosa"** — é o microssistema de tutela dos direitos da população com **60 anos ou mais** (art. 1º). Combina elementos de direitos fundamentais, direito civil (curatela, alimentos), direito penal (crimes específicos), processual (prioridade) e administrativo (políticas públicas).' },
+        { type: 'p', text: 'Inspira-se na **doutrina da PROTEÇÃO INTEGRAL** (assemelhada à do ECA, mas com adaptações: a pessoa idosa é, em regra, plenamente capaz). Seu vetor central é a **PRIORIDADE ABSOLUTA** (art. 3º, replicada do ECA art. 4º), com adaptação para considerar a vulnerabilidade etária. Atribui também à **família, à sociedade e ao Estado** a tutela compartilhada (art. 3º).' },
+        { type: 'p', text: 'Para o concurso, atenção a: (a) **prioridade absoluta** e suas dimensões (atendimento, tramitação processual); (b) **direito à saúde** (SUS, medicamentos, geriatria); (c) **BPC/LOAS** — benefício assistencial; (d) **violência** — modalidades, denúncia, medidas protetivas; (e) **crimes do estatuto** (rol amplo); (f) **atuação do MP** — IC, ACP, intervenção em ações onde haja idoso.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Lei 10.741/03 — Disposições gerais' },
+        { type: 'list', items: [
+          '**Art. 1º** — pessoa idosa: 60 anos ou mais',
+          '**Art. 2º** — direitos fundamentais com prioridade',
+          '**Art. 3º** — PRIORIDADE ABSOLUTA + responsabilidade compartilhada (família, sociedade, Estado)',
+          '**Art. 3º §1º** — extensão da prioridade: atendimento preferencial, preferência em políticas públicas, destinação de recursos',
+          '**Art. 3º §2º** — entre os IDOSOS: prioridade especial aos com 80 anos ou mais (Lei 13.466/17)',
+          '**Art. 4º** — vedação a discriminação, violência, opressão'
+        ]},
+
+        { type: 'h', text: 'Direitos fundamentais (Capítulos II-X)' },
+        { type: 'list', items: [
+          '**Vida** (art. 9º) — proteção integral',
+          '**Liberdade, respeito e dignidade** (arts. 10-13)',
+          '**Alimentos** (arts. 11-14) — solidariedade na obrigação alimentar',
+          '**Saúde** (arts. 15-19) — atendimento integral pelo SUS, medicamentos gratuitos, geriatria',
+          '**Educação, cultura, esporte e lazer** (arts. 20-25)',
+          '**Profissionalização e trabalho** (arts. 26-28)',
+          '**Previdência social** (arts. 29-32)',
+          '**Assistência social** (arts. 33-36) — BPC',
+          '**Habitação** (arts. 37-38) — desconto, programas habitacionais',
+          '**Transporte** (arts. 39-42) — gratuidade, reserva, prioridade'
+        ]},
+
+        { type: 'h', text: 'Tutela e medidas protetivas (arts. 43-55)' },
+        { type: 'list', items: [
+          '**Art. 43** — medidas aplicáveis quando direitos violados (ação ou omissão)',
+          '**Art. 45** — rol exemplificativo: encaminhamento à família, abrigamento temporário, inclusão em programas',
+          'Idoso em SITUAÇÃO DE RISCO (analógico ao ECA art. 98)',
+          '**Atuação do MP** (arts. 71-78) — legitimado para ACP, IC, intervenção em causas onde haja idoso'
+        ]},
+
+        { type: 'h', text: 'Crimes (arts. 96-110)' },
+        { type: 'list', items: [
+          '**Art. 96** — discriminar idoso',
+          '**Art. 97** — não prestar assistência',
+          '**Art. 98** — abandonar em hospital, casa de saúde',
+          '**Art. 99** — expor a perigo a integridade e saúde física ou psíquica',
+          '**Art. 102** — apropriar-se ou desviar bens, proventos, pensão',
+          '**Art. 105-107** — exibir/apresentar imagens degradantes; coagir a doação',
+          '**Art. 110-A** — Lei 14.811/24 — qualificadora de homicídio quando vítima é idoso'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Conceito etário e prioridade especial dos 80+' },
+        { type: 'p', text: 'Pessoa idosa = **60 anos completos ou mais** (art. 1º). Atenção: definição da OMS (60+ países em desenvolvimento, 65+ países desenvolvidos) é diferente — a lei brasileira fixou em 60 para todos. **Lei 13.466/17 inseriu o §2º do art. 3º:** entre os idosos, há ainda a **prioridade ESPECIAL para os com 80 anos ou mais** — em filas, atendimento, processos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 1.069 (REsp 1.937.407):** prioridade dos 80+ aplica-se também à prevalência em pagamento de precatórios (CF 100 §2º). Banca explora.' },
+
+        { type: 'h', text: 'Saúde — direitos específicos' },
+        { type: 'p', text: '**SUS** assegura atenção integral, com prioridade. Idoso tem direito a **medicamentos gratuitos** (continuidade) — incluindo de uso continuado. Inserção em **GERIATRIA/GERONTOLOGIA** especializada. Recusa indevida ao atendimento configura crime (art. 97) ou improbidade administrativa.' },
+        { type: 'p', text: '**Plano de saúde:** Lei 9.656/98 com Lei 13.003/14 e a **Súmula 597/STJ** vedam a recusa a contratar com idoso ou a aplicar reajustes desproporcionais por idade. Cláusula contratual abusiva é nula (CDC 51 + LCC).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 597:** "A cláusula contratual de plano de saúde que prevê reajuste por mudança de faixa etária do idoso é abusiva, salvo se demonstrada a justificativa técnica e atuarial."' },
+
+        { type: 'h', text: 'BPC / LOAS — benefício assistencial' },
+        { type: 'p', text: 'Lei 8.742/93 (LOAS) art. 20: **BPC = 1 salário mínimo mensal** ao idoso (65 anos+) ou PCD em situação de hipossuficiência (renda per capita inferior a 1/4 do SM, com gradações). NÃO é aposentadoria — é assistencial. Não exige contribuição prévia. Não gera 13º. Pode ser cumulado em algumas situações (estudo do critério renda).' },
+        { type: 'box', kind: 'atencao', text: '**BPC: 65 anos** (não 60). Diferença com a definição de idoso (60). Pegadinha frequente. Critério LOAS art. 20.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 567.985 (Tema 27):** afastou rigidez do critério de 1/4 do SM como único parâmetro de hipossuficiência. Pode haver flexibilização pelo juiz com base em outros elementos. Cobrança certa.' },
+
+        { type: 'h', text: 'Violência contra pessoa idosa' },
+        { type: 'p', text: 'Modalidades: **física, psicológica, sexual, financeira (mais comum), negligência, abandono**. Notificação compulsória aos órgãos de proteção. Medidas protetivas analógicas à Lei Maria da Penha quando a violência ocorre em contexto familiar. Lei 14.811/24 ampliou tipificação penal (homicídio qualificado).' },
+        { type: 'box', kind: 'info', text: '**Disque 100** — canal nacional de denúncia. **Delegacia do Idoso** — em alguns estados. **Promotorias do Idoso** (em MG, há CAOP do Idoso).' },
+
+        { type: 'h', text: 'Atuação do MP' },
+        { type: 'p', text: 'O MP é legitimado para: (a) **ACP** em defesa de interesses difusos, coletivos ou individuais homogêneos (art. 74); (b) **IC** prévio; (c) **TAC**; (d) **intervenção** obrigatória em ações onde haja idoso vulnerável (analogia art. 178 CPC); (e) **medidas protetivas** (art. 43); (f) **substituição processual** em casos de incapacidade de fato (curatela).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Idoso = 60 anos+. Idoso 80+ = prioridade ESPECIAL (Lei 13.466/17).** Não confundir com BPC (65 anos+).' },
+        { type: 'box', kind: 'macete', text: '**Tutela compartilhada: FAMÍLIA · SOCIEDADE · ESTADO** (art. 3º). Mesmo trio do ECA art. 4º.' },
+        { type: 'box', kind: 'macete', text: '**Estatuto renomeado (Lei 14.423/22): "Estatuto da PESSOA IDOSA".** Antes: Estatuto do Idoso. Conteúdo idêntico.' },
+        { type: 'box', kind: 'macete', text: '**Súmula 597 STJ — reajuste por faixa etária do idoso em plano de saúde é ABUSIVO** (salvo justificativa técnica/atuarial).' },
+        { type: 'box', kind: 'macete', text: '**BPC = 1 SM · 65 anos+ ou PCD · LOAS art. 20 · sem contribuição.** Não confundir com aposentadoria.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Idoso é 60 anos OU MAIS — não 65, nem 70.** Pegadinha do enunciado pode trocar idade.' },
+        { type: 'box', kind: 'atencao', text: '**BPC exige 65 anos**, não 60. Critério da LOAS art. 20, NÃO do Estatuto.' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa idosa é, EM REGRA, PLENAMENTE CAPAZ.** A vulnerabilidade não retira a capacidade civil. Curatela é exceção, e mesmo assim ampliada pela LBI (Lei 13.146/15) — apenas curatela patrimonial, em regra.' },
+        { type: 'box', kind: 'atencao', text: '**Crimes do Estatuto da Pessoa Idosa: ação penal PÚBLICA INCONDICIONADA.** Diferente de alguns crimes contra honra (Lei 7.716/89 vs. CP 138-140).' },
+        { type: 'box', kind: 'atencao', text: '**Estatuto NÃO substitui medidas do Código Penal** — em concurso aparente, pode haver consunção, especialidade ou cúmulo material conforme o caso. Crimes do Estatuto são em regra ESPECIAIS em relação aos do CP quando a vítima é idosa.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** prioridade absoluta tem matriz no princípio da DIGNIDADE DA PESSOA HUMANA (CF 1º III).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** estrutura paralela — proteção integral, prioridade absoluta, tutela compartilhada.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 6 (Saúde):** SUS prioritário ao idoso; judicialização frequente.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 7 (incapacidades):** pessoa idosa é, em regra, capaz. Curatela é exceção (CC 1.767+ com LBI).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP legitimado para ACP em defesa de idosos — Estatuto art. 74.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — crimes contra a pessoa:** Lei 14.811/24 inseriu qualificadora no homicídio quando vítima é idoso (CP 121 §2º X).' }
+      ]
+    }
+  ] },
+  { id: 'colmat-04-pessoa-com-deficiencia', num: 4, materia: 'colmat', title: 'Pessoa com Deficiência (Lei 13.146/15)', edital: '4.1.4', editalText: 'LBI. Convenção de NY (status de EC). Capacidade civil. Acessibilidade.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem indireta (Analista MP — atua em ACP de inclusão escolar e BPC).', outline: ['Convenção de NY (Decreto 6.949/09 — status de EC)', 'Lei 13.146/15 (LBI)', 'Capacidade civil (alterações no CC arts. 3º e 4º)', 'Tomada de decisão apoiada (CC art. 1.783-A)', 'Curatela compartilhada', 'Acessibilidade', 'Inclusão escolar e profissional', 'BPC à PCD'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A tutela da **Pessoa com Deficiência (PCD)** é estruturada sobre dois eixos normativos centrais: (i) a **Convenção sobre os Direitos das Pessoas com Deficiência (Convenção de Nova York, ONU, 2007)**, internalizada pelo **Decreto 6.949/2009**; e (ii) a **Lei Brasileira de Inclusão (LBI — Lei 13.146/2015)**, conhecida também como Estatuto da Pessoa com Deficiência.' },
+        { type: 'p', text: 'A Convenção de NY ostenta **STATUS CONSTITUCIONAL FORMAL** — foi o **PRIMEIRO TRATADO** aprovado pelo rito do art. 5º §3º CF (3/5 em 2 turnos em cada Casa). É equivalente a EC. Junto com o **Tratado de Marraquexe** (Decreto 9.522/18 — acesso a obras impressas a PCD com deficiência visual), forma o pequeno grupo de tratados de DH com status constitucional formal no Brasil.' },
+        { type: 'p', text: 'A LBI alterou substancialmente o **Código Civil (arts. 3º e 4º)** — promovendo o que a doutrina chamou de **"REVOLUÇÃO COPERNICANA" da capacidade civil**: a deficiência, isoladamente, deixou de ser causa de incapacidade. Inaugurou a **TOMADA DE DECISÃO APOIADA (TDA)** (CC 1.783-A) e reservou a **curatela** apenas para atos PATRIMONIAIS, mantendo plena capacidade existencial.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Convenção de NY (Decreto 6.949/09) — destaques' },
+        { type: 'list', items: [
+          '**Art. 1º** — propósito: promover, proteger e assegurar direitos humanos e liberdades fundamentais',
+          '**Art. 2º** — definições (deficiência, comunicação, discriminação)',
+          '**Art. 3º** — princípios (autonomia, não-discriminação, inclusão plena)',
+          '**Art. 5º** — igualdade e não-discriminação',
+          '**Art. 9º** — acessibilidade',
+          '**Art. 12** — reconhecimento igual perante a lei (capacidade jurídica)',
+          '**Art. 24** — educação inclusiva',
+          '**Art. 27** — trabalho e emprego'
+        ]},
+
+        { type: 'h', text: 'LBI (Lei 13.146/15)' },
+        { type: 'list', items: [
+          '**Art. 2º** — conceito de pessoa com deficiência (modelo BIOPSICOSSOCIAL — não apenas médico)',
+          '**Art. 6º** — **PCD MANTÉM PLENA CAPACIDADE CIVIL** (núcleo da reforma)',
+          '**Art. 84** — apoio para autonomia: TDA, curatela, residência inclusiva',
+          '**Art. 85** — curatela: medida EXTRAORDINÁRIA, restrita a atos PATRIMONIAIS',
+          '**Art. 116** — alterações no CC: art. 3º (incapacidade absoluta restrita aos menores de 16) e art. 4º (incapacidade relativa)',
+          '**Art. 117-127** — alterações no CC, CPC, ECA',
+          '**Art. 28** — educação inclusiva (matrícula obrigatória)',
+          '**Art. 53** — acessibilidade (direito fundamental)',
+          '**Art. 88** — discriminação (crime: 1 a 3 anos + multa)'
+        ]},
+
+        { type: 'h', text: 'Código Civil — pós-LBI' },
+        { type: 'list', items: [
+          '**Art. 3º (REDAÇÃO LBI)** — absolutamente incapazes: APENAS os menores de 16 anos. Excluiu deficientes mentais',
+          '**Art. 4º (REDAÇÃO LBI)** — relativamente incapazes: maiores de 16 e menores de 18, ébrios habituais e viciados em tóxicos, "aqueles que, por causa transitória ou permanente, não puderem exprimir sua vontade", pródigos. EXCLUIU deficiência mental como hipótese isolada',
+          '**Art. 1.783-A** — TOMADA DE DECISÃO APOIADA (TDA) — instituto novo trazido pela LBI'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Convenção de NY — primeiro tratado com status constitucional formal' },
+        { type: 'p', text: 'Aprovada pelo Decreto Legislativo 186/2008 e promulgada pelo Decreto 6.949/2009. Foi aprovada pelo **rito do art. 5º §3º** — 3/5 dos votos em 2 turnos de votação em cada Casa do Congresso. Por isso, status de **EMENDA CONSTITUCIONAL**. Tratados de DH aprovados pelo rito comum têm apenas status SUPRALEGAL (STF RE 466.343, 2008).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Importante:** Tratado de Marraquexe (acesso a obras impressas, PCD visual) foi o SEGUNDO aprovado pelo rito §3º (Decreto 9.522/18). Hoje, são esses dois apenas com status formal de EC. Banca explora exclusivamente tabelas comparativas de tratados.' },
+
+        { type: 'h', text: 'Modelo biopsicossocial de deficiência (LBI art. 2º)' },
+        { type: 'p', text: 'Antes da LBI, a deficiência era tratada por **modelo MÉDICO** (impedimento físico/mental como característica intrínseca da pessoa). A LBI consagra o **modelo BIOPSICOSSOCIAL**: deficiência é a **interação entre os impedimentos e as barreiras** existentes na sociedade. Logo, alterar o ambiente (barreiras) reduz/elimina a "deficiência".' },
+        { type: 'p', text: '**Tipos de barreiras (LBI art. 3º IV):** urbanísticas, arquitetônicas, transportes, comunicações, atitudinais, tecnológicas. Não há "uma deficiência" universal — depende do contexto.' },
+
+        { type: 'h', text: 'Capacidade civil — revolução LBI' },
+        { type: 'p', text: 'A LBI **eliminou a deficiência psíquica/intelectual** como causa autônoma de incapacidade. Hoje, são absolutamente incapazes apenas os menores de 16. PCDs adultas, em regra, são PLENAMENTE CAPAZES (LBI art. 6º). Apenas em caso de impossibilidade de manifestar vontade (causa transitória ou permanente — CC 4º III) é que cabe falar em incapacidade relativa.' },
+        { type: 'box', kind: 'atencao', text: '**LBI alterou drasticamente o sistema de incapacidades.** Antes: doença mental + ausência de discernimento = incapaz absoluto. Depois: PCD é regra capaz; incapacidade depende de NÃO PODER EXPRIMIR VONTADE (vontade ausente, não vontade "viciada").' },
+
+        { type: 'h', text: 'Tomada de Decisão Apoiada (TDA) — CC 1.783-A' },
+        { type: 'p', text: 'Instituto NOVO. A PCD escolhe **PELO MENOS 2 PESSOAS DE CONFIANÇA** (apoiadores) que a auxiliam em decisões da vida civil. **Não substituem** a vontade da PCD — apenas a apoiam. Decisões são da PCD; apoiadores acompanham, opinam, fortalecem. Procedimento JUDICIAL — homologação por sentença. Pode ser revogada a qualquer tempo pela PCD.' },
+        { type: 'p', text: '**TDA × CURATELA:** TDA preserva autonomia integral. Curatela retira parcialmente. TDA é **regra**; curatela é **exceção** e medida extraordinária (LBI art. 84 §1º), restrita a atos patrimoniais (LBI art. 85), por prazo determinado (LBI art. 84 §3º).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 1.927.423 (2021):** TDA pode ser concedida mesmo a quem não tem deficiência formalmente reconhecida — basta diminuição da autonomia. Tendência expansiva.' },
+
+        { type: 'h', text: 'Acessibilidade e inclusão' },
+        { type: 'p', text: '**Acessibilidade arquitetônica e urbanística:** prazos para adaptação. **Educação inclusiva** (LBI art. 28): rede regular obrigada a receber PCDs, com adaptações razoáveis. **Reserva de vagas** em concursos públicos (CF 37 VIII + Lei 7.853/89 + Lei 8.213/91 art. 93). **BPC** (Lei 8.742/93): 1 SM para PCDs hipossuficientes.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula Vinculante 6 (relativa a militares):** não confundir. Para concursos civis: reserva mínima de 5% (Lei 8.112/90 art. 5º §2º). Tema cobrado.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Convenção de NY (Decreto 6.949/09): PRIMEIRO tratado com status de EC (rito §3º).** Marraquexe é o SEGUNDO. São apenas 2.' },
+        { type: 'box', kind: 'macete', text: '**Modelo BIOPSICOSSOCIAL: deficiência = impedimento + BARREIRAS.** Não é só do indivíduo, é da interação com a sociedade.' },
+        { type: 'box', kind: 'macete', text: '**LBI: PCD é PLENAMENTE CAPAZ (regra).** Incapacidade pressupõe NÃO PODER EXPRIMIR VONTADE — não basta deficiência.' },
+        { type: 'box', kind: 'macete', text: '**TDA = ≥2 apoiadores · NÃO substitui · curatela é exceção · só patrimonial.** CC 1.783-A.' },
+        { type: 'box', kind: 'macete', text: '**Reserva 5% em concursos federais (Lei 8.112).** Estaduais variam (em geral 10-20%).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Convenção de NY: status FORMAL de EC.** Outros tratados de DH (CADH, ICCPR) são apenas SUPRALEGAIS (rito comum). Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**LBI revogou totalmente a deficiência como causa de incapacidade absoluta.** Não confundir com a possibilidade de incapacidade relativa por NÃO PODER EXPRIMIR VONTADE (CC 4º III).' },
+        { type: 'box', kind: 'atencao', text: '**Curatela é EXCEPCIONAL e PATRIMONIAL.** PCD continua capaz para atos existenciais (casar, ter filhos, votar, testemunhar) — LBI art. 85.' },
+        { type: 'box', kind: 'atencao', text: '**TDA NÃO substitui vontade da PCD.** Apoiadores acompanham. Diferente da curatela, em que o curador EXPRIME a vontade.' },
+        { type: 'box', kind: 'atencao', text: '**BPC à PCD: 1 SM, sem contribuição prévia. Não confundir com aposentadoria por invalidez.** BPC = LOAS art. 20. Aposentadoria = RGPS.' },
+        { type: 'box', kind: 'atencao', text: '**Discriminação contra PCD = crime (LBI art. 88: 1-3 anos + multa).** Pena aumentada se vítima for criança, idoso ou se decorrer de relação de trabalho.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** Convenção de NY é exemplo paradigmático de tratado de DH com status de EC.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 5 (capacidades):** LBI alterou os arts. 3º e 4º do CC — leitura conjunta obrigatória.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil — TDA e Curatela:** novidades trazidas pela LBI. CC art. 1.783-A e ss.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 5 (Educação):** educação inclusiva (LBI art. 28) — direito subjetivo da PCD.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** sobreposição quando idoso é PCD — concurso de proteções.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACP para garantia de acessibilidade, vagas educacionais, BPC negados.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-05-educacao', num: 5, materia: 'colmat', title: 'Educação', edital: '4.1.5', editalText: 'CF arts. 205-214. LDB (9.394/96). FUNDEB. Educação especial e inclusiva.', size: 'Médio', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — atua em ACP de matrícula em creche e inclusão).', outline: ['Direito à educação (CF arts. 205-214)', 'LDB (Lei 9.394/96)', 'FUNDEB (EC 108/20)', 'Educação especial e inclusiva', 'Vagas em creche — direito subjetivo (STJ Tema 548)', 'Educação domiciliar', 'Atuação do MP (vagas, reserva de vagas, acompanhamento)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **direito à educação** é direito social fundamental (**CF art. 6º**) e direito de TODOS, com responsabilidade compartilhada de **Estado, família e sociedade** (CF art. 205). Tem natureza de **direito subjetivo público**, exigível em juízo, e vinculante para os entes federativos (União, Estados, DF, Municípios — competência concorrente CF 24 IX).' },
+        { type: 'p', text: 'A disciplina legal centra-se na **Lei 9.394/1996 — Lei de Diretrizes e Bases da Educação (LDB)**, que organiza os níveis (educação básica e superior) e modalidades (regular, EJA, especial, profissional, indígena, do campo, à distância, escolar quilombola). O financiamento mínimo está blindado constitucionalmente (CF 212) e operacionalizado pelo **FUNDEB** (Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais — EC 108/2020 tornou permanente).' },
+        { type: 'p', text: 'Para a prova: (a) **direitos subjetivos exigíveis** (creche, ensino fundamental); (b) **piso salarial dos professores** (Lei 11.738/08, STF ADI 4.167); (c) **educação inclusiva** (LBI art. 28); (d) **STF e STJ sobre judicialização da educação** (vagas em creche, transporte escolar, merenda); (e) **atuação do MP** (vetor importantíssimo — Promotorias da Infância e da Educação atuam intensamente).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 205-214 — Educação' },
+        { type: 'list', items: [
+          '**Art. 205** — direito de todos, dever do Estado e da família',
+          '**Art. 206** — princípios: igualdade de acesso, gratuidade no ensino público, gestão democrática, valorização dos profissionais, piso salarial nacional',
+          '**Art. 208** — dever do Estado: educação básica obrigatória e gratuita dos 4 aos 17 anos (EC 59/09)',
+          '**Art. 208 IV** — educação infantil (creche e pré-escola) até 5 anos',
+          '**Art. 208 §1º** — acesso ao ensino obrigatório é DIREITO PÚBLICO SUBJETIVO',
+          '**Art. 208 §2º** — não-oferta enseja responsabilidade do Poder Público',
+          '**Art. 211** — competências (União, Estados, DF, Municípios)',
+          '**Art. 212** — investimento mínimo: União 18%, Estados/DF/Municípios 25% das receitas',
+          '**Art. 213 e 214** — PNE (Plano Nacional de Educação)'
+        ]},
+
+        { type: 'h', text: 'LDB (Lei 9.394/96)' },
+        { type: 'list', items: [
+          '**Art. 4º** — dever do Estado (vagas obrigatórias, transporte, merenda)',
+          '**Art. 5º** — direito público subjetivo: ensino fundamental e médio. Pode ser exigido individual ou coletivamente',
+          '**Art. 21** — níveis: educação básica (infantil, fundamental, médio) + superior',
+          '**Art. 30** — educação infantil: creche (0-3) e pré-escola (4-5)',
+          '**Art. 32** — ensino fundamental obrigatório (9 anos)',
+          '**Art. 35** — ensino médio (3 anos)',
+          '**Art. 58 e ss.** — educação especial (modalidade transversal)'
+        ]},
+
+        { type: 'h', text: 'FUNDEB e financiamento' },
+        { type: 'list', items: [
+          '**EC 108/2020** — tornou o FUNDEB PERMANENTE',
+          '**Lei 14.113/2020** — disciplina',
+          '**CAQ** — Custo Aluno-Qualidade — referência para complementação',
+          '**Lei do Piso (Lei 11.738/08)** — STF ADI 4.167: constitucional, com efeitos prospectivos. Piso reajustado anualmente'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Direito subjetivo público à creche — Tema 548 STF' },
+        { type: 'p', text: 'A vaga em creche (0-3 anos) e na pré-escola (4-5 anos) é **DIREITO SUBJETIVO PÚBLICO** exigível judicialmente — desde a EC 59/09. STF firmou tese no **Tema 548** que SUPEROU a doutrina da reserva do possível em matéria de educação infantil — Estado não pode escusar-se a fornecer vaga sob alegação de insuficiência orçamentária.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 548/RE 956.475 (2017):** "A reserva do possível, como cláusula limitadora dos direitos sociais, NÃO pode ser invocada para AFASTAR direito fundamental tratado pela CF como direito público subjetivo (educação infantil)." Tese vinculante.' },
+
+        { type: 'h', text: 'EC 59/09 — obrigatoriedade dos 4 aos 17 anos' },
+        { type: 'p', text: 'Antes da EC 59/09, a obrigatoriedade era do ensino fundamental (7 a 14). A EC 59/09 EXPANDIU para os 4 a 17 anos (pré-escola, fundamental e médio). Hoje, a evasão escolar é problema de TODOS — Conselho Tutelar (ECA) deve ser comunicado em caso de faltas reiteradas.' },
+        { type: 'box', kind: 'atencao', text: '**Educação obrigatória dos 4 aos 17 anos = pré-escola + fundamental + médio.** Banca cobra esse intervalo. NÃO inclui creche (0-3) — para essa há direito subjetivo, mas não obrigatoriedade dos pais matricularem.' },
+
+        { type: 'h', text: 'Educação inclusiva (LBI art. 28)' },
+        { type: 'p', text: 'Rede REGULAR é obrigada a aceitar PCDs, com **adaptações razoáveis** (currículo, prazos, avaliações). NÃO se admite recusa por alegada falta de estrutura — STF, STJ. Profissional de apoio (cuidador, tradutor de Libras, etc.) é responsabilidade do ESTADO, não da família.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 5.357 (2016):** declarou constitucional o art. 28 §1º da LBI — escolas privadas NÃO podem cobrar a mais por matricular PCDs. A inclusão é dever de TODA a rede de ensino.' },
+
+        { type: 'h', text: 'Lei do Piso (Lei 11.738/08) — STF ADI 4.167' },
+        { type: 'p', text: 'Piso salarial nacional dos professores da educação básica. STF declarou CONSTITUCIONAL — entes federativos devem cumprir. Aplica-se também a 1/3 da carga horária para atividades extra-classe (planejamento, correção). Reajuste anual obrigatório, vinculado ao crescimento do FUNDEB.' },
+
+        { type: 'h', text: 'Educação domiciliar (homeschooling)' },
+        { type: 'p', text: 'STF — RE 888.815 (Tema 822, 2018): a CF NÃO veda nem admite expressamente. Cabe à LEI ORDINÁRIA disciplinar. Sem lei específica, **HOJE a educação domiciliar é VEDADA no Brasil** — pais devem matricular obrigatoriamente. Decreto presidencial regulamentou em 2019, mas declaração de inconstitucionalidade afastou aplicação. Lei federal pendente.' },
+        { type: 'box', kind: 'atencao', text: '**Hoje (2026), educação domiciliar é VEDADA no Brasil — Tema 822 STF.** Aprendizado em casa sem matrícula em rede regular constitui descumprimento dos pais (responsabilidade penal: abandono intelectual — CP 246).' },
+
+        { type: 'h', text: 'Atuação do MP em educação' },
+        { type: 'p', text: 'O MP atua em: (a) **ACP** para vaga em creche/escola; (b) **TAC** com Município sobre transporte escolar, merenda, infraestrutura; (c) **IC** para apurar superlotação, recusa de matrícula, falta de profissional de apoio; (d) **Recomendação** sobre cumprimento de cotas (PCD, raça); (e) atuação no Conselho Tutelar e no Conselho Municipal de Educação.' },
+        { type: 'box', kind: 'info', text: '**Em MG: CAOP da Educação e CAOP da Infância e Juventude** — atuam de forma integrada nessas demandas. Vantagem da candidata: vivência direta das ACPs de vaga em creche.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Educação obrigatória: 4 aos 17 anos (EC 59/09).** Pré-escola + fundamental + médio. Mnemônico: "EC 59/09 expandiu de 7-14 para 4-17".' },
+        { type: 'box', kind: 'macete', text: '**Direito subjetivo público (CF 208 §1º): ensino OBRIGATÓRIO + creche (Tema 548).**' },
+        { type: 'box', kind: 'macete', text: '**Investimento mínimo: União 18% · Estados/Municípios 25%** (CF 212). Educação tem piso constitucional.' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 548:** reserva do possível NÃO afasta direito à creche. Tese firme.' },
+        { type: 'box', kind: 'macete', text: '**FUNDEB permanente (EC 108/20).** Antes era temporário (FUNDEF → FUNDEB). Lei 14.113/20.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Educação obrigatória: 4-17 anos. NÃO inclui creche (0-3).** Mas há direito subjetivo público à creche (não obrigatoriedade aos pais). Distinção sutil.' },
+        { type: 'box', kind: 'atencao', text: '**Reserva do possível NÃO se opõe a direitos sociais quando se trata de mínimo existencial.** STF Tema 548 + ADPF 45. Banca pode trocar.' },
+        { type: 'box', kind: 'atencao', text: '**Educação domiciliar: HOJE VEDADA (Tema 822).** Sem lei federal específica, prevalece a obrigatoriedade da matrícula em rede regular.' },
+        { type: 'box', kind: 'atencao', text: '**Escola privada NÃO pode cobrar a mais por PCD** (STF ADI 5.357). Princípio da inclusão é universal.' },
+        { type: 'box', kind: 'atencao', text: '**Ensino superior NÃO é obrigatório nem gratuito por regra.** Universidades públicas são gratuitas (CF 206 IV) — mas isso é diferente de obrigatório. Formando: ensino superior = oportunidade de acesso, não dever.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** educação é direito humano fundamental — Pacto Internacional (PIDESC art. 13).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** evasão escolar gera atuação do Conselho Tutelar (ECA arts. 56 e 129).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 4 (PCD):** educação inclusiva — LBI art. 28.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACPs de vagas, transporte, infraestrutura — exemplos clássicos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const — direitos sociais:** educação no rol do art. 6º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — improbidade:** desvio de verbas do FUNDEB caracteriza improbidade (LIA art. 11) e ação penal.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-06-saude', num: 6, materia: 'colmat', title: 'Saúde (SUS)', edital: '4.1.6', editalText: 'CF arts. 196-200. Lei 8.080/90. Lei 8.142/90. Judicialização.', size: 'Grande', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — atua em ACP de medicamentos e em IC sobre rede pública).', outline: ['CF arts. 196-200 — direito à saúde', 'Lei 8.080/90 — SUS (princípios, organização)', 'Lei 8.142/90 — controle social', 'Judicialização da saúde — Tema 793 STF', 'NATs e Resolução CNJ 238', 'Medicamentos (Tema 6, Tema 793)', 'Plano de saúde (Lei 9.656/98)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **saúde** é direito de TODOS e dever do Estado (**CF art. 196**), garantida mediante políticas públicas que visem à redução do risco de doença e ao acesso UNIVERSAL e IGUALITÁRIO. Estrutura-se no **SUS — Sistema Único de Saúde** (CF 198), regido pela **Lei 8.080/1990** (Lei Orgânica do SUS) e pela **Lei 8.142/1990** (controle social e financiamento).' },
+        { type: 'p', text: 'O modelo brasileiro é dos mais ambiciosos do mundo: SUS é **UNIVERSAL** (todos têm direito), **GRATUITO** (no ponto de atendimento), **INTEGRAL** (cobre da atenção básica à alta complexidade), **DESCENTRALIZADO** (gestão por estados e municípios) e **PARTICIPATIVO** (Conselhos de Saúde). Convive com a saúde **SUPLEMENTAR** (planos privados — Lei 9.656/98) e a saúde **PRIVADA** (autônoma).' },
+        { type: 'p', text: 'A **JUDICIALIZAÇÃO DA SAÚDE** é tema central. STF e STJ desenvolveram parâmetros para conceder ou negar pedidos individuais de medicamentos/tratamentos não inclusos no SUS — culminando no **Tema 6/STF** (medicamentos não registrados na ANVISA), **Tema 106/STJ** (medicamentos não incorporados ao SUS) e **Tema 793/STF** (responsabilidade solidária dos entes federativos). Conhecer esses temas é OBRIGATÓRIO para a prova.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 196-200' },
+        { type: 'list', items: [
+          '**Art. 196** — saúde é direito de todos e dever do Estado (UNIVERSAL e IGUALITÁRIO)',
+          '**Art. 197** — relevância pública das ações e serviços de saúde',
+          '**Art. 198** — SUS: rede regionalizada e hierarquizada · descentralização · atendimento integral · participação da comunidade',
+          '**Art. 198 §2º** — investimento mínimo: União (variável conforme legislação), Estados 12%, Municípios 15%',
+          '**Art. 199** — assistência à saúde livre à iniciativa privada (saúde suplementar e privada)',
+          '**Art. 200** — atribuições do SUS (controlar produtos, fiscalizar alimentos, sangue, gestão ambiental sanitária)'
+        ]},
+
+        { type: 'h', text: 'Lei 8.080/90 — Lei Orgânica do SUS' },
+        { type: 'list', items: [
+          '**Art. 2º** — saúde é direito fundamental, garantida pelo Estado',
+          '**Art. 4º** — SUS: conjunto de ações e serviços públicos, vinculados a Adm. Pública direta e indireta + fundações',
+          '**Art. 7º** — princípios e diretrizes: UNIVERSALIDADE, INTEGRALIDADE, EQUIDADE, descentralização, participação',
+          '**Arts. 9º-15** — direção do SUS: Ministério da Saúde (federal), SES (estadual), SMS (municipal)',
+          '**Arts. 16-22** — competências por ente federativo',
+          '**Art. 19-M (Lei 12.401/11)** — assistência terapêutica integral: dispensação de medicamentos previstos em protocolos clínicos',
+          '**Lei 12.401/11** — incorporação de tecnologias (CONITEC)'
+        ]},
+
+        { type: 'h', text: 'Lei 8.142/90 — Controle social e financiamento' },
+        { type: 'list', items: [
+          '**Art. 1º** — Conferência de Saúde (4/4 anos) e Conselhos de Saúde (permanente)',
+          '**Art. 2º** — repasses fundo a fundo da União para Estados e Municípios',
+          '**Art. 4º** — requisitos para os entes receberem recursos: Fundo de Saúde · Conselho de Saúde · plano de saúde · etc.'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios do SUS — UIE + DPI' },
+        { type: 'p', text: '**UIE = UNIVERSALIDADE · INTEGRALIDADE · EQUIDADE** — princípios DOUTRINÁRIOS (do "para quem" e "como"). Universalidade = todos têm direito. Integralidade = atendimento da promoção à reabilitação. Equidade = tratar desigualmente os desiguais (priorizar quem mais precisa).' },
+        { type: 'p', text: '**DPI = DESCENTRALIZAÇÃO · PARTICIPAÇÃO · INTEGRAÇÃO** — princípios ORGANIZATIVOS. Descentralização = comando único em cada esfera. Participação = Conselhos e Conferências (Lei 8.142). Integração (regionalização e hierarquização) = redes assistenciais.' },
+        { type: 'box', kind: 'macete', text: '**6 princípios = UIE + DPI.** Mnemônico didático.' },
+
+        { type: 'h', text: 'Judicialização — Tema 6/STF (medicamentos sem registro na ANVISA)' },
+        { type: 'p', text: '**REGRA:** medicamentos sem registro na ANVISA NÃO podem ser fornecidos pelo SUS. **EXCEÇÕES (cumulativas):** (i) registro pendente desde mais de 1 ano, com pedido em curso; (ii) medicamento utilizado em outras agências regulatórias internacionais (FDA, EMA); (iii) inexistência de substituto registrado; (iv) prescrição médica fundamentada; (v) doença comprovadamente grave/incapacitante.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 6/RE 657.718 (2019):** "1. O Estado não pode ser obrigado a fornecer medicamentos experimentais. 2. A ausência de registro na Anvisa impede, como regra geral, o fornecimento de medicamento por decisão judicial." Cinco condições cumulativas para excepcionar.' },
+
+        { type: 'h', text: 'Tema 106/STJ — medicamentos não incorporados ao SUS' },
+        { type: 'p', text: 'Para medicamentos REGISTRADOS na ANVISA mas NÃO incorporados ao SUS (não constam de protocolos): **obrigatoriedade do fornecimento depende de 3 requisitos cumulativos** — (i) imprescindibilidade comprovada por laudo médico fundamentado; (ii) incapacidade financeira do paciente; (iii) registro na ANVISA.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 106/REsp 1.657.156 (2018):** modulação dos efeitos. Após junho/2019, a obrigatoriedade exige os 3 requisitos. Critérios cumulativos. Banca cobra.' },
+
+        { type: 'h', text: 'Tema 793/STF — responsabilidade solidária dos entes' },
+        { type: 'p', text: '**Os entes federativos (União, Estados, DF e Municípios) são SOLIDARIAMENTE responsáveis** pelas ações e serviços de saúde, podendo o cidadão demandar QUALQUER um deles ou TODOS em litisconsórcio. Mas, para racionalizar, o juiz pode chamar o ente competente (organização interna do SUS) para integrar — sem prejuízo da solidariedade.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 793/RE 855.178 (2015, com modulação 2019):** "Os entes da federação são solidariamente responsáveis nas demandas prestacionais na área da saúde. (...) o polo passivo deverá ser composto, preferencialmente, pelo ente federativo competente para o tratamento, sem prejuízo do litisconsórcio."' },
+
+        { type: 'h', text: 'NATs e Resolução CNJ 238' },
+        { type: 'p', text: '**NATs = Núcleos de Apoio Técnico** (em geral conveniados com universidades) que produzem PARECERES técnicos para o juiz nas demandas de saúde. Resolução **CNJ 238/2016** padronizou o uso. Hoje é DIFERENÇA QUALITATIVA: juiz com NAT decide com bases técnicas; sem NAT, decisão pode ser apressada e onerosa.' },
+
+        { type: 'h', text: 'Plano de saúde (Lei 9.656/98)' },
+        { type: 'p', text: 'Saúde SUPLEMENTAR. Regulada pela ANS. Súmula 597/STJ: cláusula de reajuste por mudança de faixa etária do idoso é abusiva (salvo justificativa atuarial). **Súmula 608/STJ:** plano de saúde não pode recusar fornecimento de tratamento prescrito por médico. Rol da ANS: STJ Tema 990 → primeiro fixou rol TAXATIVO, depois Lei 14.454/22 instituiu rol EXEMPLIFICATIVO (com critérios). Acompanhar evolução.' },
+        { type: 'box', kind: 'atencao', text: '**Lei 14.454/22 reverteu Tema 990 STJ — rol da ANS é hoje EXEMPLIFICATIVO** (com critérios técnicos para cobertura). Tema dinâmico — checar atualizações.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**6 princípios SUS = UIE (Universalidade, Integralidade, Equidade) + DPI (Descentralização, Participação, Integração).**' },
+        { type: 'box', kind: 'macete', text: '**Tema 6/STF — medicamento SEM registro ANVISA: 5 condições cumulativas para fornecer.**' },
+        { type: 'box', kind: 'macete', text: '**Tema 106/STJ — medicamento REGISTRADO mas não incorporado: 3 requisitos cumulativos** (laudo · hipossuficiência · registro).' },
+        { type: 'box', kind: 'macete', text: '**Tema 793/STF — responsabilidade SOLIDÁRIA dos entes federativos.** Cidadão pode demandar qualquer um.' },
+        { type: 'box', kind: 'macete', text: '**Investimento mínimo: U variável · E 12% · M 15% (CF 198 §2º).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**SUS é UNIVERSAL — todos têm direito, INDEPENDENTE de contribuição.** Diferente da Previdência (RGPS — depende de contribuição).' },
+        { type: 'box', kind: 'atencao', text: '**Solidariedade dos entes (Tema 793) NÃO impede chamamento do ente competente para racionalizar processo.** Modulação de 2019 trouxe essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**Tema 6/STF — 5 condições para medicamento SEM registro ANVISA. Decorar.** Sem todas, o fornecimento é vedado.' },
+        { type: 'box', kind: 'atencao', text: '**Tema 990/STJ foi REVERTIDO pela Lei 14.454/22 — rol da ANS é EXEMPLIFICATIVO.** Banca pode usar versão antiga (taxativo). Atenção à data da prova.' },
+        { type: 'box', kind: 'atencao', text: '**SUS NÃO inclui medicamentos experimentais.** Mesmo com prescrição médica. STF Tema 6.' },
+        { type: 'box', kind: 'atencao', text: '**Conselhos de Saúde (Lei 8.142): COMPOSIÇÃO PARITÁRIA** — 50% usuários, 25% trabalhadores, 25% gestores/prestadores. Pegadinha do detalhe.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** saúde é direito humano fundamental — PIDESC art. 12.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** SUS prioritário ao idoso (Estatuto art. 15).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 4 (PCD):** medicamentos contínuos para PCD via SUS.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** MP atua em ACPs de fornecimento coletivo (não apenas individual).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const — direitos sociais:** saúde no rol do art. 6º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — improbidade:** desvio de verbas da saúde tipifica improbidade e crime (CP 312, Lei 8.137/90).' }
+      ]
+    }
+  ] },
+  { id: 'colmat-07-consumidor', num: 7, materia: 'colmat', title: 'Direito do Consumidor (CDC)', edital: '4.1.7', editalText: 'Lei 8.078/90. Conceito de consumidor. Vícios e fato. Práticas abusivas. Coletivo.', size: 'Grande', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — vivência em IC e ACP de defesa do consumidor).', outline: ['Princípios e conceito de consumidor (CDC arts. 2º, 17, 29)', 'Fornecedor, produto e serviço', 'Direitos básicos (CDC art. 6º)', 'Responsabilidade pelo fato e pelo vício', 'Práticas comerciais (oferta, publicidade, abusiva, cobrança)', 'Cláusulas abusivas (CDC art. 51)', 'Tutela individual e coletiva', 'Convenção coletiva de consumo'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Código de Defesa do Consumidor (Lei 8.078/1990)** é uma das leis mais importantes do ordenamento — combina disciplina material (definições, direitos, responsabilidade) e processual (tutela coletiva). Sua **MATRIZ CONSTITUCIONAL** está nos arts. **5º XXXII** ("o Estado promoverá, na forma da lei, a defesa do consumidor"), **170 V** (defesa do consumidor como princípio da ordem econômica) e **48 ADCT** (que ordenou sua edição em 120 dias).' },
+        { type: 'p', text: 'Os princípios fundamentais são: **VULNERABILIDADE** (CDC art. 4º I — presumida do consumidor), **BOA-FÉ OBJETIVA** (art. 4º III), **EQUILÍBRIO CONTRATUAL** (art. 4º IV), **PROTEÇÃO CONTRA RISCOS** (art. 6º I), **TRANSPARÊNCIA** (art. 4º caput), **HARMONIZAÇÃO** entre consumo e desenvolvimento. Todos integram o **MICROSSISTEMA DA TUTELA COLETIVA** (LACP art. 21 + CDC arts. 81-104) — leitura conjunta obrigatória.' },
+        { type: 'p', text: 'Para o concurso: (a) **conceitos** (consumidor STANDARD, BYSTANDER, equiparado); (b) **responsabilidade civil** (fato × vício; produto × serviço); (c) **prazos** (decadenciais e prescricionais — CDC arts. 26-27); (d) **práticas comerciais** (publicidade enganosa/abusiva, oferta vinculante); (e) **cláusulas abusivas** (CDC 51); (f) **tutela coletiva** (categorias do art. 81 § único; coisa julgada do art. 103); (g) **inversão do ônus da prova** (art. 6º VIII).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'Conceitos centrais (CDC arts. 2º, 3º, 17, 29)' },
+        { type: 'list', items: [
+          '**Art. 2º** — CONSUMIDOR: pessoa física ou jurídica que adquire ou utiliza produto/serviço como DESTINATÁRIO FINAL',
+          '**Art. 2º § único** — CONSUMIDOR EQUIPARADO (coletividade): conjunto de pessoas, ainda que indetermináveis, expostas às práticas',
+          '**Art. 3º** — FORNECEDOR: toda pessoa, pública ou privada, nacional ou estrangeira, que desenvolve atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização',
+          '**Art. 3º §1º** — PRODUTO: qualquer bem, móvel ou imóvel, material ou imaterial',
+          '**Art. 3º §2º** — SERVIÇO: qualquer atividade fornecida no mercado mediante remuneração, salvo as decorrentes de relação trabalhista',
+          '**Art. 17** — BYSTANDER: equipara-se ao consumidor a vítima do evento (acidente de consumo)',
+          '**Art. 29** — equipara-se ao consumidor coletividade exposta às práticas comerciais'
+        ]},
+
+        { type: 'h', text: 'Direitos básicos (CDC art. 6º)' },
+        { type: 'list', items: [
+          '**I** — proteção da vida, saúde e segurança',
+          '**II** — educação e divulgação sobre o consumo',
+          '**III** — informação adequada e clara',
+          '**IV** — proteção contra publicidade enganosa e abusiva',
+          '**V** — modificação ou revisão de cláusulas abusivas/onerosas',
+          '**VI** — efetiva prevenção e reparação de danos (patrimoniais e morais, individuais, coletivos e difusos)',
+          '**VII** — acesso à justiça',
+          '**VIII** — facilitação da defesa, INCLUSIVE com INVERSÃO DO ÔNUS DA PROVA (verossimilhança ou hipossuficiência)',
+          '**IX** — adequada e eficaz prestação dos serviços públicos',
+          '**X** — adequação dos produtos e serviços (CDC 18 e ss.)'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade pelo FATO (vício de SEGURANÇA — CDC arts. 12-17)' },
+        { type: 'list', items: [
+          '**Art. 12** — responsabilidade do fabricante, produtor, construtor, importador: OBJETIVA por defeito do produto',
+          '**Art. 14** — responsabilidade do prestador de serviço: OBJETIVA por defeito do serviço',
+          '**Art. 14 §4º** — profissional liberal: SUBJETIVA (apuração de culpa)',
+          '**Art. 27** — PRESCRIÇÃO de 5 anos para reparação do FATO'
+        ]},
+
+        { type: 'h', text: 'Responsabilidade pelo VÍCIO (CDC arts. 18-25)' },
+        { type: 'list', items: [
+          '**Art. 18** — vício de qualidade ou quantidade do PRODUTO',
+          '**Art. 20** — vício de qualidade do SERVIÇO',
+          '**Art. 26** — DECADÊNCIA: 30 dias (não duráveis) ou 90 dias (duráveis), a partir do recebimento ou do aparecimento do vício oculto',
+          '**Art. 18 §1º** — após 30 dias sem solução: RESCISÃO ou ABATIMENTO ou SUBSTITUIÇÃO',
+          '**Art. 25** — vedada cláusula que impossibilite a responsabilidade'
+        ]},
+
+        { type: 'h', text: 'Práticas comerciais (CDC arts. 30-44)' },
+        { type: 'list', items: [
+          '**Art. 30** — OFERTA vincula o fornecedor (princípio da vinculação)',
+          '**Art. 36-38** — PUBLICIDADE: vedação à enganosa e abusiva. Ônus probatório do fornecedor',
+          '**Art. 39** — PRÁTICAS ABUSIVAS (rol exemplificativo): venda casada, recusa de atendimento, prevalência de fraqueza, etc.',
+          '**Art. 49** — DIREITO DE ARREPENDIMENTO: 7 dias para compras fora do estabelecimento (telemarketing, internet, domicílio)'
+        ]},
+
+        { type: 'h', text: 'Cláusulas abusivas (CDC art. 51) e proteção contratual' },
+        { type: 'list', items: [
+          '**Art. 51** — rol exemplificativo de cláusulas NULAS de pleno direito (incompatível com boa-fé, exoneração de responsabilidade, inversão do ônus, etc.)',
+          '**Art. 51 IV** — abuso por iniquidade ou onerosidade excessiva',
+          '**Art. 53** — perda de prestações pagas em contratos com cláusula resolutiva: nula',
+          '**Art. 54** — contratos de adesão: cláusulas que limitem direitos do consumidor devem ser destacadas'
+        ]},
+
+        { type: 'h', text: 'Tutela coletiva (CDC arts. 81-104)' },
+        { type: 'list', items: [
+          '**Art. 81 § único** — três categorias: DIFUSOS · COLETIVOS STRICTO SENSU · INDIVIDUAIS HOMOGÊNEOS',
+          '**Art. 82** — legitimados: MP, União, Estados, DF, Municípios, autarquias, associações com 1 ano e finalidade pertinente',
+          '**Art. 90** — aplicação do CPC subsidiariamente',
+          '**Art. 103** — coisa julgada: erga omnes (difusos), ultra partes (coletivos), erga omnes só na procedência (individuais homogêneos)',
+          '**Art. 104** — ações coletivas NÃO induzem litispendência com individuais'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Quem é consumidor? Teorias' },
+        { type: 'p', text: '**Teoria FINALISTA (clássica):** consumidor é apenas o destinatário FINAL fático e econômico. Adquirir para revenda ou em atividade comercial = NÃO é consumidor. STJ majoritário inicialmente.' },
+        { type: 'p', text: '**Teoria MAXIMALISTA:** consumidor é qualquer destinatário final fático, ainda que insira o produto na cadeia produtiva. Visão mais ampla.' },
+        { type: 'p', text: '**Teoria FINALISTA MITIGADA (atual STJ):** consumidor é o destinatário final, mas EXCEPCIONALMENTE pessoa jurídica em situação de VULNERABILIDADE (técnica, jurídica, fática) pode ser equiparada — mesmo se usar o produto profissionalmente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tese atual (REsp 1.195.642):** finalismo mitigado. Considera vulnerabilidade da PJ no caso concreto. Banca cobra a evolução das teorias.' },
+
+        { type: 'h', text: 'Fato × Vício — distinção fundamental' },
+        { type: 'p', text: '**FATO do produto/serviço:** dano à SAÚDE, SEGURANÇA ou PATRIMÔNIO além do produto (acidente de consumo). Ex: explosão de panela de pressão queimando o consumidor. Prazo: PRESCRIÇÃO de 5 ANOS (art. 27).' },
+        { type: 'p', text: '**VÍCIO do produto/serviço:** defeito intrínseco, INADEQUAÇÃO ao fim ou impróprio para o consumo. Ex: panela que não fecha bem. Prazo: DECADÊNCIA de 30 (não duráveis) ou 90 dias (duráveis) — art. 26.' },
+        { type: 'box', kind: 'macete', text: '**FATO = ACIDENTE (5 anos prescrição). VÍCIO = INADEQUAÇÃO (30/90 dias decadência).** Diferenciar é obrigatório.' },
+
+        { type: 'h', text: 'Responsabilidade objetiva e excludentes' },
+        { type: 'p', text: 'Regra: responsabilidade OBJETIVA (independe de culpa) — art. 12 (fato/produto), 14 (fato/serviço). **Excludentes (art. 12 §3º; art. 14 §3º):** (i) NÃO COLOCAÇÃO no mercado; (ii) defeito INEXISTENTE; (iii) culpa EXCLUSIVA do consumidor ou de terceiro. Caso fortuito interno NÃO afasta (jurisprudência). Profissional liberal: SUBJETIVA (art. 14 §4º).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 130:** "A empresa responde, perante o cliente, pela reparação de dano ou furto de veículo ocorridos em seu estacionamento." Caso clássico de fortuito interno × externo.' },
+
+        { type: 'h', text: 'Inversão do ônus da prova (CDC art. 6º VIII)' },
+        { type: 'p', text: 'É **DIREITO BÁSICO** do consumidor, condicionado a: (a) **VEROSSIMILHANÇA** das alegações; OU (b) **HIPOSSUFICIÊNCIA** (técnica, financeira, probatória). Pode ser de OFÍCIO. Discussão atual: momento da inversão — STJ entende que o juiz deve declarar o ônus invertido na decisão saneadora, dando prazo razoável para o fornecedor produzir a prova.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — REsp 802.832 (decisão histórica):** "A inversão do ônus da prova em favor do consumidor é regra de instrução, não de julgamento, devendo ser determinada na fase saneadora do processo" — para garantir contraditório efetivo.' },
+
+        { type: 'h', text: 'Publicidade enganosa × abusiva' },
+        { type: 'p', text: '**Enganosa (art. 37 §1º):** capaz de INDUZIR EM ERRO o consumidor (mesmo por OMISSÃO de dado essencial). Foco: veracidade. **Abusiva (art. 37 §2º):** discriminatória, incita violência, explora medo, desrespeita valores ambientais, induz comportamento prejudicial. Foco: ética.' },
+        { type: 'p', text: 'Princípio da **VINCULAÇÃO**: a oferta integra o contrato (art. 30). Princípio da **VERACIDADE**: ônus do fornecedor provar (art. 38). **Não cumpre? Sanções:** contraproganda às custas do fornecedor; multa administrativa; responsabilidade civil; eventual responsabilidade penal (CDC art. 67).' },
+
+        { type: 'h', text: 'Tutela coletiva — categorias e coisa julgada' },
+        { type: 'p', text: '**Difusos** — titulares INDETERMINÁVEIS, ligados por circunstâncias de fato. Ex: meio ambiente, propaganda enganosa em massa. **Coisa julgada erga omnes** (CDC 103 I), com exceção do *secundum eventum probationis* (improcedência por insuficiência de provas).' },
+        { type: 'p', text: '**Coletivos stricto sensu** — titulares determináveis, ligados por relação jurídica base (associação, classe). Ex: associados de plano de saúde. **Coisa julgada ultra partes** (103 II).' },
+        { type: 'p', text: '**Individuais homogêneos** — titulares determináveis, lesão de origem comum. Ex: vícios em série de aparelho. **Coisa julgada erga omnes só em PROCEDÊNCIA** (103 III). Improcedência NÃO impede ações individuais (104).' },
+        { type: 'box', kind: 'macete', text: '**3 categorias = DIFUSOS · COLETIVOS · INDIVIDUAIS HOMOGÊNEOS.** Mnemônico: "DCI". Decorar é essencial — banca cobra MUITO.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**FATO = ACIDENTE de consumo (prescrição 5 anos — art. 27). VÍCIO = inadequação (decadência 30/90 — art. 26).**' },
+        { type: 'box', kind: 'macete', text: '**3 espécies de consumidor: STANDARD (art. 2º) · BYSTANDER (art. 17) · EQUIPARADO (arts. 2º § único, 29).** Mnemônico: SBE.' },
+        { type: 'box', kind: 'macete', text: '**Inversão do ônus: VEROSSIMILHANÇA OU HIPOSSUFICIÊNCIA.** Não precisam ambas (alternativos).' },
+        { type: 'box', kind: 'macete', text: '**Direito de arrependimento (art. 49): 7 dias para compras FORA do estabelecimento.** Não se aplica a compras presenciais.' },
+        { type: 'box', kind: 'macete', text: '**Categorias coletivas: DIFUSOS · COLETIVOS · INDIVIDUAIS HOMOGÊNEOS.** Coisa julgada do art. 103.' },
+        { type: 'box', kind: 'macete', text: '**Profissional liberal: responsabilidade SUBJETIVA (art. 14 §4º).** Exceção à regra geral (objetiva).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Profissional liberal é responsabilidade SUBJETIVA — exceção à regra geral.** Pegadinha clássica: alternativa diz que "responsabilidade do médico é objetiva como qualquer prestador". Errado.' },
+        { type: 'box', kind: 'atencao', text: '**Inversão do ônus é DECLARAÇÃO no saneamento — não na sentença.** STJ é firme. Banca cobra essa nuance.' },
+        { type: 'box', kind: 'atencao', text: '**FATO ≠ VÍCIO. Confundir prazos é erro grave.** Decorar: 30/90 (decadência vício) vs. 5 anos (prescrição fato).' },
+        { type: 'box', kind: 'atencao', text: '**Direito de arrependimento (7 dias) NÃO se aplica a compras presenciais.** Apenas FORA do estabelecimento (telemarketing, internet, ambulante, domicílio).' },
+        { type: 'box', kind: 'atencao', text: '**Bystander (art. 17) é equiparado ao consumidor — terceiro não-contratante atingido por acidente de consumo.** Banca explora.' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa jurídica pode ser consumidora? SIM (CDC art. 2º + finalismo mitigado STJ).** Mas só se houver vulnerabilidade e destinação final.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** CDC + LACP = núcleo do sistema processual coletivo (LACP 21 + CDC 90).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP de consumo é caso típico — clássico do MP.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** Súmula 597 STJ — reajuste de plano de saúde por faixa etária do idoso é abusivo.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil 12 (responsabilidade civil):** CDC traz regramento ESPECIAL de responsabilidade — diferente do CC art. 927+.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const — princípios da ordem econômica:** defesa do consumidor (CF 170 V).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — crimes contra relações de consumo:** Lei 8.137/90 + crimes específicos do CDC arts. 63-80.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-08-meio-ambiente', num: 8, materia: 'colmat', title: 'Meio Ambiente', edital: '4.1.8', editalText: 'CF art. 225. Lei 6.938/81. PNMA. Princípios. Tutela civil, administrativa, penal.', size: 'Grande', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — vivência em ICs e ACPs ambientais).', outline: ['CF art. 225 — meio ambiente ecologicamente equilibrado', 'Princípios (precaução, prevenção, poluidor-pagador, desenvolvimento sustentável)', 'Lei 6.938/81 — PNMA e SISNAMA', 'Responsabilidade civil ambiental — objetiva', 'Tríplice responsabilização (civil, adm., penal)', 'Lei 9.605/98 — crimes ambientais', 'Áreas de preservação permanente e reserva legal (Lei 12.651/12)', 'Atuação do MP (TAC, ACP)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **direito ao meio ambiente ecologicamente equilibrado** é direito fundamental de **TERCEIRA DIMENSÃO** (transindividual e intergeracional). Está consagrado no **CF art. 225** — "Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo e preservá-lo para as presentes e futuras gerações".' },
+        { type: 'p', text: 'A tutela é **TRIPLA E AUTÔNOMA** (CF 225 §3º): **CIVIL** (reparação integral pelo dano — responsabilidade objetiva e solidária), **ADMINISTRATIVA** (multa, embargo, demolição) e **PENAL** (Lei 9.605/98). As três esferas são INDEPENDENTES — pode haver condenação em uma e absolvição em outra. Convivem com a tríplice responsabilização do agente público (improbidade) quando há omissão estatal.' },
+        { type: 'p', text: 'A disciplina legal centra-se na **Lei 6.938/1981** (Política Nacional do Meio Ambiente — PNMA), na **Lei 9.605/1998** (Crimes ambientais), na **Lei 12.651/2012** (Código Florestal — APP, RL, CAR) e na **Lei 9.985/2000** (SNUC — Unidades de Conservação). Para o concurso: princípios (precaução, prevenção, poluidor-pagador, in dubio pro natura), responsabilidade civil objetiva e solidária, IC e ACP ambientais, princípio da reparação integral.' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 225' },
+        { type: 'list', items: [
+          '**Caput** — meio ambiente ecologicamente equilibrado, bem de uso comum, essencial à sadia qualidade de vida. Dever do Poder Público e da coletividade',
+          '**§1º** — incumbências do Poder Público (preservar, proteger, definir UCs, exigir EIA, controlar produção)',
+          '**§2º** — recuperação do meio ambiente degradado por mineração',
+          '**§3º** — TRÍPLICE RESPONSABILIZAÇÃO: penal, civil e administrativa (independentes)',
+          '**§4º** — biomas brasileiros como patrimônio nacional (Floresta Amazônica, Mata Atlântica, Serra do Mar, Pantanal, Zona Costeira)',
+          '**§5º** — terras devolutas para preservação',
+          '**§6º** — exigência de licença para atividades nucleares',
+          '**§7º** — vedação a práticas que submetam animais a crueldade'
+        ]},
+
+        { type: 'h', text: 'Lei 6.938/81 — PNMA' },
+        { type: 'list', items: [
+          '**Art. 2º** — princípios: ação governamental, racionalização do uso, planejamento, proteção dos ecossistemas',
+          '**Art. 3º** — definições: meio ambiente, degradação, poluição, poluidor, recursos ambientais',
+          '**Art. 6º** — SISNAMA (Sistema Nacional do Meio Ambiente): órgão superior (CONAMA), órgão executor federal (IBAMA), órgãos seccionais (estaduais), órgãos locais (municipais)',
+          '**Art. 9º** — instrumentos: padrões de qualidade, zoneamento, EIA, licenciamento, incentivos, criação de UCs',
+          '**Art. 14 §1º** — RESPONSABILIDADE CIVIL OBJETIVA pelo dano ambiental, INDEPENDENTE de culpa, pelo princípio da REPARAÇÃO INTEGRAL'
+        ]},
+
+        { type: 'h', text: 'Lei 9.605/98 — Crimes ambientais' },
+        { type: 'list', items: [
+          '**Art. 2º** — quem concorre para o crime ambiental responde também',
+          '**Art. 3º** — RESPONSABILIDADE PENAL DA PESSOA JURÍDICA (única hipótese expressa no Brasil)',
+          '**Arts. 29-37** — crimes contra a fauna',
+          '**Arts. 38-53** — crimes contra a flora',
+          '**Arts. 54-61** — crimes de poluição',
+          '**Arts. 62-65** — crimes contra o ordenamento urbano e patrimônio cultural',
+          '**Arts. 66-69** — crimes contra a Administração Ambiental',
+          '**Arts. 27-28** — TRANSAÇÃO PENAL e SUSPENSÃO CONDICIONAL — só se houver reparação prévia do dano (em geral)'
+        ]},
+
+        { type: 'h', text: 'Lei 12.651/12 — Código Florestal' },
+        { type: 'list', items: [
+          '**Art. 3º** — definições: APP, RL, CAR',
+          '**Arts. 4º-9º** — Áreas de Preservação Permanente (APP)',
+          '**Arts. 12-24** — Reserva Legal (RL): percentuais por bioma (Amazônia 80%, Cerrado 35%, demais 20%)',
+          '**Arts. 29-30** — CAR (Cadastro Ambiental Rural)',
+          '**Arts. 59-68** — PRA (Programa de Regularização Ambiental)'
+        ]},
+
+        { type: 'h', text: 'Lei 9.985/2000 — SNUC' },
+        { type: 'list', items: [
+          '**Unidades de Proteção Integral**: ESTAÇÃO ECOLÓGICA, RESERVA BIOLÓGICA, PARQUE NACIONAL, MONUMENTO NATURAL, REFÚGIO DE VIDA SILVESTRE',
+          '**Unidades de Uso Sustentável**: APA, ARIE, FLORESTA NACIONAL, RESERVA EXTRATIVISTA, RESERVA DE FAUNA, RDS, RPPN'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios ambientais — núcleo da prova' },
+        { type: 'p', text: '**PREVENÇÃO:** atua sobre RISCO CONHECIDO. Há certeza científica do dano potencial — exige medidas para evitá-lo. Ex: licença ambiental para obra que se sabe causar erosão.' },
+        { type: 'p', text: '**PRECAUÇÃO (in dubio pro ambiente):** atua sobre RISCO DESCONHECIDO. Há incerteza científica — mas a possibilidade do dano é grave. Aplicação: agrotóxicos novos, transgênicos, ondas eletromagnéticas. STF aplica firmemente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 4.029 (Mata Atlântica), STJ Tema 957:** princípio da precaução determina inversão do ônus da prova ambiental. Agente que aufere lucro deve provar que sua atividade NÃO causa dano.' },
+
+        { type: 'p', text: '**POLUIDOR-PAGADOR (PPP):** quem causa dano ambiental deve INTERNALIZAR os custos da degradação (não socializar para a sociedade). Distinto do princípio do USUÁRIO-PAGADOR (quem usa recursos paga pelo uso).' },
+        { type: 'p', text: '**DESENVOLVIMENTO SUSTENTÁVEL:** harmoniza desenvolvimento econômico e proteção ambiental, considerando gerações futuras. Conferência Rio-92.' },
+        { type: 'p', text: '**RESPONSABILIDADE COMUM PORÉM DIFERENCIADA:** entre nações desenvolvidas e em desenvolvimento. Aplicação no direito internacional (Acordo de Paris, Convenção do Clima).' },
+
+        { type: 'h', text: 'Responsabilidade civil ambiental — OBJETIVA E SOLIDÁRIA' },
+        { type: 'p', text: 'A responsabilidade civil é **OBJETIVA** (Lei 6.938/81 art. 14 §1º) — dispensa culpa. Adota a teoria do **RISCO INTEGRAL** segundo o STJ (não admite excludentes como caso fortuito ou força maior). É **SOLIDÁRIA** entre poluidor direto e indireto (custo da reparação responsabilidade de todos os envolvidos). É **PROPTER REM** — segue a coisa (proprietário sucessor responde pela degradação anterior, mesmo não tendo causado).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 623:** "As obrigações ambientais possuem natureza propter rem, sendo admissível cobrá-las do proprietário ou possuidor atual e/ou dos anteriores, à escolha do credor."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 467:** "Prescreve em cinco anos, contados do término do processo administrativo, a pretensão da Administração Pública de promover a execução da multa por infração ambiental."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 999 (REsp 1.737.321):** dano ambiental moral coletivo é cumulável com dano material. Reparação integral.' },
+
+        { type: 'h', text: 'Tríplice responsabilização (CF 225 §3º)' },
+        { type: 'p', text: 'CIVIL · ADMINISTRATIVA · PENAL — INDEPENDENTES e CUMULATIVAS. O mesmo fato pode gerar: ação civil (reparação), processo administrativo (multa, embargo) e ação penal (Lei 9.605/98). Ex: empresa polui rio → pagamento integral do dano (civil) + multa do IBAMA (administrativa) + denúncia criminal contra dirigentes e PJ (penal).' },
+        { type: 'box', kind: 'atencao', text: '**Pessoa Jurídica responde PENALMENTE em matéria ambiental** (CF 225 §3º + Lei 9.605/98 art. 3º) — única hipótese expressa. Penas: multa, restritivas de direito (suspensão, interdição) e prestação de serviços.' },
+
+        { type: 'h', text: 'Imprescritibilidade da reparação ambiental' },
+        { type: 'p', text: 'O STF decidiu (RE 654.833 — Tema 999) que a pretensão de reparação do dano ambiental é IMPRESCRITÍVEL — a degradação ambiental é de tal gravidade que ultrapassa o tempo. Tese vinculante. Não confundir com a prescrição da MULTA administrativa (5 anos — Súmula 467 STJ) nem da pretensão penal (regras gerais).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 654.833 (Tema 999, 2020):** "É imprescritível a pretensão de reparação civil de dano ambiental." Tese vinculante. Marco da jurisprudência ambiental brasileira.' },
+
+        { type: 'h', text: 'APP, RL e CAR (Código Florestal)' },
+        { type: 'p', text: '**APP (Área de Preservação Permanente):** áreas em torno de cursos d\'água, nascentes, encostas — protegidas integralmente. Tamanho varia conforme largura do rio (5m até 500m).' },
+        { type: 'p', text: '**RL (Reserva Legal):** porcentagem do imóvel rural mantida como vegetação nativa. Amazônia 80% · Cerrado 35% · demais biomas 20%.' },
+        { type: 'p', text: '**CAR (Cadastro Ambiental Rural):** registro eletrônico OBRIGATÓRIO para todo imóvel rural. Permite controle ambiental, regularização via PRA.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 princípios-chave: PREVENÇÃO · PRECAUÇÃO · POLUIDOR-PAGADOR · DESENVOLVIMENTO SUSTENTÁVEL.** Mnemônico **3P+DS**.' },
+        { type: 'box', kind: 'macete', text: '**PREVENÇÃO = risco CONHECIDO. PRECAUÇÃO = risco DESCONHECIDO (in dubio pro natura).**' },
+        { type: 'box', kind: 'macete', text: '**Tríplice responsabilização (CF 225 §3º): CIVIL · ADM · PENAL.** Independentes. Cumuláveis.' },
+        { type: 'box', kind: 'macete', text: '**RC ambiental: OBJETIVA · SOLIDÁRIA · PROPTER REM · IMPRESCRITÍVEL** (STF Tema 999).' },
+        { type: 'box', kind: 'macete', text: '**Reserva Legal: AMAZÔNIA 80% · CERRADO 35% · DEMAIS 20%.** Decorar.' },
+        { type: 'box', kind: 'macete', text: '**PJ responde PENALMENTE em matéria ambiental — única hipótese expressa no Brasil** (CF 225 §3º + Lei 9.605/98 art. 3º).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reparação ambiental é IMPRESCRITÍVEL (STF Tema 999, 2020).** Pegadinha: alternativa diz que prescreve em 5 anos. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**Responsabilidade ambiental é PROPTER REM — segue a coisa.** Comprador de imóvel degradado responde pela reparação, mesmo não tendo causado (Súmula 623 STJ).' },
+        { type: 'box', kind: 'atencao', text: '**STJ adota TEORIA DO RISCO INTEGRAL — não admite excludentes em matéria ambiental.** Caso fortuito, força maior, fato de terceiro NÃO afastam responsabilidade civil.' },
+        { type: 'box', kind: 'atencao', text: '**Tríplice responsabilização é INDEPENDENTE.** Absolvição na esfera penal NÃO afasta civil ou administrativa (salvo absolvição por NEGATIVA DE AUTORIA ou INEXISTÊNCIA DO FATO — CPP art. 386 I e IV).' },
+        { type: 'box', kind: 'atencao', text: '**Princípio da PRECAUÇÃO ≠ PREVENÇÃO. Decorar a distinção.** Banca cobra muito.' },
+        { type: 'box', kind: 'atencao', text: '**PJ responde penalmente em matéria ambiental — penas alternativas (multa, restritivas).** Banca cobra a especificidade dessa exceção.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** meio ambiente é direito de TERCEIRA DIMENSÃO — transindividual e intergeracional.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 12 (comunidades tradicionais):** povos extrativistas, ribeirinhos têm direito específico ao meio ambiente onde vivem (Convenção 169 OIT).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 1 (microssistema):** LACP nasceu para tutela ambiental (Lei 7.347/85).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP é o instrumento por excelência da tutela ambiental.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — Lei 9.605/98:** crimes ambientais (fauna, flora, poluição, ordenamento).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — improbidade:** omissão de fiscalização ambiental pode caracterizar improbidade (LIA 11).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Direito Urbanístico):** integração entre meio ambiente urbano e licenciamento ambiental.' }
+      ]
+    }
+  ] },
   { id: 'colmat-09-direito-urbanistico', num: 9, materia: 'colmat', title: 'Direito Urbanístico', edital: '4.1.9', editalText: 'CF arts. 182-183. Estatuto da Cidade (Lei 10.257/01). Plano diretor. IPTU progressivo.', size: 'Médio', schedule: null, advantage: null, outline: ['Política urbana (CF arts. 182-183)', 'Estatuto da Cidade (Lei 10.257/01)', 'Plano diretor', 'Instrumentos (IPTU progressivo, edificação compulsória, desapropriação-sanção)', 'Usucapião urbana', 'Regularização fundiária (Lei 13.465/17 — REURB)', 'Atuação do MP'], sections: [] },
   { id: 'colmat-10-patrimonio-cultural', num: 10, materia: 'colmat', title: 'Patrimônio Cultural e Histórico', edital: '4.1.10', editalText: 'CF art. 216. DL 25/37. Tombamento, registro, inventário.', size: 'Pequeno', schedule: null, advantage: null, outline: ['CF arts. 215-216 — direitos culturais', 'DL 25/37 — tombamento', 'Registro de bens imateriais', 'Patrimônio arqueológico', 'IPHAN', 'Tutela coletiva do patrimônio cultural'], sections: [] },
   { id: 'colmat-11-improbidade-material', num: 11, materia: 'colmat', title: 'Improbidade administrativa (material)', edital: '4.1.11', editalText: 'Lei 8.429/92 com Lei 14.230/21. Atos. Sanções. Sujeitos.', size: 'Médio', schedule: null, advantage: null, outline: ['Sujeitos (ativo — agente público, particular cooperando; passivo)', 'Atos de improbidade — espécies', 'Necessidade de dolo específico (Lei 14.230/21)', 'Sanções (CF art. 37 §4º + LIA)', 'ANPC — Acordo de Não Persecução Cível', 'Prescrição', 'Concomitância com outras esferas'], sections: [] },
@@ -8420,7 +9111,50 @@ flashcards: [
   { id: 394, topic: 8, materia: 'mp', q: 'Inquérito Civil — natureza e exclusividade?', a: 'Procedimento investigatório administrativo PRIVATIVO do MP (LACP art. 8º §1º). Prepara ACP, TAC ou Recomendação. Outros legitimados (Defensoria, associações) propõem ACP, mas NÃO conduzem IC.', tags: ['mp', 'IC'] },
   { id: 395, topic: 8, materia: 'mp', q: 'PIC — fundamento constitucional?', a: 'CF art. 129 VI, VIII e IX + STF RE 593.727 (Tema 184, 2015) — MP tem competência para investigação criminal direta. Disciplina: Resolução CNMP 181/2017. Não substitui IP — atua paralela ou alternativamente.', tags: ['mp', 'PIC', 'STF'] },
   { id: 396, topic: 8, materia: 'mp', q: 'TAC — natureza jurídica?', a: 'TÍTULO EXECUTIVO EXTRAJUDICIAL (LACP art. 5º §6º + CPC art. 784 XII). NÃO precisa de homologação judicial. Descumprimento gera execução autônoma (STJ Tema 877).', tags: ['mp', 'TAC'] },
-  { id: 397, topic: 8, materia: 'mp', q: 'Recomendação ministerial vincula o destinatário?', a: 'NÃO. É ato PERSUASIVO. Destinatário pode discordar, mas DEVE responder fundamentadamente. A não-resposta ou resposta insuficiente pode motivar ACP. Disciplina: Res. CNMP 164/2017.', tags: ['mp', 'recomendacao'] }
+  { id: 397, topic: 8, materia: 'mp', q: 'Recomendação ministerial vincula o destinatário?', a: 'NÃO. É ato PERSUASIVO. Destinatário pode discordar, mas DEVE responder fundamentadamente. A não-resposta ou resposta insuficiente pode motivar ACP. Disciplina: Res. CNMP 164/2017.', tags: ['mp', 'recomendacao'] },
+
+  // === Cards Rodada 4 — Material Coletivo (colmat-03 a 08) ===
+  // colmat-03 — Pessoa Idosa
+  { id: 398, topic: 3, materia: 'colmat', q: 'Lei 10.741/03 — quem é "pessoa idosa"?', a: 'Pessoa com 60 anos completos OU MAIS (art. 1º). NÃO confundir com BPC (65 anos+). Lei 13.466/17 inseriu §2º do art. 3º — entre os idosos, prioridade ESPECIAL para os com 80+.', tags: ['colmat', 'idoso', 'conceito'] },
+  { id: 399, topic: 3, materia: 'colmat', q: 'Estatuto do Idoso × Estatuto da Pessoa Idosa?', a: 'Mesma lei (10.741/03). Foi RENOMEADA pela Lei 14.423/22 para "Estatuto da Pessoa Idosa" — terminologia mais inclusiva e respeitosa. Conteúdo idêntico.', tags: ['colmat', 'idoso', 'nome'] },
+  { id: 400, topic: 3, materia: 'colmat', q: 'BPC à pessoa idosa — requisitos?', a: 'LOAS art. 20: 65 anos+ (NÃO 60) · 1 SM · hipossuficiência (renda per capita inferior a 1/4 do SM, com flexibilização do STF Tema 27) · não cumula com aposentadoria. NÃO depende de contribuição.', tags: ['colmat', 'BPC', 'LOAS'] },
+  { id: 401, topic: 3, materia: 'colmat', q: 'Súmula 597 STJ — qual a tese?', a: '"A cláusula contratual de plano de saúde que prevê reajuste por mudança de faixa etária do idoso é abusiva, salvo se demonstrada a justificativa técnica e atuarial." Limite firme à saúde suplementar.', tags: ['colmat', 'idoso', 'plano-saude'] },
+  { id: 402, topic: 3, materia: 'colmat', q: 'Crimes do Estatuto da Pessoa Idosa — natureza da ação penal?', a: 'PÚBLICA INCONDICIONADA (regra). Diferente de crimes contra honra (CP 145 — em geral privada/condicionada). Atenção: vítima idosa em homicídio passa a ter qualificadora (Lei 14.811/24).', tags: ['colmat', 'idoso', 'crimes'] },
+
+  // colmat-04 — PCD/LBI
+  { id: 403, topic: 4, materia: 'colmat', q: 'Convenção de NY (Decreto 6.949/09) — status?', a: 'PRIMEIRO TRATADO com status de EC no Brasil (rito do art. 5º §3º — 3/5 em 2 turnos em cada Casa). MARRAQUEXE (Decreto 9.522/18) é o segundo. Apenas esses 2 com status formal de EC.', tags: ['colmat', 'PCD', 'tratados'] },
+  { id: 404, topic: 4, materia: 'colmat', q: 'Modelo BIOPSICOSSOCIAL (LBI art. 2º)?', a: 'Deficiência = INTERAÇÃO entre impedimentos e BARREIRAS sociais. Não é só do indivíduo. Alterar o ambiente reduz/elimina a "deficiência". Ruptura com o modelo médico-individualista.', tags: ['colmat', 'PCD', 'modelo'] },
+  { id: 405, topic: 4, materia: 'colmat', q: 'LBI alterou os arts. 3º e 4º do CC — como?', a: 'Excluiu deficiência mental como hipótese AUTÔNOMA de incapacidade. Hoje: art. 3º (absolutos) — apenas menores de 16. Art. 4º (relativos) — inclui "aqueles que, por causa transitória ou permanente, NÃO PUDEREM EXPRIMIR VONTADE" (não basta deficiência).', tags: ['colmat', 'PCD', 'capacidade'] },
+  { id: 406, topic: 4, materia: 'colmat', q: 'Tomada de Decisão Apoiada (TDA — CC 1.783-A) × curatela?', a: 'TDA: ≥2 apoiadores escolhidos pela PCD, NÃO substituem a vontade — apoiam. Decisão é da PCD. Curatela: substitui a vontade. LBI (art. 84) tornou TDA REGRA e curatela EXCEÇÃO (medida extraordinária, restrita a atos PATRIMONIAIS).', tags: ['colmat', 'PCD', 'TDA'] },
+  { id: 407, topic: 4, materia: 'colmat', q: 'Educação inclusiva — escola privada pode cobrar a mais por PCD?', a: 'NÃO (LBI art. 28 §1º + STF ADI 5.357, 2016). Inclusão é dever de TODA a rede de ensino — pública e privada. Cobrança extra é inconstitucional.', tags: ['colmat', 'PCD', 'educacao'] },
+
+  // colmat-05 — Educação
+  { id: 408, topic: 5, materia: 'colmat', q: 'EC 59/09 — o que mudou?', a: 'Educação obrigatória passou de 7-14 (apenas ensino fundamental) para 4-17 anos: pré-escola (4-5) + fundamental (6-14) + médio (15-17). Acompanhada da expansão do FUNDEB.', tags: ['colmat', 'educacao', 'EC-59'] },
+  { id: 409, topic: 5, materia: 'colmat', q: 'STF Tema 548 — vagas em creche?', a: 'Reserva do possível NÃO afasta direito à creche. Vaga em creche (0-3) e pré-escola (4-5) é DIREITO PÚBLICO SUBJETIVO exigível judicialmente. Estado não pode escusar-se por insuficiência orçamentária.', tags: ['colmat', 'educacao', 'STF', 'creche'] },
+  { id: 410, topic: 5, materia: 'colmat', q: 'Investimento mínimo em educação (CF 212)?', a: 'União: 18% das receitas resultantes de impostos. Estados, DF e Municípios: 25%. Verbas vinculadas — desvio configura improbidade e crime.', tags: ['colmat', 'educacao', 'financiamento'] },
+  { id: 411, topic: 5, materia: 'colmat', q: 'FUNDEB — como funciona hoje?', a: 'PERMANENTE desde EC 108/20 (antes era temporário). Lei 14.113/20. Fundo contábil de natureza estadual + complementação da União. Distribuição por número de matrículas. CAQ (Custo Aluno-Qualidade) é referência.', tags: ['colmat', 'educacao', 'FUNDEB'] },
+  { id: 412, topic: 5, materia: 'colmat', q: 'Educação domiciliar (homeschooling) é permitida no Brasil?', a: 'NÃO — STF Tema 822 (RE 888.815, 2018). CF não veda nem admite expressamente; sem lei federal específica, prevalece a obrigatoriedade da matrícula em rede regular. Pais que descumprem podem responder por abandono intelectual (CP 246).', tags: ['colmat', 'educacao', 'homeschooling'] },
+
+  // colmat-06 — Saúde
+  { id: 413, topic: 6, materia: 'colmat', q: 'SUS — 6 princípios (UIE + DPI)?', a: 'UIE = UNIVERSALIDADE · INTEGRALIDADE · EQUIDADE (doutrinários). DPI = DESCENTRALIZAÇÃO · PARTICIPAÇÃO · INTEGRAÇÃO (organizativos). Lei 8.080/90 art. 7º.', tags: ['colmat', 'SUS', 'principios'] },
+  { id: 414, topic: 6, materia: 'colmat', q: 'STF Tema 6 — medicamentos SEM registro na ANVISA?', a: 'REGRA: NÃO podem ser fornecidos. EXCEÇÕES (cumulativas): registro pendente +1 ano · uso aprovado em agências internacionais · sem substituto registrado · prescrição fundamentada · doença grave/incapacitante. RE 657.718 (2019).', tags: ['colmat', 'saude', 'STF', 'tema-6'] },
+  { id: 415, topic: 6, materia: 'colmat', q: 'STJ Tema 106 — medicamentos REGISTRADOS mas não incorporados ao SUS?', a: '3 requisitos cumulativos: imprescindibilidade comprovada por LAUDO médico fundamentado · INCAPACIDADE FINANCEIRA · REGISTRO na ANVISA. REsp 1.657.156 (2018), modulação após junho/2019.', tags: ['colmat', 'saude', 'STJ', 'tema-106'] },
+  { id: 416, topic: 6, materia: 'colmat', q: 'STF Tema 793 — responsabilidade dos entes federativos?', a: 'SOLIDÁRIA. Cidadão pode demandar União, Estado, DF ou Município. Modulação 2019: o juiz pode chamar o ente competente (organização interna SUS) para racionalizar — sem prejuízo da solidariedade.', tags: ['colmat', 'saude', 'STF', 'tema-793'] },
+  { id: 417, topic: 6, materia: 'colmat', q: 'Conselhos de Saúde (Lei 8.142) — composição?', a: 'PARITÁRIA: 50% USUÁRIOS · 25% TRABALHADORES · 25% gestores e prestadores. Dado de detalhe que a banca cobra. Decisões deliberativas obrigatórias para os entes federativos.', tags: ['colmat', 'saude', 'conselhos'] },
+
+  // colmat-07 — Consumidor
+  { id: 418, topic: 7, materia: 'colmat', q: 'CDC — 3 espécies de consumidor?', a: 'STANDARD (art. 2º caput — adquirente direto) · BYSTANDER (art. 17 — vítima de acidente de consumo, terceiro) · EQUIPARADO (arts. 2º § único e 29 — coletividade exposta às práticas). Mnemônico SBE.', tags: ['colmat', 'CDC', 'consumidor'] },
+  { id: 419, topic: 7, materia: 'colmat', q: 'FATO × VÍCIO — diferença e prazos?', a: 'FATO = ACIDENTE de consumo (dano à saúde, segurança ou patrimônio). PRESCRIÇÃO 5 ANOS (CDC 27). VÍCIO = inadequação intrínseca. DECADÊNCIA 30 dias (não duráveis) ou 90 dias (duráveis) — CDC 26.', tags: ['colmat', 'CDC', 'fato-vicio'] },
+  { id: 420, topic: 7, materia: 'colmat', q: 'Profissional liberal — qual a responsabilidade?', a: 'SUBJETIVA — exceção à regra geral do CDC (CDC art. 14 §4º). Apurar CULPA do profissional (médico, advogado, dentista). Demais prestadores: OBJETIVA.', tags: ['colmat', 'CDC', 'profissional-liberal'] },
+  { id: 421, topic: 7, materia: 'colmat', q: 'Inversão do ônus da prova — requisitos?', a: 'CDC art. 6º VIII: VEROSSIMILHANÇA das alegações OU HIPOSSUFICIÊNCIA (técnica, financeira, probatória). Não precisam ambas — alternativos. Pode ser de ofício. STJ: declaração no SANEAMENTO (não na sentença).', tags: ['colmat', 'CDC', 'inversao-onus'] },
+  { id: 422, topic: 7, materia: 'colmat', q: 'Direito de arrependimento (CDC art. 49)?', a: '7 DIAS para compras realizadas FORA do estabelecimento (telemarketing, internet, ambulante, domicílio). NÃO se aplica a compras presenciais. Restituição imediata, monetariamente atualizada.', tags: ['colmat', 'CDC', 'arrependimento'] },
+
+  // colmat-08 — Meio Ambiente
+  { id: 423, topic: 8, materia: 'colmat', q: 'Princípios PREVENÇÃO × PRECAUÇÃO?', a: 'PREVENÇÃO: risco CONHECIDO (certeza científica do dano potencial). PRECAUÇÃO: risco DESCONHECIDO (incerteza científica) — in dubio pro natura. Aplicação: agrotóxicos novos, transgênicos, ondas eletromagnéticas.', tags: ['colmat', 'ambiental', 'principios'] },
+  { id: 424, topic: 8, materia: 'colmat', q: 'STF Tema 999 — prescrição da reparação ambiental?', a: 'IMPRESCRITÍVEL (RE 654.833, 2020). A pretensão de reparação do dano ambiental NÃO prescreve — degradação é grave e ultrapassa o tempo. Não confundir com prescrição da multa adm. (5 anos — Súm. 467 STJ).', tags: ['colmat', 'ambiental', 'STF', 'tema-999'] },
+  { id: 425, topic: 8, materia: 'colmat', q: 'Responsabilidade civil ambiental — natureza?', a: 'OBJETIVA · SOLIDÁRIA · PROPTER REM · IMPRESCRITÍVEL. Lei 6.938/81 art. 14 §1º + Súm. 623 STJ + STF Tema 999. STJ adota teoria do RISCO INTEGRAL (não admite excludentes).', tags: ['colmat', 'ambiental', 'responsabilidade'] },
+  { id: 426, topic: 8, materia: 'colmat', q: 'Tríplice responsabilização ambiental (CF 225 §3º)?', a: 'CIVIL · ADMINISTRATIVA · PENAL. Independentes e cumulativas. Mesmo fato pode gerar ações em todas as esferas. Absolvição em uma não afasta as demais (salvo CPP 386 I e IV).', tags: ['colmat', 'ambiental', 'triplice'] },
+  { id: 427, topic: 8, materia: 'colmat', q: 'PJ responde penalmente em matéria ambiental?', a: 'SIM — única hipótese expressa no Brasil (CF 225 §3º + Lei 9.605/98 art. 3º). Penas: multa, restritivas de direitos (suspensão, interdição), prestação de serviços. Tese consagrada pelo STF.', tags: ['colmat', 'ambiental', 'PJ', 'crime'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -10518,6 +11252,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'CF 128 §5º I "a" + LC 34/94 art. 33. Vitaliciedade no MP é após 2 anos, mediante decisão fundamentada do CSMP. Antes, perda em PAD é admissível. (A) Falso — vitaliciedade não é desde a posse. (B) Falso — não é estabilidade comum (3 anos), é vitaliciedade (2 anos). (D) Falso — vedações se aplicam desde a posse; magistério permitido só UM. (E) Falso — promotor natural veda designações casuísticas.'
+  },
+
+  // === Questões Rodada 4 — Material Coletivo (colmat-03 a 08) ===
+  {
+    id: 149, topic: 3, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Lei 10.741/03 (Estatuto da Pessoa Idosa) e direitos correlatos:',
+    alternatives: [
+      'Considera-se idosa a pessoa com 65 anos ou mais, conforme o art. 1º do Estatuto.',
+      'O BPC (LOAS art. 20) garante 1 SM ao idoso a partir dos 60 anos, exigindo contribuição prévia.',
+      'É pessoa idosa quem tem 60 anos completos ou mais (art. 1º), e a Lei 13.466/17 inseriu prioridade ESPECIAL aos com 80 anos ou mais.',
+      'A cláusula contratual de plano de saúde que reajusta o valor por mudança de faixa etária do idoso é VÁLIDA, desde que prevista em contrato de adesão.',
+      'Pessoa idosa, em razão da idade, é absolutamente incapaz para os atos da vida civil.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 10.741/03 art. 1º + Lei 13.466/17 (§2º art. 3º). (A) Falso — 60 anos. (B) Falso — BPC é 65 anos+, sem contribuição. (D) Falso — Súmula 597 STJ veda. (E) Falso — pessoa idosa, em regra, é PLENAMENTE CAPAZ.'
+  },
+  {
+    id: 150, topic: 4, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca da Pessoa com Deficiência e da Lei Brasileira de Inclusão (LBI — Lei 13.146/15):',
+    alternatives: [
+      'A Convenção de Nova York sobre os Direitos das PCD (Decreto 6.949/09) tem status de lei ordinária e foi aprovada pelo rito comum.',
+      'Após a LBI, a deficiência mental, por si só, configura incapacidade absoluta nos termos do art. 3º do CC.',
+      'A Tomada de Decisão Apoiada (CC art. 1.783-A) substitui a vontade da PCD, equivalendo materialmente à curatela.',
+      'A LBI consagrou o modelo BIOPSICOSSOCIAL de deficiência, segundo o qual deficiência resulta da interação entre os impedimentos da pessoa e as barreiras existentes na sociedade; preserva a regra geral da plena capacidade civil.',
+      'A escola privada pode cobrar valor adicional para matricular PCDs, em razão do esforço institucional necessário.'
+    ],
+    correct: 'D',
+    explanation: 'LBI arts. 2º e 6º + STF ADI 5.357. (A) Falso — Convenção de NY foi aprovada pelo rito do art. 5º §3º (status de EC). (B) Falso — LBI excluiu deficiência mental como hipótese de incapacidade absoluta. (C) Falso — TDA NÃO substitui vontade; apoia. (E) Falso — STF ADI 5.357 vedou cobrança extra.'
+  },
+  {
+    id: 151, topic: 5, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o direito à educação no Brasil:',
+    alternatives: [
+      'A obrigatoriedade da educação se estende dos 7 aos 14 anos, abrangendo apenas o ensino fundamental.',
+      'A vaga em creche para crianças de 0 a 3 anos pode ser negada pelo Município sob alegação de reserva do possível, conforme jurisprudência consolidada do STF.',
+      'A educação domiciliar é hoje permitida no Brasil, desde que com acompanhamento pedagógico dos pais.',
+      'A EC 59/09 expandiu a obrigatoriedade da educação para a faixa de 4 a 17 anos (pré-escola, fundamental e médio); o STF (Tema 548) afastou a alegação de reserva do possível para vagas em educação infantil.',
+      'O FUNDEB é fundo de natureza temporária, vigente apenas até 2020, sem renovação posterior.'
+    ],
+    correct: 'D',
+    explanation: 'EC 59/09 + STF Tema 548 + EC 108/20. (A) Falso — hoje é 4-17 anos. (B) Falso — Tema 548 STF afasta reserva do possível. (C) Falso — Tema 822 STF: hoje vedada (sem lei federal). (E) Falso — EC 108/20 tornou FUNDEB permanente.'
+  },
+  {
+    id: 152, topic: 6, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'A respeito da judicialização da saúde, conforme o STF e o STJ:',
+    alternatives: [
+      'O STF (Tema 6) determina o fornecimento de qualquer medicamento prescrito por médico, sem registro na ANVISA, mediante simples laudo.',
+      'O STJ (Tema 106) condiciona o fornecimento de medicamento NÃO incorporado ao SUS a: imprescindibilidade comprovada por laudo, hipossuficiência financeira do paciente e registro na ANVISA, requisitos cumulativos.',
+      'O STF (Tema 793) afirma a responsabilidade SUBSIDIÁRIA dos entes federativos no fornecimento de medicamentos.',
+      'A reserva do possível, segundo o STF, afasta o direito ao mínimo existencial em matéria de saúde, em razão das limitações orçamentárias.',
+      'Conselhos de Saúde têm composição equilibrada entre gestores e usuários, com proporção de 1/3 para cada categoria.'
+    ],
+    correct: 'B',
+    explanation: 'STJ Tema 106 (REsp 1.657.156). (A) Falso — Tema 6 STF: 5 condições cumulativas. (C) Falso — solidária (Tema 793). (D) Falso — reserva do possível NÃO afasta mínimo existencial (ADPF 45, Tema 548). (E) Falso — composição PARITÁRIA: 50% usuários · 25% trabalhadores · 25% gestores/prestadores.'
+  },
+  {
+    id: 153, topic: 7, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Código de Defesa do Consumidor (Lei 8.078/90):',
+    alternatives: [
+      'A responsabilidade do profissional liberal perante o consumidor é OBJETIVA, como regra geral do CDC.',
+      'Os prazos para reclamação por VÍCIO do produto durável (90 dias) e do produto não durável (30 dias) — CDC art. 26 — são prazos PRESCRICIONAIS.',
+      'Considera-se BYSTANDER o terceiro que, embora não tenha contratado o produto/serviço, é vítima de acidente de consumo (CDC art. 17), equiparando-se ao consumidor.',
+      'O direito de arrependimento de 7 dias (CDC art. 49) aplica-se a todas as compras, inclusive presenciais.',
+      'A inversão do ônus da prova em favor do consumidor é vedada pelo princípio dispositivo, salvo expressa concordância do fornecedor.'
+    ],
+    correct: 'C',
+    explanation: 'CDC art. 17 — bystander é equiparado. (A) Falso — profissional liberal é SUBJETIVA (art. 14 §4º). (B) Falso — são prazos DECADENCIAIS (vício). Prescrição de 5 anos só para FATO (art. 27). (D) Falso — apenas compras FORA do estabelecimento. (E) Falso — CDC art. 6º VIII admite, condicionada a verossimilhança ou hipossuficiência.'
+  },
+  {
+    id: 154, topic: 8, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Quanto à tutela jurídica do meio ambiente, é correto afirmar:',
+    alternatives: [
+      'A pretensão de reparação do dano ambiental prescreve em 5 anos, contados da ciência do dano, conforme o STF.',
+      'A responsabilidade civil ambiental é subjetiva, dependendo da prova de culpa ou dolo do agente.',
+      'A pessoa jurídica não responde criminalmente em matéria ambiental, em razão do princípio da pessoalidade da pena (CF 5º XLV).',
+      'O princípio da PRECAUÇÃO atua sobre risco DESCONHECIDO (incerteza científica) — distinguindo-se do princípio da PREVENÇÃO, que atua sobre risco conhecido (certeza científica do dano potencial); ambos integram o núcleo do direito ambiental brasileiro.',
+      'A obrigação ambiental tem natureza pessoal, vinculando exclusivamente o causador direto do dano, sem alcance ao adquirente posterior.'
+    ],
+    correct: 'D',
+    explanation: 'Princípios consagrados pela doutrina e STF/STJ. (A) Falso — STF Tema 999: IMPRESCRITÍVEL. (B) Falso — OBJETIVA (Lei 6.938/81 art. 14 §1º). (C) Falso — CF 225 §3º + Lei 9.605/98 art. 3º (PJ responde). (E) Falso — propter rem (Súmula 623 STJ).'
   }
 ],
 
