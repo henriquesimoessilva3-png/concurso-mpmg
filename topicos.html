@@ -121,12 +121,21 @@
       <button class="btn btn-sm" id="voice-male" title="Melhor voz masculina pt-BR disponível">♂</button>
       <button class="btn btn-sm" id="voice-female" title="Melhor voz feminina pt-BR disponível">♀</button>
       <select id="audio-voice"><option>Carregando…</option></select>
+      <button class="btn btn-sm" id="voice-piper" title="🎙️ Voz neural Premium (Piper) — download único ~30MB, depois funciona offline. Vozes: Faber (M) / Edresson (M) / Joana (F).">🎙️ Premium</button>
+      <select id="voice-piper-id" style="display:none;">
+        <option value="pt_BR-faber-medium" selected>Faber [M] — Premium 32MB</option>
+        <option value="pt_BR-edresson-low">Edresson [M] — Lite 24MB</option>
+        <option value="pt_BR-cadu-medium">Cadu [M] — Premium 28MB</option>
+      </select>
       <span class="audio-status" id="audio-status"></span>
       <details class="audio-help">
         <summary>Robótica? 💡</summary>
         <div>
-          <p>A qualidade da voz depende do que está instalado no seu sistema. A Web Speech API só usa vozes locais.</p>
-          <p><b>Para vozes muito mais naturais (Apple Premium / Neural):</b></p>
+          <p><b>Opção mais simples — clique 🎙️ Premium</b> (botão amarelo).</p>
+          <p>Baixa um modelo de voz neural que roda dentro do navegador (~30MB na primeira vez, depois funciona offline). Vozes pt-BR de alta qualidade sem precisar instalar nada no sistema.</p>
+          <p>Vozes disponíveis: <b>Faber</b> (masculina padrão), <b>Edresson</b> (masculina lite, mais rápida), <b>Cadu</b> (masculina alternativa).</p>
+          <p>Funciona em Chrome, Safari, Edge e Firefox recentes (desktop e mobile). iOS Safari mais antigo pode não suportar — nesse caso, use a opção abaixo.</p>
+          <p style="margin-top: 0.6rem;"><b>Alternativa — instalar voz Premium do sistema:</b></p>
           <ul>
             <li><b>macOS</b>: <i>Ajustes do Sistema → Acessibilidade → Conteúdo Falado → Voz do Sistema → Gerenciar Vozes…</i> → Português (Brasil) → baixar <b>Felipe (Premium)</b> ou <b>Luciana (Premium)</b>. Recarregar a página depois.</li>
             <li><b>iOS/iPadOS</b>: <i>Ajustes → Acessibilidade → Conteúdo Falado → Vozes → Português → Brasil</i> → escolher e baixar variante "Aprimorada" ou "Premium".</li>
@@ -622,7 +631,90 @@
       return out;
     }
 
-    function speakNext() {
+    // ===== PIPER (voz neural Premium) =====
+    const piperBtn = document.getElementById('voice-piper');
+    const piperVoiceEl = document.getElementById('voice-piper-id');
+    let usePiper = localStorage.getItem('concurso-mpmg-use-piper') === 'true';
+    let piperSession = null;
+    let piperVoiceId = localStorage.getItem('concurso-mpmg-piper-voice') || 'pt_BR-faber-medium';
+    piperVoiceEl.value = piperVoiceId;
+    let currentPiperAudio = null;
+    let piperShouldStop = false;
+    let piperPausedManually = false;
+
+    if (usePiper) piperBtn.classList.add('active');
+
+    async function initPiperSession(voiceId) {
+      if (piperSession && piperSession._voiceId === voiceId) return piperSession;
+      // Voz mudou ou primeira carga
+      piperSession = null;
+      statusEl.textContent = '⬇️ Carregando voz Premium…';
+      try {
+        const mod = await import('https://cdn.jsdelivr.net/npm/@mintplex-labs/piper-tts-web@0.0.5/+esm');
+        const TtsSession = mod.TtsSession || mod.default?.TtsSession || mod.default;
+        if (!TtsSession) throw new Error('Biblioteca Piper sem TtsSession');
+        const session = new TtsSession({
+          voiceId,
+          progress: (event) => {
+            if (event && event.loaded != null && event.total) {
+              const pct = Math.round((event.loaded / event.total) * 100);
+              statusEl.textContent = `⬇️ Voz Premium ${pct}%`;
+            }
+          }
+        });
+        if (session.ready) await session.ready;
+        session._voiceId = voiceId;
+        piperSession = session;
+        statusEl.textContent = '✅ Voz Premium pronta';
+        return piperSession;
+      } catch (err) {
+        piperSession = null;
+        throw err;
+      }
+    }
+
+    async function playWithPiper(text, rate) {
+      const session = await initPiperSession(piperVoiceId);
+      const wav = await session.predict(text);
+      return new Promise((resolve, reject) => {
+        const blob = wav instanceof Blob ? wav : new Blob([wav], { type: 'audio/wav' });
+        const url = URL.createObjectURL(blob);
+        const audio = new Audio(url);
+        audio.playbackRate = rate;
+        currentPiperAudio = audio;
+        audio.addEventListener('ended', () => {
+          URL.revokeObjectURL(url);
+          if (currentPiperAudio === audio) currentPiperAudio = null;
+          resolve();
+        });
+        audio.addEventListener('error', () => {
+          URL.revokeObjectURL(url);
+          if (currentPiperAudio === audio) currentPiperAudio = null;
+          reject(new Error('Falha de reprodução'));
+        });
+        audio.play().catch(reject);
+      });
+    }
+
+    function playWithWebSpeech(text, rate) {
+      return new Promise((resolve, reject) => {
+        const u = new SpeechSynthesisUtterance(text);
+        const vIdx = parseInt(voiceEl.value);
+        if (!isNaN(vIdx) && voices[vIdx]) {
+          u.voice = voices[vIdx];
+          u.lang = voices[vIdx].lang;
+        } else {
+          u.lang = 'pt-BR';
+        }
+        u.rate = rate;
+        u.onend = resolve;
+        u.onerror = (e) => reject(new Error(e.error || 'TTS error'));
+        window.speechSynthesis.speak(u);
+      });
+    }
+
+    async function speakNext() {
+      if (piperShouldStop) return;
       if (idx >= chunks.length) {
         statusEl.textContent = '✅ Concluído';
         playBtn.style.display = '';
@@ -631,31 +723,73 @@
         idx = 0;
         return;
       }
-      const u = new SpeechSynthesisUtterance(chunks[idx]);
-      const vIdx = parseInt(voiceEl.value);
-      if (!isNaN(vIdx) && voices[vIdx]) {
-        u.voice = voices[vIdx];
-        u.lang = voices[vIdx].lang;
-      } else {
-        u.lang = 'pt-BR';
-      }
-      u.rate = parseFloat(speedEl.value) || 1;
-      u.onend = () => {
+      const text = chunks[idx];
+      const rate = parseFloat(speedEl.value) || 1;
+      try {
+        if (usePiper) {
+          await playWithPiper(text, rate);
+        } else {
+          await playWithWebSpeech(text, rate);
+        }
+        if (piperShouldStop) return;
         idx++;
         statusEl.textContent = idx + '/' + chunks.length;
-        if (!window.speechSynthesis.paused) speakNext();
-      };
-      u.onerror = (e) => {
-        statusEl.textContent = '⚠️ Erro: ' + (e.error || 'desconhecido');
+        if (usePiper ? !piperPausedManually : !window.speechSynthesis.paused) {
+          speakNext();
+        }
+      } catch (err) {
+        if (piperShouldStop) return;
+        statusEl.textContent = '⚠️ Erro: ' + (err.message || err.error || 'desconhecido');
+        // Se Piper falhou, sugerir fallback
+        if (usePiper) {
+          statusEl.textContent += ' (clique 🎙️ Premium novamente para desativar)';
+        }
         playBtn.style.display = '';
         pauseBtn.style.display = 'none';
         stopBtn.style.display = 'none';
-      };
-      window.speechSynthesis.speak(u);
+      }
     }
+
+    piperBtn.addEventListener('click', async () => {
+      // Toggle Piper on/off
+      // Se está tocando, para primeiro
+      window.speechSynthesis.cancel();
+      if (currentPiperAudio) {
+        currentPiperAudio.pause();
+        currentPiperAudio = null;
+      }
+      piperShouldStop = true;
+      await new Promise(r => setTimeout(r, 50));
+      piperShouldStop = false;
+      idx = 0;
+      playBtn.style.display = '';
+      pauseBtn.style.display = 'none';
+      stopBtn.style.display = 'none';
+
+      usePiper = !usePiper;
+      localStorage.setItem('concurso-mpmg-use-piper', usePiper ? 'true' : 'false');
+      piperBtn.classList.toggle('active', usePiper);
+      piperVoiceEl.style.display = usePiper ? '' : 'none';
+
+      if (usePiper) {
+        statusEl.textContent = '🎙️ Premium ativada — clique 🔊 Ouvir para baixar a voz (~30MB) na primeira vez';
+      } else {
+        statusEl.textContent = '';
+      }
+    });
+    piperVoiceEl.addEventListener('change', () => {
+      piperVoiceId = piperVoiceEl.value;
+      localStorage.setItem('concurso-mpmg-piper-voice', piperVoiceId);
+      // Invalida sessão para forçar download da nova voz
+      piperSession = null;
+    });
+    if (usePiper) piperVoiceEl.style.display = '';
 
     playBtn.addEventListener('click', () => {
       window.speechSynthesis.cancel();
+      if (currentPiperAudio) { currentPiperAudio.pause(); currentPiperAudio = null; }
+      piperShouldStop = false;
+      piperPausedManually = false;
       chunks = getChunks();
       idx = 0;
       if (chunks.length === 0) {
@@ -671,19 +805,38 @@
     });
 
     pauseBtn.addEventListener('click', () => {
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
-        pauseBtn.textContent = '⏸️ Pausar';
+      if (usePiper) {
+        if (piperPausedManually) {
+          piperPausedManually = false;
+          pauseBtn.textContent = '⏸️ Pausar';
+          if (currentPiperAudio) {
+            currentPiperAudio.play();
+          } else {
+            speakNext();
+          }
+        } else {
+          piperPausedManually = true;
+          pauseBtn.textContent = '▶️ Continuar';
+          if (currentPiperAudio) currentPiperAudio.pause();
+        }
       } else {
-        window.speechSynthesis.pause();
-        pauseBtn.textContent = '▶️ Continuar';
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+          pauseBtn.textContent = '⏸️ Pausar';
+        } else {
+          window.speechSynthesis.pause();
+          pauseBtn.textContent = '▶️ Continuar';
+        }
       }
     });
 
     stopBtn.addEventListener('click', () => {
       window.speechSynthesis.cancel();
+      piperShouldStop = true;
+      if (currentPiperAudio) { currentPiperAudio.pause(); currentPiperAudio = null; }
       chunks = [];
       idx = 0;
+      piperPausedManually = false;
       playBtn.style.display = '';
       pauseBtn.style.display = 'none';
       stopBtn.style.display = 'none';
@@ -691,15 +844,23 @@
     });
 
     speedEl.addEventListener('change', () => {
+      // Web Speech: cancel and replay current chunk in new rate
       if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
         window.speechSynthesis.cancel();
         if (idx > 0) idx--;
         speakNext();
       }
+      // Piper: just adjust playbackRate of current audio (instant)
+      if (currentPiperAudio) {
+        currentPiperAudio.playbackRate = parseFloat(speedEl.value) || 1;
+      }
     });
 
     // Cancela ao sair da página
-    window.addEventListener('beforeunload', () => window.speechSynthesis.cancel());
+    window.addEventListener('beforeunload', () => {
+      window.speechSynthesis.cancel();
+      if (currentPiperAudio) currentPiperAudio.pause();
+    });
   })();
 
   } /* end if(!isStub) for setup */
