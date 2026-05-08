@@ -5844,8 +5844,206 @@ topics: [
   },
 
   // ============ ESQUELETOS — DIREITO CONSTITUCIONAL (12) ============
-  { id: 'const-01-teoria-constituicao', num: 1, materia: 'const', title: 'Teoria da Constituição', edital: '1.1.1', editalText: 'Conceito de Constituição. Classificações. Poder constituinte originário e derivado (reformador, decorrente, revisor). Mutação constitucional.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito de Constituição (sentidos sociológico, político, jurídico)', 'Classificações (quanto à forma, origem, extensão, conteúdo, estabilidade, finalidade)', 'Poder constituinte originário — características', 'Poder constituinte derivado reformador, decorrente e revisor', 'Limites materiais (cláusulas pétreas) e formais', 'Mutação constitucional × reforma'], sections: [] },
-  { id: 'const-02-aplicabilidade-normas', num: 2, materia: 'const', title: 'Aplicabilidade e eficácia das normas constitucionais', edital: '1.1.2', editalText: 'Classificação de José Afonso da Silva. Normas de eficácia plena, contida e limitada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Classificação de José Afonso da Silva', 'Eficácia plena', 'Eficácia contida (restringível)', 'Eficácia limitada (programática e de princípio institutivo)', 'Aplicabilidade imediata × diferida'], sections: [] },
+  { id: 'const-01-teoria-constituicao', num: 1, materia: 'const', title: 'Teoria da Constituição', edital: '1.1.1', editalText: 'Conceito de Constituição. Classificações. Poder constituinte originário e derivado (reformador, decorrente, revisor). Mutação constitucional.', size: 'Médio', schedule: 'Mês 8 — base do constitucional', advantage: null, outline: ['Conceito de Constituição (sentidos sociológico, político, jurídico)', 'Classificações (quanto à forma, origem, extensão, conteúdo, estabilidade, finalidade)', 'Poder constituinte originário — características', 'Poder constituinte derivado reformador, decorrente e revisor', 'Limites materiais (cláusulas pétreas) e formais', 'Mutação constitucional × reforma'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **Teoria da Constituição** estuda o que é uma Constituição, como se classifica, como nasce, como muda e quais seus limites. É o pórtico de entrada do Direito Constitucional — sem dominar a teoria, os demais tópicos perdem sustento. Para o concurso, três blocos estruturam o estudo: (i) **CONCEITOS** de Constituição (Lassalle, Schmitt, Kelsen); (ii) **CLASSIFICAÇÕES** (formal, material, rígida, flexível, etc.); (iii) **PODER CONSTITUINTE** (originário, derivado, mutações).' },
+        { type: 'p', text: 'A **CF/88** é classificada como: **escrita · formal · dogmática · promulgada · rígida · analítica · normativa · principiológica · eclética/compromissória · social · dirigente**. Decorar essas classificações é dever de prova. Cada classificação tem implicação prática (rigidez exige rito reforçado de emenda; analítica permite controle abstrato amplo; principiológica exige aplicação ponderada).' },
+        { type: 'p', text: 'O **PODER CONSTITUINTE** é o poder de FAZER a Constituição. **Originário** é INICIAL, ILIMITADO juridicamente, INCONDICIONADO, AUTÔNOMO. **Derivado** (criado pelo originário) é LIMITADO e CONDICIONADO — desdobra-se em **REFORMADOR** (emendas), **DECORRENTE** (constituições estaduais) e **REVISOR** (revisão de 1993, esgotada). A **mutação constitucional** é mecanismo informal — mudança de SENTIDO sem mudança de TEXTO (interpretação evolutiva).' }
+      ]
+    },
+    {
+      h: 'Conceitos e classificações',
+      items: [
+        { type: 'h', text: 'Sentidos de Constituição (clássicos doutrinários)' },
+        { type: 'list', items: [
+          '**SOCIOLÓGICO (Lassalle, 1862):** Constituição é a SOMA dos fatores reais de poder na sociedade (forças políticas, econômicas, militares). A Constituição escrita é apenas "folha de papel" se não corresponder a esses fatores',
+          '**POLÍTICO (Carl Schmitt):** Constituição é a DECISÃO POLÍTICA FUNDAMENTAL do titular do poder — distinto das "leis constitucionais" (matérias acidentais)',
+          '**JURÍDICO (Kelsen):** Constituição é o NÍVEL MAIS ALTO da pirâmide normativa (norma fundamental hipotética). Plano LÓGICO-JURÍDICO (norma fundamental hipotética) e JURÍDICO-POSITIVO (Constituição positivada)'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Conceitos: LASSALLE (sociológico) · SCHMITT (político) · KELSEN (jurídico).** Mnemônico **L-S-K**.' },
+
+        { type: 'h', text: 'Classificações (memorizar)' },
+        { type: 'table',
+          headers: ['Critério', 'Categorias', 'CF/88'],
+          rows: [
+            ['Forma', 'Escrita / Não escrita (costumeira)', 'ESCRITA'],
+            ['Sistemática', 'Codificada / Legal (esparsa)', 'CODIFICADA (em um único documento)'],
+            ['Origem', 'Promulgada (democrática) / Outorgada / Cesarista / Pactuada', 'PROMULGADA'],
+            ['Modo de elaboração', 'Dogmática / Histórica', 'DOGMÁTICA'],
+            ['Estabilidade', 'Rígida / Flexível / Semirrígida / Imutável / Super-rígida', 'RÍGIDA (alguns: SUPER-RÍGIDA por ter cláusulas pétreas)'],
+            ['Conteúdo', 'Material / Formal', 'FORMAL (todo conteúdo da CF é constitucional, mesmo se não material)'],
+            ['Extensão', 'Sintética / Analítica', 'ANALÍTICA (250+ artigos + ADCT)'],
+            ['Finalidade', 'Garantia / Balanço / Dirigente', 'DIRIGENTE (estabelece programas)'],
+            ['Correspondência com a realidade (Loewenstein)', 'Normativa / Nominal / Semântica', 'NORMATIVA (ideal: real correspondência)'],
+            ['Ideologia', 'Eclética/compromissória / Ortodoxa', 'ECLÉTICA (compromisso entre forças plurais)'],
+            ['Função', 'Liberal/negativa / Social', 'SOCIAL']
+          ]
+        },
+        { type: 'box', kind: 'info', text: '**CF/88 = ESCRITA, FORMAL, DOGMÁTICA, PROMULGADA, RÍGIDA, ANALÍTICA, NORMATIVA, PRINCIPIOLÓGICA, ECLÉTICA, SOCIAL, DIRIGENTE.** Decorar essa "ficha técnica" é obrigatório.' }
+      ]
+    },
+    {
+      h: 'Poder Constituinte',
+      items: [
+        { type: 'h', text: 'Originário — INICIAL · ILIMITADO (juridicamente) · INCONDICIONADO · AUTÔNOMO' },
+        { type: 'p', text: 'O **PODER CONSTITUINTE ORIGINÁRIO** é a expressão máxima da soberania popular — quem cria uma nova Constituição, rompendo com a anterior. Características: **(i) INICIAL** — instaura nova ordem jurídica; **(ii) ILIMITADO juridicamente** (no plano interno) — mas tem limites EXTRAJURÍDICOS (valores, direitos humanos no plano internacional, condicionamentos sociais e históricos); **(iii) INCONDICIONADO** — não se vincula a formas pré-estabelecidas; **(iv) AUTÔNOMO** — fixa as próprias regras.' },
+        { type: 'p', text: '**Modalidades históricas:** Originário FUNDACIONAL (primeira Constituição) × PÓS-FUNDACIONAL (constituições subsequentes). HISTÓRICO (gerado por luta) × REVOLUCIONÁRIO (rompimento abrupto).' },
+        { type: 'box', kind: 'atencao', text: '**Originário é ilimitado JURIDICAMENTE — mas tem limites EXTRAJURÍDICOS (jusnaturalistas, sociológicos, ideológicos).** Banca explora a nuance: alternativa que diz "absolutamente ilimitado" pode estar imprecisa.' },
+
+        { type: 'h', text: 'Derivado — LIMITADO e CONDICIONADO' },
+        { type: 'p', text: 'O **PODER CONSTITUINTE DERIVADO** é criação do originário. Subdivide-se em três:' },
+        { type: 'list', items: [
+          '**(i) REFORMADOR** — emenda à Constituição (CF art. 60). Limites FORMAIS (rito: 3/5 em cada Casa, 2 turnos, propositura por 1/3, etc.), CIRCUNSTANCIAIS (vedação durante intervenção, estado de defesa, estado de sítio — art. 60 §1º), MATERIAIS (cláusulas pétreas — art. 60 §4º: forma federativa, voto direto/secreto/universal/periódico, separação dos poderes, direitos e garantias individuais)',
+          '**(ii) DECORRENTE** — Estados-membros elaboram suas constituições estaduais (CF art. 25 + ADCT art. 11). Limita-se aos princípios da CF/88 (princípios sensíveis — CF 34 VII; estabelecidos; extensíveis)',
+          '**(iii) REVISOR** — previsto no ADCT art. 3º. Foi exercido em 1993, com 6 emendas de revisão, e está ESGOTADO. Não pode ser reativado'
+        ]},
+        { type: 'box', kind: 'macete', text: '**Derivado tem 3 modalidades: REFORMADOR · DECORRENTE · REVISOR.** Reformador é o único PERMANENTE; Revisor está esgotado.' },
+
+        { type: 'h', text: 'Cláusulas pétreas (CF art. 60 §4º)' },
+        { type: 'p', text: 'Limites MATERIAIS ao poder reformador. Não podem ser objeto de emenda TENDENTE A ABOLIR: (i) **forma federativa** de Estado; (ii) **voto direto, secreto, universal e periódico**; (iii) **separação dos Poderes**; (iv) **direitos e garantias individuais**. STF: a vedação alcança não só a abolição expressa, mas qualquer modificação que TENDA A REDUZIR o núcleo essencial dessas matérias.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 939 (1993):** "Art. 60 §4º IV protege direitos e garantias INDIVIDUAIS — não apenas os do art. 5º, mas também os esparsos (ex: princípio da anterioridade tributária — art. 150 III "b" — é direito individual do contribuinte, cláusula pétrea)."' },
+
+        { type: 'h', text: 'Mutação constitucional' },
+        { type: 'p', text: 'É mecanismo INFORMAL de mudança da Constituição — alteração do SENTIDO sem alteração do TEXTO. Diferentemente da REFORMA (mudança formal pelo poder reformador), a mutação opera por VIA INTERPRETATIVA (jurisprudência, doutrina, novas práticas sociais). É legítima desde que respeite os limites do TEXTO (não pode contrariá-lo).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — exemplo paradigmático: HC 82.959 (2006):** Mutação constitucional para admitir progressão de regime em crimes hediondos, antes vedada. STF reformulou interpretação do art. 5º XLIII sem alterar o texto.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 conceitos clássicos: LASSALLE (sociológico) · SCHMITT (político) · KELSEN (jurídico).** Mnemônico **L-S-K**.' },
+        { type: 'box', kind: 'macete', text: '**Características do Originário: I-I-I-A** (Inicial · Ilimitado juridicamente · Incondicionado · Autônomo).' },
+        { type: 'box', kind: 'macete', text: '**Derivado: REFORMADOR (CF 60) · DECORRENTE (CF 25) · REVISOR (ADCT 3 — esgotado).**' },
+        { type: 'box', kind: 'macete', text: '**Cláusulas pétreas (CF 60 §4º): FORMA FEDERATIVA · VOTO DSUP · SEPARAÇÃO DOS PODERES · DIREITOS INDIVIDUAIS.** Mnemônico **F-V-S-D**.' },
+        { type: 'box', kind: 'macete', text: '**CF/88: 11 classificações = ESCRITA · FORMAL · DOGMÁTICA · PROMULGADA · RÍGIDA · ANALÍTICA · NORMATIVA · PRINCIPIOLÓGICA · ECLÉTICA · SOCIAL · DIRIGENTE.**' },
+        { type: 'box', kind: 'macete', text: '**Mutação ≠ Reforma.** Mutação muda SENTIDO (informal); Reforma muda TEXTO (formal).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Originário é ilimitado JURIDICAMENTE, não absolutamente.** Banca explora alternativa que diz "absolutamente ilimitado" — pode estar imprecisa pelos limites extrajurídicos.' },
+        { type: 'box', kind: 'atencao', text: '**Cláusulas pétreas vedam EMENDA TENDENTE A ABOLIR — não só abolição expressa.** Núcleo essencial é intocável.' },
+        { type: 'box', kind: 'atencao', text: '**Direitos e garantias INDIVIDUAIS (cláusula pétrea) — não inclui direitos sociais COLETIVOS.** Polêmica doutrinária, mas STF restringe ao art. 5º e equiparados.' },
+        { type: 'box', kind: 'atencao', text: '**Poder revisor está ESGOTADO desde 1994.** Não pode ser reativado por emenda. Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**CF/88 é DIRIGENTE — estabelece programas a serem cumpridos pelo Estado.** Não confundir com nominal/semântica (Loewenstein).' },
+        { type: 'box', kind: 'atencao', text: '**Mutação constitucional NÃO altera o texto.** Apenas o sentido. Banca cobra essa distinção.' },
+        { type: 'box', kind: 'atencao', text: '**Constituição estadual (poder DECORRENTE) deve respeitar princípios sensíveis (CF 34 VII), estabelecidos e extensíveis da CF/88.** Não é livre.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 2 (eficácia das normas):** classificação de José Afonso da Silva (plena, contida, limitada) decorre da força normativa.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 3 (hermenêutica):** princípios de interpretação (unidade, máxima efetividade, força normativa) são instrumentos da Teoria.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 4 (princípios fundamentais):** CF arts. 1º-4º são fundamento da decisão política fundamental (Schmitt).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** controle de emendas (limite ao poder reformador).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — supremacia da CF:** Adm. Pública vinculada à legalidade e à constitucionalidade.' }
+      ]
+    }
+  ] },
+  { id: 'const-02-aplicabilidade-normas', num: 2, materia: 'const', title: 'Aplicabilidade e eficácia das normas constitucionais', edital: '1.1.2', editalText: 'Classificação de José Afonso da Silva. Normas de eficácia plena, contida e limitada.', size: 'Pequeno', schedule: 'Mês 8 — base do constitucional', advantage: null, outline: ['Classificação de José Afonso da Silva', 'Eficácia plena', 'Eficácia contida (restringível)', 'Eficácia limitada (programática e de princípio institutivo)', 'Aplicabilidade imediata × diferida'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **APLICABILIDADE** e **EFICÁCIA** das normas constitucionais é tema de fronteira entre teoria e prática — define a operacionalidade direta de cada artigo da CF. A classificação clássica brasileira é de **José Afonso da Silva** (1967, em obra que influencia o tema desde então), tripartite: **PLENA · CONTIDA · LIMITADA**. Domínio absoluto das três categorias é dever de prova.' },
+        { type: 'p', text: 'Os conceitos de **EFICÁCIA** e **APLICABILIDADE** não se confundem. **EFICÁCIA** é a aptidão da norma para produzir efeitos jurídicos. **APLICABILIDADE** é a possibilidade prática de aplicação. Norma de eficácia plena tem aplicabilidade direta e imediata; norma de eficácia limitada depende de regulamentação para alcançar plena aplicação.' },
+        { type: 'p', text: 'Para o concurso: (a) **3 categorias** de José Afonso da Silva e seus exemplos típicos; (b) **classificação de Maria Helena Diniz** (4 categorias — alternativa); (c) classificação alemã de **Canotilho** (princípios e regras); (d) **eficácia horizontal** dos direitos fundamentais; (e) **aplicabilidade imediata** dos direitos individuais (CF 5º §1º) — interpretação polêmica.' }
+      ]
+    },
+    {
+      h: 'Classificação de José Afonso da Silva (clássica)',
+      items: [
+        { type: 'h', text: '1. Eficácia PLENA' },
+        { type: 'p', text: '**Conceito:** norma de aplicabilidade DIRETA, IMEDIATA e INTEGRAL. NÃO depende de regulamentação para produzir todos os seus efeitos. A norma "se basta" — opera por si mesma, completa.' },
+        { type: 'p', text: '**Exemplos:** CF art. 1º (fundamentos da República), art. 2º (separação dos Poderes), art. 5º caput (igualdade), art. 14 §1º (idade para alistamento eleitoral aos 18 — hoje aos 16 facultativo).' },
+        { type: 'box', kind: 'macete', text: '**PLENA = D-I-I (Direta · Imediata · Integral).** Aplica-se completamente desde a vigência.' },
+
+        { type: 'h', text: '2. Eficácia CONTIDA (ou restringível)' },
+        { type: 'p', text: '**Conceito:** norma de aplicabilidade DIRETA, IMEDIATA, mas **POSSIVELMENTE RESTRINGÍVEL** por lei posterior, ato normativo ou pela própria CF. Enquanto não houver restrição, a norma vale plenamente.' },
+        { type: 'p', text: '**Exemplos clássicos:** CF art. 5º XIII (livre exercício de qualquer trabalho — pode ser restringido por exigências de qualificação, ex: OAB para advogados, CRM para médicos); art. 5º LXVII (prisão civil do depositário infiel — restringida pela jurisprudência, hoje vedada por força do controle de convencionalidade).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Pegadinha frequente:** alternativa diz que norma de eficácia contida é IMPRODUTIVA até regulamentação. Errado — vale plenamente até que venha restrição.' },
+
+        { type: 'h', text: '3. Eficácia LIMITADA' },
+        { type: 'p', text: '**Conceito:** norma de aplicabilidade INDIRETA, MEDIATA e REDUZIDA. Depende de regulamentação POSTERIOR para produzir TODOS os seus efeitos. Tem APENAS EFICÁCIA MÍNIMA: gera efeito NEGATIVO (revoga normas anteriores incompatíveis) e VINCULA o legislador (obrigação de legislar).' },
+        { type: 'p', text: 'Subdivide-se em duas espécies:' },
+        { type: 'list', items: [
+          '**(a) PROGRAMÁTICAS** — definem PROGRAMAS, METAS, FINS a serem alcançados pelo Estado. Ex: CF art. 3º (objetivos da República), art. 196 (direito à saúde), art. 205 (direito à educação)',
+          '**(b) DE PRINCÍPIO INSTITUTIVO** — preveem CRIAÇÃO DE ÓRGÃOS ou INSTITUIÇÕES, dependentes de lei. Ex: CF art. 18 §3º (criação de Estados — depende de LC), art. 22 § único (delegação de competências mediante LC)'
+        ]},
+        { type: 'box', kind: 'atencao', text: '**Norma de eficácia limitada NÃO é destituída de eficácia — tem EFICÁCIA MÍNIMA (revoga incompatíveis e vincula o legislador).** Pegadinha clássica.' }
+      ]
+    },
+    {
+      h: 'Outras classificações',
+      items: [
+        { type: 'h', text: 'Classificação de Maria Helena Diniz (4 categorias)' },
+        { type: 'list', items: [
+          '**1. Eficácia ABSOLUTA (supereficaz):** corresponde às CLÁUSULAS PÉTREAS. Aplicabilidade direta, imediata e integral. Não pode ser modificada nem mesmo por emenda',
+          '**2. Eficácia PLENA:** equivalente à de J.A. da Silva',
+          '**3. Eficácia RELATIVA RESTRINGÍVEL:** equivalente à contida',
+          '**4. Eficácia RELATIVA COMPLEMENTÁVEL:** equivalente à limitada'
+        ]},
+        { type: 'box', kind: 'info', text: '**Diniz acrescenta a categoria das normas SUPER-EFICAZES (cláusulas pétreas).** No mais, é equivalente. José Afonso é a classificação dominante.' },
+
+        { type: 'h', text: 'Aplicabilidade imediata dos direitos fundamentais (CF 5º §1º)' },
+        { type: 'p', text: '**CF art. 5º §1º:** "As normas definidoras dos direitos e garantias fundamentais têm APLICAÇÃO IMEDIATA."' },
+        { type: 'p', text: '**Doutrina majoritária:** essa aplicação imediata abrange direitos de eficácia PLENA e CONTIDA — direitos LIMITADOS dependem de regulamentação. Mas há autores (Canotilho) que defendem aplicação imediata MÁXIMA possível, mesmo das normas limitadas — exigindo ativação judicial.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — entendimento prevalente:** art. 5º §1º não converte automaticamente direitos limitados em plenamente aplicáveis. Mas o legislador omisso pode ser pressionado via mandado de injunção (Lei 13.300/16) ou ADO.' }
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Eficácia horizontal dos direitos fundamentais' },
+        { type: 'p', text: 'Tradicionalmente, direitos fundamentais incidiriam apenas na relação ESTADO × INDIVÍDUO (eficácia VERTICAL). A doutrina moderna (Canotilho, Sarlet) e o STF reconhecem a **EFICÁCIA HORIZONTAL** — aplicação dos direitos fundamentais nas relações ENTRE PARTICULARES.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 201.819 (2005):** caso da União Brasileira de Compositores. Associação privada que excluiu sócio sem ampla defesa violou direito fundamental — STF aplicou diretamente a CF na relação privada. Marco da eficácia horizontal.' },
+
+        { type: 'h', text: 'Recepção, repristinação e vacatio constitucionalis' },
+        { type: 'p', text: '**RECEPÇÃO:** normas anteriores à CF/88 que com ela são MATERIALMENTE COMPATÍVEIS são RECEBIDAS no novo ordenamento (ainda que tenham status diferente do original). Ex: Código Civil de 1916 (recepcionado em 1988); Código Penal de 1940 (recepcionado).' },
+        { type: 'p', text: '**REPRISTINAÇÃO:** revogação de uma norma revogadora NÃO restaura automaticamente a norma originalmente revogada (LINDB art. 2º §3º). Salvo previsão expressa.' },
+        { type: 'p', text: '**Vacatio constitucionalis:** período entre a promulgação da nova Constituição e sua plena vigência. CF/88 não tem vacatio expresso (entrou em vigor na data da promulgação).' },
+
+        { type: 'h', text: 'Bloco de constitucionalidade' },
+        { type: 'p', text: 'Conjunto de normas com STATUS CONSTITUCIONAL — não apenas a CF formal. Composição: (i) **CF/88** (texto principal); (ii) **ADCT**; (iii) **Tratados de DH aprovados pelo rito do art. 5º §3º** (Convenção de NY, Tratado de Marraquexe — status formal de EC); (iv) **Súmulas Vinculantes** (controvertido).' },
+        { type: 'box', kind: 'info', text: '**STF — entendimento majoritário:** tratados de DH aprovados pelo rito comum têm status SUPRALEGAL (não integram bloco). Tratados pelo §3º integram materialmente.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 categorias clássicas (J. A. Silva): PLENA · CONTIDA · LIMITADA.**' },
+        { type: 'box', kind: 'macete', text: '**PLENA = D-I-I (Direta-Imediata-Integral) · CONTIDA = D-I-I até restrição · LIMITADA = INDIRETA-MEDIATA-REDUZIDA.**' },
+        { type: 'box', kind: 'macete', text: '**Limitada subdivide: PROGRAMÁTICAS (programas/metas) · INSTITUTIVAS (criam órgãos/instituições).**' },
+        { type: 'box', kind: 'macete', text: '**Eficácia mínima da limitada: REVOGA incompatíveis + VINCULA legislador.** Não é "zero".' },
+        { type: 'box', kind: 'macete', text: '**Maria Helena Diniz acrescenta SUPER-EFICAZES (cláusulas pétreas).**' },
+        { type: 'box', kind: 'macete', text: '**CF 5º §1º — aplicação imediata dos direitos fundamentais (mas com exceções para limitadas).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Norma de eficácia LIMITADA NÃO é "sem eficácia" — tem eficácia MÍNIMA** (revoga incompatíveis e vincula o legislador).' },
+        { type: 'box', kind: 'atencao', text: '**Norma de eficácia CONTIDA vale PLENAMENTE até que venha restrição.** Pegadinha: alternativa diz que precisa de regulamentação para valer.' },
+        { type: 'box', kind: 'atencao', text: '**CF 5º §1º (aplicação imediata) NÃO converte normas limitadas em plenas.** Direitos limitados ainda dependem de regulamentação.' },
+        { type: 'box', kind: 'atencao', text: '**Repristinação NÃO ocorre automaticamente** (LINDB 2º §3º) — salvo previsão expressa.' },
+        { type: 'box', kind: 'atencao', text: '**Recepção é MATERIAL — basta compatibilidade de conteúdo** (não exige rito constitucional).' },
+        { type: 'box', kind: 'atencao', text: '**Eficácia HORIZONTAL aplica direitos fundamentais entre PARTICULARES** (STF RE 201.819).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 1 (Teoria):** classificação se relaciona com a força normativa da Constituição (Hesse).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 3 (hermenêutica):** princípios da máxima efetividade e força normativa influenciam a interpretação dessas categorias.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** CF 5º §1º — aplicação imediata.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 10 (controle de constitucionalidade):** ADO (ação direta de inconstitucionalidade por OMISSÃO) — instrumento contra omissão de regulamentação de norma limitada.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 5 (MI/ADPF):** mandado de injunção combate omissão legislativa que inviabilize direito previsto em norma limitada.' }
+      ]
+    }
+  ] },
   { id: 'const-03-hermeneutica-constitucional', num: 3, materia: 'const', title: 'Hermenêutica e interpretação constitucional', edital: '1.1.3', editalText: 'Métodos e princípios de interpretação. Filtragem constitucional. Concretização.', size: 'Médio', schedule: null, advantage: null, outline: ['Métodos clássicos × específicos', 'Princípios da interpretação (unidade, máxima efetividade, concordância prática, força normativa)', 'Interpretação conforme × declaração de nulidade parcial sem redução', 'Filtragem constitucional', 'Bloco de constitucionalidade'], sections: [] },
   { id: 'const-04-principios-fundamentais', num: 4, materia: 'const', title: 'Princípios fundamentais (CF arts. 1º a 4º)', edital: '1.1.4', editalText: 'Fundamentos da República. Objetivos. Princípios das relações internacionais.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Fundamentos da República (art. 1º)', 'Separação dos poderes (art. 2º)', 'Objetivos fundamentais (art. 3º)', 'Princípios das relações internacionais (art. 4º)', 'Dignidade da pessoa humana — núcleo'], sections: [] },
   { id: 'const-05-direitos-garantias-fundamentais', num: 5, materia: 'const', title: 'Direitos e garantias fundamentais (CF art. 5º)', edital: '1.1.5', editalText: 'Direitos individuais e coletivos. Remédios constitucionais. Tratados de DH.', size: 'Grande', schedule: null, advantage: null, outline: ['Geração/dimensão dos direitos fundamentais', 'Características (universalidade, historicidade, etc.)', 'Direitos individuais (art. 5º, I-LXXVIII)', 'Remédios constitucionais (HC, MS, MI, HD, ação popular)', 'Tratados internacionais de DH (art. 5º §§ 2º, 3º, 4º)', 'Eficácia horizontal dos direitos fundamentais'], sections: [] },
@@ -7749,10 +7947,451 @@ topics: [
       ]
     }
   ] },
-  { id: 'colmat-09-direito-urbanistico', num: 9, materia: 'colmat', title: 'Direito Urbanístico', edital: '4.1.9', editalText: 'CF arts. 182-183. Estatuto da Cidade (Lei 10.257/01). Plano diretor. IPTU progressivo.', size: 'Médio', schedule: null, advantage: null, outline: ['Política urbana (CF arts. 182-183)', 'Estatuto da Cidade (Lei 10.257/01)', 'Plano diretor', 'Instrumentos (IPTU progressivo, edificação compulsória, desapropriação-sanção)', 'Usucapião urbana', 'Regularização fundiária (Lei 13.465/17 — REURB)', 'Atuação do MP'], sections: [] },
-  { id: 'colmat-10-patrimonio-cultural', num: 10, materia: 'colmat', title: 'Patrimônio Cultural e Histórico', edital: '4.1.10', editalText: 'CF art. 216. DL 25/37. Tombamento, registro, inventário.', size: 'Pequeno', schedule: null, advantage: null, outline: ['CF arts. 215-216 — direitos culturais', 'DL 25/37 — tombamento', 'Registro de bens imateriais', 'Patrimônio arqueológico', 'IPHAN', 'Tutela coletiva do patrimônio cultural'], sections: [] },
-  { id: 'colmat-11-improbidade-material', num: 11, materia: 'colmat', title: 'Improbidade administrativa (material)', edital: '4.1.11', editalText: 'Lei 8.429/92 com Lei 14.230/21. Atos. Sanções. Sujeitos.', size: 'Médio', schedule: null, advantage: null, outline: ['Sujeitos (ativo — agente público, particular cooperando; passivo)', 'Atos de improbidade — espécies', 'Necessidade de dolo específico (Lei 14.230/21)', 'Sanções (CF art. 37 §4º + LIA)', 'ANPC — Acordo de Não Persecução Cível', 'Prescrição', 'Concomitância com outras esferas'], sections: [] },
-  { id: 'colmat-12-comunidades-tradicionais', num: 12, materia: 'colmat', title: 'Direitos das comunidades tradicionais', edital: '4.1.12', editalText: 'Indígenas, quilombolas, povos tradicionais. CF arts. 231-232. Convenção 169 OIT.', size: 'Médio', schedule: null, advantage: null, outline: ['CF arts. 231-232 — indígenas', 'Demarcação de terras indígenas', 'Marco temporal — STF Tema 1031', 'Convenção 169 OIT (consulta livre, prévia e informada)', 'Quilombolas (CF ADCT art. 68 + Decreto 4.887/03)', 'Comunidades tradicionais (povos extrativistas, ribeirinhos, etc.)', 'Atuação do MPF e MP estadual'], sections: [] },
+  { id: 'colmat-09-direito-urbanistico', num: 9, materia: 'colmat', title: 'Direito Urbanístico', edital: '4.1.9', editalText: 'CF arts. 182-183. Estatuto da Cidade (Lei 10.257/01). Plano diretor. IPTU progressivo.', size: 'Médio', schedule: 'Mês 7 — área de atuação cotidiana', advantage: 'Vantagem indireta (Analista MP — atua em ACPs urbanas e regularização fundiária).', outline: ['Política urbana (CF arts. 182-183)', 'Estatuto da Cidade (Lei 10.257/01)', 'Plano diretor', 'Instrumentos (IPTU progressivo, edificação compulsória, desapropriação-sanção)', 'Usucapião urbana', 'Regularização fundiária (Lei 13.465/17 — REURB)', 'Atuação do MP'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Direito Urbanístico** é o ramo que disciplina o **uso e a ocupação do solo urbano**, harmonizando interesses individuais (propriedade) e coletivos (cidade sustentável, função social). Tem matriz constitucional nos **arts. 182 e 183 da CF/88** (capítulo "Da Política Urbana") e foi regulamentado pela **Lei 10.257/2001 (Estatuto da Cidade)**, marco normativo central do tema.' },
+        { type: 'p', text: 'O eixo é a **FUNÇÃO SOCIAL DA PROPRIEDADE URBANA** — propriedade não é direito absoluto: deve atender às exigências do plano diretor municipal. Quem descumpre fica sujeito a **PARCELAMENTO/EDIFICAÇÃO/UTILIZAÇÃO COMPULSÓRIOS** (PEUC), seguidos de **IPTU PROGRESSIVO no tempo** e, em última instância, **DESAPROPRIAÇÃO-SANÇÃO** (mediante títulos da dívida pública, não em dinheiro).' },
+        { type: 'p', text: 'Para o concurso: (a) **plano diretor** — obrigatório para municípios com mais de 20 mil habitantes (CF 182 §1º + Estatuto art. 41); (b) **instrumentos** (IPTU progressivo, PEUC, desapropriação-sanção, ZEIS, outorga onerosa, transferência do direito de construir); (c) **usucapião especial urbana** (CF 183 + Estatuto 9º — 5 anos, 250m², primeira moradia); (d) **REURB** — Lei 13.465/17, regularização fundiária urbana; (e) **atuação do MP** em ACP urbanística (PEU, ZEIS, regularização).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 182-183 (Política Urbana)' },
+        { type: 'list', items: [
+          '**Art. 182** — política urbana executada pelo Poder Público MUNICIPAL, conforme diretrizes da lei',
+          '**Art. 182 §1º** — plano diretor é obrigatório para CIDADES COM MAIS DE 20 MIL HABITANTES',
+          '**Art. 182 §2º** — propriedade urbana cumpre função social ao atender exigências do plano diretor',
+          '**Art. 182 §3º** — desapropriação para fins de reforma urbana com prévia e justa indenização em dinheiro',
+          '**Art. 182 §4º** — em caso de descumprimento da função social: I — parcelamento/edificação compulsórios; II — IPTU progressivo; III — desapropriação-sanção (títulos da dívida pública)',
+          '**Art. 183** — USUCAPIÃO URBANA: 5 ANOS, área de até 250 m², primeira moradia, sem oposição. NÃO se aplica a imóveis públicos'
+        ]},
+
+        { type: 'h', text: 'Lei 10.257/01 — Estatuto da Cidade' },
+        { type: 'list', items: [
+          '**Art. 1º** — normas gerais de direito urbanístico',
+          '**Art. 2º** — diretrizes (16 incisos): garantia do direito à cidade, gestão democrática, planejamento, justa distribuição de ônus e benefícios, recuperação dos investimentos, etc.',
+          '**Art. 3º** — competências da União, Estados, DF e Municípios',
+          '**Art. 4º** — instrumentos da política urbana (planos, IPTU progressivo, PEUC, desapropriação-sanção, ZEIS, outorga onerosa, transferência do direito de construir, etc.)',
+          '**Arts. 5º-8º** — PEUC e IPTU progressivo (até 15%, com possibilidade de desapropriação após 5 anos sem cumprimento)',
+          '**Art. 9º** — usucapião urbana INDIVIDUAL (replica CF 183)',
+          '**Art. 10** — usucapião urbana COLETIVA (área superior a 250 m², famílias de baixa renda, posse por 5 anos sem oposição)',
+          '**Art. 32** — outorga onerosa do direito de construir (solo criado)',
+          '**Art. 35** — transferência do direito de construir',
+          '**Art. 39** — função social do plano diretor — 16 diretrizes',
+          '**Art. 41** — plano diretor obrigatório (mais de 20 mil habs OU regiões metropolitanas)',
+          '**Art. 53** — atuação do MP em defesa da ordem urbanística'
+        ]},
+
+        { type: 'h', text: 'Lei 13.465/17 — REURB' },
+        { type: 'list', items: [
+          '**REURB** = Regularização Fundiária Urbana',
+          'Substituiu Lei 11.977/09 (regulamentava o Programa Minha Casa Minha Vida) e Decreto 9.310/18',
+          'Modalidades: REURB-S (interesse social) e REURB-E (interesse específico)',
+          'Instrumentos: legitimação fundiária, demarcação urbanística, condomínio urbano simples',
+          'STF — ADI 5.771: validou parcialmente a Lei 13.465/17, com ressalvas'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Função social da propriedade urbana' },
+        { type: 'p', text: 'A propriedade urbana **NÃO É DIREITO ABSOLUTO** — deve cumprir função social, definida pelo plano diretor (CF 182 §2º). Descumprimento autoriza intervenção estatal progressiva: PEUC → IPTU progressivo → desapropriação-sanção. Diferente da função social da propriedade RURAL (CF 186), regida pela utilização do imóvel em atividade produtiva e respeito ao meio ambiente.' },
+
+        { type: 'h', text: 'Plano diretor — instrumento básico' },
+        { type: 'p', text: '**Plano diretor** = lei municipal aprovada pela Câmara, com participação popular obrigatória. Estabelece zoneamento, regramentos de uso e ocupação. **Obrigatório** para municípios com mais de 20 mil habs (CF + Estatuto), capitais de estado, integrantes de RM, integrantes de áreas de especial interesse turístico, áreas de empreendimentos de impacto significativo. Revisão a cada 10 anos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 607.940 (Tema 348):** "É inconstitucional a previsão de o plano diretor estabelecer estandardização da edificação". Plano diretor não pode prever DETALHES executivos — deve fixar diretrizes gerais.' },
+
+        { type: 'h', text: 'Instrumentos progressivos — PEUC, IPTU, desapropriação' },
+        { type: 'p', text: '**PEUC** (Estatuto art. 5º): Município notifica proprietário a parcelar/edificar/utilizar imóvel subutilizado. Prazo: 1 ano para protocolar projeto + 2 anos para iniciar obras. Descumprimento abre próxima fase.' },
+        { type: 'p', text: '**IPTU progressivo no tempo** (art. 7º): aumento da alíquota anualmente, máximo de **15%**, por **5 anos**. Após esse período sem cumprimento, abre-se a próxima fase.' },
+        { type: 'p', text: '**Desapropriação-sanção** (art. 8º): Município paga em **TÍTULOS DA DÍVIDA PÚBLICA** (resgate em até 10 anos), não em dinheiro. Diferente da desapropriação ordinária (CF 5º XXIV — "prévia e justa indenização em dinheiro").' },
+        { type: 'box', kind: 'atencao', text: '**Desapropriação-sanção em DINHEIRO ou TÍTULOS? TÍTULOS** (Estatuto art. 8º). Pegadinha clássica.' },
+
+        { type: 'h', text: 'Usucapião especial urbana — individual e coletiva' },
+        { type: 'p', text: '**INDIVIDUAL** (CF 183 + Estatuto 9º): área até 250 m² · posse mansa, pacífica, ininterrupta de 5 anos · primeira moradia · NÃO ser proprietário de outro imóvel · sem oposição. **Não se aplica a imóveis públicos** (Súmula 340 STF).' },
+        { type: 'p', text: '**COLETIVA** (Estatuto 10): área SUPERIOR a 250 m² ocupada por POPULAÇÃO DE BAIXA RENDA, há mais de 5 anos, sem oposição, onde não for possível identificar terrenos individualmente. Sentença declara o domínio coletivo (com frações ideais).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Súmula 340:** "Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião." Vale para qualquer modalidade.' },
+
+        { type: 'h', text: 'REURB — regularização fundiária urbana' },
+        { type: 'p', text: 'Lei 13.465/17 disciplina a regularização fundiária urbana. Modalidades: **REURB-S (Interesse Social)** — destinada a famílias de baixa renda; **REURB-E (Interesse Específico)** — demais hipóteses. Instrumentos novos: **legitimação fundiária** (concessão de domínio), **demarcação urbanística** (procedimento administrativo), **condomínio urbano simples**.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 5.771 (parcialmente procedente):** validou parte da Lei 13.465/17 mas declarou inconstitucionais dispositivos sobre desnecessidade de licença ambiental em REURB-E, entre outros.' },
+
+        { type: 'h', text: 'Atuação do MP (Estatuto art. 53)' },
+        { type: 'p', text: 'O MP é legitimado para **ACP em defesa da ordem urbanística** — defesa do plano diretor, controle de empreendimentos de grande impacto, regularização fundiária, defesa de áreas de especial interesse social (ZEIS), combate ao parcelamento ilegal de solo urbano (Lei 6.766/79).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Plano diretor obrigatório: 20 MIL HABS+ (CF 182 §1º).** Mais cidades: capitais, RM, especial interesse turístico, empreendimentos de impacto.' },
+        { type: 'box', kind: 'macete', text: '**Instrumentos progressivos: PEUC → IPTU progressivo (5 anos, até 15%) → DESAPROPRIAÇÃO-SANÇÃO (títulos).** Crescente.' },
+        { type: 'box', kind: 'macete', text: '**Usucapião especial urbana: 5 ANOS · 250 m² · 1ª MORADIA · sem oposição.** Mnemônico **5-250-1**.' },
+        { type: 'box', kind: 'macete', text: '**Desapropriação-sanção: TÍTULOS da dívida pública (não dinheiro).** ≠ desapropriação ordinária (CF 5º XXIV — dinheiro).' },
+        { type: 'box', kind: 'macete', text: '**REURB-S = social (baixa renda) · REURB-E = específico (demais).** Lei 13.465/17.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Plano diretor: obrigatório acima de 20 MIL habs (não 30 mil, nem 50 mil).** Decorar.' },
+        { type: 'box', kind: 'atencao', text: '**Desapropriação-sanção em TÍTULOS da dívida pública.** Pegadinha clássica trocando para "dinheiro".' },
+        { type: 'box', kind: 'atencao', text: '**Usucapião urbana NÃO se aplica a imóveis públicos (Súm. 340 STF).** Imóvel da União, Estado ou Município é insuscetível.' },
+        { type: 'box', kind: 'atencao', text: '**IPTU progressivo até 15%, por 5 ANOS.** Banca cobra os números.' },
+        { type: 'box', kind: 'atencao', text: '**REURB substituiu a antiga Lei 11.977/09 (PMCMV).** Regime atual é da Lei 13.465/17.' },
+        { type: 'box', kind: 'atencao', text: '**MP atua em ACP urbanística (Estatuto art. 53).** Banca pode tentar negar legitimidade — está expressa.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Civil — propriedade:** função social da propriedade urbana é especialização do art. 5º XXIII CF + CC art. 1.228 §1º.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** plano diretor integra licenciamento ambiental urbano.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** desvio de verbas urbanísticas tipifica improbidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP urbanística é instrumento típico do MP (Estatuto art. 53).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 11 (Ordem econômica):** política urbana integra a ordem econômica e financeira (CF arts. 182-183).' }
+      ]
+    }
+  ] },
+  { id: 'colmat-10-patrimonio-cultural', num: 10, materia: 'colmat', title: 'Patrimônio Cultural e Histórico', edital: '4.1.10', editalText: 'CF art. 216. DL 25/37. Tombamento, registro, inventário.', size: 'Pequeno', schedule: 'Mês 7 — área específica do MPMG (cidades históricas)', advantage: 'Vantagem indireta (MG concentra patrimônio histórico — Ouro Branco e região, vivência da candidata).', outline: ['CF arts. 215-216 — direitos culturais', 'DL 25/37 — tombamento', 'Registro de bens imateriais', 'Patrimônio arqueológico', 'IPHAN', 'Tutela coletiva do patrimônio cultural'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **Patrimônio Cultural** é o conjunto de bens **MATERIAIS e IMATERIAIS** que registram a memória, identidade e ação dos diferentes grupos formadores da sociedade brasileira (CF art. 216). É bem **DIFUSO** — pertence a todos e à coletividade. Sua tutela é dever do Poder Público e da comunidade (CF 216 §1º).' },
+        { type: 'p', text: 'A disciplina constitucional centra-se nos **arts. 215 e 216 da CF/88**. O **Decreto-Lei 25/1937** (Lei de Tombamento) é o diploma mais antigo em vigor — quase 90 anos. Regula o **TOMBAMENTO** (instrumento clássico para bens materiais). Complementam: **Decreto 3.551/2000** (registro de bens imateriais), **Lei 3.924/61** (patrimônio arqueológico), **Lei 11.483/07** (IPHAN como autarquia).' },
+        { type: 'p', text: 'Para o concurso (especialmente em **MG**, com cidades históricas como Ouro Preto, Diamantina, Tiradentes, São João del-Rei, Mariana, Congonhas): (a) **competência** material e legislativa concorrente; (b) **tombamento** — efeitos, restrições, indenização; (c) **registro** de bens imateriais (festas, expressões); (d) **atuação do MP** em ACP cultural; (e) **patrimônio mundial** — UNESCO (Ouro Preto foi 1º brasileiro, em 1980).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 215-216' },
+        { type: 'list', items: [
+          '**Art. 215** — Estado garante a todos pleno exercício dos direitos culturais e acesso às fontes da cultura nacional',
+          '**Art. 215 §1º** — proteção das manifestações populares, indígenas e afro-brasileiras',
+          '**Art. 215 §2º** — feriados e datas comemorativas significativas para os grupos étnicos nacionais',
+          '**Art. 215 §3º** — Plano Nacional de Cultura',
+          '**Art. 216** — patrimônio cultural brasileiro: bens MATERIAIS e IMATERIAIS portadores de referência à identidade, ação e memória dos diferentes grupos',
+          '**Art. 216 §1º** — meios de proteção: INVENTÁRIO, REGISTRO, VIGILÂNCIA, TOMBAMENTO, DESAPROPRIAÇÃO',
+          '**Art. 216 §4º** — danos e ameaças ao patrimônio sujeitam à punição na forma da lei',
+          '**Art. 216-A** — Sistema Nacional de Cultura'
+        ]},
+
+        { type: 'h', text: 'DL 25/37 — Lei de Tombamento' },
+        { type: 'list', items: [
+          '**Art. 1º** — patrimônio histórico e artístico nacional: bens cuja conservação seja de interesse público',
+          '**Art. 4º** — Livros de Tombamento (4): Arqueológico/Etnográfico, Histórico, das Belas Artes, das Artes Aplicadas',
+          '**Art. 5º** — tombamento de OFÍCIO: bens públicos. **Tombamento por iniciativa privada/POD. Público:** notificação ao proprietário particular',
+          '**Arts. 6º-10** — tombamento voluntário × compulsório',
+          '**Art. 11** — efeitos: imóvel não pode ser destruído, demolido ou mutilado sem autorização do IPHAN',
+          '**Art. 13** — exportação proibida de bem tombado (salvo exposição temporária com autorização)',
+          '**Art. 17** — direito de PREFERÊNCIA dos entes federativos (na alienação) — após Lei 13.105/15 (CPC), há controvérsia sobre se ainda vigora',
+          '**Art. 18** — dever do proprietário de conservar (cabe a Adm. fazer obras se proprietário não tiver recursos)',
+          '**Art. 19** — vizinhança não pode reduzir visibilidade'
+        ]},
+
+        { type: 'h', text: 'Decreto 3.551/2000 — Bens imateriais' },
+        { type: 'list', items: [
+          'Cria o **REGISTRO DE BENS CULTURAIS DE NATUREZA IMATERIAL**',
+          '4 livros: SABERES · CELEBRAÇÕES · FORMAS DE EXPRESSÃO · LUGARES',
+          'Reavaliação a cada 10 anos',
+          'Bens registrados: Samba de Roda do Recôncavo Baiano, Frevo, Capoeira, Festa do Divino, etc.'
+        ]},
+
+        { type: 'h', text: 'Lei 3.924/61 — Patrimônio arqueológico e pré-histórico' },
+        { type: 'list', items: [
+          'Sítios e monumentos arqueológicos pertencem à União (mesmo se em propriedade privada)',
+          'Pesquisas científicas exigem autorização do IPHAN',
+          'Destruição/vandalismo: crime ambiental (Lei 9.605/98 art. 62) ou crime do DL 25/37'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Tombamento × Registro × Inventário' },
+        { type: 'p', text: '**TOMBAMENTO:** ato administrativo declaratório que reconhece valor de bem MATERIAL (móvel ou imóvel) e o submete a regime jurídico especial. NÃO transfere a propriedade — apenas IMPÕE OBRIGAÇÕES (preservação, comunicação, autorização para alterações).' },
+        { type: 'p', text: '**REGISTRO:** ato similar para bens IMATERIAIS (saberes, celebrações, expressões, lugares). Decreto 3.551/00. Reavaliação periódica.' },
+        { type: 'p', text: '**INVENTÁRIO:** identificação e listagem de bens — fase prévia. Pode ser autônomo (não precede tombamento). Tem natureza de proteção PRELIMINAR.' },
+        { type: 'box', kind: 'macete', text: '**TOMBAMENTO = MATERIAL · REGISTRO = IMATERIAL · INVENTÁRIO = LISTAGEM/IDENTIFICAÇÃO.** Mnemônico TIRA.' },
+
+        { type: 'h', text: 'Tombamento — natureza jurídica e indenização' },
+        { type: 'p', text: 'Tombamento é **ATO ADMINISTRATIVO RESTRITIVO**, não confiscatório. Limita o uso, não elimina a propriedade. **NÃO há indenização autônoma**, em regra (STF, STJ) — salvo se o tombamento implicar **ESVAZIAMENTO ECONÔMICO** (perda total do valor de uso) — daí cabe **DESAPROPRIAÇÃO INDIRETA** ou indenização compensatória.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súmula 584:** "As sociedades corretoras de seguros, que não se confundem com as sociedades de valores mobiliários ou com os agentes autônomos de seguro privado, estão fora do rol de entidades constantes do art. 22, parágrafo 1º, da Lei 8.212/91, não se sujeitando à majoração da alíquota da cofins prevista no artigo 18, da Lei 10.684/2003." [Súmula sobre direito tributário, NÃO aplicável aqui — consultando para evitar erro: sobre indenização em tombamento é jurisprudência do STJ majoritária — sem súmula específica]. STF: ARE 740.815 — tombamento não enseja indenização automática.' },
+
+        { type: 'h', text: 'Competências (CF 23 III, IV, V; 24 VII, VIII)' },
+        { type: 'p', text: '**Material (CF 23):** União, Estados, DF e Municípios cuidam EM CONJUNTO da proteção do patrimônio (CF 23 III, IV, V). É competência COMUM.' },
+        { type: 'p', text: '**Legislativa (CF 24):** União, Estados e DF têm competência CONCORRENTE para legislar sobre patrimônio cultural (CF 24 VII, VIII). União: normas gerais. Estados: suplementar. Municípios: legislam SUPLEMENTARMENTE no que couber (CF 30 II).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 121.140:** todos os entes podem TOMBAR — o tombamento estadual não impede o federal e vice-versa. Não há hierarquia entre tombamentos. Competência paralela.' },
+
+        { type: 'h', text: 'Lei estadual MG — patrimônio cultural mineiro' },
+        { type: 'p', text: 'MG tem **Lei 11.726/94** + **Decreto 36.398/94** (regulamenta) — disciplina o tombamento estadual em Minas. **IEPHA-MG** é o órgão executor. **Promotorias do Patrimônio Cultural** atuam em diversas comarcas mineiras (Ouro Preto, Mariana, Diamantina, etc.). A candidata em **Ouro Branco** está em região de concentração de patrimônio (proximidade com Ouro Preto, Itabirito, Mariana).' },
+
+        { type: 'h', text: 'IPHAN e patrimônio mundial UNESCO' },
+        { type: 'p', text: '**IPHAN** = Instituto do Patrimônio Histórico e Artístico Nacional (autarquia federal — Lei 11.483/07). Executa a política federal. **Patrimônio Mundial UNESCO** — Brasil tem 23 sítios reconhecidos (até 2024), entre os quais: Ouro Preto (1980, 1º), Olinda (1982), Salvador (1985), Brasília (1987), Cataratas do Iguaçu (1986), Centro Histórico de Diamantina (1999), Centro Histórico de Goiás (2001), Sítio Arqueológico de São Miguel das Missões (1983).' },
+        { type: 'box', kind: 'info', text: 'Patrimônio Mundial UNESCO em MG: Ouro Preto · Conjunto Moderno da Pampulha · Diamantina · Santuário do Bom Jesus de Matosinhos (Congonhas — Aleijadinho).' },
+
+        { type: 'h', text: 'Atuação do MP em patrimônio cultural' },
+        { type: 'p', text: 'O MP é legitimado para **ACP em defesa do patrimônio cultural** (LACP art. 1º III). Atua em: (a) anulação de licenças que afetem bem tombado; (b) embargo de obras irregulares; (c) reparação por danos a bens tombados; (d) regulamentação por ACP em situações de omissão municipal; (e) intervenção em ACP de terceiros (CDC 5º §1º + LACP).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Tutela do patrimônio cultural (CF 216 §1º): INVENTÁRIO · REGISTRO · VIGILÂNCIA · TOMBAMENTO · DESAPROPRIAÇÃO.** Mnemônico **IRVTD**.' },
+        { type: 'box', kind: 'macete', text: '**4 Livros do Tombamento (DL 25/37 art. 4º): Arqueológico/Etnográfico · Histórico · Belas Artes · Artes Aplicadas.**' },
+        { type: 'box', kind: 'macete', text: '**4 Livros de Registro (Decreto 3.551/00): SABERES · CELEBRAÇÕES · EXPRESSÕES · LUGARES.**' },
+        { type: 'box', kind: 'macete', text: '**Tombamento: NÃO indeniza, em regra** (salvo esvaziamento econômico). Limita o USO, não toma a PROPRIEDADE.' },
+        { type: 'box', kind: 'macete', text: '**Competência: COMUM (material — CF 23) e CONCORRENTE (legislativa — CF 24).** Todos os entes podem TOMBAR.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Tombamento NÃO transfere propriedade — apenas restringe uso.** Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Tombamento NÃO indeniza, em regra (STF/STJ).** Salvo se causar esvaziamento econômico.' },
+        { type: 'box', kind: 'atencao', text: '**Patrimônio cultural inclui bens IMATERIAIS** (CF 216 + Decreto 3.551/00). Não confundir com tombamento, que é só para bens materiais.' },
+        { type: 'box', kind: 'atencao', text: '**Patrimônio arqueológico pertence à UNIÃO (Lei 3.924/61), mesmo em propriedade privada.** Particular descobre sítio? Comunica IPHAN.' },
+        { type: 'box', kind: 'atencao', text: '**Tombamento federal NÃO impede tombamento estadual ou municipal — todos podem tombar (STF RE 121.140).**' },
+        { type: 'box', kind: 'atencao', text: '**Em MG: IEPHA-MG (estadual), IPHAN (federal), órgãos municipais (Ouro Preto, Diamantina).** Tombamentos podem coexistir.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** patrimônio cultural é direito coletivo (3ª dimensão).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** integração patrimônio cultural × ambiental (cidades históricas).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 9 (Urbanístico):** plano diretor deve respeitar bens tombados.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 12 (Comunidades tradicionais):** patrimônio imaterial inclui saberes de comunidades quilombolas, indígenas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP cultural é instrumento típico do MP (LACP art. 1º III).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — Lei 9.605/98 art. 62:** crime de destruição de bem especialmente protegido.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-11-improbidade-material', num: 11, materia: 'colmat', title: 'Improbidade administrativa (material)', edital: '4.1.11', editalText: 'Lei 8.429/92 com Lei 14.230/21. Atos. Sanções. Sujeitos.', size: 'Grande', schedule: 'Mês 7 — área core do MP', advantage: 'Vantagem direta (Analista MPMG — área de atuação central do MP em ACPs).', outline: ['Sujeitos (ativo — agente público, particular cooperando; passivo)', 'Atos de improbidade — espécies', 'Necessidade de dolo específico (Lei 14.230/21)', 'Sanções (CF art. 37 §4º + LIA)', 'ANPC — Acordo de Não Persecução Cível', 'Prescrição', 'Concomitância com outras esferas'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **improbidade administrativa** é o gênero de ilícitos atentatórios contra a moralidade e legalidade da Administração Pública, sancionados na esfera **CIVIL-POLÍTICA** (não penal). Tem matriz constitucional no **CF art. 37 §4º** — "Os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível."' },
+        { type: 'p', text: 'A disciplina infraconstitucional é a **Lei 8.429/1992 (LIA)**, profundamente alterada pela **Lei 14.230/2021** — uma reforma estrutural que inverteu paradigmas: (i) introduziu **DOLO ESPECÍFICO** como elemento subjetivo necessário para qualquer ato de improbidade; (ii) eliminou a **modalidade culposa**; (iii) instituiu o **ANPC** (Acordo de Não Persecução Cível); (iv) modificou prazos prescricionais; (v) limitou a legitimidade do MP.' },
+        { type: 'p', text: 'A área é **CORE** para o MP — Promotorias do Patrimônio Público no MPMG são especializadas. Para o concurso (especialmente em prova de MPMG): (a) **sujeitos** (agente público, particular cooperando, agente político); (b) **3 espécies** de improbidade após Lei 14.230/21 (enriquecimento ilícito, prejuízo ao erário, atentado a princípios); (c) **dolo específico** — mudança substancial; (d) **sanções** e suas gradações; (e) **ANPC** — acordo possível; (f) **prescrição** (8 anos da prática + interrupções); (g) **STF e STJ** — jurisprudência crucial pós-Lei 14.230/21 (RE 843.989, ADI 7.236).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF art. 37 §4º' },
+        { type: 'list', items: [
+          'Atos de improbidade importarão: SUSPENSÃO DOS DIREITOS POLÍTICOS · PERDA DA FUNÇÃO PÚBLICA · INDISPONIBILIDADE DOS BENS · RESSARCIMENTO AO ERÁRIO',
+          'Forma e gradação previstas em lei',
+          'Sem prejuízo da ação penal cabível (independência das esferas)',
+          'CF art. 37 §5º — ressarcimento ao erário é IMPRESCRITÍVEL (segundo STF RE 852.475 — Tema 897)'
+        ]},
+
+        { type: 'h', text: 'Lei 8.429/92 (LIA), com Lei 14.230/21' },
+        { type: 'list', items: [
+          '**Art. 1º** — quem responde por atos de improbidade: agentes públicos (servidores e agentes políticos)',
+          '**Art. 1º §1º** — DOLO ESPECÍFICO (alteração crucial Lei 14.230/21): exige fim ilícito específico, não basta dolo genérico',
+          '**Art. 1º §3º** — não comina o dolo no LATO SENSU — somente DIRETO ou EVENTUAL específico',
+          '**Art. 2º** — agente público: TODO aquele que exerce, ainda que transitoriamente ou sem remuneração, função pública',
+          '**Art. 3º** — particular que se beneficia: pode ser sujeito ativo (cooperante)',
+          '**Art. 9º** — atos que importam ENRIQUECIMENTO ILÍCITO',
+          '**Art. 10** — atos que causam PREJUÍZO AO ERÁRIO',
+          '**Art. 11** — atos que atentam contra os PRINCÍPIOS da Administração',
+          '**Art. 11 §1º** — também exige DOLO ESPECÍFICO (Lei 14.230/21)',
+          '**Art. 12** — sanções (cumulativas ou alternativas)',
+          '**Art. 17** — propositura da ação por MP ou pessoa jurídica interessada',
+          '**Art. 17 §10-A** — ANPC (Acordo de Não Persecução Cível) — Lei 14.230/21 introduziu',
+          '**Art. 23** — prescrição: 8 ANOS da data do fato (Lei 14.230/21 alterou)'
+        ]},
+
+        { type: 'h', text: 'Espécies de improbidade — após Lei 14.230/21' },
+        { type: 'list', items: [
+          '**Art. 9º — ENRIQUECIMENTO ILÍCITO**: aceitar vantagem patrimonial em razão do cargo. Vantagem para SI ou para outrem',
+          '**Art. 10 — PREJUÍZO AO ERÁRIO**: ação ou omissão DOLOSA que cause perda patrimonial. Lei 14.230/21 EXCLUIU a culpa',
+          '**Art. 11 — ATENTADO A PRINCÍPIOS**: ação ou omissão DOLOSA contra honestidade, imparcialidade, legalidade. Lei 14.230/21 reduziu o rol de incisos (de 16 para 8)'
+        ]},
+
+        { type: 'h', text: 'Sanções (art. 12, com gradações por espécie)' },
+        { type: 'list', items: [
+          '**Enriquecimento ilícito (art. 12 I):** perda dos bens · ressarcimento · perda da função · suspensão direitos políticos 8-14 anos · proibição contratar 14 anos · multa de até 3x o acréscimo patrimonial',
+          '**Prejuízo ao erário (art. 12 II):** ressarcimento · perda dos bens (se enriquecimento) · perda da função · suspensão direitos políticos 5-12 anos · proibição contratar 12 anos · multa até 2x o valor do dano',
+          '**Atentado a princípios (art. 12 III):** ressarcimento (se houver) · perda da função · suspensão direitos políticos até 4 anos · proibição contratar até 4 anos · multa civil até 24x o valor da remuneração'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Lei 14.230/21 — reforma estrutural' },
+        { type: 'p', text: 'A Lei 14.230/21 foi a maior alteração da LIA em 30 anos. Mudanças estruturais: **(i) ELIMINOU a culpa** — só responde quem age DOLOSAMENTE; **(ii) DOLO ESPECÍFICO** — não basta dolo genérico, exige fim ilícito específico; **(iii) reduziu o art. 11** (atentado a princípios) — de rol amplo para 8 incisos taxativos; **(iv) ANPC** — acordo possível; **(v) prescrição** — 8 anos do fato (antes era ligada à pena máxima do CPC); **(vi) RETROATIVIDADE BENÉFICA** — alterações benéficas retroagem (STF RE 843.989).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 843.989 (Tema 1199, 2022):** "A nova lei [14.230/21] aplica-se RETROATIVAMENTE em relação às alterações que beneficiem o réu — particularmente, a exigência de dolo específico e a eliminação da modalidade culposa." Tema vinculante. Banca cobra fortemente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 7.236 (2023):** confirmou a constitucionalidade da Lei 14.230/21 — afastou alegações de retrocesso institucional.' },
+
+        { type: 'h', text: 'Sujeitos — ativo e passivo' },
+        { type: 'p', text: '**SUJEITO ATIVO:** (i) agente público (art. 2º) — qualquer pessoa que exerça função pública, ainda que transitoriamente, sem remuneração; (ii) PARTICULAR (art. 3º) que se beneficie ou induza/concorra dolosamente. **Agentes políticos** (Presidente, Governador, Prefeito, Ministros, Secretários): também respondem — STF abandonou tese da "imunidade dos agentes políticos" (RE 803.297, 2014).' },
+        { type: 'p', text: '**SUJEITO PASSIVO:** (i) Adm. Pública DIRETA, INDIRETA (autarquias, fundações, empresas estatais) e FUNDACIONAL; (ii) entidade privada que receba subvenção, benefício ou auxílio público (limitada ao recurso público).' },
+        { type: 'box', kind: 'atencao', text: '**Lei 14.230/21 LIMITOU a legitimidade do MP** — antes, MP e PJ interessada podiam propor; após, MP é o legitimado preferencial. ADI 7.236 manteve a constitucionalidade dessa limitação. Acompanhar evolução.' },
+
+        { type: 'h', text: 'ANPC — Acordo de Não Persecução Cível' },
+        { type: 'p', text: 'Lei 14.230/21 introduziu o **ANPC** (LIA art. 17 §10-A). É acordo entre o MP (ou ente interessado) e o réu, pelo qual este se obriga a: ressarcir o dano · cumprir obrigações · pagar multa. Em troca, suspende-se ou se extingue a ação. Pressupõe: (i) comprovação dos fatos; (ii) anuência das vítimas (Adm.); (iii) homologação JUDICIAL.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**Recente:** ANPC pode ser celebrado em qualquer fase — pré-processual (durante IC), durante a ação ou em fase recursal. Modelos similares ao ANPP (CPP 28-A) e ao ANPP-T (acordo trabalhista).' },
+
+        { type: 'h', text: 'Prescrição (art. 23)' },
+        { type: 'p', text: 'Lei 14.230/21 modificou o regime: **8 ANOS** contados da data do fato. Há causas de **INTERRUPÇÃO** (instauração de IC, citação) e de **SUSPENSÃO** (durante negociação de ANPC, durante IC). Após interrupção, o prazo recomeça pela METADE.' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade do RESSARCIMENTO ao erário (CF 37 §5º):** STF RE 852.475 (Tema 897, 2018) firmou que ações de ressarcimento decorrentes de ATOS DE IMPROBIDADE são IMPRESCRITÍVEIS. Mesmo que o sancionatório (suspensão de direitos, multa, proibição) prescreva em 8 anos, o RESSARCIMENTO permanece exigível.' },
+
+        { type: 'h', text: 'Independência das esferas' },
+        { type: 'p', text: 'Improbidade é responsabilidade CIVIL-POLÍTICA. Convive com: (i) **PENAL** (CP arts. 312-326 — peculato, corrupção, prevaricação, etc.); (ii) **ADMINISTRATIVA-DISCIPLINAR** (PAD); (iii) **FISCAL** (PJ tributária); (iv) **POLÍTICA** (cassação de mandato). As esferas são INDEPENDENTES — absolvição em uma não afasta as demais (salvo CPP 386 I e IV).' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 espécies de improbidade: ENRIQUECIMENTO ILÍCITO (art. 9) · PREJUÍZO AO ERÁRIO (art. 10) · ATENTADO A PRINCÍPIOS (art. 11).** Mnemônico **EPA**.' },
+        { type: 'box', kind: 'macete', text: '**Lei 14.230/21: DOLO ESPECÍFICO (sem culpa) · RETROATIVIDADE BENÉFICA · ANPC · Prescrição 8 ANOS.** Reforma estrutural.' },
+        { type: 'box', kind: 'macete', text: '**Sanções (art. 12): perda dos bens · ressarcimento · perda da função · suspensão dos direitos políticos · proibição contratar · multa.** Cumulativas ou alternativas.' },
+        { type: 'box', kind: 'macete', text: '**Imprescritibilidade do RESSARCIMENTO** (STF Tema 897). Sancionatório prescreve em 8 anos, ressarcimento NÃO.' },
+        { type: 'box', kind: 'macete', text: '**STF Tema 1199: retroatividade benéfica da Lei 14.230/21.** Atos antes da lei beneficiam-se das mudanças que favoreçam o réu.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Improbidade NÃO admite mais a forma CULPOSA (Lei 14.230/21).** Antes existia. Pegadinha clássica em provas que copiam enunciados antigos.' },
+        { type: 'box', kind: 'atencao', text: '**Dolo ESPECÍFICO (não genérico).** Mudança fundamental. Banca cobra a evolução.' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade APENAS do RESSARCIMENTO.** Sancionatório (suspensão, multa, perda) prescreve em 8 anos.' },
+        { type: 'box', kind: 'atencao', text: '**Particular pode ser sujeito ativo de improbidade (LIA art. 3º) — desde que coopere ou se beneficie.** Sozinho, não — precisa de agente público.' },
+        { type: 'box', kind: 'atencao', text: '**Agentes políticos respondem por improbidade (STF RE 803.297, 2014).** Pegadinha: alternativa diz que agentes políticos só respondem na esfera criminal. Errado.' },
+        { type: 'box', kind: 'atencao', text: '**Lei 14.230/21 retroage para BENEFICIAR (STF Tema 1199).** Não retroage para prejudicar (princípio da legalidade, lex mitior).' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm — princípios da Adm. Pública:** improbidade é violação à moralidade administrativa (CF 37 caput).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** desvio de verbas ambientais é improbidade (LIA 11) + crime ambiental.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 6 (Saúde):** desvio de verbas do SUS — improbidade + crime peculato.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 5 (Educação):** desvio do FUNDEB — improbidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ação de improbidade tem natureza coletiva — segue rito da LACP no que couber.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal — crimes contra a Adm. Pública (CP 312-326):** convivem em independência de esferas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (atuação extrajudicial):** ANPC é instrumento extrajudicial análogo ao TAC, com homologação judicial.' }
+      ]
+    }
+  ] },
+  { id: 'colmat-12-comunidades-tradicionais', num: 12, materia: 'colmat', title: 'Direitos das comunidades tradicionais', edital: '4.1.12', editalText: 'Indígenas, quilombolas, povos tradicionais. CF arts. 231-232. Convenção 169 OIT.', size: 'Médio', schedule: 'Mês 7 — área especializada do MP', advantage: 'Vantagem indireta (Analista MP — convive com demandas em comunidades quilombolas e tradicionais).', outline: ['CF arts. 231-232 — indígenas', 'Demarcação de terras indígenas', 'Marco temporal — STF Tema 1031', 'Convenção 169 OIT (consulta livre, prévia e informada)', 'Quilombolas (CF ADCT art. 68 + Decreto 4.887/03)', 'Comunidades tradicionais (povos extrativistas, ribeirinhos, etc.)', 'Atuação do MPF e MP estadual'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **direitos das comunidades tradicionais** abrangem três grupos principais: (i) **POVOS INDÍGENAS** (CF arts. 231-232); (ii) **QUILOMBOLAS** (ADCT art. 68 + Decreto 4.887/03); (iii) **OUTRAS COMUNIDADES TRADICIONAIS** (povos extrativistas, ribeirinhos, geraizeiros, faxinalenses, ciganos, terreiros, etc. — Decreto 6.040/07 e Convenção 169 OIT).' },
+        { type: 'p', text: 'O eixo dogmático é o **DIREITO À AUTODETERMINAÇÃO** combinado com **PROTEÇÃO TERRITORIAL**, **CONSULTA LIVRE, PRÉVIA E INFORMADA** (CLPI — Convenção 169 OIT) e **DIREITOS CULTURAIS**. Marca histórica: a CF/88 ROMPEU com o paradigma assimilacionista do Estatuto do Índio (Lei 6.001/73) — comunidades não devem ser "integradas" à sociedade nacional, mas RESPEITADAS em sua organização social, costumes, língua e tradições.' },
+        { type: 'p', text: 'A **Convenção 169 OIT** (Decreto 5.051/04, atualizado pelo Decreto 10.088/19) tem status SUPRALEGAL (não foi aprovada pelo rito do art. 5º §3º). Em 2023, o **STF declarou INCONSTITUCIONAL a tese do MARCO TEMPORAL** (RE 1.017.365 — Tema 1031). A **Lei 14.701/2023** (que tentou reinstaurar o marco temporal) foi parcialmente derrubada pelo STF (ADI 7.582 e correlatas).' }
+      ]
+    },
+    {
+      h: 'Lei seca primária',
+      items: [
+        { type: 'h', text: 'CF arts. 231-232 (Povos Indígenas)' },
+        { type: 'list', items: [
+          '**Art. 231 caput** — São RECONHECIDOS aos índios sua organização social, costumes, línguas, crenças e tradições · direitos ORIGINÁRIOS sobre as terras que tradicionalmente ocupam',
+          '**Art. 231 §1º** — terras tradicionalmente ocupadas: habitadas em caráter permanente · utilizadas para suas atividades produtivas · imprescindíveis à preservação dos recursos ambientais necessários ao bem-estar · necessárias à reprodução física e cultural',
+          '**Art. 231 §2º** — terras destinam-se à POSSE PERMANENTE dos índios · USUFRUTO EXCLUSIVO das riquezas do solo, dos rios e dos lagos',
+          '**Art. 231 §3º** — pesquisa e lavra de minerais e hídricas em terras indígenas: somente com AUTORIZAÇÃO DO CONGRESSO NACIONAL, ouvidas as comunidades, asseguradas a participação nos resultados',
+          '**Art. 231 §4º** — terras INALIENÁVEIS, INDISPONÍVEIS e os direitos sobre elas IMPRESCRITÍVEIS',
+          '**Art. 231 §5º** — REMOÇÃO dos índios é VEDADA · salvo em caso de catástrofe ou epidemia (ad referendum CN) ou interesse de soberania (CN)',
+          '**Art. 231 §6º** — atos com ocupação, posse ou domínio de terras tradicionalmente ocupadas pelos índios são NULOS e EXTINTOS',
+          '**Art. 232** — índios, comunidades e organizações são partes legítimas para ingressar em juízo, intervindo o MPF em todos os atos do processo'
+        ]},
+
+        { type: 'h', text: 'ADCT art. 68 e Decreto 4.887/03 (Quilombolas)' },
+        { type: 'list', items: [
+          '**ADCT art. 68** — aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é RECONHECIDA a propriedade definitiva, devendo o Estado emitir-lhes os títulos respectivos',
+          '**Decreto 4.887/03** — regulamenta o procedimento de identificação, reconhecimento, delimitação, demarcação e titulação de terras quilombolas',
+          '**Critério: AUTOATRIBUIÇÃO** (definição da própria comunidade — não é critério genético) — STF ADI 3.239 (2018) validou',
+          'Órgão executor: **INCRA** (não FUNAI)',
+          'Convenção 169 OIT — fundamenta autoidentificação'
+        ]},
+
+        { type: 'h', text: 'Convenção 169 OIT (Decreto 5.051/04 → 10.088/19)' },
+        { type: 'list', items: [
+          '**Aplica-se a:** povos indígenas e tribais (incluindo quilombolas e outras comunidades tradicionais)',
+          '**CLPI — Consulta Livre, Prévia e Informada (arts. 6º e 7º):** OBRIGATÓRIA antes de qualquer medida legislativa ou administrativa que afete diretamente os povos',
+          '**Princípio da AUTOATRIBUIÇÃO** — CF e Convenção',
+          '**STATUS SUPRALEGAL no Brasil** (não foi aprovada pelo rito do art. 5º §3º)',
+          '**Sumarmente:** consulta NÃO é mero "ouvir" — é processo dialógico com poder de influência efetiva nas decisões'
+        ]},
+
+        { type: 'h', text: 'Decreto 6.040/07 (Política de Desenvolvimento Sustentável)' },
+        { type: 'list', items: [
+          'Define **POVOS E COMUNIDADES TRADICIONAIS**: grupos com formas próprias de organização social, identidade cultural, ocupação de territórios e recursos naturais como condição para reprodução cultural',
+          'Cria a CNPCT (Comissão Nacional)',
+          'Lista (exemplificativa): povos indígenas, quilombolas, faxinalenses, geraizeiros, ribeirinhos, extrativistas, caiçaras, ciganos, povos de terreiro, pescadores artesanais, etc.'
+        ]}
+      ]
+    },
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Marco Temporal — STF Tema 1031 (RE 1.017.365)' },
+        { type: 'p', text: 'Em 2023, o STF declarou **INCONSTITUCIONAL** a tese do **MARCO TEMPORAL** — segundo a qual indígenas só teriam direito a terras que efetivamente ocupavam em **05/10/1988** (data da CF). O STF firmou: terra tradicionalmente ocupada se afere por critérios PRESENTE-PRETÉRITO mais amplos (ocupação tradicional ao longo do tempo, expulsão violenta como exceção, etc.) — não pela mera presença em data específica.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.017.365 (Tema 1031, 2023):** "A demarcação de terras indígenas e o reconhecimento de direitos territoriais não dependem da efetiva ocupação na data de promulgação da CF/88 (05/10/1988); é inconstitucional a tese do marco temporal." Tese vinculante.' },
+        { type: 'p', text: '**Lei 14.701/2023** tentou reintroduzir o marco temporal por via legislativa. STF (ADI 7.582 e correlatas, 2024) declarou inconstitucionais os principais dispositivos. Tema dinâmico — acompanhar evolução.' },
+
+        { type: 'h', text: 'Demarcação — etapas e órgãos' },
+        { type: 'p', text: 'A **demarcação de terras indígenas** é procedimento administrativo composto de várias fases: (i) **estudos** (FUNAI); (ii) **identificação e delimitação** (FUNAI); (iii) **portaria declaratória** (Ministro da Justiça); (iv) **demarcação física**; (v) **homologação** (Decreto Presidencial); (vi) **registro** (em cartório e na SPU).' },
+        { type: 'p', text: 'A **propriedade** é da **UNIÃO** (CF 20 XI). Os **índios têm POSSE PERMANENTE e USUFRUTO EXCLUSIVO**. Diferença sutil: índios não são proprietários, mas têm o uso pleno garantido constitucionalmente.' },
+        { type: 'box', kind: 'atencao', text: '**Terras indígenas pertencem à UNIÃO (CF 20 XI). Índios têm POSSE e USUFRUTO** (CF 231 §2º). Pegadinha frequente: alternativa diz que indígenas são proprietários. Errado.' },
+
+        { type: 'h', text: 'Quilombolas — autoatribuição e propriedade' },
+        { type: 'p', text: 'Quilombolas são **PROPRIETÁRIOS** das terras (ADCT art. 68 — "propriedade definitiva"). Diferente dos indígenas (que são POSSUIDORES). Critério: **AUTOATRIBUIÇÃO** — comunidade se identifica como remanescente de quilombo. STF ADI 3.239 (2018) validou. **INCRA** é o órgão executor. Procedimento: identificação → RTID → certidão de autodefinição → demarcação → titulação.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 3.239 (2018):** declarou constitucional o Decreto 4.887/03 que regula a titulação de terras quilombolas, INCLUSIVE o critério da AUTOATRIBUIÇÃO (autodefinição da comunidade). Rechaçou a tentativa de critérios genéticos/objetivos.' },
+
+        { type: 'h', text: 'Convenção 169 OIT — CLPI' },
+        { type: 'p', text: 'A **Consulta Livre, Prévia e Informada (CLPI)** é OBRIGATÓRIA antes de QUALQUER medida administrativa ou legislativa que afete diretamente os povos. Características: (a) **LIVRE** — sem coação ou pressão; (b) **PRÉVIA** — antes da decisão final, não meramente posterior; (c) **INFORMADA** — com todas as informações relevantes em linguagem acessível; (d) **DE BOA-FÉ** — com intenção sincera de chegar a acordo.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 709 (2020-2021):** durante a pandemia, determinou medidas de proteção aos povos indígenas, com aplicação da Convenção 169 OIT. Marcos importantes da jurisprudência sobre CLPI.' },
+
+        { type: 'h', text: 'Atuação do MPF — legitimidade exclusiva ou concorrente?' },
+        { type: 'p', text: 'O **MPF** tem legitimidade para atuar em causas indígenas (CF art. 232 — "intervindo o MPF em todos os atos do processo"). É legitimação típica federal. Para quilombolas, MPs estaduais e MPF têm atuação concorrente, conforme localização e natureza da demanda. **Promotorias de Direitos Humanos** (no MPMG) atuam em demandas envolvendo comunidades tradicionais.' }
+      ]
+    },
+    {
+      h: 'Macetes e mnemônicos',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 grupos principais: INDÍGENAS (CF 231-232) · QUILOMBOLAS (ADCT 68) · DEMAIS COMUNIDADES TRADICIONAIS (Convenção 169 OIT + Decreto 6.040/07).**' },
+        { type: 'box', kind: 'macete', text: '**Indígenas: terras da UNIÃO · POSSE permanente · USUFRUTO exclusivo. Quilombolas: PROPRIEDADE definitiva (ADCT 68).**' },
+        { type: 'box', kind: 'macete', text: '**Marco Temporal: INCONSTITUCIONAL (STF Tema 1031, 2023).** Lei 14.701/23 foi derrubada parcialmente pelo STF (ADI 7.582).' },
+        { type: 'box', kind: 'macete', text: '**CLPI = LIVRE · PRÉVIA · INFORMADA · DE BOA-FÉ.** Convenção 169 OIT (status supralegal).' },
+        { type: 'box', kind: 'macete', text: '**Critério AUTOATRIBUIÇÃO (STF ADI 3.239, 2018):** comunidade decide se é tradicional, não Estado, não critérios genéticos.' },
+        { type: 'box', kind: 'macete', text: '**Demarcação indígena: FUNAI · MJ · Pres. República.** Demarcação quilombola: INCRA.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Indígenas NÃO são proprietários — são POSSUIDORES (USUFRUTO exclusivo).** Propriedade é da UNIÃO. Pegadinha clássica.' },
+        { type: 'box', kind: 'atencao', text: '**Quilombolas SÃO proprietários (ADCT art. 68 — propriedade definitiva).** Distinção essencial em relação aos indígenas.' },
+        { type: 'box', kind: 'atencao', text: '**Marco Temporal foi DERRUBADO pelo STF em 2023 (Tema 1031).** Pegadinha em provas que copiam enunciados antigos.' },
+        { type: 'box', kind: 'atencao', text: '**Convenção 169 OIT tem status SUPRALEGAL, não constitucional formal** (não foi aprovada pelo rito §3º).' },
+        { type: 'box', kind: 'atencao', text: '**CLPI é OBRIGATÓRIA — não é mera consulta formal.** Processo dialógico com poder de influência efetiva.' },
+        { type: 'box', kind: 'atencao', text: '**Quilombolas: critério AUTOATRIBUIÇÃO** (não genético/biológico). STF ADI 3.239.' },
+        { type: 'box', kind: 'atencao', text: '**FUNAI demarca terras INDÍGENAS · INCRA demarca terras QUILOMBOLAS.** Não confundir.' }
+      ]
+    },
+    {
+      h: 'Conexões com outros tópicos',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** comunidades tradicionais têm direitos humanos específicos (PIDESC + Convenção 169 OIT).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 8 (Meio Ambiente):** sobreposição com unidades de conservação — UCs com presença de comunidades tradicionais (RDS, Resex).' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 10 (Patrimônio Cultural):** patrimônio cultural imaterial de comunidades quilombolas e indígenas.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (Direitos fundamentais):** direitos coletivos especiais.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColProc 2 (ACP):** ACP coletiva pode ser proposta em defesa de comunidades.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 5 (LC 75/93):** MPF tem atribuição constitucional específica (CF 232).' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL COLETIVO (8) ============
   { id: 'colproc-01-microssistema-tutela-coletiva', num: 1, materia: 'colproc', title: 'Microssistema da tutela coletiva', edital: '4.2.1', editalText: 'Diálogo entre LACP, CDC, ECA, Idoso, LIA, etc. Princípios. Direitos coletivos lato sensu.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: 'Vantagem direta (Analista MP — campo cotidiano de trabalho).', outline: ['Conceito de microssistema', 'Diálogo das fontes (LACP + CDC + ECA + Idoso + LIA + LBI + LMP)', 'Direitos transindividuais (difusos, coletivos stricto sensu, individuais homogêneos — CDC art. 81)', 'Princípios da tutela coletiva', 'Legitimidade (CF art. 129 + Lei 7.347/85)'], sections: [
@@ -9154,7 +9793,50 @@ flashcards: [
   { id: 424, topic: 8, materia: 'colmat', q: 'STF Tema 999 — prescrição da reparação ambiental?', a: 'IMPRESCRITÍVEL (RE 654.833, 2020). A pretensão de reparação do dano ambiental NÃO prescreve — degradação é grave e ultrapassa o tempo. Não confundir com prescrição da multa adm. (5 anos — Súm. 467 STJ).', tags: ['colmat', 'ambiental', 'STF', 'tema-999'] },
   { id: 425, topic: 8, materia: 'colmat', q: 'Responsabilidade civil ambiental — natureza?', a: 'OBJETIVA · SOLIDÁRIA · PROPTER REM · IMPRESCRITÍVEL. Lei 6.938/81 art. 14 §1º + Súm. 623 STJ + STF Tema 999. STJ adota teoria do RISCO INTEGRAL (não admite excludentes).', tags: ['colmat', 'ambiental', 'responsabilidade'] },
   { id: 426, topic: 8, materia: 'colmat', q: 'Tríplice responsabilização ambiental (CF 225 §3º)?', a: 'CIVIL · ADMINISTRATIVA · PENAL. Independentes e cumulativas. Mesmo fato pode gerar ações em todas as esferas. Absolvição em uma não afasta as demais (salvo CPP 386 I e IV).', tags: ['colmat', 'ambiental', 'triplice'] },
-  { id: 427, topic: 8, materia: 'colmat', q: 'PJ responde penalmente em matéria ambiental?', a: 'SIM — única hipótese expressa no Brasil (CF 225 §3º + Lei 9.605/98 art. 3º). Penas: multa, restritivas de direitos (suspensão, interdição), prestação de serviços. Tese consagrada pelo STF.', tags: ['colmat', 'ambiental', 'PJ', 'crime'] }
+  { id: 427, topic: 8, materia: 'colmat', q: 'PJ responde penalmente em matéria ambiental?', a: 'SIM — única hipótese expressa no Brasil (CF 225 §3º + Lei 9.605/98 art. 3º). Penas: multa, restritivas de direitos (suspensão, interdição), prestação de serviços. Tese consagrada pelo STF.', tags: ['colmat', 'ambiental', 'PJ', 'crime'] },
+
+  // === Cards Rodada 5 — ColMat (9-12 fechando 100%) e Const (1-2) ===
+  // colmat-09 — Direito Urbanístico
+  { id: 428, topic: 9, materia: 'colmat', q: 'Plano diretor — quando é obrigatório?', a: 'Cidades com mais de 20 MIL habitantes (CF 182 §1º). Também: capitais, integrantes de RM ou aglomerações urbanas, áreas de especial interesse turístico, áreas com empreendimentos de impacto. Estatuto da Cidade art. 41.', tags: ['colmat', 'urbanistico', 'plano-diretor'] },
+  { id: 429, topic: 9, materia: 'colmat', q: 'Instrumentos progressivos contra descumprimento da função social?', a: 'Sequência: (1) PEUC — parcelamento/edificação/utilização compulsórios; (2) IPTU progressivo no tempo (até 15%, por 5 anos); (3) DESAPROPRIAÇÃO-SANÇÃO (em TÍTULOS da dívida pública, não dinheiro). Estatuto arts. 5º-8º.', tags: ['colmat', 'urbanistico', 'PEUC'] },
+  { id: 430, topic: 9, materia: 'colmat', q: 'Usucapião especial urbana — requisitos?', a: '5 ANOS · área até 250 m² · primeira moradia · sem oposição · NÃO ser proprietário de outro imóvel · NÃO se aplica a imóveis públicos (Súm. 340 STF). CF art. 183 + Estatuto art. 9º. Mnemônico 5-250-1.', tags: ['colmat', 'urbanistico', 'usucapiao'] },
+  { id: 431, topic: 9, materia: 'colmat', q: 'REURB — modalidades e órgão executor?', a: 'Lei 13.465/17. REURB-S (Social — baixa renda) · REURB-E (Específico — demais hipóteses). Instrumentos: legitimação fundiária, demarcação urbanística, condomínio urbano simples. STF ADI 5.771 validou parcialmente.', tags: ['colmat', 'urbanistico', 'REURB'] },
+  { id: 432, topic: 9, materia: 'colmat', q: 'Atuação do MP em ordem urbanística?', a: 'Estatuto da Cidade art. 53. ACP em defesa do plano diretor, controle de empreendimentos, regularização fundiária, defesa de ZEIS, combate ao parcelamento ilegal de solo (Lei 6.766/79). Instrumento típico do MP.', tags: ['colmat', 'urbanistico', 'MP'] },
+
+  // colmat-10 — Patrimônio Cultural
+  { id: 433, topic: 10, materia: 'colmat', q: 'Tombamento × Registro × Inventário?', a: 'TOMBAMENTO = bens MATERIAIS (DL 25/37). REGISTRO = bens IMATERIAIS (Decreto 3.551/00). INVENTÁRIO = listagem/identificação (CF 216 §1º). Mnemônico TIRA.', tags: ['colmat', 'cultural', 'instrumentos'] },
+  { id: 434, topic: 10, materia: 'colmat', q: 'Tombamento gera direito a indenização?', a: 'EM REGRA NÃO (STF/STJ). Tombamento limita o USO, não toma a PROPRIEDADE. Salvo se causar ESVAZIAMENTO ECONÔMICO (perda total do valor de uso) — daí cabe desapropriação indireta ou indenização compensatória.', tags: ['colmat', 'cultural', 'tombamento'] },
+  { id: 435, topic: 10, materia: 'colmat', q: '4 Livros do Tombamento (DL 25/37 art. 4º)?', a: '(1) Arqueológico/Etnográfico (2) Histórico (3) Belas Artes (4) Artes Aplicadas. NÃO confundir com os 4 Livros de REGISTRO (saberes/celebrações/expressões/lugares).', tags: ['colmat', 'cultural', 'livros'] },
+  { id: 436, topic: 10, materia: 'colmat', q: 'Patrimônio Mundial UNESCO em MG?', a: '4 sítios: Ouro Preto (1980, 1º brasileiro) · Conjunto Moderno da Pampulha · Centro Histórico de Diamantina · Santuário do Bom Jesus de Matosinhos (Congonhas — Aleijadinho). Concentração relevante para o MPMG.', tags: ['colmat', 'cultural', 'UNESCO'] },
+  { id: 437, topic: 10, materia: 'colmat', q: 'Tombamento federal impede tombamento estadual ou municipal?', a: 'NÃO. STF RE 121.140: todos os entes podem TOMBAR — competência paralela. Não há hierarquia entre tombamentos. Em MG: IEPHA-MG (estadual), IPHAN (federal), municipais (Ouro Preto, Diamantina).', tags: ['colmat', 'cultural', 'competencia'] },
+
+  // colmat-11 — Improbidade
+  { id: 438, topic: 11, materia: 'colmat', q: '3 espécies de improbidade (LIA pós-Lei 14.230/21)?', a: 'ENRIQUECIMENTO ILÍCITO (art. 9) · PREJUÍZO AO ERÁRIO (art. 10) · ATENTADO A PRINCÍPIOS (art. 11). Mnemônico EPA. Todas exigem DOLO ESPECÍFICO. Lei 14.230/21 ELIMINOU a modalidade culposa.', tags: ['colmat', 'improbidade', 'especies'] },
+  { id: 439, topic: 11, materia: 'colmat', q: 'Lei 14.230/21 — principais alterações?', a: '(1) DOLO ESPECÍFICO (não basta dolo genérico); (2) ELIMINAÇÃO da modalidade culposa; (3) ANPC — Acordo de Não Persecução Cível; (4) Prescrição 8 ANOS; (5) STF Tema 1199: RETROATIVIDADE BENÉFICA.', tags: ['colmat', 'improbidade', 'lei-14230'] },
+  { id: 440, topic: 11, materia: 'colmat', q: 'STF Tema 897 — imprescritibilidade?', a: 'Apenas o RESSARCIMENTO ao erário é IMPRESCRITÍVEL (CF 37 §5º + RE 852.475, 2018). Sancionatório (suspensão, multa, perda) prescreve em 8 anos. Distinção essencial.', tags: ['colmat', 'improbidade', 'prescricao'] },
+  { id: 441, topic: 11, materia: 'colmat', q: 'Particular pode ser sujeito ativo de improbidade?', a: 'SIM, MAS NÃO SOZINHO. LIA art. 3º: particular que SE BENEFICIA, INDUZ ou CONCORRE dolosamente com agente público. Sem agente público, NÃO há improbidade.', tags: ['colmat', 'improbidade', 'particular'] },
+  { id: 442, topic: 11, materia: 'colmat', q: 'Sanções por improbidade (art. 12)?', a: 'PERDA DOS BENS · RESSARCIMENTO · PERDA DA FUNÇÃO · SUSPENSÃO DOS DIREITOS POLÍTICOS · PROIBIÇÃO DE CONTRATAR · MULTA. Cumulativas ou alternativas conforme a espécie e gravidade.', tags: ['colmat', 'improbidade', 'sancoes'] },
+
+  // colmat-12 — Comunidades Tradicionais
+  { id: 443, topic: 12, materia: 'colmat', q: 'STF Tema 1031 — marco temporal indígena?', a: 'INCONSTITUCIONAL (RE 1.017.365, 2023). Demarcação NÃO depende de ocupação na data da CF (05/10/1988). Lei 14.701/23 tentou reintroduzir; STF derrubou principais dispositivos (ADI 7.582, 2024).', tags: ['colmat', 'indigena', 'STF', 'marco-temporal'] },
+  { id: 444, topic: 12, materia: 'colmat', q: 'Indígenas são proprietários ou possuidores das terras?', a: 'POSSUIDORES com USUFRUTO EXCLUSIVO (CF 231 §2º). Propriedade é da UNIÃO (CF 20 XI). Diferente dos quilombolas, que SÃO PROPRIETÁRIOS (ADCT art. 68).', tags: ['colmat', 'indigena', 'propriedade'] },
+  { id: 445, topic: 12, materia: 'colmat', q: 'Convenção 169 OIT — qual o status no Brasil?', a: 'SUPRALEGAL (Decreto 5.051/04 → 10.088/19). NÃO foi aprovada pelo rito do art. 5º §3º. Disciplina: povos indígenas, tribais, quilombolas e demais comunidades tradicionais. Núcleo: CLPI.', tags: ['colmat', 'OIT-169', 'tratados'] },
+  { id: 446, topic: 12, materia: 'colmat', q: 'CLPI — Consulta Livre, Prévia e Informada?', a: 'OBRIGATÓRIA (Convenção 169 OIT arts. 6º-7º) antes de qualquer medida administrativa ou legislativa que afete povos. Características: LIVRE · PRÉVIA · INFORMADA · DE BOA-FÉ. Processo dialógico, não mero "ouvir".', tags: ['colmat', 'CLPI', 'OIT-169'] },
+  { id: 447, topic: 12, materia: 'colmat', q: 'Quilombolas — critério para reconhecimento?', a: 'AUTOATRIBUIÇÃO (autodefinição da comunidade). STF ADI 3.239 (2018) validou Decreto 4.887/03. Não é critério genético/biológico. Órgão executor: INCRA. Propriedade DEFINITIVA (ADCT art. 68).', tags: ['colmat', 'quilombolas', 'autoatribuicao'] },
+
+  // const-01 — Teoria da Constituição
+  { id: 448, topic: 1, materia: 'const', q: '3 conceitos clássicos de Constituição?', a: 'LASSALLE (sociológico — fatores reais de poder) · SCHMITT (político — decisão política fundamental) · KELSEN (jurídico — norma fundamental). Mnemônico L-S-K.', tags: ['const', 'teoria', 'conceitos'] },
+  { id: 449, topic: 1, materia: 'const', q: 'CF/88 — 11 classificações principais?', a: 'ESCRITA · FORMAL · DOGMÁTICA · PROMULGADA · RÍGIDA · ANALÍTICA · NORMATIVA · PRINCIPIOLÓGICA · ECLÉTICA · SOCIAL · DIRIGENTE. Decorar é dever de prova.', tags: ['const', 'teoria', 'classificacoes'] },
+  { id: 450, topic: 1, materia: 'const', q: 'Características do PCO (Poder Constituinte Originário)?', a: 'INICIAL · ILIMITADO juridicamente (limites EXTRAJURÍDICOS existem) · INCONDICIONADO · AUTÔNOMO. Mnemônico I-I-I-A.', tags: ['const', 'PCO'] },
+  { id: 451, topic: 1, materia: 'const', q: '3 modalidades de poder constituinte derivado?', a: 'REFORMADOR (CF 60 — emenda) · DECORRENTE (CF 25 — Constituições estaduais) · REVISOR (ADCT art. 3 — esgotado em 1994). Apenas o reformador é PERMANENTE.', tags: ['const', 'derivado'] },
+  { id: 452, topic: 1, materia: 'const', q: 'Cláusulas pétreas (CF 60 §4º)?', a: 'Forma FEDERATIVA · VOTO direto/secreto/universal/periódico · SEPARAÇÃO dos Poderes · DIREITOS INDIVIDUAIS. Mnemônico F-V-S-D. Vedam emenda TENDENTE A ABOLIR (não só abolir).', tags: ['const', 'clausulas-petreas'] },
+
+  // const-02 — Eficácia das normas
+  { id: 453, topic: 2, materia: 'const', q: '3 categorias de J. A. da Silva — quais?', a: 'PLENA (D-I-I: direta-imediata-integral) · CONTIDA (D-I-I, mas restringível por lei) · LIMITADA (indireta-mediata-reduzida; depende de regulamentação).', tags: ['const', 'eficacia', 'classificacao'] },
+  { id: 454, topic: 2, materia: 'const', q: 'Norma de eficácia limitada — tem efeito mínimo?', a: 'SIM. Tem EFICÁCIA MÍNIMA: (1) REVOGA normas anteriores incompatíveis; (2) VINCULA o legislador a regulamentar. Não é "destituída de eficácia".', tags: ['const', 'limitada', 'eficacia-minima'] },
+  { id: 455, topic: 2, materia: 'const', q: '2 espécies de norma de eficácia limitada?', a: '(1) PROGRAMÁTICAS — definem programas/metas (ex: CF 196 saúde, 205 educação). (2) DE PRINCÍPIO INSTITUTIVO — preveem criação de órgãos/instituições (ex: CF 18 §3º — criação de Estados).', tags: ['const', 'limitada', 'especies'] },
+  { id: 456, topic: 2, materia: 'const', q: 'CF 5º §1º — aplicação imediata dos direitos fundamentais?', a: 'Direitos fundamentais têm aplicação IMEDIATA. Mas isso NÃO converte normas LIMITADAS em PLENAS — direitos limitados ainda dependem de regulamentação. Aplicação máxima possível, com remédios (MI, ADO).', tags: ['const', 'eficacia', 'art-5-§1'] },
+  { id: 457, topic: 2, materia: 'const', q: 'Eficácia HORIZONTAL dos direitos fundamentais?', a: 'Aplicação dos direitos fundamentais nas relações ENTRE PARTICULARES (não só Estado × cidadão). STF RE 201.819 (2005, União Brasileira de Compositores). Marco da doutrina moderna.', tags: ['const', 'eficacia', 'horizontal'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -11332,6 +12014,86 @@ questions: [
     ],
     correct: 'D',
     explanation: 'Princípios consagrados pela doutrina e STF/STJ. (A) Falso — STF Tema 999: IMPRESCRITÍVEL. (B) Falso — OBJETIVA (Lei 6.938/81 art. 14 §1º). (C) Falso — CF 225 §3º + Lei 9.605/98 art. 3º (PJ responde). (E) Falso — propter rem (Súmula 623 STJ).'
+  },
+
+  // === Questões Rodada 5 — ColMat (9-12) e Const (1-2) ===
+  {
+    id: 155, topic: 9, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a política urbana e os instrumentos previstos no Estatuto da Cidade (Lei 10.257/01):',
+    alternatives: [
+      'O plano diretor é obrigatório para municípios com mais de 5 mil habitantes, conforme a CF e o Estatuto da Cidade.',
+      'A desapropriação-sanção, prevista como instrumento contra o descumprimento da função social da propriedade urbana, é paga em DINHEIRO, à vista, conforme a regra geral da desapropriação ordinária.',
+      'A usucapião especial urbana exige posse mansa e pacífica de 5 anos, área de até 250 m², primeira moradia e ausência de oposição, e NÃO se aplica a imóveis públicos (Súmula 340 STF).',
+      'O IPTU progressivo no tempo pode ser aplicado por prazo indeterminado, sem teto máximo de alíquota.',
+      'O MP não tem legitimidade para atuar em ACPs urbanísticas, em razão da natureza eminentemente patrimonial do tema.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 183 + Estatuto da Cidade art. 9º + Súm. 340 STF. (A) Falso — 20 mil habs. (B) Falso — em TÍTULOS da dívida pública (Estatuto art. 8º). (D) Falso — alíquota máxima 15%, prazo 5 anos (Estatuto art. 7º). (E) Falso — Estatuto art. 53 prevê expressamente legitimidade do MP.'
+  },
+  {
+    id: 156, topic: 10, materia: 'colmat', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a tutela jurídica do patrimônio cultural brasileiro:',
+    alternatives: [
+      'O tombamento transfere a propriedade do bem do particular para a Administração Pública, garantindo indenização justa em dinheiro.',
+      'O patrimônio cultural brasileiro abrange somente bens MATERIAIS, sendo os bens imateriais protegidos pelo direito de propriedade intelectual.',
+      'O tombamento federal exclui a possibilidade de tombamento estadual ou municipal sobre o mesmo bem, em razão da hierarquia entre os entes federativos.',
+      'Os bens arqueológicos e pré-históricos pertencem à União (Lei 3.924/61), independentemente de estarem em propriedade privada.',
+      'O registro de bens culturais imateriais é regulado pelo DL 25/37 e segue os mesmos quatro Livros do Tombamento.'
+    ],
+    correct: 'D',
+    explanation: 'Lei 3.924/61 + CF 20. (A) Falso — tombamento NÃO transfere propriedade; em regra não indeniza. (B) Falso — CF 216 inclui bens IMATERIAIS (Decreto 3.551/00). (C) Falso — STF RE 121.140: todos os entes podem tombar (paralelismo). (E) Falso — registro é regulado pelo Decreto 3.551/00 (Livros: saberes/celebrações/expressões/lugares), distintos dos Livros do Tombamento.'
+  },
+  {
+    id: 157, topic: 11, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca da Lei 8.429/92 (LIA), com as alterações da Lei 14.230/21:',
+    alternatives: [
+      'Permanece prevista a modalidade CULPOSA de improbidade no art. 10, em casos de prejuízo ao erário decorrente de imperícia administrativa.',
+      'A nova lei aplicasse exclusivamente a fatos praticados após sua vigência (15/10/2021), em respeito ao princípio da segurança jurídica.',
+      'A Lei 14.230/21 exigiu DOLO ESPECÍFICO para a configuração de qualquer ato de improbidade, eliminou a forma culposa, instituiu o ANPC (Acordo de Não Persecução Cível) e o STF (Tema 1199) admitiu a retroatividade benéfica das alterações.',
+      'O CNMP é o legitimado exclusivo para propor ação de improbidade após a Lei 14.230/21.',
+      'A pretensão de RESSARCIMENTO ao erário decorrente de improbidade prescreve em 8 anos da prática do ato.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 14.230/21 + STF Tema 1199 (RE 843.989, 2022). (A) Falso — eliminada a forma culposa. (B) Falso — STF Tema 1199: retroatividade benéfica. (D) Falso — MP é legitimado preferencial; PJ interessada também atua. (E) Falso — STF Tema 897: ressarcimento ao erário é IMPRESCRITÍVEL (CF 37 §5º).'
+  },
+  {
+    id: 158, topic: 12, materia: 'colmat', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os direitos das comunidades tradicionais:',
+    alternatives: [
+      'Os indígenas são proprietários originários das terras que tradicionalmente ocupam, podendo aliená-las após autorização da FUNAI.',
+      'O STF (Tema 1031, 2023) declarou CONSTITUCIONAL a tese do marco temporal, restringindo a demarcação às terras efetivamente ocupadas em 5 de outubro de 1988.',
+      'A Convenção 169 da OIT, internalizada no Brasil pelo Decreto 5.051/04 (atualizado pelo Decreto 10.088/19), tem status SUPRALEGAL e prevê a CLPI (Consulta Livre, Prévia e Informada) como direito obrigatório dos povos indígenas, tribais e demais comunidades tradicionais.',
+      'O reconhecimento de comunidade quilombola depende de critério genético-biológico, conforme exigência da Lei 14.701/23.',
+      'A demarcação de terras quilombolas é atribuição da FUNAI, à semelhança das terras indígenas.'
+    ],
+    correct: 'C',
+    explanation: 'Decreto 5.051/04 + Convenção 169 OIT + STF RE 466.343 (supralegalidade). (A) Falso — propriedade é da UNIÃO (CF 20 XI); índios têm posse e usufruto, terras INALIENÁVEIS. (B) Falso — STF DERRUBOU o marco temporal (Tema 1031, 2023). (D) Falso — STF ADI 3.239: critério é AUTOATRIBUIÇÃO. (E) Falso — INCRA é o órgão executor para quilombolas.'
+  },
+  {
+    id: 159, topic: 1, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Teoria da Constituição e o Poder Constituinte:',
+    alternatives: [
+      'A CF/88, segundo a doutrina majoritária, é classificada como semirrígida, escrita, costumeira, sintética e nominal.',
+      'O Poder Constituinte Originário é absolutamente ilimitado, não admitindo qualquer espécie de limitação, jurídica ou extrajurídica.',
+      'O Poder Constituinte Reformador é PERMANENTE e está disciplinado no art. 60 da CF/88, com limites formais (rito), circunstanciais (estados de exceção) e materiais (cláusulas pétreas — art. 60 §4º).',
+      'O Poder Constituinte Revisor (ADCT art. 3º) pode ser exercido a qualquer tempo, desde que observado o quórum de 3/5 nas duas Casas do Congresso.',
+      'A mutação constitucional opera por meio de emenda à Constituição, alterando o texto da CF/88.'
+    ],
+    correct: 'C',
+    explanation: 'CF art. 60. (A) Falso — CF/88 é RÍGIDA, escrita, codificada (não costumeira), ANALÍTICA, normativa. (B) Falso — ilimitado JURIDICAMENTE, mas tem limites EXTRAJURÍDICOS. (D) Falso — Poder Revisor está ESGOTADO desde 1994. (E) Falso — mutação NÃO altera o texto, apenas o sentido (interpretação evolutiva).'
+  },
+  {
+    id: 160, topic: 2, materia: 'const', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca da aplicabilidade e eficácia das normas constitucionais:',
+    alternatives: [
+      'Normas de eficácia LIMITADA são destituídas de qualquer eficácia até que sejam regulamentadas por lei posterior.',
+      'A norma de eficácia CONTIDA depende de regulamentação para iniciar sua aplicação, valendo apenas após a edição da norma restritiva.',
+      'A classificação tripartite de José Afonso da Silva (PLENA · CONTIDA · LIMITADA) é a dominante; normas limitadas têm eficácia MÍNIMA — revogam normas anteriores incompatíveis e vinculam o legislador a regulamentar.',
+      'O CF art. 5º §1º (aplicação imediata dos direitos e garantias fundamentais) converte automaticamente todas as normas constitucionais em normas de eficácia plena.',
+      'A eficácia HORIZONTAL dos direitos fundamentais foi rejeitada pelo STF em razão do princípio da separação de poderes.'
+    ],
+    correct: 'C',
+    explanation: 'Classificação clássica de J. A. Silva. (A) Falso — limitada tem eficácia MÍNIMA. (B) Falso — contida vale plenamente até virem restrições. (D) Falso — CF 5º §1º não converte limitadas em plenas. (E) Falso — STF RE 201.819 reconheceu a eficácia horizontal.'
   }
 ],
 
