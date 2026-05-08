@@ -7696,6 +7696,73 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico MP 8 (extrajudicial):** ANPC dialoga com TAC e Recomendação.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** servidor é sujeito ativo principal.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Lei de Improbidade Administrativa (Lei 8.429/92 — alterada pela Lei 14.230/21)' },
+        { type: 'list', items: [
+          '**Reforma da Lei 14.230/21**: retirou modalidade culposa (só DOLO ESPECÍFICO); reduziu prazos de prescrição; nova categoria de "atos contra os princípios"',
+          '**Sujeitos ativos**: agentes públicos (sentido amplo — CF 37 §4º + Lei 8.429 art. 2º) + terceiros que induziram ou se beneficiaram',
+          '**Modalidades de improbidade (após 14.230/21)**:',
+          '— Enriquecimento ilícito (art. 9º) — 12 incisos',
+          '— Prejuízo ao erário (art. 10) — 21 incisos — exige dolo específico',
+          '— Atentado contra princípios (art. 11) — 8 incisos — só algumas hipóteses configuram (a Lei 14.230 reduziu drasticamente)',
+          '— Concessão/aplicação indevida de benefício financeiro/tributário (art. 10-A) — específico para União/E/M de governadores'
+        ]},
+        { type: 'h', text: 'Sanções (art. 12)' },
+        { type: 'list', items: [
+          '**Comum às 4 modalidades**: ressarcimento integral ao erário; perda dos bens ilícitos',
+          '**Específicas por modalidade**: perda da função pública, suspensão dos direitos políticos (8-14 anos), multa civil (até 24x remuneração ou 2-3x valor enriquecimento ou prejuízo), proibição de contratar com Adm (até 14 anos)',
+          '**Lei 14.230/21**: reduziu prazos máximos das sanções — antes 10 anos, agora 14 anos para suspensão de direitos políticos'
+        ]},
+        { type: 'h', text: 'Procedimento (após reforma)' },
+        { type: 'list', items: [
+          'Investigação prévia (NIPP — Notícia de Improbidade Pública e Privada)',
+          'Inquérito civil ou Procedimento Preparatório',
+          'Petição inicial → defesa preliminar → recebimento ou rejeição',
+          '**Audiência de conciliação** (obrigatória após reforma) — tentativa de acordo',
+          '**Acordo de não-persecução cível (Lei 14.230/21 — novo art. 17-B)**: cabível em qualquer fase, exige confissão, reparação, pagamento de multa',
+          'Sentença de mérito + recursos (apelação, RE, REsp)'
+        ]},
+        { type: 'h', text: 'Prescrição (art. 23 — alterado pela Lei 14.230/21)' },
+        { type: 'list', items: [
+          '**8 anos** (regra geral) — antes era 5 anos para detentor de cargo + ad infinitum em alguns casos',
+          'Conta-se da prática do ato — interrompida pela apresentação da inicial',
+          '**STF — Tema 1.199 (RE 666.156)**: ressarcimento ao erário continua IMPRESCRITÍVEL quando dolosa a conduta — Lei 14.230 só atinge sanção'
+        ]},
+        { type: 'h', text: 'Legitimidade ativa' },
+        { type: 'list', items: [
+          'Ministério Público (CF 129 III)',
+          'Pessoa jurídica interessada (entidade lesada)',
+          'NÃO há legitimidade do cidadão (Súm 365 STJ — superada parcialmente: Ação Popular tem legitimidade, mas para improbidade o MP é o titular)'
+        ]},
+        { type: 'h', text: 'Indisponibilidade de bens (art. 16)' },
+        { type: 'list', items: [
+          'Cabível desde a fase de inquérito ou inicial',
+          'Garantia da execução do ressarcimento + multas',
+          '**Bens passíveis**: anteriores e posteriores à conduta, até o valor do dano + multa',
+          'STJ — Súm 506: indisponibilidade pode atingir bem de família se houver indícios fortes'
+        ]},
+        { type: 'h', text: 'Diferenças com responsabilidades correlatas' },
+        { type: 'list', items: [
+          'Improbidade ≠ Crime (instâncias independentes)',
+          'Improbidade ≠ Responsabilidade civil comum (improbidade exige conduta MAIS GRAVE — dolo)',
+          '**Lei 14.230/21**: aproximou improbidade do regime penal (dolo específico, presunção de inocência), distanciando-a da pura responsabilidade civil'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Tema 1.199 (RE 666.156, 2018):** "São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ato doloso tipificado na Lei de Improbidade Administrativa." Resta imprescritível o ressarcimento (não as outras sanções).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 365:** "A intervenção do Ministério Público na ação de improbidade administrativa é OBRIGATÓRIA, sob pena de nulidade." (Vale tanto na PJ como no MP-autor.)' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Lei 14.230/21 EXTINGUIU improbidade culposa.** Antes, art. 10 admitia conduta CULPOSA. Agora, todas exigem DOLO ESPECÍFICO. Aplica-se RETROATIVAMENTE (lex mitior — STF Tema 1.199 + STJ AgInt EREsp).' },
+        { type: 'box', kind: 'atencao', text: '**Imprescritibilidade do RESSARCIMENTO ao erário (STF Tema 897/RE 852.475):** só para condutas DOLOSAS. Conduta culposa antes da Lei 14.230: ressarcimento prescreve em 5 anos.' },
+        { type: 'box', kind: 'atencao', text: '**Foro por prerrogativa de função NÃO se aplica em improbidade administrativa** (STF Pet 3.211, ADI 2.797 — lei foi declarada inconstitucional). Improbidade é AÇÃO CIVIL, não criminal — segue regra de competência cível.' },
+        { type: 'box', kind: 'atencao', text: '**Súm 408 STJ:** "É indispensável o trânsito em julgado da decisão que reconhece a improbidade administrativa, para imposição de qualquer das sanções previstas no art. 12 da Lei 8.429/92." Não cabe execução provisória das sanções (mas cabe ressarcimento via execução).' },
+        { type: 'box', kind: 'atencao', text: '**Lei 8.429/92 NÃO se aplica a parlamentares no exercício do mandato** quando a conduta puder enquadrar-se em "ato político" — STF (Inq 4.483) reconhece imunidade material parlamentar.' }
+      ]
     }
   ] },
   { id: 'adm-10-controle-administracao', num: 10, materia: 'adm', title: 'Controle da Administração', edital: '1.2.10', editalText: 'Controle interno, externo, judicial, social. TCU.', size: 'Médio', schedule: 'Mês 10', advantage: null, outline: ['Classificações (interno × externo, prévio × concomitante × posterior)', 'Controle administrativo (autotutela)', 'Controle legislativo e do TCU', 'Controle judicial (limites)', 'Controle social', 'Lei de Acesso à Informação (12.527/11)'], sections: [
@@ -8148,6 +8215,51 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Const 6:** partidos políticos no rol da CF.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Lei dos Partidos Políticos (Lei 9.096/95)' },
+        { type: 'list', items: [
+          '**Caráter nacional** (CF 17 I): partido só existe se atender requisitos nacionais',
+          '**Vedação a recebimento de recursos estrangeiros** (CF 17 II)',
+          '**Prestação de contas à Justiça Eleitoral** (CF 17 III, Lei 9.096/95 art. 30 e ss.)',
+          '**Funcionamento parlamentar de acordo com a lei** (CF 17 IV)',
+          '**Fundo Partidário** (Lei 9.096/95 art. 38) e **Fundo Especial de Financiamento de Campanha** (Lei 13.487/17 — FEFC)',
+          'Cláusula de barreira/desempenho (EC 97/17): mínimo 1,5% votos em 9 UFs com 1% em cada (eleições 2022) — escalonado'
+        ]},
+        { type: 'h', text: 'Filiação partidária' },
+        { type: 'list', items: [
+          'Condição de elegibilidade (CF 14 §3º V): cidadão deve ser filiado para candidatar-se',
+          '**Prazo de filiação (Lei 9.504/97 art. 9º)**: 6 meses antes do pleito (modificado para vigência sobre o pleito específico)',
+          '**Desfiliação x Fidelidade**: Resolução TSE 22.610/07 + STF MS 26.604 — perda do mandato eletivo proporcional por mudança injustificada de partido',
+          'Justa causa para desfiliação: mudança substancial do partido, grave discriminação pessoal, criação de novo partido (Lei 13.165/15)'
+        ]},
+        { type: 'h', text: 'Federações partidárias (Lei 14.208/21)' },
+        { type: 'list', items: [
+          'Coligações partidárias **proibidas** em eleições proporcionais desde EC 97/17',
+          '**Federação partidária**: união entre partidos com atuação conjunta por mínimo de 4 anos',
+          'Funciona como se fosse 1 partido para fins eleitorais e parlamentares'
+        ]},
+        { type: 'h', text: 'Fundos partidários' },
+        { type: 'list', items: [
+          '**Fundo Partidário** (FP): mantido por dotações orçamentárias federais + multas eleitorais — distribuição: 5% igualitária + 95% proporcional aos votos para Câmara',
+          '**FEFC** (Lei 13.487/17): exclusivo para campanhas — substitui doações empresariais (vedadas desde 2015)',
+          'Doações de pessoa física: até 10% dos rendimentos brutos do ano anterior (Lei 9.504/97 art. 23)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADIs 4.430 e 4.795:** propaganda partidária gratuita é constitucional, mas distribuição entre partidos pode ser regrada por critérios objetivos.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Cláusula de barreira (ADIs 1.351 e 1.354 / EC 97/17):** entendeu inicialmente inconstitucional a antiga cláusula; EC 97/17 reabilitou critério escalonado, sem extinção do partido mas com restrição a fundos e tempo de TV.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Coligação proporcional VEDADA (EC 97/17, CF 17 §1º).** Mas coligação MAJORITÁRIA é PERMITIDA (presidente, governador, prefeito, senador). Não confundir com FEDERAÇÃO (que substitui parcialmente o papel das antigas coligações).' },
+        { type: 'box', kind: 'atencao', text: '**Fidelidade partidária:** STF (MS 26.604) reconheceu para mandatos PROPORCIONAIS (vereador, deputado). Para MAJORITÁRIOS (executivo + senador), não há fidelidade obrigatória (ADI 5.081).' },
+        { type: 'box', kind: 'atencao', text: '**Filiação partidária:** o prazo de 6 meses antes da eleição é o requisito. Mas para o **funcionalismo público**, há regras específicas (afastamento, desincompatibilização).' },
+        { type: 'box', kind: 'atencao', text: '**Doações empresariais a candidatos: VEDADAS desde STF ADI 4.650/2015** + Lei 13.165/15. Apenas pessoa física pode doar (limite 10% renda anual) ou autofinanciamento.' },
+        { type: 'box', kind: 'atencao', text: '**Cota de gênero (Lei 9.504/97 art. 10 §3º):** mínimo 30% e máximo 70% candidaturas de cada sexo. Descumprimento = irregularidade da chapa. STF (ADI 5.617): Fundo Partidário deve ser distribuído proporcionalmente entre os sexos.' }
+      ]
     }
   ] },
   { id: 'elei-04-alistamento-candidatura-registro', num: 4, materia: 'elei', title: 'Alistamento, candidatura e registro', edital: '1.3.4', editalText: 'Domicílio eleitoral. Convenções. Registro de candidatura. Substituição.', size: 'Médio', schedule: 'Mês 15', advantage: null, outline: ['Alistamento eleitoral', 'Domicílio eleitoral e filiação', 'Convenções partidárias', 'Registro de candidatura (Lei 9.504/97 art. 11)', 'Documentos exigidos', 'Impugnação ao registro (AIRC — LC 64/90 art. 3º)', 'Substituição de candidatos'], sections: [
@@ -8202,6 +8314,59 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Elei 1:** condições de elegibilidade.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Elei 3:** filiação partidária.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Direitos políticos (CF 14)' },
+        { type: 'list', items: [
+          '**Alistamento OBRIGATÓRIO**: 18 a 70 anos (CF 14 §1º I)',
+          '**Alistamento FACULTATIVO**: 16-18, >70 anos, analfabetos (CF 14 §1º II)',
+          'Não podem alistar-se: estrangeiros, conscritos durante serviço militar (CF 14 §2º)',
+          '**Inalistáveis e inelegíveis**: estrangeiros e conscritos (CF 14 §2º)',
+          '**Domicílio eleitoral**: residência ou vínculo (Lei 9.504/97 art. 9º) — mínimo 6 meses antes da eleição'
+        ]},
+        { type: 'h', text: 'Condições de elegibilidade (CF 14 §3º)' },
+        { type: 'list', items: [
+          'Nacionalidade brasileira',
+          'Pleno exercício dos direitos políticos',
+          'Alistamento eleitoral',
+          'Domicílio eleitoral na circunscrição',
+          'Filiação partidária',
+          '**Idade mínima**: Presidente/Senador/Vice-Pres (35); Governador/Vice (30); Deputado Fed/Estadual/Prefeito/Vice/Juiz Paz (21); Vereador (18)'
+        ]},
+        { type: 'h', text: 'Inelegibilidades (CF 14 §§ 4º a 9º + LC 64/90)' },
+        { type: 'list', items: [
+          '**Absolutas (CF 14 §4º)**: inalistáveis e analfabetos',
+          '**Reflexas/parentesco (CF 14 §7º)**: cônjuge, parentes consanguíneos/afins até 2º grau do chefe do Executivo (no território — exceção: já titular de mandato eletivo e candidato à reeleição)',
+          '**LC 64/90 (Lei das Inelegibilidades — alterada pela LC 135/10 - Lei da Ficha Limpa)**: condenação por órgão colegiado em improbidade dolosa, crimes contra economia/Adm pública etc., por 8 anos'
+        ]},
+        { type: 'h', text: 'Reeleição (CF 14 §5º)' },
+        { type: 'list', items: [
+          'Presidente, Governador, Prefeito + Vice: 1 reeleição CONSECUTIVA',
+          'Para terceiro mandato consecutivo: tem que ser em cargo diferente OU município diferente OU estado diferente',
+          'Sucessor (filho, cônjuge etc.) do titular não pode candidatar-se no mesmo cargo (CF 14 §7º)'
+        ]},
+        { type: 'h', text: 'Desincompatibilização' },
+        { type: 'list', items: [
+          'Servidor público: afastamento 3 meses antes (LC 64/90 art. 1º II)',
+          'Militar: cargo eletivo é causa automática de exclusão das fileiras (CF 14 §8º)',
+          'Magistrado/MP: aposentadoria definitiva ou exoneração',
+          'Chefe Executivo concorrendo a outro cargo: 6 meses antes (CF 14 §6º)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADC 29 e 30 (Lei da Ficha Limpa):** julgou constitucional a LC 135/10 — inclusão da inelegibilidade por 8 anos por condenação em órgão colegiado é compatível com a presunção de inocência.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**TSE — Súm 41:** "Não cabe à Justiça Eleitoral decidir sobre o acerto ou desacerto das decisões proferidas por outros órgãos do Judiciário ou da Administração Pública que ensejem a inelegibilidade prevista na Lei das Inelegibilidades."' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Conscritos NÃO se alistam.** Atenção: o conscrito é o convocado para serviço militar inicial. Após a baixa, recupera direitos políticos automaticamente. Militar profissional/de carreira ALISTA-SE normalmente, mas NÃO pode filiar-se a partido (CF 14 §8º).' },
+        { type: 'box', kind: 'atencao', text: '**Inelegibilidade reflexa (CF 14 §7º):** cônjuge/parentes do chefe do executivo não podem candidatar-se no MESMO TERRITÓRIO. Para cargo em OUTRO território, cabe — desde que respeitada a desincompatibilização.' },
+        { type: 'box', kind: 'atencao', text: '**Reeleição é UMA SÓ subsequente (CF 14 §5º)** — para chefe Executivo. Após dois mandatos seguidos, deve aguardar pelo menos um mandato fora ou candidatar-se a outro cargo.' },
+        { type: 'box', kind: 'atencao', text: '**Súm Vinculante 18 STF:** "A dissolução da sociedade ou do vínculo conjugal, no curso do mandato, NÃO afasta a inelegibilidade prevista no art. 14, §7º da CF/88." Visa evitar fraude.' },
+        { type: 'box', kind: 'atencao', text: '**Idade mínima é aferida na DATA DA POSSE, não do registro** (TSE Resolução 23.609/19). Exceção: vereador (18 anos no registro).' }
       ]
     }
   ] },
@@ -8326,6 +8491,54 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 12 (crimes Adm.):** dialoga com corrupção eleitoral.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Elei 5:** propaganda irregular pode levar a crimes.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Sistema dos crimes eleitorais' },
+        { type: 'list', items: [
+          'Sede principal: **Código Eleitoral (Lei 4.737/65) arts. 289-354**',
+          'Lei 9.504/97: tipos específicos de campanha',
+          'Lei 6.091/74: transporte e alimentação eleitoral',
+          'Aplicação subsidiária do Código Penal e CPP (CE 364)'
+        ]},
+        { type: 'h', text: 'Principais tipos' },
+        { type: 'list', items: [
+          '**Inscrição fraudulenta (CE 289)**: alistar-se eleitor sem condições ou em duplicidade',
+          '**Falsidade ideológica eleitoral (CE 350)**: declaração falsa em documento eleitoral',
+          '**Boca de urna (Lei 9.504/97 art. 39 §5º)**: aliciamento de eleitor no dia da eleição — pena 6 meses a 1 ano + multa',
+          '**Compra de votos (CE 299)**: dar/oferecer/promover ou solicitar voto — pena 1 a 4 anos + multa',
+          '**Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A)**: NÃO é crime — é INFRAÇÃO eleitoral com sanção de cassação do registro/diploma',
+          '**Corrupção eleitoral (CE 299)**: dar/oferecer dinheiro/dádiva para obter voto — crime',
+          '**Boca de urna virtual** (TSE): condutas semelhantes em redes sociais no dia da eleição'
+        ]},
+        { type: 'h', text: 'Competência e processo' },
+        { type: 'list', items: [
+          '**Justiça Eleitoral é COMPETENTE para julgar crimes eleitorais** (CF 121)',
+          '**Conexão com crime comum**: STF firmou (Inq 4.435 — 2019) que **a Justiça Eleitoral atrai a competência** em conexão com crimes comuns',
+          'Investigação: **Polícia Judiciária (Federal ou Civil)** sob requisição do MP Eleitoral',
+          'Juiz Eleitoral é juiz de Direito da circunscrição (1 ano + 1 ano de prorrogação)',
+          'Recurso: TRE → TSE; STF para questão constitucional'
+        ]},
+        { type: 'h', text: 'Ação penal' },
+        { type: 'list', items: [
+          '**Pública incondicionada** (regra) — promovida pelo MP Eleitoral',
+          'Princípio da indisponibilidade do MP — não pode desistir',
+          'Aplica-se transação penal e suspensão condicional do processo (Lei 9.099/95 + Lei 11.313/06)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — Inq 4.435 (2019):** "Compete à Justiça Eleitoral julgar os crimes eleitorais e os comuns que lhes forem conexos." Reafirmou regra de atração da competência eleitoral em casos de conexão com crime comum.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.012.991:** "É constitucional a aplicação do regime penal especial a determinados crimes eleitorais cuja pena prevista é não superior a 4 anos, possibilitando a aplicação da Lei 9.099/95."' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Captação ilícita de sufrágio (Lei 9.504/97 art. 41-A) NÃO é crime — é infração eleitoral.** Sanção: multa + cassação do registro/diploma. NÃO confundir com CORRUPÇÃO ELEITORAL (CE 299) que é crime.' },
+        { type: 'box', kind: 'atencao', text: '**Conexão entre crime eleitoral e comum:** STF Inq 4.435 firmou que JUSTIÇA ELEITORAL atrai a competência. Antes, a regra era atração pelo juízo comum (Súm 122 STJ — superada).' },
+        { type: 'box', kind: 'atencao', text: '**Boca de urna:** vedada no DIA DA ELEIÇÃO (Lei 9.504/97 art. 39 §5º). Mas propaganda institucional/de candidato em outros dias é permitida nos limites legais.' },
+        { type: 'box', kind: 'atencao', text: '**Crimes eleitorais NÃO admitem prisão preventiva** por excesso de prazo da campanha (Súm 32 STF — superada por STF ADI). Hoje, admitem normalmente quando preenchidos requisitos do CPP 312.' },
+        { type: 'box', kind: 'atencao', text: '**Ação de impugnação de mandato eletivo (AIME) — CF 14 §10:** abuso de poder econômico, corrupção ou fraude. Prazo: 15 dias após a diplomação. Procedimento sigiloso, com cassação do mandato.' }
+      ]
     }
   ] },
   { id: 'elei-07-acoes-eleitorais', num: 7, materia: 'elei', title: 'Ações eleitorais (AIJE, AIME, AIRC, RCED)', edital: '1.3.7', editalText: 'Ações de impugnação e investigação. Recurso contra expedição de diploma.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['AIRC — Ação de Impugnação ao Registro de Candidatura', 'AIJE — Ação de Investigação Judicial Eleitoral', 'AIME — Ação de Impugnação ao Mandato Eletivo', 'RCED — Recurso Contra Expedição de Diploma', 'Representações (art. 96 da Lei 9.504/97)', 'Ação rescisória eleitoral'], sections: [
@@ -8376,6 +8589,56 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Elei 1:** inelegibilidade gerada por AIJE (8 anos).' },
         { type: 'box', kind: 'conexao', text: '**Tópico Elei 5:** financiamento ilícito enseja AIJE.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Principais ações eleitorais' },
+        { type: 'list', items: [
+          '**AIRC (Ação de Impugnação de Registro de Candidatura) — LC 64/90 art. 3º**: prazo 5 dias após publicação do pedido de registro; impugna por inelegibilidade ou ausência de condição de elegibilidade',
+          '**AIJE (Ação de Investigação Judicial Eleitoral) — LC 64/90 art. 22**: abuso de poder político/econômico, uso indevido de meios de comunicação. Pode ser ajuizada do registro até a diplomação. Sanção: cassação do registro/diploma + inelegibilidade 8 anos',
+          '**AIME (Ação de Impugnação de Mandato Eletivo) — CF 14 §10**: 15 dias após diplomação. Abuso poder econômico, corrupção, fraude. Procedimento SIGILOSO',
+          '**RCED (Recurso Contra Expedição de Diploma) — CE 262**: vícios na própria diplomação',
+          '**Representação por captação ilícita de sufrágio (Lei 9.504/97 art. 41-A)**: prazo até diplomação',
+          '**Representação por gastos ilícitos de recursos de campanha (Lei 9.504/97 art. 30-A)**',
+          '**Representação por conduta vedada (Lei 9.504/97 art. 73)**: agentes públicos no período eleitoral'
+        ]},
+        { type: 'h', text: 'Procedimentos' },
+        { type: 'list', items: [
+          'Princípio da CELERIDADE: prazos curtos, julgamento prioritário',
+          'Direito ao contraditório respeitado, mas com diligências sumárias',
+          'Provas pré-constituídas (regra) — pouca dilação',
+          'Recursos: TRE → TSE → STF (matéria constitucional)'
+        ]},
+        { type: 'h', text: 'Sanções e seus efeitos' },
+        { type: 'list', items: [
+          '**Cassação do REGISTRO**: antes da eleição',
+          '**Cassação do DIPLOMA**: após a eleição mas antes da posse',
+          '**Cassação do MANDATO**: após a posse',
+          '**Inelegibilidade por 8 anos** (LC 64/90 + LC 135/10)',
+          '**Multa**: variável conforme a infração',
+          'Em caso de cassação, segue-se: novas eleições (cargo majoritário) ou suplente (cargo proporcional)'
+        ]},
+        { type: 'h', text: 'Recursos' },
+        { type: 'list', items: [
+          '**RE (CE 257-281)**: tempo célere, prazo 3 dias',
+          'Efeito devolutivo (regra) — exceção: efeito suspensivo só se concedido',
+          '**Embargos de declaração (CE 275)**: prazo 3 dias',
+          '**Recurso especial eleitoral (CF 121 §4º + CE 276)**: para o TSE — questão de lei federal ou divergência'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**TSE — Súm 64:** "É inadmissível a cassação de diploma ou mandato com base em fundamentos não examinados pela instância anterior, salvo se constatável de plano."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 631.102 + ADI 5.617:** AIME é procedimento sigiloso (CF 14 §11), mas o sigilo não pode obstar a ampla defesa.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**AIME (CF 14 §10) é procedimento SIGILOSO** — única ação eleitoral com sigilo constitucionalmente previsto. Visa proteger contra abuso de poder e ataques políticos infundados.' },
+        { type: 'box', kind: 'atencao', text: '**AIJE (LC 64/90 art. 22) ≠ AIME (CF 14 §10):** AIJE é por abuso de poder/uso indevido meios comunicação, prazo até diplomação; AIME é por abuso econômico/corrupção/fraude, prazo 15 dias APÓS diplomação.' },
+        { type: 'box', kind: 'atencao', text: '**Cassação do mandato em AIME:** se o cargo for majoritário, podem ser realizadas novas eleições (depende do percentual de votos válidos do cassado) — ou completa o mandato o vice. Para cargo proporcional, vai o suplente.' },
+        { type: 'box', kind: 'atencao', text: '**Legitimidade ativa:** AIRC = qualquer eleitor, candidato, partido, coligação, MP; AIJE = candidato, partido, coligação, MP; AIME = qualquer um deles, mas somente após diplomação.' },
+        { type: 'box', kind: 'atencao', text: '**Abuso de poder** (LC 64/90) ≠ ato de improbidade (Lei 8.429/92). São esferas distintas — pode-se acumular AIME + ação de improbidade pelo mesmo fato.' }
       ]
     }
   ] },
@@ -8488,6 +8751,37 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Const 11:** ordem econômica e tributária.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Anterioridade — exceções' },
+        { type: 'list', items: [
+          '**Anterioridade do exercício (CF 150 III b)** — exceções: II, IE, IPI, IOF, IEG (CF 154 II), empréstimo compulsório calamidade/guerra (CF 148 I), CIDE-combustíveis (CF 177 §4º I b)',
+          '**Anterioridade nonagesimal (CF 150 III c)** — exceções: II, IE, IOF, IEG, empréstimo compulsório calamidade/guerra, IR (sim, IR é exceção à NOVENTENA), fixação base de cálculo IPVA e IPTU',
+          'IPI: paga noventena MAS é exceção à anterioridade do exercício',
+          'IR: paga anterioridade do exercício MAS é exceção à noventena (Súm. Vinculante 50 — STF)'
+        ]},
+        { type: 'h', text: 'Imunidades — extensão jurisprudencial' },
+        { type: 'list', items: [
+          '**Imunidade recíproca** (CF 150 VI a + §2º) — alcança autarquias e fundações; STF estendeu a empresas públicas/SEM prestadoras de serviço público em regime de monopólio (ECT — RE 407.099) e Casa da Moeda (RE 610.517)',
+          '**Templos (CF 150 VI b)** — alcança patrimônio/renda/serviços VINCULADOS à atividade essencial (STF RE 325.822) — inclui imóvel locado se renda é revertida (Súm 724 → SV 52)',
+          '**Livros, jornais, periódicos (CF 150 VI d)** — STF RE 330.817 (Tema 593): imunidade alcança LIVROS DIGITAIS (e-readers exclusivos)',
+          '**Capacidade contributiva (CF 145 §1º)** — STF estendeu a TODOS os tributos (não só impostos pessoais) quando técnica permitir (RE 562.045)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 407.099 (ECT):** imunidade recíproca alcança Empresa Pública prestadora de serviço público em regime de exclusividade (correios). Critério: ausência de finalidade lucrativa + serviço essencial.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — SV 50:** norma que altera prazo de pagamento de tributo NÃO se sujeita ao princípio da anterioridade (mera mudança de prazo, não criação/majoração).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Imunidade × Isenção × Não-incidência × Alíquota zero:** imunidade é CONSTITUCIONAL (limitação ao poder de tributar); isenção é INFRACONSTITUCIONAL (dispensa legal de tributo devido); não-incidência = ausência de hipótese; alíquota zero = mantém obrigação acessória.' },
+        { type: 'box', kind: 'atencao', text: '**Anterioridade do exercício ≠ noventena:** a regra é cumular AMBAS (anterioridade qualificada). Saber as exceções é o ponto-chave. **IPI: só noventena. IR: só anterioridade do exercício.**' },
+        { type: 'box', kind: 'atencao', text: '**Imunidade de templos:** abrange só impostos sobre patrimônio/renda/serviço VINCULADOS à atividade essencial. NÃO alcança taxas e contribuições (que continuam devidas).' },
+        { type: 'box', kind: 'atencao', text: '**Imunidade dos livros é OBJETIVA** — alcança o livro/jornal/periódico, não o autor/editora (que pagam IR). E só impede impostos — taxas e contribuições continuam devidas.' },
+        { type: 'box', kind: 'atencao', text: '**Princípios são cláusulas pétreas (CF 60 §4º IV)** mas o STF admite que LEGISLAÇÃO COMPLEMENTAR pode regulamentá-los — não REVOGÁ-los.' }
+      ]
     }
   ] },
   { id: 'trib-02-competencia-tributaria', num: 2, materia: 'trib', title: 'Competência tributária e limitações', edital: '1.4.2', editalText: 'Competência privativa, comum, residual, extraordinária. Bitributação × bis in idem.', size: 'Pequeno', schedule: 'Mês 16', advantage: null, outline: ['Competência privativa, comum, residual, cumulativa, extraordinária', 'Limitações ao poder de tributar (CF art. 150)', 'Bitributação × bis in idem', 'Não-cumulatividade'], sections: [
@@ -8536,6 +8830,42 @@ topics: [
       h: 'Conexões',
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Const 7:** repartição de competências federativas.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Distribuição de competências' },
+        { type: 'list', items: [
+          '**União (CF 153)**: II, IE, IR, IPI, IOF, ITR, IGF (não instituído) — 7 impostos privativos',
+          '**União — competência residual (CF 154 I)**: IMPOSTOS NOVOS por LC, não-cumulativos, FG/BC distintos dos discriminados',
+          '**União — IGE (CF 154 II)**: imposto extraordinário em iminência/caso de guerra externa',
+          '**Estados (CF 155)**: ICMS, ITCMD, IPVA',
+          '**Municípios (CF 156)**: IPTU, ITBI, ISS',
+          '**DF**: cumula competência estadual (CF 155) + municipal (CF 147 + 32 §1º)',
+          '**Territórios (CF 147)**: tributos federais como em estado; se não divididos em municípios, cumulam tributos municipais',
+          'Taxas e contribuições de melhoria: competência COMUM (qualquer ente)'
+        ]},
+        { type: 'h', text: 'Características da competência' },
+        { type: 'list', items: [
+          '**Indelegável** (CTN 7º) — só capacidade tributária ATIVA pode ser delegada (arrecadar, fiscalizar, executar leis tributárias)',
+          '**Privativa/exclusiva** — cada ente tem o seu rol; não pode invadir competência alheia',
+          '**Imprescritível** — não decai pelo não-exercício',
+          '**Inalterável** — só por EC pode-se alterar',
+          '**Facultativa** — ente pode optar por não exercer (não criar tributo). Exceção polêmica: ICMS (LC 24/75 + LRF) — exigência de exercício pleno'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 562.276:** capacidade tributária ativa pode ser delegada para arrecadação por instituição financeira; competência tributária (instituir tributo) NUNCA é delegável.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.221.330 (Tema 1099):** É legítima a tributação pelo ICMS sobre operação que envolve o licenciamento de software.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Bitributação ≠ Bis in idem:** bitributação = MESMO FG cobrado por DOIS entes diferentes (regra: vedada). Bis in idem = mesmo ente cobra duas vezes pelo mesmo FG (admitido se houver previsão constitucional).' },
+        { type: 'box', kind: 'atencao', text: '**Capacidade contributiva (princípio) ≠ Capacidade tributária ativa (atributo).** A primeira é capacidade econômica do contribuinte (CF 145 §1º); a segunda é o poder de arrecadar/fiscalizar (CTN 7º).' },
+        { type: 'box', kind: 'atencao', text: '**Não-cumulatividade:** ICMS e IPI = OBRIGATÓRIA por mandamento constitucional. PIS/COFINS = facultativa (legislador escolheu o regime cumulativo ou não-cumulativo). A reforma EC 132/23 tornou IBS/CBS plenamente não-cumulativos.' },
+        { type: 'box', kind: 'atencao', text: '**Empréstimos compulsórios e contribuições especiais NÃO são limitados pela competência residual (CF 154 I).** São tributos próprios da União com fundamento em CF 148 e 149.' },
+        { type: 'box', kind: 'atencao', text: '**ITR é federal (CF 153 VI), mas pode ser delegado a Município** (CF 153 §4º III, EC 42/03) — Município arrecada, fiscaliza e fica com 100% da receita (caso contrário, 50%).' }
       ]
     }
   ] },
@@ -8601,6 +8931,47 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios constitucionais aplicáveis.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Conceito legal (CTN 3º)' },
+        { type: 'p', text: 'Tributo é toda PRESTAÇÃO PECUNIÁRIA compulsória, em moeda ou cujo valor nela se possa exprimir, que NÃO constitua sanção de ato ilícito, instituída em LEI e cobrada mediante atividade administrativa plenamente vinculada (CTN 3º).' },
+        { type: 'list', items: [
+          '**Pecuniária**: pagamento em dinheiro (admite-se dação em pagamento de imóvel — CTN 156 XI)',
+          '**Compulsória**: independe da vontade do sujeito passivo',
+          '**Não é sanção**: distingue-se de multa',
+          '**Instituída por lei** (princípio da legalidade — CTN 9º I + CF 150 I)',
+          '**Atividade vinculada**: administração não tem discricionariedade'
+        ]},
+        { type: 'h', text: 'Espécies tributárias (teoria pentapartida — STF)' },
+        { type: 'list', items: [
+          '**Impostos** (CTN 16, CF 145 I, 153, 155, 156): FG independente de atividade estatal — não vinculados, não afetados',
+          '**Taxas** (CTN 77, CF 145 II): poder polícia ou serviço público específico+divisível — vinculadas',
+          '**Contribuição de melhoria** (CTN 81, CF 145 III): valorização imobiliária por obra pública',
+          '**Empréstimos compulsórios** (CF 148): LC, União, calamidade/guerra/investimento urgente nacional',
+          '**Contribuições especiais** (CF 149, 149-A, 195): sociais, CIDE, corporativas, COSIP'
+        ]},
+        { type: 'h', text: 'Distinções táxicas' },
+        { type: 'list', items: [
+          'Taxa NÃO pode ter base de cálculo de imposto (CF 145 §2º) — STF Súm Vinculante 29: "É constitucional a adoção, no cálculo do valor de taxa, de um ou mais elementos da base de cálculo própria de determinado imposto, desde que não haja integral identidade"',
+          'Contribuição de melhoria: limites individual (acréscimo de valor ao imóvel) + total (custo da obra) — CTN 81',
+          'Empréstimo compulsório: tributo que será RESTITUÍDO em prazo previsto na lei',
+          'CIDE: pode ter receita afetada (vinculada à atividade específica) — exceção à regra de não-afetação'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 138.284 / RE 146.733:** adoção da TEORIA PENTAPARTIDA — 5 espécies tributárias (impostos, taxas, contribuição melhoria, empréstimos compulsórios, contribuições especiais).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 573.675 (Tema 44):** COSIP (Contribuição Iluminação Pública, CF 149-A, EC 39/02) é constitucional — espécie sui generis de contribuição.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**TAXA: serviço público potencial é VÁLIDO (CTN 79 I b)** — não exige uso efetivo. Mas o serviço deve ser OBRIGATORIAMENTE colocado à disposição do contribuinte (compulsoriedade da utilização).' },
+        { type: 'box', kind: 'atencao', text: '**Taxa de iluminação pública é INCONSTITUCIONAL** (Súm 670 STF / SV 41). Por isso EC 39/02 criou a COSIP (contribuição) — CF 149-A — para municípios e DF.' },
+        { type: 'box', kind: 'atencao', text: '**Pedágio:** STF (ADI 800) entendeu ser TARIFA/preço público — não tributo. Mas há posição minoritária pela natureza tributária (taxa).' },
+        { type: 'box', kind: 'atencao', text: '**Contribuição de melhoria** exige PROVA da valorização individual — mero custo da obra não basta. Cobranças sem demonstração da valorização são reiteradamente afastadas pelo STJ.' },
+        { type: 'box', kind: 'atencao', text: '**Sanção de ato ilícito NÃO é tributo** (CTN 3º). Mas o **IPTU progressivo no tempo** (CF 182 §4º II) por descumprimento de função social NÃO é sanção — é tributo extrafiscal (STF RE 666.156).' }
+      ]
     }
   ] },
   { id: 'trib-04-obrigacao-tributaria', num: 4, materia: 'trib', title: 'Obrigação tributária', edital: '1.4.4', editalText: 'Fato gerador. Sujeitos. Solidariedade. Capacidade tributária. Domicílio.', size: 'Médio', schedule: 'Mês 16', advantage: null, outline: ['Fato gerador (CTN arts. 114-118)', 'Obrigação principal × acessória', 'Sujeito ativo e passivo', 'Solidariedade (CTN arts. 124-125)', 'Capacidade tributária passiva', 'Domicílio tributário', 'Responsabilidade tributária (sucessores, terceiros, infrações)'], sections: [
@@ -8656,6 +9027,47 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios aplicáveis.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 3:** espécies tributárias.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Obrigação tributária — estrutura' },
+        { type: 'list', items: [
+          '**OT principal (CTN 113 §1º)**: pagamento de tributo ou penalidade pecuniária — surge com FG',
+          '**OT acessória (CTN 113 §2º)**: deveres instrumentais (escrituração, declarações, emissão de notas) — independem de OT principal',
+          'Descumprimento de OT acessória CONVERTE-SE em principal por força de multa (CTN 113 §3º)',
+          '**Sujeito ativo (CTN 119)**: pessoa jurídica de direito público com competência para exigir o cumprimento',
+          '**Sujeito passivo (CTN 121)**: contribuinte (relação direta com FG) ou responsável (lei o determina)'
+        ]},
+        { type: 'h', text: 'Solidariedade (CTN 124)' },
+        { type: 'list', items: [
+          'Obrigatória: pessoas com interesse comum no FG (sócios em sociedade, condôminos)',
+          'Por designação legal: lei pode designar terceiros como solidários',
+          '**NÃO COMPORTA BENEFÍCIO DE ORDEM** (CTN 124 § único)',
+          'Efeitos da solidariedade (CTN 125): pagamento de um aproveita aos demais; isenção/remissão pessoal não aproveita; interrupção da prescrição contra um, contra todos'
+        ]},
+        { type: 'h', text: 'Responsabilidade tributária (CTN 128-138)' },
+        { type: 'list', items: [
+          '**Por substituição**: regressiva (substitui PARA TRÁS, fato passado) ou progressiva/PARA FRENTE (CF 150 §7º) — fato gerador presumido',
+          '**Por transferência**: sucessores (CTN 129-133), terceiros (CTN 134-135), infrações (CTN 136-138)',
+          '**Sucessão imobiliária (CTN 130)**: créditos sub-rogam-se no adquirente — exceção: arrematação em hasta pública (sub-rogação no preço)',
+          '**Sucessão empresarial (CTN 132-133)**: fusão/incorporação/cisão → integral; venda de fundo de comércio: integral se vendedor cessar atividade, subsidiária se continuar',
+          '**Responsabilidade pessoal de sócio/administrador (CTN 135 III)**: atos com excesso de poderes ou infração de lei',
+          '**Denúncia espontânea (CTN 138)**: exclui responsabilidade por INFRAÇÕES — desde que pague tributo+juros antes de procedimento fiscal'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 213.396 + ADI 1.851:** substituição tributária PROGRESSIVA é CONSTITUCIONAL (CF 150 §7º — EC 03/93). Tema 201 firmou: cabe restituição quando o FG efetivo for de menor valor que o presumido.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 435:** "Presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal, sem comunicação aos órgãos competentes, legitimando o redirecionamento da execução fiscal para o sócio-gerente."' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Convenções particulares NÃO modificam responsabilidade tributária (CTN 123).** Cláusula de contrato de locação que transfere IPTU ao locatário vale entre as partes — mas a Fazenda continua cobrando do proprietário.' },
+        { type: 'box', kind: 'atencao', text: '**Denúncia espontânea (CTN 138) só vale para tributo+juros.** Súm 360 STJ: "O benefício da denúncia espontânea NÃO se aplica aos tributos sujeitos a LANÇAMENTO POR HOMOLOGAÇÃO regularmente declarados, mas pagos a destempo." Ou seja: declarou e não pagou = não cabe denúncia espontânea (já há crédito constituído).' },
+        { type: 'box', kind: 'atencao', text: '**Súm 430 STJ:** "O inadimplemento da obrigação tributária pela sociedade NÃO gera, por si só, a responsabilidade solidária do sócio-gerente." Exige PROVA de excesso de poderes ou infração de lei (CTN 135 III).' },
+        { type: 'box', kind: 'atencao', text: '**Mero atraso no pagamento NÃO é sucessão.** Para configurar sucessão empresarial (CTN 132-133) é preciso fusão, cisão, incorporação ou aquisição de fundo de comércio.' },
+        { type: 'box', kind: 'atencao', text: '**Solidariedade tributária NÃO admite benefício de ordem (CTN 124 § único)** — Fazenda pode cobrar de qualquer um pelo total, não tem que esgotar o devedor principal antes.' }
       ]
     }
   ] },
@@ -8777,6 +9189,51 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 7:** execução fiscal usa CDA como título.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Sigilo fiscal (CTN 198)' },
+        { type: 'list', items: [
+          '**Regra**: sigilo das informações obtidas em razão do ofício (CTN 198 caput)',
+          '**Exceções (CTN 198 §1º)**: requisição autoridade judicial; solicitação MP, CPI, autoridade administrativa em processo regular',
+          '**Compartilhamento entre Fazendas** (CTN 199): admitido por LEI ou CONVÊNIO',
+          '**Lei 12.527/11 (LAI)** + **LC 105/01** (sigilo bancário) — Fazendas podem requisitar sem autorização judicial (STF RE 601.314, ADI 2.390)',
+          'Divulgação NÃO é vedada para: representações fiscais para fins penais, inscrição em dívida ativa, parcelamento/moratória (CTN 198 §3º)'
+        ]},
+        { type: 'h', text: 'Dívida ativa e CDA' },
+        { type: 'list', items: [
+          'Dívida ativa tributária: crédito tributário regularmente inscrito após esgotado prazo de pagamento (CTN 201)',
+          'Goza de **presunção de certeza e liquidez** (CTN 204) — presunção relativa, ilidida por prova inequívoca',
+          '**Requisitos da CDA (CTN 202)** taxativos: nome do devedor; valor; origem e natureza do crédito; data de inscrição; número do processo administrativo; livro/folha',
+          'Nulidade pode ser sanada até DECISÃO de 1ª instância (CTN 203) — substituição da CDA',
+          '**CADIN (Lei 10.522/02)**: cadastro federal de devedores'
+        ]},
+        { type: 'h', text: 'Certidões' },
+        { type: 'list', items: [
+          '**CND (Certidão Negativa de Débitos)**: comprova quitação',
+          '**Certidão Positiva**: existem débitos pendentes',
+          '**Certidão Positiva c/ Efeitos de Negativa (CPEN)** (CTN 206): há débitos mas com exigibilidade suspensa, parcelamento, garantia, ou ainda no prazo de pagamento'
+        ]},
+        { type: 'h', text: 'Processo administrativo fiscal (PAF)' },
+        { type: 'list', items: [
+          '**Federal: Decreto 70.235/72** — impugnação 30 dias, julgamento por DRJ, recurso voluntário ao **CARF** (Conselho Administrativo de Recursos Fiscais)',
+          'Suspende a exigibilidade do crédito tributário (CTN 151 III)',
+          'Súmula CARF: vinculam apenas no âmbito CARF; STF/STJ continuam decidindo em sentido contrário'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 601.314 (Tema 225):** "É constitucional o art. 6º da LC 105/2001, que permite o fornecimento de informações sobre movimentações financeiras diretamente ao Fisco, sem autorização judicial."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 392:** "A Fazenda Pública pode substituir a CDA até a prolação da sentença de embargos, quando se tratar de correção de erro material ou formal, vedada a modificação do sujeito passivo da execução."' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Súm 393 STJ:** "A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que NÃO demandem dilação probatória."' },
+        { type: 'box', kind: 'atencao', text: '**Decadência ≠ Prescrição:** decadência = direito de CONSTITUIR o crédito (Fazenda fazer o lançamento) — 5 anos (CTN 173). Prescrição = direito de COBRAR judicialmente — 5 anos (CTN 174), interrompida por despacho que ordena citação na execução fiscal.' },
+        { type: 'box', kind: 'atencao', text: '**Inscrição em dívida ativa NÃO interrompe prescrição** (atos administrativos não interrompem). Quem interrompe é o despacho judicial que ordena citação na execução fiscal (LEF 8º §2º + CTN 174 § único I).' },
+        { type: 'box', kind: 'atencao', text: '**Súm 360 STJ:** "O benefício da denúncia espontânea NÃO se aplica aos tributos sujeitos a lançamento por homologação regularmente declarados, mas pagos a destempo." Tributo declarado = crédito constituído.' },
+        { type: 'box', kind: 'atencao', text: '**Sigilo fiscal NÃO é absoluto.** STF (RE 601.314) admitiu compartilhamento direto entre instituições financeiras e Fazenda, desde que observado o dever de sigilo. Mas para investigação criminal de iniciativa privada ainda exige autorização judicial.' }
+      ]
     }
   ] },
   { id: 'trib-07-execucao-fiscal-processo-judicial', num: 7, materia: 'trib', title: 'Execução fiscal e processo judicial tributário', edital: '1.4.7', editalText: 'Lei 6.830/80. Embargos. Exceção de pré-executividade. Anulatória, declaratória, consignação, MS.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['Lei 6.830/80 (LEF) — execução fiscal', 'Petição inicial e CDA', 'Citação, garantia, penhora', 'Embargos do devedor', 'Exceção de pré-executividade (Súmula 393 STJ)', 'Ações antiexacionais (anulatória, declaratória, consignação, repetição, MS)', 'Redirecionamento (Súmula 435 STJ)'], sections: [
@@ -8834,6 +9291,55 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 5:** crédito tributário é base da execução.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'LEF (Lei 6.830/80) — rito especial' },
+        { type: 'list', items: [
+          'Aplicação subsidiária do CPC (LEF 1º + CPC art. 15)',
+          '**Petição inicial (LEF 6º)**: simples, instruída com CDA',
+          '**Citação (LEF 8º)**: por correio (preferencial), oficial de justiça, edital — apenas após esgotadas tentativas (Súm 414 STJ)',
+          '**Garantia do juízo**: pagamento, depósito, fiança bancária, seguro garantia, penhora (LEF 9º)',
+          '**Penhora online (BACENJUD)** — primeira opção (LEF 11 c/c CPC 854)',
+          '**Embargos à execução fiscal (LEF 16)**: prazo 30 dias da intimação da penhora; exigem garantia do juízo'
+        ]},
+        { type: 'h', text: 'Prescrição intercorrente' },
+        { type: 'list', items: [
+          '**LEF 40**: suspende-se execução por 1 ano se não localizado devedor/bens — após esse 1 ano, conta-se prescrição em 5 anos',
+          '**STJ — REsp 1.340.553 (Tema 566)**: prescrição intercorrente reconhecida automaticamente; juiz pode declarar de ofício após oitiva da Fazenda',
+          'Marco inicial da suspensão: ciência da Fazenda da não-localização',
+          'Encontrar bens ou devedor durante a suspensão NÃO interrompe a prescrição se não se concretizar a citação/penhora'
+        ]},
+        { type: 'h', text: 'Súmulas STJ relevantes' },
+        { type: 'list', items: [
+          '**Súm 121:** A Fazenda Pública pode substituir a CDA até a prolação da sentença de embargos (atual Súm 392)',
+          '**Súm 393:** Exceção pré-executividade em matéria de ordem pública sem dilação probatória',
+          '**Súm 414:** Citação por edital só após esgotadas tentativas',
+          '**Súm 435:** Dissolução irregular gera redirecionamento (mudança de endereço sem comunicação)',
+          '**Súm 559:** Em ações monitória/execução de título extrajudicial, dispensa-se a apresentação de via original quando juntada cópia'
+        ]},
+        { type: 'h', text: 'Ações antiexacionais' },
+        { type: 'list', items: [
+          '**Mandado de segurança preventivo/repressivo** (Lei 12.016/09): contra ato coator de autoridade fiscal',
+          '**Ação anulatória de débito fiscal**: discute legalidade do lançamento; depósito do montante integral SUSPENDE exigibilidade (CTN 151 II)',
+          '**Ação de consignação em pagamento (CTN 164)**: dúvida sobre credor, exigência de tributo indevido para liberar bem, mais de uma exigência sobre mesmo FG',
+          '**Ação de repetição de indébito (CTN 165)**: prazo decadencial 5 anos do pagamento indevido (CTN 168)',
+          '**Ação declaratória de inexistência de relação jurídica tributária**'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 435:** Presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal, sem comunicação aos órgãos competentes, legitimando o redirecionamento da execução fiscal para o sócio-gerente.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Tema 444 (REsp 1.110.925):** O sócio-gerente não responde pelo simples inadimplemento do tributo (não há infração à lei pelo só fato do não pagamento — Súm 430).' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Embargos exigem garantia do juízo** (LEF 16 §1º). Mas o STJ admite EMBARGOS sem garantia para HIPOSSUFICIENTES (REsp 1.487.772 + Tema 1.012).' },
+        { type: 'box', kind: 'atencao', text: '**Exceção de pré-executividade** dispensa garantia, MAS se restringe a matérias de ordem pública sem dilação probatória (Súm 393 STJ): inconstitucionalidade da exação, prescrição/decadência evidentes, ilegitimidade ostensiva.' },
+        { type: 'box', kind: 'atencao', text: '**Redirecionamento da execução fiscal:** exige PROVA de dissolução irregular OU dos atos descritos no CTN 135 (excesso de poderes, infração de lei). Mero inadimplemento NÃO basta (Súm 430 STJ).' },
+        { type: 'box', kind: 'atencao', text: '**Honorários advocatícios em execução fiscal:** Encargo legal de 20% (DL 1.025/69 — federal) já inclui honorários. Estados/Municípios podem ter encargo legal próprio. Atenção à Súm 168 TRF1.' },
+        { type: 'box', kind: 'atencao', text: '**Prescrição intercorrente: a contagem do prazo de 1 ano (LEF 40) é AUTOMÁTICA** após a primeira tentativa frustrada de citação ou localização de bens (STJ REsp 1.340.553 — Tema 566). Não precisa de despacho expresso de suspensão.' }
+      ]
     }
   ] },
   { id: 'trib-08-reforma-tributaria-ec-132', num: 8, materia: 'trib', title: 'Reforma Tributária (EC 132/23)', edital: '1.4.8', editalText: 'IBS (estadual/municipal), CBS (federal), IS (seletivo). Transição.', size: 'Médio', schedule: 'Mês 17', advantage: null, outline: ['EC 132/23 — visão geral', 'IBS (Imposto sobre Bens e Serviços) — estadual e municipal', 'CBS (Contribuição sobre Bens e Serviços) — federal', 'IS (Imposto Seletivo) — federal', 'Cashback constitucional', 'Período de transição (2026-2033)', 'Comitê Gestor do IBS'], sections: [
@@ -8882,6 +9388,58 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 1:** princípios constitucionais — reforma respeitou cláusulas pétreas.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Trib 3:** novas espécies tributárias.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Princípios novos (CF 145 §3º)' },
+        { type: 'list', items: [
+          '**Simplicidade**: redução de complexidade tributária',
+          '**Justiça tributária**: progressividade e capacidade contributiva',
+          '**Cooperação**: entre entes federativos',
+          '**Defesa do meio ambiente**: extrafiscalidade ambiental (IS sobre poluentes)'
+        ]},
+        { type: 'h', text: 'Estrutura dos novos tributos' },
+        { type: 'list', items: [
+          '**IBS (Imposto sobre Bens e Serviços) — CF 156-A**: estadual+municipal — substitui ICMS e ISS — gestão pelo Comitê Gestor IBS',
+          '**CBS (Contribuição sobre Bens e Serviços) — CF 195 V**: federal — substitui PIS e COFINS',
+          '**IS (Imposto Seletivo) — CF 153 VIII**: federal — extrafiscal sobre bens e serviços prejudiciais à saúde/meio ambiente',
+          'Princípio da NÃO-CUMULATIVIDADE PLENA: crédito amplo, exceto bens de uso/consumo pessoal',
+          'Princípio do **DESTINO**: tributação no local do consumo (não na origem)'
+        ]},
+        { type: 'h', text: 'Cashback constitucional (CF 156-A §5º VIII)' },
+        { type: 'list', items: [
+          'Devolução para famílias de baixa renda',
+          'OBRIGATÓRIO em: eletricidade, gás natural, telecomunicações, abastecimento de água e esgoto sanitário',
+          'Possível em outros bens/serviços (lei complementar definirá)'
+        ]},
+        { type: 'h', text: 'Regimes específicos (CF 156-A §6º)' },
+        { type: 'list', items: [
+          'Combustíveis e lubrificantes (alíquotas uniformes)',
+          'Serviços financeiros, planos de saúde, concursos prognósticos',
+          'Hotelaria, parques temáticos, agências viagem, bares/restaurantes',
+          'Cooperativas, atividades imobiliárias, sociedades anônimas do futebol'
+        ]},
+        { type: 'h', text: 'Imunidades específicas IBS/CBS' },
+        { type: 'list', items: [
+          'Mantida a imunidade recíproca (entes públicos)',
+          'Templos, partidos, sindicatos, educação/assistência sem fins lucrativos',
+          'Exportações (CF 156-A §1º III)',
+          'Operações com livros, jornais, periódicos e papel para impressão'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — análise da EC 132/23:** ainda em formação. Pontos críticos esperados: status das imunidades clássicas no novo sistema, autonomia federativa estado/município no Comitê Gestor, modulação da transição.' },
+        { type: 'box', kind: 'info', text: '**Cronograma de transição (ADCT EC 132):** 2026 = alíquotas teste 0,1% IBS + 0,9% CBS; 2027 = CBS plena + extinção PIS/COFINS; 2029 = início IBS gradual; 2032 = redução final ICMS/ISS; **2033 = vigência plena**.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**IS substitui PARCIALMENTE o IPI — não totalmente.** O IPI é mantido pela União (CF 153 IV) — apenas alguns produtos antes tributados pelo IPI passam ao IS.' },
+        { type: 'box', kind: 'atencao', text: '**IBS é estadual+municipal compartilhado** — sob gestão do COMITÊ GESTOR (CF 156-B), com paridade de representação estadual e municipal. NÃO confundir com tributo federal — a competência é dos entes subnacionais.' },
+        { type: 'box', kind: 'atencao', text: '**Princípio do DESTINO** muda a lógica: IBS/CBS arrecadados onde está o CONSUMIDOR FINAL, não onde está o produtor (como era no ICMS de origem). Isso reduz a guerra fiscal.' },
+        { type: 'box', kind: 'atencao', text: '**Não-cumulatividade plena:** crédito amplo em IBS/CBS, exceto bens de uso/consumo pessoal. Diferente do ICMS atual, que tem várias restrições ao crédito (Súm 166 STJ etc).' },
+        { type: 'box', kind: 'atencao', text: '**Zona Franca de Manaus** preservada (CF 92-A ADCT) — tratamento favorecido até 2073.' }
       ]
     }
   ] },
@@ -10246,6 +10804,58 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** erro de tipo — relação com erro de proibição.' },
         { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** menores de 18 anos respondem pelo ECA.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Conceito e elementos' },
+        { type: 'p', text: 'CULPABILIDADE é juízo de reprovação que recai sobre o autor de um fato típico e ilícito. Funcionalismo penal moderno: é o ÚLTIMO ESTRATO da estrutura analítica do crime (após tipicidade e antijuridicidade).' },
+        { type: 'list', items: [
+          '**IMPUTABILIDADE**: capacidade de entender o caráter ilícito + determinar-se conforme esse entendimento',
+          '**POTENCIAL CONHECIMENTO DA ILICITUDE**: conhecer a antijuridicidade do ato',
+          '**EXIGIBILIDADE DE CONDUTA DIVERSA**: o agente podia ter agido de outro modo'
+        ]},
+        { type: 'h', text: 'Imputabilidade — causas excludentes' },
+        { type: 'list', items: [
+          '**Menoridade penal (CP 27 + CF 228)**: 18 anos. Inimputável até essa idade — sujeita ao ECA',
+          '**Doença mental ou desenvolvimento mental incompleto/retardado (CP 26 caput)**: inimputável total — absolvição imprópria + medida de segurança',
+          '**Semi-imputabilidade (CP 26 § único)**: redução da pena de 1/3 a 2/3 OU substituição por medida de segurança',
+          '**Embriaguez fortuita ou involuntária COMPLETA (CP 28 §1º)**: inimputável',
+          '**Embriaguez voluntária ou culposa**: NÃO exclui imputabilidade (teoria da actio libera in causa)',
+          '**Embriaguez preordenada**: agrava a pena (CP 61 II l)'
+        ]},
+        { type: 'h', text: 'Potencial conhecimento da ilicitude — erro de proibição' },
+        { type: 'list', items: [
+          '**Erro INVENCÍVEL (CP 21)**: exclui a culpabilidade — absolve',
+          '**Erro VENCÍVEL (CP 21)**: reduz a pena 1/6 a 1/3',
+          'Erro de proibição direto, indireto (descriminantes putativas) — CP 20 §1º (erro de tipo) ou CP 21 (erro de proibição), conforme teoria adotada',
+          '**Brasil adota teoria limitada da culpabilidade** (CP exposição de motivos): descriminante putativa por ERRO QUANTO À FÁTICA = erro de tipo permissivo (CP 20 §1º)'
+        ]},
+        { type: 'h', text: 'Exigibilidade de conduta diversa' },
+        { type: 'list', items: [
+          '**Coação moral irresistível (CP 22)**: exclui a culpabilidade — só pune o coator',
+          '**Coação física irresistível**: exclui a CONDUTA (não há crime — não há ação humana)',
+          '**Obediência hierárquica** a ordem não manifestamente ilegal (CP 22): exclui culpabilidade do subalterno',
+          '**Inexigibilidade de conduta diversa** (causas SUPRALEGAIS — doutrina e jurisprudência admitem): casos extremos (ex: motorista que dirige sem habilitação para levar familiar grave ao hospital)'
+        ]},
+        { type: 'h', text: 'Coculpabilidade e fato culposo' },
+        { type: 'list', items: [
+          '**Coculpabilidade da sociedade (CP 66 — atenuante inominada)**: agente em situação de marginalização social — atenuante por circunstância relevante anterior ao crime',
+          'Diferentes graus de reprovabilidade: dolo eventual (mais alta) → culpa consciente → culpa inconsciente (mais baixa)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 522:** "A conduta de atribuir-se falsa identidade perante autoridade policial é típica, ainda que em situação de alegada autodefesa." (Limita exigibilidade conduta diversa em autoridade policial.)' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 124.306 (2016):** descriminalização parcial do aborto até 12 semanas — fundamento na ponderação entre direitos da mulher e do feto.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Embriaguez voluntária NÃO exclui imputabilidade** (actio libera in causa). Mas embriaguez FORTUITA ou INVOLUNTÁRIA COMPLETA exclui (CP 28 §1º). PARCIAL fortuita: reduz pena de 1/3 a 2/3 (CP 28 §2º).' },
+        { type: 'box', kind: 'atencao', text: '**Inimputabilidade por doença mental: SENTENÇA é ABSOLVIÇÃO IMPRÓPRIA + medida de segurança.** Não é absolvição comum porque há um juízo de periculosidade que mantém a privação de liberdade.' },
+        { type: 'box', kind: 'atencao', text: '**Erro de TIPO ≠ Erro de PROIBIÇÃO:** erro de tipo (CP 20) recai sobre elementos do tipo penal — exclui o DOLO. Erro de proibição (CP 21) recai sobre a ilicitude — exclui ou diminui a CULPABILIDADE.' },
+        { type: 'box', kind: 'atencao', text: '**Coação física irresistível** exclui a CONDUTA (não é mero ato culpável); coação moral irresistível exclui a CULPABILIDADE (há conduta, mas não há reprovação).' },
+        { type: 'box', kind: 'atencao', text: '**Inimputabilidade do menor:** CF 228 + CP 27. Mas o ECA prevê medidas socioeducativas (que podem chegar a 3 anos de internação). NÃO confundir inimputabilidade com impunidade.' }
+      ]
     }
   ] },
   { id: 'penal-06-iter-criminis-tentativa', num: 6, materia: 'penal', title: 'Iter criminis, tentativa, desistência, arrependimento', edital: '2.1.6', editalText: 'Fases do crime. Tentativa (CP art. 14). Desistência voluntária e arrependimento eficaz e posterior.', size: 'Pequeno', schedule: 'Mês 11', advantage: null, outline: ['Fases do iter criminis (cogitação, atos preparatórios, execução, consumação, exaurimento)', 'Tentativa (CP art. 14 II)', 'Tentativa imperfeita × perfeita (crime falho)', 'Crimes que não admitem tentativa', 'Desistência voluntária e arrependimento eficaz (CP art. 15)', 'Arrependimento posterior (CP art. 16)', 'Crime impossível (CP art. 17)'], sections: [
@@ -10539,6 +11149,66 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (Culpabilidade):** inimputabilidade fundamenta medida de segurança.' },
         { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** ação penal pública é privativa do MP.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Medidas de segurança (CP 96-99)' },
+        { type: 'list', items: [
+          '**Pressuposto**: prática de fato típico e antijurídico por inimputável (CP 26) ou semi-imputável que precise de tratamento',
+          '**Espécies (CP 96)**: detentiva (internação em hospital de custódia) e restritiva (tratamento ambulatorial)',
+          '**Critério**: para crime apenado com reclusão = INTERNAÇÃO; para crime apenado com detenção = ambulatorial (regra). Juiz pode adequar conforme periculosidade',
+          '**Prazo MÍNIMO**: 1 a 3 anos. Depois, perícia anual (LEP 175)',
+          '**STF — HC 107.432**: prazo MÁXIMO = 30 anos (similar ao máximo penal CP 75) ou pena máxima abstrata para o crime, prevalecendo o menor',
+          'Cessada a periculosidade, é declarada extinta a medida (LEP 178)'
+        ]},
+        { type: 'h', text: 'Diferenças entre pena e medida de segurança' },
+        { type: 'list', items: [
+          'PENA: retributiva e preventiva — proporcional à culpabilidade — duração determinada',
+          'MEDIDA DE SEGURANÇA: preventiva — proporcional à PERICULOSIDADE — indeterminada (com limites)',
+          'STF tem mitigado a indeterminação para evitar pena perpétua disfarçada'
+        ]},
+        { type: 'h', text: 'Ação penal — espécies (CP 100-106)' },
+        { type: 'list', items: [
+          '**Pública incondicionada (regra)**: MP atua de ofício — princípios da obrigatoriedade e indisponibilidade',
+          '**Pública condicionada à representação**: depende de manifestação da vítima (ex: lesão corporal leve, crimes contra honra de funcionário público)',
+          '**Pública condicionada à requisição do Ministro da Justiça**: crimes praticados contra honra do Pres. da República, contra Estado estrangeiro etc.',
+          '**Privada**: titularidade do ofendido (ex: crimes contra honra de particular, dano qualificado em particular)',
+          '**Privada subsidiária da pública (CP 100 §3º + CF 5º LIX)**: cabível quando MP não denuncia no prazo'
+        ]},
+        { type: 'h', text: 'Princípios da ação penal pública' },
+        { type: 'list', items: [
+          '**Obrigatoriedade**: havendo justa causa, MP DEVE denunciar (mitigado por ANPP — CPP 28-A)',
+          '**Indisponibilidade**: MP não pode desistir',
+          '**Oficialidade**: titularidade do MP',
+          '**Intranscendência**: pena não passa da pessoa do condenado (CF 5º XLV)',
+          '**Verdade real (mitigada)**: busca da verdade dos fatos — busca processual'
+        ]},
+        { type: 'h', text: 'Decadência e perempção' },
+        { type: 'list', items: [
+          '**Decadência (CP 103)**: 6 meses, contados do conhecimento da autoria — extingue direito de queixa ou representação',
+          '**Perempção (CP 60 + CPP 60)**: na ação penal privada, perda do direito de prosseguir por inércia do querelante (30 dias sem promover atos, ausência aos 2 audiências, desídia)',
+          'AMBAS extinguem a punibilidade (CP 107)'
+        ]},
+        { type: 'h', text: 'Renúncia e perdão' },
+        { type: 'list', items: [
+          '**Renúncia (CPP 49 + CP 104)**: anterior ao oferecimento da queixa — extingue punibilidade — bilateral (a um, vale para todos coautores)',
+          '**Perdão (CPP 51 + CP 105)**: posterior ao oferecimento da queixa — bilateral, exige aceitação',
+          'Ambos só na ação penal privada'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 107.432:** "A medida de segurança não pode ser executada por prazo superior a 30 anos, contados do início do cumprimento. Extensão indeterminada da medida configura pena perpétua, vedada pela CF (art. 5º XLVII b)."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 502:** "Presentes a materialidade e a autoria, afigura-se INVIÁVEL a aplicação do princípio da bagatela em furto qualificado pela escalada e pelo concurso de pessoas." (Mitigação da insignificância em qualificadoras.)' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Sentença para inimputável: ABSOLVIÇÃO IMPRÓPRIA com aplicação de medida de segurança.** A medida pode ser internação ou ambulatorial. NÃO é "condenação" formal.' },
+        { type: 'box', kind: 'atencao', text: '**Decadência ≠ Prescrição:** decadência é prazo para EXERCER o direito (queixa/representação) — 6 meses. Prescrição é prazo para PUNIÇÃO ESTATAL — depende da pena máxima abstrata.' },
+        { type: 'box', kind: 'atencao', text: '**Renúncia (antes da queixa) ≠ Perdão (depois da queixa):** renúncia é UNILATERAL (basta a manifestação do ofendido); perdão é BILATERAL (exige aceitação do querelado). Ambos só em ação penal PRIVADA.' },
+        { type: 'box', kind: 'atencao', text: '**Ação penal privada subsidiária da pública (CF 5º LIX + CP 100 §3º):** cabível só quando MP NÃO denuncia no prazo. Se MP arquivar regularmente, não cabe ação subsidiária — só recurso/representação contra arquivamento.' },
+        { type: 'box', kind: 'atencao', text: '**Acordo de Não-Persecução Penal (ANPP — CPP 28-A) MITIGA o princípio da obrigatoriedade.** Cabível para crimes sem violência/grave ameaça com pena MÍNIMA até 4 anos.' }
+      ]
     }
   ] },
   { id: 'penal-10-crimes-contra-pessoa', num: 10, materia: 'penal', title: 'Crimes contra a pessoa', edital: '2.1.10', editalText: 'CP arts. 121-154-A. Vida, integridade, honra, liberdade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Crimes contra a vida (homicídio, infanticídio, aborto)', 'Lesões corporais', 'Periclitação da vida e saúde', 'Rixa', 'Crimes contra a honra (calúnia, difamação, injúria)', 'Crimes contra a liberdade individual (constrangimento, ameaça, sequestro)', 'Crimes sexuais (Lei 12.015/09)', 'Feminicídio (Lei 13.104/15)', 'Stalking (CP art. 147-A)'], sections: [
@@ -10816,6 +11486,69 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 11 (patrimônio):** receptação cumula com lavagem.' },
         { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** Maria da Penha decorre de condenação na CIDH.' },
         { type: 'box', kind: 'conexao', text: '**Tópico PP — provas:** colaboração premiada, infiltração.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Lei de Drogas (Lei 11.343/06)' },
+        { type: 'list', items: [
+          '**Tráfico (art. 33)**: pena 5 a 15 anos (forma "simples"). Consumo pessoal (art. 28): medidas educativas/advertência — STF entendeu não ser crime após RE 635.659/2024',
+          '**Tráfico privilegiado (art. 33 §4º)**: redução 1/6 a 2/3 — primário, bons antecedentes, não dedicado, não integra organização — STF (HC 118.533) entendeu NÃO ser equiparado a hediondo',
+          '**Causa de aumento (art. 40)**: ambiente, sujeitos vulneráveis, transnacionalidade etc.',
+          '**Tráfico de drogas + organização criminosa armada (Lei 13.964/19)**: progressão 70% (LEP 112 VI)',
+          'Súm 587 STJ: "Para incidir a causa de aumento decorrente do uso de arma..."'
+        ]},
+        { type: 'h', text: 'Lei Maria da Penha (Lei 11.340/06)' },
+        { type: 'list', items: [
+          'Aplicação a violência DOMÉSTICA E FAMILIAR contra MULHER (qualquer relação familiar/afetiva)',
+          'NÃO se aplica Lei 9.099/95 (Súm 588 STJ) — sem transação penal nem suspensão condicional do processo (mesmo lesão leve)',
+          '**Medidas protetivas (art. 22)**: afastamento, restrição de aproximação, suspensão de porte de arma — possuidoras de eficácia imediata',
+          '**Súm 542 STJ**: "A ação penal relativa ao crime de lesão corporal resultante de violência doméstica é PÚBLICA INCONDICIONADA."',
+          '**Feminicídio (CP 121 §2º VI)**: qualificadora de homicídio com majorante quando há violência doméstica (CP 121 §7º) — Lei 13.104/15 + Lei 14.344/22'
+        ]},
+        { type: 'h', text: 'Lei de Crimes Hediondos (Lei 8.072/90)' },
+        { type: 'list', items: [
+          '**Rol taxativo (art. 1º)**: homicídio qualificado/feminicídio, latrocínio, extorsão qualificada/com morte, extorsão mediante sequestro, estupro/estupro de vulnerável, falsificação de medicamentos, genocídio, posse/porte ilegal arma fogo de uso restrito',
+          '**Equiparados**: tráfico de drogas, tortura, terrorismo (CF 5º XLIII)',
+          '**Insuscetíveis de**: anistia, graça, indulto, fiança',
+          '**Progressão de regime (Lei 13.964/19)**: 40-70% conforme reincidência e morte (LEP 112)',
+          'Lei 8.072/90 não veda mais o livramento condicional comum — exigência de cumprimento de 2/3 (CP 83 V)'
+        ]},
+        { type: 'h', text: 'Lei de Lavagem de Capitais (Lei 9.613/98 — alterada pela Lei 12.683/12)' },
+        { type: 'list', items: [
+          'TIPO ÚNICO: ocultar/dissimular natureza, origem, localização, disposição, movimentação ou propriedade de bens/valores PROVENIENTES de qualquer infração penal',
+          'Eliminado o rol taxativo de "crimes antecedentes" pela Lei 12.683/12',
+          'Pena: 3 a 10 anos de reclusão + multa',
+          '**Crimes contra ordem tributária podem ser antecedentes (RE 1.075.412 STF)**',
+          'Causa de aumento: agente que pratica em lavagem habitual ou em organização criminosa'
+        ]},
+        { type: 'h', text: 'Lei de Organização Criminosa (Lei 12.850/13)' },
+        { type: 'list', items: [
+          'CONCEITO (art. 1º §1º): associação de 4+ pessoas estruturalmente ordenada, divisão de tarefas, vantagem material direta/indireta, mediante crimes pena máxima > 4 anos OU transnacionais',
+          'Pena: 3 a 8 anos + multa',
+          '**Colaboração premiada (arts. 4º-7º)**: redução até 2/3, perdão judicial, substituição por restritiva — exige acordo formal homologado pelo juiz',
+          '**STF — HC 127.483 e ADI 6.498**: validade da colaboração premiada e seus limites',
+          'Causa de aumento: arma de fogo, conexão com facções, transnacionalidade, atuação de funcionário público'
+        ]},
+        { type: 'h', text: 'ECA — atos infracionais (Lei 8.069/90)' },
+        { type: 'list', items: [
+          'Inimputabilidade penal absoluta < 18 anos (CF 228 + CP 27)',
+          'Atos infracionais respondem com medidas socioeducativas (ECA 112): advertência, obrigação de reparar dano, prestação de serviços comunidade, liberdade assistida, semiliberdade, internação',
+          'Internação: máxima 3 anos (ECA 121); reavaliação a cada 6 meses; libertação compulsória aos 21 anos'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 635.659 (2024):** "É inconstitucional a tipificação penal da posse de drogas para uso pessoal." (Em modulação — vigor pleno depende de cronograma.) Mantida a discussão sobre quantidade considerada para uso pessoal.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 118.533 (Tema 600):** Tráfico privilegiado NÃO é equiparado a hediondo. Por isso, não tem agravantes de progressão/livramento dos hediondos.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Lei Maria da Penha NÃO se aplica a Lei 9.099/95 (Súm 536 STJ).** Mesmo lesão corporal leve em violência doméstica é processada por procedimento ordinário. NÃO cabe transação penal nem suspensão condicional.' },
+        { type: 'box', kind: 'atencao', text: '**Tráfico privilegiado (Lei 11.343/06 art. 33 §4º) NÃO é hediondo (STF HC 118.533).** Por isso, progressão é a regra geral (16/20% — primário/reincidente), não 40/60%.' },
+        { type: 'box', kind: 'atencao', text: '**Lavagem de capitais — eliminação do rol taxativo de antecedentes:** desde Lei 12.683/12, qualquer crime pode ser antecedente. Inclui crimes contra ordem tributária (STF RE 1.075.412).' },
+        { type: 'box', kind: 'atencao', text: '**ECA — inimputabilidade:** o adolescente NÃO comete "crime", comete ATO INFRACIONAL. Aplica medidas socioeducativas, não pena. Internação máxima de 3 anos, com libertação compulsória aos 21 anos.' },
+        { type: 'box', kind: 'atencao', text: '**Crime hediondo + Pacote Anticrime:** progressão é mais gravosa (até 70% para hediondo com morte + reincidência específica). Aplica-se aos crimes praticados APÓS 23/01/2020 (irretroatividade da lei mais grave).' }
       ]
     }
   ] },
@@ -11154,6 +11887,66 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico MP 5/6 (LCs):** estatutos do MP detalham atuação no processo.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Const 9 (funções essenciais):** Defensoria, MP, advocacia.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Juiz' },
+        { type: 'list', items: [
+          'Princípio do JUIZ NATURAL (CF 5º LIII e XXXVII)',
+          'Imparcialidade: garantida por suspeição (CPP 254) e impedimento (CPP 252)',
+          'Imparcialidade objetiva e subjetiva (Convenção Americana DH art. 8 + CIDH)',
+          '**Juiz das garantias (Lei 13.964/19 — Pacote Anticrime)**: introduzido no CPP 3º-A a 3º-F. STF ADI 6.298 modulou: aplicável progressivamente, com efeitos a partir de 2024. Atua até recebimento da denúncia, depois fase do JUIZ DA INSTRUÇÃO',
+          'Vedação à prova vinculante: juiz não pode aderir cegamente à versão policial'
+        ]},
+        { type: 'h', text: 'Ministério Público' },
+        { type: 'list', items: [
+          'Titular EXCLUSIVO da ação penal pública (CF 129 I)',
+          'Custos legis na ação penal privada e fiscalização da lei',
+          '**Investigação criminal pelo MP**: STF reconheceu legitimidade (RE 593.727 — Tema 184), com regulamentação na Resolução CNMP 181',
+          '**Acordo de não-persecução penal (ANPP) — CPP 28-A**: para penas mínimas até 4 anos, sem violência/grave ameaça, confissão formal e circunstancial. Suspende prescrição',
+          'Princípios institucionais: unidade, indivisibilidade, independência funcional (CF 127 §1º)'
+        ]},
+        { type: 'h', text: 'Acusado/Réu' },
+        { type: 'list', items: [
+          '**Direito ao silêncio** (CF 5º LXIII) — não pode ser usado em desfavor',
+          '**Não-autoincriminação** (Súm Vinculante 14 — CIDH)',
+          '**Ampla defesa e contraditório** (CF 5º LV)',
+          '**Defesa técnica obrigatória** (Súm 523 STF) — nulidade absoluta se não houver',
+          '**Identidade física do juiz**: Pacote Anticrime atenuou (Lei 13.964/19 — pode haver substituição em casos definidos)'
+        ]},
+        { type: 'h', text: 'Defensor' },
+        { type: 'list', items: [
+          'Defensoria Pública: garantia (CF 134) — atende hipossuficientes',
+          'Defensor dativo: nomeado pelo juiz na ausência de defensor constituído',
+          'Defensor constituído: contratado pelo réu',
+          'Defensor "ad hoc": nomeado para ato específico, em substituição',
+          'Princípio da paridade de armas (Convenção Americana DH)'
+        ]},
+        { type: 'h', text: 'Vítima/Ofendido (CPP 201)' },
+        { type: 'list', items: [
+          'Pacote Anticrime ampliou direitos: comunicação obrigatória de atos processuais, espaço reservado em audiência, atendimento multidisciplinar',
+          'Direito à reparação: fixação de valor mínimo na sentença (CPP 387 IV)',
+          'Pode constituir assistente da acusação (CPP 268-273): atua ao lado do MP'
+        ]},
+        { type: 'h', text: 'Auxiliares da justiça' },
+        { type: 'list', items: [
+          'Escrivão, oficial de justiça, peritos, intérpretes, tradutores',
+          'Sujeitam-se a deveres de imparcialidade e fidelidade'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADI 6.298 (juiz das garantias):** declarou constitucional a Lei 13.964/19 quanto ao instituto, mas modulou efeitos. Implementação progressiva pelos Estados conforme cronograma do CNJ.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 593.727 (Tema 184):** "O Ministério Público dispõe de competência para promover, por autoridade própria, e por prazo razoável, investigações de natureza penal."' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Suspeição (subjetiva — CPP 254) ≠ Impedimento (objetiva — CPP 252):** suspeição é por circunstância pessoal (amigo, inimigo, parente, conselheiro, devedor); impedimento é por ato concreto no processo (já atuou como MP, defensor, juiz em outra fase, perito).' },
+        { type: 'box', kind: 'atencao', text: '**Investigação pelo MP é constitucional**, mas a polícia mantém a presidência das investigações criminais comuns. O MP investiga em casos de envolvimento de policiais ou crimes contra a Administração Pública.' },
+        { type: 'box', kind: 'atencao', text: '**Acordo de não-persecução penal (ANPP — CPP 28-A):** só para crimes SEM violência ou grave ameaça, com pena MÍNIMA até 4 anos, e exige CONFISSÃO formal. NÃO se aplica a violência doméstica (Lei 11.340/06) nem a crimes hediondos.' },
+        { type: 'box', kind: 'atencao', text: '**Súm 523 STF:** "No processo penal, a falta da defesa constitui nulidade absoluta, mas a sua deficiência só o anulará se houver prova de prejuízo para o réu."' },
+        { type: 'box', kind: 'atencao', text: '**Vítima ≠ Querelante:** vítima é o ofendido (sentido amplo). Querelante é o sujeito ativo na ação penal PRIVADA. Na pública, há apenas a vítima, que pode atuar como assistente de acusação.' }
+      ]
     }
   ] },
   { id: 'pp-05-competencia-criminal', num: 5, materia: 'pp', title: 'Competência criminal', edital: '2.2.5', editalText: 'CPP arts. 69-91. Foro por prerrogativa. Conexão e continência.', size: 'Médio', schedule: 'Mês 13', advantage: null, outline: ['Critérios de competência (lugar, natureza, prevenção, prerrogativa de função)', 'Competência da Justiça Federal × Estadual', 'Foro por prerrogativa de função (STF/STJ)', 'Conexão (CPP art. 76) e continência (art. 77)', 'Prorrogação e modificação', 'Conflito de competência'], sections: [
@@ -11208,6 +12001,60 @@ topics: [
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 2 (aplicação da lei):** lugar do crime para o CP é UBIQUIDADE; para o CPP é RESULTADO.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Const 8 (Poderes):** STF/STJ — competências constitucionais.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Critérios de fixação de competência' },
+        { type: 'list', items: [
+          '**Em razão da MATÉRIA (ratione materiae)** — JF, JE, JM, J Eleitoral',
+          '**Em razão da PESSOA (ratione personae)** — foro por prerrogativa de função',
+          '**Em razão do LUGAR**: regra é local da consumação (CPP 70) — exceção: tentativa, último ato executório',
+          '**Em razão da PREVENÇÃO**: o juiz que primeiro praticou ato decisório (CPP 83)'
+        ]},
+        { type: 'h', text: 'Justiça Federal (CF 109)' },
+        { type: 'list', items: [
+          'Crimes praticados em detrimento de bens, serviços ou interesse da União, autarquias ou empresas públicas (CF 109 IV)',
+          'Crimes previstos em tratado/convenção internacional, quando iniciada a execução no Brasil/exterior (CF 109 V)',
+          'Crimes contra a organização do trabalho, sistema financeiro, ordem econômico-financeira (CF 109 VI)',
+          'HC e MS contra ato de autoridade federal (CF 109 VII)',
+          'Crimes consumados a bordo de navios e aeronaves (CF 109 IX)',
+          '**Súm 38 STJ**: "Compete à Justiça Estadual Comum, na vigência da CF/88, o processo por contravenção penal, ainda que praticada em detrimento de bens, serviços ou interesse da União."'
+        ]},
+        { type: 'h', text: 'Foro por prerrogativa de função (CF 102, 105, 108, 109)' },
+        { type: 'list', items: [
+          '**STF**: Presidente, Vice, Ministros STF/Tribunais Superiores, PGR, AGU, Ministros, Senadores, Deputados Federais, Comandantes Forças Armadas',
+          '**STJ**: Governadores, Desembargadores, Tribunais Regionais, MPF/MPE de tribunal',
+          '**TRF**: Juízes federais, MPF de 1ª instância, vereadores (não — Súm 209 STJ)',
+          '**TJ**: Juízes estaduais, MPE 1ª instância, prefeitos (CF 29 X)',
+          '**STF — AP 937 / QO 2018**: limitou foro para crimes COMETIDOS NO EXERCÍCIO da função e EM RAZÃO dela'
+        ]},
+        { type: 'h', text: 'Conexão e continência (CPP 76-78)' },
+        { type: 'list', items: [
+          '**Conexão**: vínculo entre infrações distintas',
+          '**Continência**: pluralidade de réus pelo mesmo fato OU concurso formal',
+          'Regras de prevalência (CPP 78): tribunal do júri > especializada de mais grave > maior número réus > prevenção',
+          '**Súm Vinculante 45 STF**: "A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido em constituição estadual."'
+        ]},
+        { type: 'h', text: 'Justiça Eleitoral em conexão' },
+        { type: 'list', items: [
+          '**STF — Inq 4.435 (2019)**: Justiça Eleitoral atrai competência em conexão com crime comum',
+          'Súm 122 STJ (superada): regra de competência da Justiça Comum em conexão',
+          'Tese atual: matéria eleitoral preferencial'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — AP 937/QO (2018):** Foro por prerrogativa só alcança crimes COMETIDOS NO EXERCÍCIO da função e EM RAZÃO dela. Após o término do mandato, devolve-se à 1ª instância (regra "perpetuatio jurisdictionis" mitigada).' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ — Súm 38:** Contravenções penais, mesmo em detrimento de bens da União, são da JUSTIÇA ESTADUAL.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Foro por prerrogativa restringido (STF AP 937/QO 2018):** atualmente, só vale para crimes COMETIDOS DURANTE O MANDATO E EM RAZÃO DELE. Crimes anteriores ao mandato ou alheios à função vão para 1ª instância — mesmo que o agente continue no cargo.' },
+        { type: 'box', kind: 'atencao', text: '**Súm Vinculante 45:** Tribunal do Júri prevalece sobre foro por prerrogativa **DE CONSTITUIÇÃO ESTADUAL.** Foro de prerrogativa de **CONSTITUIÇÃO FEDERAL** prevalece sobre o Júri (não confundir).' },
+        { type: 'box', kind: 'atencao', text: '**Crimes a bordo de navios/aeronaves (CF 109 IX):** apenas em rota internacional ou em águas/espaço aéreo brasileiros. Embarcação/aeronave em rota meramente interna pode ser de Justiça Estadual.' },
+        { type: 'box', kind: 'atencao', text: '**Conexão entre Justiça Eleitoral + Comum (STF Inq 4.435):** atrai-se à JUSTIÇA ELEITORAL. Antes, prevalecia o critério de Justiça Comum (Súm 122 STJ — superada).' },
+        { type: 'box', kind: 'atencao', text: '**Tribunal do Júri** julga crimes DOLOSOS contra a vida (CF 5º XXXVIII): homicídio doloso, infanticídio, induzimento ao suicídio, aborto. NÃO julga latrocínio (Súm 603 STF) nem crimes culposos contra a vida.' }
       ]
     }
   ] },
@@ -11483,6 +12330,65 @@ topics: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 10:** crimes contra a vida.' },
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 11:** latrocínio NÃO é Júri.' }
       ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Garantias do Tribunal do Júri (CF 5º XXXVIII)' },
+        { type: 'list', items: [
+          'PLENITUDE DE DEFESA (mais ampla que ampla defesa — admite tese subsidiária)',
+          'SIGILO DAS VOTAÇÕES',
+          'SOBERANIA DOS VEREDITOS',
+          'COMPETÊNCIA para julgar crimes DOLOSOS contra a vida'
+        ]},
+        { type: 'h', text: 'Crimes da competência do Júri' },
+        { type: 'list', items: [
+          'Homicídio doloso (CP 121)',
+          'Infanticídio (CP 123)',
+          'Induzimento, instigação ou auxílio ao suicídio (CP 122)',
+          'Aborto (CP 124-127)',
+          '**Crimes conexos** também são julgados pelo Júri (CPP 78 I)'
+        ]},
+        { type: 'h', text: 'Procedimento bifásico (CPP 406-497)' },
+        { type: 'list', items: [
+          '**1ª fase — JUDICIUM ACCUSATIONIS (sumário de culpa)**: instrução, alegações finais, decisão de pronúncia (CPP 413), impronúncia (CPP 414), absolvição sumária (CPP 415) ou desclassificação (CPP 419)',
+          '**2ª fase — JUDICIUM CAUSAE**: preparação para o plenário, sorteio dos jurados, instrução em plenário, debates, quesitação, votação, sentença'
+        ]},
+        { type: 'h', text: 'Decisões de 1ª fase (CPP 413-419)' },
+        { type: 'list', items: [
+          '**Pronúncia (CPP 413)**: prova da materialidade + indícios suficientes de autoria. NÃO é juízo de mérito — preserva soberania do Júri',
+          '**Impronúncia (CPP 414)**: ausência de indícios suficientes de autoria — não faz coisa julgada material; pode haver nova denúncia se surgirem provas',
+          '**Absolvição sumária (CPP 415)**: prova da inexistência do fato, ausência de autoria, fato atípico, excludente de ilicitude/culpabilidade — faz COISA JULGADA',
+          '**Desclassificação (CPP 419)**: crime não é doloso contra a vida — remete a juiz singular'
+        ]},
+        { type: 'h', text: 'Plenário do Júri' },
+        { type: 'list', items: [
+          'Conselho de sentença: 7 jurados sorteados (de lista de 25 a 36)',
+          'Recusas peremptórias: 3 para cada parte (sem motivar)',
+          'Recusas motivadas: ilimitadas (suspeição, impedimento)',
+          '**Quesitação (CPP 482-491)**: ordem e formato das perguntas — aprovada pela LMP (Lei 11.689/08)',
+          'VOTAÇÃO: maioria de 4 votos (de 7) já decide questão (sigilo permanece se votação não for unânime)'
+        ]},
+        { type: 'h', text: 'Recursos do Júri' },
+        { type: 'list', items: [
+          '**Recurso em sentido estrito (CPP 581 IV)**: contra pronúncia',
+          '**Apelação (CPP 593 III)**: contra decisão do Júri — limitada a: nulidade, contrariedade à prova dos autos, erro/injustiça de pena, manifesta contrariedade à prova (com efeito devolutivo restrito)',
+          '**Soberania dos vereditos**: tribunal só pode anular para novo julgamento — NÃO pode substituir o veredito',
+          '**Súm 162 STJ**: "É absoluta a nulidade do julgamento pelo júri quando o quesito da ofensa não é desdobrado em todos seus detalhes."'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 1.235.340 (Tema 1.087, 2020):** "É legítima a execução IMEDIATA da pena após condenação no Tribunal do Júri (em qualquer cargo proporcional)" — modulado para condenações superiores a 15 anos. Posterior reflexão: STF voltou a discutir a matéria.' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — HC 175.341 (Tema 1.087):** confirmou possibilidade de prisão imediata após condenação por júri em casos graves; vincula à fundamentação do tribunal.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Latrocínio NÃO é da competência do Júri (Súm 603 STF):** apesar de haver morte, o crime se consuma na subtração — é crime contra o patrimônio, não contra a vida.' },
+        { type: 'box', kind: 'atencao', text: '**Pronúncia NÃO faz coisa julgada material** sobre o mérito — só sobre os pressupostos para o Júri. Por isso o juiz NÃO pode aprofundar análise probatória, sob pena de invadir a soberania do Júri (princípio "in dubio pro societate" para a pronúncia).' },
+        { type: 'box', kind: 'atencao', text: '**Plenitude de defesa ≠ Ampla defesa.** A plenitude permite que a defesa sustente teses contraditórias, dando aos jurados liberdade de eleger qualquer (mais ampla que a ampla defesa do CF 5º LV).' },
+        { type: 'box', kind: 'atencao', text: '**Soberania dos vereditos:** tribunal pode anular o julgamento, mas NÃO substituir o veredito. Em caso de manifesta contrariedade à prova, novo júri (mas só uma vez — CPP 593 §3º).' },
+        { type: 'box', kind: 'atencao', text: '**Quesito sobre crime conexo (não-doloso contra vida):** se o Júri absolver do crime principal e desclassificar para outro, quem julga é o juiz-presidente (CPP 492 §1º).' }
+      ]
     }
   ] },
   { id: 'pp-10-sentenca-recursos-impugnacoes', num: 10, materia: 'pp', title: 'Sentença, recursos e ações de impugnação', edital: '2.2.10', editalText: 'Sentença e seus efeitos. Recursos do CPP. HC, RvC, MS criminal.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Sentença (absolutória, condenatória, terminativa)', 'Efeitos da condenação (CP arts. 91-92)', 'Princípios recursais', 'Recursos em espécie (apelação, RESE, agravo, embargos, especial, extraordinário)', 'Habeas corpus (CPP arts. 647-667)', 'Revisão criminal (CPP arts. 621-631)', 'Mandado de segurança em matéria penal'], sections: [
@@ -11610,6 +12516,69 @@ topics: [
       h: 'Conexões',
       items: [
         { type: 'box', kind: 'conexao', text: '**Tópico Penal 8:** dosimetria + progressão.' }
+      ]
+    }    ,
+    {
+      h: 'Pontos críticos para prova',
+      items: [
+        { type: 'h', text: 'Lei de Execução Penal (Lei 7.210/84)' },
+        { type: 'list', items: [
+          '**Princípios**: legalidade, individualização da pena, humanização, reinserção social',
+          '**Objetivos (LEP 1º)**: efetivar disposições da sentença + proporcionar condições para reintegração',
+          '**Juiz da Execução (LEP 65 e ss.)**: jurisdicionaliza a execução; competência sobre concessão/cassação benefícios, conversão regimes, livramento condicional, indulto, progressão',
+          '**Conselho Penitenciário (LEP 70-71)**: opina sobre indulto, comutação, livramento condicional',
+          '**Conselho da Comunidade (LEP 80-81)**: fiscaliza execução, atende presos'
+        ]},
+        { type: 'h', text: 'Regimes de cumprimento (CP 33 + LEP 87 e ss.)' },
+        { type: 'list', items: [
+          '**Fechado**: penitenciária — pena > 8 anos (regra). Exigência de trabalho interno e estudo',
+          '**Semiaberto**: colônia agrícola/industrial — pena > 4 e ≤ 8 anos para não-reincidente',
+          '**Aberto**: casa do albergado — pena ≤ 4 anos para não-reincidente. Trabalho durante dia, recolhimento à noite',
+          '**Súm Vinculante 56**: na falta de vaga, não pode haver progressão de fato pelo descumprimento da Adm. — admitir prisão domiciliar'
+        ]},
+        { type: 'h', text: 'Progressão de regime (LEP 112 — alterado por Lei 13.964/19)' },
+        { type: 'list', items: [
+          '**Crime comum sem violência**: 16% (1/6) primário; 20% (1/5) reincidente',
+          '**Crime comum com violência**: 25% primário; 30% reincidente',
+          '**Hediondo sem morte**: 40% primário; 60% reincidente; 50% reincidente em hediondo',
+          '**Hediondo com morte**: 50% primário; 70% reincidente; 60% reincidente em hediondo',
+          '**Comando paramilitar/organização criminosa armada**: 70% primário (sem progressão para reincidente)',
+          'Exigência adicional: BOM COMPORTAMENTO carcerário comprovado pelo diretor',
+          '**Audiência de custódia + cooperação (Lei 13.964/19)**: exames criminológicos não obrigatórios mas frequentes em casos de violência'
+        ]},
+        { type: 'h', text: 'Livramento condicional (CP 83-90 + LEP 131-146)' },
+        { type: 'list', items: [
+          'Pena privativa de liberdade ≥ 2 anos',
+          '**Cumprimento mínimo**: 1/3 (primário) ou 1/2 (reincidente em doloso)',
+          '**Hediondo**: 2/3 (vedado em caso de reincidência específica)',
+          'Bom comportamento, aptidão para prover sustento, reparação do dano (salvo impossibilidade)',
+          'NÃO confunde com progressão (que é só mudança de regime)'
+        ]},
+        { type: 'h', text: 'Direitos e deveres do preso (LEP 39-43)' },
+        { type: 'list', items: [
+          'Direitos: alimentação, higiene, vestuário, saúde, trabalho remunerado, educação, contato com o mundo exterior, assistência religiosa, judiciária',
+          'Deveres: comportamento disciplinado, observância da disciplina, execução do trabalho, respeito a servidores e demais presos',
+          '**Falta grave (LEP 50-52)**: fuga, rebelião, motim, lesão corporal grave em servidor, descumprimento doloso de execução de pena, posse de equipamento de comunicação, agressão a outro preso'
+        ]},
+        { type: 'h', text: 'Remição (LEP 126)' },
+        { type: 'list', items: [
+          '**Remição pelo trabalho**: 1 dia descontado para cada 3 dias trabalhados',
+          '**Remição pelo estudo**: 1 dia descontado para cada 12 horas de estudo (4 horas diárias mínimo)',
+          'Remição por leitura: 4 dias por livro, máx 12 livros/ano (TJ — administrativa)',
+          'Falta grave: pode acarretar perda de até 1/3 dos dias remidos (LEP 127)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — SV 56:** "A falta de estabelecimento penal adequado não autoriza a manutenção do condenado em regime prisional mais gravoso, devendo-se observar, nessa hipótese, os parâmetros fixados no RE 641.320."' },
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — RE 641.320:** alternativas à falta de vaga: monitoramento eletrônico, trabalho externo, prisão domiciliar.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas de prova',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Progressão de regime ≠ Livramento condicional:** progressão muda regime de cumprimento (fechado → semi → aberto). Livramento é cumprimento da pena em LIBERDADE com condições, antes do término.' },
+        { type: 'box', kind: 'atencao', text: '**Lei 13.964/19 (Pacote Anticrime) majorou requisitos de progressão.** Hediondo com morte = 50% primário. Antes, era 2/5 (40%). Aplica-se aos crimes praticados APÓS a vigência (irretroatividade da lei mais gravosa).' },
+        { type: 'box', kind: 'atencao', text: '**Falta grave INTERROMPE prazo para benefícios (Súm 534 STJ):** "A prática de falta grave INTERROMPE o prazo para a progressão de regime." Mas NÃO interrompe para livramento condicional, indulto, comutação (Súm 535 STJ).' },
+        { type: 'box', kind: 'atencao', text: '**Remição por leitura é ADMINISTRATIVA** (resoluções TJ/CNJ) — não está expressa na LEP. Por isso é mais frágil em concurso. A remição por trabalho/estudo está expressa na lei.' },
+        { type: 'box', kind: 'atencao', text: '**Crimes contra a Adm Pública praticados por funcionário público:** progressão exige ressarcimento do dano ou parcelamento (CP 33 §4º) — particularidade da Lei 10.763/03.' }
       ]
     }
   ] },
@@ -14702,7 +15671,39 @@ flashcards: [
   { id: 618, topic: 10, materia: 'trib', q: 'STF SV 24 — crime material contra ordem tributária?', a: 'Não se tipifica crime material (Lei 8.137/90 art. 1º) ANTES do LANÇAMENTO DEFINITIVO do tributo. Crime exige constituição definitiva do crédito (esgotada via administrativa).', tags: ['trib', 'crimes', 'SV-24'] },
   { id: 619, topic: 10, materia: 'trib', q: 'Pagamento e parcelamento — efeitos penais?', a: 'PAGAMENTO INTEGRAL: extingue a punibilidade A QUALQUER TEMPO (Lei 10.684/03). PARCELAMENTO: SUSPENDE a pretensão punitiva enquanto cumprido. Cumprimento integral: extingue.', tags: ['trib', 'crimes', 'pagamento'] },
   { id: 620, topic: 10, materia: 'trib', q: 'Apropriação indébita previdenciária (CP 168-A)?', a: 'Deixar de repassar contribuições previdenciárias retidas. Crime OMISSIVO PRÓPRIO. STF: requer DOLO de não recolher (não basta inadimplência por dificuldade financeira).', tags: ['trib', 'apropriacao-previdenciaria'] },
-  { id: 621, topic: 9, materia: 'trib', q: 'Princípios orçamentários?', a: 'UNIDADE · UNIVERSALIDADE · ANUALIDADE · EXCLUSIVIDADE · LEGALIDADE · PUBLICIDADE/TRANSPARÊNCIA · PROIBIÇÃO de estorno sem autorização. CF 165-167.', tags: ['trib', 'orcamento', 'principios'] }
+  { id: 621, topic: 9, materia: 'trib', q: 'Princípios orçamentários?', a: 'UNIDADE · UNIVERSALIDADE · ANUALIDADE · EXCLUSIVIDADE · LEGALIDADE · PUBLICIDADE/TRANSPARÊNCIA · PROIBIÇÃO de estorno sem autorização. CF 165-167.', tags: ['trib', 'orcamento', 'principios'] },
+  { id: 622, topic: 1, materia: 'trib', q: 'Anterioridade — exceções à anterioridade do exercício?', a: 'II, IE, IPI, IOF, IEG (CF 154 II), empréstimo compulsório (calamidade/guerra), CIDE-combustíveis (CF 177 §4º I b). MNEMÔNICO: II/IE/IPI/IOF + emergências.', tags: ['trib', 'principios', 'anterioridade'] },
+  { id: 623, topic: 1, materia: 'trib', q: 'IPI: anterioridade do exercício?', a: 'NÃO se sujeita à anterioridade do exercício, MAS se sujeita à NOVENTENA. IR é o oposto: anterioridade do exercício SIM, noventena NÃO (Súm Vinculante 50).', tags: ['trib', 'IPI', 'IR', 'anterioridade'] },
+  { id: 624, topic: 1, materia: 'trib', q: 'Imunidade recíproca alcança empresa pública?', a: 'Em regra NÃO. Exceção: STF estendeu a empresas públicas/SEM PRESTADORAS DE SERVIÇO PÚBLICO em regime de monopólio (ECT — RE 407.099, Casa da Moeda — RE 610.517).', tags: ['trib', 'imunidade-reciproca', 'STF'] },
+  { id: 625, topic: 2, materia: 'trib', q: 'Competência tributária × Capacidade tributária ativa?', a: 'COMPETÊNCIA = poder de INSTITUIR tributo (indelegável — CTN 7º). CAPACIDADE TRIBUTÁRIA ATIVA = poder de ARRECADAR/FISCALIZAR (delegável). Ex: ITR delegado a Município (CF 153 §4º III).', tags: ['trib', 'competencia', 'capacidade'] },
+  { id: 626, topic: 2, materia: 'trib', q: 'Bitributação × Bis in idem?', a: 'BITRIBUTAÇÃO: mesmo FG cobrado por DOIS entes diferentes (regra: vedada). BIS IN IDEM: mesmo ente cobra duas vezes pelo mesmo FG (admitido se houver previsão constitucional, ex: PIS+COFINS).', tags: ['trib', 'bitributacao'] },
+  { id: 627, topic: 3, materia: 'trib', q: 'Teoria pentapartida (STF)?', a: '5 espécies tributárias: IMPOSTOS (CTN 16) · TAXAS (CTN 77) · CONTRIBUIÇÃO DE MELHORIA (CTN 81) · EMPRÉSTIMOS COMPULSÓRIOS (CF 148) · CONTRIBUIÇÕES ESPECIAIS (CF 149). STF — RE 138.284 / RE 146.733.', tags: ['trib', 'especies', 'STF'] },
+  { id: 628, topic: 3, materia: 'trib', q: 'COSIP (CF 149-A) — natureza?', a: 'Contribuição SUI GENERIS (espécie autônoma). NÃO é taxa (a antiga taxa de iluminação foi declarada inconstitucional — Súm 670 STF / SV 41). EC 39/02 criou a COSIP — competência municipal/DF. STF RE 573.675 (Tema 44).', tags: ['trib', 'COSIP', 'iluminacao'] },
+  { id: 629, topic: 4, materia: 'trib', q: 'Denúncia espontânea (CTN 138) — quando se aplica?', a: 'Exclui responsabilidade por infração SE pago tributo+juros ANTES de procedimento fiscal. Súm 360 STJ: NÃO se aplica a tributo lançado por homologação JÁ DECLARADO (já há crédito constituído).', tags: ['trib', 'denuncia-espontanea', 'STJ-360'] },
+  { id: 630, topic: 4, materia: 'trib', q: 'Substituição tributária progressiva (CF 150 §7º) — quando cabe restituição?', a: 'STF (RE 593.849, Tema 201): cabe restituição quando o FG efetivo for de MENOR VALOR que o presumido. Modifica entendimento anterior (ADI 1.851) que impedia restituição.', tags: ['trib', 'substituicao-progressiva', 'STF'] },
+  { id: 631, topic: 6, materia: 'trib', q: 'Sigilo fiscal × LC 105/01?', a: 'STF (RE 601.314, Tema 225): "É constitucional o art. 6º da LC 105/2001, que permite o fornecimento de informações sobre movimentações financeiras DIRETAMENTE ao Fisco, SEM autorização judicial."', tags: ['trib', 'sigilo-fiscal', 'STF'] },
+  { id: 632, topic: 7, materia: 'trib', q: 'Súm 393 STJ — exceção pré-executividade?', a: '"A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de OFÍCIO que NÃO demandem dilação probatória." Não exige garantia (LEF 16).', tags: ['trib', 'execucao-fiscal', 'STJ-393'] },
+  { id: 633, topic: 8, materia: 'trib', q: 'EC 132/23 — princípios novos (CF 145 §3º)?', a: 'SIMPLICIDADE · TRANSPARÊNCIA · JUSTIÇA TRIBUTÁRIA · COOPERAÇÃO · DEFESA DO MEIO AMBIENTE. Princípio do DESTINO (tributação no consumo) substitui critério da origem.', tags: ['trib', 'EC-132', 'reforma'] },
+  { id: 634, topic: 3, materia: 'elei', q: 'Coligação proporcional × Federação partidária?', a: 'Coligação PROPORCIONAL é VEDADA (EC 97/17, CF 17 §1º). Coligação MAJORITÁRIA é permitida. FEDERAÇÃO partidária (Lei 14.208/21): união entre partidos por mínimo 4 anos — funciona como 1 partido.', tags: ['elei', 'coligacao', 'federacao'] },
+  { id: 635, topic: 3, materia: 'elei', q: 'Cota de gênero (Lei 9.504/97)?', a: 'Mínimo 30% e máximo 70% candidaturas de cada sexo. Descumprimento = irregularidade da chapa. STF (ADI 5.617): Fundo Partidário e tempo TV devem ser distribuídos proporcionalmente entre sexos.', tags: ['elei', 'cota-genero', 'STF'] },
+  { id: 636, topic: 4, materia: 'elei', q: 'Conscritos × Militares profissionais — direitos políticos?', a: 'CONSCRITOS NÃO se alistam (CF 14 §2º) — durante serviço militar inicial. MILITARES PROFISSIONAIS alistam-se normalmente, mas NÃO podem filiar-se a partido (CF 14 §8º). Ambos elegíveis com regras específicas.', tags: ['elei', 'conscrito', 'militar'] },
+  { id: 637, topic: 4, materia: 'elei', q: 'Reeleição (CF 14 §5º) — quantos mandatos seguidos?', a: 'Para chefe Executivo (Pres/Gov/Pref + Vice): UMA reeleição CONSECUTIVA. Total: 2 mandatos. Para 3º mandato consecutivo: cargo diferente OU município/estado/UF diferente.', tags: ['elei', 'reeleicao'] },
+  { id: 638, topic: 6, materia: 'elei', q: 'Captação ilícita de sufrágio × Corrupção eleitoral?', a: 'CAPTAÇÃO ILÍCITA (Lei 9.504/97 art. 41-A) NÃO é crime — é INFRAÇÃO eleitoral (cassação registro/diploma + multa). CORRUPÇÃO ELEITORAL (CE 299) é CRIME (1-4 anos + multa).', tags: ['elei', 'captacao-ilicita', 'corrupcao'] },
+  { id: 639, topic: 6, materia: 'elei', q: 'STF Inq 4.435 (2019) — competência crime eleitoral conexo?', a: '"Compete à JUSTIÇA ELEITORAL julgar os crimes eleitorais e os comuns que lhes forem CONEXOS." Atrai a competência. Antes prevalecia Súm 122 STJ (Justiça Comum) — superada.', tags: ['elei', 'competencia', 'STF-4435'] },
+  { id: 640, topic: 7, materia: 'elei', q: 'AIME (CF 14 §10) × AIJE (LC 64/90 art. 22)?', a: 'AIME: até 15 dias APÓS diplomação — abuso econômico/corrupção/fraude — sigiloso. AIJE: do registro até diplomação — abuso poder político/uso indevido meios comunicação. Ambas: cassação + 8 anos inelegibilidade.', tags: ['elei', 'AIME', 'AIJE'] },
+  { id: 641, topic: 4, materia: 'pp', q: 'Acordo de não-persecução penal (CPP 28-A) — cabimento?', a: 'Crimes SEM violência ou grave ameaça, pena MÍNIMA até 4 anos, confissão FORMAL e CIRCUNSTANCIAL, primário. NÃO se aplica: violência doméstica (Lei 11.340/06), crimes hediondos.', tags: ['pp', 'ANPP', 'pacote-anticrime'] },
+  { id: 642, topic: 4, materia: 'pp', q: 'Juiz das garantias (CPP 3º-A) — STF ADI 6.298?', a: 'Constitucional, com modulação. Atua até RECEBIMENTO da denúncia; depois é Juiz da Instrução. Implementação progressiva pelos Estados, conforme cronograma do CNJ.', tags: ['pp', 'juiz-das-garantias'] },
+  { id: 643, topic: 5, materia: 'pp', q: 'Foro por prerrogativa (STF AP 937/QO 2018)?', a: 'Após 2018, só vale para crimes COMETIDOS DURANTE O MANDATO E EM RAZÃO DELE. Crimes anteriores ou alheios à função vão para 1ª instância — mesmo que o agente continue no cargo.', tags: ['pp', 'foro-prerrogativa', 'STF-AP937'] },
+  { id: 644, topic: 9, materia: 'pp', q: 'Latrocínio é crime do Júri?', a: 'NÃO. Súm 603 STF: Latrocínio (CP 157 §3º) é CRIME CONTRA O PATRIMÔNIO, mesmo havendo morte. Competência: juiz singular. Tribunal do Júri julga apenas DOLOSOS CONTRA A VIDA (CF 5º XXXVIII).', tags: ['pp', 'juri', 'latrocinio', 'STF-603'] },
+  { id: 645, topic: 11, materia: 'pp', q: 'Falta grave interrompe prazo para benefícios?', a: 'Súm 534 STJ: INTERROMPE prazo para PROGRESSÃO de regime. Súm 535 STJ: NÃO interrompe para LIVRAMENTO CONDICIONAL, indulto, comutação. Pode acarretar perda de até 1/3 dos dias remidos (LEP 127).', tags: ['pp', 'falta-grave', 'STJ'] },
+  { id: 646, topic: 11, materia: 'pp', q: 'Progressão hediondo + morte (Lei 13.964/19)?', a: 'Hediondo COM RESULTADO MORTE: 50% primário · 70% reincidente (genérico) · 60% reincidente em hediondo. Sem morte: 40% primário · 60% reincidente · 50% reincidente em hediondo.', tags: ['pp', 'progressao', 'hediondo'] },
+  { id: 647, topic: 5, materia: 'penal', q: 'Embriaguez voluntária × fortuita — imputabilidade?', a: 'VOLUNTÁRIA/CULPOSA: NÃO exclui imputabilidade (actio libera in causa). FORTUITA/INVOLUNTÁRIA COMPLETA: EXCLUI imputabilidade (CP 28 §1º). PARCIAL fortuita: reduz pena 1/3 a 2/3.', tags: ['penal', 'embriaguez', 'culpabilidade'] },
+  { id: 648, topic: 5, materia: 'penal', q: 'Erro de tipo × Erro de proibição?', a: 'ERRO DE TIPO (CP 20): recai sobre ELEMENTOS do tipo penal — exclui o DOLO. ERRO DE PROIBIÇÃO (CP 21): recai sobre a ILICITUDE — exclui ou reduz a CULPABILIDADE. Brasil: teoria limitada (descriminantes putativas fáticas = erro de tipo).', tags: ['penal', 'erro-tipo', 'erro-proibicao'] },
+  { id: 649, topic: 9, materia: 'penal', q: 'Sentença para inimputável?', a: 'ABSOLVIÇÃO IMPRÓPRIA com aplicação de medida de segurança. NÃO é condenação. Medida pode ser internação (crimes apenados com reclusão) ou ambulatorial (detenção). Prazo MÁXIMO: 30 anos (STF HC 107.432) ou pena máxima abstrata.', tags: ['penal', 'inimputavel', 'medida-seguranca'] },
+  { id: 650, topic: 9, materia: 'penal', q: 'Renúncia × Perdão (ação penal privada)?', a: 'RENÚNCIA: ANTES da queixa — UNILATERAL — bilateral em coautores (a um vale para todos — CP 49). PERDÃO: APÓS oferecimento da queixa — BILATERAL (exige aceitação do querelado). Ambos extinguem punibilidade (CP 107).', tags: ['penal', 'acao-privada', 'renuncia', 'perdao'] },
+  { id: 651, topic: 13, materia: 'penal', q: 'Tráfico privilegiado é hediondo?', a: 'NÃO (STF HC 118.533, Tema 600). Tráfico privilegiado (Lei 11.343/06 art. 33 §4º): redução 1/6 a 2/3 — primário, bons antecedentes, não dedicado, não integra organização. Progressão pela regra geral, não pela do hediondo.', tags: ['penal', 'trafico-privilegiado', 'STF-118533'] },
+  { id: 652, topic: 9, materia: 'adm', q: 'Lei 14.230/21 — improbidade culposa?', a: 'EXTINGUIU. Antes, art. 10 admitia conduta CULPOSA. Agora, todas modalidades (arts. 9º, 10, 11) exigem DOLO ESPECÍFICO. Aplica-se RETROATIVAMENTE (lex mitior — STF Tema 1.199 + STJ).', tags: ['adm', 'improbidade', 'Lei-14230'] },
+  { id: 653, topic: 9, materia: 'adm', q: 'Improbidade × Foro por prerrogativa?', a: 'NÃO HÁ foro por prerrogativa em ação de improbidade (STF Pet 3.211, ADI 2.797). É AÇÃO CIVIL, não criminal. Tramita em juízo cível de 1ª instância, mesmo contra autoridades com foro especial em crimes.', tags: ['adm', 'improbidade', 'foro'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -17840,7 +18841,17 @@ questions: [
     ],
     correct: 'C',
     explanation: 'STF SV 24 + Lei 10.684/03. (A) Falso — crime material exige constituição definitiva (SV 24). (B) Falso — Lei 10.684/03: pagamento extingue A QUALQUER TEMPO. (D) Falso — STF: requer DOLO de não recolher. (E) Falso — parcelamento SUSPENDE; pagamento integral extingue.'
-  }
+  },
+  { id: 227, topic: 1, materia: 'trib', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre os princípios constitucionais tributários e suas exceções, assinale a alternativa correta:', alternatives: ['O IPI submete-se à anterioridade do exercício e à noventena, sem exceção.', 'O IR submete-se à anterioridade do exercício, mas é exceção à noventena, conforme Súmula Vinculante 50 do STF.', 'A imunidade dos templos (CF 150 VI b) abrange impostos, taxas e contribuições incidentes sobre a atividade essencial.', 'A imunidade recíproca alcança automaticamente todas as empresas públicas e sociedades de economia mista.', 'O princípio da capacidade contributiva aplica-se exclusivamente aos impostos pessoais, não podendo ser estendido a outros tributos.'], correct: 'B', explanation: 'A) Errado — IPI é EXCEÇÃO à anterioridade do exercício (CF 150 §1º), embora respeite noventena. B) CORRETO — Súmula Vinculante 50 do STF confirma que o IR submete-se ao princípio da anterioridade do exercício, mas é exceção à noventena. C) Errado — imunidade dos templos abrange APENAS impostos sobre patrimônio/renda/serviço vinculados à atividade essencial; taxas e contribuições continuam devidas. D) Errado — STF estendeu a imunidade recíproca apenas a empresas públicas/SEM PRESTADORAS DE SERVIÇO PÚBLICO em monopólio (ECT — RE 407.099). E) Errado — STF (RE 562.045) estendeu a capacidade contributiva a todos os tributos quando a técnica permitir.', tags: ['trib', 'principios', 'anterioridade', 'imunidade'] },
+  { id: 228, topic: 4, materia: 'trib', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre a responsabilidade tributária e a denúncia espontânea (CTN), assinale a alternativa correta:', alternatives: ['Convenções particulares modificam a responsabilidade tributária para fins de exigência pelo Fisco.', 'A denúncia espontânea aplica-se aos tributos sujeitos a lançamento por homologação regularmente declarados, mas pagos a destempo, conforme entendimento do STJ.', 'A solidariedade tributária comporta benefício de ordem, devendo o Fisco esgotar o devedor principal antes de cobrar dos solidários.', 'O simples inadimplemento da obrigação tributária pela sociedade gera, automaticamente, responsabilidade solidária do sócio-gerente.', 'Presume-se dissolvida irregularmente a empresa que deixar de funcionar no domicílio fiscal sem comunicação aos órgãos competentes, legitimando o redirecionamento da execução fiscal para o sócio-gerente (Súm. 435 STJ).'], correct: 'E', explanation: 'A) Errado — CTN 123: convenções particulares NÃO modificam responsabilidade perante o Fisco. B) Errado — Súm 360 STJ: denúncia espontânea NÃO se aplica a tributos por homologação já declarados. C) Errado — CTN 124 § único: solidariedade NÃO comporta benefício de ordem. D) Errado — Súm 430 STJ: simples inadimplemento NÃO gera responsabilidade solidária do sócio. E) CORRETO — Súm 435 STJ.', tags: ['trib', 'responsabilidade', 'sumulas-STJ'] },
+  { id: 229, topic: 8, materia: 'trib', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre a Reforma Tributária (EC 132/23), assinale a alternativa correta:', alternatives: ['O IBS é tributo federal, instituído pela União em substituição ao ICMS e ISS.', 'O IS (Imposto Seletivo) substitui integralmente o IPI, que será extinto em 2026.', 'A Reforma adota o princípio do destino: IBS e CBS são arrecadados onde o consumidor final recebe o bem ou serviço.', 'O cashback constitucional (CF 156-A §5º VIII) é facultativo em todos os bens e serviços.', 'A Zona Franca de Manaus foi extinta pela EC 132/23.'], correct: 'C', explanation: 'A) Errado — IBS é tributo ESTADUAL+MUNICIPAL compartilhado, sob gestão do Comitê Gestor (CF 156-B). B) Errado — IS substitui PARCIALMENTE o IPI; IPI é mantido pela União (CF 153 IV). C) CORRETO — princípio do destino é uma das bases da reforma — reduz guerra fiscal. D) Errado — cashback é OBRIGATÓRIO em alguns serviços essenciais (eletricidade, gás natural, telecomunicações, água/esgoto). E) Errado — Zona Franca preservada (ADCT EC 132 art. 92-A) até 2073.', tags: ['trib', 'reforma', 'EC-132'] },
+  { id: 230, topic: 4, materia: 'elei', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre direitos políticos e condições de elegibilidade, assinale a alternativa correta:', alternatives: ['A inelegibilidade reflexa (CF 14 §7º) afasta-se com a separação judicial ou divórcio durante o mandato.', 'O conscrito durante o serviço militar inicial pode alistar-se eleitor e votar facultativamente.', 'A inelegibilidade da Lei da Ficha Limpa (LC 135/10) foi declarada inconstitucional pelo STF.', 'A idade mínima para os cargos eletivos é aferida na data da posse, salvo para vereador, em que se afere no registro de candidatura.', 'Servidor público em concurso para cargo eletivo deve afastar-se do cargo apenas no dia da posse.'], correct: 'D', explanation: 'A) Errado — Súm Vinculante 18 STF: dissolução de vínculo conjugal NÃO afasta inelegibilidade reflexa (visa evitar fraude). B) Errado — CF 14 §2º: conscritos NÃO se alistam. C) Errado — STF (ADC 29 e 30) declarou CONSTITUCIONAL a Lei da Ficha Limpa. D) CORRETO — TSE Resolução 23.609/19. E) Errado — LC 64/90: servidor deve afastar-se 3 meses antes da eleição.', tags: ['elei', 'direitos-politicos', 'inelegibilidade'] },
+  { id: 231, topic: 7, materia: 'elei', banca: 'Simulada', nivel: 'Difícil', statement: 'Sobre as ações eleitorais (AIME e AIJE), assinale a alternativa correta:', alternatives: ['A AIME tem o mesmo prazo da AIJE: do registro de candidatura até a diplomação.', 'A AIME é procedimento sigiloso por força do art. 14 §11 da CF, ao passo que a AIJE não.', 'A AIME pode ser ajuizada por qualquer eleitor, partido, coligação, candidato ou MP, no prazo de 30 dias após a diplomação.', 'O fundamento da AIME pode ser qualquer abuso de poder, inclusive o uso indevido de meios de comunicação.', 'A AIJE não pode resultar em cassação do registro ou diploma, apenas em multa.'], correct: 'B', explanation: 'A) Errado — AIME: 15 dias após diplomação. AIJE: do registro até diplomação. B) CORRETO — CF 14 §11. C) Errado — AIME tem prazo de 15 DIAS, não 30. D) Errado — AIME: abuso ECONÔMICO, corrupção ou fraude (CF 14 §10). Abuso de poder político e uso indevido meios comunicação são objeto da AIJE. E) Errado — AIJE pode resultar em cassação + 8 anos inelegibilidade (LC 64/90 art. 22).', tags: ['elei', 'AIME', 'AIJE'] },
+  { id: 232, topic: 4, materia: 'pp', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre o acordo de não-persecução penal (ANPP — CPP 28-A), assinale a alternativa correta:', alternatives: ['Pode ser celebrado em qualquer crime, desde que a pena máxima não ultrapasse 4 anos.', 'É cabível em casos de violência doméstica contra mulher (Lei 11.340/06).', 'Exige confissão formal e circunstancial do investigado, e pode ser proposto pelo MP a partir do oferecimento da denúncia.', 'A homologação cabe ao juiz, que pode rejeitar o acordo se considerar inadequada a proposta, mas não pode modificar suas condições.', 'Suspende a prescrição da pretensão punitiva durante o cumprimento das condições estabelecidas.'], correct: 'E', explanation: 'A) Errado — pena MÍNIMA até 4 anos (não máxima); crime SEM violência ou grave ameaça. B) Errado — NÃO se aplica a violência doméstica (Lei 11.340/06). C) Errado — exige confissão, mas é proposto ANTES do recebimento da denúncia (fase pré-processual). D) Errado — juiz pode rejeitar OU sugerir modificações (CPP 28-A §5º). E) CORRETO — CPP 28-A §10.', tags: ['pp', 'ANPP', 'pacote-anticrime'] },
+  { id: 233, topic: 9, materia: 'pp', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre a competência do Tribunal do Júri, assinale a alternativa correta:', alternatives: ['O latrocínio é crime do Tribunal do Júri por envolver morte, conforme entendimento sumulado do STF.', 'A pronúncia tem natureza de juízo de mérito, devendo o juiz analisar a fundo a prova produzida.', 'A competência do Tribunal do Júri prevalece sobre o foro por prerrogativa de função previsto em Constituição Estadual (Súm. Vinculante 45 STF).', 'A absolvição sumária na primeira fase do júri (CPP 415) não faz coisa julgada material.', 'A plenitude de defesa é garantia idêntica à ampla defesa do art. 5º LV da CF.'], correct: 'C', explanation: 'A) Errado — Súm 603 STF: latrocínio é crime CONTRA O PATRIMÔNIO, julgado por juiz singular. B) Errado — pronúncia preserva soberania do Júri; vige "in dubio pro societate". C) CORRETO — SV 45. D) Errado — absolvição sumária faz coisa julgada material. E) Errado — plenitude de defesa é MAIS AMPLA que ampla defesa (admite teses contraditórias).', tags: ['pp', 'juri', 'SV-45'] },
+  { id: 234, topic: 5, materia: 'penal', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre culpabilidade penal e suas excludentes, assinale a alternativa correta:', alternatives: ['A embriaguez voluntária ou culposa exclui a imputabilidade penal.', 'O erro de proibição inevitável (CP 21) exclui o dolo do agente.', 'A coação física irresistível exclui a culpabilidade do coagido.', 'A semi-imputabilidade (CP 26 § único) leva à redução da pena de 1/3 a 2/3 ou substituição por medida de segurança.', 'A inimputabilidade do menor de 18 anos (CF 228) é mera ficção jurídica, podendo ser afastada pelo juiz em casos graves.'], correct: 'D', explanation: 'A) Errado — embriaguez voluntária NÃO exclui imputabilidade (actio libera in causa). Apenas a fortuita/involuntária COMPLETA exclui (CP 28 §1º). B) Errado — erro de proibição inevitável exclui CULPABILIDADE (não o dolo). Erro de TIPO exclui o dolo. C) Errado — coação FÍSICA irresistível exclui a CONDUTA (não há ato humano). Coação MORAL irresistível exclui a culpabilidade. D) CORRETO — CP 26 § único. E) Errado — inimputabilidade é absoluta (CF 228 + CP 27); aplica-se ECA.', tags: ['penal', 'culpabilidade'] },
+  { id: 235, topic: 13, materia: 'penal', banca: 'Simulada', nivel: 'Difícil', statement: 'Sobre legislação penal especial, assinale a alternativa correta:', alternatives: ['O tráfico privilegiado (Lei 11.343/06 art. 33 §4º) é equiparado a hediondo, aplicando-se as regras de progressão da Lei 8.072/90.', 'A Lei Maria da Penha admite a aplicação da Lei 9.099/95 e da transação penal nos casos de lesão corporal leve.', 'Após a Lei 12.683/12, qualquer crime pode ser antecedente da lavagem de capitais, inclusive crimes contra a ordem tributária.', 'A colaboração premiada (Lei 12.850/13) só é cabível em crimes com pena máxima superior a 8 anos.', 'O ECA prevê responsabilidade penal do adolescente, com aplicação de pena privativa de liberdade até 3 anos.'], correct: 'C', explanation: 'A) Errado — STF HC 118.533: tráfico privilegiado NÃO é hediondo. B) Errado — Súm 588 STJ: Lei Maria da Penha NÃO admite Lei 9.099/95. C) CORRETO — Lei 12.683/12 eliminou o rol taxativo de antecedentes; STF RE 1.075.412 confirmou crimes tributários como antecedentes possíveis. D) Errado — colaboração premiada cabe em organização criminosa (Lei 12.850/13) — pena 3-8 anos. E) Errado — ECA aplica MEDIDAS SOCIOEDUCATIVAS (não pena); internação máxima 3 anos.', tags: ['penal', 'lei-especial', 'lavagem'] },
+  { id: 236, topic: 9, materia: 'adm', banca: 'Simulada', nivel: 'Médio', statement: 'Sobre a Lei de Improbidade Administrativa após a reforma da Lei 14.230/21, assinale a alternativa correta:', alternatives: ['A modalidade culposa do art. 10 (prejuízo ao erário) foi mantida, embora com redução das sanções.', 'O ressarcimento ao erário, mesmo nos casos de conduta dolosa, prescreve em 5 anos a partir da prática do ato.', 'A ação de improbidade admite foro por prerrogativa de função para autoridades com prerrogativa em matéria criminal.', 'A Lei 14.230/21 retirou a modalidade culposa, exigindo dolo específico em todas as condutas; o ressarcimento ao erário continua imprescritível em casos dolosos (STF Tema 1.199).', 'O acordo de não-persecução cível (ANPC) só pode ser celebrado antes do oferecimento da inicial.'], correct: 'D', explanation: 'A) Errado — Lei 14.230/21 RETIROU a modalidade culposa. B) Errado — STF Tema 897/RE 852.475: ressarcimento ao erário em condutas DOLOSAS é IMPRESCRITÍVEL. C) Errado — STF Pet 3.211 + ADI 2.797: NÃO há foro por prerrogativa em improbidade (é ação civil). D) CORRETO — combinação Lei 14.230/21 + STF Tema 1.199. E) Errado — ANPC pode ser celebrado em QUALQUER fase (Lei 14.230/21 art. 17-B).', tags: ['adm', 'improbidade', 'Lei-14230'] }
 ],
 
 // ============ SÚMULAS RELEVANTES ============
