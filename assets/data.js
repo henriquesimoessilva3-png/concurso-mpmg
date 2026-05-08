@@ -9430,12 +9430,408 @@ topics: [
       ]
     }
   ] },
-  { id: 'penal-09-medidas-seguranca-acao-penal', num: 9, materia: 'penal', title: 'Medidas de segurança e ação penal', edital: '2.1.9', editalText: 'CP arts. 96-97 e 100-106. Inimputabilidade, desinternação, prazo. Ação pública e privada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Medidas de segurança (internação × tratamento ambulatorial)', 'Pressupostos e prazo', 'Desinternação progressiva e condicional', 'Ação penal pública (incondicionada e condicionada)', 'Ação penal privada (exclusiva e subsidiária)', 'Decadência, perempção, renúncia, perdão'], sections: [] },
-  { id: 'penal-10-crimes-contra-pessoa', num: 10, materia: 'penal', title: 'Crimes contra a pessoa', edital: '2.1.10', editalText: 'CP arts. 121-154-A. Vida, integridade, honra, liberdade.', size: 'Grande', schedule: null, advantage: null, outline: ['Crimes contra a vida (homicídio, infanticídio, aborto)', 'Lesões corporais', 'Periclitação da vida e saúde', 'Rixa', 'Crimes contra a honra (calúnia, difamação, injúria)', 'Crimes contra a liberdade individual (constrangimento, ameaça, sequestro)', 'Crimes sexuais (Lei 12.015/09)', 'Feminicídio (Lei 13.104/15)', 'Stalking (CP art. 147-A)'], sections: [] },
-  { id: 'penal-11-crimes-contra-patrimonio', num: 11, materia: 'penal', title: 'Crimes contra o patrimônio', edital: '2.1.11', editalText: 'CP arts. 155-180. Furto, roubo, latrocínio, extorsão, apropriação, estelionato, receptação.', size: 'Grande', schedule: null, advantage: null, outline: ['Furto (simples, qualificado, privilegiado)', 'Roubo (simples, qualificado, latrocínio)', 'Extorsão e extorsão mediante sequestro', 'Apropriação indébita', 'Estelionato e fraudes', 'Estelionato bancário (Lei 14.155/21)', 'Receptação', 'Imunidades penais (CP arts. 181-183)'], sections: [] },
-  { id: 'penal-12-crimes-administracao-fe-publica', num: 12, materia: 'penal', title: 'Crimes contra a Administração Pública e a fé pública', edital: '2.1.12', editalText: 'CP arts. 289-359-H. Peculato, corrupção, prevaricação, falsidade.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito de funcionário público (CP art. 327)', 'Peculato', 'Concussão e excesso de exação', 'Corrupção passiva e ativa', 'Prevaricação', 'Advocacia administrativa', 'Crimes praticados por particular (corrupção ativa, desacato, resistência)', 'Crimes contra a fé pública (moeda falsa, falsidade documental)', 'Lei 12.850/13 e Lei Anticorrupção (12.846/13)'], sections: [] },
-  { id: 'penal-13-legislacao-especial', num: 13, materia: 'penal', title: 'Legislação penal especial', edital: '2.1.13', editalText: 'Drogas (11.343/06), org. criminosa (12.850/13), lavagem (9.613/98), Maria da Penha, ECA, abuso de autoridade.', size: 'Gigante', schedule: null, advantage: null, outline: ['Lei de Drogas (11.343/06)', 'Organização criminosa (Lei 12.850/13)', 'Lavagem de dinheiro (Lei 9.613/98)', 'Lei Maria da Penha (11.340/06)', 'Crimes do ECA (Lei 8.069/90)', 'Estatuto do Desarmamento (Lei 10.826/03)', 'Abuso de autoridade (Lei 13.869/19)', 'Lei de Tortura (9.455/97)', 'Crimes hediondos (Lei 8.072/90)', 'Pacote Anticrime (Lei 13.964/19)'], sections: [] },
-  { id: 'penal-14-criminologia', num: 14, materia: 'penal', title: 'Criminologia', edital: '2.1.14', editalText: 'Escolas, vitimologia, sistemas penitenciários, prevenção, política criminal.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito e métodos da criminologia', 'Escolas (clássica, positiva, sociológicas, crítica)', 'Vitimologia', 'Sistemas penitenciários (filadélfico, auburniano, progressivos)', 'Prevenção primária, secundária, terciária', 'Política criminal e direito penal mínimo', 'Funções da pena (retributiva, preventiva, ressocializadora)'], sections: [] },
+  { id: 'penal-09-medidas-seguranca-acao-penal', num: 9, materia: 'penal', title: 'Medidas de segurança e ação penal', edital: '2.1.9', editalText: 'CP arts. 96-97 e 100-106. Inimputabilidade, desinternação, prazo. Ação pública e privada.', size: 'Pequeno', schedule: 'Mês 12', advantage: null, outline: ['Medidas de segurança (internação × tratamento ambulatorial)', 'Pressupostos e prazo', 'Desinternação progressiva e condicional', 'Ação penal pública (incondicionada e condicionada)', 'Ação penal privada (exclusiva e subsidiária)', 'Decadência, perempção, renúncia, perdão'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico que combina dois temas: (i) **MEDIDAS DE SEGURANÇA** (CP 96-97) — sanção aplicável a inimputáveis (doença mental); (ii) **AÇÃO PENAL** (CP 100-106) — disciplina dos titulares e prazos.' }
+      ]
+    },
+    {
+      h: 'Medidas de segurança (CP 96-97)',
+      items: [
+        { type: 'list', items: [
+          '**INTERNAÇÃO** (em hospital de custódia) — para crimes punidos com reclusão',
+          '**TRATAMENTO AMBULATORIAL** — para crimes com detenção',
+          'Pressuposto: PRÁTICA DE FATO TÍPICO E ANTIJURÍDICO + PERICULOSIDADE',
+          '**PRAZO MÍNIMO:** 1 a 3 anos',
+          '**STF — REsp 1.174.535 (Súm. 527 STJ):** prazo MÁXIMO = pena máxima do crime praticado',
+          '**STF — Súm. Vinculante 56:** falta de vagas em estabelecimento adequado autoriza desinternação progressiva ou liberdade'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STJ Súm. 527:** "O tempo de duração da medida de segurança não deve ultrapassar o limite máximo da pena abstratamente cominada ao delito praticado."' }
+      ]
+    },
+    {
+      h: 'Ação penal',
+      items: [
+        { type: 'h', text: 'Espécies (CP 100)' },
+        { type: 'list', items: [
+          '**PÚBLICA INCONDICIONADA (regra):** MP age de ofício',
+          '**PÚBLICA CONDICIONADA À REPRESENTAÇÃO:** MP depende de representação da vítima',
+          '**PÚBLICA CONDICIONADA À REQUISIÇÃO:** Ministro da Justiça (raríssima)',
+          '**PRIVADA EXCLUSIVA:** vítima ou representante legal (queixa-crime)',
+          '**PRIVADA SUBSIDIÁRIA DA PÚBLICA (CF 5º LIX):** quando MP não age no prazo'
+        ]},
+
+        { type: 'h', text: 'Causas extintivas da punibilidade (CP 107)' },
+        { type: 'list', items: [
+          'Morte do agente · anistia, graça, indulto · abolitio criminis · prescrição · decadência (6 meses) · perempção (em ação privada) · renúncia · perdão aceito · retratação · perdão judicial · cumprimento de pena'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Medida de segurança: prazo máximo = pena máxima do crime (Súm. 527 STJ).**' },
+        { type: 'box', kind: 'macete', text: '**Ação penal: PÚBLICA é regra. PRIVADA é exceção. SUBSIDIÁRIA quando MP omite.**' },
+        { type: 'box', kind: 'macete', text: '**Decadência (em ação privada): 6 meses (CP 103).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (Culpabilidade):** inimputabilidade fundamenta medida de segurança.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico MP 7 (atribuições):** ação penal pública é privativa do MP.' }
+      ]
+    }
+  ] },
+  { id: 'penal-10-crimes-contra-pessoa', num: 10, materia: 'penal', title: 'Crimes contra a pessoa', edital: '2.1.10', editalText: 'CP arts. 121-154-A. Vida, integridade, honra, liberdade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Crimes contra a vida (homicídio, infanticídio, aborto)', 'Lesões corporais', 'Periclitação da vida e saúde', 'Rixa', 'Crimes contra a honra (calúnia, difamação, injúria)', 'Crimes contra a liberdade individual (constrangimento, ameaça, sequestro)', 'Crimes sexuais (Lei 12.015/09)', 'Feminicídio (Lei 13.104/15)', 'Stalking (CP art. 147-A)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Capítulo extenso do CP (arts. 121-154-B) — divide-se em: (i) crimes contra a VIDA; (ii) lesões; (iii) periclitação; (iv) rixa; (v) honra; (vi) liberdade individual; (vii) sexuais (após Lei 12.015/09); (viii) crimes contra dignidade sexual.' }
+      ]
+    },
+    {
+      h: 'Crimes contra a vida',
+      items: [
+        { type: 'list', items: [
+          '**HOMICÍDIO (CP 121):** simples (6-20 anos), qualificado (12-30), culposo (1-3 anos)',
+          '**Lei 13.104/15 — FEMINICÍDIO** como qualificadora (CP 121 §2º VI)',
+          '**Lei 14.811/24 — homicídio qualificado contra crianças, adolescentes e idosos** (X)',
+          '**INFANTICÍDIO (CP 123):** mãe sob estado puerperal, durante ou logo após o parto. 2-6 anos',
+          '**ABORTO (CP 124-128):** provocado pela gestante (124), provocado por terceiro (125-126). Excludentes (CP 128): aborto necessário e sentimental. STF — ADPF 54: anencéfalos. ADPF 442 (em julgamento)',
+          'Júri: competência para crimes dolosos contra a vida (CF 5º XXXVIII d)'
+        ]}
+      ]
+    },
+    {
+      h: 'Outros crimes contra a pessoa',
+      items: [
+        { type: 'list', items: [
+          '**LESÃO CORPORAL (CP 129):** simples, grave, gravíssima, seguida de morte',
+          '**Lei 11.340/06 (Maria da Penha):** qualificadora violência doméstica (§9º)',
+          '**HONRA (138-140):** CALÚNIA (atribuir crime falso) · DIFAMAÇÃO (atribuir fato ofensivo) · INJÚRIA (qualidade negativa)',
+          '**Injúria racial (CP 140 §3º):** STJ HC 154.819 + Lei 14.532/23 — passou a ser RACISMO (Lei 7.716/89)',
+          '**LIBERDADE INDIVIDUAL (146-154-B):** constrangimento, ameaça, sequestro, violação domicílio',
+          '**STALKING (CP 147-A — Lei 14.132/21):** perseguição reiterada que ameace a integridade física, psicológica, restrinja capacidade de locomoção',
+          '**CRIMES SEXUAIS (213-218-C):** estupro, importunação sexual (Lei 13.718/18 — CP 215-A)'
+        ]},
+        { type: 'box', kind: 'jurisprudencia', text: '**STF — ADPF 442 (em julgamento, sobre descriminalização parcial do aborto até 12 semanas).** Tese ainda sem definição final.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Crimes contra a vida = competência do JÚRI (CF 5º XXXVIII d).**' },
+        { type: 'box', kind: 'macete', text: '**Feminicídio (CP 121 §2º VI — Lei 13.104/15) é QUALIFICADORA, não tipo autônomo.**' },
+        { type: 'box', kind: 'macete', text: '**Honra: CDI = Calúnia (crime) · Difamação (fato) · Injúria (qualidade).**' },
+        { type: 'box', kind: 'macete', text: '**Lei 14.532/23: injúria racial passou a ser RACISMO (Lei 7.716/89) — IMPRESCRITÍVEL.**' },
+        { type: 'box', kind: 'macete', text: '**Stalking (CP 147-A — Lei 14.132/21): perseguição reiterada.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Aborto: 3 hipóteses excludentes (CP 128 — necessário, sentimental + STF anencéfalos ADPF 54).** ADPF 442 ainda pendente.' },
+        { type: 'box', kind: 'atencao', text: '**Injúria racial AGORA é RACISMO (Lei 14.532/23) — imprescritível, inafiançável.**' },
+        { type: 'box', kind: 'atencao', text: '**Feminicídio é qualificadora — não tipo autônomo.** Pena base do homicídio qualificado.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** vida e dignidade são bens supremos.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP — competência:** Tribunal do Júri.' }
+      ]
+    }
+  ] },
+  { id: 'penal-11-crimes-contra-patrimonio', num: 11, materia: 'penal', title: 'Crimes contra o patrimônio', edital: '2.1.11', editalText: 'CP arts. 155-180. Furto, roubo, latrocínio, extorsão, apropriação, estelionato, receptação.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Furto (simples, qualificado, privilegiado)', 'Roubo (simples, qualificado, latrocínio)', 'Extorsão e extorsão mediante sequestro', 'Apropriação indébita', 'Estelionato e fraudes', 'Estelionato bancário (Lei 14.155/21)', 'Receptação', 'Imunidades penais (CP arts. 181-183)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'CP arts. 155-180. Crimes patrimoniais são frequentemente cobrados — especialmente FURTO × ROUBO × LATROCÍNIO (distinções), ESTELIONATO (Lei 14.155/21 sobre estelionato bancário) e IMUNIDADES PENAIS (181-183).' }
+      ]
+    },
+    {
+      h: 'Crimes principais',
+      items: [
+        { type: 'list', items: [
+          '**FURTO (CP 155):** subtrair coisa alheia móvel SEM violência ou grave ameaça. Qualificado (§4º): com destruição/rompimento, abuso de confiança, escalada, etc. Privilegiado (§2º): primário + coisa de pequeno valor',
+          '**ROUBO (CP 157):** subtração com VIOLÊNCIA, GRAVE AMEAÇA ou redução à impossibilidade de resistência',
+          '**LATROCÍNIO (CP 157 §3º II):** roubo com resultado MORTE. Pena 20-30 anos. Crime contra o PATRIMÔNIO (não contra a vida — competência da Justiça Comum, não Júri — STF Súm. 603)',
+          '**EXTORSÃO (CP 158):** constranger alguém a fazer/não fazer/tolerar mediante violência ou ameaça, com vantagem econômica',
+          '**EXTORSÃO MEDIANTE SEQUESTRO (CP 159):** crime hediondo. Pena 8-15 anos',
+          '**APROPRIAÇÃO INDÉBITA (CP 168):** apropriar-se de coisa alheia móvel de que tem a posse ou detenção',
+          '**ESTELIONATO (CP 171):** obter vantagem ilícita induzindo ou mantendo em erro mediante artifício, ardil ou fraude. Pacote Anticrime: estelionato é AÇÃO PENAL PÚBLICA CONDICIONADA À REPRESENTAÇÃO (CP 171 §5º)',
+          '**Lei 14.155/21 — estelionato bancário (CP 171 §2º-A) e §2º-B:** majora pena',
+          '**RECEPTAÇÃO (CP 180):** adquirir, receber, transportar, conduzir, ocultar coisa que sabe ser produto de crime'
+        ]}
+      ]
+    },
+    {
+      h: 'Imunidades penais (CP 181-183)',
+      items: [
+        { type: 'list', items: [
+          '**ABSOLUTA (181):** isenta de pena cônjuge na constância do casamento; ascendente/descendente em linha reta',
+          '**RELATIVA (182):** ação dependente de representação da vítima — entre cônjuge desquitado, irmão, tio que coabite com vítima',
+          '**Não se aplicam (183):** crimes com violência/grave ameaça, vítima maior de 60 anos (idoso), pessoa com deficiência'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**FURTO = sem violência. ROUBO = com violência. LATROCÍNIO = roubo + morte.**' },
+        { type: 'box', kind: 'macete', text: '**Súm. 603 STF: latrocínio é da Justiça COMUM, não Júri.** Embora haja morte, é crime contra patrimônio.' },
+        { type: 'box', kind: 'macete', text: '**Estelionato (Pacote Anticrime — CP 171 §5º): AÇÃO PENAL PÚBLICA CONDICIONADA À REPRESENTAÇÃO.**' },
+        { type: 'box', kind: 'macete', text: '**Imunidades penais NÃO se aplicam contra IDOSO (>60 anos), PCD ou em crimes com violência.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Latrocínio: competência da Justiça COMUM (Súm. 603 STF), não Júri.**' },
+        { type: 'box', kind: 'atencao', text: '**Estelionato (Pacote Anticrime, 2019): condicionada à representação.** Mudança importante.' },
+        { type: 'box', kind: 'atencao', text: '**Imunidades penais NÃO se aplicam contra IDOSO (CP 183 III) ou PCD.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 7 (Consumidor):** estelionato relaciona-se com fraudes ao consumidor.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 3 (Pessoa Idosa):** vedação de imunidades + crimes específicos.' }
+      ]
+    }
+  ] },
+  { id: 'penal-12-crimes-administracao-fe-publica', num: 12, materia: 'penal', title: 'Crimes contra a Administração Pública e a fé pública', edital: '2.1.12', editalText: 'CP arts. 289-359-H. Peculato, corrupção, prevaricação, falsidade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Conceito de funcionário público (CP art. 327)', 'Peculato', 'Concussão e excesso de exação', 'Corrupção passiva e ativa', 'Prevaricação', 'Advocacia administrativa', 'Crimes praticados por particular (corrupção ativa, desacato, resistência)', 'Crimes contra a fé pública (moeda falsa, falsidade documental)', 'Lei 12.850/13 e Lei Anticorrupção (12.846/13)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'CP arts. 289-359-H. Crimes contra a Administração Pública (312-359-H) e contra a Fé Pública (289-311). Para o concurso (especialmente MPMG): domínio dos crimes funcionais (peculato, corrupção, prevaricação) e da extensão do conceito de "funcionário público" (CP 327).' }
+      ]
+    },
+    {
+      h: 'Funcionário público (CP 327)',
+      items: [
+        { type: 'p', text: 'Considera-se funcionário público, para efeitos penais, quem, embora transitoriamente ou sem remuneração, exerce CARGO, EMPREGO OU FUNÇÃO PÚBLICA. § 1º (Lei 9.983/00): equiparação para empregados de empresa estatal e empresa contratada para a Adm. § 2º: aumento de 1/3 quando autores de crimes funcionais são ocupantes de cargos de DIREÇÃO.' }
+      ]
+    },
+    {
+      h: 'Crimes funcionais principais',
+      items: [
+        { type: 'list', items: [
+          '**PECULATO (CP 312):** apropriar-se ou desviar dinheiro/bem de que tem posse em razão do cargo. Modalidades: próprio, impróprio, culposo, mediante erro. Pena 2-12 anos',
+          '**CONCUSSÃO (CP 316):** exigir vantagem indevida em razão do cargo (extorsão funcional). Pena 2-12 anos',
+          '**EXCESSO DE EXAÇÃO (316 §1º):** cobrar tributo indevido ou em excesso, com violência',
+          '**CORRUPÇÃO PASSIVA (CP 317):** SOLICITAR ou RECEBER vantagem indevida em razão da função. Pena 2-12 anos',
+          '**CORRUPÇÃO ATIVA (CP 333 — particular):** OFERECER ou PROMETER vantagem indevida a funcionário público',
+          '**PREVARICAÇÃO (CP 319):** retardar/deixar de praticar ato de ofício para SATISFAZER INTERESSE OU SENTIMENTO PESSOAL',
+          '**ADVOCACIA ADMINISTRATIVA (CP 321):** patrocinar interesse privado perante a Adm., utilizando-se de sua qualidade de funcionário'
+        ]}
+      ]
+    },
+    {
+      h: 'Crimes praticados por particular contra Adm.',
+      items: [
+        { type: 'list', items: [
+          '**CORRUPÇÃO ATIVA (333):** já visto',
+          '**RESISTÊNCIA (329):** opor-se à execução de ato legal de funcionário público com violência',
+          '**DESACATO (331):** desacatar funcionário público no exercício da função',
+          '**CONTRABANDO (334-A) e DESCAMINHO (334)**'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei Anticorrupção (12.846/13)',
+      items: [
+        { type: 'p', text: 'Responsabiliza ADMINISTRATIVA e CIVILMENTE pessoas jurídicas por atos de corrupção contra a Adm. Pública. Sanções: multa, publicação extraordinária da decisão, dissolução compulsória. Aplicada por entes federativos.' },
+        { type: 'p', text: 'PROGRAMAS DE INTEGRIDADE (Compliance): redução de penas. ACORDO DE LENIÊNCIA: cooperação substancial pode reduzir até 2/3.' }
+      ]
+    },
+    {
+      h: 'Crimes contra a fé pública',
+      items: [
+        { type: 'list', items: [
+          'MOEDA FALSA (CP 289-292)',
+          'FALSIDADE DOCUMENTAL (CP 296-305)',
+          'USO DE DOCUMENTO FALSO (304)',
+          'FALSO RECONHECIMENTO DE FIRMA (300)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Funcionário público (CP 327): qualquer cargo/emprego/função pública, transitória, sem remuneração — extensão amplíssima.**' },
+        { type: 'box', kind: 'macete', text: '**PECULATO (apropriar/desviar) · CONCUSSÃO (exigir) · CORRUPÇÃO PASSIVA (solicitar/receber) · PREVARICAÇÃO (sentimento pessoal).**' },
+        { type: 'box', kind: 'macete', text: '**Lei Anticorrupção (12.846/13): responsabiliza PJ — não substitui a responsabilidade penal de pessoas físicas.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**CORRUPÇÃO PASSIVA pode ser por SOLICITAR ou RECEBER. Não precisa que vantagem efetivamente chegue.**' },
+        { type: 'box', kind: 'atencao', text: '**PREVARICAÇÃO exige interesse/sentimento PESSOAL — diferente de simples desídia (corrupção é interesse alheio com vantagem para si).**' },
+        { type: 'box', kind: 'atencao', text: '**Lei 12.846/13 NÃO substitui responsabilidade penal — é responsabilidade da PJ, paralela.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 11 (Improbidade):** crimes funcionais convivem com improbidade — esferas independentes.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Adm 4 (Servidores):** servidor é sujeito ativo principal.' }
+      ]
+    }
+  ] },
+  { id: 'penal-13-legislacao-especial', num: 13, materia: 'penal', title: 'Legislação penal especial', edital: '2.1.13', editalText: 'Drogas (11.343/06), org. criminosa (12.850/13), lavagem (9.613/98), Maria da Penha, ECA, abuso de autoridade.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Lei de Drogas (11.343/06)', 'Organização criminosa (Lei 12.850/13)', 'Lavagem de dinheiro (Lei 9.613/98)', 'Lei Maria da Penha (11.340/06)', 'Crimes do ECA (Lei 8.069/90)', 'Estatuto do Desarmamento (Lei 10.826/03)', 'Abuso de autoridade (Lei 13.869/19)', 'Lei de Tortura (9.455/97)', 'Crimes hediondos (Lei 8.072/90)', 'Pacote Anticrime (Lei 13.964/19)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Conjunto de leis penais especiais cobradas. Para o concurso: dominar Lei de Drogas (tráfico × uso), Organização Criminosa (12.850/13), Lavagem (9.613/98), Maria da Penha, Hediondos (8.072/90), Pacote Anticrime (13.964/19).' }
+      ]
+    },
+    {
+      h: 'Leis-chave',
+      items: [
+        { type: 'h', text: 'Lei de Drogas (11.343/06)' },
+        { type: 'list', items: [
+          'TRÁFICO (art. 33): 5-15 anos. Equiparado a hediondo (Lei 8.072/90 art. 2º)',
+          'TRÁFICO PRIVILEGIADO (33 §4º): se primário, bons antecedentes, não dedicado, não membro de organização — reduz 1/6 a 2/3. STF (HC 118.533): NÃO é hediondo',
+          'PORTE PARA USO (28): NÃO há prisão. Penas alternativas. STF — RE 635.659 (em julgamento, 2024): possível descriminalização para porte de maconha em pequena quantidade'
+        ]},
+
+        { type: 'h', text: 'Crimes hediondos (Lei 8.072/90)' },
+        { type: 'list', items: [
+          'Rol TAXATIVO (art. 1º): homicídio qualificado, latrocínio, extorsão qualificada, sequestro, estupro, etc.',
+          'Equiparados: tortura, tráfico, terrorismo (TTT)',
+          'Insuscetíveis de anistia, graça e indulto',
+          'Pacote Anticrime: progressão diferenciada (LEP 112)'
+        ]},
+
+        { type: 'h', text: 'Lei 12.850/13 — Organização Criminosa' },
+        { type: 'list', items: [
+          'Conceito (art. 1º §1º): 4+ pessoas, estruturalmente ordenadas, divisão de tarefas, vantagem ilícita, infrações com penas máximas superiores a 4 anos',
+          'COLABORAÇÃO PREMIADA (arts. 4º-7º): instrumento processual',
+          'INFILTRAÇÃO POLICIAL (10-14)'
+        ]},
+
+        { type: 'h', text: 'Lei 9.613/98 — Lavagem de dinheiro' },
+        { type: 'list', items: [
+          'Lei 12.683/12 ampliou: qualquer infração penal pode ser antecedente',
+          '3 fases: COLOCAÇÃO · OCULTAÇÃO · INTEGRAÇÃO',
+          'Pena 3-10 anos + multa'
+        ]},
+
+        { type: 'h', text: 'Lei Maria da Penha (11.340/06)' },
+        { type: 'list', items: [
+          'Mecanismos de PROTEÇÃO da mulher contra violência DOMÉSTICA E FAMILIAR',
+          'JECrim NÃO se aplica (art. 41)',
+          'MEDIDAS PROTETIVAS DE URGÊNCIA (arts. 22-24)',
+          'Crimes contra MULHER no contexto doméstico têm rito específico'
+        ]},
+
+        { type: 'h', text: 'Lei 13.869/19 — Abuso de Autoridade' },
+        { type: 'p', text: 'Substituiu a antiga Lei 4.898/65. Tipifica condutas de agentes públicos. Exige DOLO ESPECÍFICO (finalidade de prejudicar, beneficiar-se ou por mero capricho). Crimes de ação penal pública incondicionada.' },
+
+        { type: 'h', text: 'Pacote Anticrime (Lei 13.964/19)' },
+        { type: 'list', items: [
+          'Reescreveu LEP 112 (progressão)',
+          'Inseriu ANPP (CPP 28-A)',
+          'Alterou prescrição em improbidade (mas LIA depois reescrita pela Lei 14.230/21)',
+          'Juiz de garantias (CPP 3º-A — eficácia suspensa parcialmente pelo STF)',
+          'Banco Nacional de Perfis Genéticos'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**TTT equiparados a hediondos: TORTURA · TRÁFICO · TERRORISMO.**' },
+        { type: 'box', kind: 'macete', text: '**Tráfico privilegiado (33 §4º) NÃO é hediondo (STF HC 118.533).**' },
+        { type: 'box', kind: 'macete', text: '**Lavagem (9.613/98) — 3 fases: COLOCAÇÃO · OCULTAÇÃO · INTEGRAÇÃO.**' },
+        { type: 'box', kind: 'macete', text: '**Organização Criminosa: 4+ pessoas (Lei 12.850/13).**' },
+        { type: 'box', kind: 'macete', text: '**Maria da Penha — JECrim NÃO se aplica.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 11 (patrimônio):** receptação cumula com lavagem.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 1 (DH):** Maria da Penha decorre de condenação na CIDH.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP — provas:** colaboração premiada, infiltração.' }
+      ]
+    }
+  ] },
+  { id: 'penal-14-criminologia', num: 14, materia: 'penal', title: 'Criminologia', edital: '2.1.14', editalText: 'Escolas, vitimologia, sistemas penitenciários, prevenção, política criminal.', size: 'Médio', schedule: 'Mês 12', advantage: null, outline: ['Conceito e métodos da criminologia', 'Escolas (clássica, positiva, sociológicas, crítica)', 'Vitimologia', 'Sistemas penitenciários (filadélfico, auburniano, progressivos)', 'Prevenção primária, secundária, terciária', 'Política criminal e direito penal mínimo', 'Funções da pena (retributiva, preventiva, ressocializadora)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: '**CRIMINOLOGIA** é ciência empírica e interdisciplinar que estuda o CRIME, o CRIMINOSO, a VÍTIMA e o CONTROLE SOCIAL. Distinta do Direito Penal (dogmática) e da Política Criminal (estratégias). Para o concurso: dominar escolas e modelos, vitimologia, sistemas penitenciários, prevenção.' }
+      ]
+    },
+    {
+      h: 'Escolas criminológicas',
+      items: [
+        { type: 'list', items: [
+          '**ESCOLA CLÁSSICA (Beccaria, Carrara, séc. XVIII-XIX):** crime é fruto do LIVRE-ARBÍTRIO. Pena retributiva, proporcional, certa. Princípio da legalidade',
+          '**ESCOLA POSITIVA (Lombroso, Ferri, Garofalo, séc. XIX):** crime é determinado por fatores BIOLÓGICOS, PSICOLÓGICOS e SOCIAIS. "Criminoso nato" (Lombroso). Pena terapêutica, individualizada',
+          '**ESCOLAS SOCIOLÓGICAS (séc. XX):** Escola de CHICAGO (Park, Burgess) — desorganização social urbana. Sutherland — ASSOCIAÇÃO DIFERENCIAL. Merton — TENSÃO/ANOMIA',
+          '**LABELLING APPROACH (Becker, Lemert):** crime é ROTULAÇÃO social. Foco no CONTROLE, não no agente',
+          '**CRIMINOLOGIA CRÍTICA (Baratta, Zaffaroni):** crime é construção social, classes dominantes definem desviante. Direito Penal mínimo'
+        ]}
+      ]
+    },
+    {
+      h: 'Vitimologia, prevenção, sistemas',
+      items: [
+        { type: 'h', text: 'Vitimologia (Mendelsohn, Von Hentig)' },
+        { type: 'p', text: 'Estuda a VÍTIMA do crime. Tipologias (vítima ideal, provocadora, voluntária, etc.). Direitos da vítima: assistência, indenização, participação no processo. Lei 11.690/08 ampliou direitos no CPP.' },
+
+        { type: 'h', text: 'Sistemas penitenciários históricos' },
+        { type: 'list', items: [
+          '**FILADÉLFICO/PENSILVÂNICO:** isolamento celular total',
+          '**AUBURNIANO:** trabalho coletivo de dia, isolamento à noite',
+          '**PROGRESSIVO (atual):** progressão de regimes conforme conduta'
+        ]},
+
+        { type: 'h', text: 'Prevenção (3 níveis)' },
+        { type: 'list', items: [
+          '**PRIMÁRIA:** atua sobre causas (educação, emprego, moradia) — eliminar fontes',
+          '**SECUNDÁRIA:** atua sobre grupos de risco (jovens em vulnerabilidade)',
+          '**TERCIÁRIA:** atua sobre quem já delinquiu (ressocialização)'
+        ]}
+      ]
+    },
+    {
+      h: 'Funções da pena',
+      items: [
+        { type: 'list', items: [
+          '**RETRIBUTIVA:** punir o mal pelo mal (Kant, Hegel)',
+          '**PREVENTIVA GERAL NEGATIVA:** intimidar a coletividade',
+          '**PREVENTIVA GERAL POSITIVA:** afirmar a vigência do direito',
+          '**PREVENTIVA ESPECIAL NEGATIVA:** neutralizar o agente',
+          '**PREVENTIVA ESPECIAL POSITIVA:** ressocializar (LEP)',
+          '**TEORIA DA UNIÃO/MISTA (CP 59 + LEP):** combina retribuição + prevenção'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Escolas: CLÁSSICA (livre-arbítrio) · POSITIVA (determinismo) · SOCIOLÓGICAS · LABELLING · CRÍTICA.**' },
+        { type: 'box', kind: 'macete', text: '**Prevenção: PRIMÁRIA (causas) · SECUNDÁRIA (grupos de risco) · TERCIÁRIA (ressocialização).**' },
+        { type: 'box', kind: 'macete', text: '**Funções da pena (Brasil — teoria mista): RETRIBUIÇÃO + PREVENÇÃO GERAL + PREVENÇÃO ESPECIAL.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** intervenção mínima é resultado da política criminal.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8 (Penas):** funções da pena fundamentam a dosimetria.' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO PROCESSUAL PENAL (12) ============
   { id: 'pp-01-principios-fontes', num: 1, materia: 'pp', title: 'Princípios e fontes do CPP', edital: '2.2.1', editalText: 'Sistema acusatório (Lei 13.964/19). Princípios constitucionais e infraconstitucionais.', size: 'Médio', schedule: null, advantage: null, outline: ['Sistemas processuais (inquisitório, acusatório, misto)', 'Sistema acusatório no Brasil (CPP art. 3º-A — Pacote Anticrime)', 'Princípios constitucionais (devido processo, contraditório, ampla defesa, presunção de inocência)', 'Princípios infraconstitucionais (oficialidade, oficiosidade, indisponibilidade, etc.)', 'Aplicação da lei processual penal no tempo'], sections: [] },
@@ -12361,7 +12757,23 @@ flashcards: [
   { id: 534, topic: 7, materia: 'penal', q: 'Concurso de pessoas — teoria adotada?', a: 'TEORIA MONISTA (CP 29). Quem concorre para o crime incide nas penas a ele cominadas, na medida da CULPABILIDADE individual. Todos respondem pelo MESMO crime.', tags: ['penal', 'concurso-pessoas'] },
   { id: 535, topic: 7, materia: 'penal', q: 'Concurso de crimes — modalidades?', a: 'MATERIAL (CP 69): mais de uma ação, vários crimes — SOMA. FORMAL (CP 70): uma ação, vários crimes — EXASPERAÇÃO 1/6 a 1/2. CONTINUADO (CP 71): mesma espécie + condições — exasperação 1/6 a 2/3.', tags: ['penal', 'concurso-crimes'] },
   { id: 536, topic: 8, materia: 'penal', q: 'Aplicação da pena — método trifásico (CP 68)?', a: '1ª FASE: pena-base (CP 59 — 8 circunstâncias judiciais). 2ª FASE: agravantes/atenuantes (CP 61, 65). 3ª FASE: causas de aumento/diminuição (parte geral e especial).', tags: ['penal', 'dosimetria'] },
-  { id: 537, topic: 8, materia: 'penal', q: 'Progressão de regime — Pacote Anticrime?', a: 'Lei 13.964/19 reescreveu LEP art. 112. Frações: 16% (primário sem violência) · 20% (primário com violência ou hediondo) · 25% (reincidente sem violência) · 30%, 40%, 50%, 60%, 70% (gradação por tipo de crime e reincidência).', tags: ['penal', 'progressao'] }
+  { id: 537, topic: 8, materia: 'penal', q: 'Progressão de regime — Pacote Anticrime?', a: 'Lei 13.964/19 reescreveu LEP art. 112. Frações: 16% (primário sem violência) · 20% (primário com violência ou hediondo) · 25% (reincidente sem violência) · 30%, 40%, 50%, 60%, 70% (gradação por tipo de crime e reincidência).', tags: ['penal', 'progressao'] },
+
+  // === Cards Rodada 11 — Penal 9-14 ===
+  { id: 538, topic: 9, materia: 'penal', q: 'Medidas de segurança — prazo máximo?', a: 'STJ Súm. 527: prazo máximo da MS = pena máxima abstratamente cominada ao delito. Prazo mínimo: 1-3 anos. Internação (reclusão) ou tratamento ambulatorial (detenção).', tags: ['penal', 'medida-seguranca'] },
+  { id: 539, topic: 9, materia: 'penal', q: 'Espécies de ação penal (CP 100)?', a: 'PÚBLICA INCONDICIONADA (regra) · PÚBLICA CONDICIONADA À REPRESENTAÇÃO · PÚBLICA CONDICIONADA À REQUISIÇÃO (MJ) · PRIVADA EXCLUSIVA · PRIVADA SUBSIDIÁRIA DA PÚBLICA (CF 5º LIX).', tags: ['penal', 'acao-penal'] },
+  { id: 540, topic: 10, materia: 'penal', q: 'Lei 14.532/23 — injúria racial?', a: 'Passou a ser RACISMO (Lei 7.716/89). IMPRESCRITÍVEL e INAFIANÇÁVEL (CF 5º XLII). Mudança importante — antes era injúria comum.', tags: ['penal', 'injuria-racial', 'racismo'] },
+  { id: 541, topic: 10, materia: 'penal', q: 'Feminicídio — natureza?', a: 'QUALIFICADORA do homicídio (CP 121 §2º VI — Lei 13.104/15), não tipo autônomo. Pena: 12-30 anos. Crime hediondo.', tags: ['penal', 'feminicidio'] },
+  { id: 542, topic: 11, materia: 'penal', q: 'Latrocínio — competência?', a: 'JUSTIÇA COMUM (Súm. 603 STF), NÃO Tribunal do Júri. Embora haja morte, é crime contra o patrimônio. Pena 20-30 anos.', tags: ['penal', 'latrocinio'] },
+  { id: 543, topic: 11, materia: 'penal', q: 'Estelionato — natureza da ação penal pós-Pacote Anticrime?', a: 'AÇÃO PÚBLICA CONDICIONADA À REPRESENTAÇÃO (CP 171 §5º — Lei 13.964/19). Antes: incondicionada. Mudança importante.', tags: ['penal', 'estelionato'] },
+  { id: 544, topic: 12, materia: 'penal', q: 'Funcionário público para fins penais (CP 327)?', a: 'Quem exerce CARGO, EMPREGO OU FUNÇÃO PÚBLICA, ainda que TRANSITORIAMENTE ou SEM REMUNERAÇÃO. Equiparação ampla (Lei 9.983/00 — empresa estatal e contratada).', tags: ['penal', 'funcionario'] },
+  { id: 545, topic: 12, materia: 'penal', q: 'Peculato × Concussão × Corrupção passiva?', a: 'PECULATO (CP 312): apropriar/desviar. CONCUSSÃO (CP 316): EXIGIR vantagem em razão do cargo. CORRUPÇÃO PASSIVA (CP 317): SOLICITAR ou RECEBER vantagem.', tags: ['penal', 'crimes-funcionais'] },
+  { id: 546, topic: 13, materia: 'penal', q: 'TTT equiparados a hediondos?', a: 'TORTURA (Lei 9.455/97) · TRÁFICO (Lei 11.343/06) · TERRORISMO (Lei 13.260/16). Mnemônico TTT. Insuscetíveis de anistia, graça, indulto.', tags: ['penal', 'hediondos'] },
+  { id: 547, topic: 13, materia: 'penal', q: 'Tráfico privilegiado é hediondo?', a: 'NÃO (STF HC 118.533, 2016). Tráfico privilegiado (Lei 11.343/06 art. 33 §4º — primário, bons antecedentes, não dedicado, não membro de organização): redução de 1/6 a 2/3 e NÃO se equipara a hediondo.', tags: ['penal', 'trafico-privilegiado', 'STF'] },
+  { id: 548, topic: 13, materia: 'penal', q: 'Organização Criminosa (Lei 12.850/13) — conceito?', a: 'Associação de 4+ pessoas, estruturalmente ordenada, com divisão de tarefas, visando vantagem ilícita, mediante prática de infrações com penas máximas SUPERIORES a 4 anos. Permite COLABORAÇÃO PREMIADA e INFILTRAÇÃO.', tags: ['penal', 'organizacao-criminosa'] },
+  { id: 549, topic: 14, materia: 'penal', q: 'Escolas criminológicas — sequência histórica?', a: 'CLÁSSICA (Beccaria — livre-arbítrio) → POSITIVA (Lombroso, Ferri, Garofalo — determinismo) → SOCIOLÓGICAS (Chicago, Sutherland, Merton) → LABELLING APPROACH (rotulação) → CRIMINOLOGIA CRÍTICA (Baratta).', tags: ['penal', 'criminologia'] },
+  { id: 550, topic: 14, materia: 'penal', q: 'Prevenção criminal — 3 níveis?', a: 'PRIMÁRIA (atua sobre CAUSAS — educação, emprego, moradia) · SECUNDÁRIA (atua sobre GRUPOS de risco) · TERCIÁRIA (atua sobre quem já delinquiu — ressocialização).', tags: ['penal', 'prevencao'] },
+  { id: 551, topic: 14, materia: 'penal', q: 'Funções da pena no Brasil — qual teoria?', a: 'TEORIA MISTA/UNIÃO. CP art. 59 + LEP combinam: RETRIBUIÇÃO + PREVENÇÃO GERAL (intimidar coletividade) + PREVENÇÃO ESPECIAL (ressocializar agente). Doutrina dominante.', tags: ['penal', 'funcoes-pena'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -15019,6 +15431,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'CP art. 68 + Lei 13.964/19. (A) Falso — método TRIFÁSICO. (B) Falso — detenção NÃO admite fechado (só semiaberto e aberto). (D) Falso — sursis: pena ≤ 2 anos, prova 2-4 anos. (E) Falso — hediondo: 2/3 (primário); reincidente em hediondo: vedado.'
+  },
+
+  // === Questões Rodada 11 — Penal 9-14 ===
+  {
+    id: 191, topic: 9, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as medidas de segurança e a ação penal:',
+    alternatives: [
+      'A medida de segurança não tem prazo máximo, podendo se prolongar enquanto persistir a periculosidade.',
+      'A STJ Súm. 527 fixa que o tempo de duração da medida de segurança NÃO deve ultrapassar o LIMITE MÁXIMO da pena abstratamente cominada ao delito praticado.',
+      'A ação penal pública incondicionada depende de representação da vítima.',
+      'A ação penal privada subsidiária da pública (CF 5º LIX) cabe a qualquer cidadão.',
+      'O prazo decadencial em ação penal privada é de 3 meses, contados da ciência da autoria.'
+    ],
+    correct: 'B',
+    explanation: 'STJ Súm. 527. (A) Falso — Súm. 527 fixou prazo. (C) Falso — incondicionada NÃO depende de representação. (D) Falso — subsidiária só cabe à VÍTIMA ou representante (não qualquer cidadão). (E) Falso — 6 meses (CP 103).'
+  },
+  {
+    id: 192, topic: 10, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os crimes contra a pessoa:',
+    alternatives: [
+      'O feminicídio constitui tipo penal autônomo, com pena de 12 a 30 anos.',
+      'A injúria racial, após a Lei 14.532/23, foi REENQUADRADA como CRIME DE RACISMO (Lei 7.716/89), passando a ser IMPRESCRITÍVEL E INAFIANÇÁVEL (CF 5º XLII).',
+      'O aborto sentimental e o necessário (CP 128) exigem autorização judicial prévia para sua realização.',
+      'O stalking (perseguição reiterada) foi descriminalizado pelo Pacote Anticrime.',
+      'Os crimes de homicídio são julgados pela Justiça Federal.'
+    ],
+    correct: 'B',
+    explanation: 'Lei 14.532/23 + CF 5º XLII. (A) Falso — feminicídio é QUALIFICADORA, não tipo autônomo. (C) Falso — não exige autorização judicial (necessário e sentimental). (D) Falso — Lei 14.132/21 INSERIU stalking (CP 147-A). (E) Falso — homicídio é da Justiça Comum, com competência do Júri (CF 5º XXXVIII d).'
+  },
+  {
+    id: 193, topic: 11, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca dos crimes contra o patrimônio:',
+    alternatives: [
+      'O latrocínio, por envolver morte, é da competência do Tribunal do Júri.',
+      'A imunidade penal absoluta (CP 181) aplica-se aos crimes contra o patrimônio do cônjuge na constância do casamento, mesmo se a vítima for idosa.',
+      'O latrocínio (CP 157 §3º II) é crime contra o PATRIMÔNIO e é da competência da Justiça COMUM (não Júri — Súm. 603 STF); o estelionato, após o Pacote Anticrime (CP 171 §5º), passou a ser AÇÃO PENAL PÚBLICA CONDICIONADA À REPRESENTAÇÃO.',
+      'O furto privilegiado (CP 155 §2º) exige PRIMARIEDADE do agente e GRAVE valor da coisa subtraída.',
+      'A receptação (CP 180) é crime acessório que exige condenação prévia pelo crime antecedente.'
+    ],
+    correct: 'C',
+    explanation: 'STF Súm. 603 + Lei 13.964/19 (CP 171 §5º). (A) Falso — Súm. 603: Justiça Comum. (B) Falso — CP 183 III: imunidade NÃO se aplica contra idoso. (D) Falso — privilegiado exige PEQUENO valor. (E) Falso — receptação é autônoma, não exige condenação prévia.'
+  },
+  {
+    id: 194, topic: 12, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre os crimes contra a Administração Pública:',
+    alternatives: [
+      'O conceito de funcionário público para fins penais (CP 327) restringe-se aos servidores estatutários efetivos.',
+      'O crime de PECULATO (CP 312) é cometido por particular que se apropria de bem público.',
+      'A CONCUSSÃO (CP 316) caracteriza-se pelo SOLICITAR vantagem indevida, distinta da corrupção passiva, que se caracteriza pelo EXIGIR.',
+      'Considera-se funcionário público, para efeitos penais (CP 327), quem exerce CARGO, EMPREGO ou FUNÇÃO pública, ainda que transitoriamente ou sem remuneração — extensão amplíssima; a corrupção passiva (CP 317) caracteriza-se por SOLICITAR ou RECEBER vantagem indevida em razão da função.',
+      'A Lei Anticorrupção (12.846/13) atribui responsabilidade penal a pessoas jurídicas por atos contra a Adm. Pública.'
+    ],
+    correct: 'D',
+    explanation: 'CP 327 + 317. (A) Falso — conceito amplíssimo. (B) Falso — peculato é crime FUNCIONAL (autor é o funcionário). (C) Falso — concussão = EXIGIR; corrupção passiva = SOLICITAR/RECEBER. (E) Falso — Lei 12.846 atribui responsabilidade ADMINISTRATIVA e CIVIL (não penal) à PJ.'
+  },
+  {
+    id: 195, topic: 13, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a legislação penal especial:',
+    alternatives: [
+      'O tráfico privilegiado (Lei 11.343/06 art. 33 §4º) constitui crime EQUIPARADO A HEDIONDO, segundo o STF.',
+      'A Organização Criminosa (Lei 12.850/13) requer no mínimo 3 pessoas para sua configuração.',
+      'A Lei Maria da Penha (11.340/06) admite a aplicação dos Juizados Especiais Criminais aos crimes praticados em contexto de violência doméstica.',
+      'O tráfico privilegiado de drogas (art. 33 §4º) NÃO é equiparado a hediondo, conforme entendimento do STF (HC 118.533, 2016); a Organização Criminosa (Lei 12.850/13) exige 4+ pessoas estruturalmente ordenadas; a Lei Maria da Penha VEDA aplicação do JECrim.',
+      'O Pacote Anticrime (Lei 13.964/19) extinguiu o tráfico privilegiado, unificando a pena base do tráfico.'
+    ],
+    correct: 'D',
+    explanation: 'STF HC 118.533 + Lei 12.850/13 art. 1º §1º + Lei 11.340/06 art. 41. (A) Falso — STF: NÃO equiparado. (B) Falso — Lei 12.850: 4+ pessoas. (C) Falso — Maria da Penha VEDA JECrim (art. 41). (E) Falso — privilegiado NÃO foi extinto.'
+  },
+  {
+    id: 196, topic: 14, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a Criminologia:',
+    alternatives: [
+      'A Escola Clássica (Beccaria) entende o crime como produto do determinismo biológico do agente.',
+      'A Escola Positiva (Lombroso, Ferri, Garofalo) defende o livre-arbítrio absoluto do criminoso.',
+      'A prevenção PRIMÁRIA atua sobre as causas estruturais do crime (educação, emprego, moradia); a SECUNDÁRIA sobre grupos de risco; a TERCIÁRIA sobre quem já delinquiu (ressocialização).',
+      'O Brasil adota teoria PURAMENTE retributiva da pena, sem incluir prevenção.',
+      'A Criminologia Crítica (Baratta) defende o aumento das penas para combater o crime.'
+    ],
+    correct: 'C',
+    explanation: 'Doutrina criminológica clássica. (A) Falso — Clássica = livre-arbítrio. (B) Falso — Positiva = determinismo. (D) Falso — Brasil adota teoria MISTA (retribuição + prevenção). (E) Falso — Criminologia crítica defende DIREITO PENAL MÍNIMO, não aumento de penas.'
   }
 ],
 
