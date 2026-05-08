@@ -48,13 +48,13 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **101 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 2 Penal
-- **42 esqueletos prontos** distribuídos em 4 matérias (8 elei, 10 trib, 12 penal, 12 pp).
+- **107 tópicos com CONTEÚDO COMPLETO**: 30 PC + 17 Civil + 8 ColProc + 8 MP + 12 ColMat + 12 Const + 12 Adm + 8 Penal
+- **36 esqueletos prontos** distribuídos em 4 matérias (8 elei, 10 trib, 6 penal, 12 pp).
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **523 flashcards**
-- **184 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **537 flashcards**
+- **190 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
 - **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
@@ -101,7 +101,7 @@ Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata
 | Eleitoral | 8 |
 | Tributário/Financeiro | 10 |
 | ~~Teoria do MP~~ | ✅ 0 (100% completo) |
-| Penal/Criminologia | 12 (de 14 — penal-01 e 02 prontos) |
+| Penal/Criminologia | 6 (de 14 — penal-01 a 08 prontos) |
 | Processo Penal | 12 |
 | ~~Material Coletivo~~ | ✅ 0 (100% completo) |
 | ~~Processual Coletivo~~ | ✅ 0 (100% completo) |
@@ -183,17 +183,18 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #13** — Rodada 6: **Const 8/12**. +20 cards e +6 questões. Total: 83 preenchidos.
 - **PR #14** — Rodada 7: **Const 100%** + Adm 2/12. Total: 89.
 - **PR #15** — Rodada 8: Adm 8/12. Total: 95.
-- **PR #16** (este) — Rodada 9: **Adm 100% completo** (adm-09 Improbidade processual, adm-10 Controle, adm-11 Intervenção propriedade, adm-12 LGPD/LINDB) + **Penal 2/14 iniciado** (penal-01 Princípios, penal-02 Aplicação da lei). +14 cards e +6 questões. Total: **101 preenchidos** (70%).
+- **PR #16** — Rodada 9: Adm 100% + Penal 2/14. Total: 101.
+- **PR #17** (este) — Rodada 10: **Penal 8/14** (penal-03 Fato típico, penal-04 Antijuridicidade, penal-05 Culpabilidade, penal-06 Iter criminis/tentativa, penal-07 Concurso de pessoas/crimes, penal-08 Penas/dosimetria). +14 cards e +6 questões. Total: **107 preenchidos** (75%).
 
 ## Stats atuais
 
-- **143 tópicos** (**101 com conteúdo** + 42 esqueletos com outline) — **70% concluído!**
-- **523 flashcards**
-- **184 questões** com gabarito comentado
+- **143 tópicos** (**107 com conteúdo** + 36 esqueletos com outline) — **75% concluído!**
+- **537 flashcards**
+- **190 questões** com gabarito comentado
 - **88 súmulas** STF/STJ
-- ~23.000 linhas em `assets/data.js`
+- ~25.000 linhas em `assets/data.js`
 
-### Tópicos preenchidos (101)
+### Tópicos preenchidos (107)
 
 - **Processo Civil 1-30** (30)
 - **Direito Civil 1-17** (17)
@@ -202,7 +203,7 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **Material Coletivo 1-12** (12) — **100%**
 - **Constitucional 1-12** (12) — **100%**
 - **Administrativo 1-12** (12) — **100%**
-- **Penal 1-2** (2 de 14): Princípios, Aplicação da lei. Faltam: penal-03 a 14
+- **Penal 1-8** (8 de 14): Princípios, Aplicação, Fato típico, Antijuridicidade, Culpabilidade, Iter criminis, Concurso, Penas. Faltam: penal-09 a 14
 
 ### Próxima rodada sugerida (Rodada 6)
 

@@ -8997,12 +8997,439 @@ topics: [
       ]
     }
   ] },
-  { id: 'penal-03-fato-tipico', num: 3, materia: 'penal', title: 'Teoria do crime — fato típico', edital: '2.1.3', editalText: 'Conduta, resultado, nexo, tipicidade. Dolo, culpa, erro.', size: 'Grande', schedule: null, advantage: null, outline: ['Conceito analítico de crime', 'Conduta (teorias)', 'Resultado (naturalístico × normativo)', 'Nexo causal (CP art. 13)', 'Imputação objetiva', 'Tipicidade formal × material × conglobante', 'Dolo (direto, eventual)', 'Culpa (negligência, imprudência, imperícia)', 'Erro de tipo (essencial × acidental)'], sections: [] },
-  { id: 'penal-04-antijuridicidade', num: 4, materia: 'penal', title: 'Antijuridicidade e excludentes', edital: '2.1.4', editalText: 'Excludentes de ilicitude (CP art. 23). Legítima defesa, estado de necessidade, estrito cumprimento, exercício regular.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito de antijuridicidade', 'Excludentes legais (CP art. 23)', 'Estado de necessidade (CP art. 24)', 'Legítima defesa (CP art. 25)', 'Estrito cumprimento de dever legal', 'Exercício regular de direito', 'Consentimento do ofendido (excludente supralegal)', 'Excesso (CP art. 23 § único)'], sections: [] },
-  { id: 'penal-05-culpabilidade', num: 5, materia: 'penal', title: 'Culpabilidade e excludentes', edital: '2.1.5', editalText: 'Imputabilidade, potencial consciência da ilicitude, exigibilidade. Erro de proibição, coação moral.', size: 'Médio', schedule: null, advantage: null, outline: ['Conceito (teoria normativa pura)', 'Imputabilidade (idade, doença mental, embriaguez completa fortuita)', 'Potencial consciência da ilicitude', 'Erro de proibição (CP art. 21)', 'Exigibilidade de conduta diversa', 'Coação moral irresistível e obediência hierárquica', 'Causas supralegais'], sections: [] },
-  { id: 'penal-06-iter-criminis-tentativa', num: 6, materia: 'penal', title: 'Iter criminis, tentativa, desistência, arrependimento', edital: '2.1.6', editalText: 'Fases do crime. Tentativa (CP art. 14). Desistência voluntária e arrependimento eficaz e posterior.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Fases do iter criminis (cogitação, atos preparatórios, execução, consumação, exaurimento)', 'Tentativa (CP art. 14 II)', 'Tentativa imperfeita × perfeita (crime falho)', 'Crimes que não admitem tentativa', 'Desistência voluntária e arrependimento eficaz (CP art. 15)', 'Arrependimento posterior (CP art. 16)', 'Crime impossível (CP art. 17)'], sections: [] },
-  { id: 'penal-07-concurso-pessoas-crimes', num: 7, materia: 'penal', title: 'Concurso de pessoas e concurso de crimes', edital: '2.1.7', editalText: 'Autoria, coautoria, participação. Concurso material, formal, continuado.', size: 'Médio', schedule: null, advantage: null, outline: ['Concurso de pessoas (CP arts. 29-31) — teoria monista', 'Autoria (imediata, mediata, intelectual, colateral)', 'Coautoria e participação', 'Cooperação dolosamente distinta (CP art. 29 § 2º)', 'Concurso material (CP art. 69)', 'Concurso formal (CP art. 70)', 'Crime continuado (CP art. 71)', 'Crime continuado específico (parágrafo único)'], sections: [] },
-  { id: 'penal-08-penas', num: 8, materia: 'penal', title: 'Penas, dosimetria, progressão, livramento', edital: '2.1.8', editalText: 'Espécies de pena. Aplicação trifásica. Substitutiva. Progressão. Livramento. Sursis.', size: 'Grande', schedule: null, advantage: null, outline: ['Espécies (privativas de liberdade, restritivas de direitos, multa)', 'Aplicação da pena — método trifásico (CP art. 68)', 'Circunstâncias (judiciais, agravantes, atenuantes, causas de aumento e diminuição)', 'Penas restritivas de direitos (CP arts. 43-48)', 'Multa', 'Regimes (fechado, semiaberto, aberto)', 'Progressão de regime', 'Livramento condicional (CP arts. 83-90)', 'Sursis (CP arts. 77-82)', 'Detração e remição'], sections: [] },
+  { id: 'penal-03-fato-tipico', num: 3, materia: 'penal', title: 'Teoria do crime — fato típico', edital: '2.1.3', editalText: 'Conduta, resultado, nexo, tipicidade. Dolo, culpa, erro.', size: 'Grande', schedule: 'Mês 11', advantage: null, outline: ['Conceito analítico de crime', 'Conduta (teorias)', 'Resultado (naturalístico × normativo)', 'Nexo causal (CP art. 13)', 'Imputação objetiva', 'Tipicidade formal × material × conglobante', 'Dolo (direto, eventual)', 'Culpa (negligência, imprudência, imperícia)', 'Erro de tipo (essencial × acidental)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **CONCEITO ANALÍTICO DE CRIME** (Welzel, finalismo) define-o como **FATO TÍPICO + ANTIJURÍDICO + CULPÁVEL** — tripartite. Cada elemento tem subdivisões. Para o concurso: domínio do fato típico (conduta, resultado, nexo, tipicidade), das modalidades de dolo e culpa, do erro de tipo.' }
+      ]
+    },
+    {
+      h: 'Fato típico — elementos',
+      items: [
+        { type: 'h', text: '4 elementos do fato típico' },
+        { type: 'list', items: [
+          'CONDUTA (ação ou omissão voluntária)',
+          'RESULTADO (naturalístico ou normativo)',
+          'NEXO CAUSAL (CP art. 13 — teoria da equivalência das condições com correção pela imputação objetiva)',
+          'TIPICIDADE (FORMAL × MATERIAL × CONGLOBANTE)'
+        ]},
+
+        { type: 'h', text: 'Tipicidade — 3 dimensões' },
+        { type: 'list', items: [
+          '**FORMAL:** subsunção do fato à norma',
+          '**MATERIAL:** lesão a bem jurídico (princípio da lesividade)',
+          '**CONGLOBANTE (Zaffaroni):** análise da ANTINORMATIVIDADE — fato deve violar a norma considerada em conjunto com todo o ordenamento. Exclui condutas socialmente adequadas, situações em que a norma aparentemente proíbe o que outra autoriza'
+        ]},
+
+        { type: 'h', text: 'Imputação objetiva (Roxin)' },
+        { type: 'p', text: 'Modernização da teoria da causalidade. Para imputar resultado: (a) criação de RISCO PROIBIDO; (b) realização desse risco no resultado; (c) o resultado deve estar no ALCANCE DA NORMA. Limita a equivalência das condições.' }
+      ]
+    },
+    {
+      h: 'Dolo, culpa, erro',
+      items: [
+        { type: 'h', text: 'Dolo (CP art. 18 I)' },
+        { type: 'list', items: [
+          '**DIRETO:** vontade dirigida ao resultado',
+          '**EVENTUAL:** assume o risco do resultado (assentir, "que se dane")',
+          '**Teoria volitiva (Welzel):** dolo é VONTADE',
+          '**Diferença com culpa consciente:** no dolo eventual, agente ASSUME O RISCO; na culpa consciente, agente CONFIA na não ocorrência'
+        ]},
+
+        { type: 'h', text: 'Culpa (CP art. 18 II)' },
+        { type: 'list', items: [
+          '**NEGLIGÊNCIA:** omissão de cuidado',
+          '**IMPRUDÊNCIA:** ação descuidada',
+          '**IMPERÍCIA:** falta de aptidão técnica',
+          '**Modalidades:** culpa CONSCIENTE (prevê resultado mas confia que não ocorrerá) × INCONSCIENTE (não prevê)'
+        ]},
+
+        { type: 'h', text: 'Erro de tipo (CP art. 20)' },
+        { type: 'list', items: [
+          '**ESSENCIAL:** sobre elementar do tipo. Exclui o DOLO, podendo subsistir culpa se inevitável',
+          '**ACIDENTAL:** sobre objeto, pessoa ou execução. NÃO exclui dolo',
+          '**ESCUSÁVEL (inevitável):** exclui dolo e culpa',
+          '**INESCUSÁVEL (evitável):** exclui dolo, mas pode haver culpa'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Crime tripartite (finalismo): TÍPICO + ANTIJURÍDICO + CULPÁVEL.**' },
+        { type: 'box', kind: 'macete', text: '**Fato típico = CONDUTA + RESULTADO + NEXO + TIPICIDADE.** 4 elementos.' },
+        { type: 'box', kind: 'macete', text: '**Tipicidade: FORMAL × MATERIAL × CONGLOBANTE (Zaffaroni).**' },
+        { type: 'box', kind: 'macete', text: '**Dolo eventual (assume o risco) × Culpa consciente (confia).** Diferença sutil mas crucial.' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Dolo eventual ≠ culpa consciente.** Assumir o risco × confiar que não ocorrerá.' },
+        { type: 'box', kind: 'atencao', text: '**Erro de tipo ESSENCIAL exclui o DOLO** (e a culpa se inevitável). Acidental NÃO exclui.' },
+        { type: 'box', kind: 'atencao', text: '**Imputação objetiva (Roxin) limita a equivalência das condições** — exige criação de risco proibido e alcance da norma.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** lesividade integra a tipicidade material.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 4 (Antijuridicidade):** segundo elemento do crime.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (Culpabilidade):** terceiro elemento, com erro de proibição (≠ erro de tipo).' }
+      ]
+    }
+  ] },
+  { id: 'penal-04-antijuridicidade', num: 4, materia: 'penal', title: 'Antijuridicidade e excludentes', edital: '2.1.4', editalText: 'Excludentes de ilicitude (CP art. 23). Legítima defesa, estado de necessidade, estrito cumprimento, exercício regular.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Conceito de antijuridicidade', 'Excludentes legais (CP art. 23)', 'Estado de necessidade (CP art. 24)', 'Legítima defesa (CP art. 25)', 'Estrito cumprimento de dever legal', 'Exercício regular de direito', 'Consentimento do ofendido (excludente supralegal)', 'Excesso (CP art. 23 § único)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **ANTIJURIDICIDADE** (ilicitude) é o segundo elemento do crime. Fato típico é, em regra, antijurídico — salvo se houver EXCLUDENTE. CP art. 23 lista 4 excludentes legais; doutrina admite supralegais (consentimento do ofendido).' }
+      ]
+    },
+    {
+      h: 'Excludentes legais (CP art. 23)',
+      items: [
+        { type: 'h', text: 'Estado de necessidade (CP 24)' },
+        { type: 'p', text: 'Sacrifício de bem jurídico para SALVAR direito próprio ou alheio. Requisitos: situação de perigo atual; não provocação intencional; impossibilidade de evitar; bem sacrificado de menor ou igual valor (no Brasil — teoria UNITÁRIA, art. 24 §2º). Se bem maior é sacrificado, redução de pena ou crime mais leve.' },
+
+        { type: 'h', text: 'Legítima defesa (CP 25)' },
+        { type: 'p', text: 'Repulsa a AGRESSÃO INJUSTA atual ou iminente, a direito próprio ou alheio, com MEIOS NECESSÁRIOS e MODERAÇÃO. Pacote Anticrime (Lei 13.964/19): inseriu § único — "considera-se também em legítima defesa o agente de segurança pública que, em conflito armado ou em risco iminente de conflito armado, previne agressão ou risco de agressão a vítima mantida refém".' },
+
+        { type: 'h', text: 'Estrito cumprimento de dever legal' },
+        { type: 'p', text: 'Agente público que, no exercício de função, pratica fato típico, em razão de DEVER. Ex: policial que prende em flagrante. Não é causa de justificação para o particular.' },
+
+        { type: 'h', text: 'Exercício regular de direito' },
+        { type: 'p', text: 'Pratica fato típico no exercício de DIREITO. Ex: pais que exercem poder familiar (correção moderada). Esportes contato (boxe). Disciplinar.' },
+
+        { type: 'h', text: 'Consentimento do ofendido (supralegal)' },
+        { type: 'p', text: 'Vítima consente com a lesão a bem jurídico DISPONÍVEL. Ex: tatuagem (lesão consentida). Doutrina e jurisprudência reconhecem como excludente supralegal.' }
+      ]
+    },
+    {
+      h: 'Excesso (CP art. 23 § único)',
+      items: [
+        { type: 'p', text: 'Se o agente, em qualquer das hipóteses, EXCEDER os limites da excludente — DOLOSAMENTE ou CULPOSAMENTE — responderá pelo excesso. NÃO há mais excludente; agente responde pelo crime.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 excludentes legais (CP 23): EN · LD · ECDL · ERD.** Estado de necessidade · Legítima defesa · Estrito cumprimento de dever legal · Exercício regular de direito.' },
+        { type: 'box', kind: 'macete', text: '**Legítima defesa: agressão INJUSTA, ATUAL ou IMINENTE, MEIOS NECESSÁRIOS, MODERAÇÃO.**' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime (Lei 13.964/19): nova LD para segurança pública em conflito armado.**' },
+        { type: 'box', kind: 'macete', text: '**Excesso = responde pelo excesso (DOLOSO ou CULPOSO).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Estado de necessidade no Brasil: TEORIA UNITÁRIA — bem sacrificado deve ser MENOR ou IGUAL.** Diferenciada (Alemanha) admite desproporção.' },
+        { type: 'box', kind: 'atencao', text: '**Excesso descaracteriza a excludente — agente responde.**' },
+        { type: 'box', kind: 'atencao', text: '**Consentimento do ofendido NÃO está em CP — é supralegal.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** antijuridicidade pressupõe tipicidade.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 5 (culpabilidade):** após antijuridicidade, vem culpabilidade.' }
+      ]
+    }
+  ] },
+  { id: 'penal-05-culpabilidade', num: 5, materia: 'penal', title: 'Culpabilidade e excludentes', edital: '2.1.5', editalText: 'Imputabilidade, potencial consciência da ilicitude, exigibilidade. Erro de proibição, coação moral.', size: 'Médio', schedule: 'Mês 11', advantage: null, outline: ['Conceito (teoria normativa pura)', 'Imputabilidade (idade, doença mental, embriaguez completa fortuita)', 'Potencial consciência da ilicitude', 'Erro de proibição (CP art. 21)', 'Exigibilidade de conduta diversa', 'Coação moral irresistível e obediência hierárquica', 'Causas supralegais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **CULPABILIDADE** é o terceiro elemento do crime (sistema tripartite). Doutrina majoritária (finalismo): teoria NORMATIVA PURA — culpabilidade é JUÍZO DE REPROVAÇÃO sobre o agente (não sobre o fato). Tem 3 elementos: IMPUTABILIDADE · POTENCIAL CONSCIÊNCIA DA ILICITUDE · EXIGIBILIDADE DE CONDUTA DIVERSA.' }
+      ]
+    },
+    {
+      h: '3 elementos da culpabilidade',
+      items: [
+        { type: 'h', text: 'Imputabilidade (CP arts. 26-28)' },
+        { type: 'list', items: [
+          'Capacidade de entender e querer',
+          '**Excludentes:** menor de 18 anos (CF 228 + CP 27); doença mental ou desenvolvimento mental incompleto/retardado (CP 26); embriaguez completa, fortuita ou de força maior (CP 28 II)',
+          '**Semi-imputabilidade (CP 26 § único):** redução de pena',
+          '**Embriaguez voluntária ou culposa: NÃO exclui** (CP 28 II — actio libera in causa)'
+        ]},
+
+        { type: 'h', text: 'Potencial consciência da ilicitude' },
+        { type: 'p', text: 'Capacidade de saber que o fato é ilícito. Não é a consciência atual, mas a POTENCIAL. Exclui: ERRO DE PROIBIÇÃO (CP 21).' },
+        { type: 'list', items: [
+          '**Erro de proibição ESCUSÁVEL (inevitável):** ISENTA de pena',
+          '**Erro de proibição INESCUSÁVEL (evitável):** redução de pena (1/6 a 1/3)',
+          '**Diferença com erro de tipo:** tipo = erro sobre FATO; proibição = erro sobre LEI'
+        ]},
+
+        { type: 'h', text: 'Exigibilidade de conduta diversa' },
+        { type: 'p', text: 'Reprovação se podia o agente agir conforme o Direito. Excludentes: COAÇÃO MORAL IRRESISTÍVEL (CP 22); OBEDIÊNCIA HIERÁRQUICA (CP 22 — quando ordem não manifestamente ilegal); inexigibilidade SUPRALEGAL (causas extraordinárias).' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Culpabilidade tem 3 elementos: IMPUTABILIDADE · POTENCIAL CONSCIÊNCIA DA ILICITUDE · EXIGIBILIDADE de conduta diversa.**' },
+        { type: 'box', kind: 'macete', text: '**Imputabilidade: 18 anos · doença mental · embriaguez fortuita completa.** Embriaguez voluntária NÃO exclui.' },
+        { type: 'box', kind: 'macete', text: '**Erro de TIPO (sobre FATO) × Erro de PROIBIÇÃO (sobre LEI).** Não confundir.' },
+        { type: 'box', kind: 'macete', text: '**Coação MORAL irresistível exclui CULPABILIDADE. Coação FÍSICA irresistível exclui CONDUTA (não chega à culpabilidade).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Embriaguez voluntária NÃO exclui imputabilidade (CP 28 II — actio libera in causa).**' },
+        { type: 'box', kind: 'atencao', text: '**Erro de tipo: exclui DOLO. Erro de proibição: exclui CULPABILIDADE.** Distinção essencial.' },
+        { type: 'box', kind: 'atencao', text: '**Menor de 18 anos é INIMPUTÁVEL** (CF 228). Resposta pelo ECA — medidas socioeducativas.' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** erro de tipo — relação com erro de proibição.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico ColMat 2 (ECA):** menores de 18 anos respondem pelo ECA.' }
+      ]
+    }
+  ] },
+  { id: 'penal-06-iter-criminis-tentativa', num: 6, materia: 'penal', title: 'Iter criminis, tentativa, desistência, arrependimento', edital: '2.1.6', editalText: 'Fases do crime. Tentativa (CP art. 14). Desistência voluntária e arrependimento eficaz e posterior.', size: 'Pequeno', schedule: 'Mês 11', advantage: null, outline: ['Fases do iter criminis (cogitação, atos preparatórios, execução, consumação, exaurimento)', 'Tentativa (CP art. 14 II)', 'Tentativa imperfeita × perfeita (crime falho)', 'Crimes que não admitem tentativa', 'Desistência voluntária e arrependimento eficaz (CP art. 15)', 'Arrependimento posterior (CP art. 16)', 'Crime impossível (CP art. 17)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **ITER CRIMINIS** é o caminho do crime — desde a ideia até a consumação. Para o concurso: dominar fases, tentativa (CP 14 II), desistência voluntária e arrependimento eficaz (CP 15), arrependimento posterior (CP 16), crime impossível (CP 17).' }
+      ]
+    },
+    {
+      h: 'Fases do iter criminis',
+      items: [
+        { type: 'list', items: [
+          '**COGITAÇÃO:** ideia. NÃO é punível (cogitationis poenam nemo patitur)',
+          '**ATOS PREPARATÓRIOS:** medidas para a execução. Em REGRA não puníveis (salvo se constitui crime autônomo, ex: porte de arma)',
+          '**EXECUÇÃO:** início da realização do tipo',
+          '**CONSUMAÇÃO:** completa a realização',
+          '**EXAURIMENTO:** efeitos posteriores à consumação (em alguns crimes)'
+        ]}
+      ]
+    },
+    {
+      h: 'Tentativa (CP art. 14 II)',
+      items: [
+        { type: 'list', items: [
+          'Crime tentado quando, INICIADA a execução, NÃO se consuma por circunstâncias ALHEIAS à vontade do agente',
+          '**Pena:** redução de 1/3 a 2/3 (proporcional à proximidade da consumação)',
+          '**Imperfeita (inacabada):** agente NÃO terminou os atos de execução',
+          '**Perfeita (acabada / crime falho):** agente terminou os atos, mas não houve consumação',
+          'Crimes que NÃO admitem tentativa: CULPOSOS (em regra, exceto culpa imprópria), HABITUAIS, OMISSIVOS PRÓPRIOS, UNISSUBSISTENTES (de única ação), CONTRAVENÇÕES (regra geral)'
+        ]}
+      ]
+    },
+    {
+      h: 'Desistência, arrependimento, crime impossível',
+      items: [
+        { type: 'h', text: 'Desistência voluntária e arrependimento eficaz (CP 15)' },
+        { type: 'list', items: [
+          '**DESISTÊNCIA VOLUNTÁRIA:** agente desiste DURANTE a execução, voluntariamente',
+          '**ARREPENDIMENTO EFICAZ:** após terminados os atos de execução, agente impede o resultado',
+          'Em ambos: agente RESPONDE PELOS ATOS PRATICADOS (se constituem crime autônomo), mas NÃO pelo crime maior. Não há tentativa'
+        ]},
+
+        { type: 'h', text: 'Arrependimento posterior (CP 16)' },
+        { type: 'list', items: [
+          'Após CONSUMADO o crime, MAS antes do recebimento da denúncia',
+          'Crimes SEM violência ou grave ameaça',
+          'REPARAÇÃO ou RESTITUIÇÃO da coisa pelo agente, voluntariamente',
+          'Pena REDUZIDA de 1/3 a 2/3'
+        ]},
+
+        { type: 'h', text: 'Crime impossível (CP 17)' },
+        { type: 'p', text: 'Tentativa por meio absolutamente INIDÔNEO ou objeto absolutamente IMPRÓPRIO. Não há crime. STJ Súm. 567: não se aplica em furto/roubo se há vigilância.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Iter criminis (5 fases): COGITAÇÃO · ATOS PREPARATÓRIOS · EXECUÇÃO · CONSUMAÇÃO · EXAURIMENTO.**' },
+        { type: 'box', kind: 'macete', text: '**Tentativa: redução de 1/3 a 2/3 (CP 14 § único).**' },
+        { type: 'box', kind: 'macete', text: '**Desistência voluntária + Arrependimento eficaz (CP 15) = NÃO há tentativa, agente responde pelos atos praticados.**' },
+        { type: 'box', kind: 'macete', text: '**Arrependimento posterior (CP 16): só crimes SEM violência, antes da denúncia, redução 1/3 a 2/3.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Atos preparatórios em regra NÃO são puníveis (cogitationis poenam nemo patitur).**' },
+        { type: 'box', kind: 'atencao', text: '**Crimes culposos NÃO admitem tentativa (em regra).**' },
+        { type: 'box', kind: 'atencao', text: '**Arrependimento posterior NÃO se aplica a crimes com violência/grave ameaça.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 3 (fato típico):** tentativa pressupõe início da execução.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8 (penas):** redução pela tentativa influencia a dosimetria.' }
+      ]
+    }
+  ] },
+  { id: 'penal-07-concurso-pessoas-crimes', num: 7, materia: 'penal', title: 'Concurso de pessoas e concurso de crimes', edital: '2.1.7', editalText: 'Autoria, coautoria, participação. Concurso material, formal, continuado.', size: 'Médio', schedule: 'Mês 11-12', advantage: null, outline: ['Concurso de pessoas (CP arts. 29-31) — teoria monista', 'Autoria (imediata, mediata, intelectual, colateral)', 'Coautoria e participação', 'Cooperação dolosamente distinta (CP art. 29 § 2º)', 'Concurso material (CP art. 69)', 'Concurso formal (CP art. 70)', 'Crime continuado (CP art. 71)', 'Crime continuado específico (parágrafo único)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico técnico que cobre duas disciplinas distintas: (i) **CONCURSO DE PESSOAS** (multiplicidade de agentes em um crime — CP arts. 29-31); (ii) **CONCURSO DE CRIMES** (multiplicidade de crimes praticados pelo mesmo agente — CP arts. 69-71).' }
+      ]
+    },
+    {
+      h: 'Concurso de pessoas (CP 29-31)',
+      items: [
+        { type: 'h', text: 'Teoria MONISTA (regra)' },
+        { type: 'p', text: 'Quem concorre para o crime incide nas penas a este cominadas, na medida de sua CULPABILIDADE (CP 29). REGRA: TODOS respondem pelo MESMO crime, com penas individualizadas.' },
+
+        { type: 'h', text: 'Tipos de autoria' },
+        { type: 'list', items: [
+          '**IMEDIATA:** quem pratica diretamente o tipo',
+          '**MEDIATA:** usa terceiro como instrumento (ex: induz pessoa em erro)',
+          '**INTELECTUAL:** planeja sem executar diretamente (mandante)',
+          '**COLATERAL:** vários autores agem independentemente, contemporaneamente'
+        ]},
+
+        { type: 'h', text: 'Coautoria × Participação' },
+        { type: 'list', items: [
+          '**COAUTORIA:** pluralidade de autores que praticam o tipo',
+          '**PARTICIPAÇÃO:** auxílio (material, moral, psíquica) sem prática do verbo do tipo',
+          '**Pluralidade de pessoas + Pluralidade de fatos + Vínculo subjetivo + Identidade de infração** = concurso'
+        ]},
+
+        { type: 'h', text: 'Cooperação dolosamente distinta (CP 29 §2º)' },
+        { type: 'p', text: 'Se um quis crime menos grave, responde pelo MENOS GRAVE. Pena pode ser aumentada até a 1/2 se o RESULTADO mais grave for previsível.' }
+      ]
+    },
+    {
+      h: 'Concurso de crimes (CP 69-71)',
+      items: [
+        { type: 'h', text: 'Material (CP 69)' },
+        { type: 'p', text: 'Mesmo agente pratica MAIS DE UMA AÇÃO/OMISSÃO, e desses fatos resultam DOIS OU MAIS CRIMES, idênticos ou não. Penas SOMADAS (cúmulo material).' },
+
+        { type: 'h', text: 'Formal (CP 70)' },
+        { type: 'p', text: 'Uma SÓ AÇÃO ou OMISSÃO pratica DOIS OU MAIS CRIMES. Pena MAIS GRAVE com EXASPERAÇÃO de 1/6 a 1/2 (formal próprio); pena cumulada se DESÍGNIOS AUTÔNOMOS (formal impróprio — art. 70 §único).' },
+
+        { type: 'h', text: 'Continuado (CP 71)' },
+        { type: 'p', text: 'Mais de uma ação/omissão, MESMA ESPÉCIE de crime, MESMAS CONDIÇÕES (tempo, lugar, modo). Considerados COMO SE FOSSE UM SÓ. Pena UMA das penas com aumento de 1/6 a 2/3.' },
+        { type: 'p', text: '**Continuado específico (CP 71 § único):** crimes dolosos, contra vítimas DIFERENTES, com violência ou grave ameaça. Aumento maior: até o triplo.' }
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Concurso de PESSOAS: teoria MONISTA (CP 29) — todos respondem pelo MESMO crime.**' },
+        { type: 'box', kind: 'macete', text: '**Cooperação dolosamente distinta (CP 29 §2º): quem quis menos, responde pelo menos.**' },
+        { type: 'box', kind: 'macete', text: '**Concurso de CRIMES: MATERIAL (somar) · FORMAL (exasperar 1/6 a 1/2) · CONTINUADO (1/6 a 2/3).**' },
+        { type: 'box', kind: 'macete', text: '**Continuado específico (71 § único): crimes dolosos, vítimas diferentes, violência — até TRIPLO.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Teoria MONISTA — todos respondem pelo MESMO crime, na medida da culpabilidade individual.**' },
+        { type: 'box', kind: 'atencao', text: '**Concurso material: SOMA. Formal: EXASPERA. Continuado: EXASPERA com critério especial.**' },
+        { type: 'box', kind: 'atencao', text: '**Crime continuado precisa: mesma espécie + mesmas condições temporais/espaciais/modais.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8 (penas):** dosimetria afetada pelo concurso de crimes.' }
+      ]
+    }
+  ] },
+  { id: 'penal-08-penas', num: 8, materia: 'penal', title: 'Penas, dosimetria, progressão, livramento', edital: '2.1.8', editalText: 'Espécies de pena. Aplicação trifásica. Substitutiva. Progressão. Livramento. Sursis.', size: 'Grande', schedule: 'Mês 12', advantage: null, outline: ['Espécies (privativas de liberdade, restritivas de direitos, multa)', 'Aplicação da pena — método trifásico (CP art. 68)', 'Circunstâncias (judiciais, agravantes, atenuantes, causas de aumento e diminuição)', 'Penas restritivas de direitos (CP arts. 43-48)', 'Multa', 'Regimes (fechado, semiaberto, aberto)', 'Progressão de regime', 'Livramento condicional (CP arts. 83-90)', 'Sursis (CP arts. 77-82)', 'Detração e remição'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico denso e cobrado. **3 espécies de pena (CP 32):** privativa de liberdade, restritiva de direitos, multa. **Aplicação trifásica (CP 68):** pena-base · circunstâncias · causas de aumento/diminuição. **Progressão**, **livramento** e **sursis** disciplinam o cumprimento.' }
+      ]
+    },
+    {
+      h: 'Espécies e aplicação',
+      items: [
+        { type: 'h', text: '3 espécies (CP 32)' },
+        { type: 'list', items: [
+          '**PRIVATIVA DE LIBERDADE:** RECLUSÃO (regimes F/S/A) · DETENÇÃO (regimes S/A) · PRISÃO SIMPLES (contravenções)',
+          '**RESTRITIVA DE DIREITOS (CP 43-48):** prestação de serviços, interdição temporária, limitação de fim de semana, prestação pecuniária, perda de bens',
+          '**MULTA:** dia-multa (CP 49 — entre 10 e 360 dias-multa, valor entre 1/30 e 5x o SM)'
+        ]},
+
+        { type: 'h', text: 'Aplicação trifásica (CP 68)' },
+        { type: 'list', items: [
+          '**1ª FASE — PENA-BASE:** circunstâncias judiciais (CP 59 — 8 vetores: culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias, consequências, comportamento da vítima)',
+          '**2ª FASE — CIRCUNSTÂNCIAS LEGAIS:** agravantes (CP 61) e atenuantes (CP 65)',
+          '**3ª FASE — CAUSAS DE AUMENTO E DIMINUIÇÃO:** previstas em parte especial ou geral'
+        ]}
+      ]
+    },
+    {
+      h: 'Cumprimento',
+      items: [
+        { type: 'h', text: 'Regimes (CP 33)' },
+        { type: 'list', items: [
+          '**FECHADO:** estabelecimento de segurança máxima/média',
+          '**SEMIABERTO:** colônia agrícola, industrial',
+          '**ABERTO:** casa de albergado',
+          '**Critério:** quantum + reincidência'
+        ]},
+
+        { type: 'h', text: 'Progressão (CP 33 §2º + LEP)' },
+        { type: 'list', items: [
+          'REGRA GERAL: 16% (primário, crime sem violência)',
+          '20% (primário, crime com violência ou hediondo)',
+          '25% (reincidente, crime sem violência)',
+          '30% (reincidente, crime hediondo sem morte)',
+          '40% (primário, crime hediondo com morte)',
+          '50% (reincidente, crime hediondo com morte; chefe organização criminosa)',
+          '60% (reincidente, crime hediondo com morte)',
+          '70% (chefe de organização criminosa armada)',
+          'Lei 13.964/19 (Pacote Anticrime) reescreveu LEP art. 112'
+        ]},
+
+        { type: 'h', text: 'Livramento condicional (CP 83-90)' },
+        { type: 'list', items: [
+          'Após 1/3 da pena (primário) ou 1/2 (reincidente em crime doloso)',
+          'Após 2/3 (crime hediondo, primário); vedado em casos extremos',
+          'Boa conduta carcerária + reparação do dano (se possível)'
+        ]},
+
+        { type: 'h', text: 'Sursis (CP 77-82)' },
+        { type: 'list', items: [
+          'Suspensão condicional da pena',
+          'Cabe em pena privativa de liberdade NÃO superior a 2 anos',
+          'Período de prova: 2 a 4 anos',
+          'Em alguns casos, sursis ETÁRIO (maior de 70 anos) ou HUMANITÁRIO (saúde)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**3 espécies de pena (CP 32): PRIVATIVA · RESTRITIVA · MULTA.**' },
+        { type: 'box', kind: 'macete', text: '**Aplicação trifásica (CP 68): JUDICIAIS (CP 59) · LEGAIS · CAUSAS especiais.**' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime (Lei 13.964/19) reescreveu progressão.** Frações em LEP 112.' },
+        { type: 'box', kind: 'macete', text: '**Sursis: pena ≤ 2 anos, prova 2-4 anos.**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Pacote Anticrime mudou frações de progressão. Decorar números atuais.**' },
+        { type: 'box', kind: 'atencao', text: '**Reclusão admite F/S/A. Detenção: S/A (não fechado).** Diferença essencial.' },
+        { type: 'box', kind: 'atencao', text: '**Sursis cabe em pena ≤ 2 anos.** Não admite progressão (alternativa à pena privativa).' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 11 (execução penal):** LEP detalhada.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 1 (Princípios):** individualização da pena.' }
+      ]
+    }
+  ] },
   { id: 'penal-09-medidas-seguranca-acao-penal', num: 9, materia: 'penal', title: 'Medidas de segurança e ação penal', edital: '2.1.9', editalText: 'CP arts. 96-97 e 100-106. Inimputabilidade, desinternação, prazo. Ação pública e privada.', size: 'Pequeno', schedule: null, advantage: null, outline: ['Medidas de segurança (internação × tratamento ambulatorial)', 'Pressupostos e prazo', 'Desinternação progressiva e condicional', 'Ação penal pública (incondicionada e condicionada)', 'Ação penal privada (exclusiva e subsidiária)', 'Decadência, perempção, renúncia, perdão'], sections: [] },
   { id: 'penal-10-crimes-contra-pessoa', num: 10, materia: 'penal', title: 'Crimes contra a pessoa', edital: '2.1.10', editalText: 'CP arts. 121-154-A. Vida, integridade, honra, liberdade.', size: 'Grande', schedule: null, advantage: null, outline: ['Crimes contra a vida (homicídio, infanticídio, aborto)', 'Lesões corporais', 'Periclitação da vida e saúde', 'Rixa', 'Crimes contra a honra (calúnia, difamação, injúria)', 'Crimes contra a liberdade individual (constrangimento, ameaça, sequestro)', 'Crimes sexuais (Lei 12.015/09)', 'Feminicídio (Lei 13.104/15)', 'Stalking (CP art. 147-A)'], sections: [] },
   { id: 'penal-11-crimes-contra-patrimonio', num: 11, materia: 'penal', title: 'Crimes contra o patrimônio', edital: '2.1.11', editalText: 'CP arts. 155-180. Furto, roubo, latrocínio, extorsão, apropriação, estelionato, receptação.', size: 'Grande', schedule: null, advantage: null, outline: ['Furto (simples, qualificado, privilegiado)', 'Roubo (simples, qualificado, latrocínio)', 'Extorsão e extorsão mediante sequestro', 'Apropriação indébita', 'Estelionato e fraudes', 'Estelionato bancário (Lei 14.155/21)', 'Receptação', 'Imunidades penais (CP arts. 181-183)'], sections: [] },
@@ -11918,7 +12345,23 @@ flashcards: [
   { id: 520, topic: 1, materia: 'penal', q: 'Princípio da culpabilidade no Direito Penal?', a: 'Não há responsabilidade objetiva no Penal — só responde quem agir com DOLO ou CULPA. Ninguém é punido sem culpa (nullum crimen sine culpa).', tags: ['penal', 'culpabilidade'] },
   { id: 521, topic: 2, materia: 'penal', q: 'Tempo do crime × Lugar do crime?', a: 'TEMPO (CP 4º): Teoria da ATIVIDADE (momento da ação ou omissão). LUGAR (CP 6º): Teoria da UBIQUIDADE/MISTA (lugar da ação OU do resultado). NÃO confundir.', tags: ['penal', 'tempo-lugar'] },
   { id: 522, topic: 2, materia: 'penal', q: 'Lei intermediária — aplica-se?', a: 'SIM, se for a MAIS BENÉFICA. Princípio da retroatividade da lei mais favorável ao réu. Aplicação direta de qualquer das três (anterior, intermediária, posterior) que beneficiar.', tags: ['penal', 'lei-temporal', 'lex-mitior'] },
-  { id: 523, topic: 2, materia: 'penal', q: 'Conflito aparente de normas — 4 critérios?', a: 'ESPECIALIDADE · SUBSIDIARIEDADE · CONSUNÇÃO · ALTERNATIVIDADE. Esp: especial sobre geral. Sub: subsidiária se principal não couber. Con: maior absorve menor. Alt: mutuamente excludentes.', tags: ['penal', 'conflito-normas'] }
+  { id: 523, topic: 2, materia: 'penal', q: 'Conflito aparente de normas — 4 critérios?', a: 'ESPECIALIDADE · SUBSIDIARIEDADE · CONSUNÇÃO · ALTERNATIVIDADE. Esp: especial sobre geral. Sub: subsidiária se principal não couber. Con: maior absorve menor. Alt: mutuamente excludentes.', tags: ['penal', 'conflito-normas'] },
+
+  // === Cards Rodada 10 — Penal 3-8 ===
+  { id: 524, topic: 3, materia: 'penal', q: 'Conceito analítico de crime (finalismo)?', a: 'TRIPARTITE: FATO TÍPICO + ANTIJURÍDICO + CULPÁVEL. Welzel + dominante na doutrina e jurisprudência brasileiras.', tags: ['penal', 'conceito-crime'] },
+  { id: 525, topic: 3, materia: 'penal', q: 'Tipicidade — 3 dimensões?', a: 'FORMAL (subsunção do fato à norma) · MATERIAL (lesão a bem jurídico — princípio da lesividade) · CONGLOBANTE (Zaffaroni — antinormatividade considerando todo o ordenamento).', tags: ['penal', 'tipicidade'] },
+  { id: 526, topic: 3, materia: 'penal', q: 'Dolo eventual × Culpa consciente?', a: 'DOLO EVENTUAL: agente ASSUME O RISCO do resultado (assentir, "que se dane"). CULPA CONSCIENTE: agente prevê o resultado mas CONFIA na não ocorrência. Diferença sutil mas crucial.', tags: ['penal', 'dolo-culpa'] },
+  { id: 527, topic: 4, materia: 'penal', q: '4 excludentes legais de antijuridicidade (CP 23)?', a: 'ESTADO DE NECESSIDADE (CP 24) · LEGÍTIMA DEFESA (CP 25) · ESTRITO CUMPRIMENTO DE DEVER LEGAL · EXERCÍCIO REGULAR DE DIREITO. + Consentimento do ofendido (supralegal).', tags: ['penal', 'excludentes'] },
+  { id: 528, topic: 4, materia: 'penal', q: 'Excesso na excludente (CP 23 § único)?', a: 'Se o agente, em qualquer das hipóteses, EXCEDER os limites — DOLOSAMENTE ou CULPOSAMENTE — responderá pelo EXCESSO. Não há mais excludente.', tags: ['penal', 'excesso'] },
+  { id: 529, topic: 5, materia: 'penal', q: '3 elementos da culpabilidade (teoria normativa pura)?', a: 'IMPUTABILIDADE · POTENCIAL CONSCIÊNCIA DA ILICITUDE · EXIGIBILIDADE de conduta diversa. Falta de qualquer = exclui culpabilidade.', tags: ['penal', 'culpabilidade'] },
+  { id: 530, topic: 5, materia: 'penal', q: 'Erro de tipo × Erro de proibição?', a: 'TIPO (CP 20): erro sobre FATO (elementar do tipo) — exclui DOLO. PROIBIÇÃO (CP 21): erro sobre LEI (existência ou interpretação) — exclui CULPABILIDADE. Distinção essencial.', tags: ['penal', 'erro'] },
+  { id: 531, topic: 6, materia: 'penal', q: '5 fases do iter criminis?', a: 'COGITAÇÃO · ATOS PREPARATÓRIOS · EXECUÇÃO · CONSUMAÇÃO · EXAURIMENTO. Cogitação NÃO é punível.', tags: ['penal', 'iter-criminis'] },
+  { id: 532, topic: 6, materia: 'penal', q: 'Tentativa (CP 14 II) — pena?', a: 'Redução de 1/3 a 2/3, conforme proximidade da consumação. Crimes que NÃO admitem: culposos (em regra), habituais, omissivos próprios, unissubsistentes, contravenções.', tags: ['penal', 'tentativa'] },
+  { id: 533, topic: 6, materia: 'penal', q: 'Desistência voluntária × Arrependimento eficaz × Arrependimento posterior?', a: 'DESISTÊNCIA (CP 15): durante a execução. ARREPENDIMENTO EFICAZ (CP 15): após a execução, IMPEDE o resultado. POSTERIOR (CP 16): após CONSUMADO, antes da denúncia, sem violência, REPARA — redução 1/3 a 2/3.', tags: ['penal', 'arrependimento'] },
+  { id: 534, topic: 7, materia: 'penal', q: 'Concurso de pessoas — teoria adotada?', a: 'TEORIA MONISTA (CP 29). Quem concorre para o crime incide nas penas a ele cominadas, na medida da CULPABILIDADE individual. Todos respondem pelo MESMO crime.', tags: ['penal', 'concurso-pessoas'] },
+  { id: 535, topic: 7, materia: 'penal', q: 'Concurso de crimes — modalidades?', a: 'MATERIAL (CP 69): mais de uma ação, vários crimes — SOMA. FORMAL (CP 70): uma ação, vários crimes — EXASPERAÇÃO 1/6 a 1/2. CONTINUADO (CP 71): mesma espécie + condições — exasperação 1/6 a 2/3.', tags: ['penal', 'concurso-crimes'] },
+  { id: 536, topic: 8, materia: 'penal', q: 'Aplicação da pena — método trifásico (CP 68)?', a: '1ª FASE: pena-base (CP 59 — 8 circunstâncias judiciais). 2ª FASE: agravantes/atenuantes (CP 61, 65). 3ª FASE: causas de aumento/diminuição (parte geral e especial).', tags: ['penal', 'dosimetria'] },
+  { id: 537, topic: 8, materia: 'penal', q: 'Progressão de regime — Pacote Anticrime?', a: 'Lei 13.964/19 reescreveu LEP art. 112. Frações: 16% (primário sem violência) · 20% (primário com violência ou hediondo) · 25% (reincidente sem violência) · 30%, 40%, 50%, 60%, 70% (gradação por tipo de crime e reincidência).', tags: ['penal', 'progressao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -14496,6 +14939,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'CP arts. 4º e 6º. (A) Falso — atividade (não resultado). (B) Falso — ubiquidade (não atividade). (D) Falso — STF VEDA combinatio legis (RE 596.152, 2011). (E) Falso — lei intermediária aplicável se mais benéfica (lex mitior).'
+  },
+
+  // === Questões Rodada 10 — Penal 3-8 ===
+  {
+    id: 185, topic: 3, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a teoria do crime e o fato típico:',
+    alternatives: [
+      'O conceito analítico de crime, conforme o finalismo (Welzel), é BIPARTITE — fato típico e antijurídico.',
+      'O dolo eventual ocorre quando o agente prevê o resultado mas confia em sua não ocorrência.',
+      'A tipicidade conglobante (Zaffaroni) exige a análise da antinormatividade no contexto do ordenamento jurídico, excluindo a tipicidade quando o fato, embora aparentemente típico, é determinado ou autorizado por outra norma.',
+      'O erro de tipo essencial NÃO afeta o dolo e admite punição plena.',
+      'O nexo causal no Direito Penal brasileiro é regido exclusivamente pela teoria da equivalência das condições, sem qualquer correção.'
+    ],
+    correct: 'C',
+    explanation: 'Doutrina de Zaffaroni. (A) Falso — TRIPARTITE (fato típico + antijurídico + culpável). (B) Falso — culpa consciente (não dolo eventual). (D) Falso — erro de tipo essencial EXCLUI o dolo. (E) Falso — corrigida pela imputação objetiva (Roxin).'
+  },
+  {
+    id: 186, topic: 4, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre as excludentes de antijuridicidade (CP art. 23):',
+    alternatives: [
+      'O Brasil adota a teoria DIFERENCIADA do estado de necessidade, admitindo o sacrifício de bem maior em prol de bem menor.',
+      'A legítima defesa exige agressão JUSTA, atual ou iminente, e meios necessários.',
+      'O excesso na excludente, doloso ou culposo, descaracteriza a justificação, e o agente responde pelo excesso (CP 23 § único).',
+      'O consentimento do ofendido é causa expressa de justificação no CP, não havendo causas supralegais.',
+      'O Pacote Anticrime (Lei 13.964/19) revogou a legítima defesa para agentes de segurança pública.'
+    ],
+    correct: 'C',
+    explanation: 'CP 23 § único. (A) Falso — Brasil adota teoria UNITÁRIA (bem sacrificado deve ser menor ou igual). (B) Falso — agressão INJUSTA. (D) Falso — consentimento é supralegal. (E) Falso — Pacote Anticrime AMPLIOU a LD para segurança pública.'
+  },
+  {
+    id: 187, topic: 5, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre a culpabilidade:',
+    alternatives: [
+      'A embriaguez voluntária ou culposa exclui a imputabilidade, conforme regra geral do CP art. 28.',
+      'O erro de tipo (CP art. 20) é equivalente ao erro de proibição (CP art. 21), ambos excluindo o dolo.',
+      'A culpabilidade, na teoria normativa pura adotada pelo finalismo, possui três elementos: imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.',
+      'A coação física irresistível exclui a culpabilidade, e não a conduta.',
+      'O menor de 18 anos, autor de ato infracional grave, é imputável conforme regra geral.'
+    ],
+    correct: 'C',
+    explanation: 'Teoria normativa pura (Welzel). (A) Falso — embriaguez voluntária/culposa NÃO exclui (CP 28 II — actio libera in causa). (B) Falso — tipo exclui DOLO; proibição exclui CULPABILIDADE. (D) Falso — coação física irresistível exclui CONDUTA (não chega à culpabilidade). (E) Falso — menor de 18 é INIMPUTÁVEL (CF 228).'
+  },
+  {
+    id: 188, topic: 6, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Acerca do iter criminis e da tentativa:',
+    alternatives: [
+      'Os atos preparatórios são, em regra, puníveis no Direito Penal brasileiro.',
+      'A tentativa é punida com a mesma pena do crime consumado.',
+      'A desistência voluntária e o arrependimento eficaz (CP 15) afastam a tentativa, respondendo o agente apenas pelos atos já praticados, se constituírem crime autônomo.',
+      'O arrependimento posterior (CP 16) aplica-se a todos os crimes, inclusive os com violência ou grave ameaça.',
+      'O crime impossível (CP 17) gera responsabilidade penal por tentativa imprópria.'
+    ],
+    correct: 'C',
+    explanation: 'CP 15 (ponte de ouro). (A) Falso — atos preparatórios em regra NÃO são puníveis. (B) Falso — pena REDUZIDA de 1/3 a 2/3 (CP 14 § único). (D) Falso — só crimes SEM violência ou grave ameaça. (E) Falso — crime impossível NÃO gera responsabilidade.'
+  },
+  {
+    id: 189, topic: 7, materia: 'penal', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o concurso de pessoas e crimes:',
+    alternatives: [
+      'O CP brasileiro adota, como regra, a teoria PLURALISTA do concurso de pessoas, segundo a qual cada concorrente responde por crime distinto.',
+      'No concurso material (CP 69), as penas são EXASPERADAS (acrescidas de fração), e não somadas.',
+      'O CP brasileiro adota a teoria MONISTA (CP 29) — quem concorre para o crime incide nas penas a este cominadas, na medida da culpabilidade individual; o concurso material (CP 69) determina a SOMA das penas, enquanto o concurso formal (CP 70) determina exasperação de 1/6 a 1/2.',
+      'O crime continuado (CP 71) só se aplica a crimes contra o mesmo bem jurídico e contra a mesma vítima.',
+      'A cooperação dolosamente distinta (CP 29 §2º) responsabiliza o partícipe pelo crime mais grave, ainda que tenha querido o menos grave.'
+    ],
+    correct: 'C',
+    explanation: 'CP 29, 69, 70, 71. (A) Falso — Brasil adota MONISTA. (B) Falso — material é SOMA. (D) Falso — continuado pode ser entre vítimas diferentes (formal específico — § único). (E) Falso — quem quis menos responde pelo MENOS grave (CP 29 §2º).'
+  },
+  {
+    id: 190, topic: 8, materia: 'penal', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca das penas e dosimetria:',
+    alternatives: [
+      'O CP adota o método BIFÁSICO de aplicação da pena, considerando apenas a pena-base e as circunstâncias legais.',
+      'A reclusão admite os regimes fechado, semiaberto e aberto; a detenção admite os mesmos regimes.',
+      'O Código Penal adota o método TRIFÁSICO (CP art. 68) — pena-base (com base nas 8 circunstâncias do art. 59), circunstâncias legais (agravantes e atenuantes) e causas de aumento e diminuição; o Pacote Anticrime (Lei 13.964/19) reescreveu as frações da progressão de regime na LEP art. 112.',
+      'O sursis cabe em pena privativa de liberdade não superior a 4 anos, com período de prova de 5 anos.',
+      'O livramento condicional para crimes hediondos é admitido com 1/3 de cumprimento da pena.'
+    ],
+    correct: 'C',
+    explanation: 'CP art. 68 + Lei 13.964/19. (A) Falso — método TRIFÁSICO. (B) Falso — detenção NÃO admite fechado (só semiaberto e aberto). (D) Falso — sursis: pena ≤ 2 anos, prova 2-4 anos. (E) Falso — hediondo: 2/3 (primário); reincidente em hediondo: vedado.'
   }
 ],
 
