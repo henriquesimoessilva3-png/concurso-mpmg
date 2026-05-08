@@ -1,6 +1,6 @@
 # HANDOFF — Projeto Concurso MPMG
 
-> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-07 (após Blocos 18-23).
+> Documento para retomar o trabalho em um novo chat. Atualizado em 2026-05-08 (após Rodada 3 — MP 100%).
 
 ## Como abrir o próximo chat
 
@@ -48,14 +48,14 @@ Projeto Concurso/
 
 ## Conteúdo embutido em `assets/data.js`
 
-- **47 tópicos com CONTEÚDO COMPLETO**: 30 PC (Fase 1 + 2) + 17 Civil (Fase 3) com sinopse Juspodivm-like
-- **96 esqueletos prontos** distribuídos em 9 matérias (12 const, 12 adm, 8 elei, 10 trib, 8 mp, 14 penal, 12 pp, 12 colmat, 8 colproc) — cada um com `outline[]` e `editalText` preenchidos. Falta apenas escrever `sections: []`.
+- **65 tópicos com CONTEÚDO COMPLETO**: 30 PC (Fase 1 + 2) + 17 Civil (Fase 3) + 8 ColProc (100%) + 8 Teoria do MP (100%) + 2 ColMat (DH, ECA) com sinopse Juspodivm-like
+- **78 esqueletos prontos** distribuídos em 8 matérias (12 const, 12 adm, 8 elei, 10 trib, 14 penal, 12 pp, 10 colmat) — cada um com `outline[]` e `editalText` preenchidos. Falta apenas escrever `sections: []`.
 - **Total: 143 tópicos** em 11 matérias.
 - **Estrutura por tópico (preenchido):** Foco central · Lei seca anotada · Pontos críticos para prova · Macetes/mnemônicos · Pegadinhas de prova · Conexões com outros tópicos
 - **Renderização suporta blocos tipados** (`p`, `h`, `list`, `table`, `box` com kinds `macete`/`jurisprudencia`/`atencao`/`conexao`/`info`)
-- **287 flashcards** (164 PC + 84 Civil + reforços PC e Civil)
-- **115 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
-- **63 súmulas STF/STJ** mapeadas por tópico — algumas já cobrem matérias novas (Penal, Tributário, P. Penal, Adm.) via campo `materia`
+- **397 flashcards** (164 PC + 84 Civil + 149 das demais matérias com vantagem da candidata e reforços)
+- **148 questões simuladas** com gabarito comentado, estilo IBGP/MPMG
+- **88 súmulas STF/STJ** mapeadas por tópico — distribuídas em 8 matérias via campo `materia`
 - **Doutrina recomendada** + **cronograma macro** (7 fases) + **Fase 1 / 2 / 3 detalhadas** (5 / 2 / 4 meses)
 - Campo `materia` em todas as 11 chaves (`pc`, `civil`, `const`, `adm`, `elei`, `trib`, `mp`, `penal`, `pp`, `colmat`, `colproc`) — ausente = `'pc'`
 - Quick check inline em `topicos.html` filtra flashcards/questões por matéria E tópico
@@ -94,17 +94,17 @@ CSS em `assets/style.css` define `.content-table`, `.content-box`, `.box-{kind}`
 
 Cada matéria tem N tópicos com `sections: []` esperando conteúdo. A candidata pode escolher uma matéria onde tem vantagem (Material e Processual Coletivo, Teoria do MP) ou uma matéria fraca (Tributário, Eleitoral). Outras pessoas podem atacar áreas em paralelo via PR.
 
-| Matéria | Tópicos esqueleto |
+| Matéria | Esqueletos restantes |
 |---------|-------------------|
 | Constitucional | 12 |
 | Administrativo | 12 |
 | Eleitoral | 8 |
 | Tributário/Financeiro | 10 |
-| Teoria do MP | 8 |
+| ~~Teoria do MP~~ | ✅ 0 (100% completo) |
 | Penal/Criminologia | 14 |
 | Processo Penal | 12 |
-| Material Coletivo | 12 |
-| Processual Coletivo | 8 |
+| Material Coletivo | 10 (de 12 — colmat-01 e 02 prontos) |
+| ~~Processual Coletivo~~ | ✅ 0 (100% completo) |
 
 Padrão para preencher: ver `assets/data.js:11-113` (PC 1) ou `assets/data.js:5076-5200` (Civ 11). Estrutura: `Foco central · Lei seca · Pontos críticos · Macetes · Pegadinhas · Conexões`.
 
@@ -176,23 +176,37 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #6** (92cf09b) — Compartilhamento: esqueletos das 9 áreas (+96 tópicos), filtro de matéria no hub, CONTRIBUTING.md, +15 súmulas, +20 cards, +10 questões, TOC interno
 - **PR #7** (957c236) — Segunda passada: +25 súmulas (Const./Adm./Penal/PP/Coletivo), +25 cards, +12 questões, filtro de matéria em `referencia.html`, ACP (colproc-02) preenchida como demo
 - **PR #8** (4ff7f07) — Vantagens da candidata: 6 esqueletos preenchidos (3 Teoria do MP + 3 Processual Coletivo), +27 cards e +6 questões.
-- **PR #9** (este) — Rodada 2: ColProc 100% completo (4 esqueletos restantes — MS Coletivo, MI/ADPF, coisa julgada, SIDH) + 2 ColMat (DH e ECA). +27 cards e +6 questões. Total: 60 preenchidos.
+- **PR #9** — Rodada 2: ColProc 100% completo (4 esqueletos restantes — MS Coletivo, MI/ADPF, coisa julgada, SIDH) + 2 ColMat (DH e ECA). +27 cards e +6 questões. Total: 60 preenchidos.
+- **PR #10** (este) — Rodada 3: **Teoria do MP 100% COMPLETA** (5 esqueletos restantes — mp-01 histórico, mp-04 CNMP, mp-05 LC 75/93 MPU, mp-06 LC 34/94 MPMG, mp-08 atuação extrajudicial). +25 cards e +6 questões. Total: **65 preenchidos**.
 
 ## Stats atuais
 
-- **143 tópicos** (**60 com conteúdo** + 83 esqueletos com outline)
-- **372 flashcards**
-- **142 questões** com gabarito comentado
+- **143 tópicos** (**65 com conteúdo** + 78 esqueletos com outline)
+- **397 flashcards**
+- **148 questões** com gabarito comentado
 - **88 súmulas** STF/STJ mapeadas, distribuídas em 8 matérias via campo `materia`
-- ~9.300 linhas em `assets/data.js`
+- ~10.500 linhas em `assets/data.js`
 
-### Tópicos preenchidos (60)
+### Tópicos preenchidos (65)
 
 - **Processo Civil 1-30** (30) — Fase 1 e Fase 2 completas
 - **Direito Civil 1-17** (17) — Fase 3 completa
 - **Processual Coletivo 1-8** (8) — **100% COMPLETO**: microssistema, ACP, Ação Popular, MS Coletivo, MI/ADPF, TAC/extrajudicial, coisa julgada coletiva, SIDH
-- **Teoria do MP** (3 de 8): princípios (mp-02), garantias/vedações (mp-03), atribuições (mp-07). Faltam: mp-01, 04, 05, 06, 08
+- **Teoria do MP 1-8** (8) — **100% COMPLETO**: histórico (mp-01), princípios (mp-02), garantias/vedações (mp-03), CNMP (mp-04), LC 75/93 MPU (mp-05), LC 34/94 MPMG (mp-06), atribuições constitucionais (mp-07), atuação extrajudicial (mp-08)
 - **Material Coletivo** (2 de 12): direitos humanos (colmat-01), ECA (colmat-02). Faltam: colmat-03 a 12
+
+### Próxima rodada sugerida (Rodada 4)
+
+Continuar Material Coletivo — 6 tópicos (colmat-03 a 08): saúde, consumidor, meio ambiente, idoso, PCD, educação. Vantagem indireta da candidata (Analista MP atua nessas áreas via ACP/IC).
+
+Roadmap restante:
+1. Rodada 4 — ColMat saúde/consumidor/meio ambiente/idoso/PCD/educação (6)
+2. Rodada 5 — ColMat patrimônio público/probidade/ordem econômica/urbanístico (4) + iniciar Constitucional
+3. Rodadas 6-8 — Constitucional (12 tópicos)
+4. Rodadas 9-11 — Administrativo (12)
+5. Rodadas 12+ — Penal (14), PP (12), Eleitoral (8), Tributário (10)
+
+Em ~12-14 chats deste tamanho, todos os 78 esqueletos restantes ficam preenchidos.
 
 ## Memória persistente do Claude Code
 
