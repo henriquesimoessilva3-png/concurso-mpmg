@@ -197,14 +197,15 @@ Chaves usadas (prefixo `concurso-mpmg-`):
 - **PR #23** (closed, superseded por #24) — Rodada 16: **Tributário 100% completo** (trib-05 Crédito tributário, trib-06 Adm. tributária, trib-07 Execução fiscal, trib-08 Reforma EC 132/23, trib-09 Direito Financeiro/LRF, trib-10 Crimes tributários). +14 cards e +6 questões.
 - **PR #24** (FECHAMENTO 100%, mergeado em 2026-05-08) — Consolidação em main: PRs #11-23 estavam empilhados em stack; após merge do #10 com `--delete-branch`, GitHub auto-fechou #11 e os demais ficaram órfãos. Branch da Rodada 16 foi rebaseada sobre main (descartando commit duplicado da Rodada 3) e mergeada via fast-forward, preservando os 13 commits originais (Rodadas 4-16). PRs #11-23 fechados sem merge (conteúdo já em main). Total: **143 preenchidos (100%)**.
 
-## Stats finais (PROJETO COMPLETO + REFORÇO)
+## Stats finais (PROJETO COMPLETO + REFORÇOS B e C)
 
 - **143 / 143 tópicos** (**100% COM CONTEÚDO**) ✅
-- **653 flashcards** (+32 no reforço)
-- **236 questões** com gabarito comentado (+10 no reforço)
-- **88 súmulas** STF/STJ
+- **668 flashcards** (+47 nos reforços B+C)
+- **241 questões** com gabarito comentado (+15 nos reforços B+C)
+- **100 súmulas** STF/STJ (+12 no reforço C — todas Tributárias)
 - ~40.000+ linhas em `assets/data.js`
-- **Reforço de densidade aplicado em 19 tópicos magros** (Trib 7 · Elei 4 · PP 4 · Penal 3 · Adm 1) — adicionadas seções "Pontos críticos para prova" + "Pegadinhas de prova" com jurisprudência consolidada (Súm STF/STJ, RE de tema, AP) — densidade subiu de ~3k chars/tópico para 6-10k chars/tópico
+- **Reforço B (19 tópicos magros)**: Trib 7 · Elei 4 · PP 4 · Penal 3 · Adm 1 — adicionadas seções "Pontos críticos para prova" + "Pegadinhas de prova" com jurisprudência consolidada — densidade subiu de ~3k chars/tópico para 6-10k chars/tópico
+- **Reforço C (Tributário profundo)**: +12 súmulas Trib (SV 24/31/41/50/52/28/8 + Súm 360/393/414/430/435 STJ), +15 cards Trib específicos (decadência/prescrição, ISS, ITBI, ITCMD STF Tema 825, IR generalidade/universalidade, IPTU, MS+compensação Súm 213, lançamento, dação, EC 132 transição), +5 questões Trib avançadas
 
 ### Tópicos preenchidos (143 — 100%)
 
