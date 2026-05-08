@@ -10242,12 +10242,401 @@ topics: [
       ]
     }
   ] },
-  { id: 'pp-07-prisao-cautelares', num: 7, materia: 'pp', title: 'Prisão e medidas cautelares', edital: '2.2.7', editalText: 'CPP arts. 282-350. Lei 12.403/11. Lei 13.964/19. Audiência de custódia.', size: 'Grande', schedule: null, advantage: null, outline: ['Prisão em flagrante', 'Prisão temporária (Lei 7.960/89)', 'Prisão preventiva (CPP arts. 311-316)', 'Audiência de custódia (CPP art. 310)', 'Liberdade provisória', 'Medidas cautelares diversas (CPP art. 319)', 'Reanálise periódica (CPP art. 316 § único)'], sections: [] },
-  { id: 'pp-08-procedimentos', num: 8, materia: 'pp', title: 'Procedimentos comum e especiais', edital: '2.2.8', editalText: 'Ordinário, sumário, sumaríssimo. Especiais. Citação e defesa preliminar.', size: 'Grande', schedule: null, advantage: null, outline: ['Procedimento comum (ordinário, sumário, sumaríssimo)', 'Citação (real, hora certa, edital)', 'Resposta à acusação (CPP art. 396)', 'Audiência de instrução e julgamento', 'Procedimentos especiais (júri, crimes funcionais, drogas, JECrim)'], sections: [] },
-  { id: 'pp-09-tribunal-juri', num: 9, materia: 'pp', title: 'Tribunal do Júri', edital: '2.2.9', editalText: 'CPP arts. 406-497. Procedimento bifásico (judicium accusationis e causae).', size: 'Médio', schedule: null, advantage: null, outline: ['Princípios constitucionais (CF art. 5º XXXVIII)', 'Competência (crimes dolosos contra a vida)', 'Judicium accusationis — pronúncia, impronúncia, absolvição sumária, desclassificação', 'Preparação para o plenário', 'Sessão de julgamento', 'Quesitação', 'Recursos (apelação, protesto por novo júri — extinto)'], sections: [] },
-  { id: 'pp-10-sentenca-recursos-impugnacoes', num: 10, materia: 'pp', title: 'Sentença, recursos e ações de impugnação', edital: '2.2.10', editalText: 'Sentença e seus efeitos. Recursos do CPP. HC, RvC, MS criminal.', size: 'Grande', schedule: null, advantage: null, outline: ['Sentença (absolutória, condenatória, terminativa)', 'Efeitos da condenação (CP arts. 91-92)', 'Princípios recursais', 'Recursos em espécie (apelação, RESE, agravo, embargos, especial, extraordinário)', 'Habeas corpus (CPP arts. 647-667)', 'Revisão criminal (CPP arts. 621-631)', 'Mandado de segurança em matéria penal'], sections: [] },
-  { id: 'pp-11-execucao-penal', num: 11, materia: 'pp', title: 'Execução penal (LEP)', edital: '2.2.11', editalText: 'Lei 7.210/84. Direitos e deveres do preso. Progressão. Livramento. Falta grave.', size: 'Grande', schedule: null, advantage: null, outline: ['Princípios da execução penal', 'Órgãos da execução (juízo, MP, Conselho, etc.)', 'Direitos e deveres do preso', 'Trabalho e remição', 'Progressão de regime (LEP art. 112 — Lei 13.964/19)', 'Livramento condicional', 'Faltas (leves, médias, graves)', 'RDD (Regime Disciplinar Diferenciado)', 'Súmulas Vinculantes 26 e 56'], sections: [] },
-  { id: 'pp-12-leis-especiais', num: 12, materia: 'pp', title: 'Leis especiais (Org. Criminosa, Drogas, JECrim, Maria da Penha)', edital: '2.2.12', editalText: 'Procedimentos especiais. Colaboração premiada. Audiência una.', size: 'Grande', schedule: null, advantage: null, outline: ['Lei 12.850/13 — Org. Criminosa (procedimento, colaboração premiada, ações controladas)', 'Lei 11.343/06 — Drogas (procedimento)', 'Lei 9.099/95 — JECrim (transação, suspensão condicional do processo)', 'Lei 11.340/06 — Maria da Penha (medidas protetivas)', 'Lei 9.296/96 — Interceptação telefônica', 'Pacote Anticrime — alterações processuais'], sections: [] },
+  { id: 'pp-07-prisao-cautelares', num: 7, materia: 'pp', title: 'Prisão e medidas cautelares', edital: '2.2.7', editalText: 'CPP arts. 282-350. Lei 12.403/11. Lei 13.964/19. Audiência de custódia.', size: 'Grande', schedule: 'Mês 13-14', advantage: null, outline: ['Prisão em flagrante', 'Prisão temporária (Lei 7.960/89)', 'Prisão preventiva (CPP arts. 311-316)', 'Audiência de custódia (CPP art. 310)', 'Liberdade provisória', 'Medidas cautelares diversas (CPP art. 319)', 'Reanálise periódica (CPP art. 316 § único)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **PRISÃO** no Brasil é, em regra, EXCEÇÃO. CF 5º LXI: ninguém será preso senão em flagrante, por ordem escrita e fundamentada de juiz. Modalidades cautelares: flagrante, temporária, preventiva. **AUDIÊNCIA DE CUSTÓDIA** (CPP 310 — Pacote Anticrime) reforça controle. **MEDIDAS CAUTELARES DIVERSAS** (CPP 319) — alternativas à prisão.' }
+      ]
+    },
+    {
+      h: 'Modalidades de prisão',
+      items: [
+        { type: 'h', text: 'Prisão em flagrante (CPP 301-310)' },
+        { type: 'list', items: [
+          'Em qualquer caso, "estiver cometendo" ou "acabou de cometer" o crime',
+          '4 espécies: PRÓPRIO, IMPRÓPRIO (perseguido), PRESUMIDO (encontrado), DIFERIDO (delegado retarda — Lei 12.850/13)',
+          'COMUNICAÇÃO em 24h ao juiz, MP, defensoria, família',
+          'Audiência de custódia em 24h (CPP 310)'
+        ]},
+
+        { type: 'h', text: 'Prisão temporária (Lei 7.960/89)' },
+        { type: 'list', items: [
+          'Para crimes específicos (rol taxativo, art. 1º III + Lei 8.072/90 art. 2º §3º)',
+          'PRAZO: 5 dias, prorrogável por mais 5 (10 total) · CRIMES HEDIONDOS: 30 + 30 dias',
+          'Decretada na FASE INVESTIGATÓRIA · Apenas a requerimento do MP ou representação da autoridade policial'
+        ]},
+
+        { type: 'h', text: 'Prisão preventiva (CPP 311-316)' },
+        { type: 'list', items: [
+          'Pode ser decretada em qualquer fase (após o IP)',
+          '**Pressupostos:** prova da existência do crime + indícios suficientes de autoria',
+          '**Fundamentos (CPP 312):** garantia da ORDEM PÚBLICA · garantia da ORDEM ECONÔMICA · conveniência da INSTRUÇÃO CRIMINAL · APLICAÇÃO da LEI PENAL',
+          '**Pacote Anticrime — CPP 316 § único:** REANÁLISE OBRIGATÓRIA a cada 90 dias'
+        ]}
+      ]
+    },
+    {
+      h: 'Audiência de custódia e medidas cautelares diversas',
+      items: [
+        { type: 'h', text: 'Audiência de custódia (CPP 310)' },
+        { type: 'p', text: '**24 HORAS** após a prisão. Apresentação do preso ao juiz, com MP e defesa. Decisão: relaxa (ilegal), converte em preventiva (legal mas necessária), concede liberdade provisória ou aplica cautelares diversas. Marco protetivo importante.' },
+
+        { type: 'h', text: 'Medidas cautelares diversas (CPP 319)' },
+        { type: 'list', items: [
+          'COMPARECIMENTO periódico em juízo',
+          'PROIBIÇÃO de acesso a determinados lugares',
+          'PROIBIÇÃO de manter contato com determinada pessoa',
+          'PROIBIÇÃO de ausentar-se da Comarca',
+          'RECOLHIMENTO domiciliar',
+          'SUSPENSÃO do exercício de função pública',
+          'INTERNAÇÃO provisória (inimputável)',
+          'FIANÇA',
+          'MONITORAMENTO eletrônico'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Pressupostos da preventiva: PROVA do crime + INDÍCIOS de autoria.**' },
+        { type: 'box', kind: 'macete', text: '**Fundamentos (CPP 312): ORDEM PÚBLICA · ORDEM ECONÔMICA · INSTRUÇÃO · LEI PENAL.**' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime: REANÁLISE da preventiva a cada 90 DIAS (CPP 316 § único).**' },
+        { type: 'box', kind: 'macete', text: '**Audiência de CUSTÓDIA: 24h (CPP 310).** Marco protetivo.' },
+        { type: 'box', kind: 'macete', text: '**Temporária: 5+5 (regra) · 30+30 (hediondo).**' }
+      ]
+    },
+    {
+      h: 'Pegadinhas',
+      items: [
+        { type: 'box', kind: 'atencao', text: '**Reanálise da preventiva: 90 dias. Antes do Pacote Anticrime, não havia esse prazo expresso.**' },
+        { type: 'box', kind: 'atencao', text: '**Temporária: ROL TAXATIVO (Lei 7.960/89). Não cabe em qualquer crime.**' },
+        { type: 'box', kind: 'atencao', text: '**STF mudou entendimento sobre presunção de inocência (2019, ADC 43, 44, 54): execução só após trânsito em julgado.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** CF 5º LXI, LXIV, LXV.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 11 (LEP):** prisão provisória × pena.' }
+      ]
+    }
+  ] },
+  { id: 'pp-08-procedimentos', num: 8, materia: 'pp', title: 'Procedimentos comum e especiais', edital: '2.2.8', editalText: 'Ordinário, sumário, sumaríssimo. Especiais. Citação e defesa preliminar.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Procedimento comum (ordinário, sumário, sumaríssimo)', 'Citação (real, hora certa, edital)', 'Resposta à acusação (CPP art. 396)', 'Audiência de instrução e julgamento', 'Procedimentos especiais (júri, crimes funcionais, drogas, JECrim)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Os **PROCEDIMENTOS** dividem-se em COMUM (ordinário, sumário, sumaríssimo) e ESPECIAIS (Júri, crimes funcionais, drogas, JECrim, etc.). Critério: PENA MÁXIMA cominada.' }
+      ]
+    },
+    {
+      h: 'Procedimento comum',
+      items: [
+        { type: 'list', items: [
+          '**ORDINÁRIO:** pena máxima ≥ 4 anos. CPP arts. 394-405',
+          '**SUMÁRIO:** pena máxima < 4 anos. CPP arts. 531-538',
+          '**SUMARÍSSIMO:** infrações de menor potencial ofensivo (≤ 2 anos). Lei 9.099/95 (JECrim)'
+        ]}
+      ]
+    },
+    {
+      h: 'Citação e defesa preliminar',
+      items: [
+        { type: 'list', items: [
+          '**CITAÇÃO REAL** (pessoal — CPP 351)',
+          '**CITAÇÃO POR HORA CERTA** (CPP 362 — Lei 11.719/08)',
+          '**CITAÇÃO POR EDITAL** (CPP 361)',
+          '**RESPOSTA À ACUSAÇÃO** (CPP 396 — pelo defensor, em 10 dias). Permite preliminares e mérito',
+          '**AUDIÊNCIA UNA** (CPP 400 — Pacote Anticrime): instrução em uma audiência'
+        ]}
+      ]
+    },
+    {
+      h: 'Procedimentos especiais',
+      items: [
+        { type: 'list', items: [
+          '**JÚRI** (CPP 406-497): crimes dolosos contra a vida',
+          '**CRIMES FUNCIONAIS** (CPP 513-518): defesa preliminar',
+          '**DROGAS** (Lei 11.343/06)',
+          '**JECrim** (Lei 9.099/95): transação penal, suspensão condicional do processo',
+          '**Maria da Penha** (Lei 11.340/06): rito específico'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Procedimento comum: ORDINÁRIO (≥4) · SUMÁRIO (<4) · SUMARÍSSIMO (≤2 — JECrim).** Pela pena máxima.' },
+        { type: 'box', kind: 'macete', text: '**Pacote Anticrime: AUDIÊNCIA UNA de instrução (CPP 400).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico PP 9 (Júri):** procedimento especial bifásico.' }
+      ]
+    }
+  ] },
+  { id: 'pp-09-tribunal-juri', num: 9, materia: 'pp', title: 'Tribunal do Júri', edital: '2.2.9', editalText: 'CPP arts. 406-497. Procedimento bifásico (judicium accusationis e causae).', size: 'Médio', schedule: 'Mês 14', advantage: null, outline: ['Princípios constitucionais (CF art. 5º XXXVIII)', 'Competência (crimes dolosos contra a vida)', 'Judicium accusationis — pronúncia, impronúncia, absolvição sumária, desclassificação', 'Preparação para o plenário', 'Sessão de julgamento', 'Quesitação', 'Recursos (apelação, protesto por novo júri — extinto)'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'O **TRIBUNAL DO JÚRI** é instituição clássica do processo penal brasileiro (CF 5º XXXVIII). Competência para crimes DOLOSOS CONTRA A VIDA (homicídio, infanticídio, aborto, induzimento a suicídio). PROCEDIMENTO BIFÁSICO: judicium accusationis (pronúncia) + judicium causae (plenário).' }
+      ]
+    },
+    {
+      h: 'Princípios constitucionais (CF 5º XXXVIII)',
+      items: [
+        { type: 'list', items: [
+          'PLENITUDE da DEFESA',
+          'SIGILO das VOTAÇÕES',
+          'SOBERANIA dos VEREDICTOS',
+          'COMPETÊNCIA para crimes DOLOSOS contra a vida'
+        ]}
+      ]
+    },
+    {
+      h: 'Procedimento bifásico',
+      items: [
+        { type: 'h', text: '1ª Fase — Judicium Accusationis (CPP 406-421)' },
+        { type: 'list', items: [
+          'Decisão do juiz singular ao final da 1ª fase: PRONÚNCIA (passa para plenário) · IMPRONÚNCIA · ABSOLVIÇÃO SUMÁRIA · DESCLASSIFICAÇÃO',
+          'PRONÚNCIA: requer indícios de autoria + materialidade · NÃO pode ser excessiva (vedação à eloquência acusatória)'
+        ]},
+
+        { type: 'h', text: '2ª Fase — Judicium Causae (CPP 422-497)' },
+        { type: 'list', items: [
+          'PLENÁRIO de julgamento',
+          'Conselho de Sentença: 7 jurados',
+          'QUESITOS: votação SECRETA',
+          'Sentença pelo juiz-presidente conforme veredicto'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**4 princípios do Júri (CF 5º XXXVIII): PLENITUDE de defesa · SIGILO · SOBERANIA · COMPETÊNCIA crimes vida.**' },
+        { type: 'box', kind: 'macete', text: '**Procedimento BIFÁSICO: pronúncia → plenário.**' },
+        { type: 'box', kind: 'macete', text: '**Latrocínio NÃO é crime contra vida (Súm. 603 STF) — vai à Justiça Comum.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 10:** crimes contra a vida.' },
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 11:** latrocínio NÃO é Júri.' }
+      ]
+    }
+  ] },
+  { id: 'pp-10-sentenca-recursos-impugnacoes', num: 10, materia: 'pp', title: 'Sentença, recursos e ações de impugnação', edital: '2.2.10', editalText: 'Sentença e seus efeitos. Recursos do CPP. HC, RvC, MS criminal.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Sentença (absolutória, condenatória, terminativa)', 'Efeitos da condenação (CP arts. 91-92)', 'Princípios recursais', 'Recursos em espécie (apelação, RESE, agravo, embargos, especial, extraordinário)', 'Habeas corpus (CPP arts. 647-667)', 'Revisão criminal (CPP arts. 621-631)', 'Mandado de segurança em matéria penal'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico denso. **SENTENÇA** = ato decisório que põe fim ao processo. Pode ser ABSOLUTÓRIA, CONDENATÓRIA, TERMINATIVA. **RECURSOS:** apelação, RESE, agravo, embargos. **AÇÕES DE IMPUGNAÇÃO** (autônomas): HC, RvC (revisão criminal), MS criminal.' }
+      ]
+    },
+    {
+      h: 'Sentença e efeitos',
+      items: [
+        { type: 'list', items: [
+          'ABSOLUTÓRIA (CPP 386 — 7 incisos): inexistência do fato; não constitui crime; etc.',
+          'CONDENATÓRIA: efeitos do CP 91-92 (perda de cargo, indignidade para sucessão, etc.)',
+          'TERMINATIVA: encerra sem julgamento de mérito (extinção da punibilidade, decadência, perempção)'
+        ]}
+      ]
+    },
+    {
+      h: 'Recursos',
+      items: [
+        { type: 'h', text: 'Princípios recursais' },
+        { type: 'list', items: [
+          'TAXATIVIDADE (CPP 593-647)',
+          'UNIRRECORRIBILIDADE',
+          'FUNGIBILIDADE (CPP 579) — admite recurso errado se não há má-fé',
+          'NON REFORMATIO IN PEJUS (CPP 617): recurso da defesa não pode prejudicar'
+        ]},
+
+        { type: 'h', text: 'Recursos em espécie' },
+        { type: 'list', items: [
+          '**APELAÇÃO** (CPP 593-606): contra sentença final',
+          '**RESE — RECURSO EM SENTIDO ESTRITO** (CPP 581): contra decisões interlocutórias',
+          '**AGRAVO** em execução penal (LEP 197)',
+          '**EMBARGOS DE DECLARAÇÃO**',
+          '**ESPECIAL** (STJ) e **EXTRAORDINÁRIO** (STF)',
+          '**REVISÃO CRIMINAL** (CPP 621-631) — somente em favor do réu, após trânsito',
+          '**HC** (CPP 647-667) — proteção da liberdade'
+        ]}
+      ]
+    },
+    {
+      h: 'Ações de impugnação autônomas',
+      items: [
+        { type: 'list', items: [
+          '**HABEAS CORPUS** (CPP 647-667): liberdade de locomoção. Impugna prisão ilegal',
+          '**REVISÃO CRIMINAL** (CPP 621-631): somente PRO REO, após trânsito em julgado. Hipóteses: sentença contrária à lei, prova falsa, fato novo',
+          '**MS CRIMINAL**: contra ato judicial em matéria penal não recorrível por outra via'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**Recursos: APELAÇÃO (sentença final) · RESE (interlocutórias) · AGRAVO (execução).**' },
+        { type: 'box', kind: 'macete', text: '**Revisão criminal: SOMENTE PRO REO, após trânsito (CPP 621).**' },
+        { type: 'box', kind: 'macete', text: '**Reformatio in pejus VEDADA em recurso da defesa (CPP 617).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Const 5 (direitos fundamentais):** HC e remédios constitucionais.' }
+      ]
+    }
+  ] },
+  { id: 'pp-11-execucao-penal', num: 11, materia: 'pp', title: 'Execução penal (LEP)', edital: '2.2.11', editalText: 'Lei 7.210/84. Direitos e deveres do preso. Progressão. Livramento. Falta grave.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Princípios da execução penal', 'Órgãos da execução (juízo, MP, Conselho, etc.)', 'Direitos e deveres do preso', 'Trabalho e remição', 'Progressão de regime (LEP art. 112 — Lei 13.964/19)', 'Livramento condicional', 'Faltas (leves, médias, graves)', 'RDD (Regime Disciplinar Diferenciado)', 'Súmulas Vinculantes 26 e 56'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'A **EXECUÇÃO PENAL** (Lei 7.210/84 — LEP) disciplina o cumprimento da pena. **Pacote Anticrime (Lei 13.964/19)** reescreveu o art. 112 (progressão). Princípios: RESSOCIALIZAÇÃO, INDIVIDUALIZAÇÃO, HUMANIDADE, JURISDICIONALIDADE.' }
+      ]
+    },
+    {
+      h: 'Aspectos centrais',
+      items: [
+        { type: 'h', text: 'Órgãos da execução (LEP arts. 61-64)' },
+        { type: 'list', items: [
+          'JUÍZO da Execução · MP (atua em todos os atos) · Conselho Penitenciário · CNPC · Departamento Penitenciário · Patronato · Conselho da Comunidade · Defensoria Pública'
+        ]},
+
+        { type: 'h', text: 'Direitos do preso (LEP 41)' },
+        { type: 'list', items: [
+          'Alimentação suficiente, vestuário, atendimento médico, igualdade de tratamento, exercício profissional, contato com mundo exterior, etc.'
+        ]},
+
+        { type: 'h', text: 'Trabalho e remição' },
+        { type: 'list', items: [
+          'TRABALHO obrigatório (LEP 31). Remunerado',
+          'REMIÇÃO: 3 dias trabalhados = 1 dia de pena (art. 126). 1 dia estudo (12h em 3 dias) = 1 dia',
+          'Súmula 562 STJ: prática de falta grave INTERROMPE prazo da remição'
+        ]},
+
+        { type: 'h', text: 'Progressão (LEP 112 — Pacote Anticrime)' },
+        { type: 'list', items: [
+          '16% (primário sem violência)',
+          '20% (primário com violência ou hediondo sem morte)',
+          '25% (reincidente sem violência)',
+          '30% (reincidente em hediondo sem morte)',
+          '40% (primário em hediondo com morte)',
+          '50% (reincidente em hediondo com morte)',
+          '70% (chefe de organização criminosa armada)'
+        ]},
+
+        { type: 'h', text: 'Faltas e RDD' },
+        { type: 'list', items: [
+          'Faltas: LEVES, MÉDIAS, GRAVES (LEP 50)',
+          'GRAVE: interrompe prazo, regredir regime, perda de remição (1/3)',
+          '**RDD (Regime Disciplinar Diferenciado — LEP 52):** crime hediondo, falta grave que ponha em risco ordem ou sociedade. Até 720 dias (renováveis)',
+          'Súm. Vinculante 56 STF: falta de vagas em regime adequado autoriza prisão domiciliar'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**LEP é Lei 7.210/84. Pacote Anticrime (Lei 13.964/19) reescreveu o art. 112 (progressão).**' },
+        { type: 'box', kind: 'macete', text: '**Remição: 3:1 (trabalho) ou 12h:3 dias estudo:1 dia pena.**' },
+        { type: 'box', kind: 'macete', text: '**RDD (LEP 52): até 720 dias, renováveis. Falta grave que põe em risco a ordem.**' },
+        { type: 'box', kind: 'macete', text: '**SV 56 STF: falta de vagas autoriza domiciliar.**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 8:** dosimetria + progressão.' }
+      ]
+    }
+  ] },
+  { id: 'pp-12-leis-especiais', num: 12, materia: 'pp', title: 'Leis especiais (Org. Criminosa, Drogas, JECrim, Maria da Penha)', edital: '2.2.12', editalText: 'Procedimentos especiais. Colaboração premiada. Audiência una.', size: 'Grande', schedule: 'Mês 14', advantage: null, outline: ['Lei 12.850/13 — Org. Criminosa (procedimento, colaboração premiada, ações controladas)', 'Lei 11.343/06 — Drogas (procedimento)', 'Lei 9.099/95 — JECrim (transação, suspensão condicional do processo)', 'Lei 11.340/06 — Maria da Penha (medidas protetivas)', 'Lei 9.296/96 — Interceptação telefônica', 'Pacote Anticrime — alterações processuais'], sections: [
+    {
+      h: 'Foco central',
+      items: [
+        { type: 'p', text: 'Tópico que cobre os procedimentos especiais de leis penais com normas processuais próprias. Para o concurso: dominar JECrim (Lei 9.099/95 — transação penal, suspensão condicional do processo), Org. Criminosa (Lei 12.850/13 — colaboração premiada), Maria da Penha (rito específico, vedação ao JECrim), Lei de Drogas, Lei de Interceptação.' }
+      ]
+    },
+    {
+      h: 'JECrim (Lei 9.099/95)',
+      items: [
+        { type: 'list', items: [
+          'INFRAÇÕES de menor potencial ofensivo: contravenções + crimes com pena MÁXIMA até 2 anos',
+          '**TRANSAÇÃO PENAL (art. 76):** acordo MP-réu sobre pena restritiva ou multa, antes da denúncia',
+          '**SUSPENSÃO CONDICIONAL DO PROCESSO (art. 89 — sursis processual):** pena MÍNIMA até 1 ano. MP propõe suspensão por 2-4 anos. Réu cumpre condições. Cumprido = extingue punibilidade'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 12.850/13 — Organização Criminosa',
+      items: [
+        { type: 'list', items: [
+          'Procedimento próprio (audiência una)',
+          '**COLABORAÇÃO PREMIADA (arts. 4º-7º):** acordo, benefícios, homologação judicial',
+          '**INFILTRAÇÃO POLICIAL (10-14)**',
+          '**AÇÃO CONTROLADA**',
+          'Pacote Anticrime alterou alguns dispositivos'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 11.340/06 — Maria da Penha',
+      items: [
+        { type: 'list', items: [
+          'Violência DOMÉSTICA E FAMILIAR contra MULHER',
+          '**JECrim VEDADO** (art. 41) — não se aplica',
+          'MEDIDAS PROTETIVAS DE URGÊNCIA (arts. 22-24)',
+          'Procedimento especial nos Juizados de Violência Doméstica',
+          'Crimes em contexto doméstico têm rito ordinário, não JECrim'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 11.343/06 — Drogas',
+      items: [
+        { type: 'list', items: [
+          'TRÁFICO (33): hediondo (Lei 8.072/90)',
+          'TRÁFICO PRIVILEGIADO (33 §4º): NÃO hediondo (STF HC 118.533)',
+          'PORTE para uso (28): NÃO há prisão. Penas alternativas',
+          'Procedimento especial: arts. 50-59'
+        ]}
+      ]
+    },
+    {
+      h: 'Lei 9.296/96 — Interceptação telefônica',
+      items: [
+        { type: 'list', items: [
+          'Cláusula de RESERVA DE JURISDIÇÃO — exige autorização judicial (CF 5º XII)',
+          'Crimes punidos com RECLUSÃO',
+          'Prazo: 15 dias, prorrogáveis sucessivamente',
+          'Indispensável para a investigação criminal',
+          'Conversa criminosa flagrada não é interceptação (encontro fortuito)'
+        ]}
+      ]
+    },
+    {
+      h: 'Macetes',
+      items: [
+        { type: 'box', kind: 'macete', text: '**JECrim: até 2 anos pena máxima. Transação (76) · Sursis processual (89 — pena mínima até 1 ano).**' },
+        { type: 'box', kind: 'macete', text: '**Maria da Penha: VEDADO o JECrim (art. 41).**' },
+        { type: 'box', kind: 'macete', text: '**Interceptação telefônica: RESERVA DE JURISDIÇÃO + RECLUSÃO + 15 dias prorrogáveis.**' },
+        { type: 'box', kind: 'macete', text: '**Tráfico privilegiado NÃO é hediondo (STF HC 118.533).**' }
+      ]
+    },
+    {
+      h: 'Conexões',
+      items: [
+        { type: 'box', kind: 'conexao', text: '**Tópico Penal 13:** legislação especial (visão material).' }
+      ]
+    }
+  ] },
 
   // ============ ESQUELETOS — DIREITO MATERIAL COLETIVO (12) ============
   { id: 'colmat-01-direitos-humanos', num: 1, materia: 'colmat', title: 'Direitos humanos e fundamentais', edital: '4.1.1', editalText: 'Tratados internacionais de DH. Sistemas global e interamericano. CF/88.', size: 'Médio', schedule: 'Mês 6 — vantagem da candidata', advantage: null, outline: ['Conceito e dimensões dos direitos humanos', 'Sistema global (ONU)', 'Sistema interamericano (CIDH, Corte IDH)', 'Tratados internacionais e CF (art. 5º §§ 2º, 3º)', 'Mínimo existencial e reserva do possível', 'Eficácia dos direitos fundamentais'], sections: [
@@ -13191,7 +13580,23 @@ flashcards: [
   { id: 562, topic: 5, materia: 'pp', q: 'STF AP 937 — foro por prerrogativa?', a: 'Foro por prerrogativa de função RESTRINGIDO a crimes praticados DURANTE e EM RAZÃO do cargo. Antes da AP 937 (2018), foro era amplo. Mudança de paradigma.', tags: ['pp', 'foro-prerrogativa'] },
   { id: 563, topic: 6, materia: 'pp', q: 'Provas ilícitas — CF 5º LVI + CPP 157?', a: 'INADMISSÍVEIS. Devem ser DESENTRANHADAS. Frutos da árvore envenenada (provas derivadas) também são ilícitas. EXCEÇÕES: descoberta inevitável · fonte independente · atenuação do nexo.', tags: ['pp', 'provas-ilicitas'] },
   { id: 564, topic: 6, materia: 'pp', q: 'Sistema brasileiro de valoração da prova?', a: 'LIVRE CONVENCIMENTO MOTIVADO (persuasão racional — CPP 155). Juiz é livre para apreciar a prova, mas DEVE FUNDAMENTAR sua decisão. Não há prova com valor predeterminado (salvo exceções como exame de corpo de delito).', tags: ['pp', 'valoracao-prova'] },
-  { id: 565, topic: 6, materia: 'pp', q: 'Colaboração premiada — natureza?', a: 'MEIO DE OBTENÇÃO de prova (não meio de prova autônomo — STF). Lei 12.850/13. Acordo MP × réu, com benefícios (perdão, redução, substituição). Homologação judicial obrigatória.', tags: ['pp', 'colaboracao-premiada'] }
+  { id: 565, topic: 6, materia: 'pp', q: 'Colaboração premiada — natureza?', a: 'MEIO DE OBTENÇÃO de prova (não meio de prova autônomo — STF). Lei 12.850/13. Acordo MP × réu, com benefícios (perdão, redução, substituição). Homologação judicial obrigatória.', tags: ['pp', 'colaboracao-premiada'] },
+
+  // === Cards Rodada 13 — PP 7-12 ===
+  { id: 566, topic: 7, materia: 'pp', q: 'Pressupostos da prisão preventiva (CPP 312)?', a: 'PRESSUPOSTOS: prova da existência do crime + indícios suficientes de autoria. FUNDAMENTOS: garantia da ORDEM PÚBLICA · ORDEM ECONÔMICA · INSTRUÇÃO CRIMINAL · APLICAÇÃO da LEI PENAL.', tags: ['pp', 'preventiva'] },
+  { id: 567, topic: 7, materia: 'pp', q: 'Pacote Anticrime — reanálise da preventiva?', a: 'A cada 90 DIAS (CPP 316 § único — Lei 13.964/19). Marco protetivo. Antes não havia esse prazo expresso.', tags: ['pp', 'preventiva', 'reanalise'] },
+  { id: 568, topic: 7, materia: 'pp', q: 'Audiência de custódia — prazo?', a: '24 HORAS após a prisão (CPP 310). Apresentação ao juiz, com MP e defesa. Decisão: relaxa, converte em preventiva, concede liberdade provisória ou aplica cautelares diversas.', tags: ['pp', 'audiencia-custodia'] },
+  { id: 569, topic: 8, materia: 'pp', q: 'Procedimentos comuns no CPP — critério?', a: 'PELA PENA MÁXIMA: ORDINÁRIO (≥ 4 anos — CPP 394) · SUMÁRIO (< 4 anos — CPP 531) · SUMARÍSSIMO (≤ 2 anos — Lei 9.099/95).', tags: ['pp', 'procedimentos'] },
+  { id: 570, topic: 9, materia: 'pp', q: '4 princípios constitucionais do Júri (CF 5º XXXVIII)?', a: 'PLENITUDE da DEFESA · SIGILO das VOTAÇÕES · SOBERANIA dos VEREDICTOS · COMPETÊNCIA para crimes DOLOSOS contra a vida.', tags: ['pp', 'juri'] },
+  { id: 571, topic: 9, materia: 'pp', q: 'Procedimento bifásico do Júri?', a: '1ª fase JUDICIUM ACCUSATIONIS (CPP 406-421): pronúncia, impronúncia, absolvição sumária, desclassificação. 2ª fase JUDICIUM CAUSAE (422-497): plenário, 7 jurados, quesitos, sentença.', tags: ['pp', 'juri', 'bifasico'] },
+  { id: 572, topic: 10, materia: 'pp', q: 'Princípios recursais?', a: 'TAXATIVIDADE · UNIRRECORRIBILIDADE · FUNGIBILIDADE (CPP 579) · NON REFORMATIO IN PEJUS (CPP 617 — recurso da defesa não pode prejudicar).', tags: ['pp', 'recursos'] },
+  { id: 573, topic: 10, materia: 'pp', q: 'Revisão criminal — cabimento?', a: 'SOMENTE PRO REO, após trânsito em julgado (CPP 621-631). Hipóteses: sentença contrária à lei, prova falsa, fato novo. NÃO há prazo decadencial.', tags: ['pp', 'revisao-criminal'] },
+  { id: 574, topic: 11, materia: 'pp', q: 'Remição da pena (LEP 126)?', a: 'TRABALHO: 3 dias trabalhados = 1 dia de pena. ESTUDO: 12 horas em 3 dias = 1 dia de pena. Súmula 562 STJ: falta GRAVE INTERROMPE prazo.', tags: ['pp', 'lep', 'remicao'] },
+  { id: 575, topic: 11, materia: 'pp', q: 'RDD — Regime Disciplinar Diferenciado (LEP 52)?', a: 'Crime hediondo, falta grave que ponha em risco ordem ou sociedade. Até 720 DIAS (renováveis). Isolamento, visitas restritas. Pacote Anticrime endureceu.', tags: ['pp', 'lep', 'rdd'] },
+  { id: 576, topic: 11, materia: 'pp', q: 'SV 56 STF — falta de vagas?', a: 'Falta de vagas em estabelecimento adequado autoriza CUMPRIMENTO DOMICILIAR (não regressão). Marco protetivo do encarcerado.', tags: ['pp', 'lep', 'SV-56'] },
+  { id: 577, topic: 12, materia: 'pp', q: 'JECrim — transação penal × suspensão condicional do processo?', a: 'TRANSAÇÃO (Lei 9.099/95 art. 76): acordo ANTES da denúncia, pena restritiva ou multa. SURSIS PROCESSUAL (89): pena MÍNIMA ≤ 1 ano, suspensão de 2-4 anos. Cumprido = extinta punibilidade.', tags: ['pp', 'jecrim'] },
+  { id: 578, topic: 12, materia: 'pp', q: 'Maria da Penha e JECrim?', a: 'JECrim VEDADO (art. 41 — Lei 11.340/06). Crimes em contexto doméstico contra mulher seguem rito ordinário, nos Juizados de Violência Doméstica.', tags: ['pp', 'maria-da-penha'] },
+  { id: 579, topic: 12, materia: 'pp', q: 'Interceptação telefônica (Lei 9.296/96)?', a: 'RESERVA DE JURISDIÇÃO (CF 5º XII). Crimes punidos com RECLUSÃO. Prazo 15 DIAS, prorrogáveis sucessivamente. Indispensável para a investigação. Conversa flagrada (encontro fortuito) NÃO é interceptação.', tags: ['pp', 'interceptacao'] }
 ],
 
 // ============ QUESTÕES (SIMULADO) ============
@@ -16009,6 +16414,86 @@ questions: [
     ],
     correct: 'C',
     explanation: 'CPP 157 + CF 5º LVI. (A) Falso — confissão isolada NÃO basta (CPP 197). (B) Falso — CF 5º LVI: inadmissíveis. (D) Falso — interceptação EXIGE autorização judicial (Lei 9.296/96 + reserva de jurisdição). (E) Falso — colaboração é MEIO DE OBTENÇÃO de prova; exige homologação judicial.'
+  },
+
+  // === Questões Rodada 13 — PP 7-12 ===
+  {
+    id: 203, topic: 7, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a prisão e medidas cautelares:',
+    alternatives: [
+      'A prisão temporária (Lei 7.960/89) é cabível em qualquer crime, com prazo de 5 dias prorrogáveis sucessivamente.',
+      'A audiência de custódia deve ser realizada em até 72 horas após a prisão, conforme o CPP art. 310.',
+      'A prisão preventiva pressupõe prova da existência do crime e indícios suficientes de autoria; é fundamentada na garantia da ordem pública, ordem econômica, instrução criminal ou aplicação da lei penal (CPP 312); o Pacote Anticrime determinou a REANÁLISE OBRIGATÓRIA da preventiva a cada 90 dias (CPP 316 § único).',
+      'As medidas cautelares diversas (CPP 319) são alternativas que só podem ser aplicadas após decretada e revogada a prisão.',
+      'O monitoramento eletrônico (CPP 319 IX) só é admitido em substituição à pena, não como medida cautelar.'
+    ],
+    correct: 'C',
+    explanation: 'CPP 312 + 316 § único. (A) Falso — temporária tem rol taxativo (Lei 7.960/89 art. 1º III). (B) Falso — 24 horas (CPP 310). (D) Falso — cautelares são alternativas E PODEM ser aplicadas autonomamente. (E) Falso — monitoramento é cautelar do art. 319.'
+  },
+  {
+    id: 204, topic: 8, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre os procedimentos no processo penal:',
+    alternatives: [
+      'O procedimento ORDINÁRIO aplica-se a crimes com pena máxima inferior a 4 anos.',
+      'A citação por edital é cabível em qualquer fase, ainda que o réu seja localizado.',
+      'A audiência de instrução, após o Pacote Anticrime, deve ser fragmentada em múltiplas datas, em respeito à instrução amplificada.',
+      'O CPP prevê 3 procedimentos comuns conforme a pena máxima cominada: ORDINÁRIO (≥ 4 anos), SUMÁRIO (< 4 anos) e SUMARÍSSIMO (infrações de menor potencial ofensivo, até 2 anos — Lei 9.099/95).',
+      'A resposta à acusação (CPP 396) é facultativa, podendo o réu apresentar diretamente alegações finais.'
+    ],
+    correct: 'D',
+    explanation: 'CPP 394 + Lei 9.099/95. (A) Falso — ordinário é ≥ 4 anos. (B) Falso — edital é hipótese subsidiária (CPP 361). (C) Falso — Pacote Anticrime estabeleceu AUDIÊNCIA UNA (CPP 400). (E) Falso — resposta à acusação é OBRIGATÓRIA (CPP 396).'
+  },
+  {
+    id: 205, topic: 9, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre o Tribunal do Júri:',
+    alternatives: [
+      'A competência do Júri abrange todos os crimes contra a vida, dolosos ou culposos.',
+      'O Júri é regido por 4 princípios constitucionais (CF 5º XXXVIII): plenitude da defesa, sigilo das votações, soberania dos veredictos e competência para crimes DOLOSOS contra a vida; o procedimento é BIFÁSICO — judicium accusationis (1ª fase, com pronúncia ou desclassificação) e judicium causae (plenário com 7 jurados).',
+      'A pronúncia exige certeza quanto à autoria, sob pena de nulidade.',
+      'O Conselho de Sentença é composto por 5 jurados sorteados.',
+      'O latrocínio é da competência do Júri, em razão da morte da vítima.'
+    ],
+    correct: 'B',
+    explanation: 'CF 5º XXXVIII + CPP 406-497. (A) Falso — só DOLOSOS. (C) Falso — pronúncia exige apenas INDÍCIOS de autoria + materialidade. (D) Falso — 7 jurados. (E) Falso — Súm. 603 STF: latrocínio é da Justiça Comum.'
+  },
+  {
+    id: 206, topic: 10, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Sobre sentença, recursos e ações de impugnação:',
+    alternatives: [
+      'A revisão criminal (CPP 621-631) pode ser proposta tanto pelo réu quanto pelo MP, em qualquer fase do processo.',
+      'O princípio da non reformatio in pejus permite que o tribunal piore a situação do réu em recurso da defesa, desde que motivadamente.',
+      'O habeas corpus tem cabimento contra ato ilegal ou abuso de poder que ameace a liberdade de locomoção, sendo gratuito e dispensando assistência de advogado para sua impetração.',
+      'O recurso em sentido estrito (RESE) é cabível contra sentença final condenatória.',
+      'A apelação tem efeito SUSPENSIVO automático em todas as hipóteses, impedindo a execução imediata.'
+    ],
+    correct: 'C',
+    explanation: 'CF 5º LXVIII + CPP 647. (A) Falso — revisão criminal é SOMENTE PRO REO, após trânsito. (B) Falso — non reformatio in pejus VEDA agravamento em recurso da defesa (CPP 617). (D) Falso — RESE é contra interlocutórias (CPP 581); apelação contra sentença final. (E) Falso — efeito suspensivo nem sempre automático (depende do caso).'
+  },
+  {
+    id: 207, topic: 11, materia: 'pp', banca: 'Simulada', nivel: 'Médio',
+    statement: 'Sobre a execução penal (LEP — Lei 7.210/84):',
+    alternatives: [
+      'A remição pelo trabalho na execução penal observa a proporção de 1 dia de pena para cada 1 dia trabalhado.',
+      'A prática de falta grave NÃO interrompe o prazo da remição.',
+      'A LEP (Lei 7.210/84) prevê remição: 3 DIAS DE TRABALHO = 1 DIA DE PENA; 12 horas de estudo (em 3 dias) = 1 dia. A SV 56/STF estabelece que falta de vagas em regime adequado autoriza cumprimento DOMICILIAR. O RDD pode chegar a 720 dias renováveis (LEP 52).',
+      'O regime semiaberto admite trabalho externo sem qualquer restrição, desde a sua imposição.',
+      'O livramento condicional, conforme regra geral pós-Pacote Anticrime, pode ser concedido após 1/3 do cumprimento, mesmo em crime hediondo.'
+    ],
+    correct: 'C',
+    explanation: 'LEP 126 + SV 56 STF + LEP 52. (A) Falso — 3:1 (trabalho), não 1:1. (B) Falso — Súm. 562 STJ: falta grave INTERROMPE. (D) Falso — trabalho externo no semiaberto exige condições. (E) Falso — hediondo: 2/3.'
+  },
+  {
+    id: 208, topic: 12, materia: 'pp', banca: 'Simulada', nivel: 'Difícil',
+    statement: 'Acerca das leis penais especiais com aspectos processuais próprios:',
+    alternatives: [
+      'A Lei Maria da Penha (11.340/06) admite a aplicação dos institutos do JECrim (transação, sursis processual) aos crimes praticados em contexto de violência doméstica.',
+      'O JECrim aplica-se a crimes com pena máxima até 4 anos.',
+      'A Lei Maria da Penha (Lei 11.340/06 art. 41) VEDA a aplicação dos institutos do JECrim (Lei 9.099/95); as medidas protetivas de urgência (arts. 22-24) podem ser deferidas pelo juiz competente; a interceptação telefônica (Lei 9.296/96) requer reserva de jurisdição, crimes punidos com reclusão e prazo de 15 dias prorrogáveis.',
+      'A interceptação telefônica pode ser realizada pela polícia sem autorização judicial em casos de urgência.',
+      'A colaboração premiada (Lei 12.850/13) constitui meio de prova autônomo, dispensando outras corroborações.'
+    ],
+    correct: 'C',
+    explanation: 'Lei 11.340/06 art. 41 + Lei 9.296/96. (A) Falso — JECrim VEDADO. (B) Falso — JECrim: até 2 anos. (D) Falso — reserva de jurisdição. (E) Falso — colaboração é meio de OBTENÇÃO; STJ: condenação NÃO se baseia exclusivamente na colaboração — exige outros elementos (Lei 12.850/13 art. 4º §16).'
   }
 ],
 
