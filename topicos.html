@@ -673,9 +673,12 @@
     function getChunks() {
       const article = document.getElementById('article-content');
       const skipH2 = new Set(['Status', '📝 Suas notas pessoais', '🚀 Ações rápidas', '🎯 Quick check do tópico', 'Sumário previsto']);
+      const skipClasses = ['meta-bar', 'audio-controls', 'status-checks'];
       const out = [];
       let inSkip = false;
       Array.from(article.children).forEach(el => {
+        // Pula elementos de UI/menu por classe (Tamanho/Cronograma, player, checkboxes Status)
+        if (skipClasses.some(c => el.classList && el.classList.contains(c))) return;
         const tag = el.tagName;
         if (tag === 'H1') {
           out.push(el.textContent.trim() + '.');
