@@ -413,6 +413,17 @@ tr:hover td { background: var(--bg-soft); }
 .audio-controls #voice-male, .audio-controls #voice-female {
   font-weight: 700; padding: 0.3rem 0.55rem;
 }
+.audio-controls #audio-back, .audio-controls #audio-fwd {
+  padding: 0.3rem 0.55rem; font-size: 0.95rem;
+}
+.audio-controls #audio-progress {
+  flex: 1; min-width: 100px; max-width: 280px;
+  margin: 0 0.3rem; cursor: pointer;
+  accent-color: var(--brand, #0f766e);
+}
+.audio-controls #audio-progress:disabled {
+  opacity: 0.5; cursor: not-allowed;
+}
 .audio-controls .btn-premium-help {
   background: linear-gradient(135deg, #fef3c7, #fde68a);
   color: #78350f;

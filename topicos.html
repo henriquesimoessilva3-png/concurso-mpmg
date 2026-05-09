@@ -107,6 +107,9 @@
       <button class="btn btn-sm btn-theme" id="audio-play">🔊 Ouvir</button>
       <button class="btn btn-sm" id="audio-pause" style="display:none;">⏸️ Pausar</button>
       <button class="btn btn-sm" id="audio-stop" style="display:none;">⏹️ Parar</button>
+      <button class="btn btn-sm" id="audio-back" style="display:none;" title="Voltar (←)">⏪</button>
+      <input type="range" id="audio-progress" min="0" max="0" value="0" step="1" disabled style="display:none;" title="Arraste para pular">
+      <button class="btn btn-sm" id="audio-fwd" style="display:none;" title="Avançar (→)">⏩</button>
       <label>Velocidade:</label>
       <select id="audio-speed">
         <option value="0.85">0.85x</option>
@@ -501,6 +504,9 @@
     const playBtn = document.getElementById('audio-play');
     const pauseBtn = document.getElementById('audio-pause');
     const stopBtn = document.getElementById('audio-stop');
+    const backBtn = document.getElementById('audio-back');
+    const fwdBtn = document.getElementById('audio-fwd');
+    const progressEl = document.getElementById('audio-progress');
     const speedEl = document.getElementById('audio-speed');
     const voiceEl = document.getElementById('audio-voice');
     const statusEl = document.getElementById('audio-status');
@@ -697,15 +703,43 @@
       return out;
     }
 
+    function updateProgress() {
+      if (chunks.length > 0) {
+        progressEl.value = String(idx);
+        statusEl.textContent = idx + '/' + chunks.length;
+      }
+    }
+
+    function showPlayingControls() {
+      playBtn.style.display = 'none';
+      pauseBtn.style.display = '';
+      pauseBtn.textContent = '⏸️ Pausar';
+      stopBtn.style.display = '';
+      backBtn.style.display = '';
+      fwdBtn.style.display = '';
+      progressEl.style.display = '';
+      progressEl.disabled = false;
+    }
+
+    function showStoppedControls() {
+      playBtn.style.display = '';
+      pauseBtn.style.display = 'none';
+      stopBtn.style.display = 'none';
+      backBtn.style.display = 'none';
+      fwdBtn.style.display = 'none';
+      progressEl.style.display = 'none';
+      progressEl.disabled = true;
+    }
+
     function speakNext() {
       if (idx >= chunks.length) {
         statusEl.textContent = '✅ Concluído';
-        playBtn.style.display = '';
-        pauseBtn.style.display = 'none';
-        stopBtn.style.display = 'none';
+        progressEl.value = String(chunks.length);
+        showStoppedControls();
         idx = 0;
         return;
       }
+      updateProgress();
       const u = new SpeechSynthesisUtterance(chunks[idx]);
       const vIdx = parseInt(voiceEl.value);
       if (!isNaN(vIdx) && voices[vIdx]) {
@@ -717,17 +751,48 @@
       u.rate = parseFloat(speedEl.value) || 1;
       u.onend = () => {
         idx++;
-        statusEl.textContent = idx + '/' + chunks.length;
+        updateProgress();
         if (!window.speechSynthesis.paused) speakNext();
       };
       u.onerror = (e) => {
+        // Erro 'interrupted' acontece quando o usuário usa seek/back/fwd; não é problema real
+        if (e.error === 'interrupted' || e.error === 'canceled') return;
         statusEl.textContent = '⚠️ Erro: ' + (e.error || 'desconhecido');
-        playBtn.style.display = '';
-        pauseBtn.style.display = 'none';
-        stopBtn.style.display = 'none';
+        showStoppedControls();
       };
       window.speechSynthesis.speak(u);
     }
+
+    function seekTo(newIdx) {
+      newIdx = Math.max(0, Math.min(chunks.length - 1, newIdx));
+      idx = newIdx;
+      updateProgress();
+      window.speechSynthesis.cancel();
+      // Pequena espera para o cancel propagar antes de speak — evita race em alguns browsers
+      setTimeout(() => speakNext(), 50);
+    }
+
+    backBtn.addEventListener('click', () => seekTo(idx - 1));
+    fwdBtn.addEventListener('click', () => seekTo(idx + 1));
+    progressEl.addEventListener('input', () => {
+      // mostra preview enquanto arrasta (sem cancelar)
+      const v = parseInt(progressEl.value);
+      if (!isNaN(v)) statusEl.textContent = v + '/' + chunks.length;
+    });
+    progressEl.addEventListener('change', () => {
+      // commit seek quando solta o slider
+      const v = parseInt(progressEl.value);
+      if (!isNaN(v)) seekTo(v);
+    });
+
+    // Atalhos de teclado: ← / → quando o player está ativo (e não em input/textarea)
+    document.addEventListener('keydown', (e) => {
+      if (chunks.length === 0) return;
+      const tgt = e.target;
+      if (tgt && /^(INPUT|TEXTAREA|SELECT)$/.test(tgt.tagName) && tgt !== progressEl) return;
+      if (e.key === 'ArrowLeft') { e.preventDefault(); seekTo(idx - 1); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); seekTo(idx + 1); }
+    });
 
     playBtn.addEventListener('click', () => {
       window.speechSynthesis.cancel();
@@ -737,11 +802,11 @@
         statusEl.textContent = 'Nada para ler.';
         return;
       }
+      progressEl.min = '0';
+      progressEl.max = String(chunks.length);
+      progressEl.value = '0';
       statusEl.textContent = '0/' + chunks.length;
-      playBtn.style.display = 'none';
-      pauseBtn.style.display = '';
-      pauseBtn.textContent = '⏸️ Pausar';
-      stopBtn.style.display = '';
+      showPlayingControls();
       speakNext();
     });
 
@@ -759,17 +824,14 @@
       window.speechSynthesis.cancel();
       chunks = [];
       idx = 0;
-      playBtn.style.display = '';
-      pauseBtn.style.display = 'none';
-      stopBtn.style.display = 'none';
+      showStoppedControls();
       statusEl.textContent = '';
     });
 
     speedEl.addEventListener('change', () => {
-      if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
-        window.speechSynthesis.cancel();
-        if (idx > 0) idx--;
-        speakNext();
+      // ao mudar velocidade durante leitura, recomeça o chunk atual com a nova rate
+      if ((window.speechSynthesis.speaking || window.speechSynthesis.pending) && chunks.length > 0) {
+        seekTo(idx);
       }
     });
 
