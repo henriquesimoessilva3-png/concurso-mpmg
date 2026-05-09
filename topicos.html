@@ -517,11 +517,13 @@
     let chunks = [];
     let idx = 0;
 
-    // ===== Timer para tempo decorrido / estimado =====
-    let playStartTime = null;
-    let totalPausedMs = 0;
-    let pauseStartTime = null;
+    // ===== Timer baseado em posição dentro do texto =====
+    // Calcula tempo decorrido como: chars dos chunks anteriores + progresso no chunk atual
+    let currentChunkStartTime = null;
+    let currentChunkPausedMs = 0;
+    let currentChunkPauseStart = null;
     let elapsedTimer = null;
+    const CHARS_PER_SEC = 15; // estimativa pt-BR a 1x
 
     function fmtTime(sec) {
       if (!isFinite(sec) || sec < 0) sec = 0;
@@ -532,13 +534,26 @@
     function estimateTotalSec() {
       const totalChars = chunks.reduce((s, c) => s + c.length, 0);
       const rate = parseFloat(speedEl.value) || 1;
-      // ~15 chars/seg em pt-BR a 1x (estimativa)
-      return totalChars / (15 * rate);
+      return totalChars / (CHARS_PER_SEC * rate);
+    }
+    function chunkProgressSec() {
+      if (!currentChunkStartTime || idx >= chunks.length) return 0;
+      const ref = currentChunkPauseStart || performance.now();
+      const elapsedInChunk = (ref - currentChunkStartTime - currentChunkPausedMs) / 1000;
+      const rate = parseFloat(speedEl.value) || 1;
+      const chunkDuration = chunks[idx].length / (CHARS_PER_SEC * rate);
+      return Math.max(0, Math.min(elapsedInChunk, chunkDuration));
     }
     function elapsedSec() {
-      if (!playStartTime) return 0;
-      const ref = pauseStartTime || performance.now();
-      return Math.max(0, (ref - playStartTime - totalPausedMs) / 1000);
+      if (chunks.length === 0) return 0;
+      const rate = parseFloat(speedEl.value) || 1;
+      const charsBefore = chunks.slice(0, idx).reduce((s, c) => s + c.length, 0);
+      return (charsBefore / (CHARS_PER_SEC * rate)) + chunkProgressSec();
+    }
+    function resetChunkTiming() {
+      currentChunkStartTime = null;
+      currentChunkPausedMs = 0;
+      currentChunkPauseStart = null;
     }
     function startElapsedTimer() {
       stopElapsedTimer();
@@ -780,7 +795,7 @@
         statusEl.textContent = `✅ Concluído · ${fmtTime(total)}`;
         progressEl.value = String(chunks.length);
         stopElapsedTimer();
-        playStartTime = null; totalPausedMs = 0; pauseStartTime = null;
+        resetChunkTiming();
         showStoppedControls();
         idx = 0;
         return;
@@ -795,8 +810,15 @@
         u.lang = 'pt-BR';
       }
       u.rate = parseFloat(speedEl.value) || 1;
+      u.onstart = () => {
+        // Marca início do chunk atual (timer fica baseado em posição + progresso intra-chunk)
+        currentChunkStartTime = performance.now();
+        currentChunkPausedMs = 0;
+        currentChunkPauseStart = null;
+      };
       u.onend = () => {
         idx++;
+        resetChunkTiming();
         updateProgress();
         if (!window.speechSynthesis.paused) speakNext();
       };
@@ -812,6 +834,8 @@
     function seekTo(newIdx) {
       newIdx = Math.max(0, Math.min(chunks.length - 1, newIdx));
       idx = newIdx;
+      // Reset timing do chunk atual — o tempo passa a refletir a nova posição
+      resetChunkTiming();
       updateProgress();
       window.speechSynthesis.cancel();
       // Pequena espera para o cancel propagar antes de speak — evita race em alguns browsers
@@ -851,10 +875,7 @@
       progressEl.min = '0';
       progressEl.max = String(chunks.length);
       progressEl.value = '0';
-      // Inicia timer de tempo decorrido
-      playStartTime = performance.now();
-      totalPausedMs = 0;
-      pauseStartTime = null;
+      resetChunkTiming();
       startElapsedTimer();
       updateProgress();
       showPlayingControls();
@@ -864,16 +885,16 @@
     pauseBtn.addEventListener('click', () => {
       if (window.speechSynthesis.paused) {
         window.speechSynthesis.resume();
-        // Acumula tempo pausado
-        if (pauseStartTime) {
-          totalPausedMs += performance.now() - pauseStartTime;
-          pauseStartTime = null;
+        // Acumula tempo pausado dentro do chunk atual
+        if (currentChunkPauseStart) {
+          currentChunkPausedMs += performance.now() - currentChunkPauseStart;
+          currentChunkPauseStart = null;
         }
         startElapsedTimer();
         pauseBtn.textContent = '⏸️ Pausar';
       } else {
         window.speechSynthesis.pause();
-        pauseStartTime = performance.now();
+        currentChunkPauseStart = performance.now();
         stopElapsedTimer();
         pauseBtn.textContent = '▶️ Continuar';
       }
@@ -884,9 +905,7 @@
       chunks = [];
       idx = 0;
       stopElapsedTimer();
-      playStartTime = null;
-      totalPausedMs = 0;
-      pauseStartTime = null;
+      resetChunkTiming();
       showStoppedControls();
       statusEl.textContent = '';
     });
