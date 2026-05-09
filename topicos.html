@@ -121,27 +121,36 @@
       <button class="btn btn-sm" id="voice-male" title="Melhor voz masculina pt-BR disponível">♂</button>
       <button class="btn btn-sm" id="voice-female" title="Melhor voz feminina pt-BR disponível">♀</button>
       <select id="audio-voice"><option>Carregando…</option></select>
-      <button class="btn btn-sm" id="voice-piper" title="🎙️ Voz neural Premium (Piper) — download único ~30MB, depois funciona offline. Vozes: Faber (M) / Edresson (M) / Joana (F).">🎙️ Premium</button>
-      <select id="voice-piper-id" style="display:none;">
-        <option value="pt_BR-faber-medium" selected>Faber [M] — Premium ~63MB</option>
-        <option value="pt_BR-edresson-low">Edresson [M] — Lite ~28MB</option>
-      </select>
       <span class="audio-status" id="audio-status"></span>
-      <details class="audio-help">
-        <summary>Robótica? 💡</summary>
+      <details class="audio-help" open>
+        <summary>🎯 Voz robótica? Veja como deixar natural</summary>
         <div>
-          <p><b>Opção mais simples — clique 🎙️ Premium</b> (botão amarelo).</p>
-          <p>Baixa um modelo de voz neural que roda dentro do navegador (~30MB na primeira vez, depois funciona offline). Vozes pt-BR de alta qualidade sem precisar instalar nada no sistema.</p>
-          <p>Vozes disponíveis: <b>Faber</b> (masculina padrão), <b>Edresson</b> (masculina lite, mais rápida), <b>Cadu</b> (masculina alternativa).</p>
-          <p>Funciona em Chrome, Safari, Edge e Firefox recentes (desktop e mobile). iOS Safari mais antigo pode não suportar — nesse caso, use a opção abaixo.</p>
-          <p style="margin-top: 0.6rem;"><b>Alternativa — instalar voz Premium do sistema:</b></p>
-          <ul>
-            <li><b>macOS</b>: <i>Ajustes do Sistema → Acessibilidade → Conteúdo Falado → Voz do Sistema → Gerenciar Vozes…</i> → Português (Brasil) → baixar <b>Felipe (Premium)</b> ou <b>Luciana (Premium)</b>. Recarregar a página depois.</li>
-            <li><b>iOS/iPadOS</b>: <i>Ajustes → Acessibilidade → Conteúdo Falado → Vozes → Português → Brasil</i> → escolher e baixar variante "Aprimorada" ou "Premium".</li>
-            <li><b>Chrome</b> (qualquer SO): a voz "Google português do Brasil" costuma ser razoável sem instalação extra.</li>
-            <li><b>Windows</b>: <i>Configurações → Hora e Idioma → Fala</i> → adicionar voz "Antônio" (M) ou "Francisca" (F) Neural.</li>
-          </ul>
-          <p>⭐ na lista = voz com indicação de alta qualidade. [M]/[F] = gênero detectado.</p>
+          <p>O navegador só usa vozes <b>já instaladas no sistema</b>. As padrão são robóticas. Para uma voz quase humana, baixe a versão <b>Premium</b> — é grátis e leva 2 minutos:</p>
+
+          <p style="margin-top: 0.7rem;"><b>📱 macOS (Mac/iMac/MacBook)</b> — recomendação principal:</p>
+          <ol>
+            <li>Menu Apple () → <b>Ajustes do Sistema</b></li>
+            <li>Barra lateral: <b>Acessibilidade</b> (ícone azul)</li>
+            <li>Painel direito, role até <b>Conteúdo Falado</b></li>
+            <li>Clique em <b>Voz do Sistema</b> → <b>Gerenciar Vozes…</b> (no final da lista)</li>
+            <li>Procure <b>Português (Brasil)</b> → marque <b>Felipe (Premium)</b> e/ou <b>Luciana (Premium)</b> — ~150MB cada</li>
+            <li>Clique <b>OK</b> → aguarde o download terminar (acompanha % na própria janela)</li>
+            <li>Volte aqui na página e dê <b>Cmd+R</b> para recarregar</li>
+            <li>No dropdown de voz acima vai aparecer <b>⭐ Felipe (Premium) [M] — pt-BR</b></li>
+          </ol>
+
+          <p style="margin-top: 0.7rem;"><b>📱 iPhone / iPad</b>:</p>
+          <ol>
+            <li><b>Ajustes</b> → <b>Acessibilidade</b> → <b>Conteúdo Falado</b> → <b>Vozes</b> → <b>Português</b> → <b>Brasil</b></li>
+            <li>Toque no ⬇️ ao lado de <b>Felipe</b> ou <b>Luciana</b> (variante "Aprimorada" ou "Premium")</li>
+            <li>Aguarde download e volte ao Safari para recarregar a página</li>
+          </ol>
+
+          <p style="margin-top: 0.7rem;"><b>🌐 Chrome (qualquer SO)</b>: já vem com <b>"Google português do Brasil"</b> sem precisar instalar nada — qualidade é razoável.</p>
+
+          <p style="margin-top: 0.7rem;"><b>🪟 Windows 11</b>: <i>Configurações → Hora e Idioma → Fala → Adicionar voz</i> → escolher <b>Antônio (Neural)</b> [M] ou <b>Francisca (Neural)</b> [F].</p>
+
+          <p style="margin-top: 0.7rem; font-size: 0.85em;">⭐ no dropdown = voz com indicação de alta qualidade. [M]/[F] = gênero detectado.</p>
         </div>
       </details>
     </div>
@@ -630,125 +639,7 @@
       return out;
     }
 
-    // ===== PIPER (voz neural Premium) =====
-    const piperBtn = document.getElementById('voice-piper');
-    const piperVoiceEl = document.getElementById('voice-piper-id');
-    let usePiper = localStorage.getItem('concurso-mpmg-use-piper') === 'true';
-    let piperSession = null;
-    let piperVoiceId = localStorage.getItem('concurso-mpmg-piper-voice') || 'pt_BR-faber-medium';
-    piperVoiceEl.value = piperVoiceId;
-    let currentPiperAudio = null;
-    let piperShouldStop = false;
-    let piperPausedManually = false;
-
-    if (usePiper) piperBtn.classList.add('active');
-
-    async function initPiperSession(voiceId) {
-      if (piperSession && piperSession._voiceId === voiceId) return piperSession;
-      // Voz mudou ou primeira carga
-      piperSession = null;
-      statusEl.textContent = '⬇️ Carregando biblioteca Premium…';
-      try {
-        // ?deps=onnxruntime-web@1.18.0 força esm.sh a usar a versão exata para qual a lib foi escrita
-        // (sem isso, esm.sh resolve ^1.18.0 para 1.26.0+ e a API Tensor mudou — predict retornaria WAV silencioso)
-        const mod = await import('https://esm.sh/@mintplex-labs/piper-tts-web@1.0.4?deps=onnxruntime-web@1.18.0');
-        const TtsSession = mod.TtsSession || mod.default?.TtsSession || mod.default;
-        if (!TtsSession) throw new Error('Biblioteca Piper sem TtsSession');
-        statusEl.textContent = '⬇️ Carregando voz Premium…';
-        const session = new TtsSession({
-          voiceId,
-          progress: (event) => {
-            if (event && event.loaded != null && event.total) {
-              const pct = Math.round((event.loaded / event.total) * 100);
-              const mb = (event.total / 1024 / 1024).toFixed(0);
-              statusEl.textContent = `⬇️ Voz Premium ${pct}% (${mb}MB)`;
-            }
-          },
-          logger: (msg) => console.log('[Piper]', msg),
-          wasmPaths: {
-            // ONNX 1.18.0 — alinhado com a versão usada pela lib internamente
-            onnxWasm: 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.18.0/dist/',
-            piperWasm: 'https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.wasm',
-            piperData: 'https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.data'
-          }
-        });
-        // session.waitReady é Promise<void> | boolean — só await se for promise
-        if (session.waitReady && typeof session.waitReady.then === 'function') {
-          await session.waitReady;
-        } else if (typeof session.init === 'function') {
-          await session.init();
-        }
-        session._voiceId = voiceId;
-        piperSession = session;
-        statusEl.textContent = '✅ Voz Premium pronta';
-        return piperSession;
-      } catch (err) {
-        piperSession = null;
-        throw err;
-      }
-    }
-
-    async function playWithPiper(text, rate) {
-      const session = await initPiperSession(piperVoiceId);
-      console.log('[Piper] predict() text:', text.substring(0, 50) + '...');
-      const t0 = performance.now();
-      const wav = await session.predict(text);
-      const t1 = performance.now();
-      console.log('[Piper] predict() done in', Math.round(t1 - t0), 'ms', 'result type:', wav?.constructor?.name, 'size:', wav?.size || wav?.byteLength || '?');
-      return new Promise((resolve, reject) => {
-        const blob = wav instanceof Blob ? wav : new Blob([wav], { type: 'audio/wav' });
-        console.log('[Piper] blob size:', blob.size, 'bytes');
-        if (blob.size < 100) {
-          reject(new Error(`Blob de áudio muito pequeno (${blob.size} bytes) — síntese pode ter falhado silenciosamente`));
-          return;
-        }
-        const url = URL.createObjectURL(blob);
-        const audio = new Audio(url);
-        audio.playbackRate = rate;
-        currentPiperAudio = audio;
-        audio.addEventListener('loadedmetadata', () => {
-          console.log('[Piper] audio duration:', audio.duration, 's');
-          if (!audio.duration || audio.duration < 0.05) {
-            statusEl.textContent = `⚠️ Áudio gerado tem duração ${audio.duration}s (silencioso). Veja console.`;
-          }
-        });
-        audio.addEventListener('ended', () => {
-          URL.revokeObjectURL(url);
-          if (currentPiperAudio === audio) currentPiperAudio = null;
-          resolve();
-        });
-        audio.addEventListener('error', (e) => {
-          URL.revokeObjectURL(url);
-          if (currentPiperAudio === audio) currentPiperAudio = null;
-          console.error('[Piper] audio error:', audio.error);
-          reject(new Error('Falha de reprodução: ' + (audio.error?.message || 'desconhecido')));
-        });
-        audio.play().then(() => console.log('[Piper] audio.play() resolved')).catch((err) => {
-          console.error('[Piper] audio.play() rejected:', err);
-          reject(err);
-        });
-      });
-    }
-
-    function playWithWebSpeech(text, rate) {
-      return new Promise((resolve, reject) => {
-        const u = new SpeechSynthesisUtterance(text);
-        const vIdx = parseInt(voiceEl.value);
-        if (!isNaN(vIdx) && voices[vIdx]) {
-          u.voice = voices[vIdx];
-          u.lang = voices[vIdx].lang;
-        } else {
-          u.lang = 'pt-BR';
-        }
-        u.rate = rate;
-        u.onend = resolve;
-        u.onerror = (e) => reject(new Error(e.error || 'TTS error'));
-        window.speechSynthesis.speak(u);
-      });
-    }
-
-    async function speakNext() {
-      if (piperShouldStop) return;
+    function speakNext() {
       if (idx >= chunks.length) {
         statusEl.textContent = '✅ Concluído';
         playBtn.style.display = '';
@@ -757,73 +648,31 @@
         idx = 0;
         return;
       }
-      const text = chunks[idx];
-      const rate = parseFloat(speedEl.value) || 1;
-      try {
-        if (usePiper) {
-          await playWithPiper(text, rate);
-        } else {
-          await playWithWebSpeech(text, rate);
-        }
-        if (piperShouldStop) return;
+      const u = new SpeechSynthesisUtterance(chunks[idx]);
+      const vIdx = parseInt(voiceEl.value);
+      if (!isNaN(vIdx) && voices[vIdx]) {
+        u.voice = voices[vIdx];
+        u.lang = voices[vIdx].lang;
+      } else {
+        u.lang = 'pt-BR';
+      }
+      u.rate = parseFloat(speedEl.value) || 1;
+      u.onend = () => {
         idx++;
         statusEl.textContent = idx + '/' + chunks.length;
-        if (usePiper ? !piperPausedManually : !window.speechSynthesis.paused) {
-          speakNext();
-        }
-      } catch (err) {
-        if (piperShouldStop) return;
-        statusEl.textContent = '⚠️ Erro: ' + (err.message || err.error || 'desconhecido');
-        // Se Piper falhou, sugerir fallback
-        if (usePiper) {
-          statusEl.textContent += ' (clique 🎙️ Premium novamente para desativar)';
-        }
+        if (!window.speechSynthesis.paused) speakNext();
+      };
+      u.onerror = (e) => {
+        statusEl.textContent = '⚠️ Erro: ' + (e.error || 'desconhecido');
         playBtn.style.display = '';
         pauseBtn.style.display = 'none';
         stopBtn.style.display = 'none';
-      }
+      };
+      window.speechSynthesis.speak(u);
     }
-
-    piperBtn.addEventListener('click', async () => {
-      // Toggle Piper on/off
-      // Se está tocando, para primeiro
-      window.speechSynthesis.cancel();
-      if (currentPiperAudio) {
-        currentPiperAudio.pause();
-        currentPiperAudio = null;
-      }
-      piperShouldStop = true;
-      await new Promise(r => setTimeout(r, 50));
-      piperShouldStop = false;
-      idx = 0;
-      playBtn.style.display = '';
-      pauseBtn.style.display = 'none';
-      stopBtn.style.display = 'none';
-
-      usePiper = !usePiper;
-      localStorage.setItem('concurso-mpmg-use-piper', usePiper ? 'true' : 'false');
-      piperBtn.classList.toggle('active', usePiper);
-      piperVoiceEl.style.display = usePiper ? '' : 'none';
-
-      if (usePiper) {
-        statusEl.textContent = '🎙️ Premium ativada — clique 🔊 Ouvir para baixar a voz (~30MB) na primeira vez';
-      } else {
-        statusEl.textContent = '';
-      }
-    });
-    piperVoiceEl.addEventListener('change', () => {
-      piperVoiceId = piperVoiceEl.value;
-      localStorage.setItem('concurso-mpmg-piper-voice', piperVoiceId);
-      // Invalida sessão para forçar download da nova voz
-      piperSession = null;
-    });
-    if (usePiper) piperVoiceEl.style.display = '';
 
     playBtn.addEventListener('click', () => {
       window.speechSynthesis.cancel();
-      if (currentPiperAudio) { currentPiperAudio.pause(); currentPiperAudio = null; }
-      piperShouldStop = false;
-      piperPausedManually = false;
       chunks = getChunks();
       idx = 0;
       if (chunks.length === 0) {
@@ -839,38 +688,19 @@
     });
 
     pauseBtn.addEventListener('click', () => {
-      if (usePiper) {
-        if (piperPausedManually) {
-          piperPausedManually = false;
-          pauseBtn.textContent = '⏸️ Pausar';
-          if (currentPiperAudio) {
-            currentPiperAudio.play();
-          } else {
-            speakNext();
-          }
-        } else {
-          piperPausedManually = true;
-          pauseBtn.textContent = '▶️ Continuar';
-          if (currentPiperAudio) currentPiperAudio.pause();
-        }
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+        pauseBtn.textContent = '⏸️ Pausar';
       } else {
-        if (window.speechSynthesis.paused) {
-          window.speechSynthesis.resume();
-          pauseBtn.textContent = '⏸️ Pausar';
-        } else {
-          window.speechSynthesis.pause();
-          pauseBtn.textContent = '▶️ Continuar';
-        }
+        window.speechSynthesis.pause();
+        pauseBtn.textContent = '▶️ Continuar';
       }
     });
 
     stopBtn.addEventListener('click', () => {
       window.speechSynthesis.cancel();
-      piperShouldStop = true;
-      if (currentPiperAudio) { currentPiperAudio.pause(); currentPiperAudio = null; }
       chunks = [];
       idx = 0;
-      piperPausedManually = false;
       playBtn.style.display = '';
       pauseBtn.style.display = 'none';
       stopBtn.style.display = 'none';
@@ -878,23 +708,19 @@
     });
 
     speedEl.addEventListener('change', () => {
-      // Web Speech: cancel and replay current chunk in new rate
       if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
         window.speechSynthesis.cancel();
         if (idx > 0) idx--;
         speakNext();
       }
-      // Piper: just adjust playbackRate of current audio (instant)
-      if (currentPiperAudio) {
-        currentPiperAudio.playbackRate = parseFloat(speedEl.value) || 1;
-      }
     });
 
     // Cancela ao sair da página
-    window.addEventListener('beforeunload', () => {
-      window.speechSynthesis.cancel();
-      if (currentPiperAudio) currentPiperAudio.pause();
-    });
+    window.addEventListener('beforeunload', () => window.speechSynthesis.cancel());
+
+    // Limpa chaves de localStorage do Piper (feature removida)
+    localStorage.removeItem('concurso-mpmg-use-piper');
+    localStorage.removeItem('concurso-mpmg-piper-voice');
   })();
 
   } /* end if(!isStub) for setup */
