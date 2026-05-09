@@ -521,15 +521,18 @@
     function buildHelpHtml() {
       if (isMac) {
         return `
-          <p><b>Voz Premium grátis em 4 cliques</b> — instale Felipe (M) ou Luciana (F) Premium da Apple. Voz neural, natural, qualidade igual a opções pagas.</p>
-          <button class="btn btn-sm btn-theme" id="open-mac-settings">⚙️ Abrir Ajustes do Sistema → Acessibilidade</button>
+          <p><b>Voz Premium grátis</b> — Felipe (M) ou Luciana (F) Premium da Apple. Voz neural, qualidade igual a opções pagas.</p>
+          <button class="btn btn-sm btn-theme" id="open-mac-settings">⚙️ Abrir Ajustes → Voz do Sistema</button>
           <ol>
-            <li>Clique no botão acima — abre Ajustes na tela certa</li>
-            <li>Role até <b>Conteúdo Falado</b> → clique em <b>Voz do Sistema</b> → <b>Gerenciar Vozes…</b></li>
-            <li>Em <b>Português (Brasil)</b>, marque ⭐ <b>Felipe (Premium)</b> ou ⭐ <b>Luciana (Premium)</b> → <b>OK</b></li>
-            <li>Aguarde download (~150MB), volte aqui e dê <b>Cmd+R</b></li>
+            <li>Clique no botão acima — abre Ajustes na seção certa.</li>
+            <li>Role até <b>Leitura e Fala</b> (em macOS Sequoia/26; nas versões antigas: <b>Conteúdo Falado</b>).</li>
+            <li>Na linha <b>Voz do Sistema</b>, clique no <b>ícone ⓘ</b> ou <b>na linha</b> (não no dropdown da voz) — abre uma janela completa de vozes.</li>
+            <li>Em <b>Português (Brasil)</b>, marque ⭐ <b>Felipe (Premium)</b> ou ⭐ <b>Luciana (Premium)</b> → <b>OK</b>.</li>
+            <li>Aguarde download (~150MB cada), volte aqui e clique em "🔄 Já instalei" abaixo.</li>
           </ol>
-          <p style="font-size: 0.8em; opacity: 0.75;">Se o botão acima não funcionar (ex: Firefox bloqueia), abra manualmente: <i>Menu Apple → Ajustes do Sistema → Acessibilidade</i>.</p>
+          <p style="font-size: 0.85em;"><b>Não consegue encontrar?</b> Cole no Terminal (Aplicativos → Utilitários → Terminal):<br>
+          <code style="background: var(--bg-soft); padding: 0.15rem 0.4rem; border-radius: 4px; user-select: all;">open "x-apple.systempreferences:com.apple.preference.universalaccess?Speech"</code></p>
+          <p style="font-size: 0.8em; opacity: 0.75;">Se nada funcionar, plano final: <b>Cmd+F5</b> liga VoiceOver, <b>Cmd+Opt+F8</b> abre Utilitário do VoiceOver → aba <b>Fala</b> → <b>Vozes</b> → <b>Personalizar…</b>. Cmd+F5 de novo desliga VoiceOver.</p>
         `;
       }
       if (isIOS) {
