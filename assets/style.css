@@ -243,30 +243,30 @@ header.app-header .subtitle.tight { margin-bottom: 0.3rem; }
 
 /* FAB — botão flutuante */
 .fab-container {
-  position: fixed; bottom: 1.2rem; right: 1.2rem;
+  position: fixed; bottom: 1rem; right: 1rem;
   z-index: 100;
-  display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem;
 }
 .fab-toggle {
-  width: 56px; height: 56px; border-radius: 50%;
+  width: 44px; height: 44px; border-radius: 50%;
   background: var(--accent-2, #2563eb); color: white;
-  border: none; font-size: 1.8rem; line-height: 1;
-  cursor: pointer; box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  border: none; font-size: 1.4rem; line-height: 1;
+  cursor: pointer; box-shadow: 0 3px 12px rgba(0,0,0,0.2);
   transition: background 0.15s, transform 0.15s;
   display: flex; align-items: center; justify-content: center;
 }
 .fab-toggle:hover { background: var(--accent-2-dark, #1d4ed8); transform: translateY(-2px); }
-.fab-toggle[aria-expanded="true"] { transform: rotate(0); }
 .fab-menu {
-  display: flex; flex-direction: column; gap: 0.4rem;
-  background: var(--bg-card); padding: 0.5rem; border-radius: var(--radius);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.18); border: 1px solid var(--border);
-  min-width: 200px;
+  display: flex; flex-direction: column; gap: 0.15rem;
+  background: var(--bg-card); padding: 0.3rem; border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18); border: 1px solid var(--border);
+  min-width: 150px;
 }
 .fab-item {
-  padding: 0.55rem 0.9rem; border-radius: 6px;
-  color: var(--text); font-size: 0.92rem; text-decoration: none;
+  padding: 0.4rem 0.65rem; border-radius: 6px;
+  color: var(--text); font-size: 0.82rem; text-decoration: none;
   transition: background 0.15s;
+  white-space: nowrap;
 }
 .fab-item:hover { background: var(--bg-soft); }
 
