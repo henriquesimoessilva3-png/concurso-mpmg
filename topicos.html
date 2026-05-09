@@ -649,7 +649,9 @@
       piperSession = null;
       statusEl.textContent = '⬇️ Carregando biblioteca Premium…';
       try {
-        const mod = await import('https://esm.sh/@mintplex-labs/piper-tts-web@1.0.4');
+        // ?deps=onnxruntime-web@1.18.0 força esm.sh a usar a versão exata para qual a lib foi escrita
+        // (sem isso, esm.sh resolve ^1.18.0 para 1.26.0+ e a API Tensor mudou — predict retornaria WAV silencioso)
+        const mod = await import('https://esm.sh/@mintplex-labs/piper-tts-web@1.0.4?deps=onnxruntime-web@1.18.0');
         const TtsSession = mod.TtsSession || mod.default?.TtsSession || mod.default;
         if (!TtsSession) throw new Error('Biblioteca Piper sem TtsSession');
         statusEl.textContent = '⬇️ Carregando voz Premium…';
@@ -664,7 +666,8 @@
           },
           logger: (msg) => console.log('[Piper]', msg),
           wasmPaths: {
-            onnxWasm: 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/',
+            // ONNX 1.18.0 — alinhado com a versão usada pela lib internamente
+            onnxWasm: 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.18.0/dist/',
             piperWasm: 'https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.wasm',
             piperData: 'https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.data'
           }
