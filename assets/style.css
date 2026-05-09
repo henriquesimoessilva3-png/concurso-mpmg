@@ -190,6 +190,18 @@ header.app-header .subtitle.tight { margin-bottom: 0.3rem; }
 }
 .block-header h2 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; }
 .block-header .block-meta { font-size: 0.85rem; color: var(--text-muted); }
+.btn-toggle-block {
+  font-size: 0.82rem; padding: 0.35rem 0.8rem;
+  background: var(--bg-soft); color: var(--text-soft);
+  border: 1px solid var(--border); border-radius: 999px;
+  cursor: pointer; font-weight: 500;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.btn-toggle-block:hover {
+  background: var(--bg); color: var(--text); border-color: var(--text-muted);
+}
+.block-header { padding-bottom: 0.6rem; }
+.block-1[data-open="false"] .block-header { border-bottom: 1px solid var(--border); margin-bottom: 0; padding-bottom: 0.4rem; }
 .block-1 { border-top: 4px solid var(--accent-1); }
 .block-2 { border-top: 4px solid var(--accent-2); }
 .block-3 { border-top: 4px solid var(--accent-3); }

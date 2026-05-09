@@ -77,8 +77,10 @@
     <div class="block-header">
       <h2>📅 1 · Cronograma e Organização</h2>
       <span class="block-meta">Fase 1 começa em mai/2026</span>
+      <button class="btn btn-toggle-block" id="toggle-bloco-1" aria-expanded="false">▼ Mostrar</button>
     </div>
 
+    <div class="block-body" id="body-bloco-1" style="display:none;">
     <div class="callout callout-info">
       <strong>Premissa:</strong> ~1h/dia útil + 4h sábado + 4h domingo = ~15h/semana, ~60h/mês. Total previsto em 24 meses: ~1.440h.
     </div>
@@ -158,6 +160,7 @@
         </div>
       </div>
     </div>
+    </div><!-- /block-body bloco-1 -->
   </section>
 
   <!-- ============ BLOCO 2: RESUMOS ============ -->
@@ -343,6 +346,26 @@
 <script src="assets/data.js"></script>
 <script src="assets/app.js"></script>
 <script>
+// Toggle do bloco Cronograma (default fechado, persiste em localStorage)
+(function () {
+  const KEY = 'concurso-mpmg-bloco-1-open';
+  const btn = document.getElementById('toggle-bloco-1');
+  const body = document.getElementById('body-bloco-1');
+  if (!btn || !body) return;
+  let isOpen = localStorage.getItem(KEY) === 'true';
+  function update() {
+    body.style.display = isOpen ? '' : 'none';
+    btn.textContent = isOpen ? '▲ Ocultar' : '▼ Mostrar';
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
+  update();
+  btn.addEventListener('click', () => {
+    isOpen = !isOpen;
+    localStorage.setItem(KEY, isOpen ? 'true' : 'false');
+    update();
+  });
+})();
+
 // Constrói checklist a partir dos dados
 (function () {
   // contadores
