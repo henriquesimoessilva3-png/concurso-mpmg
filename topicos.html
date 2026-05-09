@@ -121,38 +121,9 @@
       <button class="btn btn-sm" id="voice-male" title="Melhor voz masculina pt-BR disponível">♂</button>
       <button class="btn btn-sm" id="voice-female" title="Melhor voz feminina pt-BR disponível">♀</button>
       <select id="audio-voice"><option>Carregando…</option></select>
+      <button class="btn btn-sm btn-premium-help" id="voice-premium-help" title="Como deixar a voz mais natural">⭐ Voz Premium</button>
       <span class="audio-status" id="audio-status"></span>
-      <details class="audio-help" open>
-        <summary>🎯 Voz robótica? Veja como deixar natural</summary>
-        <div>
-          <p>O navegador só usa vozes <b>já instaladas no sistema</b>. As padrão são robóticas. Para uma voz quase humana, baixe a versão <b>Premium</b> — é grátis e leva 2 minutos:</p>
-
-          <p style="margin-top: 0.7rem;"><b>📱 macOS (Mac/iMac/MacBook)</b> — recomendação principal:</p>
-          <ol>
-            <li>Menu Apple () → <b>Ajustes do Sistema</b></li>
-            <li>Barra lateral: <b>Acessibilidade</b> (ícone azul)</li>
-            <li>Painel direito, role até <b>Conteúdo Falado</b></li>
-            <li>Clique em <b>Voz do Sistema</b> → <b>Gerenciar Vozes…</b> (no final da lista)</li>
-            <li>Procure <b>Português (Brasil)</b> → marque <b>Felipe (Premium)</b> e/ou <b>Luciana (Premium)</b> — ~150MB cada</li>
-            <li>Clique <b>OK</b> → aguarde o download terminar (acompanha % na própria janela)</li>
-            <li>Volte aqui na página e dê <b>Cmd+R</b> para recarregar</li>
-            <li>No dropdown de voz acima vai aparecer <b>⭐ Felipe (Premium) [M] — pt-BR</b></li>
-          </ol>
-
-          <p style="margin-top: 0.7rem;"><b>📱 iPhone / iPad</b>:</p>
-          <ol>
-            <li><b>Ajustes</b> → <b>Acessibilidade</b> → <b>Conteúdo Falado</b> → <b>Vozes</b> → <b>Português</b> → <b>Brasil</b></li>
-            <li>Toque no ⬇️ ao lado de <b>Felipe</b> ou <b>Luciana</b> (variante "Aprimorada" ou "Premium")</li>
-            <li>Aguarde download e volte ao Safari para recarregar a página</li>
-          </ol>
-
-          <p style="margin-top: 0.7rem;"><b>🌐 Chrome (qualquer SO)</b>: já vem com <b>"Google português do Brasil"</b> sem precisar instalar nada — qualidade é razoável.</p>
-
-          <p style="margin-top: 0.7rem;"><b>🪟 Windows 11</b>: <i>Configurações → Hora e Idioma → Fala → Adicionar voz</i> → escolher <b>Antônio (Neural)</b> [M] ou <b>Francisca (Neural)</b> [F].</p>
-
-          <p style="margin-top: 0.7rem; font-size: 0.85em;">⭐ no dropdown = voz com indicação de alta qualidade. [M]/[F] = gênero detectado.</p>
-        </div>
-      </details>
+      <div class="audio-help" id="audio-help" style="display:none;"></div>
     </div>
   `);
 
@@ -533,10 +504,91 @@
     const speedEl = document.getElementById('audio-speed');
     const voiceEl = document.getElementById('audio-voice');
     const statusEl = document.getElementById('audio-status');
+    const premiumBtn = document.getElementById('voice-premium-help');
+    const helpEl = document.getElementById('audio-help');
 
     let voices = [];
     let chunks = [];
     let idx = 0;
+
+    // ===== Voz Premium: deep-link para Ajustes do Sistema =====
+    const ua = navigator.userAgent;
+    const isMac = /Macintosh/.test(ua) && !/iPhone|iPad/.test(ua);
+    const isIOS = /iPhone|iPad|iPod/.test(ua);
+    const isWindows = /Windows/.test(ua);
+    const isChrome = /Chrome/.test(ua) && !/Edge|OPR/.test(ua);
+
+    function buildHelpHtml() {
+      if (isMac) {
+        return `
+          <p><b>Voz Premium grátis em 4 cliques</b> — instale Felipe (M) ou Luciana (F) Premium da Apple. Voz neural, natural, qualidade igual a opções pagas.</p>
+          <button class="btn btn-sm btn-theme" id="open-mac-settings">⚙️ Abrir Ajustes do Sistema → Acessibilidade</button>
+          <ol>
+            <li>Clique no botão acima — abre Ajustes na tela certa</li>
+            <li>Role até <b>Conteúdo Falado</b> → clique em <b>Voz do Sistema</b> → <b>Gerenciar Vozes…</b></li>
+            <li>Em <b>Português (Brasil)</b>, marque ⭐ <b>Felipe (Premium)</b> ou ⭐ <b>Luciana (Premium)</b> → <b>OK</b></li>
+            <li>Aguarde download (~150MB), volte aqui e dê <b>Cmd+R</b></li>
+          </ol>
+          <p style="font-size: 0.8em; opacity: 0.75;">Se o botão acima não funcionar (ex: Firefox bloqueia), abra manualmente: <i>Menu Apple → Ajustes do Sistema → Acessibilidade</i>.</p>
+        `;
+      }
+      if (isIOS) {
+        return `
+          <p><b>Voz Premium grátis</b> — instale Felipe (M) ou Luciana (F) Premium da Apple.</p>
+          <ol>
+            <li><b>Ajustes</b> → <b>Acessibilidade</b> → <b>Conteúdo Falado</b> → <b>Vozes</b></li>
+            <li><b>Português</b> → <b>Brasil</b></li>
+            <li>Toque em ⬇️ ao lado de <b>Felipe</b> ou <b>Luciana</b> (variante "Aprimorada")</li>
+            <li>Aguarde download, volte ao Safari, recarregue a página</li>
+          </ol>
+        `;
+      }
+      if (isWindows) {
+        return `
+          <p><b>Voz Premium grátis no Windows 11.</b></p>
+          <ol>
+            <li><b>Configurações</b> → <b>Hora e Idioma</b> → <b>Fala</b></li>
+            <li>Clique <b>Adicionar voz</b> → escolher <b>Português (Brasil)</b></li>
+            <li>Marque <b>Antônio (Neural)</b> [M] ou <b>Francisca (Neural)</b> [F]</li>
+            <li>Aguarde download e recarregue esta página</li>
+          </ol>
+        `;
+      }
+      // Outros (Linux, Android, etc.)
+      return `
+        <p>Para vozes mais naturais, use <b>Chrome</b> — vem com voz "Google português do Brasil" sem precisar instalar nada. Já deve estar listada no dropdown de Voz acima.</p>
+        <p style="font-size: 0.85em;">Se estiver em Android, qualquer app TTS Premium da Play Store também funciona.</p>
+      `;
+    }
+
+    premiumBtn.addEventListener('click', () => {
+      const isOpen = helpEl.style.display === 'block';
+      if (isOpen) {
+        helpEl.style.display = 'none';
+        return;
+      }
+      helpEl.innerHTML = buildHelpHtml();
+      helpEl.style.display = 'block';
+
+      const macBtn = document.getElementById('open-mac-settings');
+      if (macBtn) {
+        macBtn.addEventListener('click', () => {
+          // Deep-link para Acessibilidade no macOS (funciona em Sonoma+)
+          window.location.href = 'x-apple.systempreferences:com.apple.preference.universalaccess';
+          macBtn.textContent = '✅ Abriu Ajustes — siga os passos abaixo';
+          macBtn.disabled = true;
+          // Adiciona botão de reload depois de alguns segundos
+          setTimeout(() => {
+            const reloadBtn = document.createElement('button');
+            reloadBtn.className = 'btn btn-sm btn-theme';
+            reloadBtn.style.marginTop = '0.4rem';
+            reloadBtn.textContent = '🔄 Já instalei — recarregar página';
+            reloadBtn.addEventListener('click', () => location.reload());
+            macBtn.parentNode.insertBefore(reloadBtn, macBtn.nextSibling);
+          }, 3000);
+        });
+      }
+    });
 
     const VOICE_GENDER = {
       felipe: 'M', daniel: 'M', ricardo: 'M', antonio: 'M', 'antônio': 'M',
