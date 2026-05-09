@@ -8,45 +8,57 @@
 </head>
 <body>
 
-<header class="app-header tall">
+<header class="app-header">
   <div class="container">
     <h1>📚 Projeto Concurso MPMG</h1>
-    <p class="subtitle">Promotor de Justiça Substituto · Ministério Público de Minas Gerais</p>
-    <div class="status-strip">
-      <div class="status-item">
-        <span class="label">Fase atual</span>
-        <span class="value">1 de 7</span>
-      </div>
-      <div class="status-item">
-        <span class="label">Foco</span>
-        <span class="value">Processo Civil 1-20</span>
-      </div>
-      <div class="status-item">
-        <span class="label">Carga prevista</span>
-        <span class="value">~15h/semana</span>
-      </div>
-      <div class="status-item">
-        <span class="label">Horizonte</span>
-        <span class="value">1-2 anos</span>
-      </div>
+    <p class="subtitle">Promotor de Justiça Substituto · MPMG</p>
+    <div class="kpi-strip" id="kpi-strip">
+      <div class="kpi"><span class="kpi-value" id="kpi-streak">—</span><span class="kpi-label">🔥 Streak</span></div>
+      <div class="kpi"><span class="kpi-value" id="kpi-hours">—</span><span class="kpi-label">⏱ Horas</span></div>
+      <div class="kpi"><span class="kpi-value" id="kpi-topics">—</span><span class="kpi-label">📖 Tópicos</span></div>
+      <div class="kpi"><span class="kpi-value" id="kpi-acerto">—</span><span class="kpi-label">📈 Acerto</span></div>
     </div>
   </div>
 </header>
 
 <main class="container">
 
-  <!-- HERO: PRÓXIMA AÇÃO -->
-  <div class="hero-card">
-    <span class="label">▶ Próxima ação</span>
-    <h2>Começar pelo Tópico 1 — Lei processual e fontes</h2>
-    <p>Ciclo de 3 dias úteis (1h/dia): leitura ativa → resumo próprio → questões + flashcards. Tópico curto e bom para pegar o ritmo.</p>
-    <div class="actions">
-      <a href="topicos.html?id=01-lei-processual-fontes" class="btn btn-primary">Abrir Tópico 1 →</a>
-      <a href="flashcards.html" class="btn">🃏 Estudar flashcards</a>
-      <a href="simulado.html" class="btn">✍️ Fazer simulado</a>
-      <a href="log.html#novo" class="btn">📝 Registrar estudo</a>
+  <!-- HOJE: WIDGET DE FOCO DIÁRIO -->
+  <section class="hoje-card" id="hoje-card">
+    <div class="hoje-header">
+      <span class="hoje-date" id="hoje-date">📚 Hoje</span>
+      <span class="hoje-greeting" id="hoje-greeting"></span>
     </div>
-  </div>
+    <div class="hoje-body" id="hoje-body">
+      <div class="hoje-row">
+        <span class="hoje-icon">📖</span>
+        <span class="hoje-text">
+          <span class="hoje-label">Próximo tópico</span>
+          <span class="hoje-detail" id="hoje-next-topic">Carregando…</span>
+        </span>
+      </div>
+      <div class="hoje-row">
+        <span class="hoje-icon">🃏</span>
+        <span class="hoje-text">
+          <span class="hoje-label">Cards a revisar</span>
+          <span class="hoje-detail" id="hoje-cards-due">—</span>
+        </span>
+      </div>
+      <div class="hoje-row">
+        <span class="hoje-icon">🔍</span>
+        <span class="hoje-text">
+          <span class="hoje-label">Erros pendentes</span>
+          <span class="hoje-detail" id="hoje-errors">—</span>
+        </span>
+      </div>
+    </div>
+    <div class="hoje-actions" id="hoje-actions">
+      <a id="hoje-btn-topic" class="btn btn-primary" href="#">▶ Continuar tópico</a>
+      <a id="hoje-btn-cards" class="btn" href="flashcards.html">🃏 Cards</a>
+      <a id="hoje-btn-quiz" class="btn" href="simulado.html">✍️ 5 questões</a>
+      <a class="btn" href="log.html#novo">📝 Registrar</a>
+    </div>
+  </section>
 
   <!-- NAV DOS 4 BLOCOS -->
   <nav class="block-nav">
@@ -181,25 +193,25 @@
       <div class="progress-bar" id="progress-bar"></div>
     </div>
 
-    <div class="subsection">
-      <h3>Fase 1 · Itens 1 a 20 (FOCO)</h3>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="foco" role="tab" aria-selected="true">📌 Foco atual (Fase 1)</button>
+      <button class="tab" data-tab="todas" role="tab" aria-selected="false">📚 Todas as matérias <span id="tab-todas-count" class="tab-count"></span></button>
+    </div>
+
+    <div class="tab-panel active" id="panel-foco" role="tabpanel">
       <ul class="checklist" id="checklist-fase1"></ul>
+      <div class="toolbar">
+        <button class="btn btn-reset" onclick="resetChecklist()">Resetar checklist Fase 1</button>
+      </div>
     </div>
 
-    <div class="subsection" style="margin-top:1.5rem;">
-      <h3>📚 Todas as matérias do edital</h3>
-      <p style="color:var(--text-muted); font-size:0.9rem;">
-        O app é compartilhado: outras pessoas podem usar e contribuir com qualquer matéria. Filtre abaixo, abra um tópico para estudar (com conteúdo) ou para ver o sumário previsto (esqueleto).
-        <a href="CONTRIBUTING.md" style="margin-left:0.5rem;">Como contribuir →</a>
+    <div class="tab-panel" id="panel-todas" role="tabpanel" hidden>
+      <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:0.6rem;">
+        O app é compartilhado: outras pessoas podem usar e contribuir.
+        <a href="CONTRIBUTING.md" style="margin-left:0.3rem;">Como contribuir →</a>
       </p>
-
-      <div class="materia-filters" id="materia-filters" style="display:flex; flex-wrap:wrap; gap:0.4rem; margin:0.8rem 0 0.6rem;"></div>
-
+      <div class="materia-filters" id="materia-filters" style="display:flex; flex-wrap:wrap; gap:0.4rem; margin:0.4rem 0 0.6rem;"></div>
       <ul class="checklist" id="checklist-todas"></ul>
-    </div>
-
-    <div class="toolbar">
-      <button class="btn btn-reset" onclick="resetChecklist()">Resetar checklist Fase 1</button>
     </div>
   </section>
 
@@ -214,47 +226,53 @@
       <strong>Atenção:</strong> com 1h/dia, fazer questão é o MÉTODO de estudo, não a consequência dele. Comece a treinar desde o Tópico 1, mesmo "sem saber direito". O erro é o melhor professor.
     </div>
 
-    <div class="subsection">
-      <h3>Recursos integrados</h3>
-      <div class="cards-grid">
-        <div class="card">
-          <h4>✍️ Simulado</h4>
-          <p>Banco com <strong id="qstats-count">15</strong> questões já cadastradas. Filtros por tópico, modo estudo ou prova, cronômetro opcional.</p>
-          <ul>
-            <li>Erros caem no log automaticamente</li>
-            <li>Histórico de simulados salvo</li>
-            <li>Resposta comentada após cada questão</li>
-          </ul>
-          <p style="margin-top:0.5rem;"><a class="btn btn-danger btn-sm" href="simulado.html">▶ Começar simulado</a></p>
+    <div class="stat-cards-grid">
+      <div class="stat-card">
+        <div class="stat-card-head">
+          <span class="stat-card-icon">✍️</span>
+          <span class="stat-card-title">Simulado</span>
         </div>
+        <div class="stat-card-stats">
+          <div class="stat-line"><strong id="qstats-count">—</strong> <span>questões</span></div>
+          <div class="stat-line" id="qstats-last"><strong>—</strong> <span>último simulado</span></div>
+        </div>
+        <a class="btn btn-danger btn-sm" href="simulado.html">▶ Começar</a>
+      </div>
 
-        <div class="card">
-          <h4>🃏 Flashcards</h4>
-          <p>Sistema de revisão espaçada nativo (algoritmo SM-2). <strong id="fcstats-count">37</strong> cards já cadastrados cobrindo os 20 tópicos.</p>
-          <ul>
-            <li>Cards novos por dia configurável</li>
-            <li>Avaliação: De novo · Difícil · Bom · Fácil</li>
-            <li>Filtro por tópico</li>
-          </ul>
-          <p style="margin-top:0.5rem;"><a class="btn btn-success btn-sm" href="flashcards.html">▶ Revisar flashcards</a></p>
+      <div class="stat-card">
+        <div class="stat-card-head">
+          <span class="stat-card-icon">🃏</span>
+          <span class="stat-card-title">Flashcards</span>
         </div>
+        <div class="stat-card-stats">
+          <div class="stat-line"><strong id="fcstats-count">—</strong> <span>cards no banco</span></div>
+          <div class="stat-line" id="fcstats-due"><strong>—</strong> <span>a revisar hoje</span></div>
+        </div>
+        <a class="btn btn-success btn-sm" href="flashcards.html">▶ Revisar</a>
+      </div>
 
-        <div class="card">
-          <h4>🔍 Log de erros</h4>
-          <p><strong>Documento mais importante.</strong> Cada questão errada vai pra cá automaticamente.</p>
-          <ul>
-            <li>Adicionar erros manuais</li>
-            <li>Filtrar por tópico</li>
-            <li>Revisar em D+7 e D+21</li>
-          </ul>
-          <p style="margin-top:0.5rem;"><a class="btn btn-sm" href="log.html#erros">Abrir log →</a></p>
+      <div class="stat-card">
+        <div class="stat-card-head">
+          <span class="stat-card-icon">🔍</span>
+          <span class="stat-card-title">Erros</span>
         </div>
+        <div class="stat-card-stats">
+          <div class="stat-line"><strong id="errstats-week">—</strong> <span>esta semana</span></div>
+          <div class="stat-line" id="errstats-top"><strong>—</strong> <span>tópico mais errado</span></div>
+        </div>
+        <a class="btn btn-sm" href="log.html#erros">Ver log →</a>
+      </div>
 
-        <div class="card">
-          <h4>📊 Histórico e progresso</h4>
-          <p>Veja sua evolução: dias estudados, sequência (streak), horas por tópico, simulados feitos e desempenho.</p>
-          <p style="margin-top:0.5rem;"><a class="btn btn-sm" href="log.html#stats">Ver estatísticas →</a></p>
+      <div class="stat-card">
+        <div class="stat-card-head">
+          <span class="stat-card-icon">📊</span>
+          <span class="stat-card-title">Progresso</span>
         </div>
+        <div class="stat-card-stats">
+          <div class="stat-line" id="progstats-days"><strong>—</strong> <span>dias estudados</span></div>
+          <div class="stat-line" id="progstats-streak"><strong>—</strong> <span>streak atual</span></div>
+        </div>
+        <a class="btn btn-sm" href="log.html#stats">Estatísticas →</a>
       </div>
     </div>
 
@@ -338,6 +356,17 @@
 
 </main>
 
+<!-- FAB: ações rápidas -->
+<div class="fab-container" id="fab-container">
+  <div class="fab-menu" id="fab-menu" hidden>
+    <a class="fab-item" href="log.html#novo">📝 Registrar estudo</a>
+    <a class="fab-item" href="flashcards.html">🃏 Flashcards</a>
+    <a class="fab-item" href="simulado.html">✍️ Simulado</a>
+    <a class="fab-item" href="log.html#erros">🔍 Log de erros</a>
+  </div>
+  <button class="fab-toggle" id="fab-toggle" aria-label="Ações rápidas" aria-expanded="false">+</button>
+</div>
+
 <footer>
   <p>📚 Projeto Concurso MPMG · Promotor de Justiça Substituto</p>
   <p style="opacity: 0.6; font-size: 0.8rem;">Concurso é prova de resistência, não de velocidade. ⭐</p>
@@ -363,6 +392,205 @@
     isOpen = !isOpen;
     localStorage.setItem(KEY, isOpen ? 'true' : 'false');
     update();
+  });
+})();
+
+// =====================================================================
+// KPI STRIP + HOJE WIDGET + STATS DOS CARDS — calculados em tempo real
+// =====================================================================
+(function () {
+  const diario = App.load('log-diario', []);
+  const errLog = App.load('log-erros', []);
+  const histSimulado = App.load('simulado-history', []);
+  const fcState = App.load('flashcards-state', {});
+
+  // ---- KPIs ----
+  const totalMin = diario.reduce((s, e) => s + (parseInt(e.minutes) || 0), 0);
+  const totalHours = Math.round(totalMin / 60 * 10) / 10;
+  document.getElementById('kpi-hours').textContent = totalHours;
+
+  // Streak: dias consecutivos com pelo menos 1 entry
+  const today = new Date(); today.setHours(0,0,0,0);
+  const dayKeys = new Set(diario.map(e => e.date).filter(Boolean));
+  let streak = 0;
+  for (let d = new Date(today); ; d.setDate(d.getDate() - 1)) {
+    const k = d.toISOString().slice(0, 10);
+    if (dayKeys.has(k)) streak++;
+    else if (streak === 0 && k === today.toISOString().slice(0, 10)) continue; // dia de hoje sem entry ainda
+    else break;
+  }
+  document.getElementById('kpi-streak').textContent = streak + (streak === 1 ? 'd' : 'd');
+
+  // Tópicos com pelo menos 1 status check
+  const topicsStudied = APP_DATA.topics.filter(t => {
+    const st = App.load('topic-status-' + t.id, {});
+    return st && Object.values(st).some(v => !!v);
+  }).length;
+  document.getElementById('kpi-topics').textContent = topicsStudied + ' / ' + APP_DATA.topics.length;
+
+  // Acerto médio
+  if (histSimulado.length) {
+    const totalQ = histSimulado.reduce((s, h) => s + (h.total || 0), 0);
+    const totalR = histSimulado.reduce((s, h) => s + (h.right || 0), 0);
+    const pct = totalQ ? Math.round(totalR / totalQ * 100) : 0;
+    document.getElementById('kpi-acerto').textContent = pct + '%';
+  } else {
+    document.getElementById('kpi-acerto').textContent = '—';
+  }
+
+  // ---- HOJE WIDGET ----
+  // Data formatada
+  const meses = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+  const t = new Date();
+  const dataStr = `📚 Hoje, ${t.getDate()} de ${meses[t.getMonth()]}`;
+  document.getElementById('hoje-date').textContent = dataStr;
+  if (streak >= 3) {
+    document.getElementById('hoje-greeting').textContent = `🔥 ${streak} dias seguidos`;
+  } else if (streak === 0) {
+    document.getElementById('hoje-greeting').textContent = '✨ Bom estudo';
+  } else {
+    document.getElementById('hoje-greeting').textContent = `🔥 ${streak} dia${streak>1?'s':''}`;
+  }
+
+  // Próximo tópico: o primeiro que não tem nenhum check no status
+  const nextTopic = APP_DATA.topics.find(t => {
+    if (!t.sections || t.sections.length === 0) return false; // pula esqueletos
+    const st = App.load('topic-status-' + t.id, {});
+    return !st || !Object.values(st).some(v => !!v);
+  }) || APP_DATA.topics.find(t => {
+    // se todos têm pelo menos 1 check, busca o primeiro que NÃO está em "revisao"
+    if (!t.sections || t.sections.length === 0) return false;
+    const st = App.load('topic-status-' + t.id, {});
+    return !st || !st.revisao;
+  });
+
+  if (nextTopic) {
+    const matLabel = App.getMateriaPrefix(nextTopic.materia || 'pc') + nextTopic.num;
+    document.getElementById('hoje-next-topic').innerHTML = `<strong>${matLabel}</strong> · ${App.escape(nextTopic.title)}`;
+    const btn = document.getElementById('hoje-btn-topic');
+    btn.href = `topicos.html?id=${nextTopic.id}`;
+    btn.textContent = `▶ Continuar ${matLabel}`;
+  } else {
+    document.getElementById('hoje-next-topic').textContent = '🎉 Todos os tópicos com algum progresso!';
+  }
+
+  // Cards a revisar hoje (SM-2: dueDate <= now ou nunca revisado mas elegível)
+  const todayISO = today.toISOString().slice(0, 10);
+  const dueCards = APP_DATA.flashcards.filter(c => {
+    const s = fcState[c.id];
+    if (!s || !s.dueDate) return false; // não conta cards nunca vistos
+    return s.dueDate.slice(0, 10) <= todayISO;
+  }).length;
+  const newCards = APP_DATA.flashcards.filter(c => !fcState[c.id] || !fcState[c.id].dueDate).length;
+  let cardsText;
+  if (dueCards > 0) cardsText = `<strong>${dueCards}</strong> vencidos · ${newCards} novos disponíveis`;
+  else if (newCards > 0) cardsText = `${newCards} novos para começar`;
+  else cardsText = 'Tudo em dia ✨';
+  document.getElementById('hoje-cards-due').innerHTML = cardsText;
+  document.getElementById('hoje-btn-cards').textContent = dueCards > 0 ? `🃏 Cards (${dueCards})` : '🃏 Cards';
+
+  // Erros últimos 7 dias
+  const sevenDaysAgo = new Date(Date.now() - 7*86400000).toISOString();
+  const recentErrors = errLog.filter(e => (e.date || '') > sevenDaysAgo);
+  let errText;
+  if (recentErrors.length === 0) errText = 'Nenhum erro nos últimos 7 dias';
+  else {
+    // tópico com mais erros
+    const byTopic = {};
+    recentErrors.forEach(e => { byTopic[e.topic] = (byTopic[e.topic] || 0) + 1; });
+    const topTopic = Object.entries(byTopic).sort((a,b) => b[1] - a[1])[0];
+    const topicNum = topTopic[0];
+    const topicTitle = (APP_DATA.topics.find(t => String(t.num) === String(topicNum)) || {}).title || `tópico ${topicNum}`;
+    errText = `<strong>${recentErrors.length}</strong> erros · maior: ${App.escape(topicTitle)}`;
+  }
+  document.getElementById('hoje-errors').innerHTML = errText;
+
+  // ---- STATS DOS CARDS DO BLOCO 3 ----
+  // Simulado
+  document.getElementById('qstats-count').textContent = APP_DATA.questions.length;
+  if (histSimulado.length) {
+    const last = histSimulado[histSimulado.length - 1];
+    document.getElementById('qstats-last').innerHTML = `<strong>${last.pct || 0}%</strong> <span>último simulado</span>`;
+  } else {
+    document.getElementById('qstats-last').innerHTML = `<strong>—</strong> <span>nenhum simulado ainda</span>`;
+  }
+
+  // Flashcards
+  document.getElementById('fcstats-count').textContent = APP_DATA.flashcards.length;
+  document.getElementById('fcstats-due').innerHTML = `<strong>${dueCards}</strong> <span>a revisar hoje</span>`;
+
+  // Erros
+  document.getElementById('errstats-week').textContent = recentErrors.length;
+  if (recentErrors.length > 0) {
+    const byTopic = {};
+    recentErrors.forEach(e => { byTopic[e.topic] = (byTopic[e.topic] || 0) + 1; });
+    const topTopic = Object.entries(byTopic).sort((a,b) => b[1] - a[1])[0];
+    const topicNum = topTopic[0];
+    const topicTitle = (APP_DATA.topics.find(t => String(t.num) === String(topicNum)) || {}).title || `Tópico ${topicNum}`;
+    document.getElementById('errstats-top').innerHTML = `<strong>${App.escape(topicTitle.substring(0, 22))}</strong> <span>mais errado</span>`;
+  } else {
+    document.getElementById('errstats-top').innerHTML = `<strong>—</strong> <span>tópico mais errado</span>`;
+  }
+
+  // Progresso
+  document.getElementById('progstats-days').innerHTML = `<strong>${dayKeys.size}</strong> <span>dias estudados</span>`;
+  document.getElementById('progstats-streak').innerHTML = `<strong>${streak}d</strong> <span>streak atual</span>`;
+})();
+
+// =====================================================================
+// TABS DO BLOCO 2 (Foco atual / Todas as matérias)
+// =====================================================================
+(function () {
+  const tabs = document.querySelectorAll('.tabs .tab');
+  const panels = { foco: document.getElementById('panel-foco'), todas: document.getElementById('panel-todas') };
+  if (!tabs.length) return;
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+      tabs.forEach(t => {
+        t.classList.toggle('active', t === tab);
+        t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+      });
+      Object.entries(panels).forEach(([k, p]) => {
+        if (!p) return;
+        p.classList.toggle('active', k === target);
+        if (k === target) p.removeAttribute('hidden');
+        else p.setAttribute('hidden', '');
+      });
+    });
+  });
+  const totalCount = APP_DATA.topics.length;
+  const tabCount = document.getElementById('tab-todas-count');
+  if (tabCount) tabCount.textContent = `(${totalCount})`;
+})();
+
+// =====================================================================
+// FAB
+// =====================================================================
+(function () {
+  const toggle = document.getElementById('fab-toggle');
+  const menu = document.getElementById('fab-menu');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', () => {
+    const open = !menu.hasAttribute('hidden');
+    if (open) {
+      menu.setAttribute('hidden', '');
+      toggle.textContent = '+';
+      toggle.setAttribute('aria-expanded', 'false');
+    } else {
+      menu.removeAttribute('hidden');
+      toggle.textContent = '×';
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+  });
+  // Fecha ao clicar fora
+  document.addEventListener('click', (e) => {
+    const inFab = e.target.closest('.fab-container');
+    if (!inFab && !menu.hasAttribute('hidden')) {
+      menu.setAttribute('hidden', '');
+      toggle.textContent = '+';
+      toggle.setAttribute('aria-expanded', 'false');
+    }
   });
 })();
 
