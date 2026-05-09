@@ -413,24 +413,6 @@ tr:hover td { background: var(--bg-soft); }
 .audio-controls #voice-male, .audio-controls #voice-female {
   font-weight: 700; padding: 0.3rem 0.55rem;
 }
-.audio-controls #voice-piper {
-  font-weight: 600;
-  background: linear-gradient(135deg, #fef3c7, #fde68a);
-  color: #78350f;
-  border: 1px solid #f59e0b;
-}
-.audio-controls #voice-piper:hover {
-  background: linear-gradient(135deg, #fde68a, #fcd34d);
-}
-.audio-controls #voice-piper.active {
-  background: linear-gradient(135deg, #f59e0b, #d97706);
-  color: #fff;
-  border-color: #b45309;
-  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.25);
-}
-.audio-controls #voice-piper-id {
-  font-size: 0.78rem;
-}
 .audio-help {
   flex-basis: 100%; font-size: 0.8rem; color: var(--text-muted);
   border-top: 1px dashed var(--border); padding-top: 0.5rem; margin-top: 0.2rem;
