@@ -558,7 +558,7 @@
     function buildHelpHtml() {
       if (isMac) {
         return `
-          <p><b>Voz Premium grátis</b> — Felipe (M) ou Luciana (F) Premium da Apple. Voz neural, qualidade igual a opções pagas.</p>
+          <p><b>Opção 1 — Felipe Premium da Apple</b> (recomendada): voz neural pt-BR, qualidade igual a opções pagas.</p>
           <button class="btn btn-sm btn-theme" id="open-mac-settings">⚙️ Abrir Ajustes → Voz do Sistema</button>
           <ol>
             <li>Clique no botão acima — abre Ajustes na seção certa.</li>
@@ -569,7 +569,17 @@
           </ol>
           <p style="font-size: 0.85em;"><b>Não consegue encontrar?</b> Cole no Terminal (Aplicativos → Utilitários → Terminal):<br>
           <code style="background: var(--bg-soft); padding: 0.15rem 0.4rem; border-radius: 4px; user-select: all;">open "x-apple.systempreferences:com.apple.preference.universalaccess?Speech"</code></p>
-          <p style="font-size: 0.8em; opacity: 0.75;">Se nada funcionar, plano final: <b>Cmd+F5</b> liga VoiceOver, <b>Cmd+Opt+F8</b> abre Utilitário do VoiceOver → aba <b>Fala</b> → <b>Vozes</b> → <b>Personalizar…</b>. Cmd+F5 de novo desliga VoiceOver.</p>
+
+          <p style="margin-top: 1rem;"><b>Opção 2 — Microsoft Edge</b> (vozes neurais extras, grátis): instalar o Edge libera 4-5 vozes neurais pt-BR adicionais (Antônio, Francisca, Thalita, Brenda). Útil pra alternar timbre se enjoar da Felipe.</p>
+          <ol>
+            <li>Baixe o Edge: <a href="https://www.microsoft.com/edge/download" target="_blank" rel="noopener">microsoft.com/edge/download</a></li>
+            <li>Abra este app dentro do Edge</li>
+            <li>No dropdown de Voz aparecem as <b>Microsoft Neural</b> marcadas com ⭐</li>
+          </ol>
+
+          <p style="font-size: 0.85em; margin-top: 0.8rem;"><b>Opção 3 — Eloquence (Apple, retro):</b> nas mesmas Ajustes do Sistema, busque "Eloquence" — vozes com mais personalidade (não mais naturais, só diferentes). Tem <b>Eduardo (pt-BR)</b>.</p>
+
+          <p style="font-size: 0.8em; opacity: 0.75; margin-top: 0.8rem;">Se nada funcionar, plano final: <b>Cmd+F5</b> liga VoiceOver, <b>Cmd+Opt+F8</b> abre Utilitário do VoiceOver → aba <b>Fala</b> → <b>Vozes</b> → <b>Personalizar…</b>. Cmd+F5 de novo desliga VoiceOver.</p>
         `;
       }
       if (isIOS) {
