@@ -690,24 +690,43 @@
 
     async function playWithPiper(text, rate) {
       const session = await initPiperSession(piperVoiceId);
+      console.log('[Piper] predict() text:', text.substring(0, 50) + '...');
+      const t0 = performance.now();
       const wav = await session.predict(text);
+      const t1 = performance.now();
+      console.log('[Piper] predict() done in', Math.round(t1 - t0), 'ms', 'result type:', wav?.constructor?.name, 'size:', wav?.size || wav?.byteLength || '?');
       return new Promise((resolve, reject) => {
         const blob = wav instanceof Blob ? wav : new Blob([wav], { type: 'audio/wav' });
+        console.log('[Piper] blob size:', blob.size, 'bytes');
+        if (blob.size < 100) {
+          reject(new Error(`Blob de áudio muito pequeno (${blob.size} bytes) — síntese pode ter falhado silenciosamente`));
+          return;
+        }
         const url = URL.createObjectURL(blob);
         const audio = new Audio(url);
         audio.playbackRate = rate;
         currentPiperAudio = audio;
+        audio.addEventListener('loadedmetadata', () => {
+          console.log('[Piper] audio duration:', audio.duration, 's');
+          if (!audio.duration || audio.duration < 0.05) {
+            statusEl.textContent = `⚠️ Áudio gerado tem duração ${audio.duration}s (silencioso). Veja console.`;
+          }
+        });
         audio.addEventListener('ended', () => {
           URL.revokeObjectURL(url);
           if (currentPiperAudio === audio) currentPiperAudio = null;
           resolve();
         });
-        audio.addEventListener('error', () => {
+        audio.addEventListener('error', (e) => {
           URL.revokeObjectURL(url);
           if (currentPiperAudio === audio) currentPiperAudio = null;
-          reject(new Error('Falha de reprodução'));
+          console.error('[Piper] audio error:', audio.error);
+          reject(new Error('Falha de reprodução: ' + (audio.error?.message || 'desconhecido')));
         });
-        audio.play().catch(reject);
+        audio.play().then(() => console.log('[Piper] audio.play() resolved')).catch((err) => {
+          console.error('[Piper] audio.play() rejected:', err);
+          reject(err);
+        });
       });
     }
 
