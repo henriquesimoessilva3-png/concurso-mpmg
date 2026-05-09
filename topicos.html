@@ -517,6 +517,37 @@
     let chunks = [];
     let idx = 0;
 
+    // ===== Timer para tempo decorrido / estimado =====
+    let playStartTime = null;
+    let totalPausedMs = 0;
+    let pauseStartTime = null;
+    let elapsedTimer = null;
+
+    function fmtTime(sec) {
+      if (!isFinite(sec) || sec < 0) sec = 0;
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return m + ':' + String(s).padStart(2, '0');
+    }
+    function estimateTotalSec() {
+      const totalChars = chunks.reduce((s, c) => s + c.length, 0);
+      const rate = parseFloat(speedEl.value) || 1;
+      // ~15 chars/seg em pt-BR a 1x (estimativa)
+      return totalChars / (15 * rate);
+    }
+    function elapsedSec() {
+      if (!playStartTime) return 0;
+      const ref = pauseStartTime || performance.now();
+      return Math.max(0, (ref - playStartTime - totalPausedMs) / 1000);
+    }
+    function startElapsedTimer() {
+      stopElapsedTimer();
+      elapsedTimer = setInterval(updateProgress, 250);
+    }
+    function stopElapsedTimer() {
+      if (elapsedTimer) { clearInterval(elapsedTimer); elapsedTimer = null; }
+    }
+
     // ===== Voz Premium: deep-link para Ajustes do Sistema =====
     const ua = navigator.userAgent;
     const isMac = /Macintosh/.test(ua) && !/iPhone|iPad/.test(ua);
@@ -706,7 +737,9 @@
     function updateProgress() {
       if (chunks.length > 0) {
         progressEl.value = String(idx);
-        statusEl.textContent = idx + '/' + chunks.length;
+        const total = estimateTotalSec();
+        const elapsed = elapsedSec();
+        statusEl.textContent = `${fmtTime(elapsed)} / ${fmtTime(total)} · ${idx}/${chunks.length}`;
       }
     }
 
@@ -733,8 +766,11 @@
 
     function speakNext() {
       if (idx >= chunks.length) {
-        statusEl.textContent = '✅ Concluído';
+        const total = estimateTotalSec();
+        statusEl.textContent = `✅ Concluído · ${fmtTime(total)}`;
         progressEl.value = String(chunks.length);
+        stopElapsedTimer();
+        playStartTime = null; totalPausedMs = 0; pauseStartTime = null;
         showStoppedControls();
         idx = 0;
         return;
@@ -805,7 +841,12 @@
       progressEl.min = '0';
       progressEl.max = String(chunks.length);
       progressEl.value = '0';
-      statusEl.textContent = '0/' + chunks.length;
+      // Inicia timer de tempo decorrido
+      playStartTime = performance.now();
+      totalPausedMs = 0;
+      pauseStartTime = null;
+      startElapsedTimer();
+      updateProgress();
       showPlayingControls();
       speakNext();
     });
@@ -813,9 +854,17 @@
     pauseBtn.addEventListener('click', () => {
       if (window.speechSynthesis.paused) {
         window.speechSynthesis.resume();
+        // Acumula tempo pausado
+        if (pauseStartTime) {
+          totalPausedMs += performance.now() - pauseStartTime;
+          pauseStartTime = null;
+        }
+        startElapsedTimer();
         pauseBtn.textContent = '⏸️ Pausar';
       } else {
         window.speechSynthesis.pause();
+        pauseStartTime = performance.now();
+        stopElapsedTimer();
         pauseBtn.textContent = '▶️ Continuar';
       }
     });
@@ -824,6 +873,10 @@
       window.speechSynthesis.cancel();
       chunks = [];
       idx = 0;
+      stopElapsedTimer();
+      playStartTime = null;
+      totalPausedMs = 0;
+      pauseStartTime = null;
       showStoppedControls();
       statusEl.textContent = '';
     });
